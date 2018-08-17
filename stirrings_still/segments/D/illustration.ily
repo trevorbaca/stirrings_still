@@ -2819,9 +2819,7 @@ D_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2
 
     r8
 
@@ -2854,9 +2852,7 @@ D_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2                                                                         %! stirrings_still_strokes
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
@@ -2895,9 +2891,7 @@ D_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2                                                                         %! stirrings_still_strokes
 
     r8                                                                         %! stirrings_still_strokes
 
@@ -2928,11 +2922,7 @@ D_ViolinIIMusicVoice = {                                                       %
     r8
 
     % [D ViolinIIMusicVoice measure 214 / measure 8]                           %! _comment_measure_numbers
-    r8
-
-    r4                                                                         %! stirrings_still_strokes
-
-    r4.                                                                        %! stirrings_still_strokes
+    r2.
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
@@ -2953,12 +2943,10 @@ D_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2
 
     % [D ViolinIIMusicVoice measure 216 / measure 10]                          %! _comment_measure_numbers
-    r4                                                                         %! stirrings_still_strokes
+    r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
@@ -2986,7 +2974,7 @@ D_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
+    r4
 
     % [D ViolinIIMusicVoice measure 218 / measure 12]                          %! _comment_measure_numbers
     R1 * 3/4
@@ -3015,13 +3003,7 @@ D_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
-
-    r8
+    r2..
 
     % [D ViolinIIMusicVoice measure 221 / measure 15]                          %! _comment_measure_numbers
     r8
@@ -3049,11 +3031,7 @@ D_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
     % [D ViolinIIMusicVoice measure 222 / measure 16]                          %! _comment_measure_numbers
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2.                                                                        %! stirrings_still_strokes
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
@@ -3080,7 +3058,7 @@ D_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
+    r4
 
     % [D ViolinIIMusicVoice measure 224 / measure 18]                          %! _comment_measure_numbers
     R1 * 5/8
@@ -4304,11 +4282,7 @@ D_ViolaMusicVoice = {                                                          %
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
     % [D ViolaMusicVoice measure 213 / measure 7]                              %! _comment_measure_numbers
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
-
-    r4.                                                                        %! stirrings_still_strokes
+    r2..                                                                       %! stirrings_still_strokes
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
@@ -4354,9 +4328,7 @@ D_ViolaMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2
 
     r8
 
@@ -4477,10 +4449,10 @@ D_ViolaMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
+    r4
 
     % [D ViolaMusicVoice measure 222 / measure 16]                             %! _comment_measure_numbers
-    r4                                                                         %! stirrings_still_strokes
+    r4
 
     r8                                                                         %! stirrings_still_strokes
 
@@ -4593,11 +4565,9 @@ D_ViolaMusicVoice = {                                                          %
     r8
 
     % [D ViolaMusicVoice measure 228 / measure 22]                             %! _comment_measure_numbers
+    r2
+
     r8
-
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
@@ -4688,9 +4658,7 @@ D_ViolaMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2                                                                         %! stirrings_still_strokes
 
     % [D ViolaMusicVoice measure 234 / measure 28]                             %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_strokes
@@ -4720,12 +4688,10 @@ D_ViolaMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2
 
     % [D ViolaMusicVoice measure 236 / measure 30]                             %! _comment_measure_numbers
-    r4                                                                         %! stirrings_still_strokes
+    r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_strokes
@@ -5678,9 +5644,7 @@ D_CelloMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2                                                                         %! stirrings_still_strokes
 
     r8
 
@@ -5726,9 +5690,7 @@ D_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2
 
     % [D CelloMusicVoice measure 214 / measure 8]                              %! _comment_measure_numbers
     R1 * 7/8
@@ -5767,7 +5729,7 @@ D_CelloMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
+    r4
 
     % [D CelloMusicVoice measure 217 / measure 11]                             %! _comment_measure_numbers
     R1 * 3/4
@@ -5799,11 +5761,7 @@ D_CelloMusicVoice = {                                                          %
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
     % [D CelloMusicVoice measure 220 / measure 14]                             %! _comment_measure_numbers
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2.                                                                        %! stirrings_still_strokes
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
@@ -5853,16 +5811,12 @@ D_CelloMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2
 
     r8
 
     % [D CelloMusicVoice measure 223 / measure 17]                             %! _comment_measure_numbers
-    r8
-
-    r4                                                                         %! stirrings_still_strokes
+    r4.
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
@@ -5918,9 +5872,7 @@ D_CelloMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2                                                                         %! stirrings_still_strokes
 
     r8                                                                         %! stirrings_still_strokes
 
@@ -5986,12 +5938,10 @@ D_CelloMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2
 
     % [D CelloMusicVoice measure 229 / measure 23]                             %! _comment_measure_numbers
-    r4.                                                                        %! stirrings_still_strokes
+    r4.
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
@@ -6067,9 +6017,7 @@ D_CelloMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2                                                                         %! stirrings_still_strokes
 
     % [D CelloMusicVoice measure 234 / measure 28]                             %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_strokes
@@ -6124,9 +6072,7 @@ D_CelloMusicVoice = {                                                          %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    r4                                                                         %! stirrings_still_strokes
-
-    r4                                                                         %! stirrings_still_strokes
+    r2                                                                         %! stirrings_still_strokes
 
     % [D CelloMusicVoice measure 237 / measure 31]                             %! _comment_measure_numbers
     R1 * 3/4
