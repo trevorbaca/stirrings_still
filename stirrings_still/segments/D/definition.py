@@ -19,6 +19,16 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
+    baca.new(
+        baca.new(
+            baca.bar_line_extra_offset((-1.5, 0)),
+            baca.span_bar_extra_offset((-1.5, 0)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(1, 6),
+        ),
     baca.rehearsal_mark(
         'D',
         abjad.tweak(12).Y_offset,
@@ -63,7 +73,6 @@ stage_markup = (
 stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
-    #('presto', 1),
     ('fermata', 37),
     ('larghissimo', 38),
     ('fermata', 39),
