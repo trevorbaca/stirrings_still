@@ -561,49 +561,62 @@ F_ViolaMusicVoice = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [F ViolaMusicVoice measure 434 / measure 2]                              %! _comment_measure_numbers
+    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
+    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     c'1                                                                        %! stirrings_still_tailpiece
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [F ViolaMusicVoice measure 435 / measure 3]                              %! _comment_measure_numbers
     c'2.                                                                       %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [F ViolaMusicVoice measure 436 / measure 4]                              %! _comment_measure_numbers
     c'1                                                                        %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'4                                                                        %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [F ViolaMusicVoice measure 437 / measure 5]                              %! _comment_measure_numbers
     c'1.                                                                       %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [F ViolaMusicVoice measure 438 / measure 6]                              %! _comment_measure_numbers
     c'2.                                                                       %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [F ViolaMusicVoice measure 439 / measure 7]                              %! _comment_measure_numbers
     c'1                                                                        %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [F ViolaMusicVoice measure 440 / measure 8]                              %! _comment_measure_numbers
     c'1                                                                        %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [F ViolaMusicVoice measure 441 / measure 9]                              %! _comment_measure_numbers
     c'1                                                                        %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'4                                                                        %! stirrings_still_tailpiece
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [F ViolaMusicVoice measure 442 / measure 10]                             %! _comment_measure_numbers
@@ -611,6 +624,8 @@ F_ViolaMusicVoice = {                                                          %
     ^ \markup { "terminate abruptly" }                                         %! baca_markup:IndicatorCommand
     \revert Hairpin.shorten-pair                                               %! baca_hairpin_shorten_pair:OverrideCommand(2)
     \revert TextScript.parent-alignment-X                                      %! baca_text_script_parent_center:OverrideCommand(2)
+    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
+    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
     % [F ViolaMusicVoice measure 443 / measure 11]                             %! _comment_measure_numbers
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand

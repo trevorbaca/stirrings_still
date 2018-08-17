@@ -325,11 +325,20 @@ maker(
 maker(
     ('vc', 38),
     baca.dls_staff_padding(5),
-    baca.dynamic('f'),
-    baca.markup('½ clt', boxed=True),
-    baca.text_script_staff_padding(11),
-    baca.text_spanner_staff_padding(7),
-    stirrings_still.bcps(-3, clt=True),
+    baca.dynamic('"ff"'),
+    baca.script_staff_padding(7.5),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(11).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    stirrings_still.bcps(
+        -3,
+        abjad.tweak(4.5).staff_padding,
+        clt=True,
+        ),
     stirrings_still.glissando_without_ties(),
     stirrings_still.trajectories('B', -2)
     )
@@ -337,13 +346,34 @@ maker(
 maker(
     ('tutti', (40, 45)),
     baca.dynamic('pp'),
-    stirrings_still.ntlt_flat_glissandi(),
+    baca.suite(
+        baca.new(
+            baca.stem_tremolo(
+                selector=baca.leaf(-1),
+                ),
+            map=baca.logical_ties(nontrivial=True),
+            ),
+        stirrings_still.ntlt_flat_glissandi(),
+        ),
     stirrings_still.strokes(0),
     )
 
 maker(
-    ('tutti', 47),
-    baca.dynamic('p'),
+    ('trio', 47),
+    baca.new(
+        baca.breathe(selector=baca.note(1)),
+        baca.tie_to(selector=baca.note(1)),
+        selector=baca.note(1),
+        ),
+    baca.new(
+        baca.repeat_tie_to(),
+        baca.stop_on_string(),
+        selector=baca.note(-1),
+        ),
+    baca.hairpin(
+        'p <| mp p < mp',
+        piece_selector=baca.clparts([1]),
+        ),
     stirrings_still.declamation(),
     )
 
@@ -351,9 +381,15 @@ maker(
     ('va', (49, 53)),
     baca.dynamic('"mp"'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markup('tailpiece: poco flicker', boxed=True),
+    baca.markup('tailpiece', boxed=True),
     baca.staff_lines(1),
     baca.staff_position(0),
+    )
+
+# TODO: allow glissando to extend to simultaneous multimeasure rest packet:
+maker(
+    ('va', (49, 54)),
+    stirrings_still.glissando_without_ties(),
     )
 
 maker(
@@ -368,10 +404,20 @@ maker(
     )
 
 maker(
-    ('tutti', 55),
+    ('trio', 55),
     baca.new(
-        baca.dynamic('p'),
-        match=2,
+        baca.breathe(selector=baca.note(1)),
+        baca.tie_to(selector=baca.note(1)),
+        selector=baca.note(1),
+        ),
+    baca.new(
+        baca.repeat_tie_to(),
+        baca.stop_on_string(),
+        selector=baca.note(-1),
+        ),
+    baca.hairpin(
+        'p <| mp p < mp',
+        piece_selector=baca.clparts([1]),
         ),
     stirrings_still.declamation(),
     )
@@ -433,6 +479,15 @@ maker(
 maker(
     ('tutti', (58, 63)),
     baca.hairpin('mf >o niente'),
+    baca.suite(
+        baca.new(
+            baca.stop_on_string(
+                selector=baca.leaf(-1),
+                ),
+            map=baca.logical_ties(nontrivial=True),
+            ),
+        stirrings_still.ntlt_flat_glissandi(),
+        ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
@@ -440,16 +495,6 @@ maker(
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
-    baca.text_spanner(
-        'jeux des terminaisons =|',
-        abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak('magenta').color,
-        abjad.tweak(9).staff_padding,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
-        ),
-    stirrings_still.ntlt_flat_glissandi(),
     stirrings_still.strokes(0),
     )
 
