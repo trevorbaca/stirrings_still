@@ -1855,8 +1855,8 @@ B_ViolinIMusicVoice = {                                                        %
         c'16                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca-stop-on-string                                                   %! baca_stop_on_string:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -3987,8 +3987,8 @@ B_ViolinIIMusicVoice = {                                                       %
         c'16                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca-stop-on-string                                                   %! baca_stop_on_string:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -5478,8 +5478,8 @@ B_ViolaMusicVoice = {                                                          %
         c'16                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca-stop-on-string                                                   %! baca_stop_on_string:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
