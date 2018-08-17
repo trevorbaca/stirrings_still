@@ -30,12 +30,48 @@ maker(
         ),
     baca.new(
         baca.new(
-            baca.bar_line_x_extent((-2, 2)),
+            baca.bar_line_x_extent((-2, 4)),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(7, 12),
+        ),
+    baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-2, 4)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(13, 18),
+        ),
+    baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-2, 4)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(19, 24),
+        ),
+    baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-2, 4)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(25, 30),
+        ),
+    baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(31, 36),
         ),
     baca.rehearsal_mark(
         'D',
@@ -109,6 +145,7 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 6)),
+    baca.dynamic('p'),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         match=0,
@@ -125,11 +162,15 @@ maker(
         stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
         match=3,
         ),
-    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (7, 12)),
+    baca.hairpin(
+        'mp p',
+        bookend=False,
+        piece_selector=baca.logical_ties(nontrivial=True),
+        ),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         match=0,
@@ -146,11 +187,15 @@ maker(
         stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
         match=3,
         ),
-    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (13, 18)),
+    baca.hairpin(
+        'mf mp',
+        bookend=False,
+        piece_selector=baca.logical_ties(nontrivial=True),
+        ),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         match=0,
@@ -167,11 +212,15 @@ maker(
         stirrings_still.strokes(-3, dmask=rmakers.silence([1], 3)),
         match=3,
         ),
-    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (19, 24)),
+    baca.hairpin(
+        '"f" mf',
+        bookend=False,
+        piece_selector=baca.logical_ties(nontrivial=True),
+        ),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         match=0,
@@ -188,11 +237,15 @@ maker(
         stirrings_still.strokes(-3, dmask=rmakers.silence([1], 3)),
         match=3,
         ),
-    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (25, 30)),
+    baca.hairpin(
+        '"ff" "f"',
+        bookend=False,
+        piece_selector=baca.logical_ties(nontrivial=True),
+        ),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         match=0,
@@ -209,12 +262,11 @@ maker(
         stirrings_still.strokes(-2, dmask=rmakers.silence([2], 3)),
         match=3,
         ),
-    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (31, 36)),
-    baca.dynamic('mf'),
+    baca.dynamic('"ff"'),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         match=0,
@@ -231,7 +283,6 @@ maker(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 3)),
         match=3,
         ),
-    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
@@ -246,12 +297,28 @@ maker(
     )
 
 maker(
-    ('tutti', (1, 12)),
-    baca.new(
-        baca.stop_on_string(
-            selector=baca.leaf(-1),
+    ('tutti', [(1, 6), (13, 18), (25, 30)]),
+    baca.suite(
+        baca.new(
+            baca.stem_tremolo(
+                selector=baca.leaf(-1),
+                ),
+            map=baca.logical_ties(nontrivial=True),
             ),
-        map=baca.runs(),
+        stirrings_still.ntlt_flat_glissandi(),
+        ),
+    )
+
+maker(
+    ('tutti', [(7, 12), (19, 24), (31, 36)]),
+    baca.suite(
+        baca.new(
+            baca.stop_on_string(
+                selector=baca.leaf(-1),
+                ),
+            map=baca.logical_ties(nontrivial=True),
+            ),
+        stirrings_still.ntlt_flat_glissandi(),
         ),
     )
 
