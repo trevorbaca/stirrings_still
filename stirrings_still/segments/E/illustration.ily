@@ -1813,9 +1813,9 @@ E_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-E_ViolinIMusicVoice = {                                                        %! extern
+E_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [E ViolinIMusicVoice measure 306 / measure 1]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 306 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1844,16 +1844,16 @@ E_ViolinIMusicVoice = {                                                        %
     \repeatTie
     ~
 
-    % [E ViolinIMusicVoice measure 307 / measure 2]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 307 / measure 2]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_I_Music_Voice", "MultimeasureRestVoice"                    %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [E ViolinIMusicVoice measure 308 / measure 3]                        %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [E Violin_I_Music_Voice measure 308 / measure 3]                     %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -1861,7 +1861,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [E ViolinIMusicVoice measure 309 / measure 4]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 309 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! stirrings_still_pickets
 
     r8                                                                         %! stirrings_still_pickets
@@ -1894,7 +1894,7 @@ E_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! stirrings_still_pickets
 
-    % [E ViolinIMusicVoice measure 311 / measure 6]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 311 / measure 6]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1913,7 +1913,7 @@ E_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIMusicVoice measure 312 / measure 7]                            %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 312 / measure 7]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -1923,61 +1923,7 @@ E_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIMusicVoice measure 313 / measure 8]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolinIMusicVoice measure 314 / measure 9]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-    ~
-
-    % [E ViolinIMusicVoice measure 315 / measure 10]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-    ~
-
-    % [E ViolinIMusicVoice measure 316 / measure 11]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolinIMusicVoice measure 317 / measure 12]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 313 / measure 8]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -1990,30 +1936,7 @@ E_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIMusicVoice measure 318 / measure 13]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolinIMusicVoice measure 319 / measure 14]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolinIMusicVoice measure 320 / measure 15]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 314 / measure 9]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2027,7 +1950,21 @@ E_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_grid_to_trajectory
     ~
 
-    % [E ViolinIMusicVoice measure 321 / measure 16]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 315 / measure 10]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+    ~
+
+    % [E Violin_I_Music_Voice measure 316 / measure 11]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2040,7 +1977,7 @@ E_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIMusicVoice measure 322 / measure 17]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 317 / measure 12]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2050,14 +1987,77 @@ E_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIMusicVoice measure 323 / measure 18]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_I_Music_Voice measure 318 / measure 13]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIMusicVoice measure 324 / measure 19]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_I_Music_Voice measure 319 / measure 14]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_I_Music_Voice measure 320 / measure 15]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+    ~
+
+    % [E Violin_I_Music_Voice measure 321 / measure 16]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_I_Music_Voice measure 322 / measure 17]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_I_Music_Voice measure 323 / measure 18]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_I_Music_Voice measure 324 / measure 19]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2068,10 +2068,10 @@ E_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_grid_to_trajectory
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_I_Music_Voice", "MultimeasureRestVoice"                    %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [E ViolinIMusicVoice measure 325 / measure 20]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [E Violin_I_Music_Voice measure 325 / measure 20]                    %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 3/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -2079,341 +2079,341 @@ E_ViolinIMusicVoice = {                                                        %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [E ViolinIMusicVoice measure 326 / measure 21]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 326 / measure 21]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 327 / measure 22]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 327 / measure 22]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 328 / measure 23]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 328 / measure 23]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 329 / measure 24]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 329 / measure 24]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 330 / measure 25]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 330 / measure 25]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 331 / measure 26]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 331 / measure 26]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 332 / measure 27]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 332 / measure 27]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 333 / measure 28]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 333 / measure 28]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 334 / measure 29]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 334 / measure 29]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 335 / measure 30]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 335 / measure 30]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 336 / measure 31]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 336 / measure 31]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 337 / measure 32]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 337 / measure 32]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 338 / measure 33]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 338 / measure 33]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 339 / measure 34]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 339 / measure 34]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 340 / measure 35]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 340 / measure 35]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 341 / measure 36]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 341 / measure 36]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 342 / measure 37]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 342 / measure 37]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 343 / measure 38]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 343 / measure 38]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 344 / measure 39]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 344 / measure 39]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 345 / measure 40]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 345 / measure 40]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 346 / measure 41]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 346 / measure 41]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 347 / measure 42]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 347 / measure 42]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 348 / measure 43]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 348 / measure 43]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 349 / measure 44]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 349 / measure 44]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 350 / measure 45]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 350 / measure 45]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 351 / measure 46]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 351 / measure 46]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 352 / measure 47]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 352 / measure 47]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 353 / measure 48]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 353 / measure 48]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 354 / measure 49]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 354 / measure 49]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 355 / measure 50]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 355 / measure 50]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 356 / measure 51]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 356 / measure 51]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 357 / measure 52]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 357 / measure 52]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 358 / measure 53]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 358 / measure 53]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 359 / measure 54]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 359 / measure 54]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 360 / measure 55]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 360 / measure 55]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 361 / measure 56]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 361 / measure 56]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 362 / measure 57]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 362 / measure 57]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 363 / measure 58]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 363 / measure 58]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 364 / measure 59]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 364 / measure 59]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 365 / measure 60]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 365 / measure 60]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 366 / measure 61]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 366 / measure 61]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 367 / measure 62]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 367 / measure 62]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 368 / measure 63]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 368 / measure 63]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 369 / measure 64]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 369 / measure 64]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 370 / measure 65]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 370 / measure 65]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 371 / measure 66]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 371 / measure 66]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 372 / measure 67]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 372 / measure 67]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 373 / measure 68]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 373 / measure 68]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 374 / measure 69]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 374 / measure 69]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 375 / measure 70]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 375 / measure 70]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 376 / measure 71]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 376 / measure 71]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 377 / measure 72]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 377 / measure 72]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 378 / measure 73]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 378 / measure 73]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 379 / measure 74]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 379 / measure 74]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 380 / measure 75]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 380 / measure 75]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 381 / measure 76]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 381 / measure 76]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 382 / measure 77]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 382 / measure 77]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 383 / measure 78]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 383 / measure 78]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 384 / measure 79]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 384 / measure 79]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 385 / measure 80]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 385 / measure 80]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 386 / measure 81]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 386 / measure 81]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 387 / measure 82]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 387 / measure 82]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 388 / measure 83]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 388 / measure 83]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 389 / measure 84]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 389 / measure 84]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 390 / measure 85]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 390 / measure 85]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 391 / measure 86]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 391 / measure 86]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 392 / measure 87]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 392 / measure 87]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 393 / measure 88]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 393 / measure 88]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 394 / measure 89]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 394 / measure 89]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 395 / measure 90]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 395 / measure 90]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 396 / measure 91]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 396 / measure 91]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 397 / measure 92]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 397 / measure 92]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 398 / measure 93]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 398 / measure 93]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 399 / measure 94]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 399 / measure 94]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 400 / measure 95]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 400 / measure 95]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 401 / measure 96]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 401 / measure 96]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 402 / measure 97]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 402 / measure 97]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 403 / measure 98]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 403 / measure 98]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 404 / measure 99]                           %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 404 / measure 99]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 405 / measure 100]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 405 / measure 100]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 406 / measure 101]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 406 / measure 101]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 407 / measure 102]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 407 / measure 102]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 408 / measure 103]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 408 / measure 103]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 409 / measure 104]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 409 / measure 104]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 410 / measure 105]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 410 / measure 105]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 411 / measure 106]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 411 / measure 106]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 412 / measure 107]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 412 / measure 107]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 413 / measure 108]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 413 / measure 108]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 414 / measure 109]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 414 / measure 109]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 415 / measure 110]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 415 / measure 110]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 416 / measure 111]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 416 / measure 111]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 417 / measure 112]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 417 / measure 112]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 418 / measure 113]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 418 / measure 113]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 419 / measure 114]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 419 / measure 114]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 420 / measure 115]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 420 / measure 115]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 421 / measure 116]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 421 / measure 116]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 422 / measure 117]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 422 / measure 117]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 423 / measure 118]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 423 / measure 118]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 424 / measure 119]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 424 / measure 119]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 425 / measure 120]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 425 / measure 120]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 426 / measure 121]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 426 / measure 121]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 427 / measure 122]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 427 / measure 122]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 428 / measure 123]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 428 / measure 123]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 429 / measure 124]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 429 / measure 124]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 430 / measure 125]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 430 / measure 125]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 431 / measure 126]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 431 / measure 126]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIMusicVoice measure 432 / measure 127]                          %! _comment_measure_numbers
+    % [E Violin_I_Music_Voice measure 432 / measure 127]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-E_ViolinIMusicStaff = {                                                        %! extern
+E_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \E_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \E_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-E_ViolinIIMusicVoice = {                                                       %! extern
+E_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [E ViolinIIMusicVoice measure 306 / measure 1]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 306 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2442,16 +2442,16 @@ E_ViolinIIMusicVoice = {                                                       %
     \repeatTie
     ~
 
-    % [E ViolinIIMusicVoice measure 307 / measure 2]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 307 / measure 2]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_II_Music_Voice", "MultimeasureRestVoice"                   %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [E ViolinIIMusicVoice measure 308 / measure 3]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [E Violin_II_Music_Voice measure 308 / measure 3]                    %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -2459,7 +2459,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [E ViolinIIMusicVoice measure 309 / measure 4]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 309 / measure 4]                        %! _comment_measure_numbers
     r2                                                                         %! stirrings_still_pickets
 
     r8                                                                         %! stirrings_still_pickets
@@ -2489,7 +2489,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! stirrings_still_pickets
 
-    % [E ViolinIIMusicVoice measure 311 / measure 6]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 311 / measure 6]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2508,7 +2508,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIIMusicVoice measure 312 / measure 7]                           %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 312 / measure 7]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2518,61 +2518,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIIMusicVoice measure 313 / measure 8]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolinIIMusicVoice measure 314 / measure 9]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-    ~
-
-    % [E ViolinIIMusicVoice measure 315 / measure 10]                          %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-    ~
-
-    % [E ViolinIIMusicVoice measure 316 / measure 11]                          %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolinIIMusicVoice measure 317 / measure 12]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 313 / measure 8]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2585,30 +2531,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIIMusicVoice measure 318 / measure 13]                          %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolinIIMusicVoice measure 319 / measure 14]                          %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolinIIMusicVoice measure 320 / measure 15]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 314 / measure 9]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2622,7 +2545,21 @@ E_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_grid_to_trajectory
     ~
 
-    % [E ViolinIIMusicVoice measure 321 / measure 16]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 315 / measure 10]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+    ~
+
+    % [E Violin_II_Music_Voice measure 316 / measure 11]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2635,7 +2572,7 @@ E_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIIMusicVoice measure 322 / measure 17]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 317 / measure 12]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2645,14 +2582,77 @@ E_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIIMusicVoice measure 323 / measure 18]                          %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_II_Music_Voice measure 318 / measure 13]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolinIIMusicVoice measure 324 / measure 19]                          %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_II_Music_Voice measure 319 / measure 14]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_II_Music_Voice measure 320 / measure 15]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+    ~
+
+    % [E Violin_II_Music_Voice measure 321 / measure 16]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_II_Music_Voice measure 322 / measure 17]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_II_Music_Voice measure 323 / measure 18]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Violin_II_Music_Voice measure 324 / measure 19]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -2663,10 +2663,10 @@ E_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_grid_to_trajectory
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_II_Music_Voice", "MultimeasureRestVoice"                   %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [E ViolinIIMusicVoice measure 325 / measure 20]                      %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [E Violin_II_Music_Voice measure 325 / measure 20]                   %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 3/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -2674,341 +2674,341 @@ E_ViolinIIMusicVoice = {                                                       %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [E ViolinIIMusicVoice measure 326 / measure 21]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 326 / measure 21]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 327 / measure 22]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 327 / measure 22]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 328 / measure 23]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 328 / measure 23]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 329 / measure 24]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 329 / measure 24]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 330 / measure 25]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 330 / measure 25]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 331 / measure 26]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 331 / measure 26]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 332 / measure 27]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 332 / measure 27]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 333 / measure 28]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 333 / measure 28]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 334 / measure 29]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 334 / measure 29]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 335 / measure 30]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 335 / measure 30]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 336 / measure 31]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 336 / measure 31]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 337 / measure 32]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 337 / measure 32]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 338 / measure 33]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 338 / measure 33]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 339 / measure 34]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 339 / measure 34]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 340 / measure 35]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 340 / measure 35]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 341 / measure 36]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 341 / measure 36]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 342 / measure 37]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 342 / measure 37]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 343 / measure 38]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 343 / measure 38]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 344 / measure 39]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 344 / measure 39]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 345 / measure 40]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 345 / measure 40]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 346 / measure 41]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 346 / measure 41]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 347 / measure 42]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 347 / measure 42]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 348 / measure 43]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 348 / measure 43]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 349 / measure 44]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 349 / measure 44]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 350 / measure 45]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 350 / measure 45]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 351 / measure 46]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 351 / measure 46]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 352 / measure 47]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 352 / measure 47]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 353 / measure 48]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 353 / measure 48]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 354 / measure 49]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 354 / measure 49]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 355 / measure 50]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 355 / measure 50]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 356 / measure 51]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 356 / measure 51]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 357 / measure 52]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 357 / measure 52]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 358 / measure 53]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 358 / measure 53]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 359 / measure 54]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 359 / measure 54]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 360 / measure 55]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 360 / measure 55]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 361 / measure 56]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 361 / measure 56]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 362 / measure 57]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 362 / measure 57]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 363 / measure 58]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 363 / measure 58]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 364 / measure 59]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 364 / measure 59]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 365 / measure 60]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 365 / measure 60]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 366 / measure 61]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 366 / measure 61]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 367 / measure 62]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 367 / measure 62]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 368 / measure 63]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 368 / measure 63]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 369 / measure 64]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 369 / measure 64]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 370 / measure 65]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 370 / measure 65]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 371 / measure 66]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 371 / measure 66]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 372 / measure 67]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 372 / measure 67]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 373 / measure 68]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 373 / measure 68]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 374 / measure 69]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 374 / measure 69]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 375 / measure 70]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 375 / measure 70]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 376 / measure 71]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 376 / measure 71]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 377 / measure 72]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 377 / measure 72]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 378 / measure 73]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 378 / measure 73]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 379 / measure 74]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 379 / measure 74]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 380 / measure 75]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 380 / measure 75]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 381 / measure 76]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 381 / measure 76]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 382 / measure 77]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 382 / measure 77]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 383 / measure 78]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 383 / measure 78]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 384 / measure 79]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 384 / measure 79]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 385 / measure 80]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 385 / measure 80]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 386 / measure 81]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 386 / measure 81]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 387 / measure 82]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 387 / measure 82]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 388 / measure 83]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 388 / measure 83]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 389 / measure 84]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 389 / measure 84]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 390 / measure 85]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 390 / measure 85]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 391 / measure 86]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 391 / measure 86]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 392 / measure 87]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 392 / measure 87]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 393 / measure 88]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 393 / measure 88]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 394 / measure 89]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 394 / measure 89]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 395 / measure 90]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 395 / measure 90]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 396 / measure 91]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 396 / measure 91]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 397 / measure 92]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 397 / measure 92]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 398 / measure 93]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 398 / measure 93]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 399 / measure 94]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 399 / measure 94]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 400 / measure 95]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 400 / measure 95]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 401 / measure 96]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 401 / measure 96]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 402 / measure 97]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 402 / measure 97]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 403 / measure 98]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 403 / measure 98]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 404 / measure 99]                          %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 404 / measure 99]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 405 / measure 100]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 405 / measure 100]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 406 / measure 101]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 406 / measure 101]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 407 / measure 102]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 407 / measure 102]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 408 / measure 103]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 408 / measure 103]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 409 / measure 104]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 409 / measure 104]                      %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 410 / measure 105]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 410 / measure 105]                      %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 411 / measure 106]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 411 / measure 106]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 412 / measure 107]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 412 / measure 107]                      %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 413 / measure 108]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 413 / measure 108]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 414 / measure 109]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 414 / measure 109]                      %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 415 / measure 110]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 415 / measure 110]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 416 / measure 111]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 416 / measure 111]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 417 / measure 112]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 417 / measure 112]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 418 / measure 113]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 418 / measure 113]                      %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 419 / measure 114]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 419 / measure 114]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 420 / measure 115]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 420 / measure 115]                      %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 421 / measure 116]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 421 / measure 116]                      %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 422 / measure 117]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 422 / measure 117]                      %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 423 / measure 118]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 423 / measure 118]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 424 / measure 119]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 424 / measure 119]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 425 / measure 120]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 425 / measure 120]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 426 / measure 121]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 426 / measure 121]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 427 / measure 122]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 427 / measure 122]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 428 / measure 123]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 428 / measure 123]                      %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 429 / measure 124]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 429 / measure 124]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 430 / measure 125]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 430 / measure 125]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 431 / measure 126]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 431 / measure 126]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolinIIMusicVoice measure 432 / measure 127]                         %! _comment_measure_numbers
+    % [E Violin_II_Music_Voice measure 432 / measure 127]                      %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-E_ViolinIIMusicStaff = {                                                       %! extern
+E_Violin_II_MusicStaff = {                                                     %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \E_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \E_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-E_ViolaMusicVoice = {                                                          %! extern
+E_Viola_Music_Voice = {                                                        %! extern
 
-    % [E ViolaMusicVoice measure 306 / measure 1]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 306 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3041,16 +3041,16 @@ E_ViolaMusicVoice = {                                                          %
     \repeatTie
     ~
 
-    % [E ViolaMusicVoice measure 307 / measure 2]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 307 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    \voices "Viola_Music_Voice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [E ViolaMusicVoice measure 308 / measure 3]                          %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [E Viola_Music_Voice measure 308 / measure 3]                        %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -3058,7 +3058,7 @@ E_ViolaMusicVoice = {                                                          %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [E ViolaMusicVoice measure 309 / measure 4]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 309 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! stirrings_still_pickets
 
     r8                                                                         %! stirrings_still_pickets
@@ -3072,7 +3072,7 @@ E_ViolaMusicVoice = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [E ViolaMusicVoice measure 310 / measure 5]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 310 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
 
@@ -3082,7 +3082,7 @@ E_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
 
-    % [E ViolaMusicVoice measure 311 / measure 6]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 311 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3101,7 +3101,7 @@ E_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolaMusicVoice measure 312 / measure 7]                              %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 312 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -3111,61 +3111,7 @@ E_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolaMusicVoice measure 313 / measure 8]                              %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolaMusicVoice measure 314 / measure 9]                              %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-    ~
-
-    % [E ViolaMusicVoice measure 315 / measure 10]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-    ~
-
-    % [E ViolaMusicVoice measure 316 / measure 11]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolaMusicVoice measure 317 / measure 12]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 313 / measure 8]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -3178,30 +3124,7 @@ E_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolaMusicVoice measure 318 / measure 13]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolaMusicVoice measure 319 / measure 14]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_grid_to_trajectory
-
-    % [E ViolaMusicVoice measure 320 / measure 15]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 314 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -3215,7 +3138,21 @@ E_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_grid_to_trajectory
     ~
 
-    % [E ViolaMusicVoice measure 321 / measure 16]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 315 / measure 10]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+    ~
+
+    % [E Viola_Music_Voice measure 316 / measure 11]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -3228,7 +3165,7 @@ E_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolaMusicVoice measure 322 / measure 17]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 317 / measure 12]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -3238,14 +3175,77 @@ E_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolaMusicVoice measure 323 / measure 18]                             %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Viola_Music_Voice measure 318 / measure 13]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
-    % [E ViolaMusicVoice measure 324 / measure 19]                             %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Viola_Music_Voice measure 319 / measure 14]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Viola_Music_Voice measure 320 / measure 15]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+    ~
+
+    % [E Viola_Music_Voice measure 321 / measure 16]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Viola_Music_Voice measure 322 / measure 17]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Viola_Music_Voice measure 323 / measure 18]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_grid_to_trajectory
+
+    % [E Viola_Music_Voice measure 324 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_grid_to_trajectory
 
@@ -3256,10 +3256,10 @@ E_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_grid_to_trajectory
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    \voices "Viola_Music_Voice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [E ViolaMusicVoice measure 325 / measure 20]                         %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [E Viola_Music_Voice measure 325 / measure 20]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 3/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -3267,341 +3267,341 @@ E_ViolaMusicVoice = {                                                          %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [E ViolaMusicVoice measure 326 / measure 21]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 326 / measure 21]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 327 / measure 22]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 327 / measure 22]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 328 / measure 23]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 328 / measure 23]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 329 / measure 24]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 329 / measure 24]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 330 / measure 25]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 330 / measure 25]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 331 / measure 26]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 331 / measure 26]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 332 / measure 27]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 332 / measure 27]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 333 / measure 28]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 333 / measure 28]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 334 / measure 29]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 334 / measure 29]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 335 / measure 30]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 335 / measure 30]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 336 / measure 31]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 336 / measure 31]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 337 / measure 32]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 337 / measure 32]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 338 / measure 33]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 338 / measure 33]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 339 / measure 34]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 339 / measure 34]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 340 / measure 35]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 340 / measure 35]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 341 / measure 36]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 341 / measure 36]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 342 / measure 37]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 342 / measure 37]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 343 / measure 38]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 343 / measure 38]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 344 / measure 39]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 344 / measure 39]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 345 / measure 40]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 345 / measure 40]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 346 / measure 41]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 346 / measure 41]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 347 / measure 42]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 347 / measure 42]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 348 / measure 43]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 348 / measure 43]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 349 / measure 44]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 349 / measure 44]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 350 / measure 45]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 350 / measure 45]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 351 / measure 46]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 351 / measure 46]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 352 / measure 47]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 352 / measure 47]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 353 / measure 48]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 353 / measure 48]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 354 / measure 49]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 354 / measure 49]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 355 / measure 50]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 355 / measure 50]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 356 / measure 51]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 356 / measure 51]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 357 / measure 52]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 357 / measure 52]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 358 / measure 53]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 358 / measure 53]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 359 / measure 54]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 359 / measure 54]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 360 / measure 55]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 360 / measure 55]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 361 / measure 56]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 361 / measure 56]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 362 / measure 57]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 362 / measure 57]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 363 / measure 58]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 363 / measure 58]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 364 / measure 59]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 364 / measure 59]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 365 / measure 60]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 365 / measure 60]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 366 / measure 61]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 366 / measure 61]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 367 / measure 62]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 367 / measure 62]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 368 / measure 63]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 368 / measure 63]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 369 / measure 64]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 369 / measure 64]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 370 / measure 65]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 370 / measure 65]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 371 / measure 66]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 371 / measure 66]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 372 / measure 67]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 372 / measure 67]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 373 / measure 68]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 373 / measure 68]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 374 / measure 69]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 374 / measure 69]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 375 / measure 70]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 375 / measure 70]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 376 / measure 71]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 376 / measure 71]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 377 / measure 72]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 377 / measure 72]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 378 / measure 73]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 378 / measure 73]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 379 / measure 74]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 379 / measure 74]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 380 / measure 75]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 380 / measure 75]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 381 / measure 76]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 381 / measure 76]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 382 / measure 77]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 382 / measure 77]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 383 / measure 78]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 383 / measure 78]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 384 / measure 79]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 384 / measure 79]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 385 / measure 80]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 385 / measure 80]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 386 / measure 81]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 386 / measure 81]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 387 / measure 82]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 387 / measure 82]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 388 / measure 83]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 388 / measure 83]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 389 / measure 84]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 389 / measure 84]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 390 / measure 85]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 390 / measure 85]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 391 / measure 86]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 391 / measure 86]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 392 / measure 87]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 392 / measure 87]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 393 / measure 88]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 393 / measure 88]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 394 / measure 89]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 394 / measure 89]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 395 / measure 90]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 395 / measure 90]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 396 / measure 91]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 396 / measure 91]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 397 / measure 92]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 397 / measure 92]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 398 / measure 93]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 398 / measure 93]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 399 / measure 94]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 399 / measure 94]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 400 / measure 95]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 400 / measure 95]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 401 / measure 96]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 401 / measure 96]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 402 / measure 97]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 402 / measure 97]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 403 / measure 98]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 403 / measure 98]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 404 / measure 99]                             %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 404 / measure 99]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 405 / measure 100]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 405 / measure 100]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 406 / measure 101]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 406 / measure 101]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 407 / measure 102]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 407 / measure 102]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 408 / measure 103]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 408 / measure 103]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 409 / measure 104]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 409 / measure 104]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 410 / measure 105]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 410 / measure 105]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 411 / measure 106]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 411 / measure 106]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 412 / measure 107]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 412 / measure 107]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 413 / measure 108]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 413 / measure 108]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 414 / measure 109]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 414 / measure 109]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 415 / measure 110]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 415 / measure 110]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 416 / measure 111]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 416 / measure 111]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 417 / measure 112]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 417 / measure 112]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 418 / measure 113]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 418 / measure 113]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 419 / measure 114]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 419 / measure 114]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 420 / measure 115]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 420 / measure 115]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 421 / measure 116]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 421 / measure 116]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 422 / measure 117]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 422 / measure 117]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 423 / measure 118]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 423 / measure 118]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 424 / measure 119]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 424 / measure 119]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 425 / measure 120]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 425 / measure 120]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 426 / measure 121]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 426 / measure 121]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 427 / measure 122]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 427 / measure 122]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 428 / measure 123]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 428 / measure 123]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 429 / measure 124]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 429 / measure 124]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 430 / measure 125]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 430 / measure 125]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 431 / measure 126]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 431 / measure 126]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E ViolaMusicVoice measure 432 / measure 127]                            %! _comment_measure_numbers
+    % [E Viola_Music_Voice measure 432 / measure 127]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-E_ViolaMusicStaff = {                                                          %! extern
+E_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \E_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \E_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-E_CelloMusicVoice = {                                                          %! extern
+E_Cello_Music_Voice = {                                                        %! extern
 
-    % [E CelloMusicVoice measure 306 / measure 1]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 306 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3622,116 +3622,92 @@ E_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 307 / measure 2]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 307 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 308 / measure 3]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 308 / measure 3]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 309 / measure 4]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 309 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 310 / measure 5]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 310 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 311 / measure 6]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 311 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 312 / measure 7]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 312 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 313 / measure 8]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 313 / measure 8]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 314 / measure 9]                              %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 314 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 315 / measure 10]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 315 / measure 10]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 316 / measure 11]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 316 / measure 11]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 317 / measure 12]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 317 / measure 12]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 318 / measure 13]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 318 / measure 13]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 319 / measure 14]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 319 / measure 14]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 320 / measure 15]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 320 / measure 15]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 321 / measure 16]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 321 / measure 16]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 322 / measure 17]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 322 / measure 17]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 323 / measure 18]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 323 / measure 18]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 324 / measure 19]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E CelloMusicVoice measure 325 / measure 20]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E CelloMusicVoice measure 326 / measure 21]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E CelloMusicVoice measure 327 / measure 22]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E CelloMusicVoice measure 328 / measure 23]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 324 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_clouded_pane
     \repeatTie
@@ -3740,332 +3716,356 @@ E_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 329 / measure 24]                             %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E CelloMusicVoice measure 330 / measure 25]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 325 / measure 20]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 331 / measure 26]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 326 / measure 21]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [E Cello_Music_Voice measure 327 / measure 22]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [E Cello_Music_Voice measure 328 / measure 23]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [E Cello_Music_Voice measure 329 / measure 24]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [E Cello_Music_Voice measure 330 / measure 25]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [E Cello_Music_Voice measure 331 / measure 26]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 332 / measure 27]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 332 / measure 27]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E CelloMusicVoice measure 333 / measure 28]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 333 / measure 28]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 334 / measure 29]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 334 / measure 29]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 335 / measure 30]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 335 / measure 30]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 336 / measure 31]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 336 / measure 31]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 337 / measure 32]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 337 / measure 32]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 338 / measure 33]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 338 / measure 33]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 339 / measure 34]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 339 / measure 34]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 340 / measure 35]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 340 / measure 35]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 341 / measure 36]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 341 / measure 36]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 342 / measure 37]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 342 / measure 37]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 343 / measure 38]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 343 / measure 38]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 344 / measure 39]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 344 / measure 39]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 345 / measure 40]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 345 / measure 40]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 346 / measure 41]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 346 / measure 41]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 347 / measure 42]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 347 / measure 42]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 348 / measure 43]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 348 / measure 43]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 349 / measure 44]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 349 / measure 44]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 350 / measure 45]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 350 / measure 45]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 351 / measure 46]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 351 / measure 46]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 352 / measure 47]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 352 / measure 47]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 353 / measure 48]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 353 / measure 48]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 354 / measure 49]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 354 / measure 49]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 355 / measure 50]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 355 / measure 50]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 356 / measure 51]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 356 / measure 51]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 357 / measure 52]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 357 / measure 52]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 358 / measure 53]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 358 / measure 53]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 359 / measure 54]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 359 / measure 54]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 360 / measure 55]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 360 / measure 55]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 361 / measure 56]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 361 / measure 56]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 362 / measure 57]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 362 / measure 57]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 363 / measure 58]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 363 / measure 58]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 364 / measure 59]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 364 / measure 59]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 365 / measure 60]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 365 / measure 60]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 366 / measure 61]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 366 / measure 61]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 367 / measure 62]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 367 / measure 62]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 368 / measure 63]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 368 / measure 63]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 369 / measure 64]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 369 / measure 64]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 370 / measure 65]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 370 / measure 65]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 371 / measure 66]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 371 / measure 66]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 372 / measure 67]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 372 / measure 67]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 373 / measure 68]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 373 / measure 68]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 374 / measure 69]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 374 / measure 69]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 375 / measure 70]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 375 / measure 70]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 376 / measure 71]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 376 / measure 71]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 377 / measure 72]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 377 / measure 72]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 378 / measure 73]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 378 / measure 73]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 379 / measure 74]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 379 / measure 74]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 380 / measure 75]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 380 / measure 75]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 381 / measure 76]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 381 / measure 76]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 382 / measure 77]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 382 / measure 77]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 383 / measure 78]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 383 / measure 78]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 384 / measure 79]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 384 / measure 79]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 385 / measure 80]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 385 / measure 80]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 386 / measure 81]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 386 / measure 81]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 387 / measure 82]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 387 / measure 82]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 388 / measure 83]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 388 / measure 83]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 389 / measure 84]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 389 / measure 84]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 390 / measure 85]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 390 / measure 85]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 391 / measure 86]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 391 / measure 86]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 392 / measure 87]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 392 / measure 87]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 393 / measure 88]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 393 / measure 88]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 394 / measure 89]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 394 / measure 89]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 395 / measure 90]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 395 / measure 90]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 396 / measure 91]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 396 / measure 91]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 397 / measure 92]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 397 / measure 92]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 398 / measure 93]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 398 / measure 93]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 399 / measure 94]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 399 / measure 94]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 400 / measure 95]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 400 / measure 95]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 401 / measure 96]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 401 / measure 96]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 402 / measure 97]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 402 / measure 97]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 403 / measure 98]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 403 / measure 98]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 404 / measure 99]                             %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 404 / measure 99]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 405 / measure 100]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 405 / measure 100]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 406 / measure 101]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 406 / measure 101]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 407 / measure 102]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 407 / measure 102]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 408 / measure 103]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 408 / measure 103]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 409 / measure 104]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 409 / measure 104]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 410 / measure 105]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 410 / measure 105]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 411 / measure 106]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 411 / measure 106]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 412 / measure 107]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 412 / measure 107]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 413 / measure 108]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 413 / measure 108]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 414 / measure 109]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 414 / measure 109]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 415 / measure 110]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 415 / measure 110]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 416 / measure 111]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 416 / measure 111]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 417 / measure 112]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 417 / measure 112]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 418 / measure 113]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 418 / measure 113]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 419 / measure 114]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 419 / measure 114]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 420 / measure 115]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 420 / measure 115]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 421 / measure 116]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 421 / measure 116]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 422 / measure 117]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 422 / measure 117]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 423 / measure 118]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 423 / measure 118]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 424 / measure 119]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 424 / measure 119]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 425 / measure 120]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 425 / measure 120]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 426 / measure 121]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 426 / measure 121]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 427 / measure 122]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 427 / measure 122]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 428 / measure 123]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 428 / measure 123]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 429 / measure 124]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 429 / measure 124]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 430 / measure 125]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 430 / measure 125]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 431 / measure 126]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 431 / measure 126]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [E CelloMusicVoice measure 432 / measure 127]                            %! _comment_measure_numbers
+    % [E Cello_Music_Voice measure 432 / measure 127]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-E_CelloMusicStaff = {                                                          %! extern
+E_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \E_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \E_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern

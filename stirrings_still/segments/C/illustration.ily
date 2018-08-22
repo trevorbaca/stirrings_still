@@ -1225,12 +1225,12 @@ C_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-C_ViolinIMusicVoice = {                                                        %! extern
+C_Violin_I_Music_Voice = {                                                     %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 130 / measure 1]                        %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 130 / measure 1]                     %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1267,7 +1267,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 131 / measure 2]                        %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 131 / measure 2]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1288,7 +1288,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 132 / measure 3]                        %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 132 / measure 3]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1309,7 +1309,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 133 / measure 4]                        %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 133 / measure 4]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1324,7 +1324,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C ViolinIMusicVoice measure 134 / measure 5]                            %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 134 / measure 5]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1360,13 +1360,13 @@ C_ViolinIMusicVoice = {                                                        %
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     ]                                                                          %! stirrings_still_desynchronization
 
-    % [C ViolinIMusicVoice measure 135 / measure 6]                            %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 135 / measure 6]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 136 / measure 7]                        %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 136 / measure 7]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1395,7 +1395,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 137 / measure 8]                        %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 137 / measure 8]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1419,7 +1419,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 138 / measure 9]                        %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 138 / measure 9]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1446,7 +1446,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 139 / measure 10]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 139 / measure 10]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1471,10 +1471,10 @@ C_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_I_Music_Voice", "MultimeasureRestVoice"                    %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolinIMusicVoice measure 140 / measure 11]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Violin_I_Music_Voice measure 140 / measure 11]                    %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -1485,7 +1485,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 141 / measure 12]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 141 / measure 12]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -1510,7 +1510,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 142 / measure 13]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 142 / measure 13]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1529,7 +1529,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 143 / measure 14]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 143 / measure 14]                    %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1555,7 +1555,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 144 / measure 15]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 144 / measure 15]                    %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1574,7 +1574,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 145 / measure 16]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 145 / measure 16]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -1600,7 +1600,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 146 / measure 17]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 146 / measure 17]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1619,7 +1619,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 147 / measure 18]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 147 / measure 18]                    %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1642,7 +1642,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 148 / measure 19]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 148 / measure 19]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1662,7 +1662,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 149 / measure 20]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 149 / measure 20]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -1689,7 +1689,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 150 / measure 21]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 150 / measure 21]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1711,7 +1711,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 151 / measure 22]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 151 / measure 22]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
@@ -1741,7 +1741,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 152 / measure 23]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 152 / measure 23]                    %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1758,7 +1758,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 153 / measure 24]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 153 / measure 24]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -1790,7 +1790,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 154 / measure 25]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 154 / measure 25]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1811,7 +1811,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 155 / measure 26]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 155 / measure 26]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1835,7 +1835,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 156 / measure 27]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 156 / measure 27]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -1859,7 +1859,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C ViolinIMusicVoice measure 157 / measure 28]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 157 / measure 28]                        %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
@@ -1881,7 +1881,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
-        % [C ViolinIMusicVoice measure 158 / measure 29]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 158 / measure 29]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_clouded_pane
         \repeatTie
@@ -1893,7 +1893,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     }
 
-    % [C ViolinIMusicVoice measure 159 / measure 30]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 159 / measure 30]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1915,7 +1915,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 160 / measure 31]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 160 / measure 31]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -1926,7 +1926,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 161 / measure 32]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 161 / measure 32]                        %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1937,7 +1937,7 @@ C_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 162 / measure 33]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 162 / measure 33]                        %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1952,10 +1952,10 @@ C_ViolinIMusicVoice = {                                                        %
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
     <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_I_Music_Voice", "MultimeasureRestVoice"                    %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolinIMusicVoice measure 163 / measure 34]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Violin_I_Music_Voice measure 163 / measure 34]                    %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 5/8                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -1963,10 +1963,10 @@ C_ViolinIMusicVoice = {                                                        %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [C ViolinIMusicVoice measure 164 / measure 35]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 164 / measure 35]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [C ViolinIMusicVoice measure 165 / measure 36]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 165 / measure 36]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1990,7 +1990,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 166 / measure 37]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 166 / measure 37]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -2001,7 +2001,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 167 / measure 38]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 167 / measure 38]                        %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2013,7 +2013,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 168 / measure 39]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 168 / measure 39]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -2026,7 +2026,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 169 / measure 40]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 169 / measure 40]                        %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2038,7 +2038,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 170 / measure 41]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 170 / measure 41]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -2049,7 +2049,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 171 / measure 42]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 171 / measure 42]                        %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2061,7 +2061,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 172 / measure 43]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 172 / measure 43]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -2079,7 +2079,7 @@ C_ViolinIMusicVoice = {                                                        %
     ~
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolinIMusicVoice measure 173 / measure 44]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 173 / measure 44]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2093,7 +2093,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 174 / measure 45]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 174 / measure 45]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -2104,7 +2104,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 175 / measure 46]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 175 / measure 46]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -2114,7 +2114,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 176 / measure 47]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 176 / measure 47]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -2127,7 +2127,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 177 / measure 48]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 177 / measure 48]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2141,7 +2141,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 178 / measure 49]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 178 / measure 49]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -2152,7 +2152,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 179 / measure 50]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 179 / measure 50]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -2161,7 +2161,7 @@ C_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 180 / measure 51]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 180 / measure 51]                        %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2176,7 +2176,7 @@ C_ViolinIMusicVoice = {                                                        %
     ~
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolinIMusicVoice measure 181 / measure 52]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 181 / measure 52]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2189,7 +2189,7 @@ C_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 182 / measure 53]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 182 / measure 53]                        %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2201,7 +2201,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 183 / measure 54]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 183 / measure 54]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -2210,7 +2210,7 @@ C_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 184 / measure 55]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 184 / measure 55]                        %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2223,7 +2223,7 @@ C_ViolinIMusicVoice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    % [C ViolinIMusicVoice measure 185 / measure 56]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 185 / measure 56]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
@@ -2245,7 +2245,7 @@ C_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 186 / measure 57]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 186 / measure 57]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -2258,7 +2258,7 @@ C_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 187 / measure 58]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 187 / measure 58]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -2278,7 +2278,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 188 / measure 59]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 188 / measure 59]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -2289,7 +2289,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'4                                                                        %! stirrings_still_synchronized_circles
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolinIMusicVoice measure 189 / measure 60]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 189 / measure 60]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2302,13 +2302,13 @@ C_ViolinIMusicVoice = {                                                        %
     - \tweak staff-padding #4                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [C ViolinIMusicVoice measure 190 / measure 61]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 190 / measure 61]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     \repeatTie
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolinIMusicVoice measure 191 / measure 62]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 191 / measure 62]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2330,7 +2330,7 @@ C_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 192 / measure 63]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 192 / measure 63]                        %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2338,7 +2338,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 193 / measure 64]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 193 / measure 64]                        %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2349,7 +2349,7 @@ C_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 194 / measure 65]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 194 / measure 65]                        %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2361,7 +2361,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 195 / measure 66]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 195 / measure 66]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -2372,7 +2372,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIMusicVoice measure 196 / measure 67]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 196 / measure 67]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -2382,7 +2382,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 197 / measure 68]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 197 / measure 68]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -2392,7 +2392,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIMusicVoice measure 198 / measure 69]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 198 / measure 69]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -2408,10 +2408,10 @@ C_ViolinIMusicVoice = {                                                        %
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
     <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_I_Music_Voice", "MultimeasureRestVoice"                    %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolinIMusicVoice measure 199 / measure 70]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Violin_I_Music_Voice measure 199 / measure 70]                    %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -2422,7 +2422,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 200 / measure 71]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 200 / measure 71]                    %! _comment_measure_numbers
         bf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2460,7 +2460,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 201 / measure 72]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 201 / measure 72]                    %! _comment_measure_numbers
         b'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -2487,7 +2487,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 202 / measure 73]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 202 / measure 73]                    %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -2514,7 +2514,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 203 / measure 74]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 203 / measure 74]                    %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
@@ -2537,7 +2537,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 204 / measure 75]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 204 / measure 75]                    %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -2558,7 +2558,7 @@ C_ViolinIMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolinIMusicVoice measure 205 / measure 76]                       %! _comment_measure_numbers
+        % [C Violin_I_Music_Voice measure 205 / measure 76]                    %! _comment_measure_numbers
         g'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -2585,23 +2585,23 @@ C_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C ViolinIMusicVoice measure 206 / measure 77]                           %! _comment_measure_numbers
+    % [C Violin_I_Music_Voice measure 206 / measure 77]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_ViolinIMusicStaff = {                                                        %! extern
+C_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \C_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \C_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-C_ViolinIIMusicVoice = {                                                       %! extern
+C_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [C ViolinIIMusicVoice measure 130 / measure 1]                           %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 130 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2630,7 +2630,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 131 / measure 2]                           %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 131 / measure 2]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
@@ -2643,7 +2643,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 132 / measure 3]                           %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 132 / measure 3]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
@@ -2656,7 +2656,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 133 / measure 4]                           %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 133 / measure 4]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
@@ -2669,7 +2669,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 14/16 {                                                             %! stirrings_still_desynchronization
 
-        % [C ViolinIIMusicVoice measure 134 / measure 5]                       %! _comment_measure_numbers
+        % [C Violin_II_Music_Voice measure 134 / measure 5]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2711,10 +2711,10 @@ C_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 135 / measure 6]                           %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 135 / measure 6]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [C ViolinIIMusicVoice measure 136 / measure 7]                           %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 136 / measure 7]                        %! _comment_measure_numbers
     f'4                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -2739,7 +2739,7 @@ C_ViolinIIMusicVoice = {                                                       %
     f'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C ViolinIIMusicVoice measure 137 / measure 8]                           %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 137 / measure 8]                        %! _comment_measure_numbers
     f'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -2755,7 +2755,7 @@ C_ViolinIIMusicVoice = {                                                       %
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C ViolinIIMusicVoice measure 138 / measure 9]                           %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 138 / measure 9]                        %! _comment_measure_numbers
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -2774,7 +2774,7 @@ C_ViolinIIMusicVoice = {                                                       %
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C ViolinIIMusicVoice measure 139 / measure 10]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 139 / measure 10]                       %! _comment_measure_numbers
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -2797,10 +2797,10 @@ C_ViolinIIMusicVoice = {                                                       %
     af'!4                                                                      %! stirrings_still_desynchronization
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_II_Music_Voice", "MultimeasureRestVoice"                   %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolinIIMusicVoice measure 140 / measure 11]                      %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Violin_II_Music_Voice measure 140 / measure 11]                   %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -2808,7 +2808,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [C ViolinIIMusicVoice measure 141 / measure 12]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 141 / measure 12]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
@@ -2826,7 +2826,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 142 / measure 13]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 142 / measure 13]                       %! _comment_measure_numbers
     r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2837,7 +2837,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 143 / measure 14]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 143 / measure 14]                       %! _comment_measure_numbers
     r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2855,7 +2855,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r4
 
-    % [C ViolinIIMusicVoice measure 144 / measure 15]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 144 / measure 15]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
@@ -2867,7 +2867,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r4
 
-    % [C ViolinIIMusicVoice measure 145 / measure 16]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 145 / measure 16]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
@@ -2886,7 +2886,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 146 / measure 17]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 146 / measure 17]                       %! _comment_measure_numbers
     r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2897,7 +2897,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 147 / measure 18]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 147 / measure 18]                       %! _comment_measure_numbers
     r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2913,7 +2913,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 148 / measure 19]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 148 / measure 19]                       %! _comment_measure_numbers
     r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2925,7 +2925,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
 
-    % [C ViolinIIMusicVoice measure 149 / measure 20]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 149 / measure 20]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
@@ -2944,7 +2944,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r4
 
-    % [C ViolinIIMusicVoice measure 150 / measure 21]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 150 / measure 21]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
@@ -2959,7 +2959,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 151 / measure 22]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 151 / measure 22]                       %! _comment_measure_numbers
     r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2981,7 +2981,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 152 / measure 23]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 152 / measure 23]                       %! _comment_measure_numbers
     r4
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2991,7 +2991,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
 
-    % [C ViolinIIMusicVoice measure 153 / measure 24]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 153 / measure 24]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
@@ -3015,7 +3015,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 154 / measure 25]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 154 / measure 25]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
@@ -3028,7 +3028,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 155 / measure 26]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 155 / measure 26]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
@@ -3044,7 +3044,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
-    % [C ViolinIIMusicVoice measure 156 / measure 27]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 156 / measure 27]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
@@ -3065,7 +3065,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
-        % [C ViolinIIMusicVoice measure 157 / measure 28]                      %! _comment_measure_numbers
+        % [C Violin_II_Music_Voice measure 157 / measure 28]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3103,7 +3103,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
-        % [C ViolinIIMusicVoice measure 158 / measure 29]                      %! _comment_measure_numbers
+        % [C Violin_II_Music_Voice measure 158 / measure 29]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
 
@@ -3126,7 +3126,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! stirrings_still_clockticks
 
-    % [C ViolinIIMusicVoice measure 159 / measure 30]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 159 / measure 30]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3149,7 +3149,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 160 / measure 31]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 160 / measure 31]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3160,7 +3160,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 161 / measure 32]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 161 / measure 32]                       %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3171,7 +3171,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 162 / measure 33]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 162 / measure 33]                       %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3186,10 +3186,10 @@ C_ViolinIIMusicVoice = {                                                       %
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
     <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_II_Music_Voice", "MultimeasureRestVoice"                   %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolinIIMusicVoice measure 163 / measure 34]                      %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Violin_II_Music_Voice measure 163 / measure 34]                   %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 5/8                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -3197,10 +3197,10 @@ C_ViolinIIMusicVoice = {                                                       %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [C ViolinIIMusicVoice measure 164 / measure 35]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 164 / measure 35]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [C ViolinIIMusicVoice measure 165 / measure 36]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 165 / measure 36]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3224,7 +3224,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 166 / measure 37]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 166 / measure 37]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3235,7 +3235,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 167 / measure 38]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 167 / measure 38]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -3245,7 +3245,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 168 / measure 39]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 168 / measure 39]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3258,7 +3258,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 169 / measure 40]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 169 / measure 40]                       %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3274,7 +3274,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 170 / measure 41]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 170 / measure 41]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3285,7 +3285,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 171 / measure 42]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 171 / measure 42]                       %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3297,7 +3297,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 172 / measure 43]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 172 / measure 43]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -3315,7 +3315,7 @@ C_ViolinIIMusicVoice = {                                                       %
     ~
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolinIIMusicVoice measure 173 / measure 44]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 173 / measure 44]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3329,7 +3329,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 174 / measure 45]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 174 / measure 45]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -3344,7 +3344,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 175 / measure 46]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 175 / measure 46]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3354,7 +3354,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 176 / measure 47]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 176 / measure 47]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -3367,7 +3367,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 177 / measure 48]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 177 / measure 48]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3381,7 +3381,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 178 / measure 49]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 178 / measure 49]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -3392,7 +3392,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 179 / measure 50]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 179 / measure 50]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -3401,7 +3401,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 180 / measure 51]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 180 / measure 51]                       %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3416,7 +3416,7 @@ C_ViolinIIMusicVoice = {                                                       %
     ~
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolinIIMusicVoice measure 181 / measure 52]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 181 / measure 52]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3429,7 +3429,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 182 / measure 53]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 182 / measure 53]                       %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3441,7 +3441,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 183 / measure 54]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 183 / measure 54]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -3450,7 +3450,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 184 / measure 55]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 184 / measure 55]                       %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3463,7 +3463,7 @@ C_ViolinIIMusicVoice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    % [C ViolinIIMusicVoice measure 185 / measure 56]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 185 / measure 56]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
@@ -3485,7 +3485,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 186 / measure 57]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 186 / measure 57]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3502,7 +3502,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 187 / measure 58]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 187 / measure 58]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -3522,7 +3522,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 188 / measure 59]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 188 / measure 59]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3533,7 +3533,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolinIIMusicVoice measure 189 / measure 60]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 189 / measure 60]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3546,13 +3546,13 @@ C_ViolinIIMusicVoice = {                                                       %
     - \tweak staff-padding #4                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [C ViolinIIMusicVoice measure 190 / measure 61]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 190 / measure 61]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     \repeatTie
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolinIIMusicVoice measure 191 / measure 62]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 191 / measure 62]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3574,7 +3574,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 192 / measure 63]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 192 / measure 63]                       %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3582,7 +3582,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 193 / measure 64]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 193 / measure 64]                       %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3593,7 +3593,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 194 / measure 65]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 194 / measure 65]                       %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3605,7 +3605,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 195 / measure 66]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 195 / measure 66]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3616,7 +3616,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolinIIMusicVoice measure 196 / measure 67]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 196 / measure 67]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -3626,7 +3626,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 197 / measure 68]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 197 / measure 68]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -3636,7 +3636,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolinIIMusicVoice measure 198 / measure 69]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 198 / measure 69]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -3652,10 +3652,10 @@ C_ViolinIIMusicVoice = {                                                       %
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
     <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(3)
+    \voices "Violin_II_Music_Voice", "MultimeasureRestVoice"                   %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolinIIMusicVoice measure 199 / measure 70]                      %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Violin_II_Music_Voice measure 199 / measure 70]                   %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -3663,7 +3663,7 @@ C_ViolinIIMusicVoice = {                                                       %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [C ViolinIIMusicVoice measure 200 / measure 71]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 200 / measure 71]                       %! _comment_measure_numbers
     af'!4                                                                      %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3693,7 +3693,7 @@ C_ViolinIIMusicVoice = {                                                       %
     a'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C ViolinIIMusicVoice measure 201 / measure 72]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 201 / measure 72]                       %! _comment_measure_numbers
     a'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3712,7 +3712,7 @@ C_ViolinIIMusicVoice = {                                                       %
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C ViolinIIMusicVoice measure 202 / measure 73]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 202 / measure 73]                       %! _comment_measure_numbers
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3731,7 +3731,7 @@ C_ViolinIIMusicVoice = {                                                       %
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C ViolinIIMusicVoice measure 203 / measure 74]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 203 / measure 74]                       %! _comment_measure_numbers
     g'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-invisible-line                                                    %! baca_text_spanner:PiecewiseCommand(1)
@@ -3746,7 +3746,7 @@ C_ViolinIIMusicVoice = {                                                       %
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C ViolinIIMusicVoice measure 204 / measure 75]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 204 / measure 75]                       %! _comment_measure_numbers
     g'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3759,7 +3759,7 @@ C_ViolinIIMusicVoice = {                                                       %
     f'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    % [C ViolinIIMusicVoice measure 205 / measure 76]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 205 / measure 76]                       %! _comment_measure_numbers
     f'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3781,26 +3781,26 @@ C_ViolinIIMusicVoice = {                                                       %
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
 
-    % [C ViolinIIMusicVoice measure 206 / measure 77]                          %! _comment_measure_numbers
+    % [C Violin_II_Music_Voice measure 206 / measure 77]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_ViolinIIMusicStaff = {                                                       %! extern
+C_Violin_II_MusicStaff = {                                                     %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \C_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \C_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-C_ViolaMusicVoice = {                                                          %! extern
+C_Viola_Music_Voice = {                                                        %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 130 / measure 1]                          %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 130 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \clef "alto"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -3840,7 +3840,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 131 / measure 2]                          %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 131 / measure 2]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -3864,7 +3864,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 132 / measure 3]                          %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 132 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -3888,7 +3888,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 133 / measure 4]                          %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 133 / measure 4]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -3909,7 +3909,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 14/12 {                                                             %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 134 / measure 5]                          %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 134 / measure 5]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3943,13 +3943,13 @@ C_ViolaMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C ViolaMusicVoice measure 135 / measure 6]                              %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 135 / measure 6]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 136 / measure 7]                          %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 136 / measure 7]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3981,7 +3981,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 137 / measure 8]                          %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 137 / measure 8]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -4008,7 +4008,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 138 / measure 9]                          %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 138 / measure 9]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -4038,7 +4038,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 139 / measure 10]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 139 / measure 10]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -4066,10 +4066,10 @@ C_ViolaMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    \voices "Viola_Music_Voice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolaMusicVoice measure 140 / measure 11]                         %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Viola_Music_Voice measure 140 / measure 11]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -4080,7 +4080,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 141 / measure 12]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 141 / measure 12]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -4108,7 +4108,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 142 / measure 13]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 142 / measure 13]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4129,7 +4129,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 143 / measure 14]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 143 / measure 14]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4157,7 +4157,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 144 / measure 15]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 144 / measure 15]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -4179,7 +4179,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 145 / measure 16]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 145 / measure 16]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -4208,7 +4208,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 146 / measure 17]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 146 / measure 17]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4229,7 +4229,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 147 / measure 18]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 147 / measure 18]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4255,7 +4255,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 148 / measure 19]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 148 / measure 19]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4277,7 +4277,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 149 / measure 20]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 149 / measure 20]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -4307,7 +4307,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 150 / measure 21]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 150 / measure 21]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4331,7 +4331,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 151 / measure 22]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 151 / measure 22]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
@@ -4364,7 +4364,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 152 / measure 23]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 152 / measure 23]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4384,7 +4384,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 153 / measure 24]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 153 / measure 24]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -4419,7 +4419,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 154 / measure 25]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 154 / measure 25]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -4443,7 +4443,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 155 / measure 26]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 155 / measure 26]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -4470,7 +4470,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 156 / measure 27]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 156 / measure 27]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -4497,7 +4497,7 @@ C_ViolaMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C ViolaMusicVoice measure 157 / measure 28]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 157 / measure 28]                           %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
@@ -4519,7 +4519,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
-        % [C ViolaMusicVoice measure 158 / measure 29]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 158 / measure 29]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_clouded_pane
         \repeatTie
@@ -4531,7 +4531,7 @@ C_ViolaMusicVoice = {                                                          %
 
     }
 
-    % [C ViolaMusicVoice measure 159 / measure 30]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 159 / measure 30]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4553,7 +4553,7 @@ C_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 160 / measure 31]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 160 / measure 31]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -4564,7 +4564,7 @@ C_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 161 / measure 32]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 161 / measure 32]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4575,7 +4575,7 @@ C_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 162 / measure 33]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 162 / measure 33]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4590,10 +4590,10 @@ C_ViolaMusicVoice = {                                                          %
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
     <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    \voices "Viola_Music_Voice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolaMusicVoice measure 163 / measure 34]                         %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Viola_Music_Voice measure 163 / measure 34]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 5/8                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -4601,10 +4601,10 @@ C_ViolaMusicVoice = {                                                          %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [C ViolaMusicVoice measure 164 / measure 35]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 164 / measure 35]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [C ViolaMusicVoice measure 165 / measure 36]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 165 / measure 36]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4628,7 +4628,7 @@ C_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 166 / measure 37]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 166 / measure 37]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -4639,7 +4639,7 @@ C_ViolaMusicVoice = {                                                          %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 167 / measure 38]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 167 / measure 38]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -4649,7 +4649,7 @@ C_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 168 / measure 39]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 168 / measure 39]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -4662,7 +4662,7 @@ C_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 169 / measure 40]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 169 / measure 40]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4676,7 +4676,7 @@ C_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 170 / measure 41]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 170 / measure 41]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -4687,7 +4687,7 @@ C_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 171 / measure 42]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 171 / measure 42]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4698,7 +4698,7 @@ C_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 172 / measure 43]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 172 / measure 43]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4713,7 +4713,7 @@ C_ViolaMusicVoice = {                                                          %
     ~
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolaMusicVoice measure 173 / measure 44]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 173 / measure 44]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4727,7 +4727,7 @@ C_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 174 / measure 45]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 174 / measure 45]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -4742,7 +4742,7 @@ C_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 175 / measure 46]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 175 / measure 46]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -4752,7 +4752,7 @@ C_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 176 / measure 47]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 176 / measure 47]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -4769,7 +4769,7 @@ C_ViolaMusicVoice = {                                                          %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
-    % [C ViolaMusicVoice measure 177 / measure 48]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 177 / measure 48]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4783,7 +4783,7 @@ C_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 178 / measure 49]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 178 / measure 49]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -4794,7 +4794,7 @@ C_ViolaMusicVoice = {                                                          %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 179 / measure 50]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 179 / measure 50]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -4805,7 +4805,7 @@ C_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 180 / measure 51]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 180 / measure 51]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4820,7 +4820,7 @@ C_ViolaMusicVoice = {                                                          %
     ~
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolaMusicVoice measure 181 / measure 52]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 181 / measure 52]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4833,7 +4833,7 @@ C_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 182 / measure 53]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 182 / measure 53]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4845,7 +4845,7 @@ C_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 183 / measure 54]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 183 / measure 54]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -4854,7 +4854,7 @@ C_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 184 / measure 55]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 184 / measure 55]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4867,7 +4867,7 @@ C_ViolaMusicVoice = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    % [C ViolaMusicVoice measure 185 / measure 56]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 185 / measure 56]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
@@ -4889,7 +4889,7 @@ C_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 186 / measure 57]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 186 / measure 57]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -4906,7 +4906,7 @@ C_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 187 / measure 58]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 187 / measure 58]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -4926,7 +4926,7 @@ C_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 188 / measure 59]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 188 / measure 59]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -4937,7 +4937,7 @@ C_ViolaMusicVoice = {                                                          %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolaMusicVoice measure 189 / measure 60]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 189 / measure 60]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4950,13 +4950,13 @@ C_ViolaMusicVoice = {                                                          %
     - \tweak staff-padding #4                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
-    % [C ViolaMusicVoice measure 190 / measure 61]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 190 / measure 61]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     \repeatTie
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C ViolaMusicVoice measure 191 / measure 62]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 191 / measure 62]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4978,7 +4978,7 @@ C_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 192 / measure 63]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 192 / measure 63]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4986,7 +4986,7 @@ C_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 193 / measure 64]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 193 / measure 64]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4997,7 +4997,7 @@ C_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 194 / measure 65]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 194 / measure 65]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5009,7 +5009,7 @@ C_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 195 / measure 66]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 195 / measure 66]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -5020,7 +5020,7 @@ C_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C ViolaMusicVoice measure 196 / measure 67]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 196 / measure 67]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -5030,7 +5030,7 @@ C_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 197 / measure 68]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 197 / measure 68]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -5040,7 +5040,7 @@ C_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C ViolaMusicVoice measure 198 / measure 69]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 198 / measure 69]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -5056,10 +5056,10 @@ C_ViolaMusicVoice = {                                                          %
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
     <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    \voices "Viola_Music_Voice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C ViolaMusicVoice measure 199 / measure 70]                         %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Viola_Music_Voice measure 199 / measure 70]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -5070,7 +5070,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 200 / measure 71]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 200 / measure 71]                       %! _comment_measure_numbers
         a4                                                                     %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5111,7 +5111,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 201 / measure 72]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 201 / measure 72]                       %! _comment_measure_numbers
         g4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -5141,7 +5141,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 202 / measure 73]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 202 / measure 73]                       %! _comment_measure_numbers
         f4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -5171,7 +5171,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 203 / measure 74]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 203 / measure 74]                       %! _comment_measure_numbers
         e4                                                                     %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
@@ -5197,7 +5197,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 204 / measure 75]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 204 / measure 75]                       %! _comment_measure_numbers
         d4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -5221,7 +5221,7 @@ C_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
-        % [C ViolaMusicVoice measure 205 / measure 76]                         %! _comment_measure_numbers
+        % [C Viola_Music_Voice measure 205 / measure 76]                       %! _comment_measure_numbers
         c4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -5251,26 +5251,26 @@ C_ViolaMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C ViolaMusicVoice measure 206 / measure 77]                             %! _comment_measure_numbers
+    % [C Viola_Music_Voice measure 206 / measure 77]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_ViolaMusicStaff = {                                                          %! extern
+C_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \C_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \C_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-C_CelloMusicVoice = {                                                          %! extern
+C_Cello_Music_Voice = {                                                        %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 130 / measure 1]                          %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 130 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings-still-vc-markup            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \clef "bass"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -5301,7 +5301,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 131 / measure 2]                          %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 131 / measure 2]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5316,7 +5316,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 132 / measure 3]                          %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 132 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5331,7 +5331,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 133 / measure 4]                          %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 133 / measure 4]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5340,7 +5340,7 @@ C_CelloMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C CelloMusicVoice measure 134 / measure 5]                              %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 134 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! stirrings_still_taper
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5360,7 +5360,7 @@ C_CelloMusicVoice = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [C CelloMusicVoice measure 135 / measure 6]                              %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 135 / measure 6]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5368,7 +5368,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 136 / measure 7]                          %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 136 / measure 7]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5391,7 +5391,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 137 / measure 8]                          %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 137 / measure 8]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5409,7 +5409,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 138 / measure 9]                          %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 138 / measure 9]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5430,7 +5430,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 139 / measure 10]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 139 / measure 10]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5449,10 +5449,10 @@ C_CelloMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    \voices "CelloMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    \voices "Cello_Music_Voice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C CelloMusicVoice measure 140 / measure 11]                         %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Cello_Music_Voice measure 140 / measure 11]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -5463,7 +5463,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 141 / measure 12]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 141 / measure 12]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -5483,7 +5483,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 142 / measure 13]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 142 / measure 13]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5497,7 +5497,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 143 / measure 14]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 143 / measure 14]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5518,7 +5518,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 144 / measure 15]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 144 / measure 15]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5532,7 +5532,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 145 / measure 16]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 145 / measure 16]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -5553,7 +5553,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 146 / measure 17]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 146 / measure 17]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5567,7 +5567,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 147 / measure 18]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 147 / measure 18]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5585,7 +5585,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 148 / measure 19]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 148 / measure 19]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5600,7 +5600,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 149 / measure 20]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 149 / measure 20]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -5622,7 +5622,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 150 / measure 21]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 150 / measure 21]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5638,7 +5638,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 151 / measure 22]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 151 / measure 22]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
@@ -5663,7 +5663,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 152 / measure 23]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 152 / measure 23]                       %! _comment_measure_numbers
         r4
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5675,7 +5675,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 153 / measure 24]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 153 / measure 24]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
@@ -5701,7 +5701,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 154 / measure 25]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 154 / measure 25]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5716,7 +5716,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 155 / measure 26]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 155 / measure 26]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5734,7 +5734,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 156 / measure 27]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 156 / measure 27]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
@@ -5752,7 +5752,7 @@ C_CelloMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C CelloMusicVoice measure 157 / measure 28]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 157 / measure 28]                           %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
@@ -5774,7 +5774,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
-        % [C CelloMusicVoice measure 158 / measure 29]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 158 / measure 29]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_clouded_pane
         \repeatTie
@@ -5786,7 +5786,7 @@ C_CelloMusicVoice = {                                                          %
 
     }
 
-    % [C CelloMusicVoice measure 159 / measure 30]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 159 / measure 30]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5808,7 +5808,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 160 / measure 31]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 160 / measure 31]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -5819,7 +5819,7 @@ C_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 161 / measure 32]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 161 / measure 32]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5830,7 +5830,7 @@ C_CelloMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 162 / measure 33]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 162 / measure 33]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5843,7 +5843,7 @@ C_CelloMusicVoice = {                                                          %
 
     r8
 
-    % [C CelloMusicVoice measure 163 / measure 34]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 163 / measure 34]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5856,13 +5856,13 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [C CelloMusicVoice measure 164 / measure 35]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 164 / measure 35]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     \repeatTie
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C CelloMusicVoice measure 165 / measure 36]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 165 / measure 36]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5886,7 +5886,7 @@ C_CelloMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 166 / measure 37]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 166 / measure 37]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -5897,7 +5897,7 @@ C_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 167 / measure 38]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 167 / measure 38]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -5907,7 +5907,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 168 / measure 39]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 168 / measure 39]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -5920,7 +5920,7 @@ C_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 169 / measure 40]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 169 / measure 40]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5934,7 +5934,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 170 / measure 41]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 170 / measure 41]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -5945,7 +5945,7 @@ C_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 171 / measure 42]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 171 / measure 42]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -5954,7 +5954,7 @@ C_CelloMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 172 / measure 43]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 172 / measure 43]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5969,7 +5969,7 @@ C_CelloMusicVoice = {                                                          %
     ~
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C CelloMusicVoice measure 173 / measure 44]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 173 / measure 44]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5982,7 +5982,7 @@ C_CelloMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 174 / measure 45]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 174 / measure 45]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5994,7 +5994,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 175 / measure 46]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 175 / measure 46]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -6004,7 +6004,7 @@ C_CelloMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 176 / measure 47]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 176 / measure 47]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -6021,7 +6021,7 @@ C_CelloMusicVoice = {                                                          %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
-    % [C CelloMusicVoice measure 177 / measure 48]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 177 / measure 48]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6035,7 +6035,7 @@ C_CelloMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 178 / measure 49]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 178 / measure 49]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -6050,7 +6050,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 179 / measure 50]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 179 / measure 50]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -6061,7 +6061,7 @@ C_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 180 / measure 51]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 180 / measure 51]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6076,7 +6076,7 @@ C_CelloMusicVoice = {                                                          %
     ~
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-    % [C CelloMusicVoice measure 181 / measure 52]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 181 / measure 52]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6091,7 +6091,7 @@ C_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 182 / measure 53]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 182 / measure 53]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6103,7 +6103,7 @@ C_CelloMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 183 / measure 54]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 183 / measure 54]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -6112,7 +6112,7 @@ C_CelloMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 184 / measure 55]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 184 / measure 55]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6125,7 +6125,7 @@ C_CelloMusicVoice = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    % [C CelloMusicVoice measure 185 / measure 56]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 185 / measure 56]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
@@ -6151,7 +6151,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 186 / measure 57]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 186 / measure 57]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -6168,7 +6168,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 187 / measure 58]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 187 / measure 58]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -6188,7 +6188,7 @@ C_CelloMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 188 / measure 59]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 188 / measure 59]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -6201,10 +6201,10 @@ C_CelloMusicVoice = {                                                          %
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
     <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "CelloMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    \voices "Cello_Music_Voice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C CelloMusicVoice measure 189 / measure 60]                         %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Cello_Music_Voice measure 189 / measure 60]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/2                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -6212,10 +6212,10 @@ C_CelloMusicVoice = {                                                          %
 
     >>                                                                         %! _parallelize_multimeasure_rests(2)
 
-    % [C CelloMusicVoice measure 190 / measure 61]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 190 / measure 61]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [C CelloMusicVoice measure 191 / measure 62]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 191 / measure 62]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6236,7 +6236,7 @@ C_CelloMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 192 / measure 63]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 192 / measure 63]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6244,7 +6244,7 @@ C_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 193 / measure 64]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 193 / measure 64]                           %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6255,7 +6255,7 @@ C_CelloMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 194 / measure 65]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 194 / measure 65]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_synchronized_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6267,7 +6267,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 195 / measure 66]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 195 / measure 66]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -6278,7 +6278,7 @@ C_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
-    % [C CelloMusicVoice measure 196 / measure 67]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 196 / measure 67]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
 
@@ -6288,7 +6288,7 @@ C_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 197 / measure 68]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 197 / measure 68]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
 
@@ -6298,7 +6298,7 @@ C_CelloMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_synchronized_circles
     ~
 
-    % [C CelloMusicVoice measure 198 / measure 69]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 198 / measure 69]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
 
@@ -6314,10 +6314,10 @@ C_CelloMusicVoice = {                                                          %
     <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
     <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "CelloMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    \voices "Cello_Music_Voice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
 
-        % [C CelloMusicVoice measure 199 / measure 70]                         %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        % [C Cello_Music_Voice measure 199 / measure 70]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
         \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
         c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(4)
         \\                                                                     %! _parallelize_multimeasure_rests(6)
@@ -6328,7 +6328,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 200 / measure 71]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 200 / measure 71]                       %! _comment_measure_numbers
         g,4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6360,7 +6360,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 201 / measure 72]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 201 / measure 72]                       %! _comment_measure_numbers
         f,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -6381,7 +6381,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 202 / measure 73]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 202 / measure 73]                       %! _comment_measure_numbers
         e,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -6402,7 +6402,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 203 / measure 74]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 203 / measure 74]                       %! _comment_measure_numbers
         d,4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
@@ -6419,7 +6419,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 204 / measure 75]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 204 / measure 75]                       %! _comment_measure_numbers
         c,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -6434,7 +6434,7 @@ C_CelloMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
-        % [C CelloMusicVoice measure 205 / measure 76]                         %! _comment_measure_numbers
+        % [C Cello_Music_Voice measure 205 / measure 76]                       %! _comment_measure_numbers
         c,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -6455,15 +6455,15 @@ C_CelloMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_desynchronization
 
-    % [C CelloMusicVoice measure 206 / measure 77]                             %! _comment_measure_numbers
+    % [C Cello_Music_Voice measure 206 / measure 77]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-C_CelloMusicStaff = {                                                          %! extern
+C_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \C_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \C_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern

@@ -228,9 +228,9 @@ R_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-R_ViolinIMusicVoice = {                                                        %! extern
+R_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [R ViolinIMusicVoice measure 812 / measure 1]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 812 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -246,65 +246,65 @@ R_ViolinIMusicVoice = {                                                        %
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [R ViolinIMusicVoice measure 813 / measure 2]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 813 / measure 2]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 814 / measure 3]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 814 / measure 3]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 815 / measure 4]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 815 / measure 4]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 816 / measure 5]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 816 / measure 5]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 817 / measure 6]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 817 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 818 / measure 7]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 818 / measure 7]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 819 / measure 8]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 819 / measure 8]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 820 / measure 9]                            %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 820 / measure 9]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 821 / measure 10]                           %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 821 / measure 10]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 822 / measure 11]                           %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 822 / measure 11]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 823 / measure 12]                           %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 823 / measure 12]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 824 / measure 13]                           %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 824 / measure 13]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 825 / measure 14]                           %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 825 / measure 14]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 826 / measure 15]                           %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 826 / measure 15]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIMusicVoice measure 827 / measure 16]                           %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 827 / measure 16]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-R_ViolinIMusicStaff = {                                                        %! extern
+R_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \R_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \R_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-R_ViolinIIMusicVoice = {                                                       %! extern
+R_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [R ViolinIIMusicVoice measure 812 / measure 1]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 812 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -320,65 +320,65 @@ R_ViolinIIMusicVoice = {                                                       %
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [R ViolinIIMusicVoice measure 813 / measure 2]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 813 / measure 2]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 814 / measure 3]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 814 / measure 3]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 815 / measure 4]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 815 / measure 4]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 816 / measure 5]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 816 / measure 5]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 817 / measure 6]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 817 / measure 6]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 818 / measure 7]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 818 / measure 7]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 819 / measure 8]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 819 / measure 8]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 820 / measure 9]                           %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 820 / measure 9]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 821 / measure 10]                          %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 821 / measure 10]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 822 / measure 11]                          %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 822 / measure 11]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 823 / measure 12]                          %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 823 / measure 12]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 824 / measure 13]                          %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 824 / measure 13]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 825 / measure 14]                          %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 825 / measure 14]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 826 / measure 15]                          %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 826 / measure 15]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolinIIMusicVoice measure 827 / measure 16]                          %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 827 / measure 16]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-R_ViolinIIMusicStaff = {                                                       %! extern
+R_Violin_II_MusicStaff = {                                                     %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \R_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \R_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-R_ViolaMusicVoice = {                                                          %! extern
+R_Viola_Music_Voice = {                                                        %! extern
 
-    % [R ViolaMusicVoice measure 812 / measure 1]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 812 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -398,65 +398,65 @@ R_ViolaMusicVoice = {                                                          %
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [R ViolaMusicVoice measure 813 / measure 2]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 813 / measure 2]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 814 / measure 3]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 814 / measure 3]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 815 / measure 4]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 815 / measure 4]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 816 / measure 5]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 816 / measure 5]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 817 / measure 6]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 817 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 818 / measure 7]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 818 / measure 7]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 819 / measure 8]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 819 / measure 8]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 820 / measure 9]                              %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 820 / measure 9]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 821 / measure 10]                             %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 821 / measure 10]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 822 / measure 11]                             %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 822 / measure 11]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 823 / measure 12]                             %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 823 / measure 12]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 824 / measure 13]                             %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 824 / measure 13]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 825 / measure 14]                             %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 825 / measure 14]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 826 / measure 15]                             %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 826 / measure 15]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R ViolaMusicVoice measure 827 / measure 16]                             %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 827 / measure 16]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-R_ViolaMusicStaff = {                                                          %! extern
+R_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \R_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \R_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-R_CelloMusicVoice = {                                                          %! extern
+R_Cello_Music_Voice = {                                                        %! extern
 
-    % [R CelloMusicVoice measure 812 / measure 1]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 812 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -472,57 +472,57 @@ R_CelloMusicVoice = {                                                          %
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [R CelloMusicVoice measure 813 / measure 2]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 813 / measure 2]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 814 / measure 3]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 814 / measure 3]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 815 / measure 4]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 815 / measure 4]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 816 / measure 5]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 816 / measure 5]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 817 / measure 6]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 817 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 818 / measure 7]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 818 / measure 7]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 819 / measure 8]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 819 / measure 8]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 820 / measure 9]                              %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 820 / measure 9]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 821 / measure 10]                             %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 821 / measure 10]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 822 / measure 11]                             %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 822 / measure 11]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 823 / measure 12]                             %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 823 / measure 12]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 824 / measure 13]                             %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 824 / measure 13]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 825 / measure 14]                             %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 825 / measure 14]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 826 / measure 15]                             %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 826 / measure 15]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [R CelloMusicVoice measure 827 / measure 16]                             %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 827 / measure 16]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-R_CelloMusicStaff = {                                                          %! extern
+R_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \R_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \R_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
