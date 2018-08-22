@@ -31,24 +31,24 @@
             \context MusicContext = "MusicContext"                             %! ScoreTemplate
             {                                                                  %! ScoreTemplate
 
-                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"   %! ScoreTemplate
+                \context StringQuartetStaffGroup = "String_Quartet_Staff_Group" %! ScoreTemplate
                 <<                                                             %! ScoreTemplate
 
                     \tag ViolinI                                               %! ScoreTemplate(5)
-                    \context Staff = "ViolinIMusicStaff"                       %! ScoreTemplate
-                    \Q_ViolinIMusicStaff                                       %! extern
+                    \context Staff = "Violin_I_Music_Staff"                    %! ScoreTemplate
+                    \Q_Violin_I_Music_Staff                                    %! extern
 
                     \tag ViolinII                                              %! ScoreTemplate(5)
-                    \context Staff = "ViolinIIMusicStaff"                      %! ScoreTemplate
-                    \Q_ViolinIIMusicStaff                                      %! extern
+                    \context Staff = "Violin_II_MusicStaff"                    %! ScoreTemplate
+                    \Q_Violin_II_MusicStaff                                    %! extern
 
                     \tag viola                                                 %! ScoreTemplate(5)
-                    \context Staff = "ViolaMusicStaff"                         %! ScoreTemplate
-                    \Q_ViolaMusicStaff                                         %! extern
+                    \context Staff = "Viola_Music_Staff"                       %! ScoreTemplate
+                    \Q_Viola_Music_Staff                                       %! extern
 
                     \tag cello                                                 %! ScoreTemplate(5)
-                    \context Staff = "CelloMusicStaff"                         %! ScoreTemplate
-                    \Q_CelloMusicStaff                                         %! extern
+                    \context Staff = "Cello_Music_Staff"                       %! ScoreTemplate
+                    \Q_Cello_Music_Staff                                       %! extern
 
                 >>                                                             %! ScoreTemplate
 

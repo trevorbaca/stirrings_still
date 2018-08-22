@@ -133,9 +133,9 @@ O_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-O_ViolinIMusicVoice = {                                                        %! extern
+O_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [O ViolinIMusicVoice measure 686 / measure 1]                            %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 686 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -151,41 +151,41 @@ O_ViolinIMusicVoice = {                                                        %
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [O ViolinIMusicVoice measure 687 / measure 2]                            %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 687 / measure 2]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolinIMusicVoice measure 688 / measure 3]                            %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 688 / measure 3]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolinIMusicVoice measure 689 / measure 4]                            %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 689 / measure 4]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolinIMusicVoice measure 690 / measure 5]                            %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 690 / measure 5]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolinIMusicVoice measure 691 / measure 6]                            %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 691 / measure 6]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolinIMusicVoice measure 692 / measure 7]                            %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 692 / measure 7]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolinIMusicVoice measure 693 / measure 8]                            %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 693 / measure 8]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-O_ViolinIMusicStaff = {                                                        %! extern
+O_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \O_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \O_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-O_ViolinIIMusicVoice = {                                                       %! extern
+O_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [O ViolinIIMusicVoice measure 686 / measure 1]                           %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 686 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -201,41 +201,41 @@ O_ViolinIIMusicVoice = {                                                       %
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [O ViolinIIMusicVoice measure 687 / measure 2]                           %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 687 / measure 2]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolinIIMusicVoice measure 688 / measure 3]                           %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 688 / measure 3]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolinIIMusicVoice measure 689 / measure 4]                           %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 689 / measure 4]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolinIIMusicVoice measure 690 / measure 5]                           %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 690 / measure 5]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolinIIMusicVoice measure 691 / measure 6]                           %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 691 / measure 6]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolinIIMusicVoice measure 692 / measure 7]                           %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 692 / measure 7]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolinIIMusicVoice measure 693 / measure 8]                           %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 693 / measure 8]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-O_ViolinIIMusicStaff = {                                                       %! extern
+O_Violin_II_MusicStaff = {                                                     %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \O_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \O_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-O_ViolaMusicVoice = {                                                          %! extern
+O_Viola_Music_Voice = {                                                        %! extern
 
-    % [O ViolaMusicVoice measure 686 / measure 1]                              %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 686 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -255,41 +255,41 @@ O_ViolaMusicVoice = {                                                          %
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [O ViolaMusicVoice measure 687 / measure 2]                              %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 687 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolaMusicVoice measure 688 / measure 3]                              %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 688 / measure 3]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolaMusicVoice measure 689 / measure 4]                              %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 689 / measure 4]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolaMusicVoice measure 690 / measure 5]                              %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 690 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolaMusicVoice measure 691 / measure 6]                              %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 691 / measure 6]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [O ViolaMusicVoice measure 692 / measure 7]                              %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 692 / measure 7]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O ViolaMusicVoice measure 693 / measure 8]                              %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 693 / measure 8]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-O_ViolaMusicStaff = {                                                          %! extern
+O_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \O_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \O_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-O_CelloMusicVoice = {                                                          %! extern
+O_Cello_Music_Voice = {                                                        %! extern
 
-    % [O CelloMusicVoice measure 686 / measure 1]                              %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 686 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -305,33 +305,33 @@ O_CelloMusicVoice = {                                                          %
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [O CelloMusicVoice measure 687 / measure 2]                              %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 687 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O CelloMusicVoice measure 688 / measure 3]                              %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 688 / measure 3]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [O CelloMusicVoice measure 689 / measure 4]                              %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 689 / measure 4]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [O CelloMusicVoice measure 690 / measure 5]                              %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 690 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O CelloMusicVoice measure 691 / measure 6]                              %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 691 / measure 6]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [O CelloMusicVoice measure 692 / measure 7]                              %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 692 / measure 7]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [O CelloMusicVoice measure 693 / measure 8]                              %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 693 / measure 8]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-O_CelloMusicStaff = {                                                          %! extern
+O_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \O_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \O_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern

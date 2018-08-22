@@ -260,9 +260,9 @@ J_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-J_ViolinIMusicVoice = {                                                        %! extern
+J_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [J ViolinIMusicVoice measure 530 / measure 1]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 530 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -280,48 +280,48 @@ J_ViolinIMusicVoice = {                                                        %
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J ViolinIMusicVoice measure 531 / measure 2]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 531 / measure 2]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIMusicVoice measure 532 / measure 3]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 532 / measure 3]                         %! _comment_measure_numbers
     \once \override NoteHead.style = #'harmonic                                %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
-    % [J ViolinIMusicVoice measure 533 / measure 4]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 533 / measure 4]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
 
-    % [J ViolinIMusicVoice measure 534 / measure 5]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 534 / measure 5]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIMusicVoice measure 535 / measure 6]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 535 / measure 6]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
-    % [J ViolinIMusicVoice measure 536 / measure 7]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 536 / measure 7]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIMusicVoice measure 537 / measure 8]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 537 / measure 8]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIMusicVoice measure 538 / measure 9]                            %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 538 / measure 9]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
     \repeatTie
@@ -330,7 +330,7 @@ J_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIMusicVoice measure 539 / measure 10]                           %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 539 / measure 10]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -338,38 +338,38 @@ J_ViolinIMusicVoice = {                                                        %
     ^ \markup { "poco scratch" }                                               %! baca_markup:IndicatorCommand
     \repeatTie
 
-    % [J ViolinIMusicVoice measure 540 / measure 11]                           %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 540 / measure 11]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [J ViolinIMusicVoice measure 541 / measure 12]                           %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 541 / measure 12]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J ViolinIMusicVoice measure 542 / measure 13]                           %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 542 / measure 13]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J ViolinIMusicVoice measure 543 / measure 14]                           %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 543 / measure 14]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [J ViolinIMusicVoice measure 544 / measure 15]                           %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 544 / measure 15]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [J ViolinIMusicVoice measure 545 / measure 16]                           %! _comment_measure_numbers
+    % [J Violin_I_Music_Voice measure 545 / measure 16]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-J_ViolinIMusicStaff = {                                                        %! extern
+J_Violin_I_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
-    \J_ViolinIMusicVoice                                                       %! extern
+    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \J_Violin_I_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-J_ViolinIIMusicVoice = {                                                       %! extern
+J_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [J ViolinIIMusicVoice measure 530 / measure 1]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 530 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -387,14 +387,14 @@ J_ViolinIIMusicVoice = {                                                       %
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J ViolinIIMusicVoice measure 531 / measure 2]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 531 / measure 2]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     \repeatTie
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
-        % [J ViolinIIMusicVoice measure 532 / measure 3]                       %! _comment_measure_numbers
+        % [J Violin_II_Music_Voice measure 532 / measure 3]                    %! _comment_measure_numbers
         \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
@@ -429,7 +429,7 @@ J_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! stirrings_still_clockticks
 
-    % [J ViolinIIMusicVoice measure 533 / measure 4]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 533 / measure 4]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -437,29 +437,29 @@ J_ViolinIIMusicVoice = {                                                       %
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
 
-    % [J ViolinIIMusicVoice measure 534 / measure 5]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 534 / measure 5]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIIMusicVoice measure 535 / measure 6]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 535 / measure 6]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
-    % [J ViolinIIMusicVoice measure 536 / measure 7]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 536 / measure 7]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIIMusicVoice measure 537 / measure 8]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 537 / measure 8]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIIMusicVoice measure 538 / measure 9]                           %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 538 / measure 9]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
     \repeatTie
@@ -468,7 +468,7 @@ J_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolinIIMusicVoice measure 539 / measure 10]                          %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 539 / measure 10]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -476,38 +476,38 @@ J_ViolinIIMusicVoice = {                                                       %
     ^ \markup { "poco scratch" }                                               %! baca_markup:IndicatorCommand
     \repeatTie
 
-    % [J ViolinIIMusicVoice measure 540 / measure 11]                          %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 540 / measure 11]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [J ViolinIIMusicVoice measure 541 / measure 12]                          %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 541 / measure 12]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J ViolinIIMusicVoice measure 542 / measure 13]                          %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 542 / measure 13]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J ViolinIIMusicVoice measure 543 / measure 14]                          %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 543 / measure 14]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [J ViolinIIMusicVoice measure 544 / measure 15]                          %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 544 / measure 15]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [J ViolinIIMusicVoice measure 545 / measure 16]                          %! _comment_measure_numbers
+    % [J Violin_II_Music_Voice measure 545 / measure 16]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-J_ViolinIIMusicStaff = {                                                       %! extern
+J_Violin_II_MusicStaff = {                                                     %! extern
 
-    \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
-    \J_ViolinIIMusicVoice                                                      %! extern
+    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \J_Violin_II_Music_Voice                                                   %! extern
 
 }                                                                              %! extern
 
 
-J_ViolaMusicVoice = {                                                          %! extern
+J_Viola_Music_Voice = {                                                        %! extern
 
-    % [J ViolaMusicVoice measure 530 / measure 1]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 530 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -529,32 +529,32 @@ J_ViolaMusicVoice = {                                                          %
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J ViolaMusicVoice measure 531 / measure 2]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 531 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolaMusicVoice measure 532 / measure 3]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 532 / measure 3]                            %! _comment_measure_numbers
     \once \override NoteHead.style = #'harmonic                                %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
-    % [J ViolaMusicVoice measure 533 / measure 4]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 533 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
 
-    % [J ViolaMusicVoice measure 534 / measure 5]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 534 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 535 / measure 6]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 535 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -562,17 +562,17 @@ J_ViolaMusicVoice = {                                                          %
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 536 / measure 7]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 536 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolaMusicVoice measure 537 / measure 8]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 537 / measure 8]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolaMusicVoice measure 538 / measure 9]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 538 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
     \repeatTie
@@ -581,7 +581,7 @@ J_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J ViolaMusicVoice measure 539 / measure 10]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 539 / measure 10]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -589,38 +589,38 @@ J_ViolaMusicVoice = {                                                          %
     ^ \markup { "poco scratch" }                                               %! baca_markup:IndicatorCommand
     \repeatTie
 
-    % [J ViolaMusicVoice measure 540 / measure 11]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 540 / measure 11]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [J ViolaMusicVoice measure 541 / measure 12]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 541 / measure 12]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J ViolaMusicVoice measure 542 / measure 13]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 542 / measure 13]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J ViolaMusicVoice measure 543 / measure 14]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 543 / measure 14]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [J ViolaMusicVoice measure 544 / measure 15]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 544 / measure 15]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [J ViolaMusicVoice measure 545 / measure 16]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 545 / measure 16]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-J_ViolaMusicStaff = {                                                          %! extern
+J_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \J_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \J_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-J_CelloMusicVoice = {                                                          %! extern
+J_Cello_Music_Voice = {                                                        %! extern
 
-    % [J CelloMusicVoice measure 530 / measure 1]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 530 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -636,39 +636,39 @@ J_CelloMusicVoice = {                                                          %
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J CelloMusicVoice measure 531 / measure 2]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 531 / measure 2]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [J CelloMusicVoice measure 532 / measure 3]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 532 / measure 3]                            %! _comment_measure_numbers
     \once \override NoteHead.style = #'harmonic                                %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
-    % [J CelloMusicVoice measure 533 / measure 4]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 533 / measure 4]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [J CelloMusicVoice measure 534 / measure 5]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 534 / measure 5]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J CelloMusicVoice measure 535 / measure 6]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 535 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [J CelloMusicVoice measure 536 / measure 7]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 536 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J CelloMusicVoice measure 537 / measure 8]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 537 / measure 8]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J CelloMusicVoice measure 538 / measure 9]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 538 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
     \repeatTie
@@ -677,7 +677,7 @@ J_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_urtext_field
     \repeatTie
 
-    % [J CelloMusicVoice measure 539 / measure 10]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 539 / measure 10]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -685,30 +685,30 @@ J_CelloMusicVoice = {                                                          %
     ^ \markup { "poco scratch" }                                               %! baca_markup:IndicatorCommand
     \repeatTie
 
-    % [J CelloMusicVoice measure 540 / measure 11]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 540 / measure 11]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [J CelloMusicVoice measure 541 / measure 12]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 541 / measure 12]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J CelloMusicVoice measure 542 / measure 13]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 542 / measure 13]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [J CelloMusicVoice measure 543 / measure 14]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 543 / measure 14]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    % [J CelloMusicVoice measure 544 / measure 15]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 544 / measure 15]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [J CelloMusicVoice measure 545 / measure 16]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 545 / measure 16]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-J_CelloMusicStaff = {                                                          %! extern
+J_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \J_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \J_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
