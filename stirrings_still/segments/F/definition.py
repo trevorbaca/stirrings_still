@@ -15,7 +15,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.rehearsal_mark(
         'F',
         abjad.tweak(12).Y_offset,
