@@ -7,7 +7,7 @@ def stage_markup(maker, pairs):
     """
     for value, lmn in pairs:
         maker(
-            'GlobalSkips',
+            'Global_Skips',
             baca.markup(
                 value,
                 selector=baca.skip(lmn - 1),

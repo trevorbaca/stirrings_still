@@ -1,289 +1,289 @@
-Q_GlobalRests = {                                                              %! extern
+Q_Global_Rests = {                                                             %! extern
 
-    % [Q GlobalRests measure 720 / measure 1]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 720 / measure 1]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 721 / measure 2]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 721 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 722 / measure 3]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 722 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 723 / measure 4]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 723 / measure 4]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 724 / measure 5]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 724 / measure 5]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 725 / measure 6]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 725 / measure 6]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 726 / measure 7]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 726 / measure 7]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 727 / measure 8]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 727 / measure 8]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 728 / measure 9]                                  %! _comment_measure_numbers
+    % [Q Global_Rests measure 728 / measure 9]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 729 / measure 10]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 729 / measure 10]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 730 / measure 11]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 730 / measure 11]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 731 / measure 12]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 731 / measure 12]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 732 / measure 13]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 732 / measure 13]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 733 / measure 14]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 733 / measure 14]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 734 / measure 15]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 734 / measure 15]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 735 / measure 16]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 735 / measure 16]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 736 / measure 17]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 736 / measure 17]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 737 / measure 18]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 737 / measure 18]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 738 / measure 19]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 738 / measure 19]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 739 / measure 20]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 739 / measure 20]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 740 / measure 21]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 740 / measure 21]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 741 / measure 22]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 741 / measure 22]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 742 / measure 23]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 742 / measure 23]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 743 / measure 24]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 743 / measure 24]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 744 / measure 25]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 744 / measure 25]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 745 / measure 26]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 745 / measure 26]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 746 / measure 27]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 746 / measure 27]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 747 / measure 28]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 747 / measure 28]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 748 / measure 29]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 748 / measure 29]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 749 / measure 30]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 749 / measure 30]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 750 / measure 31]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 750 / measure 31]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 751 / measure 32]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 751 / measure 32]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 752 / measure 33]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 752 / measure 33]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 753 / measure 34]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 753 / measure 34]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 754 / measure 35]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 754 / measure 35]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 755 / measure 36]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 755 / measure 36]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 756 / measure 37]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 756 / measure 37]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 757 / measure 38]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 757 / measure 38]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 758 / measure 39]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 758 / measure 39]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 759 / measure 40]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 759 / measure 40]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 760 / measure 41]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 760 / measure 41]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 761 / measure 42]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 761 / measure 42]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 762 / measure 43]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 762 / measure 43]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 763 / measure 44]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 763 / measure 44]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 764 / measure 45]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 764 / measure 45]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 765 / measure 46]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 765 / measure 46]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 766 / measure 47]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 766 / measure 47]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 767 / measure 48]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 767 / measure 48]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 768 / measure 49]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 768 / measure 49]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 769 / measure 50]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 769 / measure 50]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 770 / measure 51]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 770 / measure 51]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 771 / measure 52]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 771 / measure 52]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 772 / measure 53]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 772 / measure 53]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 773 / measure 54]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 773 / measure 54]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 774 / measure 55]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 774 / measure 55]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 775 / measure 56]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 775 / measure 56]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 776 / measure 57]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 776 / measure 57]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 777 / measure 58]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 777 / measure 58]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 778 / measure 59]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 778 / measure 59]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 779 / measure 60]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 779 / measure 60]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 780 / measure 61]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 780 / measure 61]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 781 / measure 62]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 781 / measure 62]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 782 / measure 63]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 782 / measure 63]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 783 / measure 64]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 783 / measure 64]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 784 / measure 65]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 784 / measure 65]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 785 / measure 66]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 785 / measure 66]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 786 / measure 67]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 786 / measure 67]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 787 / measure 68]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 787 / measure 68]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 788 / measure 69]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 788 / measure 69]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 789 / measure 70]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 789 / measure 70]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 790 / measure 71]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 790 / measure 71]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 791 / measure 72]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 791 / measure 72]                                %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
-    % [Q GlobalRests measure 792 / measure 73]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 792 / measure 73]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 793 / measure 74]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 793 / measure 74]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 794 / measure 75]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 794 / measure 75]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 795 / measure 76]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 795 / measure 76]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 796 / measure 77]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 796 / measure 77]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 797 / measure 78]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 797 / measure 78]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 798 / measure 79]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 798 / measure 79]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 799 / measure 80]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 799 / measure 80]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 800 / measure 81]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 800 / measure 81]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 801 / measure 82]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 801 / measure 82]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 802 / measure 83]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 802 / measure 83]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 803 / measure 84]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 803 / measure 84]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 804 / measure 85]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 804 / measure 85]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 805 / measure 86]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 805 / measure 86]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 806 / measure 87]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 806 / measure 87]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 807 / measure 88]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 807 / measure 88]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 808 / measure 89]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 808 / measure 89]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 809 / measure 90]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 809 / measure 90]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [Q GlobalRests measure 810 / measure 91]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 810 / measure 91]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
 
-    % [Q GlobalRests measure 811 / measure 92]                                 %! _comment_measure_numbers
+    % [Q Global_Rests measure 811 / measure 92]                                %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
 }                                                                              %! extern
 
 
-Q_GlobalSkips = {                                                              %! extern
+Q_Global_Skips = {                                                             %! extern
 
-    % [Q GlobalSkips measure 720 / measure 1]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 720 / measure 1]                                 %! _comment_measure_numbers
     \override TextScript.extra-offset = #'(0 . 5)                              %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                        %! baca_rehearsal_mark:IndicatorCommand
@@ -304,7 +304,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "91" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 721 / measure 2]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 721 / measure 2]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -322,7 +322,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 722 / measure 3]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 722 / measure 3]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (722)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -330,7 +330,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.3]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'18'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 723 / measure 4]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 723 / measure 4]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -340,7 +340,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.4]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'20'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 724 / measure 5]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 724 / measure 5]                                 %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -350,7 +350,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.5]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'21'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 725 / measure 6]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 725 / measure 6]                                 %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (725)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <5>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -358,7 +358,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.6]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'22'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 726 / measure 7]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 726 / measure 7]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -368,7 +368,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.7]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'23'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 727 / measure 8]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 727 / measure 8]                                 %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -378,7 +378,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.8]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'24'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 728 / measure 9]                                  %! _comment_measure_numbers
+    % [Q Global_Skips measure 728 / measure 9]                                 %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -388,7 +388,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.9]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'25'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 729 / measure 10]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 729 / measure 10]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -406,7 +406,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 730 / measure 11]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 730 / measure 11]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -416,7 +416,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.11]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'29'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 731 / measure 12]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 731 / measure 12]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (731)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <11>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -424,7 +424,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.12]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'32'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 732 / measure 13]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 732 / measure 13]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -434,7 +434,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.13]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'35'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 733 / measure 14]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 733 / measure 14]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -444,7 +444,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.14]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'37'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 734 / measure 15]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 734 / measure 15]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -454,7 +454,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.15]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'39'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 735 / measure 16]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 735 / measure 16]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -464,7 +464,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.16]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'42'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 736 / measure 17]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 736 / measure 17]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (736)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <16>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -472,7 +472,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.17]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'46'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 737 / measure 18]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 737 / measure 18]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -482,7 +482,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.18]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'49'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 738 / measure 19]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 738 / measure 19]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -492,7 +492,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.19]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'52'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 739 / measure 20]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 739 / measure 20]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -502,7 +502,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.20]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'54'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 740 / measure 21]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 740 / measure 21]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -512,7 +512,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.21]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[33'57'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 741 / measure 22]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 741 / measure 22]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -530,7 +530,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 742 / measure 23]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 742 / measure 23]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -540,7 +540,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.23]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'01'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 743 / measure 24]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 743 / measure 24]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -550,7 +550,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.24]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'03'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 744 / measure 25]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 744 / measure 25]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -560,7 +560,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.25]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'04'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 745 / measure 26]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 745 / measure 26]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -570,7 +570,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.26]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'05'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 746 / measure 27]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 746 / measure 27]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (746)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <26>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -578,7 +578,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.27]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'06'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 747 / measure 28]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 747 / measure 28]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -596,7 +596,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 748 / measure 29]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 748 / measure 29]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -606,7 +606,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.29]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'11'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 749 / measure 30]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 749 / measure 30]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (749)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <29>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -614,7 +614,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.30]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'14'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 750 / measure 31]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 750 / measure 31]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -624,7 +624,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.31]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'17'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 751 / measure 32]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 751 / measure 32]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -634,7 +634,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.32]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'20'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 752 / measure 33]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 752 / measure 33]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -644,7 +644,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.33]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'22'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 753 / measure 34]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 753 / measure 34]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -654,7 +654,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.34]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'24'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 754 / measure 35]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 754 / measure 35]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -664,7 +664,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.35]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'27'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 755 / measure 36]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 755 / measure 36]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (755)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <35>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -672,7 +672,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.36]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'30'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 756 / measure 37]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 756 / measure 37]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -682,7 +682,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.37]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'33'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 757 / measure 38]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 757 / measure 38]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -700,7 +700,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 758 / measure 39]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 758 / measure 39]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -710,7 +710,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.39]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'36'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 759 / measure 40]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 759 / measure 40]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -720,7 +720,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.40]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'37'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 760 / measure 41]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 760 / measure 41]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (760)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <40>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -728,7 +728,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.41]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'39'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 761 / measure 42]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 761 / measure 42]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -738,7 +738,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.42]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'40'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 762 / measure 43]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 762 / measure 43]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -756,7 +756,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 763 / measure 44]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 763 / measure 44]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -766,7 +766,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.44]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'43'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 764 / measure 45]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 764 / measure 45]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -776,7 +776,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.45]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'47'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 765 / measure 46]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 765 / measure 46]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -786,7 +786,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.46]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'50'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 766 / measure 47]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 766 / measure 47]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -796,7 +796,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.47]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'53'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 767 / measure 48]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 767 / measure 48]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -806,7 +806,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.48]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'57'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 768 / measure 49]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 768 / measure 49]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -816,7 +816,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.49]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[34'59'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 769 / measure 50]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 769 / measure 50]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -826,7 +826,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.50]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'03'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 770 / measure 51]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 770 / measure 51]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (770)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <50>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -842,7 +842,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 771 / measure 52]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 771 / measure 52]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -852,7 +852,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.52]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'08'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 772 / measure 53]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 772 / measure 53]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -862,7 +862,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.53]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'09'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 773 / measure 54]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 773 / measure 54]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (773)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <53>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -870,7 +870,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.54]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'10'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 774 / measure 55]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 774 / measure 55]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -888,7 +888,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 775 / measure 56]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 775 / measure 56]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -898,7 +898,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.56]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'14'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 776 / measure 57]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 776 / measure 57]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -908,7 +908,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.57]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'16'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 777 / measure 58]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 777 / measure 58]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -918,7 +918,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.58]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'18'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 778 / measure 59]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 778 / measure 59]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -928,7 +928,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.59]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'21'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 779 / measure 60]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 779 / measure 60]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (779)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <59>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -936,7 +936,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.60]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'24'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 780 / measure 61]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 780 / measure 61]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -954,7 +954,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 781 / measure 62]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 781 / measure 62]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -964,7 +964,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.62]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'28'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 782 / measure 63]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 782 / measure 63]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -974,7 +974,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.63]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'29'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 783 / measure 64]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 783 / measure 64]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -992,7 +992,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 784 / measure 65]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 784 / measure 65]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (784)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <64>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -1000,7 +1000,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.65]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'34'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 785 / measure 66]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 785 / measure 66]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -1010,7 +1010,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.66]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'37'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 786 / measure 67]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 786 / measure 67]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -1020,7 +1020,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.67]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'40'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 787 / measure 68]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 787 / measure 68]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -1038,7 +1038,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 788 / measure 69]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 788 / measure 69]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -1048,7 +1048,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.69]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'43'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 789 / measure 70]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 789 / measure 70]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -1066,7 +1066,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 790 / measure 71]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 790 / measure 71]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -1076,7 +1076,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.71]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'48'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 791 / measure 72]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 791 / measure 72]                                %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
@@ -1086,7 +1086,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.72]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'51'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 792 / measure 73]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 792 / measure 73]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -1104,7 +1104,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 793 / measure 74]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 793 / measure 74]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -1114,7 +1114,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.74]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'53'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 794 / measure 75]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 794 / measure 75]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -1124,7 +1124,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.75]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'54'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 795 / measure 76]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 795 / measure 76]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (795)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <75>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -1132,7 +1132,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.76]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'56'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 796 / measure 77]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 796 / measure 77]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -1142,7 +1142,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.77]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'57'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 797 / measure 78]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 797 / measure 78]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -1152,7 +1152,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.78]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'58'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 798 / measure 79]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 798 / measure 79]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (798)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <78>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -1160,7 +1160,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.79]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[35'59'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 799 / measure 80]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 799 / measure 80]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -1170,7 +1170,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.80]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'01'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 800 / measure 81]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 800 / measure 81]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -1180,7 +1180,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.81]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'02'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 801 / measure 82]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 801 / measure 82]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -1190,7 +1190,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.82]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'02'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 802 / measure 83]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 802 / measure 83]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -1200,7 +1200,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.83]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'03'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 803 / measure 84]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 803 / measure 84]                                %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
@@ -1210,7 +1210,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.84]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'04'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 804 / measure 85]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 804 / measure 85]                                %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (804)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <84>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -1218,7 +1218,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.85]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'06'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 805 / measure 86]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 805 / measure 86]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -1228,7 +1228,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.86]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'07'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 806 / measure 87]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 806 / measure 87]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -1238,7 +1238,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.87]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'08'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 807 / measure 88]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 807 / measure 88]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -1255,7 +1255,7 @@ Q_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [Q GlobalSkips measure 808 / measure 89]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 808 / measure 89]                                %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -1265,7 +1265,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.89]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'12'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 809 / measure 90]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 809 / measure 90]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (809)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <89>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -1273,7 +1273,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.90]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'16'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 810 / measure 91]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 810 / measure 91]                                %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -1283,7 +1283,7 @@ Q_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [Q.91]                                            %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[36'21'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [Q GlobalSkips measure 811 / measure 92]                                 %! _comment_measure_numbers
+    % [Q Global_Skips measure 811 / measure 92]                                %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)

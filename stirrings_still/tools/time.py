@@ -8,11 +8,11 @@ def time(maker, pairs):
     for value, lmn in pairs:
         if value in baca.GlobalFermataCommand.description_to_command:
             maker(
-                'GlobalRests',
+                'Global_Rests',
                 baca.global_fermata(value, selector=baca.rest(lmn - 1)),
                 )
         else:
             maker(
-                'GlobalSkips',
+                'Global_Skips',
                 baca.metronome_mark(value, selector=baca.skip(lmn - 1)),
                 )

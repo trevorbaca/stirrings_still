@@ -18,7 +18,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.new(
         baca.new(
             baca.bar_line_x_extent((-2, 4)),
