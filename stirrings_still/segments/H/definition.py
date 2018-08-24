@@ -308,9 +308,12 @@ maker(
         selector=baca.note(0),
         direction=abjad.Down,
         ),
-    baca.note_head_style_harmonic(selector=baca.notes()[1:]),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        baca.pitch('Gb2'),
+        selector=baca.notes(exclude=baca.enums.HIDDEN)[1:],
+        ),
     baca.pitch('Ab2', selector=baca.note(0)),
-    baca.pitch('Gb2', selector=baca.notes()[1:]),
     baca.text_spanner(
         'flaut. => non flaut.',
         selector=baca.notes()[:2],
