@@ -13,14 +13,14 @@
     \context GlobalContext = "Global_Context"                                            %! _make_global_context
     <<                                                                                   %! _make_global_context
 
-        \context GlobalSkips = "Page_Layout"                                             %! _make_global_context
+        \context PageLayout = "Page_Layout"                                              %! _make_global_context
         {   %*% Page_Layout                                                              %! _make_global_context
 
             % [Page_Layout measure 306]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
             \autoPageBreaksOff                                                           %! BreakMeasureMap(1):BREAK
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #10 #'(20 24)                                                     %! BREAK:IndicatorCommand
+            \baca-lbsd #20 #'(20 24)                                                     %! BREAK:IndicatorCommand
             \pageBreak                                                                   %! BREAK:IndicatorCommand
             s1 * 5/8                                                                     %! _make_global_skips(1)
         %@% ^ \baca-spacing-markup "[1/16]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
@@ -216,7 +216,7 @@
             % [Page_Layout measure 338]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #10 #'(20 24)                                                     %! BREAK:IndicatorCommand
+            \baca-lbsd #20 #'(20 24)                                                     %! BREAK:IndicatorCommand
             \pageBreak                                                                   %! BREAK:IndicatorCommand
             s1 * 7/8                                                                     %! _make_global_skips(1)
         %@% ^ \baca-spacing-markup "[1/16]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
@@ -412,7 +412,7 @@
             % [Page_Layout measure 370]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #10 #'(20 24)                                                     %! BREAK:IndicatorCommand
+            \baca-lbsd #20 #'(20 24)                                                     %! BREAK:IndicatorCommand
             \pageBreak                                                                   %! BREAK:IndicatorCommand
             s1 * 5/8                                                                     %! _make_global_skips(1)
         %@% ^ \baca-spacing-markup "[1/16]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
@@ -608,7 +608,7 @@
             % [Page_Layout measure 402]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #10 #'(20 24)                                                     %! BREAK:IndicatorCommand
+            \baca-lbsd #20 #'(20 24)                                                     %! BREAK:IndicatorCommand
             \pageBreak                                                                   %! BREAK:IndicatorCommand
             s1 * 5/8                                                                     %! _make_global_skips(1)
         %@% ^ \baca-spacing-markup "[1/16]"                                              %! HorizontalSpacingSpecifier(2):SPACING_MARKUP
