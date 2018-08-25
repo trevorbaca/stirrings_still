@@ -18,9 +18,10 @@
         \override TextScript.outside-staff-priority = 600
         \override TextScript.staff-padding = 3
 
-        \override TextSpanner.bound-details.right.attach-dir = #LEFT
+        %\override TextSpanner.bound-details.right.attach-dir = #LEFT
         \override TextSpanner.font-size = 6
-        \override TextSpanner.staff-padding = 4
+        \override TextSpanner.staff-padding = 6
+        \override TextSpanner.Y-extent = ##f
         }
 
     % GLOBAL RESTS
@@ -65,12 +66,6 @@
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 
-        \override MetronomeMark.X-extent = #'(0 . 0)
-        \override MetronomeMark.Y-extent = #'(0 . 0)
-        \override MetronomeMark.break-align-symbols = #'(left-edge)
-        \override MetronomeMark.extra-offset = #'(0 . 4)
-        \override MetronomeMark.font-size = 3
-
         \override RehearsalMark.X-extent = #'(0 . 0)
         \override RehearsalMark.Y-extent = #'(0 . 0)
         \override RehearsalMark.break-align-symbols = #'(time-signature)
@@ -87,6 +82,14 @@
         \override TimeSignature.font-size = 3
         \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
         \override TimeSignature.style = #'numbered
+
+%        \override VerticalAxisGroup.Y-extent = #'(-40 . 40)
+%        \override VerticalAxisGroup.staff-staff-spacing.minimum-distance = 40
+%        \override VerticalAxisGroup.default-staff-staff-spacing.minimum-distance = 40
+%
+%        \override StaffGrouper.Y-extent = #'(-40 . 40)
+%        \override StaffGrouper.staff-staff-spacing.minimum-distance = 40
+%        \override StaffGrouper.default-staff-staff-spacing.minimum-distance = 40
 
     }
 
