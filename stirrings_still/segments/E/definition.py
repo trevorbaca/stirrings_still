@@ -15,14 +15,13 @@ maker = baca.SegmentMaker(
     validate_measure_count=127,
     )
 
-#maker(
-#    'Global_Skips',
-#    baca.rehearsal_mark(
-#        'E',
-#        abjad.tweak(12).Y_offset,
-#        ),
-#    baca.text_script_extra_offset((0, 5)),
-#    )
+maker(
+    'Global_Skips',
+    baca.rehearsal_mark(
+        'E',
+        abjad.tweak((0, 10)).extra_offset,
+        ),
+    )
 
 stage_markup = (
     ('[E.0]', 1),

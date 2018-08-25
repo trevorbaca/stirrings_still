@@ -18,7 +18,7 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'S',
-        abjad.tweak(12).Y_offset,
+        abjad.tweak((0, 10)).extra_offset,
         ),
     )
 
