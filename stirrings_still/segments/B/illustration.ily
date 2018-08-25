@@ -82,7 +82,7 @@ B_Global_Rests = {                                                             %
     R1 * 1/2                                                                   %! _make_global_rests
 
     % [B Global_Rests measure 91 / measure 28]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
@@ -93,7 +93,7 @@ B_Global_Rests = {                                                             %
     R1 * 3/4                                                                   %! _make_global_rests
 
     % [B Global_Rests measure 94 / measure 31]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
@@ -110,7 +110,7 @@ B_Global_Rests = {                                                             %
     R1 * 7/8                                                                   %! _make_global_rests
 
     % [B Global_Rests measure 99 / measure 36]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
@@ -121,7 +121,7 @@ B_Global_Rests = {                                                             %
     R1 * 1/2                                                                   %! _make_global_rests
 
     % [B Global_Rests measure 102 / measure 39]                                %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
@@ -135,7 +135,7 @@ B_Global_Rests = {                                                             %
     R1 * 3/4                                                                   %! _make_global_rests
 
     % [B Global_Rests measure 106 / measure 43]                                %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
@@ -149,7 +149,7 @@ B_Global_Rests = {                                                             %
     R1 * 1/2                                                                   %! _make_global_rests
 
     % [B Global_Rests measure 110 / measure 47]                                %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
@@ -157,7 +157,7 @@ B_Global_Rests = {                                                             %
     R1 * 1                                                                     %! _make_global_rests
 
     % [B Global_Rests measure 112 / measure 49]                                %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
@@ -201,7 +201,7 @@ B_Global_Rests = {                                                             %
     R1 * 3/4                                                                   %! _make_global_rests
 
     % [B Global_Rests measure 126 / measure 63]                                %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
@@ -212,7 +212,7 @@ B_Global_Rests = {                                                             %
     R1 * 5/8                                                                   %! _make_global_rests
 
     % [B Global_Rests measure 129 / measure 66]                                %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
