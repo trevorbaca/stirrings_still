@@ -214,7 +214,7 @@ Q_Global_Rests = {                                                             %
     R1 * 7/8                                                                   %! _make_global_rests
 
     % [Q Global_Rests measure 791 / measure 72]                                %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
