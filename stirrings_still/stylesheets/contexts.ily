@@ -7,21 +7,19 @@
     \context {
         \name GlobalSkips
         \type Engraver_group
-        \consists Staff_symbol_engraver
         \consists Script_engraver
         \consists Text_engraver
         \consists Text_spanner_engraver
 
-        \override StaffSymbol.stencil = ##f
+        % TODO: remove from all scores:
+        %%\consists Staff_symbol_engraver
+        %%\override StaffSymbol.stencil = ##f
 
         \override TextScript.font-size = 6
-        \override TextScript.outside-staff-priority = 600
-        \override TextScript.staff-padding = 3
 
-        %\override TextSpanner.bound-details.right.attach-dir = #LEFT
+        % TODO: add to all scores:
+        \override TextSpanner.extra-offset = #'(0 . 6)
         \override TextSpanner.font-size = 6
-        \override TextSpanner.staff-padding = 6
-        \override TextSpanner.Y-extent = ##f
         }
 
     % GLOBAL RESTS
@@ -66,6 +64,8 @@
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 
+        \override BarNumber.stencil = ##f
+
         \override RehearsalMark.X-extent = #'(0 . 0)
         \override RehearsalMark.Y-extent = #'(0 . 0)
         \override RehearsalMark.break-align-symbols = #'(time-signature)
@@ -82,17 +82,6 @@
         \override TimeSignature.font-size = 3
         \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
         \override TimeSignature.style = #'numbered
-
-%        \override VerticalAxisGroup.Y-extent = #'(-40 . 40)
-%        \override VerticalAxisGroup.staff-staff-spacing.minimum-distance = 40
-%        \override VerticalAxisGroup.default-staff-staff-spacing.minimum-distance = 40
-%
-%        \override StaffGrouper.Y-extent = #'(-40 . 40)
-%        \override StaffGrouper.staff-staff-spacing.minimum-distance = 40
-%        \override StaffGrouper.default-staff-staff-spacing.minimum-distance = 40
-
-        \override VerticalAxisGroup.staff-affinity = #down
-        \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing.padding = #4
 
     }
 

@@ -18,9 +18,8 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'R',
-        abjad.tweak(12).Y_offset,
+        abjad.tweak((0, 10)).extra_offset,
         ),
-    baca.text_script_extra_offset((0, 5)),
     )
 
 stage_markup = (
