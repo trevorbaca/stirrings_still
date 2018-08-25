@@ -91,6 +91,9 @@
 %        \override StaffGrouper.staff-staff-spacing.minimum-distance = 40
 %        \override StaffGrouper.default-staff-staff-spacing.minimum-distance = 40
 
+        \override VerticalAxisGroup.staff-affinity = #down
+        \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing.padding = #4
+
     }
 
     % VOICE

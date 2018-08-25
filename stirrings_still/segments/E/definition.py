@@ -15,14 +15,14 @@ maker = baca.SegmentMaker(
     validate_measure_count=127,
     )
 
-maker(
-    'Global_Skips',
-    baca.rehearsal_mark(
-        'E',
-        abjad.tweak(12).Y_offset,
-        ),
-    baca.text_script_extra_offset((0, 5)),
-    )
+#maker(
+#    'Global_Skips',
+#    baca.rehearsal_mark(
+#        'E',
+#        abjad.tweak(12).Y_offset,
+#        ),
+#    baca.text_script_extra_offset((0, 5)),
+#    )
 
 stage_markup = (
     ('[E.0]', 1),
@@ -51,7 +51,7 @@ stage_markup = (
     ('[E.16]', 120),
     )
 
-stirrings_still.stage_markup(maker, stage_markup)
+#stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('presto', 1),
