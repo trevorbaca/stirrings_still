@@ -50,7 +50,7 @@ stage_markup = (
     ('[E.16]', 120),
     )
 
-#stirrings_still.stage_markup(maker, stage_markup)
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('presto', 1),
@@ -115,7 +115,7 @@ maker(
 maker(
     ('vc', (1, 2)),
     baca.markup(
-        '[clouded pane cont.]',
+        '[clouded pane]',
         abjad.tweak('darkgreen').color,
         ),
     stirrings_still.clouded_pane(),
