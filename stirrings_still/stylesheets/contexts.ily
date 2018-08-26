@@ -9,7 +9,7 @@
         \type Engraver_group
         \consists Script_engraver
         \consists Text_engraver
-        \consists Text_spanner_engraver
+        \consists \alternateTextSpannerEngraver
 
         % TODO: remove from all scores:
         %%\consists Staff_symbol_engraver
@@ -41,7 +41,7 @@
         \name PageLayout
         \type Engraver_group
         \consists Text_engraver
-        \consists Text_spanner_engraver
+        \consists \alternateTextSpannerEngraver
         }
 
     % GLOBAL CONTEXT
