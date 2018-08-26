@@ -95,17 +95,29 @@ maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
-        r'\baca-damp-half-clt-markup =|',
+        r'½ clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(6.5).staff_padding,
         bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        lilypond_id=1,
         selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.continuous_tremolo(),
     )
 
 maker(
-    ('vc', (1, 27)),
+    ('vc', (1, 2)),
+    baca.markup(
+        '[clouded pane cont.]',
+        abjad.tweak('darkgreen').color,
+        ),
     stirrings_still.clouded_pane(),
     )
 

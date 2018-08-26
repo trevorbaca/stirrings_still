@@ -1804,10 +1804,15 @@ E_Violin_I_Music_Voice = {                                                     %
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-half-clt-markup                %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #7                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1832,6 +1837,7 @@ E_Violin_I_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2422,10 +2428,15 @@ E_Violin_II_Music_Voice = {                                                    %
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-half-clt-markup                %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #7                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2450,6 +2461,7 @@ E_Violin_II_Music_Voice = {                                                    %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3041,10 +3053,15 @@ E_Viola_Music_Voice = {                                                        %
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-half-clt-markup                %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #7                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3069,6 +3086,7 @@ E_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3648,6 +3666,8 @@ E_Cello_Music_Voice = {                                                        %
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak color #darkgreen                                                  %! baca_markup:IndicatorCommand
+    ^ \markup { "[clouded pane cont.]" }                                       %! baca_markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3661,159 +3681,101 @@ E_Cello_Music_Voice = {                                                        %
     c'2                                                                        %! stirrings_still_clouded_pane
     \repeatTie
 
-    % [E Cello_Music_Voice measure 308 / measure 3]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 309 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 310 / measure 5]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 311 / measure 6]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 312 / measure 7]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 313 / measure 8]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 314 / measure 9]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 315 / measure 10]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 316 / measure 11]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 317 / measure 12]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 318 / measure 13]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 319 / measure 14]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 320 / measure 15]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 321 / measure 16]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 322 / measure 17]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 323 / measure 18]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 324 / measure 19]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 325 / measure 20]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 326 / measure 21]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 327 / measure 22]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 328 / measure 23]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 329 / measure 24]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 330 / measure 25]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 331 / measure 26]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
-    % [E Cello_Music_Voice measure 332 / measure 27]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
-
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [E Cello_Music_Voice measure 333 / measure 28]                   %! _comment_measure_numbers
+            % [E Cello_Music_Voice measure 308 / measure 3]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 1/2                                                          %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [E Cello_Rest_Voice measure 333 / measure 28]                    %! _comment_measure_numbers
-            R1 * 1/2                                                           %! _make_multimeasure_rest_container
+            % [E Cello_Rest_Voice measure 308 / measure 3]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
+
+    % [E Cello_Music_Voice measure 309 / measure 4]                            %! _comment_measure_numbers
+    R1 * 7/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 310 / measure 5]                            %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 311 / measure 6]                            %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 312 / measure 7]                            %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 313 / measure 8]                            %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 314 / measure 9]                            %! _comment_measure_numbers
+    R1 * 7/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 315 / measure 10]                           %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 316 / measure 11]                           %! _comment_measure_numbers
+    R1 * 7/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 317 / measure 12]                           %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 318 / measure 13]                           %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 319 / measure 14]                           %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 320 / measure 15]                           %! _comment_measure_numbers
+    R1 * 7/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 321 / measure 16]                           %! _comment_measure_numbers
+    R1 * 7/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 322 / measure 17]                           %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 323 / measure 18]                           %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 324 / measure 19]                           %! _comment_measure_numbers
+    R1 * 5/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 325 / measure 20]                           %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 326 / measure 21]                           %! _comment_measure_numbers
+    R1 * 7/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 327 / measure 22]                           %! _comment_measure_numbers
+    R1 * 7/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 328 / measure 23]                           %! _comment_measure_numbers
+    R1 * 5/8                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 329 / measure 24]                           %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 330 / measure 25]                           %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 331 / measure 26]                           %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 332 / measure 27]                           %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
+
+    % [E Cello_Music_Voice measure 333 / measure 28]                           %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [E Cello_Music_Voice measure 334 / measure 29]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences

@@ -541,11 +541,8 @@ I_Violin_I_Music_Voice = {                                                     %
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            "sustained double stops"                                           %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
+    ^ \markup { "sustained double stops" }                                     %! baca_markup:IndicatorCommand
 
     % [I Violin_I_Music_Voice measure 529 / measure 11]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -721,11 +718,8 @@ I_Violin_II_Music_Voice = {                                                    %
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            "sustained double stops"                                           %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
+    ^ \markup { "sustained double stops" }                                     %! baca_markup:IndicatorCommand
 
     % [I Violin_II_Music_Voice measure 529 / measure 11]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -859,11 +853,8 @@ I_Viola_Music_Voice = {                                                        %
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            "sustained double stops"                                           %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
+    ^ \markup { "sustained double stops" }                                     %! baca_markup:IndicatorCommand
 
     % [I Viola_Music_Voice measure 529 / measure 11]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes

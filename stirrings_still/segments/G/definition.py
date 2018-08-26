@@ -61,7 +61,8 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', [1, 3, 7, 11, 13]),
     baca.markup(
-        baca.Markup('urtext double stop').with_color('magenta'),
+        baca.Markup('urtext double stop'),
+        abjad.tweak('magenta').color,
         ),
     stirrings_still.loure_tuplets(0),
     )
@@ -69,7 +70,8 @@ maker(
 maker(
     ('v2', [1, 3, 7, 11, 13]),
     baca.markup(
-        baca.Markup('urtext double stop').with_color('magenta'),
+        baca.Markup('urtext double stop'),
+        abjad.tweak('magenta').color,
         ),
     stirrings_still.loure_tuplets(1),
     )
@@ -77,7 +79,8 @@ maker(
 maker(
     ('va', [1, 3, 7, 11, 13]),
     baca.markup(
-        baca.Markup('clouded pane partial').with_color('magenta'),
+        baca.Markup('clouded pane partial'),
+        abjad.tweak('magenta').color,
         ),
     stirrings_still.loure_tuplets(-1),
     )
