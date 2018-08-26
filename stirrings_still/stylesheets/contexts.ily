@@ -18,7 +18,7 @@
         \override TextScript.font-size = 6
 
         % TODO: add to all scores:
-        \override TextSpanner.extra-offset = #'(0 . 6)
+        %\override TextSpanner.extra-offset = #'(0 . 6)
         \override TextSpanner.font-size = 6
         }
 
@@ -42,6 +42,8 @@
         \type Engraver_group
         \consists Text_engraver
         \consists \alternateTextSpannerEngraver
+
+        \override TextSpanner.font-size = 6
         }
 
     % GLOBAL CONTEXT
