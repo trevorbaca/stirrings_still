@@ -370,11 +370,8 @@ G_Violin_I_Music_Voice = {                                                     %
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            "urtext double stop"                                               %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
+    ^ \markup { "urtext double stop" }                                         %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -430,11 +427,8 @@ G_Violin_I_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            "urtext double stop"                                               %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
+    ^ \markup { "urtext double stop" }                                         %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -493,11 +487,8 @@ G_Violin_I_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            "urtext double stop"                                               %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
+    ^ \markup { "urtext double stop" }                                         %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -560,11 +551,8 @@ G_Violin_I_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            "urtext double stop"                                               %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
+    ^ \markup { "urtext double stop" }                                         %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -609,11 +597,8 @@ G_Violin_I_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            "urtext double stop"                                               %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
+    ^ \markup { "urtext double stop" }                                         %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -706,11 +691,8 @@ G_Violin_II_Music_Voice = {                                                    %
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "urtext double stop"                                           %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -775,11 +757,8 @@ G_Violin_II_Music_Voice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "urtext double stop"                                           %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -847,11 +826,8 @@ G_Violin_II_Music_Voice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "urtext double stop"                                           %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -923,11 +899,8 @@ G_Violin_II_Music_Voice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "urtext double stop"                                           %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -981,11 +954,8 @@ G_Violin_II_Music_Voice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "urtext double stop"                                           %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1088,11 +1058,8 @@ G_Viola_Music_Voice = {                                                        %
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“Va.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "clouded pane partial"                                         %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1149,11 +1116,8 @@ G_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "clouded pane partial"                                         %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1213,11 +1177,8 @@ G_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "clouded pane partial"                                         %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1281,11 +1242,8 @@ G_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "clouded pane partial"                                         %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1331,11 +1289,8 @@ G_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \with-color                                                        %! baca_markup:IndicatorCommand
-                #magenta                                                       %! baca_markup:IndicatorCommand
-                "clouded pane partial"                                         %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
+        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes

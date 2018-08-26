@@ -501,10 +501,12 @@ maker(
     (['v1', 'v2', 'va'], 65),
     baca.dynamic('p'),
     baca.markup(
-        baca.markups.column('dense', 'db. stops').with_color('magenta'),
+        baca.markups.column('dense', 'db. stops'),
+        abjad.tweak('magenta').color,
         ),
     baca.markup(
-        baca.Markup('urtext field').with_color('darkgreen'),
+        baca.Markup('urtext field'),
+        abjad.tweak('darkgreen').color,
         ),
     stirrings_still.urtext_field(),
     )
@@ -516,7 +518,8 @@ maker(
         map=baca.cmgroups()[:3].group(),
         ),
     baca.markup(
-        baca.Markup('clouded pane').with_color('darkgreen'),
+        baca.Markup('clouded pane'),
+        abjad.tweak('darkgreen').color,
         ),
     baca.new(
         baca.hairpin('p < fff'),

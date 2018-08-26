@@ -116,7 +116,8 @@ maker(
     (['v1', 'v2', 'va'], (10, 11)),
     baca.dynamic('appena-udibile'),
     baca.markup(
-        baca.Markup('sustained double stops').with_color('magenta'),
+        baca.Markup('sustained double stops'),
+        abjad.tweak('magenta').color,
         ),
     stirrings_still.urtext_field(),
     )

@@ -2522,20 +2522,16 @@ D_Violin_I_Music_Voice = {                                                     %
     c'2                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            \column                                                            %! baca_markup:IndicatorCommand
-                {                                                              %! baca_markup:IndicatorCommand
-                    dense                                                      %! baca_markup:IndicatorCommand
-                    "db. stops"                                                %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+        \column                                                                %! baca_markup:IndicatorCommand
+            {                                                                  %! baca_markup:IndicatorCommand
+                dense                                                          %! baca_markup:IndicatorCommand
+                "db. stops"                                                    %! baca_markup:IndicatorCommand
+            }                                                                  %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #darkgreen                                                         %! baca_markup:IndicatorCommand
-            "urtext field"                                                     %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #darkgreen                                                  %! baca_markup:IndicatorCommand
+    ^ \markup { "urtext field" }                                               %! baca_markup:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_urtext_field
@@ -4157,20 +4153,16 @@ D_Violin_II_Music_Voice = {                                                    %
     c'2                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            \column                                                            %! baca_markup:IndicatorCommand
-                {                                                              %! baca_markup:IndicatorCommand
-                    dense                                                      %! baca_markup:IndicatorCommand
-                    "db. stops"                                                %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+        \column                                                                %! baca_markup:IndicatorCommand
+            {                                                                  %! baca_markup:IndicatorCommand
+                dense                                                          %! baca_markup:IndicatorCommand
+                "db. stops"                                                    %! baca_markup:IndicatorCommand
+            }                                                                  %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #darkgreen                                                         %! baca_markup:IndicatorCommand
-            "urtext field"                                                     %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #darkgreen                                                  %! baca_markup:IndicatorCommand
+    ^ \markup { "urtext field" }                                               %! baca_markup:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_urtext_field
@@ -5778,20 +5770,16 @@ D_Viola_Music_Voice = {                                                        %
     c'2                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #magenta                                                           %! baca_markup:IndicatorCommand
-            \column                                                            %! baca_markup:IndicatorCommand
-                {                                                              %! baca_markup:IndicatorCommand
-                    dense                                                      %! baca_markup:IndicatorCommand
-                    "db. stops"                                                %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+        \column                                                                %! baca_markup:IndicatorCommand
+            {                                                                  %! baca_markup:IndicatorCommand
+                dense                                                          %! baca_markup:IndicatorCommand
+                "db. stops"                                                    %! baca_markup:IndicatorCommand
+            }                                                                  %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #darkgreen                                                         %! baca_markup:IndicatorCommand
-            "urtext field"                                                     %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #darkgreen                                                  %! baca_markup:IndicatorCommand
+    ^ \markup { "urtext field" }                                               %! baca_markup:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_urtext_field
@@ -7366,11 +7354,8 @@ D_Cello_Music_Voice = {                                                        %
     c'2                                                                        %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \with-color                                                            %! baca_markup:IndicatorCommand
-            #darkgreen                                                         %! baca_markup:IndicatorCommand
-            "clouded pane"                                                     %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    - \tweak color #darkgreen                                                  %! baca_markup:IndicatorCommand
+    ^ \markup { "clouded pane" }                                               %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
