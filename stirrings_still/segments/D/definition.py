@@ -44,6 +44,10 @@ stage_markup = (
     )
 
 maker = baca.SegmentMaker(
+    activate=[
+        abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
+        abjad.Tags().STAGE_NUMBER_MARKUP,
+        ],
     do_not_color_repeat_pitch_classes=True,
     ignore_repeat_pitch_classes=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
