@@ -187,3 +187,43 @@ maker(
     ('vcx', (28, 40)),
     baca.tacet(),
     )
+
+maker(
+    ('tutti', (42, 49)),
+    baca.dynamic('p'),
+    baca.new(
+        baca.breathe(),
+        match=[0, 2, 3],
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [2]),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [1]),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [0]),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [-1]),
+        match=3,
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-fast-circles-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(7.5).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    )
