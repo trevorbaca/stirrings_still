@@ -148,64 +148,77 @@ maker(
     )
 
 maker(
-    ('tutti', (10, 21)),
+    ('v1', (10, 24)),
+    baca.breathe(),
     baca.hairpin(
         'ff < fff -- ff-effort-sub > p',
-        match=0,
-        measures=(10, 24),
         piece_selector=baca.mgroups([3, 5, 7]),
         ),
-    baca.hairpin(
-        'ff < fff -- ff-effort-sub > "f"',
-        match=[2, 3],
-        piece_selector=baca.mgroups([3, 5, 4]),
+    baca.markup(
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
         ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -8,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(18, 24),
+        selector=baca.tleaves().rleak(),
+        ),
+    stirrings_still.trajectories('C', 0, -3),
+    )
+
+maker(
+    ('v2', (13, 21)),
+    baca.breathe(),
     baca.hairpin(
         'fff -- ff-effort-sub > "f"',
-        match=1,
-        measures=(13, 21),
         piece_selector=baca.mgroups([5, 4]),
         ),
     baca.markup(
-        '(molto scratch on slow strokes)',
-        match=[0, 2, 3],
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -7,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(18, 21),
+        selector=baca.tleaves().rleak(),
+        ),
+    stirrings_still.trajectories('C', -1, -2),
+    )
+
+maker(
+    (['va', 'vc'], (10, 21)),
+    baca.breathe(),
+    baca.hairpin(
+        'ff < fff -- ff-effort-sub > "f"',
+        piece_selector=baca.mgroups([3, 5, 4]),
         ),
     baca.markup(
-        '(molto scratch on slow strokes)',
-        match=1,
-        measures=13,
-        ),
-    baca.new(
-        baca.breathe(),
-        match=[1, 2, 3],
-        ),
-    baca.new(
-        baca.suite(
-            baca.script_staff_padding(5),
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -8,
-                abjad.tweak(2.5).staff_padding,
-                clt=True,
-                ),
-            ),
-        stirrings_still.trajectories('C', 0, -3),
-        match=0,
-        measures=(10, 24),
-        ),
-    baca.new(
-        baca.suite(
-            baca.script_staff_padding(5),
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -7,
-                abjad.tweak(2.5).staff_padding,
-                clt=True,
-                ),
-            ),
-        stirrings_still.trajectories('C', -1, -2),
-        match=1,
-        measures=(13, 21),
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
         ),
     baca.new(
         baca.suite(
@@ -218,7 +231,7 @@ maker(
                 ),
             ),
         stirrings_still.trajectories('C', -2, -1),
-        match=2,
+        match=0,
         ),
     baca.new(
         baca.suite(
@@ -231,17 +244,14 @@ maker(
                 ),
             ),
         stirrings_still.trajectories('C', -3, 0),
-        match=3,
+        match=1,
         ),
-    )
-
-maker(
-    ('tutti', (18, 21)),
     baca.text_spanner(
         '½ clt =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(9).staff_padding,
         bookend=False,
+        measures=(18, 21),
         selector=baca.tleaves().rleak(),
         ),
     )
