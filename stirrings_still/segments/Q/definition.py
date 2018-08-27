@@ -115,7 +115,7 @@ maker(
 maker(
     ('tutti', (10, 21)),
     baca.hairpin(
-        'ff < fff -- ff-sub > "f"',
+        'ff < fff -- ff-effort-sub > "f"',
         piece_selector=baca.mgroups([3, 5, 4]),
         ),
     baca.markup(
