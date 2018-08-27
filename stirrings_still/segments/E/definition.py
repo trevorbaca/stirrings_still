@@ -182,3 +182,8 @@ maker(
         ),
     stirrings_still.clouded_pane(),
     )
+
+maker(
+    ('vcx', (28, 40)),
+    baca.tacet(),
+    )
