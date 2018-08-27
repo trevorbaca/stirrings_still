@@ -119,8 +119,22 @@ maker(
     ('vc', (1, 2)),
     baca.markup(
         '[clouded pane]',
-        abjad.tweak('darkgreen').color,
+        abjad.tweak('magenta').color,
         ),
+    stirrings_still.clouded_pane(),
+    )
+
+maker(
+    ('vc', (4, 5)),
+    baca.hairpin(
+        'ff-scratch > p',
+        piece_selector=baca.omgroups([1]),
+        ),
+    baca.markup(
+        '[clouded pane]',
+        abjad.tweak('magenta').color,
+        ),
+    baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
     )
 
@@ -154,4 +168,17 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.grid_to_trajectory(),
+    )
+
+maker(
+    ('vc', (6, 27)),
+    baca.markup(
+        '[clouded pane]',
+        abjad.tweak('magenta').color,
+        ),
+    baca.new(
+        baca.hairpin('p < fff-poco-scr'),
+        measures=(20, 24),
+        ),
+    stirrings_still.clouded_pane(),
     )

@@ -1561,7 +1561,7 @@ SEGMENTS
             desynchronization continues;
             p continues;
     vc clouded pane continues:
-        stopped lh continues;
+        stopped lh resumes;
         hair continues;
         p continues;
     attacca;
