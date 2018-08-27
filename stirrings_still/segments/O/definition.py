@@ -8,8 +8,14 @@ import stirrings_still
 ##################################### [O] #####################################
 ###############################################################################
 
+stage_markup = (
+    ('[O.1]', 1),
+    ('[H.3]', 7),
+    )
+
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('O'),
     validate_measure_count=8,
     )
@@ -21,13 +27,6 @@ maker(
         abjad.tweak((0, 10)).extra_offset,
         ),
     )
-
-stage_markup = (
-    ('[O.1]', 1),
-    ('[H.3]', 7),
-    )
-
-stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('largo piu mosso', 1),

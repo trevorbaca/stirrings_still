@@ -8,8 +8,17 @@ import stirrings_still
 ##################################### [P] #####################################
 ###############################################################################
 
+stage_markup = (
+    ('[P.1]', 1),
+    ('[P.2]', 5),
+    ('[P.3]', 11),
+    ('[P.4]', 15),
+    ('[P.5]', 21),
+    )
+
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('P'),
     validate_measure_count=26,
     )
@@ -21,16 +30,6 @@ maker(
         abjad.tweak((0, 10)).extra_offset,
         ),
     )
-
-stage_markup = (
-    ('[P.1]', 1),
-    ('[P.2]', 5),
-    ('[P.3]', 11),
-    ('[P.4]', 15),
-    ('[P.5]', 21),
-    )
-
-stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('adagio', 1),

@@ -8,8 +8,13 @@ import stirrings_still
 ##################################### [L] #####################################
 ###############################################################################
 
+stage_markup = (
+    ('[L.1]', 1),
+    )
+
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('L'),
     validate_measure_count=16,
     )
@@ -21,12 +26,6 @@ maker(
         abjad.tweak((0, 10)).extra_offset,
         ),
     )
-
-stage_markup = (
-    ('[L.1]', 1),
-    )
-
-stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('largo meno mosso', 1),
