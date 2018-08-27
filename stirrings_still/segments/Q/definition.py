@@ -256,74 +256,144 @@ maker(
         ),
     )
 
+#maker(
+#    ('tutti', (22, 27)),
+#    baca.dynamic(
+#        'p',
+#        match=[1, 2, 3],
+#        ),
+#    baca.new(
+#        baca.breathe(),
+#        match=[0, 2, 3],
+#        ),
+#    baca.new(
+#        baca.breathe(),
+#        match=1,
+#        measures=(22, 30),
+#        ),
+#    baca.new(
+#        stirrings_still.desynchronization(4, [2]),
+#        match=0,
+#        measures=(25, 27),
+#        ),
+#    baca.new(
+#        stirrings_still.desynchronization(4, [1]),
+#        match=1,
+#        measures=(22, 30),
+#        ),
+#    baca.new(
+#        stirrings_still.desynchronization(4, [0]),
+#        match=2,
+#        ),
+#    baca.new(
+#        stirrings_still.desynchronization(4, [-1]),
+#        match=3,
+#        ),
+#    baca.new(
+#        baca.text_spanner(
+#            r'\stirrings-still-fast-circles-markup =|',
+#            abjad.tweak(2.75).bound_details__right__padding,
+#            abjad.tweak(5).staff_padding,
+#            bookend=False,
+#            selector=baca.tleaves().rleak(),
+#            ),
+#        baca.text_spanner(
+#            r'\baca-damp-markup =|',
+#            abjad.tweak(2.75).bound_details__right__padding,
+#            abjad.tweak(7.5).staff_padding,
+#            bookend=False,
+#            lilypond_id=1,
+#            selector=baca.ltleaves().rleak(),
+#            ),
+#        match=[0, 2, 3],
+#        ),
+#    baca.new(
+#        baca.text_spanner(
+#            r'\stirrings-still-fast-circles-markup =|',
+#            abjad.tweak(2.75).bound_details__right__padding,
+#            abjad.tweak(5).staff_padding,
+#            bookend=False,
+#            selector=baca.tleaves().rleak(),
+#            ),
+#        baca.text_spanner(
+#            r'\baca-damp-markup =|',
+#            abjad.tweak(2.75).bound_details__right__padding,
+#            abjad.tweak(7.5).staff_padding,
+#            bookend=False,
+#            lilypond_id=1,
+#            selector=baca.ltleaves().rleak(),
+#            ),
+#        match=1,
+#        measures=(22, 30),
+#        ),
+#    )
+
 maker(
-    ('tutti', (22, 27)),
-    baca.dynamic(
-        'p',
-        match=[1, 2, 3],
+    ('v1', (25, 27)),
+    baca.breathe(),
+    baca.text_spanner(
+        r'\stirrings-still-fast-circles-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
         ),
-    baca.new(
-        baca.breathe(),
-        match=[0, 2, 3],
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(7.5).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
         ),
-    baca.new(
-        baca.breathe(),
-        match=1,
-        measures=(22, 30),
+    stirrings_still.desynchronization(4, [2]),
+    )
+
+maker(
+    ('v2', (22, 30)),
+    baca.breathe(),
+    baca.text_spanner(
+        r'\stirrings-still-fast-circles-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
         ),
-    baca.new(
-        stirrings_still.desynchronization(4, [2]),
-        match=0,
-        measures=(25, 27),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(7.5).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
         ),
-    baca.new(
-        stirrings_still.desynchronization(4, [1]),
-        match=1,
-        measures=(22, 30),
+    stirrings_still.desynchronization(4, [1]),
+    )
+
+maker(
+    (['va', 'vc'], (22, 27)),
+    baca.breathe(),
+    baca.text_spanner(
+        r'\stirrings-still-fast-circles-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(7.5).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
-        match=2,
+        match=0,
         ),
     baca.new(
         stirrings_still.desynchronization(4, [-1]),
-        match=3,
-        ),
-    baca.new(
-        baca.text_spanner(
-            r'\stirrings-still-fast-circles-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
-            abjad.tweak(5).staff_padding,
-            bookend=False,
-            selector=baca.tleaves().rleak(),
-            ),
-        baca.text_spanner(
-            r'\baca-damp-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
-            abjad.tweak(7.5).staff_padding,
-            bookend=False,
-            lilypond_id=1,
-            selector=baca.ltleaves().rleak(),
-            ),
-        match=[0, 2, 3],
-        ),
-    baca.new(
-        baca.text_spanner(
-            r'\stirrings-still-fast-circles-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
-            abjad.tweak(5).staff_padding,
-            bookend=False,
-            selector=baca.tleaves().rleak(),
-            ),
-        baca.text_spanner(
-            r'\baca-damp-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
-            abjad.tweak(7.5).staff_padding,
-            bookend=False,
-            lilypond_id=1,
-            selector=baca.ltleaves().rleak(),
-            ),
         match=1,
-        measures=(22, 30),
         ),
     )
