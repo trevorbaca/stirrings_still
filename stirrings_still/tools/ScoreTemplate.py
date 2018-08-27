@@ -89,9 +89,29 @@ class ScoreTemplate(baca.ScoreTemplate):
         super(ScoreTemplate, self).__init__()
         self.voice_abbreviations.update({
             'v1': 'Violin_I_Music_Voice',
+            'v1r': 'Violin_I_Rest_Voice',
+            'v1x': [
+                'Violin_I_Music_Voice',
+                'Violin_I_Rest_Voice',
+                ],
             'v2': 'Violin_II_Music_Voice',
+            'v2r': 'Violin_II_Rest_Voice',
+            'v2x': [
+                'Violin_II_Music_Voice',
+                'Violin_II_Rest_Voice',
+                ],
             'va': 'Viola_Music_Voice',
+            'var': 'Viola_Rest_Voice',
+            'vax': [
+                'Viola_Music_Voice',
+                'Viola_Rest_Voice',
+                ],
             'vc': 'Cello_Music_Voice',
+            'vcr': 'Cello_Rest_Voice',
+            'vcx': [
+                'Cello_Music_Voice',
+                'Cello_Rest_Voice',
+                ],
             'trio': [
                 'Violin_I_Music_Voice',
                 'Violin_II_Music_Voice',
@@ -233,9 +253,29 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.OrderedDict(
                 [
                     ('v1', 'Violin_I_Music_Voice'),
+                    ('v1r', 'Violin_I_Rest_Voice'),
+                    (
+                        'v1x',
+                        ['Violin_I_Music_Voice', 'Violin_I_Rest_Voice'],
+                        ),
                     ('v2', 'Violin_II_Music_Voice'),
+                    ('v2r', 'Violin_II_Rest_Voice'),
+                    (
+                        'v2x',
+                        ['Violin_II_Music_Voice', 'Violin_II_Rest_Voice'],
+                        ),
                     ('va', 'Viola_Music_Voice'),
+                    ('var', 'Viola_Rest_Voice'),
+                    (
+                        'vax',
+                        ['Viola_Music_Voice', 'Viola_Rest_Voice'],
+                        ),
                     ('vc', 'Cello_Music_Voice'),
+                    ('vcr', 'Cello_Rest_Voice'),
+                    (
+                        'vcx',
+                        ['Cello_Music_Voice', 'Cello_Rest_Voice'],
+                        ),
                     (
                         'trio',
                         [

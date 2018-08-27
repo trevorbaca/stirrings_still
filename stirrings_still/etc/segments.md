@@ -1623,8 +1623,7 @@ SEGMENTS
     vc clouded pane completes:
         stopped lh continues;
         hair continues;
-        p < fff poco scratch completes:
-            achieves fff poco scratch at start of stage;
+        p < achieves fff poco scratch at start of stage;
     attacca;
 
     [E.5] (28-31)
