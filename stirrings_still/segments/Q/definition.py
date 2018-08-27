@@ -1099,3 +1099,74 @@ maker(
         ),
     stirrings_still.trajectories('C', 0, -3),
     )
+
+maker(
+    ('vc', (73, 88)),
+    baca.dynamic('pp-sempre'),
+    baca.new(
+        baca.ottava_bassa(),
+        measures=(73, 92),
+        ),
+    baca.new(
+        stirrings_still.eighths(),
+        measures=(73, 87),
+        ),
+    stirrings_still.glissando_interpolation('Bb1', 'B0'),
+    )
+
+maker(
+    ('vc', (88, 92)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('B0'),
+    )
+
+maker(
+    ('va', (73, -1)),
+    baca.dynamic('pp-sempre'),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('Bb2'),
+    )
+
+maker(
+    ('v2', (73, -1)),
+    baca.dynamic('ppp'),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -7,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
+    stirrings_still.trajectories('C', -1, -2),
+    )
+
+maker(
+    ('v1', (73, -1)),
+    baca.dynamic('ppp'),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -8,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
+    stirrings_still.trajectories('C', 0, -3),
+    )
