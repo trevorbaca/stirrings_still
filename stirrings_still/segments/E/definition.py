@@ -9,20 +9,6 @@ from abjadext import rmakers
 ##################################### [E] #####################################
 ###############################################################################
 
-maker = baca.SegmentMaker(
-    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    time_signatures=stirrings_still.time_signatures('E'),
-    validate_measure_count=127,
-    )
-
-maker(
-    'Global_Skips',
-    baca.rehearsal_mark(
-        'E',
-        abjad.tweak((0, 10)).extra_offset,
-        ),
-    )
-
 stage_markup = (
     ('[E.0]', 1),
     ('[H.9]', 4),
@@ -50,7 +36,20 @@ stage_markup = (
     ('[E.16]', 120),
     )
 
-stirrings_still.stage_markup(maker, stage_markup)
+maker = baca.SegmentMaker(
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
+    time_signatures=stirrings_still.time_signatures('E'),
+    validate_measure_count=127,
+    )
+
+maker(
+    'Global_Skips',
+    baca.rehearsal_mark(
+        'E',
+        abjad.tweak((0, 10)).extra_offset,
+        ),
+    )
 
 time = (
     ('presto', 1),

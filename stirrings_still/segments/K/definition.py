@@ -8,20 +8,6 @@ import stirrings_still
 ##################################### [K] #####################################
 ###############################################################################
 
-maker = baca.SegmentMaker(
-    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    time_signatures=stirrings_still.time_signatures('K'),
-    validate_measure_count=53,
-    )
-
-maker(
-    'Global_Skips',
-    baca.rehearsal_mark(
-        'K',
-        abjad.tweak((0, 10)).extra_offset,
-        ),
-    )
-
 stage_markup = (
     ('[K.1]', 1),
     ('[C.14]', 3),
@@ -41,7 +27,20 @@ stage_markup = (
     ('[K.10]', 46),
     )
 
-stirrings_still.stage_markup(maker, stage_markup)
+maker = baca.SegmentMaker(
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
+    time_signatures=stirrings_still.time_signatures('K'),
+    validate_measure_count=53,
+    )
+
+maker(
+    'Global_Skips',
+    baca.rehearsal_mark(
+        'K',
+        abjad.tweak((0, 10)).extra_offset,
+        ),
+    )
 
 time = (
     ('adagio', 3),
