@@ -6,24 +6,24 @@ breaks = baca.breaks(
         baca.system(
             18, 24,
             measure=1,
-            y_offset=10,
+            y_offset=20,
             ),
         baca.system(
             18, 24,
             measure=12,
-            y_offset=140,
+            y_offset=150,
             ),
         ),
     baca.page(
         baca.system(
             18, 24,
             measure=24,
-            y_offset=10,
+            y_offset=20,
             ),
         baca.system(
             18, 24,
             measure=38,
-            y_offset=140,
+            y_offset=150,
             ),
         ),
     local_measure_numbers=True,

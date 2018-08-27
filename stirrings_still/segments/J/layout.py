@@ -6,7 +6,7 @@ breaks = baca.breaks(
         baca.system(
             20, 24,
             measure=1,
-            y_offset=10,
+            y_offset=20,
             ),
         ),
     local_measure_numbers=True,

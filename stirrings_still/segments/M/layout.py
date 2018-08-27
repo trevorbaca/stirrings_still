@@ -11,7 +11,7 @@ breaks = baca.breaks(
         baca.system(
             18, 20,
             measure=17,
-            y_offset=130,
+            y_offset=150,
             ),
         ),
     local_measure_numbers=True,
