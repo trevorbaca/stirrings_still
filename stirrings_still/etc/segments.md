@@ -1796,7 +1796,7 @@ SEGMENTS
         p continues;
     >>[Q.1 (inception) 1-8/8] bisects [E.12]<< (89-96):
     >>[Q.2 (transformatum) 1-12/12] bisects [E.12]<< (97-108):
-        >>recapitulate summons of future time<<;
+        >>recapitulates summons of future time<<;
         (8 measures: 89-96)
         presto;
         tutti circles (desynchronized spinning white noise):

@@ -111,3 +111,77 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     )
+
+maker(
+    ('tutti', (10, 21)),
+    baca.hairpin(
+        'ff < fff -- ff-sub > "f"',
+        piece_selector=baca.mgroups([3, 5, 4]),
+        ),
+    baca.markup(
+        '(molto scratch on slow strokes)',
+        ),
+    baca.new(
+        baca.breathe(),
+        match=[1, 2, 3],
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -8,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', 0, -3),
+        match=0,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -7,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -1, -2),
+        match=1,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -6,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -2, -1),
+        match=2,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -5,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -3, 0),
+        match=3,
+        ),
+#    baca.text_spanner(
+#        '½ clt =|',
+#        abjad.tweak(2.75).bound_details__right__padding,
+#        abjad.tweak(5).staff_padding,
+#        bookend=False,
+#        selector=baca.tleaves().rleak(),
+#        ),
+    )
