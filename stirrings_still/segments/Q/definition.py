@@ -151,7 +151,7 @@ maker(
     ('v1', (10, 24)),
     baca.breathe(),
     baca.hairpin(
-        'ff < fff -- ff-effort-sub > p',
+        'ff < fff -- "fff" > p',
         piece_selector=baca.mgroups([3, 5, 7]),
         ),
     baca.markup(
@@ -182,7 +182,7 @@ maker(
     ('v2', (13, 21)),
     baca.breathe(),
     baca.hairpin(
-        'fff -- ff-effort-sub > "f"',
+        'fff -- "fff" > "f"',
         piece_selector=baca.mgroups([5, 4]),
         ),
     baca.markup(
@@ -213,7 +213,7 @@ maker(
     (['va', 'vc'], (10, 21)),
     baca.breathe(),
     baca.hairpin(
-        'ff < fff -- ff-effort-sub > "f"',
+        'ff < fff -- "fff" > "f"',
         piece_selector=baca.mgroups([3, 5, 4]),
         ),
     baca.markup(
@@ -332,7 +332,7 @@ maker(
     ('v1', (28, 40)),
     baca.breathe(),
     baca.hairpin(
-        'f < ff -- f-effort-sub > p',
+        'f < ff -- "ff" > p',
         piece_selector=baca.mgroups([3, 4, 3 + 3]),
         ),
     baca.suite(
@@ -359,7 +359,7 @@ maker(
     ('v2', (31, 37)),
     baca.breathe(),
     baca.hairpin(
-        'ff -- f-effort-sub > "mf"',
+        'ff -- "ff" > "mf"',
         piece_selector=baca.mgroups([4, 3]),
         ),
     baca.suite(
@@ -386,7 +386,7 @@ maker(
     (['va', 'vc'], (28, 37)),
     baca.breathe(),
     baca.hairpin(
-        'f < ff -- f-effort-sub > "mf"',
+        'f < ff -- "ff" > "mf"',
         piece_selector=baca.mgroups([3, 4, 3]),
         ),
     baca.new(
@@ -458,7 +458,7 @@ maker(
     (['va', 'vc'], (43, 50)),
     baca.breathe(),
     baca.hairpin(
-        'mf < f -- mf-effort-sub > mp',
+        'mf < f -- "f" > mp',
         piece_selector=baca.mgroups([3, 2, 3]),
         ),
     baca.new(
@@ -523,7 +523,7 @@ maker(
     ('v2', (46, 50)),
     baca.breathe(),
     baca.hairpin(
-        'f -- mf-effort-sub > mp',
+        'f -- "f" > mp',
         piece_selector=baca.mgroups([2, 3]),
         ),
     baca.suite(
@@ -571,7 +571,7 @@ maker(
     ('v1', (43, 52)),
     baca.breathe(),
     baca.hairpin(
-        'mf < f -- mf-effort-sub > p',
+        'mf < f -- "f" > p',
         piece_selector=baca.mgroups([3, 2, 5]),
         ),
     baca.suite(
@@ -627,7 +627,7 @@ maker(
     (['va', 'vc'], (55, 60)),
     baca.breathe(),
     baca.hairpin(
-        'mp < mf -- mp > p',
+        'mp < mf -- "mf" > p',
         piece_selector=baca.mgroups([2, 2, 2]),
         ),
     baca.new(
@@ -692,7 +692,7 @@ maker(
     ('v2', (57, 60)),
     baca.breathe(),
     baca.hairpin(
-        'mf -- mp-sub > pp',
+        'mf -- "mf" > p',
         piece_selector=baca.mgroups([2, 2]),
         ),
     baca.suite(
@@ -740,7 +740,7 @@ maker(
     ('v1', (55, 62)),
     baca.breathe(),
     baca.hairpin(
-        'mp < mf -- mp-sub > pp',
+        'mp < mf -- "mf" > pp',
         piece_selector=baca.mgroups([2, 2, 4]),
         ),
     baca.suite(
