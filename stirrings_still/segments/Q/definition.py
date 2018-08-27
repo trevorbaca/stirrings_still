@@ -143,8 +143,14 @@ maker(
 maker(
     ('tutti', (10, 21)),
     baca.hairpin(
+        'ff < fff -- ff-effort-sub > p',
+        match=0,
+        measures=(10, 24),
+        piece_selector=baca.mgroups([3, 5, 7]),
+        ),
+    baca.hairpin(
         'ff < fff -- ff-effort-sub > "f"',
-        match=[0, 2, 3],
+        match=[2, 3],
         piece_selector=baca.mgroups([3, 5, 4]),
         ),
     baca.hairpin(
@@ -178,6 +184,7 @@ maker(
             ),
         stirrings_still.trajectories('C', 0, -3),
         match=0,
+        measures=(10, 24),
         ),
     baca.new(
         baca.suite(
@@ -229,5 +236,77 @@ maker(
         abjad.tweak(9).staff_padding,
         bookend=False,
         selector=baca.tleaves().rleak(),
+        ),
+    )
+
+maker(
+    ('tutti', (22, 27)),
+    baca.dynamic(
+        'p',
+        match=[1, 2, 3],
+        ),
+    baca.new(
+        baca.breathe(),
+        match=[0, 2, 3],
+        ),
+    baca.new(
+        baca.breathe(),
+        match=1,
+        measures=(22, 30),
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [2]),
+        match=0,
+        measures=(25, 27),
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [1]),
+        match=1,
+        measures=(22, 30),
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [0]),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [-1]),
+        match=3,
+        ),
+    baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-fast-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.tleaves().rleak(),
+            ),
+        baca.text_spanner(
+            r'\baca-damp-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(7.5).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            selector=baca.ltleaves().rleak(),
+            ),
+        match=[0, 2, 3],
+        ),
+    baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-fast-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.tleaves().rleak(),
+            ),
+        baca.text_spanner(
+            r'\baca-damp-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(7.5).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            selector=baca.ltleaves().rleak(),
+            ),
+        match=1,
+        measures=(22, 30),
         ),
     )
