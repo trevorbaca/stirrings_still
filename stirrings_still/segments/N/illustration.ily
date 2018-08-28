@@ -864,13 +864,13 @@ N_Violin_I_Music_Voice = {                                                     %
     R1 * 5/8                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 649 / measure 3]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 650 / measure 4]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 651 / measure 5]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 652 / measure 6]                         %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _call_rhythm_commands
@@ -882,10 +882,10 @@ N_Violin_I_Music_Voice = {                                                     %
     R1 * 7/8                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 655 / measure 9]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 656 / measure 10]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 657 / measure 11]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -930,10 +930,10 @@ N_Violin_I_Music_Voice = {                                                     %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 671 / measure 25]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 672 / measure 26]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 673 / measure 27]                        %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _call_rhythm_commands
@@ -942,16 +942,16 @@ N_Violin_I_Music_Voice = {                                                     %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 675 / measure 29]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 676 / measure 30]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 677 / measure 31]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 678 / measure 32]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 679 / measure 33]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _call_rhythm_commands
@@ -966,10 +966,10 @@ N_Violin_I_Music_Voice = {                                                     %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 683 / measure 37]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 684 / measure 38]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_I_Music_Voice measure 685 / measure 39]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -1007,13 +1007,13 @@ N_Violin_II_Music_Voice = {                                                    %
     R1 * 5/8                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 649 / measure 3]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 650 / measure 4]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 651 / measure 5]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 652 / measure 6]                        %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _call_rhythm_commands
@@ -1025,10 +1025,10 @@ N_Violin_II_Music_Voice = {                                                    %
     R1 * 7/8                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 655 / measure 9]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 656 / measure 10]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 657 / measure 11]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -1073,10 +1073,10 @@ N_Violin_II_Music_Voice = {                                                    %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 671 / measure 25]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 672 / measure 26]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 673 / measure 27]                       %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _call_rhythm_commands
@@ -1085,16 +1085,16 @@ N_Violin_II_Music_Voice = {                                                    %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 675 / measure 29]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 676 / measure 30]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 677 / measure 31]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 678 / measure 32]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 679 / measure 33]                       %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _call_rhythm_commands
@@ -1109,10 +1109,10 @@ N_Violin_II_Music_Voice = {                                                    %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 683 / measure 37]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 684 / measure 38]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Violin_II_Music_Voice measure 685 / measure 39]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -1154,13 +1154,13 @@ N_Viola_Music_Voice = {                                                        %
     R1 * 5/8                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 649 / measure 3]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 650 / measure 4]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 651 / measure 5]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 652 / measure 6]                            %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _call_rhythm_commands
@@ -1172,10 +1172,10 @@ N_Viola_Music_Voice = {                                                        %
     R1 * 7/8                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 655 / measure 9]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 656 / measure 10]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 657 / measure 11]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -1220,10 +1220,10 @@ N_Viola_Music_Voice = {                                                        %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 671 / measure 25]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 672 / measure 26]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 673 / measure 27]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _call_rhythm_commands
@@ -1232,16 +1232,16 @@ N_Viola_Music_Voice = {                                                        %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 675 / measure 29]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 676 / measure 30]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 677 / measure 31]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 678 / measure 32]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 679 / measure 33]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _call_rhythm_commands
@@ -1256,10 +1256,10 @@ N_Viola_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 683 / measure 37]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 684 / measure 38]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Viola_Music_Voice measure 685 / measure 39]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -1297,13 +1297,13 @@ N_Cello_Music_Voice = {                                                        %
     R1 * 5/8                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 649 / measure 3]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 650 / measure 4]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 651 / measure 5]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 652 / measure 6]                            %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _call_rhythm_commands
@@ -1315,10 +1315,10 @@ N_Cello_Music_Voice = {                                                        %
     R1 * 7/8                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 655 / measure 9]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 656 / measure 10]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 657 / measure 11]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -1363,10 +1363,10 @@ N_Cello_Music_Voice = {                                                        %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 671 / measure 25]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 672 / measure 26]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 673 / measure 27]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _call_rhythm_commands
@@ -1375,16 +1375,16 @@ N_Cello_Music_Voice = {                                                        %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 675 / measure 29]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 676 / measure 30]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 677 / measure 31]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 678 / measure 32]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 679 / measure 33]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _call_rhythm_commands
@@ -1399,10 +1399,10 @@ N_Cello_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 683 / measure 37]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 684 / measure 38]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [N Cello_Music_Voice measure 685 / measure 39]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
