@@ -1557,7 +1557,6 @@ SEGMENTS
             1/2 clt resumes after prefix;
             tasto resumes after prefix;
             tremolo-initiated strokes begin independently;
-                very light fast bow begins independently;
             desynchronization continues;
             p continues;
     vc clouded pane continues:
