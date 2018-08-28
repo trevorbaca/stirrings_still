@@ -1574,13 +1574,7 @@ SEGMENTS
             1/2 clt continues;
             tasto continues;
             tremolo-initiation continues;
-                very light fast bow continues;
-            synchronization process governs stage:
-                achieves synchronization at start of measure -1;
-            additive rhythm governs stage:
-                achieves adagio-equivalent at start of measure -1;
-                effects written-out ritardando;
-                transpires under presto;
+            synchronization process governs stage;
             p continues;
     vc clouded pane continues:
         stopped lh continues;
@@ -1590,7 +1584,7 @@ SEGMENTS
 
     [E.3] (20-23)
     (4 measures)
-    adagio (equal to additive rhythm endpoint) starts;
+    adagio starts;
     adagio-to-allegro accelerando happens:
         achieves allegro at start of measure -1;
     v1, v2, va grid-to-trajectories transition continues:
