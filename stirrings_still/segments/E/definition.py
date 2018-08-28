@@ -166,12 +166,14 @@ maker(
         ),
     )
 
+# E.1 - E.3
+
 maker(
     ('v1', (6, 23)),
     baca.new(
         baca.accent(),
         baca.dynamic('sfp'),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(selector=baca.pleaves()),
         map=baca.plts()[abjad.index([0], 2)],
         ),
     baca.new(
@@ -190,7 +192,7 @@ maker(
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.text_spanner(
-        r'\baca-damp-markup =|',
+        r'½ clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(10.5).staff_padding,
         bookend=False,
@@ -198,7 +200,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'½ clt =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
         bookend=False,
@@ -225,7 +227,7 @@ maker(
     baca.new(
         baca.accent(),
         baca.dynamic('sfp'),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(selector=baca.pleaves()),
         map=baca.plts()[abjad.index([0], 2)],
         ),
     baca.new(
@@ -244,7 +246,7 @@ maker(
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.text_spanner(
-        r'\baca-damp-markup =|',
+        r'½ clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(10.5).staff_padding,
         bookend=False,
@@ -252,10 +254,12 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'½ clt =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
         bookend=False,
+        map=baca.plts().partition_by_counts(
+            [4, 1, 3, 1, 2, 1, 99], cyclic=True)[abjad.index([0], 2)],
         lilypond_id=1,
         selector=baca.ltleaves().rleak(),
         ),
@@ -266,7 +270,7 @@ maker(
     baca.new(
         baca.accent(),
         baca.dynamic('sfp'),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(selector=baca.pleaves()),
         map=baca.plts()[abjad.index([0], 2)],
         ),
     baca.new(
@@ -285,7 +289,7 @@ maker(
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.text_spanner(
-        r'\baca-damp-markup =|',
+        r'½ clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(9).staff_padding,
         bookend=False,
@@ -293,19 +297,17 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'½ clt =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(6.5).staff_padding,
         bookend=False,
         lilypond_id=1,
+        map=baca.plts().partition_by_counts(
+            [4, 1, 3, 1, 2, 1, 99], cyclic=True)[abjad.index([0], 2)],
         selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.grid_to_trajectory(0, -4, 0),
     )
-
-# E.2
-
-# E.3
 
 #
 
@@ -316,7 +318,7 @@ maker(
         abjad.tweak('magenta').color,
         ),
     baca.new(
-        baca.hairpin('p < fff-poco-scr'),
+        baca.hairpin('p < fff-poco-scratch'),
         measures=(20, 24),
         ),
     stirrings_still.clouded_pane(),
