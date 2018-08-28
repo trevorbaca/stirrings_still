@@ -63,9 +63,9 @@ def flight(counts, rotation, start=None):
                 denominator=8,
                 ),
             tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True,
                 diminution=True,
                 denominator=(1, 8),
+                extract_trivial=True,
                 force_fraction=True,
                 rewrite_dots=True,
                 rewrite_sustained=True,
