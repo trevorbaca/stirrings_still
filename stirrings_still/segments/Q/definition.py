@@ -766,7 +766,7 @@ maker(
 maker(
     (['va', 'vc'], (61, 63)),
     baca.breathe(),
-    baca.dynamic('p'),
+    baca.dynamic('p-ancora'),
     baca.text_spanner(
         r'\stirrings-still-fast-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
@@ -838,7 +838,7 @@ maker(
 maker(
     ('v2', (61, 64)),
     baca.breathe(),
-    baca.dynamic('p'),
+    baca.dynamic('p-ancora'),
     baca.text_spanner(
         r'\stirrings-still-fast-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
@@ -1129,7 +1129,7 @@ maker(
 
 maker(
     ('v2', (73, -1)),
-    baca.dynamic('ppp'),
+    baca.dynamic('ppp-ancora'),
     baca.suite(
         baca.script_staff_padding(5),
         baca.tuplet_bracket_down(),
@@ -1151,7 +1151,7 @@ maker(
 
 maker(
     ('v1', (73, -1)),
-    baca.dynamic('ppp'),
+    baca.dynamic('ppp-ancora'),
     baca.suite(
         baca.script_staff_padding(5),
         baca.tuplet_bracket_down(),
