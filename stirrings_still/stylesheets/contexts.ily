@@ -146,10 +146,7 @@
         \override Beam.breakable = ##t
         \override Beam.damping = 99
 
-        \override DynamicLineSpanner.padding = #3
-
-        % TODO: propagate to other scores?
-        \override DynamicText.self-alignment-X = #left
+        \override DynamicLineSpanner.staff-padding = 4
 
         \override Hairpin.to-barline = ##f
 
