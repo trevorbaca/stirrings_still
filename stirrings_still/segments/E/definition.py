@@ -144,7 +144,6 @@ maker(
         'niente o< p',
         selector=baca.tleaves().rleak(),
         ),
-    baca.markup('hair: 8” circles'),
     baca.new(
         stirrings_still.pickets(4, 2, dmask=baca.silence_first()),
         match=0,
@@ -157,17 +156,45 @@ maker(
         stirrings_still.pickets(4, 0, dmask=baca.silence_first()),
         match=2,
         ),
+    baca.text_spanner(
+        r'\stirrings-still-fast-circles-markup =|',
+        abjad.tweak(2.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
     )
 
+#maker(
+#    (['v1', 'v2', 'va'], (6, 19)),
+#    baca.text_spanner(
+#        '[grid-to-trajectory] =|',
+#        abjad.tweak(3.25).bound_details__right__padding,
+#        bookend=False,
+#        selector=baca.ltleaves().rleak(),
+#        ),
+#    stirrings_still.grid_to_trajectory(),
+#    )
+
 maker(
-    (['v1', 'v2', 'va'], (6, 19)),
+    ('v1', (6, 11)),
+    # HERE
     baca.text_spanner(
-        '[grid-to-trajectory] =|',
+        r'½ clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(6.5).staff_padding,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
-    stirrings_still.grid_to_trajectory(),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    stirrings_still.grid_to_trajectory(0, 0),
     )
 
 maker(
