@@ -99,7 +99,7 @@ maker(
     )
 
 maker(
-    ('v2', (2, 12)),
+    ('v2', (2, 13)),
     baca.breathe(),
     baca.text_spanner(
         r'\stirrings-still-fast-circles-markup =|',
@@ -152,7 +152,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff < fff -- "fff" > p',
-        piece_selector=baca.mgroups([3, 5, 7]),
+        piece_selector=baca.mgroups([4, 4, 7]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -179,11 +179,11 @@ maker(
     )
 
 maker(
-    ('v2', (13, 21)),
+    ('v2', (14, 21)),
     baca.breathe(),
     baca.hairpin(
         'fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([5, 4]),
+        piece_selector=baca.mgroups([4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -214,7 +214,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff < fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([3, 5, 4]),
+        piece_selector=baca.mgroups([4, 4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
