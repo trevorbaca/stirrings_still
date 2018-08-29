@@ -21,6 +21,7 @@ from .grid import grid
 from .grid_to_trajectory import grid_to_trajectory
 from .loure_tuplets import loure_tuplets
 from .margin_markup import margin_markup
+from .measure_initiation import measure_initiation
 from .ntlt_flat_glissandi import ntlt_flat_glissandi
 from .operations import operations
 from .pickets import pickets
