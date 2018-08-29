@@ -26,6 +26,7 @@ from .ntlt_flat_glissandi import ntlt_flat_glissandi
 from .operations import operations
 from .pickets import pickets
 from .rasp import rasp
+from .running_quarter_divisions import running_quarter_divisions
 from .second_order_stages import second_order_stages
 from .strokes import strokes
 from .synchronized_circles import synchronized_circles

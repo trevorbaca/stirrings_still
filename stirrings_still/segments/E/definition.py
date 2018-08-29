@@ -22,7 +22,7 @@ stage_markup = (
     ('[E.6]', 35),
     ('[E.7]', 37),
     ('[Q.1]', 42),
-    ('[E.7]', 50),
+    ('[Q.2]', 50),
     ('[E.8]', 63),
     ('[E.9]', 71),
     ('[E.10]', 79),
@@ -380,7 +380,7 @@ maker(
 # E.6
 
 maker(
-    ('trio', (35, 40)),
+    ('va', (35, 40)),
     baca.new(
         baca.accent(),
         baca.dynamic('sfp'),
@@ -417,6 +417,65 @@ maker(
         map=baca.plt(-1),
         ),
     stirrings_still.measure_initiation(),
+    )
+
+maker(
+    (['v1', 'v2'], (35, 40)),
+    baca.hairpin(
+        'p < "mf"',
+        bookend=False,
+        piece_selector=baca.mgroups([4, 2]),
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -8,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', 0, -3),
+        match=0,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -7,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -1, -2),
+        match=1,
+        ),
+    )
+
+maker(
+    ('v1', (63, 78)),
+    baca.accent(
+        selector=baca.pleaves()[abjad.index([0], 9)],
+        ),
+    stirrings_still.running_quarter_divisions(0),
+    )
+
+maker(
+    ('v2', (63, 78)),
+    baca.accent(
+        selector=baca.pleaves()[abjad.index([0], 8)],
+        ),
+    stirrings_still.running_quarter_divisions(-1),
+    )
+
+maker(
+    ('va', (63, 78)),
+    baca.accent(
+        selector=baca.pleaves()[abjad.index([0], 7)],
+        ),
+    stirrings_still.running_quarter_divisions(-1),
     )
 
 # [Q.1]
