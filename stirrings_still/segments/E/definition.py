@@ -459,6 +459,24 @@ maker(
     baca.accent(
         selector=baca.pleaves()[abjad.index([0], 9)],
         ),
+    baca.hairpin(
+        '"ff" > p',
+        measures=(63, 70),
+        selector=baca.rleaves(),
+        ),
+    baca.suite(
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            0,
+            abjad.tweak(2.5).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(5).staff_padding,
+                ),
+            clt=True,
+            #selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+            selector=baca.cmgroups().map(baca.leaf(0)),
+            ),
+        ),
     stirrings_still.running_quarter_divisions(0),
     )
 
@@ -467,6 +485,24 @@ maker(
     baca.accent(
         selector=baca.pleaves()[abjad.index([0], 8)],
         ),
+    baca.hairpin(
+        '"ff" > p',
+        measures=(63, 70),
+        selector=baca.rleaves(),
+        ),
+    baca.suite(
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            0,
+            abjad.tweak(2.5).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(5).staff_padding,
+                ),
+            clt=True,
+            selector=baca.cmgroups().map(baca.leaf(0)),
+            ),
+        ),
+    baca.tuplet_bracket_staff_padding(3.5),
     stirrings_still.running_quarter_divisions(-1),
     )
 
@@ -474,6 +510,23 @@ maker(
     ('va', (63, 78)),
     baca.accent(
         selector=baca.pleaves()[abjad.index([0], 7)],
+        ),
+    baca.hairpin(
+        '"ff" > p',
+        measures=(63, 70),
+        selector=baca.rleaves(),
+        ),
+    baca.suite(
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            0,
+            abjad.tweak(2.5).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(5).staff_padding,
+                ),
+            clt=True,
+            selector=baca.cmgroups().map(baca.leaf(0)),
+            ),
         ),
     stirrings_still.running_quarter_divisions(-1),
     )
