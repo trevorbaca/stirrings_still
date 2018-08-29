@@ -192,14 +192,6 @@ maker(
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.text_spanner(
-        r'½ clt =|',
-        abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(10.5).staff_padding,
-        bookend=False,
-        lilypond_id=2,
-        selector=baca.ltleaves().rleak(),
-        ),
-    baca.text_spanner(
         r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
@@ -246,14 +238,6 @@ maker(
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.text_spanner(
-        r'½ clt =|',
-        abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(10.5).staff_padding,
-        bookend=False,
-        lilypond_id=2,
-        selector=baca.ltleaves().rleak(),
-        ),
-    baca.text_spanner(
         r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
@@ -289,14 +273,6 @@ maker(
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.text_spanner(
-        r'½ clt =|',
-        abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(9).staff_padding,
-        bookend=False,
-        lilypond_id=2,
-        selector=baca.ltleaves().rleak(),
-        ),
-    baca.text_spanner(
         r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(6.5).staff_padding,
@@ -307,6 +283,57 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.grid_to_trajectory(0, -4, 0),
+    )
+
+
+# E.4, E.5, E.6
+
+maker(
+    ('trio', (24, 33)),
+    baca.new(
+        baca.accent(),
+        baca.dynamic('sfp'),
+        baca.stem_tremolo(),
+        map=baca.plts()[abjad.index([0], 2)],
+        ),
+    baca.new(
+        baca.hairpin(
+            'pp --',
+            bookend=False,
+            ),
+        baca.text_spanner(
+            'XFB -|',
+            abjad.tweak(3.25).bound_details__right__padding,
+            abjad.tweak(5.5).staff_padding,
+            bookend=False,
+            lilypond_id=None,
+            selector=baca.ltleaves().rleak(),
+            ),
+        map=baca.plts()[abjad.index([1], 2)],
+        ),
+    stirrings_still.measure_initiation(),
+    )
+
+maker(
+    ('trio', (6, 40)),
+    baca.text_spanner(
+        r'½ clt =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(10.5).staff_padding,
+        bookend=False,
+        lilypond_id=2,
+        match=[0, 1],
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'½ clt =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        lilypond_id=2,
+        match=[2],
+        selector=baca.ltleaves().rleak(),
+        ),
     )
 
 #
@@ -327,6 +354,69 @@ maker(
 maker(
     ('vcx', (28, 40)),
     baca.tacet(),
+    )
+
+# A.1 (E.6)
+
+maker(
+    ('trio', 34),
+    baca.new(
+        baca.breathe(selector=baca.note(1)),
+        baca.tie_to(selector=baca.note(1)),
+        selector=baca.note(1),
+        ),
+    baca.new(
+        baca.repeat_tie_to(),
+        baca.stop_on_string(),
+        selector=baca.note(-1),
+        ),
+    baca.hairpin(
+        'p <| mp p < mp',
+        piece_selector=baca.clparts([1]),
+        ),
+    stirrings_still.declamation(),
+    )
+
+# E.6
+
+maker(
+    ('trio', (35, 40)),
+    baca.new(
+        baca.accent(),
+        baca.dynamic('sfp'),
+        baca.stem_tremolo(),
+        map=baca.plts()[abjad.index([0], 2)],
+        ),
+    baca.new(
+        baca.hairpin(
+            'pp --',
+            bookend=False,
+            ),
+        baca.text_spanner(
+            'XFB -|',
+            abjad.tweak(3.25).bound_details__right__padding,
+            abjad.tweak(5.5).staff_padding,
+            bookend=False,
+            lilypond_id=None,
+            selector=baca.ltleaves().rleak(),
+            ),
+        map=baca.plts()[:-1][abjad.index([1], 2)],
+        ),
+    baca.new(
+        baca.hairpin(
+            'pp -- niente',
+            ),
+        baca.text_spanner(
+            'XFB -|',
+            abjad.tweak(3.25).bound_details__right__padding,
+            abjad.tweak(5.5).staff_padding,
+            bookend=False,
+            lilypond_id=None,
+            selector=baca.ltleaves().rleak(),
+            ),
+        map=baca.plt(-1),
+        ),
+    stirrings_still.measure_initiation(),
     )
 
 # [Q.1]
