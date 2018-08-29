@@ -5,7 +5,9 @@ import baca
 def bcps(
     rotation: int,
     *tweaks,
+    bow_change_tweaks = None,
     clt: bool = False,
+    selector = 'baca.leaves()',
     ):
     """
     Makes bow contact points.
@@ -24,5 +26,7 @@ def bcps(
     return baca.bcps(
         bcps,
         *tweaks,
+        bow_change_tweaks=bow_change_tweaks,
+        selector=selector,
         tag='stirrings_still_bcps',
         )
