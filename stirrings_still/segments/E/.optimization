@@ -2178,3 +2178,63 @@
  Segment-maker runtime: 65 seconds
  Abjad format time: 1 second
  LilyPond runtime: 6 seconds
+
+2018-08-29 13:18:51
+ Segment-maker runtime: 25 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 1 second
+
+2018-08-29 13:21:50
+ Segment-maker runtime: 27 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 2 seconds
+
+2018-08-29 13:30:39
+ Segment-maker runtime: 25 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 2 seconds
+
+2018-08-29 13:33:28
+ Segment-maker runtime: 64 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 6 seconds
+
+2018-08-29 13:43:46
+ Segment-maker runtime: 23 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 1 second
+
+2018-08-29 13:51:26
+ Segment-maker runtime: 29 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 2 seconds
+
+2018-08-29 13:59:21
+ Segment-maker runtime: 27 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 2 seconds
+
+2018-08-29 14:05:37
+ Segment-maker runtime: 31 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 2 seconds
+
+2018-08-29 14:26:01
+ Segment-maker runtime: 26 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 2 seconds
+
+2018-08-29 14:29:09
+ Segment-maker runtime: 27 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 2 seconds
+
+2018-08-29 14:30:17
+ Segment-maker runtime: 27 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 2 seconds
+
+2018-08-29 14:34:08
+ Segment-maker runtime: 75 seconds
+ Abjad format time: 2 seconds
+ LilyPond runtime: 7 seconds

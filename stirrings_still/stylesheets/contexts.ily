@@ -169,10 +169,10 @@
         \override StemTremolo.slope = 0.5
 
         \override TextScript.font-name = #"Palatino"
-        \override TextScript.padding = 1
+        %%%% remove? \override TextScript.padding = 1
         \override TextScript.X-extent = ##f
 
-        \override TextSpanner.staff-padding = 2
+        %%%% remove? \override TextSpanner.staff-padding = 2
 
         \override TrillSpanner.bound-details.right.padding = 2
 

@@ -1671,7 +1671,7 @@ SEGMENTS
         <<attacca return to second half of [E.6]>>;
     attacca;
 
-    [E.7] (37-40 + fermata + [42-49] + 50-61 + fermata)
+    [E.7] (37-40 + fermata + [42-49] + [50-61] + fermata)
     (4 measures)
     presto continues;
     v1, v2, va trajectories continue:
@@ -1718,8 +1718,8 @@ SEGMENTS
         stopped lh continues;
         1/2 clt continues;
         tasto continues;
-        eight- or tenfold repetition vortex happens:
-            accelerando time-sheers vortex dramatically;
+        eight- or tenfold repetition vortex happens;
+        accelerando time-sheers vortex dramatically;
         f > p governs stage;
     vc clouded pane begins again:
         stopped lh begins again;
