@@ -1862,7 +1862,7 @@ SEGMENTS
     (8 measures)
     largo continues;
     v1, v2, va:
-        tacet continues;
+        tacet;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
