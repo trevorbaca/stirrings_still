@@ -561,15 +561,15 @@ maker(
         piece_selector=baca.plts(),
         ),
     baca.new(
-        stirrings_still.talea_eighths([3, 6, 8], 0, 1),
+        stirrings_still.talea_eighths([3, 6, 8], 0, 1, [1]),
         match=0,
         ),
     baca.new(
-        stirrings_still.talea_eighths([3, 6, 8], -1, 0),
+        stirrings_still.talea_eighths([3, 6, 8], -1, 0, [1]),
         match=1,
         ),
     baca.new(
-        stirrings_still.talea_eighths([3, 6, 8], -2, -1),
+        stirrings_still.talea_eighths([3, 6, 8], -2, -1, [1]),
         match=2,
         ),
     baca.stem_tremolo(
