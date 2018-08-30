@@ -62,6 +62,9 @@ def flight(counts, rotation, start=None):
                 counts=counts_,
                 denominator=8,
                 ),
+            tie_specifier=rmakers.TieSpecifier(
+                repeat_ties=(1, 4),
+                ),
             tuplet_specifier=rmakers.TupletSpecifier(
                 diminution=True,
                 denominator=(1, 8),
