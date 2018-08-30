@@ -30,6 +30,7 @@ stage_markup = (
     ('[E.12]', 87),
     ('[Q.1]', 89),
     ('[Q.2]', 97),
+    ('[E.12]', 109),
     ('[E.13]', 112),
     ('[E.14]', 116),
     ('[E.15]', 118),
@@ -454,6 +455,8 @@ maker(
         ),
     )
 
+# E.8
+
 maker(
     ('v1', (63, 78)),
     baca.accent(
@@ -473,8 +476,7 @@ maker(
                 abjad.tweak(5).staff_padding,
                 ),
             clt=True,
-            #selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
-            selector=baca.cmgroups().map(baca.leaf(0)),
+            selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
             ),
         ),
     stirrings_still.running_quarter_divisions(0),
@@ -499,7 +501,7 @@ maker(
                 abjad.tweak(5).staff_padding,
                 ),
             clt=True,
-            selector=baca.cmgroups().map(baca.leaf(0)),
+            selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
             ),
         ),
     baca.tuplet_bracket_staff_padding(3.5),
@@ -525,10 +527,83 @@ maker(
                 abjad.tweak(5).staff_padding,
                 ),
             clt=True,
-            selector=baca.cmgroups().map(baca.leaf(0)),
+            selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
             ),
         ),
     stirrings_still.running_quarter_divisions(-1),
+    )
+
+# E.10
+
+maker(
+    ('trio', (79, 80)),
+    baca.make_repeat_tied_notes(),
+    baca.markup(
+        'flight',
+        abjad.tweak('magenta').color,
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    baca.text_spanner(
+        'tasto => poco pont.',
+        abjad.tweak(5).staff_padding,
+        match=2,
+        ),
+    )
+
+maker(
+    ('trio', (82, 85)),
+    baca.hairpin(
+        'ff > p < ff',
+        bookend=False,
+        final_hairpin=False,
+        piece_selector=baca.plts(),
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], 0, 1),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], -1, 0),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], -2, -1),
+        match=2,
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+#    baca.text_spanner(
+#        'P => T => P',
+#        abjad.tweak(5).staff_padding,
+#        bookend=False,
+#        piece_selector=baca.plts(),
+#        selector=baca.plts()[:3],
+#        ),
+    )
+
+# E.12
+
+maker(
+    ('trio', (87, 88)),
+    baca.dynamic('mf'),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], 0, 1),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], -1, 0),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], -2, -1),
+        match=2,
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
     )
 
 # [Q.1]

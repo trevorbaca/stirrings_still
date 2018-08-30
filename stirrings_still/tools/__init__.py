@@ -31,6 +31,7 @@ from .second_order_stages import second_order_stages
 from .strokes import strokes
 from .synchronized_circles import synchronized_circles
 from .tailpiece import tailpiece
+from .talea_eighths import talea_eighths
 from .taper import taper
 from .time import time
 from .time_signatures import time_signatures
