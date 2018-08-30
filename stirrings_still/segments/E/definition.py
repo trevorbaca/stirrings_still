@@ -555,7 +555,7 @@ maker(
 maker(
     ('trio', (82, 85)),
     baca.hairpin(
-        'ff > p < ff',
+        'ff > p < ff -- f > p < f --',
         bookend=False,
         final_hairpin=False,
         piece_selector=baca.plts(),
@@ -575,20 +575,20 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-#    baca.text_spanner(
-#        'P => T => P',
-#        abjad.tweak(5).staff_padding,
-#        bookend=False,
-#        piece_selector=baca.plts(),
-#        selector=baca.plts()[:3],
-#        ),
+    baca.text_spanner(
+        'P -> T ->',
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        final_piece_spanner=False,
+        piece_selector=baca.plts(),
+        ),
     )
 
 # E.12
 
 maker(
     ('trio', (87, 88)),
-    baca.dynamic('mf'),
+    #baca.dynamic('mf'),
     baca.new(
         stirrings_still.talea_eighths([3, 6, 8], 0, 1),
         match=0,
