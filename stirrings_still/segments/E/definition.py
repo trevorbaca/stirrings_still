@@ -588,7 +588,7 @@ maker(
 
 maker(
     ('trio', (87, 88)),
-    #baca.dynamic('mf'),
+    baca.hairpin('"f" > p'),
     baca.new(
         stirrings_still.talea_eighths([3, 6, 8], 0, 1),
         match=0,
@@ -603,6 +603,21 @@ maker(
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(7.5).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        'P -> T ->',
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        final_piece_spanner=False,
+        piece_selector=baca.plts(),
         ),
     )
 
@@ -974,4 +989,83 @@ maker(
         measures=(105, 108),
         selector=baca.tleaves().rleak(),
         ),
+    )
+
+maker(
+    ('trio', (109, 110)),
+    baca.dynamic('p'),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], 0, 1),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], -1, 0),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], -2, -1),
+        match=2,
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(7.5).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        'P -> T ->',
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        final_piece_spanner=False,
+        piece_selector=baca.plts(),
+        ),
+    )
+
+maker(
+    ('trio', (112, 119)),
+    baca.hairpin(
+        'p >o niente',
+        measures=(116, 119),
+        selector=baca.rleaves(),
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], 0, 1),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], -1, 0),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.talea_eighths([3, 6, 8], -2, -1),
+        match=2,
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(7.5).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        'P -> T ->',
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        final_piece_spanner=False,
+        piece_selector=baca.plts(),
+        ),
+    )
+
+maker(
+    (['v1x', 'v2x', 'vax'], (120, 127)),
+    baca.tacet(),
     )
