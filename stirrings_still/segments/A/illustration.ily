@@ -1487,6 +1487,8 @@ A_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ^ \baca-default-indicator-markup "(“ViolinI”)"                         %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
+        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
         ^ \baca-explicit-indicator-markup "[“Vn. I”]"                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1793,6 +1795,8 @@ A_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ^ \baca-default-indicator-markup "(“ViolinI”)"                         %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
+        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
         ^ \baca-explicit-indicator-markup "[“Vn. II”]"                         %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2099,6 +2103,8 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ^ \baca-default-indicator-markup "(“Viola”)"                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
+        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
         ^ \baca-explicit-indicator-markup "[“Va.”]"                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
