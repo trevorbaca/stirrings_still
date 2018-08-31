@@ -259,6 +259,30 @@ maker(
         ),
     )
 
+maker(
+    ('trio', 22),
+    baca.hairpin(
+        'pp <| p pp <| mf',
+        piece_selector=baca.clparts([1]),
+        ),
+    )
+
+maker(
+    ('trio', 25),
+    baca.hairpin(
+        'pp <| p pp <| f',
+        piece_selector=baca.clparts([1]),
+        ),
+    )
+
+maker(
+    ('trio', 29),
+    baca.hairpin(
+        'pp <| p pp <| ff',
+        piece_selector=baca.clparts([1]),
+        ),
+    )
+
 # A.17
 
 maker(
