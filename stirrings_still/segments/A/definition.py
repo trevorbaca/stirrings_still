@@ -182,8 +182,6 @@ maker(
         ),
     )
 
-# HERE
-
 maker(
     ('trio', (11, 16)),
     baca.breathe(
@@ -222,10 +220,10 @@ maker(
     baca.tacet(),
     )
 
-# A.6 - A.9
+# A.6 -
 
 maker(
-    ('trio', 18),
+    ('trio', [18, 20, 22, 25, 29]),
     baca.new(
         baca.breathe(),
         baca.tie_to(),
@@ -251,6 +249,40 @@ maker(
         abjad.tweak('magenta').color,
         tag='pitch_note',
         ),
+    )
+
+maker(
+    ('trio', 20),
+    baca.hairpin(
+        'pp <| p pp <| mp',
+        piece_selector=baca.clparts([1]),
+        ),
+    )
+
+# A.17
+
+maker(
+    ('trio', 60),
+    baca.hairpin(
+        'p <| f p < mp',
+        piece_selector=baca.clparts([1]),
+        ),
+    baca.markup(
+        'db. st. (A.1)',
+        abjad.tweak('magenta').color,
+        tag='pitch_note',
+        ),
+    baca.new(
+        baca.breathe(),
+        baca.tie_to(),
+        selector=baca.note(1),
+        ),
+    baca.new(
+        baca.repeat_tie_to(),
+        baca.stop_on_string(),
+        selector=baca.note(-1),
+        ),
+    stirrings_still.declamation(),
     )
 
 # A.18

@@ -137,7 +137,7 @@ SEGMENTS
     [A.7] (20 + fermata)
     (1 measure)
     adagio continues;
-    composite urtext field / circles repeat and intensity:
+    composite-urtext-field-circles repeat and intensify:
         v1, v2, va:
             urtext field:
                 stopped lh continues;
@@ -169,7 +169,7 @@ SEGMENTS
     [A.8] (22-23 + fermata)
     (2 measures)
     adagio continues;
-    composite urtext field / circles repeat and intensity:
+    composite-urtext-field-circles repeat and intensify:
         v1, v2, va
             urtext field:
                 stopped lh continues;
@@ -246,7 +246,7 @@ SEGMENTS
     [A.10] (29-34)
     (6 measures)
     adagio-to-allegro accelerando happens;
-    composite urtext field / circles repeat and intensity:
+    composite-urtext-field-circles repeat and intensify:
         accelerando achieves allegro at start of measure -1;
         v1, v2, va:
             urtext field:
