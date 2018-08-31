@@ -2934,7 +2934,7 @@ D_Violin_I_Music_Voice = {                                                     %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 8/12 {                                                              %! stirrings_still_declamation
 
         % [D Violin_I_Music_Voice measure 261 / measure 55]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4574,7 +4574,7 @@ D_Violin_II_Music_Voice = {                                                    %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 8/12 {                                                              %! stirrings_still_declamation
 
         % [D Violin_II_Music_Voice measure 261 / measure 55]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6269,7 +6269,7 @@ D_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 8/12 {                                                              %! stirrings_still_declamation
 
         % [D Viola_Music_Voice measure 261 / measure 55]                       %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand

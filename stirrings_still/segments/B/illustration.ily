@@ -2352,7 +2352,7 @@ B_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 4/6 {                                                               %! stirrings_still_declamation
 
         % [B Violin_I_Music_Voice measure 89 / measure 26]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4650,7 +4650,7 @@ B_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 4/6 {                                                               %! stirrings_still_declamation
 
         % [B Violin_II_Music_Voice measure 89 / measure 26]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6317,7 +6317,7 @@ B_Viola_Music_Voice = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 4/6 {                                                               %! stirrings_still_declamation
 
         % [B Viola_Music_Voice measure 89 / measure 26]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
