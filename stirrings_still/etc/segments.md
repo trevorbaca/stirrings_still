@@ -14,7 +14,7 @@ SEGMENTS
         declamation:
             first chord:
                 short;
-                p <| mp ringing lv;
+                p <| f ringing lv;
             second chord:
                 longer;
                 p < mp stop-on-string;
@@ -81,7 +81,7 @@ SEGMENTS
                 still longer;
                 still louder;
                 encourages even more scratch on approach to termination;
-                p < mf mod. scratch stop-on-string;
+                p < f poco scratch stop-on-string;
     vc:
         tacet anocra;
     fermata (10);
@@ -149,7 +149,7 @@ SEGMENTS
                         a little longer;
                         does not introduce slower bow;
                         does not terminate stop-on-string;
-                        pp <| mp ringing lv;
+                        pp <| f ringing lv;
             immediately followed by circles:
                 stopped lh continues;
                 ellipse colors appear;
@@ -372,7 +372,7 @@ SEGMENTS
         declamation [A.1]:
             third chord only:
                 tasto returns;
-                p <| mp returns;
+                p <| f returns;
     vc urtext field ([A.6]) returns:
         tasto returns;
         p continues;
@@ -614,7 +614,7 @@ SEGMENTS
                 declamation (two rest-delimited chords):
                     first chord:
                         short;
-                        p <| mp ringing lv;
+                        p <| f ringing lv;
                     second chord:
                         longer;
                         p < mp stop-on-string;
@@ -1662,7 +1662,7 @@ SEGMENTS
                 declamation (two rest-delimited chords):
                     first chord:
                         short;
-                        p <| mp ringing lv;
+                        p <| f ringing lv;
                     second chord:
                         longer;
                         p < mp stop-on-string;
