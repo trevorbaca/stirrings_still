@@ -252,15 +252,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "1"                                            %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "2"                                             %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'01'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 3]                                               %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -289,15 +286,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "4"                                             %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'03'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 5]                                               %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -343,15 +337,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "6"                                            %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "7"                                             %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'08'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 8]                                               %! _comment_measure_numbers
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -397,15 +388,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "9"                                            %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "10"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'14'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 11]                                              %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -531,21 +519,18 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "16"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "17"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "17"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'28'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 18]                                              %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-    - \tweak extra-offset #'(0 . 10)                                           %! baca_rehearsal_mark:IndicatorCommand
+    - \tweak extra-offset #'(0 . 12)                                           %! baca_rehearsal_mark:IndicatorCommand
     - \baca-rehearsal-mark-markup "A"                                          %! baca_rehearsal_mark:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -577,15 +562,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "18"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "19"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "19"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'32'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 20]                                              %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -614,15 +596,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "20"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "21"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "21"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'36'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 22]                                              %! _comment_measure_numbers
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -668,15 +647,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "23"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "24"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "24"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'42'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 25]                                              %! _comment_measure_numbers
     \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -749,15 +725,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "27"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "28"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "28"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[0'51'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 29]                                              %! _comment_measure_numbers
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -1215,15 +1188,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "50"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "51"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "51"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[1'53'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 52]                                              %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -1252,15 +1222,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "52"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "53"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "53"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[1'59'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 54]                                              %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -1331,15 +1298,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "56"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "57"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "57"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[2'11'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 58]                                              %! _comment_measure_numbers
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -1375,15 +1339,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "58"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "59"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "59"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[2'14'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 60]                                              %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -1419,15 +1380,12 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "60"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "61"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "61"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[2'18'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [A Global_Skips measure 62]                                              %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -1462,7 +1420,6 @@ A_Global_Skips = {                                                             %
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
     \bacaStopTextSpanMM                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(4)
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
@@ -1471,57 +1428,54 @@ A_Global_Skips = {                                                             %
 
 A_Violin_I_Music_Voice = {                                                     %! extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 4/6 {                                                               %! stirrings_still_declamation
+    % [A Violin_I_Music_Voice measure 1]                                       %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \stirrings-still-violin-i-markup               %! baca_start_markup:-PARTS:IndicatorCommand
+    \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ^ \baca-default-indicator-markup "(“ViolinI”)"                             %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak color #magenta                                                    %! pitch_note:IndicatorCommand
+    ^ \markup { "close db. st." }                                              %! pitch_note:IndicatorCommand
+    ^ \baca-explicit-indicator-markup "[“Vn. I”]"                              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+    \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
-        % [A Violin_I_Music_Voice measure 1]                                   %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-        \set Staff.instrumentName = \stirrings-still-violin-i-markup           %! baca_start_markup:-PARTS:IndicatorCommand
-        \clef "treble"                                                         %! DEFAULT_CLEF:_set_status_tag:attach_defaults
-        \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
-        \once \override Staff.InstrumentName.color = #(x11-color 'blue)        %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ^ \baca-default-indicator-markup "(“ViolinI”)"                         %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        ^ \baca-explicit-indicator-markup "[“Vn. I”]"                          %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-        [                                                                      %! stirrings_still_declamation
-        \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4..                                                                  %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
-        \repeatTie                                                             %! TieCorrectionCommand
-
-    }                                                                          %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \repeatTie                                                                 %! TieCorrectionCommand
+    ]                                                                          %! stirrings_still_declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1549,8 +1503,6 @@ A_Violin_I_Music_Voice = {                                                     %
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \tweak color #magenta                                                    %! pitch_note:IndicatorCommand
-    ^ \markup { "db. st. (close)" }                                            %! pitch_note:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1560,22 +1512,22 @@ A_Violin_I_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4..                                                                      %! stirrings_still_declamation
+    c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16                                                                       %! stirrings_still_declamation
+    c'8                                                                        %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
@@ -1600,38 +1552,39 @@ A_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
+    % [A Violin_I_Music_Voice measure 5]                                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 13/12 {                                                             %! stirrings_still_declamation
+    \times 11/8 {                                                              %! stirrings_still_declamation
 
-        % [A Violin_I_Music_Voice measure 5]                                   %! _comment_measure_numbers
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! stirrings_still_declamation
+        c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
+        c'4                                                                    %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-mf-poco-scratch                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
@@ -1658,38 +1611,39 @@ A_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
+    % [A Violin_I_Music_Voice measure 8]                                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 15/12 {                                                             %! stirrings_still_declamation
+    \times 13/8 {                                                              %! stirrings_still_declamation
 
-        % [A Violin_I_Music_Voice measure 8]                                   %! _comment_measure_numbers
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! stirrings_still_declamation
+        c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
+        c'4                                                                    %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-f-poco-scratch                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
@@ -1717,25 +1671,113 @@ A_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_I_Music_Voice measure 11]                                      %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [A Violin_I_Music_Voice measure 12]                                      %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-f-scratch                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4.
+    \repeatTie
 
     % [A Violin_I_Music_Voice measure 13]                                      %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-f-scratch                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
 
     % [A Violin_I_Music_Voice measure 14]                                      %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.
+    \repeatTie
 
     % [A Violin_I_Music_Voice measure 15]                                      %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8
+    \repeatTie
 
     % [A Violin_I_Music_Voice measure 16]                                      %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
 
-    % [A Violin_I_Music_Voice measure 17]                                      %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \repeatTie
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Music_Voice measure 17]                              %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_I_Rest_Voice measure 17]                               %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_I_Music_Voice measure 18]                                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -1927,57 +1969,54 @@ A_Violin_I_Music_Staff = {                                                     %
 
 A_Violin_II_Music_Voice = {                                                    %! extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 4/6 {                                                               %! stirrings_still_declamation
+    % [A Violin_II_Music_Voice measure 1]                                      %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \stirrings-still-violin-ii-markup              %! baca_start_markup:-PARTS:IndicatorCommand
+    \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ^ \baca-default-indicator-markup "(“ViolinI”)"                             %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak color #magenta                                                    %! pitch_note:IndicatorCommand
+    ^ \markup { "close db. st." }                                              %! pitch_note:IndicatorCommand
+    ^ \baca-explicit-indicator-markup "[“Vn. II”]"                             %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+    \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
-        % [A Violin_II_Music_Voice measure 1]                                  %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-        \set Staff.instrumentName = \stirrings-still-violin-ii-markup          %! baca_start_markup:-PARTS:IndicatorCommand
-        \clef "treble"                                                         %! DEFAULT_CLEF:_set_status_tag:attach_defaults
-        \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
-        \once \override Staff.InstrumentName.color = #(x11-color 'blue)        %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ^ \baca-default-indicator-markup "(“ViolinI”)"                         %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        ^ \baca-explicit-indicator-markup "[“Vn. II”]"                         %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-        [                                                                      %! stirrings_still_declamation
-        \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4..                                                                  %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
-        \repeatTie                                                             %! TieCorrectionCommand
-
-    }                                                                          %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \repeatTie                                                                 %! TieCorrectionCommand
+    ]                                                                          %! stirrings_still_declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2005,8 +2044,6 @@ A_Violin_II_Music_Voice = {                                                    %
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \tweak color #magenta                                                    %! pitch_note:IndicatorCommand
-    ^ \markup { "db. st. (close)" }                                            %! pitch_note:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2016,22 +2053,22 @@ A_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4..                                                                      %! stirrings_still_declamation
+    c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16                                                                       %! stirrings_still_declamation
+    c'8                                                                        %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
@@ -2056,38 +2093,39 @@ A_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
+    % [A Violin_II_Music_Voice measure 5]                                      %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 13/12 {                                                             %! stirrings_still_declamation
+    \times 11/8 {                                                              %! stirrings_still_declamation
 
-        % [A Violin_II_Music_Voice measure 5]                                  %! _comment_measure_numbers
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! stirrings_still_declamation
+        c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
+        c'4                                                                    %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-mf-poco-scratch                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
@@ -2114,38 +2152,39 @@ A_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
+    % [A Violin_II_Music_Voice measure 8]                                      %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 15/12 {                                                             %! stirrings_still_declamation
+    \times 13/8 {                                                              %! stirrings_still_declamation
 
-        % [A Violin_II_Music_Voice measure 8]                                  %! _comment_measure_numbers
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! stirrings_still_declamation
+        c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
+        c'4                                                                    %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-f-poco-scratch                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
@@ -2173,25 +2212,113 @@ A_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 11]                                     %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [A Violin_II_Music_Voice measure 12]                                     %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-f-scratch                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4.
+    \repeatTie
 
     % [A Violin_II_Music_Voice measure 13]                                     %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-f-scratch                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
 
     % [A Violin_II_Music_Voice measure 14]                                     %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.
+    \repeatTie
 
     % [A Violin_II_Music_Voice measure 15]                                     %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8
+    \repeatTie
 
     % [A Violin_II_Music_Voice measure 16]                                     %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
 
-    % [A Violin_II_Music_Voice measure 17]                                     %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \repeatTie
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Music_Voice measure 17]                             %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Violin_II_Rest_Voice measure 17]                              %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 18]                                     %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -2383,57 +2510,54 @@ A_Violin_II_MusicStaff = {                                                     %
 
 A_Viola_Music_Voice = {                                                        %! extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 4/6 {                                                               %! stirrings_still_declamation
+    % [A Viola_Music_Voice measure 1]                                          %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \stirrings-still-viola-markup                  %! baca_start_markup:-PARTS:IndicatorCommand
+    \clef "alto"                                                               %! DEFAULT_CLEF:_set_status_tag:attach_defaults
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak color #magenta                                                    %! pitch_note:IndicatorCommand
+    ^ \markup { "close db. st." }                                              %! pitch_note:IndicatorCommand
+    ^ \baca-explicit-indicator-markup "[“Va.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+    \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
-        % [A Viola_Music_Voice measure 1]                                      %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-        \set Staff.instrumentName = \stirrings-still-viola-markup              %! baca_start_markup:-PARTS:IndicatorCommand
-        \clef "alto"                                                           %! DEFAULT_CLEF:_set_status_tag:attach_defaults
-        \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
-        \once \override Staff.InstrumentName.color = #(x11-color 'blue)        %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ^ \baca-default-indicator-markup "(“Viola”)"                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        ^ \baca-explicit-indicator-markup "[“Va.”]"                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-        [                                                                      %! stirrings_still_declamation
-        \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4..                                                                  %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
-        \repeatTie                                                             %! TieCorrectionCommand
-
-    }                                                                          %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \repeatTie                                                                 %! TieCorrectionCommand
+    ]                                                                          %! stirrings_still_declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2461,8 +2585,6 @@ A_Viola_Music_Voice = {                                                        %
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \tweak color #magenta                                                    %! pitch_note:IndicatorCommand
-    ^ \markup { "db. st. (close)" }                                            %! pitch_note:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2472,22 +2594,22 @@ A_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4..                                                                      %! stirrings_still_declamation
+    c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16                                                                       %! stirrings_still_declamation
+    c'8                                                                        %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
@@ -2512,38 +2634,39 @@ A_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
+    % [A Viola_Music_Voice measure 5]                                          %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 13/12 {                                                             %! stirrings_still_declamation
+    \times 11/8 {                                                              %! stirrings_still_declamation
 
-        % [A Viola_Music_Voice measure 5]                                      %! _comment_measure_numbers
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! stirrings_still_declamation
+        c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
+        c'4                                                                    %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-mf-poco-scratch                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
@@ -2570,38 +2693,39 @@ A_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
+    % [A Viola_Music_Voice measure 8]                                          %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 15/12 {                                                             %! stirrings_still_declamation
+    \times 13/8 {                                                              %! stirrings_still_declamation
 
-        % [A Viola_Music_Voice measure 8]                                      %! _comment_measure_numbers
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #magenta                                                %! pitch_note:IndicatorCommand
-        ^ \markup { "db. st. (close)" }                                        %! pitch_note:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! stirrings_still_declamation
+        c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_declamation
+        c'4                                                                    %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-f-poco-scratch                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
@@ -2629,25 +2753,113 @@ A_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 11]                                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 12]                                         %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-f-scratch                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4.
+    \repeatTie
 
     % [A Viola_Music_Voice measure 13]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-f-scratch                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
 
     % [A Viola_Music_Voice measure 14]                                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.
+    \repeatTie
 
     % [A Viola_Music_Voice measure 15]                                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8
+    \repeatTie
 
     % [A Viola_Music_Voice measure 16]                                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4
+    \repeatTie
 
-    % [A Viola_Music_Voice measure 17]                                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \repeatTie
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Music_Voice measure 17]                                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Viola_Rest_Voice measure 17]                                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Viola_Music_Voice measure 18]                                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -2900,109 +3112,213 @@ A_Cello_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A Cello_Music_Voice measure 11]                                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'1                                                                        %! baca_make_repeat_tied_notes
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    ^ \markup { tasto }                                                        %! baca_markup:IndicatorCommand
 
     % [A Cello_Music_Voice measure 12]                                         %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 13]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 14]                                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'1                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 15]                                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 16]                                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 17]                                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 18]                                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'1                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 19]                                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 20]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 21]                                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 22]                                         %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 23]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 24]                                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 25]                                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 26]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 27]                                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 28]                                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 29]                                         %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 30]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 31]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 32]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 33]                                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 34]                                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'1                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 35]                                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'1                                                                        %! baca_make_repeat_tied_notes
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
 
     % [A Cello_Music_Voice measure 36]                                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 37]                                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 38]                                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 39]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [A Cello_Music_Voice measure 40]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! baca_make_repeat_tied_notes
+    \repeatTie
 
-    % [A Cello_Music_Voice measure 41]                                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Music_Voice measure 41]                                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 7/8                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Cello_Rest_Voice measure 41]                                  %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #red                      %! baca_mmrest_text_color:OverrideCommand(1)
+            R1 * 7/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 42]                                         %! _comment_measure_numbers
+    \once \override MultiMeasureRest.color = #red                              %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [A Cello_Music_Voice measure 43]                                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A Cello_Music_Voice measure 44]                                         %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #red                                    %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [A Cello_Music_Voice measure 45]                                         %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [A Cello_Music_Voice measure 46]                                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences

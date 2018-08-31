@@ -3467,44 +3467,41 @@ E_Violin_I_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_measure_initation
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 4/6 {                                                               %! stirrings_still_declamation
+    % [E Violin_I_Music_Voice measure 339 / measure 34]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    [                                                                          %! stirrings_still_declamation
 
-        % [E Violin_I_Music_Voice measure 339 / measure 34]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        [                                                                      %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4..                                                                  %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
-        \repeatTie                                                             %! TieCorrectionCommand
-
-    }                                                                          %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \repeatTie                                                                 %! TieCorrectionCommand
+    ]                                                                          %! stirrings_still_declamation
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/5 {                                                               %! stirrings_still_trajectories
@@ -7294,44 +7291,41 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_measure_initation
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 4/6 {                                                               %! stirrings_still_declamation
+    % [E Violin_II_Music_Voice measure 339 / measure 34]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    [                                                                          %! stirrings_still_declamation
 
-        % [E Violin_II_Music_Voice measure 339 / measure 34]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        [                                                                      %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4..                                                                  %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
-        \repeatTie                                                             %! TieCorrectionCommand
-
-    }                                                                          %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \repeatTie                                                                 %! TieCorrectionCommand
+    ]                                                                          %! stirrings_still_declamation
 
     % [E Violin_II_Music_Voice measure 340 / measure 35]                       %! _comment_measure_numbers
     \override Script.staff-padding = #5                                        %! baca_script_staff_padding:OverrideCommand(1)
@@ -10749,44 +10743,41 @@ E_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_measure_initation
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 4/6 {                                                               %! stirrings_still_declamation
+    % [E Viola_Music_Voice measure 339 / measure 34]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    [                                                                          %! stirrings_still_declamation
 
-        % [E Viola_Music_Voice measure 339 / measure 34]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8.                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ~                                                                      %! TieCorrectionCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        [                                                                      %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ]                                                                          %! stirrings_still_declamation
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_declamation
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4..                                                                  %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_declamation
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
-        \repeatTie                                                             %! TieCorrectionCommand
-
-    }                                                                          %! stirrings_still_declamation
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'16                                                                       %! stirrings_still_declamation
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \repeatTie                                                                 %! TieCorrectionCommand
+    ]                                                                          %! stirrings_still_declamation
 
     % [E Viola_Music_Voice measure 340 / measure 35]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes

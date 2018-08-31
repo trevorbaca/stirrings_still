@@ -50,7 +50,7 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'A',
-        abjad.tweak((0, 10)).extra_offset,
+        abjad.tweak((0, 12)).extra_offset,
         selector=baca.skip(18 - 1),
         ),
     )
@@ -130,15 +130,6 @@ maker(
 
 maker(
     ('trio', [1, 3, (5, 6), (8, 9)]),
-    baca.hairpin(
-        'p <| mp p < mp',
-        piece_selector=baca.clparts([1]),
-        ),
-    baca.markup(
-        'db. st. (close)',
-        abjad.tweak('magenta').color,
-        tag='pitch_note',
-        ),
     baca.new(
         baca.breathe(),
         baca.tie_to(),
@@ -150,6 +141,83 @@ maker(
         selector=baca.note(-1),
         ),
     stirrings_still.declamation(),
+    )
+
+maker(
+    ('trio', 1),
+    baca.hairpin(
+        'p <| f p < mp',
+        piece_selector=baca.clparts([1]),
+        ),
+    baca.markup(
+        'close db. st.',
+        abjad.tweak('magenta').color,
+        tag='pitch_note',
+        ),
+    )
+
+maker(
+    ('trio', 3),
+    baca.hairpin(
+        'p <| f p < mf',
+        piece_selector=baca.clparts([1]),
+        ),
+    )
+
+maker(
+    ('trio', (5, 6)),
+    baca.hairpin(
+        'p <| f p < mf-poco-scratch',
+        piece_selector=baca.clparts([1]),
+        ),
+    )
+
+maker(
+    ('trio', (8, 9)),
+    baca.hairpin(
+        'p <| f p < f-poco-scratch',
+        piece_selector=baca.clparts([1]),
+        ),
+    )
+
+# HERE
+
+maker(
+    ('trio', (11, 16)),
+    baca.breathe(
+        selector=baca.leaf(1),
+        ),
+    baca.hairpin(
+        'p <| f',
+        selector=baca.leaves()[:2],
+        ),
+    baca.hairpin(
+        'p < f-scratch f-scratch >o niente',
+        piece_selector=baca.omgroups([1, 1]),
+        selector=baca.leaves()[2:],
+        ),
+    stirrings_still.declamation(protract=True),
+    )
+
+#
+
+maker(
+    ('vc', (11, 40)),
+    baca.dynamic('p'),
+    baca.hairpin(
+        'p >o niente',
+        measures=(35, 40),
+        selector=baca.rleaves(),
+        ),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+        ),
+    baca.markup('tasto'),
+    )
+
+maker(
+    ([('vcr', 41), ('vc', [42, (44, 45)])]),
+    baca.tacet(),
     )
 
 maker(
