@@ -216,7 +216,7 @@ maker(
     )
 
 maker(
-    ([('vcr', 41), ('vc', [42, (44, 45)])]),
+    ([('vcr', 41), ('vc', (44, 45))]),
     baca.tacet(),
     )
 
@@ -284,17 +284,17 @@ maker(
     )
 
 maker(
-    ('v1', [23, 26, (30, 42), (44, 45)]),
+    ('v1', [23, 26, (30, 45)]),
     stirrings_still.desynchronization(4, [1]),
     )
 
 maker(
-    ('v2', [23, 26, (30, 42), (44, 45)]),
+    ('v2', [23, 26, (30, 45)]),
     stirrings_still.desynchronization(4, [0]),
     )
 
 maker(
-    ('va', [23, 26, (30, 42), (44, 45)]),
+    ('va', [23, 26, (30, 45)]),
     stirrings_still.desynchronization(4, [2]),
     )
 
@@ -327,7 +327,7 @@ maker(
     )
 
 maker(
-    ('trio', [(30, 42), (44, 45)]),
+    ('trio', (30, 45)),
     baca.text_spanner(
         r'\stirrings-still-very-wide-circles-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
@@ -343,16 +343,10 @@ maker(
     )
 
 maker(
-    ('trio', (41, 42)),
+    ('trio', (41, 45)),
+    baca.breathe(),
     baca.hairpin(
-        'ppp > pppp',
-        ),
-    )
-
-maker(
-    ('trio', (44, 45)),
-    baca.hairpin(
-        'pppp >o niente',
+        'ppp >o niente',
         selector=baca.rleaves(),
         ),
     )
