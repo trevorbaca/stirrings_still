@@ -130,19 +130,24 @@ maker(
 
 maker(
     ('trio', 1),
+    baca.hairpin(
+        'p <| mp p < mp',
+        piece_selector=baca.clparts([1]),
+        ),
+    baca.markup(
+        'db. st. (close)',
+        abjad.tweak('magenta').color,
+        tag='pitch_note',
+        ),
     baca.new(
-        baca.breathe(selector=baca.note(1)),
-        baca.tie_to(selector=baca.note(1)),
+        baca.breathe(),
+        baca.tie_to(),
         selector=baca.note(1),
         ),
     baca.new(
         baca.repeat_tie_to(),
         baca.stop_on_string(),
         selector=baca.note(-1),
-        ),
-    baca.hairpin(
-        'p <| mp p < mp',
-        piece_selector=baca.clparts([1]),
         ),
     stirrings_still.declamation(),
     )

@@ -6,12 +6,12 @@ SEGMENTS
     [A.1] (1 + fermata)
     (1 measure)
     andante begins;
-    v1, v2, va urtext declamation (two chords) appears:
+    v1, v2, va urtext declamation appears:
         stopped lh appears;
         hair appears;
         tasto appears;
-        densely spaced double-stops appear;
-        declamation (two rest-delimited chords):
+        closely spaced double-stops appear;
+        declamation:
             first chord:
                 short;
                 p <| mp ringing lv;
@@ -29,8 +29,8 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densesly spaced double-stops repeat;
-        declamation:
+        closely spaced double-stops repeat;
+        declamation repeats:
             first chord:
                 simile;
             second chord:
@@ -50,7 +50,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densely spaced double-stops repeat;
+        closely spaced double-stops repeat;
         declamation:
             first chord:
                 simile;
@@ -72,7 +72,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densely spaced double-stops repeat;
+        closely spaced double-stops repeat;
         declamation:
             first chord:
                 simile;
@@ -94,7 +94,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densely spaced double-stops repeat;
+        closely spaced double-stops repeat;
         declamation:
             first chord:
                 simile;
@@ -120,7 +120,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             tasto continues;
-            two new densely spaced double-stops appear;
+            two new closely spaced double-stops appear;
             declamation:
                 third chord:
                     even a bit quieter;
@@ -610,7 +610,7 @@ SEGMENTS
                 stopped lh appears;
                 hair appears;
                 tasto appears;
-                densely spaced double-stops appear;
+                closely spaced double-stops appear;
                 declamation (two rest-delimited chords):
                     first chord:
                         short;
@@ -716,7 +716,7 @@ SEGMENTS
                 stopped lh;
                 hair;
                 tasto;
-                densely spaced double-stops;
+                closely spaced double-stops;
                 continuous sound:
                     continuous tremolo in all parts arrives at start of stage;
                 p;
@@ -829,7 +829,7 @@ SEGMENTS
             stopped lh;
             hair;
             tasto;
-            densely spaced double-stops;
+            closely spaced double-stops;
             continuous sound;
             v2, va continuous tremolo;
             v1 almost continuous tremolo;
@@ -1219,7 +1219,7 @@ SEGMENTS
     andante governs stage;
     <<[A.1 (tutti urtext declamation)] reappears>>:
         single urtext declamation (two chords [A.1]):
-        densely spaced lower-register reappears;
+        closely spaced lower-register reappears;
         stopped lh reappears;
         hair continues;
         tasto reappears;
@@ -1251,7 +1251,7 @@ SEGMENTS
     andante governs stage;
     tutti urtext declamation [A.1] repeats:
         single urtext declamation (two chords [A.2]):
-            densely spaced lower-register repeats;
+            closely spaced lower-register repeats;
             stopped lh continues;
             hair continues;
             tasto repeats;
@@ -1294,7 +1294,7 @@ SEGMENTS
             stopped lh resumes;
             hair resumes;
             tasto continues;
-            densely spaced double-stops resume;
+            closely spaced double-stops resume;
             continuous sound resumes;
             p resumes;
         vc clouded pane appears again:
@@ -1332,7 +1332,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             tasto continues;
-            densely spaced double-stops continue;
+            closely spaced double-stops continue;
             continuous sound continues;
             tremolo begins revving up with sparse tremolo attempts;
             p continues;
@@ -1350,7 +1350,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             tasto continues;
-            densely spaced double-stops continue;
+            closely spaced double-stops continue;
             continuous sound continues;
             more tremolo attempts;
             p continues;
@@ -1368,7 +1368,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densely spaced double-stops continue;
+        closely spaced double-stops continue;
         continuous sound continues;
         many many tremolo attempts;
         p continues;
@@ -1386,7 +1386,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             tasto continues;
-            densely spaced double-stops continue;
+            closely spaced double-stops continue;
             continuous sound continues;
             v2, va continuous tremolo;
             v1 almost continuous tremolo;
@@ -1405,7 +1405,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             tasto continues;
-            densely spaced double-stops continue;
+            closely spaced double-stops continue;
             continuous sound continues;
             continuous tremolo in all parts;
             p continues;
@@ -1423,7 +1423,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             jagged tasto-to-poco-pont transition begins independently;
-            densely spaced double-stops continue;
+            closely spaced double-stops continue;
             continuous tremolo continues;
         vc clouded pane continues:
             stopped lh continues;
@@ -1439,7 +1439,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             jagged scp transition achieves poco pont at start of measure -1;
-            densely spaced double-stops continue;
+            closely spaced double-stops continue;
             continuous tremolo continues;
         vc clouded pane continues:
             stopped lh continues;
@@ -1455,7 +1455,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             jagged scp reverses direction and begins poco-pont-to-tasto;
-            densely spaced double-stops change pitch (!);
+            closely spaced double-stops change pitch (!);
             continuous tremolo continues;
         vc clouded pane continues:
             stopped lh continues;
@@ -1472,7 +1472,7 @@ SEGMENTS
             hair continues;
             jagged scp transition continues:
                 jagged scp transition achieves tasto at start of measure -1;
-            densely spaced double-stops continue;
+            closely spaced double-stops continue;
             continuous tremolo continues;
         vc:
             tacet subito;
@@ -1494,7 +1494,7 @@ SEGMENTS
             stopped lh fades out;
             hair fades out;
             tasto fades out;
-            densely spaced double-stops fade out;
+            closely spaced double-stops fade out;
             continuous tremolo fades out;
             mp > niente governs stage;
         vc clouded pane reenters:
@@ -1658,7 +1658,7 @@ SEGMENTS
                 stopped lh;
                 hair;
                 tasto;
-                densely spaced double-stops;
+                closely spaced double-stops;
                 declamation (two rest-delimited chords):
                     first chord:
                         short;
