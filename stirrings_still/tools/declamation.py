@@ -9,9 +9,7 @@ def declamation():
     """
     division_maker=baca.FuseByCountsDivisionCallback(
         counts=abjad.Infinity,
-#        secondary_division_maker=baca.SplitByDurationsDivisionCallback(
-#            durations=[(1, 4)],
-#            ),
+        cyclic=True,
         )
 
     return baca.rhythm(

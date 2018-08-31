@@ -3468,7 +3468,7 @@ E_Violin_I_Music_Voice = {                                                     %
     c'8                                                                        %! stirrings_still_measure_initation
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 4/6 {                                                               %! stirrings_still_declamation
 
         % [E Violin_I_Music_Voice measure 339 / measure 34]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7295,7 +7295,7 @@ E_Violin_II_Music_Voice = {                                                    %
     c'8                                                                        %! stirrings_still_measure_initation
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 4/6 {                                                               %! stirrings_still_declamation
 
         % [E Violin_II_Music_Voice measure 339 / measure 34]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -10750,7 +10750,7 @@ E_Viola_Music_Voice = {                                                        %
     c'8                                                                        %! stirrings_still_measure_initation
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 2/3 {                                                               %! stirrings_still_declamation
+    \times 4/6 {                                                               %! stirrings_still_declamation
 
         % [E Viola_Music_Voice measure 339 / measure 34]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
