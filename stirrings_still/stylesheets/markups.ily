@@ -18,9 +18,20 @@ stirrings-still-mod-width-circles-markup = \markup \concat {
     \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(mod. width)"
     }
 
+stirrings-still-poco-tight-circles-markup = \markup \concat {
+    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(poco. tight)"
+    }
 
 stirrings-still-slow-circles-markup = \markup \concat {
     \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (slow)
+    }
+
+stirrings-still-tight-circles-markup = \markup \concat {
+    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (tight)
+    }
+
+stirrings-still-very-tight-circles-markup = \markup \concat {
+    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(very tight)"
     }
 
 stirrings-still-very-wide-circles-markup = \markup \concat {
