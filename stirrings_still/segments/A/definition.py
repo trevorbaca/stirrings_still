@@ -131,6 +131,16 @@ maker(
 # A.1 - A.4
 
 maker(
+    ('vcx', (1, 9)),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 60),
+    baca.tacet(),
+    )
+
+maker(
     ('trio', [1, 3, (5, 6), (8, 9)]),
     baca.new(
         baca.breathe(),
@@ -325,6 +335,37 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     )
+
+# G.1
+
+maker(
+    ('v1', 27),
+    baca.markup(
+        'urtext double stop',
+        abjad.tweak('magenta').color,
+        ),
+    stirrings_still.loure_tuplets(0),
+    )
+
+maker(
+    ('v2', 27),
+    baca.markup(
+        'urtext double stop',
+        abjad.tweak('magenta').color,
+        ),
+    stirrings_still.loure_tuplets(1),
+    )
+
+maker(
+    ('va', 27),
+    baca.markup(
+        'urtext double stop',
+        abjad.tweak('magenta').color,
+        ),
+    stirrings_still.loure_tuplets(-1),
+    )
+
+#
 
 maker(
     ('trio', (30, 45)),
