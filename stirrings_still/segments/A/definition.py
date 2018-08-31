@@ -216,7 +216,7 @@ maker(
     )
 
 maker(
-    ([('vcr', 41), ('vc', (44, 45))]),
+    ('vcx', [41, (44, 45)]),
     baca.tacet(),
     )
 
@@ -349,6 +349,41 @@ maker(
         'ppp >o niente',
         selector=baca.rleaves(),
         ),
+    )
+
+# I.6
+
+maker(
+    ('vc', (42, 43)),
+    baca.hairpin(
+        'niente o< "f"',
+        piece_selector=baca.omgroups(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(12).staff_padding,
+        bookend=False,
+        leak=True,
+        selector=baca.ltleaves(),
+        ),
+    baca.text_spanner_staff_padding(7),
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(),
+    )
+
+maker(
+    ('vc', 48),
+    baca.dynamic('"f"'),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(12).staff_padding,
+        bookend=False,
+        leak=True,
+        selector=baca.ltleaves(),
+        ),
+    baca.text_spanner_staff_padding(7),
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(),
     )
 
 # A.17

@@ -616,6 +616,8 @@ I_Violin_I_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak parent-alignment-X #left                                          %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak self-alignment-X #left                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     ^ \markup { "sustained double stops" }                                     %! baca_markup:IndicatorCommand
@@ -793,6 +795,8 @@ I_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak parent-alignment-X #left                                          %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak self-alignment-X #left                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     ^ \markup { "sustained double stops" }                                     %! baca_markup:IndicatorCommand
@@ -928,6 +932,8 @@ I_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak parent-alignment-X #left                                          %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak self-alignment-X #left                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     ^ \markup { "sustained double stops" }                                     %! baca_markup:IndicatorCommand
@@ -976,18 +982,7 @@ I_Cello_Music_Voice = {                                                        %
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.left.text \markup {                                 %! baca_text_spanner:PiecewiseCommand(1)
-        \concat                                                                %! baca_text_spanner:PiecewiseCommand(1)
-            {                                                                  %! baca_text_spanner:PiecewiseCommand(1)
-                \upright                                                       %! baca_text_spanner:PiecewiseCommand(1)
-                    \override                                                  %! baca_text_spanner:PiecewiseCommand(1)
-                        #'(box-padding . 0.5)                                  %! baca_text_spanner:PiecewiseCommand(1)
-                        \box                                                   %! baca_text_spanner:PiecewiseCommand(1)
-                            "½ clt"                                            %! baca_text_spanner:PiecewiseCommand(1)
-                \hspace                                                        %! baca_text_spanner:PiecewiseCommand(1)
-                    #0.5                                                       %! baca_text_spanner:PiecewiseCommand(1)
-            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
-        }                                                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #12                                                 %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
     [                                                                          %! baca_beam:SpannerCommand
@@ -1283,7 +1278,7 @@ I_Cello_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
@@ -1640,7 +1635,7 @@ I_Cello_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

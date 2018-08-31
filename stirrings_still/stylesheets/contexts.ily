@@ -146,7 +146,7 @@
         \override Beam.breakable = ##t
         \override Beam.damping = 99
 
-        \override DynamicLineSpanner.staff-padding = 4
+        %%%\override DynamicLineSpanner.staff-padding = 4
 
         \override Hairpin.to-barline = ##f
 
@@ -169,12 +169,7 @@
         \override StemTremolo.slope = 0.5
 
         \override TextScript.font-name = #"Palatino"
-        %%%% remove? \override TextScript.padding = 1
         \override TextScript.X-extent = ##f
-
-        %%%% remove? \override TextSpanner.staff-padding = 2
-
-        \override TrillSpanner.bound-details.right.padding = 2
 
         \override TupletBracket.breakable = ##t
         \override TupletBracket.full-length-to-extent = ##f

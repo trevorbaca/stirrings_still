@@ -95,20 +95,19 @@ maker(
             measures=(7, -1),
             ),
         baca.text_spanner_staff_padding(7),
-        )
+        ),
     )
 
 maker(
     'vc',
     baca.hairpin(
-        'p < f f >o niente',
+        'p < "f" "f" >o niente',
         piece_selector=baca.cmgroups([5, 4, 2]),
         ),
     baca.text_spanner(
         '½ clt =|',
         abjad.tweak(12).staff_padding,
         bookend=False,
-        boxed=True,
         leak=True,
         lilypond_id=1,
         selector=baca.ltleaves(),
@@ -117,7 +116,11 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (10, 11)),
-    baca.dynamic('appena-udibile'),
+    baca.dynamic(
+        'appena-udibile',
+        abjad.tweak(abjad.Left).parent_alignment_X,
+        abjad.tweak(abjad.Left).self_alignment_X,
+        ),
     baca.markup(
         baca.Markup('sustained double stops'),
         abjad.tweak('magenta').color,
