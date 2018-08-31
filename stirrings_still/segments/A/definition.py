@@ -129,7 +129,7 @@ maker(
     )
 
 maker(
-    ('trio', 1),
+    ('trio', [1, 3, (5, 6), (8, 9)]),
     baca.hairpin(
         'p <| mp p < mp',
         piece_selector=baca.clparts([1]),
