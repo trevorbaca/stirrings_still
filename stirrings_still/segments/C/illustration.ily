@@ -3299,7 +3299,7 @@ C_Violin_II_Music_Voice = {                                                    %
     c'4                                                                        %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 14/16 {                                                             %! stirrings_still_desynchronization
+    \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [C Violin_II_Music_Voice measure 134 / measure 5]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4605,7 +4605,7 @@ C_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 14/12 {                                                             %! stirrings_still_desynchronization
+    \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [C Viola_Music_Voice measure 134 / measure 5]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes

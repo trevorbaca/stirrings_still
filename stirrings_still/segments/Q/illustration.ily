@@ -1992,7 +1992,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/12 {                                                              %! stirrings_still_desynchronization
+    \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 721 / measure 2]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2028,7 +2028,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/12 {                                                              %! stirrings_still_desynchronization
+    \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 722 / measure 3]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2052,7 +2052,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/10 {                                                              %! stirrings_still_desynchronization
+    \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 723 / measure 4]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2115,7 +2115,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/10 {                                                              %! stirrings_still_desynchronization
+    \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 726 / measure 7]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2875,7 +2875,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/12 {                                                              %! stirrings_still_desynchronization
+    \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 745 / measure 26]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2899,7 +2899,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/12 {                                                              %! stirrings_still_desynchronization
+    \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 746 / measure 27]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -3499,7 +3499,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/12 {                                                              %! stirrings_still_desynchronization
+    \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 760 / measure 41]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4433,7 +4433,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/10 {                                                              %! stirrings_still_desynchronization
+    \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 782 / measure 63]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4703,7 +4703,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/10 {                                                              %! stirrings_still_desynchronization
+    \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 788 / measure 69]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5801,7 +5801,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 721 / measure 2]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5834,7 +5834,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 722 / measure 3]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5855,7 +5855,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 723 / measure 4]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5909,7 +5909,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 726 / measure 7]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5942,7 +5942,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 728 / measure 9]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -5957,7 +5957,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 729 / measure 10]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6011,7 +6011,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 732 / measure 13]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6400,7 +6400,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 741 / measure 22]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6452,7 +6452,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 743 / measure 24]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6488,7 +6488,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 745 / measure 26]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6509,7 +6509,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 746 / measure 27]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6530,7 +6530,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 747 / measure 28]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6874,7 +6874,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 757 / measure 38]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6902,7 +6902,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 758 / measure 39]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6920,7 +6920,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 759 / measure 40]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6941,7 +6941,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 760 / measure 41]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6962,7 +6962,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 761 / measure 42]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6992,7 +6992,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 763 / measure 44]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7013,7 +7013,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 764 / measure 45]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7299,7 +7299,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 770 / measure 51]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7333,7 +7333,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 771 / measure 52]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7387,7 +7387,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 774 / measure 55]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7602,7 +7602,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 780 / measure 61]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7645,7 +7645,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 782 / measure 63]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7663,7 +7663,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 783 / measure 64]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7822,7 +7822,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 787 / measure 68]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7856,7 +7856,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 788 / measure 69]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -7874,7 +7874,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 789 / measure 70]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -11487,7 +11487,7 @@ Q_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 721 / measure 2]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -11514,7 +11514,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 722 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -11529,7 +11529,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/4 {                                                               %! stirrings_still_desynchronization
+    \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 723 / measure 4]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -11565,7 +11565,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/4 {                                                               %! stirrings_still_desynchronization
+    \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 726 / measure 7]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -12140,7 +12140,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 741 / measure 22]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -12180,7 +12180,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/4 {                                                               %! stirrings_still_desynchronization
+    \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 743 / measure 24]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -12204,7 +12204,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 745 / measure 26]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -12219,7 +12219,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 746 / measure 27]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -12711,7 +12711,7 @@ Q_Cello_Music_Voice = {                                                        %
     c'4                                                                        %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/4 {                                                               %! stirrings_still_desynchronization
+    \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 758 / measure 39]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -12723,7 +12723,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 759 / measure 40]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -12738,7 +12738,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 760 / measure 41]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -13154,7 +13154,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 770 / measure 51]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -13182,7 +13182,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/4 {                                                               %! stirrings_still_desynchronization
+    \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 771 / measure 52]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -13545,7 +13545,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/4 {                                                               %! stirrings_still_desynchronization
+    \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 782 / measure 63]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -13760,7 +13760,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/6 {                                                               %! stirrings_still_desynchronization
+    \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 787 / measure 68]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -13788,7 +13788,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/4 {                                                               %! stirrings_still_desynchronization
+    \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 788 / measure 69]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
