@@ -283,6 +283,80 @@ maker(
         ),
     )
 
+maker(
+    ('v1', [23, 26, (30, 42), (44, 45)]),
+    stirrings_still.desynchronization(4, [1]),
+    )
+
+maker(
+    ('v2', [23, 26, (30, 42), (44, 45)]),
+    stirrings_still.desynchronization(4, [0]),
+    )
+
+maker(
+    ('va', [23, 26, (30, 42), (44, 45)]),
+    stirrings_still.desynchronization(4, [2]),
+    )
+
+maker(
+    ('trio', 23),
+    baca.hairpin(
+        'p -- niente',
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-mod-width-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    )
+
+maker(
+    ('trio', 26),
+    baca.hairpin(
+        'pp -- niente',
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-wide-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    )
+
+maker(
+    ('trio', [(30, 42), (44, 45)]),
+    baca.text_spanner(
+        r'\stirrings-still-very-wide-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    )
+
+maker(
+    ('trio', 30),
+    baca.dynamic('ppp'),
+    )
+
+maker(
+    ('trio', (41, 42)),
+    baca.hairpin(
+        'ppp > pppp',
+        ),
+    )
+
+maker(
+    ('trio', (44, 45)),
+    baca.hairpin(
+        'pppp >o niente',
+        selector=baca.rleaves(),
+        ),
+    )
+
 # A.17
 
 maker(

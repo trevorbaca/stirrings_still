@@ -150,21 +150,18 @@ SEGMENTS
                         does not introduce slower bow;
                         does not terminate stop-on-string;
                         pp <| f ringing lv;
-            immediately followed by circles:
+            [[immediately followed by circles:
                 stopped lh continues;
                 ellipse colors appear;
                 desynchronized;
                 moderate rate;
                 moderate duration;
-                mp;
+                mp;]]
         vc urtext field continues:
             stopped lh continues;
             tasto continues;
             p continues;
     fermata [vc holds over fermata] (21);
-
-    [[intercalation from future over vc pedal]];
-    [[tremolo flight]];
 
     [A.8] (22-23 + fermata)
     (2 measures)
