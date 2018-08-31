@@ -35,8 +35,8 @@ def desynchronization(
             logical_tie_masks=logical_tie_masks,
             tag='stirrings_still_desynchronization',
             tuplet_specifier=rmakers.TupletSpecifier(
-                #denominator=(1, denominator),
-                denominator='divisions',
+                denominator=(1, denominator),
+                #denominator='divisions',
                 diminution=diminution,
                 extract_trivial=True,
                 force_fraction=True,
