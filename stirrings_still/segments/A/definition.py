@@ -347,7 +347,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ppp >o niente',
-        selector=baca.rleaves(),
+        leak=True,
         ),
     )
 
@@ -384,6 +384,38 @@ maker(
     baca.text_spanner_staff_padding(7),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(),
+    )
+
+# A.13
+
+maker(
+    ('v1', [(46, 50), 52, 54, 58]),
+    baca.hairpin(
+        'p -- niente',
+        abjad.tweak(True).to_barline,
+        leak=True,
+        ),
+    stirrings_still.desynchronization(4, [1]),
+    )
+
+maker(
+    ('v2', [(46, 50), 52, 54, 58]),
+    baca.hairpin(
+        'p -- niente',
+        abjad.tweak(True).to_barline,
+        leak=True,
+        ),
+    stirrings_still.desynchronization(4, [0]),
+    )
+
+maker(
+    ('va', [(46, 50), 52, 54, 58]),
+    baca.hairpin(
+        'p -- niente',
+        abjad.tweak(True).to_barline,
+        leak=True,
+        ),
+    stirrings_still.desynchronization(4, [2]),
     )
 
 # A.17
