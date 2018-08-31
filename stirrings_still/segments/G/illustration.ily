@@ -820,7 +820,7 @@ G_Violin_I_Music_Staff = {                                                     %
 G_Violin_II_Music_Voice = {                                                    %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 14/16 {                                                             %! stirrings_still_desynchronization
+    \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [G Violin_II_Music_Voice measure 447 / measure 1]                    %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -896,7 +896,7 @@ G_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 14/16 {                                                             %! stirrings_still_desynchronization
+    \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [G Violin_II_Music_Voice measure 449 / measure 3]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -965,7 +965,7 @@ G_Violin_II_Music_Voice = {                                                    %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 16/18 {                                                             %! stirrings_still_desynchronization
+    \times 8/9 {                                                               %! stirrings_still_desynchronization
 
         % [G Violin_II_Music_Voice measure 453 / measure 7]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1038,7 +1038,7 @@ G_Violin_II_Music_Voice = {                                                    %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 10/12 {                                                             %! stirrings_still_desynchronization
+    \times 5/6 {                                                               %! stirrings_still_desynchronization
 
         % [G Violin_II_Music_Voice measure 457 / measure 11]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1093,7 +1093,7 @@ G_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 12/14 {                                                             %! stirrings_still_desynchronization
+    \times 6/7 {                                                               %! stirrings_still_desynchronization
 
         % [G Violin_II_Music_Voice measure 459 / measure 13]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1183,7 +1183,7 @@ G_Violin_II_MusicStaff = {                                                     %
 G_Viola_Music_Voice = {                                                        %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 14/12 {                                                             %! stirrings_still_desynchronization
+    \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [G Viola_Music_Voice measure 447 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1204,7 +1204,7 @@ G_Viola_Music_Voice = {                                                        %
         ^ \baca-reapplied-indicator-markup "[“Va.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
-        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1255,14 +1255,14 @@ G_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 14/12 {                                                             %! stirrings_still_desynchronization
+    \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [G Viola_Music_Voice measure 449 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
-        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1316,14 +1316,14 @@ G_Viola_Music_Voice = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 16/14 {                                                             %! stirrings_still_desynchronization
+    \times 8/7 {                                                               %! stirrings_still_desynchronization
 
         % [G Viola_Music_Voice measure 453 / measure 7]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
-        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1381,14 +1381,14 @@ G_Viola_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 10/8 {                                                              %! stirrings_still_desynchronization
+    \times 5/4 {                                                               %! stirrings_still_desynchronization
 
         % [G Viola_Music_Voice measure 457 / measure 11]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
-        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1428,14 +1428,14 @@ G_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 12/10 {                                                             %! stirrings_still_desynchronization
+    \times 6/5 {                                                               %! stirrings_still_desynchronization
 
         % [G Viola_Music_Voice measure 459 / measure 13]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         - \tweak color #magenta                                                %! baca_markup:IndicatorCommand
-        ^ \markup { "clouded pane partial" }                                   %! baca_markup:IndicatorCommand
+        ^ \markup { "urtext double stop" }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
