@@ -386,7 +386,7 @@ maker(
     stirrings_still.cello_cell_bcps(),
     )
 
-# A.13
+# A.13 - A.16
 
 maker(
     ('v1', [(46, 50), 52, 54, 58]),
@@ -394,6 +394,21 @@ maker(
         'p -- niente',
         abjad.tweak(True).to_barline,
         leak=True,
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(8).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-tight-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [1]),
     )
@@ -405,6 +420,21 @@ maker(
         abjad.tweak(True).to_barline,
         leak=True,
         ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(8).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-tight-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
     stirrings_still.desynchronization(4, [0]),
     )
 
@@ -414,6 +444,21 @@ maker(
         'p -- niente',
         abjad.tweak(True).to_barline,
         leak=True,
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(8).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-tight-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [2]),
     )
@@ -449,7 +494,11 @@ maker(
 maker(
     ('tutti', 62),
     stirrings_still.circles((1, 4)),
-    baca.dynamic('p'),
+    baca.hairpin(
+        'p -- niente',
+        abjad.tweak(True).to_barline,
+        leak=True,
+        ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
@@ -459,7 +508,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-slow-circles-markup =|',
+        r'\stirrings-still-very-tight-circles-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
