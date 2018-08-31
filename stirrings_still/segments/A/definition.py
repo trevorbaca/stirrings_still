@@ -463,6 +463,49 @@ maker(
     stirrings_still.desynchronization(4, [2]),
     )
 
+maker(
+    ('vc', [(46, 47), (49, 50), 52, 54, 58]),
+    baca.hairpin(
+        'p -- niente',
+        abjad.tweak(True).to_barline,
+        leak=True,
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(8).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-tight-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    stirrings_still.desynchronization(4, [-1]),
+    )
+
+# H.1
+
+maker(
+    ('tutti', (55, 56)),
+    baca.hairpin(
+        'niente o< mp',
+        ),
+    baca.make_repeat_tied_notes(),
+    baca.markup(
+        'III',
+        direction=abjad.Down,
+        ),
+    baca.text_spanner(
+        'rasp (2°) => flaut. (2°)',
+        abjad.tweak(3.25).staff_padding,
+        ),
+    )
+
 # A.17
 
 maker(

@@ -97,6 +97,7 @@ maker(
         ),
     baca.text_spanner(
         'rasp (2°) => flaut. (2°)',
+        abjad.tweak(3.25).staff_padding,
         selector=baca.notes()[:4],
         ),
     )
@@ -168,10 +169,10 @@ maker(
 maker(
     (['v1', 'va'], (7, 14)), 
     baca.text_script_staff_padding(1.5),
-    baca.text_spanner_staff_padding(5),
     baca.markup('(always one circle per stem)'),
     baca.text_spanner(
         '2˝ circles => 4˝ circles => 6˝ circles => 8˝ circles',
+        abjad.tweak(5).staff_padding,
         bookend=False,
         piece_selector=baca.cmgroups([2]),
         ),
@@ -200,6 +201,7 @@ maker(
     baca.text_spanner_staff_padding(5),
     baca.text_spanner(
         'flaut. (2°) => ord. => 4˝ circles => 6˝ circles => 8˝ circles',
+        abjad.tweak(3.25).staff_padding,
         bookend=False,
         piece_selector=baca.cmgroups([1, 1, 2, 2, 2]),
         ),
@@ -318,6 +320,7 @@ maker(
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.text_spanner(
         'flaut. => non flaut.',
+        abjad.tweak(3.25).staff_padding,
         selector=baca.notes()[:2],
         ),
     )
@@ -445,7 +448,10 @@ maker(
         baca.pitch('Ab2'),
         match=3,
         ),
-    baca.text_spanner('rasp (2°) => poco rasp (2°)'),
+    baca.text_spanner(
+        'rasp (2°) => poco rasp (2°)',
+        abjad.tweak(3.25).staff_padding,
+        ),
     )
 
 maker(
@@ -525,6 +531,7 @@ maker(
     baca.text_spanner_staff_padding(4),
     baca.text_spanner(
         'molto scratch => pochiss. scratch',
+        abjad.tweak(3.25).staff_padding,
         selector=baca.mleaves(-2)[:-3],
         ),
     )

@@ -1217,6 +1217,7 @@ H_Violin_I_Music_Voice = {                                                     %
     - \baca-text-spanner-right-text "flaut. (2°)"                              %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1330,7 +1331,6 @@ H_Violin_I_Music_Voice = {                                                     %
         % [H Violin_I_Music_Voice measure 473 / measure 7]                     %! _comment_measure_numbers
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \override TextScript.staff-padding = #1.5                              %! baca_script_staff_padding:OverrideCommand(1)
-        \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \override TupletBracket.staff-padding = #1.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
@@ -1340,6 +1340,7 @@ H_Violin_I_Music_Voice = {                                                     %
         ^ \markup { "(always one circle per stem)" }                           %! baca_markup:IndicatorCommand
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! baca_glissando:SpannerCommand
@@ -1371,6 +1372,7 @@ H_Violin_I_Music_Voice = {                                                     %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -1380,7 +1382,7 @@ H_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/10 {                                                              %! stirrings_still_desynchronization
+    \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [H Violin_I_Music_Voice measure 476 / measure 10]                    %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
@@ -1408,6 +1410,7 @@ H_Violin_I_Music_Voice = {                                                     %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "6˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
@@ -1447,6 +1450,7 @@ H_Violin_I_Music_Voice = {                                                     %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "8˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -1456,7 +1460,7 @@ H_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [H Violin_I_Music_Voice measure 480 / measure 14]                    %! _comment_measure_numbers
         b'4                                                                    %! stirrings_still_desynchronization
@@ -1469,7 +1473,6 @@ H_Violin_I_Music_Voice = {                                                     %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         \glissando                                                             %! baca_glissando:SpannerCommand
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1491,7 +1494,7 @@ H_Violin_I_Music_Voice = {                                                     %
     a'4                                                                        %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/12 {                                                              %! stirrings_still_desynchronization
+    \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [H Violin_I_Music_Voice measure 482 / measure 16]                    %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
@@ -1842,6 +1845,7 @@ H_Violin_I_Music_Voice = {                                                     %
     - \baca-text-spanner-right-text "poco rasp (2°)"                           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H Violin_I_Music_Voice measure 502 / measure 36]                        %! _comment_measure_numbers
@@ -2149,6 +2153,7 @@ H_Violin_I_Music_Voice = {                                                     %
         - \baca-text-spanner-right-text "pochiss. scratch"                     %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3.25                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2258,6 +2263,7 @@ H_Violin_II_Music_Voice = {                                                    %
     - \baca-text-spanner-right-text "flaut. (2°)"                              %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2305,6 +2311,7 @@ H_Violin_II_Music_Voice = {                                                    %
     \repeatTie                                                                 %! TieCorrectionCommand
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "flaut. (2°)"                               %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     f'4
@@ -2316,6 +2323,7 @@ H_Violin_II_Music_Voice = {                                                    %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "ord."                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \override TupletNumber.text = \markup {
@@ -2370,6 +2378,7 @@ H_Violin_II_Music_Voice = {                                                    %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3.25                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! baca_glissando:SpannerCommand
@@ -2405,6 +2414,7 @@ H_Violin_II_Music_Voice = {                                                    %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "6˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3.25                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -2424,7 +2434,7 @@ H_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/10 {                                                              %! stirrings_still_desynchronization
+    \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [H Violin_II_Music_Voice measure 481 / measure 15]                   %! _comment_measure_numbers
         \revert Accidental.stencil                                             %! baca_glissando:SpannerCommand
@@ -2441,6 +2451,7 @@ H_Violin_II_Music_Voice = {                                                    %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "8˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3.25                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         af'!4                                                                  %! stirrings_still_desynchronization
@@ -2454,7 +2465,7 @@ H_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 8/10 {                                                              %! stirrings_still_desynchronization
+    \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [H Violin_II_Music_Voice measure 482 / measure 16]                   %! _comment_measure_numbers
         af'!4                                                                  %! stirrings_still_desynchronization
@@ -2809,6 +2820,7 @@ H_Violin_II_Music_Voice = {                                                    %
     - \baca-text-spanner-right-text "poco rasp (2°)"                           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H Violin_II_Music_Voice measure 502 / measure 36]                       %! _comment_measure_numbers
@@ -3092,6 +3104,7 @@ H_Violin_II_Music_Voice = {                                                    %
         - \baca-text-spanner-right-text "pochiss. scratch"                     %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3.25                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -3201,6 +3214,7 @@ H_Viola_Music_Voice = {                                                        %
     - \baca-text-spanner-right-text "flaut. (2°)"                              %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3289,7 +3303,6 @@ H_Viola_Music_Voice = {                                                        %
         % [H Viola_Music_Voice measure 473 / measure 7]                        %! _comment_measure_numbers
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \override TextScript.staff-padding = #1.5                              %! baca_script_staff_padding:OverrideCommand(1)
-        \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \override TupletBracket.staff-padding = #1.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
@@ -3299,6 +3312,7 @@ H_Viola_Music_Voice = {                                                        %
         ^ \markup { "(always one circle per stem)" }                           %! baca_markup:IndicatorCommand
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! baca_glissando:SpannerCommand
@@ -3330,6 +3344,7 @@ H_Viola_Music_Voice = {                                                        %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -3359,6 +3374,7 @@ H_Viola_Music_Voice = {                                                        %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "6˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -3402,6 +3418,7 @@ H_Viola_Music_Voice = {                                                        %
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "8˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -3418,10 +3435,9 @@ H_Viola_Music_Voice = {                                                        %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
     \glissando                                                                 %! baca_glissando:SpannerCommand
     \revert TextScript.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [H Viola_Music_Voice measure 481 / measure 15]                       %! _comment_measure_numbers
         \revert Accidental.stencil                                             %! baca_glissando:SpannerCommand
@@ -3731,6 +3747,7 @@ H_Viola_Music_Voice = {                                                        %
     - \baca-text-spanner-right-text "poco rasp (2°)"                           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H Viola_Music_Voice measure 502 / measure 36]                           %! _comment_measure_numbers
@@ -3992,6 +4009,7 @@ H_Viola_Music_Voice = {                                                        %
     - \baca-text-spanner-right-text "pochiss. scratch"                         %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4079,6 +4097,7 @@ H_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-right-text "flaut. (2°)"                              %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -4215,6 +4234,7 @@ H_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-right-text "non flaut."                               %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak arrow-length #2                                                   %! baca_finger_pressure_transition:SpannerCommand
     - \tweak arrow-width #0.5                                                  %! baca_finger_pressure_transition:SpannerCommand
@@ -4434,6 +4454,7 @@ H_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-right-text "poco rasp (2°)"                           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H Cello_Music_Voice measure 502 / measure 36]                           %! _comment_measure_numbers
