@@ -12,7 +12,6 @@ def running_quarter_divisions(extra):
     return baca.rhythm(
         division_maker=baca.FuseByCountsDivisionCallback(
             counts=abjad.Infinity,
-            cyclic=True,
             secondary_division_maker=baca.SplitByDurationsDivisionCallback(
                 cyclic=True,
                 durations=[(1, 4)],
