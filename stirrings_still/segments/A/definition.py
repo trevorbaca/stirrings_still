@@ -128,6 +128,8 @@ maker(
         ),
     )
 
+# A.1 - A.4
+
 maker(
     ('trio', [1, 3, (5, 6), (8, 9)]),
     baca.new(
@@ -219,6 +221,39 @@ maker(
     ([('vcr', 41), ('vc', [42, (44, 45)])]),
     baca.tacet(),
     )
+
+# A.6 - A.9
+
+maker(
+    ('trio', 18),
+    baca.new(
+        baca.breathe(),
+        baca.tie_to(),
+        selector=baca.note(1),
+
+        ),
+    baca.new(
+        baca.repeat_tie_to(),
+        baca.breathe(),
+        selector=baca.note(-1),
+        ),
+    stirrings_still.declamation(),
+    )
+
+maker(
+    ('trio', 18),
+    baca.hairpin(
+        'pp <| p pp <| p',
+        piece_selector=baca.clparts([1]),
+        ),
+    baca.markup(
+        'db. st. (change)',
+        abjad.tweak('magenta').color,
+        tag='pitch_note',
+        ),
+    )
+
+# A.18
 
 maker(
     ('tutti', 62),
