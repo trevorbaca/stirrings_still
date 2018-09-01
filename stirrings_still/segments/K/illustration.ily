@@ -1292,7 +1292,6 @@ K_Violin_I_Music_Voice = {                                                     %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
@@ -1300,8 +1299,25 @@ K_Violin_I_Music_Voice = {                                                     %
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_trajectories
+        c'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
+        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        [                                                                      %! stirrings_still_trajectories
+        - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
+
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
+        ]                                                                      %! stirrings_still_trajectories
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
         \revert NoteHead.transparent                                           %! baca_note_head_transparent:OverrideCommand(2)
         \revert NoteHead.X-extent                                              %! baca_note_head_x_extent_zero:OverrideCommand(2)
@@ -2205,7 +2221,6 @@ K_Violin_II_Music_Voice = {                                                    %
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \baca-bcp-spanner-right-text #1 #7                                       %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
@@ -2213,8 +2228,25 @@ K_Violin_II_Music_Voice = {                                                    %
 
     \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_trajectories
+    c'8                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(8)
+    - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-right-text #7 #7                                       %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+    [                                                                          %! stirrings_still_trajectories
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
+    ]                                                                          %! stirrings_still_trajectories
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
@@ -3186,7 +3218,6 @@ K_Viola_Music_Voice = {                                                        %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
@@ -3194,8 +3225,25 @@ K_Viola_Music_Voice = {                                                        %
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_trajectories
+        c'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
+        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        [                                                                      %! stirrings_still_trajectories
+        - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
+
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
+        ]                                                                      %! stirrings_still_trajectories
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
         \revert NoteHead.transparent                                           %! baca_note_head_transparent:OverrideCommand(2)
         \revert NoteHead.X-extent                                              %! baca_note_head_x_extent_zero:OverrideCommand(2)

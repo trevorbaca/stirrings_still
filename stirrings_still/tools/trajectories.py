@@ -3,9 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def trajectories(counts='A', rotation=0, extra_counts_rotation=0):
+def trajectories(counts, rotation, extra_counts_rotation, end_counts=None):
     """
-    Makes trajectory rhythms.
+    Makes trajectories.
     """
     counts_ = {
         'A': [1, 1, 1, 2],
@@ -14,9 +14,12 @@ def trajectories(counts='A', rotation=0, extra_counts_rotation=0):
         }[counts]
     counts_ = baca.sequence(counts_)
     counts_ = counts_.rotate(n=rotation)
+    if end_counts is not None:
+        assert all(isinstance(_, int) for _ in end_counts)
     talea = rmakers.Talea(
         counts=counts_,
         denominator=8,
+        end_counts=end_counts,
         )
     extra_counts = baca.sequence([1, 1, 0, -1])
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)

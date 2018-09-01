@@ -76,7 +76,7 @@ maker(
                 ),
             clt=True,
             ),
-        stirrings_still.trajectories('B', 0, 0),
+        stirrings_still.trajectories('B', 0, 0, [1]),
         match=0,
         ),
     baca.new(
@@ -89,7 +89,7 @@ maker(
                 ),
             clt=True,
             ),
-        stirrings_still.trajectories('B', -1, -1),
+        stirrings_still.trajectories('B', -1, -1, [1]),
         match=1,
         ),
     baca.new(
@@ -102,7 +102,7 @@ maker(
                 ),
             clt=True,
             ),
-        stirrings_still.trajectories('B', -2, -2),
+        stirrings_still.trajectories('B', -2, -2, [1]),
         match=2,
         ),
     baca.new(
