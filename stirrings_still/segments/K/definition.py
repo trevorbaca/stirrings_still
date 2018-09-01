@@ -275,7 +275,9 @@ maker(
         baca.staff_lines(1),
         baca.staff_lines(5, selector=baca.rleaves()[-1:]),
         ),
-    stirrings_still.glissando_without_ties(),
+    stirrings_still.glissando_without_ties(
+        selector=baca.rleaves(),
+        ),
     stirrings_still.solid_line_rhythm(),
     )
 
