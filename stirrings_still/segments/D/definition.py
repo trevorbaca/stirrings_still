@@ -383,7 +383,7 @@ maker(
     ('va', (49, 53)),
     baca.dynamic('"mp"'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markup('tailpiece', boxed=True),
+    baca.markup('tailpiece'),
     baca.staff_lines(1),
     baca.staff_position(0),
     )

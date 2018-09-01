@@ -3334,7 +3334,7 @@ K_Viola_Music_Voice = {                                                        %
     \once \override DynamicText.self-alignment-X = #left                       %! baca_dynamic_text_left:OverrideCommand(1)
     \once \override DynamicText.X-extent = #'(0 . 0)                           %! baca_dynamic_text_left:OverrideCommand(1)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
@@ -3344,32 +3344,76 @@ K_Viola_Music_Voice = {                                                        %
 
     \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
-    c'8                                                                        %! baca_make_repeat_tied_notes
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'8                                                                        %! stirrings_still_solid_line_rhythm
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K Viola_Music_Voice measure 552 / measure 7]                            %! _comment_measure_numbers
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K Viola_Music_Voice measure 553 / measure 8]                            %! _comment_measure_numbers
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K Viola_Music_Voice measure 554 / measure 9]                            %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K Viola_Music_Voice measure 555 / measure 10]                           %! _comment_measure_numbers
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K Viola_Music_Voice measure 556 / measure 11]                           %! _comment_measure_numbers
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
+
+    c'4                                                                        %! stirrings_still_solid_line_rhythm
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 

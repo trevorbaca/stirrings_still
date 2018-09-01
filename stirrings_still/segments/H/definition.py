@@ -128,7 +128,7 @@ maker(
 maker(
     ('vc', 6),
     baca.dynamic('p'),
-    baca.markup('½ clt', boxed=True),
+    baca.markup('½ clt'),
     baca.script_staff_padding(6),
     baca.text_spanner_staff_padding(3),
     baca.tuplet_bracket_staff_padding(1),
@@ -539,7 +539,7 @@ maker(
 maker(
     ('vc', [(46, 50), 52]),
     baca.dls_staff_padding(5),
-    baca.markup('½ clt', boxed=True),
+    baca.markup('½ clt'),
     baca.new(
         stirrings_still.bcps(-4, clt=True),
         match=0,
