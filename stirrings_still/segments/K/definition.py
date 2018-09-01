@@ -115,7 +115,7 @@ maker(
                 ),
             clt=True,
             ),
-        stirrings_still.trajectories('B', -3, -3),
+        stirrings_still.trajectories('B', -3, -3, [1]),
         match=3,
         ),
     baca.not_segment(baca.dynamic_text_left()),
@@ -178,10 +178,6 @@ maker(
         stirrings_still.trajectories('B', -1, -1),
         match=1,
         ),
-    #baca.new(
-    #    stirrings_still.trajectories('B', -2, -2),
-    #    match=2,
-    #    ),
     baca.new(
         stirrings_still.trajectories('B', -3, -3),
         match=-1,
@@ -206,28 +202,56 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], (5, 8)),
-    baca.dynamic('pp'),
-    baca.dynamic_text_left(),
-    baca.markup('½ clt', boxed=True),
+    baca.dynamic(
+        'pp',
+        abjad.tweak(abjad.Left).self_alignment_X,
+        ),
     baca.new(
-        stirrings_still.bcps(0, clt=True),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            0,
+            abjad.tweak(2.5).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(5.5).staff_padding,
+                ),
+            clt=True,
+            ),
         match=0,
         ),
     baca.new(
-        stirrings_still.bcps(-1, clt=True),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -1,
+            abjad.tweak(2.5).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(5.5).staff_padding,
+                ),
+            clt=True,
+            ),
         match=1,
         ),
-    #baca.new(
-    #    stirrings_still.bcps(-2, clt=True),
-    #    match=2,
-    #    ),
     baca.new(
-        stirrings_still.bcps(-3, clt=True),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -3,
+            abjad.tweak(4).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(7).staff_padding,
+                ),
+            clt=True,
+            ),
         match=-1,
         ),
-    baca.text_script_parent_center(),
-    baca.text_script_staff_padding(11),
-    baca.text_spanner_staff_padding(7),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(10).staff_padding,
+        bookend=False,
+        leak=True,
+        selector=baca.ltleaves(),
+        ),
     stirrings_still.glissando_without_ties(),
     )
 
