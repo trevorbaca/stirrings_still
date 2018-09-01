@@ -20,7 +20,6 @@ def grid_to_trajectory(counts, rotation, extra):
             talea=rmakers.Talea(
                 counts=counts_,
                 denominator=8,
-                end_counts=end_counts,
                 ),
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=(1, 4), 
