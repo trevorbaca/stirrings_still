@@ -3414,8 +3414,8 @@ K_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'4                                                                        %! stirrings_still_solid_line_rhythm
-    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
-    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
+    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3429,6 +3429,8 @@ K_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+            \revert NoteHead.transparent                                       %! baca_note_head_transparent:OverrideCommand(2)
+            \revert NoteHead.X-extent                                          %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
