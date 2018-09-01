@@ -154,25 +154,19 @@ maker(
         ),
     baca.text_spanner(
         r'\stirrings-still-wide-poss-circles-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(2.5).bound_details__right__padding,
         abjad.tweak(7.5).staff_padding,
         bookend=False,
         lilypond_id=1,
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        [
-            baca.Markup.musicglyph('noteheads.s0harmonic'),
-            '=>',
-            baca.Markup.musicglyph('noteheads.s2harmonic'),
-            '=>',
-            'ord.',
-            '=|',
-            ],
-        abjad.tweak(3.25).bound_details__right__padding,
+        r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+        (abjad.tweak(2.5).bound_details__right__padding, -1),
         abjad.tweak(5).staff_padding,
         bookend=False,
-        piece_selector=baca.rleaves().partition_by_ratio((1, 1, 1)),
+        leak=True,
+        piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
         ),
     )
 
