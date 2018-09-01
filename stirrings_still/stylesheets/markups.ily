@@ -46,6 +46,13 @@ stirrings-still-wide-poss-circles-markup = \markup \concat {
     \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(wide poss.)"
     }
 
+%%% DIRECTIVES %%%
+
+stirrings-still-tailpiece-poco-flicker = \markup
+    \override #'(box-padding . 0.5)
+    \box
+    "tailpiece: poco flicker"
+
 %%% MARGIN MARKUP %%%
 
 stirrings-still-violin-i-markup = \markup { \hcenter-in #14 "Violin I" }

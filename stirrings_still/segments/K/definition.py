@@ -260,7 +260,13 @@ maker(
 maker(
     ('va', (6, 11)),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markup('tailpiece: poco flicker', boxed=True),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-tailpiece-poco-flicker',
+            literal=True,
+            ),
+        abjad.tweak(0).parent_alignment_X,
+        ),
     baca.staff_position(0),
     baca.suite(
         baca.dynamic('"mp"'),
@@ -270,7 +276,7 @@ maker(
         baca.staff_lines(1),
         baca.staff_lines(5, selector=baca.rleaves()[-1:]),
         ),
-    baca.text_script_parent_center(),
+    #baca.text_script_parent_center(),
     stirrings_still.glissando_without_ties(),
     )
 
