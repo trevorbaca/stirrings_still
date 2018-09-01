@@ -1329,15 +1329,16 @@ K_Violin_I_Music_Voice = {                                                     %
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
         % [K Violin_I_Music_Voice measure 548 / measure 3]                     %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                   %! baca_dynamic_text_left:OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                       %! baca_dynamic_text_left:OverrideCommand(1)
-        \override TextScript.staff-padding = #9                                %! baca_script_staff_padding:OverrideCommand(1)
-        \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak self-alignment-X #left                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
+        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \stirrings-still-wide-poss-circles-markup %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
             \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
@@ -1349,7 +1350,12 @@ K_Violin_I_Music_Voice = {                                                     %
                         #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
                 }                                                              %! baca_text_spanner:PiecewiseCommand(1)
             }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1374,10 +1380,9 @@ K_Violin_I_Music_Voice = {                                                     %
                         #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
                 }                                                              %! baca_text_spanner:PiecewiseCommand(1)
             }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1397,8 +1402,10 @@ K_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "ord."                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1409,9 +1416,6 @@ K_Violin_I_Music_Voice = {                                                     %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1429,6 +1433,8 @@ K_Violin_I_Music_Voice = {                                                     %
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
+        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
@@ -2271,15 +2277,16 @@ K_Violin_II_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
         % [K Violin_II_Music_Voice measure 548 / measure 3]                    %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                   %! baca_dynamic_text_left:OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                       %! baca_dynamic_text_left:OverrideCommand(1)
-        \override TextScript.staff-padding = #9                                %! baca_script_staff_padding:OverrideCommand(1)
-        \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak self-alignment-X #left                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
+        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \stirrings-still-wide-poss-circles-markup %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
             \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
@@ -2291,6 +2298,8 @@ K_Violin_II_Music_Voice = {                                                    %
                         #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
                 }                                                              %! baca_text_spanner:PiecewiseCommand(1)
             }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2316,6 +2325,8 @@ K_Violin_II_Music_Voice = {                                                    %
                         #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
                 }                                                              %! baca_text_spanner:PiecewiseCommand(1)
             }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2332,9 +2343,14 @@ K_Violin_II_Music_Voice = {                                                    %
         % [K Violin_II_Music_Voice measure 549 / measure 4]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "ord."                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2342,12 +2358,6 @@ K_Violin_II_Music_Voice = {                                                    %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2365,6 +2375,8 @@ K_Violin_II_Music_Voice = {                                                    %
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
+        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
@@ -3281,15 +3293,16 @@ K_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [K Viola_Music_Voice measure 548 / measure 3]                            %! _comment_measure_numbers
-    \once \override DynamicText.self-alignment-X = #left                       %! baca_dynamic_text_left:OverrideCommand(1)
-    \once \override DynamicText.X-extent = #'(0 . 0)                           %! baca_dynamic_text_left:OverrideCommand(1)
-    \override TextScript.staff-padding = #9                                    %! baca_script_staff_padding:OverrideCommand(1)
-    \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak self-alignment-X #left                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { "hair: circles (each as wide as poss.)" }                      %! baca_markup:IndicatorCommand
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \stirrings-still-wide-poss-circles-markup %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left.text \markup {                                 %! baca_text_spanner:PiecewiseCommand(1)
         \concat                                                                %! baca_text_spanner:PiecewiseCommand(1)
@@ -3301,6 +3314,8 @@ K_Viola_Music_Voice = {                                                        %
                     #0.5                                                       %! baca_text_spanner:PiecewiseCommand(1)
             }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
         }                                                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3323,6 +3338,8 @@ K_Viola_Music_Voice = {                                                        %
                     #0.5                                                       %! baca_text_spanner:PiecewiseCommand(1)
             }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
         }                                                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3334,19 +3351,18 @@ K_Viola_Music_Voice = {                                                        %
     % [K Viola_Music_Voice measure 549 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-invisible-line                                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "ord."                                      %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    \revert TextScript.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3356,6 +3372,8 @@ K_Viola_Music_Voice = {                                                        %
             % [K Viola_Music_Voice measure 550 / measure 5]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 7/8                                                          %! _make_multimeasure_rest_container
+            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3723,15 +3741,16 @@ K_Cello_Music_Voice = {                                                        %
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
         % [K Cello_Music_Voice measure 548 / measure 3]                        %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                   %! baca_dynamic_text_left:OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                       %! baca_dynamic_text_left:OverrideCommand(1)
-        \override TextScript.staff-padding = #9                                %! baca_script_staff_padding:OverrideCommand(1)
-        \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak self-alignment-X #left                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
+        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \stirrings-still-wide-poss-circles-markup %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
             \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
@@ -3743,7 +3762,12 @@ K_Cello_Music_Voice = {                                                        %
                         #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
                 }                                                              %! baca_text_spanner:PiecewiseCommand(1)
             }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -3762,10 +3786,9 @@ K_Cello_Music_Voice = {                                                        %
                         #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
                 }                                                              %! baca_text_spanner:PiecewiseCommand(1)
             }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -3779,15 +3802,14 @@ K_Cello_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "ord."                                  %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -3805,6 +3827,8 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
         - \tweak staff-padding #7                                              %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
+        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
