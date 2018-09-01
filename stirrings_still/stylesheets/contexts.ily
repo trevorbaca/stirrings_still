@@ -11,14 +11,8 @@
         \consists Text_engraver
         \consists \alternateTextSpannerEngraver
 
-        % TODO: remove from all scores:
-        %%\consists Staff_symbol_engraver
-        %%\override StaffSymbol.stencil = ##f
-
         \override TextScript.font-size = 6
 
-        % TODO: add to all scores:
-        %\override TextSpanner.extra-offset = #'(0 . 6)
         \override TextSpanner.font-size = 6
         }
 
@@ -52,8 +46,6 @@
         \type Engraver_group
         \consists Axis_group_engraver
         \consists Bar_number_engraver
-        \consists Mark_engraver
-        \consists Metronome_mark_engraver
         % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
         \consists Staff_collecting_engraver
         \consists Time_signature_engraver
@@ -61,23 +53,14 @@
         \accepts GlobalRests
         \accepts PageLayout
 
+        \override BarNumber.Y-extent = ##f
         % TODO: hide in score:
         \override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
-
         \override BarNumber.stencil = ##f
 
-        \override RehearsalMark.X-extent = #'(0 . 0)
-        \override RehearsalMark.Y-extent = #'(0 . 0)
-        \override RehearsalMark.break-align-symbols = #'(time-signature)
-        \override RehearsalMark.break-visibility = #end-of-line-invisible
-        \override RehearsalMark.font-name = "Didot"
-        \override RehearsalMark.font-size = 10
-        \override RehearsalMark.outside-staff-priority = 200
-        \override RehearsalMark.self-alignment-X = #center
-
-        %\override TimeSignature.X-extent = #'(0 . 0)
+        % prevents StaffSymbol from starting too early after cut-away measures:
         \override TimeSignature.X-extent = ##f
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
