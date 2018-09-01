@@ -342,7 +342,7 @@ maker(
         clt=True,
         ),
     stirrings_still.glissando_without_ties(),
-    stirrings_still.trajectories('B', -2)
+    stirrings_still.trajectories('B', -2, 0)
     )
 
 maker(

@@ -436,7 +436,7 @@ maker(
                 clt=True,
                 ),
             ),
-        stirrings_still.trajectories('C', 0),
+        stirrings_still.trajectories('C', 0, 0),
         measures=(18, 25),
         ),
     )
@@ -576,7 +576,7 @@ maker(
             clt=True,
             ),
         ),
-    stirrings_still.trajectories('C', -1),
+    stirrings_still.trajectories('C', -1, 0),
     )
 
 maker(

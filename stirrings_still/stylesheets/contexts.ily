@@ -129,12 +129,10 @@
         \override Beam.breakable = ##t
         \override Beam.damping = 99
 
-        %%%\override DynamicLineSpanner.staff-padding = 4
-
-        \override Hairpin.to-barline = ##f
-
         \override Glissando.breakable = ##t
         \override Glissando.thickness = 3
+
+        \override Hairpin.to-barline = ##f
 
         \override NoteCollision.merge-differently-dotted = ##t
 
@@ -163,7 +161,6 @@
         autoBeaming = ##f
         % TODO: activate in score:
         %barNumberFormatter = #baca-oval-bar-numbers
-        markFormatter = #format-mark-box-alphabet
         tupletFullLength = ##t
     }
 }

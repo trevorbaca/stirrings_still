@@ -552,7 +552,7 @@ maker(
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
     stirrings_still.glissando_without_ties(),
-    stirrings_still.trajectories('A', -1),
+    stirrings_still.trajectories('A', -1, 0),
     )
 
 maker(
