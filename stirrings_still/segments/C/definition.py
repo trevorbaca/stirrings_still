@@ -341,7 +341,7 @@ maker(
     (['v1', 'va', 'vc'], (28, 29)),
     baca.dynamic('pp'),
     baca.markup(
-        baca.markups.lines(['[clouded pane:', 'shin. beacon]'], boxed=True),
+        baca.markups.lines(['[clouded pane:', 'shin. beacon]']),
         ),
     baca.new(
         stirrings_still.clouded_pane(),

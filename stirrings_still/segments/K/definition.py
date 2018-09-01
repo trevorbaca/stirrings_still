@@ -259,7 +259,6 @@ maker(
 
 maker(
     ('va', (6, 11)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-tailpiece-poco-flicker',
@@ -276,8 +275,8 @@ maker(
         baca.staff_lines(1),
         baca.staff_lines(5, selector=baca.rleaves()[-1:]),
         ),
-    #baca.text_script_parent_center(),
     stirrings_still.glissando_without_ties(),
+    stirrings_still.solid_line_rhythm(),
     )
 
 maker(

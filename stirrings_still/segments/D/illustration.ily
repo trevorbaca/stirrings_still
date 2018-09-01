@@ -6220,12 +6220,7 @@ D_Viola_Music_Voice = {                                                        %
     c'2                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                tailpiece                                                      %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    ^ \markup { tailpiece }                                                    %! baca_markup:IndicatorCommand
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 

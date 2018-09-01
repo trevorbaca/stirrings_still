@@ -2460,14 +2460,11 @@ C_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "[clouded pane:"                                       %! baca_markup:IndicatorCommand
-                        "shin. beacon]"                                        %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
+        \column                                                                %! baca_markup:IndicatorCommand
+            {                                                                  %! baca_markup:IndicatorCommand
+                "[clouded pane:"                                               %! baca_markup:IndicatorCommand
+                "shin. beacon]"                                                %! baca_markup:IndicatorCommand
+            }                                                                  %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
@@ -5230,14 +5227,11 @@ C_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "[clouded pane:"                                       %! baca_markup:IndicatorCommand
-                        "shin. beacon]"                                        %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
+        \column                                                                %! baca_markup:IndicatorCommand
+            {                                                                  %! baca_markup:IndicatorCommand
+                "[clouded pane:"                                               %! baca_markup:IndicatorCommand
+                "shin. beacon]"                                                %! baca_markup:IndicatorCommand
+            }                                                                  %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
@@ -6551,14 +6545,11 @@ C_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "[clouded pane:"                                       %! baca_markup:IndicatorCommand
-                        "shin. beacon]"                                        %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
+        \column                                                                %! baca_markup:IndicatorCommand
+            {                                                                  %! baca_markup:IndicatorCommand
+                "[clouded pane:"                                               %! baca_markup:IndicatorCommand
+                "shin. beacon]"                                                %! baca_markup:IndicatorCommand
+            }                                                                  %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
