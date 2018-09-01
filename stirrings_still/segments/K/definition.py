@@ -132,7 +132,10 @@ maker(
 
 maker(
     ('tutti', (3, 4)),
-    baca.markup('hair: circles (each as wide as poss.)'),
+    baca.dynamic(
+        '"f"',
+        abjad.tweak(abjad.Left).self_alignment_X,
+        ),
     baca.new(
         stirrings_still.desynchronization(4, [2]),
         match=0,
@@ -149,12 +152,14 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
-    baca.suite(
-        baca.dynamic('"f"'),
-        baca.dynamic_text_left(),
+    baca.text_spanner(
+        r'\stirrings-still-wide-poss-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7.5).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
         ),
-    baca.text_script_staff_padding(9),
-    baca.text_spanner_staff_padding(5),
     baca.text_spanner(
         [
             baca.Markup.musicglyph('noteheads.s0harmonic'),
@@ -162,9 +167,12 @@ maker(
             baca.Markup.musicglyph('noteheads.s2harmonic'),
             '=>',
             'ord.',
+            '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
         bookend=False,
-        piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
+        piece_selector=baca.rleaves().partition_by_ratio((1, 1, 1)),
         ),
     )
 

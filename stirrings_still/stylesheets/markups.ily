@@ -42,6 +42,10 @@ stirrings-still-wide-circles-markup = \markup \concat {
     \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (wide)
     }
 
+stirrings-still-wide-poss-circles-markup = \markup \concat {
+    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(wide poss.)"
+    }
+
 %%% MARGIN MARKUP %%%
 
 stirrings-still-violin-i-markup = \markup { \hcenter-in #14 "Violin I" }
