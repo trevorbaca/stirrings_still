@@ -1,7 +1,7 @@
 import abjad
 
 
-class StageToken(abjad.AbjadObject):
+class StageToken(object):
     """
     Stage token.
     """
@@ -49,6 +49,25 @@ class StageToken(abjad.AbjadObject):
         if number is not None:
             assert isinstance(number, int)
         self._number = number
+
+    ### SPECIAL METHODS ###
+
+    def __format__(self, format_specification=''):
+        """
+        Formats object.
+        """
+        return abjad.StorageFormatManager(self).get_storage_format()
+
+    def __repr__(self):
+        """
+        Gets interpret representation.
+        """
+        return abjad.StorageFormatManager(self).get_repr_format()
+
+    ### PRIVATE METHODS ###
+
+    def _get_format_specification(self):
+        return abjad.FormatSpecification(client=self)
 
     ### PUBLIC PROPERTIES ###
 
