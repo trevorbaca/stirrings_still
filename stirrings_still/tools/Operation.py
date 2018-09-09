@@ -2,7 +2,7 @@ import abjad
 from .StageToken import StageToken
 
 
-class Operation(abjad.AbjadObject):
+class Operation(object):
     """
     Operation.
 
@@ -144,6 +144,23 @@ class Operation(abjad.AbjadObject):
         else:
             raise ValueError(self.verb)
         return target_stage_
+
+    def __format__(self, format_specification=''):
+        """
+        Formats object.
+        """
+        return abjad.StorageFormatManager(self).get_storage_format()
+
+    def __repr__(self):
+        """
+        Gets interpret representation.
+        """
+        return abjad.StorageFormatManager(self).get_repr_format()
+
+    ### PRIVATE METHODS ###
+
+    def _get_format_specification(self):
+        return abjad.FormatSpecification(client=self)
 
     ### PUBLIC PROPERTIES ###
 

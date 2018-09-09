@@ -1,7 +1,7 @@
 import abjad
 
 
-class StageSpecifier(abjad.AbjadObject):
+class StageSpecifier(object):
     """
     Stage specifier.
     """
@@ -39,6 +39,25 @@ class StageSpecifier(abjad.AbjadObject):
         self.suffix = suffix
         self.postsuffix = postsuffix
         self.operation = operation
+
+    ### SPECIAL METHODS ###
+
+    def __format__(self, format_specification=''):
+        """
+        Formats object.
+        """
+        return abjad.StorageFormatManager(self).get_storage_format()
+
+    def __repr__(self):
+        """
+        Gets interpret representation.
+        """
+        return abjad.StorageFormatManager(self).get_repr_format()
+
+    ### PRIVATE METHODS ###
+
+    def _get_format_specification(self):
+        return abjad.FormatSpecification(client=self)
 
     ### PUBLIC PROPERTIES ###
 
