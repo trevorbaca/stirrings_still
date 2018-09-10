@@ -2206,14 +2206,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2235,14 +2235,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2339,14 +2339,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2510,14 +2510,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2558,14 +2558,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2589,14 +2589,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2728,14 +2728,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2754,14 +2754,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -3143,14 +3143,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -3188,14 +3188,14 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -3226,7 +3226,7 @@ D_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3235,7 +3235,7 @@ D_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -3748,7 +3748,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3756,7 +3756,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -3781,7 +3781,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3789,7 +3789,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -3797,7 +3797,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3806,7 +3806,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3910,14 +3910,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -3990,7 +3990,7 @@ D_Violin_II_Music_Voice = {                                                    %
     c'8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -3999,7 +3999,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -4141,14 +4141,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -4186,14 +4186,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -4238,14 +4238,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -4372,14 +4372,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -4398,14 +4398,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -4778,14 +4778,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -4823,14 +4823,14 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -4861,7 +4861,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -4870,7 +4870,7 @@ D_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -5405,14 +5405,14 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -5457,14 +5457,14 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 215 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -5486,14 +5486,14 @@ D_Viola_Music_Voice = {                                                        %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [D Viola_Music_Voice measure 217 / measure 11]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -5512,7 +5512,7 @@ D_Viola_Music_Voice = {                                                        %
     c'8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -5521,7 +5521,7 @@ D_Viola_Music_Voice = {                                                        %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -5589,14 +5589,14 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -5644,14 +5644,14 @@ D_Viola_Music_Voice = {                                                        %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [D Viola_Music_Voice measure 224 / measure 18]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -5694,14 +5694,14 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 227 / measure 21]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -5743,14 +5743,14 @@ D_Viola_Music_Voice = {                                                        %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [D Viola_Music_Voice measure 229 / measure 23]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -5769,7 +5769,7 @@ D_Viola_Music_Voice = {                                                        %
     c'8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -5778,7 +5778,7 @@ D_Viola_Music_Voice = {                                                        %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -5819,14 +5819,14 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 233 / measure 27]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -5851,7 +5851,7 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -5859,7 +5859,7 @@ D_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -5898,14 +5898,14 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -6023,14 +6023,14 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -6049,14 +6049,14 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -6394,14 +6394,14 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -6439,14 +6439,14 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -6477,7 +6477,7 @@ D_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -6486,7 +6486,7 @@ D_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7000,7 +7000,7 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -7008,7 +7008,7 @@ D_Cello_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7090,14 +7090,14 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 216 / measure 10]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7175,7 +7175,7 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -7188,7 +7188,7 @@ D_Cello_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7210,14 +7210,14 @@ D_Cello_Music_Voice = {                                                        %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [D Cello_Music_Voice measure 224 / measure 18]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -7267,7 +7267,7 @@ D_Cello_Music_Voice = {                                                        %
     c'8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -7276,7 +7276,7 @@ D_Cello_Music_Voice = {                                                        %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -7287,14 +7287,14 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7309,14 +7309,14 @@ D_Cello_Music_Voice = {                                                        %
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [D Cello_Music_Voice measure 228 / measure 22]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]
+    ]                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -7379,14 +7379,14 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7408,14 +7408,14 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 233 / measure 27]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7440,7 +7440,7 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -7448,7 +7448,7 @@ D_Cello_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7469,14 +7469,14 @@ D_Cello_Music_Voice = {                                                        %
     % [D Cello_Music_Voice measure 236 / measure 30]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7711,14 +7711,14 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7737,14 +7737,14 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -7978,14 +7978,14 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -8023,14 +8023,14 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -8061,7 +8061,7 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    [
+    [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -8070,7 +8070,7 @@ D_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]
+    ]                                                                          %! stirrings_still_strokes
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
