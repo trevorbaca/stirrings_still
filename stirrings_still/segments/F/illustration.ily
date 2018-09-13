@@ -616,47 +616,47 @@ F_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "maximally tight crunch circles: grind at talon" }             %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \hide NoteHead                                                             %! baca_glissando:SpannerCommand
-    \override Accidental.stencil = ##f                                         %! baca_glissando:SpannerCommand
-    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando:SpannerCommand
-    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando:SpannerCommand
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     f'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [F Violin_II_Music_Voice measure 445 / measure 13]                       %! _comment_measure_numbers
     g'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \revert Accidental.stencil                                                 %! baca_glissando:SpannerCommand
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando:SpannerCommand
-    \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
-    \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     af'!4                                                                      %! stirrings_still_desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -720,8 +720,8 @@ F_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -732,51 +732,51 @@ F_Viola_Music_Voice = {                                                        %
     c'1                                                                        %! stirrings_still_tailpiece
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     % [F Viola_Music_Voice measure 435 / measure 3]                            %! _comment_measure_numbers
     c'2.                                                                       %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     % [F Viola_Music_Voice measure 436 / measure 4]                            %! _comment_measure_numbers
     c'1                                                                        %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     c'4                                                                        %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     % [F Viola_Music_Voice measure 437 / measure 5]                            %! _comment_measure_numbers
     c'1.                                                                       %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     % [F Viola_Music_Voice measure 438 / measure 6]                            %! _comment_measure_numbers
     c'2.                                                                       %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     % [F Viola_Music_Voice measure 439 / measure 7]                            %! _comment_measure_numbers
     c'1                                                                        %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     % [F Viola_Music_Voice measure 440 / measure 8]                            %! _comment_measure_numbers
     c'1                                                                        %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     % [F Viola_Music_Voice measure 441 / measure 9]                            %! _comment_measure_numbers
     c'1                                                                        %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     c'4                                                                        %! stirrings_still_tailpiece
-    - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
 
     % [F Viola_Music_Voice measure 442 / measure 10]                           %! _comment_measure_numbers
     c'1.                                                                       %! stirrings_still_tailpiece

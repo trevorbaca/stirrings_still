@@ -13969,307 +13969,307 @@ Q_Cello_Music_Voice = {                                                        %
     bf,,!8                                                                     %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-pp-sempre                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \hide NoteHead                                                             %! baca_glissando:SpannerCommand
-    \override Accidental.stencil = ##f                                         %! baca_glissando:SpannerCommand
-    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando:SpannerCommand
-    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando:SpannerCommand
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     b,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
-
-    b,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
+
+    b,,8                                                                       %! stirrings_still_eighths
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 793 / measure 74]                           %! _comment_measure_numbers
     b,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 794 / measure 75]                           %! _comment_measure_numbers
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 795 / measure 76]                           %! _comment_measure_numbers
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 796 / measure 77]                           %! _comment_measure_numbers
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 797 / measure 78]                           %! _comment_measure_numbers
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 798 / measure 79]                           %! _comment_measure_numbers
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 799 / measure 80]                           %! _comment_measure_numbers
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 800 / measure 81]                           %! _comment_measure_numbers
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 801 / measure 82]                           %! _comment_measure_numbers
     e,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 802 / measure 83]                           %! _comment_measure_numbers
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 803 / measure 84]                           %! _comment_measure_numbers
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     d,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 804 / measure 85]                           %! _comment_measure_numbers
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 805 / measure 86]                           %! _comment_measure_numbers
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c,,8                                                                       %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,,,8                                                                      %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,,,8                                                                      %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 806 / measure 87]                           %! _comment_measure_numbers
     b,,,8                                                                      %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,,,8                                                                      %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,,,8                                                                      %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,,,8                                                                      %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 807 / measure 88]                           %! _comment_measure_numbers
-    \revert Accidental.stencil                                                 %! baca_glissando:SpannerCommand
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando:SpannerCommand
-    \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
-    \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     b,,,2.                                                                     %! baca_make_repeat_tied_notes
 
     % [Q Cello_Music_Voice measure 808 / measure 89]                           %! _comment_measure_numbers

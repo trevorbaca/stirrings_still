@@ -1095,122 +1095,122 @@ P_Violin_I_Music_Voice = {                                                     %
     g'8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \hide NoteHead                                                             %! baca_glissando:SpannerCommand
-    \override Accidental.stencil = ##f                                         %! baca_glissando:SpannerCommand
-    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando:SpannerCommand
-    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando:SpannerCommand
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
-
-    g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
+
+    g'8                                                                        %! stirrings_still_eighths
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_I_Music_Voice measure 715 / measure 22]                        %! _comment_measure_numbers
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_I_Music_Voice measure 716 / measure 23]                        %! _comment_measure_numbers
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_I_Music_Voice measure 717 / measure 24]                        %! _comment_measure_numbers
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_I_Music_Voice measure 718 / measure 25]                        %! _comment_measure_numbers
     b'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \revert Accidental.stencil                                                 %! baca_glissando:SpannerCommand
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando:SpannerCommand
-    \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
-    \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     bf'!8                                                                      %! stirrings_still_eighths
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
@@ -1779,141 +1779,141 @@ P_Violin_II_Music_Voice = {                                                    %
     e'8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \hide NoteHead                                                             %! baca_glissando:SpannerCommand
-    \override Accidental.stencil = ##f                                         %! baca_glissando:SpannerCommand
-    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando:SpannerCommand
-    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando:SpannerCommand
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
-
-    e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
+
+    e'8                                                                        %! stirrings_still_eighths
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_II_Music_Voice measure 714 / measure 21]                       %! _comment_measure_numbers
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     e'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_II_Music_Voice measure 715 / measure 22]                       %! _comment_measure_numbers
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_II_Music_Voice measure 716 / measure 23]                       %! _comment_measure_numbers
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_II_Music_Voice measure 717 / measure 24]                       %! _comment_measure_numbers
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Violin_II_Music_Voice measure 718 / measure 25]                       %! _comment_measure_numbers
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \revert Accidental.stencil                                                 %! baca_glissando:SpannerCommand
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando:SpannerCommand
-    \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
-    \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     gf'!8                                                                      %! stirrings_still_eighths
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
@@ -2463,122 +2463,122 @@ P_Viola_Music_Voice = {                                                        %
     f8                                                                         %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \hide NoteHead                                                             %! baca_glissando:SpannerCommand
-    \override Accidental.stencil = ##f                                         %! baca_glissando:SpannerCommand
-    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando:SpannerCommand
-    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando:SpannerCommand
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     f8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
-
-    f8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
+
+    f8                                                                         %! stirrings_still_eighths
+    \glissando                                                                 %! baca_glissando
 
     % [P Viola_Music_Voice measure 715 / measure 22]                           %! _comment_measure_numbers
     f8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     f8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Viola_Music_Voice measure 716 / measure 23]                           %! _comment_measure_numbers
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Viola_Music_Voice measure 717 / measure 24]                           %! _comment_measure_numbers
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     g8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Viola_Music_Voice measure 718 / measure 25]                           %! _comment_measure_numbers
     a8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \revert Accidental.stencil                                                 %! baca_glissando:SpannerCommand
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando:SpannerCommand
-    \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
-    \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     af!8                                                                       %! stirrings_still_eighths
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
@@ -3104,154 +3104,154 @@ P_Cello_Music_Voice = {                                                        %
     a,8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \hide NoteHead                                                             %! baca_glissando:SpannerCommand
-    \override Accidental.stencil = ##f                                         %! baca_glissando:SpannerCommand
-    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando:SpannerCommand
-    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando:SpannerCommand
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
-
-    a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
+
+    a,8                                                                        %! stirrings_still_eighths
+    \glissando                                                                 %! baca_glissando
 
     % [P Cello_Music_Voice measure 713 / measure 20]                           %! _comment_measure_numbers
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Cello_Music_Voice measure 714 / measure 21]                           %! _comment_measure_numbers
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     a,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Cello_Music_Voice measure 715 / measure 22]                           %! _comment_measure_numbers
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Cello_Music_Voice measure 716 / measure 23]                           %! _comment_measure_numbers
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Cello_Music_Voice measure 717 / measure 24]                           %! _comment_measure_numbers
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     b,8                                                                        %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     % [P Cello_Music_Voice measure 718 / measure 25]                           %! _comment_measure_numbers
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     c8                                                                         %! stirrings_still_eighths
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
-    \revert Accidental.stencil                                                 %! baca_glissando:SpannerCommand
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando:SpannerCommand
-    \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
-    \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     c8                                                                         %! stirrings_still_eighths
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
