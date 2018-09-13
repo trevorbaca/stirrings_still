@@ -1304,12 +1304,12 @@ K_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -1505,19 +1505,19 @@ K_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_accelerando
 
         % [K Violin_I_Music_Voice measure 551 / measure 6]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 117/32                                                          %! stirrings_still_accelerando
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_accelerando
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -1631,8 +1631,8 @@ K_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
         % [K Violin_I_Music_Voice measure 554 / measure 9]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -1660,8 +1660,6 @@ K_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -1708,8 +1706,8 @@ K_Violin_I_Music_Voice = {                                                     %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -1737,8 +1735,6 @@ K_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -1785,8 +1781,8 @@ K_Violin_I_Music_Voice = {                                                     %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -1815,8 +1811,6 @@ K_Violin_I_Music_Voice = {                                                     %
     \revert TupletNumber.text
 
     % [K Violin_I_Music_Voice measure 559 / measure 14]                        %! _comment_measure_numbers
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -1863,8 +1857,8 @@ K_Violin_I_Music_Voice = {                                                     %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -1892,8 +1886,6 @@ K_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -1940,8 +1932,8 @@ K_Violin_I_Music_Voice = {                                                     %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -1969,8 +1961,6 @@ K_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -1978,7 +1968,6 @@ K_Violin_I_Music_Voice = {                                                     %
     c'4                                                                        %! stirrings_still_to_flight
     ~
 
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_to_flight
 
@@ -2234,12 +2223,12 @@ K_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    [                                                                          %! stirrings_still_trajectories
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #7 #7                                       %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
-    [                                                                          %! stirrings_still_trajectories
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -2430,19 +2419,19 @@ K_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_accelerando
 
         % [K Violin_II_Music_Voice measure 551 / measure 6]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 159/32                                                          %! stirrings_still_accelerando
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_accelerando
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -2541,8 +2530,8 @@ K_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
         % [K Violin_II_Music_Voice measure 554 / measure 9]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 235/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -2568,8 +2557,6 @@ K_Violin_II_Music_Voice = {                                                    %
     \revert TupletNumber.text
 
     % [K Violin_II_Music_Voice measure 555 / measure 10]                       %! _comment_measure_numbers
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -2614,8 +2601,8 @@ K_Violin_II_Music_Voice = {                                                    %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 235/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -2640,8 +2627,6 @@ K_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -2686,8 +2671,8 @@ K_Violin_II_Music_Voice = {                                                    %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 235/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -2712,8 +2697,6 @@ K_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -2758,8 +2741,8 @@ K_Violin_II_Music_Voice = {                                                    %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 235/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -2784,8 +2767,6 @@ K_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -2830,8 +2811,8 @@ K_Violin_II_Music_Voice = {                                                    %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 235/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -2856,8 +2837,6 @@ K_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -2902,8 +2881,8 @@ K_Violin_II_Music_Voice = {                                                    %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 235/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -2928,8 +2907,6 @@ K_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -2974,8 +2951,8 @@ K_Violin_II_Music_Voice = {                                                    %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 59/16                                                           %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -3231,12 +3208,12 @@ K_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -3626,11 +3603,11 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #7                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -3696,12 +3673,12 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #7                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -3874,19 +3851,19 @@ K_Cello_Music_Voice = {                                                        %
     \times 1/1 {                                                               %! stirrings_still_accelerando
 
         % [K Cello_Music_Voice measure 551 / measure 6]                        %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 327/64                                                          %! stirrings_still_accelerando
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
         - \tweak staff-padding #7                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_accelerando
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -3985,8 +3962,8 @@ K_Cello_Music_Voice = {                                                        %
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
         % [K Cello_Music_Voice measure 554 / measure 9]                        %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 239/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -4021,8 +3998,6 @@ K_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -4067,8 +4042,8 @@ K_Cello_Music_Voice = {                                                        %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 239/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -4102,8 +4077,6 @@ K_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -4148,8 +4121,8 @@ K_Cello_Music_Voice = {                                                        %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 239/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -4184,8 +4157,6 @@ K_Cello_Music_Voice = {                                                        %
     \revert TupletNumber.text
 
     % [K Cello_Music_Voice measure 560 / measure 15]                           %! _comment_measure_numbers
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -4230,8 +4201,8 @@ K_Cello_Music_Voice = {                                                        %
         }
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 239/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
@@ -4265,8 +4236,6 @@ K_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
-    \override Staff.Stem.stemlet-length = 0.75                                 %! stirrings_still_to_flight
-    \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
 
@@ -4312,8 +4281,8 @@ K_Cello_Music_Voice = {                                                        %
     \times 1/1 {                                                               %! stirrings_still_to_flight
 
         % [K Cello_Music_Voice measure 562 / measure 17]                       %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 251/64                                                          %! stirrings_still_to_flight
         [                                                                      %! stirrings_still_to_flight
