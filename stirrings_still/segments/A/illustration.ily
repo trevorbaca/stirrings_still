@@ -6079,6 +6079,7 @@ A_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #12                                                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -6086,7 +6087,6 @@ A_Cello_Music_Voice = {                                                        %
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
@@ -6101,10 +6101,10 @@ A_Cello_Music_Voice = {                                                        %
     c'8
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
@@ -6119,10 +6119,10 @@ A_Cello_Music_Voice = {                                                        %
     c'8.
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
@@ -6137,10 +6137,10 @@ A_Cello_Music_Voice = {                                                        %
     c'8
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
@@ -6158,10 +6158,10 @@ A_Cello_Music_Voice = {                                                        %
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
@@ -6176,10 +6176,10 @@ A_Cello_Music_Voice = {                                                        %
     c'8
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
@@ -6194,11 +6194,11 @@ A_Cello_Music_Voice = {                                                        %
     c'8.
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #7 #7                                       %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
@@ -6289,6 +6289,7 @@ A_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(6)
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    [
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #12                                                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -6296,7 +6297,6 @@ A_Cello_Music_Voice = {                                                        %
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
@@ -6311,10 +6311,10 @@ A_Cello_Music_Voice = {                                                        %
     c'8
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
@@ -6329,11 +6329,11 @@ A_Cello_Music_Voice = {                                                        %
     c'8.
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #7 #7                                       %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16

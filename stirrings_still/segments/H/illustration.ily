@@ -1245,7 +1245,7 @@ H_Violin_I_Music_Voice = {                                                     %
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [H Violin_I_Music_Voice measure 472 / measure 6]                         %! _comment_measure_numbers
-    \set stemLeftBeamCount = 0                                                 %! stirrings_still_circles
+    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
@@ -1279,7 +1279,7 @@ H_Violin_I_Music_Voice = {                                                     %
     c'8                                                                        %! stirrings_still_circles
 
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 0                                                %! stirrings_still_circles
+    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
     ]                                                                          %! stirrings_still_circles
@@ -1332,17 +1332,17 @@ H_Violin_I_Music_Voice = {                                                     %
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \override TextScript.staff-padding = #1.5                              %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.staff-padding = #1.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         gf'!16 * 439/64                                                        %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "(always one circle per stem)" }                           %! baca_markup:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! baca_glissando:SpannerCommand
 
         \hide NoteHead                                                         %! baca_glissando:SpannerCommand
@@ -1408,11 +1408,11 @@ H_Violin_I_Music_Voice = {                                                     %
         % [H Violin_I_Music_Voice measure 477 / measure 11]                    %! _comment_measure_numbers
         a'8                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        [                                                                      %! stirrings_still_desynchronization
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "6˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_desynchronization
         \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'8                                                                    %! stirrings_still_desynchronization
@@ -1736,12 +1736,13 @@ H_Violin_I_Music_Voice = {                                                     %
         % [H Violin_I_Music_Voice measure 496 / measure 30]                    %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 487/64                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "poco scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -1749,7 +1750,6 @@ H_Violin_I_Music_Voice = {                                                     %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 209/32                                                          %! stirrings_still_accelerando
@@ -1900,12 +1900,13 @@ H_Violin_I_Music_Voice = {                                                     %
         % [H Violin_I_Music_Voice measure 503 / measure 37]                    %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/8                                                            %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "mod. scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -1913,7 +1914,6 @@ H_Violin_I_Music_Voice = {                                                     %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 221/32                                                          %! stirrings_still_accelerando
@@ -2006,12 +2006,13 @@ H_Violin_I_Music_Voice = {                                                     %
         % [H Violin_I_Music_Voice measure 507 / measure 41]                    %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 497/64                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "molto scratch circles"                %! baca_text_spanner:PiecewiseCommand(1)
@@ -2019,7 +2020,6 @@ H_Violin_I_Music_Voice = {                                                     %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 59/8                                                            %! stirrings_still_accelerando
@@ -2369,18 +2369,18 @@ H_Violin_II_Music_Voice = {                                                    %
 
         % [H Violin_II_Music_Voice measure 477 / measure 11]                   %! _comment_measure_numbers
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         f'16 * 503/64                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         ^ \markup { "(always one circle per stem)" }                           %! baca_markup:IndicatorCommand
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #3.25                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! baca_glissando:SpannerCommand
 
         \hide NoteHead                                                         %! baca_glissando:SpannerCommand
@@ -2692,12 +2692,13 @@ H_Violin_II_Music_Voice = {                                                    %
         % [H Violin_II_Music_Voice measure 496 / measure 30]                   %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 121/16                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "poco scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -2705,7 +2706,6 @@ H_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 219/32                                                          %! stirrings_still_accelerando
@@ -2875,12 +2875,13 @@ H_Violin_II_Music_Voice = {                                                    %
         % [H Violin_II_Music_Voice measure 503 / measure 37]                   %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 127/16                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "mod. scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -2888,7 +2889,6 @@ H_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 233/32                                                          %! stirrings_still_accelerando
@@ -2975,12 +2975,13 @@ H_Violin_II_Music_Voice = {                                                    %
         % [H Violin_II_Music_Voice measure 507 / measure 41]                   %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 477/64                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "molto scratch circles"                %! baca_text_spanner:PiecewiseCommand(1)
@@ -2988,7 +2989,6 @@ H_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 461/64                                                          %! stirrings_still_accelerando
@@ -3304,17 +3304,17 @@ H_Viola_Music_Voice = {                                                        %
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \override TextScript.staff-padding = #1.5                              %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.staff-padding = #1.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         af!16 * 15/2                                                           %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "(always one circle per stem)" }                           %! baca_markup:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! baca_glissando:SpannerCommand
 
         \hide NoteHead                                                         %! baca_glissando:SpannerCommand
@@ -3647,12 +3647,13 @@ H_Viola_Music_Voice = {                                                        %
         % [H Viola_Music_Voice measure 496 / measure 30]                       %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 501/64                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "poco scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -3660,7 +3661,6 @@ H_Viola_Music_Voice = {                                                        %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 477/64                                                          %! stirrings_still_accelerando
@@ -3802,12 +3802,13 @@ H_Viola_Music_Voice = {                                                        %
         % [H Viola_Music_Voice measure 503 / measure 37]                       %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 55/8                                                            %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "mod. scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -3815,7 +3816,6 @@ H_Viola_Music_Voice = {                                                        %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 211/32                                                          %! stirrings_still_accelerando
@@ -3902,12 +3902,13 @@ H_Viola_Music_Voice = {                                                        %
         % [H Viola_Music_Voice measure 507 / measure 41]                       %! _comment_measure_numbers
         \override TextScript.staff-padding = #5                                %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/32                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "molto scratch circles"                %! baca_text_spanner:PiecewiseCommand(1)
@@ -3915,7 +3916,6 @@ H_Viola_Music_Voice = {                                                        %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 245/32                                                          %! stirrings_still_accelerando
@@ -4170,18 +4170,18 @@ H_Cello_Music_Voice = {                                                        %
         \override TextSpanner.staff-padding = #3                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \override TupletBracket.staff-padding = #1                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/32                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         ^ \markup { "½ clt" }                                                  %! baca_markup:IndicatorCommand
+        [                                                                      %! stirrings_still_accelerando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 201/64                                                          %! stirrings_still_accelerando
@@ -4554,10 +4554,10 @@ H_Cello_Music_Voice = {                                                        %
         ^ \markup { "½ clt" }                                                  %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -4588,10 +4588,10 @@ H_Cello_Music_Voice = {                                                        %
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -4636,10 +4636,10 @@ H_Cello_Music_Voice = {                                                        %
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -4723,10 +4723,10 @@ H_Cello_Music_Voice = {                                                        %
     \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    [                                                                          %! stirrings_still_trajectories
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #4                                        %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
-    [                                                                          %! stirrings_still_trajectories
     - \abjad-zero-padding-glissando                                            %! baca_glissando:SpannerCommand
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
@@ -4767,10 +4767,10 @@ H_Cello_Music_Voice = {                                                        %
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 
@@ -4895,10 +4895,10 @@ H_Cello_Music_Voice = {                                                        %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         ^ \markup { "½ clt" }                                                  %! baca_markup:IndicatorCommand
+        [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        [                                                                      %! stirrings_still_trajectories
         - \abjad-zero-padding-glissando                                        %! baca_glissando:SpannerCommand
         \glissando                                                             %! baca_glissando:SpannerCommand
 

@@ -781,8 +781,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 832 / measure 5]                     %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 245/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -898,8 +898,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 837 / measure 10]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 235/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -973,8 +973,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 838 / measure 11]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 79/64                                                           %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1079,8 +1079,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 843 / measure 16]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 125/32                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1157,8 +1157,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 844 / measure 17]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 43/32                                                           %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1244,8 +1244,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 845 / measure 18]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/32                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1345,8 +1345,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 850 / measure 23]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/32                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1414,8 +1414,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 851 / measure 24]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 79/64                                                           %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1486,8 +1486,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 852 / measure 25]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 235/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1561,8 +1561,8 @@ S_Violin_I_Music_Voice = {                                                     %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_I_Music_Voice measure 853 / measure 26]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 77/64                                                           %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1742,8 +1742,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 832 / measure 5]                    %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 155/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1853,8 +1853,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 837 / measure 10]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 17/8                                                            %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1925,8 +1925,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 838 / measure 11]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 117/32                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2025,8 +2025,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 843 / measure 16]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 147/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2100,8 +2100,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 844 / measure 17]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 15/4                                                            %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2178,8 +2178,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 845 / measure 18]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 121/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2279,8 +2279,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 850 / measure 23]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 121/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2348,8 +2348,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 851 / measure 24]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 117/32                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2414,8 +2414,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 852 / measure 25]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 17/8                                                            %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2486,8 +2486,8 @@ S_Violin_II_Music_Voice = {                                                    %
     \times 1/1 {                                                               %! stirrings_still_wave
 
         % [S Violin_II_Music_Voice measure 853 / measure 26]                   %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
