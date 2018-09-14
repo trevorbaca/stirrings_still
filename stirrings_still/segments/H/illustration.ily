@@ -4224,6 +4224,11 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     _ \markup { IV }                                                           %! baca_markup:IndicatorCommand
+    - \tweak arrow-length #2                                                   %! baca_finger_pressure_transition
+    - \tweak arrow-width #0.5                                                  %! baca_finger_pressure_transition
+    - \tweak bound-details.right.arrow ##t                                     %! baca_finger_pressure_transition
+    - \tweak thickness #3                                                      %! baca_finger_pressure_transition
+    \glissando                                                                 %! baca_finger_pressure_transition
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "flaut."                                    %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "non flaut."                               %! baca_text_spanner:PiecewiseCommand(1)
@@ -4231,11 +4236,6 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak arrow-length #2                                                   %! baca_finger_pressure_transition:SpannerCommand
-    - \tweak arrow-width #0.5                                                  %! baca_finger_pressure_transition:SpannerCommand
-    - \tweak bound-details.right.arrow ##t                                     %! baca_finger_pressure_transition:SpannerCommand
-    - \tweak thickness #3                                                      %! baca_finger_pressure_transition:SpannerCommand
-    \glissando                                                                 %! baca_finger_pressure_transition:SpannerCommand
 
     % [H Cello_Music_Voice measure 474 / measure 8]                            %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
