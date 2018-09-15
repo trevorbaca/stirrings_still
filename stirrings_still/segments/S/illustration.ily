@@ -2818,7 +2818,7 @@ S_Cello_Music_Voice = {                                                        %
     R1 * 5/4                                                                   %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 832 / measure 5]                            %! _comment_measure_numbers
-    \ottava #-1                                                                %! baca_ottava_bassa:SpannerCommand
+    \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
     b,,,1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2831,7 +2831,7 @@ S_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \ottava #0                                                                 %! baca_ottava_bassa:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2864,7 +2864,7 @@ S_Cello_Music_Voice = {                                                        %
     R1 * 5/4                                                                   %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 837 / measure 10]                           %! _comment_measure_numbers
-    \ottava #-1                                                                %! baca_ottava_bassa:SpannerCommand
+    \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
     b,,,1                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2875,7 +2875,7 @@ S_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \ottava #0                                                                 %! baca_ottava_bassa:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2908,7 +2908,7 @@ S_Cello_Music_Voice = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 843 / measure 16]                           %! _comment_measure_numbers
-    \ottava #-1                                                                %! baca_ottava_bassa:SpannerCommand
+    \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
     b,,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2926,7 +2926,7 @@ S_Cello_Music_Voice = {                                                        %
     % [S Cello_Music_Voice measure 845 / measure 18]                           %! _comment_measure_numbers
     b,,,2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
-    \ottava #0                                                                 %! baca_ottava_bassa:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2959,7 +2959,7 @@ S_Cello_Music_Voice = {                                                        %
     R1 * 3/2                                                                   %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 850 / measure 23]                           %! _comment_measure_numbers
-    \ottava #-1                                                                %! baca_ottava_bassa:SpannerCommand
+    \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
     b,,,2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2978,7 +2978,7 @@ S_Cello_Music_Voice = {                                                        %
     % [S Cello_Music_Voice measure 853 / measure 26]                           %! _comment_measure_numbers
     b,,,1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    \ottava #0                                                                 %! baca_ottava_bassa:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
