@@ -13965,7 +13965,7 @@ Q_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [Q Cello_Music_Voice measure 792 / measure 73]                           %! _comment_measure_numbers
-    \ottava #-1                                                                %! baca_ottava_bassa:SpannerCommand
+    \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
     bf,,!8                                                                     %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-pp-sempre                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -14290,7 +14290,7 @@ Q_Cello_Music_Voice = {                                                        %
 
     b,,,4
     \repeatTie
-    \ottava #0                                                                 %! baca_ottava_bassa:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
 }                                                                              %! extern
 
