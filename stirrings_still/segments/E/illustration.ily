@@ -13478,6 +13478,7 @@ E_Viola_Music_Voice = {                                                        %
     c'8
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
+    ~
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_talea_eighths
     \times 6/5 {                                                               %! stirrings_still_talea_eighths
@@ -13486,7 +13487,6 @@ E_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        ~
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_talea_eighths
