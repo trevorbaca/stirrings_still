@@ -2271,22 +2271,22 @@ H_Violin_II_Music_Voice = {                                                    %
 
     % [H Violin_II_Music_Voice measure 468 / measure 2]                        %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [H Violin_II_Music_Voice measure 469 / measure 3]                        %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [H Violin_II_Music_Voice measure 470 / measure 4]                        %! _comment_measure_numbers
     f'2..                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [H Violin_II_Music_Voice measure 471 / measure 5]                        %! _comment_measure_numbers
     f'2..                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     % [H Violin_II_Music_Voice measure 472 / measure 6]                        %! _comment_measure_numbers
@@ -2299,27 +2299,27 @@ H_Violin_II_Music_Voice = {                                                    %
 
     % [H Violin_II_Music_Voice measure 474 / measure 8]                        %! _comment_measure_numbers
     f'2                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [H Violin_II_Music_Voice measure 475 / measure 9]                        %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     f'4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! TieCorrectionCommand
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "flaut. (2°)"                               %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     f'4
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
 
     % [H Violin_II_Music_Voice measure 476 / measure 10]                       %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "ord."                                      %! baca_text_spanner:PiecewiseCommand(1)
@@ -4246,110 +4246,110 @@ H_Cello_Music_Voice = {                                                        %
     gf,!4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie                                                                 %! baca_repeat_tie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     gf,!4
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 476 / measure 10]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 477 / measure 11]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 478 / measure 12]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 479 / measure 13]                           %! _comment_measure_numbers
     gf,!4.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ^ \markup { "poco overpressure" }                                          %! baca_markup:IndicatorCommand
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     gf,!4
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 480 / measure 14]                           %! _comment_measure_numbers
     gf,!2                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 481 / measure 15]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie                                                                 %! baca_repeat_tie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H Cello_Music_Voice measure 482 / measure 16]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 483 / measure 17]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ^ \markup { "molto overpressure" }                                         %! baca_markup:IndicatorCommand
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 484 / measure 18]                           %! _comment_measure_numbers
     gf,!2                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 485 / measure 19]                           %! _comment_measure_numbers
     gf,!4.
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     gf,!4
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 486 / measure 20]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 487 / measure 21]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 488 / measure 22]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 489 / measure 23]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie                                                                 %! baca_repeat_tie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H Cello_Music_Voice measure 490 / measure 24]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 491 / measure 25]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 492 / measure 26]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 493 / measure 27]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     % [H Cello_Music_Voice measure 494 / measure 28]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4378,7 +4378,7 @@ H_Cello_Music_Voice = {                                                        %
 
     % [H Cello_Music_Voice measure 497 / measure 31]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container

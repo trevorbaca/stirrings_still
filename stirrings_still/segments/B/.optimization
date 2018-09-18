@@ -2823,3 +2823,23 @@
  Segment-maker runtime: 86 seconds
  Abjad format time: 1 second
  LilyPond runtime: 7 seconds
+
+2018-09-17 18:05:03
+ Segment-maker runtime: 106 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 7 seconds
+
+2018-09-17 20:58:01
+ Segment-maker runtime: 94 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 8 seconds
+
+2018-09-17 22:31:36
+ Segment-maker runtime: 84 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 7 seconds
+
+2018-09-17 23:22:33
+ Segment-maker runtime: 84 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 7 seconds
