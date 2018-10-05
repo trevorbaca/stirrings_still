@@ -3,7 +3,14 @@ import baca
 from abjadext import rmakers
 
 
-def trajectories(counts, rotation, extra_counts_rotation, end_counts=None):
+def trajectories(
+    counts,
+    rotation,
+    extra_counts_rotation,
+    *,
+    dmask=None,
+    end_counts=None,
+    ):
     """
     Makes trajectories.
     """
@@ -25,6 +32,7 @@ def trajectories(counts, rotation, extra_counts_rotation, end_counts=None):
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
     rhythm = baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            division_masks=dmask,
             extra_counts_per_division=extra_counts,
             tag='stirrings_still_trajectories',
             talea=talea,
