@@ -7,6 +7,7 @@ def bcps(
     *tweaks,
     bow_change_tweaks = None,
     clt: bool = False,
+    measures = None,
     selector = 'baca.leaves()',
     ):
     """
@@ -23,10 +24,14 @@ def bcps(
     if clt:
         bcps = bcps.replace((0, 7), (1, 7))
         bcps = bcps.replace((0, 4), (1, 4))
-    return baca.bcps(
+    command = baca.bcps(
         bcps,
         *tweaks,
         bow_change_tweaks=bow_change_tweaks,
         selector=selector,
         tag='stirrings_still_bcps',
+        )
+    return baca.new(
+        command,
+        measures=measures,
         )

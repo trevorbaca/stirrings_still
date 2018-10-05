@@ -40,6 +40,80 @@ stirrings_still.time(maker, time)
 
 maker(
     'v1',
+    baca.dls_staff_padding(7),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -8,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(1, 2),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -8 - 2,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(4, 6),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -8 - 4,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(8, 10),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -8 - 6,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(12, 14),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(1, 2),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(4, 6),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(8, 10),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(12, 14),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.tuplet_bracket_down(),
     stirrings_still.trajectories(
         'C',
         0,
@@ -50,6 +124,80 @@ maker(
 
 maker(
     'v2',
+    baca.dls_staff_padding(7),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -7,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(1, 2),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -7 - 2,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(4, 6),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -7 - 4,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(8, 10),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -7 - 6,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(12, 14),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(1, 2),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(4, 6),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(8, 10),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(12, 14),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.tuplet_bracket_down(),
     stirrings_still.trajectories(
         'C',
         -1,
@@ -60,6 +208,79 @@ maker(
 
 maker(
     'va',
+    baca.dls_staff_padding(7),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -6,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(1, 2),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -6 - 2,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(4, 6),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -6 - 4,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(8, 10),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        stirrings_still.bcps(
+            -6 - 6,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            measures=(12, 14),
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(1, 2),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(4, 6),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(8, 10),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        measures=(12, 14),
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.trajectories(
         'C',
         -2,
@@ -71,7 +292,7 @@ maker(
 maker(
     'trio',
     baca.hairpin(
-        'f > p p < f > p p < f > p p < f > p',
+        '"f" > p p < "f" > p p < "f" > p p < "f" > p',
         measures=(1, 15),
         piece_selector=baca.cmgroups([2, 1, 1]),
         ),
