@@ -55,6 +55,13 @@ maker(
         measures=(1, 8),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
         stirrings_still.pickets(4, 2),
         measures=(9, 12),
         ),
@@ -65,6 +72,13 @@ maker(
         measures=(13, 16),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves()[1:].rleak(),
+            ),
         stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
         measures=(17, 20),
         ),
@@ -75,6 +89,13 @@ maker(
         measures=(21, 24),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves()[1:].rleak(),
+            ),
         stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
         measures=(25, 28),
         ),
@@ -96,6 +117,13 @@ maker(
         measures=(1, 8),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
         stirrings_still.pickets(4, 1),
         measures=(9, 12),
         ),
@@ -106,6 +134,13 @@ maker(
         measures=(13, 16),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves()[1:].rleak(),
+            ),
         stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
         measures=(17, 20),
         ),
@@ -116,6 +151,13 @@ maker(
         measures=(21, 24),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves()[1:].rleak(),
+            ),
         stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
         measures=(25, 28),
         ),
@@ -137,6 +179,13 @@ maker(
         measures=(1, 8),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
         stirrings_still.pickets(4, 0),
         measures=(9, 12),
         ),
@@ -147,6 +196,13 @@ maker(
         measures=(13, 16),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves()[1:].rleak(),
+            ),
         stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
         measures=(17, 20),
         ),
@@ -157,6 +213,13 @@ maker(
         measures=(21, 24),
         ),
     baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-very-wide-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves()[1:].rleak(),
+            ),
         stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
         measures=(25, 28),
         ),
