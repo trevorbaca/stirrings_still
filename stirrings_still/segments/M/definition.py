@@ -46,6 +46,183 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
+    'v1',
+    baca.dls_staff_padding(5),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(1, 8),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 2),
+        measures=(9, 12),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(13, 16),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
+        measures=(17, 20),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(21, 24),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
+        measures=(25, 28),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(29, 32),
+        ),
+    )
+
+maker(
+    'v2',
+    baca.dls_staff_padding(5),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(1, 8),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 1),
+        measures=(9, 12),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(13, 16),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
+        measures=(17, 20),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(21, 24),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
+        measures=(25, 28),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(29, 32),
+        ),
+    )
+
+maker(
+    'va',
+    baca.dls_staff_padding(5),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(1, 8),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 0),
+        measures=(9, 12),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(13, 16),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
+        measures=(17, 20),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(21, 24),
+        ),
+    baca.new(
+        stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
+        measures=(25, 28),
+        ),
+    baca.new(
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(29, 32),
+        ),
+    )
+
+maker(
+    'trio',
+    baca.hairpin(
+        'p < ff',
+        measures=(1, 8),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'f < ff',
+        measures=(13, 16),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'f < ff',
+        measures=(21, 24),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'f < ff',
+        measures=(29, 32),
+        ),
+    )
+
+maker(
     'vc',
+    baca.dls_staff_padding(5),
+    baca.hairpin(
+        'fff > f',
+        measures=(7, 8),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'f < fff',
+        measures=(11, 12),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'fff > f',
+        measures=(15, 16),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'f < fff',
+        measures=(19, 20),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'fff > f',
+        measures=(23, 24),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'f < fff',
+        measures=(27, 28),
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.clouded_pane(),
     )

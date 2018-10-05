@@ -303,7 +303,7 @@ maker(
     stirrings_still.clouded_pane(),
     baca.dls_staff_padding(5),
     baca.hairpin(
-        'p < ff ff > p < ff ff > p < ff ff > p < ff',
+        'p < ff ff > p < ff ff > p < ff ff > p < fff',
         measures=(1, 15),
         piece_selector=baca.cmgroups([2, 1, 1]),
         ),
