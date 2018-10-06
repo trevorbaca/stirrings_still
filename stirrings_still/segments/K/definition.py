@@ -148,6 +148,36 @@ maker(
         stirrings_still.flight('A', 0, start=0),
         measures=(18, 20),
         ),
+    baca.new(
+        baca.dynamic('"ff"'),
+        baca.text_spanner(
+            r'\stirrings-still-scratch-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
+        stirrings_still.pickets(4, 2),
+        measures=21,
+        ),
+    baca.new(
+        baca.breathe(),
+        baca.hairpin('"ff" > mf'),
+        baca.text_spanner(
+            r'\stirrings-still-scratch-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
+        stirrings_still.pickets(4, 2),
+        measures=23,
+        ),
+    )
+
+maker(
+    'v1x',
+    baca.tacet(measures=22),
     )
 
 maker(
@@ -235,6 +265,36 @@ maker(
         stirrings_still.flight('A', 0, start=2),
         measures=(18, 20),
         ),
+    baca.new(
+        baca.dynamic('"ff"'),
+        baca.text_spanner(
+            r'\stirrings-still-scratch-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
+        stirrings_still.pickets(4, 1),
+        measures=21,
+        ),
+    baca.new(
+        baca.breathe(),
+        baca.hairpin('"ff" > mf'),
+        baca.text_spanner(
+            r'\stirrings-still-scratch-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
+        stirrings_still.pickets(4, 1),
+        measures=23,
+        ),
+    )
+
+maker(
+    'v2x',
+    baca.tacet(measures=22),
     )
 
 maker(
@@ -326,11 +386,37 @@ maker(
         stirrings_still.flight('A', -1, start=4),
         measures=(18, 20),
         ),
+    baca.new(
+        baca.dynamic('"ff"'),
+        baca.text_spanner(
+            r'\stirrings-still-scratch-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
+        stirrings_still.pickets(4, 0),
+        measures=21,
+        ),
+    baca.new(
+        baca.breathe(),
+        baca.hairpin('"ff" > mf'),
+        baca.text_spanner(
+            r'\stirrings-still-scratch-circles-markup =|',
+            abjad.tweak(2.75).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
+        stirrings_still.pickets(4, 0),
+        measures=23,
+        ),
     )
 
 maker(
     'vax',
     baca.tacet(measures=5),
+    baca.tacet(measures=22),
     )
 
 maker(
@@ -401,6 +487,27 @@ maker(
     baca.new(
         stirrings_still.to_flight([(12, 8), (3, 16)]),
         measures=(9, 17),
+        ),
+    )
+
+maker(
+    ('vc', (21, 23)),
+    baca.breathe(),
+    baca.hairpin(
+        'niente o< "f" "f" >o niente',
+        piece_selector=baca.cmgroups(),
+        ),
+    baca.script_staff_padding(8),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(11).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(5).staff_padding,
         ),
     )
 
