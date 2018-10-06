@@ -109,6 +109,13 @@ maker(
     stirrings_still.trajectories('B', 0, 0, measures=5),
     stirrings_still.accelerando((8, 32), (1, 2), measures=(6, 8)),
     baca.new(
+        baca.text_spanner(
+            '½ clt =|',
+            abjad.tweak(10).staff_padding,
+            bookend=False,
+            leak=True,
+            selector=baca.ltleaves(),
+            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             0,
@@ -120,6 +127,10 @@ maker(
             clt=True,
             ),
         measures=(5, 8),
+        ),
+    baca.new(
+        stirrings_still.to_flight([(10, 8), (3, 16)]),
+        measures=(9, 17),
         ),
     )
 
@@ -169,6 +180,13 @@ maker(
     stirrings_still.trajectories('B', -1, -1, measures=5),
     stirrings_still.accelerando((10, 32), (1, 2), measures=(6, 8)),
     baca.new(
+        baca.text_spanner(
+            '½ clt =|',
+            abjad.tweak(10).staff_padding,
+            bookend=False,
+            leak=True,
+            selector=baca.ltleaves(),
+            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -1,
@@ -180,6 +198,10 @@ maker(
             clt=True,
             ),
         measures=(5, 8),
+        ),
+    baca.new(
+        stirrings_still.to_flight([(8, 8), (3, 16)]),
+        measures=(9, 17),
         ),
     )
 
@@ -305,6 +327,13 @@ maker(
     stirrings_still.trajectories('B', -3, -3, measures=5),
     stirrings_still.accelerando((11, 32), (1, 2), measures=(6, 8)),
     baca.new(
+        baca.text_spanner(
+            '½ clt =|',
+            abjad.tweak(10).staff_padding,
+            bookend=False,
+            leak=True,
+            selector=baca.ltleaves(),
+            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -3,
@@ -316,6 +345,10 @@ maker(
             clt=True,
             ),
         measures=(5, 8),
+        ),
+    baca.new(
+        stirrings_still.to_flight([(12, 8), (3, 16)]),
+        measures=(9, 17),
         ),
     )
 
@@ -341,28 +374,5 @@ maker(
         'pp',
         abjad.tweak(abjad.Left).self_alignment_X,
         ),
-    baca.text_spanner(
-        '½ clt =|',
-        abjad.tweak(10).staff_padding,
-        bookend=False,
-        leak=True,
-        selector=baca.ltleaves(),
-        ),
     stirrings_still.glissando_without_ties(),
-    )
-
-maker(
-    (['v1', 'v2', 'vc'], (9, 17)),
-    baca.new(
-        stirrings_still.to_flight([(10, 8), (3, 16)]),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.to_flight([(8, 8), (3, 16)]),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.to_flight([(12, 8), (3, 16)]),
-        match=-1,
-        ),
     )
