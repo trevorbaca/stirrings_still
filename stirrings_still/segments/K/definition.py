@@ -275,6 +275,10 @@ maker(
     stirrings_still.solid_line_rhythm(),
     )
 
+maker(
+    ('va', (12, 17)),
+    stirrings_still.to_flight([(8, 8), (3, 16)]),
+    )
 
 maker(
     'vax',
