@@ -28,7 +28,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [546, 562, 578, 593],
+            [546, 562, 577, 593],
             ),
         ('duration', "2'21''"),
         ('first_measure_number', 546),
@@ -64,7 +64,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Cello_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -115,7 +115,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='mf',
                                 ),
                             ],
                         ),
@@ -146,7 +146,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_II_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='mf',
                                 ),
                             ],
                         ),
@@ -177,7 +177,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_I_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='mf',
                                 ),
                             ],
                         ),
@@ -226,7 +226,7 @@ metadata = abjad.OrderedDict(
                 '7/8',
                 '8/8',
                 '8/8',
-                '6/8',
+                '8/8',
                 '3/4',
                 '8/8',
                 '6/8',

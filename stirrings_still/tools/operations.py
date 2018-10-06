@@ -643,7 +643,7 @@ def operations():
                         description='development',
                         length=4,
                         ),
-                    source_measures=2,
+                    source_measures=3,
                     verb='suffix',
                     target_stage=stirrings_still.StageToken(
                         letter='K',
@@ -962,7 +962,7 @@ def operations():
             StageToken('K', 1, 'inception', 4), (2, 3),
             ),
         Operation(
-            StageToken('H', 13, 'development', 4), 2,
+            StageToken('H', 13, 'development', 4), 3,
             'suffix',
             StageToken('K', 6, 'clearing'),
             ),

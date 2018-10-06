@@ -22,6 +22,10 @@ stirrings-still-poco-tight-circles-markup = \markup \concat {
     \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(poco. tight)"
     }
 
+stirrings-still-scratch-circles-markup = \markup \concat {
+    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (scratch)
+    }
+
 stirrings-still-slow-circles-markup = \markup \concat {
     \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (slow)
     }

@@ -16,3 +16,15 @@ TO-DO
             abjad.tweak(7).staff_padding,
             )
     Raise "you probably mean baca.dls_staff_padding() instead."
+
+5.  Fix list-specified measures in baca.new() like ...
+        baca.new(
+            stirrings_still.pickets(4, 2),
+            measures=[21, 23],
+            )
+    ... which currently interprets equal to ...
+        baca.new(
+            stirrings_still.pickets(4, 2),
+            measures=(21, 23),
+            )
+    ... instead.

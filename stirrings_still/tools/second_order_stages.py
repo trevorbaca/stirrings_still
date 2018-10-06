@@ -2740,7 +2740,7 @@ def second_order_stages(segment):
                             abjad.TimeSignature((8, 8)),
                             ],
                         suffix=[
-                            abjad.TimeSignature((6, 8)),
+                            abjad.TimeSignature((8, 8)),
                             abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((8, 8)),
                             ],
@@ -2752,7 +2752,7 @@ def second_order_stages(segment):
                                     description='development',
                                     length=4,
                                     ),
-                                source_measures=2,
+                                source_measures=3,
                                 verb='suffix',
                                 target_stage=stirrings_still.StageToken(
                                     letter='K',
