@@ -10,6 +10,7 @@ def trajectories(
     *,
     dmask=None,
     end_counts=None,
+    measures=None,
     ):
     """
     Makes trajectories.
@@ -45,4 +46,5 @@ def trajectories(
     return baca.suite(
         rhythm,
         baca.hide_black_note_heads(),
+        measures=measures,
         )

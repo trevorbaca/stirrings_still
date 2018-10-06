@@ -67,6 +67,13 @@ maker(
     'v1',
     baca.dls_staff_padding(6),
     baca.new(
+        baca.text_spanner(
+            '½ clt =|',
+            abjad.tweak(10).staff_padding,
+            bookend=False,
+            leak=True,
+            selector=baca.ltleaves(),
+            ),
         stirrings_still.bcps(
             0,
             abjad.tweak(2.5).staff_padding,
@@ -79,155 +86,28 @@ maker(
         stirrings_still.trajectories('B', 0, 0, end_counts=[1]),
         measures=(1, 2),
         ),
-    )
-
-maker(
-    'v2',
-    baca.dls_staff_padding(6),
-    )
-
-maker(
-    'va',
-    baca.dls_staff_padding(6),
-    )
-
-maker(
-    'vc',
-    baca.dls_staff_padding(6),
-    )
-
-maker(
-    ('tutti', (1, 2)),
-    baca.dynamic('pp'),
     baca.new(
-        stirrings_still.bcps(
-            -1,
-            abjad.tweak(2.5).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(5.5).staff_padding,
-                ),
-            clt=True,
+        baca.text_spanner(
+            r'\stirrings-still-wide-poss-circles-markup =|',
+            abjad.tweak(2.5).bound_details__right__padding,
+            abjad.tweak(7.5).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            selector=baca.ltleaves().rleak(),
             ),
-        stirrings_still.trajectories('B', -1, -1, end_counts=[1]),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.bcps(
-            -2,
-            abjad.tweak(2.5).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(5.5).staff_padding,
-                ),
-            clt=True,
+        baca.text_spanner(
+            r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+            (abjad.tweak(2.5).bound_details__right__padding, -1),
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            leak=True,
+            piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
             ),
-        stirrings_still.trajectories('B', -2, -2, end_counts=[1]),
-        match=2,
-        ),
-    baca.new(
-        stirrings_still.bcps(
-            -3,
-            abjad.tweak(4).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(7).staff_padding,
-                ),
-            clt=True,
-            ),
-        stirrings_still.trajectories('B', -3, -3, end_counts=[1]),
-        match=3,
-        ),
-    baca.not_segment(baca.dynamic_text_left()),
-    baca.text_spanner(
-        '½ clt =|',
-        abjad.tweak(10).staff_padding,
-        bookend=False,
-        leak=True,
-        selector=baca.ltleaves(),
-        ),
-    baca.tuplet_bracket_down(),
-    stirrings_still.glissando_without_ties(),
-    )
-
-maker(
-    ('tutti', (3, 4)),
-    baca.dynamic(
-        '"f"',
-        abjad.tweak(abjad.Left).self_alignment_X,
-        ),
-    baca.new(
         stirrings_still.desynchronization(4, [2]),
-        match=0,
+        measures=(3, 4),
         ),
-    baca.new(
-        stirrings_still.desynchronization(4, [1]),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.desynchronization(4, [0]),
-        match=2,
-        ),
-    baca.new(
-        stirrings_still.desynchronization(4, [-1]),
-        match=3,
-        ),
-    baca.text_spanner(
-        r'\stirrings-still-wide-poss-circles-markup =|',
-        abjad.tweak(2.5).bound_details__right__padding,
-        abjad.tweak(7.5).staff_padding,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
-        ),
-    baca.text_spanner(
-        r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
-        (abjad.tweak(2.5).bound_details__right__padding, -1),
-        abjad.tweak(5).staff_padding,
-        bookend=False,
-        leak=True,
-        piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
-        ),
-    )
-
-maker(
-    (['v1', 'v2', 'vc'], 5),
-    baca.new(
-        stirrings_still.trajectories('B', 0, 0),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.trajectories('B', -1, -1),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.trajectories('B', -3, -3),
-        match=-1,
-        ),
-    )
-
-maker(
-    (['v1', 'v2', 'vc'], (6, 8)),
-    baca.new(
-        stirrings_still.accelerando((8, 32), (1, 2)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.accelerando((10, 32), (1, 2)),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.accelerando((11, 32), (1, 2)),
-        match=-1,
-        ),
-    )
-
-maker(
-    (['v1', 'v2', 'vc'], (5, 8)),
-    baca.dynamic(
-        'pp',
-        abjad.tweak(abjad.Left).self_alignment_X,
-        ),
+    stirrings_still.trajectories('B', 0, 0, measures=5),
+    stirrings_still.accelerando((8, 32), (1, 2), measures=(6, 8)),
     baca.new(
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
@@ -239,8 +119,55 @@ maker(
                 ),
             clt=True,
             ),
-        match=0,
+        measures=(5, 8),
         ),
+    )
+
+maker(
+    'v2',
+    baca.dls_staff_padding(6),
+    baca.new(
+        baca.text_spanner(
+            '½ clt =|',
+            abjad.tweak(10).staff_padding,
+            bookend=False,
+            leak=True,
+            selector=baca.ltleaves(),
+            ),
+        stirrings_still.bcps(
+            -1,
+            abjad.tweak(2.5).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(5.5).staff_padding,
+                ),
+            clt=True,
+            ),
+        stirrings_still.trajectories('B', -1, -1, end_counts=[1]),
+        measures=(1, 2),
+        ),
+    baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-wide-poss-circles-markup =|',
+            abjad.tweak(2.5).bound_details__right__padding,
+            abjad.tweak(7.5).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            selector=baca.ltleaves().rleak(),
+            ),
+        baca.text_spanner(
+            r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+            (abjad.tweak(2.5).bound_details__right__padding, -1),
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            leak=True,
+            piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
+            ),
+        stirrings_still.desynchronization(4, [1]),
+        measures=(3, 4),
+        ),
+    stirrings_still.trajectories('B', -1, -1, measures=5),
+    stirrings_still.accelerando((10, 32), (1, 2), measures=(6, 8)),
     baca.new(
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
@@ -252,29 +179,53 @@ maker(
                 ),
             clt=True,
             ),
-        match=1,
+        measures=(5, 8),
         ),
+    )
+
+maker(
+    'va',
+    baca.dls_staff_padding(6),
     baca.new(
-        baca.tuplet_bracket_down(),
+        baca.text_spanner(
+            '½ clt =|',
+            abjad.tweak(10).staff_padding,
+            bookend=False,
+            leak=True,
+            selector=baca.ltleaves(),
+            ),
         stirrings_still.bcps(
-            -3,
-            abjad.tweak(4).staff_padding,
+            -2,
+            abjad.tweak(2.5).staff_padding,
             bow_change_tweaks=(
                 abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(7).staff_padding,
+                abjad.tweak(5.5).staff_padding,
                 ),
             clt=True,
             ),
-        match=-1,
+        stirrings_still.trajectories('B', -2, -2, end_counts=[1]),
+        measures=(1, 2),
         ),
-    baca.text_spanner(
-        '½ clt =|',
-        abjad.tweak(10).staff_padding,
-        bookend=False,
-        leak=True,
-        selector=baca.ltleaves(),
+    baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-wide-poss-circles-markup =|',
+            abjad.tweak(2.5).bound_details__right__padding,
+            abjad.tweak(7.5).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            selector=baca.ltleaves().rleak(),
+            ),
+        baca.text_spanner(
+            r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+            (abjad.tweak(2.5).bound_details__right__padding, -1),
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            leak=True,
+            piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
+            ),
+        stirrings_still.desynchronization(4, [0]),
+        measures=(3, 4),
         ),
-    stirrings_still.glissando_without_ties(),
     )
 
 maker(
@@ -296,9 +247,108 @@ maker(
         baca.staff_lines(5, selector=baca.rleaves()[-1:]),
         ),
     stirrings_still.glissando_without_ties(
-        selector=baca.rleaves(),
+        (abjad.tweak(1.25).bound_details__right__padding, -1),
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.solid_line_rhythm(),
+    )
+
+
+maker(
+    'vax',
+    baca.tacet(measures=5),
+    )
+
+maker(
+    'vc',
+    baca.dls_staff_padding(6),
+    baca.new(
+        baca.text_spanner(
+            '½ clt =|',
+            abjad.tweak(10).staff_padding,
+            bookend=False,
+            leak=True,
+            selector=baca.ltleaves(),
+            ),
+        stirrings_still.bcps(
+            -3,
+            abjad.tweak(4).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(7).staff_padding,
+                ),
+            clt=True,
+            ),
+        stirrings_still.trajectories('B', -3, -3, end_counts=[1]),
+        measures=(1, 2),
+        ),
+    baca.new(
+        baca.text_spanner(
+            r'\stirrings-still-wide-poss-circles-markup =|',
+            abjad.tweak(2.5).bound_details__right__padding,
+            abjad.tweak(7.5).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            selector=baca.ltleaves().rleak(),
+            ),
+        baca.text_spanner(
+            r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+            (abjad.tweak(2.5).bound_details__right__padding, -1),
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            leak=True,
+            piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
+            ),
+        stirrings_still.desynchronization(4, [-1]),
+        measures=(3, 4),
+        ),
+    stirrings_still.trajectories('B', -3, -3, measures=5),
+    stirrings_still.accelerando((11, 32), (1, 2), measures=(6, 8)),
+    baca.new(
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -3,
+            abjad.tweak(4).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(7).staff_padding,
+                ),
+            clt=True,
+            ),
+        measures=(5, 8),
+        ),
+    )
+
+maker(
+    ('tutti', (1, 2)),
+    baca.dynamic('pp'),
+    baca.not_segment(baca.dynamic_text_left()),
+    baca.tuplet_bracket_down(),
+    stirrings_still.glissando_without_ties(),
+    )
+
+maker(
+    ('tutti', (3, 4)),
+    baca.dynamic(
+        '"f"',
+        abjad.tweak(abjad.Left).self_alignment_X,
+        ),
+    )
+
+maker(
+    (['v1', 'v2', 'vc'], (5, 8)),
+    baca.dynamic(
+        'pp',
+        abjad.tweak(abjad.Left).self_alignment_X,
+        ),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(10).staff_padding,
+        bookend=False,
+        leak=True,
+        selector=baca.ltleaves(),
+        ),
+    stirrings_still.glissando_without_ties(),
     )
 
 maker(

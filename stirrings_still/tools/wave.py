@@ -3,12 +3,18 @@ import baca
 from abjadext import rmakers
 
 
-def wave(start, stop):
+def wave(
+    start,
+    stop,
+    *,
+    measures=None,
+    ):
     """
     Makes wave.
     """
 
     return baca.rhythm(
+        measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(
                 beam_rests=True,

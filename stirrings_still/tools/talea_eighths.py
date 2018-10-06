@@ -3,7 +3,14 @@ import baca
 from abjadext import rmakers
 
 
-def talea_eighths(counts, rotation, extra, end_counts=None):
+def talea_eighths(
+    counts,
+    rotation,
+    extra,
+    *,
+    end_counts=None,
+    measures=None,
+    ):
     """
     Makes talea eighths.
     """
@@ -17,6 +24,7 @@ def talea_eighths(counts, rotation, extra, end_counts=None):
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
 
     return baca.rhythm(
+        measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
             tag='stirrings_still_talea_eighths',

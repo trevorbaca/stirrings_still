@@ -3,7 +3,14 @@ import baca
 from abjadext import rmakers
 
 
-def synchronized_circles(*, gaps=True, rests=None, rotation=0, sustain=None):
+def synchronized_circles(
+    *,
+    gaps=True,
+    measures=None,
+    rests=None,
+    rotation=0,
+    sustain=None,
+    ):
     """
     Makes rhythm for synchronized circles.
     """
@@ -24,6 +31,7 @@ def synchronized_circles(*, gaps=True, rests=None, rotation=0, sustain=None):
     else:
         division_masks = None
     return baca.rhythm(
+        measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=division_masks,
             logical_tie_masks=logical_tie_masks,

@@ -3,7 +3,11 @@ import baca
 from abjadext import rmakers
 
 
-def running_quarter_divisions(extra):
+def running_quarter_divisions(
+    extra,
+    *,
+    measures=None,
+    ):
     """
     Makes running quarter divisions.
     """
@@ -17,6 +21,7 @@ def running_quarter_divisions(extra):
                 durations=[(1, 4)],
                 ),
             ),
+        measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
             talea=rmakers.Talea(
