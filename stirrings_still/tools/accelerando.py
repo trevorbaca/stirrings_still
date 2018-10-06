@@ -8,6 +8,7 @@ def accelerando(
     stop,
     *,
     ltmask=None,
+    measures=None,
     ):
     """
     Makes accelerando.
@@ -15,6 +16,7 @@ def accelerando(
 
     return baca.rhythm(
         division_expression=baca.sequence().sum().sequence(),
+        measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(
                 beam_rests=True,

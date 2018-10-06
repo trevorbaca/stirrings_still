@@ -3,7 +3,12 @@ import baca
 from abjadext import rmakers
 
 
-def grid(stage, rotation):
+def grid(
+    stage,
+    rotation,
+    *,
+    measures=None,
+    ):
     """
     Makes grid.
     """
@@ -11,6 +16,7 @@ def grid(stage, rotation):
         counts = baca.sequence([1, -3, 1, -3, 1, -2])
         counts = counts.rotate(n=rotation)
         return baca.rhythm(
+            measures=measures,
             rhythm_maker=rmakers.TaleaRhythmMaker(
                 tag='stirrings_still_grid',
                 talea=rmakers.Talea(

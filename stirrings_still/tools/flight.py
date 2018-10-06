@@ -3,7 +3,13 @@ import baca
 from abjadext import rmakers
 
 
-def flight(counts, rotation, start=None):
+def flight(
+    counts,
+    rotation,
+    *,
+    measures=None,
+    start=None,
+    ):
     """
     Makes flight.
     """
@@ -55,6 +61,7 @@ def flight(counts, rotation, start=None):
     counts_ = counts_[start:]
     extra_counts = baca.sequence([1, 0, 2]).rotate(n=rotation)
     return baca.rhythm(
+        measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts,
             tag='stirrings_still_flight',

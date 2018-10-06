@@ -3,7 +3,13 @@ import baca
 from abjadext import rmakers
 
 
-def clockticks(*, displace=False, dmask=None, encroach=False):
+def clockticks(
+    *,
+    displace=False,
+    dmask=None,
+    encroach=False,
+    measures=None,
+    ):
     """
     Makes clockticks.
     """
@@ -21,6 +27,7 @@ def clockticks(*, displace=False, dmask=None, encroach=False):
 
     return baca.rhythm(
         division_expression=division_expression,
+        measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=dmask,
             extra_counts_per_division=[1],

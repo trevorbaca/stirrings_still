@@ -3,7 +3,13 @@ import baca
 from abjadext import rmakers
 
 
-def grid_to_trajectory(counts, rotation, extra):
+def grid_to_trajectory(
+    counts,
+    rotation,
+    extra,
+    *,
+    measures=None,
+    ):
     """
     Makes grid-to-trajectory transition.
     """
@@ -14,6 +20,7 @@ def grid_to_trajectory(counts, rotation, extra):
     assert isinstance(extra, int), repr(extra)
     extra_counts_per_division = [extra]
     return baca.rhythm(
+        measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
             tag='stirrings_still_grid_to_trajectory',

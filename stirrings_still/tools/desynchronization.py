@@ -7,6 +7,7 @@ def desynchronization(
     denominator,
     extra_counts,
     *,
+    measures=None,
     rests=None,
     ):
     """
@@ -29,6 +30,7 @@ def desynchronization(
     else:
         diminution = True
     return baca.rhythm(
+        measures=measures,
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             denominators=denominators,
             extra_counts_per_division=extra_counts,

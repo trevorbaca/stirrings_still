@@ -2,7 +2,10 @@ import baca
 import stirrings_still
 
 
-def tailpiece():
+def tailpiece(
+    *,
+    measures=None,
+    ):
     """
     Makes tailpiece.
     """
@@ -19,4 +22,5 @@ def tailpiece():
             ),
         baca.text_script_parent_center(),
         stirrings_still.glissando_without_ties(),
+        measures=measures,
         )

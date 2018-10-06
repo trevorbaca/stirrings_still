@@ -3,7 +3,11 @@ import baca
 from abjadext import rmakers
 
 
-def declamation(protract=None):
+def declamation(
+    *,
+    measures=None,
+    protract=None,
+    ):
     """
     Makes declamation.
     """
@@ -33,6 +37,7 @@ def declamation(protract=None):
             )
         return baca.rhythm(
             division_maker=division_maker,
+            measures=measures,
             rhythm_maker=(
                 (tuplet_rhythm_maker, abjad.index([0])),
                 (note_rhythm_maker, ~abjad.index([0])),
@@ -48,5 +53,6 @@ def declamation(protract=None):
             )
         return baca.rhythm(
             division_maker=division_maker,
+            measures=measures,
             rhythm_maker=tuplet_rhythm_maker,
             )
