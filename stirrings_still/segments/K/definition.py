@@ -64,8 +64,8 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    ('tutti', (1, 2)),
-    baca.dynamic('pp'),
+    'v1',
+    baca.dls_staff_padding(6),
     baca.new(
         stirrings_still.bcps(
             0,
@@ -77,8 +77,28 @@ maker(
             clt=True,
             ),
         stirrings_still.trajectories('B', 0, 0, end_counts=[1]),
-        match=0,
+        measures=(1, 2),
         ),
+    )
+
+maker(
+    'v2',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    'va',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    'vc',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('tutti', (1, 2)),
+    baca.dynamic('pp'),
     baca.new(
         stirrings_still.bcps(
             -1,
