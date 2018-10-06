@@ -76,7 +76,7 @@ maker(
                 ),
             clt=True,
             ),
-        stirrings_still.trajectories('B', 0, 0, [1]),
+        stirrings_still.trajectories('B', 0, 0, end_counts=[1]),
         match=0,
         ),
     baca.new(
@@ -89,7 +89,7 @@ maker(
                 ),
             clt=True,
             ),
-        stirrings_still.trajectories('B', -1, -1, [1]),
+        stirrings_still.trajectories('B', -1, -1, end_counts=[1]),
         match=1,
         ),
     baca.new(
@@ -102,7 +102,7 @@ maker(
                 ),
             clt=True,
             ),
-        stirrings_still.trajectories('B', -2, -2, [1]),
+        stirrings_still.trajectories('B', -2, -2, end_counts=[1]),
         match=2,
         ),
     baca.new(
@@ -115,7 +115,7 @@ maker(
                 ),
             clt=True,
             ),
-        stirrings_still.trajectories('B', -3, -3, [1]),
+        stirrings_still.trajectories('B', -3, -3, end_counts=[1]),
         match=3,
         ),
     baca.not_segment(baca.dynamic_text_left()),
