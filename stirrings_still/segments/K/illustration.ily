@@ -3401,50 +3401,318 @@ K_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #1.25                                 %! baca_glissando
     \glissando                                                                 %! baca_glissando
 
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {                                                               %! stirrings_still_to_flight
+
+        % [K Viola_Music_Voice measure 557 / measure 12]                       %! _comment_measure_numbers
+        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
+        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 235/64                                                          %! stirrings_still_to_flight
+        [                                                                      %! stirrings_still_to_flight
+        \revert NoteHead.transparent                                           %! baca_note_head_transparent:OverrideCommand(2)
+        \revert NoteHead.X-extent                                              %! baca_note_head_x_extent_zero:OverrideCommand(2)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 109/32                                                          %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 45/16                                                           %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 73/32                                                           %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 63/32                                                           %! stirrings_still_to_flight
+
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still_to_flight
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 119/64                                                          %! stirrings_still_to_flight
+        ]                                                                      %! stirrings_still_to_flight
+
+    }                                                                          %! stirrings_still_to_flight
+    \revert TupletNumber.text
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_to_flight
+
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {                                                               %! stirrings_still_to_flight
+
+        \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 235/64                                                          %! stirrings_still_to_flight
+        [                                                                      %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 109/32                                                          %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 45/16                                                           %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 73/32                                                           %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 63/32                                                           %! stirrings_still_to_flight
+
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still_to_flight
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 119/64                                                          %! stirrings_still_to_flight
+        ]                                                                      %! stirrings_still_to_flight
+
+    }                                                                          %! stirrings_still_to_flight
+    \revert TupletNumber.text
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_to_flight
+
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {                                                               %! stirrings_still_to_flight
+
+        % [K Viola_Music_Voice measure 560 / measure 15]                       %! _comment_measure_numbers
+        \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 235/64                                                          %! stirrings_still_to_flight
+        [                                                                      %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 109/32                                                          %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 45/16                                                           %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 73/32                                                           %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 63/32                                                           %! stirrings_still_to_flight
+
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still_to_flight
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 119/64                                                          %! stirrings_still_to_flight
+        ]                                                                      %! stirrings_still_to_flight
+
+    }                                                                          %! stirrings_still_to_flight
+    \revert TupletNumber.text
+
+    % [K Viola_Music_Voice measure 561 / measure 16]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_to_flight
+
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {                                                               %! stirrings_still_to_flight
+
+        \once \override Beam.grow-direction = #right
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_to_flight
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 235/64                                                          %! stirrings_still_to_flight
+        [                                                                      %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 109/32                                                          %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 45/16                                                           %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 73/32                                                           %! stirrings_still_to_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 63/32                                                           %! stirrings_still_to_flight
+
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still_to_flight
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'16 * 119/64                                                          %! stirrings_still_to_flight
+        ]                                                                      %! stirrings_still_to_flight
+
+    }                                                                          %! stirrings_still_to_flight
+    \revert TupletNumber.text
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8.                                                                       %! stirrings_still_to_flight
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_to_flight
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Viola_Music_Voice measure 557 / measure 12]                   %! _comment_measure_numbers
-            \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-            \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-            \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            % [K Viola_Music_Voice measure 563 / measure 18]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-            c'1 * 5/8                                                          %! _make_multimeasure_rest_container
-            \revert NoteHead.transparent                                       %! baca_note_head_transparent:OverrideCommand(2)
-            \revert NoteHead.X-extent                                          %! baca_note_head_x_extent_zero:OverrideCommand(2)
+            c'1 * 7/8                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Viola_Rest_Voice measure 557 / measure 12]                    %! _comment_measure_numbers
-            R1 * 5/8                                                           %! _make_multimeasure_rest_container
+            % [K Viola_Rest_Voice measure 563 / measure 18]                    %! _comment_measure_numbers
+            R1 * 7/8                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [K Viola_Music_Voice measure 558 / measure 13]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Viola_Music_Voice measure 559 / measure 14]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-
-    % [K Viola_Music_Voice measure 560 / measure 15]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Viola_Music_Voice measure 561 / measure 16]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
-
-    % [K Viola_Music_Voice measure 562 / measure 17]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-
-    % [K Viola_Music_Voice measure 563 / measure 18]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [K Viola_Music_Voice measure 564 / measure 19]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
