@@ -223,6 +223,33 @@ maker(
         stirrings_still.flight('A', 0, start=0),
         measures=(32, 37),
         ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.text_spanner(
+            'T1 -> T3 -> T2 -> T3 ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', 0, start=0),
+        measures=(38, 45),
+        ),
+    )
+
+maker(
+    'v1',
+    baca.new(
+        baca.hairpin(
+            'p >o niente',
+            ),
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(46, -1),
+        ),
     )
 
 maker(
@@ -388,6 +415,33 @@ maker(
             ),
         stirrings_still.flight('A', 0, start=2),
         measures=(32, 37),
+        ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.text_spanner(
+            'T1 -> T3 -> T2 -> T3 ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', 0, start=2),
+        measures=(38, 45),
+        ),
+    )
+
+maker(
+    'v2',
+    baca.new(
+        baca.hairpin(
+            'p >o niente',
+            ),
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(46, -1),
         ),
     )
 
@@ -559,6 +613,33 @@ maker(
         stirrings_still.flight('A', -1, start=4),
         measures=(32, 37),
         ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.text_spanner(
+            'T1 -> T3 -> T2 -> T3 ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', -1, start=4),
+        measures=(38, 42),
+        ),
+    )
+
+maker(
+    'va',
+    baca.new(
+        baca.hairpin(
+            'p >o niente',
+            ),
+        baca.make_repeat_tied_notes(
+            do_not_rewrite_meter=True,
+            ),
+        measures=(46, -1),
+        ),
     )
 
 maker(
@@ -721,6 +802,13 @@ maker(
             ),
         stirrings_still.flight('A', -2, start=6),
         measures=(32, 37),
+        ),
+    )
+
+maker(
+    ('vc', (38, -1)),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
         ),
     )
 
