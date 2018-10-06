@@ -1972,35 +1972,62 @@ K_Violin_I_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_to_flight
 
+    % [K Violin_I_Music_Voice measure 563 / measure 18]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+
+    % [K Violin_I_Music_Voice measure 564 / measure 19]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'1                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    \repeatTie
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
+    \times 8/10 {                                                              %! stirrings_still_flight
+
+        % [K Violin_I_Music_Voice measure 565 / measure 20]                    %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'1                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \repeatTie
+        \breathe                                                               %! baca_breathe:IndicatorCommand
+
+    }                                                                          %! stirrings_still_flight
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Violin_I_Music_Voice measure 563 / measure 18]                %! _comment_measure_numbers
+            % [K Violin_I_Music_Voice measure 566 / measure 21]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 7/8                                                          %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Violin_I_Rest_Voice measure 563 / measure 18]                 %! _comment_measure_numbers
-            R1 * 7/8                                                           %! _make_multimeasure_rest_container
+            % [K Violin_I_Rest_Voice measure 566 / measure 21]                 %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [K Violin_I_Music_Voice measure 564 / measure 19]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Violin_I_Music_Voice measure 565 / measure 20]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Violin_I_Music_Voice measure 566 / measure 21]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [K Violin_I_Music_Voice measure 567 / measure 22]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -2968,35 +2995,79 @@ K_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
+    % [K Violin_II_Music_Voice measure 563 / measure 18]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+
+    % [K Violin_II_Music_Voice measure 564 / measure 19]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'1                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    \repeatTie
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
+    \times 8/10 {                                                              %! stirrings_still_flight
+
+        % [K Violin_II_Music_Voice measure 565 / measure 20]                   %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \repeatTie
+        [                                                                      %! stirrings_still_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ]                                                                      %! stirrings_still_flight
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \repeatTie
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        \breathe                                                               %! baca_breathe:IndicatorCommand
+
+    }                                                                          %! stirrings_still_flight
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Violin_II_Music_Voice measure 563 / measure 18]               %! _comment_measure_numbers
+            % [K Violin_II_Music_Voice measure 566 / measure 21]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 7/8                                                          %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Violin_II_Rest_Voice measure 563 / measure 18]                %! _comment_measure_numbers
-            R1 * 7/8                                                           %! _make_multimeasure_rest_container
+            % [K Violin_II_Rest_Voice measure 566 / measure 21]                %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [K Violin_II_Music_Voice measure 564 / measure 19]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Violin_II_Music_Voice measure 565 / measure 20]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Violin_II_Music_Voice measure 566 / measure 21]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [K Violin_II_Music_Voice measure 567 / measure 22]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -3693,35 +3764,72 @@ K_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_to_flight
 
+    % [K Viola_Music_Voice measure 563 / measure 18]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+
+    % [K Viola_Music_Voice measure 564 / measure 19]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'1                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
+    \times 8/9 {                                                               %! stirrings_still_flight
+
+        % [K Viola_Music_Voice measure 565 / measure 20]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \repeatTie
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4.                                                                   %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        \breathe                                                               %! baca_breathe:IndicatorCommand
+
+    }                                                                          %! stirrings_still_flight
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Viola_Music_Voice measure 563 / measure 18]                   %! _comment_measure_numbers
+            % [K Viola_Music_Voice measure 566 / measure 21]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 7/8                                                          %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Viola_Rest_Voice measure 563 / measure 18]                    %! _comment_measure_numbers
-            R1 * 7/8                                                           %! _make_multimeasure_rest_container
+            % [K Viola_Rest_Voice measure 566 / measure 21]                    %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [K Viola_Music_Voice measure 564 / measure 19]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Viola_Music_Voice measure 565 / measure 20]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Viola_Music_Voice measure 566 / measure 21]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [K Viola_Music_Voice measure 567 / measure 22]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -4578,35 +4686,82 @@ K_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
+    % [K Cello_Music_Voice measure 563 / measure 18]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
+    \times 8/9 {                                                               %! stirrings_still_flight
+
+        % [K Cello_Music_Voice measure 564 / measure 19]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \repeatTie
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! stirrings_still_flight
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+    }                                                                          %! stirrings_still_flight
+
+    % [K Cello_Music_Voice measure 565 / measure 20]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_flight
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \accent                                                                  %! baca_accent:IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Cello_Music_Voice measure 563 / measure 18]                   %! _comment_measure_numbers
+            % [K Cello_Music_Voice measure 566 / measure 21]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 7/8                                                          %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [K Cello_Rest_Voice measure 563 / measure 18]                    %! _comment_measure_numbers
-            R1 * 7/8                                                           %! _make_multimeasure_rest_container
+            % [K Cello_Rest_Voice measure 566 / measure 21]                    %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [K Cello_Music_Voice measure 564 / measure 19]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Cello_Music_Voice measure 565 / measure 20]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
-
-    % [K Cello_Music_Voice measure 566 / measure 21]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [K Cello_Music_Voice measure 567 / measure 22]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
