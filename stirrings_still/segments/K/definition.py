@@ -135,6 +135,22 @@ maker(
     )
 
 maker(
+    'v1',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.breathe(),
+        baca.dynamic('mp'),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        stirrings_still.flight('A', 0, start=0),
+        measures=(18, 20),
+        ),
+    )
+
+maker(
     'v2',
     baca.dls_staff_padding(6),
     baca.new(
@@ -202,6 +218,22 @@ maker(
     baca.new(
         stirrings_still.to_flight([(8, 8), (3, 16)]),
         measures=(9, 17),
+        ),
+    )
+
+maker(
+    'v2',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.breathe(),
+        baca.dynamic('mp'),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        stirrings_still.flight('A', 0, start=2),
+        measures=(18, 20),
         ),
     )
 
@@ -281,6 +313,22 @@ maker(
     )
 
 maker(
+    'va',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.breathe(),
+        baca.dynamic('mp'),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        stirrings_still.flight('A', -1, start=4),
+        measures=(18, 20),
+        ),
+    )
+
+maker(
     'vax',
     baca.tacet(measures=5),
     )
@@ -355,6 +403,24 @@ maker(
         measures=(9, 17),
         ),
     )
+
+maker(
+    'vc',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.breathe(),
+        baca.dynamic('mp'),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        stirrings_still.flight('A', -2, start=6),
+        measures=(18, 20),
+        ),
+    )
+
+# vertical expressions
 
 maker(
     ('tutti', (1, 2)),
