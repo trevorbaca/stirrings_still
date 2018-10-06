@@ -59,6 +59,7 @@ time = (
     (baca.Accelerando(), 32),
     ('allegro', 38),
     ('andante', 43),
+    ('allegro', 46),
     )
 
 stirrings_still.time(maker, time)
@@ -176,6 +177,29 @@ maker(
     )
 
 maker(
+    'v1',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.breathe(),
+        baca.dynamic('p'),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', 0, start=0),
+        measures=(24, 31),
+        ),
+    )
+
+maker(
     'v1x',
     baca.tacet(measures=22),
     )
@@ -289,6 +313,29 @@ maker(
             ),
         stirrings_still.pickets(4, 1),
         measures=23,
+        ),
+    )
+
+maker(
+    'v2',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.breathe(),
+        baca.dynamic('p'),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', 0, start=2),
+        measures=(24, 31),
         ),
     )
 
@@ -414,6 +461,29 @@ maker(
     )
 
 maker(
+    'va',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.breathe(),
+        baca.dynamic('p'),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', -1, start=4),
+        measures=(24, 31),
+        ),
+    )
+
+maker(
     'vax',
     baca.tacet(measures=5),
     baca.tacet(measures=22),
@@ -491,6 +561,22 @@ maker(
     )
 
 maker(
+    'vc',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.breathe(),
+        baca.dynamic('mp'),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        stirrings_still.flight('A', -2, start=6),
+        measures=(18, 20),
+        ),
+    )
+
+maker(
     ('vc', (21, 23)),
     baca.breathe(),
     baca.hairpin(
@@ -518,12 +604,19 @@ maker(
             selector=baca.pheads(),
             ),
         baca.breathe(),
-        baca.dynamic('mp'),
+        baca.dynamic('p'),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
         stirrings_still.flight('A', -2, start=6),
-        measures=(18, 20),
+        measures=(24, 31),
         ),
     )
 
