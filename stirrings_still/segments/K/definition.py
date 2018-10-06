@@ -197,6 +197,32 @@ maker(
         stirrings_still.flight('A', 0, start=0),
         measures=(24, 31),
         ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'trem. ord. -> larg. || trem. larg. -> larghiss. || trem. larghiss. -> no trem.',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            lilypond_id=1,
+            piece_selector=baca.cmgroups([1, 1, 1, 1, 2, 1]),
+            selector=baca.leaves().rleak(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', 0, start=0),
+        measures=(32, 37),
+        ),
     )
 
 maker(
@@ -336,6 +362,32 @@ maker(
             ),
         stirrings_still.flight('A', 0, start=2),
         measures=(24, 31),
+        ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'trem. ord. -> larg. || trem. larg. -> larghiss. || trem. larghiss. -> no trem.',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            lilypond_id=1,
+            piece_selector=baca.cmgroups([1, 2, 1, 1, 1, 1]),
+            selector=baca.leaves().rleak(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', 0, start=2),
+        measures=(32, 37),
         ),
     )
 
@@ -481,6 +533,32 @@ maker(
         stirrings_still.flight('A', -1, start=4),
         measures=(24, 31),
         ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'trem. ord. -> larg. || trem. larg. -> larghiss. || trem. larghiss. -> no trem.',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            lilypond_id=1,
+            piece_selector=baca.cmgroups([1, 1, 2, 1, 1, 1]),
+            selector=baca.leaves().rleak(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', -1, start=4),
+        measures=(32, 37),
+        ),
     )
 
 maker(
@@ -617,6 +695,32 @@ maker(
             ),
         stirrings_still.flight('A', -2, start=6),
         measures=(24, 31),
+        ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'trem. ord. -> larg. || trem. larg. -> larghiss. || trem. larghiss. -> no trem.',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            lilypond_id=1,
+            piece_selector=baca.cmgroups([1, 1, 1, 2, 1, 1]),
+            selector=baca.leaves().rleak(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('A', -2, start=6),
+        measures=(32, 37),
         ),
     )
 

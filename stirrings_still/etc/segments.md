@@ -2702,7 +2702,7 @@ SEGMENTS
         hair continues;
         patterned slowing of tremolo flight independently:
             achieve senza tremolo at start of measure -1;
-            tension between global accelerando and local tremoli largandi;
+            tension between global accelerando and local tremoli allargandi;
         (p) > niente begins;
     attacca;
 
