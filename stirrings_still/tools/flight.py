@@ -14,7 +14,7 @@ def flight(
     Makes flight.
     """
 
-    if start < 0:
+    if start is not None and start < 0:
         raise Exception('set start to nonnegative integer (not {start}).')
 
     """
