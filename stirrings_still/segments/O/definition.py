@@ -60,6 +60,19 @@ maker(
     stirrings_still.circles((1, 4)),
     )
 
+maker(
+    ('v1', 7),
+    baca.dynamic('ff'),
+    baca.text_spanner(
+        r'\stirrings-still-scratch-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.pickets(4, 2),
+    )
+
 # v2
 
 maker(
@@ -78,6 +91,19 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    ('v2', 7),
+    baca.dynamic('ff'),
+    baca.text_spanner(
+        r'\stirrings-still-scratch-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.pickets(4, 1),
     )
 
 # va
@@ -100,6 +126,19 @@ maker(
     stirrings_still.circles((1, 4)),
     )
 
+maker(
+    ('va', 7),
+    baca.dynamic('ff'),
+    baca.text_spanner(
+        r'\stirrings-still-scratch-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.pickets(4, 0),
+    )
+
 # vc
 
 maker(
@@ -118,6 +157,12 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    ('vc', 7),
+    baca.dynamic('pp'),
+    stirrings_still.clouded_pane(),
     )
 
 # vertical
