@@ -117,6 +117,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                 'Violin_II_Music_Voice',
                 'Viola_Music_Voice',
                 ],
+            'triox': [
+                'Violin_I_Rest_Voice',
+                'Violin_II_Rest_Voice',
+                'Viola_Rest_Voice',
+                ],
             'tutti': [
                 'Violin_I_Music_Voice',
                 'Violin_II_Music_Voice',

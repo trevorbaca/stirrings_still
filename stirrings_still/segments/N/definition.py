@@ -53,3 +53,74 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+# v1
+
+maker(
+    'v1',
+    baca.new(
+        stirrings_still.clouded_pane(),
+        measures=(1, 8),
+        ),
+    )
+
+# v2
+
+maker(
+    'v2',
+    baca.new(
+        stirrings_still.clouded_pane(),
+        measures=(1, 8),
+        ),
+    )
+
+# va
+
+maker(
+    'va',
+    baca.new(
+        stirrings_still.clouded_pane(),
+        measures=(1, 8),
+        ),
+    )
+
+# vc
+
+maker(
+    'vc',
+    baca.new(
+        stirrings_still.clouded_pane(),
+        measures=(1, 10),
+        ),
+    baca.hairpin(
+        'ff > p',
+        measures=(7, 8),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+# vertical
+
+maker(
+    ('trio', (7, 8)),
+    baca.hairpin(
+        'f >o niente',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('triox', 9),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', (10, 12)),
+    baca.tacet(),
+    )  
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
