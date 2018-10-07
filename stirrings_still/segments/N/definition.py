@@ -77,6 +77,62 @@ maker(
         ),
     )
 
+maker(
+    'v1',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.hairpin(
+            'f < ff >',
+            piece_selector=baca.plts()[:-1].partition_by_counts(
+                [2], cyclic=True),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('C', 0, start=0),
+        measures=(23, 28),
+        ),
+    baca.new(
+        baca.dynamic('mp'),
+        baca.make_repeat_tied_notes(),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        measures=29,
+        ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.hairpin(
+            'ff < fff >',
+            piece_selector=baca.plts()[:-1].partition_by_counts(
+                [2], cyclic=True),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'ord. -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('C', 0, start=1),
+        measures=(30, 35),
+        ),
+    )
+
 # v2
 
 maker(
@@ -100,6 +156,62 @@ maker(
         ),
     )
 
+maker(
+    'v2',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.hairpin(
+            'f < ff >',
+            piece_selector=baca.plts()[:-1].partition_by_counts(
+                [2], cyclic=True),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('C', -1, start=1),
+        measures=(23, 28),
+        ),
+    baca.new(
+        baca.dynamic('mp'),
+        baca.make_repeat_tied_notes(),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        measures=29,
+        ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.hairpin(
+            'ff < fff >',
+            piece_selector=baca.plts()[:-1].partition_by_counts(
+                [2], cyclic=True),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'ord. -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('C', -1, start=2),
+        measures=(30, 35),
+        ),
+    )
+
 # va
 
 maker(
@@ -120,6 +232,62 @@ maker(
     baca.new(
         stirrings_still.clouded_pane(),
         measures=(13, 22),
+        ),
+    )
+
+maker(
+    'va',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.hairpin(
+            'f < ff >',
+            piece_selector=baca.plts()[:-1].partition_by_counts(
+                [2], cyclic=True),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('C', -2, start=2),
+        measures=(23, 28),
+        ),
+    baca.new(
+        baca.dynamic('mp'),
+        baca.make_repeat_tied_notes(),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        measures=29,
+        ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.hairpin(
+            'ff < fff >',
+            piece_selector=baca.plts()[:-1].partition_by_counts(
+                [2], cyclic=True),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'ord. -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('C', -2, start=3),
+        measures=(30, 35),
         ),
     )
 
@@ -158,7 +326,8 @@ maker(
 maker(
     'vc',
     baca.hairpin(
-        'p >o niente',
+        'p >o',
+        bookend=False,
         measures=(17, 22),
         selector=baca.leaves().rleak(),
         ),
@@ -166,6 +335,62 @@ maker(
         baca.dynamic('p'),
         stirrings_still.clouded_pane(),
         measures=(13, 22),
+        ),
+    )
+
+maker(
+    'vc',
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.hairpin(
+            'f < ff >',
+            piece_selector=baca.plts()[:-1].partition_by_counts(
+                [2], cyclic=True),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('C', -3, start=3),
+        measures=(23, 28),
+        ),
+    baca.new(
+        baca.dynamic('mp'),
+        baca.make_repeat_tied_notes(),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        measures=29,
+        ),
+    baca.new(
+        baca.accent(
+            selector=baca.pheads(),
+            ),
+        baca.hairpin(
+            'ff < fff >',
+            piece_selector=baca.plts()[:-1].partition_by_counts(
+                [2], cyclic=True),
+            ),
+        baca.stem_tremolo(
+            selector=baca.pleaves(),
+            ),
+        baca.text_spanner(
+            'ord. -> P ->',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            piece_selector=baca.plts(),
+            ),
+        stirrings_still.flight('C', -3, start=4),
+        measures=(30, 35),
         ),
     )
 
