@@ -133,6 +133,24 @@ maker(
         ),
     )
 
+maker(
+    ('v1', (37, 38)),
+    baca.beam(),
+    baca.hairpin(
+        'p p >o niente',
+        piece_selector=baca.cmgroups(),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        'slow bow -> stopped',
+        abjad.tweak(11).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.eighths(),
+    stirrings_still.glissando_interpolation('G4', 'F4'),
+    )
+
 # v2
 
 maker(
@@ -212,6 +230,24 @@ maker(
         ),
     )
 
+maker(
+    ('v2', (37, 38)),
+    baca.beam(),
+    baca.hairpin(
+        'p p >o niente',
+        piece_selector=baca.cmgroups(),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        'slow bow -> stopped',
+        abjad.tweak(11).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.eighths(),
+    stirrings_still.glissando_interpolation('F4', 'E4'),
+    )
+
 # va
 
 maker(
@@ -289,6 +325,24 @@ maker(
         stirrings_still.flight('C', -2, start=3),
         measures=(30, 35),
         ),
+    )
+
+maker(
+    ('va', (37, 38)),
+    baca.beam(),
+    baca.hairpin(
+        'p p >o niente',
+        piece_selector=baca.cmgroups(),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        'slow bow -> stopped',
+        abjad.tweak(11).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.eighths(),
+    stirrings_still.glissando_interpolation('Ab3', 'Gb3'),
     )
 
 # vc
@@ -392,6 +446,22 @@ maker(
         stirrings_still.flight('C', -3, start=4),
         measures=(30, 35),
         ),
+    )
+
+maker(
+    ('vc', (37, 38)),
+    baca.hairpin(
+        'p p >o niente',
+        piece_selector=baca.cmgroups(),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        'slow bow -> stopped',
+        abjad.tweak(11).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
     )
 
 # vertical
