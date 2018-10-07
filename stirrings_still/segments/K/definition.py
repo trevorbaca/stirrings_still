@@ -228,6 +228,14 @@ maker(
             selector=baca.pheads(),
             ),
         baca.text_spanner(
+            r'\baca-null-markup || \baca-null-markup || \baca-damp-markup =|',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            lilypond_id=1,
+            piece_selector=baca.plts(),
+            ),
+        baca.text_spanner(
             'T1 -> T3 -> T2 -> T3 ->',
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -236,6 +244,16 @@ maker(
             ),
         stirrings_still.flight('A', 0, start=0),
         measures=(38, 45),
+        ),
+    baca.hairpin(
+        'p > pp',
+        measures=(41, 42),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'pp <',
+        bookend=False,
+        measures=45,
         ),
     )
 
@@ -247,6 +265,17 @@ maker(
             ),
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
+            ),
+        baca.text_spanner(
+            r'\baca-damp-markup =|',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            ),
+        baca.text_spanner(
+            'tasto poss. =|',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
             ),
         measures=(46, -1),
         ),
@@ -421,6 +450,14 @@ maker(
             selector=baca.pheads(),
             ),
         baca.text_spanner(
+            r'\baca-null-markup || \baca-damp-markup =| \baca-null-markup ||',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            lilypond_id=1,
+            piece_selector=baca.plts(),
+            ),
+        baca.text_spanner(
             'T1 -> T3 -> T2 -> T3 ->',
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -429,6 +466,16 @@ maker(
             ),
         stirrings_still.flight('A', 0, start=2),
         measures=(38, 45),
+        ),
+    baca.hairpin(
+        'p > pp',
+        measures=(41, 42),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'pp <',
+        bookend=False,
+        measures=45,
         ),
     )
 
@@ -440,6 +487,17 @@ maker(
             ),
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
+            ),
+        baca.text_spanner(
+            r'\baca-damp-markup =|',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            ),
+        baca.text_spanner(
+            'tasto poss. =|',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
             ),
         measures=(46, -1),
         ),
@@ -618,6 +676,14 @@ maker(
             selector=baca.pheads(),
             ),
         baca.text_spanner(
+            r'\baca-null-markup || \baca-damp-markup =|',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            final_piece_spanner=False,
+            lilypond_id=1,
+            piece_selector=baca.plts()[:-1],
+            ),
+        baca.text_spanner(
             'T1 -> T3 -> T2 -> T3 ->',
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -626,6 +692,26 @@ maker(
             ),
         stirrings_still.flight('A', -1, start=4),
         measures=(38, 42),
+        ),
+    baca.new(
+        baca.dynamic('"mf"'),
+        baca.text_spanner(
+            '½ clt =|',
+            abjad.tweak(9).staff_padding,
+            bookend=False,
+            selector=baca.leaves().rleak(),
+            ),
+        stirrings_still.bcps(
+            -2,
+            abjad.tweak(3).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(6).staff_padding,
+                ),
+            clt=True,
+            ),
+        stirrings_still.to_flight([(8, 8), (3, 16)]),
+        measures=(43, 45),
         ),
     )
 
@@ -637,6 +723,17 @@ maker(
             ),
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
+            ),
+        baca.text_spanner(
+            r'\baca-damp-markup =|',
+            abjad.tweak(8).staff_padding,
+            bookend=False,
+            lilypond_id=1,
+            ),
+        baca.text_spanner(
+            'tasto poss. =|',
+            abjad.tweak(5).staff_padding,
+            bookend=False,
             ),
         measures=(46, -1),
         ),
