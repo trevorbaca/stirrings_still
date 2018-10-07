@@ -945,37 +945,85 @@ N_Violin_I_Music_Voice = {                                                     %
     \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [N Violin_I_Music_Voice measure 659 / measure 13]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Violin_I_Music_Voice measure 660 / measure 14]                        %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_I_Music_Voice measure 661 / measure 15]                        %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_I_Music_Voice measure 662 / measure 16]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_I_Music_Voice measure 663 / measure 17]                        %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_I_Music_Voice measure 664 / measure 18]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_I_Music_Voice measure 665 / measure 19]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_I_Music_Voice measure 666 / measure 20]                        %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_I_Music_Voice measure 667 / measure 21]                        %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_I_Music_Voice measure 668 / measure 22]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
-    % [N Violin_I_Music_Voice measure 669 / measure 23]                        %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Violin_I_Music_Voice measure 669 / measure 23]                %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Violin_I_Rest_Voice measure 669 / measure 23]                 %! _comment_measure_numbers
+            R1 * 5/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Violin_I_Music_Voice measure 670 / measure 24]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -1140,37 +1188,85 @@ N_Violin_II_Music_Voice = {                                                    %
     \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [N Violin_II_Music_Voice measure 659 / measure 13]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Violin_II_Music_Voice measure 660 / measure 14]                       %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_II_Music_Voice measure 661 / measure 15]                       %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_II_Music_Voice measure 662 / measure 16]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_II_Music_Voice measure 663 / measure 17]                       %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_II_Music_Voice measure 664 / measure 18]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_II_Music_Voice measure 665 / measure 19]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_II_Music_Voice measure 666 / measure 20]                       %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_II_Music_Voice measure 667 / measure 21]                       %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Violin_II_Music_Voice measure 668 / measure 22]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
-    % [N Violin_II_Music_Voice measure 669 / measure 23]                       %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Violin_II_Music_Voice measure 669 / measure 23]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Violin_II_Rest_Voice measure 669 / measure 23]                %! _comment_measure_numbers
+            R1 * 5/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Violin_II_Music_Voice measure 670 / measure 24]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -1341,37 +1437,85 @@ N_Viola_Music_Voice = {                                                        %
     \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [N Viola_Music_Voice measure 659 / measure 13]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Viola_Music_Voice measure 660 / measure 14]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Viola_Music_Voice measure 661 / measure 15]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Viola_Music_Voice measure 662 / measure 16]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Viola_Music_Voice measure 663 / measure 17]                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \repeatTie
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Viola_Music_Voice measure 664 / measure 18]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Viola_Music_Voice measure 665 / measure 19]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Viola_Music_Voice measure 666 / measure 20]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Viola_Music_Voice measure 667 / measure 21]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
 
     % [N Viola_Music_Voice measure 668 / measure 22]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
 
-    % [N Viola_Music_Voice measure 669 / measure 23]                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Viola_Music_Voice measure 669 / measure 23]                   %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [N Viola_Rest_Voice measure 669 / measure 23]                    %! _comment_measure_numbers
+            R1 * 5/8                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Viola_Music_Voice measure 670 / measure 24]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -1518,7 +1662,7 @@ N_Cello_Music_Voice = {                                                        %
     [
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #12                                                 %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
@@ -1694,57 +1838,90 @@ N_Cello_Music_Voice = {                                                        %
     ]
     \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
 
+    % [N Cello_Music_Voice measure 659 / measure 13]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+
+    % [N Cello_Music_Voice measure 660 / measure 14]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [N Cello_Music_Voice measure 661 / measure 15]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [N Cello_Music_Voice measure 662 / measure 16]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [N Cello_Music_Voice measure 663 / measure 17]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [N Cello_Music_Voice measure 664 / measure 18]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [N Cello_Music_Voice measure 665 / measure 19]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2.                                                                       %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [N Cello_Music_Voice measure 666 / measure 20]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [N Cello_Music_Voice measure 667 / measure 21]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2..                                                                      %! stirrings_still_clouded_pane
+    \repeatTie
+
+    % [N Cello_Music_Voice measure 668 / measure 22]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! stirrings_still_clouded_pane
+    \repeatTie
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Cello_Music_Voice measure 659 / measure 13]                   %! _comment_measure_numbers
+            % [N Cello_Music_Voice measure 669 / measure 23]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Cello_Rest_Voice measure 659 / measure 13]                    %! _comment_measure_numbers
-            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+            % [N Cello_Rest_Voice measure 669 / measure 23]                    %! _comment_measure_numbers
+            R1 * 5/8                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [N Cello_Music_Voice measure 660 / measure 14]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 661 / measure 15]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 662 / measure 16]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 663 / measure 17]                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 664 / measure 18]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 665 / measure 19]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 666 / measure 20]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 667 / measure 21]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 668 / measure 22]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_measure_silences
-
-    % [N Cello_Music_Voice measure 669 / measure 23]                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_measure_silences
 
     % [N Cello_Music_Voice measure 670 / measure 24]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences

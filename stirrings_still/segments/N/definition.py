@@ -64,6 +64,19 @@ maker(
         ),
     )
 
+maker(
+    'v1',
+    baca.hairpin(
+        'niente o< f',
+        selector=baca.leaves().rleak(),
+        measures=(13, 16),
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        measures=(13, 22),
+        ),
+    )
+
 # v2
 
 maker(
@@ -74,6 +87,19 @@ maker(
         ),
     )
 
+maker(
+    'v2',
+    baca.hairpin(
+        'niente o< f',
+        measures=(13, 16),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        measures=(13, 22),
+        ),
+    )
+
 # va
 
 maker(
@@ -81,6 +107,19 @@ maker(
     baca.new(
         stirrings_still.clouded_pane(),
         measures=(1, 8),
+        ),
+    )
+
+maker(
+    'va',
+    baca.hairpin(
+        'niente o< f',
+        measures=(13, 16),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        measures=(13, 22),
         ),
     )
 
@@ -105,7 +144,7 @@ maker(
     baca.script_staff_padding(8),
     baca.text_spanner(
         '½ clt =|',
-        abjad.tweak(2.25).bound_details__right__padding,
+        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(12).staff_padding,
         bookend=False,
         selector=baca.leaves().rleak(),
@@ -113,6 +152,20 @@ maker(
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         abjad.tweak(5).staff_padding,
+        ),
+    )
+
+maker(
+    'vc',
+    baca.hairpin(
+        'p >o niente',
+        measures=(17, 22),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.new(
+        baca.dynamic('p'),
+        stirrings_still.clouded_pane(),
+        measures=(13, 22),
         ),
     )
 
