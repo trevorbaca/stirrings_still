@@ -28,3 +28,10 @@ TO-DO
             measures=(21, 23),
             )
     ... instead.
+
+6.  Extend baca.hairpin().
+        baca.hairpin(
+            'ff < fff >',
+            piece_selector=baca.plts(),
+            )
+    Allow final dynamic to force to ff or fff.
