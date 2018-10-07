@@ -39,3 +39,90 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+# v1
+
+maker(
+    ('v1', (1, 6)),
+    baca.dynamic('mp-sempre'),
+    baca.markup(
+        'circles so tight that primary effect is granulation',
+        abjad.tweak(8).staff_padding,
+        boxed=True,
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-ext-tight-circles-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.circles((1, 4)),
+    )
+
+# v2
+
+maker(
+    ('v2', (1, 6)),
+    baca.dynamic('mp-sempre'),
+    baca.markup(
+        'circles so tight that primary effect is granulation',
+        abjad.tweak(8).staff_padding,
+        boxed=True,
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-ext-tight-circles-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.circles((1, 4)),
+    )
+
+# va
+
+maker(
+    ('va', (1, 6)),
+    baca.dynamic('mp-sempre'),
+    baca.markup(
+        'circles so tight that primary effect is granulation',
+        abjad.tweak(8).staff_padding,
+        boxed=True,
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-ext-tight-circles-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.circles((1, 4)),
+    )
+
+# vc
+
+maker(
+    ('vc', (1, 6)),
+    baca.dynamic('mp-sempre'),
+    baca.markup(
+        'circles so tight that primary effect is granulation',
+        abjad.tweak(8).staff_padding,
+        boxed=True,
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-ext-tight-circles-markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.circles((1, 4)),
+    )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(5),
+    )

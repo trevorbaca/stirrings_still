@@ -7,7 +7,7 @@ stirrings-still-circles-markup = \markup \concat {
     }
 
 stirrings-still-ext-tight-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (ext. tight)
+    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(ext. tight)"
     }
 
 stirrings-still-fast-circles-markup = \markup \concat {
