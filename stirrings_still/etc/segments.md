@@ -2988,7 +2988,7 @@ SEGMENTS
             v1, v2, va interlocking gears repeat as scratch:
                 stopped lh;
                 hair;
-                full scratchstage;
+                scratch;
                 polyrhythmic desynchronization (without swells);
                 ff;
             vc clouded pane:
