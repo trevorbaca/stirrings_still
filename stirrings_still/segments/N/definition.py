@@ -93,9 +93,26 @@ maker(
         measures=(1, 10),
         ),
     baca.hairpin(
-        'ff > p-f',
+        'ff > p',
         measures=(7, 8),
         selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', (11, 12)),
+    baca.dynamic('"f"'),
+    baca.script_staff_padding(8),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(2.25).bound_details__right__padding,
+        abjad.tweak(12).staff_padding,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(5).staff_padding,
         ),
     )
 
