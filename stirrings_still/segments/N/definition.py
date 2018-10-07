@@ -93,7 +93,7 @@ maker(
         measures=(1, 10),
         ),
     baca.hairpin(
-        'ff > p',
+        'ff > zebra',
         measures=(7, 8),
         selector=baca.leaves().rleak(),
         ),
