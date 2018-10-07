@@ -1,7 +1,10 @@
 import baca
 
 
-def transition_bcps(final_spanner=None):
+def transition_bcps(
+    *tweaks,
+    final_spanner=None,
+    ):
     """
     Makes transition bow contact points.
     """
@@ -24,6 +27,7 @@ def transition_bcps(final_spanner=None):
 
     return baca.bcps(
         bcps,
+        *tweaks,
         final_spanner=final_spanner,
         helper=helper,
         )

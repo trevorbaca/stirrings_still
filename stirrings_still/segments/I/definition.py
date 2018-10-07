@@ -82,19 +82,24 @@ maker(
 
 maker(
     'vc',
+    baca.script_staff_padding(8),
     baca.suite(
         baca.new(
             baca.beam(),
             stirrings_still.eighths(),
-            stirrings_still.transition_bcps(final_spanner=True),
+            stirrings_still.transition_bcps(
+                abjad.tweak(5).staff_padding,
+                final_spanner=True,
+                ),
             measures=(1, 6),
             ),
         baca.new(
             stirrings_still.cello_cell(),
-            stirrings_still.cello_cell_bcps(),
+            stirrings_still.cello_cell_bcps(
+                abjad.tweak(5).staff_padding,
+                ),
             measures=(7, -1),
             ),
-        baca.text_spanner_staff_padding(7),
         ),
     )
 
@@ -114,6 +119,8 @@ maker(
         ),
     )
 
+# vertical
+
 maker(
     (['v1', 'v2', 'va'], (10, 11)),
     baca.dynamic(
@@ -126,4 +133,9 @@ maker(
         abjad.tweak('magenta').color,
         ),
     stirrings_still.urtext_field(),
+    )
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(5),
     )
