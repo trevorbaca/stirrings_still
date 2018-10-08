@@ -3269,7 +3269,7 @@ SEGMENTS
     (4 measures)
     largo continues;
     v1, v2:
-        tacet continues;
+        tacet;
     va memory of flight continues:
         stopped lh continues;
         hair continues;
@@ -3293,7 +3293,7 @@ SEGMENTS
         Bb2 pedal continues;
         pp continues;
     vc:
-        tacet continues;
+        tacet;
     attacca;
     
 [S] time series A; rotation -86
