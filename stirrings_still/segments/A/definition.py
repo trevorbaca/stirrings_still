@@ -317,8 +317,8 @@ maker(
         ),
     baca.text_spanner(
         r'\stirrings-still-mod-width-circles-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -333,6 +333,7 @@ maker(
         ),
     baca.text_spanner(
         r'\stirrings-still-wide-circles-markup =|',
+        # manual padding because spanner ends at espressivo articulation
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -375,6 +376,7 @@ maker(
     ('trio', (30, 45)),
     baca.text_spanner(
         r'\stirrings-still-very-wide-circles-markup =|',
+        # manual padding because spanner ends at end-of-system
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -443,16 +445,16 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         r'\stirrings-still-tight-circles-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -468,16 +470,16 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         r'\stirrings-still-tight-circles-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -493,16 +495,16 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         r'\stirrings-still-tight-circles-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -518,16 +520,16 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         r'\stirrings-still-tight-circles-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -598,8 +600,8 @@ maker(
         ),
     baca.text_spanner(
         r'\stirrings-still-very-tight-circles-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
