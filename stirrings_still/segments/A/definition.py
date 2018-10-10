@@ -441,7 +441,7 @@ maker(
     baca.hairpin(
         'p -- niente',
         abjad.tweak(True).to_barline,
-        leak=True,
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
@@ -466,7 +466,7 @@ maker(
     baca.hairpin(
         'p -- niente',
         abjad.tweak(True).to_barline,
-        leak=True,
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
@@ -491,7 +491,7 @@ maker(
     baca.hairpin(
         'p -- niente',
         abjad.tweak(True).to_barline,
-        leak=True,
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
@@ -515,8 +515,8 @@ maker(
     ('vc', [(46, 47), (49, 50), 52, 54, 58]),
     baca.hairpin(
         'p -- niente',
-        (abjad.tweak(3.25).bound_details__right__padding, 0),
         abjad.tweak(True).to_barline,
+        #selector=baca.leaves().rleak(),
         leak=True,
         ),
     baca.text_spanner(
@@ -542,7 +542,6 @@ maker(
 maker(
     ('tutti', (55, 56)),
     baca.hairpin(
-        #'niente o< mp',
         'o< mp',
         ),
     baca.make_repeat_tied_notes(),
