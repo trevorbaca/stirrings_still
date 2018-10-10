@@ -204,7 +204,7 @@ maker(
     baca.hairpin(
         'p < f-scratch f-scratch >o niente',
         piece_selector=baca.omgroups([1, 1]),
-        selector=baca.leaves()[2:],
+        selector=baca.leaves()[2:].rleak(),
         ),
     stirrings_still.declamation(protract=True),
     )
@@ -312,6 +312,8 @@ maker(
     ('trio', 23),
     baca.hairpin(
         'p -- niente',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
         r'\stirrings-still-mod-width-circles-markup =|',
@@ -326,6 +328,8 @@ maker(
     ('trio', 26),
     baca.hairpin(
         'pp -- niente',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
         r'\stirrings-still-wide-circles-markup =|',
@@ -605,5 +609,5 @@ maker(
 
 maker(
     'tutti',
-    baca.dls_staff_padding(7),
+    baca.dls_staff_padding(6),
     )
