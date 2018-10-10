@@ -514,10 +514,9 @@ maker(
 maker(
     ('vc', [(46, 47), (49, 50), 52, 54, 58]),
     baca.hairpin(
-        'p -- niente',
+        'p -- !',
         abjad.tweak(True).to_barline,
-        #selector=baca.leaves().rleak(),
-        leak=True,
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
