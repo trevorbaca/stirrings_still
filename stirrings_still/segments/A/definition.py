@@ -391,8 +391,9 @@ maker(
     ('trio', (41, 45)),
     baca.breathe(),
     baca.hairpin(
-        'ppp >o niente',
-        leak=True,
+        'ppp >o',
+        bookend=False,
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -406,11 +407,10 @@ maker(
         ),
     baca.text_spanner(
         '½ clt =|',
-        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(2.25).bound_details__right__padding,
         abjad.tweak(12).staff_padding,
         bookend=False,
-        leak=True,
-        selector=baca.ltleaves(),
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner_staff_padding(7),
     stirrings_still.cello_cell(),
