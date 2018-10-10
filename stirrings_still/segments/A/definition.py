@@ -427,8 +427,7 @@ maker(
         abjad.tweak(12).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        leak=True,
-        selector=baca.ltleaves(),
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner_staff_padding(7),
     stirrings_still.cello_cell(),
@@ -595,7 +594,7 @@ maker(
     baca.hairpin(
         'p -- niente',
         abjad.tweak(True).to_barline,
-        leak=True,
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
