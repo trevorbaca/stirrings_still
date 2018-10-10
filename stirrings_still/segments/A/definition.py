@@ -217,7 +217,7 @@ maker(
     baca.hairpin(
         'p >o niente',
         measures=(35, 40),
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
@@ -402,6 +402,7 @@ maker(
         ),
     baca.text_spanner(
         '½ clt =|',
+        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(12).staff_padding,
         bookend=False,
         leak=True,
@@ -598,4 +599,11 @@ maker(
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
+    )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(7),
     )

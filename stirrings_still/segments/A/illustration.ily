@@ -1431,6 +1431,7 @@ A_Violin_I_Music_Voice = {                                                     %
     % [A Violin_I_Music_Voice measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \stirrings-still-violin-i-markup               %! baca_start_markup:-PARTS:IndicatorCommand
+    \override DynamicLineSpanner.staff-padding = #'7                           %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -2890,6 +2891,7 @@ A_Violin_I_Music_Voice = {                                                     %
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2919,6 +2921,7 @@ A_Violin_II_Music_Voice = {                                                    %
     % [A Violin_II_Music_Voice measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \stirrings-still-violin-ii-markup              %! baca_start_markup:-PARTS:IndicatorCommand
+    \override DynamicLineSpanner.staff-padding = #'7                           %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -4219,6 +4222,7 @@ A_Violin_II_Music_Voice = {                                                    %
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4248,6 +4252,7 @@ A_Viola_Music_Voice = {                                                        %
     % [A Viola_Music_Voice measure 1]                                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \stirrings-still-viola-markup                  %! baca_start_markup:-PARTS:IndicatorCommand
+    \override DynamicLineSpanner.staff-padding = #'7                           %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "alto"                                                               %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -5753,6 +5758,7 @@ A_Viola_Music_Voice = {                                                        %
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5787,6 +5793,7 @@ A_Cello_Music_Voice = {                                                        %
             % [A Cello_Music_Voice measure 1]                                  %! _comment_measure_numbers
             \set Staff.shortInstrumentName = \stirrings-still-vc-markup        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
             \set Staff.instrumentName = \stirrings-still-cello-markup          %! baca_start_markup:-PARTS:IndicatorCommand
+            \override DynamicLineSpanner.staff-padding = #'7                   %! baca_dls_staff_padding:OverrideCommand(1)
             \clef "bass"                                                       %! DEFAULT_CLEF:_set_status_tag:attach_defaults
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.Clef.color = #(x11-color 'DarkViolet)        %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -6624,6 +6631,7 @@ A_Cello_Music_Voice = {                                                        %
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 

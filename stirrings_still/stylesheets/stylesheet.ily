@@ -79,8 +79,21 @@
             \override #'(font-name . "Palatino")
             \fontsize #16
             \line {
-                STIRRINGS
-                STILL
+                \concat {
+                S
+                \hspace #-1
+                TIRRIN
+                \hspace #-2
+                GS
+                }
+                \hspace #4
+                \concat{
+                S
+                \hspace #-1
+                TIL
+                \hspace #-1
+                L
+                }
             }
             " "
             \override #'(font-name . "Palatino Italic")
