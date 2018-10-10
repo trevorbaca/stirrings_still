@@ -407,8 +407,8 @@ maker(
         ),
     baca.text_spanner(
         '½ clt =|',
-        abjad.tweak(2.25).bound_details__right__padding,
         abjad.tweak(12).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
@@ -590,8 +590,8 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
         selector=baca.ltleaves().rleak(),
