@@ -223,7 +223,7 @@ maker(
     )
 
 maker(
-    (['va', 'vc'], 5),
+    ('vc', 5),
     baca.dynamic('mf'),
     )
 
@@ -236,15 +236,14 @@ maker(
         ),
     )
 
-# TODO: make this work:
-#maker(
-#    ('va', (5, 7)),
-#    baca.hairpin(
-#        'mf niente o< p',
-#        bookend=False,
-#        piece_selector=baca.mgroups(),
-#        ),
-#    )
+maker(
+    ('va', (5, 7)),
+    baca.hairpin(
+        'mf niente o< p',
+        bookend=False,
+        piece_selector=baca.cmgroups(),
+        ),
+    )
 
 maker(
     ('va', (1, 7)),
@@ -281,10 +280,6 @@ maker(
 maker(
     ('va', (6, 7)),
     stirrings_still.circles((1, 4)),
-    baca.new(
-        baca.hairpin('niente o< p', selector=baca.rleaves()),
-        measures=6,
-        ),
     )
 
 maker(
