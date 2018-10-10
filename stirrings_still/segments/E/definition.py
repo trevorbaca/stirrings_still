@@ -159,7 +159,7 @@ maker(
         match=2,
         ),
     baca.text_spanner(
-        r'\stirrings-still-fast-circles-markup =|',
+        r'\baca-fast-circles-markup =|',
         abjad.tweak(2.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -636,7 +636,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-fast-circles-markup =|',
+        r'\baca-fast-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -658,7 +658,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-fast-circles-markup =|',
+        r'\baca-fast-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -680,7 +680,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-fast-circles-markup =|',
+        r'\baca-fast-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -822,7 +822,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-fast-circles-markup =|',
+        r'\baca-fast-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -844,7 +844,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-fast-circles-markup =|',
+        r'\baca-fast-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -866,7 +866,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-fast-circles-markup =|',
+        r'\baca-fast-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,

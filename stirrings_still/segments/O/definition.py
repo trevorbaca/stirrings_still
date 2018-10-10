@@ -51,7 +51,7 @@ maker(
         boxed=True,
         ),
     baca.text_spanner(
-        r'\stirrings-still-ext-tight-circles-markup =|',
+        r'\baca-ext-tight-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -64,7 +64,7 @@ maker(
     ('v1', 7),
     baca.dynamic('ff'),
     baca.text_spanner(
-        r'\stirrings-still-scratch-circles-markup =|',
+        r'\baca-scratch-circles-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -84,7 +84,7 @@ maker(
         boxed=True,
         ),
     baca.text_spanner(
-        r'\stirrings-still-ext-tight-circles-markup =|',
+        r'\baca-ext-tight-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -97,7 +97,7 @@ maker(
     ('v2', 7),
     baca.dynamic('ff'),
     baca.text_spanner(
-        r'\stirrings-still-scratch-circles-markup =|',
+        r'\baca-scratch-circles-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -117,7 +117,7 @@ maker(
         boxed=True,
         ),
     baca.text_spanner(
-        r'\stirrings-still-ext-tight-circles-markup =|',
+        r'\baca-ext-tight-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -130,7 +130,7 @@ maker(
     ('va', 7),
     baca.dynamic('ff'),
     baca.text_spanner(
-        r'\stirrings-still-scratch-circles-markup =|',
+        r'\baca-scratch-circles-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -150,7 +150,7 @@ maker(
         boxed=True,
         ),
     baca.text_spanner(
-        r'\stirrings-still-ext-tight-circles-markup =|',
+        r'\baca-ext-tight-circles-markup =|',
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,

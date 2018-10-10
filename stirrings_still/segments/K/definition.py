@@ -89,7 +89,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\stirrings-still-wide-poss-circles-markup =|',
+            r'\baca-wide-poss-circles-markup =|',
             abjad.tweak(2.5).bound_details__right__padding,
             abjad.tweak(7.5).staff_padding,
             bookend=False,
@@ -152,7 +152,7 @@ maker(
     baca.new(
         baca.dynamic('"ff"'),
         baca.text_spanner(
-            r'\stirrings-still-scratch-circles-markup =|',
+            r'\baca-scratch-circles-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -165,7 +165,7 @@ maker(
         baca.breathe(),
         baca.hairpin('"ff" > mf'),
         baca.text_spanner(
-            r'\stirrings-still-scratch-circles-markup =|',
+            r'\baca-scratch-circles-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -311,7 +311,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\stirrings-still-wide-poss-circles-markup =|',
+            r'\baca-wide-poss-circles-markup =|',
             abjad.tweak(2.5).bound_details__right__padding,
             abjad.tweak(7.5).staff_padding,
             bookend=False,
@@ -374,7 +374,7 @@ maker(
     baca.new(
         baca.dynamic('"ff"'),
         baca.text_spanner(
-            r'\stirrings-still-scratch-circles-markup =|',
+            r'\baca-scratch-circles-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -387,7 +387,7 @@ maker(
         baca.breathe(),
         baca.hairpin('"ff" > mf'),
         baca.text_spanner(
-            r'\stirrings-still-scratch-circles-markup =|',
+            r'\baca-scratch-circles-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -533,7 +533,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\stirrings-still-wide-poss-circles-markup =|',
+            r'\baca-wide-poss-circles-markup =|',
             abjad.tweak(2.5).bound_details__right__padding,
             abjad.tweak(7.5).staff_padding,
             bookend=False,
@@ -600,7 +600,7 @@ maker(
     baca.new(
         baca.dynamic('"ff"'),
         baca.text_spanner(
-            r'\stirrings-still-scratch-circles-markup =|',
+            r'\baca-scratch-circles-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -613,7 +613,7 @@ maker(
         baca.breathe(),
         baca.hairpin('"ff" > mf'),
         baca.text_spanner(
-            r'\stirrings-still-scratch-circles-markup =|',
+            r'\baca-scratch-circles-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -770,7 +770,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\stirrings-still-wide-poss-circles-markup =|',
+            r'\baca-wide-poss-circles-markup =|',
             abjad.tweak(2.5).bound_details__right__padding,
             abjad.tweak(7.5).staff_padding,
             bookend=False,

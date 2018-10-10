@@ -1,55 +1,5 @@
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
 
-%%% CIRCLES %%%
-
-stirrings-still-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.25
-    }
-
-stirrings-still-ext-tight-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(ext. tight)"
-    }
-
-stirrings-still-fast-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (fast)
-    }
-
-stirrings-still-mod-width-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(mod. width)"
-    }
-
-stirrings-still-poco-tight-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(poco. tight)"
-    }
-
-stirrings-still-scratch-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (scratch)
-    }
-
-stirrings-still-slow-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (slow)
-    }
-
-stirrings-still-tight-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (tight)
-    }
-
-stirrings-still-very-tight-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(very tight)"
-    }
-
-stirrings-still-very-wide-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(very wide)"
-    }
-
-stirrings-still-wide-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (wide)
-    }
-
-stirrings-still-wide-poss-circles-markup = \markup \concat {
-    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 "(wide poss.)"
-    }
-
 %%% DIRECTIVES %%%
 
 stirrings-still-tailpiece-poco-flicker = \markup
