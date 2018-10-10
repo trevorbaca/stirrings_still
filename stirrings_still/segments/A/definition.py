@@ -425,6 +425,7 @@ maker(
     baca.text_spanner(
         '½ clt =|',
         abjad.tweak(12).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         leak=True,
         selector=baca.ltleaves(),
@@ -515,6 +516,7 @@ maker(
     ('vc', [(46, 47), (49, 50), 52, 54, 58]),
     baca.hairpin(
         'p -- niente',
+        (abjad.tweak(3.25).bound_details__right__padding, 0),
         abjad.tweak(True).to_barline,
         leak=True,
         ),
@@ -541,7 +543,8 @@ maker(
 maker(
     ('tutti', (55, 56)),
     baca.hairpin(
-        'niente o< mp',
+        #'niente o< mp',
+        'o< mp',
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -549,8 +552,12 @@ maker(
         direction=abjad.Down,
         ),
     baca.text_spanner(
-        'rasp (2°) => flaut. (2°)',
+        'rasp (2°) => flaut. (2°) =|',
         abjad.tweak(3.25).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        piece_selector=baca.mgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
