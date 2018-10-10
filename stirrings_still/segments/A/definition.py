@@ -316,7 +316,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-mod-width-circles-markup =|',
+        r'\baca-mod-width-circles-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -332,8 +332,8 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-wide-circles-markup =|',
-        # manual padding because spanner ends at espressivo articulation
+        r'\baca-wide-circles-markup =|',
+        # manual padding because spanner ends at espressivo
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
@@ -375,7 +375,7 @@ maker(
 maker(
     ('trio', (30, 45)),
     baca.text_spanner(
-        r'\stirrings-still-very-wide-circles-markup =|',
+        r'\baca-very-wide-circles-markup =|',
         # manual padding because spanner ends at end-of-system
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
@@ -452,7 +452,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-tight-circles-markup =|',
+        r'\baca-tight-circles-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -477,7 +477,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-tight-circles-markup =|',
+        r'\baca-tight-circles-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -502,7 +502,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-tight-circles-markup =|',
+        r'\baca-tight-circles-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -527,7 +527,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-tight-circles-markup =|',
+        r'\baca-tight-circles-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -603,7 +603,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\stirrings-still-very-tight-circles-markup =|',
+        r'\baca-very-tight-circles-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
