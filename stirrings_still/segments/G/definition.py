@@ -97,3 +97,10 @@ maker(
         ),
     stirrings_still.taper((1, 1)),
     )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
