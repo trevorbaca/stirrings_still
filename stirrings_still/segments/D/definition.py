@@ -291,7 +291,8 @@ maker(
     ('tutti', (1, 36)),
     baca.text_spanner(
         r'\baca-damp-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
+        # manual padding because spanner ends of volta
+        abjad.tweak(5.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
         selector=baca.ltleaves().rleak(),
@@ -333,8 +334,8 @@ maker(
     baca.script_staff_padding(7.5),
     baca.text_spanner(
         '½ clt =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(11).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -384,7 +385,10 @@ maker(
 
 maker(
     ('va', (49, 53)),
-    baca.dynamic('"mp"'),
+    baca.dynamic(
+        '"mp"',
+        abjad.tweak(abjad.Left).self_alignment_X,
+        ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.markup('tailpiece'),
     baca.staff_lines(1),
@@ -394,7 +398,9 @@ maker(
 # TODO: allow glissando to extend to simultaneous multimeasure rest packet:
 maker(
     ('va', (49, 54)),
-    stirrings_still.glissando_without_ties(),
+    stirrings_still.glissando_without_ties(
+        (abjad.tweak(3.25).bound_details__right__padding, -1),
+        ),
     )
 
 maker(
@@ -446,8 +452,8 @@ maker(
         ),
     baca.text_spanner(
         'fast whisked ellipses =|',
-        abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -496,8 +502,8 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -555,15 +561,15 @@ maker(
         ),
     baca.text_spanner(
         '8˝ cir. =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         'golden tone =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(9).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
         selector=baca.ltleaves().rleak(),
@@ -618,4 +624,11 @@ maker(
         piece_selector=baca.omgroups([1]),
         ),
     stirrings_still.clouded_pane(),
+    )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
     )
