@@ -86,13 +86,17 @@ maker(
     ('va', (1, 10)),
     baca.markup(
         'terminate abruptly',
-        selector=baca.pleaf(-1),
+        abjad.tweak((-21, 0)).extra_offset,
+        measures=11,
         ),
     baca.suite(
         baca.hairpin('niente o< "mp"', selector=baca.rmleaves(1)),
         baca.hairpin_shorten_pair((0.75, 0)),
         ),
-    stirrings_still.tailpiece(),
+    stirrings_still.tailpiece(
+        (abjad.tweak(2.25).bound_details__right__padding, -1),
+        measures=(1, 11),
+        ),
     )
 
 maker(
@@ -116,4 +120,11 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
+    )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
     )
