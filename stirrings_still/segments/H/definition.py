@@ -84,7 +84,6 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 5)),
-    baca.dls_staff_padding(3),
     baca.hairpin('niente o< mp', selector=baca.rmleaves(3)),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -96,16 +95,27 @@ maker(
         match=[0, 2, 3],
         ),
     baca.text_spanner(
-        'rasp (2°) => flaut. (2°)',
+        'rasp (2°) -> flaut. (2°) =|',
         abjad.tweak(3.25).staff_padding,
-        selector=baca.notes()[:4],
+        autodetect_right_padding=True,
+        bookend=False,
+        piece_selector=baca.mgroups([3, 3]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('v1', 6),
     baca.markup(
-        baca.markups.lines(['one circle every eighth-note;', "'golden' tone"]),
+        'golden tone',
+        abjad.tweak(2).staff_padding,
+        ),
+    baca.text_spanner(
+        r'\baca-wide-circles-markup =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 8)),
     )
@@ -116,11 +126,18 @@ maker(
     baca.repeat_tie_to(),
     )
 
-line = abjad.Markup('one circle every half-note;').whiteout()
 maker(
     ('va', 6),
     baca.markup(
-        baca.markups.lines([line, "'golden' tone"]),
+        'golden tone',
+        abjad.tweak(2).staff_padding,
+        ),
+    baca.text_spanner(
+        r'\baca-very-wide-circles-markup =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 2)),
     )
@@ -128,13 +145,22 @@ maker(
 maker(
     ('vc', 6),
     baca.dynamic('p'),
-    baca.markup('½ clt'),
-    baca.script_staff_padding(6),
-    baca.text_spanner_staff_padding(3),
+    baca.script_staff_padding(7),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(10).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
     baca.tuplet_bracket_staff_padding(1),
     baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 4), (3, 32)),
-    stirrings_still.bcps(0, clt=True),
+    stirrings_still.bcps(
+        0,
+        abjad.tweak(4).staff_padding,
+        clt=True,
+        ),
     )
 
 maker(
@@ -167,14 +193,15 @@ maker(
     )
 
 maker(
-    (['v1', 'va'], (7, 14)), 
+    (['v1', 'va'], (7, 16)), 
     baca.text_script_staff_padding(1.5),
-    baca.markup('(always one circle per stem)'),
     baca.text_spanner(
-        '2˝ circles => 4˝ circles => 6˝ circles => 8˝ circles',
-        abjad.tweak(5).staff_padding,
+        '2˝ circles -> 4˝ circles -> 6˝ circles -> 8˝ circles =|',
+        abjad.tweak(7).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.cmgroups([2]),
+        piece_selector=baca.mgroups([2, 2, 2, 5]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -186,7 +213,6 @@ maker(
 
 maker(
     ('v2', (11, 12)),
-    baca.markup('(always one circle per stem)'),
     baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 2), (7, 32)),
     )
@@ -200,10 +226,12 @@ maker(
     ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
     baca.text_spanner(
-        'flaut. (2°) => ord. => 4˝ circles => 6˝ circles => 8˝ circles',
-        abjad.tweak(3.25).staff_padding,
+        'flaut. (2°) -> ord. -> 4˝ circles -> 6˝ circles -> 8˝ circles =|',
+        abjad.tweak(7).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.cmgroups([1, 1, 2, 2, 2]),
+        piece_selector=baca.mgroups([1, 1, 2, 2, 3]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -319,7 +347,7 @@ maker(
         ),
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.text_spanner(
-        'flaut. => non flaut.',
+        'flaut. -> non flaut.',
         abjad.tweak(3.25).staff_padding,
         selector=baca.notes()[:2],
         ),
@@ -355,7 +383,6 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (23, 28)),
-    baca.markup('8” circles continue'),
     baca.new(
         stirrings_still.pickets(4, 2, dmask=baca.silence_first()),
         match=0,
@@ -367,6 +394,13 @@ maker(
     baca.new(
         stirrings_still.pickets(4, 0, dmask=baca.silence_first()),
         match=2,
+        ),
+    baca.text_spanner(
+        r'\baca-wide-circles-markup =|',
+        abjad.tweak(7).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -393,9 +427,12 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        '“whisk” circles => poco scratch circles',
-        abjad.tweak(5).staff_padding,
-        selector=baca.leaves()[:3],
+        r'\baca-very-wide-circles-markup -> \baca-tight-circles-markup =|',
+        abjad.tweak(7).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        piece_selector=baca.mgroups([1, 2]),
+        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -412,8 +449,8 @@ maker(
     baca.dynamic('mp', redundant=True),
     baca.text_spanner(
         r'\baca-damp-half-clt-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -425,7 +462,6 @@ maker(
 
 maker(
     ('tutti', (35, 36)),
-    baca.dls_staff_padding(3),
     baca.hairpin('niente o< mp', selector=baca.rmleaves(1)),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -449,8 +485,12 @@ maker(
         match=3,
         ),
     baca.text_spanner(
-        'rasp (2°) => poco rasp (2°)',
+        'rasp (2°) -> poco rasp (2°) =|',
         abjad.tweak(3.25).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        piece_selector=baca.mgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -472,7 +512,7 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        '“whisk” circles => mod. scratch circles',
+        '“whisk” circles -> mod. scratch circles',
         abjad.tweak(5).staff_padding,
         selector=baca.leaves()[:3],
         ),
@@ -496,7 +536,7 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        '“whisk” circles => molto scratch circles',
+        '“whisk” circles -> molto scratch circles',
         abjad.tweak(5).staff_padding,
         selector=baca.leaves()[:3],
         ),
@@ -530,7 +570,7 @@ maker(
         ),
     baca.text_spanner_staff_padding(4),
     baca.text_spanner(
-        'molto scratch => pochiss. scratch',
+        'molto scratch -> pochiss. scratch',
         abjad.tweak(3.25).staff_padding,
         selector=baca.mleaves(-2)[:-3],
         ),
@@ -538,8 +578,6 @@ maker(
 
 maker(
     ('vc', [(46, 50), 52]),
-    baca.dls_staff_padding(5),
-    baca.markup('½ clt'),
     baca.new(
         stirrings_still.bcps(-4, clt=True),
         match=0,
@@ -550,7 +588,13 @@ maker(
         ),
     baca.pitch('E2'),
     baca.text_script_staff_padding(11),
-    baca.text_spanner_staff_padding(7),
+    baca.text_spanner(
+        '½ clt =|',
+        abjad.tweak(7).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.glissando_without_ties(),
     stirrings_still.trajectories('A', -1, 0),
     )
@@ -591,4 +635,11 @@ maker(
         stirrings_still.pickets(4, [1, 1]),
         match=2,
         ),
+    )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
     )
