@@ -13,6 +13,7 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
+    last_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=stirrings_still.time_signatures('S'),
     validate_measure_count=35,
@@ -99,4 +100,11 @@ maker(
             ),
         match=11,
         ),
+    )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
     )
