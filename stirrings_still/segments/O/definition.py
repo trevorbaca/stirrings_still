@@ -52,8 +52,8 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-circle-ext-tight-markup =|',
-        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
@@ -65,8 +65,8 @@ maker(
     baca.dynamic('ff'),
     baca.text_spanner(
         r'\baca-circle-scratch-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
@@ -85,8 +85,8 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-circle-ext-tight-markup =|',
-        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
@@ -98,8 +98,8 @@ maker(
     baca.dynamic('ff'),
     baca.text_spanner(
         r'\baca-circle-scratch-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
@@ -118,8 +118,8 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-circle-ext-tight-markup =|',
-        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
@@ -131,8 +131,8 @@ maker(
     baca.dynamic('ff'),
     baca.text_spanner(
         r'\baca-circle-scratch-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
@@ -151,8 +151,8 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-circle-ext-tight-markup =|',
-        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
