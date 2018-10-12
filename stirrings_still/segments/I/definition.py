@@ -80,7 +80,7 @@ maker(
 maker(
     (['v1', 'v2'], (1, 7)),
     baca.text_spanner(
-        r'\baca-wide-circles-markup =|',
+        r'\baca-circle-wide-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -91,7 +91,7 @@ maker(
 maker(
     ('va', (1, 7)),
     baca.text_spanner(
-        r'\baca-wide-poss-circles-markup =|',
+        r'\baca-circle-wide-poss-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,

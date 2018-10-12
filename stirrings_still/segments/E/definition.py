@@ -159,7 +159,7 @@ maker(
         match=2,
         ),
     baca.text_spanner(
-        r'\baca-fast-circles-markup =|',
+        r'\baca-circle-fast-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -636,7 +636,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\baca-fast-circles-markup =|',
+        r'\baca-circle-fast-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -658,7 +658,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\baca-fast-circles-markup =|',
+        r'\baca-circle-fast-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -680,7 +680,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\baca-fast-circles-markup =|',
+        r'\baca-circle-fast-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -822,7 +822,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\baca-fast-circles-markup =|',
+        r'\baca-circle-fast-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -844,7 +844,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\baca-fast-circles-markup =|',
+        r'\baca-circle-fast-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -866,7 +866,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\baca-fast-circles-markup =|',
+        r'\baca-circle-fast-markup =|',
         abjad.tweak(5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,

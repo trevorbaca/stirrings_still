@@ -56,7 +56,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -73,7 +73,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -90,7 +90,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -118,7 +118,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -135,7 +135,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -152,7 +152,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -180,7 +180,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -197,7 +197,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
@@ -214,7 +214,7 @@ maker(
         ),
     baca.new(
         baca.text_spanner(
-            r'\baca-very-wide-circles-markup =|',
+            r'\baca-circle-very-wide-markup =|',
             abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
             bookend=False,
