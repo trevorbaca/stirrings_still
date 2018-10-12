@@ -5,7 +5,7 @@ SEGMENTS
 
     [A.1] (1 + fermata)
     (1 measure)
-    andante begins;
+    andante;
     v1, v2, va urtext declamation:
         stopped lh;
         hair;
@@ -24,13 +24,13 @@ SEGMENTS
 
     [A.2] (3 + fermata)
     (1 measure)
-    andante continues;
-    v1, v2, va urtext declamation repeats and intensifies:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        closely spaced double-stops repeat;
-        declamation repeats:
+    andante;
+    v1, v2, va urtext declamation (repeats and intensifies):
+        stopped lh;
+        hair;
+        tasto;
+        closely spaced double-stops (repeat);
+        declamation:
             first chord:
                 simile;
             second chord:
@@ -40,17 +40,17 @@ SEGMENTS
                 slows bow slightly on approach to termination;
                 p < mf stop-on-string;
     vc:
-        tacet continues;
+        tacet;
     fermata (4);
 
     [A.3] (5-6 + fermata)
     (2 measures)
-    andante continues;
-    v1, v2, va urtext decalation repeats and intensifies:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        closely spaced double-stops repeat;
+    andante;
+    v1, v2, va urtext decalation (repeats and intensifies):
+        stopped lh;
+        hair;
+        tasto;
+        closely spaced double-stops (repeat);
         declamation:
             first chord:
                 simile;
@@ -62,17 +62,17 @@ SEGMENTS
                 encourages a touch of scratch on approach to termination;
                 p < mf poco scratch stop-on-string;
     vc:
-        tacet continues;
+        tacet;
     fermata (7);
 
     [A.4] (8-9 + fermata)
     (2 measures)
-    andante continues;
-    v1, v2, va urtext declamation repeats and intensifies:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        closely spaced double-stops repeat;
+    andante;
+    v1, v2, va urtext declamation (repeats and intensifies):
+        stopped lh;
+        hair;
+        tasto;
+        closely spaced double-stops (repeat);
         declamation:
             first chord:
                 simile;
@@ -83,18 +83,18 @@ SEGMENTS
                 encourages even more scratch on approach to termination;
                 p < f poco scratch stop-on-string;
     vc:
-        tacet anocra;
+        tacet;
     fermata (10);
 
     [A.5] (11-16 + fermata)
     (6 measures)
-    andante-to-allegro accelerando happens;
+    andante-to-allegro accelerando;
     accelerando achieves allegro at start of measure -1;
-    v1, v2, va urtext declamation repeats and becomes urtext field:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        closely spaced double-stops repeat;
+    v1, v2, va urtext declamation (repeats and becomes urtext field):
+        stopped lh;
+        hair;
+        tasto;
+        closely spaced double-stops (repeat);
         declamation:
             first chord:
                 simile;
@@ -104,23 +104,22 @@ SEGMENTS
                 loud;
                 now full field;
                 p <| f scratch ... f scratch > niente happens;
-    vc urtext joins:
+    vc urtext field:
         enters at start of second chord;
-        pitch joins;
-        tasto joins;
-        p joins;
+        tasto;
+        p;
     fermata [vc holds over fermata] (17);
 
     [A.6] (18 + fermata)
     (1 measure)
     subito adagio;
-    composite urtext field / circles begin:
-        v1, v2, va urtext declamation starts again:
+    composite urtext field / circles (begin):
+        v1, v2, va urtext declamation (starts again):
             as per [A.1] with change of chord(s);
-            stopped lh continues;
-            hair continues;
-            tasto continues;
-            two new closely spaced double-stops appear;
+            stopped lh;
+            hair;
+            tasto;
+            two new closely spaced double-stops (appear);
             declamation:
                 third chord:
                     even a bit quieter;
@@ -128,20 +127,20 @@ SEGMENTS
                 fourth chord:
                     quieter than at start of piece;
                     pp <| p ringing lv (not stop-on-string);
-        vc urtext continues:
-            stopped lh continues;
-            tasto continues;
-            p continues;
+        vc urtext field:
+            stopped lh;
+            tasto;
+            p;
     fermata [vc holds over fermata] (19);
 
     [A.7] (20 + fermata)
     (1 measure)
-    adagio continues;
-    composite-urtext-field-circles repeat and intensify:
+    adagio;
+    composite-urtext-field-circles (repeat and intensify):
         v1, v2, va:
             urtext field:
-                stopped lh continues;
-                tasto continues;
+                stopped lh;
+                tasto;
                 declamation:
                     third chord simile:
                         short pp <| p ringing lv;
@@ -150,27 +149,20 @@ SEGMENTS
                         does not introduce slower bow;
                         does not terminate stop-on-string;
                         pp <| f ringing lv;
-            [[immediately followed by circles:
-                stopped lh continues;
-                ellipse colors appear;
-                desynchronized;
-                moderate rate;
-                moderate duration;
-                mp;]]
-        vc urtext field continues:
-            stopped lh continues;
-            tasto continues;
-            p continues;
+        vc urtext field:
+            stopped lh;
+            tasto;
+            p;
     fermata [vc holds over fermata] (21);
 
     [A.8] (22-23 + fermata)
     (2 measures)
-    adagio continues;
-    composite-urtext-field-circles repeat and intensify:
+    adagio;
+    composite-urtext-field-circles (repeat and intensify):
         v1, v2, va
             urtext field:
-                stopped lh continues;
-                tasto returns;
+                stopped lh;
+                tasto;
                 declamation:
                     third chord simile:
                         short pp <| p ringing lv;
@@ -178,26 +170,26 @@ SEGMENTS
                         even longer;
                         pp <| mf ringing lv;
             circles:
-                stopped lh continues;
-                ellipse colors return;
-                desynchronization returns;
+                stopped lh;
+                ellipse colors;
+                desynchronization;
                 slightly faster rate;
                 slightly longer duration;
                 p;
-        vc urtext field continues:
-            stopped lh continues;
-            tasto continues;
-            p continues;
+        vc urtext field:
+            stopped lh;
+            tasto;
+            p;
     fermata [vc holds over fermata] (24);
 
     [A.9] (25-26 + 27 + fermata)
     (2 measures)
-    adagio continues;
-    composite urtext field / circles repeat and intensify:
+    adagio;
+    composite urtext field / circles (repeat and intensify):
         v1, v2, va:
             urtext field:
-                stopped lh continues;
-                tasto returns;
+                stopped lh;
+                tasto;
                 declamation:
                     third chord simile:
                         short pp <| p ringing lv;
@@ -205,15 +197,15 @@ SEGMENTS
                         longer still;
                         pp <| f ringing lv;
             circles:
-                stopped lh continues;
-                ellipse colors return;
+                stopped lh;
+                ellipse colors;
                 fast rate;
                 longer duration;
                 pp;
-        vc urtext field continues:
-            stopped lh continues;
-            tasto continues;
-            p continues;
+        vc urtext field:
+            stopped lh;
+            tasto;
+            p;
         >>attacca suffix<<;
         >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<< (27):
             >>summons future time<<;
@@ -242,13 +234,13 @@ SEGMENTS
 
     [A.10] (29-34)
     (6 measures)
-    adagio-to-allegro accelerando happens;
-    composite-urtext-field-circles repeat and intensify:
-        accelerando achieves allegro at start of measure -1;
+    adagio-to-allegro accelerando;
+    accelerando achieves allegro at start of measure -1;
+    composite-urtext-field-circles (repeat and intensify):
         v1, v2, va:
             urtext field:
-                stopped lh continues;
-                tasto returns;
+                stopped lh;
+                tasto;
                 declamation:
                     third chord simile:
                         short pp <| p ringing lv;
@@ -256,39 +248,38 @@ SEGMENTS
                         long;
                         pp <| ff ringing lv;
             circles:
-                stopped lh continues;
-                ellipse colors return;
+                stopped lh;
+                ellipse colors;
                 very fast rate;
                 long duration;
                 ppp;
-        vc urtext field continues:
-            stopped lh continues;
-            tasto continues;
-            p continues;
+        vc urtext field:
+            stopped lh;
+            tasto;
+            p;
     attacca;
 
     [A.11] (35-40)
     (6 measures)
-    allegro continues;
-    v1, v2, va circles continue:
-        very fast rate continues;
-        ppp continues;
-    vc urtext field fades out:
-        pitch fades out:
-            down-glissando governs stage;
-        tasto fades out;
-        p > niente governs stage;
+    allegro;
+    v1, v2, va circles:
+        very fast rate;
+        ppp;
+    vc urtext field:
+        down-glissando;
+        tasto;
+        p > niente;
     attacca;
 
     [A.12] (41-42 + 43 + 44-45)
     (4 measures)
-    allegro-to-largo ritardando happens;
+    allegro-to-largo ritardando;
     ritardando achieves largo at start of measure -1;
-    v1, v2, va circles continue:
-        very fast rate continues;
-        ppp > niente happens;
+    v1, v2, va circles:
+        very fast rate;
+        ppp > niente;
     vc:
-        tacet continues;
+        tacet;
         >>[I.6 (vc cell) 2/2] bisects [A.12 (conclusion)]<< (43):
             >>summons future time<<;
             larghissimo;
@@ -304,8 +295,8 @@ SEGMENTS
 
     [A.13] (46-47 + 48 + 49-50 + fermata)
     (4 measures) 
-    largo continues;
-    tutti circles continue:
+    largo;
+    tutti circles:
         subito damped lh;
         subito slower rate;
         subito p;
@@ -324,20 +315,20 @@ SEGMENTS
 
     [A.14] (52 + fermata)
     (1 measure)
-    largo continues;
-    tutti circles repeat:
-        damped lh repeats;
-        slower rate repeats;
-        p repeats;
+    largo;
+    tutti circles (repeat):
+        damped lh;
+        slower rate;
+        p;
     fermata (53);
 
     [A.15] (54 + 55-56 + fermata)
     (1 measure)
-    largo continues;
-    tutti circles repeat:
-        damped lh repeats;
-        slow rate repeats;
-        p repeats;
+    largo;
+    tutti circles (repeat):
+        damped lh;
+        slow rate;
+        p;
         >>attacca suffix<<;
         >>[H.1 (urtext rasp) 1-2/4] suffixes [A.15]< (55-56)<:
             >>summons future time<<;
@@ -355,33 +346,33 @@ SEGMENTS
 
     [A.16] (58 + fermata)
     (1 measure)
-    largo resumes;
-    tutti circles repeat:
-        damped lh repeats;
-        slow rate repeats;
-        p repeats;
+    largo;
+    tutti circles (repeat):
+        damped lh;
+        slow rate;
+        p;
     fermata (59);
 
     [A.17] (60 + fermata)
     (1 measure)
-    andante governs stage;
-    v1, v2, va urtext declamation returns:
+    andante;
+    v1, v2, va urtext declamation:
         declamation [A.1]:
             third chord only:
                 tasto returns;
                 p <| f returns;
-    vc urtext field ([A.6]) returns:
-        tasto returns;
-        p continues;
+    vc urtext field ([A.6]):
+        tasto;
+        p;
     fermata (61);
 
     [A.18] (62 + long)
     (1 measure)
-    largo governs stage;
-    tutti circles resume and repeat:
-        damped lh resumes and repeats;
-        slow rate resumes and repeats;
-        p resumes and repeats;
+    largo;
+    tutti circles (resume and repeat):
+        damped lh;
+        slow rate;
+        p;
     long fermata (63);
 
 [B] time series B; rotation 0
