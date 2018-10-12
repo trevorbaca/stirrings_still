@@ -6,11 +6,11 @@ SEGMENTS
     [A.1] (1 + fermata)
     (1 measure)
     andante begins;
-    v1, v2, va urtext declamation appears:
-        stopped lh appears;
-        hair appears;
-        tasto appears;
-        closely spaced double-stops appear;
+    v1, v2, va urtext declamation:
+        stopped lh;
+        hair;
+        tasto;
+        closely spaced double-stops;
         declamation:
             first chord:
                 short;

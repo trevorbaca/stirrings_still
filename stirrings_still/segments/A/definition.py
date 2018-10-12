@@ -161,10 +161,23 @@ maker(
         'p <| f p < mp',
         pieces=baca.clparts([1]),
         ),
-    baca.markup(
-        'close db. st.',
-        abjad.tweak('magenta').color,
-        tag='pitch_note',
+    baca.text_spanner(
+        'tasto (T) =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('trio', [3, (5, 6), (8, 9)]),
+    baca.text_spanner(
+        'T =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -207,6 +220,19 @@ maker(
         selector=baca.leaves()[2:].rleak(),
         ),
     stirrings_still.declamation(protract=True),
+    )
+
+maker(
+    ('trio', (1, 16)),
+    baca.text_spanner(
+        'closely spaced doublestops A, B -|',
+        abjad.tweak('magenta').color,
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        lilypond_id=3,
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -259,11 +285,6 @@ maker(
         'pp <| p pp <| p',
         pieces=baca.clparts([1]),
         ),
-    baca.markup(
-        'db. st. (change)',
-        abjad.tweak('magenta').color,
-        tag='pitch_note',
-        ),
     )
 
 maker(
@@ -279,6 +300,39 @@ maker(
     baca.hairpin(
         'pp <| p pp <| mf',
         pieces=baca.clparts([1]),
+        ),
+    )
+
+maker(
+    ('trio', (18, 22)),
+    baca.text_spanner(
+        'closely spaced doublestops C, D -|',
+        abjad.tweak('magenta').color,
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        lilypond_id=3,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        'C, D -|',
+        abjad.tweak('magenta').color,
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        lilypond_id=3,
+        measures=25,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        'C, D -|',
+        abjad.tweak('magenta').color,
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        lilypond_id=3,
+        measures=29,
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -349,29 +403,30 @@ maker(
 # G.1
 
 maker(
-    ('v1', 27),
-    baca.markup(
-        'urtext double stop',
-        abjad.tweak('magenta').color,
+    ('trio', 27),
+    baca.text_spanner(
+        'urtext double stop (G.1) -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        lilypond_id=3,
+        selector=baca.leaves().rleak(),
         ),
+    )
+
+maker(
+    ('v1', 27),
     stirrings_still.loure_tuplets(0),
     )
 
 maker(
     ('v2', 27),
-    baca.markup(
-        'urtext double stop',
-        abjad.tweak('magenta').color,
-        ),
     stirrings_still.loure_tuplets(1),
     )
 
 maker(
     ('va', 27),
-    baca.markup(
-        'urtext double stop',
-        abjad.tweak('magenta').color,
-        ),
     stirrings_still.loure_tuplets(-1),
     )
 
