@@ -59,8 +59,8 @@ maker(
         ),
     baca.text_spanner(
         '½ clt =|',
-        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(9).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.tleaves().rleak(),
         ),
@@ -97,8 +97,8 @@ maker(
         ),
     baca.text_spanner(
         '½ clt =|',
-        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(9).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.tleaves().rleak(),
         ),
