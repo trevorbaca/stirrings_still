@@ -10,7 +10,7 @@ import stirrings_still
 
 stage_markup = (
     ('[J.1]', 1),
-    ('[C.7]', 3),
+    ('[C.7]', 3, 'darkgreen'),
     ('[J.1]', 4),
     ('[J.2]', 6),
     ('[J.3]', 8),

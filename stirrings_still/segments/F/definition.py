@@ -11,7 +11,7 @@ import stirrings_still
 stage_markup = (
     ('[F.1]', 1),
     ('[F.2]', 9),
-    ('[C.2]', 12),
+    ('[C.2]', 12, 'darkgreen'),
     )
 
 maker = baca.SegmentMaker(
