@@ -1255,7 +1255,7 @@ H_Violin_I_Music_Voice = {                                                     %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
     [                                                                          %! stirrings_still_circles
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
@@ -1566,7 +1566,7 @@ H_Violin_I_Music_Voice = {                                                     %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup             %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
@@ -1752,7 +1752,7 @@ H_Violin_I_Music_Voice = {                                                     %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! stirrings_still_accelerando
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-very-wide-markup        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -1763,7 +1763,7 @@ H_Violin_I_Music_Voice = {                                                     %
         c'16 * 143/32                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-tight-markup            %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
@@ -2549,7 +2549,7 @@ H_Violin_II_Music_Voice = {                                                    %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-wide-markup             %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
@@ -2720,7 +2720,7 @@ H_Violin_II_Music_Voice = {                                                    %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! stirrings_still_accelerando
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-very-wide-markup        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -2731,7 +2731,7 @@ H_Violin_II_Music_Voice = {                                                    %
         c'16 * 173/32                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-tight-markup            %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
@@ -3274,7 +3274,7 @@ H_Viola_Music_Voice = {                                                        %
     ^ \markup { "golden tone" }                                                %! baca_markup:IndicatorCommand
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-very-wide-markup            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-very-wide-markup             %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
@@ -3546,7 +3546,7 @@ H_Viola_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #7                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
@@ -3687,7 +3687,7 @@ H_Viola_Music_Voice = {                                                        %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! stirrings_still_accelerando
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-very-wide-markup        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -3698,7 +3698,7 @@ H_Viola_Music_Voice = {                                                        %
         c'16 * 427/64                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-tight-markup            %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)

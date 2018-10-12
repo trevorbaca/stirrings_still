@@ -280,7 +280,7 @@ I_Violin_I_Music_Voice = {                                                     %
     ^ \markup { "golden tone" }                                                %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_circles
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
@@ -663,7 +663,7 @@ I_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #9                                                  %! baca_markup:IndicatorCommand
     ^ \markup { "golden tone" }                                                %! baca_markup:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-wide-markup                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
@@ -853,7 +853,7 @@ I_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #9                                                  %! baca_markup:IndicatorCommand
     ^ \markup { "golden tone" }                                                %! baca_markup:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup             %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
