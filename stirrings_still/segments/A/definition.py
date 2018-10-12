@@ -202,7 +202,7 @@ maker(
         selector=baca.leaves()[:2],
         ),
     baca.hairpin(
-        'p < f-scratch f-scratch >o niente',
+        'p < f-scratch -- ! >o niente',
         pieces=baca.omgroups([1, 1]),
         selector=baca.leaves()[2:].rleak(),
         ),

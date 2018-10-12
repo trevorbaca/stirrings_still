@@ -6568,7 +6568,7 @@ E_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [E Violin_I_Rest_Voice measure 425 / measure 120]                %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #red                      %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -6576,7 +6576,7 @@ E_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [E Violin_I_Music_Voice measure 426 / measure 121]                       %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #red                                    %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [E Violin_I_Music_Voice measure 427 / measure 122]                       %! _comment_measure_numbers
@@ -10113,7 +10113,7 @@ E_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [E Violin_II_Rest_Voice measure 425 / measure 120]               %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #red                      %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -10121,7 +10121,7 @@ E_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [E Violin_II_Music_Voice measure 426 / measure 121]                      %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #red                                    %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [E Violin_II_Music_Voice measure 427 / measure 122]                      %! _comment_measure_numbers
@@ -13600,7 +13600,7 @@ E_Viola_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [E Viola_Rest_Voice measure 425 / measure 120]                   %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #red                      %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -13608,7 +13608,7 @@ E_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [E Viola_Music_Voice measure 426 / measure 121]                          %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #red                                    %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [E Viola_Music_Voice measure 427 / measure 122]                          %! _comment_measure_numbers
@@ -13853,7 +13853,7 @@ E_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [E Cello_Rest_Voice measure 333 / measure 28]                    %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #red                      %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1/2                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -13861,7 +13861,7 @@ E_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [E Cello_Music_Voice measure 334 / measure 29]                           %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #red                                    %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 5/8                                                                   %! _make_measure_silences
 
     % [E Cello_Music_Voice measure 335 / measure 30]                           %! _comment_measure_numbers
