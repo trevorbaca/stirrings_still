@@ -71,9 +71,9 @@ maker(
         baca.text_spanner(
             '½ clt =|',
             abjad.tweak(10).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
-            leak=True,
-            selector=baca.ltleaves(),
+            selector=baca.ltleaves().rleak(),
             ),
         stirrings_still.bcps(
             0,
