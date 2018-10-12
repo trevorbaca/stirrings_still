@@ -209,6 +209,11 @@ maker(
     stirrings_still.declamation(protract=True),
     )
 
+maker(
+    ('trio', 12),
+    baca.dynamic_text_self_alignment_x(-0.75),
+    )
+
 #
 
 maker(
@@ -549,7 +554,7 @@ maker(
         direction=abjad.Down,
         ),
     baca.text_spanner(
-        'rasp (2°) => flaut. (2°) =|',
+        'rasp (2°) -> flaut. (2°) =|',
         abjad.tweak(3.25).staff_padding,
         autodetect_right_padding=True,
         bookend=False,

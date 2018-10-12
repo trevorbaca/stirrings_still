@@ -97,7 +97,7 @@ maker(
             selector=baca.ltleaves().rleak(),
             ),
         baca.text_spanner(
-            r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
             abjad.tweak(5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
@@ -321,7 +321,7 @@ maker(
             selector=baca.ltleaves().rleak(),
             ),
         baca.text_spanner(
-            r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
             abjad.tweak(5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
@@ -544,7 +544,7 @@ maker(
             selector=baca.ltleaves().rleak(),
             ),
         baca.text_spanner(
-            r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
             abjad.tweak(5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
@@ -784,7 +784,7 @@ maker(
             selector=baca.ltleaves().rleak(),
             ),
         baca.text_spanner(
-            r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
+            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
             abjad.tweak(5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,

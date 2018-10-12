@@ -12529,7 +12529,7 @@ E_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     ^ \markup { flight }                                                       %! baca_markup:IndicatorCommand
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto"                                     %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "poco pont."                               %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
