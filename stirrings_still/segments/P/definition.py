@@ -274,20 +274,31 @@ maker(
 
 maker(
     ('v1', (21, 25)),
+    baca.beam(),
     stirrings_still.glissando_interpolation('G4', 'Bb4'),
     )
 
 maker(
     ('v2', (20, 25)),
+    baca.beam(),
     stirrings_still.glissando_interpolation('E4', 'Gb4'),
     )
 
 maker(
     ('va', (21, 25)),
+    baca.beam(),
     stirrings_still.glissando_interpolation('F3', 'Ab3'),
     )
 
 maker(
     ('vc', (19, 25)),
+    baca.beam(),
     stirrings_still.glissando_interpolation('A2', 'C3'),
+    )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
     )
