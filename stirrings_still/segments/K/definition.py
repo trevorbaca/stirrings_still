@@ -557,6 +557,11 @@ maker(
 
 maker(
     ('va', (6, 11)),
+    baca.dynamic(
+        '"mp"',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-3, 0)).extra_offset,
+        ),
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-tailpiece-poco-flicker',
@@ -565,10 +570,6 @@ maker(
         abjad.tweak(0).parent_alignment_X,
         ),
     baca.staff_position(0),
-    baca.suite(
-        baca.dynamic('"mp"'),
-        baca.dynamic_text_left(),
-        ),
     baca.suite(
         baca.staff_lines(1),
         baca.staff_lines(5, selector=baca.rleaves()[-1:]),
@@ -918,8 +919,10 @@ maker(
 
 maker(
     ('tutti', (1, 2)),
-    baca.dynamic('pp'),
-    baca.not_segment(baca.dynamic_text_left()),
+    baca.dynamic(
+        'pp',
+        abjad.tweak(abjad.Left).self_alignment_X,
+        ),
     baca.tuplet_bracket_down(),
     stirrings_still.glissando_without_ties(),
     )
