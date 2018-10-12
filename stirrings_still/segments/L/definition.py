@@ -294,7 +294,7 @@ maker(
     baca.hairpin(
         '"f" > p p < "f" > p p < "f" > p p < "f" > p',
         measures=(1, 15),
-        piece_selector=baca.cmgroups([2, 1, 1]),
+        pieces=baca.cmgroups([2, 1, 1]),
         ),
     )
 
@@ -305,6 +305,6 @@ maker(
     baca.hairpin(
         'p < ff ff > p < ff ff > p < ff ff > p < fff',
         measures=(1, 15),
-        piece_selector=baca.cmgroups([2, 1, 1]),
+        pieces=baca.cmgroups([2, 1, 1]),
         ),
     )

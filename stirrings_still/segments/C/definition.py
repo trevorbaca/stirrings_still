@@ -160,7 +160,7 @@ maker(
     baca.markup('[clouded pane (stopped)]'),
     baca.hairpin(
         'niente o< f >o niente',
-        piece_selector=baca.rleaves().partition_by_counts([1, 1, 1]),
+        pieces=baca.rleaves().partition_by_counts([1, 1, 1]),
         selector=baca.rleaves(),
         ),
     stirrings_still.taper((1, 1)),
@@ -228,7 +228,7 @@ maker(
         abjad.tweak(4).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.omgroups([2]),
+        pieces=baca.omgroups([2]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -265,7 +265,7 @@ maker(
         abjad.tweak(4).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.omgroups([2]),
+        pieces=baca.omgroups([2]),
         selector=baca.ltleaves().rleak(),
         ),
     )
@@ -302,8 +302,8 @@ maker(
         abjad.tweak(4).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        #piece_selector=baca.notes().cmgroups([2]),
-        piece_selector=baca.omgroups([2]),
+        #pieces=baca.notes().cmgroups([2]),
+        pieces=baca.omgroups([2]),
         selector=baca.ltleaves().rleak(),
         ),
     )
@@ -595,7 +595,7 @@ maker(
         '8˝ circles => 2˝ circles',
         abjad.tweak(4).staff_padding,
         bookend=False,
-        piece_selector=baca.notes().cmgroups([3]),
+        pieces=baca.notes().cmgroups([3]),
         ),
     )
 

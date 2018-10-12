@@ -126,7 +126,7 @@ maker(
     'vc',
     baca.hairpin(
         'p < "f" "f" >o niente',
-        piece_selector=baca.cmgroups([5, 4, 2]),
+        pieces=baca.cmgroups([5, 4, 2]),
         ),
     baca.text_spanner(
         '½ clt =|',

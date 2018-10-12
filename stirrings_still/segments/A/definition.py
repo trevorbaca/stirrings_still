@@ -159,7 +159,7 @@ maker(
     ('trio', 1),
     baca.hairpin(
         'p <| f p < mp',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     baca.markup(
         'close db. st.',
@@ -172,7 +172,7 @@ maker(
     ('trio', 3),
     baca.hairpin(
         'p <| f p < mf',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     )
 
@@ -180,7 +180,7 @@ maker(
     ('trio', (5, 6)),
     baca.hairpin(
         'p <| f p < mf-poco-scratch',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     )
 
@@ -188,7 +188,7 @@ maker(
     ('trio', (8, 9)),
     baca.hairpin(
         'p <| f p < f-poco-scratch',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     )
 
@@ -203,7 +203,7 @@ maker(
         ),
     baca.hairpin(
         'p < f-scratch f-scratch >o niente',
-        piece_selector=baca.omgroups([1, 1]),
+        pieces=baca.omgroups([1, 1]),
         selector=baca.leaves()[2:].rleak(),
         ),
     stirrings_still.declamation(protract=True),
@@ -252,7 +252,7 @@ maker(
     ('trio', 18),
     baca.hairpin(
         'pp <| p pp <| p',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     baca.markup(
         'db. st. (change)',
@@ -265,7 +265,7 @@ maker(
     ('trio', 20),
     baca.hairpin(
         'pp <| p pp <| mp',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     )
 
@@ -273,7 +273,7 @@ maker(
     ('trio', 22),
     baca.hairpin(
         'pp <| p pp <| mf',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     )
 
@@ -281,7 +281,7 @@ maker(
     ('trio', 25),
     baca.hairpin(
         'pp <| p pp <| f',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     )
 
@@ -289,7 +289,7 @@ maker(
     ('trio', 29),
     baca.hairpin(
         'pp <| p pp <| ff',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     )
 
@@ -405,7 +405,7 @@ maker(
     ('vc', (42, 43)),
     baca.hairpin(
         'niente o< "f"',
-        piece_selector=baca.omgroups(),
+        pieces=baca.omgroups(),
         ),
     baca.text_spanner(
         '½ clt =|',
@@ -553,7 +553,7 @@ maker(
         abjad.tweak(3.25).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.mgroups([1, 2]),
+        pieces=baca.mgroups([1, 2]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -564,7 +564,7 @@ maker(
     ('trio', 60),
     baca.hairpin(
         'p <| f p < mp',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     baca.markup(
         'db. st. (A.1)',

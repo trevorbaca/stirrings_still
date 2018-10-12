@@ -71,7 +71,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppppp < p > ppp',
-            piece_selector=baca.cmgroups(),
+            pieces=baca.cmgroups(),
             selector=baca.rleaves(),
             ),
         measures=(6, 7),
@@ -79,7 +79,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppp < p > ppppp',
-            piece_selector=baca.leaves().partition_by_counts([2, 4, 1]),
+            pieces=baca.leaves().partition_by_counts([2, 4, 1]),
             selector=baca.rleaves(),
             ),
         measures=10,
@@ -97,7 +97,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppppp < p > ppp',
-            piece_selector=baca.leaves().partition_by_counts([1, 3, 1]),
+            pieces=baca.leaves().partition_by_counts([1, 3, 1]),
             selector=baca.rleaves(),
             ),
         measures=5,
@@ -105,7 +105,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppp < p > ppp',
-            piece_selector=baca.leaves().partition_by_counts([5, 1, 1]),
+            pieces=baca.leaves().partition_by_counts([5, 1, 1]),
             selector=baca.rleaves(),
             ),
         measures=7,
@@ -113,7 +113,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppp < p > ppppp',
-            piece_selector=baca.leaves().partition_by_counts([1, 3, 1]),
+            pieces=baca.leaves().partition_by_counts([1, 3, 1]),
             selector=baca.rleaves(),
             ),
         measures=9,
@@ -131,7 +131,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppppp < p > ppppp',
-            piece_selector=baca.cmgroups([1, 2]),
+            pieces=baca.cmgroups([1, 2]),
             selector=baca.rleaves(),
             ),
         measures=(8, 10),
@@ -149,7 +149,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppppp < p > ppppp',
-            piece_selector=baca.cmgroups([1, 2]),
+            pieces=baca.cmgroups([1, 2]),
             selector=baca.rleaves(),
             ),
         measures=(6, 8),
@@ -173,7 +173,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppppp < p > ppp',
-            piece_selector=baca.cmgroups(),
+            pieces=baca.cmgroups(),
             selector=baca.rleaves(),
             ),
         measures=(16, 17),
@@ -181,7 +181,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppp < p > pp',
-            piece_selector=baca.leaves().partition_by_counts([2, 4, 1]),
+            pieces=baca.leaves().partition_by_counts([2, 4, 1]),
             selector=baca.rleaves(),
             ),
         measures=20,
@@ -199,7 +199,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppppp < p > pp',
-            piece_selector=baca.leaves().partition_by_counts([1, 4, 1]),
+            pieces=baca.leaves().partition_by_counts([1, 4, 1]),
             selector=baca.rleaves(),
             ),
         measures=15,
@@ -207,7 +207,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppp < p > pp',
-            piece_selector=baca.leaves().partition_by_counts([7, 1, 1]),
+            pieces=baca.leaves().partition_by_counts([7, 1, 1]),
             selector=baca.rleaves(),
             ),
         measures=17,
@@ -215,7 +215,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppp < p > pp',
-            piece_selector=baca.leaves().partition_by_counts([1, 2, 1]),
+            pieces=baca.leaves().partition_by_counts([1, 2, 1]),
             selector=baca.rleaves(),
             ),
         measures=19,
@@ -234,7 +234,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppppp < p > pp',
-            piece_selector=baca.cmgroups([1, 2]),
+            pieces=baca.cmgroups([1, 2]),
             selector=baca.rleaves(),
             ),
         measures=(18, 20),
@@ -252,7 +252,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppppp < p > pp',
-            piece_selector=baca.cmgroups([1, 2]),
+            pieces=baca.cmgroups([1, 2]),
             selector=baca.rleaves(),
             ),
         measures=(16, 18),

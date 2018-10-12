@@ -152,7 +152,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff < fff -- "fff" > p',
-        piece_selector=baca.mgroups([4, 4, 7]),
+        pieces=baca.mgroups([4, 4, 7]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -183,7 +183,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([4, 4]),
+        pieces=baca.mgroups([4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -214,7 +214,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff < fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([4, 4, 4]),
+        pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -333,7 +333,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'f < ff -- "ff" > p',
-        piece_selector=baca.mgroups([3, 4, 3 + 3]),
+        pieces=baca.mgroups([3, 4, 3 + 3]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -360,7 +360,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff -- "ff" > "mf"',
-        piece_selector=baca.mgroups([4, 3]),
+        pieces=baca.mgroups([4, 3]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -387,7 +387,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'f < ff -- "ff" > "mf"',
-        piece_selector=baca.mgroups([3, 4, 3]),
+        pieces=baca.mgroups([3, 4, 3]),
         ),
     baca.new(
         baca.suite(
@@ -459,7 +459,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'mf < f -- "f" > mp',
-        piece_selector=baca.mgroups([3, 2, 3]),
+        pieces=baca.mgroups([3, 2, 3]),
         ),
     baca.new(
         baca.suite(
@@ -524,7 +524,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'f -- "f" > mp',
-        piece_selector=baca.mgroups([2, 3]),
+        pieces=baca.mgroups([2, 3]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -572,7 +572,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'mf < f -- "f" > p',
-        piece_selector=baca.mgroups([3, 2, 5]),
+        pieces=baca.mgroups([3, 2, 5]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -628,7 +628,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'mp < mf -- "mf" > p',
-        piece_selector=baca.mgroups([2, 2, 2]),
+        pieces=baca.mgroups([2, 2, 2]),
         ),
     baca.new(
         baca.suite(
@@ -693,7 +693,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'mf -- "mf" > p',
-        piece_selector=baca.mgroups([2, 2]),
+        pieces=baca.mgroups([2, 2]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -741,7 +741,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'mp < mf -- "mf" > pp',
-        piece_selector=baca.mgroups([2, 2, 4]),
+        pieces=baca.mgroups([2, 2, 4]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -797,7 +797,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'p < mp -- mp > pp',
-        piece_selector=baca.mgroups([1, 1, 2]),
+        pieces=baca.mgroups([1, 1, 2]),
         ),
     baca.new(
         baca.suite(
@@ -862,7 +862,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'mp -- mp > pp',
-        piece_selector=baca.mgroups([1, 2]),
+        pieces=baca.mgroups([1, 2]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -910,7 +910,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'p < mp -- mp > ppp',
-        piece_selector=baca.mgroups([1, 1, 3]),
+        pieces=baca.mgroups([1, 1, 3]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -966,7 +966,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'pp < p > ppp',
-        piece_selector=baca.mgroups([1, 1]),
+        pieces=baca.mgroups([1, 1]),
         ),
     baca.new(
         baca.suite(
@@ -1077,7 +1077,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'pp < p > ppp',
-        piece_selector=baca.mgroups([1, 1]),
+        pieces=baca.mgroups([1, 1]),
         ),
     baca.suite(
         baca.script_staff_padding(5),
