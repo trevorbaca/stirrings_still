@@ -90,16 +90,16 @@ maker(
     baca.new(
         baca.text_spanner(
             r'\baca-circle-wide-poss-markup =|',
-            abjad.tweak(2.5).bound_details__right__padding,
             abjad.tweak(7.5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             lilypond_id=1,
             selector=baca.ltleaves().rleak(),
             ),
         baca.text_spanner(
             r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
-            (abjad.tweak(2.5).bound_details__right__padding, -1),
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             leak=True,
             pieces=baca.leaves().partition_by_ratio((1, 1, 1)),
@@ -113,6 +113,7 @@ maker(
         baca.text_spanner(
             '½ clt =|',
             abjad.tweak(10).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             leak=True,
             selector=baca.ltleaves(),
@@ -153,8 +154,8 @@ maker(
         baca.dynamic('"ff"'),
         baca.text_spanner(
             r'\baca-circle-scratch-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.leaves().rleak(),
             ),
@@ -166,8 +167,8 @@ maker(
         baca.hairpin('"ff" > mf'),
         baca.text_spanner(
             r'\baca-circle-scratch-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.leaves().rleak(),
             ),
@@ -312,16 +313,16 @@ maker(
     baca.new(
         baca.text_spanner(
             r'\baca-circle-wide-poss-markup =|',
-            abjad.tweak(2.5).bound_details__right__padding,
             abjad.tweak(7.5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             lilypond_id=1,
             selector=baca.ltleaves().rleak(),
             ),
         baca.text_spanner(
             r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
-            (abjad.tweak(2.5).bound_details__right__padding, -1),
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             leak=True,
             pieces=baca.leaves().partition_by_ratio((1, 1, 1)),
@@ -375,8 +376,8 @@ maker(
         baca.dynamic('"ff"'),
         baca.text_spanner(
             r'\baca-circle-scratch-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.leaves().rleak(),
             ),
@@ -388,8 +389,8 @@ maker(
         baca.hairpin('"ff" > mf'),
         baca.text_spanner(
             r'\baca-circle-scratch-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.leaves().rleak(),
             ),
@@ -534,16 +535,16 @@ maker(
     baca.new(
         baca.text_spanner(
             r'\baca-circle-wide-poss-markup =|',
-            abjad.tweak(2.5).bound_details__right__padding,
             abjad.tweak(7.5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             lilypond_id=1,
             selector=baca.ltleaves().rleak(),
             ),
         baca.text_spanner(
             r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
-            (abjad.tweak(2.5).bound_details__right__padding, -1),
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             leak=True,
             pieces=baca.leaves().partition_by_ratio((1, 1, 1)),
@@ -601,8 +602,8 @@ maker(
         baca.dynamic('"ff"'),
         baca.text_spanner(
             r'\baca-circle-scratch-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.leaves().rleak(),
             ),
@@ -614,8 +615,8 @@ maker(
         baca.hairpin('"ff" > mf'),
         baca.text_spanner(
             r'\baca-circle-scratch-markup =|',
-            abjad.tweak(2.75).bound_details__right__padding,
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.leaves().rleak(),
             ),
@@ -771,16 +772,16 @@ maker(
     baca.new(
         baca.text_spanner(
             r'\baca-circle-wide-poss-markup =|',
-            abjad.tweak(2.5).bound_details__right__padding,
             abjad.tweak(7.5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             lilypond_id=1,
             selector=baca.ltleaves().rleak(),
             ),
         baca.text_spanner(
             r'\baca-diamond-markup => \baca-black-diamond-markup => ord. =|',
-            (abjad.tweak(2.5).bound_details__right__padding, -1),
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             leak=True,
             pieces=baca.leaves().partition_by_ratio((1, 1, 1)),
@@ -842,8 +843,8 @@ maker(
     baca.script_staff_padding(8),
     baca.text_spanner(
         '½ clt =|',
-        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(11).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
