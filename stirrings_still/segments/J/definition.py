@@ -50,7 +50,10 @@ stirrings_still.time(maker, time)
 
 maker(
     (['v1', 'v2', 'va'], (1, 2)),
-    baca.dynamic('appena-udibile'),
+    baca.dynamic(
+        'appena-udibile',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
     baca.markup('[double-stop cont.]'),
     stirrings_still.urtext_field(),
     )
@@ -67,8 +70,8 @@ maker(
     baca.dynamic('mp'),
     baca.text_spanner(
         r'\baca-damp-half-clt-markup =|',
-        abjad.tweak(2.5).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
@@ -78,25 +81,36 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (4, 10)),
-    baca.dynamic('appena-udibile'),
     baca.markup('[double-stop cont.]'),
     stirrings_still.urtext_field(),
     )
 
 maker(
     ('vc', (6, 10)),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.leaf(-1),
+        ),
+    baca.hairpin(
+        'pp < fff-poco-scratch',
+        ),
     stirrings_still.urtext_field(),
     )
 
 maker(
-    ('tutti', (6, 9)),
+    ('trio', (4, 10)),
+    baca.dynamic_text_self_alignment_x(-0.75),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.leaf(-1),
+        ),
     baca.hairpin(
-        '< fff',
-        selector=baca.rleaves(),
+        'appena-udibile -- ! < fff-poco-scratch',
+        piece_selector=baca.mgroups([2, 5]),
         ),
     )
 
 maker(
-    ('tutti', 10),
-    baca.markup('poco scratch'),
+    'tutti',
+    baca.dls_staff_padding(6),
     )
