@@ -541,6 +541,7 @@ P_Violin_I_Music_Voice = {                                                     %
 
     % [P Violin_I_Music_Voice measure 694 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \override DynamicLineSpanner.staff-padding = #'6                           %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1094,6 +1095,7 @@ P_Violin_I_Music_Voice = {                                                     %
     g'8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! baca_beam:SpannerIndicatorCommand(1)
     \glissando                                                                 %! baca_glissando
 
     \hide NoteHead                                                             %! baca_glissando
@@ -1211,6 +1213,7 @@ P_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     bf'!8                                                                      %! stirrings_still_eighths
+    ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1221,6 +1224,7 @@ P_Violin_I_Music_Voice = {                                                     %
             % [P Violin_I_Music_Voice measure 719 / measure 26]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1249,6 +1253,7 @@ P_Violin_II_Music_Voice = {                                                    %
 
     % [P Violin_II_Music_Voice measure 694 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \override DynamicLineSpanner.staff-padding = #'6                           %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1778,6 +1783,7 @@ P_Violin_II_Music_Voice = {                                                    %
     e'8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! baca_beam:SpannerIndicatorCommand(1)
     \glissando                                                                 %! baca_glissando
 
     \hide NoteHead                                                             %! baca_glissando
@@ -1914,6 +1920,7 @@ P_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     gf'!8                                                                      %! stirrings_still_eighths
+    ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1924,6 +1931,7 @@ P_Violin_II_Music_Voice = {                                                    %
             % [P Violin_II_Music_Voice measure 719 / measure 26]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1955,6 +1963,7 @@ P_Viola_Music_Voice = {                                                        %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \override DynamicLineSpanner.staff-padding = #'6                           %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2461,6 +2470,7 @@ P_Viola_Music_Voice = {                                                        %
     f8                                                                         %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! baca_beam:SpannerIndicatorCommand(1)
     \glissando                                                                 %! baca_glissando
 
     \hide NoteHead                                                             %! baca_glissando
@@ -2578,6 +2588,7 @@ P_Viola_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     af!8                                                                       %! stirrings_still_eighths
+    ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -2588,6 +2599,7 @@ P_Viola_Music_Voice = {                                                        %
             % [P Viola_Music_Voice measure 719 / measure 26]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2616,6 +2628,7 @@ P_Cello_Music_Voice = {                                                        %
 
     % [P Cello_Music_Voice measure 694 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \override DynamicLineSpanner.staff-padding = #'6                           %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3101,6 +3114,7 @@ P_Cello_Music_Voice = {                                                        %
     a,8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! baca_beam:SpannerIndicatorCommand(1)
     \glissando                                                                 %! baca_glissando
 
     \hide NoteHead                                                             %! baca_glissando
@@ -3250,6 +3264,7 @@ P_Cello_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     c8                                                                         %! stirrings_still_eighths
+    ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3260,6 +3275,7 @@ P_Cello_Music_Voice = {                                                        %
             % [P Cello_Music_Voice measure 719 / measure 26]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/8                                                          %! _make_multimeasure_rest_container
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
