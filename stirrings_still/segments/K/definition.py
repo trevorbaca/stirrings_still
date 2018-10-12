@@ -336,6 +336,7 @@ maker(
         baca.text_spanner(
             '½ clt =|',
             abjad.tweak(10).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.ltleaves().rleak(),
             ),
@@ -491,12 +492,14 @@ maker(
         baca.text_spanner(
             r'\baca-damp-markup =|',
             abjad.tweak(8).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             lilypond_id=1,
             ),
         baca.text_spanner(
             'tasto poss. =|',
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             ),
         measures=(46, -1),
@@ -515,6 +518,7 @@ maker(
         baca.text_spanner(
             '½ clt =|',
             abjad.tweak(10).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.ltleaves().rleak(),
             ),
@@ -676,6 +680,7 @@ maker(
         baca.text_spanner(
             r'\baca-null-markup || \baca-damp-markup =|',
             abjad.tweak(8).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             final_piece_spanner=False,
             lilypond_id=1,
@@ -726,12 +731,14 @@ maker(
         baca.text_spanner(
             r'\baca-damp-markup =|',
             abjad.tweak(8).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             lilypond_id=1,
             ),
         baca.text_spanner(
             'tasto poss. =|',
             abjad.tweak(5).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             ),
         measures=(46, -1),
@@ -751,6 +758,7 @@ maker(
         baca.text_spanner(
             '½ clt =|',
             abjad.tweak(10).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.ltleaves().rleak(),
             ),
@@ -791,6 +799,7 @@ maker(
         baca.text_spanner(
             '½ clt =|',
             abjad.tweak(10).staff_padding,
+            autodetect_right_padding=True,
             bookend=False,
             selector=baca.ltleaves().rleak(),
             ),
