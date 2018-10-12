@@ -171,7 +171,7 @@ maker(
     baca.hairpin(
         'mp p',
         bookend=False,
-        piece_selector=baca.logical_ties(nontrivial=True),
+        pieces=baca.logical_ties(nontrivial=True),
         ),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
@@ -196,7 +196,7 @@ maker(
     baca.hairpin(
         'mf mp',
         bookend=False,
-        piece_selector=baca.logical_ties(nontrivial=True),
+        pieces=baca.logical_ties(nontrivial=True),
         ),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
@@ -221,7 +221,7 @@ maker(
     baca.hairpin(
         '"f" mf',
         bookend=False,
-        piece_selector=baca.logical_ties(nontrivial=True),
+        pieces=baca.logical_ties(nontrivial=True),
         ),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
@@ -246,7 +246,7 @@ maker(
     baca.hairpin(
         '"ff" "f"',
         bookend=False,
-        piece_selector=baca.logical_ties(nontrivial=True),
+        pieces=baca.logical_ties(nontrivial=True),
         ),
     baca.new(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
@@ -378,7 +378,7 @@ maker(
         ),
     baca.hairpin(
         'p <| mp p < mp',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     stirrings_still.declamation(),
     )
@@ -428,7 +428,7 @@ maker(
         ),
     baca.hairpin(
         'p <| mp p < mp',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     stirrings_still.declamation(),
     )
@@ -621,7 +621,7 @@ maker(
     baca.hairpin(
         'o< p',
         bookend=False,
-        piece_selector=baca.omgroups([1]),
+        pieces=baca.omgroups([1]),
         ),
     stirrings_still.clouded_pane(),
     )

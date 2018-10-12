@@ -231,7 +231,7 @@ maker(
     (['v1', 'v2'], (5, 7)),
     baca.hairpin(
         'mf -- ! >o niente',
-        piece_selector=baca.mgroups([1, 2]),
+        pieces=baca.mgroups([1, 2]),
         selector=baca.tleaves().rleak(),
         ),
     )
@@ -241,7 +241,7 @@ maker(
     baca.hairpin(
         'mf niente o< p',
         bookend=False,
-        piece_selector=baca.cmgroups(),
+        pieces=baca.cmgroups(),
         ),
     )
 
@@ -561,7 +561,7 @@ maker(
         ),
     baca.hairpin(
         'p <| mp p < mp',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     stirrings_still.declamation(),
     )
@@ -800,7 +800,7 @@ maker(
             abjad.tweak(10).staff_padding,
             ),
         bookend=False,
-        piece_selector=baca.mgroups([2, 4, 2]),
+        pieces=baca.mgroups([2, 4, 2]),
         ),
     )
 

@@ -129,7 +129,7 @@ maker(
     ('vc', (4, 5)),
     baca.hairpin(
         'ff-scratch > p',
-        piece_selector=baca.omgroups([1]),
+        pieces=baca.omgroups([1]),
         ),
     baca.markup(
         '[clouded pane]',
@@ -373,7 +373,7 @@ maker(
         ),
     baca.hairpin(
         'p <| mp p < mp',
-        piece_selector=baca.clparts([1]),
+        pieces=baca.clparts([1]),
         ),
     stirrings_still.declamation(),
     )
@@ -425,7 +425,7 @@ maker(
     baca.hairpin(
         'p < "mf"',
         bookend=False,
-        piece_selector=baca.mgroups([4, 2]),
+        pieces=baca.mgroups([4, 2]),
         ),
     baca.new(
         baca.suite(
@@ -558,7 +558,7 @@ maker(
         'ff > p < ff -- f > p < f --',
         bookend=False,
         final_hairpin=False,
-        piece_selector=baca.plts(),
+        pieces=baca.plts(),
         ),
     baca.new(
         stirrings_still.talea_eighths([3, 6, 8], 0, 1, end_counts=[1]),
@@ -580,7 +580,7 @@ maker(
         abjad.tweak(5).staff_padding,
         bookend=False,
         final_piece_spanner=False,
-        piece_selector=baca.plts(),
+        pieces=baca.plts(),
         ),
     )
 
@@ -617,7 +617,7 @@ maker(
         abjad.tweak(5).staff_padding,
         bookend=False,
         final_piece_spanner=False,
-        piece_selector=baca.plts(),
+        pieces=baca.plts(),
         ),
     )
 
@@ -701,7 +701,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff < fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([4, 4, 4]),
+        pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -732,7 +732,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([4, 4]),
+        pieces=baca.mgroups([4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -763,7 +763,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff < fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([4, 4, 4]),
+        pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -887,7 +887,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff < fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([4, 4, 4]),
+        pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -918,7 +918,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([4, 4]),
+        pieces=baca.mgroups([4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -949,7 +949,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         'ff < fff -- "fff" > "f"',
-        piece_selector=baca.mgroups([4, 4, 4]),
+        pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -1022,7 +1022,7 @@ maker(
         abjad.tweak(5).staff_padding,
         bookend=False,
         final_piece_spanner=False,
-        piece_selector=baca.plts(),
+        pieces=baca.plts(),
         ),
     )
 
@@ -1061,7 +1061,7 @@ maker(
         abjad.tweak(5).staff_padding,
         bookend=False,
         final_piece_spanner=False,
-        piece_selector=baca.plts(),
+        pieces=baca.plts(),
         ),
     )
 

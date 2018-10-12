@@ -99,7 +99,7 @@ maker(
         abjad.tweak(3.25).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.mgroups([3, 3]),
+        pieces=baca.mgroups([3, 3]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -200,7 +200,7 @@ maker(
         abjad.tweak(7).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.mgroups([2, 2, 2, 5]),
+        pieces=baca.mgroups([2, 2, 2, 5]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -230,7 +230,7 @@ maker(
         abjad.tweak(7).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.mgroups([1, 1, 2, 2, 3]),
+        pieces=baca.mgroups([1, 1, 2, 2, 3]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -431,7 +431,7 @@ maker(
         abjad.tweak(7).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.mgroups([1, 2]),
+        pieces=baca.mgroups([1, 2]),
         selector=baca.ltleaves().rleak(),
         ),
     )
@@ -489,7 +489,7 @@ maker(
         abjad.tweak(3.25).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        piece_selector=baca.mgroups([1, 2]),
+        pieces=baca.mgroups([1, 2]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -608,7 +608,7 @@ maker(
     ('vc', 51),
     baca.hairpin(
         'niente o< f >o niente',
-        piece_selector=baca.leaves().partition_by_counts([1, 1, 1]),
+        pieces=baca.leaves().partition_by_counts([1, 1, 1]),
         selector=baca.leaves(),
         ),
     stirrings_still.taper((4, 4, -2)),

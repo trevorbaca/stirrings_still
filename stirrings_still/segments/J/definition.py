@@ -106,7 +106,7 @@ maker(
         ),
     baca.hairpin(
         'appena-udibile -- ! < fff-poco-scratch',
-        piece_selector=baca.mgroups([2, 5]),
+        pieces=baca.mgroups([2, 5]),
         ),
     )
 

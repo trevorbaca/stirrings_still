@@ -85,7 +85,7 @@ maker(
             ),
         baca.hairpin(
             'f < ff >',
-            piece_selector=baca.plts()[:-1].partition_by_counts(
+            pieces=baca.plts()[:-1].partition_by_counts(
                 [2], cyclic=True),
             ),
         baca.stem_tremolo(
@@ -96,7 +96,7 @@ maker(
             abjad.tweak(5).staff_padding,
             bookend=False,
             final_piece_spanner=False,
-            piece_selector=baca.plts(),
+            pieces=baca.plts(),
             ),
         stirrings_still.flight('C', 0, start=0),
         measures=(23, 28),
@@ -115,7 +115,7 @@ maker(
             ),
         baca.hairpin(
             'ff < fff >',
-            piece_selector=baca.plts()[:-1].partition_by_counts(
+            pieces=baca.plts()[:-1].partition_by_counts(
                 [2], cyclic=True),
             ),
         baca.stem_tremolo(
@@ -126,7 +126,7 @@ maker(
             abjad.tweak(5).staff_padding,
             bookend=False,
             final_piece_spanner=False,
-            piece_selector=baca.plts(),
+            pieces=baca.plts(),
             ),
         stirrings_still.flight('C', 0, start=1),
         measures=(30, 35),
@@ -138,7 +138,7 @@ maker(
     baca.beam(),
     baca.hairpin(
         'p p >o niente',
-        piece_selector=baca.cmgroups(),
+        pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
@@ -182,7 +182,7 @@ maker(
             ),
         baca.hairpin(
             'f < ff >',
-            piece_selector=baca.plts()[:-1].partition_by_counts(
+            pieces=baca.plts()[:-1].partition_by_counts(
                 [2], cyclic=True),
             ),
         baca.stem_tremolo(
@@ -193,7 +193,7 @@ maker(
             abjad.tweak(5).staff_padding,
             bookend=False,
             final_piece_spanner=False,
-            piece_selector=baca.plts(),
+            pieces=baca.plts(),
             ),
         stirrings_still.flight('C', -1, start=1),
         measures=(23, 28),
@@ -212,7 +212,7 @@ maker(
             ),
         baca.hairpin(
             'ff < fff >',
-            piece_selector=baca.plts()[:-1].partition_by_counts(
+            pieces=baca.plts()[:-1].partition_by_counts(
                 [2], cyclic=True),
             ),
         baca.stem_tremolo(
@@ -223,7 +223,7 @@ maker(
             abjad.tweak(5).staff_padding,
             bookend=False,
             final_piece_spanner=False,
-            piece_selector=baca.plts(),
+            pieces=baca.plts(),
             ),
         stirrings_still.flight('C', -1, start=2),
         measures=(30, 35),
@@ -235,7 +235,7 @@ maker(
     baca.beam(),
     baca.hairpin(
         'p p >o niente',
-        piece_selector=baca.cmgroups(),
+        pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
@@ -279,7 +279,7 @@ maker(
             ),
         baca.hairpin(
             'f < ff >',
-            piece_selector=baca.plts()[:-1].partition_by_counts(
+            pieces=baca.plts()[:-1].partition_by_counts(
                 [2], cyclic=True),
             ),
         baca.stem_tremolo(
@@ -290,7 +290,7 @@ maker(
             abjad.tweak(5).staff_padding,
             bookend=False,
             final_piece_spanner=False,
-            piece_selector=baca.plts(),
+            pieces=baca.plts(),
             ),
         stirrings_still.flight('C', -2, start=2),
         measures=(23, 28),
@@ -309,7 +309,7 @@ maker(
             ),
         baca.hairpin(
             'ff < fff >',
-            piece_selector=baca.plts()[:-1].partition_by_counts(
+            pieces=baca.plts()[:-1].partition_by_counts(
                 [2], cyclic=True),
             ),
         baca.stem_tremolo(
@@ -320,7 +320,7 @@ maker(
             abjad.tweak(5).staff_padding,
             bookend=False,
             final_piece_spanner=False,
-            piece_selector=baca.plts(),
+            pieces=baca.plts(),
             ),
         stirrings_still.flight('C', -2, start=3),
         measures=(30, 35),
@@ -332,7 +332,7 @@ maker(
     baca.beam(),
     baca.hairpin(
         'p p >o niente',
-        piece_selector=baca.cmgroups(),
+        pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
@@ -400,7 +400,7 @@ maker(
             ),
         baca.hairpin(
             'f < ff >',
-            piece_selector=baca.plts()[:-1].partition_by_counts(
+            pieces=baca.plts()[:-1].partition_by_counts(
                 [2], cyclic=True),
             ),
         baca.stem_tremolo(
@@ -411,7 +411,7 @@ maker(
             abjad.tweak(5).staff_padding,
             bookend=False,
             final_piece_spanner=False,
-            piece_selector=baca.plts(),
+            pieces=baca.plts(),
             ),
         stirrings_still.flight('C', -3, start=3),
         measures=(23, 28),
@@ -430,7 +430,7 @@ maker(
             ),
         baca.hairpin(
             'ff < fff >',
-            piece_selector=baca.plts()[:-1].partition_by_counts(
+            pieces=baca.plts()[:-1].partition_by_counts(
                 [2], cyclic=True),
             ),
         baca.stem_tremolo(
@@ -441,7 +441,7 @@ maker(
             abjad.tweak(5).staff_padding,
             bookend=False,
             final_piece_spanner=False,
-            piece_selector=baca.plts(),
+            pieces=baca.plts(),
             ),
         stirrings_still.flight('C', -3, start=4),
         measures=(30, 35),
@@ -452,7 +452,7 @@ maker(
     ('vc', (37, 38)),
     baca.hairpin(
         'p p >o niente',
-        piece_selector=baca.cmgroups(),
+        pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
