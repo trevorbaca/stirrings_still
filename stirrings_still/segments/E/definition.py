@@ -546,7 +546,7 @@ maker(
         selector=baca.pleaves(),
         ),
     baca.text_spanner(
-        'tasto => poco pont.',
+        'tasto -> poco pont.',
         abjad.tweak(5).staff_padding,
         match=2,
         ),

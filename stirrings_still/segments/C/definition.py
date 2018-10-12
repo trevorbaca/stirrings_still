@@ -224,7 +224,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        'max. tight cir. => 1-2˝ circles =|',
+        'max. tight cir. -> 1-2˝ circles =|',
         abjad.tweak(4).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -261,7 +261,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        '1-2˝ circles => 2-4˝ circles =|',
+        '1-2˝ circles -> 2-4˝ circles =|',
         abjad.tweak(4).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -298,11 +298,10 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        '2-4˝ circles => 4-8˝ circles =|',
+        '2-4˝ circles -> 4-8˝ circles =|',
         abjad.tweak(4).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        #pieces=baca.notes().cmgroups([2]),
         pieces=baca.omgroups([2]),
         selector=baca.ltleaves().rleak(),
         ),
@@ -592,7 +591,7 @@ maker(
         match=3,
         ),
     baca.text_spanner(
-        '8˝ circles => 2˝ circles',
+        '8˝ circles -> 2˝ circles',
         abjad.tweak(4).staff_padding,
         bookend=False,
         pieces=baca.notes().cmgroups([3]),

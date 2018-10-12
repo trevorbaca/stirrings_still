@@ -661,7 +661,7 @@ maker(
             'ppp < mp',
             ),
         baca.text_spanner(
-            'tasto => ord',
+            'tasto -> ord',
             abjad.tweak(10).staff_padding,
             ),
         selector=baca.mleaves(1).rleak().rleak(),
@@ -680,7 +680,7 @@ maker(
             'pp < mf',
             ),
         baca.text_spanner(
-            'tasto => poco pont.',
+            'tasto -> poco pont.',
             abjad.tweak(10).staff_padding,
             ),
         selector=baca.mleaves(1).rleak().rleak(),
@@ -694,7 +694,7 @@ maker(
             'p < f',
             ),
         baca.text_spanner(
-            'tasto => pont. mod.',
+            'tasto -> pont. mod.',
             abjad.tweak(10).staff_padding,
             ),
         selector=baca.mleaves(1).rleak().rleak(),
@@ -708,7 +708,7 @@ maker(
             'mp < ff',
             ),
         baca.text_spanner(
-            'tasto => pont. molto',
+            'tasto -> pont. molto',
             abjad.tweak(10).staff_padding,
             ),
         selector=baca.mleaves(1).rleak().rleak(),
@@ -744,7 +744,7 @@ maker(
             'mf < ff',
             ),
         baca.text_spanner(
-            'tasto => pont. molto',
+            'tasto -> pont. molto',
             abjad.tweak(10).staff_padding,
             ),
         selector=baca.leaves()[:-1],
@@ -796,7 +796,7 @@ maker(
             'fff -- ff-sub > ppp',
             ),
         baca.text_spanner(
-            'pont. poss. || pont. molto => tasto',
+            'pont. poss. || pont. molto -> tasto',
             abjad.tweak(10).staff_padding,
             ),
         bookend=False,
