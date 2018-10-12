@@ -366,8 +366,8 @@ maker(
     baca.script_staff_padding(8),
     baca.text_spanner(
         '½ clt =|',
-        abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(12).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
