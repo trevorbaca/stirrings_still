@@ -49,7 +49,10 @@ stirrings_still.time(maker, time)
 maker(
     ('trio', (1, 7)),
     baca.new(
-        baca.hairpin('mp >o niente', leak=True),
+        baca.hairpin(
+            'mp >o niente',
+            selector=baca.leaves().rleak(),
+            ),
         measures=(4, 7),
         ),
     baca.new(
@@ -68,15 +71,31 @@ maker(
             ),
         match=2,
         ),
-    baca.text_spanner(
-        '8˝ =|',
-        abjad.tweak(5).staff_padding,
-        bookend=False,
-        selector=baca.tleaves().rleak(),
-        ),
     baca.markup(
         'golden tone',
         abjad.tweak(9).staff_padding,
+        ),
+    )
+
+maker(
+    (['v1', 'v2'], (1, 7)),
+    baca.text_spanner(
+        r'\baca-wide-circles-markup =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
+    )
+
+maker(
+    ('va', (1, 7)),
+    baca.text_spanner(
+        r'\baca-wide-poss-circles-markup =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
         ),
     )
 
@@ -112,8 +131,8 @@ maker(
     baca.text_spanner(
         '½ clt =|',
         abjad.tweak(12).staff_padding,
+        autodetect_right_padding=True,
         bookend=False,
-        leak=True,
         lilypond_id=1,
         selector=baca.ltleaves(),
         ),
