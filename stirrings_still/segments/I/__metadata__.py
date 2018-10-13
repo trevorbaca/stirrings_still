@@ -23,6 +23,7 @@ metadata = abjad.OrderedDict(
                 'Viola_Rest_Voice',
                 'Cello_Music_Staff',
                 'Cello_Music_Voice',
+                'Cello_Rest_Voice',
                 ],
             ),
         (
@@ -190,6 +191,7 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     ('Cello_Music_Voice', True),
+                    ('Cello_Rest_Voice', False),
                     ('Viola_Music_Voice', True),
                     ('Viola_Rest_Voice', False),
                     ('Violin_II_Music_Voice', True),

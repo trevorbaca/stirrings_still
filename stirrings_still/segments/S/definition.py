@@ -14,6 +14,7 @@ maker = baca.SegmentMaker(
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
     last_segment=True,
+    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=stirrings_still.time_signatures('S'),
     validate_measure_count=35,
