@@ -225,13 +225,9 @@ maker(
 
 maker(
     ('trio', (1, 16)),
-    baca.text_spanner(
+    baca.pitch_annotation(
         'closely spaced doublestops A, B -|',
-        abjad.tweak('magenta').color,
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=3,
         selector=baca.leaves().rleak(),
         ),
     )
@@ -306,32 +302,20 @@ maker(
 
 maker(
     ('trio', (18, 22)),
-    baca.text_spanner(
+    baca.pitch_annotation(
         'closely spaced doublestops C, D -|',
-        abjad.tweak('magenta').color,
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=3,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
+    baca.pitch_annotation(
         'C, D -|',
-        abjad.tweak('magenta').color,
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=3,
         measures=25,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
+    baca.pitch_annotation(
         'C, D -|',
-        abjad.tweak('magenta').color,
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=3,
         measures=29,
         selector=baca.leaves().rleak(),
         ),
@@ -405,13 +389,9 @@ maker(
 
 maker(
     ('trio', 27),
-    baca.text_spanner(
+    baca.material_annotation(
         'urtext double stop (G.1) -|',
-        abjad.tweak('darkgreen').color,
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=3,
         selector=baca.leaves().rleak(),
         ),
     )
