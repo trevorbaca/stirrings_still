@@ -132,7 +132,7 @@ maker(
 # A.1 - A.4
 
 maker(
-    ('vcx', (1, 9)),
+    ('vcx', (1, 11)),
     baca.tacet(),
     )
 
@@ -220,15 +220,22 @@ maker(
         pieces=baca.omgroups([1, 1]),
         selector=baca.leaves()[2:].rleak(),
         ),
+    baca.text_spanner(
+        'T =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.declamation(protract=True),
     )
 
 maker(
     ('trio', (1, 16)),
-    baca.pitch_annotation(
-        'closely spaced doublestops A, B -|',
+    baca.material_annotation_spanner(
+        'urtext closely spaced doublestops A, B -|',
+        abjad.tweak('darkred').color,
         abjad.tweak(8).staff_padding,
-        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -240,7 +247,42 @@ maker(
 #
 
 maker(
-    ('vc', (11, 40)),
+    ('vc', (12, 26)),
+    baca.dynamic('p'),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+        ),
+    baca.material_annotation_spanner(
+        'urtext field -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.text_spanner(
+        'tasto (T) =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', 27),
+    baca.hairpin(
+        'niente o< f >o !',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.material_annotation_spanner(
+        'clouded pane -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
+        ),
+    stirrings_still.taper((1, 1)),
+    )
+
+maker(
+    ('vc', (28, 40)),
     baca.dynamic('p'),
     baca.hairpin(
         'p >o niente',
@@ -250,7 +292,18 @@ maker(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
         ),
-    baca.markup('tasto'),
+    baca.material_annotation_spanner(
+        'urtext field -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.text_spanner(
+        'T =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -272,6 +325,13 @@ maker(
         baca.repeat_tie_to(),
         baca.breathe(),
         selector=baca.note(-1),
+        ),
+    baca.text_spanner(
+        'T =|',
+        abjad.tweak(5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.declamation(),
     )
@@ -302,22 +362,22 @@ maker(
 
 maker(
     ('trio', (18, 22)),
-    baca.pitch_annotation(
-        'closely spaced doublestops C, D -|',
-        abjad.tweak(8).staff_padding,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.pitch_annotation(
+    baca.material_annotation_spanner(
         'C, D -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.material_annotation_spanner(
+        'C, D -|',
+        abjad.tweak('darkred').color,
         abjad.tweak(8).staff_padding,
         measures=25,
-        selector=baca.leaves().rleak(),
         ),
-    baca.pitch_annotation(
+    baca.material_annotation_spanner(
         'C, D -|',
+        abjad.tweak('darkred').color,
         abjad.tweak(8).staff_padding,
         measures=29,
-        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -355,7 +415,7 @@ maker(
 maker(
     ('trio', 23),
     baca.hairpin(
-        'p -- niente',
+        'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
@@ -371,7 +431,7 @@ maker(
 maker(
     ('trio', 26),
     baca.hairpin(
-        'pp -- niente',
+        'pp -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
@@ -389,10 +449,9 @@ maker(
 
 maker(
     ('trio', 27),
-    baca.material_annotation(
+    baca.material_annotation_spanner(
         'urtext double stop (G.1) -|',
         abjad.tweak(8).staff_padding,
-        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -409,6 +468,11 @@ maker(
 maker(
     ('va', 27),
     stirrings_still.loure_tuplets(-1),
+    )
+
+maker(
+    ('trio', 27),
+    baca.dynamic('mp'),
     )
 
 #
@@ -480,7 +544,7 @@ maker(
 maker(
     ('v1', [(46, 50), 52, 54, 58]),
     baca.hairpin(
-        'p -- niente',
+        'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
@@ -505,7 +569,7 @@ maker(
 maker(
     ('v2', [(46, 50), 52, 54, 58]),
     baca.hairpin(
-        'p -- niente',
+        'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
@@ -530,7 +594,7 @@ maker(
 maker(
     ('va', [(46, 50), 52, 54, 58]),
     baca.hairpin(
-        'p -- niente',
+        'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
@@ -607,11 +671,6 @@ maker(
         'p <| f p < mp',
         pieces=baca.clparts([1]),
         ),
-    baca.markup(
-        'db. st. (A.1)',
-        abjad.tweak('magenta').color,
-        tag='pitch_note',
-        ),
     baca.new(
         baca.breathe(),
         baca.tie_to(),
@@ -622,6 +681,11 @@ maker(
         baca.stop_on_string(),
         selector=baca.note(-1),
         ),
+    baca.material_annotation_spanner(
+        'A, B -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(8).staff_padding,
+        ),
     stirrings_still.declamation(),
     )
 
@@ -631,7 +695,7 @@ maker(
     ('tutti', 62),
     stirrings_still.circles((1, 4)),
     baca.hairpin(
-        'p -- niente',
+        'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
