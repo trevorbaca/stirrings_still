@@ -184,6 +184,7 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
+        ('phantom', True),
         ('segment_name', 'R'),
         ('segment_number', 18),
         (
