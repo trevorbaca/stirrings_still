@@ -64,37 +64,39 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', [1, 3, 7, 11, 13]),
-    baca.markup(
-        'urtext double stop',
-        abjad.tweak('magenta').color,
-        ),
     stirrings_still.loure_tuplets(0),
     )
 
 maker(
     ('v2', [1, 3, 7, 11, 13]),
-    baca.markup(
-        'urtext double stop',
-        abjad.tweak('magenta').color,
-        ),
     stirrings_still.loure_tuplets(1),
     )
 
 maker(
     ('va', [1, 3, 7, 11, 13]),
-    baca.markup(
-        'urtext double stop',
-        abjad.tweak('magenta').color,
-        ),
     stirrings_still.loure_tuplets(-1),
+    )
+
+maker(
+    ('trio', [1, 3, 7, 11, 13]),
+    baca.pitch_annotation_spanner(
+        'urtext double stop -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(5).staff_padding,
+        ),
     )
 
 maker(
     ('vc', [1, 3, 7, 11, 13]),
     baca.hairpin(
         'niente o< f >o niente',
-        pieces=baca.rleaves().partition_by_counts([1, 1, 1]),
-        selector=baca.rleaves(),
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.material_annotation_spanner(
+        'clouded pane -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
         ),
     stirrings_still.taper((1, 1)),
     )
