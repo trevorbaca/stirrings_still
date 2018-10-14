@@ -1,37 +1,3 @@
-O_Global_Rests = {                                                             %! extern
-
-    % [O Global_Rests measure 686 / measure 1]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
-
-    % [O Global_Rests measure 687 / measure 2]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
-
-    % [O Global_Rests measure 688 / measure 3]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
-
-    % [O Global_Rests measure 689 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
-
-    % [O Global_Rests measure 690 / measure 5]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
-
-    % [O Global_Rests measure 691 / measure 6]                                 %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_global_rests
-
-    % [O Global_Rests measure 692 / measure 7]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
-
-    % [O Global_Rests measure 693 / measure 8]                                 %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-very-long-fermata-markup                                           %! baca_global_fermata:GlobalFermataCommand(1)
-
-    % [O Global_Rests measure 694 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
-    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
-
-}                                                                              %! extern
-
-
 O_Global_Skips = {                                                             %! extern
 
     % [O Global_Skips measure 686 / measure 1]                                 %! _comment_measure_numbers
@@ -197,6 +163,40 @@ O_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanCT                                                        %! PHANTOM:_style_phantom_measures(1):CLOCK_TIME_MARKUP
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
+
+}                                                                              %! extern
+
+
+O_Global_Rests = {                                                             %! extern
+
+    % [O Global_Rests measure 686 / measure 1]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests
+
+    % [O Global_Rests measure 687 / measure 2]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests
+
+    % [O Global_Rests measure 688 / measure 3]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests
+
+    % [O Global_Rests measure 689 / measure 4]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests
+
+    % [O Global_Rests measure 690 / measure 5]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests
+
+    % [O Global_Rests measure 691 / measure 6]                                 %! _comment_measure_numbers
+    R1 * 5/4                                                                   %! _make_global_rests
+
+    % [O Global_Rests measure 692 / measure 7]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests
+
+    % [O Global_Rests measure 693 / measure 8]                                 %! _comment_measure_numbers
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    R1 * 1/4                                                                   %! _make_global_rests
+    ^ \baca-very-long-fermata-markup                                           %! baca_global_fermata:GlobalFermataCommand(1)
+
+    % [O Global_Rests measure 694 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
 
@@ -386,12 +386,15 @@ O_Violin_I_Music_Voice = {                                                     %
 }                                                                              %! extern
 
 
-O_Violin_I_Music_Staff = {                                                     %! extern
+O_Violin_I_Music_Staff = <<                                                    %! extern
+
+    \context GlobalRests = "Global_Rests"                                      %! _make_global_context
+    \O_Global_Rests                                                            %! extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
     \O_Violin_I_Music_Voice                                                    %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 O_Violin_II_Music_Voice = {                                                    %! extern

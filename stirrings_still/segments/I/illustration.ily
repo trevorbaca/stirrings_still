@@ -1,44 +1,3 @@
-I_Global_Rests = {                                                             %! extern
-
-    % [I Global_Rests measure 519 / measure 1]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
-
-    % [I Global_Rests measure 520 / measure 2]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
-
-    % [I Global_Rests measure 521 / measure 3]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
-
-    % [I Global_Rests measure 522 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
-
-    % [I Global_Rests measure 523 / measure 5]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
-
-    % [I Global_Rests measure 524 / measure 6]                                 %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_global_rests
-
-    % [I Global_Rests measure 525 / measure 7]                                 %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_global_rests
-
-    % [I Global_Rests measure 526 / measure 8]                                 %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_global_rests
-
-    % [I Global_Rests measure 527 / measure 9]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests
-
-    % [I Global_Rests measure 528 / measure 10]                                %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests
-
-    % [I Global_Rests measure 529 / measure 11]                                %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_global_rests
-
-    % [I Global_Rests measure 530 / measure 12]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
-    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
-
-}                                                                              %! extern
-
-
 I_Global_Skips = {                                                             %! extern
 
     % [I Global_Skips measure 519 / measure 1]                                 %! _comment_measure_numbers
@@ -279,6 +238,47 @@ I_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanCT                                                        %! PHANTOM:_style_phantom_measures(1):CLOCK_TIME_MARKUP
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
+
+}                                                                              %! extern
+
+
+I_Global_Rests = {                                                             %! extern
+
+    % [I Global_Rests measure 519 / measure 1]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests
+
+    % [I Global_Rests measure 520 / measure 2]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests
+
+    % [I Global_Rests measure 521 / measure 3]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests
+
+    % [I Global_Rests measure 522 / measure 4]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests
+
+    % [I Global_Rests measure 523 / measure 5]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests
+
+    % [I Global_Rests measure 524 / measure 6]                                 %! _comment_measure_numbers
+    R1 * 5/4                                                                   %! _make_global_rests
+
+    % [I Global_Rests measure 525 / measure 7]                                 %! _comment_measure_numbers
+    R1 * 3/2                                                                   %! _make_global_rests
+
+    % [I Global_Rests measure 526 / measure 8]                                 %! _comment_measure_numbers
+    R1 * 3/2                                                                   %! _make_global_rests
+
+    % [I Global_Rests measure 527 / measure 9]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests
+
+    % [I Global_Rests measure 528 / measure 10]                                %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests
+
+    % [I Global_Rests measure 529 / measure 11]                                %! _comment_measure_numbers
+    R1 * 5/4                                                                   %! _make_global_rests
+
+    % [I Global_Rests measure 530 / measure 12]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
 
@@ -686,12 +686,15 @@ I_Violin_I_Music_Voice = {                                                     %
 }                                                                              %! extern
 
 
-I_Violin_I_Music_Staff = {                                                     %! extern
+I_Violin_I_Music_Staff = <<                                                    %! extern
+
+    \context GlobalRests = "Global_Rests"                                      %! _make_global_context
+    \I_Global_Rests                                                            %! extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
     \I_Violin_I_Music_Voice                                                    %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 I_Violin_II_Music_Voice = {                                                    %! extern
