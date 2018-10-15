@@ -238,13 +238,17 @@ maker(
 
 maker(
     ('v2', (9, 10)),
-    baca.hairpin('mp > p', selector=baca.rleaves()),
+    baca.hairpin(
+        'mp > p',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
     ('v2', (11, 14)),
     stirrings_still.glissando_interpolation(
-        'F4', 'Ab4', selector=baca.rleaves(),
+        'F4', 'Ab4',
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -282,13 +286,15 @@ maker(
     (['v1', 'va'], (7, 14)),
     baca.new(
         stirrings_still.glissando_interpolation(
-            'Gb4', 'Bb4', selector=baca.rleaves(),
+            'Gb4', 'Bb4',
+            selector=baca.leaves().rleak(),
             ),
         match=0,
         ),
     baca.new(
         stirrings_still.glissando_interpolation(
-            'Ab3', 'B3', selector=baca.rleaves(),
+            'Ab3', 'B3',
+            selector=baca.leaves().rleak(),
             ),
         match=1,
         ),
@@ -356,30 +362,42 @@ maker(
 
 maker(
     ('vc', (9, 12)),
-    baca.hairpin('mp < f', selector=baca.rleaves()),
+    baca.hairpin(
+        'mp < f',
+        selector=baca.leaves().rleak(),
+        ),
     baca.markup(
         'poco overpressure',
-        selector=baca.rleaves()[-1],
+        selector=baca.leaves().rleak()[-1],
         ),
     )
 
 maker(
     ('vc', (15, 16)),
-    baca.hairpin('f < ff', selector=baca.rleaves()),
+    baca.hairpin(
+        'f < ff',
+        selector=baca.leaves().rleak(),
+        ),
     baca.markup(
         'molto overpressure',
-        selector=baca.rleaves()[-1],
+        selector=baca.leaves().rleak()[-1],
         ),
     )
 
 maker(
     ('vc', (23, 27)),
-    baca.hairpin('ff > ppp', selector=baca.rleaves()),
+    baca.hairpin(
+        'ff > ppp',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
     (['v1', 'v2', 'va'], (15, 16)),
-    baca.hairpin('p >o niente', selector=baca.rleaves()),
+    baca.hairpin(
+        'p >o niente',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -547,7 +565,10 @@ maker(
     ('vc', (37, 45)),
     baca.dynamic('ppp'),
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
-    stirrings_still.glissando_interpolation('Gb2', 'E2', selector=baca.rleaves()),
+    stirrings_still.glissando_interpolation(
+        'Gb2', 'E2',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -602,7 +623,10 @@ maker(
 
 maker(
     ('vc', (46, 49)),
-    baca.hairpin('ppp < p', selector=baca.rleaves()),
+    baca.hairpin(
+        'ppp < p',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(

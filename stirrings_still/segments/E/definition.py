@@ -406,7 +406,7 @@ maker(
         ),
     baca.new(
         baca.hairpin(
-            'pp -- niente',
+            'pp -- !',
             ),
         baca.text_spanner(
             'XFB -|',
@@ -466,7 +466,7 @@ maker(
     baca.hairpin(
         '"ff" > p',
         measures=(63, 70),
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     baca.suite(
         baca.tuplet_bracket_down(),
@@ -491,7 +491,7 @@ maker(
     baca.hairpin(
         '"ff" > p',
         measures=(63, 70),
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     baca.suite(
         baca.tuplet_bracket_down(),
@@ -517,7 +517,7 @@ maker(
     baca.hairpin(
         '"ff" > p',
         measures=(63, 70),
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     baca.suite(
         baca.tuplet_bracket_down(),
@@ -1032,7 +1032,7 @@ maker(
     baca.hairpin(
         'p >o niente',
         measures=(116, 119),
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     baca.new(
         stirrings_still.talea_eighths([3, 6, 8], 0, 1),
