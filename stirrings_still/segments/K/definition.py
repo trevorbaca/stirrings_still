@@ -573,7 +573,10 @@ maker(
     baca.staff_position(0),
     baca.suite(
         baca.staff_lines(1),
-        baca.staff_lines(5, selector=baca.rleaves()[-1:]),
+        baca.staff_lines(
+            5,
+            selector=baca.leaves().rleak()[-1:],
+            ),
         ),
     stirrings_still.glissando_without_ties(
         (abjad.tweak(1.25).bound_details__right__padding, -1),

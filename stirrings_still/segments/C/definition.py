@@ -161,8 +161,8 @@ maker(
     baca.markup('[clouded pane (stopped)]'),
     baca.hairpin(
         'niente o< f >o niente',
-        pieces=baca.rleaves().partition_by_counts([1, 1, 1]),
-        selector=baca.rleaves(),
+        pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.taper((1, 1)),
     )

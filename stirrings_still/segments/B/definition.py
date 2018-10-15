@@ -291,7 +291,10 @@ maker(
         abjad.tweak('magenta').color,
         ),
     baca.new(
-        baca.hairpin('niente o< f', selector=baca.rleaves()),
+        baca.hairpin(
+            'niente o< f',
+            selector=baca.leaves().rleak(),
+            ),
         measures=(6, 9),
         ),
     baca.note_head_style_harmonic(),
@@ -449,7 +452,7 @@ maker(
     baca.new(
         baca.hairpin(
             'p >o niente',
-            selector=baca.rleaves(),
+            selector=baca.leaves().rleak(),
             ),
         measures=(20, 21),
         ),
@@ -885,7 +888,7 @@ maker(
     ('tutti', (61, 62)),
     baca.hairpin(
         'ppp >o niente',
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     )
 

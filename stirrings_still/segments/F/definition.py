@@ -50,7 +50,7 @@ maker(
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
             pieces=baca.cmgroups([1, 2, 1, 2, 1, 1]),
-            selector=baca.rleaves(),
+            selector=baca.leaves().rleak(),
             ),
         match=0,
         ),
@@ -60,7 +60,7 @@ maker(
             pieces=baca.cmgroups([1, 2, 1, 2, 1, 1]),
             # TODO: make this selector work:
             #pieces=baca.cmgroups([2, 1, 2, 1, 1, 1]),
-            selector=baca.rleaves(),
+            selector=baca.leaves().rleak(),
             ),
         match=1,
         ),
@@ -73,7 +73,7 @@ maker(
         baca.hairpin(
             'pp < ff ff >o niente',
             pieces=baca.cmgroups([1, 6, 1, 1]),
-            selector=baca.rleaves(),
+            selector=baca.leaves().rleak(),
             ),
         match=2,
         ),

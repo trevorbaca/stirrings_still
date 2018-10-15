@@ -451,6 +451,7 @@ maker(
     ('trio', 27),
     baca.material_annotation_spanner(
         'urtext double stop (G.1) -|',
+        abjad.tweak('darkred').color,
         abjad.tweak(8).staff_padding,
         ),
     )

@@ -2155,6 +2155,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext double stop (G.1)"                  %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_text_spanner:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
 
@@ -3743,6 +3744,7 @@ A_Violin_II_Music_Voice = {                                                    %
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "urtext double stop (G.1)"              %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! MATERIAL:baca_text_spanner:PiecewiseCommand(1):autodetect
+        - \tweak color #darkred                                                %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
 
@@ -5204,6 +5206,7 @@ A_Viola_Music_Voice = {                                                        %
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "urtext double stop (G.1)"              %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! MATERIAL:baca_text_spanner:PiecewiseCommand(1):autodetect
+        - \tweak color #darkred                                                %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_text_spanner:PiecewiseCommand(1)
 
