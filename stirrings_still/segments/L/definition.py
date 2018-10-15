@@ -82,37 +82,21 @@ maker(
             selector=baca.leaves().rleak(),
             ),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(1, 2),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(4, 6),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(8, 10),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(12, 14),
-        selector=baca.leaves().rleak(),
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.trajectories(
@@ -166,37 +150,21 @@ maker(
             selector=baca.leaves().rleak(),
             ),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(1, 2),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(4, 6),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(8, 10),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(12, 14),
-        selector=baca.leaves().rleak(),
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.trajectories(
@@ -250,37 +218,21 @@ maker(
             selector=baca.leaves().rleak(),
             ),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(1, 2),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(4, 6),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(8, 10),
-        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         measures=(12, 14),
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.trajectories(
         'C',

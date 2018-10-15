@@ -162,23 +162,17 @@ maker(
         'p <| f p < mp',
         pieces=baca.clparts([1]),
         ),
-    baca.text_spanner(
+    baca.scp_spanner(
         'tasto (T) =|',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('trio', [3, (5, 6), (8, 9)]),
-    baca.text_spanner(
+    baca.scp_spanner(
         'T =|',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -220,12 +214,9 @@ maker(
         pieces=baca.omgroups([1, 1]),
         selector=baca.leaves()[2:].rleak(),
         ),
-    baca.text_spanner(
+    baca.scp_spanner(
         'T =|',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.declamation(protract=True),
     )
@@ -257,12 +248,9 @@ maker(
         abjad.tweak('darkred').color,
         abjad.tweak(8).staff_padding,
         ),
-    baca.text_spanner(
+    baca.scp_spanner(
         'tasto (T) =|',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -297,12 +285,9 @@ maker(
         abjad.tweak('darkred').color,
         abjad.tweak(8).staff_padding,
         ),
-    baca.text_spanner(
+    baca.scp_spanner(
         'T =|',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -326,12 +311,9 @@ maker(
         baca.breathe(),
         selector=baca.note(-1),
         ),
-    baca.text_spanner(
+    baca.scp_spanner(
         'T =|',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.declamation(),
     )
@@ -419,12 +401,9 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-circle-mod-width-markup =|',
+    baca.circle_bow_spanner(
+        'mod-width',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -435,13 +414,11 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
+    baca.circle_bow_spanner(
         r'\baca-circle-wide-markup =|',
         # manual padding because spanner ends at espressivo
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -480,13 +457,11 @@ maker(
 
 maker(
     ('trio', (30, 45)),
-    baca.text_spanner(
-        r'\baca-circle-very-wide-markup =|',
+    baca.circle_bow_spanner(
+        'very-wide',
         # manual padding because spanner ends at end-of-system
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -513,12 +488,8 @@ maker(
         'niente o< "f"',
         pieces=baca.omgroups(),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(12).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner_staff_padding(7),
     stirrings_still.cello_cell(),
@@ -528,12 +499,8 @@ maker(
 maker(
     ('vc', 48),
     baca.dynamic('"f"'),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(12).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner_staff_padding(7),
     stirrings_still.cello_cell(),
@@ -549,20 +516,12 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-circle-tight-markup =|',
+    baca.circle_bow_spanner(
+        'tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [1]),
     )
@@ -574,20 +533,12 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-circle-tight-markup =|',
+    baca.circle_bow_spanner(
+        'tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [0]),
     )
@@ -599,20 +550,12 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-circle-tight-markup =|',
+    baca.circle_bow_spanner(
+        'tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [2]),
     )
@@ -624,20 +567,12 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-circle-tight-markup =|',
+    baca.circle_bow_spanner(
+        'tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [-1]),
     )
@@ -700,20 +635,12 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
-    baca.text_spanner(
-        r'\baca-circle-very-tight-markup =|',
+    baca.circle_bow_spanner(
+        'very-tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     )
 

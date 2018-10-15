@@ -58,12 +58,8 @@ maker(
             clt=True,
             ),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.tleaves().rleak(),
         ),
     stirrings_still.trajectories('C', 0, -3),
     )
@@ -96,12 +92,8 @@ maker(
             clt=True,
             ),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.tleaves().rleak(),
         ),
     stirrings_still.trajectories('C', -1, -2),
     )

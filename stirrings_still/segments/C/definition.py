@@ -124,12 +124,8 @@ maker(
         ),
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -188,12 +184,8 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -216,13 +208,8 @@ maker(
         stirrings_still.desynchronization(4, [-1], rests=True),
         match=3,
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         'max. tight cir. -> 1-2˝ circles =|',
@@ -253,13 +240,8 @@ maker(
         stirrings_still.desynchronization(4, [-1], rests=True),
         match=3,
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         '1-2˝ circles -> 2-4˝ circles =|',
@@ -290,13 +272,8 @@ maker(
         stirrings_still.desynchronization(4, [-1], rests=([2], 3)),
         match=3,
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         '2-4˝ circles -> 4-8˝ circles =|',
@@ -327,13 +304,8 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         '8˝ circles =|',
@@ -369,12 +341,11 @@ maker(
     ('v2', (28, 29)),
     baca.dynamic('mp'),
     baca.markup('[clockticks]'),
-    baca.text_spanner(
-        r'\baca-damp-half-clt-markup =|',
+    baca.damp_spanner(
+        abjad.tweak(10).staff_padding,
+        ),
+    baca.half_clt_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.clockticks(),
     )
@@ -386,13 +357,8 @@ maker(
         'mf > pp',
         selector=baca.tleaves(),
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         '8˝ circles =|',

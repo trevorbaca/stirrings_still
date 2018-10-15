@@ -69,14 +69,12 @@ maker(
 maker(
     ('v2', 3),
     baca.dynamic('mp'),
-    baca.text_spanner(
-        r'\baca-damp-half-clt-markup =|',
-        abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
+    baca.damp_spanner(
+        abjad.tweak(10).staff_padding,
         ),
-    baca.text_spanner_staff_padding(5),
+    baca.half_clt_spanner(
+        abjad.tweak(7).staff_padding,
+        ),
     stirrings_still.clockticks(),
     )
 

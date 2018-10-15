@@ -80,23 +80,17 @@ maker(
 
 maker(
     (['v1', 'v2'], (1, 7)),
-    baca.text_spanner(
-        r'\baca-circle-wide-markup =|',
+    baca.circle_bow_spanner(
+        'wide',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.tleaves().rleak(),
         ),
     )
 
 maker(
     ('va', (1, 7)),
-    baca.text_spanner(
-        r'\baca-circle-wide-poss-markup =|',
+    baca.circle_bow_spanner(
+        'wide-poss',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.tleaves().rleak(),
         ),
     )
 
@@ -129,13 +123,8 @@ maker(
         'p < "f" "f" >o niente',
         pieces=baca.cmgroups([5, 4, 2]),
         ),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(12).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves(),
         ),
     )
 

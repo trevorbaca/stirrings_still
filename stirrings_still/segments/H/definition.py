@@ -111,12 +111,9 @@ maker(
         'golden tone',
         abjad.tweak(2).staff_padding,
         ),
-    baca.text_spanner(
-        r'\baca-circle-wide-markup =|',
+    baca.circle_bow_spanner(
+        'wide',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 8)),
     )
@@ -133,12 +130,9 @@ maker(
         'golden tone',
         abjad.tweak(2).staff_padding,
         ),
-    baca.text_spanner(
-        r'\baca-circle-very-wide-markup =|',
+    baca.circle_bow_spanner(
+        'very-wide',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 2)),
     )
@@ -147,12 +141,8 @@ maker(
     ('vc', 6),
     baca.dynamic('p'),
     baca.script_staff_padding(7),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(10).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     baca.tuplet_bracket_staff_padding(1),
     baca.tuplet_bracket_down(),
@@ -414,12 +404,9 @@ maker(
         stirrings_still.pickets(4, 0, dmask=baca.silence_first()),
         match=2,
         ),
-    baca.text_spanner(
-        r'\baca-circle-wide-markup =|',
+    baca.circle_bow_spanner(
+        'wide',
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -466,14 +453,12 @@ maker(
     ('v2', 33),
     baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
-    baca.text_spanner(
-        r'\baca-damp-half-clt-markup =|',
-        abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
+    baca.damp_spanner(
+        abjad.tweak(10).staff_padding,
         ),
-    baca.text_spanner_staff_padding(7),
+    baca.half_clt_spanner(
+        abjad.tweak(7).staff_padding,
+        ),
     baca.tuplet_bracket_staff_padding(2),
     baca.tuplet_number_denominator(),
     stirrings_still.clockticks(),
@@ -610,12 +595,8 @@ maker(
         ),
     baca.pitch('E2'),
     baca.text_script_staff_padding(11),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.glissando_without_ties(),
     stirrings_still.trajectories('A', -1, 0),
