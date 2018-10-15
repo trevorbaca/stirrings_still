@@ -379,10 +379,10 @@ SEGMENTS
 
     [B.1] (1-4)
     (4 measures)
-    adagio governs stage;
-    tutti clockticks begin:
-        damped lh continues;
-        1/2 clt begins;
+    adagio;
+    tutti clockticks (begin):
+        damped lh;
+        1/2 clt;
         subito mp;
         v1: intermittently conflicting rhythm governs stage;
         v2, va, vc: regular homorhythm begins;
