@@ -253,9 +253,10 @@ maker(
 maker(
     ('vc', (6, 11)),
     baca.breathe(),
-    baca.markup(
-        baca.markups.lines(['obverse harm.:', 'overpressure']),
-        abjad.tweak('magenta').color,
+    baca.material_annotation_spanner(
+        'clouded pane (overpressure obverse harm.) -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
         ),
     baca.new(
         baca.hairpin(
@@ -613,11 +614,11 @@ maker(
     ('tutti', (29, 30)),
     baca.new(
         baca.hairpin(
-            'ppp < mp',
-            bookend=False,
+            'ppp < mp -- !',
+            abjad.tweak(True).to_barline,
             ),
         baca.scp_spanner(
-            'tasto -> ord =|',
+            'T -> ord. =|',
             abjad.tweak(10).staff_padding,
             ),
         pieces=baca.mgroups([1, 2]),
@@ -634,13 +635,15 @@ maker(
     ('tutti', (34, 35)),
     baca.new(
         baca.hairpin(
-            'pp < mf',
+            'pp < mf -- !',
+            abjad.tweak(True).to_barline,
             ),
-        baca.text_spanner(
-            'tasto -> poco pont.',
+        baca.scp_spanner(
+            'T -> poco P =|',
             abjad.tweak(10).staff_padding,
             ),
-        selector=baca.mleaves(1).rleak().rleak(),
+        pieces=baca.mgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -648,13 +651,15 @@ maker(
     ('tutti', (37, 38)),
     baca.new(
         baca.hairpin(
-            'p < f',
+            'p < f -- !',
+            abjad.tweak(True).to_barline,
             ),
-        baca.text_spanner(
-            'tasto -> pont. mod.',
+        baca.scp_spanner(
+            'T -> P =|',
             abjad.tweak(10).staff_padding,
             ),
-        selector=baca.mleaves(1).rleak().rleak(),
+        pieces=baca.mgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -662,13 +667,14 @@ maker(
     ('tutti', (40, 41)),
     baca.new(
         baca.hairpin(
-            'mp < ff',
+            'mp < ff -- !',
             ),
-        baca.text_spanner(
-            'tasto -> pont. molto',
+        baca.scp_spanner(
+            'T -> P molto =|',
             abjad.tweak(10).staff_padding,
             ),
-        selector=baca.mleaves(1).rleak().rleak(),
+        pieces=baca.mgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -690,39 +696,50 @@ maker(
     ('tutti', 44),
     baca.new(
         baca.hairpin(
-            'mf < ff',
+            'mf < ff -- !',
+            abjad.tweak(True).to_barline,
             ),
-        baca.text_spanner(
-            'tasto -> pont. molto',
+        baca.scp_spanner(
+            'T -> P molto =|',
             abjad.tweak(10).staff_padding,
             ),
-        selector=baca.leaves()[:-1],
+        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('vc', 45),
     baca.dynamic('p'),
-    baca.markup(
-        'clouded pane',
-        abjad.tweak('magenta').color,
+    baca.material_annotation_spanner(
+        'clouded pane -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
         ),
     stirrings_still.clouded_pane(),
     )
 
 maker(
     ('tutti', 46),
-    baca.dynamic('fff'),
-    baca.markup('pont. poss.'),
+    baca.hairpin(
+        'fff -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'P poss. =|',
+        abjad.tweak(10).staff_padding,
+        ),
     )
 
 maker(
     ('trio', 48),
     baca.dynamic('p'),
     baca.markup('tasto'),
-    baca.markup(
-        baca.markups.lines(['urtext flight:', 'dense double stops']),
-        abjad.tweak('darkgreen').color,
+    baca.material_annotation_spanner(
+        'urt. (dds) -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(5).staff_padding,
         ),
     baca.stem_tremolo(),
     stirrings_still.urtext_field(),
@@ -731,25 +748,76 @@ maker(
 maker(
     ('vc', 48),
     baca.dynamic('p'),
-    baca.markup(
-        'clouded pane',
-        abjad.tweak('magenta').color,
+    baca.material_annotation_spanner(
+        'clouded pane -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
         ),
     stirrings_still.clouded_pane(),
     )
 
 maker(
-    ('tutti', (50, 57)),
+    ('v1', (50, 60)),
     baca.new(
         baca.hairpin(
-            'fff -- ff-sub > ppp',
+            'fff -- ff > ppp --',
+            bookend=False,
             ),
-        baca.text_spanner(
-            'pont. poss. || pont. molto -> tasto',
+        baca.scp_spanner(
+            'P poss. -> P molto -> T =|',
             abjad.tweak(10).staff_padding,
             ),
-        bookend=False,
-        pieces=baca.mgroups([2, 4, 2]),
+        pieces=baca.mgroups([2, 4, 5 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v2', (50, 57)),
+    baca.new(
+        baca.hairpin(
+            'fff -- ff > ppp --',
+            bookend=False,
+            ),
+        baca.scp_spanner(
+            'P poss. -> P molto -> T =|',
+            abjad.tweak(10).staff_padding,
+            ),
+        pieces=baca.mgroups([2, 4, 2 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('va', (50, 59)),
+    baca.new(
+        baca.hairpin(
+            'fff -- ff > ppp --',
+            bookend=False,
+            ),
+        baca.scp_spanner(
+            'P poss. -> P molto -> T =|',
+            abjad.tweak(10).staff_padding,
+            ),
+        pieces=baca.mgroups([2, 4, 4 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', (50, 60)),
+    baca.new(
+        baca.hairpin(
+            'fff -- ff > ppp --',
+            bookend=False,
+            ),
+        baca.scp_spanner(
+            'P poss. -> P molto -> T =|',
+            abjad.tweak(10).staff_padding,
+            measures=(50, 61),
+            ),
+        pieces=baca.mgroups([2, 4, 5 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -820,16 +888,17 @@ maker(
 maker(
     ('tutti', (61, 62)),
     baca.hairpin(
-        'ppp >o niente',
+        '>o niente',
         selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('trio', 64),
-    baca.markup(
-        baca.markups.lines(['urtext flight:', 'dense double stops']),
-        abjad.tweak('darkgreen').color,
+    baca.material_annotation_spanner(
+        'urt. (dds) -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(5).staff_padding,
         ),
     baca.suite(
         baca.new(
@@ -857,29 +926,39 @@ maker(
 maker(
     ('vc', 64),
     baca.dynamic('p'),
-    baca.markup(
-        'clouded pane',
-        abjad.tweak('magenta').color,
+    baca.material_annotation_spanner(
+        'clouded pane -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
         ),
     stirrings_still.clouded_pane(),
     )
 
 maker(
     ('tutti', 65),
-    baca.dynamic('mp-sub'),
     baca.new(
+        baca.dynamic(
+            'mp-sub',
+            abjad.tweak(-0.75).self_alignment_X,
+            ),
         stirrings_still.grid(1, 0),
         match=0,
         ),
     baca.new(
+        baca.dynamic('mp-sub'),
         stirrings_still.grid(1, -1),
         match=1,
         ),
     baca.new(
+        baca.dynamic(
+            'mp-sub',
+            abjad.tweak(-0.75).self_alignment_X,
+            ),
         stirrings_still.grid(1, -2),
         match=2,
         ),
     baca.new(
+        baca.dynamic('mp-sub'),
         stirrings_still.grid(1, -3),
         match=3,
         ),
