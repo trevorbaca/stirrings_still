@@ -2215,11 +2215,11 @@ D_Violin_I_Music_Voice = {                                                     %
     c'4                                                                        %! stirrings_still_strokes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #5.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #5.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
@@ -2611,7 +2611,7 @@ D_Violin_I_Music_Voice = {                                                     %
             % [D Violin_I_Music_Voice measure 243 / measure 37]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3000,11 +3000,11 @@ D_Violin_I_Music_Voice = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
@@ -3115,7 +3115,7 @@ D_Violin_I_Music_Voice = {                                                     %
             % [D Violin_I_Music_Voice measure 270 / measure 64]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3619,11 +3619,11 @@ D_Violin_II_Music_Voice = {                                                    %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #5.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #5.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -4094,7 +4094,7 @@ D_Violin_II_Music_Voice = {                                                    %
             % [D Violin_II_Music_Voice measure 243 / measure 37]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4474,11 +4474,11 @@ D_Violin_II_Music_Voice = {                                                    %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
@@ -4589,7 +4589,7 @@ D_Violin_II_Music_Voice = {                                                    %
             % [D Violin_II_Music_Voice measure 270 / measure 64]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5091,11 +5091,11 @@ D_Viola_Music_Voice = {                                                        %
     c'4.                                                                       %! stirrings_still_strokes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #5.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #5.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \once \override NoteHead.transparent = ##t                                 %! baca_note_head_transparent:OverrideCommand(1)
     \once \override NoteHead.X-extent = #'(0 . 0)                              %! baca_note_head_x_extent_zero:OverrideCommand(1)
@@ -5569,7 +5569,7 @@ D_Viola_Music_Voice = {                                                        %
             % [D Viola_Music_Voice measure 243 / measure 37]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5916,11 +5916,11 @@ D_Viola_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
@@ -6031,7 +6031,7 @@ D_Viola_Music_Voice = {                                                        %
             % [D Viola_Music_Voice measure 270 / measure 64]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6532,11 +6532,11 @@ D_Cello_Music_Voice = {                                                        %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #5.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #5.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -7006,7 +7006,7 @@ D_Cello_Music_Voice = {                                                        %
             % [D Cello_Music_Voice measure 243 / measure 37]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -7032,11 +7032,11 @@ D_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #11                                             %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #11                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
@@ -7092,7 +7092,7 @@ D_Cello_Music_Voice = {                                                        %
             % [D Cello_Music_Voice measure 245 / measure 39]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -7329,11 +7329,11 @@ D_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
     \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
@@ -7444,7 +7444,7 @@ D_Cello_Music_Voice = {                                                        %
             % [D Cello_Music_Voice measure 270 / measure 64]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 

@@ -224,11 +224,11 @@ O_Violin_I_Music_Voice = {                                                     %
             \box                                                               %! baca_markup:IndicatorCommand
                 "circles so tight that primary effect is granulation"          %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-ext-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-ext-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -311,12 +311,12 @@ O_Violin_I_Music_Voice = {                                                     %
         c'4                                                                    %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-scratch-markup           %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-scratch-markup           %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -343,7 +343,7 @@ O_Violin_I_Music_Voice = {                                                     %
             % [O Violin_I_Music_Voice measure 693 / measure 8]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -420,11 +420,11 @@ O_Violin_II_Music_Voice = {                                                    %
             \box                                                               %! baca_markup:IndicatorCommand
                 "circles so tight that primary effect is granulation"          %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-ext-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-ext-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -507,12 +507,12 @@ O_Violin_II_Music_Voice = {                                                    %
         c'4                                                                    %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-scratch-markup           %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-scratch-markup           %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -536,7 +536,7 @@ O_Violin_II_Music_Voice = {                                                    %
             % [O Violin_II_Music_Voice measure 693 / measure 8]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -614,11 +614,11 @@ O_Viola_Music_Voice = {                                                        %
             \box                                                               %! baca_markup:IndicatorCommand
                 "circles so tight that primary effect is granulation"          %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-ext-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-ext-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -699,12 +699,12 @@ O_Viola_Music_Voice = {                                                        %
     c'4                                                                        %! stirrings_still_pickets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-scratch-markup               %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-scratch-markup               %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
@@ -723,7 +723,7 @@ O_Viola_Music_Voice = {                                                        %
             % [O Viola_Music_Voice measure 693 / measure 8]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -797,11 +797,11 @@ O_Cello_Music_Voice = {                                                        %
             \box                                                               %! baca_markup:IndicatorCommand
                 "circles so tight that primary effect is granulation"          %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-ext-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-ext-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -882,7 +882,7 @@ O_Cello_Music_Voice = {                                                        %
     c'1                                                                        %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
 
     <<                                                                         %! _make_multimeasure_rest_container
 

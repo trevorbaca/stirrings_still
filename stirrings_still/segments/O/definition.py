@@ -51,12 +51,9 @@ maker(
         abjad.tweak(8).staff_padding,
         boxed=True,
         ),
-    baca.text_spanner(
-        r'\baca-circle-ext-tight-markup =|',
+    baca.circle_bow_spanner(
+        'ext-tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -64,12 +61,9 @@ maker(
 maker(
     ('v1', 7),
     baca.dynamic('ff'),
-    baca.text_spanner(
-        r'\baca-circle-scratch-markup =|',
+    baca.circle_bow_spanner(
+        'scratch',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.pickets(4, 2),
     )
@@ -84,12 +78,9 @@ maker(
         abjad.tweak(8).staff_padding,
         boxed=True,
         ),
-    baca.text_spanner(
-        r'\baca-circle-ext-tight-markup =|',
+    baca.circle_bow_spanner(
+        'ext-tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -97,12 +88,9 @@ maker(
 maker(
     ('v2', 7),
     baca.dynamic('ff'),
-    baca.text_spanner(
-        r'\baca-circle-scratch-markup =|',
+    baca.circle_bow_spanner(
+        'scratch',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.pickets(4, 1),
     )
@@ -117,12 +105,9 @@ maker(
         abjad.tweak(8).staff_padding,
         boxed=True,
         ),
-    baca.text_spanner(
-        r'\baca-circle-ext-tight-markup =|',
+    baca.circle_bow_spanner(
+        'ext-tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -130,12 +115,9 @@ maker(
 maker(
     ('va', 7),
     baca.dynamic('ff'),
-    baca.text_spanner(
-        r'\baca-circle-scratch-markup =|',
+    baca.circle_bow_spanner(
+        'scratch',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.pickets(4, 0),
     )
@@ -150,12 +132,9 @@ maker(
         abjad.tweak(8).staff_padding,
         boxed=True,
         ),
-    baca.text_spanner(
-        r'\baca-circle-ext-tight-markup =|',
+    baca.circle_bow_spanner(
+        'ext-tight',
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )

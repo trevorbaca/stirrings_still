@@ -587,16 +587,20 @@ J_Violin_II_Music_Voice = {                                                    %
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         % [J Violin_II_Music_Voice measure 532 / measure 3]                    %! _comment_measure_numbers
-        \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #10                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         r4                                                                     %! stirrings_still_clockticks
 
@@ -617,7 +621,6 @@ J_Violin_II_Music_Voice = {                                                    %
         c'8                                                                    %! stirrings_still_clockticks
 
         r4                                                                     %! stirrings_still_clockticks
-        \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_clockticks
 
@@ -631,7 +634,8 @@ J_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
     % [J Violin_II_Music_Voice measure 534 / measure 5]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes

@@ -2778,16 +2778,16 @@ E_Violin_I_Music_Voice = {                                                     %
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #9                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #6.5                                                %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2811,8 +2811,8 @@ E_Violin_I_Music_Voice = {                                                     %
             % [E Violin_I_Music_Voice measure 308 / measure 3]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2841,11 +2841,11 @@ E_Violin_I_Music_Voice = {                                                     %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -2874,17 +2874,17 @@ E_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \sfp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanTwo                                                      %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'1                                                                    %! stirrings_still_grid_to_trajectory
@@ -3272,7 +3272,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \sfp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_measure_initation
@@ -3827,7 +3827,7 @@ E_Violin_I_Music_Voice = {                                                     %
             % [E Violin_I_Music_Voice measure 346 / measure 41]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanTwo                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3849,16 +3849,16 @@ E_Violin_I_Music_Voice = {                                                     %
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -4020,8 +4020,8 @@ E_Violin_I_Music_Voice = {                                                     %
         ^ \markup { \stirrings-still-molto-scratch-on-slow-strokes }           %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
@@ -4386,11 +4386,11 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-effort-fff                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #9                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #9                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4551,7 +4551,7 @@ E_Violin_I_Music_Voice = {                                                     %
             % [E Violin_I_Music_Voice measure 367 / measure 62]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5429,10 +5429,10 @@ E_Violin_I_Music_Voice = {                                                     %
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_talea_eighths
@@ -5441,11 +5441,11 @@ E_Violin_I_Music_Voice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -5466,11 +5466,11 @@ E_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -5490,11 +5490,11 @@ E_Violin_I_Music_Voice = {                                                     %
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_talea_eighths
@@ -5503,11 +5503,11 @@ E_Violin_I_Music_Voice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -5528,21 +5528,25 @@ E_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "P"                                    %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "T"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -5554,6 +5558,7 @@ E_Violin_I_Music_Voice = {                                                     %
             % [E Violin_I_Music_Voice measure 391 / measure 86]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5578,27 +5583,24 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "P"                                    %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -5616,7 +5618,14 @@ E_Violin_I_Music_Voice = {                                                     %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "T"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -5628,17 +5637,18 @@ E_Violin_I_Music_Voice = {                                                     %
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -5800,8 +5810,8 @@ E_Violin_I_Music_Voice = {                                                     %
         ^ \markup { \stirrings-still-molto-scratch-on-slow-strokes }           %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
@@ -6177,11 +6187,11 @@ E_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_trajectories
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #9                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #9                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -6340,28 +6350,25 @@ E_Violin_I_Music_Voice = {                                                     %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "P"                                    %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_talea_eighths
@@ -6382,7 +6389,14 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "T"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -6394,7 +6408,8 @@ E_Violin_I_Music_Voice = {                                                     %
             % [E Violin_I_Music_Voice measure 416 / measure 111]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6415,24 +6430,24 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -6448,11 +6463,11 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -6468,11 +6483,11 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -6488,11 +6503,11 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -6506,11 +6521,11 @@ E_Violin_I_Music_Voice = {                                                     %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_talea_eighths
     \times 5/4 {                                                               %! stirrings_still_talea_eighths
@@ -6519,20 +6534,20 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -6548,14 +6563,11 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "T"                                    %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -6571,7 +6583,14 @@ E_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "P"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -6585,7 +6604,8 @@ E_Violin_I_Music_Voice = {                                                     %
             c'1 * 1                                                            %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6680,16 +6700,16 @@ E_Violin_II_Music_Voice = {                                                    %
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #9                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #6.5                                                %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -6713,8 +6733,8 @@ E_Violin_II_Music_Voice = {                                                    %
             % [E Violin_II_Music_Voice measure 308 / measure 3]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6743,11 +6763,11 @@ E_Violin_II_Music_Voice = {                                                    %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #abjad-flared-hairpin                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -6773,17 +6793,17 @@ E_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \sfp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanTwo                                                      %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2..                                                                  %! stirrings_still_grid_to_trajectory
@@ -6860,7 +6880,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \sfp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_grid_to_trajectory
 
@@ -6885,11 +6905,11 @@ E_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_grid_to_trajectory
 
@@ -6945,7 +6965,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \sfp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_grid_to_trajectory
@@ -6959,11 +6979,11 @@ E_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_grid_to_trajectory
 
@@ -7011,7 +7031,7 @@ E_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-hook                                          %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "XFB"                                   %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -7644,7 +7664,7 @@ E_Violin_II_Music_Voice = {                                                    %
             % [E Violin_II_Music_Voice measure 346 / measure 41]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanTwo                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -7666,16 +7686,16 @@ E_Violin_II_Music_Voice = {                                                    %
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -7897,8 +7917,8 @@ E_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
@@ -8097,11 +8117,11 @@ E_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #9                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
     \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -8265,7 +8285,7 @@ E_Violin_II_Music_Voice = {                                                    %
             % [E Violin_II_Music_Voice measure 367 / measure 62]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -9227,10 +9247,10 @@ E_Violin_II_Music_Voice = {                                                    %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 388 / measure 83]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -9240,11 +9260,11 @@ E_Violin_II_Music_Voice = {                                                    %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 389 / measure 84]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -9260,11 +9280,11 @@ E_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_talea_eighths
@@ -9273,11 +9293,11 @@ E_Violin_II_Music_Voice = {                                                    %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 390 / measure 85]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -9292,14 +9312,11 @@ E_Violin_II_Music_Voice = {                                                    %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "T"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_talea_eighths
@@ -9312,8 +9329,15 @@ E_Violin_II_Music_Voice = {                                                    %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_talea_eighths
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "P"                                        %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -9323,6 +9347,7 @@ E_Violin_II_Music_Voice = {                                                    %
             % [E Violin_II_Music_Voice measure 391 / measure 86]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -9344,18 +9369,15 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "T"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #7.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 393 / measure 88]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -9363,7 +9385,14 @@ E_Violin_II_Music_Voice = {                                                    %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "P"                                        %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
@@ -9373,17 +9402,18 @@ E_Violin_II_Music_Voice = {                                                    %
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -9605,8 +9635,8 @@ E_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
@@ -9814,11 +9844,11 @@ E_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #9                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
     \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -9969,31 +9999,34 @@ E_Violin_II_Music_Voice = {                                                    %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "T"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #7.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "P"                                        %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 415 / measure 110]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -10003,7 +10036,8 @@ E_Violin_II_Music_Voice = {                                                    %
             % [E Violin_II_Music_Voice measure 416 / measure 111]              %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -10021,15 +10055,15 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #7.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 418 / measure 113]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10040,11 +10074,11 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 419 / measure 114]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10061,12 +10095,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_talea_eighths
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 420 / measure 115]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10077,11 +10111,11 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_talea_eighths
@@ -10103,11 +10137,11 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 422 / measure 117]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10118,24 +10152,21 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 423 / measure 118]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "T"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Violin_II_Music_Voice measure 424 / measure 119]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10146,7 +10177,14 @@ E_Violin_II_Music_Voice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "P"                                        %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -10158,7 +10196,8 @@ E_Violin_II_Music_Voice = {                                                    %
             c'1 * 1                                                            %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -10254,16 +10293,16 @@ E_Viola_Music_Voice = {                                                        %
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #9                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #6.5                                                %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -10287,8 +10326,8 @@ E_Viola_Music_Voice = {                                                        %
             % [E Viola_Music_Voice measure 308 / measure 3]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -10315,11 +10354,11 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-fast-markup                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-fast-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
     % [E Viola_Music_Voice measure 310 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10338,17 +10377,17 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "½ clt"                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #9                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanTwo                                                          %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #6.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #9                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_grid_to_trajectory
@@ -10412,7 +10451,7 @@ E_Viola_Music_Voice = {                                                        %
     \sfp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_grid_to_trajectory
@@ -10426,11 +10465,11 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #4                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #6.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     % [E Viola_Music_Voice measure 317 / measure 12]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10476,7 +10515,7 @@ E_Viola_Music_Voice = {                                                        %
     \sfp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid_to_trajectory
@@ -10490,11 +10529,11 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #4                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #6.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #6.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     % [E Viola_Music_Voice measure 321 / measure 16]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10522,7 +10561,7 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-hook                                              %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "XFB"                                       %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -10993,7 +11032,7 @@ E_Viola_Music_Voice = {                                                        %
             % [E Viola_Music_Voice measure 346 / measure 41]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanTwo                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
             \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -11013,16 +11052,16 @@ E_Viola_Music_Voice = {                                                        %
     c'4                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-fast-markup                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #7.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-fast-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -11131,8 +11170,8 @@ E_Viola_Music_Voice = {                                                        %
         ^ \markup { \stirrings-still-molto-scratch-on-slow-strokes }           %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
@@ -11503,11 +11542,11 @@ E_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #9                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #9                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -11679,7 +11718,7 @@ E_Viola_Music_Voice = {                                                        %
             % [E Viola_Music_Voice measure 367 / measure 62]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -12607,8 +12646,8 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     ^ \markup { flight }                                                       %! baca_markup:IndicatorCommand
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "tasto"                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "poco pont."                               %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "poco P"                                   %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
@@ -12650,10 +12689,10 @@ E_Viola_Music_Voice = {                                                        %
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_talea_eighths
     \times 7/4 {                                                               %! stirrings_still_talea_eighths
@@ -12671,11 +12710,11 @@ E_Viola_Music_Voice = {                                                        %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -12691,11 +12730,11 @@ E_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_talea_eighths
@@ -12704,14 +12743,11 @@ E_Viola_Music_Voice = {                                                        %
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "P"                                    %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -12729,7 +12765,14 @@ E_Viola_Music_Voice = {                                                        %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "T"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -12741,6 +12784,7 @@ E_Viola_Music_Voice = {                                                        %
             % [E Viola_Music_Voice measure 391 / measure 86]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -12762,18 +12806,15 @@ E_Viola_Music_Voice = {                                                        %
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "T"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #7.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_talea_eighths
     \times 7/4 {                                                               %! stirrings_still_talea_eighths
@@ -12789,7 +12830,14 @@ E_Viola_Music_Voice = {                                                        %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "P"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -12798,17 +12846,17 @@ E_Viola_Music_Voice = {                                                        %
     c'4                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-circle-fast-markup                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #7.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-circle-LilyPondTweakManager(('staff_padding', 5))-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+    \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -12917,8 +12965,8 @@ E_Viola_Music_Voice = {                                                        %
         ^ \markup { \stirrings-still-molto-scratch-on-slow-strokes }           %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
@@ -13297,11 +13345,11 @@ E_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #9                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #9                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -13465,19 +13513,16 @@ E_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "T"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #7.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_talea_eighths
     \times 6/5 {                                                               %! stirrings_still_talea_eighths
@@ -13491,7 +13536,14 @@ E_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "P"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -13503,7 +13555,8 @@ E_Viola_Music_Voice = {                                                        %
             % [E Viola_Music_Voice measure 416 / measure 111]                  %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -13521,15 +13574,15 @@ E_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #7.5                                                %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #7.5                                                %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [E Viola_Music_Voice measure 418 / measure 113]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -13554,20 +13607,20 @@ E_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -13589,12 +13642,12 @@ E_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         ]                                                                      %! stirrings_still_talea_eighths
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -13622,11 +13675,11 @@ E_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -13634,14 +13687,11 @@ E_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_talea_eighths
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "P"                                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_talea_eighths
     \times 6/5 {                                                               %! stirrings_still_talea_eighths
@@ -13655,7 +13705,14 @@ E_Viola_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_talea_eighths
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "T"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     }                                                                          %! stirrings_still_talea_eighths
 
@@ -13669,7 +13726,8 @@ E_Viola_Music_Voice = {                                                        %
             c'1 * 1                                                            %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-            \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -14011,16 +14069,16 @@ E_Cello_Music_Voice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -14128,8 +14186,8 @@ E_Cello_Music_Voice = {                                                        %
         ^ \markup { \stirrings-still-molto-scratch-on-slow-strokes }           %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -14501,11 +14559,11 @@ E_Cello_Music_Voice = {                                                        %
         \baca-effort-fff                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #9                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #9                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -14664,7 +14722,7 @@ E_Cello_Music_Voice = {                                                        %
             % [E Cello_Music_Voice measure 367 / measure 62]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -14764,16 +14822,15 @@ E_Cello_Music_Voice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #7.5                                            %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-circle-fast-markup              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #7.5                                            %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-circle-LilyPondTweakManager(('staff_padding', 5))-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
+        \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -14881,8 +14938,8 @@ E_Cello_Music_Voice = {                                                        %
         ^ \markup { \stirrings-still-molto-scratch-on-slow-strokes }           %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(3)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -15279,11 +15336,11 @@ E_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #9                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #9                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -15442,7 +15499,7 @@ E_Cello_Music_Voice = {                                                        %
             % [E Cello_Music_Voice measure 414 / measure 109]                  %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 7/8                                                          %! _make_multimeasure_rest_container
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 

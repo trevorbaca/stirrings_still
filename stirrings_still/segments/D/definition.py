@@ -290,13 +290,11 @@ maker(
 
 maker(
     ('tutti', (1, 36)),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         # manual padding because spanner ends of volta
         abjad.tweak(5.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
+        autodetect_right_padding=False,
         ),
     )
 
@@ -333,12 +331,8 @@ maker(
     baca.dls_staff_padding(5),
     baca.dynamic('"ff"'),
     baca.script_staff_padding(7.5),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(11).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.bcps(
         -3,
@@ -501,12 +495,8 @@ maker(
         # TODO: restore glissandi
         stirrings_still.ntlt_flat_glissandi(),
         ),
-    baca.text_spanner(
-        r'\baca-damp-markup =|',
+    baca.damp_spanner(
         abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.strokes(0),
     )

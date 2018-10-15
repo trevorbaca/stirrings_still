@@ -92,10 +92,10 @@ maker(
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
-        baca.text_spanner(
+        baca.scp_spanner(
             'T -> P ->',
             abjad.tweak(5).staff_padding,
-            bookend=False,
+            autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
             ),
@@ -122,10 +122,10 @@ maker(
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
-        baca.text_spanner(
+        baca.scp_spanner(
             'ord. -> P ->',
             abjad.tweak(5).staff_padding,
-            bookend=False,
+            autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
             ),
@@ -189,10 +189,10 @@ maker(
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
-        baca.text_spanner(
+        baca.scp_spanner(
             'T -> P ->',
             abjad.tweak(5).staff_padding,
-            bookend=False,
+            autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
             ),
@@ -219,10 +219,10 @@ maker(
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
-        baca.text_spanner(
+        baca.scp_spanner(
             'ord. -> P ->',
             abjad.tweak(5).staff_padding,
-            bookend=False,
+            autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
             ),
@@ -286,10 +286,10 @@ maker(
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
-        baca.text_spanner(
+        baca.scp_spanner(
             'T -> P ->',
             abjad.tweak(5).staff_padding,
-            bookend=False,
+            autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
             ),
@@ -316,10 +316,10 @@ maker(
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
-        baca.text_spanner(
+        baca.scp_spanner(
             'ord. -> P ->',
             abjad.tweak(5).staff_padding,
-            bookend=False,
+            autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
             ),
@@ -365,12 +365,8 @@ maker(
     ('vc', (11, 12)),
     baca.dynamic('"f"'),
     baca.script_staff_padding(8),
-    baca.text_spanner(
-        '½ clt =|',
+    baca.half_clt_spanner(
         abjad.tweak(12).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.leaves().rleak(),
         ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
@@ -407,10 +403,10 @@ maker(
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
-        baca.text_spanner(
+        baca.scp_spanner(
             'T -> P ->',
             abjad.tweak(5).staff_padding,
-            bookend=False,
+            autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
             ),
@@ -437,10 +433,10 @@ maker(
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
-        baca.text_spanner(
+        baca.scp_spanner(
             'ord. -> P ->',
             abjad.tweak(5).staff_padding,
-            bookend=False,
+            autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
             ),
