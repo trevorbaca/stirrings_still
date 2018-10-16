@@ -87,7 +87,9 @@ time = (
     (baca.Accelerando(), 29),
     ('adagio', 30),
     ('fermata', 31),
-    ('largo piu mosso', 32),
+    ('largo', 32),
+    (baca.Accelerando(), 32),
+    ('largo piu mosso', 33),
     ('largo', 34),
     (baca.Accelerando(), 34),
     ('adagio piu mosso', 35),
@@ -766,10 +768,27 @@ maker(
         ),
     )
 
+# H.1
+
 maker(
     ('tutti', (32, 33)),
     stirrings_still.rasp(),
-    ),
+    baca.hairpin(
+        'o< mp',
+        ),
+    baca.markup(
+        'III',
+        direction=abjad.Down,
+        ),
+    baca.text_spanner(
+        'rasp (2°) -> flaut. (2°) =|',
+        abjad.tweak(3.25).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.mgroups([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
 
 maker(
     ('tutti', (34, 35)),
@@ -820,7 +839,11 @@ maker(
 
 maker(
     ('tutti', 42),
-    baca.dynamic('p'),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.damp_spanner(
         abjad.tweak(9).staff_padding,
         ),
@@ -845,6 +868,11 @@ maker(
         pieces=baca.leaves().partition_by_counts([2], overhang=True),
         selector=baca.leaves().rleak(),
         ),
+    )
+
+maker(
+    ('triox', 45),
+    baca.tacet(),
     )
 
 maker(
@@ -873,12 +901,19 @@ maker(
 
 maker(
     ('trio', 48),
-    baca.dynamic('p'),
-    baca.markup('tasto'),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.material_annotation_spanner(
         'urt. (dds) -|',
         abjad.tweak('darkred').color,
         abjad.tweak(5).staff_padding,
+        ),
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(10).staff_padding,
         ),
     baca.stem_tremolo(),
     stirrings_still.urtext_field(),
@@ -903,7 +938,8 @@ maker(
             bookend=False,
             ),
         baca.scp_spanner(
-            'P poss. -> P molto -> T =|',
+            'P poss. =| P molto -> T =|',
+            (abjad.tweak(2.25).bound_details__right__padding, 0),
             abjad.tweak(10).staff_padding,
             ),
         pieces=baca.mgroups([2, 4, 5 + 1]),
@@ -1034,19 +1070,15 @@ maker(
 
 maker(
     ('trio', 64),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.material_annotation_spanner(
         'urt. (dds) -|',
         abjad.tweak('darkred').color,
         abjad.tweak(5).staff_padding,
-        ),
-    baca.suite(
-        baca.new(
-            baca.espressivo(),
-            baca.stem_tremolo(selector=baca.pleaves()),
-            map=baca.plts()[abjad.index([1], 2)],
-            ),
-        baca.untie_to(selector=baca.pleaves()),
-        baca.tie(repeat=(1, 4)),
         ),
     baca.new(
         stirrings_still.flight('A', 0, start=16),
@@ -1059,6 +1091,19 @@ maker(
     baca.new(
         stirrings_still.flight('B', -2, start=16),
         match=2,
+        ),
+    baca.suite(
+        baca.new(
+            baca.espressivo(),
+            baca.stem_tremolo(selector=baca.pleaves()),
+            map=baca.plts()[abjad.index([1], 2)],
+            ),
+        baca.untie_to(selector=baca.pleaves()),
+        baca.tie(repeat=(1, 4)),
+        ),
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(10).staff_padding,
         ),
     )
 

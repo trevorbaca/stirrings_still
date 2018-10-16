@@ -3,7 +3,7 @@ SEGMENTS
 
 [A] time series A; rotation 0
 
-    [A.1] (1 + fermata)
+    [A.1] (1)
     (1 measure)
     andante
     v1, v2, va urtext declamation
@@ -20,7 +20,7 @@ SEGMENTS
         tacet
     fermata (2)
 
-    [A.2] (3 + fermata)
+    [A.2] (3)
     (1 measure)
     andante
     v1, v2, va urtext declamation (repeats and intensifies)
@@ -39,7 +39,7 @@ SEGMENTS
         tacet
     fermata (4)
 
-    [A.3] (5-6 + fermata)
+    [A.3] (5-6)
     (2 measures)
     andante
     v1, v2, va urtext declamation (repeats and intensifies)
@@ -59,7 +59,7 @@ SEGMENTS
         tacet
     fermata (7)
 
-    [A.4] (8-9 + fermata)
+    [A.4] (8-9)
     (2 measures)
     andante
     v1, v2, va urtext declamation (repeats and intensifies)
@@ -78,7 +78,7 @@ SEGMENTS
         tacet
     fermata (10)
 
-    [A.5] (11-16 + fermata)
+    [A.5] (11-16)
     (6 measures)
     andante-to-allegro accelerando
     accelerando achieves allegro at start of measure -1
@@ -100,7 +100,7 @@ SEGMENTS
         p
     fermata [vc holds over fermata] (17)
 
-    [A.6] (18 + fermata)
+    [A.6] (18)
     (1 measure)
     subito adagio
     composite urtext field / circles (begin)
@@ -120,7 +120,7 @@ SEGMENTS
             p
     fermata [vc holds over fermata] (19)
 
-    [A.7] (20 + fermata)
+    [A.7] (20)
     (1 measure)
     adagio
     composite-urtext-field-circles (repeat and intensify)
@@ -140,7 +140,7 @@ SEGMENTS
             p
     fermata [vc holds over fermata] (21)
 
-    [A.8] (22-23 + fermata)
+    [A.8] (22-23)
     (2 measures)
     adagio
     composite-urtext-field-circles (repeat and intensify)
@@ -164,7 +164,7 @@ SEGMENTS
             p
     fermata [vc holds over fermata] (24)
 
-    [A.9] (25-26 + 27 + fermata)
+    [A.9] (25-26)
     (2 measures)
     adagio
     composite urtext field / circles (repeat and intensify)
@@ -185,24 +185,24 @@ SEGMENTS
         vc urtext field
             tasto
             p
-        >>attacca suffix<<
-        >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<< (27)
-            >>summons future time<<
-            largo più mosso
-            tutti clouded pane / urtext declamation conflict
-            single declamation
-                v1, v2 urtext declamation double-stops
-                    tasto
-                    polyrhythmic louré-swell tuplets
-                    o< mp >o envelopes shape each note
-                va clouded partial
-                    tasto
-                    polyrhythmic louré-swell tuplets
-                    o< mp >o envelopes shape each note
-                vc clouded pane
-                    new pitch begins stepwise above
-                    o< f ... f >o governs stage
-                    subtends declamation
+    >>attacca suffix<<
+    >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<< (27)
+        >>summons future time<<
+        largo più mosso
+        tutti clouded pane / urtext declamation conflict
+        single declamation
+            v1, v2 urtext declamation double-stops
+                tasto
+                polyrhythmic louré-swell tuplets
+                o< mp >o envelopes shape each note
+            va clouded partial
+                tasto
+                polyrhythmic louré-swell tuplets
+                o< mp >o envelopes shape each note
+            vc clouded pane
+                new pitch begins stepwise above
+                o< f ... f >o governs stage
+                subtends declamation
     fermata [vc holds over fermata] (28)
 
     [A.10] (29-34)
@@ -241,8 +241,8 @@ SEGMENTS
         p >o
     attacca
 
-    [A.12] (41-42 + 43 + 44-45)
-    (4 measures)
+    [A.12.1-2] (41-42)
+    (2 measures)
     allegro-to-largo ritardando
     ritardando achieves largo at start of measure -1
     v1, v2, va circles
@@ -250,38 +250,54 @@ SEGMENTS
         ppp >o
     vc
         tacet
-        >>[I.6 (vc cell) 2/2] bisects [A.12 (conclusion)]<< (43)
-            >>summons future time<<
-            larghissimo
-            vc 1/2 clt solo trajectory
-                1/2 clt
-                single pitch begins at trajectory endpoint
-                    pitch is not upper register
-                quasivortex now trapped repetition cell
-                f
-        >>attacca second half of [A.12]<< (44-45)
+    >>[I.6 (vc cell) 2/2] bisects [A.12 (conclusion)]<< (43)
+        >>summons future time<<
+        larghissimo
+        vc 1/2 clt solo trajectory
+            1/2 clt
+            single pitch begins at trajectory endpoint
+                pitch is not upper register
+            quasivortex now trapped repetition cell
+            f
+    >>attacca second half of [A.12]<< (44-45)
+    [A.12.3-4] (44-45)
+    (2 measures)
+    allegro-to-largo ritardando
+    ritardando achieves largo at start of measure -1
+    v1, v2, va circles
+        very fast rate
+        ppp >o
+    vc
+        tacet
     surprisingly short breath after [A.12]
 
-    [A.13] (46-47 + 48 + 49-50 + fermata)
-    (4 measures) 
+    [A.13.1-2] (46-47)
+    (2 measures) 
     largo
     tutti circles
         subito damped lh
         subito slower rate
         subito p
-        >>[I.6 (vc cell) 2/2] bisects [A.13 (iteratum)]<< (48)
-            >>summons future time<<
-            larghissimo
-            vc 1/2 clt solo trajectory
-                1/2 clt
-                single pitch begins at trajectory endpoint
-                    pitch is not upper register
-                quasivortex now trapped repetition cell
-                f
-        >>attacca second half of [A.13]<< (49-50)
+    >>[I.6 (vc cell) 2/2] bisects [A.13 (iteratum)]<< (48)
+        >>summons future time<<
+        larghissimo
+        vc 1/2 clt solo trajectory
+            1/2 clt
+            single pitch begins at trajectory endpoint
+                pitch is not upper register
+            quasivortex now trapped repetition cell
+            f
+    >>attacca second half of [A.13]<< (49-50)
+    [A.13.3-4] (49-50)
+    (2 measures) 
+    largo
+    tutti circles
+        subito damped lh
+        subito slower rate
+        subito p
     fermata (51)
 
-    [A.14] (52 + fermata)
+    [A.14] (52)
     (1 measure)
     largo
     tutti circles (repeat)
@@ -290,27 +306,27 @@ SEGMENTS
         p
     fermata (53)
 
-    [A.15] (54 + 55-56 + fermata)
+    [A.15] (54)
     (1 measure)
     largo
     tutti circles (repeat)
         damped lh
         slow rate
         p
-        >>attacca suffix<<
-        >>[H.1 (urtext rasp) 1-2/4] suffixes [A.15]< (55-56)<
-            >>summons future time<<
-            adagio piu mosso
-            tutti
-                four-note chord
-                    single-stopped notes
-                extremely gradual rasp-to-flautando transition
-                    measures 1-2/4 of transition
-                o< mp
-                    measures 1-2/4 of crescendo
+    >>attacca suffix<<
+    >>[H.1 (urtext rasp) 1-2/4] suffixes [A.15]< (55-56)<
+        >>summons future time<<
+        largo-to-largo-piu-mosso-accelerando
+        tutti
+            four-note chord
+                single-stopped notes
+            extremely gradual rasp-to-flautando transition
+                measures 1-2/4 of transition
+            o< mp
+                measures 1-2/4 of crescendo
     fermata (57)
 
-    [A.16] (58 + fermata)
+    [A.16] (58)
     (1 measure)
     largo
     tutti circles (repeat)
@@ -319,7 +335,7 @@ SEGMENTS
         p
     fermata (59)
 
-    [A.17] (60 + fermata)
+    [A.17] (60)
     (1 measure)
     andante
     v1, v2, va urtext declamation
@@ -332,7 +348,7 @@ SEGMENTS
         p
     fermata (61)
 
-    [A.18] (62 + long)
+    [A.18] (62)
     (1 measure)
     largo
     tutti circles (resume and repeat)
@@ -392,8 +408,8 @@ SEGMENTS
         crescendo achieves f at start of measure 1:2
     surprisingly short breath
 
-    [B.5] (12 + fraction)
-    (1 measure + fractional measure)
+    [B.5] (12)
+    (1 measure)
     adagio (subito)
     mixed clockticks / circles
         v1 circles
@@ -412,10 +428,10 @@ SEGMENTS
             damped lh
             tight
             p
-    counted rest equal to exactly 2/3 clocktick
+    counted rest equal to exactly 2/3 clocktick (13)
 
-    [B.6] (14 + fraction)
-    (1 measure + fractional measure)
+    [B.6] (14)
+    (1 measure)
     adagio subito meno mosso
     mixed clockticks / circles
         v1 clockticks
@@ -431,10 +447,10 @@ SEGMENTS
             [damped lh]
             [tight]
         [tutti p]
-    counted rest equal to exactly 2/3 clocktick
+    counted rest equal to exactly 2/3 clocktick (15)
 
-    [B.7] (16 + fraction)
-    (1 measure + fractional measure)
+    [B.7] (16)
+    (1 measure)
     adagio subito più mosso
     mixed clockticks / circles continue
         v1 clockticks
@@ -450,7 +466,7 @@ SEGMENTS
             [damped lh]
             [1/2 clt]
         [tutti p]
-    counted rest equal to exactly 2/3 clocktick
+    counted rest equal to exactly 2/3 clocktick (17)
 
     [B.8] (18-19)
     (2 measures)
@@ -535,8 +551,8 @@ SEGMENTS
         [mf]
     attacca
 
-    [B.12] (25 + 26 + 27 + fermata)
-    (2 measures)
+    [B.12] (25)
+    (1 measure)
     largo
     v1
         tacet
@@ -552,23 +568,39 @@ SEGMENTS
         [tasto]
         [1/2 clt]
         [mf]
-        <<[A.1 1/1] bisects [B.12]>> (26)>>
-            <<summons past time>>
-            andante
-            v1, v2, va urtext declamation (two chords)
-                [tasto]
-                closely spaced double-stops
-                declamation (two rest-delimited chords)
-                    first chord
-                        short
-                        p <| f ringing lv
-                    second chord
-                        longer
-                        p < mp stop-on-string
-        <<largo resumes after insert>> (27)
+    <<[A.1 1/1] bisects [B.12]>> (26)>>
+        <<summons past time>>
+        andante
+        v1, v2, va urtext declamation (two chords)
+            [tasto]
+            closely spaced double-stops
+            declamation (two rest-delimited chords)
+                first chord
+                    short
+                    p <| f ringing lv
+                second chord
+                    longer
+                    p < mp stop-on-string
+    [B.12] (27)
+    (1 measure)
+    largo
+    v1
+        tacet
+    v2 trajectories
+        [tasto]
+        [1/2 clt]
+        [mf]
+    va trajectories
+        [tasto]
+        [1/2 clt]
+        o< mf culminates at start of stage
+    vc trajectories
+        [tasto]
+        [1/2 clt]
+        [mf]
     fermata (28)
 
-    [B.13] (29-30 + fermata)
+    [B.13] (29-30)
     (2 measures)
     largo-to-adagio accelerando
     tutti trajectories
@@ -578,7 +610,7 @@ SEGMENTS
 
     >>[H.1 (urtext rasp) 1-2/4] prefixed to [B.14] (32-33)<<
         >>summons future time<<
-        largo piu mosso
+        largo-to-largo-piu-mosso-accelerando
         tutti
             four-note chord
                 single-stopped notes
@@ -587,7 +619,7 @@ SEGMENTS
             o< mp
                 measures 1-2/4 of crescendo
     >>attacca after insert to effect prefix<<
-    [B.14] (34-35 + fermata)
+    [B.14] (34-35)
     (2 measures)
     largo-to-adagio-più-mosso accelerando
     tutti trajectories
@@ -595,7 +627,7 @@ SEGMENTS
         pp < mf governs first half of stage
     fermata (36)
 
-    [B.15] (37-38 + fermata)
+    [B.15] (37-38)
     (2 measures)
     largo-to-allegro accelerando
     tutti trajectories
@@ -603,37 +635,42 @@ SEGMENTS
         p < f governs first half of stage
     fermata (39)
 
-    [B.16] (40-41 + 42 + fermata)
+    [B.16] (40-41)
     (2 measures)
     largo-to-allegro-più-mosso accelerando
     tutti trajectories
         tasto-to-molto-pont governs first half of stage
         mp < ff governs first half of stage
-        >>[A.18 (circles) 1/1] suffixes [B.16 (iteratum)]<< (42)
-            >>summon future time<<
-            largo
-            tutti circles
-                damped lh
-                very tight
-                p
+    >>[A.18 (circles) 1/1] suffixes [B.16 (iteratum)]<< (42)
+        >>summon future time<<
+        largo
+        tutti circles
+            damped lh
+            very tight
+            p
     fermata before [B.17] (43)
 
-    [B.17] (44 + 45 + 46 + fermata + 48 + fermata)
-    (2 measures)
+    [B.17.1] (44)
+    (1st of 2 measures)
     largo-to-presto accelerando
     tutti trajectories
         tasto-to-pont-poss governs first half of stage
         mf < fff governs first half of stage
-        >>[D.9 (clouded pane) 1/4] bisects [B.17]<< (45)
-            >>summons future time<<
-            largo
-            lontano
-            v1, v2, va
-                tacet
-            vc clouded pane appears (first [actual] time in piece)
-                p
-        >>attacca to second half of [B.17]<< (46)
-        >>largo-to-presto accelerando resumes in second half<<
+    >>[D.9 (clouded pane) 1/4] bisects [B.17]<< (45)
+        >>summons future time<<
+        largo
+        lontano
+        v1, v2, va
+            tacet
+        vc clouded pane appears (first [actual] time in piece)
+            p
+    >>attacca to second half of [B.17]<<
+    [B.17.2] (46)
+    (2nd of 2 measures)
+    largo-to-presto accelerando
+    tutti trajectories
+        P poss
+        fff
     fermata (47)
     >>[D.17 (composite) 2/2] prolongs [B.17] fermata<< (48)
         >>summons future time<<
@@ -669,53 +706,53 @@ SEGMENTS
     (2 measures)
     presto-to-largo ritardando begins
     v1 trajectories
-        tasto
-        ppp
+        [tasto]
+        [ppp]
     v2 circles
         wide
-        ppp continues
+        [ppp]
     va, vc trajectories
-        tasto
-        ppp
+        [tasto]
+        [ppp]
     attacca
 
     [B.21] (60)
     (1 measure)
-    presto-to-largo ritardando continues
+    [presto-to-largo ritardando]
     v1 trajectories
-        tasto
-        ppp
+        [tasto]
+        [ppp]
     v2 circles
-        wide
-        ppp
+        [wide]
+        [ppp]
     va circles
         wide
-        ppp
+        [ppp]
     vc trajectories
-        tasto
-        ppp
+        [tasto]
+        [ppp]
     attacca
 
     [B.22] (61)
     (1 measure)
     ritardando achieves largo at start of stage
     v1 circles
-        wide
-        ppp
+        [wide]
+        ppp >o begins
     v2, va circles
-        wide
-        ppp
+        [wide]
+        ppp >o begins
     vc trajectories
-        tasto
-        ppp
+        [tasto]
+        ppp >o begins
     attacca
 
-    [B.23] (62 + fermata)
+    [B.23] (62)
     (1 measure)
     largo
     tutti circles
         wide
-        ppp >o
+        ppp >o completes
     fermata (63)
 
     >>[D.16 (urtext / pane / flight composite) 1/2] prefixes [B.24]<< (64)
@@ -731,7 +768,7 @@ SEGMENTS
             p
         vc clouded pane
             p
-    [B.24] (65 + fermata)
+    [B.24] (65)
     (1 measure)
     largo
     tutti unexplanined grid
