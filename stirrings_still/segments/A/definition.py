@@ -415,7 +415,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.circle_bow_spanner(
-        r'\baca-circle-wide-markup =|',
+        'wide',
         # manual padding because spanner ends at espressivo
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
