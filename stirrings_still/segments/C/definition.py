@@ -139,10 +139,9 @@ maker(
 maker(
     (['v1', 'v2'], 5),
     baca.dynamic('mp'),
-    #baca.markup('[urtext double stop]'),
     baca.markup('louré'),
     baca.material_annotation_spanner(
-        'urtext ds -|',
+        'urtext (ds) -|',
         abjad.tweak('darkred').color,
         abjad.tweak(5).staff_padding,
         ),
@@ -300,11 +299,11 @@ maker(
         match=3,
         ),
     baca.damp_spanner(
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.text_spanner(
-        r'\baca-circle-tight-markup -> \baca-circle-mod-markup circles =|',
-        abjad.tweak(4).staff_padding,
+        r'\baca-circle-tight-markup -> \baca-circle-mod-markup =|',
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.omgroups([2]),
@@ -332,11 +331,11 @@ maker(
         match=3,
         ),
     baca.damp_spanner(
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.text_spanner(
         r'\baca-circle-wide-markup =|',
-        abjad.tweak(4).staff_padding,
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
@@ -389,31 +388,48 @@ maker(
         'mf > pp',
         selector=baca.tleaves(),
         ),
-    baca.damp_spanner(
-        abjad.tweak(7).staff_padding,
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(8).staff_padding,
         ),
-    baca.text_spanner(
-        '8˝ circles =|',
-        abjad.tweak(4).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
         ),
     stirrings_still.synchronized_circles(rests=[-1]),
     )
 
 maker(
+    ('triox', 34),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', 35),
+    baca.tacet(),
+    )
+
+maker(
     ('vc', (34, 35)),
     baca.breathe(),
-    baca.dynamic('p'),
-    baca.markup('[clouded pane revelation]'),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.material_annotation_spanner(
+        'clouded pane (revelation) -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
+        ),
     stirrings_still.clouded_pane(),
     )
 
-# TODO: untie over breath marks
-# TODO: intermittent triple -> double -> single harmonic
 maker(
     ('tutti', (36, 55)),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(8).staff_padding,
+        ),
     baca.new(
         stirrings_still.synchronized_circles(rotation=0),
         match=0,
@@ -432,17 +448,10 @@ maker(
         ),
     baca.text_spanner(
         '[triple --> double --> single harmonic] =|',
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
-        ),
-    baca.text_spanner(
-        '8˝ circles =|',
-        abjad.tweak(4).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
     )
@@ -457,7 +466,6 @@ maker(
 
 maker(
     ('tutti', (40, 43)),
-    baca.breathe(),
     baca.hairpin(
         'mf > pp',
         selector=baca.tleaves(),
@@ -474,7 +482,6 @@ maker(
 
 maker(
     ('tutti', (48, 51)),
-    baca.breathe(),
     baca.hairpin(
         'f > pp',
         selector=baca.tleaves(),
@@ -489,7 +496,6 @@ maker(
         ),
     )
 
-# TODO: intermittent harmonic -> half-harmonic -> stopped
 maker(
     ('tutti', (56, 59)),
     baca.breathe(),
@@ -512,7 +518,7 @@ maker(
         ),
     baca.text_spanner(
         '[harmonic --> half --> stopped] =|',
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
@@ -520,7 +526,7 @@ maker(
         ),
     baca.text_spanner(
         '8˝ circles =|',
-        abjad.tweak(4).staff_padding,
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
@@ -530,34 +536,44 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (60, 61)),
     baca.breathe(),
-    baca.dynamic(
-        'appena-udibile',
+    baca.hairpin(
+        'appena-udibile -- !',
         abjad.tweak(abjad.Left).self_alignment_X,
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '[double-stop field] =|',
-        abjad.tweak(4).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
+    baca.material_annotation_spanner(
+        'urtext (ds field) -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(5).staff_padding,
         ),
     stirrings_still.urtext_field(),
     )
 
 maker(
+    ('vcx', 60),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 61),
+    baca.tacet(),
+    )
+
+maker(
     ('tutti', (62, 69)),
-    baca.dynamic('p'),
-    baca.text_spanner(
-        '[TODO: jeux des terminaisons ...] =|',
-        abjad.tweak(7).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     baca.text_spanner(
-        '8˝ circles =|',
-        abjad.tweak(4).staff_padding,
+        '[jeux des terminaisons ...] =|',
+        abjad.tweak(10.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         selector=baca.ltleaves().rleak(),
@@ -567,7 +583,10 @@ maker(
 
 maker(
     ('tutti', (71, 76)),
-    baca.hairpin('f >o niente'),
+    baca.hairpin(
+        'f >o niente',
+        selector=baca.leaves().rleak(),
+        ),
     # TODO: revoice
     baca.new(
         stirrings_still.desynchronization(4, [1]),
@@ -590,10 +609,12 @@ maker(
         match=3,
         ),
     baca.text_spanner(
-        '8˝ circles -> 2˝ circles',
-        abjad.tweak(4).staff_padding,
+        r'\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|',
+        abjad.tweak(8).staff_padding,
         bookend=False,
-        pieces=baca.notes().cmgroups([3]),
+        autodetect_right_padding=True,
+        pieces=baca.leaves().mgroups([3, 4]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
