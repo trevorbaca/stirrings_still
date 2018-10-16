@@ -75,10 +75,15 @@ maker(
 maker(
     ('va', [1, 3, 7, 11, 13]),
     stirrings_still.loure_tuplets(-1),
+    baca.pitch_annotation_spanner(
+        'clouded partial -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
+        ),
     )
 
 maker(
-    ('trio', [1, 3, 7, 11, 13]),
+    (['v1', 'v2'], [1, 3, 7, 11, 13]),
     baca.pitch_annotation_spanner(
         'urtext double stop -|',
         abjad.tweak('darkred').color,

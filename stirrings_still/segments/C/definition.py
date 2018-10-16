@@ -122,18 +122,30 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
-    baca.dynamic('"ff"'),
-    baca.markup('maximally tight crunch circles: grind at talon'),
+    baca.hairpin(
+        '"ff" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.circle_bow_spanner(
+        'tight-poss-grind-at-talon',
+        abjad.tweak(8).staff_padding,
+        ),
     baca.damp_spanner(
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     )
 
 maker(
     (['v1', 'v2'], 5),
     baca.dynamic('mp'),
-    baca.markup('[urtext double stop]'),
+    #baca.markup('[urtext double stop]'),
     baca.markup('louré'),
+    baca.material_annotation_spanner(
+        'urtext ds -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(5).staff_padding,
+        ),
     baca.new(
         stirrings_still.loure_tuplets(0),
         match=0,
@@ -147,26 +159,44 @@ maker(
 maker(
     ('va', 5),
     baca.dynamic('mp'),
-    baca.markup('[clouded partial (stopped)]'),
+    baca.material_annotation_spanner(
+        'clouded partial (stopped) -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
+        ),
     baca.markup('louré'),
     stirrings_still.loure_tuplets(-1),
     )
 
 maker(
     ('vc', 5),
-    baca.markup('[clouded pane (stopped)]'),
     baca.hairpin(
         'niente o< f >o niente',
         pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
         selector=baca.leaves().rleak(),
+        ),
+    baca.material_annotation_spanner(
+        'clouded pane (stopped) -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
         ),
     stirrings_still.taper((1, 1)),
     )
 
 maker(
     ('tutti', (7, 10)),
-    baca.dynamic('p'),
-    baca.markup('maximally tight crunch circles: grind at talon'),
+    baca.circle_bow_spanner(
+        'tight-poss-grind-at-talon',
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.new(
         stirrings_still.desynchronization(4, [1]),
         match=0,
@@ -183,9 +213,6 @@ maker(
     baca.new(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(7).staff_padding,
         ),
     )
 
@@ -209,11 +236,11 @@ maker(
         match=3,
         ),
     baca.damp_spanner(
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.text_spanner(
-        'max. tight cir. -> 1-2˝ circles =|',
-        abjad.tweak(4).staff_padding,
+        r'\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|',
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.omgroups([2]),
@@ -241,11 +268,11 @@ maker(
         match=3,
         ),
     baca.damp_spanner(
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.text_spanner(
-        '1-2˝ circles -> 2-4˝ circles =|',
-        abjad.tweak(4).staff_padding,
+        r'\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|',
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.omgroups([2]),
@@ -276,7 +303,7 @@ maker(
         abjad.tweak(7).staff_padding,
         ),
     baca.text_spanner(
-        '2-4˝ circles -> 4-8˝ circles =|',
+        r'\baca-circle-tight-markup -> \baca-circle-mod-markup circles =|',
         abjad.tweak(4).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -308,7 +335,7 @@ maker(
         abjad.tweak(7).staff_padding,
         ),
     baca.text_spanner(
-        '8˝ circles =|',
+        r'\baca-circle-wide-markup =|',
         abjad.tweak(4).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -318,9 +345,15 @@ maker(
 
 maker(
     (['v1', 'va', 'vc'], (28, 29)),
-    baca.dynamic('pp'),
-    baca.markup(
-        baca.markups.lines(['[clouded pane:', 'shin. beacon]']),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.material_annotation_spanner(
+        'clouded pane (beacon) -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5).staff_padding,
         ),
     baca.new(
         stirrings_still.clouded_pane(),
@@ -340,7 +373,6 @@ maker(
 maker(
     ('v2', (28, 29)),
     baca.dynamic('mp'),
-    baca.markup('[clockticks]'),
     baca.damp_spanner(
         abjad.tweak(10).staff_padding,
         ),

@@ -1337,9 +1337,9 @@ G_Viola_Music_Voice = {                                                        %
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! stirrings_still_desynchronization
         - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext double stop"                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "clouded partial"                       %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #red                                                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1400,9 +1400,9 @@ G_Viola_Music_Voice = {                                                        %
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
         - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext double stop"                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "clouded partial"                       %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #red                                                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
 
@@ -1466,9 +1466,9 @@ G_Viola_Music_Voice = {                                                        %
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
         - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext double stop"                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "clouded partial"                       %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #red                                                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
 
@@ -1536,9 +1536,9 @@ G_Viola_Music_Voice = {                                                        %
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
         - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext double stop"                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "clouded partial"                       %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #red                                                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
 
@@ -1588,9 +1588,9 @@ G_Viola_Music_Voice = {                                                        %
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
         - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext double stop"                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "clouded partial"                       %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #red                                                    %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
 
