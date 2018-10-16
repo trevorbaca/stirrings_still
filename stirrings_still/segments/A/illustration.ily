@@ -1043,11 +1043,11 @@ A_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-colored-left-only "[H.1]" #darkgreen                     %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "78"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-dashed-line-with-arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "78" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-dashed-line-with-arrow                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 %@% - \baca-start-ct-left-only "[0'51'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
@@ -1057,6 +1057,7 @@ A_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+    \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "55"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
@@ -1064,6 +1065,12 @@ A_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "56"                                            %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "56" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 %@% - \baca-start-ct-left-only "[0'51'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
