@@ -140,11 +140,9 @@ maker(
         measures=(21, 24),
         ),
     baca.new(
-        baca.text_spanner(
-            r'\baca-circle-very-wide-markup =|',
+        baca.circle_bow_spanner(
+            'very-wide',
             abjad.tweak(5).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
             selector=baca.leaves()[1:].rleak(),
             ),
         stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),

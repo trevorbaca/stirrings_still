@@ -35,3 +35,5 @@ TO-DO
             pieces=baca.plts(),
             )
     Allow final dynamic to force to ff or fff.
+
+7.  Teach text spanners to display their staff padding on page.
