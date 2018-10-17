@@ -1017,68 +1017,68 @@ SEGMENTS
 
     [D.1] (1-6)
     (6 measures)
-    presto continues
-    white tutti grid begins (at stage one)
-        damped lh returns
-        unison pitch begins
+    [presto]
+    white tutti grid (begins at stage one)
+        damped lh
+        unison pitch
         sparse desynchronized rhythm appears gradually
-        extensive damped jeux des terminaisons begins
-        independent p < mp ... mp > p begin
+        extensive damped jeux des terminaisons (begins)
+        independent p < mp ... mp > p (begin)
     attacca
 
     [D.2] (7-12)
     (6 measures)
-    presto continues
+    [presto]
     white tutti grid continues (interpolating from stage one to two)
-        damped lh continues
-        unison continues
+        [damped lh]
+        [unison]
         desynchronized rhythm becomes somewhat denser
-        jeux des terminaisons continues
-        independent p < mp ... mp > p continue
+        [jeux des terminaisons]
+        [independent p < mp ... mp > p]
     attacca
 
     [D.3] (13-18)
     (6 measures)
-    presto continues
+    [presto]
     white tutti grid continues (interpolating from stage one to two)
-        damped lh continues
-        unison continues
+        [damped lh]
+        [unison]
         denser rhythm begins synchronization
-        jeux des terminaisons continues
-        independent p < mp ... mp > p continue
+        [jeux des terminaisons]
+        [independent p < mp ... mp > p]
     attacca
 
     [D.4] (19-24)
     (6 measures)
-    presto continues
+    [presto]
     white tutti grid continues (interpolating from stage one to two)
-        damped lh continues
-        unison continues
+        [damped lh]
+        [unison]
         denser rhythm deepens synchronization
-        jeux des terminaisons continues
-        independent p < mp ... mp > p continue
+        [jeux des terminaisons]
+        [independent p < mp ... mp > p]
     attacca
 
     [D.5] (25-30)
     (6 measures)
-    presto continues
+    [presto]
     white tutti grid continues (interpolating from stage one to two)
-        damped lh continues
-        unison continues
+        [damped lh]
+        [unison]
         denser rhythm almost completely synchronized
-        jeux des terminaisons continues
+        [jeux des terminaisons]
         synchronized p < mf governs stage
     attacca
 
-    [D.6] (31-36 + fermata + 38 + fermata)
+    [D.6] (31-36)
     (6 measures)
-    presto continues
+    [presto]
     white tutti grid continues (at stage two)
-        damped lh continues
-        unison continues
+        [damped lh]
+        [unison]
         denser rhythm completely synchronized
-        jeux des terminaisons continues
-        mf continues
+        [jeux des terminaisons]
+        [mf]
     fermata (37)
     >>[I.6 (repetition cells) 2/2] prolong [D.6] fermata<< (38)
         >>summon future time<<
@@ -1093,53 +1093,61 @@ SEGMENTS
             f
     <<fermata repeated after insert to effect prolongation>> (39)
 
-    [D.7] (40-45 + fermata)
+    [D.7] (40-45)
     (6 measures)
     presto resumes after fermata
     white tutti grid continues (at stage two) to end of stage
-        damped lh continues to end of stage
-        unison continues to end of stage
-        completely synchronized denser rhythm continues to end of stage
-        jeux des terminaisons continues to end of stage
-        pp governs stage
+        damped lh
+        unison
+        completely synchronized denser rhythm
+        jeux des terminaisons
+        pp
     fermata (46)
 
-    [D.8] (47 + long)
+    [D.8] (47)
     (1 measure)
     andante governs stage
     <<[A.1 (tutti urtext declamation)] reappears>>
         single urtext declamation (two chords [A.1])
-        closely spaced lower-register reappears
-        tasto reappears
-        p governs stage
+        closely spaced lower-register
+        tasto
+        p
     long fermata (48)
 
-    [D.9] (49-50 + 51 + 52-53 + long)
-    (4 measures)
-    largo governs stage
-    lontano governs stage
+    [D.9] (49-50)
+    (1st 2 of 4 measures)
+    largo
+    lontano
     v1, v2, va
         tacet subito
     vc clouded pane appears
         p governs stage
-        >>[F.2 (clearing) 1/2] bisects [D.9]<< (51)
-            >>summons future time<<
-            largo
-            va tailpiece
-                absent lh
-                poco flicker
-                mp
-        >>attacca second half of [D.9]<<
+    >>[F.2 (clearing) 1/2] bisects [D.9]<< (51)
+        >>summons future time<<
+        largo
+        va tailpiece
+            absent lh
+            poco flicker
+            mp
+    >>attacca second half of [D.9]<<
+    [D.9] (52-53)
+    (2nd 2 of 4 measures)
+    largo
+    lontano
+    v1, v2, va
+        [tacet]
+    vc clouded pane
+        p
     long fermata (54)
 
-    [D.10] (55 + long)
+    [D.10 (A.2)] (55)
     (1 measure)
-    andante governs stage
-    tutti urtext declamation [A.1] repeats
+    andante
+    tutti urtext declamation (repeats)
         single urtext declamation (two chords [A.2])
-            closely spaced lower-register repeats
-            tasto repeats
-            p governs stage
+            closely spaced lower-register
+            tasto
+            p
     long fermata (56)
 
     >>[S.2 (transformatum) 1/1] prefixes [D.11]<< (57)
@@ -1152,198 +1160,215 @@ SEGMENTS
         vc memory of flight returns
             B1 slack-string up-bow rh-terminated exponential crescendo to mf
         <<attacca [D.11] to effect prefix>>
-    [D.11] (58-63 + long)
+    [D.11] (58-63)
     (6 measures)
-    presto-to-largo ritardando happens
+    presto-to-largo ritardando
     white tutti grid (stage two) resumes and fades out
-        damped lh fades out
-        unison fades out
-        completely synchronized denser rhythm fades out
-        jeux des terminaisons fades out
-        mf >o governs stage
+        damped lh
+        unison
+        completely synchronized denser rhythm
+        jeux des terminaisons
+        mf >o
     long fermata (64)
 
-    [D.12] (65 + 66 + 67)
-    (2 measures)
-    largo continues
-    composite urtext field / clouded pane begins
-        v1, v2, va urtext field resumes
-            tasto continues
-            closely spaced double-stops resume
-            continuous sound resumes
-            p resumes
-        vc clouded pane appears again
+    [D.12] (65)
+    (1st of 2 measures)
+    [largo]
+    composite urtext field / clouded pane
+        v1, v2, va urtext field
+            tasto
+            closely spaced double-stops
+            p
+            {continuous sound}
+        vc clouded pane
             o< p governs first half of stage
-            >>[I.1 (gears)] bisect [D.12]<< (66)
-                >>summon future time<<
-                largo
-                measure 2/2
-                golden tone (senza scratch)
-                circles (SL = BW) locked in binary rate ratio 1:4
-                mp
-            instead of ...
-            >>[I.1 (vc 1/2 clt solo trajectory] bisects [D.12]<<
-                >>summons future time<<
-                1/2 clt
-                starts up on local accelerandi
-                repetition quasivortex begins
-                p
-            ... vc continues clouded pane.
-            >>attacca second half of [D.12]<<
+    >>[I.1 (gears)] bisect [D.12]<< (66)
+        >>summon future time<<
+        [largo]
+        measure 2/2
+        golden tone (senza scratch)
+        circles (SL = BW) locked in binary rate ratio 1:4
+        mp
+        instead of ...
+        >>[I.1 (vc 1/2 clt solo trajectory] bisects [D.12]<<
+            >>summons future time<<
+            1/2 clt
+            starts up on local accelerandi
+            repetition quasivortex begins
+            p
+        ... vc continues clouded pane.
+        >>attacca second half of [D.12]<<
+    [D.12.2] (67)
+    (2nd of 2 measures)
+    [largo]
+    composite urtext field / clouded pane
+        v1, v2, va urtext field
+            [tasto]
+            [closely spaced double-stops]
+            [p]
+            {continuous sound}
+        vc clouded pane
+            o< p governs first half of stage
     attacca
 
     [D.13] (68-71)
     (2 measures)
-    largo continues
-    composite urtext field / clouded pane continues
-    flight beings to appear
-        v1, v2, va urtext field continues
-        flight begins to appear
-            tasto continues
-            closely spaced double-stops continue
-            continuous sound continues
+    [largo]
+    composite urtext field / clouded pane
+    flight (begins to appear)
+        v1, v2, va urtext field
+        flight
+            [tasto]
+            [closely spaced double-stops]
             tremolo begins revving up with sparse tremolo attempts
-            p continues
-        vc clouded pane continues
-            p continues
+            [p]
+            {continuous sound}
+        vc clouded pane
+            [p]
     attacca
 
     [D.14] (72-75)
     (2 measures)
     largo-to-allegro accelerando begins
-    composite urtext field / clouded pane / flight continues
-        v1, v2, va composite urtext field / flight continues
-            tasto continues
-            closely spaced double-stops continue
-            continuous sound continues
+    composite urtext field / clouded pane / flight
+        v1, v2, va composite urtext field / flight
+            [tasto]
+            [closely spaced double-stops]
             more tremolo attempts
-            p continues
-        vc clouded pane continues
-            p continues
+            [p]
+            {continuous sound}
+        vc clouded pane
+            [p]
     attacca
 
     [D.15] (76-79)
     (2 measures)
-    largo-to-allegro accelerando continues
-    composite urtext field / clouded pane / flight continues
-    v1, v2, va composite urtext field / flight continues
-        tasto continues
-        closely spaced double-stops continue
-        continuous sound continues
+    [largo-to-allegro accelerando]
+    composite urtext field / clouded pane / flight
+    v1, v2, va composite urtext field / flight
+        [tasto]
+        [closely spaced double-stops]
         many many tremolo attempts
-        p continues
-    vc clouded pane continues
-        p continues
+        [p]
+        {continuous sound}
+    vc clouded pane
+        [p]
     attacca
 
     [D.16] (80-83)
     (2 measures)
-    largo-to-allegro accelerando continues
-    composite urtext field / clouded pane / flight continues
-        v1, v2, va urtext field / flight continues
-            tasto continues
-            closely spaced double-stops continue
-            continuous sound continues
+    [largo-to-allegro accelerando]
+    composite urtext field / clouded pane / flight
+        v1, v2, va urtext field / flight
+            [tasto]
+            [closely spaced double-stops] 
             v2, va continuous tremolo
             v1 almost continuous tremolo
-            p continues
-        vc clouded pane continues
-            p continues
+            [p]
+            {continuous sound}
+        vc clouded pane
+            [p]
     attacca
 
     [D.17] (84-85)
     (2 measures)
     accelerando achieves allegro at start of stage
-    composite urtext field / clouded pane / flight continues
-        v1, v2, va urtext field / flight continues
-            tasto continues
-            closely spaced double-stops continue
-            continuous sound continues
+    composite urtext field / clouded pane / flight
+        v1, v2, va urtext field / flight
+            [tasto]
+            [closely spaced double-stops]
             continuous tremolo in all parts
-            p continues
-        vc clouded pane continues
-            stoped lh continues
-            p continues
+            [p]
+            {continuous sound}
+        vc clouded pane
+            [p]
     attacca
 
     [D.18] (86-87)
     (2 measures)
     subito largo
-    composite urtext field / clouded pane / flight continues
-        v1, v2, va urtext field / flight continues
+    composite urtext field / clouded pane / flight
+        v1, v2, va urtext field / flight
             jagged tasto-to-poco-pont transition begins independently
-            closely spaced double-stops continue
-            continuous tremolo continues
-        vc clouded pane continues
+            [closely spaced double-stops]
+            [continuous tremolo continues]
+        vc clouded pane
             p < fff scratch begins
     attacca
 
     [D.19] (88-89)
     (2 measures)
-    largo continues
-    composite urtext field / clouded pane / flight continues
-        v1, v2, va urtext field continues
+    [largo]
+    composite urtext field / clouded pane / flight
+        v1, v2, va urtext field
             jagged scp transition achieves poco pont at start of measure -1
-            closely spaced double-stops continue
-            continuous tremolo continues
-        vc clouded pane continues
+            [closely spaced double-stops]
+            [continuous tremolo]
+        vc clouded pane
             p < fff scratch achieves fff scratch at start of measure 1:2
     attacca
 
     [D.20] (90-91)
     (2 measures)
-    largo continues
-    composite urtext field / clouded pane / flight continues
-        v1, v2, va urtext field continues
+    [largo]
+    composite urtext field / clouded pane / flight
+        v1, v2, va urtext field
             jagged scp reverses direction and begins poco-pont-to-tasto
             closely spaced double-stops change pitch (!)
-            continuous tremolo continues
-        vc clouded pane continues
-            fff scratch continues until end of stage
+            [continuous tremolo]
+        vc clouded pane
+            [fff scratch continues until end of stage]
     attacca
 
-    [D.21] (92 + 93 + 94)
-    (2 measures)
-    largo continues
-    composite urtext field / clouded pane / flight continues
-        v1, v2, va urtext field continues
-            jagged scp transition continues
-                jagged scp transition achieves tasto at start of measure -1
-            closely spaced double-stops continue
-            continuous tremolo continues
+    [D.21.1] (92)
+    (1st of 3 measures)
+    [largo]
+    composite urtext field / clouded pane / flight
+        v1, v2, va urtext field
+            jagged scp transition achieves tasto at start of measure -1
+            [closely spaced double-stops]
+            [continuous tremolo]
         vc
             tacet subito
-        >>[F.2 (clearing) 1/2] bisects [D.21 (clearing)]<< (93)
-            >>summons future time<<
-            largo
-            va tailpiece
-                absent lh
-                poco flicker
-                mp
-        >>attacca second half of [D.21]<< (94)
+    >>[F.2 (clearing) 1/2] bisects [D.21 (clearing)]<< (93)
+        >>summons future time<<
+        [largo]
+        va tailpiece
+            poco flicker
+            mp
+    >>attacca second half of [D.21]<< (94)
+    [D.21.2] (94-95)
+    (2nd and 3rd of of 3 measures)
+    [largo]
+    composite urtext field / clouded pane / flight
+        v1, v2, va urtext field
+            tasto
+            [closely spaced double-stops]
+            [continuous tremolo]
+        vc
+            [tacet]
     attacca
 
-    [D.22] (95-96 + 97-98 + short)
-    (2 measures)
-    largo continues
-    composite urtext field / clouded pane / flight continues to end of stage
-        v1, v2, va urtext field fades out
-            tasto fades out
-            closely spaced double-stops fade out
-            continuous tremolo fades out
-            mp >o governs stage
-        vc clouded pane reenters
+    [D.22] (96)
+    (1 measure)
+    [largo]
+    composite urtext field / clouded pane / flight (to end of stage)
+        v1, v2, va urtext field
+            [tasto]
+            [closely spaced double-stops]
+            [continuous tremolo]
+            mp >o
+        vc clouded pane
             reenters up one step
-            o< p governs stage
-        <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>> (97-98)
-            <<summon past time>>
-            adagio
-            tutti maximally tight talon-crunch circles repeat
-                damped lh
-                v2 only
-                    slow up-glissando
-                desynchronization
-                p
+            o< p
+    <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>> (97-98)
+        <<summon past time>>
+        adagio
+        tutti maximally tight talon-crunch circles repeat
+            damped lh
+            v2-only slow up-glissando
+            desynchronization
+            p
     short fermata [vc continues through fermata] (99)
 
 [E] time series B; rotation -8
