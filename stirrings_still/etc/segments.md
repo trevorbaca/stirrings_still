@@ -1090,7 +1090,7 @@ SEGMENTS
             single pitch begins at trajectory endpoint
                 pitch is not upper register
             quasivortex now trapped repetition cell
-            f
+            "f"
     <<fermata repeated after insert to effect prolongation>> (39)
 
     [D.7] (40-45)
@@ -1107,11 +1107,10 @@ SEGMENTS
     [D.8] (47)
     (1 measure)
     andante governs stage
-    <<[A.1 (tutti urtext declamation)] reappears>>
+    <<[A.1 (trio urtext declamation)] reappears>>
         single urtext declamation (two chords [A.1])
         closely spaced lower-register
         tasto
-        p
     long fermata (48)
 
     [D.9] (49-50)

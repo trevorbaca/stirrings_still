@@ -270,11 +270,6 @@ maker(
 maker(
     ('vc', (6, 11)),
     baca.breathe(),
-    baca.material_annotation_spanner(
-        'clouded pane (overpressure obverse harm.) -|',
-        abjad.tweak('red').color,
-        abjad.tweak(5).staff_padding,
-        ),
     baca.new(
         baca.hairpin(
             'niente o< f',
@@ -284,6 +279,9 @@ maker(
         ),
     baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane (overpressure obverse harm.) -|', 5,
+        ),
     )
 
 maker(
@@ -605,11 +603,6 @@ maker(
         'p <| mp p < mp',
         pieces=baca.clparts([1]),
         ),
-    baca.material_annotation_spanner(
-        'A, B -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(5).staff_padding,
-        ),
     baca.new(
         baca.breathe(selector=baca.note(1)),
         baca.tie_to(selector=baca.note(1)),
@@ -621,6 +614,7 @@ maker(
         selector=baca.note(-1),
         ),
     stirrings_still.declamation(),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 5),
     )
 
 maker(
@@ -878,12 +872,8 @@ maker(
 maker(
     ('vc', 45),
     baca.dynamic('p'),
-    baca.material_annotation_spanner(
-        'clouded pane -|',
-        abjad.tweak('red').color,
-        abjad.tweak(5).staff_padding,
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
     )
 
 maker(
@@ -906,28 +896,20 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.material_annotation_spanner(
-        'urt. (dds) -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(5).staff_padding,
-        ),
     baca.scp_spanner(
         'T =|',
         abjad.tweak(10).staff_padding,
         ),
     baca.stem_tremolo(),
     stirrings_still.urtext_field(),
+    stirrings_still.urtext_annotation_spanner('urt. (dds) -|', 5),
     )
 
 maker(
     ('vc', 48),
     baca.dynamic('p'),
-    baca.material_annotation_spanner(
-        'clouded pane -|',
-        abjad.tweak('red').color,
-        abjad.tweak(5).staff_padding,
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
     )
 
 maker(
@@ -1075,11 +1057,6 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.material_annotation_spanner(
-        'urt. (dds) -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(5).staff_padding,
-        ),
     baca.new(
         stirrings_still.flight('A', 0, start=16),
         match=0,
@@ -1105,17 +1082,14 @@ maker(
         baca.untie_to(selector=baca.pleaves()),
         baca.tie(repeat=(1, 4)),
         ),
+    stirrings_still.urtext_annotation_spanner('urt. (dds) -|', 5),
     )
 
 maker(
     ('vc', 64),
     baca.dynamic('p'),
-    baca.material_annotation_spanner(
-        'clouded pane -|',
-        abjad.tweak('red').color,
-        abjad.tweak(5).staff_padding,
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
     )
 
 maker(

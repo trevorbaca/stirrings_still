@@ -217,18 +217,15 @@ maker(
         selector=baca.leaves()[2:].rleak(),
         ),
     baca.scp_spanner(
-        'T =|',
-        abjad.tweak(5).staff_padding,
+        'T =|',abjad.tweak(5).staff_padding,
         ),
     stirrings_still.declamation(protract=True),
     )
 
 maker(
     ('trio', (1, 16)),
-    baca.material_annotation_spanner(
-        'urtext closely spaced doublestops A, B -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
+    stirrings_still.urtext_annotation_spanner(
+        'urtext (closely spaced doublestops) A, B -|', 8,
         ),
     )
 
@@ -245,15 +242,11 @@ maker(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
         ),
-    baca.material_annotation_spanner(
-        'urtext field -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
-        ),
     baca.scp_spanner(
         'tasto (T) =|',
         abjad.tweak(5).staff_padding,
         ),
+    stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
     )
 
 maker(
@@ -263,11 +256,7 @@ maker(
         pieces=baca.lparts([1, 2]),
         selector=baca.leaves().rleak(),
         ),
-    baca.material_annotation_spanner(
-        'clouded pane -|',
-        abjad.tweak('red').color,
-        abjad.tweak(5).staff_padding,
-        ),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
     stirrings_still.taper((1, 1)),
     )
 
@@ -282,15 +271,11 @@ maker(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
         ),
-    baca.material_annotation_spanner(
-        'urtext field -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
-        ),
     baca.scp_spanner(
         'T =|',
         abjad.tweak(5).staff_padding,
         ),
+    stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
     )
 
 maker(
@@ -346,23 +331,9 @@ maker(
 
 maker(
     ('trio', (18, 22)),
-    baca.material_annotation_spanner(
-        'C, D -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.material_annotation_spanner(
-        'C, D -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
-        measures=25,
-        ),
-    baca.material_annotation_spanner(
-        'C, D -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
-        measures=29,
-        ),
+    stirrings_still.urtext_annotation_spanner('C, D -|', 8),
+    stirrings_still.urtext_annotation_spanner('C, D -|', 8, measures=25),
+    stirrings_still.urtext_annotation_spanner('C, D -|', 8, measures=29),
     )
 
 maker(
@@ -428,19 +399,15 @@ maker(
 
 maker(
     (['v1', 'v2'], 27),
-    baca.material_annotation_spanner(
-        'urtext double stop (G.1) -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
+    stirrings_still.urtext_annotation_spanner(
+        'urtext (double stop G.1) -|', 8,
         ),
     )
 
 maker(
     ('va', 27),
-    baca.material_annotation_spanner(
-        'clouded partial (G.1) -|',
-        abjad.tweak('red').color,
-        abjad.tweak(8).staff_padding,
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded (partial G.1) -|', 8,
         ),
     )
 
@@ -618,11 +585,6 @@ maker(
         'p <| f p < mp',
         pieces=baca.clparts([1]),
         ),
-    baca.material_annotation_spanner(
-        'A, B -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
-        ),
     baca.new(
         baca.breathe(),
         baca.tie_to(),
@@ -634,6 +596,7 @@ maker(
         selector=baca.note(-1),
         ),
     stirrings_still.declamation(),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 8),
     )
 
 # A.18
