@@ -45,26 +45,26 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 6)),
+    baca.circle_bow_spanner(
+        'ext-tight',
+        abjad.tweak(5).staff_padding,
+        ),
     baca.dynamic('mp-sempre'),
     baca.markup(
         'circles so tight that primary effect is granulation',
         abjad.tweak(8).staff_padding,
         boxed=True,
         ),
-    baca.circle_bow_spanner(
-        'ext-tight',
-        abjad.tweak(5).staff_padding,
-        ),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
     ('v1', 7),
-    baca.dynamic('ff'),
     baca.circle_bow_spanner(
         'scratch',
         abjad.tweak(5).staff_padding,
         ),
+    baca.dynamic('ff'),
     stirrings_still.pickets(4, 2),
     )
 
@@ -72,26 +72,26 @@ maker(
 
 maker(
     ('v2', (1, 6)),
+    baca.circle_bow_spanner(
+        'ext-tight',
+        abjad.tweak(5).staff_padding,
+        ),
     baca.dynamic('mp-sempre'),
     baca.markup(
         'circles so tight that primary effect is granulation',
         abjad.tweak(8).staff_padding,
         boxed=True,
         ),
-    baca.circle_bow_spanner(
-        'ext-tight',
-        abjad.tweak(5).staff_padding,
-        ),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
     ('v2', 7),
-    baca.dynamic('ff'),
     baca.circle_bow_spanner(
         'scratch',
         abjad.tweak(5).staff_padding,
         ),
+    baca.dynamic('ff'),
     stirrings_still.pickets(4, 1),
     )
 
@@ -99,26 +99,26 @@ maker(
 
 maker(
     ('va', (1, 6)),
+    baca.circle_bow_spanner(
+        'ext-tight',
+        abjad.tweak(5).staff_padding,
+        ),
     baca.dynamic('mp-sempre'),
     baca.markup(
         'circles so tight that primary effect is granulation',
         abjad.tweak(8).staff_padding,
         boxed=True,
         ),
-    baca.circle_bow_spanner(
-        'ext-tight',
-        abjad.tweak(5).staff_padding,
-        ),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
     ('va', 7),
-    baca.dynamic('ff'),
     baca.circle_bow_spanner(
         'scratch',
         abjad.tweak(5).staff_padding,
         ),
+    baca.dynamic('ff'),
     stirrings_still.pickets(4, 0),
     )
 
@@ -126,15 +126,15 @@ maker(
 
 maker(
     ('vc', (1, 6)),
+    baca.circle_bow_spanner(
+        'ext-tight',
+        abjad.tweak(5).staff_padding,
+        ),
     baca.dynamic('mp-sempre'),
     baca.markup(
         'circles so tight that primary effect is granulation',
         abjad.tweak(8).staff_padding,
         boxed=True,
-        ),
-    baca.circle_bow_spanner(
-        'ext-tight',
-        abjad.tweak(5).staff_padding,
         ),
     stirrings_still.circles((1, 4)),
     )

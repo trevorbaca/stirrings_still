@@ -379,15 +379,15 @@ R_Violin_I_Music_Voice = {                                                     %
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #9                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -936,15 +936,15 @@ R_Violin_II_Music_Voice = {                                                    %
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(5)
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #9                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)

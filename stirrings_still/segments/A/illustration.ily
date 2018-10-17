@@ -2586,16 +2586,16 @@ A_Violin_I_Music_Voice = {                                                     %
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -2686,8 +2686,8 @@ A_Violin_I_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2714,16 +2714,16 @@ A_Violin_I_Music_Voice = {                                                     %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -2748,8 +2748,8 @@ A_Violin_I_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2776,16 +2776,16 @@ A_Violin_I_Music_Voice = {                                                     %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -2809,8 +2809,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
@@ -2864,16 +2864,16 @@ A_Violin_I_Music_Voice = {                                                     %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -2892,8 +2892,8 @@ A_Violin_I_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2916,13 +2916,13 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
-    ~                                                                          %! TieCorrectionCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A, B"                                      %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -2977,16 +2977,16 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
@@ -3003,8 +3003,8 @@ A_Violin_I_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -4070,16 +4070,16 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-tight-markup                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -4148,8 +4148,8 @@ A_Violin_II_Music_Voice = {                                                    %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4173,16 +4173,16 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-tight-markup                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -4202,8 +4202,8 @@ A_Violin_II_Music_Voice = {                                                    %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4227,16 +4227,16 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-tight-markup                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -4255,8 +4255,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
@@ -4310,16 +4310,16 @@ A_Violin_II_Music_Voice = {                                                    %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -4335,8 +4335,8 @@ A_Violin_II_Music_Voice = {                                                    %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4359,13 +4359,13 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
-    ~                                                                          %! TieCorrectionCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A, B"                                      %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -4420,16 +4420,16 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
@@ -4446,8 +4446,8 @@ A_Violin_II_Music_Voice = {                                                    %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -5661,16 +5661,16 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -5770,8 +5770,8 @@ A_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5798,16 +5798,16 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -5835,8 +5835,8 @@ A_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5863,16 +5863,16 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -5899,8 +5899,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
@@ -5955,16 +5955,16 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_desynchronization
@@ -5980,8 +5980,8 @@ A_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6004,13 +6004,13 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
-    ~                                                                          %! TieCorrectionCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A, B"                                      %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    ~                                                                          %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -6065,16 +6065,16 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
@@ -6091,8 +6091,8 @@ A_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -6628,16 +6628,16 @@ A_Cello_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -6664,8 +6664,8 @@ A_Cello_Music_Voice = {                                                        %
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \downbow                                                                 %! baca_bcps:BCPCommand(6)
-    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     [
     - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
@@ -6733,16 +6733,16 @@ A_Cello_Music_Voice = {                                                        %
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -6770,8 +6770,8 @@ A_Cello_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6798,16 +6798,16 @@ A_Cello_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -6826,8 +6826,8 @@ A_Cello_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6854,16 +6854,16 @@ A_Cello_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -6881,8 +6881,8 @@ A_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #3.25                                               %! baca_text_spanner:PiecewiseCommand(1)
@@ -6936,16 +6936,16 @@ A_Cello_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -6961,8 +6961,8 @@ A_Cello_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6993,16 +6993,16 @@ A_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5                                                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
@@ -7019,8 +7019,8 @@ A_Cello_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container

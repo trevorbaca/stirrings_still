@@ -330,10 +330,10 @@ maker(
     ('vc', 38),
     baca.dls_staff_padding(5),
     baca.dynamic('"ff"'),
-    baca.script_staff_padding(7.5),
     baca.half_clt_spanner(
         abjad.tweak(11).staff_padding,
         ),
+    baca.script_staff_padding(7.5),
     stirrings_still.bcps(
         -3,
         abjad.tweak(4.5).staff_padding,
@@ -361,6 +361,10 @@ maker(
 
 maker(
     ('trio', 47),
+    baca.hairpin(
+        'p <| mp p < mp',
+        pieces=baca.clparts([1]),
+        ),
     baca.new(
         baca.breathe(selector=baca.note(1)),
         baca.tie_to(selector=baca.note(1)),
@@ -370,10 +374,6 @@ maker(
         baca.repeat_tie_to(),
         baca.stop_on_string(),
         selector=baca.note(-1),
-        ),
-    baca.hairpin(
-        'p <| mp p < mp',
-        pieces=baca.clparts([1]),
         ),
     stirrings_still.declamation(),
     )
@@ -411,6 +411,10 @@ maker(
 
 maker(
     ('trio', 55),
+    baca.hairpin(
+        'p <| mp p < mp',
+        pieces=baca.clparts([1]),
+        ),
     baca.new(
         baca.breathe(selector=baca.note(1)),
         baca.tie_to(selector=baca.note(1)),
@@ -421,22 +425,11 @@ maker(
         baca.stop_on_string(),
         selector=baca.note(-1),
         ),
-    baca.hairpin(
-        'p <| mp p < mp',
-        pieces=baca.clparts([1]),
-        ),
     stirrings_still.declamation(),
     )
 
 maker(
     (['v1', 'v2'], 57),
-    baca.suite(
-        baca.dynamic_text_parent_alignment_x(
-            -4,
-            selector=baca.pleaf(-1),
-            ),
-        baca.hairpin('pp < mp'),
-        ),
     baca.new(
         stirrings_still.accelerando((1, 4), (1, 16)),
         match=0,
@@ -444,6 +437,13 @@ maker(
     baca.new(
         stirrings_still.accelerando((1, 4), (2, 16)),
         match=1,
+        ),
+    baca.suite(
+        baca.dynamic_text_parent_alignment_x(
+            -4,
+            selector=baca.pleaf(-1),
+            ),
+        baca.hairpin('pp < mp'),
         ),
     baca.text_spanner(
         'fast whisked ellipses =|',
@@ -484,6 +484,9 @@ maker(
 
 maker(
     ('tutti', (58, 63)),
+    baca.damp_spanner(
+        abjad.tweak(5).staff_padding,
+        ),
     baca.hairpin('mf >o niente'),
     baca.suite(
         baca.new(
@@ -494,9 +497,6 @@ maker(
             ),
         # TODO: restore glissandi
         stirrings_still.ntlt_flat_glissandi(),
-        ),
-    baca.damp_spanner(
-        abjad.tweak(5).staff_padding,
         ),
     stirrings_still.strokes(0),
     )
@@ -517,13 +517,13 @@ maker(
 
 maker(
     ('vc', (65, 91)),
-    baca.new(
-        baca.hairpin('niente o< p'),
-        map=baca.cmgroups()[:3].group(),
-        ),
     baca.markup(
         baca.Markup('clouded pane'),
         abjad.tweak('darkgreen').color,
+        ),
+    baca.new(
+        baca.hairpin('niente o< p'),
+        map=baca.cmgroups()[:3].group(),
         ),
     baca.new(
         baca.hairpin('p < fff'),
@@ -569,15 +569,6 @@ maker(
 
 maker(
     ('trio', (68, 83)),
-    baca.suite(
-        baca.new(
-            baca.espressivo(),
-            baca.stem_tremolo(selector=baca.pleaves()),
-            map=baca.plts()[abjad.index([1], 2)],
-            ),
-        baca.untie_to(selector=baca.pleaves()),
-        baca.tie(repeat=(1, 4)),
-        ),
     baca.new(
         stirrings_still.flight('A', 0),
         match=0,
@@ -589,6 +580,15 @@ maker(
     baca.new(
         stirrings_still.flight('B', -2),
         match=2,
+        ),
+    baca.suite(
+        baca.new(
+            baca.espressivo(),
+            baca.stem_tremolo(selector=baca.pleaves()),
+            map=baca.plts()[abjad.index([1], 2)],
+            ),
+        baca.untie_to(selector=baca.pleaves()),
+        baca.tie(repeat=(1, 4)),
         ),
     )
 

@@ -42,6 +42,22 @@ stirrings_still.time(maker, time)
 maker(
     'v1',
     baca.dls_staff_padding(7),
+    baca.half_clt_spanner(
+        abjad.tweak(9).staff_padding,
+        measures=(1, 2),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(9).staff_padding,
+        measures=(4, 6),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(9).staff_padding,
+        measures=(8, 10),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(9).staff_padding,
+        measures=(12, 14),
+        ),
     baca.suite(
         baca.script_staff_padding(5),
         stirrings_still.bcps(
@@ -82,6 +98,18 @@ maker(
             selector=baca.leaves().rleak(),
             ),
         ),
+    baca.tuplet_bracket_down(),
+    stirrings_still.trajectories(
+        'C',
+        0,
+        -3,
+        dmask=rmakers.sustain([2, 6, 10, 14, 15]),
+        ),
+    )
+
+maker(
+    'v2',
+    baca.dls_staff_padding(7),
     baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
         measures=(1, 2),
@@ -98,18 +126,6 @@ maker(
         abjad.tweak(9).staff_padding,
         measures=(12, 14),
         ),
-    baca.tuplet_bracket_down(),
-    stirrings_still.trajectories(
-        'C',
-        0,
-        -3,
-        dmask=rmakers.sustain([2, 6, 10, 14, 15]),
-        ),
-    )
-
-maker(
-    'v2',
-    baca.dls_staff_padding(7),
     baca.suite(
         baca.script_staff_padding(5),
         stirrings_still.bcps(
@@ -150,6 +166,18 @@ maker(
             selector=baca.leaves().rleak(),
             ),
         ),
+    baca.tuplet_bracket_down(),
+    stirrings_still.trajectories(
+        'C',
+        -1,
+        -2,
+        dmask=rmakers.sustain([2, 6, 10, 14, 15]),
+        ),
+    )
+
+maker(
+    'va',
+    baca.dls_staff_padding(7),
     baca.half_clt_spanner(
         abjad.tweak(9).staff_padding,
         measures=(1, 2),
@@ -166,18 +194,6 @@ maker(
         abjad.tweak(9).staff_padding,
         measures=(12, 14),
         ),
-    baca.tuplet_bracket_down(),
-    stirrings_still.trajectories(
-        'C',
-        -1,
-        -2,
-        dmask=rmakers.sustain([2, 6, 10, 14, 15]),
-        ),
-    )
-
-maker(
-    'va',
-    baca.dls_staff_padding(7),
     baca.suite(
         baca.script_staff_padding(5),
         stirrings_still.bcps(
@@ -218,22 +234,6 @@ maker(
             selector=baca.leaves().rleak(),
             ),
         ),
-    baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
-        measures=(1, 2),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
-        measures=(4, 6),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
-        measures=(8, 10),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
-        measures=(12, 14),
-        ),
     stirrings_still.trajectories(
         'C',
         -2,
@@ -253,11 +253,11 @@ maker(
 
 maker(
     'vc',
-    stirrings_still.clouded_pane(),
     baca.dls_staff_padding(5),
     baca.hairpin(
         'p < ff ff > p < ff ff > p < ff ff > p < fff',
         measures=(1, 15),
         pieces=baca.cmgroups([2, 1, 1]),
         ),
+    stirrings_still.clouded_pane(),
     )

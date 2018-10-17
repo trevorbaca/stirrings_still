@@ -160,6 +160,16 @@ maker(
 
 maker(
     'v1',
+    baca.hairpin(
+        'p > pp',
+        measures=(41, 42),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'pp <',
+        bookend=False,
+        measures=45,
+        ),
     baca.new(
         baca.accent(
             selector=baca.pheads(),
@@ -227,16 +237,6 @@ maker(
             ),
         stirrings_still.flight('A', 0, start=0),
         measures=(38, 45),
-        ),
-    baca.hairpin(
-        'p > pp',
-        measures=(41, 42),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'pp <',
-        bookend=False,
-        measures=45,
         ),
     )
 
@@ -661,14 +661,14 @@ maker(
 maker(
     'va',
     baca.new(
+        baca.damp_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
         baca.hairpin(
             'p >o niente',
             ),
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
-            ),
-        baca.damp_spanner(
-            abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
             'T poss. =|',
@@ -764,10 +764,10 @@ maker(
         'niente o< "f" "f" >o niente',
         pieces=baca.cmgroups(),
         ),
-    baca.script_staff_padding(8),
     baca.half_clt_spanner(
         abjad.tweak(11).staff_padding,
         ),
+    baca.script_staff_padding(8),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         abjad.tweak(5).staff_padding,
@@ -799,6 +799,13 @@ maker(
         baca.accent(
             selector=baca.pheads(),
             ),
+        baca.scp_spanner(
+            'T -> P ->',
+            abjad.tweak(5).staff_padding,
+            autodetect_right_padding=False,
+            final_piece_spanner=False,
+            pieces=baca.plts(),
+            ),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -810,13 +817,6 @@ maker(
             lilypond_id=1,
             pieces=baca.cmgroups([1, 1, 1, 2, 1, 1]),
             selector=baca.leaves().rleak(),
-            ),
-        baca.scp_spanner(
-            'T -> P ->',
-            abjad.tweak(5).staff_padding,
-            autodetect_right_padding=False,
-            final_piece_spanner=False,
-            pieces=baca.plts(),
             ),
         stirrings_still.flight('A', -2, start=6),
         measures=(32, 37),

@@ -45,7 +45,6 @@ stirrings_still.time(maker, time)
 
 maker(
     (['v1', 'v2', 'vc'], (1, 8)),
-    stirrings_still.clouded_pane(),
     baca.new(
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
@@ -81,6 +80,7 @@ maker(
         baca.markup('[clouded pane fundamental]'),
         match=2,
         ),
+    stirrings_still.clouded_pane(),
     )
 
 maker(
