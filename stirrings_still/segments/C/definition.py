@@ -216,10 +216,14 @@ maker(
     )
 
 maker(
-    ('tutti', (12, 15)),
+    ('tutti', (12, 27)),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
+    )
+
+maker(
+    ('tutti', (12, 15)),
     baca.dynamic(
         'p-ancora',
         abjad.tweak(-0.75).self_alignment_X,
@@ -252,9 +256,6 @@ maker(
 
 maker(
     ('tutti', (16, 19)),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
     baca.dynamic('p', redundant=True),
     baca.new(
         stirrings_still.desynchronization(4, [1], rests=True),
@@ -284,9 +285,6 @@ maker(
 
 maker(
     ('tutti', (20, 23)),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
     baca.dynamic('p', redundant=True),
     baca.new(
         stirrings_still.desynchronization(4, [1], rests=([2], 3)),
@@ -316,9 +314,6 @@ maker(
 
 maker(
     ('tutti', (24, 27)),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
     baca.dynamic('p', redundant=True),
     baca.new(
         stirrings_still.desynchronization(4, [1]),
@@ -386,7 +381,6 @@ maker(
 
 maker(
     ('tutti', (30, 33)),
-    baca.breathe(),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
@@ -432,6 +426,7 @@ maker(
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
+        measures=(36, 59),
         ),
     baca.new(
         stirrings_still.synchronized_circles(rotation=0),
@@ -459,43 +454,52 @@ maker(
         ),
     )
 
-maker(
-    ('tutti', (36, 39)),
-    baca.hairpin(
-        'pp < mf',
-        selector=baca.tleaves(),
-        ),
-    )
+##maker(
+##    ('tutti', (36, 39)),
+##    baca.hairpin(
+##        'pp < mf',
+##        selector=baca.tleaves(),
+##        ),
+##    )
+#
+##maker(
+##    ('tutti', (40, 43)),
+##    baca.hairpin(
+##        'mf > pp',
+##        selector=baca.tleaves(),
+##        ),
+##    )
+#
+##maker(
+##    ('tutti', (44, 47)),
+##    baca.hairpin(
+##        'pp < f',
+##        selector=baca.tleaves(),
+##        ),
+##    )
+#
+##maker(
+##    ('tutti', (48, 51)),
+##    baca.hairpin(
+##        'f > pp',
+##        selector=baca.tleaves(),
+##        ),
+##    )
+#
+##maker(
+##    ('tutti', (52, 55)),
+##    baca.hairpin(
+##        'pp < ff',
+##        selector=baca.tleaves(),
+##        ),
+##    )
 
 maker(
-    ('tutti', (40, 43)),
+    ('tutti', (36, 55)),
     baca.hairpin(
-        'mf > pp',
-        selector=baca.tleaves(),
-        ),
-    )
-
-maker(
-    ('tutti', (44, 47)),
-    baca.hairpin(
-        'pp < f',
-        selector=baca.tleaves(),
-        ),
-    )
-
-maker(
-    ('tutti', (48, 51)),
-    baca.hairpin(
-        'f > pp',
-        selector=baca.tleaves(),
-        ),
-    )
-
-maker(
-    ('tutti', (52, 55)),
-    baca.hairpin(
-        'pp < ff',
-        selector=baca.tleaves(),
+        'pp < mf > pp < f > pp < ff',
+        pieces=baca.omgroups([4, 4, 4, 4, 5]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -525,13 +529,6 @@ maker(
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
-        ),
-    baca.text_spanner(
-        '8˝ circles =|',
-        abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
     )

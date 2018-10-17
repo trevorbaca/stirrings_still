@@ -2228,13 +2228,7 @@ C_Violin_I_Music_Voice = {                                                     %
         % [C Violin_I_Music_Voice measure 145 / measure 16]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
@@ -2317,13 +2311,7 @@ C_Violin_I_Music_Voice = {                                                     %
         % [C Violin_I_Music_Voice measure 149 / measure 20]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
@@ -2414,13 +2402,7 @@ C_Violin_I_Music_Voice = {                                                     %
         % [C Violin_I_Music_Voice measure 153 / measure 24]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -2603,7 +2585,6 @@ C_Violin_I_Music_Voice = {                                                     %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
@@ -2692,20 +2673,18 @@ C_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
     % [C Violin_I_Music_Voice measure 169 / measure 40]                        %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4.                                                                       %! stirrings_still_synchronized_circles
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
@@ -2745,8 +2724,6 @@ C_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Violin_I_Music_Voice measure 173 / measure 44]                        %! _comment_measure_numbers
@@ -2792,8 +2769,6 @@ C_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
@@ -2841,8 +2816,6 @@ C_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Violin_I_Music_Voice measure 181 / measure 52]                        %! _comment_measure_numbers
@@ -2889,24 +2862,18 @@ C_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [C Violin_I_Music_Voice measure 185 / measure 56]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "[harmonic --> half --> stopped]"           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "8˝ circles"                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
@@ -2970,8 +2937,8 @@ C_Violin_I_Music_Voice = {                                                     %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -3672,13 +3639,7 @@ C_Violin_II_Music_Voice = {                                                    %
     % [C Violin_II_Music_Voice measure 145 / measure 16]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #10.5                                               %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup            %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
@@ -3731,13 +3692,7 @@ C_Violin_II_Music_Voice = {                                                    %
     % [C Violin_II_Music_Voice measure 149 / measure 20]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #10.5                                               %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-tight-markup                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
@@ -3798,13 +3753,7 @@ C_Violin_II_Music_Voice = {                                                    %
     % [C Violin_II_Music_Voice measure 153 / measure 24]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #10.5                                               %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -3990,7 +3939,6 @@ C_Violin_II_Music_Voice = {                                                    %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
@@ -4077,20 +4025,18 @@ C_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
     % [C Violin_II_Music_Voice measure 169 / measure 40]                       %! _comment_measure_numbers
     r8                                                                         %! stirrings_still_synchronized_circles
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4.                                                                       %! stirrings_still_synchronized_circles
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
@@ -4134,8 +4080,6 @@ C_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Violin_II_Music_Voice measure 173 / measure 44]                       %! _comment_measure_numbers
@@ -4185,8 +4129,6 @@ C_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
@@ -4234,8 +4176,6 @@ C_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Violin_II_Music_Voice measure 181 / measure 52]                       %! _comment_measure_numbers
@@ -4282,24 +4222,18 @@ C_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [C Violin_II_Music_Voice measure 185 / measure 56]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "[harmonic --> half --> stopped]"           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "8˝ circles"                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
@@ -4367,8 +4301,8 @@ C_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -5134,13 +5068,7 @@ C_Viola_Music_Voice = {                                                        %
         % [C Viola_Music_Voice measure 145 / measure 16]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
@@ -5233,13 +5161,7 @@ C_Viola_Music_Voice = {                                                        %
         % [C Viola_Music_Voice measure 149 / measure 20]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
@@ -5341,13 +5263,7 @@ C_Viola_Music_Voice = {                                                        %
         % [C Viola_Music_Voice measure 153 / measure 24]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -5542,7 +5458,6 @@ C_Viola_Music_Voice = {                                                        %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
@@ -5629,8 +5544,6 @@ C_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r8                                                                         %! stirrings_still_synchronized_circles
 
@@ -5680,8 +5593,6 @@ C_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Viola_Music_Voice measure 173 / measure 44]                           %! _comment_measure_numbers
@@ -5736,8 +5647,6 @@ C_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Viola_Music_Voice measure 177 / measure 48]                           %! _comment_measure_numbers
@@ -5786,8 +5695,6 @@ C_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Viola_Music_Voice measure 181 / measure 52]                           %! _comment_measure_numbers
@@ -5834,24 +5741,18 @@ C_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [C Viola_Music_Voice measure 185 / measure 56]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "[harmonic --> half --> stopped]"           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "8˝ circles"                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
@@ -5919,8 +5820,8 @@ C_Viola_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -6635,13 +6536,7 @@ C_Cello_Music_Voice = {                                                        %
         % [C Cello_Music_Voice measure 145 / measure 16]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
@@ -6704,13 +6599,7 @@ C_Cello_Music_Voice = {                                                        %
         % [C Cello_Music_Voice measure 149 / measure 20]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
@@ -6780,13 +6669,7 @@ C_Cello_Music_Voice = {                                                        %
         % [C Cello_Music_Voice measure 153 / measure 24]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -6945,7 +6828,6 @@ C_Cello_Music_Voice = {                                                        %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
@@ -7035,8 +6917,6 @@ C_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r4                                                                         %! stirrings_still_synchronized_circles
 
@@ -7084,8 +6964,6 @@ C_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Cello_Music_Voice measure 173 / measure 44]                           %! _comment_measure_numbers
@@ -7136,8 +7014,6 @@ C_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Cello_Music_Voice measure 177 / measure 48]                           %! _comment_measure_numbers
@@ -7190,8 +7066,6 @@ C_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ~
 
     % [C Cello_Music_Voice measure 181 / measure 52]                           %! _comment_measure_numbers
@@ -7240,24 +7114,18 @@ C_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_synchronized_circles
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [C Cello_Music_Voice measure 185 / measure 56]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
-    \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "[harmonic --> half --> stopped]"           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "8˝ circles"                                %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_synchronized_circles
@@ -7325,8 +7193,8 @@ C_Cello_Music_Voice = {                                                        %
             % [C Cello_Music_Voice measure 189 / measure 60]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/2                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
             \stopTextSpanOne                                                   %! baca_text_spanner:PiecewiseCommand(3)
-            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
