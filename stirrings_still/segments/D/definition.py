@@ -325,8 +325,17 @@ maker(
     )
 
 maker(
+    ('trio', 38),
+    baca.tacet(),
+    )
+
+maker(
     ('vc', 38),
-    baca.dynamic('"ff"'),
+    baca.hairpin(
+        '"f" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.half_clt_spanner(
         abjad.tweak(11).staff_padding,
         ),
@@ -371,7 +380,17 @@ maker(
         baca.stop_on_string(),
         selector=baca.note(-1),
         ),
+    baca.scp_spanner(
+        'tasto (T) =|',
+        abjad.tweak(5).staff_padding,
+        ),
     stirrings_still.declamation(),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 7.5),
+    )
+
+maker(
+    ('vc', 47),
+    baca.tacet(),
     )
 
 maker(

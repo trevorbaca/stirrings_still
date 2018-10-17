@@ -9,6 +9,7 @@ from .cello_cell_bcps import cello_cell_bcps
 from .circles import circles
 from .clockticks import clockticks
 from .clouded_pane import clouded_pane
+from .clouded_pane_annotation_spanner import clouded_pane_annotation_spanner
 from .continuous_tremolo import continuous_tremolo
 from .declamation import declamation
 from .desynchronization import desynchronization
@@ -39,5 +40,6 @@ from .time_signatures import time_signatures
 from .to_flight import to_flight
 from .trajectories import trajectories
 from .transition_bcps import transition_bcps
+from .urtext_annotation_spanner import urtext_annotation_spanner
 from .urtext_field import urtext_field
 from .wave import wave
