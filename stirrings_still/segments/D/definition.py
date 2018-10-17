@@ -578,17 +578,28 @@ maker(
     )
 
 maker(
-    ('vc', (65, 91)),
+    ('vc', (65, 92)),
+    baca.hairpin(
+        'p < fff',
+        measures=(86, 89),
+        ),
+    baca.hairpin(
+        '-- !',
+        abjad.tweak(True).to_barline,
+        measures=(89, 92),
+        selector=baca.leaves().rleak(),
+        ),
     baca.new(
         baca.hairpin('niente o< p'),
         map=baca.cmgroups()[:3].group(),
         ),
-    baca.new(
-        baca.hairpin('p < fff'),
-        measures=(86, 89),
-        ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
+    )
+
+maker(
+    ('vcx', 93),
+    baca.tacet(),
     )
 
 maker(
@@ -630,18 +641,33 @@ maker(
     )
 
 maker(
-    ('trio', (90, 96)),
+    (['v1', 'v2'], (90, 92)),
     stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 10.5),
     )
 
 maker(
-    (['v1', 'v2'], (84, 96)),
+    ('trio', (94, 96)),
+    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 10.5),
+    )
+
+maker(
+    (['v1', 'v2'], (84, 92)),
     baca.repeat_tie_to(),
     stirrings_still.continuous_tremolo(),
     )
 
 maker(
-    ('va', [(84, 92), (94, 96)]),
+    (['v1x', 'v2x'], 93),
+    baca.tacet(),
+    )
+
+maker(
+    (['v1', 'v2'], (94, 96)),
+    stirrings_still.continuous_tremolo(),
+    )
+
+maker(
+    ('va', [(84, 89), (94, 96)]),
     baca.new(
         baca.repeat_tie_to(),
         match=0,
@@ -650,13 +676,63 @@ maker(
     )
 
 maker(
-    ('vc', (96, 99)),
+    ('va', 94),
+    baca.staff_lines(5),
+    )
+
+maker(
+    ('va', (90, 93)),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    baca.markup('tailpiece'),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    stirrings_still.glissando_without_ties(
+        (abjad.tweak(2.25).bound_details__right__padding, -1),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', (94, 99)),
     baca.hairpin(
         'o< p',
-        bookend=False,
-        pieces=baca.omgroups([1]),
+        measures=(94, 96),
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
+    )
+    
+maker(
+    ('trio', (97, 98)),
+    baca.circle_bow_spanner(
+        'tight-poss-grind-at-talon',
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [1]),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [0]),
+        stirrings_still.glissando_interpolation('F4', 'Ab4'),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [2]),
+        match=2,
+        ),
     )
 
 # vertical
