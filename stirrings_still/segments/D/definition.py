@@ -25,9 +25,9 @@ stage_markup = (
     ('[D.10 (A.2)]', 55),
     ('[S.2]', 57, 'darkgreen'),
     ('[D.11]', 58),
-    ('[D.12]', 65),
+    ('[D.12.1]', 65),
     ('[I.1]', 66, 'darkgreen'),
-    ('[D.12]', 67),
+    ('[D.12.2]', 67),
     ('[D.13]', 68),
     ('[D.14]', 72),
     ('[D.15]', 76),
@@ -36,9 +36,9 @@ stage_markup = (
     ('[D.18]', 86),
     ('[D.19]', 88),
     ('[D.20]', 90),
-    ('[D.21]', 92),
+    ('[D.21.1]', 92),
     ('[F.2]', 93, 'darkgreen'),
-    ('[D.21]', 94),
+    ('[D.21.2]', 94),
     ('[D.22]', 96),
     ('[C.2]', 97, 'darkgreen'),
     )
@@ -394,29 +394,43 @@ maker(
     )
 
 maker(
+    (['v1', 'v2'], (49, 53)),
+    baca.tacet(),
+    )
+
+maker(
     ('va', (49, 53)),
     baca.dynamic(
-        '"mp"',
-        abjad.tweak(abjad.Left).self_alignment_X,
+        '"mf"',
+        abjad.tweak((-2, 0)).extra_offset,
+        abjad.tweak((0, 0)).X_extent,
         ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.markup('tailpiece'),
     baca.staff_lines(1),
     baca.staff_position(0),
-    )
-
-# TODO: allow glissando to extend to simultaneous multimeasure rest packet:
-maker(
-    ('va', (49, 54)),
     stirrings_still.glissando_without_ties(
-        (abjad.tweak(3.25).bound_details__right__padding, -1),
+        (abjad.tweak(2.25).bound_details__right__padding, -1),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('vc', [(49, 50), (52, 53)]),
-    baca.dynamic('p', redundant=True),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane (lontano) -|', 5,
+        ),
+    )
+
+maker(
+    ('vcx', 51),
+    baca.tacet(),
     )
 
 maker(
@@ -440,11 +454,25 @@ maker(
         baca.stop_on_string(),
         selector=baca.note(-1),
         ),
+    baca.scp_spanner(
+        'tasto (T) =|',
+        abjad.tweak(5).staff_padding,
+        ),
     stirrings_still.declamation(),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 7.5),
+    )
+
+maker(
+    ('vc', 55),
+    baca.tacet(),
     )
 
 maker(
     (['v1', 'v2'], 57),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(5).staff_padding,
+        ),
     baca.new(
         stirrings_still.accelerando((1, 4), (1, 16)),
         match=0,
@@ -460,41 +488,29 @@ maker(
             ),
         baca.hairpin('pp < mp'),
         ),
-    baca.text_spanner(
-        'fast whisked ellipses =|',
-        abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
-        ),
     )
 
 maker(
     ('va', 57),
-    baca.dynamic('pp'),
-    baca.make_repeat_tied_notes(),
-    baca.markup(
-        'memory of flight',
-        abjad.tweak('darkgreen').color,
-        abjad.tweak(5).staff_padding,
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
+    baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
+    stirrings_still.flight_annotation_spanner('memory of flight -|', 5),
     )
 
 maker(
     ('vc', 57),
-    baca.hairpin(
-        'pp <| mf',
-        selector=baca.leaves(),
-        ),
-    baca.markup(
-        'HAND!',
-        abjad.tweak('magenta').color,
-        abjad.tweak(-8).parent_alignment_X,
-        selector=baca.leaf(-1),
+    baca.hairpin('o<| mf'),
+    baca.make_rhythm(
+        'c1 ~ c4 ~ c4',
+        repeat_tie_threshold=(1, 4),
         ),
     baca.pitch('B1'),
-    stirrings_still.strokes(0, ltmask=baca.silence_last()),
+    stirrings_still.flight_annotation_spanner('memory of flight -|', 5),
     )
 
 maker(
@@ -516,38 +532,27 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], 65),
+    ('trio', 65),
     baca.dynamic('p'),
-    baca.markup(
-        baca.markups.column('dense', 'db. stops'),
-        abjad.tweak('magenta').color,
-        ),
-    baca.markup(
-        baca.Markup('urtext field'),
-        abjad.tweak('darkgreen').color,
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.urtext_field(),
+    stirrings_still.urtext_annotation_spanner('urtext (cds) -|', 10.5),
     )
 
 maker(
-    ('vc', (65, 91)),
-    baca.markup(
-        baca.Markup('clouded pane'),
-        abjad.tweak('darkgreen').color,
+    ('trio', 66),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5).staff_padding,
         ),
-    baca.new(
-        baca.hairpin('niente o< p'),
-        map=baca.cmgroups()[:3].group(),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.ltleaves().rleak(),
         ),
-    baca.new(
-        baca.hairpin('p < fff'),
-        measures=(86, 89),
-        ),
-    stirrings_still.clouded_pane(),
-    )
-
-maker(
-    (['v1', 'v2', 'va'], 66),
     baca.new(
         stirrings_still.circles((1, 8)),
         match=0,
@@ -564,21 +569,26 @@ maker(
             ),
         match=2,
         ),
-    baca.text_spanner(
-        '8˝ cir. =|',
-        abjad.tweak(5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
+    )
+
+maker(
+    ('trio', 67),
+    baca.dynamic('p-sempre'),
+    stirrings_still.urtext_field(),
+    )
+
+maker(
+    ('vc', (65, 91)),
+    baca.new(
+        baca.hairpin('niente o< p'),
+        map=baca.cmgroups()[:3].group(),
         ),
-    baca.text_spanner(
-        'golden tone =|',
-        abjad.tweak(9).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
+    baca.new(
+        baca.hairpin('p < fff'),
+        measures=(86, 89),
         ),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
     )
 
 maker(
@@ -604,6 +614,24 @@ maker(
         baca.untie_to(selector=baca.pleaves()),
         baca.tie(repeat=(1, 4)),
         ),
+    )
+
+maker(
+    ('trio', (67, 85)),
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
+    ('trio', (67, 89)),
+    stirrings_still.urtext_annotation_spanner('urtext (cds) =|', 10.5),
+    )
+
+maker(
+    ('trio', (90, 96)),
+    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) =|', 10.5),
     )
 
 maker(

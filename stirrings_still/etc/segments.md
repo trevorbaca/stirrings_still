@@ -894,14 +894,14 @@ SEGMENTS
             rhythm 3 2r 3 2r 3 2r 3 1r (!) 3 2r ...
         mf > pp governs stage
     surprisingly short breath
-        >>[D.9 (clouded pane) 1-2/4] prolongs [C.8] breath<< (34-35)
-            >>summons future time<<
-            largo
-            lontano
-            v1, v2, va
-                tacet
-            vc clouded pane appears (first [actual] time in piece)
-                p
+    >>[D.9 (clouded pane) 1-2/4] prolongs [C.8] breath<< (34-35)
+        >>summons future time<<
+        largo
+        lontano
+        v1, v2, va
+            tacet
+        vc clouded pane appears (first [actual] time in piece)
+            p
     <<surprisingly short breath repeats to effect prolongation>>
 
     [C.9] (36-39)
@@ -1118,21 +1118,19 @@ SEGMENTS
     largo
     lontano
     v1, v2, va
-        tacet subito
+        tacet
     vc clouded pane appears
-        p governs stage
+        p
     >>[F.2 (clearing) 1/2] bisects [D.9]<< (51)
         >>summons future time<<
-        largo
+        [largo]
         va tailpiece
-            absent lh
             poco flicker
-            mp
+            "mf"
     >>attacca second half of [D.9]<<
     [D.9] (52-53)
     (2nd 2 of 4 measures)
-    largo
-    lontano
+    [largo]
     v1, v2, va
         [tacet]
     vc clouded pane
@@ -1142,11 +1140,10 @@ SEGMENTS
     [D.10 (A.2)] (55)
     (1 measure)
     andante
-    tutti urtext declamation (repeats)
+    trio urtext declamation (repeats)
         single urtext declamation (two chords [A.2])
             closely spaced lower-register
             tasto
-            p
     long fermata (56)
 
     >>[S.2 (transformatum) 1/1] prefixes [D.11]<< (57)
@@ -1170,7 +1167,7 @@ SEGMENTS
         mf >o
     long fermata (64)
 
-    [D.12] (65)
+    [D.12.1] (65)
     (1st of 2 measures)
     [largo]
     composite urtext field / clouded pane
@@ -1184,18 +1181,12 @@ SEGMENTS
     >>[I.1 (gears)] bisect [D.12]<< (66)
         >>summon future time<<
         [largo]
-        measure 2/2
-        golden tone (senza scratch)
-        circles (SL = BW) locked in binary rate ratio 1:4
-        mp
-        instead of ...
-        >>[I.1 (vc 1/2 clt solo trajectory] bisects [D.12]<<
-            >>summons future time<<
-            1/2 clt
-            starts up on local accelerandi
-            repetition quasivortex begins
-            p
-        ... vc continues clouded pane.
+        trio:
+            measure 2/2
+            golden tone (senza scratch)
+            circles locked in binary rate ratio 1:4
+            mp
+        (vc continues clouded pane)
         >>attacca second half of [D.12]<<
     [D.12.2] (67)
     (2nd of 2 measures)
