@@ -626,12 +626,12 @@ maker(
 
 maker(
     ('trio', (67, 89)),
-    stirrings_still.urtext_annotation_spanner('urtext (cds) =|', 10.5),
+    stirrings_still.urtext_annotation_spanner('urtext (cds) -|', 10.5),
     )
 
 maker(
     ('trio', (90, 96)),
-    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) =|', 10.5),
+    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 10.5),
     )
 
 maker(

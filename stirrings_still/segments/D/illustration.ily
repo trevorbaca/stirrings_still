@@ -3394,7 +3394,7 @@ D_Violin_I_Music_Voice = {                                                     %
     - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #8                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (cds)"                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
@@ -3682,7 +3682,7 @@ D_Violin_I_Music_Voice = {                                                     %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (NEW cds)"                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
@@ -5062,7 +5062,7 @@ D_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #8                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (cds)"                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
@@ -5361,7 +5361,7 @@ D_Violin_II_Music_Voice = {                                                    %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (NEW cds)"                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
@@ -6730,7 +6730,7 @@ D_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #8                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (cds)"                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
@@ -7031,7 +7031,7 @@ D_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (NEW cds)"                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
