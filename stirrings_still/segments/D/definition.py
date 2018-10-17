@@ -307,7 +307,6 @@ maker(
                 ),
             map=baca.logical_ties(nontrivial=True),
             ),
-        # TODO: restore glissandi
         stirrings_still.ntlt_flat_glissandi(),
         ),
     )
@@ -321,14 +320,12 @@ maker(
                 ),
             map=baca.logical_ties(nontrivial=True),
             ),
-        # TODO: restore glissandi
         stirrings_still.ntlt_flat_glissandi(),
         ),
     )
 
 maker(
     ('vc', 38),
-    baca.dls_staff_padding(5),
     baca.dynamic('"ff"'),
     baca.half_clt_spanner(
         abjad.tweak(11).staff_padding,
@@ -353,7 +350,6 @@ maker(
                 ),
             map=baca.logical_ties(nontrivial=True),
             ),
-        # TODO: restore glissandi
         stirrings_still.ntlt_flat_glissandi(),
         ),
     stirrings_still.strokes(0),
@@ -495,7 +491,6 @@ maker(
                 ),
             map=baca.logical_ties(nontrivial=True),
             ),
-        # TODO: restore glissandi
         stirrings_still.ntlt_flat_glissandi(),
         ),
     stirrings_still.strokes(0),
