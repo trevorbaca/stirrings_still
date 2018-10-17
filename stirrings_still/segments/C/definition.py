@@ -454,52 +454,71 @@ maker(
         ),
     )
 
-##maker(
-##    ('tutti', (36, 39)),
-##    baca.hairpin(
-##        'pp < mf',
-##        selector=baca.tleaves(),
-##        ),
-##    )
-#
-##maker(
-##    ('tutti', (40, 43)),
-##    baca.hairpin(
-##        'mf > pp',
-##        selector=baca.tleaves(),
-##        ),
-##    )
-#
-##maker(
-##    ('tutti', (44, 47)),
-##    baca.hairpin(
-##        'pp < f',
-##        selector=baca.tleaves(),
-##        ),
-##    )
-#
-##maker(
-##    ('tutti', (48, 51)),
-##    baca.hairpin(
-##        'f > pp',
-##        selector=baca.tleaves(),
-##        ),
-##    )
-#
-##maker(
-##    ('tutti', (52, 55)),
-##    baca.hairpin(
-##        'pp < ff',
-##        selector=baca.tleaves(),
-##        ),
-##    )
+maker(
+    ('v1', (36, 43)),
+    baca.articulations(
+        [
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-double-diamond'),
+            abjad.Articulation('baca-damp'),
+            None,
+            ],
+        ),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        map=baca.plts()[abjad.index([3], 4)],
+        ),
+    )
+
+maker(
+    ('v2', (36, 43)),
+    baca.articulations(
+        [
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-double-diamond'),
+            ],
+        ),
+    )
+
+maker(
+    ('va', (36, 43)),
+    baca.articulations(
+        [
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-double-diamond'),
+            abjad.Articulation('baca-double-diamond'),
+            abjad.Articulation('baca-damp'),
+            None,
+            ],
+        ),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        map=baca.plts()[abjad.index([4], 5)],
+        ),
+    )
+
+maker(
+    ('vc', (36, 43)),
+    baca.articulations(
+        [
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-double-diamond'),
+            None,
+            ],
+        ),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        map=baca.plts()[abjad.index([2], 3)],
+        ),
+    )
 
 maker(
     ('tutti', (36, 55)),
     baca.hairpin(
         'pp < mf > pp < f > pp < ff',
-        pieces=baca.omgroups([4, 4, 4, 4, 5]),
-        selector=baca.leaves().rleak(),
+        pieces=baca.ompltgroups([4, 4, 4, 4, 5]),
+        selector=baca.plts().rleak(),
         ),
     )
 
