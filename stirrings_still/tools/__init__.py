@@ -16,6 +16,7 @@ from .desynchronization import desynchronization
 from .eighths import eighths
 from .first_order_stages import first_order_stages
 from .flight import flight
+from .flight_annotation_spanner import flight_annotation_spanner
 from .glissando_interpolation import glissando_interpolation
 from .glissando_without_ties import glissando_without_ties
 from .grid import grid
