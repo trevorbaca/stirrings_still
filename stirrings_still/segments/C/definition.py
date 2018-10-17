@@ -106,6 +106,18 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 4)),
+    baca.circle_bow_spanner(
+        'tight-poss-grind-at-talon',
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        '"ff" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.new(
         stirrings_still.desynchronization(4, [1]),
         match=0,
@@ -121,18 +133,6 @@ maker(
     baca.new(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
-        ),
-    baca.hairpin(
-        '"ff" -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.circle_bow_spanner(
-        'tight-poss-grind-at-talon',
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
         ),
     )
 
@@ -158,12 +158,12 @@ maker(
 maker(
     ('va', 5),
     baca.dynamic('mp'),
+    baca.markup('louré'),
     baca.material_annotation_spanner(
         'clouded partial (stopped) -|',
         abjad.tweak('red').color,
         abjad.tweak(5).staff_padding,
         ),
-    baca.markup('louré'),
     stirrings_still.loure_tuplets(-1),
     )
 
@@ -217,7 +217,13 @@ maker(
 
 maker(
     ('tutti', (12, 15)),
-    baca.dynamic('p', redundant=True),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.dynamic(
+        'p-ancora',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
     baca.new(
         stirrings_still.desynchronization(4, [1], rests=True),
         match=0,
@@ -233,9 +239,6 @@ maker(
     baca.new(
         stirrings_still.desynchronization(4, [-1], rests=True),
         match=3,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
         ),
     baca.text_spanner(
         r'\baca-circle-tight-poss-markup -> \baca-circle-very-tight-markup =|',
@@ -249,6 +252,9 @@ maker(
 
 maker(
     ('tutti', (16, 19)),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
     baca.dynamic('p', redundant=True),
     baca.new(
         stirrings_still.desynchronization(4, [1], rests=True),
@@ -266,9 +272,6 @@ maker(
         stirrings_still.desynchronization(4, [-1], rests=True),
         match=3,
         ),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
     baca.text_spanner(
         r'\baca-circle-very-tight-markup -> \baca-circle-tight-markup =|',
         abjad.tweak(8).staff_padding,
@@ -281,6 +284,9 @@ maker(
 
 maker(
     ('tutti', (20, 23)),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
     baca.dynamic('p', redundant=True),
     baca.new(
         stirrings_still.desynchronization(4, [1], rests=([2], 3)),
@@ -298,9 +304,6 @@ maker(
         stirrings_still.desynchronization(4, [-1], rests=([2], 3)),
         match=3,
         ),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
     baca.text_spanner(
         r'\baca-circle-tight-markup -> \baca-circle-mod-markup =|',
         abjad.tweak(8).staff_padding,
@@ -313,6 +316,9 @@ maker(
 
 maker(
     ('tutti', (24, 27)),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
     baca.dynamic('p', redundant=True),
     baca.new(
         stirrings_still.desynchronization(4, [1]),
@@ -329,9 +335,6 @@ maker(
     baca.new(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
         ),
     baca.text_spanner(
         r'\baca-circle-wide-markup =|',
@@ -371,10 +374,10 @@ maker(
 
 maker(
     ('v2', (28, 29)),
-    baca.dynamic('mp'),
     baca.damp_spanner(
         abjad.tweak(10).staff_padding,
         ),
+    baca.dynamic('mp'),
     baca.half_clt_spanner(
         abjad.tweak(7).staff_padding,
         ),
@@ -384,16 +387,16 @@ maker(
 maker(
     ('tutti', (30, 33)),
     baca.breathe(),
-    baca.hairpin(
-        'mf > pp',
-        selector=baca.tleaves(),
-        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        'mf > pp',
+        selector=baca.tleaves(),
         ),
     stirrings_still.synchronized_circles(rests=[-1]),
     )

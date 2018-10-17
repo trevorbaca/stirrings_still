@@ -398,29 +398,29 @@ maker(
 
 maker(
     ('trio', 23),
+    baca.circle_bow_spanner(
+        'mod-width',
+        abjad.tweak(5).staff_padding,
+        ),
     baca.hairpin(
         'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.circle_bow_spanner(
-        'mod-width',
-        abjad.tweak(5).staff_padding,
-        ),
     )
 
 maker(
     ('trio', 26),
-    baca.hairpin(
-        'pp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
     baca.circle_bow_spanner(
         'wide',
         # manual padding because spanner ends at espressivo
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
+        ),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -522,68 +522,68 @@ maker(
 
 maker(
     ('v1', [(46, 50), 52, 54, 58]),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.circle_bow_spanner(
-        'tight',
-        abjad.tweak(5).staff_padding,
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [1]),
     )
 
 maker(
     ('v2', [(46, 50), 52, 54, 58]),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.circle_bow_spanner(
-        'tight',
-        abjad.tweak(5).staff_padding,
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [0]),
     )
 
 maker(
     ('va', [(46, 50), 52, 54, 58]),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.circle_bow_spanner(
-        'tight',
-        abjad.tweak(5).staff_padding,
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [2]),
     )
 
 maker(
     ('vc', [(46, 47), (49, 50), 52, 54, 58]),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.circle_bow_spanner(
-        'tight',
-        abjad.tweak(5).staff_padding,
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [-1]),
     )
@@ -618,6 +618,11 @@ maker(
         'p <| f p < mp',
         pieces=baca.clparts([1]),
         ),
+    baca.material_annotation_spanner(
+        'A, B -|',
+        abjad.tweak('darkred').color,
+        abjad.tweak(8).staff_padding,
+        ),
     baca.new(
         baca.breathe(),
         baca.tie_to(),
@@ -628,11 +633,6 @@ maker(
         baca.stop_on_string(),
         selector=baca.note(-1),
         ),
-    baca.material_annotation_spanner(
-        'A, B -|',
-        abjad.tweak('darkred').color,
-        abjad.tweak(8).staff_padding,
-        ),
     stirrings_still.declamation(),
     )
 
@@ -640,19 +640,19 @@ maker(
 
 maker(
     ('tutti', 62),
-    stirrings_still.circles((1, 4)),
+    baca.circle_bow_spanner(
+        'very-tight',
+        abjad.tweak(5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
     baca.hairpin(
         'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.circle_bow_spanner(
-        'very-tight',
-        abjad.tweak(5).staff_padding,
-        ),
+    stirrings_still.circles((1, 4)),
     )
 
 # vertical

@@ -49,6 +49,10 @@ stirrings_still.time(maker, time)
 
 maker(
     ('trio', (1, 7)),
+    baca.markup(
+        'golden tone',
+        abjad.tweak(9).staff_padding,
+        ),
     baca.new(
         baca.hairpin(
             'mp >o niente',
@@ -71,10 +75,6 @@ maker(
             remainder=abjad.Left,
             ),
         match=2,
-        ),
-    baca.markup(
-        'golden tone',
-        abjad.tweak(9).staff_padding,
         ),
     )
 

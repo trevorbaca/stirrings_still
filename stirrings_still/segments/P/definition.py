@@ -48,8 +48,8 @@ stirrings_still.time(maker, time)
 maker(
     ('tutti', (1, 4)),
     baca.dynamic('ppppp'),
-    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
     )
 
 """
@@ -165,8 +165,8 @@ maker(
 
 maker(
     ('tutti', (11, 14)),
-    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
     )
 
 maker(

@@ -107,13 +107,13 @@ maker(
 
 maker(
     ('v1', 6),
-    baca.markup(
-        'golden tone',
-        abjad.tweak(2).staff_padding,
-        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(5).staff_padding,
+        ),
+    baca.markup(
+        'golden tone',
+        abjad.tweak(2).staff_padding,
         ),
     stirrings_still.circles((1, 8)),
     )
@@ -126,13 +126,13 @@ maker(
 
 maker(
     ('va', 6),
-    baca.markup(
-        'golden tone',
-        abjad.tweak(2).staff_padding,
-        ),
     baca.circle_bow_spanner(
         'very-wide',
         abjad.tweak(5).staff_padding,
+        ),
+    baca.markup(
+        'golden tone',
+        abjad.tweak(2).staff_padding,
         ),
     stirrings_still.circles((1, 2)),
     )
@@ -140,10 +140,10 @@ maker(
 maker(
     ('vc', 6),
     baca.dynamic('p'),
-    baca.script_staff_padding(7),
     baca.half_clt_spanner(
         abjad.tweak(10).staff_padding,
         ),
+    baca.script_staff_padding(7),
     baca.tuplet_bracket_staff_padding(1),
     baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 4), (3, 32)),
@@ -392,6 +392,10 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (23, 28)),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(7).staff_padding,
+        ),
     baca.new(
         stirrings_still.pickets(4, 2, dmask=baca.silence_first()),
         match=0,
@@ -403,10 +407,6 @@ maker(
     baca.new(
         stirrings_still.pickets(4, 0, dmask=baca.silence_first()),
         match=2,
-        ),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(7).staff_padding,
         ),
     )
 
@@ -585,6 +585,9 @@ maker(
 
 maker(
     ('vc', [(46, 50), 52]),
+    baca.half_clt_spanner(
+        abjad.tweak(7).staff_padding,
+        ),
     baca.new(
         stirrings_still.bcps(-4, clt=True),
         match=0,
@@ -595,9 +598,6 @@ maker(
         ),
     baca.pitch('E2'),
     baca.text_script_staff_padding(11),
-    baca.half_clt_spanner(
-        abjad.tweak(7).staff_padding,
-        ),
     stirrings_still.glissando_without_ties(),
     stirrings_still.trajectories('A', -1, 0),
     )

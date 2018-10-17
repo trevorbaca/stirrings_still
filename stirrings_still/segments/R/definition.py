@@ -49,6 +49,9 @@ maker(
         measures=(5, 8),
         selector=baca.leaves().rleak(),
         ),
+    baca.half_clt_spanner(
+        abjad.tweak(9).staff_padding,
+        ),
     baca.suite(
         baca.script_staff_padding(5),
         baca.tuplet_bracket_down(),
@@ -57,9 +60,6 @@ maker(
             abjad.tweak(2.5).staff_padding,
             clt=True,
             ),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
         ),
     stirrings_still.trajectories('C', 0, -3),
     )
@@ -83,6 +83,9 @@ maker(
         measures=(5, 8),
         selector=baca.leaves().rleak(),
         ),
+    baca.half_clt_spanner(
+        abjad.tweak(9).staff_padding,
+        ),
     baca.suite(
         baca.script_staff_padding(5),
         baca.tuplet_bracket_down(),
@@ -91,9 +94,6 @@ maker(
             abjad.tweak(2.5).staff_padding,
             clt=True,
             ),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
         ),
     stirrings_still.trajectories('C', -1, -2),
     )

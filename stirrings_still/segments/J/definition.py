@@ -68,10 +68,10 @@ maker(
 
 maker(
     ('v2', 3),
-    baca.dynamic('mp'),
     baca.damp_spanner(
         abjad.tweak(10).staff_padding,
         ),
+    baca.dynamic('mp'),
     baca.half_clt_spanner(
         abjad.tweak(7).staff_padding,
         ),
