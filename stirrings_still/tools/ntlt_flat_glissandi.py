@@ -8,6 +8,7 @@ def ntlt_flat_glissandi():
     return baca.suite(
         baca.glissando(
             allow_repeats=True,
+            allow_ties=True,
             zero_padding=True,
             ),
         baca.new(
