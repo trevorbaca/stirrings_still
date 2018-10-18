@@ -58,7 +58,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 2),
         measures=(9, 12),
@@ -72,7 +72,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             selector=baca.leaves()[1:].rleak(),
             ),
         stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
@@ -87,7 +87,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             selector=baca.leaves()[1:].rleak(),
             ),
         stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
@@ -113,7 +113,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 1),
         measures=(9, 12),
@@ -127,7 +127,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             selector=baca.leaves()[1:].rleak(),
             ),
         stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
@@ -142,7 +142,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             selector=baca.leaves()[1:].rleak(),
             ),
         stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
@@ -168,7 +168,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 0),
         measures=(9, 12),
@@ -182,7 +182,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             selector=baca.leaves()[1:].rleak(),
             ),
         stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
@@ -197,7 +197,7 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'very-wide',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             selector=baca.leaves()[1:].rleak(),
             ),
         stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),

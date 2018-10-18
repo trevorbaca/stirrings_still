@@ -47,7 +47,7 @@ maker(
     ('v1', (1, 6)),
     baca.circle_bow_spanner(
         'ext-tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic('mp-sempre'),
     baca.markup(
@@ -62,7 +62,7 @@ maker(
     ('v1', 7),
     baca.circle_bow_spanner(
         'scratch',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic('ff'),
     stirrings_still.pickets(4, 2),
@@ -74,7 +74,7 @@ maker(
     ('v2', (1, 6)),
     baca.circle_bow_spanner(
         'ext-tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic('mp-sempre'),
     baca.markup(
@@ -89,7 +89,7 @@ maker(
     ('v2', 7),
     baca.circle_bow_spanner(
         'scratch',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic('ff'),
     stirrings_still.pickets(4, 1),
@@ -101,7 +101,7 @@ maker(
     ('va', (1, 6)),
     baca.circle_bow_spanner(
         'ext-tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic('mp-sempre'),
     baca.markup(
@@ -116,7 +116,7 @@ maker(
     ('va', 7),
     baca.circle_bow_spanner(
         'scratch',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic('ff'),
     stirrings_still.pickets(4, 0),
@@ -128,7 +128,7 @@ maker(
     ('vc', (1, 6)),
     baca.circle_bow_spanner(
         'ext-tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic('mp-sempre'),
     baca.markup(

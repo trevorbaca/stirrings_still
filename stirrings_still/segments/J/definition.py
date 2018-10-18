@@ -69,11 +69,11 @@ maker(
 maker(
     ('v2', 3),
     baca.damp_spanner(
-        abjad.tweak(10).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.dynamic('mp'),
     baca.half_clt_spanner(
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.clockticks(),
     )

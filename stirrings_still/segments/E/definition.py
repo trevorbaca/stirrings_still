@@ -99,7 +99,7 @@ stirrings_still.time(maker, time)
 maker(
     ('trio', (1, 2)),
     baca.damp_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.hairpin(
         'p -- !',
@@ -107,7 +107,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(6.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.continuous_tremolo(),
     )
@@ -142,7 +142,7 @@ maker(
     ('trio', (4, 5)),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
         'niente o<|',
@@ -240,7 +240,7 @@ maker(
 maker(
     ('va', (6, 23)),
     baca.damp_spanner(
-        abjad.tweak(6.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         map=baca.plts().partition_by_counts(
             [4, 1, 3, 1, 2, 1, 99], cyclic=True)[abjad.index([0], 2)],
         ),
@@ -257,7 +257,7 @@ maker(
             ),
         baca.text_spanner(
             'XFB -|',
-            abjad.tweak(4).staff_padding,
+            abjad.tweak(3).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
             lilypond_id=None,
@@ -313,7 +313,7 @@ maker(
         match=[0, 1],
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(8).staff_padding,
         match=[2],
         ),
     )
@@ -530,7 +530,7 @@ maker(
         ),
     baca.text_spanner(
         'T -> poco P',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         bookend=True,
         match=2,
         ),
@@ -558,7 +558,7 @@ maker(
         ),
     baca.scp_spanner(
         'P -> T ->',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         final_piece_spanner=False,
         pieces=baca.plts(),
@@ -573,7 +573,7 @@ maker(
 maker(
     ('trio', (87, 88)),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.hairpin('"f" > p'),
     baca.new(
@@ -590,7 +590,7 @@ maker(
         ),
     baca.scp_spanner(
         'P -> T ->',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         final_piece_spanner=False,
         pieces=baca.plts(),
@@ -607,10 +607,10 @@ maker(
     baca.breathe(),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.dynamic('p'),
     stirrings_still.desynchronization(4, [2]),
@@ -621,10 +621,10 @@ maker(
     baca.breathe(),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.dynamic('p'),
     stirrings_still.desynchronization(4, [1]),
@@ -635,10 +635,10 @@ maker(
     baca.breathe(),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.dynamic('p'),
     baca.new(
@@ -659,7 +659,7 @@ maker(
         pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10).staff_padding,
         measures=(58, 61),
         ),
     baca.markup(
@@ -686,7 +686,7 @@ maker(
         pieces=baca.mgroups([4, 4]),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10).staff_padding,
         measures=(58, 61),
         ),
     baca.markup(
@@ -713,7 +713,7 @@ maker(
         pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10).staff_padding,
         measures=(58, 61),
         ),
     baca.markup(
@@ -757,10 +757,10 @@ maker(
     baca.breathe(),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.dynamic('p'),
     stirrings_still.desynchronization(4, [2]),
@@ -771,10 +771,10 @@ maker(
     baca.breathe(),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.dynamic('p'),
     stirrings_still.desynchronization(4, [1]),
@@ -785,10 +785,10 @@ maker(
     baca.breathe(),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.dynamic('p'),
     baca.new(
@@ -809,7 +809,7 @@ maker(
         pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10).staff_padding,
         measures=(105, 108),
         ),
     baca.markup(
@@ -836,7 +836,7 @@ maker(
         pieces=baca.mgroups([4, 4]),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10).staff_padding,
         measures=(105, 108),
         ),
     baca.markup(
@@ -863,7 +863,7 @@ maker(
         pieces=baca.mgroups([4, 4, 4]),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10).staff_padding,
         measures=(105, 108),
         ),
     baca.markup(
@@ -901,7 +901,7 @@ maker(
 maker(
     ('trio', (109, 110)),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.dynamic('p'),
     baca.new(
@@ -918,7 +918,7 @@ maker(
         ),
     baca.scp_spanner(
         'P -> T ->',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         final_piece_spanner=False,
         pieces=baca.plts(),
@@ -931,7 +931,7 @@ maker(
 maker(
     ('trio', (112, 119)),
     baca.damp_spanner(
-        abjad.tweak(7.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.hairpin(
         'p >o niente',
@@ -952,7 +952,7 @@ maker(
         ),
     baca.scp_spanner(
         'P -> T ->',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         final_piece_spanner=False,
         pieces=baca.plts(),

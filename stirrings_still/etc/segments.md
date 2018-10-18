@@ -1545,7 +1545,7 @@ SEGMENTS
 
     [E.8] (63-70)
     (8 measures)
-    subito largo-to-presto accelerando happens
+    subito-largo-to-presto accelerando
     v1, v2, va trajectory repetition cells appear
         1/2 clt continues
         tasto continues
