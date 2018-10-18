@@ -17,9 +17,9 @@ stage_markup = (
     ('[E.3]', 20),
     ('[E.4]', 24),
     ('[E.5]', 28),
-    ('[E.6]', 32),
+    ('[E.6.1-2]', 32),
     ('[A.1]', 34, 'darkgreen'),
-    ('[E.6]', 35),
+    ('[E.6.3-4]', 35),
     ('[E.7]', 37),
     ('[Q.1]', 42, 'darkgreen'),
     ('[Q.2]', 50, 'darkgreen'),
@@ -27,10 +27,10 @@ stage_markup = (
     ('[E.9]', 71),
     ('[E.10]', 79),
     ('[E.11]', 82),
-    ('[E.12]', 87),
+    ('[E.12.1-2]', 87),
     ('[Q.1]', 89, 'darkgreen'),
     ('[Q.2]', 97, 'darkgreen'),
-    ('[E.12]', 109),
+    ('[E.12.3-4]', 109),
     ('[E.13]', 112),
     ('[E.14]', 116),
     ('[E.15]', 118),
@@ -101,7 +101,11 @@ maker(
     baca.damp_spanner(
         abjad.tweak(9).staff_padding,
         ),
-    baca.dynamic('p', redundant=True),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.half_clt_spanner(
         abjad.tweak(6.5).staff_padding,
         ),
@@ -109,32 +113,35 @@ maker(
     )
 
 maker(
-    ('vc', (1, 2)),
-    baca.markup(
-        '[clouded pane]',
-        abjad.tweak('magenta').color,
-        ),
+    ('vc', (1, 27)),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     stirrings_still.clouded_pane(),
-    )
+   )
 
 maker(
     ('vc', (4, 5)),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.leaf(0),
+        ),
     baca.hairpin(
         'ff-scratch > p',
-        pieces=baca.omgroups([1]),
-        ),
-    baca.markup(
-        '[clouded pane]',
-        abjad.tweak('magenta').color,
         ),
     baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane(),
+    baca.text_spanner(
+        'harmonic -|',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
     ('trio', (4, 5)),
     baca.circle_bow_spanner(
-        'fast',
+        'wide',
         abjad.tweak(5).staff_padding,
         ),
     baca.hairpin(
@@ -291,6 +298,15 @@ maker(
     )
 
 maker(
+    ('trio', (24, 31)),
+    baca.pitch_annotation_spanner(
+        'slight independent pitch ascents -|',
+        abjad.tweak('magenta').color,
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
     ('trio', (6, 40)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
@@ -305,16 +321,18 @@ maker(
 #
 
 maker(
-    ('vc', (6, 27)),
-    baca.markup(
-        '[clouded pane]',
-        abjad.tweak('magenta').color,
+    ('vc', (20, 27)),
+    baca.hairpin(
+        'p < fff-poco-scratch -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([4, 4 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.new(
-        baca.hairpin('p < fff-poco-scratch'),
-        measures=(20, 24),
+        baca.dynamic_text_self_alignment_x(-0.75),
+        measures=24,
+        selector=baca.leaf(0),
         ),
-    stirrings_still.clouded_pane(),
     )
 
 maker(
@@ -588,7 +606,7 @@ maker(
     ('v1', (42, 49)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        'fast',
+        'wide',
         abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
@@ -602,7 +620,7 @@ maker(
     ('v2', (42, 53)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        'fast',
+        'wide',
         abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
@@ -616,7 +634,7 @@ maker(
     (['va', 'vc'], (42, 49)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        'fast',
+        'wide',
         abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
@@ -738,7 +756,7 @@ maker(
     ('v1', (89, 96)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        'fast',
+        'wide',
         abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
@@ -752,7 +770,7 @@ maker(
     ('v2', (89, 100)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        'fast',
+        'wide',
         abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
@@ -766,7 +784,7 @@ maker(
     (['va', 'vc'], (89, 96)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        'fast',
+        'wide',
         abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
@@ -947,6 +965,28 @@ maker(
 maker(
     (['v1x', 'v2x', 'vax'], (120, 127)),
     baca.tacet(),
+    )
+
+maker(
+    ('vc', (116, 117)),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', (118, 127)),
+    baca.hairpin(
+        'o< p',
+        measures=(118, 119),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.pitch_annotation_spanner(
+        'new (stepwise above) -|',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
+        measures=(118, 126),
+        ),
+    stirrings_still.clouded_pane(),
+    ###stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     )
 
 # vertical
