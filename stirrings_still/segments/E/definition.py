@@ -132,7 +132,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (4, 5)),
+    ('trio', (4, 5)),
     baca.circle_bow_spanner(
         'fast',
         abjad.tweak(5).staff_padding,

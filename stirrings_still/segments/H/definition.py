@@ -383,7 +383,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (15, 16)),
+    ('trio', (15, 16)),
     baca.hairpin(
         'p >o niente',
         selector=baca.leaves().rleak(),
@@ -391,7 +391,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (23, 28)),
+    ('trio', (23, 28)),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(7).staff_padding,
@@ -411,12 +411,12 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (23, 24)),
+    ('trio', (23, 24)),
     baca.hairpin('niente o< p', selector=baca.tleaves().rleak()),
     )
 
 maker(
-    (['v1', 'v2', 'va'], (30, 31)),
+    ('trio', (30, 31)),
     baca.dynamic('mp'),
     baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
@@ -499,7 +499,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (37, 39)),
+    ('trio', (37, 39)),
     baca.dynamic('mf'),
     baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
@@ -523,7 +523,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (41, 44)),
+    ('trio', (41, 44)),
     baca.dynamic('f'),
     baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
@@ -557,7 +557,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (46, 50)),
+    ('trio', (46, 50)),
     baca.dynamic('ff'),
     baca.new(
         stirrings_still.pickets(4, 2),
@@ -626,7 +626,7 @@ maker(
     )
     
 maker(
-    (['v1', 'v2', 'va'], 52),
+    ('trio', 52),
     baca.dynamic('mp'),
     baca.markup('pochiss. scratch'),
     baca.new(

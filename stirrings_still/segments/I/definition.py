@@ -131,7 +131,7 @@ maker(
 # vertical
 
 maker(
-    (['v1', 'v2', 'va'], (10, 11)),
+    ('trio', (10, 11)),
     baca.dynamic(
         'appena-udibile',
         abjad.tweak(abjad.Left).parent_alignment_X,
