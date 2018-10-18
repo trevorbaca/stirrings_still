@@ -51,7 +51,7 @@ maker(
     ('trio', (1, 7)),
     baca.markup(
         'golden tone',
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.new(
         baca.hairpin(
@@ -82,7 +82,7 @@ maker(
     (['v1', 'v2'], (1, 7)),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -90,7 +90,7 @@ maker(
     ('va', (1, 7)),
     baca.circle_bow_spanner(
         'wide-poss',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -124,7 +124,7 @@ maker(
         pieces=baca.cmgroups([5, 4, 2]),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(12).staff_padding,
+        abjad.tweak(13).staff_padding,
         ),
     )
 

@@ -50,7 +50,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.suite(
         baca.script_staff_padding(5),
@@ -84,7 +84,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.suite(
         baca.script_staff_padding(5),

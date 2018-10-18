@@ -91,7 +91,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -121,7 +121,7 @@ maker(
             ),
         baca.scp_spanner(
             'ord. -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -145,7 +145,7 @@ maker(
     baca.text_spanner(
         'slow bow -> stopped',
         abjad.tweak(11).bound_details__right__padding,
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
@@ -188,7 +188,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -218,7 +218,7 @@ maker(
             ),
         baca.scp_spanner(
             'ord. -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -242,7 +242,7 @@ maker(
     baca.text_spanner(
         'slow bow -> stopped',
         abjad.tweak(11).bound_details__right__padding,
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
@@ -285,7 +285,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -315,7 +315,7 @@ maker(
             ),
         baca.scp_spanner(
             'ord. -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -339,7 +339,7 @@ maker(
     baca.text_spanner(
         'slow bow -> stopped',
         abjad.tweak(11).bound_details__right__padding,
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
@@ -366,7 +366,7 @@ maker(
     baca.dynamic('"f"'),
     baca.script_staff_padding(8),
     baca.half_clt_spanner(
-        abjad.tweak(12).staff_padding,
+        abjad.tweak(13).staff_padding,
         ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
@@ -402,7 +402,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -432,7 +432,7 @@ maker(
             ),
         baca.scp_spanner(
             'ord. -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -455,7 +455,7 @@ maker(
     baca.text_spanner(
         'slow bow -> stopped',
         abjad.tweak(11).bound_details__right__padding,
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),

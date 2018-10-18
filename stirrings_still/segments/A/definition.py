@@ -166,7 +166,7 @@ maker(
         ),
     baca.scp_spanner(
         'tasto (T) =|',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -174,7 +174,7 @@ maker(
     ('trio', [3, (5, 6), (8, 9)]),
     baca.scp_spanner(
         'T =|',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -217,7 +217,7 @@ maker(
         selector=baca.leaves()[2:].rleak(),
         ),
     baca.scp_spanner(
-        'T =|',abjad.tweak(5).staff_padding,
+        'T =|',abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(protract=True),
     )
@@ -244,7 +244,7 @@ maker(
         ),
     baca.scp_spanner(
         'tasto (T) =|',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
     )
@@ -273,7 +273,7 @@ maker(
         ),
     baca.scp_spanner(
         'T =|',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
     )
@@ -300,7 +300,7 @@ maker(
         ),
     baca.scp_spanner(
         'T =|',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(),
     )
@@ -371,7 +371,7 @@ maker(
     ('trio', 23),
     baca.circle_bow_spanner(
         'mod-width',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
         'p -- !',
@@ -386,7 +386,7 @@ maker(
         'wide',
         # manual padding because spanner ends at espressivo
         abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
         'pp -- !',
@@ -439,7 +439,7 @@ maker(
         'very-wide',
         # manual padding because spanner ends at end-of-system
         abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -467,7 +467,7 @@ maker(
         pieces=baca.omgroups(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(12).staff_padding,
+        abjad.tweak(12.5).staff_padding,
         ),
     baca.text_spanner_staff_padding(7),
     stirrings_still.cello_cell(),
@@ -478,7 +478,7 @@ maker(
     ('vc', 48),
     baca.dynamic('"f"'),
     baca.half_clt_spanner(
-        abjad.tweak(12).staff_padding,
+        abjad.tweak(12.5).staff_padding,
         ),
     baca.text_spanner_staff_padding(7),
     stirrings_still.cello_cell(),
@@ -491,7 +491,7 @@ maker(
     ('v1', [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         'tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -508,7 +508,7 @@ maker(
     ('v2', [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         'tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -525,7 +525,7 @@ maker(
     ('va', [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         'tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -542,7 +542,7 @@ maker(
     ('vc', [(46, 47), (49, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         'tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -569,7 +569,7 @@ maker(
         ),
     baca.text_spanner(
         'rasp (2°) -> flaut. (2°) =|',
-        abjad.tweak(3.25).staff_padding,
+        abjad.tweak(3).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.mgroups([1, 2]),
@@ -605,7 +605,7 @@ maker(
     ('tutti', 62),
     baca.circle_bow_spanner(
         'very-tight',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,

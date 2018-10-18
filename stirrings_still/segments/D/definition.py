@@ -293,7 +293,7 @@ maker(
     baca.damp_spanner(
         # manual padding because spanner ends of volta
         abjad.tweak(5.25).bound_details__right__padding,
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         ),
     )
@@ -337,7 +337,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(11).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.script_staff_padding(7.5),
     stirrings_still.bcps(
@@ -382,7 +382,7 @@ maker(
         ),
     baca.scp_spanner(
         'tasto (T) =|',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(),
     stirrings_still.urtext_annotation_spanner('A, B -|', 7.5),
@@ -456,7 +456,7 @@ maker(
         ),
     baca.scp_spanner(
         'tasto (T) =|',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(),
     stirrings_still.urtext_annotation_spanner('A, B -|', 7.5),
@@ -471,7 +471,7 @@ maker(
     (['v1', 'v2'], 57),
     baca.circle_bow_spanner(
         'wide-poss',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.new(
         stirrings_still.accelerando((1, 4), (1, 16)),
@@ -516,7 +516,7 @@ maker(
 maker(
     ('tutti', (58, 63)),
     baca.damp_spanner(
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin('mf >o niente'),
     baca.suite(
@@ -546,7 +546,7 @@ maker(
     ('trio', 66),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
         'mp -- !',

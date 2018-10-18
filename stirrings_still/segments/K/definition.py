@@ -70,7 +70,7 @@ maker(
     baca.dls_staff_padding(6),
     baca.new(
         baca.half_clt_spanner(
-            abjad.tweak(10).staff_padding,
+            abjad.tweak(10.5).staff_padding,
             ),
         stirrings_still.bcps(
             0,
@@ -87,11 +87,11 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'wide-poss',
-            abjad.tweak(7.5).staff_padding,
+            abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
             r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
             pieces=baca.leaves().rleak().partition_by_ratio((1, 1, 1)),
@@ -103,7 +103,7 @@ maker(
     stirrings_still.accelerando((8, 32), (1, 2), measures=(6, 8)),
     baca.new(
         baca.half_clt_spanner(
-            abjad.tweak(10).staff_padding,
+            abjad.tweak(10.5).staff_padding,
             ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
@@ -141,7 +141,7 @@ maker(
         baca.dynamic('"ff"'),
         baca.circle_bow_spanner(
             'scratch',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 2),
         measures=21,
@@ -151,7 +151,7 @@ maker(
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
             'scratch',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 2),
         measures=23,
@@ -181,7 +181,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -207,7 +207,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -230,7 +230,7 @@ maker(
             ),
         baca.scp_spanner(
             'T1 -> T3 -> T2 -> T3 ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -254,7 +254,7 @@ maker(
             ),
         baca.scp_spanner(
             'T poss. =|',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         measures=(46, -1),
         ),
@@ -270,7 +270,7 @@ maker(
     baca.dls_staff_padding(6),
     baca.new(
         baca.half_clt_spanner(
-            abjad.tweak(10).staff_padding,
+            abjad.tweak(10.5).staff_padding,
             ),
         stirrings_still.bcps(
             -1,
@@ -287,11 +287,11 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'wide-poss',
-            abjad.tweak(7.5).staff_padding,
+            abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
             r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
             pieces=baca.leaves().rleak().partition_by_ratio((1, 1, 1)),
@@ -303,7 +303,7 @@ maker(
     stirrings_still.accelerando((10, 32), (1, 2), measures=(6, 8)),
     baca.new(
         baca.half_clt_spanner(
-            abjad.tweak(10).staff_padding,
+            abjad.tweak(10.5).staff_padding,
             ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
@@ -341,7 +341,7 @@ maker(
         baca.dynamic('"ff"'),
         baca.circle_bow_spanner(
             'scratch',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 1),
         measures=21,
@@ -351,7 +351,7 @@ maker(
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
             'scratch',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 1),
         measures=23,
@@ -371,7 +371,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -397,7 +397,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -419,7 +419,7 @@ maker(
             ),
         baca.scp_spanner(
             'T1 -> T3 -> T2 -> T3 ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -453,7 +453,7 @@ maker(
             ),
         baca.scp_spanner(
             'T poss. =|',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         measures=(46, -1),
         ),
@@ -469,7 +469,7 @@ maker(
     baca.dls_staff_padding(6),
     baca.new(
         baca.half_clt_spanner(
-            abjad.tweak(10).staff_padding,
+            abjad.tweak(10.5).staff_padding,
             ),
         stirrings_still.bcps(
             -2,
@@ -486,11 +486,11 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'wide-poss',
-            abjad.tweak(7.5).staff_padding,
+            abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
             r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
             pieces=baca.leaves().rleak().partition_by_ratio((1, 1, 1)),
@@ -552,7 +552,7 @@ maker(
         baca.dynamic('"ff"'),
         baca.circle_bow_spanner(
             'scratch',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 0),
         measures=21,
@@ -562,7 +562,7 @@ maker(
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
             'scratch',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 0),
         measures=23,
@@ -582,7 +582,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -608,7 +608,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -631,7 +631,7 @@ maker(
             ),
         baca.scp_spanner(
             'T1 -> T3 -> T2 -> T3 ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -642,7 +642,7 @@ maker(
     baca.new(
         baca.dynamic('"mf"'),
         baca.half_clt_spanner(
-            abjad.tweak(9).staff_padding,
+            abjad.tweak(10.5).staff_padding,
             ),
         stirrings_still.bcps(
             -2,
@@ -672,7 +672,7 @@ maker(
             ),
         baca.text_spanner(
             'T poss. =|',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         measures=(46, -1),
         ),
@@ -689,7 +689,7 @@ maker(
     baca.dls_staff_padding(6),
     baca.new(
         baca.half_clt_spanner(
-            abjad.tweak(10).staff_padding,
+            abjad.tweak(10.5).staff_padding,
             ),
         stirrings_still.bcps(
             -3,
@@ -706,11 +706,11 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'wide',
-            abjad.tweak(7.5).staff_padding,
+            abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
             r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
             pieces=baca.leaves().rleak().partition_by_ratio((1, 1, 1)),
@@ -722,7 +722,7 @@ maker(
     stirrings_still.accelerando((11, 32), (1, 2), measures=(6, 8)),
     baca.new(
         baca.half_clt_spanner(
-            abjad.tweak(10).staff_padding,
+            abjad.tweak(10.5).staff_padding,
             ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
@@ -766,7 +766,7 @@ maker(
         pieces=baca.cmgroups(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(11).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     baca.script_staff_padding(8),
     stirrings_still.cello_cell(),
@@ -788,7 +788,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
@@ -802,7 +802,7 @@ maker(
             ),
         baca.scp_spanner(
             'T -> P ->',
-            abjad.tweak(5).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             final_piece_spanner=False,
             pieces=baca.plts(),
