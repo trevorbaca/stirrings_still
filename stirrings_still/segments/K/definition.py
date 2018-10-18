@@ -705,7 +705,7 @@ maker(
         ),
     baca.new(
         baca.circle_bow_spanner(
-            'fast',
+            'wide',
             abjad.tweak(7.5).staff_padding,
             ),
         baca.text_spanner(

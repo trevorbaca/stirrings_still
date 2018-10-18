@@ -1392,114 +1392,119 @@ SEGMENTS
         >>attacca [E.1] to effect prefix<<
     [E.1] (6-11)
     (6 measures)
-    presto resumes after prefix
-    v1, v2, va grid-to-trajectories transition continues
-        grid stage five (tremolo-initiation) begins
-            damped lh resumes after prefix
-            1/2 clt resumes after prefix
-            tasto resumes after prefix
-            tremolo-initiated strokes begin independently
-            desynchronization continues
-            p continues
-    vc clouded pane continues
-        p continues
+    presto
+    v1, v2, va grid-to-trajectories stage-5 transition (continues)
+        damped lh
+        1/2 clt
+        tasto
+        tremolo-initiated-XFB strokes begin independently
+        desynchronization
+        p
+    vc clouded pane
+        [p]
     attacca
 
     [E.2] (12-19)
     (8 measures)
-    presto continues
-    v1, v2, va grid-to-trajectories transition continues
-        grid stage five (tremolo-initiation) continues
-            damped lh becomes stopped lh
-            1/2 clt continues
-            tasto continues
-            tremolo-initiation continues
-            synchronization process governs stage
-            p continues
-    vc clouded pane continues
-        p continues
+    [presto]
+    v1, v2, va grid-to-trajectories stage-5 transition (continues)
+        damped lh becomes stopped lh
+        [1/2 clt]
+        [tasto]
+        [tremolo-initiated-XFB strokes]
+        synchronization process governs stage
+        [p]
+    vc clouded pane
+        [p]
     surprisingly short breath
 
     [E.3] (20-23)
     (4 measures)
-    adagio starts
-    adagio-to-allegro accelerando happens
-        achieves allegro at start of measure -1
-    v1, v2, va grid-to-trajectories transition continues
-        1/2 clt continues
-        tasto continues
-        tremolo-initiation continues
-        very light fast bow continues
-        synchronization continues
-        p continues
-    vc clouded pane continues
+    adagio-to-allegro accelerando: achieves allegro at start of measure -1
+    v1, v2, va grid-to-trajectories transition (continues)
+        [1/2 clt]
+        [tasto]
+        [tremolo-initiated-XFB strokes]
+        [synchronization]
+        [p]
+    vc clouded pane
         p < fff poco scratch begins
     attacca
 
     [E.4] (24-27)
     (4 measures)
     allegro continues
-    v1, v2, va grid-to-trajectories transition continues
-        1/2 clt continues
-        tasto continues
-        tremolo-initiation continues
-        very light fast bow continues
+    v1, v2, va grid-to-trajectories transition (continues)
+        [1/2 clt]
+        [tasto]
+        [tremolo-initiated-XFB strokes]
         slight pitch ascents begin independently
-        synchronization continues
-        p continues
-    vc clouded pane completes
+        [synchronization]
+        [p]
+    vc clouded pane
         p < achieves fff poco scratch at start of stage
     attacca
 
     [E.5] (28-31)
     (4 measures)
     allegro-to-presto accelerando begins
-    v1, v2, va grid-to-trajectories transition continues
-        1/2 clt continues
-        tasto continues
-        tremolo-initiation continues
-        very light fast bow continues
+    v1, v2, va grid-to-trajectories transition (continues)
+        [1/2 clt]
+        [tasto]
+        [tremolo-initiated-XFB]
         slight pitch ascents complete independently
             achieve slightly higher lower-register pitches
-        synchronization continues
-        p continues
+        [synchronization]
+        [p]
     vc
         tacet subito
     attacca
 
-    [E.6] (32-33 + [34] + 35-36)
-    (4 measures)
-    allegro-to-presto accelerando completes
-        achieves presto at start of stage
-    v1, v2, va grid-to-trajectories transition completes
-        1/2 clt continues
-        tasto continues
+    [E.6.1-2]  (32-33)
+    (1st 2 of 4 measures)
+    allegro-to-presto accelerando completes: achieves presto at start of stage
+    v1, v2, va grid-to-trajectories transition (continues)
+        [1/2 clt]
+        [tasto]
         tremolo-initiation stops independently
-        very light fast bow continues
-        slightly higher lower-register tasto continues
-        synchronization continues
-        p continues
+            XFB continues
+        [slightly higher lower-register pitches]
+        [synchronization]
+        [p]
     vc
-        tacet continues
-        <<[A.1 (isolatum) 1/1] bisects [E.6]>> (34)
-            <<summons past time>>
-            andante
-            v1, v2, va urtext declamation (two chords)
-                tasto
-                closely spaced double-stops
-                declamation (two rest-delimited chords)
-                    first chord
-                        short
-                        p <| f ringing lv
-                    second chord
-                        longer
-                        p < mp stop-on-string
-            vc
-                tacet
-        <<attacca return to second half of [E.6]>>
+        [tacet]
+    <<[A.1 (isolatum) 1/1] bisects [E.6]>> (34)
+        <<summons past time>>
+        andante
+        trio urtext declamation (two chords)
+            [tasto]
+            closely spaced double-stops
+            declamation (two rest-delimited chords)
+                first chord
+                    short
+                    p <| f ringing lv
+                second chord
+                    longer
+                    p < mp stop-on-string
+        vc
+            [tacet]
+    <<attacca return to second half of [E.6]>>
+    [E.6.3-4] (35-36)
+    (last 2 of 4 measures)
+    presto
+    v1, v2, va grid-to-trajectories transition (completes)
+        [1/2 clt]
+        [tasto]
+        tremolo-initiation stops independently
+            XFB continues
+        [slightly higher lower-register pitches]
+        [synchronization]
+        [p]
+    vc
+        [tacet]
     attacca
 
-    [E.7] (37-40 + fermata + [42-49] + [50-61] + fermata)
+    [E.7] (37-40)
     (4 measures)
     presto continues
     v1, v2, va trajectories continue
@@ -1564,7 +1569,7 @@ SEGMENTS
         p continues
     attacca
 
-    [E.10] (79-80 + short)
+    [E.10] (79-80)
     (2 measures)
     presto-to-largo ritardando completes
         achieves largo at start of stage
@@ -1576,7 +1581,7 @@ SEGMENTS
         p continues
     short fermata (81)
 
-    [E.11] (82-85 + fermata)
+    [E.11] (82-85)
     (4 measures)
     largo continues
     v1, v2, va flight continues
@@ -1587,16 +1592,16 @@ SEGMENTS
         p continues
     fermata [vc holds through fermata] (86)
 
-    [E.12] (87-88 + [89-96] + [97-108] + 109-110 + fermata)
-    (4 measures)
-    largo continues
+    [E.12.1-2] (87-88)
+    (1st 2 of 4 measures)
+    [largo]
     v1, v2, va flight continues
         stopped-to-damped lh transition governs first half of stage
         T-B-T independent scp patterning repeats from previous stage
         tremolo continues
         mf > p governs first half of stage
-    vc clouded pane continues
-        p continues
+    vc clouded pane
+        [p]
     >>[Q.1 (inception) 1-8/8] bisects [E.12]<< (89-96)
     >>[Q.2 (transformatum) 1-12/12] bisects [E.12]<< (97-108)
         >>recapitulates summons of future time<<
@@ -1618,7 +1623,17 @@ SEGMENTS
                 1/2 clt introduced towards end of trajectories independently
             ff poco scratch < fff scratch > f senza scratch
         <<attaca return to second half of [E.12] (109-110)>>
-    fermata [vc holds through fermata] after [E.12] (111)
+    [E.12.3-4] (109-110)
+    (last 2 of 4 measures)
+    largo
+    v1, v2, va flight continues
+        stopped-to-damped lh transition governs first half of stage
+        T-B-T independent scp patterning repeats from previous stage
+        tremolo continues
+        mf > p governs first half of stage
+    vc clouded pane
+        [p]
+    fermata [vc holds through fermata] (111)
 
     [E.13] (112-115)
     (4 measures)
@@ -1643,7 +1658,7 @@ SEGMENTS
         tremoli begin to slow independently
         p continues
     vc
-        tacet continues
+        [tacet]
     attacca
 
     [E.15] (118-119)
@@ -1654,20 +1669,18 @@ SEGMENTS
         tasto completes
         tremoli come to stops independently
         independent p >o govern stage
-    vc clouded pane resumes
-        new pitch begins stepwise above
+    vc clouded pane
+        new pitch stepwise above
         o< p
-            begins at start of stage
-            p stable by start of measure 1:2
     attacca
 
     [E.16] (120-127)
     (8 measures)
     largo continues
     v1, v2, va
-        tacet
-    vc clouded pane continues
-        p continues
+        [tacet]
+    vc clouded pane
+        [p]
     attacca
 
 [F] time series A; rotation -14
