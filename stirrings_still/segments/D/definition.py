@@ -646,11 +646,6 @@ maker(
     )
 
 maker(
-    ('trio', (94, 96)),
-    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 10.5),
-    )
-
-maker(
     (['v1', 'v2'], (84, 92)),
     baca.repeat_tie_to(),
     stirrings_still.continuous_tremolo(),
@@ -665,6 +660,22 @@ maker(
     (['v1', 'v2'], (94, 96)),
     stirrings_still.continuous_tremolo(),
     )
+
+maker(
+    ('trio', (94, 96)),
+    baca.hairpin(
+        'mp >o',
+        abjad.tweak(True).to_barline,
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 10.5),
+    )
+
 
 maker(
     ('va', [(84, 89), (94, 96)]),
