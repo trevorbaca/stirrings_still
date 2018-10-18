@@ -766,6 +766,7 @@ maker(
     (['va', 'vc'], (89, 96)),
     baca.breathe(),
     baca.circle_bow_spanner(
+        'fast',
         abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
