@@ -1547,11 +1547,10 @@ SEGMENTS
     (8 measures)
     subito-largo-to-presto accelerando
     v1, v2, va trajectory repetition cells appear
-        1/2 clt continues
-        tasto continues
+        1/2 clt
         eight- or tenfold repetition vortex happens
         accelerando time-sheers vortex dramatically
-        f > p governs stage
+        "ff" > p governs stage
     vc clouded pane begins again
         new pitch begins stepwise below
         o< p governs first quarter of stage
@@ -1565,8 +1564,8 @@ SEGMENTS
         tasto continues
         single-cell repetition-to-tremolo transitions happen independently
         p continues
-    vc clouded pane continues
-        p continues
+    vc clouded pane
+        [p]
     attacca
 
     [E.10] (79-80)
@@ -1577,8 +1576,8 @@ SEGMENTS
         tasto continues
         tremolo continues
         p continues
-    vc clouded pane continues
-        p continues
+    vc clouded pane
+        [p]
     short fermata (81)
 
     [E.11] (82-85)
@@ -1588,8 +1587,8 @@ SEGMENTS
         T-B-T independent scp patterning happens
         tremolo continues
         f > p < f inverse-swells govern stage independently
-    vc clouded pane continues
-        p continues
+    vc clouded pane
+        [p]
     fermata [vc holds through fermata] (86)
 
     [E.12.1-2] (87-88)
@@ -1643,9 +1642,8 @@ SEGMENTS
         T-B-T independent scp patterning repeats from previous stage
         tremolo continues
         p continues
-    vc clouded pane continues
-        p >o governs second half of stage
-            achieves niente at start of next stage
+    vc clouded pane
+        p >o
     attacca
 
     [E.14] (116-117)
