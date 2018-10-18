@@ -308,11 +308,13 @@ maker(
 
 maker(
     ('trio', (6, 40)),
-    baca.half_clt_spanner(
+    baca.scp_spanner(
+        'T =|',
         abjad.tweak(10.5).staff_padding,
         match=[0, 1],
         ),
-    baca.half_clt_spanner(
+    baca.scp_spanner(
+        'T =|',
         abjad.tweak(8).staff_padding,
         match=[2],
         ),
@@ -1005,7 +1007,12 @@ maker(
     )
 
 maker(
-    ('vc', (116, 117)),
+    ('vcx', 116),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 117),
     baca.tacet(),
     )
 

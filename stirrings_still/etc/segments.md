@@ -1395,7 +1395,6 @@ SEGMENTS
     presto
     v1, v2, va grid-to-trajectories stage-5 transition (continues)
         damped lh
-        1/2 clt
         tasto
         tremolo-initiated-XFB strokes begin independently
         desynchronization
@@ -1409,7 +1408,6 @@ SEGMENTS
     [presto]
     v1, v2, va grid-to-trajectories stage-5 transition (continues)
         damped lh becomes stopped lh
-        [1/2 clt]
         [tasto]
         [tremolo-initiated-XFB strokes]
         synchronization process governs stage
@@ -1422,7 +1420,6 @@ SEGMENTS
     (4 measures)
     adagio-to-allegro accelerando: achieves allegro at start of measure -1
     v1, v2, va grid-to-trajectories transition (continues)
-        [1/2 clt]
         [tasto]
         [tremolo-initiated-XFB strokes]
         [synchronization]
@@ -1435,7 +1432,6 @@ SEGMENTS
     (4 measures)
     allegro continues
     v1, v2, va grid-to-trajectories transition (continues)
-        [1/2 clt]
         [tasto]
         [tremolo-initiated-XFB strokes]
         slight pitch ascents begin independently
@@ -1449,7 +1445,6 @@ SEGMENTS
     (4 measures)
     allegro-to-presto accelerando begins
     v1, v2, va grid-to-trajectories transition (continues)
-        [1/2 clt]
         [tasto]
         [tremolo-initiated-XFB]
         slight pitch ascents complete independently
@@ -1464,7 +1459,6 @@ SEGMENTS
     (1st 2 of 4 measures)
     allegro-to-presto accelerando completes: achieves presto at start of stage
     v1, v2, va grid-to-trajectories transition (continues)
-        [1/2 clt]
         [tasto]
         tremolo-initiation stops independently
             XFB continues
@@ -1493,7 +1487,6 @@ SEGMENTS
     (last 2 of 4 measures)
     presto
     v1, v2, va grid-to-trajectories transition (completes)
-        [1/2 clt]
         [tasto]
         tremolo-initiation stops independently
             XFB continues
@@ -1508,7 +1501,6 @@ SEGMENTS
     (4 measures)
     presto continues
     v1, v2, va trajectories continue
-        1/2 clt continues
         tasto continues
         very light fast bow continues
         very slight pitch ascents begin again independently
@@ -1560,22 +1552,20 @@ SEGMENTS
     (8 measures)
     presto-to-largo ritardando happens
     v1, v2, va trajectory-cells-to-flight transition happens
-        1/2 clt completes
-        tasto continues
+        [1/2 clt]
         single-cell repetition-to-tremolo transitions happen independently
-        p continues
+        [p]
     vc clouded pane
         [p]
     attacca
 
     [E.10] (79-80)
     (2 measures)
-    presto-to-largo ritardando completes
-        achieves largo at start of stage
-    v1, v2, va flight continues
-        tasto continues
-        tremolo continues
-        p continues
+    presto-to-largo ritardando: achieves largo at start of stage
+    v1, v2, va flight (continues)
+        tasto
+        tremolo
+        [p]
     vc clouded pane
         [p]
     short fermata (81)
@@ -1583,9 +1573,9 @@ SEGMENTS
     [E.11] (82-85)
     (4 measures)
     largo continues
-    v1, v2, va flight continues
-        T-B-T independent scp patterning happens
-        tremolo continues
+    v1, v2, va flight (continues)
+        T-P-T independent scp patterning
+        [tremolo]
         f > p < f inverse-swells govern stage independently
     vc clouded pane
         [p]
@@ -1594,11 +1584,11 @@ SEGMENTS
     [E.12.1-2] (87-88)
     (1st 2 of 4 measures)
     [largo]
-    v1, v2, va flight continues
-        stopped-to-damped lh transition governs first half of stage
-        T-B-T independent scp patterning repeats from previous stage
-        tremolo continues
-        mf > p governs first half of stage
+    v1, v2, va flight (continues)
+        lh damped
+        T-P-T independent scp patterning repeats from previous stage
+        [tremolo]
+        "f" > p governs first half of stage
     vc clouded pane
         [p]
     >>[Q.1 (inception) 1-8/8] bisects [E.12]<< (89-96)
