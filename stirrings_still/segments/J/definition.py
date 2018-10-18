@@ -50,7 +50,7 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    (['v1', 'v2', 'va'], (1, 2)),
+    ('trio', (1, 2)),
     baca.dynamic(
         'appena-udibile',
         abjad.tweak(-0.75).self_alignment_X,

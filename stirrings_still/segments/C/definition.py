@@ -541,7 +541,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (60, 61)),
+    ('trio', (60, 61)),
     baca.breathe(),
     baca.hairpin(
         'appena-udibile -- !',
