@@ -829,6 +829,7 @@ maker(
     ('v2', (68, 70)),
     baca.breathe(),
     baca.circle_bow_spanner(
+        'fast',
         abjad.tweak(5).staff_padding,
         ),
     baca.damp_spanner(
