@@ -600,6 +600,25 @@ maker(
         ),
     )
 
+# vc E.8 - E.12.1-2
+
+maker(
+    ('vc', (63, 80)),
+    baca.markup(
+        'new pitch stepwise down',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    )
+
+maker(
+    ('vc', (82, 88)),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    )
+
 # [Q.1]
 
 maker(
@@ -745,6 +764,13 @@ maker(
             ),
         stirrings_still.trajectories('C', -3, 0),
         match=1,
+        ),
+    )
+
+maker(
+    ('trio', (63, 78)),
+    baca.half_clt_spanner(
+        abjad.tweak(10).staff_padding,
         ),
     )
 
@@ -960,6 +986,17 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
+    )
+
+maker(
+    ('vc', (109, 115)),
+    baca.hairpin(
+        'p >o niente',
+        measures=(112, 115),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     )
 
 maker(

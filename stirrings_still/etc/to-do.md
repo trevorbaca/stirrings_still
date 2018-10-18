@@ -40,3 +40,5 @@ TO-DO
     This means that StartTextSpan currently gets (wrongly) put in metadata.
     Workaround is to terminate spanner prior to phantom measure.
     Fix so workaround isn't necessary.
+
+9.  Add parenthesized dynamics.
