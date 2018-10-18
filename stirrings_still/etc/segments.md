@@ -1325,7 +1325,7 @@ SEGMENTS
         [largo]
         va tailpiece
             poco flicker
-            mp
+            "mf"
     >>attacca second half of [D.21]<< (94)
     [D.21.2] (94-95)
     (2nd and 3rd of of 3 measures)
@@ -1335,8 +1335,9 @@ SEGMENTS
             tasto
             [closely spaced double-stops]
             [continuous tremolo]
-        vc
-            [tacet]
+        vc clouded pane
+            reenters up one step
+            o< p
     attacca
 
     [D.22] (96)
@@ -1349,8 +1350,7 @@ SEGMENTS
             [continuous tremolo]
             mp >o
         vc clouded pane
-            reenters up one step
-            o< p
+            o< p culminates at start of next stage
     <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>> (97-98)
         <<summon past time>>
         adagio
@@ -1363,17 +1363,17 @@ SEGMENTS
 
 [E] time series B; rotation -8
 
-    [E.0] (1-2 + short)
+    [E.0] (1-2)
     (2 measures)
     presto begins
     v1, v2, va grid-to-trajectories transition begins
-        damped lh returns
-        1/2 clt begins
-        tasto continues
-        continuous tremolo begins again
-        p begins
+        damped lh
+        1/2 clt
+        tasto
+        continuous tremolo
+        p
     vc clouded pane continues
-        p continues
+        [p]
     short fermata [vc continues through fermata] (3)
 
     >>[H.9 (clearing) 1-2/6] prefixes [E.1]<< (4-5)
@@ -1681,7 +1681,7 @@ SEGMENTS
     va tailpiece begins under cover of clouded pane
         absent lh begins
         poco flicker begins
-        o< "mp" governs measure 1
+        o< "mf" governs measure 1
     vc clouded pane continues
         (p) < ff ... ff >o governs stage
     attacca
@@ -1694,7 +1694,7 @@ SEGMENTS
     va tailpiece continues
         absent lh continues
         poco flicker continues
-        mp continues
+        ["mf"]
         terminates abruptly at end of stage
     vc
         tacet continues
@@ -2330,6 +2330,7 @@ SEGMENTS
                 va tailpiece
                     absent lh
                     poco flicker
+                    "mf"
     attacca
 
     [K.4] (12-14)
