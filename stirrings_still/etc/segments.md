@@ -1748,22 +1748,19 @@ SEGMENTS
     (1 measure)
     largo più mosso
     tutti clouded pane / urtext declamation conflict happens again
-        single declamation happens again
     fermata (8)
 
     [G.4] (9)
     (1 measure)
-    largo più mosso continues
+    [largo più mosso]
     tutti clouded pane / urtext declamation conflict happens again
-        single declamation happens again
     fermata (10)
 
     [G.5] (11)
     (first of 2 measures)
-    largo più mosso continues
+    [largo più mosso]
     tutti clouded pane / urtext declamation conflict happens again
-        single declamation happens again
-    attacca suffix
+    attacca bisection
     <<[C.7 (clocktick composite) 1/1] bisects [G.5]>> (12)
         allegro
         <<summons past time>>
@@ -1780,7 +1777,6 @@ SEGMENTS
             pp
         cut-off
         <<attacca second half of [G.5]>> (13)
-        <<largo più mosso resumes for second half of [G.5]>>
     [G.5.2] (13)
     (second of 2 measures)
     largo più mosso
