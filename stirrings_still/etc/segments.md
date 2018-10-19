@@ -1680,35 +1680,32 @@ SEGMENTS
         intermittent double-stop partials appear
         o< f ... f >o envelopes shape each double-stop
     va tailpiece begins under cover of clouded pane
-        absent lh begins
-        poco flicker begins
+        poco flicker
         o< "mf" governs measure 1
     vc clouded pane continues
         (p) < ff ... ff >o governs stage
     attacca
 
-    [F.2] (9-10 + long + 12-13 + long)
+    [F.2] (9-10)
     (2 measures)
-    largo continues
+    [largo]
     v1, v2
-        tacet continues
-    va tailpiece continues
-        absent lh continues
-        poco flicker continues
+        [tacet]
+    va tailpiece
+        poco flicker
         ["mf"]
         terminates abruptly at end of stage
     vc
-        tacet continues
+        [tacet]
     long fermata (11)
     <<[C.2 (crunch + up-glissando) 3-4/4] prolong [F.2] fermata>> (12-13)
         <<summon past time>>
         adagio
-        tutti maximally tight talon-crunch circles repeat
+        tutti maximally tight talon-crunch circles
             damped lh
-            v2 only
-                slow up-glissando
+            v2 only: slow up-glissando
             desynchronization
-            mp
+            p
     <<long fermata follows insert to complete prolongation>> (14)
 
 [G] time series C; rotation -36

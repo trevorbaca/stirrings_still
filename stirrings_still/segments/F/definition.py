@@ -43,44 +43,45 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    (['v1', 'v2', 'vc'], (1, 8)),
-    baca.new(
-        baca.hairpin(
-            'pp < f > pp < f > pp < f >o niente',
-            pieces=baca.mgroups([1, 2, 1, 2, 1, 2]),
-            selector=baca.leaves().rleak(),
-            ),
-        match=0,
-        ),
-    baca.new(
-        baca.hairpin(
-            'pp < f > pp < f > pp < f >o niente',
-            pieces=baca.mgroups([2, 1, 2, 1, 1, 2]),
-            selector=baca.leaves().rleak(),
-            ),
-        match=1,
-        ),
-    baca.new(
-        # TODO: allow for variable-length middle part
-        baca.hairpin(
-            'pp < ff ff >o niente',
-            pieces=baca.cmgroups([1, 6, 1, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        match=2,
+    ('v1', (1, 8)),
+    baca.hairpin(
+        'pp < f > pp < f > pp < f >o niente',
+        pieces=baca.mgroups([1, 2, 1, 2, 1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    )
-
-maker(
-    (['v1', 'v2'], (1, 8)),
     stirrings_still.clouded_pane_annotation_spanner(
         'clouded pane (doublestop partials) -|', 5.5,
         ),
     )
 
 maker(
+    ('v2', (1, 8)),
+    baca.hairpin(
+        'pp < f > pp < f > pp < f >o niente',
+        pieces=baca.mgroups([2, 1, 2, 1, 1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane (doublestop partials) -|', 5.5,
+        ),
+    )
+
+
+maker(
     ('vc', (1, 8)),
+    baca.hairpin(
+        '< ff',
+        measures=1,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'ff >o niente',
+        measures=8,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_annotation_spanner(
         'clouded pane (fudnamental) -|', 5.5,
         ),
@@ -94,7 +95,11 @@ maker(
         measures=11,
         ),
     baca.suite(
-        baca.hairpin('niente o< "mp"', selector=baca.rmleaves(1)),
+        baca.hairpin(
+            'o< "mp"',
+            measures=1,
+            selector=baca.leaves().rleak(),
+            ),
         baca.hairpin_shorten_pair((0.75, 0)),
         ),
     stirrings_still.tailpiece(
@@ -104,9 +109,28 @@ maker(
     )
 
 maker(
+    (['v1x', 'v2x', 'vcx'], 9),
+    baca.tacet(),
+    )
+
+maker(
+    (['v1', 'v2', 'vc'], 10),
+    baca.tacet(),
+    )
+
+maker(
     ('tutti', (12, 13)),
-    baca.dynamic('mp'),
-    baca.markup('maximally tight crunch circles: grind at talon'),
+    baca.circle_bow_spanner(
+        'tight-poss-grind-at-talon',
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        ),
     baca.new(
         stirrings_still.desynchronization(4, [1]),
         match=0,
