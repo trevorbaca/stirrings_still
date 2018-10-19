@@ -68,7 +68,7 @@ maker(
     )
 
 maker(
-    ('v1', [1, 3, 7, 11, 13]),
+    ('v1', [1, 3, 7, 9, 11, 13]),
     baca.scp_spanner(
         'T =|',
         abjad.tweak(8).staff_padding,
@@ -77,7 +77,7 @@ maker(
     )
 
 maker(
-    ('v2', [1, 3, 7, 11, 13]),
+    ('v2', [1, 3, 7, 9, 11, 13]),
     baca.scp_spanner(
         'T =|',
         abjad.tweak(8).staff_padding,
@@ -86,7 +86,7 @@ maker(
     )
 
 maker(
-    ('va', [1, 3, 7, 11, 13]),
+    ('va', [1, 3, 7, 9, 11, 13]),
     baca.scp_spanner(
         'T =|',
         abjad.tweak(8).staff_padding,
@@ -98,7 +98,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2'], [1, 3, 7, 11, 13]),
+    (['v1', 'v2'], [1, 3, 7, 9, 11, 13]),
     stirrings_still.urtext_annotation_spanner('urtext (double stop) -|', 5.5),
     )
 
@@ -119,17 +119,6 @@ maker(
     )
 
 maker(
-    ('vc', [1, 3, 7, 11, 13]),
-    baca.hairpin(
-        'niente o< f >o niente',
-        pieces=baca.lparts([1, 2]),
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
-    stirrings_still.taper((1, 1)),
-    )
-
-maker(
     ('vc', 1),
     baca.markup(
         'new pitch (stepwise above)',
@@ -139,8 +128,74 @@ maker(
     )
 
 maker(
+    ('vc', [1, 3, 7, 9, 11, 13]),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.taper((1, 1)),
+    )
+
+maker(
+    ('vc', [1, 3, 7, 9]),
+    baca.hairpin(
+        'o< f >o !',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', 11),
+    baca.hairpin('o< f'),
+    )
+
+maker(
+    ('vc', 13),
+    baca.hairpin('f >o niente'),
+    )
+
+maker(
     ('vc', (5, 6)),
     baca.tacet(),
+    )
+
+maker(
+    (['v1', 'va', 'vc'], 12),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        match=2,
+        ),
+    baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane (beacon) -|', 5.5,
+        ),
+    )
+
+maker(
+    ('v2', 12),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.clockticks(),
     )
 
 # vertical

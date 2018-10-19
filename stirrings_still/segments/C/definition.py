@@ -362,7 +362,11 @@ maker(
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.dynamic('mp'),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
