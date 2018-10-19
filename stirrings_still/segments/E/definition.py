@@ -1030,7 +1030,6 @@ maker(
         measures=(118, 126),
         ),
     stirrings_still.clouded_pane(),
-    ###stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     )
 
 # vertical

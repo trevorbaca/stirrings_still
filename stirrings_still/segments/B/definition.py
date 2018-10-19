@@ -280,7 +280,7 @@ maker(
     baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_annotation_spanner(
-        'clouded pane (overpressure obverse harm.) -|', 5,
+        'clouded pane (overpressure obverse harm.) -|', 5.5,
         ),
     )
 
@@ -614,7 +614,7 @@ maker(
         selector=baca.note(-1),
         ),
     stirrings_still.declamation(),
-    stirrings_still.urtext_annotation_spanner('A, B -|', 5),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 5.5),
     )
 
 maker(
@@ -873,7 +873,7 @@ maker(
     ('vc', 45),
     baca.dynamic('p'),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     )
 
 maker(
@@ -902,14 +902,14 @@ maker(
         ),
     baca.stem_tremolo(),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_annotation_spanner('urt. (dds) -|', 5),
+    stirrings_still.urtext_annotation_spanner('urt. (dds) -|', 5.5),
     )
 
 maker(
     ('vc', 48),
     baca.dynamic('p'),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     )
 
 maker(
@@ -1082,14 +1082,14 @@ maker(
         baca.untie_to(selector=baca.pleaves()),
         baca.tie(repeat=(1, 4)),
         ),
-    stirrings_still.urtext_annotation_spanner('urt. (dds) -|', 5),
+    stirrings_still.urtext_annotation_spanner('urt. (dds) -|', 5.5),
     )
 
 maker(
     ('vc', 64),
     baca.dynamic('p'),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     )
 
 maker(

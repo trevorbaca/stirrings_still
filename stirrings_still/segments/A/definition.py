@@ -256,7 +256,7 @@ maker(
         pieces=baca.lparts([1, 2]),
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     stirrings_still.taper((1, 1)),
     )
 
