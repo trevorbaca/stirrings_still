@@ -30,14 +30,14 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [447, 457],
             ),
-        ('duration', "0'48''"),
+        ('duration', "0'53''"),
         (
             'fermata_measure_numbers',
-            [448, 450, 454, 456, 460, 463, 466],
+            [448, 450, 454, 456, 460, 463, 470],
             ),
         ('first_measure_number', 447),
         ('last_measure_is_fermata', True),
-        ('last_measure_number', 466),
+        ('last_measure_number', 470),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -119,8 +119,8 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Viola_Music_Voice',
-                                prototype='abjad.StartHairpin',
-                                value='--',
+                                prototype='abjad.Dynamic',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -150,8 +150,8 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Violin_II_Music_Voice',
-                                prototype='abjad.StartHairpin',
-                                value='--',
+                                prototype='abjad.Dynamic',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -181,8 +181,8 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Violin_I_Music_Voice',
-                                prototype='abjad.StartHairpin',
-                                value='--',
+                                prototype='abjad.Dynamic',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -208,7 +208,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('start_clock_time', "18'20''"),
-        ('stop_clock_time', "19'08''"),
+        ('stop_clock_time', "19'13''"),
         (
             'time_signatures',
             [
@@ -230,6 +230,10 @@ metadata = abjad.OrderedDict(
                 '8/16',
                 '1/4',
                 '14/16',
+                '12/16',
+                '10/16',
+                '12/16',
+                '8/16',
                 '12/16',
                 '1/4',
                 ],

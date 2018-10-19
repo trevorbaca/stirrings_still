@@ -532,7 +532,7 @@ def operations():
                         description='isolatum',
                         length=6,
                         ),
-                    source_measures=(1, 2),
+                    source_measures=(1, 6),
                     verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='G',
@@ -927,7 +927,7 @@ def operations():
             StageToken('G', 5, 'iteratum', 2), (1, 2),
             ),
         Operation(
-            StageToken('D', 11, 'isolatum', 6), (1, 2),
+            StageToken('D', 11, 'isolatum', 6), (1, 6),
             'prolong',
             StageToken('G', 6, 'pause'),
             ),
