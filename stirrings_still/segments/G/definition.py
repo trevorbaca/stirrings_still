@@ -18,7 +18,7 @@ stage_markup = (
     ('[C.7]', 12, 'darkgreen'),
     ('[G.5]', 13),
     ('[G.6]', 15),
-    ('[D.1]', 18, 'darkgreen'),
+    ('[D.11]', 18, 'darkgreen'),
     )
 
 maker = baca.SegmentMaker(
@@ -30,7 +30,7 @@ maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('G'),
-    validate_measure_count=20,
+    validate_measure_count=24,
     )
 
 maker(
@@ -56,8 +56,8 @@ time = (
     ('long', 17),
     ('presto', 18),
     (baca.Ritardando(), 18),
-    ('andante', 20),
-    ('long', 20),
+    ('andante', 23),
+    ('long', 24),
     )
 
 stirrings_still.time(maker, time)
@@ -196,6 +196,74 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.clockticks(),
+    )
+
+
+maker(
+    ('tutti', (15, 16)),
+    baca.espressivo(
+        selector=baca.pleaves(),
+        ),
+    baca.hairpin(
+        'pp < mf',
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin_shorten_pair((0, 5)),
+    baca.new(
+        stirrings_still.flight('A', 0, start=4),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.flight('C', -1, start=4),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.flight('B', -2, start=4),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.flight('B', -4, start=6),
+        match=3,
+        ),
+    baca.new(
+        baca.dynamic_text_extra_offset((-5, 0)),
+        measures=17,
+        selector=baca.leaf(0),
+        ),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.pleaves(),
+            ),
+        baca.scp_spanner(
+            'T -> P ->',
+            abjad.tweak(5.5).staff_padding,
+            autodetect_right_padding=False,
+            final_piece_spanner=False,
+            pieces=baca.plts(),
+            ),
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    stirrings_still.urtext_annotation_spanner('urtext (ds) -|', 8),
+    )
+
+maker(
+    ('tutti', (18, 23)),
+    baca.damp_spanner(
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.hairpin('mf >o niente'),
+    baca.suite(
+        baca.new(
+            baca.stop_on_string(
+                selector=baca.leaf(-1),
+                ),
+            map=baca.logical_ties(nontrivial=True),
+            ),
+        stirrings_still.ntlt_flat_glissandi(),
+        ),
+    stirrings_still.strokes(0),
     )
 
 # vertical

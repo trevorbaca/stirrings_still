@@ -1785,9 +1785,9 @@ SEGMENTS
 
     [G.6] (15-16 + long + [18-19] + long)
     (2 measures)
-    larghissimo governs stage
+    larghissimo
     tutti urtext field blossoms aflight (without clouded pane)
-        single declamation happens again
+        single declamation (happens again)
             pitch
                 eight-note chord
                 four double-stops
@@ -1802,10 +1802,10 @@ SEGMENTS
                 unmarked swells on each note
                 pp < mf governs stage
     long fermata (17)
-    <<[D.11 (process) 1-2/6] prolongs [G.6] long fermata>> (18-19)
+    <<[D.11 (process) 1-6/6] prolongs [G.6] long fermata>> (18-23)
         <<summons past time>>
         presto-to-andante ritardando
-    <<long fermata repeats to effect prolongation>> (20)
+    <<long fermata repeats to effect prolongation>> (24)
 
 [H] time series B; rotation -16
 

@@ -2155,7 +2155,7 @@ def second_order_stages(segment):
                     6,
                     stirrings_still.StageSpecifier(
                         stage_number=6,
-                        measure_numbers=[15, 16, 17, 18, 19, 20],
+                        measure_numbers=[15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
                         time_signatures=[
                             abjad.TimeSignature((12, 16)),
                             abjad.TimeSignature((8, 16)),
@@ -2163,6 +2163,10 @@ def second_order_stages(segment):
                         after='long',
                         suffix=[
                             abjad.TimeSignature((14, 16)),
+                            abjad.TimeSignature((12, 16)),
+                            abjad.TimeSignature((10, 16)),
+                            abjad.TimeSignature((12, 16)),
+                            abjad.TimeSignature((8, 16)),
                             abjad.TimeSignature((12, 16)),
                             ],
                         postsuffix='long',
@@ -2174,7 +2178,7 @@ def second_order_stages(segment):
                                     description='isolatum',
                                     length=6,
                                     ),
-                                source_measures=(1, 2),
+                                source_measures=(1, 6),
                                 verb='prolong',
                                 target_stage=stirrings_still.StageToken(
                                     letter='G',
