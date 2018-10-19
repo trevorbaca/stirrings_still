@@ -2380,7 +2380,7 @@ B_Violin_I_Music_Voice = {                                                     %
     - \baca-text-spanner-left-text "A, B"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -3189,7 +3189,7 @@ B_Violin_I_Music_Voice = {                                                     %
     - \baca-text-spanner-left-text "urt. (dds)"                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3855,7 +3855,7 @@ B_Violin_I_Music_Voice = {                                                     %
         - \baca-text-spanner-left-text "urt. (dds)"                            %! MATERIAL:URTEXT:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
         - \tweak color #darkred                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
+        - \tweak staff-padding #5.5                                            %! MATERIAL:URTEXT:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4842,7 +4842,7 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-text-spanner-left-text "A, B"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5607,7 +5607,7 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-text-spanner-left-text "urt. (dds)"                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -6151,7 +6151,7 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-text-spanner-left-text "urt. (dds)"                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6806,7 +6806,7 @@ B_Viola_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "A, B"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7662,7 +7662,7 @@ B_Viola_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "urt. (dds)"                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
     - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -8293,7 +8293,7 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "urt. (dds)"                            %! MATERIAL:URTEXT:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
         - \tweak color #darkred                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
+        - \tweak staff-padding #5.5                                            %! MATERIAL:URTEXT:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -8585,7 +8585,7 @@ B_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "clouded pane (overpressure obverse harm.)" %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [B Cello_Music_Voice measure 70 / measure 7]                             %! _comment_measure_numbers
@@ -9960,7 +9960,7 @@ B_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -10058,7 +10058,7 @@ B_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -10726,7 +10726,7 @@ B_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #5                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [B Cello_Music_Voice measure 128 / measure 65]                           %! _comment_measure_numbers

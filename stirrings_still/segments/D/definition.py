@@ -385,7 +385,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(),
-    stirrings_still.urtext_annotation_spanner('A, B -|', 7.5),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 8),
     )
 
 maker(
@@ -424,7 +424,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     stirrings_still.clouded_pane_annotation_spanner(
-        'clouded pane (lontano) -|', 5,
+        'clouded pane (lontano) -|', 5.5,
         ),
     )
 
@@ -459,7 +459,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(),
-    stirrings_still.urtext_annotation_spanner('A, B -|', 7.5),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 8),
     )
 
 maker(
@@ -499,7 +499,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
-    stirrings_still.flight_annotation_spanner('memory of flight -|', 5),
+    stirrings_still.flight_annotation_spanner('memory of flight -|', 5.5),
     )
 
 maker(
@@ -510,7 +510,7 @@ maker(
         repeat_tie_threshold=(1, 4),
         ),
     baca.pitch('B1'),
-    stirrings_still.flight_annotation_spanner('memory of flight -|', 5),
+    stirrings_still.flight_annotation_spanner('memory of flight -|', 5.5),
     )
 
 maker(
@@ -594,7 +594,7 @@ maker(
         map=baca.cmgroups()[:3].group(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     )
 
 maker(

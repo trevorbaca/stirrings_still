@@ -1710,30 +1710,29 @@ SEGMENTS
 
 [G] time series C; rotation -36
 
-    [G.1] (1 + fermata)
+    [G.1] (1)
     (1 measure)
-    largo più mosso begins
+    largo più mosso
     tutti clouded pane / urtext declamation conflict begins
         single declamation
             v1, v2 urtext declamation double-stops begin
-                tasto begins
-                polyrhythmic louré-swell tuplets begin
+                tasto
+                polyrhythmic louré-swell tuplets
                 o< mp >o envelopes shape each note
-            va clouded partial resumes
-                tasto begins
-                polyrhythmic louré-swell tuplets begin
+            va clouded partial
+                tasto
+                polyrhythmic louré-swell tuplets
                 o< mp >o envelopes shape each note
-            vc clouded pane resumes
+            vc clouded pane
                 new pitch begins stepwise above
                 o< f ... f >o governs stage
                 subtends declamation
     fermata (2)
 
-    [G.2] (3 + fermata)
+    [G.2] (3)
     (1 measure)
-    largo più mosso continues
-    tutti clouded pane / urtext declamation conflict happens again
-        single declamation happens again
+    [largo più mosso]
+    tutti clouded pane / urtext declamation conflict (happens again)
     fermata (4)
 
     >>[J.1 (clearing) 1-2/4] prefixes [G.3 (iteratum)]<< (5-6)
@@ -1745,22 +1744,22 @@ SEGMENTS
         vc
             tacet
     >>attacca [G.3] to effect prefix<<
-    [G.3] (7 + fermata)
+    [G.3] (7)
     (1 measure)
-    largo più mosso resumes after prefix
+    largo più mosso
     tutti clouded pane / urtext declamation conflict happens again
         single declamation happens again
     fermata (8)
 
-    [G.4] (9 + fermata)
+    [G.4] (9)
     (1 measure)
     largo più mosso continues
     tutti clouded pane / urtext declamation conflict happens again
         single declamation happens again
     fermata (10)
 
-    [G.5] (11 + [12] + 13 + long)
-    (2 measures)
+    [G.5] (11)
+    (first of 2 measures)
     largo più mosso continues
     tutti clouded pane / urtext declamation conflict happens again
         single declamation happens again
@@ -1782,6 +1781,10 @@ SEGMENTS
         cut-off
         <<attacca second half of [G.5]>> (13)
         <<largo più mosso resumes for second half of [G.5]>>
+    [G.5.2] (13)
+    (second of 2 measures)
+    largo più mosso
+    tutti clouded pane / urtext declamation conflict happens again
     long fermata (14)
 
     [G.6] (15-16 + long + [18-19] + long)
