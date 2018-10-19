@@ -1675,7 +1675,7 @@ SEGMENTS
 
     [F.1] (1-8)
     (8 measures)
-    largo continues
+    [largo]
     v1, v2 clouded pane blossoms from vc
         intermittent double-stop partials appear
         o< f ... f >o envelopes shape each double-stop

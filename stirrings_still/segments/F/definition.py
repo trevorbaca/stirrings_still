@@ -35,7 +35,6 @@ maker(
     )
 
 time = (
-    #('largo', 1),
     ('long', 11),
     ('adagio', 12),
     ('long', 14),
@@ -48,7 +47,7 @@ maker(
     baca.new(
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
-            pieces=baca.cmgroups([1, 2, 1, 2, 1, 1]),
+            pieces=baca.mgroups([1, 2, 1, 2, 1, 2]),
             selector=baca.leaves().rleak(),
             ),
         match=0,
@@ -56,16 +55,10 @@ maker(
     baca.new(
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
-            pieces=baca.cmgroups([1, 2, 1, 2, 1, 1]),
-            # TODO: make this selector work:
-            #pieces=baca.cmgroups([2, 1, 2, 1, 1, 1]),
+            pieces=baca.mgroups([2, 1, 2, 1, 1, 2]),
             selector=baca.leaves().rleak(),
             ),
         match=1,
-        ),
-    baca.new(
-        baca.markup('[clouded pane partials (double-stop)]'),
-        match=(0, 1),
         ),
     baca.new(
         # TODO: allow for variable-length middle part
@@ -76,11 +69,21 @@ maker(
             ),
         match=2,
         ),
-    baca.new(
-        baca.markup('[clouded pane fundamental]'),
-        match=2,
-        ),
     stirrings_still.clouded_pane(),
+    )
+
+maker(
+    (['v1', 'v2'], (1, 8)),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane (doublestop partials) -|', 5.5,
+        ),
+    )
+
+maker(
+    ('vc', (1, 8)),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane (fudnamental) -|', 5.5,
+        ),
     )
 
 maker(
