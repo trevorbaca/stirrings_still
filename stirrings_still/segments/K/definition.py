@@ -130,7 +130,6 @@ maker(
             selector=baca.pheads(),
             ),
         baca.breathe(),
-        baca.dynamic('mp'),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -330,7 +329,6 @@ maker(
             selector=baca.pheads(),
             ),
         baca.breathe(),
-        baca.dynamic('mp'),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -541,7 +539,6 @@ maker(
             selector=baca.pheads(),
             ),
         baca.breathe(),
-        baca.dynamic('mp'),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -748,7 +745,6 @@ maker(
             selector=baca.pheads(),
             ),
         baca.breathe(),
-        baca.dynamic('mp'),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -761,7 +757,7 @@ maker(
     ('vc', (21, 23)),
     baca.breathe(),
     baca.hairpin(
-        'niente o< "f" "f" >o niente',
+        'niente o< "f" -- ! >o niente',
         pieces=baca.cmgroups(),
         ),
     baca.half_clt_spanner(
@@ -854,9 +850,13 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], (5, 8)),
-    baca.dynamic(
-        'pp',
-        abjad.tweak(abjad.Left).self_alignment_X,
-        ),
     stirrings_still.glissando_without_ties(),
+    )
+
+maker(
+    (['v1', 'v2', 'vc'], (5, 17)),
+    baca.hairpin(
+        'pp < mp',
+        selector=baca.leaves().rleak(),
+        ),
     )
