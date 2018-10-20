@@ -2366,20 +2366,20 @@ SEGMENTS
         pp < mp culminates at start of next stage
     attacca
 
-    [K.6] (18-20 + 21 + 22 + 23)
+    [K.6] (18-20)
     (3 measures)
     andante-to-largo ritardando
     tutti flight begins
         [tremolo]
         [mp]
     surprisingly short breath
-        <<[H.13 (scratch gears) prolong surprisingly short breath>> (21)
+        <<[H.13.1 (scratch gears) prolong surprisingly short breath>> (21)
             <<summons past time>>
             allegro
         <<[I.6 (current)] prolongs surprisingly short breath>> (22)
             <<summons past time within past time>>
             larghissimo
-        <<[[H.13 (scratch gears)] prolong surprisingly short breath>> (23)
+        <<[[H.13.2 (scratch gears)] prolong surprisingly short breath>> (23)
             <<closes off past time>>
             largo
     <<surprisingly short breath repeats to effect prolongation>>
