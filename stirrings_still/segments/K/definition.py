@@ -137,10 +137,14 @@ maker(
         measures=(18, 20),
         ),
     baca.new(
-        baca.dynamic('"ff"'),
         baca.circle_bow_spanner(
-            'scratch',
+            'tight',
             abjad.tweak(5.5).staff_padding,
+            ),
+        baca.hairpin(
+            '"ff" -- !',
+            abjad.tweak(True).to_barline,
+            selector=baca.leaves().rleak(),
             ),
         stirrings_still.pickets(4, 2),
         measures=21,
@@ -149,7 +153,7 @@ maker(
         baca.breathe(),
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
-            'scratch',
+            'wide',
             abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 2),
@@ -336,10 +340,14 @@ maker(
         measures=(18, 20),
         ),
     baca.new(
-        baca.dynamic('"ff"'),
         baca.circle_bow_spanner(
-            'scratch',
+            'tight',
             abjad.tweak(5.5).staff_padding,
+            ),
+        baca.hairpin(
+            '"ff" -- !',
+            abjad.tweak(True).to_barline,
+            selector=baca.leaves().rleak(),
             ),
         stirrings_still.pickets(4, 1),
         measures=21,
@@ -348,7 +356,7 @@ maker(
         baca.breathe(),
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
-            'scratch',
+            'wide',
             abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 1),
@@ -546,10 +554,14 @@ maker(
         measures=(18, 20),
         ),
     baca.new(
-        baca.dynamic('"ff"'),
         baca.circle_bow_spanner(
-            'scratch',
+            'tight',
             abjad.tweak(5.5).staff_padding,
+            ),
+        baca.hairpin(
+            '"ff" -- !',
+            abjad.tweak(True).to_barline,
+            selector=baca.leaves().rleak(),
             ),
         stirrings_still.pickets(4, 0),
         measures=21,
@@ -558,7 +570,7 @@ maker(
         baca.breathe(),
         baca.hairpin('"ff" > mf'),
         baca.circle_bow_spanner(
-            'scratch',
+            'wide',
             abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.pickets(4, 0),
