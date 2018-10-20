@@ -699,9 +699,6 @@ maker(
 
 maker(
     ('vc', [(47, 51), 55]),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
     baca.new(
         stirrings_still.bcps(
             -4,
@@ -727,6 +724,21 @@ maker(
         selector=baca.leaves(),   
         ),
     stirrings_still.trajectories('A', -1, 0),
+    )
+
+maker(
+    ('vc', (47, 51)),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('vc', 55),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        selector=baca.leaves(),
+        ),
     )
 
 maker(
@@ -812,6 +824,7 @@ maker(
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
+        selector=baca.leaves(),
         ),
     baca.hairpin(
         'mp -- !',

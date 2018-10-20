@@ -49,10 +49,6 @@ stirrings_still.time(maker, time)
 
 maker(
     ('trio', (1, 7)),
-    baca.markup(
-        'golden tone',
-        abjad.tweak(10.5).staff_padding,
-        ),
     baca.new(
         baca.hairpin(
             'mp >o niente',
@@ -76,6 +72,11 @@ maker(
             ),
         match=2,
         ),
+    stirrings_still.circle_annotation_spanner(
+        'golden -|',
+        8,
+        selector=baca.ltleaves().rleak(),
+        ),
     )
 
 maker(
@@ -91,6 +92,34 @@ maker(
     baca.circle_bow_spanner(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('triox', 8),
+    baca.tacet(),
+    )
+maker(
+
+    ('trio', 9),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', (10, 11)),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.leaf(0),
+        ),
+    baca.hairpin(
+        'appena-udibile -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.urtext_field(),
+    stirrings_still.urtext_annotation_spanner(
+        'urtext (sustained ds) ->', 5.5,
+        measures=10,
         ),
     )
 
@@ -120,8 +149,9 @@ maker(
 maker(
     'vc',
     baca.hairpin(
-        'p < "f" "f" >o niente',
-        pieces=baca.cmgroups([5, 4, 2]),
+        'p < "f" -- "f" >o niente',
+        pieces=baca.mgroups([5, 4, 2 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
         abjad.tweak(13).staff_padding,
@@ -129,20 +159,6 @@ maker(
     )
 
 # vertical
-
-maker(
-    ('trio', (10, 11)),
-    baca.dynamic(
-        'appena-udibile',
-        abjad.tweak(abjad.Left).parent_alignment_X,
-        abjad.tweak(abjad.Left).self_alignment_X,
-        ),
-    baca.markup(
-        baca.Markup('sustained double stops'),
-        abjad.tweak('magenta').color,
-        ),
-    stirrings_still.urtext_field(),
-    )
 
 maker(
     'tutti',

@@ -122,11 +122,6 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.StartHairpin',
                                 value='--',
                                 ),
-                            abjad.Momento(
-                                context='Viola_Music_Voice',
-                                prototype='abjad.StartTextSpan',
-                                value="StartTextSpan(command='\\\\bacaStartTextSpanCircleBow', concat_hspace_left=0.5, left_text='- \\\\baca-text-spanner-left-markup \\\\baca-circle-wide-markup', style='dashed-line-with-hook', tweaks=LilyPondTweakManager(('bound_details__right__padding', ('TAGGED', 2.5, Tag('CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect'))), ('staff_padding', 8)))",
-                                ),
                             ],
                         ),
                     (
@@ -158,11 +153,6 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.StartHairpin',
                                 value='--',
                                 ),
-                            abjad.Momento(
-                                context='Violin_II_Music_Voice',
-                                prototype='abjad.StartTextSpan',
-                                value="StartTextSpan(command='\\\\bacaStartTextSpanCircleBow', concat_hspace_left=0.5, left_text='- \\\\baca-text-spanner-left-markup \\\\baca-circle-wide-markup', style='dashed-line-with-hook', tweaks=LilyPondTweakManager(('bound_details__right__padding', ('TAGGED', 2.5, Tag('CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect'))), ('staff_padding', 8)))",
-                                ),
                             ],
                         ),
                     (
@@ -193,11 +183,6 @@ metadata = abjad.OrderedDict(
                                 context='Violin_I_Music_Voice',
                                 prototype='abjad.StartHairpin',
                                 value='--',
-                                ),
-                            abjad.Momento(
-                                context='Violin_I_Music_Voice',
-                                prototype='abjad.StartTextSpan',
-                                value="StartTextSpan(command='\\\\bacaStartTextSpanCircleBow', concat_hspace_left=0.5, left_text='- \\\\baca-text-spanner-left-markup \\\\baca-circle-wide-markup', style='dashed-line-with-hook', tweaks=LilyPondTweakManager(('bound_details__right__padding', ('TAGGED', 2.5, Tag('CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect'))), ('staff_padding', 8)))",
                                 ),
                             ],
                         ),
