@@ -112,6 +112,9 @@ class Operation(object):
                 abjad.f(self)
                 print(f'source measure number: {source_measure_number}')
                 raise
+        if self.include_after is True:
+            assert source_stage.after
+            source_time_signatures.append(source_stage.after)
         assert source_time_signatures, repr(source_time_signatures)
         target_stage_ = abjad.new(target_stage, operation=self)
         target_stage_ = abjad.new(target_stage)
@@ -132,9 +135,6 @@ class Operation(object):
                 target_stage_.suffix = source_time_signatures[:]
             else:
                 target_stage_.suffix.extend(source_time_signatures)
-            if self.include_after is True:
-                after = source_stage.after
-                target_stage_.suffix.append(after)
             target_stage_.postsuffix = target_stage.after
         elif self.verb == 'replace':
             start, stop = self.target_site

@@ -28,11 +28,11 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [553, 569, 584, 600],
+            [554, 570, 585, 601],
             ),
         ('duration', "2'18''"),
-        ('first_measure_number', 553),
-        ('last_measure_number', 605),
+        ('first_measure_number', 554),
+        ('last_measure_number', 606),
         (
             'persistent_indicators',
             abjad.OrderedDict(

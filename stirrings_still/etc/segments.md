@@ -2205,31 +2205,38 @@ SEGMENTS
 
 [J] time series C; rotation -54
 
-    [J.1] (1-2 + 3 + 4-5)
-    (4 measures)
-    larghissimo continues
-    v1, v2, va urtext field continues
-        double-stop field continues
-        appena udibile continues
+    [J.1.1] (1-2)
+    (first 2 of 4 measures)
+    [larghissimo]
+    v1, v2, va urtext field
+        [double-stop field]
+        [appena udibile]
     vc
-        tacet continues
-        <<[C.7 (clocktime composite)] bisects [J.1]>>
-            <<summons past time>>
-            allegro
-            v1 shining beacon of clouded pane
-                harmonic lh
-                pp
-            v2 white clockticks [B.10]
-                damped lh
-                1/2 clt
-                fast clockticks
-                mp
-            va, vc shining beacon of clouded pane
-                harmonic lh
-                pp
-            cut-off
-        <<attacca second half of [J.1]>>
-        larghissimo resumes
+        [tacet]
+    <<[C.7 (clocktime composite)] bisects [J.1]>>
+        <<summons past time>>
+        allegro
+        v1 shining beacon of clouded pane
+            harmonic lh
+            pp
+        v2 white clockticks [B.10]
+            damped lh
+            1/2 clt
+            fast clockticks
+            mp
+        va, vc shining beacon of clouded pane
+            harmonic lh
+            pp
+        cut-off
+    <<attacca second half of [J.1]>>
+    [J.1.1] (1-2)
+    (last 2 of 4 measures)
+    larghissimo
+    v1, v2, va urtext field
+        double-stop field
+        appena udibile
+    vc
+        tacet
     attacca
 
     [J.2] (6-7)
@@ -2237,15 +2244,15 @@ SEGMENTS
     larghissimo-to-andante accelerando begins
     vc joins urtext field
     tutti urtext field
-        double-stop field continues
+        double-stop field
         appena udibile < fff poco scratch begins
     attacca
     
     [J.3] (8-9)
     (2 measures)
     larghissimo-to-andante accelerando continues
-    tutti urtext field continues
-        double-stop field continues
+    tutti urtext field
+        double-stop field
         appena udibile < fff poco scratch continues
     attacca
 
