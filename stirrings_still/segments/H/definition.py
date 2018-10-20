@@ -721,7 +721,11 @@ maker(
     baca.pitch('E2'),
     baca.script_staff_padding(6),
     baca.tuplet_bracket_down(),
-    stirrings_still.glissando_without_ties(),
+    baca.suite(
+        stirrings_still.glissando_interpolation('E2', 'E2'),
+        baca.untie_to(),
+        selector=baca.leaves(),   
+        ),
     stirrings_still.trajectories('A', -1, 0),
     )
 
