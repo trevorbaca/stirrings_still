@@ -2330,16 +2330,16 @@ SEGMENTS
                 tremolo sustained for certain duration at end of figure
                 tremolo expires with termination type taken from inventory
             repeat
-        global (pp) < mp begins
+        pp < mp begins
     attacca
 
     [K.3] (9-11)
     (3 measures)
-    andante continues
-    tutti trajectories-to-flight continue
+    [andante]
+    tutti trajectories-to-flight (continue)
         ibid
         tremolo durations increase
-        global (pp < mp) continues
+        [pp < mp]
         <<[I.6 -> F.2 (clearing)] revealed within [K.3 (development)]>>
             <<summons past time>>
             does not alter time signature structure
@@ -2351,28 +2351,27 @@ SEGMENTS
 
     [K.4] (12-14)
     (3 measures)
-    andante continues
-    tutti trajectories-to-flight continue
+    [andante]
+    tutti trajectories-to-flight (continue)
         ibid
         tremolo durations increase
-        global (pp < mp) continues; attacca
+        [pp < mp]
 
     [K.5] (15-17)
     (3 measures)
-    andante continues
-    tutti trajectories-to-flight continue
+    [andante]
+    tutti trajectories-to-flight (continue)
         ibid
         tremolo durations increase
-        global (pp < mp) completes
-            achieves mp at start of next stage
+        pp < mp culminates at start of next stage
     attacca
 
     [K.6] (18-20 + 21 + 22 + 23)
     (3 measures)
-    andante-to-largo ritardando happens
+    andante-to-largo ritardando
     tutti flight begins
-        tremolo continues
-        mp governs stage
+        [tremolo]
+        [mp]
     surprisingly short breath
         <<[H.13 (scratch gears) prolong surprisingly short breath>> (21)
             <<summons past time>>
