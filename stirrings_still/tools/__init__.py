@@ -6,6 +6,7 @@ from .accelerando import accelerando
 from .bcps import bcps
 from .cello_cell import cello_cell
 from .cello_cell_bcps import cello_cell_bcps
+from .circle_annotation_spanner import circle_annotation_spanner
 from .circles import circles
 from .clockticks import clockticks
 from .clouded_pane import clouded_pane

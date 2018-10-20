@@ -89,7 +89,6 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 5)),
-    baca.hairpin('niente o< mp', selector=baca.rmleaves(3)),
     baca.make_repeat_tied_notes(),
     baca.markup(
         'III',
@@ -101,10 +100,32 @@ maker(
         ),
     baca.text_spanner(
         'rasp (2°) -> flaut. (2°) =|',
-        abjad.tweak(3).staff_padding,
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
+        match=[0, 2, 3],
         pieces=baca.mgroups([3, 3]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v2', (1, 8)),
+    baca.text_spanner(
+        'rasp (2°) -> flaut. (2°) =|',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.mgroups([3, 5 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', (1, 5)),
+    baca.hairpin(
+        'niente o< mp -- !',
+        pieces=baca.mgroups([3, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -113,13 +134,19 @@ maker(
     ('v1', 6),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
-    baca.markup(
-        'golden tone',
-        abjad.tweak(3).staff_padding,
-        ),
+    stirrings_still.circle_annotation_spanner('golden -|', 5.5),
     stirrings_still.circles((1, 8)),
+    )
+
+maker(
+    ('v1', (1, 6)),
+    baca.hairpin(
+        'niente o< mp -- !',
+        pieces=baca.mgroups([3, 3 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -132,18 +159,19 @@ maker(
     ('va', 6),
     baca.circle_bow_spanner(
         'very-wide',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
-    baca.markup(
-        'golden tone',
-        abjad.tweak(3).staff_padding,
-        ),
+    stirrings_still.circle_annotation_spanner('golden -|', 5.5),
     stirrings_still.circles((1, 2)),
     )
 
 maker(
     ('vc', 6),
-    baca.dynamic('p'),
+    baca.hairpin(
+        'p <',
+        bookend=False,
+        selector=baca.leaves().rleak(),
+        ),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
@@ -189,9 +217,11 @@ maker(
 
 maker(
     (['v1', 'va'], (7, 16)), 
-    baca.text_script_staff_padding(1.5),
     baca.text_spanner(
-        '2˝ circles -> 4˝ circles -> 6˝ circles -> 8˝ circles =|',
+        r'\baca-circle-very-tight-markup ->'
+        r' \baca-circle-tight-markup ->'
+        r' \baca-circle-mod-markup ->'
+        r' \baca-circle-wide-markup =|',
         abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -218,14 +248,26 @@ maker(
     )
 
 maker(
+    ('v2', (1, 8)),
+    baca.hairpin(
+        'niente o< mp -- !',
+        pieces=baca.mgroups([3, 5 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
     ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
     baca.text_spanner(
-        'flaut. (2°) -> ord. -> 4˝ circles -> 6˝ circles -> 8˝ circles =|',
+        'flaut. (2°) -> ord. ->'
+        r' \baca-circle-tight-markup ->'
+        r' \baca-circle-mod-markup ->'
+        r' \baca-circle-wide-markup =|',
         abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.mgroups([1, 1, 2, 2, 3]),
+        pieces=baca.mgroups([1, 1, 2, 2, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -273,6 +315,15 @@ maker(
     baca.new(
         baca.pitch('Ab2'),
         match=3,
+        ),
+    )
+
+maker(
+    ('va', (1, 6)),
+    baca.hairpin(
+        'niente o< mp -- !',
+        pieces=baca.mgroups([3, 3 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -334,8 +385,14 @@ maker(
 
 maker(
     ('vc', (7, 32)),
-    baca.dynamic('mp'),
-    baca.finger_pressure_transition(selector=baca.notes()[:2]),
+    baca.finger_pressure_transition(
+        selector=baca.notes()[:2],
+        ),
+    baca.hairpin(
+        'mp -- !',
+        measures=(7, 8),
+        selector=baca.leaves().rleak(),
+        ),
     baca.markup(
         'IV',
         selector=baca.note(0),
@@ -348,8 +405,8 @@ maker(
         ),
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.text_spanner(
-        'flaut. -> non flaut.',
-        abjad.tweak(3).staff_padding,
+        'flaut. -> ord.',
+        abjad.tweak(8).staff_padding,
         selector=baca.notes()[:2],
         ),
     )
@@ -360,10 +417,6 @@ maker(
         'mp < f',
         selector=baca.leaves().rleak(),
         ),
-    baca.markup(
-        'poco overpressure',
-        selector=baca.leaves().rleak()[-1],
-        ),
     )
 
 maker(
@@ -372,16 +425,36 @@ maker(
         'f < ff',
         selector=baca.leaves().rleak(),
         ),
-    baca.markup(
-        'molto overpressure',
-        selector=baca.leaves().rleak()[-1],
+    )
+
+maker(
+    ('vc', (13, 22)),
+    baca.text_spanner(
+        'poco overpressure -> molto overpressure -|',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.mgroups([4, 6 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
-    ('vc', (23, 27)),
+    ('triox', 17),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', (17 + 1, 22)),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', (23, 31)),
     baca.hairpin(
-        'ff > ppp',
+        'ff > ppp -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([5, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -415,13 +488,22 @@ maker(
     )
 
 maker(
-    ('trio', (23, 24)),
-    baca.hairpin('niente o< p', selector=baca.tleaves().rleak()),
+    ('trio', (23, 28)),
+    baca.hairpin(
+        'niente o< p -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([2, 4 + 1]),
+        selector=baca.ltleaves().rleak(),
+        ),
     )
 
 maker(
     ('trio', (30, 31)),
-    baca.dynamic('mp'),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
         match=0,
@@ -448,9 +530,16 @@ maker(
 
 maker(
     (['v1', 'va', 'vc'], 33),
-    baca.dynamic('pp'),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane (beacon) -|', 5.5,
+        ),
     )
 
 maker(
@@ -494,7 +583,7 @@ maker(
         ),
     baca.text_spanner(
         'rasp (2°) -> poco rasp (2°) =|',
-        abjad.tweak(3).staff_padding,
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.mgroups([1, 2]),
