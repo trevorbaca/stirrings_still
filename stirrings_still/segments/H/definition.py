@@ -563,7 +563,12 @@ maker(
 
 maker(
     ('tutti', (36, 37)),
-    baca.hairpin('niente o< mp', selector=baca.rmleaves(1)),
+    baca.hairpin(
+        'niente o< mp -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
     baca.make_repeat_tied_notes(),
     baca.markup(
         'III',
@@ -597,7 +602,11 @@ maker(
 
 maker(
     ('trio', (38, 40)),
-    baca.dynamic('mf'),
+    baca.hairpin(
+        'mf -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
         match=0,
@@ -610,18 +619,23 @@ maker(
         stirrings_still.accelerando((1, 2), (12, 32)),
         match=2,
         ),
-    baca.text_script_staff_padding(5),
-    baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        '“whisk” circles -> mod. scratch circles',
-        abjad.tweak(5.5).staff_padding,
-        selector=baca.leaves()[:3],
+        r'\baca-circle-wide-markup -> \baca-circle-tight-markup =|',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.mgroups([1, 2 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('trio', (42, 45)),
-    baca.dynamic('f'),
+    baca.hairpin(
+        'f -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
         match=0,
@@ -634,18 +648,23 @@ maker(
         stirrings_still.accelerando((1, 2), (12, 32)),
         match=2,
         ),
-    baca.text_script_staff_padding(5),
-    baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        '“whisk” circles -> molto scratch circles',
-        abjad.tweak(5.5).staff_padding,
-        selector=baca.leaves()[:3],
+        r'\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.mgroups([2, 2 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('vc', (38, 46)),
-    baca.dynamic('ppp'),
+    baca.hairpin(
+        'ppp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
     stirrings_still.glissando_interpolation(
         'Gb2', 'E2',
@@ -655,7 +674,15 @@ maker(
 
 maker(
     ('trio', (47, 51)),
-    baca.dynamic('ff'),
+#    baca.dynamic('ff'),
+#    baca.new(
+#        baca.hairpin('ff > mf'),
+#        measures=(50, 51),
+#        ),
+    baca.hairpin(
+        'ff -- ! > mf',
+        pieces=baca.mgroups([3, 2]),
+        ),
     baca.new(
         stirrings_still.pickets(4, 2),
         match=0,
@@ -668,15 +695,19 @@ maker(
         stirrings_still.pickets(4, 0),
         match=2,
         ),
-    baca.new(
-        baca.hairpin('ff > mf'),
-        measures=(50, 51),
-        ),
-    baca.text_spanner_staff_padding(4),
+#    baca.text_spanner(
+#        'molto scratch -> pochiss. scratch',
+#        abjad.tweak(3).staff_padding,
+#        selector=baca.mleaves(-2)[:-3],
+#        ),
     baca.text_spanner(
-        'molto scratch -> pochiss. scratch',
-        abjad.tweak(3).staff_padding,
-        selector=baca.mleaves(-2)[:-3],
+        r'\baca-circle-very-tight-markup =|'
+        r' \baca-circle-very-tight -> \baca-circle-wide-markup =|',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.mgroups([3, 2 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
