@@ -23,13 +23,15 @@ stage_markup = (
     ('[H.9]', 23),
     ('[H.10]', 30),
     ('[C.7]', 33, 'darkgreen'),
-    ('[H.1]', 35),
+    ('[H.1]', 35, 'darkgreen'),
     ('[H.11]', 37),
     ('[H.12]', 41),
     ('[H.13]', 46),
-    ('[H.14]', 50),
-    ('[G.5]', 51, 'darkgreen'),
-    ('[H.14]', 52),
+    ('[H.14.1]', 50),
+    ('[G.5.1]', 51, 'darkgreen'),
+    ('[C.7]', 52, 'darkgreen'),
+    ('[G.5.2]', 53, 'darkgreen'),
+    ('[H.14.2]', 54),
     )
 
 maker = baca.SegmentMaker(
@@ -42,7 +44,7 @@ maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('H'),
-    validate_measure_count=52,
+    validate_measure_count=54,
     )
 
 maker(
@@ -78,7 +80,9 @@ time = (
     (baca.Ritardando(), 46),
     ('largo', 49),
     ('largo piu mosso', 51),
-    ('largo', 52),
+    ('allegro', 52),
+    ('largo piu mosso', 53),
+    ('largo', 54),
     )
 
 stirrings_still.time(maker, time)
@@ -584,7 +588,7 @@ maker(
     )
 
 maker(
-    ('vc', [(46, 50), 52]),
+    ('vc', [(46, 50), 54]),
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
@@ -621,12 +625,7 @@ maker(
     )
 
 maker(
-    ('vc', 52),
-    baca.dynamic('p'),
-    )
-    
-maker(
-    ('trio', 52),
+    ('trio', 54),
     baca.dynamic('mp'),
     baca.markup('pochiss. scratch'),
     baca.new(
@@ -641,6 +640,11 @@ maker(
         stirrings_still.pickets(4, [1, 1]),
         match=2,
         ),
+    )
+
+maker(
+    ('vc', 54),
+    baca.dynamic('p'),
     )
 
 # vertical
