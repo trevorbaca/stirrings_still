@@ -781,7 +781,7 @@ SEGMENTS
     [C.1] (1-4 + [5] + fermata)
     (4 measures)
     adagio
-    tutti maximally tight talon-crunch circles begin
+    tutti tight poss. talon-crunch circles begin
         damped lh continues
         fixed pitch for each player
         desynchronization begins
@@ -810,7 +810,7 @@ SEGMENTS
     [C.2] (7-10 + fermata)
     (4 measures)
     adagio resumes
-    tutti maximally tight talon-crunch circles repeat
+    tutti tight poss. talon-crunch circles repeat
         damped lh resumes after suffix
         v2 only
             slow up-glissando
@@ -823,7 +823,7 @@ SEGMENTS
     adagio più mosso begins
     tutti out-spiralling begins
         damped lh continues
-        maximally tight crunch circles spiral outwards to become wider
+        tight poss. crunch circles spiral outwards to become wider
             1-2" stop width
             each orbital attempt initially followed by rest
             desynchronization continues
@@ -835,7 +835,7 @@ SEGMENTS
     adagio più mosso continues
     tutti out-spiralling continues
         damped lh continues
-        maximally tight crunch circles spiral outwards to become wider
+        tight poss. crunch circles spiral outwards to become wider
             2-4" stop width
             each orbital attempt initially followed by rest
             desynchronization continues
@@ -847,7 +847,7 @@ SEGMENTS
     adagio più mosso continues
     tutti out-spiralling continues
         damped lh continues
-        maximally tight crunch circles spiral outwards to become wider
+        tight poss. crunch circles spiral outwards to become wider
             4-8" stop width
             post-attempt rests begin to disappear
             desynchronization continues
@@ -857,10 +857,10 @@ SEGMENTS
     [C.6] (24-27)
     (4 measures)
     adagio più mosso continues
-    tutti out-spiralling achieves maximally wide circles
-    maximally wide circles continue to end of stage
+    tutti out-spiralling achieves wide poss. circles
+    wide poss. circles continue to end of stage
         damped lh continues continues to end of stage
-        maximally wide continues to end of stage
+        wide poss. continues to end of stage
         post-attempt rests disappear to reveal continuous sound
             continuous sound continues to end of stage
         desynchronization continue to end of stage
@@ -888,7 +888,7 @@ SEGMENTS
     adagio-meno-mosso-to-allegro accelerando governs stage
     tutti circles resume (as homorhythm white circles)
         damped lh resumes
-        maximally wide circles resume
+        wide poss. circles resume
         synchronization begins
             one circle at a time followed by rest
             rhythm 3 2r 3 2r 3 2r 3 1r (!) 3 2r ...
@@ -910,7 +910,7 @@ SEGMENTS
     adagio-più-mosso-to-presto accelerando governs stage
     tutti circles continue (as offset-homorhythm white circles)
         damped lh resumes after prolongation
-        maximally wide circles resume
+        wide poss. circles resume
         synchronization resumes
             shared rhythmic background grid
         offset synchronization begins
@@ -926,7 +926,7 @@ SEGMENTS
         adagio più mosso to presto governs stage 11 (44-47)
         adagio meno mosso to allegro governs stage 12 (48-51)
         adagio più mosso to presto governs stage 13 (52-55)
-        tutti maximally wide circles continue
+        tutti wide poss. circles continue
         offset synchronization continues through all four stages
         jagged stairstep process in each player independently
             lh 3-finger damp subito becomes lh 2-finger harmonic
@@ -944,7 +944,7 @@ SEGMENTS
     [C.14] (56-59 + [60-61])
     (4 measures)
     adagio governs stage
-    tutti maximally wide circles continue
+    tutti wide poss. circles continue
         continuous sound in all parts (= no rest after any circle)
         gradual harmonic-to-half-harmonic-to-stopped transition independently
         desynchronization governs stage
@@ -963,7 +963,7 @@ SEGMENTS
     [C.15] (62-63)
     (2 measures)
     largo-to-allegro accelerando governs first half of stage
-    tutti maximally wide homorhythm circles resume after suffix
+    tutti wide poss. homorhythm circles resume after suffix
         strict synchronization returns
             rhythmicized again with rest after every circle
         jeux des terminaisons begins
@@ -973,7 +973,7 @@ SEGMENTS
     [C.16] (64-65)
     (2 measures)
     allegro-to-largo ritardando governs first half of stage
-    tutti maximally wide homorhythm circles continue
+    tutti wide poss. homorhythm circles continue
         synchronization continues
             rhythmicized with rest after every circle
         jeux des terminaisons continues
@@ -983,7 +983,7 @@ SEGMENTS
     [C.17] (66-67)
     (2 measures)
     largo-to-allegro accelerando governs first half of stage
-    tutti maximally wide homorhythm circles continue
+    tutti wide poss. homorhythm circles continue
         synchronization continues
             rhythmicized with rest after every circle
         jeux des terminaisons continues
@@ -993,7 +993,7 @@ SEGMENTS
     [C.18] (68-69 + fermata)
     (2 measures)
     allegro-to-largo ritardando governs first half of stage
-    tutti maximally wide homorhythm circles continue
+    tutti wide poss. homorhythm circles continue
         synchronization continues to end of stage
             rhythmicized with rest after every circle
         jeux des terminaisons continues to end of stage
@@ -1354,7 +1354,7 @@ SEGMENTS
     <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>> (97-98)
         <<summon past time>>
         adagio
-        tutti maximally tight talon-crunch circles repeat
+        tutti tight poss. talon-crunch circles repeat
             damped lh
             v2-only slow up-glissando
             desynchronization
@@ -1701,7 +1701,7 @@ SEGMENTS
     <<[C.2 (crunch + up-glissando) 3-4/4] prolong [F.2] fermata>> (12-13)
         <<summon past time>>
         adagio
-        tutti maximally tight talon-crunch circles
+        tutti tight poss. talon-crunch circles
             damped lh
             v2 only: slow up-glissando
             desynchronization
@@ -2291,34 +2291,40 @@ SEGMENTS
 
 [K] time series B; rotation -24
 
-    [K.1] (1-2 + 3-4 + 5)
-    (3 measures)
-    andante continues
-    tutti trajectories-to-flight transition begins
-        1/2 clt continues
-        trajectories continue
-        pp continues
-        <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception)]>> (3-4)
-            <<summons past time>>
-            adagio
-            tutti maximally wide circles
-                continuous sound in all parts (= no rest after any circle)
-                gradual harmonic-to-half-harmonic-to-stopped independently
-                desynchronization
-                f
-        <<attacca remaining measure of [K.1]>> (5)
+    [K.1] (1-2)
+    (first 2 of 3 measures)
+    [andante]
+    tutti trajectories-to-flight transition (begins)
+        [1/2 clt]
+        [trajectories]
+        [pp]
+    <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception)]>> (3-4)
+        <<summons past time>>
+        adagio
+        tutti wide poss. circles
+            gradual harmonic-to-half-harmonic-to-stopped independently
+            desynchronization
+            f
+    <<attacca remaining measure of [K.1]>> (5)
+    [K.1] (5)
+    (last of 3 measures)
+    andante
+    tutti trajectories-to-flight transition
+        1/2 clt
+        trajectories
+        pp
     attacca
 
     [K.2] (6-8)
     (3 measures)
-    andante continues
-    tutti trajectories-to-flight transition continues
+    [andante]
+    tutti trajectories-to-flight transition (continues)
         independently in each part
             1/2 clt trajectory projected onto local ritardando
-                1/2 clt governs figure
+                1/2 clt
                 endpoint of ritardando achieved
             local accelerando all the way up to tremolo-of-flight
-                1/2 clt governs strokes
+                1/2 clt
                 tremolo termination hair only
                 crescendo governs figure
                 tremolo sustained for certain duration at end of figure

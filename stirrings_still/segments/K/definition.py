@@ -9,17 +9,17 @@ import stirrings_still
 ###############################################################################
 
 stage_markup = (
-    ('[K.1]', 1),
+    ('[K.1.1-2]', 1),
     ('[C.14]', 3, 'darkgreen'),
-    ('[K.1]', 5),
+    ('[K.1.3]', 5),
     ('[K.2]', 6),
     ('[K.3]', 9),
     ('[K.4]', 12),
     ('[K.5]', 15),
     ('[K.6]', 18),
-    ('[H.13]', 21, 'darkgreen'),
+    ('[H.13.1]', 21, 'darkgreen'),
     ('[I.6]', 22, 'darkgreen'),
-    ('[H.13]', 23, 'darkgreen'),
+    ('[H.13.2]', 23, 'darkgreen'),
     ('[K.7]', 24),
     ('[K.8]', 32),
     ('[K.9]', 38),
@@ -90,7 +90,7 @@ maker(
             abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
-            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
+            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||',
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
@@ -290,7 +290,7 @@ maker(
             abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
-            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
+            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||',
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
@@ -489,7 +489,7 @@ maker(
             abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
-            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
+            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||',
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
@@ -501,7 +501,7 @@ maker(
     )
 
 maker(
-    ('va', (6, 11)),
+    ('va', (5, 11)),
     baca.dynamic(
         '"mp"',
         abjad.tweak((0, 0)).X_extent,
@@ -680,7 +680,6 @@ maker(
 
 maker(
     'vax',
-    baca.tacet(measures=5),
     baca.tacet(measures=22),
     )
 
@@ -709,7 +708,7 @@ maker(
             abjad.tweak(8).staff_padding,
             ),
         baca.text_spanner(
-            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. =|',
+            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||',
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=True,
             bookend=False,
@@ -831,13 +830,14 @@ maker(
         ),
     )
 
-# vertical expressions
+# vertical
 
 maker(
     ('tutti', (1, 2)),
-    baca.dynamic(
-        'pp',
-        abjad.tweak(abjad.Left).self_alignment_X,
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.glissando_without_ties(),
@@ -845,9 +845,10 @@ maker(
 
 maker(
     ('tutti', (3, 4)),
-    baca.dynamic(
-        '"f"',
-        abjad.tweak(abjad.Left).self_alignment_X,
+    baca.hairpin(
+        '"f" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     )
 
