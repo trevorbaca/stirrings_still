@@ -2,6 +2,15 @@
 
 %%% DIRECTIVES %%%
 
+stirrings-still-repeat-three = \markup
+    \with-dimensions-from \null
+    \override #'(box-padding . 0.5)
+    \box
+    \fontsize #6
+    \bold
+    \sans
+    x3
+
 stirrings-still-tailpiece-poco-flicker = \markup
     \override #'(box-padding . 0.5)
     \box

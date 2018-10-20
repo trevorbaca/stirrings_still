@@ -37,6 +37,28 @@ maker(
         'J',
         abjad.tweak((0, 10)).extra_offset,
         ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-repeat-three',
+            literal=True,
+            ),
+        abjad.tweak((0, 10)).extra_offset,
+        measures=11,
+        selector=baca.skip(0),
+        ),
+    baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(11, 13),
+        ),
     )
 
 time = (
@@ -105,8 +127,12 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va'], (5, 11)),
+    ('trio', (5, 11)),
     stirrings_still.urtext_field(),
+    )
+
+maker(
+    ('trio', (5, 13)),
     stirrings_still.urtext_annotation_spanner('urtext (ds field) -|', 5.5),
     )
 
@@ -143,6 +169,86 @@ maker(
         'appena-udibile -- ! < fff-poco-scratch',
         pieces=baca.mgroups([2, 5]),
         ),
+    )
+
+maker(
+    ('trio', (12, 17)),
+    baca.hairpin(
+        'fff > pp -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([2, 4 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        selector=baca.leaves(),
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -6,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -1, -2),
+        match=0,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -6,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -2, -1),
+        match=1,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -5,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -3, 0),
+        match=2,
+        ),
+    )
+
+maker(
+    ('vc', (12, 13)),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.hairpin(
+        'fff > pp',
+        ),
+    stirrings_still.accelerando((1, 4), (3, 32)),
+    )
+
+maker(
+    ('tutti', 13),
+    baca.breathe(),
+    )
+
+maker(
+    ('vcx', 14),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', (15, 17)),
+    baca.tacet(),
     )
 
 # vertical
