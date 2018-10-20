@@ -2,7 +2,13 @@ import abjad
 import baca
 
 
-def circle_annotation_spanner(string, staff_padding, measures=None):
+def circle_annotation_spanner(
+    string,
+    staff_padding,
+    *,
+    measures=None,
+    selector='baca.leaves().rleak()',
+    ):
     """
     Makes circle annotation spanner.
     """
@@ -11,5 +17,6 @@ def circle_annotation_spanner(string, staff_padding, measures=None):
         abjad.tweak('darkyellow').color,
         abjad.tweak(staff_padding).staff_padding,
         measures=measures,
+        selector=selector,
         tag='MATERIAL:CIRCLE',
         )

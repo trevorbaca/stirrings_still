@@ -2107,9 +2107,9 @@ SEGMENTS
 
     [I.1] (1-2)
     (2 measures)
-    largo continues
+    [largo]
     v1, v2, va synchronous golden gears
-        golden tone continues
+        golden tone
         circles locked in binary rate ratio 1:2:4
         mp continues
     vc 1/2 clt solo trajectory
