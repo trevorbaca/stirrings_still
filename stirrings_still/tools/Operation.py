@@ -40,6 +40,7 @@ class Operation(object):
     ### CLASS VARIABLES ###
 
     __slots__ = (
+        '_include_after',
         '_source_measures',
         '_source_stage',
         '_target_stage',
@@ -65,6 +66,8 @@ class Operation(object):
         verb=None,
         target_stage=None,
         target_site=None,
+        *,
+        include_after=None,
         ):
         if source_stage is not None:
             assert isinstance(source_stage, StageToken)
@@ -81,6 +84,9 @@ class Operation(object):
         if target_site is not None or verb == 'bisect':
             assert isinstance(target_site, tuple)
         self._target_site = target_site
+        if include_after is not None:
+            include_after = bool(include_after)
+        self._include_after = include_after
 
     ### SPECIAL METHODS ###
 
@@ -126,6 +132,9 @@ class Operation(object):
                 target_stage_.suffix = source_time_signatures[:]
             else:
                 target_stage_.suffix.extend(source_time_signatures)
+            if self.include_after is True:
+                after = source_stage.after
+                target_stage_.suffix.append(after)
             target_stage_.postsuffix = target_stage.after
         elif self.verb == 'replace':
             start, stop = self.target_site
@@ -163,6 +172,13 @@ class Operation(object):
         return abjad.FormatSpecification(client=self)
 
     ### PUBLIC PROPERTIES ###
+
+    @property
+    def include_after(self):
+        """
+        Is true when operation includes source measures after-time-signature.
+        """
+        return self._include_after
 
     @property
     def source_measures(self):

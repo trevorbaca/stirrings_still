@@ -569,6 +569,7 @@ def operations():
                         number=10,
                         description='pause',
                         ),
+                    include_after=True,
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
@@ -957,6 +958,7 @@ def operations():
             StageToken('C', 7, 'iteratum', 1), 1,
             'prolong',
             StageToken('H', 10, 'pause'),
+            include_after=True,
             ),
         Operation(
             StageToken('H', 1, 'inception', 4), (1, 2),
