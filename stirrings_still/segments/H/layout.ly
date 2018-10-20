@@ -1,5 +1,5 @@
-% time_signatures = ['8/8', '8/8', '6/8', '7/8', '7/8', '3/4', '6/8', '4/8', '5/8', '6/8', '7/8', '7/8', '5/8', '4/8', '6/8', '8/8', '8/8', '4/8', '5/8', '8/8', '6/8', '8/8', '7/8', '6/8', '7/8', '8/8', '8/8', '6/8', '1/4', '7/8', '7/8', '1/4', '3/4', '1/4', '8/8', '8/8', '6/8', '5/8', '4/8', '1/4', '6/8', '7/8', '7/8', '4/8', '1/4', '5/8', '6/8', '8/8', '8/8', '5/8', '10/16', '3/4', '12/16', '4/8']
-% measure_count = 54
+% time_signatures = ['8/8', '8/8', '6/8', '7/8', '7/8', '3/4', '6/8', '4/8', '5/8', '6/8', '7/8', '7/8', '5/8', '4/8', '6/8', '8/8', '8/8', '4/8', '5/8', '8/8', '6/8', '8/8', '7/8', '6/8', '7/8', '8/8', '8/8', '6/8', '1/4', '7/8', '7/8', '1/4', '3/4', '5/12', '1/4', '8/8', '8/8', '6/8', '5/8', '4/8', '1/4', '6/8', '7/8', '7/8', '4/8', '1/4', '5/8', '6/8', '8/8', '8/8', '5/8', '10/16', '3/4', '12/16', '4/8']
+% measure_count = 55
 
 
 
@@ -149,38 +149,62 @@
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 487]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1                                                                       %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/16]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 488]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1/2                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/16]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 489]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 5/8                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/16]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 490]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1                                                                       %! _make_global_skips(1)
+        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/16]"                                         %! SPACING_MARKUP
+        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
+
+            % [Page_Layout measure 491]                                                  %! _comment_measure_numbers
+            \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
+            s1 * 3/4                                                                     %! _make_global_skips(1)
+        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/16]"                                         %! SPACING_MARKUP
+        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
+
+            % [Page_Layout measure 492]                                                  %! _comment_measure_numbers
+            \baca-new-spacing-section #1 #16                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
+            s1 * 1                                                                       %! _make_global_skips(1)
+        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/16]"                                         %! SPACING_MARKUP
+        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
+
+            % [Page_Layout measure 493]                                                  %! _comment_measure_numbers
+            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
+            s1 * 7/8                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
-            % [Page_Layout measure 491]                                                  %! _comment_measure_numbers
+            % [Page_Layout measure 494]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 3/4                                                                     %! _make_global_skips(1)
@@ -188,15 +212,7 @@
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
-            % [Page_Layout measure 492]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
-            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 1                                                                       %! _make_global_skips(1)
-        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
-        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
-
-            % [Page_Layout measure 493]                                                  %! _comment_measure_numbers
+            % [Page_Layout measure 495]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #35 #576                                           %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 7/8                                                                     %! _make_global_skips(1)
@@ -204,27 +220,11 @@
         %@% - \baca-start-spm-left-only "[[1/24 * 35/24]]"                               %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
-            % [Page_Layout measure 494]                                                  %! _comment_measure_numbers
+            % [Page_Layout measure 496]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             \baca-lbsd #20 #'(20 26)                                                     %! BREAK:IndicatorCommand
             \pageBreak                                                                   %! BREAK:IndicatorCommand
-            s1 * 3/4                                                                     %! _make_global_skips(1)
-        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
-        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
-
-            % [Page_Layout measure 495]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
-            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 7/8                                                                     %! _make_global_skips(1)
-        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
-        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
-
-            % [Page_Layout measure 496]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
-            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1                                                                       %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
@@ -287,19 +287,19 @@
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 504]                                                  %! _comment_measure_numbers
+            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
+            s1 * 5/12                                                                    %! _make_global_skips(1)
+        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
+        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
+
+            % [Page_Layout measure 505]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #4                                              %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1/4                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/4]"                                          %! SPACING_MARKUP
-        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
-
-            % [Page_Layout measure 505]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
-            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 1                                                                       %! _make_global_skips(1)
-        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 506]                                                  %! _comment_measure_numbers
@@ -311,19 +311,17 @@
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 507]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #35 #576                                           %! HorizontalSpacingSpecifier(1):SPACING
+            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 3/4                                                                     %! _make_global_skips(1)
+            s1 * 1                                                                       %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[[1/24 * 35/24]]"                               %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 508]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #150 #'(20 26)                                                    %! BREAK:IndicatorCommand
-            \break                                                                       %! BREAK:IndicatorCommand
-            s1 * 5/8                                                                     %! _make_global_skips(1)
+            s1 * 3/4                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
@@ -331,31 +329,33 @@
             % [Page_Layout measure 509]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 1/2                                                                     %! _make_global_skips(1)
+            s1 * 5/8                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 510]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #4                                              %! HorizontalSpacingSpecifier(1):SPACING
+            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 1/4                                                                     %! _make_global_skips(1)
+            s1 * 1/2                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/4]"                                          %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 511]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \baca-new-spacing-section #35 #96                                            %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 3/4                                                                     %! _make_global_skips(1)
+            s1 * 1/4                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[[1/4 * 35/24]]"                                %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 512]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 7/8                                                                     %! _make_global_skips(1)
+            \baca-lbsd #150 #'(20 26)                                                    %! BREAK:IndicatorCommand
+            \break                                                                       %! BREAK:IndicatorCommand
+            s1 * 3/4                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
@@ -371,12 +371,20 @@
             % [Page_Layout measure 514]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 1/2                                                                     %! _make_global_skips(1)
+            s1 * 7/8                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
             % [Page_Layout measure 515]                                                  %! _comment_measure_numbers
+            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
+            s1 * 1/2                                                                     %! _make_global_skips(1)
+        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
+        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
+
+            % [Page_Layout measure 516]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #4                                              %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1/4                                                                     %! _make_global_skips(1)
@@ -384,7 +392,7 @@
         %@% - \baca-start-spm-left-only "[1/4]"                                          %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
-            % [Page_Layout measure 516]                                                  %! _comment_measure_numbers
+            % [Page_Layout measure 517]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 5/8                                                                     %! _make_global_skips(1)
@@ -392,18 +400,10 @@
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
-            % [Page_Layout measure 517]                                                  %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
-            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 3/4                                                                     %! _make_global_skips(1)
-        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
-        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
-        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
-
             % [Page_Layout measure 518]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 1                                                                       %! _make_global_skips(1)
+            s1 * 3/4                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
@@ -419,7 +419,7 @@
             % [Page_Layout measure 520]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 5/8                                                                     %! _make_global_skips(1)
+            s1 * 1                                                                       %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
@@ -435,7 +435,7 @@
             % [Page_Layout measure 522]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
-            s1 * 3/4                                                                     %! _make_global_skips(1)
+            s1 * 5/8                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
@@ -451,12 +451,20 @@
             % [Page_Layout measure 524]                                                  %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! BreakMeasureMap(2):BREAK
+            s1 * 3/4                                                                     %! _make_global_skips(1)
+        %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
+        %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
+
+            % [Page_Layout measure 525]                                                  %! _comment_measure_numbers
+            \baca-new-spacing-section #1 #24                                             %! HorizontalSpacingSpecifier(1):SPACING
+            \noBreak                                                                     %! BreakMeasureMap(2):BREAK
             s1 * 1/2                                                                     %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                                         %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                                         %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                                        %! SPACING_MARKUP
 
-            % [Page_Layout measure 525]                                                  %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+            % [Page_Layout measure 526]                                                  %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
             \baca-new-spacing-section #1 #4                                              %! PHANTOM:_style_phantom_measures(1):HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                                     %! PHANTOM:_style_phantom_measures(1):BreakMeasureMap(2):BREAK
             \baca-time-signature-transparent                                             %! PHANTOM:_style_phantom_measures(2)

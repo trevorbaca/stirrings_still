@@ -23,15 +23,15 @@ stage_markup = (
     ('[H.9]', 23),
     ('[H.10]', 30),
     ('[C.7]', 33, 'darkgreen'),
-    ('[H.1]', 35, 'darkgreen'),
-    ('[H.11]', 37),
-    ('[H.12]', 41),
-    ('[H.13]', 46),
-    ('[H.14.1]', 50),
-    ('[G.5.1]', 51, 'darkgreen'),
-    ('[C.7]', 52, 'darkgreen'),
-    ('[G.5.2]', 53, 'darkgreen'),
-    ('[H.14.2]', 54),
+    ('[H.1]', 36, 'darkgreen'),
+    ('[H.11]', 38),
+    ('[H.12]', 42),
+    ('[H.13]', 47),
+    ('[H.14.1]', 51),
+    ('[G.5.1]', 52, 'darkgreen'),
+    ('[C.7]', 53, 'darkgreen'),
+    ('[G.5.2]', 54, 'darkgreen'),
+    ('[H.14.2]', 55),
     )
 
 maker = baca.SegmentMaker(
@@ -44,7 +44,7 @@ maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('H'),
-    validate_measure_count=54,
+    validate_measure_count=55,
     )
 
 maker(
@@ -71,18 +71,18 @@ time = (
     ('allegro', 23),
     ('short', 29),
     ('short', 32),
-    ('short', 34),
-    ('largo', 35),
-    ('allegro', 37),
-    ('short', 40),
-    ('short', 45),
-    ('allegro', 46),
-    (baca.Ritardando(), 46),
-    ('largo', 49),
-    ('largo piu mosso', 51),
-    ('allegro', 52),
-    ('largo piu mosso', 53),
-    ('largo', 54),
+    ('short', 35),
+    ('largo', 36),
+    ('allegro', 38),
+    ('short', 41),
+    ('short', 46),
+    ('allegro', 47),
+    (baca.Ritardando(), 47),
+    ('largo', 50),
+    ('largo piu mosso', 52),
+    ('allegro', 53),
+    ('largo piu mosso', 54),
+    ('largo', 55),
     )
 
 stirrings_still.time(maker, time)
@@ -529,7 +529,7 @@ maker(
     )
 
 maker(
-    (['v1', 'va', 'vc'], 33),
+    (['v1', 'va', 'vc'], (33, 34)),
     baca.hairpin(
         'pp -- !',
         abjad.tweak(True).to_barline,
@@ -543,11 +543,15 @@ maker(
     )
 
 maker(
-    ('v2', 33),
+    ('v2', (33, 34)),
     baca.alternate_bow_strokes(),
-    baca.dynamic('mp', redundant=True),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
@@ -558,7 +562,7 @@ maker(
     )
 
 maker(
-    ('tutti', (35, 36)),
+    ('tutti', (36, 37)),
     baca.hairpin('niente o< mp', selector=baca.rmleaves(1)),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -592,7 +596,7 @@ maker(
     )
 
 maker(
-    ('trio', (37, 39)),
+    ('trio', (38, 40)),
     baca.dynamic('mf'),
     baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
@@ -616,7 +620,7 @@ maker(
     )
 
 maker(
-    ('trio', (41, 44)),
+    ('trio', (42, 45)),
     baca.dynamic('f'),
     baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
@@ -640,7 +644,7 @@ maker(
     )
 
 maker(
-    ('vc', (37, 45)),
+    ('vc', (38, 46)),
     baca.dynamic('ppp'),
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
     stirrings_still.glissando_interpolation(
@@ -650,7 +654,7 @@ maker(
     )
 
 maker(
-    ('trio', (46, 50)),
+    ('trio', (47, 51)),
     baca.dynamic('ff'),
     baca.new(
         stirrings_still.pickets(4, 2),
@@ -666,7 +670,7 @@ maker(
         ),
     baca.new(
         baca.hairpin('ff > mf'),
-        measures=(49, 50),
+        measures=(50, 51),
         ),
     baca.text_spanner_staff_padding(4),
     baca.text_spanner(
@@ -677,7 +681,7 @@ maker(
     )
 
 maker(
-    ('vc', [(46, 50), 54]),
+    ('vc', [(47, 51), 55]),
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
@@ -696,7 +700,7 @@ maker(
     )
 
 maker(
-    ('vc', (46, 49)),
+    ('vc', (47, 50)),
     baca.hairpin(
         'ppp < p',
         selector=baca.leaves().rleak(),
@@ -704,7 +708,7 @@ maker(
     )
 
 maker(
-    ('vc', 51),
+    ('vc', 52),
     baca.hairpin(
         'niente o< f >o niente',
         pieces=baca.leaves().partition_by_counts([1, 1, 1]),
@@ -714,7 +718,7 @@ maker(
     )
 
 maker(
-    ('trio', 54),
+    ('trio', 55),
     baca.dynamic('mp'),
     baca.markup('pochiss. scratch'),
     baca.new(
@@ -732,7 +736,7 @@ maker(
     )
 
 maker(
-    ('vc', 54),
+    ('vc', 55),
     baca.dynamic('p'),
     )
 
