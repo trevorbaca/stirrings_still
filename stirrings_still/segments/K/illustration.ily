@@ -6129,8 +6129,8 @@ K_Cello_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak self-alignment-X #left                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \tweak self-alignment-X #left                                        %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \pp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
         - \tweak staff-padding #7                                              %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)

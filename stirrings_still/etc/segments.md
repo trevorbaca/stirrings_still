@@ -2213,7 +2213,7 @@ SEGMENTS
         [appena udibile]
     vc
         [tacet]
-    <<[C.7 (clocktime composite)] bisects [J.1]>>
+    <<[C.7 (clocktime composite)] bisects [J.1]>> (3-4)
         <<summons past time>>
         allegro
         v1 shining beacon of clouded pane
@@ -2229,7 +2229,7 @@ SEGMENTS
             pp
         cut-off
     <<attacca second half of [J.1]>>
-    [J.1.1] (1-2)
+    [J.1.1] (5-6)
     (last 2 of 4 measures)
     larghissimo
     v1, v2, va urtext field
@@ -2239,7 +2239,7 @@ SEGMENTS
         tacet
     attacca
 
-    [J.2] (6-7)
+    [J.2] (7-8)
     (2 measures)
     larghissimo-to-andante accelerando begins
     vc joins urtext field
@@ -2248,7 +2248,7 @@ SEGMENTS
         appena udibile < fff poco scratch begins
     attacca
     
-    [J.3] (8-9)
+    [J.3] (9-10)
     (2 measures)
     larghissimo-to-andante accelerando continues
     tutti urtext field
@@ -2258,40 +2258,35 @@ SEGMENTS
 
     ||: J.4-5 :|| x 3
 
-        [J.4] (10)
+        [J.4] (11)
         (1 measure)
-        andante governs stage
+        andante
         tutti urtext field completes
-            double-stop field continues
+            [double-stop field]
             fff poco scratch governs stage
         attacca
 
-        [J.5] (11-12)
+        [J.5] (12-13)
         (2 measures)
-        andante continues
-        v1, v2, va 1/2 clt trajectories begin and govern stage
-            1/2 clt begins and governs stage
-            pronounced local accelerandi govern stage independently
-            fff > pp governs stage
-        vc circles begin
-            pronounced local accelerando begins and governs stage
+        [andante]
+        v1, v2, va 1/2 clt trajectories
+            1/2 clt
+            fff > pp governs
+        vc circles
+            pronounced local accelerando
             fff > pp governs stage
         surprisingly short breath
         [[third time no breath]]
 
-    [J.6] (13-16)
+    [J.6] (14-17)
     (4 measures)
-    andante continues
-    v1, 2, va 1/2 clt trajectories continue
-        1/2 clt continues
-        pitch ascents govern stage
-            achieve higher pitch level at start of next stage
-        local accelerandi complete
-            achieve stable rhythm at start of stage
-        pp continues
-    vc circles continue
-        pronounced local accelerando continues
-        pp >o governs stage
+    [andante]
+    v1, 2, va 1/2 clt trajectories (continue)
+        [1/2 clt]
+        pitch ascents: achieve higher pitch level at start of next stage
+        [pp]
+    vc
+        tacet
     attacca
 
 [K] time series B; rotation -24
