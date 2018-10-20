@@ -14,9 +14,9 @@ stage_markup = (
     ('[J.1]', 5, 'darkgreen'),
     ('[G.3]', 7),
     ('[G.4]', 9),
-    ('[G.5]', 11),
+    ('[G.5.1]', 11),
     ('[C.7]', 12, 'darkgreen'),
-    ('[G.5]', 13),
+    ('[G.5.2]', 13),
     ('[G.6]', 15),
     ('[D.11]', 18, 'darkgreen'),
     )
@@ -63,12 +63,8 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    ('trio', 1),
-    baca.dynamic('mp'),
-    )
-
-maker(
     ('v1', [1, 3, 7, 9, 11, 13]),
+    baca.dynamic('mp'),
     baca.scp_spanner(
         'T =|',
         abjad.tweak(8).staff_padding,
@@ -78,6 +74,7 @@ maker(
 
 maker(
     ('v2', [1, 3, 7, 9, 11, 13]),
+    baca.dynamic('mp'),
     baca.scp_spanner(
         'T =|',
         abjad.tweak(8).staff_padding,
@@ -87,6 +84,7 @@ maker(
 
 maker(
     ('va', [1, 3, 7, 9, 11, 13]),
+    baca.dynamic('mp'),
     baca.scp_spanner(
         'T =|',
         abjad.tweak(8).staff_padding,

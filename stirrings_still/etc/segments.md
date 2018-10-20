@@ -2002,9 +2002,9 @@ SEGMENTS
         ff molto overpressure > ppp governs stage
     short fermata [vc continues through fermata] (29)
 
-    [H.10] (30-31 + short + 33 + short)
+    [H.10] (30-31).
     (2 measures)
-    allegro continues
+    [allegro]
     v1, v2, va interlocking clouded pane whisk gears repeat and darken
         noise injection (= slow bow) begins
         polyrhythmic desynchronization continues
@@ -2044,7 +2044,7 @@ SEGMENTS
         ppp continues
     short fermata [vc continues through fermata] (40)
 
-    [H.12] (41-44 + short)
+    [H.12] (41-44)
     (4 measures)
     allegro continues
     v1, v2, va interlocking clouded pane whisk gears repeat and darken
@@ -2072,9 +2072,9 @@ SEGMENTS
         ppp < p begins
     attacca
 
-    [H.14] (50 + 51 + 52)
-    (2 measures)
-    largo continues
+    [H.14] (50)
+    (first of 2 measures)
+    [largo]
     v1, v2, va interlocking gears transition from scratch to golden tone
         scratch-to-tone transition governs stage
         polyrhythm-to-1:2:4 rhythmic interpolation governs stage
@@ -2090,6 +2090,17 @@ SEGMENTS
             single declamation
         <<attacca second half of [H.14]>>
         <<largo resumes>>
+    [H.14] (52)
+    (second of 2 measures)
+    largo
+    v1, v2, va interlocking gears transition from scratch to golden tone
+        scratch-to-tone transition governs stage
+        polyrhythm-to-1:2:4 rhythmic interpolation governs stage
+            achieves 1:2:4 rate ratio at start of next stage
+    vc 1/2 clt trajectory pedal continues
+        1/2 clt continues (not yet audible)
+        (ppp < p) completes
+            achieves p at start of next stage
     attacca
 
 [I] time series A; rotation -28

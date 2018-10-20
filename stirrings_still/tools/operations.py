@@ -14,7 +14,7 @@ def operations():
 
         >>> operations = stirrings_still.operations()
         >>> len(operations)
-        47
+        48
 
         >>> abjad.f(operations)
         abjad.TypedList(
@@ -557,8 +557,8 @@ def operations():
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
-                        letter='G',
-                        number=5,
+                        letter='C',
+                        number=7,
                         description='iteratum',
                         length=1,
                         ),
@@ -590,9 +590,9 @@ def operations():
                         letter='G',
                         number=5,
                         description='iteratum',
-                        length=1,
+                        length=2,
                         ),
-                    source_measures=1,
+                    source_measures=(1, 2),
                     verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='H',
@@ -601,6 +601,23 @@ def operations():
                         length=2,
                         ),
                     target_site=(1, 2),
+                    ),
+                stirrings_still.Operation(
+                    source_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=7,
+                        description='iteratum',
+                        length=1,
+                        ),
+                    source_measures=1,
+                    verb='bisect',
+                    target_stage=stirrings_still.StageToken(
+                        letter='H',
+                        number=14,
+                        description='clearing',
+                        length=4,
+                        ),
+                    target_site=(2, 3),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
@@ -937,7 +954,7 @@ def operations():
             StageToken('H', 2, 'pause'),
             ),
         Operation(
-            StageToken('G', 5, 'iteratum', 1), 1,
+            StageToken('C', 7, 'iteratum', 1), 1,
             'prolong',
             StageToken('H', 10, 'pause'),
             ),
@@ -947,9 +964,14 @@ def operations():
             StageToken('H', 11, 'iteratum'),
             ),
         Operation(
-            StageToken('G', 5, 'iteratum', 1), 1,
+            StageToken('G', 5, 'iteratum', 2), (1, 2),
             'bisect',
             StageToken('H', 14, 'clearing', 2), (1, 2),
+            ),
+        Operation(
+            StageToken('C', 7, 'iteratum', 1), 1,
+            'bisect',
+            StageToken('H', 14, 'clearing', 4), (2, 3),
             ),
         Operation(
             StageToken('C', 7, 'isolatum', 1), 1,

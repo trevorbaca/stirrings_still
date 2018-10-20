@@ -2341,14 +2341,14 @@ def second_order_stages(segment):
                             ],
                         after='short',
                         suffix=[
-                            abjad.TimeSignature((10, 16)),
+                            abjad.TimeSignature((3, 4)),
                             ],
                         postsuffix='short',
                         operation=[
                             stirrings_still.Operation(
                                 source_stage=stirrings_still.StageToken(
-                                    letter='G',
-                                    number=5,
+                                    letter='C',
+                                    number=7,
                                     description='iteratum',
                                     length=1,
                                     ),
@@ -2426,10 +2426,12 @@ def second_order_stages(segment):
                     14,
                     stirrings_still.StageSpecifier(
                         stage_number=14,
-                        measure_numbers=[50, 51, 52],
+                        measure_numbers=[50, 51, 52, 53, 54],
                         time_signatures=[
                             abjad.TimeSignature((5, 8)),
                             abjad.TimeSignature((10, 16)),
+                            abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((12, 16)),
                             abjad.TimeSignature((4, 8)),
                             ],
                         operation=[
@@ -2437,6 +2439,23 @@ def second_order_stages(segment):
                                 source_stage=stirrings_still.StageToken(
                                     letter='G',
                                     number=5,
+                                    description='iteratum',
+                                    length=2,
+                                    ),
+                                source_measures=(1, 2),
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=14,
+                                    description='clearing',
+                                    length=2,
+                                    ),
+                                target_site=(1, 2),
+                                ),
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=7,
                                     description='iteratum',
                                     length=1,
                                     ),
@@ -2446,9 +2465,9 @@ def second_order_stages(segment):
                                     letter='H',
                                     number=14,
                                     description='clearing',
-                                    length=2,
+                                    length=4,
                                     ),
-                                target_site=(1, 2),
+                                target_site=(2, 3),
                                 ),
                             ],
                         ),
