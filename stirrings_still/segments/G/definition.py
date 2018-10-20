@@ -196,7 +196,6 @@ maker(
     stirrings_still.clockticks(),
     )
 
-
 maker(
     ('tutti', (15, 16)),
     baca.espressivo(
