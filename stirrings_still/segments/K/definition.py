@@ -649,7 +649,11 @@ maker(
         measures=(38, 42),
         ),
     baca.new(
-        baca.dynamic('"mf"'),
+        baca.hairpin(
+            '"mf" -- !',
+            abjad.tweak(True).to_barline,
+            selector=baca.leaves().rleak(),
+            ),
         baca.half_clt_spanner(
             abjad.tweak(10.5).staff_padding,
             ),
@@ -670,21 +674,35 @@ maker(
 maker(
     'va',
     baca.new(
-        baca.damp_spanner(
-            abjad.tweak(8).staff_padding,
-            ),
+        # TODO: make work:
+#        baca.damp_spanner(
+#            abjad.tweak(8).staff_padding,
+#            ),
         baca.hairpin(
             'p >o niente',
             ),
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
             ),
-        baca.text_spanner(
+        # TODO: make work:
+#        baca.scp_spanner(
+#            'T poss. =|',
+#            abjad.tweak(5.5).staff_padding,
+#            ),
+        measures=(46, -1),
+        ),
+    )
+
+# TODO: replace with expression above
+maker(
+    ('va', (46, -2)),
+        baca.damp_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        baca.scp_spanner(
             'T poss. =|',
             abjad.tweak(5.5).staff_padding,
             ),
-        measures=(46, -1),
-        ),
     )
 
 maker(
