@@ -2386,17 +2386,17 @@ SEGMENTS
 
     [K.7] (24-31)
     (8 measures)
-    largo continues
-    tutti flight continues
-        tremolo continues
+    [largo]
+    tutti flight (continues)
+        [tremolo]
         independent scp transitions begin
-        subito p governs stage
+        subito p
     surprisingly short breath
 
     [K.8] (32-37)
     (6 measures)
     largo-to-allegro accelerando begins
-    tutti flight-to-clouded-pane begins
+    tutti flight-to-clouded-pane (begins)
         patterned slowing of tremolo flight independently
             achieve senza tremolo at start of measure -1
             tension between global accelerando and local tremoli allargandi
@@ -2407,31 +2407,31 @@ SEGMENTS
     (8 measures)
     allegro achieved at start of stage
     tutti flight-to-clouded pane continues
-        tasto-to-tasto-possibile transition happens
-        while during
-            <<va 1/2 clt trajectory summons past time>>
-        senza tremolo continues
-        tension between fast tempo and protracted duration
-        (p >o) continues
+        tasto-to-tasto-possibile transition
+        while during <<va 1/2 clt trajectory summons past time>>
+        [senza tremolo]
+        [p >o]
+        ===
+        {tension between fast tempo and protracted duration}
         <<[K.5 1-3/3] replaces [K.9 6-8/8]>> (43-45)
             <<summons past time>>
             andante
             va
                 1/2 clt trajectory
-                mp
+                "mf"
     attacca
 
     [K.10] (46-53)
     (8 measures)
-    allegro resumes after replacement
-    v1, v2, va flight-to-clouded pane fades out
-        stopped-to-damped lh transition happens
-        tasto possibile continues
-        senza tremolo continues
-        (p >o) completes
-    vc flight-to-clouded pane continues
-        senza tremolo continues
-        p continues
+    allegro (resumes after replacement)
+    v1, v2, va flight-to-clouded pane (fades out)
+        stopped-to-damped lh transition
+        [tasto possibile]
+        [senza tremolo[
+        p >o completes
+    vc flight-to-clouded pane (continues)
+        [senza tremolo]
+        [p]
     attacca
 
 [L] time series A; rotation -42
