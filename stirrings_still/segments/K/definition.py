@@ -117,9 +117,33 @@ maker(
             ),
         measures=(5, 8),
         ),
+    )
+
+maker(
+    ('v1', [9, (11, 14), 16]),
     baca.new(
-        stirrings_still.to_flight([(10, 8), (3, 16)]),
-        measures=(9, 17),
+        baca.half_clt_spanner(
+            abjad.tweak(10.5).staff_padding,
+            ),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -3,
+            abjad.tweak(4).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(7).staff_padding,
+                ),
+            clt=True,
+            ),
+        ),
+    stirrings_still.trajectories('B', -3, -3),
+    )
+
+maker(
+    ('v1', [10, 15, 17]),
+    baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
         ),
     )
 
@@ -320,9 +344,33 @@ maker(
             ),
         measures=(5, 8),
         ),
+    )
+
+maker(
+    ('v2', [9, 13, (15, 16)]),
     baca.new(
-        stirrings_still.to_flight([(8, 8), (3, 16)]),
-        measures=(9, 17),
+        baca.half_clt_spanner(
+            abjad.tweak(10.5).staff_padding,
+            ),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -3,
+            abjad.tweak(4).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(7).staff_padding,
+                ),
+            clt=True,
+            ),
+        ),
+    stirrings_still.trajectories('B', -3, -3),
+    )
+
+maker(
+    ('v2', [10, (11, 12), 14, 17]),
+    baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
         ),
     )
 
@@ -536,8 +584,39 @@ maker(
     )
 
 maker(
+    ('va', [(12, 13), (16, 17)]),
+    baca.new(
+        baca.half_clt_spanner(
+            abjad.tweak(10.5).staff_padding,
+            ),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -3,
+            abjad.tweak(4).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(7).staff_padding,
+                ),
+            clt=True,
+            ),
+        ),
+    stirrings_still.trajectories('B', -3, -3),
+    )
+
+maker(
+    ('va', (14, 15)),
+    baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    )
+
+maker(
     ('va', (12, 17)),
-    stirrings_still.to_flight([(8, 8), (3, 16)]),
+    baca.hairpin(
+        'p < mp',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -762,9 +841,33 @@ maker(
             ),
         measures=(5, 8),
         ),
+    )
+
+maker(
+    ('vc', [(9, 10), (13, 14)]),
     baca.new(
-        stirrings_still.to_flight([(12, 8), (3, 16)]),
-        measures=(9, 17),
+        baca.half_clt_spanner(
+            abjad.tweak(10.5).staff_padding,
+            ),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -3,
+            abjad.tweak(4).staff_padding,
+            bow_change_tweaks=(
+                abjad.tweak(abjad.Left).self_alignment_X,
+                abjad.tweak(7).staff_padding,
+                ),
+            clt=True,
+            ),
+        ),
+    stirrings_still.trajectories('B', -3, -3),
+    )
+
+maker(
+    ('vc', [(11, 12), (15, 17)]),
+    baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
         ),
     )
 
