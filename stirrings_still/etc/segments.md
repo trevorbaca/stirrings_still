@@ -2439,7 +2439,7 @@ SEGMENTS
     [L.1] (1-8)
     (16 measures)
     largo meno mosso begins
-    tutti trajectory-animated clouded pane begins
+    tutti trajectory-animated clouded pane (begins)
         v1, v2, va
             partials of clouded pane
             alternating intermittent trajectories and pure pitch
@@ -2447,35 +2447,38 @@ SEGMENTS
         vc
             oscillates blossom of full multiphonic at extremely slow rate
             IV/Db2
-            alternating p < ff ... ff > p
+            alternating p < fff ... fff > p
     attacca
 
 [M] time series C; rotation -72
 
     [M.1] (1-8)
     (8 measures)
-    largo meno mosso continues
-    tutti clouded pane continues
+    [largo meno mosso]
+    tutti clouded pane (continues)
         field down one semitone to IV/C2
-        full expression of clouded pane
-        ff continues
+        [f < fff ... fff > f]
+        ===
+        {full expression of clouded pane}
     attacca
 
     [M.2] (9-12)
     (4 measures)
-    largo meno mosso continues
-    v1, v2, va urtext field / circles appear
+    [largo meno mosso]
+    v1, v2, va urtext field / circles (appear)
         double-stop circles
         conflicts with clouded pane
         intercalated
     vc clouded pane
-        full expression on IV/C2 continues
-        ff continues
+        [IV/C2]
+        [f < fff ... fff > f]
+        ===
+        {full expression of clouded pane}
     attacca
 
     [M.3] (13-16)
     (4 measures)
-    largo meno mosso continues
+    [largo meno mosso]
     tutti clouded pane continues
         fundamental IV/C2 continues
         full expression continues
@@ -2484,7 +2487,7 @@ SEGMENTS
 
     [M.4] (17-20)
     (4 measures)
-    largo meno mosso continues
+    [largo meno mosso]
     v1, v2, va urtext field / circles appear
         double-stop circles
         conflicts with clouded pane
@@ -2497,7 +2500,7 @@ SEGMENTS
 
     [M.5] (21-24)
     (4 measures)
-    largo meno mosso continues
+    [largo meno mosso]
     tutti clouded pane continues
         fundamental IV/C2 continues
         full expression continues
@@ -2506,7 +2509,7 @@ SEGMENTS
 
     [M.6] (25-28)
     (4 measures)
-    largo meno mosso continues
+    [largo meno mosso]
     v1, v2, va urtext field / circles appear
         double-stop circles
         conflicts with clouded pane
@@ -2519,11 +2522,12 @@ SEGMENTS
 
     [M.7] (29-32)
     (4 measures)
-    largo-meno-mosso-to-larghissimo ritardando happens
-    tutti clouded pane continues
-        fundamental IV/C2-Bb1 down-glissando happens
-        full expression continues
+    largo-meno-mosso-to-larghissimo ritardando
+    tutti clouded pane (continues)
+        fundamental IV/C2-Bb1 down-glissando
         ff continues
+        ===
+        {full expression continues}
     attacca
 
 [N] time series B; rotation -32

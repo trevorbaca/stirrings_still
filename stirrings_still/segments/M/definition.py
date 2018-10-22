@@ -48,7 +48,6 @@ stirrings_still.time(maker, time)
 
 maker(
     'v1',
-    baca.dls_staff_padding(5),
     baca.new(
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
@@ -103,7 +102,6 @@ maker(
 
 maker(
     'v2',
-    baca.dls_staff_padding(5),
     baca.new(
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
@@ -158,7 +156,6 @@ maker(
 
 maker(
     'va',
-    baca.dls_staff_padding(5),
     baca.new(
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
@@ -214,58 +211,65 @@ maker(
 maker(
     'trio',
     baca.hairpin(
-        'p < ff',
-        measures=(1, 8),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'f < ff',
-        measures=(13, 16),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'f < ff',
-        measures=(21, 24),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'f < ff',
-        measures=(29, 32),
+        'p < ff f < ff f < ff f < ff',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([8, 4, 4, 4, 5, 3, 4]),
         ),
     )
 
 maker(
+    ('trio', (9, 12)),
+    # TODO: allow simultaneous material spanners
+    #stirrings_still.circle_annotation_spanner(
+    #    'intercalated ds circles -|', 10.5,
+    #    ),
+    stirrings_still.urtext_annotation_spanner('urtext (ds) -|', 8),
+    )
+
+maker(
+    ('trio', (17, 20)),
+    # TODO: allow simultaneous material spanners
+    #stirrings_still.circle_annotation_spanner(
+    #    'intercalated ds circles -|', 10.5,
+    #    ),
+    stirrings_still.urtext_annotation_spanner(
+        'urtext (ds) -|', 8,
+        selector=baca.leaves()[1:].rleak(),
+        ),
+    )
+
+maker(
+    ('trio', (26, 28)),
+    # TODO: allow simultaneous material spanners
+    #stirrings_still.circle_annotation_spanner(
+    #    'intercalated ds circles -|', 10.5,
+    #    ),
+    stirrings_still.urtext_annotation_spanner('urtext (ds) -|', 8),
+    )
+
+maker(
     'vc',
-    baca.dls_staff_padding(5),
     baca.hairpin(
-        'fff > f',
-        measures=(7, 8),
+        'fff -- fff > f  f < fff  fff > f f < fff fff > f f < fff -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([6, 2, 2, 2, 2, 2, 2, 2, 2, 3, 1, 2, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.hairpin(
-        'f < fff',
-        measures=(11, 12),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'fff > f',
-        measures=(15, 16),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'f < fff',
-        measures=(19, 20),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'fff > f',
-        measures=(23, 24),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'f < fff',
-        measures=(27, 28),
-        selector=baca.leaves().rleak(),
+    baca.markup(
+        'semitone down to C2',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane -|', 5.5,
+        measures=(1, -2),
+        ),
+    )
+
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(5),
     )
