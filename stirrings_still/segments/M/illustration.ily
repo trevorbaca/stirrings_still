@@ -701,6 +701,12 @@ M_Violin_I_Music_Voice = {                                                     %
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -751,6 +757,7 @@ M_Violin_I_Music_Voice = {                                                     %
         c'4                                                                    %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \bacaStopTextSpanMA                                                    %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -835,6 +842,12 @@ M_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 636 / measure 14]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -861,6 +874,7 @@ M_Violin_I_Music_Voice = {                                                     %
         c'4                                                                    %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \bacaStopTextSpanMA                                                    %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -945,6 +959,12 @@ M_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 644 / measure 22]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -976,6 +996,7 @@ M_Violin_I_Music_Voice = {                                                     %
         c'4                                                                    %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \bacaStopTextSpanMA                                                    %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -1037,6 +1058,12 @@ M_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
@@ -1058,6 +1085,7 @@ M_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
+    \bacaStopTextSpanMA                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1117,6 +1145,12 @@ M_Violin_II_Music_Voice = {                                                    %
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1167,6 +1201,7 @@ M_Violin_II_Music_Voice = {                                                    %
         c'4                                                                    %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \bacaStopTextSpanMA                                                    %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -1241,6 +1276,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [M Violin_II_Music_Voice measure 636 / measure 14]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1267,6 +1308,7 @@ M_Violin_II_Music_Voice = {                                                    %
         c'4                                                                    %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \bacaStopTextSpanMA                                                    %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -1342,6 +1384,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [M Violin_II_Music_Voice measure 644 / measure 22]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1373,6 +1421,7 @@ M_Violin_II_Music_Voice = {                                                    %
         c'4                                                                    %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \bacaStopTextSpanMA                                                    %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -1427,6 +1476,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
@@ -1448,6 +1503,7 @@ M_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
+    \bacaStopTextSpanMA                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1508,6 +1564,12 @@ M_Viola_Music_Voice = {                                                        %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1557,6 +1619,7 @@ M_Viola_Music_Voice = {                                                        %
     c'4                                                                        %! stirrings_still_pickets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \bacaStopTextSpanMA                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-wide-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -1614,6 +1677,12 @@ M_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [M Viola_Music_Voice measure 636 / measure 14]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1639,6 +1708,7 @@ M_Viola_Music_Voice = {                                                        %
     c'4                                                                        %! stirrings_still_pickets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \bacaStopTextSpanMA                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-wide-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -1695,6 +1765,12 @@ M_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [M Viola_Music_Voice measure 644 / measure 22]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1724,6 +1800,7 @@ M_Viola_Music_Voice = {                                                        %
     c'4                                                                        %! stirrings_still_pickets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \bacaStopTextSpanMA                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-wide-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
@@ -1768,6 +1845,12 @@ M_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:URTEXT:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
@@ -1789,6 +1872,7 @@ M_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
+    \bacaStopTextSpanMA                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container

@@ -2538,114 +2538,119 @@ SEGMENTS
 
     [N.1] (1-6)
     (6 measures)
-    larghissimo continues
-    tutti clouded pane continues
-        fundamental IV/Bb1 continues
-        full expression continues
-        ff continues
+    [larghissimo]
+    tutti clouded pane
+        [fundamental IV/Bb1]
+        [fff/ff]
+        ===
+        {full expression of clouded pane}
     attacca
 
     [N.2] (7-8)
     (2 measures)
-    larghissimo continues
-    v1, v2, va clouded pane continues
-        fundamental IV/Bb1 continues
-        f >o governs stage
-    vc clouded pane continues
-        fundamental IV/Bb1 continues
-        ff > p governs stage
+    [larghissimo]
+    v1, v2, va clouded pane
+        [fundamental IV/Bb1]
+        f >o
+    vc clouded pane
+        [fundamental IV/Bb1]
+        ff > p
     attacca
 
     [N.3] (9-10)
     (2 measures)
-    larghissimo continues
+    [larghissimo]
     v1, v2, va
-        tacet continues
-    vc clouded pane continues
-        holds pure-tone Bb1
-        p continues
+        [tacet]
+    vc clouded pane
+        [holds pure-tone Bb1]
+        [p]
     attacca
 
     <<[I.6 (current) 1-2/2] prefixes [N.4]>> (11-12)
         <<summons past time>>
-        larghissimo
+        [larghissimo]
         v1, v2, va
-            tacet continues
+            [tacet]
         vc 1/2 clt solo trajectory
             1/2 clt
-            single pitch
-                pitch is not upper register
-            trapped repetition cell
-            f
+            single pitch: not upper register
+            "f"
+            ===
+            {trapped repetition cell}
         <<attacca [N.4] to effect prefix>>
     [N.4] (13-16)
     (4 measures)
-    larghissimo continues
+    [larghissimo]
     v1, v2, va urtext field fades in
-        o< f governs stage
-            achieves f at start of next stage
-    vc clouded pane continues
+        o< f culminates at start of next stage
+    vc clouded pane
         holds pure-tone Bb1
-        p continues
+        p
     attacca
 
     [N.5] (17-22)
     (6 measures)
-    larghissimo continues
-    v1, v2, va urtext field continues
-        f continues
+    [larghissimo]
+    v1, v2, va urtext field
+        [f]
     vc clouded pane disappears
-        holds pure-tone Bb1 until end
-        p >o governs stage
+        [holds pure-tone Bb1 until end]
+        p >o
     attacca
 
-    [N.6] (23-28 + [29] + 30-35 + very long)
-    (12 measures)
-    larghissimo-to-presto-to-larghissimo time trends govern stage
-    larghissimo-to-presto accelerando governs first half of stage
-        tutti urtext field continues
-        tutti flight appears
-            scp process embedded
-            dynamic process embedded
-                terminates ff ponticello with lv-release
-            <<colored flight [K.6] bisects [N.6]>> (29)
-                <<summons past time>>
-                andante
-            <<attacca second half of [N.6]>>
-            presto-to-larghissimo ritardando governs second half of [N.6]
+    [N.6.1-6] (23-28)
+    (first 6 of 12 measures)
+    larghissimo-to-presto accelerando
+        tutti urtext field
+        tutti flight
+        scp process embedded
+        dynamic process embedded
+    <<colored flight [K.6] bisects [N.6]>> (29)
+        <<summons past time>>
+        andante
+    <<attacca second half of [N.6]>>
+    [N.6.1-6] (30-35)
+    (second 6 of 12 measures)
+    presto-to-larghissimo ritardando
+        tutti urtext field
+        tutti flight
+        scp process embedded
+        dynamic process embedded: terminates ff ponticello with lv-release
     very long fermata (36)
 
-    [N.7] (37-38 + very long)
+    [N.7] (37-38)
     (2 measures)
-    larghississimo continues
+    [larghississimo]
     tutti composite clouded pane / urtext field appears and expires
-        combined single gesture of conflict and relinquishment
-            fundamental fixed pitch
-            senza tremolo
-            upper partials down-glissandi lentissimi
-            bowspeed transition to nothing
+        fundamental fixed pitch
+        senza tremolo
+        upper partials down-glissandi lentissimi
+        bowspeed transition to nothing
         p governs first half of stage
         p >o governs second half of stage
+        ===
+        {combined single gesture of conflict and relinquishment}
     very long fermata (39)
 
 [O] time series A; rotation -56
 
-    [O.1] (1-6 + 7 + very long)
+    [O.1] (1-6)
     (6 measures)
     largo più mosso governs stage
     tutti urtext field / circles return
         new urtext pitches appear
         circles so slow that primary effect is granulation
         mf governs stage
-        <<[H.13 (development) 4/4] suffixes [O.1]>> (7)
-            <<summons past time>>
-            largo
-            v1, v2, va interlocking gears repeat as scratch
-                scratch
-                polyrhythmic desynchronization (without swells)
-                ff
-            vc clouded pane
-                pp
+    <<[H.13 (development) 4/4] suffixes [O.1]>> (7)
+        <<summons past time>>
+        largo
+        v1, v2, va interlocking gears repeat as scratch
+            scratch
+            polyrhythmic desynchronization (without swells)
+            ff
+        vc clouded pane
+            pp
     very long fermata (8)
 
 [P] time series C; rotation -90

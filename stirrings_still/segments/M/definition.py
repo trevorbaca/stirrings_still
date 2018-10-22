@@ -258,6 +258,34 @@ maker(
     )
 
 maker(
+    ('trio', (1, 8)),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
+    )
+
+maker(
+    ('trio', (13, 16)),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane -|', 8,
+        selector=baca.leaves().rleak().rleak(),
+        ),
+    )
+
+maker(
+    ('trio', (21, 25)),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane -|', 8,
+        ),
+    )
+
+maker(
+    ('trio', (29, 32)),
+    stirrings_still.clouded_pane_annotation_spanner(
+        'clouded pane -|', 8,
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
     'vc',
     baca.hairpin(
         'fff -- fff > f  f < fff  fff > f f < fff fff > f f < fff -- !',

@@ -15,9 +15,9 @@ stage_markup = (
     ('[I.6]', 11, 'darkgreen'),
     ('[N.4]', 13),
     ('[N.5]', 17),
-    ('[N.6]', 23),
+    ('[N.6.1-6]', 23),
     ('[K.6]', 29, 'darkgreen'),
-    ('[N.6]', 30),
+    ('[N.67-12]', 30),
     ('[N.7]', 37),
     )
 
@@ -138,7 +138,7 @@ maker(
     ('v1', (37, 38)),
     baca.beam(),
     baca.hairpin(
-        'p p >o niente',
+        'p -- ! >o niente',
         pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
         ),
@@ -235,7 +235,7 @@ maker(
     ('v2', (37, 38)),
     baca.beam(),
     baca.hairpin(
-        'p p >o niente',
+        'p -- ! >o niente',
         pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
         ),
@@ -332,7 +332,7 @@ maker(
     ('va', (37, 38)),
     baca.beam(),
     baca.hairpin(
-        'p p >o niente',
+        'p -- ! >o niente',
         pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
         ),
@@ -362,6 +362,12 @@ maker(
     )
 
 maker(
+    ('vc', (1, 10)),
+    baca.pitch('Bb1'),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
+    )
+
+maker(
     ('vc', (11, 12)),
     baca.dynamic('"f"'),
     baca.script_staff_padding(8),
@@ -384,6 +390,7 @@ maker(
         ),
     baca.new(
         baca.dynamic('p'),
+        baca.pitch('Bb1'),
         stirrings_still.clouded_pane(),
         measures=(13, 22),
         ),
@@ -448,7 +455,7 @@ maker(
 maker(
     ('vc', (37, 38)),
     baca.hairpin(
-        'p p >o niente',
+        'p -- ! >o niente',
         pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
         ),
@@ -462,6 +469,11 @@ maker(
     )
 
 # vertical
+
+maker(
+    ('trio', (1, 8)),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
+    )
 
 maker(
     ('trio', (7, 8)),
@@ -481,6 +493,33 @@ maker(
     ('trio', (10, 12)),
     baca.tacet(),
     )  
+
+maker(
+    ('trio', (13, 28)),
+    stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
+    )
+
+maker(
+    ('trio', (30, 35)),
+    stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
+    )
+
+maker(
+    ('trio', (37, 38)),
+    stirrings_still.urtext_annotation_spanner(
+        'urtext / clouded pane composite -|', 8,
+        ),
+    )
+
+maker(
+    ('vc', [(13, 22), (37, 38)]),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
+    )
+
+maker(
+    ('vc', [(23, 28), (30, 35)]),
+    stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
+    )
 
 maker(
     'tutti',
