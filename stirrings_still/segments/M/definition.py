@@ -211,15 +211,25 @@ maker(
 maker(
     'trio',
     baca.hairpin(
-        'p < ff f < ff f < ff f < ff',
-        abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([8, 4, 4, 4, 5, 3, 4]),
+        'p < ff',
+        measures=(1, 8),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'f < ff',
+        measures=(13, 16),
+        selector=baca.leaves().rleak().rleak(),
+        ),
+    baca.hairpin(
+        'f < ff f < ff',
+        measures=(21, 32),
+        pieces=baca.mgroups([5, 3, 4]),
         ),
     )
 
 maker(
     ('trio', (9, 12)),
-    # TODO: allow simultaneous material spanners
+    # TODO: allow score-specific simultaneous material spanners
     #stirrings_still.circle_annotation_spanner(
     #    'intercalated ds circles -|', 10.5,
     #    ),
@@ -228,7 +238,7 @@ maker(
 
 maker(
     ('trio', (17, 20)),
-    # TODO: allow simultaneous material spanners
+    # TODO: allow score-specific simultaneous material spanners
     #stirrings_still.circle_annotation_spanner(
     #    'intercalated ds circles -|', 10.5,
     #    ),
@@ -240,7 +250,7 @@ maker(
 
 maker(
     ('trio', (26, 28)),
-    # TODO: allow simultaneous material spanners
+    # TODO: allow score-specific simultaneous material spanners
     #stirrings_still.circle_annotation_spanner(
     #    'intercalated ds circles -|', 10.5,
     #    ),

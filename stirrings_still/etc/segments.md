@@ -2456,7 +2456,7 @@ SEGMENTS
     (8 measures)
     [largo meno mosso]
     tutti clouded pane (continues)
-        field down one semitone to IV/C2
+        field down one semitone to fundamental IV/C2
         [f < fff ... fff > f]
         ===
         {full expression of clouded pane}
@@ -2465,10 +2465,10 @@ SEGMENTS
     [M.2] (9-12)
     (4 measures)
     [largo meno mosso]
-    v1, v2, va urtext field / circles (appear)
-        double-stop circles
-        conflicts with clouded pane
-        intercalated
+    v1, v2, va urtext field / circles
+        double-stops
+        ===
+        {conflict with clouded pane}
     vc clouded pane
         [IV/C2]
         [f < fff ... fff > f]
@@ -2479,55 +2479,59 @@ SEGMENTS
     [M.3] (13-16)
     (4 measures)
     [largo meno mosso]
-    tutti clouded pane continues
-        fundamental IV/C2 continues
-        full expression continues
-        ff continues
+    tutti clouded pane
+        [fundamental IV/C2]
+        [f < fff ... fff > f]
+        ===
+        {full expression of clouded pane}
     attacca
 
     [M.4] (17-20)
     (4 measures)
     [largo meno mosso]
-    v1, v2, va urtext field / circles appear
-        double-stop circles
-        conflicts with clouded pane
-        intercalated
-    vc clouded pane continues
-        fundamental on IV/C2 continues
-        full expression continues
-        ff continues
+    v1, v2, va urtext field / circles
+        double-stops
+        ===
+        {conflicts with clouded pane}
+    vc clouded pane
+        [fundamental IV/C2]
+        [f < fff ... fff > f]
+        ===
+        {full expression of clouded pane}
     attacca
 
     [M.5] (21-24)
     (4 measures)
     [largo meno mosso]
-    tutti clouded pane continues
-        fundamental IV/C2 continues
-        full expression continues
-        ff continues
+    tutti clouded pane
+        [fundamental IV/C2]
+        [f < fff ... fff > f]
+        ===
+        {full expression of clouded pane}
     attacca
 
     [M.6] (25-28)
     (4 measures)
     [largo meno mosso]
-    v1, v2, va urtext field / circles appear
-        double-stop circles
-        conflicts with clouded pane
-        intercalated
+    v1, v2, va urtext field / circles
+        double-stops
+        ===
+        {conflicts with clouded pane}
     vc clouded pane continues
-        fundamental on IV/C2 continues
-        full expression continues
-        ff continues
+        [fundamental IV/C2]
+        [f < fff ... fff > f]
+        ===
+        {full expression of clouded pane}
     attacca
 
     [M.7] (29-32)
     (4 measures)
     largo-meno-mosso-to-larghissimo ritardando
-    tutti clouded pane (continues)
+    tutti clouded pane
         fundamental IV/C2-Bb1 down-glissando
-        ff continues
+        [f < fff ... fff > f]
         ===
-        {full expression continues}
+        {full expression of clouded pane}
     attacca
 
 [N] time series B; rotation -32
