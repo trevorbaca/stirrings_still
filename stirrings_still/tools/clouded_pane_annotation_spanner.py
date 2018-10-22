@@ -7,6 +7,7 @@ def clouded_pane_annotation_spanner(
     staff_padding,
     *,
     measures=None,
+    selector='baca.leaves().rleak()',
     ):
     """
     Makes clouded pane annotation spanner.
@@ -16,5 +17,6 @@ def clouded_pane_annotation_spanner(
         abjad.tweak('red').color,
         abjad.tweak(staff_padding).staff_padding,
         measures=measures,
+        selector=selector,
         tag='MATERIAL:CLOUDED_PANE',
         )
