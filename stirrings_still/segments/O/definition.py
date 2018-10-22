@@ -46,14 +46,13 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', (1, 6)),
     baca.circle_bow_spanner(
-        'ext-tight',
+        'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic('mp-sempre'),
-    baca.markup(
-        'circles so tight that primary effect is granulation',
-        abjad.tweak(8).staff_padding,
-        boxed=True,
+    baca.hairpin(
+        '"mf" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -64,7 +63,11 @@ maker(
         'scratch',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic('ff'),
+    baca.hairpin(
+        'ff -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.pickets(4, 2),
     )
 
@@ -73,14 +76,13 @@ maker(
 maker(
     ('v2', (1, 6)),
     baca.circle_bow_spanner(
-        'ext-tight',
+        'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic('mp-sempre'),
-    baca.markup(
-        'circles so tight that primary effect is granulation',
-        abjad.tweak(8).staff_padding,
-        boxed=True,
+    baca.hairpin(
+        '"mf" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -91,7 +93,11 @@ maker(
         'scratch',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic('ff'),
+    baca.hairpin(
+        'ff -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.pickets(4, 1),
     )
 
@@ -100,14 +106,13 @@ maker(
 maker(
     ('va', (1, 6)),
     baca.circle_bow_spanner(
-        'ext-tight',
+        'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic('mp-sempre'),
-    baca.markup(
-        'circles so tight that primary effect is granulation',
-        abjad.tweak(8).staff_padding,
-        boxed=True,
+    baca.hairpin(
+        '"mf" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -118,7 +123,11 @@ maker(
         'scratch',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic('ff'),
+    baca.hairpin(
+        'ff -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.pickets(4, 0),
     )
 
@@ -127,22 +136,26 @@ maker(
 maker(
     ('vc', (1, 6)),
     baca.circle_bow_spanner(
-        'ext-tight',
+        'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic('mp-sempre'),
-    baca.markup(
-        'circles so tight that primary effect is granulation',
-        abjad.tweak(8).staff_padding,
-        boxed=True,
+    baca.hairpin(
+        '"mf" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
     ('vc', 7),
-    baca.dynamic('pp'),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
     )
 
 # vertical

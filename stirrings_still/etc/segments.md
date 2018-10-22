@@ -2637,11 +2637,11 @@ SEGMENTS
 
     [O.1] (1-6)
     (6 measures)
-    largo più mosso governs stage
+    largo più mosso
     tutti urtext field / circles return
         new urtext pitches appear
         circles so slow that primary effect is granulation
-        mf governs stage
+        "mf" governs stage
     <<[H.13 (development) 4/4] suffixes [O.1]>> (7)
         <<summons past time>>
         largo
