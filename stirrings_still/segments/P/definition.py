@@ -77,14 +77,6 @@ maker(
     )
 
 maker(
-    ('v1', [(6, 7), 10, (16, 17), (20, 25)]),
-    baca.circle_bow_spanner(
-        'wide-poss',
-        abjad.tweak(8).staff_padding,
-        ),
-    )
-
-maker(
     ('v1', (5, 10)),
     baca.new(
         baca.hairpin(
@@ -107,6 +99,14 @@ maker(
             (stirrings_still.wave((4, 16), (1, 16)), [1, 2, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('v1', [(6, 7), 10, (16, 17), (20, 25)]),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(8).staff_padding,
         ),
     )
 
@@ -264,6 +264,14 @@ maker(
     )
 
 maker(
+    ('va', [(8, 10), (18, 25)]),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
     ('va', (15, 20)),
     baca.new(
         baca.hairpin(
@@ -312,6 +320,14 @@ maker(
             (stirrings_still.wave((7, 16), (1, 16)), [1, 2, 3]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('vc', [(6, 8), (16, 25)]),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(8).staff_padding,
         ),
     )
 
