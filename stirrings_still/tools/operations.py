@@ -739,7 +739,7 @@ def operations():
                         description='clearing',
                         length=3,
                         ),
-                    source_measures=2,
+                    source_measures=1,
                     verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='N',
@@ -1013,7 +1013,7 @@ def operations():
             StageToken('N', 4, 'inception'),
             ),
         Operation(
-            StageToken('K', 6, 'clearing', 3), 2,
+            StageToken('K', 6, 'clearing', 3), 1,
             'bisect',
             StageToken('N', 6, 'conclusion', 12), (6, 7),
             ),

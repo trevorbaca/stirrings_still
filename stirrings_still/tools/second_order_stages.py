@@ -3189,7 +3189,7 @@ def second_order_stages(segment):
                             abjad.TimeSignature((8, 8)),
                             abjad.TimeSignature((5, 8)),
                             abjad.TimeSignature((4, 8)),
-                            abjad.TimeSignature((8, 8)),
+                            abjad.TimeSignature((7, 8)),
                             abjad.TimeSignature((8, 8)),
                             abjad.TimeSignature((6, 8)),
                             abjad.TimeSignature((8, 8)),
@@ -3206,7 +3206,7 @@ def second_order_stages(segment):
                                     description='clearing',
                                     length=3,
                                     ),
-                                source_measures=2,
+                                source_measures=1,
                                 verb='bisect',
                                 target_stage=stirrings_still.StageToken(
                                     letter='N',
