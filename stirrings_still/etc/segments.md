@@ -2657,47 +2657,47 @@ SEGMENTS
 
     [P.1] (1-4)
     (4 measures) 
-    adagio begins
-    tutti clouded pane begins
-        tasto begins
-        clouded pane fixed pitches begin
-        ppppp begins
+    adagio
+    tutti clouded pane (begins)
+        [tasto]
+        clouded pane fixed pitches
+        ppppp
     attacca
 
     [P.2] (5-10)
     (6 measures) 
-    adagio continues
+    [adagio]
     tutti clouded pane continues (admixed circles)
-        clouded pane fixed pitches continue
+        clouded pane fixed pitches
         tasto < irregular circles > tasto, independently
-        intermittent ppppp < p > ppppp govern stage
+        intermittent ppppp < p > ppppp
     attacca
 
     [P.3] (11-14)
     (4 measures)
-    adagio continues
-    tutti clouded pane continues
-        tasto continues
-        clouded pane fixed pitches continue
-        ppppp continues
+    [adagio]
+    tutti clouded pane
+        [tasto]
+        [clouded pane fixed pitches]
+        [ppppp]
     attacca
 
     [P.4] (15-20)
     (6 measures)
-    adagio-to-presto accelerando begins
+    adagio-to-presto accelerando (begins)
     tutti clouded pane continues (admixed circles)
         up-glissandi begin
         tasto < irregular circles begin
-        intermittent ppppp < p > pp govern stage
+        intermittent ppppp < p > pp
     attacca
 
     [P.5] (21-26)
     (6 measures)
     accelerando achieves presto at start of measure -1
-    tutti circles continue
+    tutti circles (continue)
         up-glissandi achieve endpoint at start of measure -1
         circles achieve fixed fast speed at start of measure -1
-        pp continues
+        [pp]
     surprisingly short breath
 
 [Q] time series B; rotation -40
