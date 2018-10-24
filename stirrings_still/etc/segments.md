@@ -2864,60 +2864,58 @@ SEGMENTS
 
     [R.1] (1-4)
     (4 measures)
-    largo continues
-    v1, v2 trajectories continue
+    [largo]
+    v1, v2 trajectories (continue)
         join clouded pane field
-        1/2 clt continues
-        tasto begins
-        ppp continues
+        [1/2 clt]
+        [ppp]
     va memory of flight continues
-        Bb2 pedal continues
-        pp continues
+        [Bb2 pedal]
+        [pp]
     vc memory of flight continues
-        B0 pedal continues
-        pp continues
+        [B0 pedal]
+        [pp]
     attacca
 
     [R.2] (5-8)
     (4 measures)
-    largo continues
+    [largo]
     v1, v2 trajectories disappear
-        1/2 clt disappears
-        tasto disappears
-        clouded pane field disappears
-        trajectories slow to nothing
-        ppp >o governs stage
+        [1/2 clt]
+        ppp >o
+        ===
+        {clouded pane field disappears}
     va memory of flight continues
-        Bb2 pedal continues
-        pp continues
+        [Bb2 pedal]
+        [pp]
     vc memory of flight continues
-        B0 pedal continues
-        pp continues
+        [B0 pedal]
+        [pp]
     attacca
 
     [R.3] (9-12)
     (4 measures)
-    largo continues
+    [largo]
     v1, v2
-        tacet
+        [tacet]
     va memory of flight continues
-        Bb2 pedal continues
-        pp continues
+        [Bb2 pedal]
+        [pp]
     vc memory of flight fades out
-        B0 pedal continues
-        pp >o happens
+        [B0 pedal]
+        pp >o
     attacca
 
     [R.4] (13-16)
     (4 measures)
-    largo continues
+    [largo]
     v1, v2
-        tacet continues
+        [tacet]
     va memory of flight continues
-        Bb2 pedal continues
-        pp continues
+        [Bb2 pedal]
+        [pp]
     vc
-        tacet
+        [tacet]
     attacca
     
 [S] time series A; rotation -86
