@@ -1,44 +1,33 @@
 TO-DO
 =====
 
-1.  Analyze volta application.
+1.  Finalize phantom measures.
+    Turn on phantom measures in Nähte.
+    Teach _get_persistent_wrappers() more about phantom-attached StopTextSpan.
+    Allow text spanners to attach to phantom measures.
+    Allow right-broken text spanners on phantom measures.
+    Allow right-broken hairpins on phantom measures.
+    Allow right-broken glissandi on phantom measures.
+    Build Nähte with phantom measures.
+    Write right-broken phantom measure tests.
+    Build Stirrings Still with phantom measures.
 
-2.  Audit overlapping transitions.
+2.  Add parenthesized dynamics.
 
-3.  Add hairpin staff padding check.
-        baca.hairpin(
-            'p < f',
-            abjad.tweak(7).staff_padding,
+3.  Raise exception on overlapping clouded pane annotation spanners.
+
+4.  Allow for piece-specific material annotation spanners.
+
+        bacaStartTextSpanCloudedPane = #(
+            make-music 'TextSpanEvent 'span-direction START 'spanner-id "CloudedPane"
             )
-    Raise "you probably mean baca.dls_staff_padding() instead."
 
-4.  Fix list-specified measures in baca.new() like ...
-        baca.new(
-            stirrings_still.pickets(4, 2),
-            measures=[21, 23],
+        bacaStopTextSpanCloudedPane = #(
+            make-music 'TextSpanEvent 'span-direction STOP 'spanner-id "CloudedPane"
             )
-    ... which currently interprets equal to ...
-        baca.new(
-            stirrings_still.pickets(4, 2),
-            measures=(21, 23),
-            )
-    ... instead.
 
-5.  Extend baca.hairpin().
-        baca.hairpin(
-            'ff < fff >',
-            pieces=baca.plts(),
-            )
-    Allow final dynamic to force to ff or fff.
+5.  Allow left-broken text on long spanners.
 
-6.  Teach text spanners to display their staff padding on page.
+6.  Analyze volta application.
 
-7.  Raise exception on overlapping clouded pane annotation spanners.
-
-8.  Consider the case where text spanner terminates at phantom measure.
-    StopTextSpan is currently not found by _get_persistent_wrappers()
-    This means that StartTextSpan currently gets (wrongly) put in metadata.
-    Workaround is to terminate spanner prior to phantom measure.
-    Fix so workaround isn't necessary.
-
-9.  Add parenthesized dynamics.
+7.  Audit overlapping transitions.
