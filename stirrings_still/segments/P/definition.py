@@ -47,12 +47,8 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 4)),
-    baca.dynamic(
-        'ppppp',
-        abjad.tweak(-0.75).self_alignment_X,
-        ),
+    baca.dynamic('ppppp'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
     )
 
 """
@@ -76,6 +72,14 @@ maker(
     ('v1', [(1, 5), (8, 9), (11, 15), (18, 19)]),
     baca.scp_spanner(
         'T =|',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
+    ('v1', [(6, 7), 10, (16, 17), (20, 25)]),
+    baca.circle_bow_spanner(
+        'wide-poss',
         abjad.tweak(8).staff_padding,
         ),
     )
@@ -139,6 +143,22 @@ maker(
     )
 
 # v2
+
+maker(
+    ('v2', [(1, 4), 6, 8, (10, 14), 16, 18]),
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
+    ('v2', [5, 7, 9, 15, 17, (19, 25)]),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
 
 maker(
     ('v2', (5, 10)),
@@ -218,6 +238,14 @@ maker(
 # va
 
 maker(
+    ('va', [(1, 7), (11, 17)]),
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
     ('va', (5, 10)),
     baca.new(
         baca.hairpin(
@@ -260,6 +288,14 @@ maker(
     )
 
 # vc
+
+maker(
+    ('vc', [(1, 5), (9, 15)]),
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
 
 maker(
     ('vc', (5, 10)),
@@ -314,6 +350,9 @@ maker(
             -0.75,
             selector=baca.leaves(),
             ),
+        stirrings_still.clouded_pane_annotation_spanner(
+            'clouded pane -|', 10.5,
+            ),
         measures=(1, 20),
         ),
     )
@@ -321,7 +360,6 @@ maker(
 maker(
     ('tutti', (11, 14)),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
     )
 
 maker(
