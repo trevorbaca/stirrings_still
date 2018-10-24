@@ -34,6 +34,37 @@ time = (
 
 stirrings_still.time(maker, time)
 
+# shared
+
+whisk_measures = [5, (10, 11), (16, 18), (23, 26)]
+
+# v1
+
+maker(
+    ('v1', whisk_measures),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.hairpin(
+        'p > ppp <',
+        pieces=baca.cmgroups(),
+        ),
+    stirrings_still.wave((1, 4), (3, 32)),
+    )
+
+# v2
+
+maker(
+    ('v2', whisk_measures),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+# va
+
 maker(
     ('va', (1, 34)),
     baca.dynamic('pp-sempre'),
@@ -41,20 +72,15 @@ maker(
     baca.pitch('Bb2'),
     )
 
+# vertical
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
 maker(
     (['v1', 'v2', 'vc'], [5, (10, 11), (16, 18), (23, 26)]),
-    baca.new(
-        baca.markup('extremely wide, fast circles'),
-        match=[0, 4],
-        ),
-    baca.new(
-        baca.hairpin(
-            'p > ppp <',
-            pieces=baca.cmgroups(),
-            ),
-        stirrings_still.wave((1, 4), (3, 32)),
-        match=(0, 4),
-        ),
     baca.new(
         baca.hairpin(
             'ppp < p >',
@@ -103,9 +129,3 @@ maker(
         ),
     )
 
-# vertical
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
-    )
