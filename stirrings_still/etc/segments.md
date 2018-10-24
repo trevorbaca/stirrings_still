@@ -1530,7 +1530,7 @@ SEGMENTS
             trajectories whisked skyward)
             urtext field double-stops
             subito pitch
-            desyncrhonized hair trajectories
+            desynchronized hair trajectories
                 1/2 clt introduced towards end of trajectories independently
             ff poco scratch < fff scratch > f senza scratch
     >>fermata repeated after insert to effect prolongation<< (62)
@@ -1608,7 +1608,7 @@ SEGMENTS
             trajectories whisked skyward)
             urtext field double-stops
             subito pitch
-            desyncrhonized hair trajectories
+            desynchronized hair trajectories
                 1/2 clt introduced towards end of trajectories independently
             ff poco scratch < fff scratch > f senza scratch
         <<attaca return to second half of [E.12] (109-110)>>
@@ -2724,11 +2724,11 @@ SEGMENTS
     [Q.2] (10-21)
     (12 measures)
     adagio-to-presto accelerando begins
-    tutti urtext field / trajectories appear (desynchronized pitched field
-        trajectories whisked skyward)
+    tutti urtext field / trajectories appear
+    (desynchronized pitched field trajectories whisked skyward)
         urtext field double-stops
         subito pitch
-        desyncrhonized hair trajectories
+        desynchronized hair trajectories
             1/2 clt introduced towards end of trajectories independently
         ff poco scratch < fff scratch > f senza scratch
     surprisingly short breath [v1 holds color through breath]
@@ -2746,11 +2746,11 @@ SEGMENTS
     [Q.4] (28-37)
     (10 measures)
     adagio-to-presto accelerando begins
-    tutti urtext field / trajectories return (desynchronized pitched field
-        trajectories whisked skyward
+    tutti urtext field / trajectories return
+    (desynchronized pitched field trajectories whisked skyward
         urtext field double-stops
         subito pitch
-        desyncrhonized hair trajectories
+        desynchronized hair trajectories
             1/2 clt introduced towards end of trajectories independently
         f poco scratch < ff scratch > mf senza scratch
     surprisingly short breath [v1 holds color through breath]
@@ -2768,11 +2768,11 @@ SEGMENTS
     [Q.6] (43-50)
     (8 measures)
     adagio-to-presto accelerando begins
-    tutti urtext field / trajectories return (desynchronized pitched field
-        trajectories whisked skyward)
+    tutti urtext field / trajectories return
+    (desynchronized pitched field trajectories whisked skyward)
         urtext field double-stops
         subito pitch
-        desyncrhonized hair trajectories
+        desynchronized hair trajectories
             1/2 clt introduced towards end of trajectories independently
         mf < f scratch > mp senza scratch
     surprisingly short breath [v1 holds color through breath]
@@ -2790,11 +2790,11 @@ SEGMENTS
     [Q.8] (55-60)
     (6 measures)
     adagio-to-presto accelerando begins
-    tutti urtext field / trajectories return (desynchronized pitched field
-        trajectories whisked skyward)
+    tutti urtext field / trajectories return
+    (desynchronized pitched field trajectories whisked skyward)
         urtext field double-stops
         subito pitch
-        desyncrhonized hair trajectories
+        desynchronized hair trajectories
             1/2 clt introduced towards end of trajectories independently
         mp < mf scratch > senza scratch p
     surprisingly short breath [v1 holds color through breath]
@@ -2812,11 +2812,11 @@ SEGMENTS
     [Q.10] (64-67)
     (4 measures)
     adagio-to-presto accelerando begins
-    tutti urtext field / trajectories return (desynchronized pitched field
-        trajectories whisked skyward)
+    tutti urtext field / trajectories return
+    (desynchronized pitched field trajectories whisked skyward)
         urtext field double-stops
         subito pitch
-        desyncrhonized hair trajectories
+        desynchronized hair trajectories
             1/2 clt introduced towards end of trajectories independently
         p < mp scratch > senza scratch pp
     surprisingly short breath [v1 holds color through breath]
@@ -2831,14 +2831,14 @@ SEGMENTS
         p
     surprisingly short breath [v2 plays circles through breath]
 
-    [Q.12] (70-71 + fermata)
+    [Q.12] (70-71)
     (2 measures)
     adagio-to-presto accelerando begins
     presto achieved at fermata
-    tutti trajectories return (desynchronized pitched field trajectories
-        whisked skyward)
+    tutti trajectories return
+    (desynchronized pitched field trajectories whisked skyward)
         subito pitch
-        desyncrhonized hair trajectories
+        desynchronized hair trajectories
             1/2 clt introduced towards end of trajectories independently
         pp < p scratch > senza scratch ppp
     fermata [v1 holds color through fermata] (72)
@@ -2849,15 +2849,15 @@ SEGMENTS
     presto-to-largo ritardando begins
     largo achieved at start of measure 3:4
     v1, v2 trajectories continue
-        1/2 clt continues
+        [1/2 clt]
         desynchronized fast rate
-        ppp continues
+        [ppp]
     va memory of flight appears
         rich Bb2 pedal appears
-        pp continues
+        pp
     vc memory of flight appears
-        extremely slow tuning peg down-glissando from Bb1 to Bb0 happens
-        pp continues
+        extremely slow tuning peg down-glissando from Bb1 to Bb0
+        pp
     attacca
 
 [R] time series A; rotation -70
