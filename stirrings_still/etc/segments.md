@@ -2922,101 +2922,101 @@ SEGMENTS
 
     [S.1] (1-4)
     (4 measures)
-    largo continues
+    [largo]
     v1, v2
-        tacet continues
+        [tacet]
     va memory of flight continues
-        Bb2 pp pedal
+        [Bb2 pp pedal]
     vc
-        tacet continues
+        [tacet]
     attacca
 
     [S.2] (5)
     (1 measure)
-    largo continues
+    [largo]
     v1, v2 circles reappear
         fast whisked circles on accelerando and decrescendo
     va memory of flight continues
-        Bb2 pp pedal
+        [Bb2 pp pedal]
     vc memory of flight returns
         B0 slack-string mf dal niente
     attacca
 
     [S.3] (6-9)
     (4 measures)
-    largo continues
+    [largo]
     v1, v2
-        tacet subito
+        tacet
     va memory of flight continues
-        Bb2 pp pedal
+        [Bb2 pp pedal]
     vc
-        tacet subito
+        tacet
     attacca
 
     [S.4] (10-11)
     (2 measures)
-    largo continues
+    [largo]
     v1, v2 circles
         fast whisked circles on accelerando and decrescendo
     va memory of flight continues
-        Bb2 pp pedal
+        [Bb2 pp pedal]
     vc memory of flight returns
         Bb0 slack-string f dal niente
     attacca
 
     [S.5] (12-15)
     (4 measures)
-    largo continues
+    [largo]
     v1, v2
-        tacet subito
+        tacet
     va memory of flight continues
-        Bb2 pp pedal
+        [Bb2 pp pedal]
     vc
-        tacet subito
+        tacet
     attacca
 
     [S.6] (16-18)
     (3 measures)
-    largo continues
+    [largo]
     v1, v2 circles
         fast whisked circles on accelerando and decrescendo
     va memory of flight continues
-        Bb2 pp pedal
+        [Bb2 pp pedal]
     vc memory of flight returns
         Bb0 slack-string ff dal niente
     attacca
 
     [S.7] (19-22)
     (4 measures)
-    largo continues
+    [largo]
     v1, v2
         tacet
     va memory of flight continues
-        Bb2 pp pedal
+        [Bb2 pp pedal]
     vc
         tacet
     attacca
 
     [S.8] (23-26)
     (4 measures)
-    largo continues
+    [largo] 
     v1, v2 circles
         fast whisked circles on accelerando and decrescendo
     va memory of flight continues
-        Bb2 pp pedal
+        [Bb2 pp pedal]
     vc memory of flight returns
         Bb0 slack-string fff dal niente
     attacca
 
-    [S.9] (27-34 + long)
+    [S.9] (27-34)
     (8 measures)
-    largo continues
+    [largo]
     v1, v2
-        tacet ends
+        tacet
     va memory of flight ends
-        Bb2 pp pedal ends
+        [Bb2 pp pedal]
     vc
-        tacet ends
+        tacet
     long fermata (35)
 
 Time and grief and self so-called.
@@ -3024,22 +3024,3 @@ Time and grief and self so-called.
 Oh all to end.
 
     long fermata.
-
-###############################################################################
-########################## CANONICAL PARAMETER ORDER ##########################
-###############################################################################
-
-    [B.13] # stage name
-    (2 measures) # measure count
-    largo-to-adagio accelerando happens; # time directives
-    tutti trajectories continue: # dramaturgical character
-        damped lh; # LHS (left-hand setting(s), if not stopped)
-        1/2 clt; # BCS (bow contact surface(s), if not hair)
-        tasto-to-ord: # BCP (bow contact point(s))
-            arrives at start of measure 1:2
-        densenly spaced double-stops; # pitch
-        desynchronization: # rhythmic character
-            intercalated rests become shorter
-        ppp < mp: # dynamic(s)
-            arrives at start of measure 1:2
-    fermata (measure number); # fermata (if any)
