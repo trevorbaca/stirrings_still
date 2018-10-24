@@ -2713,7 +2713,7 @@ SEGMENTS
         <<attacca [Q.1] to effect prefix>>
     [Q.1] (2-9)
     (8 measures)
-    presto resumse after prefix
+    presto resumes after prefix
     tutti circles continue (desynchronized spinning white noise)
         subito damped lh
         each pitch fixed
