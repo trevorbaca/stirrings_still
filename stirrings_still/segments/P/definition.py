@@ -47,7 +47,10 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 4)),
-    baca.dynamic('ppppp'),
+    baca.dynamic(
+        'ppppp',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.markup('tasto [TODO: clouded pane fixed pitches]'),
     )
@@ -66,6 +69,16 @@ Sequence([Sequence([0, 1, 1, 1, 0, 0])])
 Sequence([Sequence([1, 1, 0, 0, 1, 0])])
 Sequence([Sequence([1, 0, 0, 1, 0, 1])])
 """
+
+# v1
+
+maker(
+    ('v1', [(1, 5), (8, 9), (11, 15), (18, 19)]),
+    baca.scp_spanner(
+        'T =|',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
 
 maker(
     ('v1', (5, 10)),
@@ -92,6 +105,40 @@ maker(
             ],
         ),
     )
+
+maker(
+    ('v1', (15, 20)),
+    baca.new(
+        baca.hairpin(
+            'ppppp < p > ppp',
+            pieces=baca.cmgroups(),
+            selector=baca.leaves().rleak(),
+            ),
+        measures=(16, 17),
+        ),
+    baca.new(
+        baca.hairpin(
+            'ppp < p > pp',
+            pieces=baca.leaves().partition_by_counts([2, 4, 1]),
+            selector=baca.leaves().rleak(),
+            ),
+        measures=20,
+        ),
+    baca.rhythm(
+        [
+            (stirrings_still.wave((4, 16), (1, 16)), [1, 2, 5]),
+            (baca.make_repeat_tied_notes(), True),
+            ],
+        ),
+    )
+
+maker(
+    ('v1', (21, 25)),
+    baca.beam(),
+    stirrings_still.glissando_interpolation('G4', 'Bb4'),
+    )
+
+# v2
 
 maker(
     ('v2', (5, 10)),
@@ -122,74 +169,6 @@ maker(
     baca.rhythm(
         [
             (stirrings_still.wave((6, 16), (1, 16)), [0, 2, 4]),
-            (baca.make_repeat_tied_notes(), True),
-            ],
-        ),
-    )
-
-maker(
-    ('va', (5, 10)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppppp',
-            pieces=baca.cmgroups([1, 2]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(8, 10),
-        ),
-    baca.rhythm(
-        [
-            (stirrings_still.wave((5, 16), (1, 16)), [3, 4, 5]),
-            (baca.make_repeat_tied_notes(), True),
-            ],
-        ),
-    )
-
-maker(
-    ('vc', (5, 10)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppppp',
-            pieces=baca.cmgroups([1, 2]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(6, 8),
-        ),
-    baca.rhythm(
-        [
-            (stirrings_still.wave((7, 16), (1, 16)), [1, 2, 3]),
-            (baca.make_repeat_tied_notes(), True),
-            ],
-        ),
-    )
-
-maker(
-    ('tutti', (11, 14)),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
-    )
-
-maker(
-    ('v1', (15, 20)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppp',
-            pieces=baca.cmgroups(),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(16, 17),
-        ),
-    baca.new(
-        baca.hairpin(
-            'ppp < p > pp',
-            pieces=baca.leaves().partition_by_counts([2, 4, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=20,
-        ),
-    baca.rhythm(
-        [
-            (stirrings_still.wave((4, 16), (1, 16)), [1, 2, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
@@ -231,6 +210,32 @@ maker(
     )
 
 maker(
+    ('v2', (20, 25)),
+    baca.beam(),
+    stirrings_still.glissando_interpolation('E4', 'Gb4'),
+    )
+
+# va
+
+maker(
+    ('va', (5, 10)),
+    baca.new(
+        baca.hairpin(
+            'ppppp < p > ppppp',
+            pieces=baca.cmgroups([1, 2]),
+            selector=baca.leaves().rleak(),
+            ),
+        measures=(8, 10),
+        ),
+    baca.rhythm(
+        [
+            (stirrings_still.wave((5, 16), (1, 16)), [3, 4, 5]),
+            (baca.make_repeat_tied_notes(), True),
+            ],
+        ),
+    )
+
+maker(
     ('va', (15, 20)),
     baca.new(
         baca.hairpin(
@@ -243,6 +248,32 @@ maker(
     baca.rhythm(
         [
             (stirrings_still.wave((5, 16), (1, 16)), [3, 4, 5]),
+            (baca.make_repeat_tied_notes(), True),
+            ],
+        ),
+    )
+
+maker(
+    ('va', (21, 25)),
+    baca.beam(),
+    stirrings_still.glissando_interpolation('F3', 'Ab3'),
+    )
+
+# vc
+
+maker(
+    ('vc', (5, 10)),
+    baca.new(
+        baca.hairpin(
+            'ppppp < p > ppppp',
+            pieces=baca.cmgroups([1, 2]),
+            selector=baca.leaves().rleak(),
+            ),
+        measures=(6, 8),
+        ),
+    baca.rhythm(
+        [
+            (stirrings_still.wave((7, 16), (1, 16)), [1, 2, 3]),
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
@@ -268,30 +299,6 @@ maker(
     )
 
 maker(
-    ('tutti', (21, 25)),
-    baca.breathe(),
-    stirrings_still.eighths(),
-    )
-
-maker(
-    ('v1', (21, 25)),
-    baca.beam(),
-    stirrings_still.glissando_interpolation('G4', 'Bb4'),
-    )
-
-maker(
-    ('v2', (20, 25)),
-    baca.beam(),
-    stirrings_still.glissando_interpolation('E4', 'Gb4'),
-    )
-
-maker(
-    ('va', (21, 25)),
-    baca.beam(),
-    stirrings_still.glissando_interpolation('F3', 'Ab3'),
-    )
-
-maker(
     ('vc', (19, 25)),
     baca.beam(),
     stirrings_still.glissando_interpolation('A2', 'C3'),
@@ -302,4 +309,23 @@ maker(
 maker(
     'tutti',
     baca.dls_staff_padding(6),
+    baca.new(
+        baca.dynamic_text_self_alignment_x(
+            -0.75,
+            selector=baca.leaves(),
+            ),
+        measures=(1, 20),
+        ),
+    )
+
+maker(
+    ('tutti', (11, 14)),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
+    )
+
+maker(
+    ('tutti', (21, 25)),
+    baca.breathe(),
+    stirrings_still.eighths(),
     )
