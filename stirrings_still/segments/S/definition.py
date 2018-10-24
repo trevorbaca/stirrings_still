@@ -61,15 +61,61 @@ maker(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.hairpin(
+        'ppp < p >',
+        pieces=baca.cmgroups(),
+        ),
+    stirrings_still.wave((5, 32), (1, 4)),
     )
 
 # va
 
 maker(
     ('va', (1, 34)),
-    baca.dynamic('pp-sempre'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
+    )
+
+# vc
+
+maker(
+    ('vc', 5),
+    baca.hairpin('o< mf'),
+    baca.make_rhythm(
+        'c1 ~ c4 ~ c4',
+        repeat_tie_threshold=(1, 4),
+        ),
+    )
+
+maker(
+    ('vc', whisk_measures[1:]),
+    baca.make_repeat_tied_notes(),
+    baca.ottava_bassa(),
+    baca.pitch('B0', allow_out_of_range=True),
+    )
+
+maker(
+    ('vc', 10),
+    baca.hairpin(
+        'o< f',
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', 16),
+    baca.hairpin(
+        'o< ff',
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', 23),
+    baca.hairpin(
+        'o< fff',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 # vertical
@@ -78,54 +124,3 @@ maker(
     'tutti',
     baca.dls_staff_padding(6),
     )
-
-maker(
-    (['v1', 'v2', 'vc'], [5, (10, 11), (16, 18), (23, 26)]),
-    baca.new(
-        baca.hairpin(
-            'ppp < p >',
-            pieces=baca.cmgroups(),
-            ),
-        stirrings_still.wave((5, 32), (1, 4)),
-        match=(4, 8),
-        ),
-    baca.new(
-        baca.hairpin('o< mf'),
-        baca.make_rhythm(
-            'c1 ~ c4 ~ c4',
-            repeat_tie_threshold=(1, 4),
-            ),
-        match=8,
-        ),
-    baca.new(
-        baca.make_repeat_tied_notes(),
-        match=(9, 12),
-        ),
-    baca.new(
-        baca.ottava_bassa(),
-        baca.pitch('B0', allow_out_of_range=True),
-        match=(8, 12),
-        ),
-    baca.new(
-        baca.hairpin(
-            'o< f',
-            selector=baca.rmleaves(1),
-            ),
-        match=9,
-        ),
-    baca.new(
-        baca.hairpin(
-            'o< ff',
-            selector=baca.rmleaves(1),
-            ),
-        match=10,
-        ),
-    baca.new(
-        baca.hairpin(
-            'o< fff',
-            selector=baca.rmleaves(1),
-            ),
-        match=11,
-        ),
-    )
-
