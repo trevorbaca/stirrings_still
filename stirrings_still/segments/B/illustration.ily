@@ -3927,10 +3927,11 @@ B_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
             % [B Violin_I_Rest_Voice measure 130 / measure 67]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
-            \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(6)
-            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(7)
-            \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:_style_phantom_measures(7)
-            \startStaff                                                        %! PHANTOM:_style_phantom_measures(7)
+            \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
+            \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
+            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
+            \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:_style_phantom_measures(8)
+            \startStaff                                                        %! PHANTOM:_style_phantom_measures(8)
             R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
@@ -6228,10 +6229,11 @@ B_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
             % [B Violin_II_Rest_Voice measure 130 / measure 67]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
-            \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(6)
-            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(7)
-            \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:_style_phantom_measures(7)
-            \startStaff                                                        %! PHANTOM:_style_phantom_measures(7)
+            \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
+            \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
+            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
+            \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:_style_phantom_measures(8)
+            \startStaff                                                        %! PHANTOM:_style_phantom_measures(8)
             R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
@@ -8371,10 +8373,11 @@ B_Viola_Music_Voice = {                                                        %
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
             % [B Viola_Rest_Voice measure 130 / measure 67]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
-            \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(6)
-            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(7)
-            \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:_style_phantom_measures(7)
-            \startStaff                                                        %! PHANTOM:_style_phantom_measures(7)
+            \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
+            \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
+            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
+            \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:_style_phantom_measures(8)
+            \startStaff                                                        %! PHANTOM:_style_phantom_measures(8)
             R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
@@ -10783,10 +10786,11 @@ B_Cello_Music_Voice = {                                                        %
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
             % [B Cello_Rest_Voice measure 130 / measure 67]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
-            \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(6)
-            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(7)
-            \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:_style_phantom_measures(7)
-            \startStaff                                                        %! PHANTOM:_style_phantom_measures(7)
+            \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
+            \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
+            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
+            \once \override Staff.StaffSymbol.transparent = ##t                %! PHANTOM:_style_phantom_measures(8)
+            \startStaff                                                        %! PHANTOM:_style_phantom_measures(8)
             R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
