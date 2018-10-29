@@ -3,6 +3,7 @@ import baca
 import os
 import stirrings_still
 
+# TODO: raise exception on overlapping scp (and other) material spanners
 
 ###############################################################################
 ##################################### [K] #####################################
@@ -753,35 +754,21 @@ maker(
 maker(
     'va',
     baca.new(
-        # TODO: make work:
-#        baca.damp_spanner(
-#            abjad.tweak(8).staff_padding,
-#            ),
+        baca.damp_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
         baca.hairpin(
             'p >o niente',
             ),
         baca.make_repeat_tied_notes(
             do_not_rewrite_meter=True,
             ),
-        # TODO: make work:
-#        baca.scp_spanner(
-#            'T poss. =|',
-#            abjad.tweak(5.5).staff_padding,
-#            ),
-        measures=(46, -1),
-        ),
-    )
-
-# TODO: replace with expression above
-maker(
-    ('va', (46, -2)),
-        baca.damp_spanner(
-            abjad.tweak(8).staff_padding,
-            ),
         baca.scp_spanner(
             'T poss. =|',
             abjad.tweak(5.5).staff_padding,
             ),
+        measures=(46, -1),
+        ),
     )
 
 maker(

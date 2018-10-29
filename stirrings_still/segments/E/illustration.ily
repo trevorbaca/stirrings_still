@@ -15740,7 +15740,7 @@ E_Cello_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "new (stepwise above)"                      %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
+    - \tweak bound-details.right.padding #2.5                                  %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanPA                                                       %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
@@ -15795,7 +15795,6 @@ E_Cello_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_clouded_pane
     \repeatTie
-    \bacaStopTextSpanPA                                                        %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -15806,6 +15805,7 @@ E_Cello_Music_Voice = {                                                        %
             % [E Cello_Music_Voice measure 433 / measure 128]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanPA                                                %! PHANTOM:_style_phantom_measures(5):PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

@@ -1027,7 +1027,6 @@ maker(
         'new (stepwise above) -|',
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
-        measures=(118, 126),
         ),
     stirrings_still.clouded_pane(),
     )

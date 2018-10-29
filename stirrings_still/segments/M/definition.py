@@ -281,7 +281,6 @@ maker(
     ('trio', (29, 32)),
     stirrings_still.clouded_pane_annotation_spanner(
         'clouded pane -|', 8,
-        selector=baca.leaves(),
         ),
     )
 
@@ -299,10 +298,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner(
-        'clouded pane -|', 5.5,
-        measures=(1, -2),
-        ),
+    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
     )
 
 # vertical
