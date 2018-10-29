@@ -181,7 +181,7 @@ maker(
         ),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
-        selector=baca.leaves(),
+        selector=baca.leaves().rleak(),
         ),
     baca.new(
         baca.suite(
