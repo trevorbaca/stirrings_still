@@ -1,15 +1,8 @@
 TO-DO
 =====
 
-1.  Finalize phantom measures.
-    Turn on phantom measures in Nähte.
-    Teach _get_persistent_wrappers() more about phantom-attached StopTextSpan.
-    Allow text spanners to attach to phantom measures.
-    Allow right-broken text spanners on phantom measures.
-    Allow right-broken hairpins on phantom measures.
-    Allow right-broken glissandi on phantom measures.
+1.  Stabilize phantom measures.
     Build Nähte with phantom measures.
-    Write right-broken phantom measure tests.
     Build Stirrings Still with phantom measures.
 
 2.  Add parenthesized dynamics.
