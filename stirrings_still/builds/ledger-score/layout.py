@@ -54,6 +54,7 @@ breaks = baca.breaks(
             ),
         number=4,
         ),
+    partial_score=129,
     )
 
 spacing = baca.scorewide_spacing(
