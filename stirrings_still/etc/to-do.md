@@ -2,7 +2,6 @@ TO-DO
 =====
 
 1.  Stabilize phantom measures.
-    Build Nähte with phantom measures.
     Build Stirrings Still with phantom measures.
 
 2.  Add parenthesized dynamics.
