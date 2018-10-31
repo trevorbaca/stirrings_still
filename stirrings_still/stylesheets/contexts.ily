@@ -56,10 +56,10 @@
 
         \override BarNumber.Y-extent = ##f
         % TODO: hide in score:
-        \override BarNumber.break-visibility = #end-of-line-invisible
+        %\override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
-        \override BarNumber.stencil = ##f
+        %\override BarNumber.stencil = ##f
 
         % prevents StaffSymbol from starting too early after cut-away measures:
         \override TimeSignature.X-extent = ##f
@@ -161,8 +161,7 @@
         \override TupletNumber.font-size = 1
 
         autoBeaming = ##f
-        % TODO: activate in score:
-        %barNumberFormatter = #baca-oval-bar-numbers
+        barNumberFormatter = #baca-oval-bar-numbers
         tupletFullLength = ##t
     }
 }
