@@ -4,4 +4,9 @@
 #(set-default-paper-size "ledger")
 
 \paper {
+    right-margin = 15\mm
+}
+
+\layout {
+    ragged-right = ##f
 }
