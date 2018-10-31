@@ -117,6 +117,7 @@ maker(
 
 maker(
     'va',
+    baca.clef('alto'),
     baca.suite(
         stirrings_still.margin_markup('Va.'),
         baca.start_markup(r'\stirrings-still-viola-markup', literal=True),
@@ -125,6 +126,7 @@ maker(
 
 maker(
     'vc',
+    baca.clef('bass'),
     baca.suite(
         stirrings_still.margin_markup('Vc.'),
         baca.start_markup(r'\stirrings-still-cello-markup', literal=True),

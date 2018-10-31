@@ -6,12 +6,12 @@ breaks = baca.breaks(
         baca.system(
             18, 24,
             measure=1,
-            y_offset=60,
+            y_offset=65,
             ),
         baca.system(
             18, 24,
             measure=15,
-            y_offset=165,
+            y_offset=180,
             ),
         number=1,
         ),
@@ -24,7 +24,7 @@ breaks = baca.breaks(
         baca.system(
             20, 26,
             measure=46,
-            y_offset=145,
+            y_offset=155,
             ),
         number=2,
         ),

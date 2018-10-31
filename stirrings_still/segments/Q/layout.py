@@ -11,7 +11,7 @@ breaks = baca.breaks(
         baca.system(
             20, 26,
             measure=17,
-            y_offset=150,
+            y_offset=160,
             ),
         number=1,
         ),
@@ -24,7 +24,7 @@ breaks = baca.breaks(
         baca.system(
             20, 26,
             measure=49,
-            y_offset=150,
+            y_offset=160,
             ),
         number=2,
         ),
@@ -37,7 +37,7 @@ breaks = baca.breaks(
         baca.system(
             20, 26,
             measure=81,
-            y_offset=150,
+            y_offset=160,
             ),
         number=3,
         ),
