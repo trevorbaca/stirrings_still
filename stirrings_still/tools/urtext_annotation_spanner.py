@@ -16,6 +16,7 @@ def urtext_annotation_spanner(
         string,
         abjad.tweak('darkred').color,
         abjad.tweak(staff_padding).staff_padding,
+        lilypond_id='Urtext',
         measures=measures,
         selector=selector,
         tag='MATERIAL:URTEXT',

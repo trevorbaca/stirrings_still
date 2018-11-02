@@ -16,6 +16,7 @@ def circle_annotation_spanner(
         string,
         abjad.tweak('darkyellow').color,
         abjad.tweak(staff_padding).staff_padding,
+        lilypond_id='Circles',
         measures=measures,
         selector=selector,
         tag='MATERIAL:CIRCLE',
