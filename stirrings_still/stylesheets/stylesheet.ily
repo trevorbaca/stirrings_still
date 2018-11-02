@@ -2,8 +2,10 @@
 #(set-global-staff-size 11)
 
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
+\include "annotation-spanners.ily"
 \include "contexts.ily"
 \include "markups.ily"
+
 
 \paper {
     %bottom-margin = 10\mm

@@ -41,6 +41,7 @@ from .time import time
 from .time_signatures import time_signatures
 from .to_flight import to_flight
 from .trajectories import trajectories
+from .trajectory_annotation_spanner import trajectory_annotation_spanner
 from .transition_bcps import transition_bcps
 from .urtext_annotation_spanner import urtext_annotation_spanner
 from .urtext_field import urtext_field
