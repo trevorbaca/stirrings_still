@@ -54,6 +54,10 @@ maker(
         abjad.tweak((0, 12)).extra_offset,
         selector=baca.skip(18 - 1),
         ),
+    baca.new(
+        baca.volta(),
+        measures=(44, 48),
+        ),
     )
 
 time = (

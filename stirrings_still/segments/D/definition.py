@@ -113,6 +113,14 @@ maker(
         baca.volta(),
         measures=(31, 36),
         ),
+    baca.new(
+        baca.volta(),
+        measures=(57, 60),
+        ),
+    baca.new(
+        baca.volta(),
+        measures=(94, 97),
+        ),
     baca.rehearsal_mark(
         'D',
         abjad.tweak((0, 10)).extra_offset,

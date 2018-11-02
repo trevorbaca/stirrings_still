@@ -56,93 +56,98 @@ C_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only "[5'13'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [C Global_Skips measure 133 / measure 4]                                 %! _comment_measure_numbers
-    \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "133"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[5'13'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+    \repeat volta 2
+    {
 
-    % [C Global_Skips measure 134 / measure 5]                                 %! _comment_measure_numbers
-    \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 7/8                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER_MARKUP
-    \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "4"                                            %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "134"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-colored-left-only "[G.1]" #darkgreen                     %! STAGE_NUMBER_MARKUP
-    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "56" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[5'17'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+        % [C Global_Skips measure 133 / measure 4]                             %! _comment_measure_numbers
+        \time 3/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+        s1 * 3/4                                                               %! _make_global_skips(1)
+    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
+        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-lmi-left-only "3"                                        %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
+        - \baca-start-lmn-left-only "4"                                        %! LOCAL_MEASURE_NUMBER_MARKUP
+        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "133"                                       %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-ct-left-only "[5'13'']"                                  %! CLOCK_TIME_MARKUP
+    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
 
-    % [C Global_Skips measure 135 / measure 6]                                 %! _comment_measure_numbers
-    \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 1/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "5"                                            %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "135"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[5'17'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+        % [C Global_Skips measure 134 / measure 5]                             %! _comment_measure_numbers
+        \time 14/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+        s1 * 7/8                                                               %! _make_global_skips(1)
+    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
+        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
+        \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER_MARKUP
+        \bacaStopTextSpanMM                                                    %! _attach_metronome_marks(1)
+    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-lmi-left-only "4"                                        %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
+        - \baca-start-lmn-left-only "5"                                        %! LOCAL_MEASURE_NUMBER_MARKUP
+        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "134"                                       %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
+        - \baca-start-snm-colored-left-only "[G.1]" #darkgreen                 %! STAGE_NUMBER_MARKUP
+        \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER_MARKUP
+    %@% - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+    %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+    %@% \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+        - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+        - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "56" #'blue     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+        \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    %@% - \baca-start-ct-left-only "[5'17'']"                                  %! CLOCK_TIME_MARKUP
+    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
 
-    % [C Global_Skips measure 136 / measure 7]                                 %! _comment_measure_numbers
-    \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER_MARKUP
-    \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "6"                                            %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "136"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-left-only "[C.2]"                                        %! STAGE_NUMBER_MARKUP
-    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[5'21'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+        % [C Global_Skips measure 135 / measure 6]                             %! _comment_measure_numbers
+        \time 1/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+        s1 * 1/4                                                               %! _make_global_skips(1)
+    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
+        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-lmi-left-only "5"                                        %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
+        - \baca-start-lmn-left-only "6"                                        %! LOCAL_MEASURE_NUMBER_MARKUP
+        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "135"                                       %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-ct-left-only "[5'17'']"                                  %! CLOCK_TIME_MARKUP
+    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+
+        % [C Global_Skips measure 136 / measure 7]                             %! _comment_measure_numbers
+        \time 4/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+        s1 * 1                                                                 %! _make_global_skips(1)
+    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
+        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
+        \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER_MARKUP
+        \bacaStopTextSpanMM                                                    %! _attach_metronome_marks(1)
+    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-lmi-left-only "6"                                        %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
+        - \baca-start-lmn-left-only "7"                                        %! LOCAL_MEASURE_NUMBER_MARKUP
+        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "136"                                       %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
+        - \baca-start-snm-left-only "[C.2]"                                    %! STAGE_NUMBER_MARKUP
+        \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER_MARKUP
+    %@% - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+    %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+    %@% \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+        - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+        - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+        \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    %@% - \baca-start-ct-left-only "[5'21'']"                                  %! CLOCK_TIME_MARKUP
+    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+
+    }
 
     % [C Global_Skips measure 137 / measure 8]                                 %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -1476,63 +1481,68 @@ C_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only "[7'01'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [C Global_Skips measure 203 / measure 74]                                %! _comment_measure_numbers
-    \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-    \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "73"                                           %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "74"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "203"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[7'01'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+    \repeat volta 2
+    {
 
-    % [C Global_Skips measure 204 / measure 75]                                %! _comment_measure_numbers
-    \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 1                                                                     %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "74"                                           %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "75"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "204"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[7'04'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+        % [C Global_Skips measure 203 / measure 74]                            %! _comment_measure_numbers
+        \time 3/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+        s1 * 3/4                                                               %! _make_global_skips(1)
+    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
+        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
+        \bacaStopTextSpanMM                                                    %! _attach_metronome_marks(1)
+    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-lmi-left-only "73"                                       %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
+        - \baca-start-lmn-left-only "74"                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "203"                                       %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
+    %@% - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+    %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"                   %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+    %@% \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+        - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+        - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+        \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    %@% - \baca-start-ct-left-only "[7'01'']"                                  %! CLOCK_TIME_MARKUP
+    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
 
-    % [C Global_Skips measure 205 / measure 76]                                %! _comment_measure_numbers
-    \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 5/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "75"                                           %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "76"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "205"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[7'04'']"                                      %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+        % [C Global_Skips measure 204 / measure 75]                            %! _comment_measure_numbers
+        \time 4/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+        s1 * 1                                                                 %! _make_global_skips(1)
+    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
+        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-lmi-left-only "74"                                       %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
+        - \baca-start-lmn-left-only "75"                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "204"                                       %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-ct-left-only "[7'04'']"                                  %! CLOCK_TIME_MARKUP
+    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+
+        % [C Global_Skips measure 205 / measure 76]                            %! _comment_measure_numbers
+        \time 5/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+        s1 * 5/4                                                               %! _make_global_skips(1)
+    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
+        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-lmi-left-only "75"                                       %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
+        - \baca-start-lmn-left-only "76"                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "205"                                       %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-ct-left-only "[7'04'']"                                  %! CLOCK_TIME_MARKUP
+    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+
+    }
 
     % [C Global_Skips measure 206 / measure 77]                                %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)

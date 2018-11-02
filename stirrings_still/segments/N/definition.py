@@ -35,6 +35,14 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.new(
+        baca.volta(),
+        measures=(29, 33),
+        ),
+    baca.new(
+        baca.volta(),
+        measures=(34, 37),
+        ),
     baca.rehearsal_mark(
         'N',
         abjad.tweak((0, 10)).extra_offset,
