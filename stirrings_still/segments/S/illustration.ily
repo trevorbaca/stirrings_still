@@ -747,6 +747,7 @@ S_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_I_Rest_Voice measure 836 / measure 1]                  %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -754,6 +755,7 @@ S_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_I_Music_Voice measure 837 / measure 2]                         %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Violin_I_Music_Voice measure 838 / measure 3]                         %! _comment_measure_numbers
@@ -761,6 +763,7 @@ S_Violin_I_Music_Voice = {                                                     %
 
     % [S Violin_I_Music_Voice measure 839 / measure 4]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -815,6 +818,7 @@ S_Violin_I_Music_Voice = {                                                     %
         [                                                                      %! stirrings_still_wave
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -869,6 +873,7 @@ S_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_I_Rest_Voice measure 841 / measure 6]                  %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 3/2                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -876,6 +881,7 @@ S_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_I_Music_Voice measure 842 / measure 7]                         %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Violin_I_Music_Voice measure 843 / measure 8]                         %! _comment_measure_numbers
@@ -883,6 +889,7 @@ S_Violin_I_Music_Voice = {                                                     %
 
     % [S Violin_I_Music_Voice measure 844 / measure 9]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -937,6 +944,7 @@ S_Violin_I_Music_Voice = {                                                     %
         [                                                                      %! stirrings_still_wave
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -1054,6 +1062,7 @@ S_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_I_Rest_Voice measure 847 / measure 12]                 %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1061,6 +1070,7 @@ S_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_I_Music_Voice measure 848 / measure 13]                        %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [S Violin_I_Music_Voice measure 849 / measure 14]                        %! _comment_measure_numbers
@@ -1068,6 +1078,7 @@ S_Violin_I_Music_Voice = {                                                     %
 
     % [S Violin_I_Music_Voice measure 850 / measure 15]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1124,6 +1135,7 @@ S_Violin_I_Music_Voice = {                                                     %
         [                                                                      %! stirrings_still_wave
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -1328,6 +1340,7 @@ S_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_I_Rest_Voice measure 854 / measure 19]                 %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1335,6 +1348,7 @@ S_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_I_Music_Voice measure 855 / measure 20]                        %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [S Violin_I_Music_Voice measure 856 / measure 21]                        %! _comment_measure_numbers
@@ -1342,6 +1356,7 @@ S_Violin_I_Music_Voice = {                                                     %
 
     % [S Violin_I_Music_Voice measure 857 / measure 22]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1396,6 +1411,7 @@ S_Violin_I_Music_Voice = {                                                     %
         [                                                                      %! stirrings_still_wave
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -1660,6 +1676,7 @@ S_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_I_Rest_Voice measure 862 / measure 27]                 %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1667,6 +1684,7 @@ S_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_I_Music_Voice measure 863 / measure 28]                        %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Violin_I_Music_Voice measure 864 / measure 29]                        %! _comment_measure_numbers
@@ -1686,6 +1704,7 @@ S_Violin_I_Music_Voice = {                                                     %
 
     % [S Violin_I_Music_Voice measure 869 / measure 34]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [S Violin_I_Music_Voice measure 870 / measure 35]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -1762,6 +1781,7 @@ S_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_II_Rest_Voice measure 836 / measure 1]                 %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1769,6 +1789,7 @@ S_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_II_Music_Voice measure 837 / measure 2]                        %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Violin_II_Music_Voice measure 838 / measure 3]                        %! _comment_measure_numbers
@@ -1776,6 +1797,7 @@ S_Violin_II_Music_Voice = {                                                    %
 
     % [S Violin_II_Music_Voice measure 839 / measure 4]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1830,6 +1852,7 @@ S_Violin_II_Music_Voice = {                                                    %
         [                                                                      %! stirrings_still_wave
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -1878,6 +1901,7 @@ S_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_II_Rest_Voice measure 841 / measure 6]                 %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 3/2                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1885,6 +1909,7 @@ S_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_II_Music_Voice measure 842 / measure 7]                        %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Violin_II_Music_Voice measure 843 / measure 8]                        %! _comment_measure_numbers
@@ -1892,6 +1917,7 @@ S_Violin_II_Music_Voice = {                                                    %
 
     % [S Violin_II_Music_Voice measure 844 / measure 9]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1946,6 +1972,7 @@ S_Violin_II_Music_Voice = {                                                    %
         [                                                                      %! stirrings_still_wave
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -2054,6 +2081,7 @@ S_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_II_Rest_Voice measure 847 / measure 12]                %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2061,6 +2089,7 @@ S_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_II_Music_Voice measure 848 / measure 13]                       %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [S Violin_II_Music_Voice measure 849 / measure 14]                       %! _comment_measure_numbers
@@ -2068,6 +2097,7 @@ S_Violin_II_Music_Voice = {                                                    %
 
     % [S Violin_II_Music_Voice measure 850 / measure 15]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -2124,6 +2154,7 @@ S_Violin_II_Music_Voice = {                                                    %
         [                                                                      %! stirrings_still_wave
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -2316,6 +2347,7 @@ S_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_II_Rest_Voice measure 854 / measure 19]                %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2323,6 +2355,7 @@ S_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_II_Music_Voice measure 855 / measure 20]                       %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [S Violin_II_Music_Voice measure 856 / measure 21]                       %! _comment_measure_numbers
@@ -2330,6 +2363,7 @@ S_Violin_II_Music_Voice = {                                                    %
 
     % [S Violin_II_Music_Voice measure 857 / measure 22]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -2384,6 +2418,7 @@ S_Violin_II_Music_Voice = {                                                    %
         [                                                                      %! stirrings_still_wave
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -2630,6 +2665,7 @@ S_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Violin_II_Rest_Voice measure 862 / measure 27]                %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2637,6 +2673,7 @@ S_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_II_Music_Voice measure 863 / measure 28]                       %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Violin_II_Music_Voice measure 864 / measure 29]                       %! _comment_measure_numbers
@@ -2656,6 +2693,7 @@ S_Violin_II_Music_Voice = {                                                    %
 
     % [S Violin_II_Music_Voice measure 869 / measure 34]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [S Violin_II_Music_Voice measure 870 / measure 35]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -2958,6 +2996,7 @@ S_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Cello_Rest_Voice measure 836 / measure 1]                     %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2965,6 +3004,7 @@ S_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Cello_Music_Voice measure 837 / measure 2]                            %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 838 / measure 3]                            %! _comment_measure_numbers
@@ -2972,6 +3012,7 @@ S_Cello_Music_Voice = {                                                        %
 
     % [S Cello_Music_Voice measure 839 / measure 4]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [S Cello_Music_Voice measure 840 / measure 5]                            %! _comment_measure_numbers
     c1
@@ -3002,6 +3043,7 @@ S_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Cello_Rest_Voice measure 841 / measure 6]                     %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 3/2                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3009,6 +3051,7 @@ S_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Cello_Music_Voice measure 842 / measure 7]                            %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 843 / measure 8]                            %! _comment_measure_numbers
@@ -3016,6 +3059,7 @@ S_Cello_Music_Voice = {                                                        %
 
     % [S Cello_Music_Voice measure 844 / measure 9]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [S Cello_Music_Voice measure 845 / measure 10]                           %! _comment_measure_numbers
     \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
@@ -3046,6 +3090,7 @@ S_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Cello_Rest_Voice measure 847 / measure 12]                    %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3053,6 +3098,7 @@ S_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Cello_Music_Voice measure 848 / measure 13]                           %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 849 / measure 14]                           %! _comment_measure_numbers
@@ -3060,6 +3106,7 @@ S_Cello_Music_Voice = {                                                        %
 
     % [S Cello_Music_Voice measure 850 / measure 15]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [S Cello_Music_Voice measure 851 / measure 16]                           %! _comment_measure_numbers
     \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
@@ -3097,6 +3144,7 @@ S_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Cello_Rest_Voice measure 854 / measure 19]                    %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3104,6 +3152,7 @@ S_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Cello_Music_Voice measure 855 / measure 20]                           %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 856 / measure 21]                           %! _comment_measure_numbers
@@ -3111,6 +3160,7 @@ S_Cello_Music_Voice = {                                                        %
 
     % [S Cello_Music_Voice measure 857 / measure 22]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [S Cello_Music_Voice measure 858 / measure 23]                           %! _comment_measure_numbers
     \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
@@ -3149,6 +3199,7 @@ S_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [S Cello_Rest_Voice measure 862 / measure 27]                    %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3156,6 +3207,7 @@ S_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Cello_Music_Voice measure 863 / measure 28]                           %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [S Cello_Music_Voice measure 864 / measure 29]                           %! _comment_measure_numbers
@@ -3175,6 +3227,7 @@ S_Cello_Music_Voice = {                                                        %
 
     % [S Cello_Music_Voice measure 869 / measure 34]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [S Cello_Music_Voice measure 870 / measure 35]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
