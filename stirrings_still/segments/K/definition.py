@@ -3,7 +3,6 @@ import baca
 import os
 import stirrings_still
 
-# TODO: raise exception on overlapping scp (and other) material spanners
 
 ###############################################################################
 ##################################### [K] #####################################
@@ -42,6 +41,10 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.new(
+        baca.volta(),
+        measures=(1, 8),
+        ),
     baca.rehearsal_mark(
         'K',
         abjad.tweak((0, 10)).extra_offset,
