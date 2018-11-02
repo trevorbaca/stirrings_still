@@ -158,18 +158,6 @@ maker(
     stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
     )
 
-## test
-#
-#maker(
-#    ('vc', (1, 6)),
-#    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
-#    )
-#
-#maker(
-#    ('vc', (3, 5)),
-#    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 10.5),
-#    )
-
 # vertical
 
 maker(

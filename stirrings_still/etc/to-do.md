@@ -1,9 +1,7 @@
 TO-DO
 =====
 
-1.  Raise exception on overlapping clouded pane annotation spanners.
-
-2.  Allow for piece-specific material annotation spanners.
+1.  Allow for piece-specific material annotation spanners.
 
         bacaStartTextSpanCloudedPane = #(
             make-music 'TextSpanEvent 'span-direction START 'spanner-id "CloudedPane"
@@ -13,8 +11,8 @@ TO-DO
             make-music 'TextSpanEvent 'span-direction STOP 'spanner-id "CloudedPane"
             )
 
-3.  Allow left-broken text on long spanners.
+2.  Allow left-broken text on long spanners.
 
-4.  Analyze volta application.
+3.  Analyze volta application.
 
-5.  Audit overlapping transitions.
+4.  Audit overlapping transitions.
