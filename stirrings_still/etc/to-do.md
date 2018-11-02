@@ -1,8 +1,6 @@
 TO-DO
 =====
 
-1.  Allow left-broken text on long spanners.
+1.  Analyze volta application.
 
-2.  Analyze volta application.
-
-3.  Audit overlapping transitions.
+2.  Audit overlapping transitions.

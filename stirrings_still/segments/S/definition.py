@@ -124,3 +124,13 @@ maker(
     'tutti',
     baca.dls_staff_padding(6),
     )
+
+maker(
+    (['v1', 'v2', 'vc'], [(1, 4), (6, 9), (12, 15), (19, 22), (27, 34)]),
+    baca.tacet(),
+    )
+
+maker(
+    (['v1x', 'v2x', 'vcx'], [1, 6, 12, 19, 27]),
+    baca.tacet(),
+    )
