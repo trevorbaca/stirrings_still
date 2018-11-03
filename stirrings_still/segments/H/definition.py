@@ -741,7 +741,9 @@ maker(
     ('vc', 55),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
-        selector=baca.leaves().rleak(),
+        # TODO: allow spanner to run to end of segment
+        #selector=baca.leaves().rleak(),
+        selector=baca.leaves(),
         ),
     )
 
@@ -828,7 +830,9 @@ maker(
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
-        selector=baca.leaves().rleak(),
+        # TODO: allow spanner to run to end of segment
+        #selector=baca.leaves().rleak(),
+        selector=baca.leaves(),
         ),
     baca.hairpin(
         'mp -- !',
