@@ -181,7 +181,9 @@ maker(
         ),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
-        selector=baca.leaves().rleak(),
+        # TODO: allow spanner to extend to phantom measure
+        #selector=baca.leaves().rleak(),
+        selector=baca.leaves(),
         ),
     baca.new(
         baca.suite(

@@ -282,10 +282,14 @@ maker(
             ),
         baca.damp_spanner(
             abjad.tweak(8).staff_padding,
+            # TODO: allow spanner to extend to phantom measure
+            selector=baca.leaves(),
             ),
         baca.scp_spanner(
             'T poss. =|',
             abjad.tweak(5.5).staff_padding,
+            # TODO: allow spanner to extend to phantom measure
+            selector=baca.leaves(),
             ),
         measures=(46, -1),
         ),
@@ -508,10 +512,14 @@ maker(
             ),
         baca.damp_spanner(
             abjad.tweak(8).staff_padding,
+            # TODO: allow spanner to extend to phantom measure
+            selector=baca.leaves(),
             ),
         baca.scp_spanner(
             'T poss. =|',
             abjad.tweak(5.5).staff_padding,
+            # TODO: allow spanner to extend to phantom measure
+            selector=baca.leaves(),
             ),
         measures=(46, -1),
         ),
@@ -759,6 +767,8 @@ maker(
     baca.new(
         baca.damp_spanner(
             abjad.tweak(8).staff_padding,
+            # TODO: allow spanner to extend to phantom measure
+            selector=baca.leaves(),
             ),
         baca.hairpin(
             'p >o niente',
@@ -769,6 +779,8 @@ maker(
         baca.scp_spanner(
             'T poss. =|',
             abjad.tweak(5.5).staff_padding,
+            # TODO: allow spanner to extend to phantom measure
+            selector=baca.leaves(),
             ),
         measures=(46, -1),
         ),

@@ -117,9 +117,10 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.urtext_field(),
+    # TODO: allow right-broken spanner
     stirrings_still.urtext_annotation_spanner(
-        'urtext (sustained ds) ->', 5.5,
-        measures=10,
+        'urtext (sustained ds) -|', 5.5,
+        selector=baca.leaves(),
         ),
     )
 
@@ -150,11 +151,18 @@ maker(
     'vc',
     baca.hairpin(
         'p < "f" -- "f" >o niente',
-        pieces=baca.mgroups([5, 4, 2 + 1]),
-        selector=baca.leaves().rleak(),
+        # TODO: allow hairpin to extend to end of segment
+        # following two lines should remain
+        #pieces=baca.mgroups([5, 4, 2 + 1]),
+        #selector=baca.leaves().rleak(),
+        # temporary:
+        pieces=baca.mgroups([5, 4, 1 + 1]),
+        selector=baca.leaves(),
         ),
     baca.half_clt_spanner(
         abjad.tweak(13).staff_padding,
+        # TODO: allow spanner to extend to end of segment
+        selector=baca.leaves(),
         ),
     )
 
