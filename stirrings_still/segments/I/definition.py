@@ -72,18 +72,13 @@ maker(
             ),
         match=2,
         ),
-    stirrings_still.circle_annotation_spanner(
-        'golden -|',
-        8,
-        selector=baca.ltleaves().rleak(),
-        ),
     )
 
 maker(
     (['v1', 'v2'], (1, 7)),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
