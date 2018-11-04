@@ -582,26 +582,10 @@ maker(
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-3, 0)).extra_offset,
         ),
-    baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-tailpiece-poco-flicker',
-            literal=True,
-            ),
-        abjad.tweak(0).parent_alignment_X,
+    stirrings_still.tailpiece(
+        (abjad.tweak(1.5).bound_details__right__padding, -1),
+        measures=(5, 11),
         ),
-    baca.staff_position(0),
-    baca.suite(
-        baca.staff_lines(1),
-        baca.staff_lines(
-            5,
-            selector=baca.leaves().rleak()[-1:],
-            ),
-        ),
-    stirrings_still.glissando_without_ties(
-        (abjad.tweak(1.25).bound_details__right__padding, -1),
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.solid_line_rhythm(),
     )
 
 maker(
