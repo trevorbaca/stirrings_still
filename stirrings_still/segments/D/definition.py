@@ -363,7 +363,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(13).staff_padding,
         ),
     baca.script_staff_padding(7.5),
     stirrings_still.bcps(
@@ -411,10 +411,10 @@ maker(
         selector=baca.note(-1),
         ),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.declamation(),
-    stirrings_still.urtext_annotation_spanner('A, B -|', 8),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 5.5),
     )
 
 maker(
@@ -434,13 +434,9 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         abjad.tweak((0, 0)).X_extent,
         ),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markup('tailpiece'),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    stirrings_still.glissando_without_ties(
-        (abjad.tweak(2.25).bound_details__right__padding, -1),
-        selector=baca.leaves().rleak(),
+    stirrings_still.tailpiece(
+        (abjad.tweak(1.5).bound_details__right__padding, -1),
+        measures=(49, 54),
         ),
     )
 
@@ -460,11 +456,6 @@ maker(
 maker(
     ('vcx', 51),
     baca.tacet(),
-    )
-
-maker(
-    ('va', 55),
-    baca.staff_lines(5),
     )
 
 maker(
@@ -488,10 +479,10 @@ maker(
         selector=baca.note(-1),
         ),
     baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.declamation(),
-    stirrings_still.urtext_annotation_spanner('A, B -|', 8),
+    stirrings_still.urtext_annotation_spanner('A, B -|', 5.5),
     )
 
 maker(
@@ -506,19 +497,23 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     baca.new(
+#        baca.dynamic_text_parent_alignment_x(
+#            -4,
+#            selector=baca.pleaf(-1),
+#            ),
+        baca.dynamic_text_self_alignment_x(
+            1,
+            selector=baca.pleaf(-1),
+            ),
+        baca.hairpin('pp < mp'),
+        ),
+    baca.new(
         stirrings_still.accelerando((1, 4), (1, 16)),
         match=0,
         ),
     baca.new(
         stirrings_still.accelerando((1, 4), (2, 16)),
         match=1,
-        ),
-    baca.suite(
-        baca.dynamic_text_parent_alignment_x(
-            -4,
-            selector=baca.pleaf(-1),
-            ),
-        baca.hairpin('pp < mp'),
         ),
     )
 
@@ -565,19 +560,23 @@ maker(
 
 maker(
     ('trio', 65),
-    baca.dynamic('p'),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_annotation_spanner('urtext (cds) -|', 10.5),
+    stirrings_still.urtext_annotation_spanner('urtext (cds) -|', 5.5),
     )
 
 maker(
     ('trio', 66),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.hairpin(
         'mp -- !',
@@ -585,6 +584,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.new(
+        baca.beam(),
         stirrings_still.circles((1, 8)),
         match=0,
         ),
@@ -604,7 +604,10 @@ maker(
 
 maker(
     ('trio', 67),
-    baca.dynamic('p-sempre'),
+    baca.dynamic(
+        'p-sempre',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
     stirrings_still.urtext_field(),
     )
 
@@ -667,12 +670,12 @@ maker(
 
 maker(
     ('trio', (67, 89)),
-    stirrings_still.urtext_annotation_spanner('urtext (cds) -|', 10.5),
+    stirrings_still.urtext_annotation_spanner('urtext (cds) -|', 5.5),
     )
 
 maker(
     (['v1', 'v2'], (90, 92)),
-    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 10.5),
+    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 5.5),
     )
 
 maker(
@@ -702,7 +705,7 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 10.5),
+    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 5.5),
     )
 
 
@@ -716,23 +719,14 @@ maker(
     )
 
 maker(
-    ('va', 94),
-    baca.staff_lines(5),
-    )
-
-maker(
     ('va', (90, 93)),
     baca.dynamic(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
         ),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markup('tailpiece'),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    stirrings_still.glissando_without_ties(
-        (abjad.tweak(2.25).bound_details__right__padding, -1),
-        selector=baca.leaves().rleak(),
+    stirrings_still.tailpiece(
+        (abjad.tweak(1.5).bound_details__right__padding, -1),
+        measures=(90, 93),
         ),
     )
 
