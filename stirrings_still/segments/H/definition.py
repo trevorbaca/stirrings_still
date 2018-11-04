@@ -30,8 +30,8 @@ stage_markup = (
     ('[H.14.1]', 51),
     ('[G.5.1]', 52, 'darkgreen'),
     ('[C.7]', 53, 'darkgreen'),
-    ('[G.5.2]', 54, 'darkgreen'),
-    ('[H.14.2]', 55),
+    ('[G.5.2]', 55, 'darkgreen'),
+    ('[H.14.2]', 56),
     )
 
 maker = baca.SegmentMaker(
@@ -44,7 +44,7 @@ maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('H'),
-    validate_measure_count=55,
+    validate_measure_count=56,
     )
 
 maker(
@@ -94,8 +94,8 @@ time = (
     ('largo', 50),
     ('largo piu mosso', 52),
     ('allegro', 53),
-    ('largo piu mosso', 54),
-    ('largo', 55),
+    ('largo piu mosso', 55),
+    ('largo', 56),
     )
 
 stirrings_still.time(maker, time)
@@ -145,11 +145,11 @@ maker(
 
 maker(
     ('v1', 6),
+    baca.beam(),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.circle_annotation_spanner('golden -|', 5.5),
     stirrings_still.circles((1, 8)),
     )
 
@@ -174,7 +174,6 @@ maker(
         'very-wide',
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.circle_annotation_spanner('golden -|', 5.5),
     stirrings_still.circles((1, 2)),
     )
 
@@ -424,17 +423,9 @@ maker(
     )
 
 maker(
-    ('vc', (9, 12)),
+    ('vc', (9, 16)),
     baca.hairpin(
-        'mp < f',
-        selector=baca.leaves().rleak(),
-        ),
-    )
-
-maker(
-    ('vc', (15, 16)),
-    baca.hairpin(
-        'f < ff',
+        'mp < ff',
         selector=baca.leaves().rleak(),
         ),
     )
@@ -442,7 +433,7 @@ maker(
 maker(
     ('vc', (13, 22)),
     baca.text_spanner(
-        'poco overpressure -> molto overpressure -|',
+        'poco overpressure -> molto overpressure =|',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
@@ -566,9 +557,19 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.tuplet_bracket_staff_padding(2),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=33,
+        ),
+    baca.new(
+        baca.rhythm(
+            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
+            annotate_unpitched_music=True,
+            ),
+        measures=34,
+        ),
+    baca.tuplet_bracket_staff_padding(3),
     baca.tuplet_number_denominator(),
-    stirrings_still.clockticks(),
     )
 
 maker(
@@ -711,7 +712,7 @@ maker(
     )
 
 maker(
-    ('vc', [(47, 51), 55]),
+    ('vc', [(47, 51), 56]),
     baca.new(
         stirrings_still.bcps(
             -4,
@@ -747,7 +748,7 @@ maker(
     )
 
 maker(
-    ('vc', 55),
+    ('vc', 56),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
         # TODO: allow spanner to run to end of segment
@@ -767,7 +768,7 @@ maker(
     )
 
 maker(
-    ('trio', [52, 54]),
+    ('trio', [52, 55]),
     baca.dynamic('mp'),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
@@ -779,21 +780,25 @@ maker(
     )
 
 maker(
-    ('vc', [52, 54]),
+    ('vc', [52, 55]),
     baca.hairpin(
-        'o< f',
+        'o< f -- !',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
         match=0,
         ),
     baca.hairpin(
-        'f >o',
+        'f -- ! >o',
         bookend=False,
         match=1,
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.taper((1, 1)),
     )
 
 maker(
-    (['v1', 'va', 'vc'], 53),
+    (['v1', 'va', 'vc'], (53, 54)),
     baca.hairpin(
         'pp -- !',
         abjad.tweak(True).to_barline,
@@ -818,7 +823,8 @@ maker(
     )
 
 maker(
-    ('v2', 53),
+    ('v2', (53, 54)),
+    baca.alternate_bow_strokes(),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
@@ -830,11 +836,22 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.clockticks(),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=53,
+        ),
+    baca.new(
+        baca.rhythm(
+            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
+            annotate_unpitched_music=True,
+            ),
+        measures=54,
+        ),
+    baca.tuplet_bracket_staff_padding(3),
     )
 
 maker(
-    ('trio', 55),
+    ('trio', 56),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
@@ -862,7 +879,7 @@ maker(
     )
 
 maker(
-    ('vc', 55),
+    ('vc', 56),
     baca.hairpin(
         'p -- !',
         abjad.tweak(True).to_barline,
