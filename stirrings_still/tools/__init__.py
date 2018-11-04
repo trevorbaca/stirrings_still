@@ -22,6 +22,7 @@ from .glissando_interpolation import glissando_interpolation
 from .glissando_without_ties import glissando_without_ties
 from .grid import grid
 from .grid_to_trajectory import grid_to_trajectory
+from .left_broken_tasto_tweak import left_broken_tasto_tweak
 from .loure_tuplets import loure_tuplets
 from .margin_markup import margin_markup
 from .measure_initiation import measure_initiation
