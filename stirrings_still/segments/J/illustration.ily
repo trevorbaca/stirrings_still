@@ -924,12 +924,14 @@ J_Violin_II_Music_Voice = {                                                    %
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         % [J Violin_II_Music_Voice measure 541 / measure 3]                    %! _comment_measure_numbers
+        \override TupletBracket.staff-padding = #3                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -956,6 +958,7 @@ J_Violin_II_Music_Voice = {                                                    %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
 
@@ -965,35 +968,38 @@ J_Violin_II_Music_Voice = {                                                    %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
 
     }                                                                          %! stirrings_still_clockticks
 
-    \times 2/3 {                                                               %! stirrings_still_clockticks
+    {
 
-        % [J Violin_II_Music_Voice measure 542 / measure 4]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        \times 2/3 {
 
-        r4                                                                     %! stirrings_still_clockticks
+            % [J Violin_II_Music_Voice measure 542 / measure 4]                %! _comment_measure_numbers
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'8
+            - \upbow                                                           %! baca_alternate_bow_strokes:IndicatorCommand
 
-    }                                                                          %! stirrings_still_clockticks
+            r4
 
-    \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
-    \times 4/7 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        }
 
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            r4                                                                 %! stirrings_still_clockticks
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'8
+            - \downbow                                                         %! baca_alternate_bow_strokes:IndicatorCommand
+
+            r8
+            \revert TupletBracket.staff-padding                                %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
         }
 
-    }                                                                          %! stirrings_still_clockticks
+    }
 
     % [J Violin_II_Music_Voice measure 543 / measure 5]                        %! _comment_measure_numbers
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
