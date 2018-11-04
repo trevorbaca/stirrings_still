@@ -69,8 +69,7 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', [1, 3, 7, 9, 11, 13]),
     baca.dynamic('mp'),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.loure_tuplets(0),
@@ -79,8 +78,7 @@ maker(
 maker(
     ('v2', [1, 3, 7, 9, 11, 13]),
     baca.dynamic('mp'),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.loure_tuplets(1),
@@ -89,8 +87,7 @@ maker(
 maker(
     ('va', [1, 3, 7, 9, 11, 13]),
     baca.dynamic('mp'),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.clouded_pane_annotation_spanner(

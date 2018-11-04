@@ -388,8 +388,7 @@ maker(
         baca.stop_on_string(),
         selector=baca.note(-1),
         ),
-    baca.scp_spanner(
-        'tasto (T) =|',
+    baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(),
@@ -462,8 +461,7 @@ maker(
         baca.stop_on_string(),
         selector=baca.note(-1),
         ),
-    baca.scp_spanner(
-        'tasto (T) =|',
+    baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(),
@@ -542,8 +540,7 @@ maker(
 maker(
     ('trio', 65),
     baca.dynamic('p'),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.urtext_field(),
@@ -637,8 +634,7 @@ maker(
 
 maker(
     ('trio', (67, 85)),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     )
@@ -677,8 +673,7 @@ maker(
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 10.5),
