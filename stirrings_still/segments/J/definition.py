@@ -112,6 +112,7 @@ maker(
 
 maker(
     ('v2', (3, 4)),
+    baca.alternate_bow_strokes(),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
@@ -123,7 +124,18 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.clockticks(),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=3,
+        ),
+    baca.new(
+        baca.rhythm(
+            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
+            annotate_unpitched_music=True,
+            ),
+        measures=4,
+        ),
+    baca.tuplet_bracket_staff_padding(3),
     )
 
 maker(
