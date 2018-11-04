@@ -49,6 +49,7 @@ maker(
         'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
