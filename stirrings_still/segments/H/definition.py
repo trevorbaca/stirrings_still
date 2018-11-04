@@ -750,7 +750,7 @@ maker(
 maker(
     ('vc', 56),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(13).staff_padding,
         # TODO: allow spanner to run to end of segment
         #selector=baca.leaves().rleak(),
         selector=baca.leaves(),
