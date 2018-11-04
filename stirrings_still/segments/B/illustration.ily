@@ -612,6 +612,7 @@ B_Global_Skips = {                                                             %
     {
 
         % [B Global_Skips measure 92 / measure 29]                             %! _comment_measure_numbers
+        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 5/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 5/8                                                               %! _make_global_skips(1)
@@ -705,6 +706,7 @@ B_Global_Skips = {                                                             %
         \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     %@% - \baca-start-ct-left-only "[3'02'']"                                  %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
@@ -2406,6 +2408,7 @@ B_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4875,6 +4878,7 @@ B_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6853,6 +6857,7 @@ B_Viola_Music_Voice = {                                                        %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

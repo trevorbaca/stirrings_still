@@ -4,6 +4,7 @@ K_Global_Skips = {                                                             %
     {
 
         % [K Global_Skips measure 554 / measure 1]                             %! _comment_measure_numbers
+        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 6/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \bar ""                                                                %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -168,6 +169,7 @@ K_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[23'29'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 

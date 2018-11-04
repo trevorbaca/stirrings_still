@@ -804,6 +804,7 @@ A_Global_Skips = {                                                             %
     {
 
         % [A Global_Skips measure 44]                                          %! _comment_measure_numbers
+        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 16/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 1                                                                 %! _make_global_skips(1)
@@ -917,6 +918,7 @@ A_Global_Skips = {                                                             %
         \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     %@% - \baca-start-ct-left-only "[0'42'']"                                  %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
@@ -1506,6 +1508,7 @@ A_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1568,6 +1571,7 @@ A_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1631,6 +1635,7 @@ A_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 11/8 {                                                              %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1696,6 +1701,7 @@ A_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 13/8 {                                                              %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1757,6 +1763,7 @@ A_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1886,6 +1893,7 @@ A_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1949,6 +1957,7 @@ A_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2013,6 +2022,7 @@ A_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2116,6 +2126,7 @@ A_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2262,6 +2273,7 @@ A_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2957,6 +2969,7 @@ A_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3132,6 +3145,7 @@ A_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3194,6 +3208,7 @@ A_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3257,6 +3272,7 @@ A_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 11/8 {                                                              %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3322,6 +3338,7 @@ A_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 13/8 {                                                              %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3383,6 +3400,7 @@ A_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3512,6 +3530,7 @@ A_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3575,6 +3594,7 @@ A_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3639,6 +3659,7 @@ A_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3734,6 +3755,7 @@ A_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3881,6 +3903,7 @@ A_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4424,6 +4447,7 @@ A_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4596,6 +4620,7 @@ A_Viola_Music_Voice = {                                                        %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4658,6 +4683,7 @@ A_Viola_Music_Voice = {                                                        %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4721,6 +4747,7 @@ A_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 11/8 {                                                              %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4786,6 +4813,7 @@ A_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 13/8 {                                                              %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4847,6 +4875,7 @@ A_Viola_Music_Voice = {                                                        %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4976,6 +5005,7 @@ A_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5039,6 +5069,7 @@ A_Viola_Music_Voice = {                                                        %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5103,6 +5134,7 @@ A_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5209,6 +5241,7 @@ A_Viola_Music_Voice = {                                                        %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5359,6 +5392,7 @@ A_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
 
+        \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6093,6 +6127,7 @@ A_Viola_Music_Voice = {                                                        %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6407,16 +6442,13 @@ A_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [A Cello_Music_Voice measure 28]                                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeat_tied_notes
-    \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -6528,7 +6560,7 @@ A_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 42]                                         %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #7                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #8                                        %! baca_script_staff_padding:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6546,6 +6578,7 @@ A_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6555,6 +6588,7 @@ A_Cello_Music_Voice = {                                                        %
     ]
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6564,6 +6598,7 @@ A_Cello_Music_Voice = {                                                        %
     [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6573,6 +6608,7 @@ A_Cello_Music_Voice = {                                                        %
     ]
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6582,6 +6618,7 @@ A_Cello_Music_Voice = {                                                        %
     [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6591,6 +6628,7 @@ A_Cello_Music_Voice = {                                                        %
     ]
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6600,6 +6638,7 @@ A_Cello_Music_Voice = {                                                        %
     [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6609,6 +6648,7 @@ A_Cello_Music_Voice = {                                                        %
     ]
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     % [A Cello_Music_Voice measure 43]                                         %! _comment_measure_numbers
@@ -6621,6 +6661,7 @@ A_Cello_Music_Voice = {                                                        %
     [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6630,6 +6671,7 @@ A_Cello_Music_Voice = {                                                        %
     ]
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6639,6 +6681,7 @@ A_Cello_Music_Voice = {                                                        %
     [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6648,6 +6691,7 @@ A_Cello_Music_Voice = {                                                        %
     ]
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6658,6 +6702,7 @@ A_Cello_Music_Voice = {                                                        %
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #7 #7                                       %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6666,7 +6711,7 @@ A_Cello_Music_Voice = {                                                        %
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(1)
     ]
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -6739,7 +6784,7 @@ A_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     % [A Cello_Music_Voice measure 48]                                         %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #7                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #8                                        %! baca_script_staff_padding:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6757,6 +6802,7 @@ A_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6766,6 +6812,7 @@ A_Cello_Music_Voice = {                                                        %
     ]
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6775,6 +6822,7 @@ A_Cello_Music_Voice = {                                                        %
     [
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6784,6 +6832,7 @@ A_Cello_Music_Voice = {                                                        %
     ]
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6794,13 +6843,14 @@ A_Cello_Music_Voice = {                                                        %
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #7 #7                                       %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(1)
     ]
-    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/4 {                                                               %! stirrings_still_desynchronization

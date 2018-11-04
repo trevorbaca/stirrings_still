@@ -63,6 +63,15 @@ maker(
         abjad.tweak((0, 10)).extra_offset,
         ),
     baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
         baca.volta(),
         measures=(29, 32),
         ),
@@ -601,6 +610,10 @@ maker(
 
 maker(
     ('trio', 26),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| mp p < mp',
         pieces=baca.clparts([1]),

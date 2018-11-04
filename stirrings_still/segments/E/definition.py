@@ -52,10 +52,28 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
         baca.volta(),
         measures=(35, 43),
         ),
     baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
         baca.volta(),
         measures=(105, 110),
         ),
@@ -352,6 +370,10 @@ maker(
 
 maker(
     ('trio', 34),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| mp p < mp',
         pieces=baca.clparts([1]),

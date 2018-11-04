@@ -621,6 +621,7 @@ N_Global_Skips = {                                                             %
     {
 
         % [N Global_Skips measure 688 / measure 34]                            %! _comment_measure_numbers
+        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 6/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/4                                                               %! _make_global_skips(1)
@@ -697,6 +698,7 @@ N_Global_Skips = {                                                             %
         \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[30'37'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 

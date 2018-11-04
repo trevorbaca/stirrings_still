@@ -654,6 +654,7 @@ E_Global_Skips = {                                                             %
     {
 
         % [E Global_Skips measure 340 / measure 35]                            %! _comment_measure_numbers
+        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 6/8                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/4                                                               %! _make_global_skips(1)
@@ -817,6 +818,7 @@ E_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[13'11'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
@@ -1916,6 +1918,7 @@ E_Global_Skips = {                                                             %
     {
 
         % [E Global_Skips measure 410 / measure 105]                           %! _comment_measure_numbers
+        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         s1 * 7/8                                                               %! _make_global_skips(1)
     %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -2031,6 +2034,7 @@ E_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[14'03'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
@@ -3536,6 +3540,7 @@ E_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7437,6 +7442,7 @@ E_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -10970,6 +10976,7 @@ E_Viola_Music_Voice = {                                                        %
     ]                                                                          %! stirrings_still_declamation
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
+    \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_declamation
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

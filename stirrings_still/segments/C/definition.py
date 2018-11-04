@@ -53,10 +53,28 @@ maker(
         abjad.tweak((0, 10)).extra_offset,
         ),
     baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
         baca.volta(),
         measures=(4, 7),
         ),
     baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
         baca.volta(),
         measures=(74, 76),
         ),
