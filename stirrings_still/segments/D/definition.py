@@ -114,10 +114,28 @@ maker(
         measures=(31, 36),
         ),
     baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
         baca.volta(),
         measures=(57, 60),
         ),
     baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
         baca.volta(),
         measures=(94, 97),
         ),
@@ -374,6 +392,10 @@ maker(
 
 maker(
     ('trio', 47),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| mp p < mp',
         pieces=baca.clparts([1]),
@@ -447,6 +469,10 @@ maker(
 
 maker(
     ('trio', 55),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| mp p < mp',
         pieces=baca.clparts([1]),

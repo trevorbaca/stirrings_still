@@ -45,6 +45,7 @@ R_Global_Skips = {                                                             %
     {
 
         % [R Global_Skips measure 822 / measure 3]                             %! _comment_measure_numbers
+        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 4/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 1                                                                 %! _make_global_skips(1)
@@ -77,6 +78,7 @@ R_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[36'49'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 

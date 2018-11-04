@@ -55,6 +55,15 @@ maker(
         selector=baca.skip(18 - 1),
         ),
     baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
         baca.volta(),
         measures=(44, 48),
         ),
@@ -166,6 +175,10 @@ maker(
 
 maker(
     ('trio', 1),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| f p < mp',
         pieces=baca.clparts([1]),
@@ -186,6 +199,10 @@ maker(
 
 maker(
     ('trio', 3),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| f p < mf',
         pieces=baca.clparts([1]),
@@ -194,6 +211,10 @@ maker(
 
 maker(
     ('trio', (5, 6)),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| f p < mf-poco-scratch',
         pieces=baca.clparts([1]),
@@ -202,6 +223,10 @@ maker(
 
 maker(
     ('trio', (8, 9)),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| f p < f-poco-scratch',
         pieces=baca.clparts([1]),
@@ -212,6 +237,10 @@ maker(
     ('trio', (11, 16)),
     baca.breathe(
         selector=baca.leaf(1),
+        ),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
         ),
     baca.hairpin(
         'p <| f',
@@ -259,7 +288,7 @@ maker(
 maker(
     ('vc', 27),
     baca.hairpin(
-        'niente o< f >o !',
+        'niente o< f > p',
         pieces=baca.lparts([1, 2]),
         selector=baca.leaves().rleak(),
         ),
@@ -269,7 +298,6 @@ maker(
 
 maker(
     ('vc', (28, 40)),
-    baca.dynamic('p'),
     baca.hairpin(
         'p >o niente',
         measures=(35, 40),
@@ -297,7 +325,6 @@ maker(
         baca.breathe(),
         baca.tie_to(),
         selector=baca.note(1),
-
         ),
     baca.new(
         baca.repeat_tie_to(),
@@ -312,6 +339,10 @@ maker(
 
 maker(
     ('trio', 18),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'pp <| p pp <| p',
         pieces=baca.clparts([1]),
@@ -320,6 +351,10 @@ maker(
 
 maker(
     ('trio', 20),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'pp <| p pp <| mp',
         pieces=baca.clparts([1]),
@@ -328,6 +363,10 @@ maker(
 
 maker(
     ('trio', 22),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'pp <| p pp <| mf',
         pieces=baca.clparts([1]),
@@ -343,6 +382,10 @@ maker(
 
 maker(
     ('trio', 25),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'pp <| p pp <| f',
         pieces=baca.clparts([1]),
@@ -351,6 +394,10 @@ maker(
 
 maker(
     ('trio', 29),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'pp <| p pp <| ff',
         pieces=baca.clparts([1]),
@@ -474,9 +521,11 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(12.5).staff_padding,
         ),
-    baca.text_spanner_staff_padding(7),
+    baca.script_staff_padding(8),
     stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(5).staff_padding,
+        ),
     )
 
 maker(
@@ -485,9 +534,11 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(12.5).staff_padding,
         ),
-    baca.text_spanner_staff_padding(7),
+    baca.script_staff_padding(8),
     stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(5).staff_padding,
+        ),
     )
 
 # A.13 - A.16
@@ -586,6 +637,10 @@ maker(
 
 maker(
     ('trio', 60),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.leaf(2),
+        ),
     baca.hairpin(
         'p <| f p < mp',
         pieces=baca.clparts([1]),
