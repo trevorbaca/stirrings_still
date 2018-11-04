@@ -847,6 +847,7 @@ S_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 95/64                                                           %! stirrings_still_wave
 
+        \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 23/16                                                           %! stirrings_still_wave
@@ -1036,6 +1037,7 @@ S_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 169/64                                                          %! stirrings_still_wave
 
+        \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 13/4                                                            %! stirrings_still_wave
@@ -1314,6 +1316,7 @@ S_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 51/32                                                           %! stirrings_still_wave
 
+        \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 45/32                                                           %! stirrings_still_wave
@@ -1650,6 +1653,7 @@ S_Violin_I_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 189/64                                                          %! stirrings_still_wave
 
+        \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 205/64                                                          %! stirrings_still_wave
@@ -1875,6 +1879,7 @@ S_Violin_II_Music_Voice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 231/64                                                          %! stirrings_still_wave
 
+        \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 245/64                                                          %! stirrings_still_wave
@@ -2055,6 +2060,7 @@ S_Violin_II_Music_Voice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 43/16                                                           %! stirrings_still_wave
 
+        \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 75/32                                                           %! stirrings_still_wave
@@ -2321,6 +2327,7 @@ S_Violin_II_Music_Voice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 177/64                                                          %! stirrings_still_wave
 
+        \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 193/64                                                          %! stirrings_still_wave
@@ -2639,6 +2646,7 @@ S_Violin_II_Music_Voice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 11/4                                                            %! stirrings_still_wave
 
+        \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 5/2                                                             %! stirrings_still_wave
@@ -3015,18 +3023,20 @@ S_Cello_Music_Voice = {                                                        %
     \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
 
     % [S Cello_Music_Voice measure 842 / measure 5]                            %! _comment_measure_numbers
-    c1
+    \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
+    b,,,1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    c4
+    b,,,4
     \repeatTie
 
-    c4
+    b,,,4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
+    \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
