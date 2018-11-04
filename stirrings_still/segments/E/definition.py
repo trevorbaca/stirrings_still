@@ -207,14 +207,8 @@ maker(
             'pp --',
             bookend=False,
             ),
-        # TODO: add baca.bow_speed_spanner()
-        baca.text_spanner(
-            'XFB -|',
+        baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            lilypond_id=None,
-            selector=baca.ltleaves().rleak(),
             ),
         map=baca.plts()[abjad.index([1], 2)],
         ),
@@ -251,13 +245,8 @@ maker(
             'pp --',
             bookend=False,
             ),
-        baca.text_spanner(
-            'XFB -|',
+        baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            lilypond_id=None,
-            selector=baca.ltleaves().rleak(),
             ),
         map=baca.plts()[abjad.index([1], 2)],
         ),
@@ -281,13 +270,8 @@ maker(
             'pp --',
             bookend=False,
             ),
-        baca.text_spanner(
-            'XFB -|',
+        baca.xfb_spanner(
             abjad.tweak(3).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            lilypond_id=None,
-            selector=baca.ltleaves().rleak(),
             ),
         map=baca.plts()[abjad.index([1], 2)],
         ),
@@ -310,13 +294,8 @@ maker(
             'pp --',
             bookend=False,
             ),
-        baca.text_spanner(
-            'XFB -|',
+        baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            lilypond_id=None,
-            selector=baca.ltleaves().rleak(),
             ),
         map=baca.plts()[abjad.index([1], 2)],
         ),
@@ -406,13 +385,8 @@ maker(
             'pp --',
             bookend=False,
             ),
-        baca.text_spanner(
-            'XFB -|',
+        baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            lilypond_id=None,
-            selector=baca.ltleaves().rleak(),
             ),
         map=baca.plts()[:-1][abjad.index([1], 2)],
         ),
@@ -420,13 +394,8 @@ maker(
         baca.hairpin(
             'pp -- !',
             ),
-        baca.text_spanner(
-            'XFB -|',
+        baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            lilypond_id=None,
-            selector=baca.ltleaves().rleak(),
             ),
         map=baca.plt(-1),
         ),
@@ -590,8 +559,7 @@ maker(
         'P -> T ->',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        final_piece_spanner=False,
-        pieces=baca.plts(),
+        pieces=baca.plts()[:-1],
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -602,9 +570,9 @@ maker(
 
 maker(
     ('trio', (87, 88)),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
+#    baca.damp_spanner(
+#        abjad.tweak(8).staff_padding,
+#        ),
     baca.hairpin('"f" > p'),
     baca.new(
         stirrings_still.talea_eighths([3, 6, 8], 0, 1),
@@ -622,8 +590,7 @@ maker(
         'P -> T ->',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        final_piece_spanner=False,
-        pieces=baca.plts(),
+        pieces=baca.plts()[:-1],
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -817,8 +784,12 @@ maker(
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
+        measures=(87, 96),
         ),
-    baca.dynamic('p'),
+    baca.dynamic(
+        'p-ancora',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
     stirrings_still.desynchronization(4, [2]),
     )
 
@@ -831,8 +802,12 @@ maker(
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
+        measures=(87, 96),
         ),
-    baca.dynamic('p'),
+    baca.dynamic(
+        'p-ancora',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
     stirrings_still.desynchronization(4, [1]),
     )
 
@@ -845,8 +820,12 @@ maker(
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
+        match=1,
         ),
-    baca.dynamic('p'),
+    baca.dynamic(
+        'p-ancora',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
         match=0,
@@ -854,6 +833,13 @@ maker(
     baca.new(
         stirrings_still.desynchronization(4, [-1]),
         match=1,
+        ),
+    )
+
+maker(
+    ('va', (87, 96)),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
         ),
     )
 
@@ -976,8 +962,7 @@ maker(
         'P -> T ->',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        final_piece_spanner=False,
-        pieces=baca.plts(),
+        pieces=baca.plts()[:-1],
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -1010,8 +995,7 @@ maker(
         'P -> T ->',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        final_piece_spanner=False,
-        pieces=baca.plts(),
+        pieces=baca.plts()[:-1],
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
