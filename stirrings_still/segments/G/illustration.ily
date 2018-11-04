@@ -251,6 +251,24 @@ G_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [G Global_Skips measure 459 / measure 13]                                %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/12                                                                  %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
+%@% - \baca-start-lmi-left-only "12"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+    - \baca-start-lmn-left-only "13"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "459"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-ct-left-only "[18'37'']"                                     %! CLOCK_TIME_MARKUP
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+
+    % [G Global_Skips measure 460 / measure 14]                                %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -260,11 +278,11 @@ G_Global_Skips = {                                                             %
     \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER_MARKUP
     \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "12"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmi-left-only "13"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "13"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+    - \baca-start-lmn-left-only "14"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "459"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "460"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[G.5.2]"                                      %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -277,7 +295,7 @@ G_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only "[18'37'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [G Global_Skips measure 460 / measure 14]                                %! _comment_measure_numbers
+    % [G Global_Skips measure 461 / measure 15]                                %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
@@ -285,16 +303,16 @@ G_Global_Skips = {                                                             %
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "13"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmi-left-only "14"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "14"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+    - \baca-start-lmn-left-only "15"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "460"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "461"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[18'37'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[18'41'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [G Global_Skips measure 461 / measure 15]                                %! _comment_measure_numbers
+    % [G Global_Skips measure 462 / measure 16]                                %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -304,11 +322,11 @@ G_Global_Skips = {                                                             %
     \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER_MARKUP
     \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "14"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmi-left-only "15"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "15"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+    - \baca-start-lmn-left-only "16"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "461"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "462"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[G.6]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -321,27 +339,10 @@ G_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only "[18'41'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [G Global_Skips measure 462 / measure 16]                                %! _comment_measure_numbers
+    % [G Global_Skips measure 463 / measure 17]                                %! _comment_measure_numbers
     \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "15"                                           %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "16"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "462"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[18'41'']"                                     %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
-
-    % [G Global_Skips measure 463 / measure 17]                                %! _comment_measure_numbers
-    \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
@@ -355,10 +356,27 @@ G_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only "[18'42'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
+    % [G Global_Skips measure 464 / measure 18]                                %! _comment_measure_numbers
+    \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/4                                                                   %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
+%@% - \baca-start-lmi-left-only "17"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+    - \baca-start-lmn-left-only "18"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "464"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-ct-left-only "[18'42'']"                                     %! CLOCK_TIME_MARKUP
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+
     \repeat volta 2
     {
 
-        % [G Global_Skips measure 464 / measure 18]                            %! _comment_measure_numbers
+        % [G Global_Skips measure 465 / measure 19]                            %! _comment_measure_numbers
         \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 14/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -369,11 +387,11 @@ G_Global_Skips = {                                                             %
         \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER_MARKUP
         \bacaStopTextSpanMM                                                    %! _attach_metronome_marks(1)
     %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
-    %@% - \baca-start-lmi-left-only "17"                                       %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% - \baca-start-lmi-left-only "18"                                       %! LOCAL_MEASURE_INDEX_MARKUP
     %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
-        - \baca-start-lmn-left-only "18"                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+        - \baca-start-lmn-left-only "19"                                       %! LOCAL_MEASURE_NUMBER_MARKUP
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
-    %@% - \baca-start-mn-left-only "464"                                       %! MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "465"                                       %! MEASURE_NUMBER_MARKUP
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
         - \baca-start-snm-colored-left-only "[D.11]" #darkgreen                %! STAGE_NUMBER_MARKUP
         \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER_MARKUP
@@ -383,30 +401,13 @@ G_Global_Skips = {                                                             %
         - \abjad-dashed-line-with-arrow                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
         - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
         \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    %@% - \baca-start-ct-left-only "[18'42'']"                                 %! CLOCK_TIME_MARKUP
-    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
-
-        % [G Global_Skips measure 465 / measure 19]                            %! _comment_measure_numbers
-        \time 12/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-        s1 * 3/4                                                               %! _make_global_skips(1)
-    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
-        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
-    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
-    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
-    %@% - \baca-start-lmi-left-only "18"                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
-        - \baca-start-lmn-left-only "19"                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
-    %@% - \baca-start-mn-left-only "465"                                       %! MEASURE_NUMBER_MARKUP
-    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[18'46'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
 
         % [G Global_Skips measure 466 / measure 20]                            %! _comment_measure_numbers
-        \time 10/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \time 12/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-        s1 * 5/8                                                               %! _make_global_skips(1)
+        s1 * 3/4                                                               %! _make_global_skips(1)
     %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
@@ -419,31 +420,31 @@ G_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[18'46'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
+
+        % [G Global_Skips measure 467 / measure 21]                            %! _comment_measure_numbers
+        \time 10/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+        s1 * 5/8                                                               %! _make_global_skips(1)
+    %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
+        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-lmi-left-only "20"                                       %! LOCAL_MEASURE_INDEX_MARKUP
+    %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
+        - \baca-start-lmn-left-only "21"                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "467"                                       %! MEASURE_NUMBER_MARKUP
+    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-ct-left-only "[18'48'']"                                 %! CLOCK_TIME_MARKUP
+    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
         \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
-    % [G Global_Skips measure 467 / measure 21]                                %! _comment_measure_numbers
+    % [G Global_Skips measure 468 / measure 22]                                %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
-    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "20"                                           %! LOCAL_MEASURE_INDEX_MARKUP
-%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "21"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
-    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "467"                                           %! MEASURE_NUMBER_MARKUP
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[18'48'']"                                     %! CLOCK_TIME_MARKUP
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
-
-    % [G Global_Skips measure 468 / measure 22]                                %! _comment_measure_numbers
-    \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
@@ -458,6 +459,23 @@ G_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [G Global_Skips measure 469 / measure 23]                                %! _comment_measure_numbers
+    \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/2                                                                   %! _make_global_skips(1)
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
+%@% - \baca-start-lmi-left-only "22"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
+    - \baca-start-lmn-left-only "23"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "469"                                           %! MEASURE_NUMBER_MARKUP
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-ct-left-only "[18'50'']"                                     %! CLOCK_TIME_MARKUP
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
+
+    % [G Global_Skips measure 470 / measure 24]                                %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -466,11 +484,11 @@ G_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
     \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "22"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmi-left-only "23"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "23"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+    - \baca-start-lmn-left-only "24"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "469"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "470"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "91"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -481,7 +499,7 @@ G_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only "[18'50'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [G Global_Skips measure 470 / measure 24]                                %! _comment_measure_numbers
+    % [G Global_Skips measure 471 / measure 25]                                %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
@@ -489,18 +507,18 @@ G_Global_Skips = {                                                             %
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
-%@% - \baca-start-lmi-left-only "23"                                           %! LOCAL_MEASURE_INDEX_MARKUP
+%@% - \baca-start-lmi-left-only "24"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
-    - \baca-start-lmn-left-only "24"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
+    - \baca-start-lmn-left-only "25"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "470"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "471"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-both "[18'50'']" "[19'13'']"                              %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-both "[18'52'']" "[19'14'']"                              %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-    % [G Global_Skips measure 471 / measure 25]                                %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+    % [G Global_Skips measure 472 / measure 26]                                %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
     \time 1/4                                                                  %! PHANTOM:_style_phantom_measures(1):REDUNDANT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(3)
     \baca-time-signature-transparent                                           %! PHANTOM:_style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:_make_global_skips(3)
@@ -563,48 +581,51 @@ G_Global_Rests = {                                                             %
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [G Global_Rests measure 459 / measure 13]                                %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests(1)
+    R1 * 5/12                                                                  %! _make_global_rests(1)
 
     % [G Global_Rests measure 460 / measure 14]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [G Global_Rests measure 461 / measure 15]                                %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests(1)
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    R1 * 1/4                                                                   %! _make_global_rests(1)
+    ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [G Global_Rests measure 462 / measure 16]                                %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests(1)
+    R1 * 3/4                                                                   %! _make_global_rests(1)
 
     % [G Global_Rests measure 463 / measure 17]                                %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
-
-    % [G Global_Rests measure 464 / measure 18]                                %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _make_global_rests(1)
-
-    % [G Global_Rests measure 465 / measure 19]                                %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests(1)
-
-    % [G Global_Rests measure 466 / measure 20]                                %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _make_global_rests(1)
-
-    % [G Global_Rests measure 467 / measure 21]                                %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests(1)
-
-    % [G Global_Rests measure 468 / measure 22]                                %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests(1)
 
-    % [G Global_Rests measure 469 / measure 23]                                %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests(1)
-
-    % [G Global_Rests measure 470 / measure 24]                                %! _comment_measure_numbers
+    % [G Global_Rests measure 464 / measure 18]                                %! _comment_measure_numbers
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
 
-    % [G Global_Rests measure 471 / measure 25]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    % [G Global_Rests measure 465 / measure 19]                                %! _comment_measure_numbers
+    R1 * 7/8                                                                   %! _make_global_rests(1)
+
+    % [G Global_Rests measure 466 / measure 20]                                %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [G Global_Rests measure 467 / measure 21]                                %! _comment_measure_numbers
+    R1 * 5/8                                                                   %! _make_global_rests(1)
+
+    % [G Global_Rests measure 468 / measure 22]                                %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [G Global_Rests measure 469 / measure 23]                                %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [G Global_Rests measure 470 / measure 24]                                %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [G Global_Rests measure 471 / measure 25]                                %! _comment_measure_numbers
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    R1 * 1/4                                                                   %! _make_global_rests(1)
+    ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
+
+    % [G Global_Rests measure 472 / measure 26]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
@@ -969,7 +990,7 @@ G_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_desynchronization
 
     % [G Violin_I_Music_Voice measure 458 / measure 12]                        %! _comment_measure_numbers
-    \once \override NoteHead.style = #'harmonic                                %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -988,7 +1009,22 @@ G_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
-    % [G Violin_I_Music_Voice measure 459 / measure 13]                        %! _comment_measure_numbers
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
+
+        % [G Violin_I_Music_Voice measure 459 / measure 13]                    %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! stirrings_still_clouded_pane
+        \repeatTie
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clouded_pane
+        \repeatTie
+        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
+    }
+
+    % [G Violin_I_Music_Voice measure 460 / measure 14]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1036,7 +1072,7 @@ G_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_I_Music_Voice measure 460 / measure 14]                %! _comment_measure_numbers
+            % [G Violin_I_Music_Voice measure 461 / measure 15]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
@@ -1047,7 +1083,7 @@ G_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_I_Rest_Voice measure 460 / measure 14]                 %! _comment_measure_numbers
+            % [G Violin_I_Rest_Voice measure 461 / measure 15]                 %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1057,7 +1093,7 @@ G_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/7 {                                                               %! stirrings_still_flight
 
-        % [G Violin_I_Music_Voice measure 461 / measure 15]                    %! _comment_measure_numbers
+        % [G Violin_I_Music_Voice measure 462 / measure 16]                    %! _comment_measure_numbers
         \override Hairpin.shorten-pair = #'(0 . 5)                             %! baca_hairpin_shorten_pair:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_flight
@@ -1103,7 +1139,7 @@ G_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! stirrings_still_flight
 
-    % [G Violin_I_Music_Voice measure 462 / measure 16]                        %! _comment_measure_numbers
+    % [G Violin_I_Music_Voice measure 463 / measure 17]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1116,7 +1152,7 @@ G_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_I_Music_Voice measure 463 / measure 17]                %! _comment_measure_numbers
+            % [G Violin_I_Music_Voice measure 464 / measure 18]                %! _comment_measure_numbers
             \once \override DynamicText.extra-offset = #'(-5 . 0)              %! baca_dynamic_text_extra_offset:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
@@ -1129,14 +1165,14 @@ G_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_I_Rest_Voice measure 463 / measure 17]                 %! _comment_measure_numbers
+            % [G Violin_I_Rest_Voice measure 464 / measure 18]                 %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Violin_I_Music_Voice measure 464 / measure 18]                        %! _comment_measure_numbers
+    % [G Violin_I_Music_Voice measure 465 / measure 19]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1172,7 +1208,7 @@ G_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    % [G Violin_I_Music_Voice measure 465 / measure 19]                        %! _comment_measure_numbers
+    % [G Violin_I_Music_Voice measure 466 / measure 20]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -1195,25 +1231,6 @@ G_Violin_I_Music_Voice = {                                                     %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     ]                                                                          %! stirrings_still_strokes
-    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
-    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
-
-    % [G Violin_I_Music_Voice measure 466 / measure 20]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_strokes
-    - \abjad-zero-padding-glissando                                            %! baca_glissando
-    \glissando                                                                 %! baca_glissando
-
-    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
-    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_strokes
-    - \abjad-zero-padding-glissando                                            %! baca_glissando
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_strokes
-    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -1232,6 +1249,25 @@ G_Violin_I_Music_Voice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
+    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
+
+    % [G Violin_I_Music_Voice measure 468 / measure 22]                        %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_strokes
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
+
+    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
+    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_strokes
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_strokes
     [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
     \glissando                                                                 %! baca_glissando
@@ -1243,7 +1279,7 @@ G_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    % [G Violin_I_Music_Voice measure 468 / measure 22]                        %! _comment_measure_numbers
+    % [G Violin_I_Music_Voice measure 469 / measure 23]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -1255,7 +1291,7 @@ G_Violin_I_Music_Voice = {                                                     %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
 
-    % [G Violin_I_Music_Voice measure 469 / measure 23]                        %! _comment_measure_numbers
+    % [G Violin_I_Music_Voice measure 470 / measure 24]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -1288,7 +1324,7 @@ G_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_I_Music_Voice measure 470 / measure 24]                %! _comment_measure_numbers
+            % [G Violin_I_Music_Voice measure 471 / measure 25]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -1299,7 +1335,7 @@ G_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_I_Rest_Voice measure 470 / measure 24]                 %! _comment_measure_numbers
+            % [G Violin_I_Rest_Voice measure 471 / measure 25]                 %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1311,7 +1347,7 @@ G_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Violin_I_Music_Voice measure 471 / measure 25]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Violin_I_Music_Voice measure 472 / measure 26]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1320,7 +1356,7 @@ G_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Violin_I_Rest_Voice measure 471 / measure 25]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Violin_I_Rest_Voice measure 472 / measure 26]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1798,10 +1834,34 @@ G_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! stirrings_still_clockticks
 
+    {
+
+        \times 2/3 {
+
+            % [G Violin_II_Music_Voice measure 459 / measure 13]               %! _comment_measure_numbers
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'8
+
+            r4
+
+        }
+
+        \tweak edge-height #'(0.7 . 0)
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'8
+
+            r8
+
+        }
+
+    }
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
-        % [G Violin_II_Music_Voice measure 459 / measure 13]                   %! _comment_measure_numbers
+        % [G Violin_II_Music_Voice measure 460 / measure 14]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1856,7 +1916,7 @@ G_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_II_Music_Voice measure 460 / measure 14]               %! _comment_measure_numbers
+            % [G Violin_II_Music_Voice measure 461 / measure 15]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
@@ -1867,14 +1927,14 @@ G_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_II_Rest_Voice measure 460 / measure 14]                %! _comment_measure_numbers
+            % [G Violin_II_Rest_Voice measure 461 / measure 15]                %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Violin_II_Music_Voice measure 461 / measure 15]                       %! _comment_measure_numbers
+    % [G Violin_II_Music_Voice measure 462 / measure 16]                       %! _comment_measure_numbers
     \override Hairpin.shorten-pair = #'(0 . 5)                                 %! baca_hairpin_shorten_pair:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_flight
@@ -1920,7 +1980,7 @@ G_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 4/6 {                                                               %! stirrings_still_flight
 
-        % [G Violin_II_Music_Voice measure 462 / measure 16]                   %! _comment_measure_numbers
+        % [G Violin_II_Music_Voice measure 463 / measure 17]                   %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -1958,7 +2018,7 @@ G_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_II_Music_Voice measure 463 / measure 17]               %! _comment_measure_numbers
+            % [G Violin_II_Music_Voice measure 464 / measure 18]               %! _comment_measure_numbers
             \once \override DynamicText.extra-offset = #'(-5 . 0)              %! baca_dynamic_text_extra_offset:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
@@ -1971,14 +2031,14 @@ G_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_II_Rest_Voice measure 463 / measure 17]                %! _comment_measure_numbers
+            % [G Violin_II_Rest_Voice measure 464 / measure 18]                %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Violin_II_Music_Voice measure 464 / measure 18]                       %! _comment_measure_numbers
+    % [G Violin_II_Music_Voice measure 465 / measure 19]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2014,7 +2074,7 @@ G_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    % [G Violin_II_Music_Voice measure 465 / measure 19]                       %! _comment_measure_numbers
+    % [G Violin_II_Music_Voice measure 466 / measure 20]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -2037,25 +2097,6 @@ G_Violin_II_Music_Voice = {                                                    %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     ]                                                                          %! stirrings_still_strokes
-    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
-    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
-
-    % [G Violin_II_Music_Voice measure 466 / measure 20]                       %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_strokes
-    - \abjad-zero-padding-glissando                                            %! baca_glissando
-    \glissando                                                                 %! baca_glissando
-
-    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
-    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_strokes
-    - \abjad-zero-padding-glissando                                            %! baca_glissando
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_strokes
-    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2074,6 +2115,25 @@ G_Violin_II_Music_Voice = {                                                    %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
+    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
+
+    % [G Violin_II_Music_Voice measure 468 / measure 22]                       %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_strokes
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
+
+    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
+    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_strokes
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_strokes
     [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
     \glissando                                                                 %! baca_glissando
@@ -2085,7 +2145,7 @@ G_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    % [G Violin_II_Music_Voice measure 468 / measure 22]                       %! _comment_measure_numbers
+    % [G Violin_II_Music_Voice measure 469 / measure 23]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -2097,7 +2157,7 @@ G_Violin_II_Music_Voice = {                                                    %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
 
-    % [G Violin_II_Music_Voice measure 469 / measure 23]                       %! _comment_measure_numbers
+    % [G Violin_II_Music_Voice measure 470 / measure 24]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -2130,7 +2190,7 @@ G_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_II_Music_Voice measure 470 / measure 24]               %! _comment_measure_numbers
+            % [G Violin_II_Music_Voice measure 471 / measure 25]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -2141,7 +2201,7 @@ G_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_II_Rest_Voice measure 470 / measure 24]                %! _comment_measure_numbers
+            % [G Violin_II_Rest_Voice measure 471 / measure 25]                %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2153,7 +2213,7 @@ G_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Music_Voice"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Violin_II_Music_Voice measure 471 / measure 25]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Violin_II_Music_Voice measure 472 / measure 26]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2162,7 +2222,7 @@ G_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Rest_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Violin_II_Rest_Voice measure 471 / measure 25]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Violin_II_Rest_Voice measure 472 / measure 26]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -2553,7 +2613,7 @@ G_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     % [G Viola_Music_Voice measure 458 / measure 12]                           %! _comment_measure_numbers
-    \once \override NoteHead.style = #'harmonic                                %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2572,10 +2632,25 @@ G_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
+
+        % [G Viola_Music_Voice measure 459 / measure 13]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! stirrings_still_clouded_pane
+        \repeatTie
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clouded_pane
+        \repeatTie
+        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
+    }
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
-        % [G Viola_Music_Voice measure 459 / measure 13]                       %! _comment_measure_numbers
+        % [G Viola_Music_Voice measure 460 / measure 14]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2621,7 +2696,7 @@ G_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Viola_Music_Voice measure 460 / measure 14]                   %! _comment_measure_numbers
+            % [G Viola_Music_Voice measure 461 / measure 15]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
@@ -2632,7 +2707,7 @@ G_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Viola_Rest_Voice measure 460 / measure 14]                    %! _comment_measure_numbers
+            % [G Viola_Rest_Voice measure 461 / measure 15]                    %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2642,7 +2717,7 @@ G_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/8 {                                                               %! stirrings_still_flight
 
-        % [G Viola_Music_Voice measure 461 / measure 15]                       %! _comment_measure_numbers
+        % [G Viola_Music_Voice measure 462 / measure 16]                       %! _comment_measure_numbers
         \override Hairpin.shorten-pair = #'(0 . 5)                             %! baca_hairpin_shorten_pair:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_flight
@@ -2698,7 +2773,7 @@ G_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! stirrings_still_flight
 
-    % [G Viola_Music_Voice measure 462 / measure 16]                           %! _comment_measure_numbers
+    % [G Viola_Music_Voice measure 463 / measure 17]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -2711,7 +2786,7 @@ G_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Viola_Music_Voice measure 463 / measure 17]                   %! _comment_measure_numbers
+            % [G Viola_Music_Voice measure 464 / measure 18]                   %! _comment_measure_numbers
             \once \override DynamicText.extra-offset = #'(-5 . 0)              %! baca_dynamic_text_extra_offset:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
@@ -2724,14 +2799,14 @@ G_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Viola_Rest_Voice measure 463 / measure 17]                    %! _comment_measure_numbers
+            % [G Viola_Rest_Voice measure 464 / measure 18]                    %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Viola_Music_Voice measure 464 / measure 18]                           %! _comment_measure_numbers
+    % [G Viola_Music_Voice measure 465 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2767,7 +2842,7 @@ G_Viola_Music_Voice = {                                                        %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    % [G Viola_Music_Voice measure 465 / measure 19]                           %! _comment_measure_numbers
+    % [G Viola_Music_Voice measure 466 / measure 20]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -2790,25 +2865,6 @@ G_Viola_Music_Voice = {                                                        %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     ]                                                                          %! stirrings_still_strokes
-    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
-    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
-
-    % [G Viola_Music_Voice measure 466 / measure 20]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_strokes
-    - \abjad-zero-padding-glissando                                            %! baca_glissando
-    \glissando                                                                 %! baca_glissando
-
-    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
-    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_strokes
-    - \abjad-zero-padding-glissando                                            %! baca_glissando
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_strokes
-    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -2827,6 +2883,25 @@ G_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
+    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
+
+    % [G Viola_Music_Voice measure 468 / measure 22]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_strokes
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
+
+    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
+    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_strokes
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_strokes
     [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
     \glissando                                                                 %! baca_glissando
@@ -2838,7 +2913,7 @@ G_Viola_Music_Voice = {                                                        %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    % [G Viola_Music_Voice measure 468 / measure 22]                           %! _comment_measure_numbers
+    % [G Viola_Music_Voice measure 469 / measure 23]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -2850,7 +2925,7 @@ G_Viola_Music_Voice = {                                                        %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
 
-    % [G Viola_Music_Voice measure 469 / measure 23]                           %! _comment_measure_numbers
+    % [G Viola_Music_Voice measure 470 / measure 24]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -2883,7 +2958,7 @@ G_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Viola_Music_Voice measure 470 / measure 24]                   %! _comment_measure_numbers
+            % [G Viola_Music_Voice measure 471 / measure 25]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -2894,7 +2969,7 @@ G_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Viola_Rest_Voice measure 470 / measure 24]                    %! _comment_measure_numbers
+            % [G Viola_Rest_Voice measure 471 / measure 25]                    %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2906,7 +2981,7 @@ G_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Viola_Music_Voice measure 471 / measure 25]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Viola_Music_Voice measure 472 / measure 26]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2915,7 +2990,7 @@ G_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Viola_Rest_Voice measure 471 / measure 25]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Viola_Rest_Voice measure 472 / measure 26]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -3170,7 +3245,7 @@ G_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_taper
 
     % [G Cello_Music_Voice measure 458 / measure 12]                           %! _comment_measure_numbers
-    \once \override NoteHead.style = #'harmonic                                %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
@@ -3189,7 +3264,22 @@ G_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
-    % [G Cello_Music_Voice measure 459 / measure 13]                           %! _comment_measure_numbers
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
+
+        % [G Cello_Music_Voice measure 459 / measure 13]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! stirrings_still_clouded_pane
+        \repeatTie
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clouded_pane
+        \repeatTie
+        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
+    }
+
+    % [G Cello_Music_Voice measure 460 / measure 14]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_taper
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3219,7 +3309,7 @@ G_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Cello_Music_Voice measure 460 / measure 14]                   %! _comment_measure_numbers
+            % [G Cello_Music_Voice measure 461 / measure 15]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3231,14 +3321,14 @@ G_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Cello_Rest_Voice measure 460 / measure 14]                    %! _comment_measure_numbers
+            % [G Cello_Rest_Voice measure 461 / measure 15]                    %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Cello_Music_Voice measure 461 / measure 15]                           %! _comment_measure_numbers
+    % [G Cello_Music_Voice measure 462 / measure 16]                           %! _comment_measure_numbers
     \override Hairpin.shorten-pair = #'(0 . 5)                                 %! baca_hairpin_shorten_pair:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_flight
@@ -3262,7 +3352,7 @@ G_Cello_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 4/6 {                                                               %! stirrings_still_flight
 
-        % [G Cello_Music_Voice measure 462 / measure 16]                       %! _comment_measure_numbers
+        % [G Cello_Music_Voice measure 463 / measure 17]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -3300,7 +3390,7 @@ G_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Cello_Music_Voice measure 463 / measure 17]                   %! _comment_measure_numbers
+            % [G Cello_Music_Voice measure 464 / measure 18]                   %! _comment_measure_numbers
             \once \override DynamicText.extra-offset = #'(-5 . 0)              %! baca_dynamic_text_extra_offset:OverrideCommand(1)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
@@ -3313,14 +3403,14 @@ G_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Cello_Rest_Voice measure 463 / measure 17]                    %! _comment_measure_numbers
+            % [G Cello_Rest_Voice measure 464 / measure 18]                    %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Cello_Music_Voice measure 464 / measure 18]                           %! _comment_measure_numbers
+    % [G Cello_Music_Voice measure 465 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3356,7 +3446,7 @@ G_Cello_Music_Voice = {                                                        %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    % [G Cello_Music_Voice measure 465 / measure 19]                           %! _comment_measure_numbers
+    % [G Cello_Music_Voice measure 466 / measure 20]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -3379,25 +3469,6 @@ G_Cello_Music_Voice = {                                                        %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     ]                                                                          %! stirrings_still_strokes
-    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
-    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
-
-    % [G Cello_Music_Voice measure 466 / measure 20]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_strokes
-    - \abjad-zero-padding-glissando                                            %! baca_glissando
-    \glissando                                                                 %! baca_glissando
-
-    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
-    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_strokes
-    - \abjad-zero-padding-glissando                                            %! baca_glissando
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_strokes
-    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
@@ -3416,6 +3487,25 @@ G_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
+    - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
+    \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
+    \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
+
+    % [G Cello_Music_Voice measure 468 / measure 22]                           %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_strokes
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
+
+    \override NoteHead.transparent = ##t                                       %! baca_note_head_transparent:OverrideCommand(1)
+    \override NoteHead.X-extent = #'(0 . 0)                                    %! baca_note_head_x_extent_zero:OverrideCommand(1)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_strokes
+    - \abjad-zero-padding-glissando                                            %! baca_glissando
+    \glissando                                                                 %! baca_glissando
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_strokes
     [                                                                          %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
     \glissando                                                                 %! baca_glissando
@@ -3427,7 +3517,7 @@ G_Cello_Music_Voice = {                                                        %
     \revert NoteHead.transparent                                               %! baca_note_head_transparent:OverrideCommand(2)
     \revert NoteHead.X-extent                                                  %! baca_note_head_x_extent_zero:OverrideCommand(2)
 
-    % [G Cello_Music_Voice measure 468 / measure 22]                           %! _comment_measure_numbers
+    % [G Cello_Music_Voice measure 469 / measure 23]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -3439,7 +3529,7 @@ G_Cello_Music_Voice = {                                                        %
     c'8                                                                        %! stirrings_still_strokes
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
 
-    % [G Cello_Music_Voice measure 469 / measure 23]                           %! _comment_measure_numbers
+    % [G Cello_Music_Voice measure 470 / measure 24]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_strokes
     - \abjad-zero-padding-glissando                                            %! baca_glissando
@@ -3472,7 +3562,7 @@ G_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Cello_Music_Voice measure 470 / measure 24]                   %! _comment_measure_numbers
+            % [G Cello_Music_Voice measure 471 / measure 25]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -3483,7 +3573,7 @@ G_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Cello_Rest_Voice measure 470 / measure 24]                    %! _comment_measure_numbers
+            % [G Cello_Rest_Voice measure 471 / measure 25]                    %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3495,7 +3585,7 @@ G_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Cello_Music_Voice measure 471 / measure 25]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Cello_Music_Voice measure 472 / measure 26]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3504,7 +3594,7 @@ G_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [G Cello_Rest_Voice measure 471 / measure 25]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [G Cello_Rest_Voice measure 472 / measure 26]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
