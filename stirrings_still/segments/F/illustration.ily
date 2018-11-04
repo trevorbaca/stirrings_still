@@ -515,7 +515,6 @@ F_Violin_I_Music_Voice = {                                                     %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -527,6 +526,7 @@ F_Violin_I_Music_Voice = {                                                     %
             % [F Violin_I_Music_Voice measure 446 / measure 14]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
@@ -767,7 +767,6 @@ F_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     af'!4                                                                      %! stirrings_still_desynchronization
-    \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -777,6 +776,7 @@ F_Violin_II_Music_Voice = {                                                    %
             % [F Violin_II_Music_Voice measure 446 / measure 14]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1031,7 +1031,6 @@ F_Viola_Music_Voice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1043,6 +1042,7 @@ F_Viola_Music_Voice = {                                                        %
             % [F Viola_Music_Voice measure 446 / measure 14]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1108,6 +1108,8 @@ F_Cello_Music_Voice = {                                                        %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1259,7 +1261,6 @@ F_Cello_Music_Voice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1271,6 +1272,7 @@ F_Cello_Music_Voice = {                                                        %
             % [F Cello_Music_Voice measure 446 / measure 14]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanDamp                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)

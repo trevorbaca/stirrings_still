@@ -72,7 +72,7 @@ maker(
 maker(
     ('vc', (1, 8)),
     baca.hairpin(
-        '< ff',
+        '(p) < ff',
         measures=1,
         selector=baca.leaves().rleak(),
         ),
@@ -125,6 +125,7 @@ maker(
     baca.hairpin(
         'p -- !',
         abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     baca.new(
         stirrings_still.desynchronization(4, [1]),
