@@ -165,7 +165,6 @@ maker(
 maker(
     (['v1', 'v2'], 5),
     baca.dynamic('mp'),
-    baca.markup('louré'),
     baca.new(
         stirrings_still.loure_tuplets(0),
         match=0,
@@ -180,7 +179,6 @@ maker(
 maker(
     ('va', 5),
     baca.dynamic('mp'),
-    baca.markup('louré'),
     stirrings_still.clouded_pane_annotation_spanner(
         'clouded (partial: stopped) -|', 5.5,
         ),
@@ -323,6 +321,7 @@ maker(
     baca.text_spanner(
         r'\baca-circle-tight-markup -> \baca-circle-mod-markup =|',
         abjad.tweak(8).staff_padding,
+        stirrings_still.left_broken_circle_bow_tweak(),
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.omgroups([2]),
@@ -349,11 +348,17 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
-    baca.text_spanner(
-        r'\baca-circle-wide-markup =|',
+    # HERE
+#    baca.text_spanner(
+#        r'\baca-circle-wide-markup =|',
+#        abjad.tweak(8).staff_padding,
+#        autodetect_right_padding=True,
+#        bookend=False,
+#        selector=baca.ltleaves().rleak(),
+#        ),
+    baca.circle_bow_spanner(
+        'wide',
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         selector=baca.ltleaves().rleak(),
         ),
     )
@@ -385,6 +390,7 @@ maker(
 
 maker(
     ('v2', (28, 29)),
+    baca.alternate_bow_strokes(),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
@@ -396,7 +402,17 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.clockticks(),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=28,
+        ),
+    baca.new(
+        baca.rhythm(
+            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
+            annotate_unpitched_music=True,
+            ),
+        measures=29,
+        ),
     )
 
 maker(
@@ -409,8 +425,9 @@ maker(
         abjad.tweak(10.5).staff_padding,
         ),
     baca.hairpin(
-        'mf > pp',
-        selector=baca.tleaves(),
+        'mf mf mp p pp pp',
+        bookend=False,
+        pieces=baca.runs(),
         ),
     stirrings_still.synchronized_circles(rests=[-1]),
     )
@@ -462,18 +479,10 @@ maker(
         stirrings_still.synchronized_circles(rotation=-3),
         match=3,
         ),
-    baca.text_spanner(
-        '[triple --> double --> single harmonic] =|',
-        abjad.tweak(10.5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
-        ),
     )
 
 maker(
-    ('v1', (36, 43)),
+    ('v1', (36, 59)),
     baca.articulations(
         [
             abjad.Articulation('baca-damp'),
@@ -489,7 +498,7 @@ maker(
     )
 
 maker(
-    ('v2', (36, 43)),
+    ('v2', (36, 59)),
     baca.articulations(
         [
             abjad.Articulation('baca-damp'),
@@ -500,7 +509,7 @@ maker(
     )
 
 maker(
-    ('va', (36, 43)),
+    ('va', (36, 59)),
     baca.articulations(
         [
             abjad.Articulation('baca-damp'),
@@ -517,7 +526,7 @@ maker(
     )
 
 maker(
-    ('vc', (36, 43)),
+    ('vc', (36, 59)),
     baca.articulations(
         [
             abjad.Articulation('baca-damp'),
@@ -534,9 +543,34 @@ maker(
 maker(
     ('tutti', (36, 55)),
     baca.hairpin(
-        'pp < mf > pp < f > pp < ff',
-        pieces=baca.ompltgroups([4, 4, 4, 4, 5]),
-        selector=baca.plts().rleak(),
+        'pp pp p p mp mp', 
+        bookend=False,
+        measures=(36, 39),
+        pieces=baca.pheads().map(baca.group()),
+        ),
+    baca.hairpin(
+        'mf mp mp p p pp pp',
+        bookend=False,
+        measures=(40, 43),
+        pieces=baca.pheads().map(baca.group()),
+        ),
+    baca.hairpin(
+        'pp pp p mp mf',
+        bookend=False,
+        measures=(44, 47),
+        pieces=baca.pheads().map(baca.group()),
+        ),
+    baca.hairpin(
+        'f mf mp mp p p pp',
+        bookend=False,
+        measures=(48, 51),
+        pieces=baca.pheads().map(baca.group()),
+        ),
+    baca.hairpin(
+        'pp p mp mf f ff',
+        bookend=False,
+        measures=(52, 55),
+        pieces=baca.pheads().map(baca.group()),
         ),
     )
 
@@ -559,14 +593,6 @@ maker(
     baca.new(
         stirrings_still.synchronized_circles(gaps=False, rotation=-3),
         match=3,
-        ),
-    baca.text_spanner(
-        '[harmonic --> half --> stopped] =|',
-        abjad.tweak(10.5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        lilypond_id=1,
-        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -604,14 +630,24 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '[jeux des terminaisons ...] =|',
-        abjad.tweak(10.5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        selector=baca.ltleaves().rleak(),
+    stirrings_still.synchronized_circles(
+        rests=[-1],
+        rotation=0,
+        )
+    )
+
+maker(
+    ('tutti', [62, 64, 66, 68]),
+    baca.laissez_vibrer(
+        selector=baca.ptails(),
         ),
-    stirrings_still.synchronized_circles(rotation=0)
+    )
+
+maker(
+    ('tutti', [63, 65, 67, 69]),
+    baca.stop_on_string(
+        selector=baca.ptails(),
+        ),
     )
 
 maker(
