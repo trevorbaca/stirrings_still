@@ -1,6 +1,6 @@
 R_Global_Skips = {                                                             %! extern
 
-    % [R Global_Skips measure 820 / measure 1]                                 %! _comment_measure_numbers
+    % [R Global_Skips measure 821 / measure 1]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -11,7 +11,7 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "820"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "821"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[R.1]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -21,10 +21,10 @@ R_Global_Skips = {                                                             %
     - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[36'45'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[36'46'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 821 / measure 2]                                 %! _comment_measure_numbers
+    % [R Global_Skips measure 822 / measure 2]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -36,15 +36,15 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "821"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "822"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[36'45'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[36'46'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     \repeat volta 2
     {
 
-        % [R Global_Skips measure 822 / measure 3]                             %! _comment_measure_numbers
+        % [R Global_Skips measure 823 / measure 3]                             %! _comment_measure_numbers
         \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 4/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -57,12 +57,12 @@ R_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
         - \baca-start-lmn-left-only "3"                                        %! LOCAL_MEASURE_NUMBER_MARKUP
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
-    %@% - \baca-start-mn-left-only "822"                                       %! MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "823"                                       %! MEASURE_NUMBER_MARKUP
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
-    %@% - \baca-start-ct-left-only "[36'49'']"                                 %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-ct-left-only "[36'50'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
 
-        % [R Global_Skips measure 823 / measure 4]                             %! _comment_measure_numbers
+        % [R Global_Skips measure 824 / measure 4]                             %! _comment_measure_numbers
         \time 5/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 5/4                                                               %! _make_global_skips(1)
@@ -74,15 +74,15 @@ R_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanLMI                                                  %! LOCAL_MEASURE_INDEX_MARKUP
         - \baca-start-lmn-left-only "4"                                        %! LOCAL_MEASURE_NUMBER_MARKUP
         \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER_MARKUP
-    %@% - \baca-start-mn-left-only "823"                                       %! MEASURE_NUMBER_MARKUP
+    %@% - \baca-start-mn-left-only "824"                                       %! MEASURE_NUMBER_MARKUP
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
-    %@% - \baca-start-ct-left-only "[36'49'']"                                 %! CLOCK_TIME_MARKUP
+    %@% - \baca-start-ct-left-only "[36'50'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
         \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
-    % [R Global_Skips measure 824 / measure 5]                                 %! _comment_measure_numbers
+    % [R Global_Skips measure 825 / measure 5]                                 %! _comment_measure_numbers
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
@@ -95,14 +95,14 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "824"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "825"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[R.2]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[36'53'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[36'54'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 825 / measure 6]                                 %! _comment_measure_numbers
+    % [R Global_Skips measure 826 / measure 6]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -114,12 +114,12 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "825"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "826"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[36'53'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[36'54'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 826 / measure 7]                                 %! _comment_measure_numbers
+    % [R Global_Skips measure 827 / measure 7]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -131,12 +131,12 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "826"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "827"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[36'57'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[36'58'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 827 / measure 8]                                 %! _comment_measure_numbers
+    % [R Global_Skips measure 828 / measure 8]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -146,12 +146,12 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "827"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "828"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[36'57'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[36'58'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 828 / measure 9]                                 %! _comment_measure_numbers
+    % [R Global_Skips measure 829 / measure 9]                                 %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
@@ -164,14 +164,14 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "9"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "828"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "829"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[R.3]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[37'03'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[37'04'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 829 / measure 10]                                %! _comment_measure_numbers
+    % [R Global_Skips measure 830 / measure 10]                                %! _comment_measure_numbers
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
@@ -183,12 +183,12 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "829"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "830"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[37'03'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[37'04'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 830 / measure 11]                                %! _comment_measure_numbers
+    % [R Global_Skips measure 831 / measure 11]                                %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -200,12 +200,12 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "11"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "830"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "831"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[37'10'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[37'11'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 831 / measure 12]                                %! _comment_measure_numbers
+    % [R Global_Skips measure 832 / measure 12]                                %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -217,12 +217,12 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "12"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "831"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "832"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[37'10'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[37'11'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 832 / measure 13]                                %! _comment_measure_numbers
+    % [R Global_Skips measure 833 / measure 13]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -233,14 +233,14 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "13"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "832"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "833"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[R.4]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[37'13'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[37'14'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 833 / measure 14]                                %! _comment_measure_numbers
+    % [R Global_Skips measure 834 / measure 14]                                %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -252,12 +252,12 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "14"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "833"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "834"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[37'13'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[37'14'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 834 / measure 15]                                %! _comment_measure_numbers
+    % [R Global_Skips measure 835 / measure 15]                                %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -267,12 +267,12 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "15"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "834"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "835"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[37'18'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[37'19'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [R Global_Skips measure 835 / measure 16]                                %! _comment_measure_numbers
+    % [R Global_Skips measure 836 / measure 16]                                %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -284,14 +284,14 @@ R_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "16"                                           %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "835"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "836"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-both "[37'18'']" "[38'00'']"                              %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-both "[37'19'']" "[38'01'']"                              %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-    % [R Global_Skips measure 836 / measure 17]                                %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+    % [R Global_Skips measure 837 / measure 17]                                %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
     \time 1/4                                                                  %! PHANTOM:_style_phantom_measures(1):EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(3)
     \baca-time-signature-transparent                                           %! PHANTOM:_style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:_make_global_skips(3)
@@ -309,55 +309,55 @@ R_Global_Skips = {                                                             %
 
 R_Global_Rests = {                                                             %! extern
 
-    % [R Global_Rests measure 820 / measure 1]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 821 / measure 1]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [R Global_Rests measure 821 / measure 2]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 822 / measure 2]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 822 / measure 3]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 823 / measure 3]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [R Global_Rests measure 823 / measure 4]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 824 / measure 4]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 824 / measure 5]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 825 / measure 5]                                 %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 825 / measure 6]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 826 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 826 / measure 7]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 827 / measure 7]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [R Global_Rests measure 827 / measure 8]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 828 / measure 8]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [R Global_Rests measure 828 / measure 9]                                 %! _comment_measure_numbers
+    % [R Global_Rests measure 829 / measure 9]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 829 / measure 10]                                %! _comment_measure_numbers
+    % [R Global_Rests measure 830 / measure 10]                                %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 830 / measure 11]                                %! _comment_measure_numbers
+    % [R Global_Rests measure 831 / measure 11]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 831 / measure 12]                                %! _comment_measure_numbers
+    % [R Global_Rests measure 832 / measure 12]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [R Global_Rests measure 832 / measure 13]                                %! _comment_measure_numbers
+    % [R Global_Rests measure 833 / measure 13]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [R Global_Rests measure 833 / measure 14]                                %! _comment_measure_numbers
+    % [R Global_Rests measure 834 / measure 14]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 834 / measure 15]                                %! _comment_measure_numbers
+    % [R Global_Rests measure 835 / measure 15]                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [R Global_Rests measure 835 / measure 16]                                %! _comment_measure_numbers
+    % [R Global_Rests measure 836 / measure 16]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [R Global_Rests measure 836 / measure 17]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    % [R Global_Rests measure 837 / measure 17]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
@@ -368,7 +368,7 @@ R_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_I_Music_Voice measure 820 / measure 1]                     %! _comment_measure_numbers
+        % [R Violin_I_Music_Voice measure 821 / measure 1]                     %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \override Script.staff-padding = #5                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
@@ -435,7 +435,7 @@ R_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_I_Music_Voice measure 821 / measure 2]                     %! _comment_measure_numbers
+        % [R Violin_I_Music_Voice measure 822 / measure 2]                     %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -478,7 +478,7 @@ R_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_I_Music_Voice measure 822 / measure 3]                     %! _comment_measure_numbers
+        % [R Violin_I_Music_Voice measure 823 / measure 3]                     %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -543,7 +543,7 @@ R_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! stirrings_still_trajectories
 
-    % [R Violin_I_Music_Voice measure 823 / measure 4]                         %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 824 / measure 4]                         %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
@@ -601,7 +601,7 @@ R_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 12/11 {                                                             %! stirrings_still_trajectories
 
-        % [R Violin_I_Music_Voice measure 824 / measure 5]                     %! _comment_measure_numbers
+        % [R Violin_I_Music_Voice measure 825 / measure 5]                     %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -692,7 +692,7 @@ R_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_I_Music_Voice measure 825 / measure 6]                     %! _comment_measure_numbers
+        % [R Violin_I_Music_Voice measure 826 / measure 6]                     %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -742,7 +742,7 @@ R_Violin_I_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_I_Music_Voice measure 826 / measure 7]                     %! _comment_measure_numbers
+        % [R Violin_I_Music_Voice measure 827 / measure 7]                     %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -799,7 +799,7 @@ R_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! stirrings_still_trajectories
 
-    % [R Violin_I_Music_Voice measure 827 / measure 8]                         %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 828 / measure 8]                         %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
@@ -841,7 +841,7 @@ R_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [R Violin_I_Music_Voice measure 828 / measure 9]                 %! _comment_measure_numbers
+            % [R Violin_I_Music_Voice measure 829 / measure 9]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -853,7 +853,7 @@ R_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [R Violin_I_Rest_Voice measure 828 / measure 9]                  %! _comment_measure_numbers
+            % [R Violin_I_Rest_Voice measure 829 / measure 9]                  %! _comment_measure_numbers
             \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
@@ -861,26 +861,26 @@ R_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [R Violin_I_Music_Voice measure 829 / measure 10]                        %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 830 / measure 10]                        %! _comment_measure_numbers
     \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/2                                                                   %! _make_measure_silences
 
-    % [R Violin_I_Music_Voice measure 830 / measure 11]                        %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 831 / measure 11]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [R Violin_I_Music_Voice measure 831 / measure 12]                        %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 832 / measure 12]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [R Violin_I_Music_Voice measure 832 / measure 13]                        %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 833 / measure 13]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [R Violin_I_Music_Voice measure 833 / measure 14]                        %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 834 / measure 14]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [R Violin_I_Music_Voice measure 834 / measure 15]                        %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 835 / measure 15]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [R Violin_I_Music_Voice measure 835 / measure 16]                        %! _comment_measure_numbers
+    % [R Violin_I_Music_Voice measure 836 / measure 16]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -890,7 +890,7 @@ R_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [R Violin_I_Music_Voice measure 836 / measure 17]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [R Violin_I_Music_Voice measure 837 / measure 17]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -899,7 +899,7 @@ R_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [R Violin_I_Rest_Voice measure 836 / measure 17]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [R Violin_I_Rest_Voice measure 837 / measure 17]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -927,7 +927,7 @@ R_Violin_I_Music_Staff = <<                                                    %
 
 R_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [R Violin_II_Music_Voice measure 820 / measure 1]                        %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 821 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override Script.staff-padding = #5                                        %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
@@ -1004,7 +1004,7 @@ R_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_II_Music_Voice measure 821 / measure 2]                    %! _comment_measure_numbers
+        % [R Violin_II_Music_Voice measure 822 / measure 2]                    %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -1032,7 +1032,7 @@ R_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_II_Music_Voice measure 822 / measure 3]                    %! _comment_measure_numbers
+        % [R Violin_II_Music_Voice measure 823 / measure 3]                    %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -1101,7 +1101,7 @@ R_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 10/11 {                                                             %! stirrings_still_trajectories
 
-        % [R Violin_II_Music_Voice measure 823 / measure 4]                    %! _comment_measure_numbers
+        % [R Violin_II_Music_Voice measure 824 / measure 4]                    %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -1156,7 +1156,7 @@ R_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! stirrings_still_trajectories
 
-    % [R Violin_II_Music_Voice measure 824 / measure 5]                        %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 825 / measure 5]                        %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
@@ -1249,7 +1249,7 @@ R_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_II_Music_Voice measure 825 / measure 6]                    %! _comment_measure_numbers
+        % [R Violin_II_Music_Voice measure 826 / measure 6]                    %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
@@ -1289,7 +1289,7 @@ R_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_II_Music_Voice measure 826 / measure 7]                    %! _comment_measure_numbers
+        % [R Violin_II_Music_Voice measure 827 / measure 7]                    %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -1349,7 +1349,7 @@ R_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
-        % [R Violin_II_Music_Voice measure 827 / measure 8]                    %! _comment_measure_numbers
+        % [R Violin_II_Music_Voice measure 828 / measure 8]                    %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
@@ -1394,7 +1394,7 @@ R_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [R Violin_II_Music_Voice measure 828 / measure 9]                %! _comment_measure_numbers
+            % [R Violin_II_Music_Voice measure 829 / measure 9]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1406,7 +1406,7 @@ R_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [R Violin_II_Rest_Voice measure 828 / measure 9]                 %! _comment_measure_numbers
+            % [R Violin_II_Rest_Voice measure 829 / measure 9]                 %! _comment_measure_numbers
             \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
@@ -1414,26 +1414,26 @@ R_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [R Violin_II_Music_Voice measure 829 / measure 10]                       %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 830 / measure 10]                       %! _comment_measure_numbers
     \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/2                                                                   %! _make_measure_silences
 
-    % [R Violin_II_Music_Voice measure 830 / measure 11]                       %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 831 / measure 11]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [R Violin_II_Music_Voice measure 831 / measure 12]                       %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 832 / measure 12]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [R Violin_II_Music_Voice measure 832 / measure 13]                       %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 833 / measure 13]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [R Violin_II_Music_Voice measure 833 / measure 14]                       %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 834 / measure 14]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [R Violin_II_Music_Voice measure 834 / measure 15]                       %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 835 / measure 15]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [R Violin_II_Music_Voice measure 835 / measure 16]                       %! _comment_measure_numbers
+    % [R Violin_II_Music_Voice measure 836 / measure 16]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1443,7 +1443,7 @@ R_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Music_Voice"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [R Violin_II_Music_Voice measure 836 / measure 17]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [R Violin_II_Music_Voice measure 837 / measure 17]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1452,7 +1452,7 @@ R_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Rest_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [R Violin_II_Rest_Voice measure 836 / measure 17]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [R Violin_II_Rest_Voice measure 837 / measure 17]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1477,7 +1477,7 @@ R_Violin_II_MusicStaff = {                                                     %
 
 R_Viola_Music_Voice = {                                                        %! extern
 
-    % [R Viola_Music_Voice measure 820 / measure 1]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 821 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1497,69 +1497,69 @@ R_Viola_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [R Viola_Music_Voice measure 821 / measure 2]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 822 / measure 2]                            %! _comment_measure_numbers
     bf,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 822 / measure 3]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 823 / measure 3]                            %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 823 / measure 4]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 824 / measure 4]                            %! _comment_measure_numbers
     bf,!2.
     \repeatTie
 
     bf,!2
     \repeatTie
 
-    % [R Viola_Music_Voice measure 824 / measure 5]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 825 / measure 5]                            %! _comment_measure_numbers
     bf,!1.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 825 / measure 6]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 826 / measure 6]                            %! _comment_measure_numbers
     bf,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 826 / measure 7]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 827 / measure 7]                            %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 827 / measure 8]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 828 / measure 8]                            %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 828 / measure 9]                            %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 829 / measure 9]                            %! _comment_measure_numbers
     bf,!2.
     \repeatTie
 
     bf,!2
     \repeatTie
 
-    % [R Viola_Music_Voice measure 829 / measure 10]                           %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 830 / measure 10]                           %! _comment_measure_numbers
     bf,!1.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 830 / measure 11]                           %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 831 / measure 11]                           %! _comment_measure_numbers
     bf,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 831 / measure 12]                           %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 832 / measure 12]                           %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 832 / measure 13]                           %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 833 / measure 13]                           %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 833 / measure 14]                           %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 834 / measure 14]                           %! _comment_measure_numbers
     bf,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 834 / measure 15]                           %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 835 / measure 15]                           %! _comment_measure_numbers
     bf,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Viola_Music_Voice measure 835 / measure 16]                           %! _comment_measure_numbers
+    % [R Viola_Music_Voice measure 836 / measure 16]                           %! _comment_measure_numbers
     bf,!1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
@@ -1568,7 +1568,7 @@ R_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [R Viola_Music_Voice measure 836 / measure 17]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [R Viola_Music_Voice measure 837 / measure 17]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1577,7 +1577,7 @@ R_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [R Viola_Rest_Voice measure 836 / measure 17]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [R Viola_Rest_Voice measure 837 / measure 17]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1602,7 +1602,7 @@ R_Viola_Music_Staff = {                                                        %
 
 R_Cello_Music_Voice = {                                                        %! extern
 
-    % [R Cello_Music_Voice measure 820 / measure 1]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 821 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
     \override DynamicLineSpanner.staff-padding = #'8                           %! baca_dls_staff_padding:OverrideCommand(1)
@@ -1620,38 +1620,38 @@ R_Cello_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [R Cello_Music_Voice measure 821 / measure 2]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 822 / measure 2]                            %! _comment_measure_numbers
     b,,,2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Cello_Music_Voice measure 822 / measure 3]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 823 / measure 3]                            %! _comment_measure_numbers
     b,,,1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Cello_Music_Voice measure 823 / measure 4]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 824 / measure 4]                            %! _comment_measure_numbers
     b,,,2.
     \repeatTie
 
     b,,,2
     \repeatTie
 
-    % [R Cello_Music_Voice measure 824 / measure 5]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 825 / measure 5]                            %! _comment_measure_numbers
     b,,,1.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Cello_Music_Voice measure 825 / measure 6]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 826 / measure 6]                            %! _comment_measure_numbers
     b,,,2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Cello_Music_Voice measure 826 / measure 7]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 827 / measure 7]                            %! _comment_measure_numbers
     b,,,1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Cello_Music_Voice measure 827 / measure 8]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 828 / measure 8]                            %! _comment_measure_numbers
     b,,,1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Cello_Music_Voice measure 828 / measure 9]                            %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 829 / measure 9]                            %! _comment_measure_numbers
     b,,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1664,15 +1664,15 @@ R_Cello_Music_Voice = {                                                        %
     b,,,2
     \repeatTie
 
-    % [R Cello_Music_Voice measure 829 / measure 10]                           %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 830 / measure 10]                           %! _comment_measure_numbers
     b,,,1.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Cello_Music_Voice measure 830 / measure 11]                           %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 831 / measure 11]                           %! _comment_measure_numbers
     b,,,2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [R Cello_Music_Voice measure 831 / measure 12]                           %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 832 / measure 12]                           %! _comment_measure_numbers
     b,,,1                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
     \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
@@ -1682,7 +1682,7 @@ R_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [R Cello_Music_Voice measure 832 / measure 13]                   %! _comment_measure_numbers
+            % [R Cello_Music_Voice measure 833 / measure 13]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1                                                            %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1693,7 +1693,7 @@ R_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [R Cello_Rest_Voice measure 832 / measure 13]                    %! _comment_measure_numbers
+            % [R Cello_Rest_Voice measure 833 / measure 13]                    %! _comment_measure_numbers
             \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
@@ -1701,14 +1701,14 @@ R_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [R Cello_Music_Voice measure 833 / measure 14]                           %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 834 / measure 14]                           %! _comment_measure_numbers
     \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [R Cello_Music_Voice measure 834 / measure 15]                           %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 835 / measure 15]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [R Cello_Music_Voice measure 835 / measure 16]                           %! _comment_measure_numbers
+    % [R Cello_Music_Voice measure 836 / measure 16]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1718,7 +1718,7 @@ R_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [R Cello_Music_Voice measure 836 / measure 17]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [R Cello_Music_Voice measure 837 / measure 17]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1727,7 +1727,7 @@ R_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [R Cello_Rest_Voice measure 836 / measure 17]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [R Cello_Rest_Voice measure 837 / measure 17]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)

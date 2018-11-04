@@ -524,6 +524,7 @@ def operations():
                         length=2,
                         ),
                     target_site=(1, 2),
+                    include_after=True,
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
@@ -944,6 +945,7 @@ def operations():
             StageToken('C', 7, 'isolatum', 1), 1,
             'bisect',
             StageToken('G', 5, 'iteratum', 2), (1, 2),
+            include_after=True,
             ),
         Operation(
             StageToken('D', 11, 'isolatum', 6), (1, 6),

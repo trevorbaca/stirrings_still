@@ -2123,10 +2123,11 @@ def second_order_stages(segment):
                     5,
                     stirrings_still.StageSpecifier(
                         stage_number=5,
-                        measure_numbers=[11, 12, 13, 14],
+                        measure_numbers=[11, 12, 13, 14, 15],
                         time_signatures=[
                             abjad.TimeSignature((10, 16)),
                             abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((5, 12)),
                             abjad.TimeSignature((12, 16)),
                             ],
                         after='long',
@@ -2147,6 +2148,7 @@ def second_order_stages(segment):
                                     length=2,
                                     ),
                                 target_site=(1, 2),
+                                include_after=True,
                                 ),
                             ],
                         ),
@@ -2155,7 +2157,7 @@ def second_order_stages(segment):
                     6,
                     stirrings_still.StageSpecifier(
                         stage_number=6,
-                        measure_numbers=[15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+                        measure_numbers=[16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
                         time_signatures=[
                             abjad.TimeSignature((12, 16)),
                             abjad.TimeSignature((8, 16)),
