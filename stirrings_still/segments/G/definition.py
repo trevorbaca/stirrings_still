@@ -152,12 +152,20 @@ maker(
 
 maker(
     ('vc', 11),
-    baca.hairpin('o< f'),
+    baca.hairpin(
+        'o< f -- !',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
     ('vc', 13),
-    baca.hairpin('f >o niente'),
+    baca.hairpin(
+        'f -- ! >o niente',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -245,8 +253,7 @@ maker(
             'T -> P ->',
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
-            final_piece_spanner=False,
-            pieces=baca.plts(),
+            pieces=baca.plts()[:-1],
             ),
         ),
     baca.stem_tremolo(
