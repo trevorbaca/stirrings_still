@@ -436,7 +436,7 @@ maker(
         ),
     stirrings_still.tailpiece(
         (abjad.tweak(1.5).bound_details__right__padding, -1),
-        measures=(49, 54),
+        measures=(49, 53),
         ),
     )
 
@@ -497,10 +497,6 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     baca.new(
-#        baca.dynamic_text_parent_alignment_x(
-#            -4,
-#            selector=baca.pleaf(-1),
-#            ),
         baca.dynamic_text_self_alignment_x(
             1,
             selector=baca.pleaf(-1),
@@ -725,7 +721,7 @@ maker(
         abjad.tweak(-0.75).self_alignment_X,
         ),
     stirrings_still.tailpiece(
-        (abjad.tweak(1.5).bound_details__right__padding, -1),
+        (abjad.tweak(5.5).bound_details__right__padding, -1),
         measures=(90, 93),
         ),
     )

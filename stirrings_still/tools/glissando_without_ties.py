@@ -18,6 +18,7 @@ def glissando_without_ties(*tweaks, selector=baca.leaves()):
         baca.new(
             baca.note_head_transparent(),
             baca.note_head_x_extent_zero(),
-            selector=selector.leaves()[1:],
+            #selector=selector.leaves()[1:],
+            selector=selector.leaves()[1:-1],
             ),
         )

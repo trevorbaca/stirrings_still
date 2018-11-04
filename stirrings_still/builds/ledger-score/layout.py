@@ -190,7 +190,7 @@ breaks = baca.breaks(
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=333,
+            measure=332,
             y_offset=second_system_y_offset,
             ),
         number=10,
@@ -220,7 +220,7 @@ breaks = baca.breaks(
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=384,
+            measure=385,
             y_offset=second_system_y_offset,
             ),
         number=12,

@@ -1361,12 +1361,9 @@ H_Violin_I_Music_Voice = {                                                     %
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [H Violin_I_Music_Voice measure 476 / measure 6]                         %! _comment_measure_numbers
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
-    [                                                                          %! stirrings_still_circles
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -1380,31 +1377,20 @@ H_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #5.5                                                %! MATERIAL:CIRCLE:PiecewiseCommand(1)
     \bacaStartTextSpanCircles                                                  %! MATERIAL:CIRCLE:PiecewiseCommand(1)
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    ]                                                                          %! stirrings_still_circles
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \override TupletNumber.text = \markup {

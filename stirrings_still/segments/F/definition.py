@@ -99,7 +99,7 @@ maker(
         ),
     stirrings_still.tailpiece(
         (abjad.tweak(2).bound_details__right__padding, -1),
-        measures=(1, 11),
+        measures=(1, 10),
         ),
     )
 

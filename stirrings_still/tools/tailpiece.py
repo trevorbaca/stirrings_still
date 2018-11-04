@@ -25,6 +25,9 @@ def tailpiece(
             baca.staff_lines(5, selector=baca.rleaves()[-1:]),
             ),
         baca.text_script_parent_center(),
-        stirrings_still.glissando_without_ties(*tweaks),
+        stirrings_still.glissando_without_ties(
+            *tweaks,
+            selector=baca.leaves().rleak(),
+            ),
         measures=measures,
         )

@@ -287,8 +287,6 @@ I_Violin_I_Music_Voice = {                                                     %
 
     % [I Violin_I_Music_Voice measure 526 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \override DynamicLineSpanner.staff-padding = #'5                           %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -302,7 +300,6 @@ I_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \<                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    [                                                                          %! stirrings_still_circles
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CIRCLE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "golden"                                    %! MATERIAL:CIRCLE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CIRCLE:PiecewiseCommand(1):autodetect
@@ -319,116 +316,72 @@ I_Violin_I_Music_Voice = {                                                     %
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
     % [I Violin_I_Music_Voice measure 527 / measure 2]                         %! _comment_measure_numbers
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
     % [I Violin_I_Music_Voice measure 528 / measure 3]                         %! _comment_measure_numbers
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
     % [I Violin_I_Music_Voice measure 529 / measure 4]                         %! _comment_measure_numbers
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -438,184 +391,113 @@ I_Violin_I_Music_Voice = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
     % [I Violin_I_Music_Voice measure 530 / measure 5]                         %! _comment_measure_numbers
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
     % [I Violin_I_Music_Voice measure 531 / measure 6]                         %! _comment_measure_numbers
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
     % [I Violin_I_Music_Voice measure 532 / measure 7]                         %! _comment_measure_numbers
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
 
-    \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
-    \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    ]                                                                          %! stirrings_still_circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 
