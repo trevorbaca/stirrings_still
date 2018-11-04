@@ -70,8 +70,7 @@ Sequence([Sequence([1, 0, 0, 1, 0, 1])])
 
 maker(
     ('v1', [(1, 5), (8, 9), (11, 15), (18, 19)]),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     )
@@ -146,8 +145,7 @@ maker(
 
 maker(
     ('v2', [(1, 4), 6, 8, (10, 14), 16, 18]),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     )
@@ -239,8 +237,7 @@ maker(
 
 maker(
     ('va', [(1, 7), (11, 17)]),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     )
@@ -299,8 +296,7 @@ maker(
 
 maker(
     ('vc', [(1, 5), (9, 15)]),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     )

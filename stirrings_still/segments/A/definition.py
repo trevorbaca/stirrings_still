@@ -173,13 +173,13 @@ maker(
     baca.scp_spanner(
         'tasto (T) =|',
         abjad.tweak(5.5).staff_padding,
+        left_broken_text=r'\baca-left-broken-t-markup',
         ),
     )
 
 maker(
     ('trio', [3, (5, 6), (8, 9)]),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
         ),
     )
@@ -222,8 +222,8 @@ maker(
         pieces=baca.omgroups([1, 1]),
         selector=baca.leaves()[2:].rleak(),
         ),
-    baca.scp_spanner(
-        'T =|',abjad.tweak(5.5).staff_padding,
+    baca.tasto_spanner(
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(protract=True),
     )
@@ -251,6 +251,7 @@ maker(
     baca.scp_spanner(
         'tasto (T) =|',
         abjad.tweak(5.5).staff_padding,
+        left_broken_text=r'\baca-left-broken-t-markup',
         ),
     stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
     )
@@ -277,8 +278,7 @@ maker(
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.urtext_annotation_spanner('urtext (field) -|', 8),
@@ -304,8 +304,7 @@ maker(
         baca.breathe(),
         selector=baca.note(-1),
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.declamation(),

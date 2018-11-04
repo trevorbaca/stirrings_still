@@ -455,8 +455,7 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(10.5).staff_padding,
         measures=(18, 27),
         ),
@@ -593,8 +592,7 @@ maker(
             clt=True,
             ),
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(13).staff_padding,
         ),
     baca.tie_to(),
@@ -623,8 +621,7 @@ maker(
 
 maker(
     ('v1', 26),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
         ),
     )
@@ -648,8 +645,7 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
     )
@@ -668,8 +664,7 @@ maker(
             clt=True,
             ),
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(13).staff_padding,
         ),
     stirrings_still.trajectories('B', 0, 0),
@@ -900,8 +895,7 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
     baca.stem_tremolo(),
@@ -1073,8 +1067,7 @@ maker(
         stirrings_still.flight('B', -2, start=16),
         match=2,
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
     baca.suite(

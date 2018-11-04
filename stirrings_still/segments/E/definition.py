@@ -316,13 +316,11 @@ maker(
 
 maker(
     ('trio', (6, 40)),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(10.5).staff_padding,
         match=[0, 1],
         ),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         match=[2],
         ),

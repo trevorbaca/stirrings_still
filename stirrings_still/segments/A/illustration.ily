@@ -1485,6 +1485,7 @@ A_Violin_I_Music_Voice = {                                                     %
     ~                                                                          %! TieCorrectionCommand
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto (T)"                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -1553,11 +1554,12 @@ A_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -1588,7 +1590,7 @@ A_Violin_I_Music_Voice = {                                                     %
             % [A Violin_I_Music_Voice measure 4]                               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1612,11 +1614,12 @@ A_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -1652,7 +1655,7 @@ A_Violin_I_Music_Voice = {                                                     %
             % [A Violin_I_Music_Voice measure 7]                               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1676,11 +1679,12 @@ A_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -1716,7 +1720,7 @@ A_Violin_I_Music_Voice = {                                                     %
             % [A Violin_I_Music_Voice measure 10]                              %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1739,11 +1743,12 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -1833,7 +1838,7 @@ A_Violin_I_Music_Voice = {                                                     %
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanUrtext                                            %! MATERIAL:URTEXT:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1858,11 +1863,12 @@ A_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -1905,7 +1911,7 @@ A_Violin_I_Music_Voice = {                                                     %
             % [A Violin_I_Music_Voice measure 19]                              %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1929,11 +1935,12 @@ A_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -1965,7 +1972,7 @@ A_Violin_I_Music_Voice = {                                                     %
             % [A Violin_I_Music_Voice measure 21]                              %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1989,11 +1996,12 @@ A_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -2035,7 +2043,7 @@ A_Violin_I_Music_Voice = {                                                     %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanUrtext                                                %! MATERIAL:URTEXT:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-mod-width-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -2088,11 +2096,12 @@ A_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -2137,7 +2146,7 @@ A_Violin_I_Music_Voice = {                                                     %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanUrtext                                                %! MATERIAL:URTEXT:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -2230,11 +2239,12 @@ A_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -2277,7 +2287,7 @@ A_Violin_I_Music_Voice = {                                                     %
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanUrtext                                                %! MATERIAL:URTEXT:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -3101,6 +3111,7 @@ A_Violin_II_Music_Voice = {                                                    %
     ~                                                                          %! TieCorrectionCommand
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto (T)"                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -3169,11 +3180,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -3204,7 +3216,7 @@ A_Violin_II_Music_Voice = {                                                    %
             % [A Violin_II_Music_Voice measure 4]                              %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3228,11 +3240,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -3268,7 +3281,7 @@ A_Violin_II_Music_Voice = {                                                    %
             % [A Violin_II_Music_Voice measure 7]                              %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3292,11 +3305,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -3332,7 +3346,7 @@ A_Violin_II_Music_Voice = {                                                    %
             % [A Violin_II_Music_Voice measure 10]                             %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3355,11 +3369,12 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -3449,7 +3464,7 @@ A_Violin_II_Music_Voice = {                                                    %
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanUrtext                                            %! MATERIAL:URTEXT:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3474,11 +3489,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -3521,7 +3537,7 @@ A_Violin_II_Music_Voice = {                                                    %
             % [A Violin_II_Music_Voice measure 19]                             %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3545,11 +3561,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -3581,7 +3598,7 @@ A_Violin_II_Music_Voice = {                                                    %
             % [A Violin_II_Music_Voice measure 21]                             %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3605,11 +3622,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -3648,7 +3666,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanUrtext                                                    %! MATERIAL:URTEXT:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-mod-width-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -3696,11 +3714,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -3742,7 +3761,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanUrtext                                                    %! MATERIAL:URTEXT:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -3839,11 +3858,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -3883,7 +3903,7 @@ A_Violin_II_Music_Voice = {                                                    %
     c'4                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanUrtext                                                    %! MATERIAL:URTEXT:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-wide-markup             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -4555,6 +4575,7 @@ A_Viola_Music_Voice = {                                                        %
     ~                                                                          %! TieCorrectionCommand
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto (T)"                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -4623,11 +4644,12 @@ A_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -4658,7 +4680,7 @@ A_Viola_Music_Voice = {                                                        %
             % [A Viola_Music_Voice measure 4]                                  %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4682,11 +4704,12 @@ A_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -4722,7 +4745,7 @@ A_Viola_Music_Voice = {                                                        %
             % [A Viola_Music_Voice measure 7]                                  %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4746,11 +4769,12 @@ A_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -4786,7 +4810,7 @@ A_Viola_Music_Voice = {                                                        %
             % [A Viola_Music_Voice measure 10]                                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4809,11 +4833,12 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -4903,7 +4928,7 @@ A_Viola_Music_Voice = {                                                        %
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanUrtext                                            %! MATERIAL:URTEXT:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -4928,11 +4953,12 @@ A_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -4975,7 +5001,7 @@ A_Viola_Music_Voice = {                                                        %
             % [A Viola_Music_Voice measure 19]                                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4999,11 +5025,12 @@ A_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -5035,7 +5062,7 @@ A_Viola_Music_Voice = {                                                        %
             % [A Viola_Music_Voice measure 21]                                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5059,11 +5086,12 @@ A_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! stirrings_still_declamation
@@ -5105,7 +5133,7 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanUrtext                                                %! MATERIAL:URTEXT:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-mod-width-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -5161,11 +5189,12 @@ A_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -5210,7 +5239,7 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanUrtext                                                %! MATERIAL:URTEXT:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -5307,11 +5336,12 @@ A_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     [                                                                          %! stirrings_still_declamation
     ~                                                                          %! TieCorrectionCommand
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "C, D"                                      %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -5354,7 +5384,7 @@ A_Viola_Music_Voice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanUrtext                                                %! MATERIAL:URTEXT:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -6266,6 +6296,7 @@ A_Cello_Music_Voice = {                                                        %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto (T)"                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6387,11 +6418,12 @@ A_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "urtext (field)"                            %! MATERIAL:URTEXT:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
@@ -6479,7 +6511,7 @@ A_Cello_Music_Voice = {                                                        %
             c'1 * 7/8                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanUrtext                                            %! MATERIAL:URTEXT:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container

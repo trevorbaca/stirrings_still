@@ -760,8 +760,7 @@ maker(
 maker(
     ('trio', [52, 54]),
     baca.dynamic('mp'),
-    baca.scp_spanner(
-        'T =|',
+    baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.clouded_pane_annotation_spanner(
