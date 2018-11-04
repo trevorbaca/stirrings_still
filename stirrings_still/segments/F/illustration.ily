@@ -921,14 +921,12 @@ F_Viola_Music_Voice = {                                                        %
     % [F Viola_Music_Voice measure 442 / measure 10]                           %! _comment_measure_numbers
     c'1.                                                                       %! stirrings_still_tailpiece
     - \abjad-zero-padding-glissando                                            %! baca_glissando
-    - \tweak bound-details.right.padding #2.25                                 %! baca_glissando
+    - \tweak bound-details.right.padding #2                                    %! baca_glissando
     \glissando                                                                 %! baca_glissando
     \revert Hairpin.shorten-pair                                               %! baca_hairpin_shorten_pair:OverrideCommand(2)
 
     % [F Viola_Music_Voice measure 443 / measure 11]                           %! _comment_measure_numbers
     c'4                                                                        %! stirrings_still_tailpiece
-    - \tweak extra-offset #'(-21 . 0)                                          %! baca_markup:IndicatorCommand
-    ^ \markup { "terminate abruptly" }                                         %! baca_markup:IndicatorCommand
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
     \revert TextScript.parent-alignment-X                                      %! baca_text_script_parent_center:OverrideCommand(2)

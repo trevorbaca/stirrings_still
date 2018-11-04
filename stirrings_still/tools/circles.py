@@ -18,15 +18,15 @@ def circles(
         durations=[duration],
         remainder=remainder,
         )
-    beam_specifier = rmakers.BeamSpecifier(
-        beam_divisions_together=True,
-        beam_each_division=True,
-        )
+#    beam_specifier = rmakers.BeamSpecifier(
+#        beam_divisions_together=True,
+#        beam_each_division=True,
+#        )
     return baca.rhythm(
         division_expression=division_expression,
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            beam_specifier=beam_specifier,
+            ###beam_specifier=beam_specifier,
             division_masks=dmask,
             tag='stirrings_still_circles',
             ),
