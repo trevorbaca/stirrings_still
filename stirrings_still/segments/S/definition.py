@@ -46,6 +46,10 @@ maker(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.dynamic_text_self_alignment_x(
+        0.75,
+        selector=baca.pleaf(-1),
+        ),
     baca.hairpin(
         'p > ppp <',
         pieces=baca.cmgroups(),
@@ -60,6 +64,10 @@ maker(
     baca.circle_bow_spanner(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
+        ),
+    baca.dynamic_text_self_alignment_x(
+        0.75,
+        selector=baca.pleaf(-1),
         ),
     baca.hairpin(
         'ppp < p >',
@@ -85,6 +93,8 @@ maker(
         'c1 ~ c4 ~ c4',
         repeat_tie_threshold=(1, 4),
         ),
+    baca.pitch('B0', allow_out_of_range=True),
+    baca.ottava_bassa(),
     )
 
 maker(
