@@ -61,6 +61,10 @@ maker(
     'Global_Skips',
     baca.new(
         baca.new(
+            baca.bar_line_x_extent((-1, 3)),
+            selector=baca.skip(0),
+            ),
+        baca.new(
             baca.bar_line_x_extent((-2, 4)),
             after=True,
             selector=baca.skip(-1),
@@ -127,8 +131,9 @@ maker(
         measures=(57, 60),
         ),
     baca.new(
+        # left extent zero because empty measure to left
         baca.new(
-            baca.bar_line_x_extent((-1, 3)),
+            baca.bar_line_x_extent((0, 3)),
             selector=baca.skip(0),
             ),
         baca.new(
