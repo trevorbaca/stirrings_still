@@ -1369,17 +1369,17 @@ SEGMENTS
             va completely regular rhythm #3
         o< p
     vc clouded pane
-        harmonic lh
-        ff scratch > p
+        subito harmonic lh
+        subito ff scratch > p
     >>attacca [E.1] to effect prefix<<
     [E.1] (6-11)
     (6 measures)
-    presto
+    presto (resumes)
     v1, v2, va grid-to-trajectories stage-5 transition (continues)
         damped lh
         tasto
         tremolo-initiated-XFB strokes begin independently
-        desynchronization
+        desynchronized
         p
     vc clouded pane
         [p]
@@ -1412,7 +1412,7 @@ SEGMENTS
 
     [E.4] (24-27)
     (4 measures)
-    allegro continues
+    [allegro]
     v1, v2, va grid-to-trajectories transition (continues)
         [tasto]
         [tremolo-initiated-XFB strokes]
@@ -1443,35 +1443,35 @@ SEGMENTS
     v1, v2, va grid-to-trajectories transition (continues)
         [tasto]
         tremolo-initiation stops independently
-            XFB continues
+        XFB continues
         [slightly higher lower-register pitches]
         [synchronization]
         [p]
     vc
         [tacet]
     <<[A.1 (isolatum) 1/1] bisects [E.6]>> (34)
-        <<summons past time>>
-        andante
-        trio urtext declamation (two chords)
-            [tasto]
-            closely spaced double-stops
-            declamation (two rest-delimited chords)
-                first chord
-                    short
-                    p <| f ringing lv
-                second chord
-                    longer
-                    p < mp stop-on-string
-        vc
-            [tacet]
+    <<summons past time>>
+    andante
+    trio urtext declamation (two chords)
+        [tasto]
+        closely spaced double-stops
+        declamation (two rest-delimited chords)
+            first chord
+                short
+                p <| f ringing lv
+            second chord
+                longer
+                p < mp stop-on-string
+    vc
+        [tacet]
     <<attacca return to second half of [E.6]>>
     [E.6.3-4] (35-36)
     (last 2 of 4 measures)
-    presto
+    presto (resumes)
     v1, v2, va grid-to-trajectories transition (completes)
         [tasto]
         tremolo-initiation stops independently
-            XFB continues
+        XFB continues
         [slightly higher lower-register pitches]
         [synchronization]
         [p]
@@ -1481,40 +1481,39 @@ SEGMENTS
 
     [E.7] (37-40)
     (4 measures)
-    presto continues
-    v1, v2, va trajectories continue
-        tasto continues
+    [presto]
+    v1, v2, va trajectories (continue)
+        [tasto]
         very light fast bow continues
         very slight pitch ascents begin again independently
             achieve slightly higher lower-register pitches by end
         slightly higher lower-register tasto continues
         synchronization completes
-        (p) < mf happens
-            begins at start of stage
-            achieves mf at start of measure -1
+        (p) < mf begins and culminates at start of measure -1
     vc
-        tacet continues
+        [tacet]
     fermata (41)
-    >>[Q.1 (inception) 1-8/8] prolongs [E.7] fermata<< (42-49)
-    >>[Q.2 (transformatum) 1-12/12] prolongs [E.7] fermata<< (50-61)
-        >>summon future time<<
-        (8 measures: 42-49)
-        presto
-        tutti circles (desynchronized spinning white noise)
-            damped lh
-            each pitch fixed
-            relatively fast polyrhythmic desynchronized circles
-            p
-        surprisingly short breath [v2 plays circles through breath]
-        (12 measures: 50-61)
-        adagio-to-presto accelerando happens
-        tutti urtext field / trajectories appear (desynchronized pitched field
-            trajectories whisked skyward)
-            urtext field double-stops
-            subito pitch
-            desynchronized hair trajectories
-                1/2 clt introduced towards end of trajectories independently
-            ff poco scratch < fff scratch > f senza scratch
+    >>[Q.1 (inception)] prolongs [E.7] fermata<< (42-49)
+    >>[Q.2 (transformatum) prolongs [E.7] fermata<< (50-61)
+    >>summon future time<<
+    (8 measures: 42-49)
+    [presto]
+    tutti circles (desynchronized spinning white noise)
+        damped lh
+        wide
+        desynchronized
+        each pitch fixed
+        p
+    surprisingly short breath [v2 plays circles through breath]
+    (12 measures: 50-61)
+    adagio-to-presto accelerando happens
+    tutti urtext field / trajectories appear
+    (desynchronized pitched field trajectories whisked skyward)
+        urtext field double-stops
+        subito pitch
+        desynchronized hair trajectories
+        1/2 clt introduced towards end of trajectories
+        ff poco scratch < fff scratch > f senza scratch
     >>fermata repeated after insert to effect prolongation<< (62)
 
     [E.8] (63-70)
@@ -1535,7 +1534,7 @@ SEGMENTS
     presto-to-largo ritardando happens
     v1, v2, va trajectory-cells-to-flight transition happens
         [1/2 clt]
-        single-cell repetition-to-tremolo transitions happen independently
+        single-cell repetition-to-tremolo transitions
         [p]
     vc clouded pane
         [p]
@@ -1545,7 +1544,7 @@ SEGMENTS
     (2 measures)
     presto-to-largo ritardando: achieves largo at start of stage
     v1, v2, va flight (continues)
-        tasto
+        T -> poco P
         tremolo
         [p]
     vc clouded pane
@@ -1575,70 +1574,70 @@ SEGMENTS
         [p]
     >>[Q.1 (inception) 1-8/8] bisects [E.12]<< (89-96)
     >>[Q.2 (transformatum) 1-12/12] bisects [E.12]<< (97-108)
-        >>recapitulates summons of future time<<
-        (8 measures: 89-96)
-        presto
-        tutti circles (desynchronized spinning white noise)
-            damped lh
-            each pitch fixed
-            relatively fast polyrhythmic desynchronized circles
-            p
-        surprisingly short breath [v2 plays circles through breath]
-        (12 measures: 97-108)
-        adagio-to-presto accelerando happens
-        tutti urtext field / trajectories appear (desynchronized pitched field
-            trajectories whisked skyward)
-            urtext field double-stops
-            subito pitch
-            desynchronized hair trajectories
-                1/2 clt introduced towards end of trajectories independently
-            ff poco scratch < fff scratch > f senza scratch
-        <<attaca return to second half of [E.12] (109-110)>>
+    >>recapitulates summons of future time<<
+    (8 measures: 89-96)
+    presto (subito)
+    tutti circles (desynchronized spinning white noise)
+        damped lh
+        wide
+        desynchronized
+        each pitch fixed
+        p
+    surprisingly short breath [v2 plays circles through breath]
+    (12 measures: 97-108)
+    adagio-to-presto accelerando happens
+    tutti urtext field / trajectories appear
+    (desynchronized pitched field trajectories whisked skyward)
+        urtext field double-stops
+        subito pitch
+        desynchronized hair trajectories
+        1/2 clt introduced towards end of trajectories
+        ff poco scratch < fff scratch > f senza scratch
+    <<attaca return to second half of [E.12] (109-110)>>
     [E.12.3-4] (109-110)
     (last 2 of 4 measures)
-    largo
+    largo (resumes)
     v1, v2, va flight continues
-        stopped-to-damped lh transition governs first half of stage
-        T-B-T independent scp patterning repeats from previous stage
-        tremolo continues
-        mf > p governs first half of stage
+        lh damped (resumes)
+        T-B-T independent scp patterning (resumes)
+        tremolo (resumes)
+        p (resumes)
     vc clouded pane
         [p]
     fermata [vc holds through fermata] (111)
 
     [E.13] (112-115)
     (4 measures)
-    largo-to-presto accelerando happens; 
-    v1, v2, va flight continues
-        damped lh continues
-        T-B-T independent scp patterning repeats from previous stage
-        tremolo continues
-        p continues
+    largo-to-presto accelerando
+    v1, v2, va flight (continues)
+        [damped lh]
+        [T-B-T independent scp patterning]
+        [tremolo]
+        [p]
     vc clouded pane
         p >o
     attacca
 
     [E.14] (116-117)
     (2 measures)
-    subito largo
-    v1, v2, va flight continues
-        damped lh continues
-        T-B-T independent scp patterning completes
-            achieves tasto at start of measure -1
-        tremoli begin to slow independently
-        p continues
+    largo (subito)
+    v1, v2, va flight (continues)
+        [damped lh]
+        [T-B-T independent scp patterning]
+        tremoli slow independently
+        p >o begins
     vc
         [tacet]
     attacca
 
     [E.15] (118-119)
     (2 measures)
-    largo continues
+    [largo]
     v1, v2, va flight completes
-        damped lh completes
-        tasto completes
-        tremoli come to stops independently
-        independent p >o govern stage
+        [damped lh]
+        [T-P-T independent scp patterning]
+        tremoli stop independently
+        p >o terminates at start of next stage
     vc clouded pane
         new pitch stepwise above
         o< p
@@ -1646,7 +1645,7 @@ SEGMENTS
 
     [E.16] (120-127)
     (8 measures)
-    largo continues
+    [largo]
     v1, v2, va
         [tacet]
     vc clouded pane
@@ -1681,13 +1680,13 @@ SEGMENTS
         [tacet]
     long fermata (11)
     <<[C.2 (crunch + up-glissando) 3-4/4] prolong [F.2] fermata>> (12-13)
-        <<summon past time>>
-        adagio
-        tutti tight poss. talon-crunch circles
-            damped lh
-            v2 only: slow up-glissando
-            desynchronization
-            p
+    <<summon past time>>
+    adagio
+    tutti tight poss. talon-crunch circles
+        damped lh
+        v2 only: slow up-glissando
+        desynchronized
+        p
     <<long fermata follows insert to complete prolongation>> (14)
 
 [G] time series C; rotation -36
@@ -1696,19 +1695,19 @@ SEGMENTS
     (1 measure)
     largo più mosso
     tutti clouded pane / urtext declamation conflict begins
-        single declamation
-            v1, v2 urtext declamation double-stops begin
-                tasto
-                polyrhythmic louré-swell tuplets
-                o< mp >o shapes each note
-            va clouded partial
-                tasto
-                polyrhythmic louré-swell tuplets
-                o< mp >o shapes each note
-            vc clouded pane
-                new pitch begins stepwise above
-                o< f ... f >o governs stage
-                subtends declamation
+    single declamation
+        v1, v2 urtext declamation double-stops begin
+            tasto
+            polyrhythmic louré-swell tuplets
+            o< mp >o shapes each note
+        va clouded partial
+            tasto
+            polyrhythmic louré-swell tuplets
+            o< mp >o shapes each note
+        vc clouded pane
+            new pitch begins stepwise above
+            o< f ... f >o governs stage
+            subtends declamation
     fermata (2)
 
     [G.2] (3)
@@ -1717,7 +1716,7 @@ SEGMENTS
     tutti clouded pane / urtext declamation conflict (happens again)
     fermata (4)
 
-    >>[J.1 (clearing) 1-2/4] prefixes [G.3 (iteratum)]<< (5-6)
+    >>[J.1.1-2/4 (clearing)] prefixes [G.3 (iteratum)]<< (5-6)
         >>summons future time<<
         larghissimo
         v1, v2, va urtext field
@@ -1744,21 +1743,21 @@ SEGMENTS
     tutti clouded pane / urtext declamation conflict happens again
     attacca bisection
     <<[C.7 (clocktick composite) 1/1] bisects [G.5]>> (12)
-        allegro
-        <<summons past time>>
-        v1 shining beacon of clouded pane
-            harmonic lh
-            pp
-        v2 white clockticks [B.10]
-            damped lh
-            1/2 clt
-            fast clockticks
-            mp
-        va, vc shining beacon of clouded pane
-            harmonic lh
-            pp
-        cut-off
-        <<attacca second half of [G.5]>> (13)
+    allegro
+    <<summons past time>>
+    v1 shining beacon of clouded pane
+        harmonic lh
+        pp
+    v2 white clockticks [B.10]
+        damped lh
+        1/2 clt
+        mp
+        ===
+        {fast clockticks}
+    va, vc shining beacon of clouded pane
+        harmonic lh
+        pp
+    <<attacca second half of [G.5]>> (13)
     [G.5.2] (13)
     (second of 2 measures)
     largo più mosso
@@ -1769,32 +1768,31 @@ SEGMENTS
     (2 measures)
     larghissimo
     tutti urtext field blossoms aflight (without clouded pane)
-        single declamation (happens again)
-            pitch
-                eight-note chord
-                four double-stops
-                clouded pane pitches no longer present
-            T-B-T scp patterning
-                independently in each part
-                multiple times in each part
-            arco-to-tremolo (fifth-to-sixth stage) transitions happen
-                independently in each part
-                multiples times in each part
-            two layers of dynamic in each part
-                unmarked swells on each note
-                pp < mf governs stage
+    single declamation (happens again)
+        pitch
+            eight-note chord
+            four double-stops
+            clouded pane pitches no longer present
+        T-B-T scp patterning
+            independently in each part
+            multiple times in each part
+        arco-to-tremolo (fifth-to-sixth stage) transitions happen
+            independently in each part
+            multiples times in each part
+        two layers of dynamic in each part
+            unmarked swells on each note
+            pp < mf governs stage
     long fermata (17)
-    <<[D.11 (process) 1-6/6] prolongs [G.6] long fermata>> (18-23)
-        <<summons past time>>
-        presto-to-andante ritardando
+    <<[D.11.1-6/6 (process)] prolongs [G.6] long fermata>> (18-23)
+    <<summons past time>>
+    presto-to-andante ritardando
     <<long fermata repeats to effect prolongation>> (24)
 
 [H] time series B; rotation -16
 
     [H.1] (1-4)
     (4 measures)
-    largo-to-adagio accelerando governs stage
-        achieves adagio at start of measure -1
+    largo-to-adagio accelerando culminates at start of measure -1
     tutti urtext field appears from rasp
         four-note chord appears on single-stopped notes
         extremely gradual rasp-to-flautando (start of measure -1) transition
@@ -1811,32 +1809,32 @@ SEGMENTS
     surprisingly short breath [v2 holds over breath]
     >>[I.1 (composite)] suffixes [H.2]<< (6)
     >>summons future time<<
-        largo
-        >>[I.1 (v1, va, synchronous golden gears) 2/2] prolong short breath<<
-            golden tone (senza scratch)
-            circles (SL = BW) locked in binary rate ratio 1:4
-            mp
-        >>[I.1 (vc 1/2 clt solo trajectory) 2/2] prolong short breath<<
-            1/2 clt
-            local accelerandi
-            repetition quasivortex
-            p
+    largo
+    >>[I.1 (v1, va, synchronous golden gears) 2/2] prolong short breath<<
+        golden tone (senza scratch)
+        circles (SL = BW) locked in binary rate ratio 1:4
+        mp
+    >>[I.1 (vc 1/2 clt solo trajectory) 2/2] prolong short breath<<
+        1/2 clt
+        local accelerandi
+        repetition quasivortex
+        p
     >>v1, va, vc repeat surprisingly short breath to effect prolongation<<
     >>v2 holds over surprisingly short breath<<
 
     [H.3] (7-8)
     (2 measures)
-    adagio resumes after suffix
-    v1 urtext field / circles appear gradually
+    adagio (resumes)
+    v1 urtext field / circles 9appear gradually)
         single bows become slow circles
         desynchronization begins
             rhythm #1 appears
             introduced gradually on local accelerandi
         p begins
-    v2 urtext field continues
-        flautando continues
-        mp continues
-    va urtext field / circles appear gradually
+    v2 urtext field (continues)
+        [flautando]
+        [mp]
+    va urtext field / circles (appear gradually)
         single bows become slow circles
         desynchronization begins
             rhythm #3 appears
@@ -1846,243 +1844,217 @@ SEGMENTS
         stopped-to-harmonic lh transition governs first half of stage
         flautando-to-ordinario transition governs first half of stage
         urtext-field-to-clouded-pane glissando governs first half of stage
-        mp resumes after insert
+        mp (resumes)
     attacca
 
     [H.4] (9-10)
     (2 measures)
     adagio-to-allegro accelerando begins
-        begins adagio at start of stage
-    v1 urtext field / circles continue
+    v1 urtext field / circles (continue)
         up-glissando lentissimo begins
-            begins at start of stage
-        ellipse rate increases
+        ellipse width increases
         desynchronization (rhythm #1) continues
-        p continues
+        [p]
     v2 urtext field continues
         flautando slows to single bows during first half of stage
-        mp > p governs first half of stage
+        mp > p
     va urtext field / circles continue
         up-glissando lentissimo begins
-            begins at start of stage
-        ellipse rate increases
+        ellipse width increases
         desynchronization (rhythm #3) continues
-        p continues
-    vc clouded pane continues
-        harmonic lh continues
+        [p]
+    vc clouded pane
+        [harmonic lh]
         mp < f poco overpressure begins
     attacca
 
     [H.5] (11-12)
     (2 measures)
-    adagio-to-allegro accelerando completes
-        achieves allegro at start of measure 1:2
-    allegro-to-adagio ritardando begins
-        begins ritardando at start of measure 1:2
-    v1 urtext field / circles continue
-        up-glissando lentissimo continues
-        ellipse rate increases
-        desynchronization (rhythm #1) continues
-        p continues
-    v2 urtext field / circles appear gradually
-        single bows become slow circles
+    adagio-to-allegro accelerando culmiantes at start of measure 1:2
+    allegro-to-adagio ritardando begins at start of measure 1:2
+    v1 urtext field / circles (continue)
+        [up-glissando lentissimo]
+        mod. -> wide
+        [desynchronization (rhythm #1)]
+        [p]
+    v2 urtext field / circles
+        tight -> mod.
         up-glissando lentissimo begins
-            begins at start of stage
-        desynchronization begins
-            rhythm #2 appears gradually
-            introduced on local accelerandi
-        p continues
+        desynchronized
+        introduced on local accelerandi
+        [p]
     va urtext field / circles continue
-        up-glissando lentissimo continues
-        ellipse rate increases
-        desynchronization (rhythm #3) continues
-        p continues
-    vc clouded pane continues
-        harmonic lh continues
+        [up-glissando lentissimo]
+        mod. -> wide
+        [desynchronized]
+        [p]
+    vc clouded pane
+        [harmonic lh]
         mp < f poco overpressure continues
     attacca
 
     [H.6] (13-14)
     (2 measures)
-    allegro-to-adagio ritardando completes
-        achieves adagio at start of measure -1
-    v1 urtext field / circles continue
-        up-glissando lentissimo continues
-        ellipse rate increases
-        desynchronization (rhythm #1) continues
-        p continues
-    v2 urtext field / circles continue
-        up-glissando lentissimo continues
-        ellipse rate increases
-        desynchronization (rhythm #2) continues
-        p continues
-    va urtext field / circles continue
-        up-glissando lentissimo continues
-        ellipse rate increases
-        desynchronization (rhythm #3) continues
-        p continues
-    vc clouded pane continues
-        harmonic lh continues
+    allegro-to-adagio ritardando culminates at start of measure -1
+    v1 urtext field / circles (continue)
+        [up-glissando lentissimo]
+        wide
+        [desynchronized]
+        [p]
+    v2 urtext field / circles (continue)
+        [up-glissando lentissimo]
+        mod. -> wide
+        [desynchronized]
+        [p]
+    va urtext field / circles (continue)
+        [up-glissando lentissimo]
+        wide
+        [desynchronized]
+        [p]
+    vc clouded pane
+        [harmonic lh]
         f + poco overpressure
     attacca
 
     [H.7] (15-16)
     (2 measures)
     adagio continues
-    v1 urtext field / circles complete
-        up-glissando lentissimo completes
-            achieves new pitch at start of stage
-        very fast circles complete
-        desynchronization (rhythm #1) completes
-        p >o governs stage
-            achieves niente at start of next stage
-    v2 urtext field / circles complete
-        up-glissando lentissimo completes
-            achieves new pitch at start of stage
-        ellipse rate increases
-        desyncrhonization (rhythm #2) completes
-        p >o governs stage
-            achives niente at start of next stage
+    v1 urtext field / circles
+        new pitch
+        [wide]
+        [desynchronized]
+        p >o
+    v2 urtext field / circles
+        new pitch
+        [wide]
+        [desynchronized]
+        p >o
     va urtext field / circles complete
-        up-glissando lentissimo completes
-            achieves new pitch at start of stage
-        very fast circles
+        new pitch
+        [wide]
+        [desynchronized]
         desyncrhonization (rhythm #3) completes
-        p >o governs stage
-            achieves niente at start of next stage
-    vc clouded pane continues
-        harmonic lh continues
-        overpressure harmonic continues
-        f poco overpressure < ff molto overpressure governs stage
+        p >o
+    vc clouded pane
+        [harmonic lh]
+        [overpressure harmonic]
+        mp < ff molto overpressure culminates at start of next stage
     attacca
     
     [H.8] (17-22)
     (6 measures)
-    adagio-to-allegro accelerando governs stage
-        achieves allegro at start of next stage
+    adagio-to-allegro accelerando culminates at start of next stage
     v1, v2, va
-        tacet
-    vc clouded pane continues
-        harmonic lh continues
-        overpressure harmonic continues
+        [tacet]
+    vc clouded pane
+        [harmonic lh]
+        [overpressure harmonic continues]
         ff molto overpressure
     attacca
 
     [H.9] (23-28 + short)
     (6 measures)
-    allegro continues
-    v1, v2, va interlocking clouded pane whisk gears appear gradually
-        fast circles
-        polyrhythmic desynchronization begins
-            v1 completely regular rhythm #1
-            v2 completely regular rhythm #2
-            va completely regular rhythm #3
+    [allegro[]
+    v1, v2, va interlocking clouded pane whisk gears (appear gradually)
+        wide
+        v1 completely regular rhythm #1
+        v2 completely regular rhythm #2
+        va completely regular rhythm #3
         o< p governs first third of stage
-    vc clouded pane continues
-        harmonic lh continues
-        overpressure harmonic continues
-        ff molto overpressure > ppp governs stage
+    vc clouded pane
+        [harmonic lh]
+        [overpressure harmonic]
+        ff molto overpressure > ppp
     short fermata [vc continues through fermata] (29)
 
     [H.10] (30-31).
     (2 measures)
     [allegro]
-    v1, v2, va interlocking clouded pane whisk gears repeat and darken
-        noise injection (= slow bow) begins
-        polyrhythmic desynchronization continues
-            animated by inverse time-swells
-            independent ritardandi-back-up-to-tempo
-            help achieve noise injection at slow midpoint
+    v1, v2, va interlocking clouded pane whisk gears (repeat and darken)
+        wide -> tight
+        independent acclerandi and ritardandi
         mp
-    vc clouded pane continues
-        harmonic lh continues
-        ppp continues
+    vc clouded pane
+        [harmonic lh]
+        [ppp]
     short fermata [vc continues through fermata] (32)
     <<[G.5, C.7 (pane / urtext conflict)] prolongs [H.10] short fermata>> (33)
-        <<v2 clockticks summon past time>>
-            allegro
-            tasto
-            1/2 clt
-            mf
+    <<v2 clockticks summon past time>>
+        [allegro]
+        lh damp
+        1/2 clt
+        mp
     <<short fermata repeats to effect prolongation>> (34)
 
-    <<[H.1 (inception)] 1-2/4] prefixed to [H.11]>> (35-36)
-        <<summons past time>>
-        largo
-        tutti
-            four-note chord on single-stopped notes
-            extremely gradual rasp-to-flautando transition
-            o< mp
+    <<[H.1.1-2/4 (inception)] prefixed to [H.11]>> (35-36)
+    <<summons past time>>
+    largo
+    tutti
+        four-note chord on single-stopped notes
+        extremely gradual rasp-to-flautando transition
+        o< mp
     <<attacca [H.11] to effect prefix>>
     [H.11] (37-39 + short)
     (3 measures)
-    allegro resumes after prefix
-    v1, v2, va interlocking clouded pane whisk gears repeat and darken
-        noise injection resumes after prefix and darkens
-        polyrhythmic desynchronization continues with swell-inflection
+    allegro (resumes)
+    v1, v2, va interlocking clouded pane whisk gears (repeat and darken)
+        wide -> tight
+        independent accelerandi and ritardandi
         mf
     vc clouded pane continues
         down-glissando lentissimo begins
-        ppp continues
+        ppp (resumes)
     short fermata [vc continues through fermata] (40)
 
     [H.12] (41-44)
     (4 measures)
-    allegro continues
-    v1, v2, va interlocking clouded pane whisk gears repeat and darken
-        noise injection darkens even more
-        polyrhythmic desynchronization continues with swell-inflection
+    [allegro]
+    v1, v2, va interlocking clouded pane whisk gears (repeat and darken)
+        wide -> very tight
+        independent accelerandi and ritardandi
         f
     vc clouded pane continues
-        down-glissando lentissimo continues
-        ppp continues
+        [down-glissando lentissimo]
+        [ppp]
     short fermata [vc continues through fermata] (45)
 
     [H.13] (46-49)
     (4 measures)
-    (allegro)-to-largo ritardando governs stage
-        achieves largo at start of measure -1
+    (allegro)-to-largo ritardando culminates at start of measure -1
     v1, v2, va interlocking gears repeat as scratch
-        full scratch governs stage
-        polyrhythmic desynchronization (without swells) governs stage
-        ff governs stage
+        very tight -> wide
+        polyrhythmic desynchronization (without swells)
+        ff
     vc clouded-pane-to-trajectory appears gradually
-        1/2 clt appears gradually
-            begins at start of stage
-            not yet audible
+        1/2 clt
         new lower pitch begins
         ppp < p begins
     attacca
 
-    [H.14] (50)
+    [H.14.1] (50)
     (first of 2 measures)
     [largo]
     v1, v2, va interlocking gears transition from scratch to golden tone
-        scratch-to-tone transition governs stage
-        polyrhythm-to-1:2:4 rhythmic interpolation governs stage
-            achieves 1:2:4 rate ratio at start of next stage
-    vc 1/2 clt trajectory pedal continues
+        wide
+        polyrhythmic desynchronization
+    vc 1/2 clt trajectory pedal (continues)
         1/2 clt continues (not yet audible)
-        (ppp < p) completes
-            achieves p at start of next stage
-    <<[G.5 (iteratum) 1/1] bisects [H.14 (clearing)]>> (51)
-        <<summons past time>>
-        largo più mosso
-        tutti clouded pane / urtext declamation conflict
-            single declamation
-        <<attacca second half of [H.14]>>
-        <<largo resumes>>
-    [H.14] (52)
+        ppp < p completes
+    <<[G.5 (iteratum)] bisects [H.14 (clearing)]>> (51)
+    <<summons past time>>
+    largo più mosso
+    tutti clouded pane / urtext declamation conflict
+        single declamation
+    <<attacca second half of [H.14]>>
+    <<largo resumes>> [H.14.2] (52)
     (second of 2 measures)
-    largo
-    v1, v2, va interlocking gears transition from scratch to golden tone
-        scratch-to-tone transition governs stage
-        polyrhythm-to-1:2:4 rhythmic interpolation governs stage
-            achieves 1:2:4 rate ratio at start of next stage
-    vc 1/2 clt trajectory pedal continues
-        1/2 clt continues (not yet audible)
-        (ppp < p) completes
-            achieves p at start of next stage
+    largo (resumes)
+    v1, v2, va interlocking golden gears
+        wide
+        desynchronization
+    vc 1/2 clt trajectory pedal (resumes)
+        1/2 clt
+        p
     attacca
 
 [I] time series A; rotation -28
@@ -2090,15 +2062,14 @@ SEGMENTS
     [I.1] (1-2)
     (2 measures)
     [largo]
-    v1, v2, va synchronous golden gears
-        golden tone
+    v1, v2, va synchronous golden gears (continue)
+        [wide]
         circles locked in binary rate ratio 1:2:4
-        mp continues
+        [mp]
     vc 1/2 clt solo trajectory
-        1/2 clt continues
+        [1/2 clt]
         repetition quasivortex begins
-            longer strokes to shorter strokes
-        p continues
+        [p]
     attacca
 
     [I.2] (3)
