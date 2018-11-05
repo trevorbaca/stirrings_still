@@ -75,6 +75,11 @@ maker(
     )
 
 maker(
+    ('v1', (1, 7)),
+    baca.beam(),
+    )
+
+maker(
     (['v1', 'v2'], (1, 7)),
     baca.circle_bow_spanner(
         'wide',

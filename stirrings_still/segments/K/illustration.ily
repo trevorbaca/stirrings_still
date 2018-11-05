@@ -1466,16 +1466,16 @@ K_Violin_I_Music_Voice = {                                                     %
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-zero-padding-glissando                                        %! baca_glissando
         \glissando                                                             %! baca_glissando
 
@@ -1650,13 +1650,6 @@ K_Violin_I_Music_Voice = {                                                     %
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
         - \tweak staff-padding #7                                              %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
-        \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -2219,6 +2212,7 @@ K_Violin_I_Music_Voice = {                                                     %
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trem. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #1                                    %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -2234,6 +2228,7 @@ K_Violin_I_Music_Voice = {                                                     %
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "larg."                                     %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #1                                    %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -2248,6 +2243,7 @@ K_Violin_I_Music_Voice = {                                                     %
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "trem. larg."                           %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #1                                %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -2281,6 +2277,7 @@ K_Violin_I_Music_Voice = {                                                     %
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "larghiss."                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #1                                    %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -2293,7 +2290,7 @@ K_Violin_I_Music_Voice = {                                                     %
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trem. larghiss."                           %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "no trem."                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #1                                    %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
@@ -2902,16 +2899,16 @@ K_Violin_II_Music_Voice = {                                                    %
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-zero-padding-glissando                                        %! baca_glissando
         \glissando                                                             %! baca_glissando
 
@@ -3076,13 +3073,6 @@ K_Violin_II_Music_Voice = {                                                    %
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
         - \tweak staff-padding #7                                              %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
-        \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5918,16 +5908,16 @@ K_Cello_Music_Voice = {                                                        %
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         - \abjad-zero-padding-glissando                                        %! baca_glissando
         \glissando                                                             %! baca_glissando
 
@@ -6084,13 +6074,6 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
         - \tweak staff-padding #7                                              %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
-        \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)

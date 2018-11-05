@@ -78,6 +78,8 @@ time = (
 
 stirrings_still.time(maker, time)
 
+# v1
+
 maker(
     'v1',
     baca.dls_staff_padding(6),
@@ -115,9 +117,6 @@ maker(
     stirrings_still.trajectories('B', 0, 0, measures=5),
     stirrings_still.accelerando((8, 32), (1, 2), measures=(6, 8)),
     baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             0,
@@ -133,11 +132,15 @@ maker(
     )
 
 maker(
+    ('v1', [(5, 9), (11, 14), 16]),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
     ('v1', [9, (11, 14), 16]),
     baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -3,
@@ -238,8 +241,8 @@ maker(
             selector=baca.pleaves(),
             ),
         baca.text_spanner(
-            #'trem. ord. -> larg. || trem. larg. -> larghiss. || trem. larghiss. -> no trem.',
             'trem. ord. -> larg. =| trem. larg. -> larghiss. =| trem. larghiss. -> no trem.',
+            abjad.tweak(1).bound_details__right__padding,
             abjad.tweak(8).staff_padding,
             bookend=False,
             final_piece_spanner=False,
@@ -309,6 +312,8 @@ maker(
     baca.tacet(measures=22),
     )
 
+# v2
+
 maker(
     'v2',
     baca.dls_staff_padding(6),
@@ -346,9 +351,6 @@ maker(
     stirrings_still.trajectories('B', -1, -1, measures=5),
     stirrings_still.accelerando((10, 32), (1, 2), measures=(6, 8)),
     baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -1,
@@ -364,11 +366,15 @@ maker(
     )
 
 maker(
+    ('v2', [(5, 9), 13, (15, 16)]),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
     ('v2', [9, 13, (15, 16)]),
     baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -3,
@@ -537,6 +543,8 @@ maker(
     'v2x',
     baca.tacet(measures=22),
     )
+
+# va
 
 maker(
     'va',
@@ -782,6 +790,8 @@ maker(
     baca.tacet(measures=22),
     )
 
+# vc
+
 maker(
     'vc',
     baca.dls_staff_padding(6),
@@ -819,9 +829,6 @@ maker(
     stirrings_still.trajectories('B', -3, -3, measures=5),
     stirrings_still.accelerando((11, 32), (1, 2), measures=(6, 8)),
     baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -3,
@@ -836,12 +843,17 @@ maker(
         ),
     )
 
+
+maker(
+    ('vc', [(5, 10), (13, 14)]),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
 maker(
     ('vc', [(9, 10), (13, 14)]),
     baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -3,

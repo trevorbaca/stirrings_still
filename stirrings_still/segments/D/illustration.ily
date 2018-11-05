@@ -4,6 +4,7 @@ D_Global_Skips = {                                                             %
     {
 
         % [D Global_Skips measure 207 / measure 1]                             %! _comment_measure_numbers
+        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 10/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \bar ""                                                                %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1747,7 +1748,7 @@ D_Global_Skips = {                                                             %
     {
 
         % [D Global_Skips measure 300 / measure 94]                            %! _comment_measure_numbers
-        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
+        \once \override Score.BarLine.X-extent = #'(0 . 3)                     %! baca_bar_line_x_extent:OverrideCommand(1)
         \time 12/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/4                                                               %! _make_global_skips(1)
