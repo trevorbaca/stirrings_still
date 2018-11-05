@@ -8,6 +8,18 @@ import stirrings_still
 ##################################### [S] #####################################
 ###############################################################################
 
+stage_markup = (
+    ('[S.1]', 1),
+    ('[S.2]', 5),
+    ('[S.3]', 6),
+    ('[S.4]', 10),
+    ('[S.5]', 12),
+    ('[S.6]', 16),
+    ('[S.7]', 19),
+    ('[S.8]', 23),
+    ('[S.9]', 27),
+    )
+
 maker = baca.SegmentMaker(
     activate=[
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
@@ -16,6 +28,7 @@ maker = baca.SegmentMaker(
     final_segment=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('S'),
     validate_measure_count=35,
     )
