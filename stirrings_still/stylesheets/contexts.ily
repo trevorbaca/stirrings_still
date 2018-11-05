@@ -24,7 +24,6 @@
 
         \override MultiMeasureRest.transparent = ##t
 
-        %%%\override MultiMeasureRestText.extra-offset = #'(0 . -7)
         \override MultiMeasureRestText.staff-padding = 2
         \override MultiMeasureRestText.font-size = 3
         \override MultiMeasureRestText.outside-staff-priority = 0

@@ -242,7 +242,7 @@ maker(
             ),
         baca.text_spanner(
             'trem. ord. -> larg. =| trem. larg. -> larghiss. =| trem. larghiss. -> no trem.',
-            abjad.tweak(1).bound_details__right__padding,
+            abjad.tweak(1.5).bound_details__right__padding,
             abjad.tweak(8).staff_padding,
             bookend=False,
             final_piece_spanner=False,
@@ -465,7 +465,8 @@ maker(
             selector=baca.pleaves(),
             ),
         baca.text_spanner(
-            'trem. ord. -> larg. || trem. larg. -> larghiss. || trem. larghiss. -> no trem.',
+            'trem. ord. -> larg. =| trem. larg. -> larghiss. =| trem. larghiss. -> no trem.',
+            abjad.tweak(1.5).bound_details__right__padding,
             abjad.tweak(8).staff_padding,
             bookend=False,
             final_piece_spanner=False,
@@ -699,7 +700,8 @@ maker(
             selector=baca.pleaves(),
             ),
         baca.text_spanner(
-            'trem. ord. -> larg. || trem. larg. -> larghiss. || trem. larghiss. -> no trem.',
+            'trem. ord. -> larg. =| trem. larg. -> larghiss. =| trem. larghiss. -> no trem.',
+            abjad.tweak(1.5).bound_details__right__padding,
             abjad.tweak(8).staff_padding,
             bookend=False,
             final_piece_spanner=False,
@@ -942,7 +944,8 @@ maker(
             selector=baca.pleaves(),
             ),
         baca.text_spanner(
-            'trem. ord. -> larg. || trem. larg. -> larghiss. || trem. larghiss. -> no trem.',
+            'trem. ord. -> larg. =| trem. larg. -> larghiss. =| trem. larghiss. -> no trem.',
+            abjad.tweak(1.5).bound_details__right__padding,
             abjad.tweak(8).staff_padding,
             bookend=False,
             final_piece_spanner=False,
