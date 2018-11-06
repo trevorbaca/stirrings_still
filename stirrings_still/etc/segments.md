@@ -180,7 +180,7 @@ SEGMENTS
         [tasto]
         [p]
     >>attacca suffix<<
-    >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<< (27)
+    >>[G.1.1/1 (pane / urtext conflict)] suffixes [C.1]<< (27)
         >>summons future time<<
         largo più mosso
         tutti clouded pane / urtext declamation conflict
@@ -381,7 +381,7 @@ SEGMENTS
         [damped lh]
         tight
         o< p governs first half of stage
-    >>vc clouded pane appears<<
+    vc clouded pane
         >>summons future time<<
         obverse harmonic
         o< f begins
@@ -558,7 +558,7 @@ SEGMENTS
         [tasto]
         [1/2 clt]
         [mf]
-    <<[A.1] bisects [B.12]>> (26)>>
+    <<[A.1 (urtext declamation)] bisects [B.12]>> (26)>>
     <<summons past time>>
     andante
     v1, v2, va urtext declamation [A.1]
@@ -767,7 +767,7 @@ SEGMENTS
         fixed pitch for each player
         desynchronized
         "ff"
-    >>[G.1 (pane / urtext conflict)] suffixes [C.1]<< (5)
+    >>[G.1.1/1 (pane / urtext conflict)] suffixes [C.1]<< (5)
     >>summons future time<<
     largo più mosso
     tutti clouded pane / urtext declamation conflict
@@ -846,14 +846,20 @@ SEGMENTS
     [C.7] (28 + fraction)
     (1 measure)
     allegro
-    >>v1, va, vc shining beacon of clouded pane summons future time<<
+    v1, va, vc shining beacon of clouded pane
+        >>summons future time<<
         harmonic lh
         pp
-    <<v2 [B.10.1/1 (white clockticks)] summon past time>>
+    v2 [B.10.1/1 (white clockticks)]
+        <<summon past time>>
         damped lh
         1/2 clt
         fast clockticks
         mp
+    va, vc shining beacon of clouded pane
+        >>summons future time<<
+        harmonic lh
+        pp
     attacca
 
     [C.8] (30-33)
@@ -1119,7 +1125,7 @@ SEGMENTS
         tasto
     long fermata (56)
 
-    >>[S.2 (transformatum) 1/1] prefixes [D.11]<< (57)
+    >>[S.2.1/1 (transformatum) 1/1] prefixes [D.11]<< (57)
     >>summons future time<<
     largo
     v1, v2 circles
@@ -1449,7 +1455,7 @@ SEGMENTS
         [p]
     vc
         [tacet]
-    <<[A.1 (isolatum) 1/1] bisects [E.6]>> (34)
+    <<[A.1.1/1 (isolatum)] bisects [E.6]>> (34)
     <<summons past time>>
     andante
     trio urtext declamation (two chords)
@@ -1572,8 +1578,8 @@ SEGMENTS
         "f" > p governs first half of stage
     vc clouded pane
         [p]
-    >>[Q.1 (inception) 1-8/8] bisects [E.12]<< (89-96)
-    >>[Q.2 (transformatum) 1-12/12] bisects [E.12]<< (97-108)
+    >>[Q.1.1-8/8 (inception)] bisects [E.12]<< (89-96)
+    >>[Q.2.1-12/12 (transformatum)] bisects [E.12]<< (97-108)
     >>recapitulates summons of future time<<
     (8 measures: 89-96)
     presto (subito)
@@ -1679,7 +1685,7 @@ SEGMENTS
     vc
         [tacet]
     long fermata (11)
-    <<[C.2 (crunch + up-glissando) 3-4/4] prolong [F.2] fermata>> (12-13)
+    <<[C.2.3-4/4 (crunch + up-glissando)] prolong [F.2] fermata>> (12-13)
     <<summon past time>>
     adagio
     tutti tight poss. talon-crunch circles
@@ -1742,7 +1748,7 @@ SEGMENTS
     [largo più mosso]
     tutti clouded pane / urtext declamation conflict happens again
     attacca bisection
-    <<[C.7 (clocktick composite) 1/1] bisects [G.5]>> (12)
+    <<[C.7.1/1 (clocktick composite)] bisects [G.5]>> (12)
     allegro
     <<summons past time>>
     v1 shining beacon of clouded pane
@@ -1807,18 +1813,19 @@ SEGMENTS
         four-note chord continues
         mp continues
     surprisingly short breath [v2 holds over breath]
-    >>[I.1 (composite)] suffixes [H.2]<< (6)
+    >>[I.1.2/2 (composite)] suffixes [H.2]<< (6)
     >>summons future time<<
-    largo
     >>[I.1 (v1, va, synchronous golden gears) 2/2] prolong short breath<<
-        golden tone (senza scratch)
-        circles (SL = BW) locked in binary rate ratio 1:4
-        mp
-    >>[I.1 (vc 1/2 clt solo trajectory) 2/2] prolong short breath<<
-        1/2 clt
-        local accelerandi
-        repetition quasivortex
-        p
+        largo
+        trio
+            golden tone (senza scratch)
+            circles (SL = BW) locked in binary rate ratio 1:4
+            mp
+        vc 1/2 clt solo trajectory
+            1/2 clt
+            local accelerandi
+            repetition quasivortex
+            p
     >>v1, va, vc repeat surprisingly short breath to effect prolongation<<
     >>v2 holds over surprisingly short breath<<
 
@@ -2069,96 +2076,91 @@ SEGMENTS
     vc 1/2 clt solo trajectory
         [1/2 clt]
         repetition quasivortex begins
-        [p]
+        (p) < f begins
     attacca
 
     [I.2] (3)
     (1 measure)
     largo-to-larghissimo ritardando begins
     v1, v2, va golden gears whisked skyward
-        base binary rate ratio 1:2:4 between parts continues
-        sparse local accelerandi begin to appear
-            parts return to base rate after each local accelerando
-        mp continues
+        [wide]
+        [circles locked in binary rate ratio 1:2:4]
+        [mp]
     vc 1/2 clt solo trajectory
-        1/2 clt continues
-        repetition quasivortex continues
-            longer strokes to shorter strokes
-        (p) < f begins
+        [1/2 clt]
+        [repetition quasivortex]
+        [p < f]
     attacca
 
     [I.3] (4)
     (1 measure)
-    largo-to-larghissimo ritardando continues
+    [largo-to-larghissimo ritardando]
     v1, v2, va golden gears whisked skyward
-        base binary rate ratio 1:2:4 between parts continues
-        intermittent local accelerandi continue
-            parts begin to stick to faster base rate after accelerandi
-        mp >o begins
+        [wide]
+        [circles locked in binary rate ratio 1:2:4]
+        (mp) >o begins
     vc 1/2 clt solo trajectory
-        1/2 clt continues
-        repetition quasivortex continues
-            longer strokes to shorter strokes
-        (p < f) continues
+        [1/2 clt]
+        [repetition quasivortex]
+        [p < f]
     attacca
 
     [I.4] (5)
     (1 measure)
-    largo-to-larghissimo ritardando continues
+    largo-to-larghissimo ritardando terminates at start of next stage
     v1, v2, va golden gears whisked skyward
-        base binary rate ratio 1:2:4 between parts continues
-        intermittent local acclerandi continue
-            parts stick to faster post-accelerandi base rate for much longer
-        mp >o continues
+        [wide]
+        [circles locked in binary rate ratio 1:2:4]
+        [mp >o]
     vc 1/2 clt solo trajectory
-        1/2 clt continues
-        repetition quasivortex continues
-            longer strokes to shorter strokes
-        (p < f) achieves f on last event
+        [1/2 clt]
+        [repetition quasivortex]
+        p < "f" culminates at start of next stage
     attacca
 
     [I.5] (6-7)
     (2 measures)
-    achieves larghissimo at start of stage
+    [larghissimo]
     v1, v2, va synchronous golden gears whisked skyward
-        achieves faster base binary rate 1:2:4 at start of stage
-        mp >o continues
+        [wide]
+        [circles locked in binary rate ratio 1:2:4]
+        mp >o terminates at start of next stage
     vc 1/2 clt solo trajectory
-        1/2 clt continues
+        [1/2 clt]
         repetition quasivortex becomes repetition cell
-            strokes become patterned
-        f continues
+        strokes become patterned
+        ["f"]
     attacca
 
     [I.6] (8-9)
     (2 measures)
-    larghissimo continues
+    [larghissimo]
     v1, v2, va
-        tacet
+        [tacet]
     vc 1/2 clt solo trajectory
-        1/2 clt continues
+        [1/2 clt]
         single pitch begins at trajectory endpoint
-            pitch is not upper register
-        trapped repetition cell continues
-        f continues
+        pitch is not upper register
+        [trapped repetition cell]
+        ["f"]
     attacca
 
     [I.7] (10-11)
     (2 measures)
-    larghissimo continues
-    v1, v2, va urtext field begins
-        sustained double-stop field returns
-        appena udibile begins
-    vc 1/2 clt solo trajectory completes
-        1/2 clt continues until end
-        single pitch continues until end
-        trapped cell continues until end
-        f >o governs stage
+    [larghissimo]
+    v1, v2, va urtext field
+        sustained double-stop field
+        appena udibile
+    vc 1/2 clt solo trajectory (fades out)
+        [1/2 clt]
+        [single pitch]
+        [trapped cell]
+        "f" >o
     attacca
 
 [J] time series C; rotation -54
 
-    [J.1.1] (1-2)
+    [J.1.1-2] (1-2)
     (first 2 of 4 measures)
     [larghissimo]
     v1, v2, va urtext field
@@ -2166,57 +2168,55 @@ SEGMENTS
         [appena udibile]
     vc
         [tacet]
-    <<[C.7 (clocktime composite)] bisects [J.1]>> (3-4)
-        <<summons past time>>
-        allegro
-        v1 shining beacon of clouded pane
-            harmonic lh
-            pp
-        v2 white clockticks [B.10]
-            damped lh
-            1/2 clt
-            fast clockticks
-            mp
-        va, vc shining beacon of clouded pane
-            harmonic lh
-            pp
-        cut-off
+    <<[C.7.1-2/2 (clocktime composite)] bisects [J.1]>> (3-4)
+    <<summons past time>>
+    allegro
+    v1 shining beacon of clouded pane
+        harmonic lh
+        pp
+    v2 white clockticks [B.10]
+        damped lh
+        1/2 clt
+        fast clockticks
+        mp
+    va, vc shining beacon of clouded pane
+        harmonic lh
+        pp
     <<attacca second half of [J.1]>>
-    [J.1.1] (5-6)
+    [J.1.3-4] (5-6)
     (last 2 of 4 measures)
-    larghissimo
-    v1, v2, va urtext field
-        double-stop field
-        appena udibile
+    larghissimo (resumes)
+    v1, v2, va urtext field (resumes)
+        double-stop field (resumes)
+        appena udibile (resumes)
     vc
-        tacet
+        tacet (resumes)
     attacca
 
     [J.2] (7-8)
     (2 measures)
     larghissimo-to-andante accelerando begins
-    vc joins urtext field
-    tutti urtext field
-        double-stop field
+    tutti urtext field (continues)
+        [double-stop field]
         appena udibile < fff poco scratch begins
     attacca
     
     [J.3] (9-10)
     (2 measures)
-    larghissimo-to-andante accelerando continues
-    tutti urtext field
-        double-stop field
-        appena udibile < fff poco scratch continues
+    larghissimo-to-andante accelerando culminates at start of next stage
+    tutti urtext field (continues)
+        [double-stop field]
+        appena udibile < fff poco scratch culminates at start of next stage
     attacca
 
     ||: J.4-5 :|| x 3
 
         [J.4] (11)
         (1 measure)
-        andante
-        tutti urtext field completes
+        [andante]
+        tutti urtext field
             [double-stop field]
-            fff poco scratch governs stage
+            fff poco scratch
         attacca
 
         [J.5] (12-13)
@@ -2224,10 +2224,10 @@ SEGMENTS
         [andante]
         v1, v2, va 1/2 clt trajectories
             1/2 clt
-            fff > pp governs
+            fff > pp
         vc circles
             pronounced local accelerando
-            fff > pp governs stage
+            fff > pp
         surprisingly short breath
         [[third time no breath]]
 
@@ -2244,46 +2244,47 @@ SEGMENTS
 
 [K] time series B; rotation -24
 
-    [K.1] (1-2)
+    [K.1.1-2] (1-2)
     (first 2 of 3 measures)
     [andante]
     tutti trajectories-to-flight transition (begins)
         [1/2 clt]
         [trajectories]
         [pp]
-    <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception)]>> (3-4)
-        <<summons past time>>
-        adagio
-        tutti wide poss. circles
-            gradual harmonic-to-half-harmonic-to-stopped independently
-            desynchronization
-            f
+    <<[C.14.3-4/4 (conclusion)] bisects [K.1 (inception)]>> (3-4)
+    <<summons past time>>
+    adagio
+    tutti circles
+        wide poss.
+        gradual harmonic-to-half-harmonic-to-stopped independently
+        desynchronization
+        "f"
     <<attacca remaining measure of [K.1]>> (5)
-    [K.1] (5)
+    [K.1.3] (5)
     (last of 3 measures)
     andante
     tutti trajectories-to-flight transition
-        1/2 clt
-        trajectories
-        pp
+        1/2 clt (resumes)
+        trajectories (resume)
+        pp (resumes)
     attacca
 
     [K.2] (6-8)
     (3 measures)
     [andante]
     tutti trajectories-to-flight transition (continues)
-        independently in each part
-            1/2 clt trajectory projected onto local ritardando
-                1/2 clt
-                endpoint of ritardando achieved
-            local accelerando all the way up to tremolo-of-flight
-                1/2 clt
-                tremolo termination hair only
-                crescendo governs figure
-                tremolo sustained for certain duration at end of figure
-                tremolo expires with termination type taken from inventory
-            repeat
-        pp < mp begins
+    independently in each part
+        1/2 clt trajectory projected onto local ritardando
+            1/2 clt
+            endpoint of ritardando achieved
+        local accelerando all the way up to tremolo-of-flight
+            1/2 clt
+            tremolo termination hair only
+            crescendo governs figure
+            tremolo sustained for certain duration at end of figure
+            tremolo expires with termination type taken from inventory
+        repeat
+    pp < mp begins
     attacca
 
     [K.3] (9-11)
@@ -2296,10 +2297,9 @@ SEGMENTS
         <<[I.6 -> F.2 (clearing)] revealed within [K.3 (development)]>>
             <<summons past time>>
             does not alter time signature structure
-                va tailpiece
-                    absent lh
-                    poco flicker
-                    "mf"
+            va tailpiece
+                poco flicker
+                "mf"
     attacca
 
     [K.4] (12-14)
@@ -2321,20 +2321,20 @@ SEGMENTS
 
     [K.6] (18-20)
     (3 measures)
-    andante-to-largo ritardando
+    (andante)-to-largo ritardando
     tutti flight begins
         [tremolo]
         [mp]
     surprisingly short breath
-        <<[H.13.1 (scratch gears) prolong surprisingly short breath>> (21)
-            <<summons past time>>
-            allegro
-        <<[I.6 (current)] prolongs surprisingly short breath>> (22)
-            <<summons past time within past time>>
-            larghissimo
-        <<[[H.13.2 (scratch gears)] prolong surprisingly short breath>> (23)
-            <<closes off past time>>
-            largo
+    <<[H.13.1 (scratch gears) prolong surprisingly short breath>> (21)
+        <<summons past time>>
+        allegro
+    <<[I.6.2/2 (current)] prolongs surprisingly short breath>> (22)
+        <<summons past time within past time>>
+        larghissimo
+    <<[[H.13.2 (scratch gears)] prolong surprisingly short breath>> (23)
+        <<closes off past time>>
+        largo
     <<surprisingly short breath repeats to effect prolongation>>
 
     [K.7] (24-31)
@@ -2348,42 +2348,43 @@ SEGMENTS
 
     [K.8] (32-37)
     (6 measures)
-    largo-to-allegro accelerando begins
+    (largo)-to-allegro accelerando culminates at start of next stage
     tutti flight-to-clouded-pane (begins)
         patterned slowing of tremolo flight independently
-            achieve senza tremolo at start of measure -1
-            tension between global accelerando and local tremoli allargandi
-        (p) >o begins
+        achieve senza tremolo at start of measure -1
+        tension between global accelerando and local tremoli allargandi
+        [p]
     attacca
 
     [K.9] (38-42 + 43-45)
     (8 measures)
-    allegro achieved at start of stage
-    tutti flight-to-clouded pane continues
-        tasto-to-tasto-possibile transition
+    [allegro]
+    v1, v2, va flight-to-clouded pane continues
+        stopped-to-damped lh transition
         while during <<va 1/2 clt trajectory summons past time>>
         [senza tremolo]
-        [p >o]
+        [p]
         ===
         {tension between fast tempo and protracted duration}
-        <<[K.5 1-3/3] replaces [K.9 6-8/8]>> (43-45)
+        <<[K.5.1-3/3] replaces [K.9.6-8/8]>> (43-45)
             <<summons past time>>
             andante
             va
                 1/2 clt trajectory
                 "mf"
+    vc clouded pane
+        [p]
     attacca
 
     [K.10] (46-53)
     (8 measures)
-    allegro (resumes after replacement)
+    allegro (resumes)
     v1, v2, va flight-to-clouded pane (fades out)
-        stopped-to-damped lh transition
+        tasto-to-tasto-possibile transition
         [tasto possibile]
         [senza tremolo[
-        p >o completes
-    vc flight-to-clouded pane (continues)
-        [senza tremolo]
+        p >o
+    vc clouded pane
         [p]
     attacca
 
@@ -2521,21 +2522,21 @@ SEGMENTS
     attacca
 
     <<[I.6 (current) 1-2/2] prefixes [N.4]>> (11-12)
-        <<summons past time>>
-        [larghissimo]
-        v1, v2, va
-            [tacet]
-        vc 1/2 clt solo trajectory
-            1/2 clt
-            single pitch: not upper register
-            "f"
-            ===
-            {trapped repetition cell}
-        <<attacca [N.4] to effect prefix>>
+    <<summons past time>>
+    [larghissimo]
+    v1, v2, va
+        [tacet]
+    vc 1/2 clt solo trajectory
+        1/2 clt
+        single pitch: not upper register
+        "f"
+        ===
+        {trapped repetition cell}
+    <<attacca [N.4] to effect prefix>>
     [N.4] (13-16)
     (4 measures)
     [larghissimo]
-    v1, v2, va urtext field fades in
+    v1, v2, va urtext field
         o< f culminates at start of next stage
     vc clouded pane
         holds pure-tone Bb1
@@ -2547,9 +2548,9 @@ SEGMENTS
     [larghissimo]
     v1, v2, va urtext field
         [f]
-    vc clouded pane disappears
+    vc clouded pane (disappears)
         [holds pure-tone Bb1 until end]
-        p >o
+        (p) >o
     attacca
 
     [N.6.1-6] (23-28)
@@ -2563,7 +2564,7 @@ SEGMENTS
         <<summons past time>>
         andante
     <<attacca second half of [N.6]>>
-    [N.6.1-6] (30-35)
+    [N.6.7-12] (30-35)
     (second 6 of 12 measures)
     presto-to-larghissimo ritardando
         tutti urtext field
@@ -2596,14 +2597,14 @@ SEGMENTS
         circles so slow that primary effect is granulation
         "mf" governs stage
     <<[H.13 (development) 4/4] suffixes [O.1]>> (7)
-        <<summons past time>>
-        largo
-        v1, v2, va interlocking gears repeat as scratch
-            scratch
-            polyrhythmic desynchronization (without swells)
-            ff
-        vc clouded pane
-            pp
+    <<summons past time>>
+    largo
+    v1, v2, va interlocking gears repeat as scratch
+        very tight
+        desynchronized
+        ff
+    vc clouded pane
+        pp
     very long fermata (8)
 
 [P] time series C; rotation -90
@@ -2657,17 +2658,18 @@ SEGMENTS
 
     [piece-ending process of compression:]
 
-    <<[N.6 -> K.6 (clearing) 1/3] prefixed to [Q.1 (inception)]>> (1)
-        <<summons past time>>
-        andante
-        tutti flight
-            continuous tremolo
-            mp
-        <<attacca [Q.1] to effect prefix>>
+    <<[N.6 -> K.6.1/3 (clearing)] prefixed to [Q.1 (inception)]>> (1)
+    <<summons past time>>
+    andante
+    tutti flight
+        continuous tremolo
+        mp
+    <<attacca [Q.1] to effect prefix>>
     [Q.1] (2-9)
     (8 measures)
     presto resumes after prefix
-    tutti circles continue (desynchronized spinning white noise)
+    tutti circles continue
+    (desynchronized spinning white noise)
         subito damped lh
         each pitch fixed
         relatively fast polyrhythmic desynchronized circles
@@ -2689,7 +2691,8 @@ SEGMENTS
     [Q.3] (22-27)
     (6 measures)
     presto achieved at start of stage
-    tutti circles return (desynchronized spinning white noise)
+    tutti circles return
+    (desynchronized spinning white noise)
         subito damped lh
         each pitch fixed
         relatively fast polyrhythmic desynchronized circles
@@ -2711,7 +2714,8 @@ SEGMENTS
     [Q.5] (38-42)
     (5 measures)
     presto achieved at start of stage
-    tutti circles return (desynchronized spinning white noise)
+    tutti circles return
+    (desynchronized spinning white noise)
         subito damped lh
         each pitch fixed
         relatively fast polyrhythmic desynchronized circles
@@ -2733,7 +2737,8 @@ SEGMENTS
     [Q.7] (51-54)
     (4 measures)
     presto achieved at start of stage
-    tutti circles return (desynchronized spinning white noise)
+    tutti circles return
+    (desynchronized spinning white noise)
         subito damped lh
         each pitch fixed
         relatively fast polyrhythmic desynchronized circles
@@ -2755,7 +2760,8 @@ SEGMENTS
     [Q.9] (61-63)
     (3 measures)
     presto achieved at start of stage
-    tutti circles return (desynchronized spinning white noise)
+    tutti circles return
+    (desynchronized spinning white noise)
         subito damped lh
         each pitch fixed
         relatively fast polyrhythmic desynchronized circles
@@ -2777,7 +2783,8 @@ SEGMENTS
     [Q.11] (68-69)
     (2 measures)
     presto achieved at start of stage
-    tutti circles return (desynchronized spinning white noise)
+    tutti circles return
+    (desynchronized spinning white noise)
         subito damped lh
         each pitch fixed
         relatively fast polyrhythmic desynchronized circles
