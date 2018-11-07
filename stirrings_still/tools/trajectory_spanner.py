@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def trajectory_annotation_spanner(
+def trajectory_spanner(
     string,
     staff_padding,
     *,

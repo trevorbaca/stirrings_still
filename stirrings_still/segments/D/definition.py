@@ -419,7 +419,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.declamation(),
-    stirrings_still.urtext_annotation_spanner('A, B -|', 5.5),
+    stirrings_still.urtext_spanner('A, B -|', 5.5),
     )
 
 maker(
@@ -453,7 +453,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (lontano) -|', 5.5,
         ),
     )
@@ -487,7 +487,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.declamation(),
-    stirrings_still.urtext_annotation_spanner('A, B -|', 5.5),
+    stirrings_still.urtext_spanner('A, B -|', 5.5),
     )
 
 maker(
@@ -527,7 +527,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
-    stirrings_still.flight_annotation_spanner('memory of flight -|', 5.5),
+    stirrings_still.flight_spanner('memory of flight -|', 5.5),
     )
 
 maker(
@@ -538,7 +538,7 @@ maker(
         repeat_tie_threshold=(1, 4),
         ),
     baca.pitch('B1'),
-    stirrings_still.flight_annotation_spanner('memory of flight -|', 5.5),
+    stirrings_still.flight_spanner('memory of flight -|', 5.5),
     )
 
 maker(
@@ -570,7 +570,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_annotation_spanner('urtext (cds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (cds) -|', 5.5),
     )
 
 maker(
@@ -629,7 +629,7 @@ maker(
         map=baca.cmgroups()[:3].group(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     )
 
 maker(
@@ -671,12 +671,12 @@ maker(
 
 maker(
     ('trio', (67, 89)),
-    stirrings_still.urtext_annotation_spanner('urtext (cds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (cds) -|', 5.5),
     )
 
 maker(
     (['v1', 'v2'], (90, 92)),
-    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (NEW cds) -|', 5.5),
     )
 
 maker(
@@ -706,7 +706,7 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.urtext_annotation_spanner('urtext (NEW cds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (NEW cds) -|', 5.5),
     )
 
 

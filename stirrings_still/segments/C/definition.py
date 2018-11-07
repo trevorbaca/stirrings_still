@@ -173,13 +173,13 @@ maker(
         stirrings_still.loure_tuplets(1),
         match=1,
         ),
-    stirrings_still.urtext_annotation_spanner('urtext (ds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
     )
 
 maker(
     ('va', 5),
     baca.dynamic('mp'),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded (partial: stopped) -|', 5.5,
         ),
     stirrings_still.loure_tuplets(-1),
@@ -192,7 +192,7 @@ maker(
         pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (stopped) -|', 5.5,
         ),
     stirrings_still.taper((1, 1)),
@@ -383,7 +383,7 @@ maker(
         match=2,
         ),
     baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (beacon) -|', 5.5,
         ),
     )
@@ -451,7 +451,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane revelation) -|', 5.5,
         ),
     )
@@ -605,7 +605,7 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.urtext_annotation_spanner('urtext (ds field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     stirrings_still.urtext_field(),
     )
 

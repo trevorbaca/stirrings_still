@@ -140,7 +140,7 @@ maker(
 
 maker(
     ('vc', (1, 27)),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     stirrings_still.clouded_pane(),
    )
 
@@ -607,13 +607,13 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     )
 
 maker(
     ('vc', (82, 88)),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     )
 
 # [Q.1]
@@ -1010,7 +1010,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     )
 
 maker(

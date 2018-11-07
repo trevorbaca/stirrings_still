@@ -538,7 +538,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (beacon) -|', 5.5,
         ),
     )
@@ -773,7 +773,7 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (partial) -|', 5.5,
         ),
     stirrings_still.loure_tuplets(-1),
@@ -817,7 +817,7 @@ maker(
         match=2,
         ),
     baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (beacon) -|', 5.5,
         ),
     )

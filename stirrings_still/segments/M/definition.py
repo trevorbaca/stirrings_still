@@ -230,19 +230,19 @@ maker(
 maker(
     ('trio', (9, 12)),
     # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_annotation_spanner(
+    #stirrings_still.circle_spanner(
     #    'intercalated ds circles -|', 10.5,
     #    ),
-    stirrings_still.urtext_annotation_spanner('urtext (ds) -|', 8),
+    stirrings_still.urtext_spanner('urtext (ds) -|', 8),
     )
 
 maker(
     ('trio', (17, 20)),
     # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_annotation_spanner(
+    #stirrings_still.circle_spanner(
     #    'intercalated ds circles -|', 10.5,
     #    ),
-    stirrings_still.urtext_annotation_spanner(
+    stirrings_still.urtext_spanner(
         'urtext (ds) -|', 8,
         selector=baca.leaves()[1:].rleak(),
         ),
@@ -251,20 +251,20 @@ maker(
 maker(
     ('trio', (26, 28)),
     # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_annotation_spanner(
+    #stirrings_still.circle_spanner(
     #    'intercalated ds circles -|', 10.5,
     #    ),
-    stirrings_still.urtext_annotation_spanner('urtext (ds) -|', 8),
+    stirrings_still.urtext_spanner('urtext (ds) -|', 8),
     )
 
 maker(
     ('trio', (1, 8)),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
     )
 
 maker(
     ('trio', (13, 16)),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane -|', 8,
         selector=baca.leaves().rleak().rleak(),
         ),
@@ -272,14 +272,14 @@ maker(
 
 maker(
     ('trio', (21, 25)),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane -|', 8,
         ),
     )
 
 maker(
     ('trio', (29, 32)),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane -|', 8,
         ),
     )
@@ -298,7 +298,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     )
 
 # vertical

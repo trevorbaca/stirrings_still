@@ -134,10 +134,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.loure_tuplets(0),
-    stirrings_still.urtext_annotation_spanner(
-        'urtext (double stop G.1) -|',
-        5.5,
-        ),
+    stirrings_still.urtext_spanner('urtext (double stop G.1) -|', 5.5),
     )
 
 maker(
@@ -178,10 +175,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.loure_tuplets(1),
-    stirrings_still.urtext_annotation_spanner(
-        'urtext (double stop G.1) -|',
-        5.5,
-        ),
+    stirrings_still.urtext_spanner('urtext (double stop G.1) -|', 5.5),
     )
 
 maker(
@@ -222,10 +216,7 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.clouded_pane_annotation_spanner(
-        'clouded (partial G.1) -|',
-        5.5,
-        ),
+    stirrings_still.clouded_pane_spanner('clouded (partial G.1) -|', 5.5),
     stirrings_still.loure_tuplets(-1),
     )
 
@@ -273,7 +264,7 @@ maker(
         abjad.tweak(8).staff_padding,
         left_broken_text=r'\baca-left-broken-t-markup',
         ),
-    stirrings_still.urtext_annotation_spanner('urtext (field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
 
 maker(
@@ -283,7 +274,7 @@ maker(
         pieces=baca.lparts([1, 2]),
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     stirrings_still.taper((1, 1)),
     )
 
@@ -300,12 +291,12 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.urtext_annotation_spanner(
+    stirrings_still.urtext_spanner(
         'urtext (field) -|',
         5.5,
         measures=(28, 34),
         ),
-    stirrings_still.urtext_annotation_spanner(
+    stirrings_still.urtext_spanner(
         'urtext (down-glissando) -|',
         5.5,
         measures=(35, 40),
@@ -410,7 +401,7 @@ maker(
 
 maker(
     ('trio', (1, 16)),
-    stirrings_still.urtext_annotation_spanner('urtext (cds) A, B -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (cds) A, B -|', 5.5),
     )
 
 maker(
@@ -517,7 +508,7 @@ maker(
 
 maker(
     ('trio', [(18, 22), 25, 29]),
-    stirrings_still.urtext_annotation_spanner('C, D -|', 5.5),
+    stirrings_still.urtext_spanner('C, D -|', 5.5),
     )
 
 maker(
@@ -650,7 +641,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.declamation(),
-    stirrings_still.urtext_annotation_spanner('A, B -|', 5.5),
+    stirrings_still.urtext_spanner('A, B -|', 5.5),
     )
 
 # tutti
@@ -681,7 +672,7 @@ maker(
         pieces=baca.mgroups([1, 2]),
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.urtext_annotation_spanner('urtext (rasp) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (rasp) -|', 5.5),
     )
 
 maker(
