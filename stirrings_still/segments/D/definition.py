@@ -178,184 +178,6 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    ('tutti', (1, 6)),
-    baca.dynamic('p'),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.strokes(-2, dmask=rmakers.silence([0, 1], 3)),
-        match=2,
-        ),
-    baca.new(
-        stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
-        match=3,
-        ),
-    )
-
-maker(
-    ('tutti', (7, 12)),
-    baca.hairpin(
-        'mp p',
-        bookend=False,
-        pieces=baca.logical_ties(nontrivial=True),
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
-        match=2,
-        ),
-    baca.new(
-        stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
-        match=3,
-        ),
-    )
-
-maker(
-    ('tutti', (13, 18)),
-    baca.hairpin(
-        'mf mp',
-        bookend=False,
-        pieces=baca.logical_ties(nontrivial=True),
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
-        match=2,
-        ),
-    baca.new(
-        stirrings_still.strokes(-3, dmask=rmakers.silence([1], 3)),
-        match=3,
-        ),
-    )
-
-maker(
-    ('tutti', (19, 24)),
-    baca.hairpin(
-        '"f" mf',
-        bookend=False,
-        pieces=baca.logical_ties(nontrivial=True),
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
-        match=2,
-        ),
-    baca.new(
-        stirrings_still.strokes(-3, dmask=rmakers.silence([1], 3)),
-        match=3,
-        ),
-    )
-
-maker(
-    ('tutti', (25, 30)),
-    baca.hairpin(
-        '"ff" "f"',
-        bookend=False,
-        pieces=baca.logical_ties(nontrivial=True),
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.strokes(-2, dmask=rmakers.silence([0], 2)),
-        match=2,
-        ),
-    baca.new(
-        stirrings_still.strokes(-2, dmask=rmakers.silence([2], 3)),
-        match=3,
-        ),
-    )
-
-maker(
-    ('tutti', (31, 36)),
-    baca.dynamic('"ff"'),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([1], 2)),
-        match=2,
-        ),
-    baca.new(
-        stirrings_still.strokes(0, dmask=rmakers.silence([0], 3)),
-        match=3,
-        ),
-    )
-
-maker(
-    ('tutti', (1, 36)),
-    baca.damp_spanner(
-        # manual padding because spanner ends of volta
-        abjad.tweak(5.25).bound_details__right__padding,
-        abjad.tweak(5.5).staff_padding,
-        autodetect_right_padding=False,
-        ),
-    )
-
-maker(
-    ('tutti', [(1, 6), (13, 18), (25, 30)]),
-    baca.suite(
-        baca.new(
-            baca.stem_tremolo(
-                selector=baca.leaf(-1),
-                ),
-            map=baca.logical_ties(nontrivial=True),
-            ),
-        stirrings_still.ntlt_flat_glissandi(),
-        ),
-    )
-
-maker(
-    ('tutti', [(7, 12), (19, 24), (31, 36)]),
-    baca.suite(
-        baca.new(
-            baca.stop_on_string(
-                selector=baca.leaf(-1),
-                ),
-            map=baca.logical_ties(nontrivial=True),
-            ),
-        stirrings_still.ntlt_flat_glissandi(),
-        ),
-    )
-
-maker(
     ('trio', 38),
     baca.tacet(),
     )
@@ -770,9 +592,187 @@ maker(
         ),
     )
 
-# vertical
+# tutti
 
 maker(
     'tutti',
     baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('tutti', (1, 6)),
+    baca.dynamic('p'),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.strokes(-2, dmask=rmakers.silence([0, 1], 3)),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
+        match=3,
+        ),
+    )
+
+maker(
+    ('tutti', (7, 12)),
+    baca.hairpin(
+        'mp p',
+        bookend=False,
+        pieces=baca.logical_ties(nontrivial=True),
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
+        match=3,
+        ),
+    )
+
+maker(
+    ('tutti', (13, 18)),
+    baca.hairpin(
+        'mf mp',
+        bookend=False,
+        pieces=baca.logical_ties(nontrivial=True),
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.strokes(-3, dmask=rmakers.silence([1], 3)),
+        match=3,
+        ),
+    )
+
+maker(
+    ('tutti', (19, 24)),
+    baca.hairpin(
+        '"f" mf',
+        bookend=False,
+        pieces=baca.logical_ties(nontrivial=True),
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.strokes(-3, dmask=rmakers.silence([1], 3)),
+        match=3,
+        ),
+    )
+
+maker(
+    ('tutti', (25, 30)),
+    baca.hairpin(
+        '"ff" "f"',
+        bookend=False,
+        pieces=baca.logical_ties(nontrivial=True),
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.strokes(-2, dmask=rmakers.silence([0], 2)),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.strokes(-2, dmask=rmakers.silence([2], 3)),
+        match=3,
+        ),
+    )
+
+maker(
+    ('tutti', (31, 36)),
+    baca.dynamic('"ff"'),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([1], 2)),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.strokes(0, dmask=rmakers.silence([0], 3)),
+        match=3,
+        ),
+    )
+
+maker(
+    ('tutti', (1, 36)),
+    baca.damp_spanner(
+        # manual padding because spanner ends of volta
+        abjad.tweak(5.25).bound_details__right__padding,
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
+        ),
+    )
+
+maker(
+    ('tutti', [(1, 6), (13, 18), (25, 30)]),
+    baca.suite(
+        baca.new(
+            baca.stem_tremolo(
+                selector=baca.leaf(-1),
+                ),
+            map=baca.logical_ties(nontrivial=True),
+            ),
+        stirrings_still.ntlt_flat_glissandi(),
+        ),
+    )
+
+maker(
+    ('tutti', [(7, 12), (19, 24), (31, 36)]),
+    baca.suite(
+        baca.new(
+            baca.stop_on_string(
+                selector=baca.leaf(-1),
+                ),
+            map=baca.logical_ties(nontrivial=True),
+            ),
+        stirrings_still.ntlt_flat_glissandi(),
+        ),
     )
