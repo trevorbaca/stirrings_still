@@ -229,12 +229,18 @@ maker(
         pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         'T -> poco P =|',
+        abjad.tweak(8).staff_padding,
         bookend=False,
         pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    stirrings_still.flight_spanner('flight -|', 5.5),
     )
 
 maker(
@@ -365,7 +371,6 @@ maker(
     )
 
 maker(
-    #('v2', (63, 78)),
     ('v2', (63, 77)),
     baca.accent(
         selector=baca.pleaves()[abjad.index([0], 8)],
@@ -392,6 +397,28 @@ maker(
         ),
     baca.tuplet_bracket_staff_padding(3.5),
     stirrings_still.running_quarter_divisions(-1),
+    )
+
+maker(
+    ('v2', (78, 80)),
+    baca.hairpin(
+        '(p) < mf -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([2, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.make_repeat_tied_notes(),
+    baca.scp_spanner(
+        'T -> poco P =|',
+        abjad.tweak(8).staff_padding,
+        bookend=False,
+        pieces=baca.mgroups([2, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    stirrings_still.flight_spanner('flight -|', 5.5),
     )
 
 maker(
@@ -498,7 +525,6 @@ maker(
     )
 
 maker(
-    #('va', (63, 78)),
     ('va', (63, 76)),
     baca.accent(
         selector=baca.pleaves()[abjad.index([0], 7)],
@@ -524,6 +550,28 @@ maker(
             ),
         ),
     stirrings_still.running_quarter_divisions(-1),
+    )
+
+maker(
+    ('va', (77, 80)),
+    baca.hairpin(
+        '(p) < mf -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([3, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.make_repeat_tied_notes(),
+    baca.scp_spanner(
+        'T -> poco P =|',
+        abjad.tweak(8).staff_padding,
+        bookend=False,
+        pieces=baca.mgroups([3, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    stirrings_still.flight_spanner('flight -|', 5.5),
     )
 
 maker(
@@ -918,31 +966,6 @@ maker(
         selector=baca.note(-1),
         ),
     stirrings_still.declamation(),
-    )
-
-#maker(
-#    ('trio', (63, 78)),
-#    baca.half_clt_spanner(
-#        abjad.tweak(10).staff_padding,
-#        ),
-#    )
-
-maker(
-    ('trio', (79, 80)),
-    baca.make_repeat_tied_notes(),
-    baca.markup(
-        'flight',
-        abjad.tweak('magenta').color,
-        ),
-    baca.stem_tremolo(
-        selector=baca.pleaves(),
-        ),
-    baca.text_spanner(
-        'T -> poco P',
-        abjad.tweak(5.5).staff_padding,
-        bookend=True,
-        match=2,
-        ),
     )
 
 maker(
