@@ -149,6 +149,47 @@ maker(
     )
 
 maker(
+    ('v1', (42, 49)),
+    baca.breathe(),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.dynamic('p'),
+    stirrings_still.desynchronization(4, [2]),
+    )
+
+maker(
+    ('v1', (50, 61)),
+    baca.breathe(),
+    baca.hairpin(
+        'ff < fff -- "fff" > "f"',
+        pieces=baca.mgroups([4, 4, 4]),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(10).staff_padding,
+        measures=(58, 61),
+        ),
+    baca.markup(
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -8,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
+    stirrings_still.trajectories('C', 0, -3),
+    )
+
+maker(
     ('v1', (63, 78)),
     baca.accent(
         selector=baca.pleaves()[abjad.index([0], 9)],
@@ -173,18 +214,56 @@ maker(
     stirrings_still.running_quarter_divisions(0),
     )
 
+maker(
+    ('v1', (89, 96)),
+    baca.breathe(),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        measures=(87, 96),
+        ),
+    baca.dynamic(
+        'p-ancora',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
+    stirrings_still.desynchronization(4, [2]),
+    )
+
+maker(
+    ('v1', (97, 108)),
+    baca.breathe(),
+    baca.hairpin(
+        'ff < fff -- "fff" > "f"',
+        pieces=baca.mgroups([4, 4, 4]),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(10).staff_padding,
+        measures=(105, 108),
+        ),
+    baca.markup(
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -8,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
+    stirrings_still.trajectories('C', 0, -3),
+    )
+
 # v2
 
 maker(
-    ('v2', (6, 23)),
-    baca.new(
-        stirrings_still.grid_to_trajectory(0, -2, 1),
-        measures=(6, 17),
-        ),
-    baca.new(
-        stirrings_still.grid_to_trajectory(0, -2, 0),
-        measures=(18, 23),
-        ),
+    ('v2', (6, 17)),
+    stirrings_still.grid_to_trajectory(0, -2, 1),
     )
 
 maker(
@@ -213,6 +292,52 @@ maker(
     )
 
 maker(
+    ('v2', (18, 23)),
+    stirrings_still.grid_to_trajectory(0, -2, 0),
+    )
+
+maker(
+    ('v2', (42, 53)),
+    baca.breathe(),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.dynamic('p'),
+    stirrings_still.desynchronization(4, [1]),
+    )
+
+maker(
+    ('v2', (54, 61)),
+    baca.breathe(),
+    baca.hairpin(
+        'fff -- "fff" > "f"',
+        pieces=baca.mgroups([4, 4]),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(10).staff_padding,
+        measures=(58, 61),
+        ),
+    baca.markup(
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -7,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
+    stirrings_still.trajectories('C', -1, -2),
+    )
+
+maker(
     ('v2', (63, 78)),
     baca.accent(
         selector=baca.pleaves()[abjad.index([0], 8)],
@@ -236,6 +361,51 @@ maker(
         ),
     baca.tuplet_bracket_staff_padding(3.5),
     stirrings_still.running_quarter_divisions(-1),
+    )
+
+maker(
+    ('v2', (89, 100)),
+    baca.breathe(),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        measures=(87, 96),
+        ),
+    baca.dynamic(
+        'p-ancora',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
+    stirrings_still.desynchronization(4, [1]),
+    )
+
+maker(
+    ('v2', (101, 108)),
+    baca.breathe(),
+    baca.hairpin(
+        'fff -- "fff" > "f"',
+        pieces=baca.mgroups([4, 4]),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(10).staff_padding,
+        measures=(105, 108),
+        ),
+    baca.markup(
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
+        ),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -7,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
+    stirrings_still.trajectories('C', -1, -2),
     )
 
 # va
@@ -321,6 +491,13 @@ maker(
     stirrings_still.running_quarter_divisions(-1),
     )
 
+maker(
+    ('va', (87, 96)),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
 # vc
 
 maker(
@@ -386,6 +563,42 @@ maker(
     stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     )
 
+maker(
+    ('vc', (109, 115)),
+    baca.hairpin(
+        'p >o niente',
+        measures=(112, 115),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
+    )
+
+maker(
+    ('vcx', 116),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 117),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', (118, 127)),
+    baca.hairpin(
+        'o< p',
+        measures=(118, 119),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.pitch_annotation_spanner(
+        'new (stepwise above) -|',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.clouded_pane(),
+    )
+
 # v1, v2
 
 maker(
@@ -419,6 +632,140 @@ maker(
                 ),
             ),
         stirrings_still.trajectories('C', -1, -2),
+        match=1,
+        ),
+    )
+
+# va, vc
+
+maker(
+    (['va', 'vc'], (42, 49)),
+    baca.breathe(),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.dynamic('p'),
+    baca.new(
+        stirrings_still.desynchronization(4, [0]),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [-1]),
+        match=1,
+        ),
+    )
+
+maker(
+    (['va', 'vc'], (50, 61)),
+    baca.breathe(),
+    baca.hairpin(
+        'ff < fff -- "fff" > "f"',
+        pieces=baca.mgroups([4, 4, 4]),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(10).staff_padding,
+        measures=(58, 61),
+        ),
+    baca.markup(
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -6,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -2, -1),
+        match=0,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -5,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -3, 0),
+        match=1,
+        ),
+    )
+
+maker(
+    (['va', 'vc'], (89, 96)),
+    baca.breathe(),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        match=1,
+        ),
+    baca.dynamic(
+        'p-ancora',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [0]),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.desynchronization(4, [-1]),
+        match=1,
+        ),
+    )
+
+maker(
+    (['va', 'vc'], (97, 108)),
+    baca.breathe(),
+    baca.hairpin(
+        'ff < fff -- "fff" > "f"',
+        pieces=baca.mgroups([4, 4, 4]),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(10).staff_padding,
+        measures=(105, 108),
+        ),
+    baca.markup(
+        r'\stirrings-still-molto-scratch-on-slow-strokes',
+        literal=True,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -6,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -2, -1),
+        match=0,
+        ),
+    baca.new(
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                -5,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
+            ),
+        stirrings_still.trajectories('C', -3, 0),
         match=1,
         ),
     )
@@ -479,6 +826,15 @@ maker(
     )
 
 maker(
+    ('trio', (24, 31)),
+    baca.pitch_annotation_spanner(
+        'slight independent pitch ascents -|',
+        abjad.tweak('magenta').color,
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
     ('trio', (24, 33)),
     baca.new(
         baca.accent(),
@@ -497,15 +853,6 @@ maker(
         map=baca.plts()[abjad.index([1], 2)],
         ),
     stirrings_still.measure_initiation(),
-    )
-
-maker(
-    ('trio', (24, 31)),
-    baca.pitch_annotation_spanner(
-        'slight independent pitch ascents -|',
-        abjad.tweak('magenta').color,
-        abjad.tweak(3).staff_padding,
-        ),
     )
 
 maker(
@@ -529,6 +876,13 @@ maker(
         selector=baca.note(-1),
         ),
     stirrings_still.declamation(),
+    )
+
+maker(
+    ('trio', (63, 78)),
+    baca.half_clt_spanner(
+        abjad.tweak(10).staff_padding,
+        ),
     )
 
 maker(
@@ -606,332 +960,6 @@ maker(
         ),
     )
 
-# HERE
-
-# [Q.1]
-
-maker(
-    ('v1', (42, 49)),
-    baca.breathe(),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.dynamic('p'),
-    stirrings_still.desynchronization(4, [2]),
-    )
-
-maker(
-    ('v2', (42, 53)),
-    baca.breathe(),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.dynamic('p'),
-    stirrings_still.desynchronization(4, [1]),
-    )
-
-maker(
-    (['va', 'vc'], (42, 49)),
-    baca.breathe(),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.dynamic('p'),
-    baca.new(
-        stirrings_still.desynchronization(4, [0]),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.desynchronization(4, [-1]),
-        match=1,
-        ),
-    )
-
-maker(
-    ('v1', (50, 61)),
-    baca.breathe(),
-    baca.hairpin(
-        'ff < fff -- "fff" > "f"',
-        pieces=baca.mgroups([4, 4, 4]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
-        measures=(58, 61),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            -8,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            ),
-        ),
-    stirrings_still.trajectories('C', 0, -3),
-    )
-
-maker(
-    ('v2', (54, 61)),
-    baca.breathe(),
-    baca.hairpin(
-        'fff -- "fff" > "f"',
-        pieces=baca.mgroups([4, 4]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
-        measures=(58, 61),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            -7,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            ),
-        ),
-    stirrings_still.trajectories('C', -1, -2),
-    )
-
-maker(
-    (['va', 'vc'], (50, 61)),
-    baca.breathe(),
-    baca.hairpin(
-        'ff < fff -- "fff" > "f"',
-        pieces=baca.mgroups([4, 4, 4]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
-        measures=(58, 61),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
-    baca.new(
-        baca.suite(
-            baca.script_staff_padding(5),
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -6,
-                abjad.tweak(2.5).staff_padding,
-                clt=True,
-                ),
-            ),
-        stirrings_still.trajectories('C', -2, -1),
-        match=0,
-        ),
-    baca.new(
-        baca.suite(
-            baca.script_staff_padding(5),
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -5,
-                abjad.tweak(2.5).staff_padding,
-                clt=True,
-                ),
-            ),
-        stirrings_still.trajectories('C', -3, 0),
-        match=1,
-        ),
-    )
-
-maker(
-    ('trio', (63, 78)),
-    baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
-        ),
-    )
-
-######
-
-# Q.1
-
-maker(
-    ('v1', (89, 96)),
-    baca.breathe(),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        measures=(87, 96),
-        ),
-    baca.dynamic(
-        'p-ancora',
-        abjad.tweak(-0.75).self_alignment_X,
-        ),
-    stirrings_still.desynchronization(4, [2]),
-    )
-
-maker(
-    ('v2', (89, 100)),
-    baca.breathe(),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        measures=(87, 96),
-        ),
-    baca.dynamic(
-        'p-ancora',
-        abjad.tweak(-0.75).self_alignment_X,
-        ),
-    stirrings_still.desynchronization(4, [1]),
-    )
-
-maker(
-    (['va', 'vc'], (89, 96)),
-    baca.breathe(),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        match=1,
-        ),
-    baca.dynamic(
-        'p-ancora',
-        abjad.tweak(-0.75).self_alignment_X,
-        ),
-    baca.new(
-        stirrings_still.desynchronization(4, [0]),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.desynchronization(4, [-1]),
-        match=1,
-        ),
-    )
-
-maker(
-    ('va', (87, 96)),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    )
-
-maker(
-    ('v1', (97, 108)),
-    baca.breathe(),
-    baca.hairpin(
-        'ff < fff -- "fff" > "f"',
-        pieces=baca.mgroups([4, 4, 4]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
-        measures=(105, 108),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            -8,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            ),
-        ),
-    stirrings_still.trajectories('C', 0, -3),
-    )
-
-maker(
-    ('v2', (101, 108)),
-    baca.breathe(),
-    baca.hairpin(
-        'fff -- "fff" > "f"',
-        pieces=baca.mgroups([4, 4]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
-        measures=(105, 108),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            -7,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            ),
-        ),
-    stirrings_still.trajectories('C', -1, -2),
-    )
-
-maker(
-    (['va', 'vc'], (97, 108)),
-    baca.breathe(),
-    baca.hairpin(
-        'ff < fff -- "fff" > "f"',
-        pieces=baca.mgroups([4, 4, 4]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
-        measures=(105, 108),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
-    baca.new(
-        baca.suite(
-            baca.script_staff_padding(5),
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -6,
-                abjad.tweak(2.5).staff_padding,
-                clt=True,
-                ),
-            ),
-        stirrings_still.trajectories('C', -2, -1),
-        match=0,
-        ),
-    baca.new(
-        baca.suite(
-            baca.script_staff_padding(5),
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -5,
-                abjad.tweak(2.5).staff_padding,
-                clt=True,
-                ),
-            ),
-        stirrings_still.trajectories('C', -3, 0),
-        match=1,
-        ),
-    )
-
 maker(
     ('trio', (109, 110)),
     baca.damp_spanner(
@@ -995,44 +1023,8 @@ maker(
     )
 
 maker(
-    ('vc', (109, 115)),
-    baca.hairpin(
-        'p >o niente',
-        measures=(112, 115),
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
-    )
-
-maker(
     (['v1x', 'v2x', 'vax'], (120, 127)),
     baca.tacet(),
-    )
-
-maker(
-    ('vcx', 116),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', 117),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', (118, 127)),
-    baca.hairpin(
-        'o< p',
-        measures=(118, 119),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.pitch_annotation_spanner(
-        'new (stepwise above) -|',
-        abjad.tweak('red').color,
-        abjad.tweak(8).staff_padding,
-        ),
-    stirrings_still.clouded_pane(),
     )
 
 # tutti
