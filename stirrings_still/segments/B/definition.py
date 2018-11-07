@@ -467,7 +467,12 @@ maker(
 
 maker(
     ('v2', 27),
-    baca.dynamic('mf'),
+    baca.hairpin(
+        'mf -- !',
+        abjad.tweak(True).to_barline,
+        measures=27,
+        selector=baca.leaves().rleak(),
+        ),
     baca.suite(
         baca.script_staff_padding(5),
         baca.tuplet_bracket_down(),
@@ -577,6 +582,10 @@ maker(
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.pleaf(0),
+        ),
     baca.hairpin(
         'p-ancora -- (p) >o niente',
         pieces=baca.mgroups([8, 2 + 1]),
@@ -609,13 +618,17 @@ maker(
 
 maker(
     ('va', (23, 27)),
-    baca.dynamic(
-        'mf',
-        measures=27,
+    baca.hairpin(
+        'o< mf -- !',
+        abjad.tweak(True).to_barline,
+        measures=(23, 25),
+        pieces=baca.mgroups([2, 1 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.hairpin(
-        'o< mf',
-        measures=(23, 24),
+        'mf -- !',
+        abjad.tweak(True).to_barline,
+        measures=27,
         selector=baca.leaves().rleak(),
         ),
     baca.tasto_spanner(
@@ -833,6 +846,11 @@ maker(
 
 maker(
     ('vc', 27),
+    baca.hairpin(
+        'mf -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
@@ -996,7 +1014,7 @@ maker(
         ),
     baca.stem_tremolo(),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_spanner('urt. (dds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (cds) -|', 5.5),
     )
 
 maker(
@@ -1026,7 +1044,7 @@ maker(
         baca.untie_to(selector=baca.pleaves()),
         baca.tie(repeat=(1, 4)),
         ),
-    stirrings_still.urtext_spanner('urt. (dds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (cds) -|', 5.5),
     )
 
 # tutti
@@ -1079,9 +1097,10 @@ maker(
 
 maker(
     ('tutti', (32, 33)),
-    stirrings_still.rasp(),
     baca.hairpin(
-        'o< mp',
+        'o< mp -- !',
+        pieces=baca.mgroups([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.markup(
         'III',
@@ -1089,12 +1108,14 @@ maker(
         ),
     baca.text_spanner(
         'rasp (2°) -> flaut. (2°) =|',
-        abjad.tweak(3).staff_padding,
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.mgroups([1, 2]),
         selector=baca.leaves().rleak(),
         ),
+    stirrings_still.rasp(),
+    stirrings_still.urtext_spanner('urtext (rasp) -|', 5.5),
     )
 
 maker(
