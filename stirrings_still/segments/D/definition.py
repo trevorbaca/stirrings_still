@@ -177,10 +177,13 @@ time = (
 
 stirrings_still.time(maker, time)
 
-maker(
-    ('trio', 38),
-    baca.tacet(),
-    )
+# v1
+
+# v2
+
+# va
+
+# vc
 
 maker(
     ('vc', 38),
@@ -202,20 +205,16 @@ maker(
     stirrings_still.trajectories('B', -2, 0)
     )
 
+# v1, v2
+
+# trio
+
 maker(
-    ('tutti', (40, 45)),
-    baca.dynamic('pp'),
-    baca.suite(
-        baca.new(
-            baca.stem_tremolo(
-                selector=baca.leaf(-1),
-                ),
-            map=baca.logical_ties(nontrivial=True),
-            ),
-        stirrings_still.ntlt_flat_glissandi(),
-        ),
-    stirrings_still.strokes(0),
+    ('trio', 38),
+    baca.tacet(),
     )
+
+# HERE
 
 maker(
     ('trio', 47),
@@ -592,7 +591,7 @@ maker(
         ),
     )
 
-# tutti
+# tutti, stage 1
 
 maker(
     'tutti',
@@ -617,6 +616,16 @@ maker(
     baca.new(
         stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
         match=3,
+        ),
+    )
+
+maker(
+    ('tutti', (1, 36)),
+    baca.damp_spanner(
+        # manual padding because spanner ends of volta
+        abjad.tweak(5.25).bound_details__right__padding,
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
         ),
     )
 
@@ -742,14 +751,21 @@ maker(
     )
 
 maker(
-    ('tutti', (1, 36)),
-    baca.damp_spanner(
-        # manual padding because spanner ends of volta
-        abjad.tweak(5.25).bound_details__right__padding,
-        abjad.tweak(5.5).staff_padding,
-        autodetect_right_padding=False,
+    ('tutti', (40, 45)),
+    baca.dynamic('pp'),
+    baca.suite(
+        baca.new(
+            baca.stem_tremolo(
+                selector=baca.leaf(-1),
+                ),
+            map=baca.logical_ties(nontrivial=True),
+            ),
+        stirrings_still.ntlt_flat_glissandi(),
         ),
+    stirrings_still.strokes(0),
     )
+
+# tutti, stage 2
 
 maker(
     ('tutti', [(1, 6), (13, 18), (25, 30)]),
