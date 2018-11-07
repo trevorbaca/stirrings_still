@@ -130,6 +130,234 @@ time = (
 
 stirrings_still.time(maker, time)
 
+# v1
+
+maker(
+    ('v1', 5),
+    baca.dynamic('mp'),
+    stirrings_still.loure_tuplets(0),
+    stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
+    )
+
+maker(
+    ('v1', (28, 29)),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
+    baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (beacon) -|', 5.5,
+        ),
+    )
+
+maker(
+    ('v1', (36, 59)),
+    baca.articulations(
+        [
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-double-diamond'),
+            abjad.Articulation('baca-damp'),
+            None,
+            ],
+        ),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        map=baca.plts()[abjad.index([3], 4)],
+        ),
+    )
+
+# v2
+
+maker(
+    ('v2', 5),
+    baca.dynamic('mp'),
+    stirrings_still.loure_tuplets(1),
+    stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
+    )
+
+maker(
+    ('v2', (28, 29)),
+    baca.alternate_bow_strokes(),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=28,
+        ),
+    baca.new(
+        baca.rhythm(
+            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
+            annotate_unpitched_music=True,
+            ),
+        measures=29,
+        ),
+    )
+
+maker(
+    ('v2', (36, 59)),
+    baca.articulations(
+        [
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-double-diamond'),
+            ],
+        ),
+    )
+
+# va
+
+maker(
+    ('va', 5),
+    baca.dynamic('mp'),
+    stirrings_still.clouded_pane_spanner(
+        'clouded (partial: stopped) -|', 5.5,
+        ),
+    stirrings_still.loure_tuplets(-1),
+    )
+
+maker(
+    ('va', (28, 29)),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
+    baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (beacon) -|', 5.5,
+        ),
+    )
+
+maker(
+    ('va', (36, 59)),
+    baca.articulations(
+        [
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-double-diamond'),
+            abjad.Articulation('baca-double-diamond'),
+            abjad.Articulation('baca-damp'),
+            None,
+            ],
+        ),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        map=baca.plts()[abjad.index([4], 5)],
+        ),
+    )
+
+# vc
+
+maker(
+    ('vc', 5),
+    baca.hairpin(
+        'niente o< f >o niente',
+        pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (stopped) -|', 5.5,
+        ),
+    stirrings_still.taper((1, 1)),
+    )
+
+maker(
+    ('vc', (28, 29)),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
+    baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (beacon) -|', 5.5,
+        ),
+    )
+
+maker(
+    ('vc', (34, 35)),
+    baca.breathe(),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane revelation) -|', 5.5,
+        ),
+    )
+
+maker(
+    ('vc', (36, 59)),
+    baca.articulations(
+        [
+            abjad.Articulation('baca-damp'),
+            abjad.Articulation('baca-double-diamond'),
+            None,
+            ],
+        ),
+    baca.new(
+        baca.note_head_style_harmonic(),
+        map=baca.plts()[abjad.index([2], 3)],
+        ),
+    )
+
+maker(
+    ('vcx', 60),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 61),
+    baca.tacet(),
+    )
+
+# trio
+
+maker(
+    ('triox', 34),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', 35),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', (60, 61)),
+    baca.breathe(),
+    baca.hairpin(
+        'appena-udibile -- !',
+        abjad.tweak(abjad.Left).self_alignment_X,
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
+    stirrings_still.urtext_field(),
+    )
+
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
 maker(
     ('tutti', (1, 4)),
     baca.circle_bow_spanner(
@@ -160,42 +388,6 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
-    )
-
-maker(
-    (['v1', 'v2'], 5),
-    baca.dynamic('mp'),
-    baca.new(
-        stirrings_still.loure_tuplets(0),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.loure_tuplets(1),
-        match=1,
-        ),
-    stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
-    )
-
-maker(
-    ('va', 5),
-    baca.dynamic('mp'),
-    stirrings_still.clouded_pane_spanner(
-        'clouded (partial: stopped) -|', 5.5,
-        ),
-    stirrings_still.loure_tuplets(-1),
-    )
-
-maker(
-    ('vc', 5),
-    baca.hairpin(
-        'niente o< f >o niente',
-        pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (stopped) -|', 5.5,
-        ),
-    stirrings_still.taper((1, 1)),
     )
 
 maker(
@@ -232,13 +424,6 @@ maker(
     )
 
 maker(
-    ('tutti', (12, 27)),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
-    )
-
-maker(
     ('tutti', (12, 15)),
     baca.dynamic(
         'p-ancora',
@@ -267,6 +452,13 @@ maker(
         bookend=False,
         pieces=baca.omgroups([2]),
         selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('tutti', (12, 27)),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
         ),
     )
 
@@ -348,70 +540,10 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
-    # HERE
-#    baca.text_spanner(
-#        r'\baca-circle-wide-markup =|',
-#        abjad.tweak(8).staff_padding,
-#        autodetect_right_padding=True,
-#        bookend=False,
-#        selector=baca.ltleaves().rleak(),
-#        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
         selector=baca.ltleaves().rleak(),
-        ),
-    )
-
-maker(
-    (['v1', 'va', 'vc'], (28, 29)),
-    baca.hairpin(
-        'pp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.new(
-        stirrings_still.clouded_pane(),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.clouded_pane(),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.clouded_pane(),
-        match=2,
-        ),
-    baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (beacon) -|', 5.5,
-        ),
-    )
-
-maker(
-    ('v2', (28, 29)),
-    baca.alternate_bow_strokes(),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
-    baca.hairpin(
-        'mp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.new(
-        stirrings_still.clockticks(),
-        measures=28,
-        ),
-    baca.new(
-        baca.rhythm(
-            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
-            annotate_unpitched_music=True,
-            ),
-        measures=29,
         ),
     )
 
@@ -430,30 +562,6 @@ maker(
         pieces=baca.runs(),
         ),
     stirrings_still.synchronized_circles(rests=[-1]),
-    )
-
-maker(
-    ('triox', 34),
-    baca.tacet(),
-    )
-
-maker(
-    ('trio', 35),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', (34, 35)),
-    baca.breathe(),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane revelation) -|', 5.5,
-        ),
     )
 
 maker(
@@ -478,65 +586,6 @@ maker(
     baca.new(
         stirrings_still.synchronized_circles(rotation=-3),
         match=3,
-        ),
-    )
-
-maker(
-    ('v1', (36, 59)),
-    baca.articulations(
-        [
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-double-diamond'),
-            abjad.Articulation('baca-damp'),
-            None,
-            ],
-        ),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        map=baca.plts()[abjad.index([3], 4)],
-        ),
-    )
-
-maker(
-    ('v2', (36, 59)),
-    baca.articulations(
-        [
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-double-diamond'),
-            ],
-        ),
-    )
-
-maker(
-    ('va', (36, 59)),
-    baca.articulations(
-        [
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-double-diamond'),
-            abjad.Articulation('baca-double-diamond'),
-            abjad.Articulation('baca-damp'),
-            None,
-            ],
-        ),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        map=baca.plts()[abjad.index([4], 5)],
-        ),
-    )
-
-maker(
-    ('vc', (36, 59)),
-    baca.articulations(
-        [
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-double-diamond'),
-            None,
-            ],
-        ),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        map=baca.plts()[abjad.index([2], 3)],
         ),
     )
 
@@ -594,29 +643,6 @@ maker(
         stirrings_still.synchronized_circles(gaps=False, rotation=-3),
         match=3,
         ),
-    )
-
-maker(
-    ('trio', (60, 61)),
-    baca.breathe(),
-    baca.hairpin(
-        'appena-udibile -- !',
-        abjad.tweak(abjad.Left).self_alignment_X,
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
-    stirrings_still.urtext_field(),
-    )
-
-maker(
-    ('vcx', 60),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', 61),
-    baca.tacet(),
     )
 
 maker(
@@ -685,11 +711,4 @@ maker(
         pieces=baca.leaves().mgroups([3, 4]),
         selector=baca.leaves().rleak(),
         ),
-    )
-
-# vertical
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
     )
