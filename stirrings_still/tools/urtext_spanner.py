@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def urtext_annotation_spanner(
+def urtext_spanner(
     string,
     staff_padding,
     *,

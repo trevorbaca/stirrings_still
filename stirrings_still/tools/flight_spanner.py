@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def flight_annotation_spanner(string, staff_padding, measures=None):
+def flight_spanner(string, staff_padding, measures=None):
     """
     Makes flight annotation spanner.
     """

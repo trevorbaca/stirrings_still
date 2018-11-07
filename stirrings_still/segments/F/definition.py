@@ -50,7 +50,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (doublestop partials) -|', 5.5,
         ),
     )
@@ -63,7 +63,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (doublestop partials) -|', 5.5,
         ),
     )
@@ -82,7 +82,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (fudnamental) -|', 5.5,
         ),
     )

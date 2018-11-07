@@ -99,7 +99,7 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (partial) -|', 5.5,
         ),
     stirrings_still.loure_tuplets(-1),
@@ -107,7 +107,7 @@ maker(
 
 maker(
     (['v1', 'v2'], [1, 3, 7, 9, 11, 14]),
-    stirrings_still.urtext_annotation_spanner('urtext (double stop) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (double stop) -|', 5.5),
     )
 
 maker(
@@ -123,7 +123,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_annotation_spanner('urtext (ds field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     )
 
 maker(
@@ -137,7 +137,7 @@ maker(
 
 maker(
     ('vc', [1, 3, 7, 9, 11, 14]),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     stirrings_still.taper((1, 1)),
     )
 
@@ -193,7 +193,7 @@ maker(
         match=2,
         ),
     baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (beacon) -|', 5.5,
         ),
     )
@@ -269,7 +269,7 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.urtext_annotation_spanner('urtext (ds) -|', 8),
+    stirrings_still.urtext_spanner('urtext (ds) -|', 8),
     )
 
 maker(

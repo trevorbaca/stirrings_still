@@ -156,7 +156,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner('clouded pane -|', 8),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
     )
 
 # vertical

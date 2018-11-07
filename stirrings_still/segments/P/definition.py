@@ -362,7 +362,7 @@ maker(
             -0.75,
             selector=baca.leaves(),
             ),
-        stirrings_still.clouded_pane_annotation_spanner(
+        stirrings_still.clouded_pane_spanner(
             'clouded pane -|', 10.5,
             ),
         measures=(1, 20),

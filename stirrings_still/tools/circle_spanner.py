@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def clouded_pane_annotation_spanner(
+def circle_spanner(
     string,
     staff_padding,
     *,
@@ -10,14 +10,14 @@ def clouded_pane_annotation_spanner(
     selector='baca.leaves().rleak()',
     ):
     """
-    Makes clouded pane annotation spanner.
+    Makes circle annotation spanner.
     """
     return baca.material_annotation_spanner(
         string,
-        abjad.tweak('red').color,
+        abjad.tweak('darkyellow').color,
         abjad.tweak(staff_padding).staff_padding,
-        lilypond_id='CloudedPane',
+        lilypond_id='Circles',
         measures=measures,
         selector=selector,
-        tag='MATERIAL:CLOUDED_PANE',
+        tag='MATERIAL:CIRCLE',
         )

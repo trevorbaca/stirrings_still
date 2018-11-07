@@ -83,7 +83,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_annotation_spanner('urtext (ds field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     )
 
 maker(
@@ -105,7 +105,7 @@ maker(
         ),
     baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_annotation_spanner(
+    stirrings_still.clouded_pane_spanner(
         'clouded pane (beacon) -|', 5.5,
         ),
     )
@@ -145,7 +145,7 @@ maker(
 
 maker(
     ('trio', (5, 13)),
-    stirrings_still.urtext_annotation_spanner('urtext (ds field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     )
 
 maker(
