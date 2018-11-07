@@ -19,14 +19,14 @@ stage_markup = (
     ('[C.6]', 24),
     ('[C.7]', 28),
     ('[C.8]', 30),
-    ('[D.9]', 34, 'darkgreen'),
+    ('[D.9.1-2]', 34, 'darkgreen'),
     ('[C.9]', 36),
     ('[C.10]', 40),
     ('[C.11]', 44),
     ('[C.12]', 48),
     ('[C.13]', 52),
     ('[C.14]', 56),
-    ('[J.1]', 60, 'darkgreen'),
+    ('[J.1.1-2]', 60, 'darkgreen'),
     ('[C.15]', 62),
     ('[C.16]', 64),
     ('[C.17]', 66),
@@ -155,17 +155,23 @@ maker(
 
 maker(
     ('v1', (36, 59)),
-    baca.articulations(
-        [
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-double-diamond'),
-            abjad.Articulation('baca-damp'),
-            None,
-            ],
-        ),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        map=baca.plts()[abjad.index([3], 4)],
+    baca.suite(
+        baca.new(
+            baca.tie_to(),
+            measures=56,
+            ),
+        baca.articulations(
+            [
+                abjad.Articulation('baca-damp'),
+                abjad.Articulation('baca-double-diamond'),
+                abjad.Articulation('baca-damp'),
+                None,
+                ],
+            ),
+        baca.new(
+            baca.note_head_style_harmonic(),
+            map=baca.plts()[abjad.index([3], 4)],
+            ),
         ),
     )
 
@@ -207,12 +213,18 @@ maker(
 
 maker(
     ('v2', (36, 59)),
-    baca.articulations(
-        [
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-double-diamond'),
-            ],
+    baca.suite(
+        baca.new(
+            baca.tie_to(),
+            measures=56,
+            ),
+        baca.articulations(
+            [
+                abjad.Articulation('baca-damp'),
+                abjad.Articulation('baca-damp'),
+                abjad.Articulation('baca-double-diamond'),
+                ],
+            ),
         ),
     )
 
@@ -243,18 +255,24 @@ maker(
 
 maker(
     ('va', (36, 59)),
-    baca.articulations(
-        [
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-double-diamond'),
-            abjad.Articulation('baca-double-diamond'),
-            abjad.Articulation('baca-damp'),
-            None,
-            ],
-        ),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        map=baca.plts()[abjad.index([4], 5)],
+    baca.suite(
+        baca.new(
+            baca.tie_to(),
+            measures=56,
+            ),
+        baca.articulations(
+            [
+                abjad.Articulation('baca-damp'),
+                abjad.Articulation('baca-double-diamond'),
+                abjad.Articulation('baca-double-diamond'),
+                abjad.Articulation('baca-damp'),
+                None,
+                ],
+            ),
+        baca.new(
+            baca.note_head_style_harmonic(),
+            map=baca.plts()[abjad.index([4], 5)],
+            ),
         ),
     )
 
@@ -303,16 +321,22 @@ maker(
 
 maker(
     ('vc', (36, 59)),
-    baca.articulations(
-        [
-            abjad.Articulation('baca-damp'),
-            abjad.Articulation('baca-double-diamond'),
-            None,
-            ],
-        ),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        map=baca.plts()[abjad.index([2], 3)],
+    baca.suite(
+        baca.new(
+            baca.tie_to(),
+            measures=56,
+            ),
+        baca.articulations(
+            [
+                abjad.Articulation('baca-damp'),
+                abjad.Articulation('baca-double-diamond'),
+                None,
+                ],
+            ),
+        baca.new(
+            baca.note_head_style_harmonic(),
+            map=baca.plts()[abjad.index([2], 3)],
+            ),
         ),
     )
 
@@ -327,6 +351,13 @@ maker(
     )
 
 # trio
+
+maker(
+    ('trio', 5),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    )
 
 maker(
     ('triox', 34),
@@ -457,6 +488,7 @@ maker(
 
 maker(
     ('tutti', (12, 27)),
+    baca.breathe(),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
@@ -616,17 +648,23 @@ maker(
         pieces=baca.pheads().map(baca.group()),
         ),
     baca.hairpin(
-        'pp p mp mf f ff',
+        #'pp p mp mf f ff',
+        'pp p mp mf f',
         bookend=False,
         measures=(52, 55),
-        pieces=baca.pheads().map(baca.group()),
+        pieces=baca.pheads()[:-1].map(baca.group()),
         ),
     )
 
 maker(
     ('tutti', (56, 59)),
     baca.breathe(),
-    baca.dynamic('ff', redundant=True),
+    #baca.dynamic('ff', redundant=True),
+    baca.hairpin(
+        '"ff" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().lleak().rleak(),
+        ),
     baca.new(
         stirrings_still.synchronized_circles(gaps=False, rotation=0),
         match=0,
