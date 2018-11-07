@@ -194,12 +194,10 @@ maker(
         ),
     baca.hairpin(
         'p -- (p) >o niente',
-        #measures=(20, 24),
         pieces=baca.mgroups([8, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
     baca.new(
-        #baca.dynamic('p'),
         baca.circle_bow_spanner(
             'tight',
             abjad.tweak(8).staff_padding,
@@ -363,7 +361,6 @@ maker(
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.dynamic('p'),
     baca.new(
         baca.alternate_bow_strokes(),
         measures=(12, 13),
@@ -443,8 +440,9 @@ maker(
 maker(
     ('v2', (12, 27)),
     baca.hairpin(
-        '(p) < mf',
-        measures=(18, 20),
+        'p -- (p) < mf -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([6, 3, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
     baca.tasto_spanner(
@@ -559,9 +557,9 @@ maker(
 maker(
     ('va', (5, 7)),
     baca.hairpin(
-        'mf -- niente o< p',
-        bookend=False,
-        pieces=baca.cmgroups(),
+        'mf -- niente o< p -- !',
+        pieces=baca.mgroups([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -579,16 +577,10 @@ maker(
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.dynamic(
-        'p-ancora',
-        abjad.tweak(-0.75).self_alignment_X,
-        ),
-    baca.new(
-        baca.hairpin(
-            '(p) >o niente',
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(20, 21),
+    baca.hairpin(
+        'p-ancora -- (p) >o niente',
+        pieces=baca.mgroups([8, 2 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -720,6 +712,7 @@ maker(
     baca.hairpin(
         'niente o< f -- !',
         abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([4, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
     baca.note_head_style_harmonic(),
@@ -739,10 +732,18 @@ maker(
     baca.damp_spanner(
         abjad.tweak(13).staff_padding,
         ),
-    ###baca.dynamic('p'),
     stirrings_still.circles(
         (1, 4),
         dmask=baca.silence_last(),
+        ),
+    )
+
+maker(
+    ('vc', (12, 19)),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -804,8 +805,9 @@ maker(
 maker(
     ('vc', (20, 25)),
     baca.hairpin(
-        '(p) < mf',
-        measures=(20, 22),
+        '(p) < mf -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([3, 3 + 1]),
         selector=baca.leaves().rleak(),
         ),
     baca.suite(
