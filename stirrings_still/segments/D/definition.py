@@ -179,7 +179,25 @@ stirrings_still.time(maker, time)
 
 # v1
 
+maker(
+    ('v1', (86, 92)),
+    baca.scp_spanner(
+        'T -> P -> T -> P =|',
+        pieces=baca.lparts([1, 2, 1, 4 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
 # v2
+
+maker(
+    ('v2', (86, 92)),
+    baca.scp_spanner(
+        'T -> P -> T -> P =|',
+        pieces=baca.lparts([2, 1, 1, 4 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
 
 # va
 
@@ -359,6 +377,16 @@ maker(
     (['v1', 'v2'], (84, 92)),
     baca.repeat_tie_to(),
     stirrings_still.continuous_tremolo(),
+    )
+
+maker(
+    (['v1', 'v2'], (84, 92)),
+    baca.hairpin(
+        '(p) < mp -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([3, 4 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
