@@ -183,6 +183,7 @@ maker(
     ('v1', (86, 92)),
     baca.scp_spanner(
         'T -> P -> T -> P =|',
+        abjad.tweak(8).staff_padding,
         pieces=baca.lparts([1, 2, 1, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
@@ -194,6 +195,7 @@ maker(
     ('v2', (86, 92)),
     baca.scp_spanner(
         'T -> P -> T -> P =|',
+        abjad.tweak(8).staff_padding,
         pieces=baca.lparts([2, 1, 1, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
@@ -224,6 +226,13 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
     stirrings_still.flight_spanner('memory of flight -|', 5.5),
+    )
+
+maker(
+    ('va', (67, 89)),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
     )
 
 maker(
@@ -311,7 +320,7 @@ maker(
 maker(
     ('vc', (65, 92)),
     baca.hairpin(
-        'p < fff',
+        '(p) < fff',
         measures=(86, 89),
         ),
     baca.hairpin(
@@ -341,6 +350,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (up one step) -|', 5.5,
+        # TODO: extend spanner to phantom measure
+        measures=(94, 98),
+        ),
     )
     
 # v1, v2
@@ -374,13 +388,20 @@ maker(
     )
 
 maker(
+    (['v1', 'v2'], (67, 85)),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
     (['v1', 'v2'], (84, 92)),
     baca.repeat_tie_to(),
     stirrings_still.continuous_tremolo(),
     )
 
 maker(
-    (['v1', 'v2'], (84, 92)),
+    (['v1', 'v2'], (86, 92)),
     baca.hairpin(
         '(p) < mp -- !',
         abjad.tweak(True).to_barline,
@@ -519,13 +540,6 @@ maker(
     )
 
 maker(
-    ('trio', (67, 85)),
-    baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    )
-
-maker(
     ('trio', (67, 89)),
     stirrings_still.urtext_spanner('urtext (cds) -|', 5.5),
     )
@@ -563,8 +577,12 @@ maker(
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
-    baca.tasto_spanner(
+    baca.scp_spanner(
+        'P -> T =|',
         abjad.tweak(8).staff_padding,
+        bookend=False,
+        pieces=baca.mgroups([2, 1 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.urtext_spanner('urtext (NEW cds) -|', 5.5),
     )
