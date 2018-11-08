@@ -10,7 +10,7 @@ import stirrings_still
 
 stage_markup = (
     ('[K.1.1-2]', 1),
-    ('[C.14]', 3, 'darkgreen'),
+    ('[C.14.3-4]', 3, 'darkgreen'),
     ('[K.1.3]', 5),
     ('[K.2]', 6),
     ('[K.3]', 9),
@@ -18,7 +18,7 @@ stage_markup = (
     ('[K.5]', 15),
     ('[K.6]', 18),
     ('[H.13.1]', 21, 'darkgreen'),
-    ('[I.6]', 22, 'darkgreen'),
+    ('[I.6.2]', 22, 'darkgreen'),
     ('[H.13.2]', 23, 'darkgreen'),
     ('[K.7]', 24),
     ('[K.8]', 32),
@@ -81,8 +81,7 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
-    'v1',
-    baca.dls_staff_padding(6),
+    ('v1', (1, 8)),
     baca.new(
         baca.half_clt_spanner(
             abjad.tweak(10.5).staff_padding,
@@ -164,7 +163,7 @@ maker(
     )
 
 maker(
-    'v1',
+    ('v1', (18, 23)),
     baca.new(
         baca.accent(
             selector=baca.pheads(),
@@ -204,7 +203,12 @@ maker(
     )
 
 maker(
-    'v1',
+    ('v1x', 22),
+    baca.tacet(),
+    )
+
+maker(
+    ('v1', (24, 45)),
     baca.hairpin(
         'p > pp',
         measures=(41, 42),
@@ -284,39 +288,30 @@ maker(
     )
 
 maker(
-    'v1',
-    baca.new(
-        baca.hairpin(
-            'p >o niente',
-            ),
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        baca.damp_spanner(
-            abjad.tweak(8).staff_padding,
-            # TODO: allow spanner to extend to phantom measure
-            selector=baca.leaves(),
-            ),
-        baca.scp_spanner(
-            'T poss. =|',
-            abjad.tweak(5.5).staff_padding,
-            # TODO: allow spanner to extend to phantom measure
-            selector=baca.leaves(),
-            ),
-        measures=(46, -1),
+    ('v1', (46, -1)),
+    baca.hairpin(
+        'p >o niente',
         ),
-    )
-
-maker(
-    'v1x',
-    baca.tacet(measures=22),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        # TODO: allow spanner to extend to phantom measure
+        selector=baca.leaves(),
+        ),
+    baca.scp_spanner(
+        'T poss. =|',
+        abjad.tweak(5.5).staff_padding,
+        # TODO: allow spanner to extend to phantom measure
+        selector=baca.leaves(),
+        ),
     )
 
 # v2
 
 maker(
     'v2',
-    baca.dls_staff_padding(6),
     baca.new(
         baca.half_clt_spanner(
             abjad.tweak(10.5).staff_padding,
@@ -548,8 +543,7 @@ maker(
 # va
 
 maker(
-    'va',
-    baca.dls_staff_padding(6),
+    ('va', (1, 4)),
     baca.new(
         baca.half_clt_spanner(
             abjad.tweak(10.5).staff_padding,
@@ -617,14 +611,6 @@ maker(
     )
 
 maker(
-    ('va', (14, 15)),
-    baca.make_repeat_tied_notes(),
-    baca.stem_tremolo(
-        selector=baca.pleaves(),
-        ),
-    )
-
-maker(
     ('va', (12, 17)),
     baca.hairpin(
         'p < mp',
@@ -633,7 +619,15 @@ maker(
     )
 
 maker(
-    'va',
+    ('va', (14, 15)),
+    baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    )
+
+maker(
+    ('va', (18, 23)),
     baca.new(
         baca.accent(
             selector=baca.pheads(),
@@ -673,7 +667,7 @@ maker(
     )
 
 maker(
-    'va',
+    ('va', (24, 45)),
     baca.new(
         baca.accent(
             selector=baca.pheads(),
@@ -764,39 +758,35 @@ maker(
     )
 
 maker(
-    'va',
-    baca.new(
-        baca.damp_spanner(
-            abjad.tweak(8).staff_padding,
-            # TODO: allow spanner to extend to phantom measure
-            selector=baca.leaves(),
-            ),
-        baca.hairpin(
-            'p >o niente',
-            ),
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        baca.scp_spanner(
-            'T poss. =|',
-            abjad.tweak(5.5).staff_padding,
-            # TODO: allow spanner to extend to phantom measure
-            selector=baca.leaves(),
-            ),
-        measures=(46, -1),
+    ('va', (46, -1)),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        # TODO: allow spanner to extend to phantom measure
+        selector=baca.leaves(),
+        ),
+    baca.hairpin(
+        'p >o niente',
+        ),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+        ),
+    baca.scp_spanner(
+        'T poss. =|',
+        abjad.tweak(5.5).staff_padding,
+        # TODO: allow spanner to extend to phantom measure
+        selector=baca.leaves(),
         ),
     )
 
 maker(
-    'vax',
-    baca.tacet(measures=22),
+    ('vax', 22),
+    baca.tacet(),
     )
 
 # vc
 
 maker(
-    'vc',
-    baca.dls_staff_padding(6),
+    ('vc', (1, 8)),
     baca.new(
         baca.half_clt_spanner(
             abjad.tweak(10.5).staff_padding,
@@ -879,18 +869,15 @@ maker(
     )
 
 maker(
-    'vc',
-    baca.new(
-        baca.accent(
-            selector=baca.pheads(),
-            ),
-        baca.breathe(),
-        baca.stem_tremolo(
-            selector=baca.pleaves(),
-            ),
-        stirrings_still.flight('A', -2, start=6),
-        measures=(18, 20),
+    ('vc', (18, 20)),
+    baca.accent(
+        selector=baca.pheads(),
         ),
+    baca.breathe(),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    stirrings_still.flight('A', -2, start=6),
     )
 
 maker(
@@ -911,7 +898,7 @@ maker(
     )
 
 maker(
-    'vc',
+    ('vc', (24, 37)),
     baca.new(
         baca.accent(
             selector=baca.pheads(),
@@ -970,7 +957,12 @@ maker(
         ),
     )
 
-# vertical
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
 
 maker(
     ('tutti', (1, 2)),
@@ -991,6 +983,8 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     )
+
+# TODO: test and see if these two need to remain at end
 
 maker(
     (['v1', 'v2', 'vc'], (5, 8)),
