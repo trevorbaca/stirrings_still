@@ -10,7 +10,7 @@ import stirrings_still
 
 stage_markup = (
     ('[J.1.1-2]', 1),
-    ('[C.7]', 3, 'darkgreen'),
+    ('[C.7.1-2]', 3, 'darkgreen'),
     ('[J.1.3-4]', 5),
     ('[J.2]', 7),
     ('[J.3]', 9),
@@ -71,44 +71,7 @@ time = (
 
 stirrings_still.time(maker, time)
 
-maker(
-    ('trio', (1, 2)),
-    baca.dynamic_text_self_alignment_x(
-        -0.75,
-        selector=baca.leaf(0),
-        ),
-    baca.hairpin(
-        'appena-udibile -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.urtext_field(),
-    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
-    )
-
-maker(
-    ('vcx', 1),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', 2),
-    baca.tacet(),
-    )
-
-maker(
-    (['v1', 'va', 'vc'], (3, 4)),
-    baca.hairpin(
-        'pp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (beacon) -|', 5.5,
-        ),
-    )
+# v2
 
 maker(
     ('v2', (3, 4)),
@@ -138,36 +101,21 @@ maker(
     baca.tuplet_bracket_staff_padding(3),
     )
 
-maker(
-    ('trio', (5, 11)),
-    stirrings_still.urtext_field(),
-    )
+# trio
 
 maker(
-    ('trio', (5, 13)),
-    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
-    )
-
-maker(
-    ('vcx', 5),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', 6),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', (7, 11)),
+    ('trio', (1, 2)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.leaf(-1),
+        selector=baca.leaf(0),
         ),
     baca.hairpin(
-        'pp < fff-poco-scratch',
+        'appena-udibile -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.urtext_field(),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     )
 
 maker(
@@ -181,6 +129,12 @@ maker(
         'appena-udibile -- ! < fff-poco-scratch',
         pieces=baca.mgroups([2, 5]),
         ),
+    stirrings_still.urtext_field(),
+    )
+
+maker(
+    ('trio', (5, 13)),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     )
 
 maker(
@@ -238,6 +192,56 @@ maker(
         ),
     )
 
+# v1, va, vc
+
+maker(
+    (['v1', 'va', 'vc'], (3, 4)),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (beacon) -|', 5.5,
+        ),
+    )
+
+# vc
+
+maker(
+    ('vcx', 1),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 2),
+    baca.tacet(),
+    )
+
+maker(
+    ('vcx', 5),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 6),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', (7, 11)),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.leaf(-1),
+        ),
+    baca.hairpin(
+        'pp < fff-poco-scratch',
+        ),
+    stirrings_still.urtext_field(),
+    )
+
 maker(
     ('vc', (12, 13)),
     baca.circle_bow_spanner(
@@ -251,11 +255,6 @@ maker(
     )
 
 maker(
-    ('tutti', 13),
-    baca.breathe(),
-    )
-
-maker(
     ('vcx', 14),
     baca.tacet(),
     )
@@ -265,9 +264,22 @@ maker(
     baca.tacet(),
     )
 
-# vertical
+# tutti
 
 maker(
     'tutti',
     baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('tutti', 11),
+    baca.markup(
+        'third time no breath',
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
+    ('tutti', 13),
+    baca.breathe(),
     )
