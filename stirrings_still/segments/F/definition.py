@@ -11,7 +11,7 @@ import stirrings_still
 stage_markup = (
     ('[F.1]', 1),
     ('[F.2]', 9),
-    ('[C.2]', 12, 'darkgreen'),
+    ('[C.2.3-4]', 12, 'darkgreen'),
     )
 
 maker = baca.SegmentMaker(
@@ -72,30 +72,19 @@ maker(
 maker(
     ('vc', (1, 8)),
     baca.hairpin(
-        '(p) < ff',
-        measures=1,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'ff >o niente',
-        measures=8,
+        '(p) < ff -- (ff) >o niente',
+        pieces=baca.mgroups([2, 4, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (fudnamental) -|', 5.5,
-        ),
+    stirrings_still.clouded_pane_spanner('clouded pane (fudnamental) -|', 5.5),
     )
 
 maker(
     ('va', (1, 10)),
-    baca.suite(
-        baca.hairpin(
-            'o< "mp"',
-            measures=1,
-            selector=baca.leaves().rleak(),
-            ),
-        baca.hairpin_shorten_pair((0.75, 0)),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak(-0.75).self_alignment_X,
         ),
     stirrings_still.tailpiece(
         (abjad.tweak(2).bound_details__right__padding, -1),

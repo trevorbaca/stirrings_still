@@ -254,9 +254,14 @@ maker(
         abjad.tweak(8).staff_padding,
         measures=(87, 96),
         ),
-    baca.dynamic(
-        'p-ancora',
-        abjad.tweak(-0.75).self_alignment_X,
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.pleaf(0),
+        ),
+    baca.hairpin(
+        'p-ancora -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [2]),
     )
@@ -430,11 +435,16 @@ maker(
         ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        measures=(87, 96),
+        measures=(87, 100),
         ),
-    baca.dynamic(
-        'p-ancora',
-        abjad.tweak(-0.75).self_alignment_X,
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.pleaf(0),
+        ),
+    baca.hairpin(
+        'p-ancora -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [1]),
     )
@@ -652,8 +662,8 @@ maker(
 maker(
     ('vc', (109, 115)),
     baca.hairpin(
-        'p >o niente',
-        measures=(112, 115),
+        'p -- ! >o niente',
+        pieces=baca.mgroups([3, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
@@ -677,12 +687,13 @@ maker(
         measures=(118, 119),
         selector=baca.leaves().rleak(),
         ),
-    baca.pitch_annotation_spanner(
-        'new (stepwise above) -|',
-        abjad.tweak('red').color,
-        abjad.tweak(8).staff_padding,
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (new stepwise above) -|',
+        5.5,
+        # TODO: extend to phantom measure
+        measures=(118, 126),
+        ),
     )
 
 # v1, v2
@@ -803,9 +814,14 @@ maker(
         abjad.tweak(8).staff_padding,
         match=1,
         ),
-    baca.dynamic(
-        'p-ancora',
-        abjad.tweak(-0.75).self_alignment_X,
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.pleaf(0),
+        ),
+    baca.hairpin(
+        'p-ancora -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
@@ -1030,7 +1046,11 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.dynamic('p'),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.new(
         stirrings_still.talea_eighths([3, 6, 8], 0, 1),
         match=0,
@@ -1060,8 +1080,8 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.hairpin(
-        'p >o niente',
-        measures=(116, 119),
+        'p -- ! >o niente',
+        pieces=baca.mgroups([4, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
     baca.new(
@@ -1084,6 +1104,18 @@ maker(
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
+        ),
+    )
+
+maker(
+    ('trio', (116, 119)),
+    baca.text_spanner(
+        'trem. ord. -> larghiss. =|',
+        abjad.tweak(10.5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.mgroups([3, 1 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
