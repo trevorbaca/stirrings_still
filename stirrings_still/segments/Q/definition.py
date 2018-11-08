@@ -977,7 +977,7 @@ maker(
         ),
     )
 
-# vertical
+# tutti
 
 maker(
     'tutti',
@@ -986,7 +986,11 @@ maker(
 
 maker(
     ('tutti', 1),
-    baca.dynamic('mp'),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
         selector=baca.pleaves(),
