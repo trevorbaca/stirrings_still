@@ -543,50 +543,47 @@ maker(
 # va
 
 maker(
-    ('va', (1, 4)),
-    baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
-        stirrings_still.bcps(
-            -2,
-            abjad.tweak(2.5).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(5.5).staff_padding,
-                ),
-            clt=True,
-            ),
-        stirrings_still.trajectories('B', -2, -2, end_counts=[1]),
-        measures=(1, 2),
+    ('va', (1, 2)),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'wide-poss',
-            abjad.tweak(8).staff_padding,
-            ),
-        baca.text_spanner(
-            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||',
+    stirrings_still.bcps(
+        -2,
+        abjad.tweak(2.5).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
             abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            pieces=baca.leaves().rleak().partition_by_ratio((1, 1, 1)),
             ),
-        stirrings_still.desynchronization(4, [0]),
-        measures=(3, 4),
+        clt=True,
         ),
+    stirrings_still.trajectories('B', -2, -2, end_counts=[1]),
+    )
+
+maker(
+    ('va', (3, 4)),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.text_spanner(
+        r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.leaves().rleak().partition_by_ratio((1, 1, 1)),
+        ),
+    stirrings_still.desynchronization(4, [0]),
     )
 
 maker(
     ('va', (5, 11)),
     baca.dynamic(
-        '"mp"',
+        '"mf"',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-3, 0)).extra_offset,
         ),
     stirrings_still.tailpiece(
         (abjad.tweak(1.5).bound_details__right__padding, -1),
-        measures=(5, 11),
         ),
     )
 
@@ -627,43 +624,30 @@ maker(
     )
 
 maker(
-    ('va', (18, 23)),
-    baca.new(
-        baca.accent(
-            selector=baca.pheads(),
-            ),
-        baca.breathe(),
-        baca.stem_tremolo(
-            selector=baca.pleaves(),
-            ),
-        stirrings_still.flight('A', -1, start=4),
-        measures=(18, 20),
+    ('va', (18, 20)),
+    baca.accent(
+        selector=baca.pheads(),
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'tight',
-            abjad.tweak(5.5).staff_padding,
-            ),
-        baca.dynamic_text_self_alignment_x(-0.75),
-        baca.hairpin(
-            '"ff" -- !',
-            abjad.tweak(True).to_barline,
-            selector=baca.leaves().rleak(),
-            ),
-        stirrings_still.pickets(4, 0),
-        measures=21,
+    baca.breathe(),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
         ),
-    baca.new(
-        baca.breathe(),
-        baca.dynamic_text_self_alignment_x(-0.75),
-        baca.hairpin('"ff" > mf'),
-        baca.circle_bow_spanner(
-            'wide',
-            abjad.tweak(5.5).staff_padding,
-            ),
-        stirrings_still.pickets(4, 0),
-        measures=23,
+    stirrings_still.flight('A', -1, start=4),
+    )
+
+maker(
+    ('va', 21),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(5.5).staff_padding,
         ),
+    baca.dynamic_text_self_alignment_x(-0.75),
+    baca.hairpin(
+        '"ff" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.pickets(4, 0),
     )
 
 maker(
@@ -672,94 +656,106 @@ maker(
     )
 
 maker(
-    ('va', (24, 45)),
-    baca.new(
-        baca.accent(
-            selector=baca.pheads(),
-            ),
-        baca.breathe(),
-        baca.dynamic('p'),
-        baca.stem_tremolo(
-            selector=baca.pleaves(),
-            ),
-        baca.scp_spanner(
-            'T -> P ->',
-            abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=False,
-            pieces=baca.plts()[:-1],
-            ),
-        stirrings_still.flight('A', -1, start=4),
-        measures=(24, 31),
+    ('va', 23),
+    baca.breathe(),
+    baca.dynamic_text_self_alignment_x(-0.75),
+    baca.hairpin('"ff" > mf'),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(5.5).staff_padding,
         ),
-    baca.new(
-        baca.accent(
-            selector=baca.pheads(),
-            ),
-        baca.stem_tremolo(
-            selector=baca.pleaves(),
-            ),
-        baca.text_spanner(
-            'trem. ord. -> larg. =| trem. larg. -> larghiss. =| trem. larghiss. -> no trem.',
-            abjad.tweak(1.5).bound_details__right__padding,
-            abjad.tweak(8).staff_padding,
-            bookend=False,
-            final_piece_spanner=False,
-            lilypond_id=1,
-            pieces=baca.cmgroups([1, 1, 2, 1, 1, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        baca.scp_spanner(
-            'T -> P ->',
-            abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=False,
-            pieces=baca.plts()[:-1],
-            ),
-        stirrings_still.flight('A', -1, start=4),
-        measures=(32, 37),
+    stirrings_still.pickets(4, 0),
+    )
+
+maker(
+    ('va', (24, 31)),
+    baca.accent(
+        selector=baca.pheads(),
         ),
-    baca.new(
-        baca.accent(
-            selector=baca.pheads(),
-            ),
-        baca.text_spanner(
-            r'\baca-null-markup || \baca-damp-markup =|',
-            abjad.tweak(8).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            final_piece_spanner=False,
-            lilypond_id=1,
-            pieces=baca.plts()[:-1],
-            ),
-        baca.scp_spanner(
-            'T1 -> T3 -> T2 -> T3 ->',
-            abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=False,
-            pieces=baca.plts()[:-1],
-            ),
-        stirrings_still.flight('A', -1, start=4),
-        measures=(38, 42),
+    baca.breathe(),
+    baca.dynamic('p'),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
         ),
-    baca.new(
-        baca.hairpin(
-            '"mf" -- !',
-            abjad.tweak(True).to_barline,
-            selector=baca.leaves().rleak(),
-            ),
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
-        stirrings_still.bcps(
-            -2,
-            abjad.tweak(3).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(6).staff_padding,
-                ),
-            clt=True,
-            ),
-        stirrings_still.to_flight([(8, 8), (3, 16)]),
-        measures=(43, 45),
+    baca.scp_spanner(
+        'T -> P ->',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
+        pieces=baca.plts()[:-1],
         ),
+    stirrings_still.flight('A', -1, start=4),
+    )
+
+maker(
+    ('va', (32, 37)),
+    baca.accent(
+        selector=baca.pheads(),
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    baca.text_spanner(
+        'trem. ord. -> larg. =| trem. larg. -> larghiss. =| trem. larghiss. -> no trem.',
+        abjad.tweak(1.5).bound_details__right__padding,
+        abjad.tweak(8).staff_padding,
+        bookend=False,
+        final_piece_spanner=False,
+        lilypond_id=1,
+        pieces=baca.cmgroups([1, 1, 2, 1, 1, 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> P ->',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
+        pieces=baca.plts()[:-1],
+        ),
+    stirrings_still.flight('A', -1, start=4),
+    )
+
+maker(
+    ('va', (38, 42)),
+    baca.accent(
+        selector=baca.pheads(),
+        ),
+    baca.text_spanner(
+        r'\baca-null-markup || \baca-damp-markup =|',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        final_piece_spanner=False,
+        lilypond_id=1,
+        pieces=baca.plts()[:-1],
+        ),
+    baca.scp_spanner(
+        'T1 -> T3 -> T2 -> T3 ->',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
+        pieces=baca.plts()[:-1],
+        ),
+    stirrings_still.flight('A', -1, start=4),
+    )
+
+maker(
+    ('va', (43, 45)),
+    baca.hairpin(
+        '"mf" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    stirrings_still.bcps(
+        -2,
+        abjad.tweak(3).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(6).staff_padding,
+            ),
+        clt=True,
+        ),
+    stirrings_still.to_flight([(8, 8), (3, 16)]),
     )
 
 maker(
