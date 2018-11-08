@@ -13,7 +13,7 @@ from abjadext import rmakers
 stage_markup = (
     ('[H.1]', 1),
     ('[H.2]', 5),
-    ('[I.1]', 6, 'darkgreen'),
+    ('[I.1.2]', 6, 'darkgreen'),
     ('[H.3]', 7),
     ('[H.4]', 9),
     ('[H.5]', 11),
