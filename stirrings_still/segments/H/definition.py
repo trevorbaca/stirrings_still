@@ -123,9 +123,17 @@ maker(
 
 maker(
     ('v1', (7, 8)),
-    baca.dynamic('p'),
     baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 2), (8, 32)),
+    )
+
+maker(
+    ('v1', (7, 14)),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -175,9 +183,11 @@ maker(
     )
 
 maker(
-    ('v2', (9, 10)),
+    ('v2', (9, 14)),
     baca.hairpin(
-        'mp > p',
+        '(mp) > p -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([2, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -301,9 +311,17 @@ maker(
 
 maker(
     ('va', (7, 8)),
-    baca.dynamic('p'),
     baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 2), (6, 32)),
+    )
+
+maker(
+    ('va', (11, 14)),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -397,7 +415,7 @@ maker(
 maker(
     ('vc', (9, 16)),
     baca.hairpin(
-        'mp < ff',
+        '(mp) < ff',
         selector=baca.leaves().rleak(),
         ),
     )
@@ -446,7 +464,7 @@ maker(
 maker(
     ('vc', (47, 51)),
     baca.hairpin(
-        '< p -- !',
+        '(ppp) < p -- !',
         abjad.tweak(True).to_barline,
         pieces=baca.mgroups([3, 2 + 1]),
         selector=baca.leaves().rleak(),
@@ -523,7 +541,7 @@ maker(
 maker(
     ('trio', (15, 16)),
     baca.hairpin(
-        'p >o niente',
+        '(p) >o niente',
         selector=baca.leaves().rleak(),
         ),
     )
