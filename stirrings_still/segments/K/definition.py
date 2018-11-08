@@ -311,7 +311,7 @@ maker(
 # v2
 
 maker(
-    'v2',
+    ('v2', (1, 8)),
     baca.new(
         baca.half_clt_spanner(
             abjad.tweak(10.5).staff_padding,
@@ -393,7 +393,7 @@ maker(
     )
 
 maker(
-    'v2',
+    ('v2', (18, 23)),
     baca.new(
         baca.accent(
             selector=baca.pheads(),
@@ -433,7 +433,12 @@ maker(
     )
 
 maker(
-    'v2',
+    ('v2x', 22),
+    baca.tacet(),
+    )
+
+maker(
+    ('v2', (24, 45)),
     baca.new(
         baca.accent(
             selector=baca.pheads(),
@@ -512,32 +517,24 @@ maker(
     )
 
 maker(
-    'v2',
-    baca.new(
-        baca.hairpin(
-            'p >o niente',
-            ),
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        baca.damp_spanner(
-            abjad.tweak(8).staff_padding,
-            # TODO: allow spanner to extend to phantom measure
-            selector=baca.leaves(),
-            ),
-        baca.scp_spanner(
-            'T poss. =|',
-            abjad.tweak(5.5).staff_padding,
-            # TODO: allow spanner to extend to phantom measure
-            selector=baca.leaves(),
-            ),
-        measures=(46, -1),
+    ('v2', (46, -1)),
+    baca.hairpin(
+        'p >o niente',
         ),
-    )
-
-maker(
-    'v2x',
-    baca.tacet(measures=22),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        # TODO: allow spanner to extend to phantom measure
+        selector=baca.leaves(),
+        ),
+    baca.scp_spanner(
+        'T poss. =|',
+        abjad.tweak(5.5).staff_padding,
+        # TODO: allow spanner to extend to phantom measure
+        selector=baca.leaves(),
+        ),
     )
 
 # va
@@ -667,6 +664,11 @@ maker(
     )
 
 maker(
+    ('vax', 22),
+    baca.tacet(),
+    )
+
+maker(
     ('va', (24, 45)),
     baca.new(
         baca.accent(
@@ -776,11 +778,6 @@ maker(
         # TODO: allow spanner to extend to phantom measure
         selector=baca.leaves(),
         ),
-    )
-
-maker(
-    ('vax', 22),
-    baca.tacet(),
     )
 
 # vc
