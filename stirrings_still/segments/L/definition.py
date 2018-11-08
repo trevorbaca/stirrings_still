@@ -39,6 +39,8 @@ time = (
 
 stirrings_still.time(maker, time)
 
+# v1
+
 maker(
     'v1',
     baca.dls_staff_padding(7),
@@ -106,6 +108,8 @@ maker(
         dmask=rmakers.sustain([2, 6, 10, 14, 15]),
         ),
     )
+
+# v2
 
 maker(
     'v2',
@@ -175,6 +179,8 @@ maker(
         ),
     )
 
+# va
+
 maker(
     'va',
     baca.dls_staff_padding(7),
@@ -242,14 +248,7 @@ maker(
         ),
     )
 
-maker(
-    'trio',
-    baca.hairpin(
-        '"f" > p p < "f" > p p < "f" > p p < "f" > p',
-        measures=(1, 15),
-        pieces=baca.cmgroups([2, 1, 1]),
-        ),
-    )
+# vc
 
 maker(
     'vc',
@@ -260,4 +259,15 @@ maker(
         pieces=baca.cmgroups([2, 1, 1]),
         ),
     stirrings_still.clouded_pane(),
+    )
+
+# trio
+
+maker(
+    'trio',
+    baca.hairpin(
+        '"f" > p p < "f" > p p < "f" > p p < "f" > p',
+        measures=(1, 15),
+        pieces=baca.cmgroups([2, 1, 1]),
+        ),
     )

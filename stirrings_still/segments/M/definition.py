@@ -46,6 +46,8 @@ time = (
 
 stirrings_still.time(maker, time)
 
+# v1
+
 maker(
     'v1',
     baca.new(
@@ -99,6 +101,8 @@ maker(
         measures=(29, 32),
         ),
     )
+
+# v2
 
 maker(
     'v2',
@@ -154,6 +158,8 @@ maker(
         ),
     )
 
+# va
+
 maker(
     'va',
     baca.new(
@@ -208,6 +214,27 @@ maker(
         ),
     )
 
+# vc
+
+maker(
+    'vc',
+    baca.hairpin(
+        'fff -- fff > f  f < fff  fff > f f < fff fff > f f < fff -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([6, 2, 2, 2, 2, 2, 2, 2, 2, 3, 1, 2, 4 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.markup(
+        'semitone down to C2',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
+    )
+
+# trio
+
 maker(
     'trio',
     baca.hairpin(
@@ -225,6 +252,11 @@ maker(
         measures=(21, 32),
         pieces=baca.mgroups([5, 3, 4]),
         ),
+    )
+
+maker(
+    ('trio', (1, 8)),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
     )
 
 maker(
@@ -258,11 +290,6 @@ maker(
     )
 
 maker(
-    ('trio', (1, 8)),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
-    )
-
-maker(
     ('trio', (13, 16)),
     stirrings_still.clouded_pane_spanner(
         'clouded pane -|', 8,
@@ -284,24 +311,7 @@ maker(
         ),
     )
 
-maker(
-    'vc',
-    baca.hairpin(
-        'fff -- fff > f  f < fff  fff > f f < fff fff > f f < fff -- !',
-        abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([6, 2, 2, 2, 2, 2, 2, 2, 2, 3, 1, 2, 4 + 1]),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.markup(
-        'semitone down to C2',
-        abjad.tweak('red').color,
-        abjad.tweak(8).staff_padding,
-        ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
-    )
-
-# vertical
+# tutti
 
 maker(
     'tutti',
