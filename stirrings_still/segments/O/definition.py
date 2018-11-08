@@ -10,7 +10,7 @@ import stirrings_still
 
 stage_markup = (
     ('[O.1]', 1),
-    ('[H.3]', 7, 'darkgreen'),
+    ('[H.3.4]', 7, 'darkgreen'),
     )
 
 maker = baca.SegmentMaker(
@@ -61,7 +61,7 @@ maker(
 maker(
     ('v1', 7),
     baca.circle_bow_spanner(
-        'scratch',
+        'very-tight',
         abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
@@ -91,7 +91,7 @@ maker(
 maker(
     ('v2', 7),
     baca.circle_bow_spanner(
-        'scratch',
+        'very-tight',
         abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
@@ -121,7 +121,7 @@ maker(
 maker(
     ('va', 7),
     baca.circle_bow_spanner(
-        'scratch',
+        'very-tight',
         abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
@@ -159,7 +159,7 @@ maker(
     stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
     )
 
-# vertical
+# tutti
 
 maker(
     'tutti',
