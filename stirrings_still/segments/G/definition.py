@@ -11,7 +11,7 @@ import stirrings_still
 stage_markup = (
     ('[G.1]', 1),
     ('[G.2]', 3),
-    ('[J.1]', 5, 'darkgreen'),
+    ('[J.1.1-2]', 5, 'darkgreen'),
     ('[G.3]', 7),
     ('[G.4]', 9),
     ('[G.5.1]', 11),
@@ -75,6 +75,8 @@ time = (
 
 stirrings_still.time(maker, time)
 
+# v1
+
 maker(
     ('v1', [1, 3, 7, 9, 11, 14]),
     baca.dynamic('mp'),
@@ -82,7 +84,10 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.loure_tuplets(0),
+    stirrings_still.urtext_spanner('urtext (double stop) -|', 5.5),
     )
+
+# v2
 
 maker(
     ('v2', [1, 3, 7, 9, 11, 14]),
@@ -91,111 +96,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.loure_tuplets(1),
-    )
-
-maker(
-    ('va', [1, 3, 7, 9, 11, 14]),
-    baca.dynamic('mp'),
-    baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (partial) -|', 5.5,
-        ),
-    stirrings_still.loure_tuplets(-1),
-    )
-
-maker(
-    (['v1', 'v2'], [1, 3, 7, 9, 11, 14]),
     stirrings_still.urtext_spanner('urtext (double stop) -|', 5.5),
-    )
-
-maker(
-    ('trio', (5, 6)),
-    baca.dynamic_text_self_alignment_x(
-        -0.75,
-        selector=baca.leaf(0),
-        ),
-    baca.hairpin(
-        'appena-udibile -- !',
-        abjad.tweak(True).to_barline,
-        abjad.tweak(-0.75).self_alignment_X,
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.urtext_field(),
-    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
-    )
-
-maker(
-    ('vc', 1),
-    baca.markup(
-        'new pitch (stepwise above)',
-        abjad.tweak('red').color,
-        abjad.tweak(8).staff_padding,
-        ),
-    )
-
-maker(
-    ('vc', [1, 3, 7, 9, 11, 14]),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
-    stirrings_still.taper((1, 1)),
-    )
-
-maker(
-    ('vc', [1, 3, 7, 9]),
-    baca.hairpin(
-        'o< f >o !',
-        pieces=baca.lparts([1, 2]),
-        selector=baca.leaves().rleak(),
-        ),
-    )
-
-maker(
-    ('vc', 11),
-    baca.hairpin(
-        'o< f -- !',
-        pieces=baca.lparts([1, 2]),
-        selector=baca.leaves().rleak(),
-        ),
-    )
-
-maker(
-    ('vc', 14),
-    baca.hairpin(
-        'f -- ! >o niente',
-        pieces=baca.lparts([1, 2]),
-        selector=baca.leaves().rleak(),
-        ),
-    )
-
-maker(
-    ('vc', (5, 6)),
-    baca.tacet(),
-    )
-
-maker(
-    (['v1', 'va', 'vc'], (12, 13)),
-    baca.hairpin(
-        'pp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.new(
-        stirrings_still.clouded_pane(),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.clouded_pane(),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.clouded_pane(),
-        match=2,
-        ),
-    baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (beacon) -|', 5.5,
-        ),
     )
 
 maker(
@@ -222,6 +123,121 @@ maker(
             ),
         measures=13,
         ),
+    )
+
+# va
+
+maker(
+    ('va', [1, 3, 7, 9, 11, 14]),
+    baca.dynamic('mp'),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (partial) -|', 5.5,
+        ),
+    stirrings_still.loure_tuplets(-1),
+    )
+
+# vc
+
+maker(
+    ('vc', 1),
+    baca.markup(
+        'new pitch (stepwise above)',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
+    ('vc', [1, 3, 7, 9]),
+    baca.hairpin(
+        'o< f >o !',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', [1, 3, 7, 9, 11, 14]),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
+    stirrings_still.taper((1, 1)),
+    )
+
+maker(
+    ('vc', (5, 6)),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 11),
+    baca.hairpin(
+        'o< f -- !',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', 14),
+    baca.hairpin(
+        'f -- ! >o niente',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+# v1, va, vc
+
+maker(
+    (['v1', 'va', 'vc'], (12, 13)),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.clouded_pane(),
+        match=2,
+        ),
+    baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (beacon) -|', 5.5,
+        ),
+    )
+
+# trio
+
+maker(
+    ('trio', (5, 6)),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.leaf(0),
+        ),
+    baca.hairpin(
+        'appena-udibile -- !',
+        abjad.tweak(True).to_barline,
+        abjad.tweak(-0.75).self_alignment_X,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.urtext_field(),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
+    )
+
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
     )
 
 maker(
@@ -288,11 +304,4 @@ maker(
         stirrings_still.ntlt_flat_glissandi(),
         ),
     stirrings_still.strokes(0),
-    )
-
-# vertical
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
     )

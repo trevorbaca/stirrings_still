@@ -42,6 +42,8 @@ time = (
 
 stirrings_still.time(maker, time)
 
+# v1
+
 maker(
     ('v1', (1, 8)),
     baca.hairpin(
@@ -54,6 +56,8 @@ maker(
         'clouded pane (doublestop partials) -|', 5.5,
         ),
     )
+
+# v2
 
 maker(
     ('v2', (1, 8)),
@@ -68,17 +72,7 @@ maker(
         ),
     )
 
-
-maker(
-    ('vc', (1, 8)),
-    baca.hairpin(
-        '(p) < ff -- (ff) >o niente',
-        pieces=baca.mgroups([2, 4, 2 + 1]),
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane (fudnamental) -|', 5.5),
-    )
+# va
 
 maker(
     ('va', (1, 10)),
@@ -92,6 +86,21 @@ maker(
         ),
     )
 
+# vc
+
+maker(
+    ('vc', (1, 8)),
+    baca.hairpin(
+        '(p) < ff -- (ff) >o niente',
+        pieces=baca.mgroups([2, 4, 2 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner('clouded pane (fudnamental) -|', 5.5),
+    )
+
+# v1, v2, vc
+
 maker(
     (['v1x', 'v2x', 'vcx'], 9),
     baca.tacet(),
@@ -100,6 +109,13 @@ maker(
 maker(
     (['v1', 'v2', 'vc'], 10),
     baca.tacet(),
+    )
+
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
     )
 
 maker(
@@ -133,11 +149,4 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
-    )
-
-# vertical
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
     )
