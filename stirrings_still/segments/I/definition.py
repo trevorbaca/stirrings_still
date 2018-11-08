@@ -47,45 +47,28 @@ time = (
 
 stirrings_still.time(maker, time)
 
-maker(
-    ('trio', (1, 7)),
-    baca.new(
-        baca.hairpin(
-            'mp >o niente',
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(4, 7),
-        ),
-    baca.new(
-        stirrings_still.circles((1, 8)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.circles((1, 4)),
-        match=1,
-        ),
-    baca.new(
-        stirrings_still.circles(
-            (1, 2),
-            dmask=baca.silence_first(),
-            remainder=abjad.Left,
-            ),
-        match=2,
-        ),
-    )
+# v1
 
 maker(
     ('v1', (1, 7)),
     baca.beam(),
-    )
-
-maker(
-    (['v1', 'v2'], (1, 7)),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
         ),
     )
+
+# v2
+
+maker(
+    ('v2', (1, 7)),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+# va
 
 maker(
     ('va', (1, 7)),
@@ -95,34 +78,7 @@ maker(
         ),
     )
 
-maker(
-    ('triox', 8),
-    baca.tacet(),
-    )
-maker(
-
-    ('trio', 9),
-    baca.tacet(),
-    )
-
-maker(
-    ('trio', (10, 11)),
-    baca.dynamic_text_self_alignment_x(
-        -0.75,
-        selector=baca.leaf(0),
-        ),
-    baca.hairpin(
-        'appena-udibile -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.urtext_field(),
-    # TODO: allow right-broken spanner
-    stirrings_still.urtext_spanner(
-        'urtext (sustained ds) -|', 5.5,
-        selector=baca.leaves(),
-        ),
-    )
+# vc
 
 maker(
     'vc',
@@ -166,7 +122,65 @@ maker(
         ),
     )
 
-# vertical
+# trio
+
+maker(
+    ('trio', (1, 7)),
+    baca.new(
+        baca.hairpin(
+            '(mp) >o niente',
+            selector=baca.leaves().rleak(),
+            ),
+        measures=(4, 7),
+        ),
+    baca.new(
+        stirrings_still.circles((1, 8)),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.circles((1, 4)),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.circles(
+            (1, 2),
+            dmask=baca.silence_first(),
+            remainder=abjad.Left,
+            ),
+        match=2,
+        ),
+    )
+
+maker(
+    ('triox', 8),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', 9),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', (10, 11)),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.leaf(0),
+        ),
+    baca.hairpin(
+        'appena-udibile -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.urtext_field(),
+    # TODO: allow right-broken spanner
+    stirrings_still.urtext_spanner(
+        'urtext (sustained ds) -|', 5.5,
+        selector=baca.leaves(),
+        ),
+    )
+
+# tutti
 
 maker(
     'tutti',
