@@ -17,7 +17,7 @@ stage_markup = (
     ('[N.5]', 17),
     ('[N.6.1-6]', 23),
     ('[K.6]', 29, 'darkgreen'),
-    ('[N.67-12]', 30),
+    ('[N.6.7-12]', 30),
     ('[N.7]', 37),
     )
 
@@ -128,7 +128,11 @@ maker(
         measures=(23, 28),
         ),
     baca.new(
-        baca.dynamic('mp'),
+        baca.hairpin(
+            'mp -- !',
+            abjad.tweak(True).to_barline,
+            selector=baca.leaves().rleak(),
+            ),
         baca.make_repeat_tied_notes(),
         baca.stem_tremolo(
             selector=baca.pleaves(),
@@ -223,7 +227,11 @@ maker(
         measures=(23, 28),
         ),
     baca.new(
-        baca.dynamic('mp'),
+        baca.hairpin(
+            'mp -- !',
+            abjad.tweak(True).to_barline,
+            selector=baca.leaves().rleak(),
+            ),
         baca.make_repeat_tied_notes(),
         baca.stem_tremolo(
             selector=baca.pleaves(),
@@ -318,7 +326,11 @@ maker(
         measures=(23, 28),
         ),
     baca.new(
-        baca.dynamic('mp'),
+        baca.hairpin(
+            'mp -- !',
+            abjad.tweak(True).to_barline,
+            selector=baca.leaves().rleak(),
+            ),
         baca.make_repeat_tied_notes(),
         baca.stem_tremolo(
             selector=baca.pleaves(),
@@ -389,11 +401,15 @@ maker(
 
 maker(
     ('vc', (11, 12)),
-    baca.dynamic('"f"'),
-    baca.script_staff_padding(8),
+    baca.hairpin(
+        '"f" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
     baca.half_clt_spanner(
         abjad.tweak(13).staff_padding,
         ),
+    baca.script_staff_padding(8),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         abjad.tweak(5).staff_padding,
@@ -403,7 +419,7 @@ maker(
 maker(
     'vc',
     baca.hairpin(
-        'p >o',
+        '(p) >o',
         bookend=False,
         measures=(17, 22),
         selector=baca.leaves().rleak(),
