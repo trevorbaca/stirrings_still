@@ -81,52 +81,60 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
-    ('v1', (1, 8)),
-    baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(10.5).staff_padding,
-            ),
-        stirrings_still.bcps(
-            0,
-            abjad.tweak(2.5).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(5.5).staff_padding,
-                ),
-            clt=True,
-            ),
-        stirrings_still.trajectories('B', 0, 0, end_counts=[1]),
-        measures=(1, 2),
+    ('v1', (1, 2)),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'wide-poss',
-            abjad.tweak(8).staff_padding,
-            ),
-        baca.text_spanner(
-            r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||',
+    stirrings_still.bcps(
+        0,
+        abjad.tweak(2.5).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
             abjad.tweak(5.5).staff_padding,
-            autodetect_right_padding=True,
-            bookend=False,
-            pieces=baca.leaves().rleak().partition_by_ratio((1, 1, 1)),
             ),
-        stirrings_still.desynchronization(4, [2]),
-        measures=(3, 4),
+        clt=True,
         ),
-    stirrings_still.trajectories('B', 0, 0, measures=5),
-    stirrings_still.accelerando((8, 32), (1, 2), measures=(6, 8)),
-    baca.new(
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            0,
-            abjad.tweak(2.5).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(5.5).staff_padding,
-                ),
-            clt=True,
+    stirrings_still.trajectories('B', 0, 0, end_counts=[1]),
+    )
+
+maker(
+    ('v1', (3, 4)),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.text_spanner(
+        r'\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        pieces=baca.leaves().rleak().partition_by_ratio((1, 1, 1)),
+        ),
+    stirrings_still.desynchronization(4, [2]),
+    )
+
+maker(
+    ('v1', (5, 8)),
+    baca.tuplet_bracket_down(),
+    stirrings_still.accelerando(
+        (8, 32),
+        (1, 2),
+        measures=(6, 8),
+        ),
+    stirrings_still.bcps(
+        0,
+        abjad.tweak(2.5).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(5.5).staff_padding,
             ),
-        measures=(5, 8),
+        clt=True,
+        ),
+    stirrings_still.trajectories(
+        'B',
+        0,
+        0,
+        measures=5,
         ),
     )
 
