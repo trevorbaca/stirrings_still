@@ -2397,14 +2397,14 @@ SEGMENTS
     (16 measures)
     largo meno mosso begins
     tutti trajectory-animated clouded pane (begins)
-        v1, v2, va
-            partials of clouded pane
-            alternating intermittent trajectories and pure pitch
-            alternating 1/2 and hair
-        vc
-            oscillates blossom of full multiphonic at extremely slow rate
-            IV/Db2
-            alternating p < fff ... fff > p
+    v1, v2, va
+        partials of clouded pane
+        alternating intermittent trajectories and pure pitch
+        alternating 1/2 and hair
+    vc
+        oscillates blossom of full multiphonic at extremely slow rate
+        IV/Db2
+        alternating p < fff ... fff > p
     attacca
 
 [M] time series C; rotation -72
