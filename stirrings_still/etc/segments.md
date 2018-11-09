@@ -180,7 +180,7 @@ SEGMENTS
         [tasto]
         [p]
     >>attacca suffix<<
-    >>[G.1.1/1 (pane / urtext conflict)] suffixes [C.1]<< (27)
+    >>[G.1. (pane / urtext conflict)] suffixes [A.9]<< (27)
         >>summons future time<<
         largo più mosso
         tutti clouded pane / urtext declamation conflict
@@ -644,7 +644,7 @@ SEGMENTS
         lontano
         v1, v2, va
             tacet
-        vc clouded pane appears (first [actual] time in piece)
+        vc clouded pane
             p
     >>attacca to second half of [B.17]<<
     [B.17.2] (46)
@@ -767,7 +767,7 @@ SEGMENTS
         fixed pitch for each player
         desynchronized
         "ff"
-    >>[G.1.1/1 (pane / urtext conflict)] suffixes [C.1]<< (5)
+    >>[G.1 (pane / urtext conflict)] suffixes [C.1]<< (5)
     >>summons future time<<
     largo più mosso
     tutti clouded pane / urtext declamation conflict
@@ -850,7 +850,7 @@ SEGMENTS
         >>summons future time<<
         harmonic lh
         pp
-    v2 [B.10.1/1 (white clockticks)]
+    v2 [B.10 (white clockticks)]
         <<summon past time>>
         damped lh
         1/2 clt
@@ -1101,8 +1101,7 @@ SEGMENTS
     largo
     lontano
     v1, v2, va
-        tacet
-    vc clouded pane appears
+        tacet vc clouded pane (lontano)
         p
     >>[F.2.1/2 (clearing)] bisects [D.9]<< (51)
     >>summons future time<<
@@ -1116,7 +1115,7 @@ SEGMENTS
     [largo]
     v1, v2, va
         [tacet]
-    vc clouded pane
+    vc clouded pane (lontano)
         p
     long fermata (54)
 
@@ -1129,7 +1128,7 @@ SEGMENTS
         tasto
     long fermata (56)
 
-    >>[S.2.1/1 (transformatum) 1/1] prefixes [D.11]<< (57)
+    >>[S.2 (transformatum) 1/1] prefixes [D.11]<< (57)
     >>summons future time<<
     largo
     v1, v2 circles
@@ -1160,7 +1159,7 @@ SEGMENTS
         p
         ===
         {continuous sound}
-    vc clouded pane
+    vc clouded pane (arrival)
         o< p governs first half of stage
     >>[I.1.2/2 (gears)] bisect [D.12]<< (66)
     >>summon future time<<
@@ -1459,7 +1458,7 @@ SEGMENTS
         [p]
     vc
         [tacet]
-    <<[A.1.1/1 (isolatum)] bisects [E.6]>> (34)
+    <<[A.1 (isolatum)] bisects [E.6]>> (34)
     <<summons past time>>
     andante
     trio urtext declamation (two chords)
