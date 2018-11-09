@@ -281,7 +281,7 @@ maker(
 maker(
     ('vc', 5),
     baca.hairpin(
-        'niente o< f >o niente',
+        'o< f >o niente',
         pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
         selector=baca.leaves().rleak(),
         ),
