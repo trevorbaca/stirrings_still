@@ -2929,8 +2929,7 @@ P_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    a,1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2952,26 +2951,21 @@ P_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [P Cello_Music_Voice measure 705 / measure 2]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    a,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P Cello_Music_Voice measure 706 / measure 3]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! baca_make_repeat_tied_notes
+    a,2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P Cello_Music_Voice measure 707 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! baca_make_repeat_tied_notes
+    a,2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P Cello_Music_Voice measure 708 / measure 5]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    a,2                                                                        %! baca_make_repeat_tied_notes
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! baca_make_repeat_tied_notes
+    a,8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     \override TupletNumber.text = \markup {
@@ -3018,8 +3012,7 @@ P_Cello_Music_Voice = {                                                        %
         % [P Cello_Music_Voice measure 709 / measure 6]                        %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 107/16                                                          %! stirrings_still_wave
+        a,16 * 107/16                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3033,15 +3026,12 @@ P_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 197/64                                                          %! stirrings_still_wave
+        a,16 * 197/64                                                          %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 81/64                                                           %! stirrings_still_wave
+        a,16 * 81/64                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 31/32                                                           %! stirrings_still_wave
+        a,16 * 31/32                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
 
     }                                                                          %! stirrings_still_wave
@@ -3091,29 +3081,23 @@ P_Cello_Music_Voice = {                                                        %
         % [P Cello_Music_Voice measure 710 / measure 7]                        %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 3/4                                                             %! stirrings_still_wave
+        a,16 * 3/4                                                             %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 53/64                                                           %! stirrings_still_wave
+        a,16 * 53/64                                                           %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 69/64                                                           %! stirrings_still_wave
+        a,16 * 69/64                                                           %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 53/32                                                           %! stirrings_still_wave
+        a,16 * 53/32                                                           %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 183/64                                                          %! stirrings_still_wave
+        a,16 * 183/64                                                          %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 309/64                                                          %! stirrings_still_wave
+        a,16 * 309/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
 
     }                                                                          %! stirrings_still_wave
@@ -3163,21 +3147,18 @@ P_Cello_Music_Voice = {                                                        %
         % [P Cello_Music_Voice measure 711 / measure 8]                        %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 109/16                                                          %! stirrings_still_wave
+        a,16 * 109/16                                                          %! stirrings_still_wave
         [                                                                      %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 19/16                                                           %! stirrings_still_wave
+        a,16 * 19/16                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
     % [P Cello_Music_Voice measure 712 / measure 9]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    a,2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
@@ -3189,36 +3170,29 @@ P_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
     % [P Cello_Music_Voice measure 713 / measure 10]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    a,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P Cello_Music_Voice measure 714 / measure 11]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    a,2                                                                        %! baca_make_repeat_tied_notes
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! baca_make_repeat_tied_notes
+    a,8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P Cello_Music_Voice measure 715 / measure 12]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    a,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P Cello_Music_Voice measure 716 / measure 13]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    a,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P Cello_Music_Voice measure 717 / measure 14]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! baca_make_repeat_tied_notes
+    a,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P Cello_Music_Voice measure 718 / measure 15]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! baca_make_repeat_tied_notes
+    a,2..                                                                      %! baca_make_repeat_tied_notes
 
     \override TupletNumber.text = \markup {
         \scale
@@ -3264,8 +3238,7 @@ P_Cello_Music_Voice = {                                                        %
         % [P Cello_Music_Voice measure 719 / measure 16]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 447/64                                                          %! stirrings_still_wave
+        a,16 * 447/64                                                          %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3279,18 +3252,14 @@ P_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 293/64                                                          %! stirrings_still_wave
+        a,16 * 293/64                                                          %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 33/16                                                           %! stirrings_still_wave
+        a,16 * 33/16                                                           %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 21/16                                                           %! stirrings_still_wave
+        a,16 * 21/16                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 17/16                                                           %! stirrings_still_wave
+        a,16 * 17/16                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
 
     }                                                                          %! stirrings_still_wave
@@ -3340,32 +3309,25 @@ P_Cello_Music_Voice = {                                                        %
         % [P Cello_Music_Voice measure 720 / measure 17]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 63/64                                                           %! stirrings_still_wave
+        a,16 * 63/64                                                           %! stirrings_still_wave
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 67/64                                                           %! stirrings_still_wave
+        a,16 * 67/64                                                           %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 39/32                                                           %! stirrings_still_wave
+        a,16 * 39/32                                                           %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 101/64                                                          %! stirrings_still_wave
+        a,16 * 101/64                                                          %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 9/4                                                             %! stirrings_still_wave
+        a,16 * 9/4                                                             %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 111/32                                                          %! stirrings_still_wave
+        a,16 * 111/32                                                          %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 349/64                                                          %! stirrings_still_wave
+        a,16 * 349/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
 
     }                                                                          %! stirrings_still_wave
@@ -3415,22 +3377,17 @@ P_Cello_Music_Voice = {                                                        %
         % [P Cello_Music_Voice measure 721 / measure 18]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 53/8                                                            %! stirrings_still_wave
+        a,16 * 53/8                                                            %! stirrings_still_wave
         [                                                                      %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 121/32                                                          %! stirrings_still_wave
+        a,16 * 121/32                                                          %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 25/16                                                           %! stirrings_still_wave
+        a,16 * 25/16                                                           %! stirrings_still_wave
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 69/64                                                           %! stirrings_still_wave
+        a,16 * 69/64                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16 * 61/64                                                           %! stirrings_still_wave
+        a,16 * 61/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
 
     }                                                                          %! stirrings_still_wave
