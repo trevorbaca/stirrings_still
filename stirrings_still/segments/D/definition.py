@@ -334,7 +334,7 @@ maker(
         map=baca.cmgroups()[:3].group(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane (arrival) -|', 5.5),
     )
 
 maker(
