@@ -258,6 +258,7 @@ maker(
         measures=(1, 15),
         pieces=baca.cmgroups([2, 1, 1]),
         ),
+    baca.pitch('Db2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
         'clouded pane -|',
