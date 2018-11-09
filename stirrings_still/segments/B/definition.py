@@ -752,6 +752,7 @@ maker(
         'tight',
         abjad.tweak(10.5).staff_padding,
         ),
+    baca.clef('bass'),
     baca.damp_spanner(
         abjad.tweak(13).staff_padding,
         ),
