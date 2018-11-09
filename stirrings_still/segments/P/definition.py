@@ -302,6 +302,11 @@ maker(
     )
 
 maker(
+    ('vc', (1, 18)),
+    baca.pitch('A2'),
+    )
+
+maker(
     ('vc', (5, 10)),
     baca.new(
         baca.hairpin(
