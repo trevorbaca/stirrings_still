@@ -224,13 +224,29 @@ maker(
         pieces=baca.mgroups([6, 2, 2, 2, 2, 2, 2, 2, 2, 3, 1, 2, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.markup(
-        'semitone down to C2',
-        abjad.tweak('red').color,
-        abjad.tweak(8).staff_padding,
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (semitone down) -|',
+        5.5,
+        # TODO: extend to phantom measure
+        selector=baca.leaves(),
         ),
+    )
+
+maker(
+    ('vc', (1, 28)),
+    baca.pitch('C2'),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
+    )
+
+maker(
+    ('vc', (29, -1)),
+    baca.suite(
+        stirrings_still.clouded_pane(),
+        baca.untie_to(
+            selector=baca.pleaves(),
+            ),
+        ),
+    stirrings_still.glissando_interpolation('C2', 'Bb1'),
     )
 
 # trio
