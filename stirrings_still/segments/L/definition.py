@@ -259,6 +259,12 @@ maker(
         pieces=baca.cmgroups([2, 1, 1]),
         ),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane -|',
+        5.5,
+        # TODO: extend to phantom measure
+        selector=baca.leaves(),
+        ),
     )
 
 # trio
