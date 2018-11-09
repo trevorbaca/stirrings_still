@@ -371,20 +371,20 @@ SEGMENTS
 
     [B.3] (6-7)
     (2 measures)
-    subito-adagio-più-mosso-to-presto accelerando begins
+    adagio-più-mosso-to-presto accelerando begins subito
     clockticks continue with addition of circles
-    v1, v2 clockticks
+    v1, v2 clockticks fade out
         [damped lh]
         [1/2 clt]
         mf >o
     va circles fade in and then stop
         [damped lh]
         tight
-        o< p governs first half of stage
+        o< p
     vc clouded pane
         >>summons future time<<
         obverse harmonic
-        o< f begins
+        o< f (begins)
     attacca
     
     [B.4] (8-11)
@@ -394,7 +394,7 @@ SEGMENTS
         tacet
     vc clouded pane
         [obverse harmonic]
-        crescendo achieves f at start of measure 1:2
+        o< f culminates at start of measure 1:2
     surprisingly short breath
 
     [B.5] (12)
@@ -843,10 +843,10 @@ SEGMENTS
         [p]
     surprisingly short breath
 
-    [C.7] (28 + fraction)
-    (1 measure)
+    [C.7] (28-29)
+    (1 measure + 1 fractional measure)
     allegro
-    v1, va, vc shining beacon of clouded pane
+    v1 shining beacon of clouded pane
         >>summons future time<<
         harmonic lh
         pp
@@ -856,7 +856,11 @@ SEGMENTS
         1/2 clt
         fast clockticks
         mp
-    va, vc shining beacon of clouded pane
+    va shining beacon of clouded pane
+        >>summons future time<<
+        harmonic lh
+        pp
+    vc shining beacon of clouded pane
         >>summons future time<<
         harmonic lh
         pp
@@ -1743,12 +1747,12 @@ SEGMENTS
     tutti clouded pane / urtext declamation conflict happens again
     fermata (10)
 
-    [G.5] (11)
+    [G.5.1] (11)
     (first of 2 measures)
     [largo più mosso]
     tutti clouded pane / urtext declamation conflict happens again
     attacca bisection
-    <<[C.7.1/1 (clocktick composite)] bisects [G.5]>> (12)
+    <<[C.7 (clocktick composite)] bisects [G.5]>> (12-13)
     allegro
     <<summons past time>>
     v1 shining beacon of clouded pane
@@ -1763,14 +1767,14 @@ SEGMENTS
     va, vc shining beacon of clouded pane
         harmonic lh
         pp
-    <<attacca second half of [G.5]>> (13)
-    [G.5.2] (13)
+    <<attacca second half of [G.5]>>
+    [G.5.2] (14)
     (second of 2 measures)
     largo più mosso
     tutti clouded pane / urtext declamation conflict happens again
-    long fermata (14)
+    long fermata (15)
 
-    [G.6] (15-16 + long + [18-19] + long)
+    [G.6] (16-17)
     (2 measures)
     larghissimo
     tutti urtext field blossoms aflight (without clouded pane)
@@ -1788,11 +1792,11 @@ SEGMENTS
         two layers of dynamic in each part
             unmarked swells on each note
             pp < mf governs stage
-    long fermata (17)
-    <<[D.11.1-6/6 (process)] prolongs [G.6] long fermata>> (18-23)
+    long fermata (18)
+    <<[D.11 (process)] prolongs [G.6] long fermata>> (19-24)
     <<summons past time>>
     presto-to-andante ritardando
-    <<long fermata repeats to effect prolongation>> (24)
+    <<long fermata repeats to effect prolongation>> (25)
 
 [H] time series B; rotation -16
 
@@ -1974,7 +1978,7 @@ SEGMENTS
         ff molto overpressure > ppp
     short fermata [vc continues through fermata] (29)
 
-    [H.10] (30-31).
+    [H.10] (30-31)
     (2 measures)
     [allegro]
     v1, v2, va interlocking clouded pane whisk gears (repeat and darken)
@@ -1985,15 +1989,15 @@ SEGMENTS
         [harmonic lh]
         [ppp]
     short fermata [vc continues through fermata] (32)
-    <<[G.5, C.7 (pane / urtext conflict)] prolongs [H.10] short fermata>> (33)
+    <<[C.7 (pane / urtext conflict)] prolongs [H.10] short fermata>> (33-34)
     <<v2 clockticks summon past time>>
         [allegro]
         lh damp
         1/2 clt
         mp
-    <<short fermata repeats to effect prolongation>> (34)
+    <<short fermata repeats to effect prolongation>> (35)
 
-    <<[H.1.1-2/4 (inception)] prefixed to [H.11]>> (35-36)
+    <<[H.1.1-2/4 (inception)] prefixed to [H.11]>> (36-37)
     <<summons past time>>
     largo
     tutti
@@ -2001,7 +2005,7 @@ SEGMENTS
         extremely gradual rasp-to-flautando transition
         o< mp
     <<attacca [H.11] to effect prefix>>
-    [H.11] (37-39 + short)
+    [H.11] (38-40 + short)
     (3 measures)
     allegro (resumes)
     v1, v2, va interlocking clouded pane whisk gears (repeat and darken)
@@ -2011,9 +2015,9 @@ SEGMENTS
     vc clouded pane continues
         down-glissando lentissimo begins
         ppp (resumes)
-    short fermata [vc continues through fermata] (40)
+    short fermata [vc continues through fermata] (41)
 
-    [H.12] (41-44)
+    [H.12] (42-45)
     (4 measures)
     [allegro]
     v1, v2, va interlocking clouded pane whisk gears (repeat and darken)
@@ -2023,9 +2027,9 @@ SEGMENTS
     vc clouded pane continues
         [down-glissando lentissimo]
         [ppp]
-    short fermata [vc continues through fermata] (45)
+    short fermata [vc continues through fermata] (46)
 
-    [H.13] (46-49)
+    [H.13] (47-50)
     (4 measures)
     (allegro)-to-largo ritardando culminates at start of measure -1
     v1, v2, va interlocking gears repeat as scratch
@@ -2038,7 +2042,7 @@ SEGMENTS
         ppp < p begins
     attacca
 
-    [H.14.1] (50)
+    [H.14.1] (51)
     (first of 2 measures)
     [largo]
     v1, v2, va interlocking gears transition from scratch to golden tone
@@ -2047,13 +2051,13 @@ SEGMENTS
     vc 1/2 clt trajectory pedal (continues)
         1/2 clt continues (not yet audible)
         ppp < p completes
-    <<[G.5 (iteratum)] bisects [H.14 (clearing)]>> (51)
+    <<[G.5 + C.7 (iteratum)] bisects [H.14 (clearing)]>> (52-55)
     <<summons past time>>
     largo più mosso
     tutti clouded pane / urtext declamation conflict
         single declamation
     <<attacca second half of [H.14]>>
-    <<largo resumes>> [H.14.2] (52)
+    <<largo resumes>> [H.14.2] (56)
     (second of 2 measures)
     largo (resumes)
     v1, v2, va interlocking golden gears
@@ -2168,7 +2172,7 @@ SEGMENTS
         [appena udibile]
     vc
         [tacet]
-    <<[C.7.1-2/2 (clocktime composite)] bisects [J.1]>> (3-4)
+    <<[C.7 (clocktime composite)] bisects [J.1]>> (3-4)
     <<summons past time>>
     allegro
     v1 shining beacon of clouded pane
