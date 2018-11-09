@@ -333,6 +333,7 @@ maker(
         baca.hairpin('niente o< p'),
         map=baca.cmgroups()[:3].group(),
         ),
+    baca.pitch('E2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (arrival) -|', 5.5),
     )
@@ -349,6 +350,7 @@ maker(
         measures=(94, 96),
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('F2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
         'clouded pane (up one step) -|', 5.5,
