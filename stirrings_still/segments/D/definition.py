@@ -195,6 +195,32 @@ maker(
     )
 
 maker(
+    ('v1', 57),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.glissando(
+        allow_repeats=True,
+        stems=True,
+        ),
+    baca.markup(
+        baca.markups.string_number(4),
+        direction=abjad.Down,
+        ),
+    baca.new(
+        baca.dynamic_text_self_alignment_x(
+            1,
+            selector=baca.pleaf(-1),
+            ),
+        baca.hairpin('pp < mp'),
+        ),
+    baca.note_head_style_harmonic(),
+    baca.pitch('Bb4'),
+    stirrings_still.accelerando((1, 4), (1, 16)),
+    )
+
+maker(
     ('v1', (86, 92)),
     baca.scp_spanner(
         'T -> P -> T -> P =|',
@@ -209,29 +235,6 @@ maker(
 maker(
     (['v1', 'v2'], (49, 53)),
     baca.tacet(),
-    )
-
-maker(
-    (['v1', 'v2'], 57),
-    baca.circle_bow_spanner(
-        'wide-poss',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.new(
-        baca.dynamic_text_self_alignment_x(
-            1,
-            selector=baca.pleaf(-1),
-            ),
-        baca.hairpin('pp < mp'),
-        ),
-    baca.new(
-        stirrings_still.accelerando((1, 4), (1, 16)),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.accelerando((1, 4), (2, 16)),
-        match=1,
-        ),
     )
 
 maker(
@@ -697,6 +700,28 @@ maker(
 maker(
     ('v2', (25, 30)),
     baca.pitch('Eb5'),
+    )
+
+maker(
+    ('v2', 57),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.glissando(
+        allow_repeats=True,
+        stems=True,
+        ),
+    baca.new(
+        baca.dynamic_text_self_alignment_x(
+            1,
+            selector=baca.pleaf(-1),
+            ),
+        baca.hairpin('pp < mp'),
+        ),
+    baca.note_head_style_harmonic(),
+    baca.pitch('F4'),
+    stirrings_still.accelerando((1, 4), (2, 16)),
     )
 
 maker(
