@@ -180,6 +180,21 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
+    ('v1', (1, 6)),
+    baca.pitch('D5'),
+    )
+
+maker(
+    ('v1', (7, 18)),
+    baca.pitch('Dqs5'),
+    )
+
+maker(
+    ('v1', (19, 30)),
+    baca.pitch('Eb5'),
+    )
+
+maker(
     ('v1', (86, 92)),
     baca.scp_spanner(
         'T -> P -> T -> P =|',
@@ -611,6 +626,22 @@ maker(
 maker(
     ('tutti', (40, 45)),
     baca.dynamic('pp'),
+    baca.new(
+        baca.pitch('B5'),
+        match=0,
+        ),
+    baca.new(
+        baca.pitch('A5'),
+        match=1,
+        ),
+    baca.new(
+        baca.pitch('Ab5'),
+        match=2,
+        ),
+    baca.new(
+        baca.pitch('G5'),
+        match=3,
+        ),
     baca.suite(
         baca.new(
             baca.stem_tremolo(
@@ -637,7 +668,7 @@ maker(
             ),
         match=3,
         ),
-    baca.pitch('C#5'),
+    baca.pitch('C#6'),
     baca.suite(
         baca.new(
             baca.stop_on_string(
@@ -654,6 +685,21 @@ maker(
 # v2
 
 maker(
+    ('v2', (1, 12)),
+    baca.pitch('D5'),
+    )
+
+maker(
+    ('v2', (13, 24)),
+    baca.pitch('Dqs5'),
+    )
+
+maker(
+    ('v2', (25, 30)),
+    baca.pitch('Eb5'),
+    )
+
+maker(
     ('v2', (86, 92)),
     baca.scp_spanner(
         'T -> P -> T -> P =|',
@@ -664,6 +710,26 @@ maker(
     )
 
 # va
+
+maker(
+    'va',
+    baca.clef('treble'),
+    )
+
+maker(
+    ('va', (1, 18)),
+    baca.pitch('D5'),
+    )
+
+maker(
+    ('va', (19, 30)),
+    baca.pitch('Dqs5'),
+    )
+
+maker(
+    ('va', 47),
+    baca.clef('alto'),
+    )
 
 maker(
     ('va', (49, 53)),
@@ -688,6 +754,16 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
     stirrings_still.flight_spanner('memory of flight -|', 5.5),
+    )
+
+maker(
+    ('va', 58),
+    baca.clef('treble'),
+    )
+
+maker(
+    ('va', 65),
+    baca.clef('alto'),
     )
 
 maker(
@@ -723,6 +799,16 @@ maker(
 maker(
     'vc',
     baca.clef('treble'),
+    )
+
+maker(
+    ('vc', (1, 24)),
+    baca.pitch('D5'),
+    )
+
+maker(
+    ('vc', (25, 30)),
+    baca.pitch('Dqs5'),
     )
 
 maker(
