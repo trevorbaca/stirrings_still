@@ -14,6 +14,10 @@ def taper(
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
             tag='stirrings_still_taper',
+            tie_specifier=rmakers.TieSpecifier(
+                repeat_ties=(1, 4),
+                tie_consecutive_notes=True,
+                ),
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 ),

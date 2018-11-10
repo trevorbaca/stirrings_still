@@ -509,6 +509,10 @@ maker(
         ),
     baca.pitch('B1'),
     stirrings_still.taper((1, 1)),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (pane / urtext) -|',
+        5.5,
+        )
     )
 
 maker(

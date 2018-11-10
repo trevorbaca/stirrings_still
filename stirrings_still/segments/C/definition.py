@@ -285,8 +285,10 @@ maker(
         pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('B1'),
     stirrings_still.clouded_pane_spanner(
-        'clouded pane (stopped) -|', 5.5,
+        'clouded pane (pane / urtext) -|',
+        5.5,
         ),
     stirrings_still.taper((1, 1)),
     )
