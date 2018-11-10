@@ -260,6 +260,11 @@ maker(
 
 maker(
     ('vc', 38),
+    baca.clef('treble'),
+    baca.clef(
+        'bass',
+        selector=baca.leaves().rleak()[-1],
+        ),
     baca.hairpin(
         '"f" -- !',
         abjad.tweak(True).to_barline,
@@ -268,14 +273,19 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(13).staff_padding,
         ),
+    baca.note_head_style_harmonic(),
     baca.script_staff_padding(7.5),
-    stirrings_still.bcps(
-        -3,
-        abjad.tweak(4.5).staff_padding,
-        clt=True,
+    baca.suite(
+        baca.pitch('A5'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
         ),
-    stirrings_still.glissando_without_ties(),
-    stirrings_still.trajectories('B', -2, 0)
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(4.5).staff_padding,
+        ),
     )
 
 maker(
