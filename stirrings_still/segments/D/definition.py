@@ -362,9 +362,9 @@ maker(
     baca.pitch('F2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
-        'clouded pane (up one step) -|', 5.5,
+        'clouded pane (stepwise up) -|', 5.5,
         # TODO: extend spanner to phantom measure
-        measures=(94, 98),
+        selector=baca.leaves(),
         ),
     )
     
