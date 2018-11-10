@@ -25,6 +25,7 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
+    do_not_force_nonnatural_accidentals=True,
     final_segment=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -54,6 +55,12 @@ whisk_measures = [5, (10, 11), (16, 18), (23, 26)]
 # v1
 
 maker(
+    'v1',
+    baca.note_head_style_harmonic(),
+    baca.pitch('Bb4'),
+    )
+
+maker(
     ('v1', whisk_measures),
     baca.circle_bow_spanner(
         'wide-poss',
@@ -63,14 +70,31 @@ maker(
         0.75,
         selector=baca.pleaf(-1),
         ),
+    baca.glissando(
+        allow_repeats=True,
+        stems=True,
+        ),
     baca.hairpin(
         'p > ppp <',
         pieces=baca.cmgroups(),
+        ),
+    baca.new(
+        baca.markup(
+            baca.markups.string_number(4),
+            direction=abjad.Down,
+            ),
+        match=0,
         ),
     stirrings_still.wave((1, 4), (3, 32)),
     )
 
 # v2
+
+maker(
+    'v2',
+    baca.note_head_style_harmonic(),
+    baca.pitch('F4'),
+    )
 
 maker(
     ('v2', whisk_measures),
@@ -82,9 +106,20 @@ maker(
         0.75,
         selector=baca.pleaf(-1),
         ),
+    baca.glissando(
+        allow_repeats=True,
+        stems=True,
+        ),
     baca.hairpin(
         'ppp < p >',
         pieces=baca.cmgroups(),
+        ),
+    baca.new(
+        baca.markup(
+            baca.markups.string_number(4),
+            direction=abjad.Down,
+            ),
+        match=0,
         ),
     stirrings_still.wave((5, 32), (1, 4)),
     )
@@ -93,6 +128,10 @@ maker(
 
 maker(
     ('va', (1, 34)),
+#    baca.glissando(
+#        allow_repeats=True,
+#        stems=True,
+#        ),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
     )
