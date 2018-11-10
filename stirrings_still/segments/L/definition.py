@@ -261,7 +261,7 @@ maker(
     baca.pitch('Db2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
-        'clouded pane -|',
+        'clouded pane (continues) -|',
         5.5,
         # TODO: extend to phantom measure
         selector=baca.leaves(),
