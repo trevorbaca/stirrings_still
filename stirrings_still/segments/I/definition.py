@@ -58,70 +58,6 @@ maker(
         ),
     )
 
-# v2
-
-maker(
-    ('v2', (1, 7)),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(8).staff_padding,
-        ),
-    )
-
-# va
-
-maker(
-    ('va', (1, 7)),
-    baca.circle_bow_spanner(
-        'wide-poss',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    )
-
-# vc
-
-maker(
-    'vc',
-    baca.script_staff_padding(8),
-    baca.suite(
-        baca.new(
-            baca.beam(),
-            stirrings_still.eighths(),
-            stirrings_still.transition_bcps(
-                abjad.tweak(5).staff_padding,
-                final_spanner=True,
-                ),
-            measures=(1, 6),
-            ),
-        baca.new(
-            stirrings_still.cello_cell(),
-            stirrings_still.cello_cell_bcps(
-                abjad.tweak(5).staff_padding,
-                ),
-            measures=(7, -1),
-            ),
-        ),
-    )
-
-maker(
-    'vc',
-    baca.hairpin(
-        'p < "f" -- "f" >o niente',
-        # TODO: allow hairpin to extend to end of segment
-        # following two lines should remain
-        #pieces=baca.mgroups([5, 4, 2 + 1]),
-        #selector=baca.leaves().rleak(),
-        # temporary:
-        pieces=baca.mgroups([5, 4, 1 + 1]),
-        selector=baca.leaves(),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(13).staff_padding,
-        # TODO: allow spanner to extend to end of segment
-        selector=baca.leaves(),
-        ),
-    )
-
 # trio
 
 maker(
@@ -185,4 +121,88 @@ maker(
 maker(
     'tutti',
     baca.dls_staff_padding(5),
+    )
+
+# v2
+
+maker(
+    ('v2', (1, 7)),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+# va
+
+maker(
+    ('va', (1, 7)),
+    baca.circle_bow_spanner(
+        'wide-poss',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+# vc
+
+maker(
+    'vc',
+    baca.hairpin(
+        'p < "f" -- "f" >o niente',
+        # TODO: extend hairpin to phantom measure
+        # following two lines should remain
+        #pieces=baca.mgroups([5, 4, 2 + 1]),
+        #selector=baca.leaves().rleak(),
+        # temporary:
+        pieces=baca.mgroups([5, 4, 1 + 1]),
+        selector=baca.leaves(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(13).staff_padding,
+        # TODO: extend spanner to phantom measure
+        selector=baca.leaves(),
+        ),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
+        ),
+    baca.note_head_style_harmonic(),
+    baca.script_staff_padding(8),
+    )
+
+
+maker(
+    ('vc', (1, 6)),
+    baca.beam(),
+    baca.suite(
+        baca.pitches('G2 B3 D3 C#4 F4'),
+        baca.glissando(
+            selector=baca.leaves().rleak(),
+            ),
+        ),
+    stirrings_still.eighths(),
+    stirrings_still.transition_bcps(
+        abjad.tweak(5).staff_padding,
+        final_spanner=True,
+        ),
+    )
+
+maker(
+    ('vc', (7, -1)),
+    baca.clef('treble'),
+    baca.markup(
+        '(9°)',
+        direction=abjad.Down,
+        ),
+    baca.suite(
+        baca.pitch('A5'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
+        ),
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(6).staff_padding,
+        ),
     )
