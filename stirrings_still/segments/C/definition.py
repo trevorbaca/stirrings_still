@@ -313,10 +313,9 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('E2'),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane revelation) -|', 5.5,
-        ),
+    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
 maker(

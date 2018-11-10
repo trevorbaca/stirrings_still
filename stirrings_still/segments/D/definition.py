@@ -301,9 +301,8 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (lontano) -|', 5.5,
-        ),
+    baca.pitch('E2'),
+    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
 maker(

@@ -641,7 +641,6 @@ SEGMENTS
     >>[D.9.1/4 (clouded pane)] bisects [B.17]<< (45)
         >>summons future time<<
         largo
-        lontano
         v1, v2, va
             tacet
         vc clouded pane
@@ -881,7 +880,6 @@ SEGMENTS
     >>[D.9.1-2/4 (clouded pane)] prolongs [C.8] breath<< (34-35)
     >>summons future time<<
     largo
-    lontano
     v1, v2, va
         tacet
     vc clouded pane
