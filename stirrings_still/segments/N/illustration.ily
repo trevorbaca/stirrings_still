@@ -3121,9 +3121,13 @@ N_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [N Cello_Music_Voice measure 667 / measure 11]                           %! _comment_measure_numbers
+    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \override Script.staff-padding = #8                                        %! baca_script_staff_padding:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    a''8.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3140,180 +3144,194 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #13                                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    a''16
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8
+    a''8
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8
+    a''8
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.
+    a''8.
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8
+    a''8
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8
+    a''8
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.
+    a''8.
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8
+    a''8
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8
+    a''8
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     % [N Cello_Music_Voice measure 668 / measure 12]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.
+    a''8.
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8
+    a''8
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8
+    a''8
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.
+    a''8.
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #7 #7                                       %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    a''16
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(1)
     ]
+    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
 
     % [N Cello_Music_Voice measure 669 / measure 13]                           %! _comment_measure_numbers
+    \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     bf,,!2.                                                                    %! stirrings_still_clouded_pane
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3325,6 +3343,7 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [N Cello_Music_Voice measure 670 / measure 14]                           %! _comment_measure_numbers
     bf,,!2..                                                                   %! stirrings_still_clouded_pane

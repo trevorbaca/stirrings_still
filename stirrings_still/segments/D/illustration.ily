@@ -8259,71 +8259,92 @@ D_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
-    \times 6/7 {                                                               %! stirrings_still_trajectories
+    % [D Cello_Music_Voice measure 244 / measure 38]                           %! _comment_measure_numbers
+    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override Script.staff-padding = #7.5                                      %! baca_script_staff_padding:OverrideCommand(1)
+    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_244:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_244:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    a''8.
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \downbow                                                                 %! baca_bcps:BCPCommand(6)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #13                                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        % [D Cello_Music_Voice measure 244 / measure 38]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #7.5                                  %! baca_script_staff_padding:OverrideCommand(1)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #13                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        - \abjad-zero-padding-glissando                                        %! baca_glissando
-        \glissando                                                             %! baca_glissando
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    a''16
+    - \upbow                                                                   %! baca_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    ]
+    \glissando                                                                 %! baca_glissando
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-        \override NoteHead.transparent = ##t                                   %! baca_note_head_transparent:OverrideCommand(1)
-        \override NoteHead.X-extent = #'(0 . 0)                                %! baca_note_head_x_extent_zero:OverrideCommand(1)
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_trajectories
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        - \abjad-zero-padding-glissando                                        %! baca_glissando
-        \glissando                                                             %! baca_glissando
+    a''8
+    - \downbow                                                                 %! baca_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
+    \glissando                                                                 %! baca_glissando
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        - \abjad-zero-padding-glissando                                        %! baca_glissando
-        \glissando                                                             %! baca_glissando
-        \revert NoteHead.transparent                                           %! baca_note_head_transparent:OverrideCommand(2)
-        \revert NoteHead.X-extent                                              %! baca_note_head_x_extent_zero:OverrideCommand(2)
+    a''8
+    - \upbow                                                                   %! baca_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    ]
+    \glissando                                                                 %! baca_glissando
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        ]                                                                      %! stirrings_still_trajectories
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
+    a''8.
+    - \downbow                                                                 %! baca_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    [
+    \glissando                                                                 %! baca_glissando
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-right-text #7 #7                                       %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
-    }                                                                          %! stirrings_still_trajectories
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    a''16
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(1)
+    ]
+    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -8331,10 +8352,15 @@ D_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [D Cello_Music_Voice measure 245 / measure 39]                   %! _comment_measure_numbers
+            \clef "bass"                                                       %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.Clef.color = #(x11-color 'blue)              %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+            \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
