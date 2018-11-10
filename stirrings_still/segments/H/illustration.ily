@@ -5495,7 +5495,6 @@ H_Cello_Music_Voice = {                                                        %
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         df,!8                                                                  %! stirrings_still_trajectories
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5827,7 +5826,6 @@ H_Cello_Music_Voice = {                                                        %
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         df,!4                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
@@ -5911,7 +5909,6 @@ H_Cello_Music_Voice = {                                                        %
 
         % [H Cello_Music_Voice measure 527 / measure 56]                       %! _comment_measure_numbers
         \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         df,!8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5964,7 +5961,6 @@ H_Cello_Music_Voice = {                                                        %
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         df,!8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
