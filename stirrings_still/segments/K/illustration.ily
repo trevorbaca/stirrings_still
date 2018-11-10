@@ -6798,8 +6798,7 @@ K_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_flight
 
     % [K Cello_Music_Voice measure 587 / measure 32]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_flight
+    df,!2..                                                                    %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6822,8 +6821,7 @@ K_Cello_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! stirrings_still_flight
 
         % [K Cello_Music_Voice measure 588 / measure 33]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_flight
+        df,!8                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(1)
@@ -6833,8 +6831,7 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_flight
+        df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6843,8 +6840,7 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_flight
+        df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6856,8 +6852,7 @@ K_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_flight
 
     % [K Cello_Music_Voice measure 589 / measure 34]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_flight
+    df,!4                                                                      %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(1)
@@ -6867,8 +6862,7 @@ K_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! stirrings_still_flight
+    df,!4.                                                                     %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6881,8 +6875,7 @@ K_Cello_Music_Voice = {                                                        %
     \times 6/8 {                                                               %! stirrings_still_flight
 
         % [K Cello_Music_Voice measure 590 / measure 35]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! stirrings_still_flight
+        df,!2                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6897,8 +6890,7 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_flight
+        df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6907,8 +6899,7 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_flight
+        df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6923,13 +6914,11 @@ K_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_flight
 
         % [K Cello_Music_Voice measure 591 / measure 36]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_flight
+        df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_flight
+        df,!4.                                                                 %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6938,8 +6927,7 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4.                                                                   %! stirrings_still_flight
+        df,!4.                                                                 %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6948,8 +6936,7 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_flight
+        df,!8                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6961,8 +6948,7 @@ K_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_flight
 
     % [K Cello_Music_Voice measure 592 / measure 37]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! stirrings_still_flight
+    df,!4.                                                                     %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(1)
@@ -6974,8 +6960,7 @@ K_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_flight
+    df,!4                                                                      %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -6987,63 +6972,52 @@ K_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #8                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! stirrings_still_flight
+    df,!4.                                                                     %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 593 / measure 38]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
+    df,!2                                                                      %! stirrings_still_clouded_pane
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_clouded_pane
+    df,!8                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 594 / measure 39]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
+    df,!2                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 595 / measure 40]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
+    df,!1                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 596 / measure 41]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
+    df,!2.                                                                     %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 597 / measure 42]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
+    df,!1                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 598 / measure 43]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
+    df,!1                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 599 / measure 44]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
+    df,!2..                                                                    %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 600 / measure 45]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
+    df,!2.                                                                     %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 601 / measure 46]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
+    df,!1                                                                      %! stirrings_still_clouded_pane
     \repeatTie
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -7053,42 +7027,34 @@ K_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [K Cello_Music_Voice measure 602 / measure 47]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! stirrings_still_clouded_pane
+    df,!1                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 603 / measure 48]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
+    df,!2.                                                                     %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 604 / measure 49]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
+    df,!2..                                                                    %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 605 / measure 50]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! stirrings_still_clouded_pane
+    df,!2..                                                                    %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 606 / measure 51]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
+    df,!2.                                                                     %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 607 / measure 52]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
+    df,!2                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
     % [K Cello_Music_Voice measure 608 / measure 53]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! stirrings_still_clouded_pane
+    df,!2                                                                      %! stirrings_still_clouded_pane
     \repeatTie
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_clouded_pane
+    df,!8                                                                      %! stirrings_still_clouded_pane
     \repeatTie
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(3)

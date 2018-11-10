@@ -943,6 +943,7 @@ maker(
 
 maker(
     ('vc', (32, -1)),
+    baca.pitch('Db2'),
     stirrings_still.clouded_pane_spanner(
         'clouded pane -|',
         5.5,
