@@ -168,6 +168,7 @@ maker(
         pieces=baca.mgroups([3, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    stirrings_still.urtext_spanner('urtext (rasp) -|', 5.5),
     )
 
 maker(
@@ -456,7 +457,7 @@ maker(
         ),
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
     stirrings_still.glissando_interpolation(
-        'Gb2', 'E2',
+        'Gb2', 'Db2',
         selector=baca.leaves().rleak(),
         ),
     )
@@ -472,33 +473,21 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
-    )
-
-maker(
-    ('vc', [(47, 51), 56]),
-    baca.new(
-        stirrings_still.bcps(
-            -4,
-            abjad.tweak(3).staff_padding,
-            clt=True,
-            ),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.bcps(
-            -8,
-            abjad.tweak(3).staff_padding,
-            clt=True,
-            ),
-        match=1,
-        ),
-    baca.pitch('E2'),
     baca.script_staff_padding(6),
-    baca.tuplet_bracket_down(),
     baca.suite(
-        stirrings_still.glissando_interpolation('E2', 'E2'),
         baca.untie_to(),
+        baca.pitch('Db2'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
         selector=baca.leaves(),   
+        ),
+    baca.tuplet_bracket_down(),
+    stirrings_still.bcps(
+        -4,
+        abjad.tweak(3).staff_padding,
+        clt=True,
         ),
     stirrings_still.trajectories('A', -1, 0),
     )
@@ -518,6 +507,7 @@ maker(
         pieces=baca.lparts([1, 2]),
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('B1'),
     stirrings_still.taper((1, 1)),
     )
 
@@ -534,6 +524,18 @@ maker(
         #selector=baca.leaves().rleak(),
         selector=baca.leaves(),
         ),
+    baca.script_staff_padding(6),
+    baca.suite(
+        stirrings_still.glissando_interpolation('Db2', 'Db2'),
+        baca.untie_to(),
+        selector=baca.leaves(),   
+        ),
+    stirrings_still.bcps(
+        -8,
+        abjad.tweak(3).staff_padding,
+        clt=True,
+        ),
+    stirrings_still.trajectories('A', -1, 0),
     )
 
 # trio
@@ -677,7 +679,18 @@ maker(
     stirrings_still.clouded_pane_spanner(
         'clouded pane (partial) -|', 5.5,
         ),
-    stirrings_still.loure_tuplets(-1),
+    baca.new(
+        stirrings_still.loure_tuplets(0),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.loure_tuplets(1),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.loure_tuplets(-1),
+        match=2,
+        ),
     )
 
 maker(
@@ -816,6 +829,10 @@ maker(
         pieces=baca.mgroups([3, 3]),
         selector=baca.leaves().rleak(),
         ),
+    baca.new(
+        stirrings_still.urtext_spanner('urtext (rasp) -|', 5.5),
+        match=[0, 2, 3],
+        ),
     )
 
 maker(
@@ -875,6 +892,7 @@ maker(
         pieces=baca.mgroups([1, 2]),
         selector=baca.leaves().rleak(),
         ),
+    stirrings_still.urtext_spanner('urtext (rasp) -|', 5.5),
     )
 
 maker(
