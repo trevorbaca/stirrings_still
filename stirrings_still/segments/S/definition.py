@@ -128,12 +128,26 @@ maker(
 
 maker(
     ('va', (1, 34)),
-#    baca.glissando(
-#        allow_repeats=True,
-#        stems=True,
-#        ),
-    baca.make_repeat_tied_notes(),
+    baca.make_notes(),
     baca.pitch('Bb2'),
+    )
+
+maker(
+    ('va', (1, 35)),
+    baca.dots_transparent(
+        selector=baca.leaves()[1:],
+        ),
+    baca.glissando(
+        abjad.tweak(2).bound_details__right__padding,
+        allow_repeats=True,
+        stems=True,
+        ),
+    baca.stem_transparent(
+        selector=baca.leaves()[1:],
+        ),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
     )
 
 # vc
