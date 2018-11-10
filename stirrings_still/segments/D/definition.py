@@ -391,7 +391,7 @@ maker(
 
 maker(
     ('trio', (67, 89)),
-    stirrings_still.urtext_spanner('urtext (cds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (resumes) -|', 5.5),
     )
 
 maker(
@@ -434,7 +434,7 @@ maker(
         pieces=baca.mgroups([2, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.urtext_spanner('urtext (NEW cds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (resumes) -|', 5.5),
     )
 
 maker(
