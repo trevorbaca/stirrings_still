@@ -595,8 +595,9 @@ maker(
 
 maker(
     ('vc', (1, 27)),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
+    baca.pitch('F2'),
     stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
    )
 
 maker(
@@ -646,17 +647,19 @@ maker(
         measures=(63, 64),
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('D2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
-        'clouded pane (stepwise down) -|',
+        'clouded pane (down) -|',
         5.5,
         ),
     )
 
 maker(
     ('vc', (82, 88)),
+    baca.pitch('D2'),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
     )
 
 maker(
@@ -666,8 +669,9 @@ maker(
         pieces=baca.mgroups([3, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('D2'),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
     )
 
 maker(
@@ -687,9 +691,10 @@ maker(
         measures=(118, 119),
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('Eb2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
-        'clouded pane (new stepwise above) -|',
+        'clouded pane (stepwise above) -|',
         5.5,
         # TODO: extend to phantom measure
         measures=(118, 126),

@@ -1558,7 +1558,7 @@ SEGMENTS
         [p]
     vc clouded pane
         [p]
-    short fermata (81)
+    short fermata [vc holds through fermata] (81)
 
     [E.11] (82-85)
     (4 measures)
