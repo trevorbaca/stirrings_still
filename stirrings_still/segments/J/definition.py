@@ -71,36 +71,6 @@ time = (
 
 stirrings_still.time(maker, time)
 
-# v2
-
-maker(
-    ('v2', (3, 4)),
-    baca.alternate_bow_strokes(),
-    baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
-        ),
-    baca.hairpin(
-        'mp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.new(
-        stirrings_still.clockticks(),
-        measures=3,
-        ),
-    baca.new(
-        baca.rhythm(
-            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
-            annotate_unpitched_music=True,
-            ),
-        measures=4,
-        ),
-    baca.tuplet_bracket_staff_padding(3),
-    )
-
 # trio
 
 maker(
@@ -208,7 +178,62 @@ maker(
         ),
     )
 
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('tutti', 11),
+    baca.markup(
+        'third time no breath',
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
+    ('tutti', 13),
+    baca.breathe(),
+    )
+
+# v2
+
+maker(
+    ('v2', (3, 4)),
+    baca.alternate_bow_strokes(),
+    baca.damp_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=3,
+        ),
+    baca.new(
+        baca.rhythm(
+            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
+            annotate_unpitched_music=True,
+            ),
+        measures=4,
+        ),
+    baca.tuplet_bracket_staff_padding(3),
+    )
+
 # vc
+
+maker(
+    'vc',
+    baca.clef('bass'),
+    )
 
 maker(
     ('vcx', 1),
@@ -262,24 +287,4 @@ maker(
 maker(
     ('vc', (15, 17)),
     baca.tacet(),
-    )
-
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
-    )
-
-maker(
-    ('tutti', 11),
-    baca.markup(
-        'third time no breath',
-        abjad.tweak(3).staff_padding,
-        ),
-    )
-
-maker(
-    ('tutti', 13),
-    baca.breathe(),
     )

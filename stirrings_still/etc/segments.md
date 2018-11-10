@@ -2524,7 +2524,7 @@ SEGMENTS
         [p]
     attacca
 
-    <<[I.6 (current) 1-2/2] prefixes [N.4]>> (11-12)
+    <<[I.6 (current)] prefixes [N.4]>> (11-12)
     <<summons past time>>
     [larghissimo]
     v1, v2, va
