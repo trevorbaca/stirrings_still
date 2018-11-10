@@ -16,7 +16,7 @@ stage_markup = (
     ('[D.4]', 19),
     ('[D.5]', 25),
     ('[D.6]', 31),
-    ('[I.6]', 38, 'darkgreen'),
+    ('[I.6.2]', 38, 'darkgreen'),
     ('[D.7]', 40),
     ('[D.8 (A.1)]', 47),
     ('[D.9.1-2]', 49),
@@ -26,7 +26,7 @@ stage_markup = (
     ('[S.2]', 57, 'darkgreen'),
     ('[D.11]', 58),
     ('[D.12.1]', 65),
-    ('[I.1]', 66, 'darkgreen'),
+    ('[I.1.2]', 66, 'darkgreen'),
     ('[D.12.2]', 67),
     ('[D.13]', 68),
     ('[D.14]', 72),
@@ -37,7 +37,7 @@ stage_markup = (
     ('[D.19]', 88),
     ('[D.20]', 90),
     ('[D.21.1]', 92),
-    ('[F.2]', 93, 'darkgreen'),
+    ('[F.2.2]', 93, 'darkgreen'),
     ('[D.21.2]', 94),
     ('[D.22]', 96),
     ('[C.2]', 97, 'darkgreen'),
@@ -189,185 +189,6 @@ maker(
         ),
     )
 
-# v2
-
-maker(
-    ('v2', (86, 92)),
-    baca.scp_spanner(
-        'T -> P -> T -> P =|',
-        abjad.tweak(8).staff_padding,
-        pieces=baca.lparts([2, 1, 1, 4 + 1]),
-        selector=baca.leaves().rleak(),
-        ),
-    )
-
-# va
-
-maker(
-    ('va', (49, 53)),
-    baca.dynamic(
-        '"mf"',
-        abjad.tweak((-2, 0)).extra_offset,
-        abjad.tweak((0, 0)).X_extent,
-        ),
-    stirrings_still.tailpiece(
-        (abjad.tweak(1.5).bound_details__right__padding, -1),
-        measures=(49, 53),
-        ),
-    )
-
-maker(
-    ('va', 57),
-    baca.hairpin(
-        'pp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.make_repeat_tied_notes(),
-    baca.pitch('Bb2'),
-    stirrings_still.flight_spanner('memory of flight -|', 5.5),
-    )
-
-maker(
-    ('va', (67, 89)),
-    baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    )
-
-maker(
-    ('va', [(84, 89), (94, 96)]),
-    baca.new(
-        baca.repeat_tie_to(),
-        match=0,
-        ),
-    stirrings_still.continuous_tremolo(),
-    )
-
-maker(
-    ('va', (90, 93)),
-    baca.dynamic(
-        '"mf"',
-        abjad.tweak(-0.75).self_alignment_X,
-        ),
-    stirrings_still.tailpiece(
-        (abjad.tweak(5.5).bound_details__right__padding, -1),
-        measures=(90, 93),
-        ),
-    )
-
-# vc
-
-maker(
-    ('vc', 38),
-    baca.clef('treble'),
-    baca.clef(
-        'bass',
-        selector=baca.leaves().rleak()[-1],
-        ),
-    baca.hairpin(
-        '"f" -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(13).staff_padding,
-        ),
-    baca.note_head_style_harmonic(),
-    baca.script_staff_padding(7.5),
-    baca.suite(
-        baca.pitch('A5'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
-        abjad.tweak(4.5).staff_padding,
-        ),
-    )
-
-maker(
-    ('vc', 47),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', [(49, 50), (52, 53)]),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.pitch('E2'),
-    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
-    )
-
-maker(
-    ('vcx', 51),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', 55),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', 57),
-    baca.hairpin('o<| mf'),
-    baca.make_rhythm(
-        'c1 ~ c4 ~ c4',
-        repeat_tie_threshold=(1, 4),
-        ),
-    baca.pitch('B1'),
-    stirrings_still.flight_spanner('memory of flight -|', 5.5),
-    )
-
-maker(
-    ('vc', (65, 92)),
-    baca.hairpin(
-        '(p) < fff',
-        measures=(86, 89),
-        ),
-    baca.hairpin(
-        '-- !',
-        abjad.tweak(True).to_barline,
-        measures=(89, 92),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.new(
-        baca.hairpin('niente o< p'),
-        map=baca.cmgroups()[:3].group(),
-        ),
-    baca.pitch('E2'),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane (arrival) -|', 5.5),
-    )
-
-maker(
-    ('vcx', 93),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', (94, 99)),
-    baca.hairpin(
-        'o< p',
-        measures=(94, 96),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.pitch('F2'),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (stepwise up) -|', 5.5,
-        # TODO: extend spanner to phantom measure
-        selector=baca.leaves(),
-        ),
-    )
-    
 # v1, v2
 
 maker(
@@ -818,6 +639,188 @@ maker(
         ),
     stirrings_still.strokes(0),
     )
+
+
+# v2
+
+maker(
+    ('v2', (86, 92)),
+    baca.scp_spanner(
+        'T -> P -> T -> P =|',
+        abjad.tweak(8).staff_padding,
+        pieces=baca.lparts([2, 1, 1, 4 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+# va
+
+maker(
+    ('va', (49, 53)),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak((-2, 0)).extra_offset,
+        abjad.tweak((0, 0)).X_extent,
+        ),
+    stirrings_still.tailpiece(
+        (abjad.tweak(1.5).bound_details__right__padding, -1),
+        measures=(49, 53),
+        ),
+    )
+
+maker(
+    ('va', 57),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('Bb2'),
+    stirrings_still.flight_spanner('memory of flight -|', 5.5),
+    )
+
+maker(
+    ('va', (67, 89)),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
+    ('va', [(84, 89), (94, 96)]),
+    baca.new(
+        baca.repeat_tie_to(),
+        match=0,
+        ),
+    stirrings_still.continuous_tremolo(),
+    )
+
+maker(
+    ('va', (90, 93)),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak(-0.75).self_alignment_X,
+        ),
+    stirrings_still.tailpiece(
+        (abjad.tweak(5.5).bound_details__right__padding, -1),
+        measures=(90, 93),
+        ),
+    )
+
+# vc
+
+maker(
+    ('vc', 38),
+    baca.clef('treble'),
+    baca.clef(
+        'bass',
+        selector=baca.leaves().rleak()[-1],
+        ),
+    baca.hairpin(
+        '"f" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(13).staff_padding,
+        ),
+    baca.note_head_style_harmonic(),
+    baca.script_staff_padding(7.5),
+    baca.suite(
+        baca.pitch('A5'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
+        ),
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(4.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('vc', 47),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', [(49, 50), (52, 53)]),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    baca.pitch('E2'),
+    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
+    )
+
+maker(
+    ('vcx', 51),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 55),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', 57),
+    baca.hairpin('o<| mf'),
+    baca.make_rhythm(
+        'c1 ~ c4 ~ c4',
+        repeat_tie_threshold=(1, 4),
+        ),
+    baca.pitch('B1'),
+    stirrings_still.flight_spanner('memory of flight -|', 5.5),
+    )
+
+maker(
+    ('vc', (65, 92)),
+    baca.hairpin(
+        '(p) < fff',
+        measures=(86, 89),
+        ),
+    baca.hairpin(
+        '-- !',
+        abjad.tweak(True).to_barline,
+        measures=(89, 92),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.new(
+        baca.hairpin('niente o< p'),
+        map=baca.cmgroups()[:3].group(),
+        ),
+    baca.pitch('E2'),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner('clouded pane (arrival) -|', 5.5),
+    )
+
+maker(
+    ('vcx', 93),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', (94, 99)),
+    baca.hairpin(
+        'o< p',
+        measures=(94, 96),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.pitch('F2'),
+    stirrings_still.clouded_pane(),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (stepwise up) -|', 5.5,
+        # TODO: extend spanner to phantom measure
+        selector=baca.leaves(),
+        ),
+    )
+    
+# STAGE 2
 
 # tutti, stage 2
 
