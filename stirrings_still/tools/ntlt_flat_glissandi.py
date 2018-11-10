@@ -12,6 +12,7 @@ def ntlt_flat_glissandi():
             zero_padding=True,
             ),
         baca.new(
+            baca.accidental_stencil_false(),
             baca.note_head_transparent(),
             baca.note_head_x_extent_zero(),
             selector=baca.leaves()[1:],

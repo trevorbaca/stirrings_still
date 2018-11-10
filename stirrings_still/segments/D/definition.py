@@ -605,6 +605,7 @@ maker(
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 3)),
         match=3,
         ),
+    baca.pitch('Eb5'),
     )
 
 maker(
@@ -628,6 +629,15 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin('mf >o niente'),
+    baca.new(
+        baca.clef('treble'),
+        baca.clef(
+            'bass',
+            selector=baca.leaves().rleak()[-1],
+            ),
+        match=3,
+        ),
+    baca.pitch('C#5'),
     baca.suite(
         baca.new(
             baca.stop_on_string(
@@ -711,12 +721,12 @@ maker(
 # vc
 
 maker(
-    ('vc', 38),
+    'vc',
     baca.clef('treble'),
-    baca.clef(
-        'bass',
-        selector=baca.leaves().rleak()[-1],
-        ),
+    )
+
+maker(
+    ('vc', 38),
     baca.hairpin(
         '"f" -- !',
         abjad.tweak(True).to_barline,
@@ -753,6 +763,10 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    baca.new(
+        baca.clef('bass'),
+        match=0,
+        ),
     baca.pitch('E2'),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
