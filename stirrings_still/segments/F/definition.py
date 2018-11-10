@@ -95,8 +95,9 @@ maker(
         pieces=baca.mgroups([2, 4, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('Eb2'),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane (fudnamental) -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
     )
 
 # v1, v2, vc
