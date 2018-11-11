@@ -594,9 +594,27 @@ maker(
 # vc
 
 maker(
-    ('vc', (1, 27)),
-    baca.pitch('F2'),
+    ('vc', [(1, 3), (6, 27)]),
+    baca.new(
+        baca.dots_transparent(),
+        baca.stem_transparent(),
+        selector=baca.leaves()[1:-1],
+        ),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        baca.pitch('F2'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
+        ),
     stirrings_still.clouded_pane(),
+    )
+
+maker(
+    ('vc', (1, 27)),
     stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
    )
 
@@ -607,17 +625,17 @@ maker(
         selector=baca.leaf(0),
         ),
     baca.hairpin(
-        'ff-scratch > p',
+        'ff > p',
         selector=baca.leaves().rleak(),
         ),
     baca.note_head_style_harmonic(),
+    baca.pitch('Gb2'),
     baca.text_spanner(
-        'overpressure harmonic =|',
+        'overpressure harmonic -> ord.',
         abjad.tweak(8).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
         selector=baca.leaves().rleak(),
         ),
+    stirrings_still.clouded_pane(),
     )
 
 maker(
