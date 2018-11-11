@@ -3679,7 +3679,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [E Violin_I_Music_Voice measure 340 / measure 35]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #5                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #7                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3690,7 +3690,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         \hide NoteHead                                                         %! baca_glissando
@@ -3703,7 +3703,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!4                                                                  %! stirrings_still_trajectories
@@ -3712,7 +3712,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -3731,7 +3731,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!8                                                                  %! stirrings_still_trajectories
@@ -3740,7 +3740,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!4                                                                  %! stirrings_still_trajectories
@@ -3748,7 +3748,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!4.                                                                 %! stirrings_still_trajectories
@@ -3756,7 +3756,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -3772,7 +3772,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!8                                                                  %! stirrings_still_trajectories
@@ -3781,7 +3781,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!8                                                                  %! stirrings_still_trajectories
@@ -3791,7 +3791,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!4                                                                  %! stirrings_still_trajectories
@@ -3799,7 +3799,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!4.                                                                 %! stirrings_still_trajectories
@@ -3807,7 +3807,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!8                                                                  %! stirrings_still_trajectories
@@ -3816,7 +3816,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #2 #4                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -3827,7 +3827,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #4                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     af'!4.                                                                     %! stirrings_still_trajectories
@@ -3836,7 +3836,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     af'!8                                                                      %! stirrings_still_trajectories
@@ -3845,7 +3845,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     af'!8                                                                      %! stirrings_still_trajectories
@@ -3853,7 +3853,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     af'!8                                                                      %! stirrings_still_trajectories
@@ -3862,7 +3862,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -3880,7 +3880,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!8                                                                  %! stirrings_still_trajectories
@@ -3889,7 +3889,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -3905,7 +3905,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!8                                                                  %! stirrings_still_trajectories
@@ -3915,7 +3915,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!4                                                                  %! stirrings_still_trajectories
@@ -3924,7 +3924,7 @@ E_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         af'!4.                                                                 %! stirrings_still_trajectories
@@ -3934,7 +3934,7 @@ E_Violin_I_Music_Voice = {                                                     %
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         \revert Accidental.stencil                                             %! baca_glissando
@@ -4657,12 +4657,11 @@ E_Violin_I_Music_Voice = {                                                     %
 
     % [E Violin_I_Music_Voice measure 368 / measure 63]                        %! _comment_measure_numbers
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(6)
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(6)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(6)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4671,813 +4670,623 @@ E_Violin_I_Music_Voice = {                                                     %
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #10                                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #13                                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
     % [E Violin_I_Music_Voice measure 369 / measure 64]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
     % [E Violin_I_Music_Voice measure 370 / measure 65]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     ]
 
     % [E Violin_I_Music_Voice measure 371 / measure 66]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
     % [E Violin_I_Music_Voice measure 372 / measure 67]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(7)
+    aqs''!16
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
     % [E Violin_I_Music_Voice measure 373 / measure 68]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(8)
+    dqs''!16
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
     % [E Violin_I_Music_Voice measure 374 / measure 69]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(7)
+    f''16
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     ]
 
     % [E Violin_I_Music_Voice measure 375 / measure 70]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(8)
+    e''16
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
     % [E Violin_I_Music_Voice measure 376 / measure 71]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
     % [E Violin_I_Music_Voice measure 377 / measure 72]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(8)
+    e''16
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
     % [E Violin_I_Music_Voice measure 378 / measure 73]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(7)
+    a''16
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
     % [E Violin_I_Music_Voice measure 379 / measure 74]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(8)
+    fqs''!16
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
     % [E Violin_I_Music_Voice measure 380 / measure 75]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     ]
 
     % [E Violin_I_Music_Voice measure 381 / measure 76]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
     % [E Violin_I_Music_Voice measure 382 / measure 77]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     ]
 
     % [E Violin_I_Music_Voice measure 383 / measure 78]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \tweak staff-padding #5                                                  %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #6 #7                                       %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    e''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    fqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    gs''!16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    a''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
     ]
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    aqs''!16
     [
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    d''16
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    f''16
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'16
+    dqs''!16
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
     ]
+    ~                                                                          %! TieCorrectionCommand
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [E Violin_I_Music_Voice measure 384 / measure 79]                        %! _comment_measure_numbers
@@ -7579,7 +7388,7 @@ E_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_declamation
 
     % [E Violin_II_Music_Voice measure 340 / measure 35]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #5                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #7                                        %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     g'4                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7590,7 +7399,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     \hide NoteHead                                                             %! baca_glissando
@@ -7603,7 +7412,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     g'8                                                                        %! stirrings_still_trajectories
@@ -7612,7 +7421,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -7625,7 +7434,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         g'4                                                                    %! stirrings_still_trajectories
@@ -7634,7 +7443,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         g'4.                                                                   %! stirrings_still_trajectories
@@ -7642,7 +7451,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -7660,7 +7469,7 @@ E_Violin_II_Music_Voice = {                                                    %
         [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7672,7 +7481,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7682,7 +7491,7 @@ E_Violin_II_Music_Voice = {                                                    %
         ]                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7691,7 +7500,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7700,7 +7509,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7708,7 +7517,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7722,7 +7531,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7731,7 +7540,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #2 #4                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7740,7 +7549,7 @@ E_Violin_II_Music_Voice = {                                                    %
         [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7750,7 +7559,7 @@ E_Violin_II_Music_Voice = {                                                    %
         ]                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7758,7 +7567,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7775,7 +7584,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
@@ -7788,7 +7597,7 @@ E_Violin_II_Music_Voice = {                                                    %
     [                                                                          %! stirrings_still_trajectories
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
@@ -7797,7 +7606,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
@@ -7807,7 +7616,7 @@ E_Violin_II_Music_Voice = {                                                    %
     ]                                                                          %! stirrings_still_trajectories
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
@@ -7820,7 +7629,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -7830,7 +7639,7 @@ E_Violin_II_Music_Voice = {                                                    %
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
@@ -8470,12 +8279,11 @@ E_Violin_II_Music_Voice = {                                                    %
         % [E Violin_II_Music_Voice measure 368 / measure 63]                   %! _comment_measure_numbers
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8484,18 +8292,16 @@ E_Violin_II_Music_Voice = {                                                    %
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #13                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -8503,15 +8309,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -8519,15 +8322,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -8536,20 +8336,17 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -8557,15 +8354,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         ]
 
     }
@@ -8573,16 +8367,13 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -8590,20 +8381,17 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -8611,15 +8399,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -8627,16 +8412,13 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -8645,20 +8427,17 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 4/3 {
 
         % [E Violin_II_Music_Voice measure 371 / measure 66]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -8666,15 +8445,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -8684,22 +8460,19 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 4/3 {
 
         % [E Violin_II_Music_Voice measure 372 / measure 67]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(7)
+        f''16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -8707,15 +8480,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         ]
 
     }
@@ -8723,16 +8493,13 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -8741,22 +8508,19 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 4/3 {
 
         % [E Violin_II_Music_Voice measure 373 / measure 68]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(8)
+        dqs''!16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         ]
 
     }
@@ -8764,15 +8528,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -8780,16 +8541,13 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -8797,22 +8555,19 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(7)
+        gs''!16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -8820,15 +8575,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -8837,15 +8589,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -8853,15 +8602,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         ]
 
     }
@@ -8870,23 +8616,20 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 4/3 {
 
         % [E Violin_II_Music_Voice measure 375 / measure 70]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(8)
+        f''16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -8894,15 +8637,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         ]
 
     }
@@ -8911,24 +8651,21 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 4/3 {
 
         % [E Violin_II_Music_Voice measure 376 / measure 71]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -8936,16 +8673,13 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -8953,22 +8687,19 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(8)
+        gs''!16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -8976,15 +8707,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -8993,15 +8721,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -9009,22 +8734,19 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(7)
+        a''16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -9032,16 +8754,13 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -9049,15 +8768,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         ]
 
     }
@@ -9065,15 +8781,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -9081,23 +8794,20 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(8)
+        dqs''!16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -9105,15 +8815,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -9121,15 +8828,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -9138,15 +8842,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -9154,20 +8855,17 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -9175,16 +8873,13 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -9192,15 +8887,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         ]
 
     }
@@ -9209,20 +8901,17 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 4/3 {
 
         % [E Violin_II_Music_Voice measure 381 / measure 76]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -9230,16 +8919,13 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -9248,21 +8934,18 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 4/3 {
 
         % [E Violin_II_Music_Voice measure 382 / measure 77]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -9270,15 +8953,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -9287,15 +8967,12 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -9303,17 +8980,15 @@ E_Violin_II_Music_Voice = {                                                    %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]
+        ~                                                                      %! TieCorrectionCommand
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
@@ -11934,12 +11609,17 @@ E_Viola_Music_Voice = {                                                        %
 
         % [E Viola_Music_Voice measure 368 / measure 63]                       %! _comment_measure_numbers
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_368:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_368:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+        \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+        d''16
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -11948,18 +11628,17 @@ E_Viola_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #13                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -11967,15 +11646,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -11983,16 +11659,13 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -12000,20 +11673,17 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -12021,15 +11691,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -12038,15 +11705,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -12054,20 +11718,17 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -12075,16 +11736,13 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -12092,15 +11750,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -12109,21 +11764,18 @@ E_Viola_Music_Voice = {                                                        %
     \times 4/3 {
 
         % [E Viola_Music_Voice measure 371 / measure 66]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -12131,15 +11783,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         ]
 
     }
@@ -12148,22 +11797,19 @@ E_Viola_Music_Voice = {                                                        %
     \times 4/3 {
 
         % [E Viola_Music_Voice measure 372 / measure 67]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(7)
+        gs''!16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -12172,15 +11818,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -12188,15 +11831,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         ]
 
     }
@@ -12205,23 +11845,20 @@ E_Viola_Music_Voice = {                                                        %
     \times 4/3 {
 
         % [E Viola_Music_Voice measure 373 / measure 68]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -12229,15 +11866,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -12245,16 +11879,13 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -12262,22 +11893,19 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(7)
+        fqs''!16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -12285,15 +11913,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -12302,15 +11927,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -12318,15 +11940,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         ]
 
     }
@@ -12335,23 +11954,20 @@ E_Viola_Music_Voice = {                                                        %
     \times 4/3 {
 
         % [E Viola_Music_Voice measure 375 / measure 70]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -12359,15 +11975,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -12376,25 +11989,22 @@ E_Viola_Music_Voice = {                                                        %
     \times 4/3 {
 
         % [E Viola_Music_Voice measure 376 / measure 71]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -12402,15 +12012,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         ]
 
     }
@@ -12418,23 +12025,20 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -12442,15 +12046,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -12458,15 +12059,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         ]
 
     }
@@ -12474,23 +12072,20 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(7)
+        dqs''!16
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -12498,15 +12093,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         ]
 
     }
@@ -12514,16 +12106,13 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -12531,15 +12120,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         ]
 
     }
@@ -12547,23 +12133,20 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #5                                              %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -12571,15 +12154,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         ]
 
     }
@@ -12587,15 +12167,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         ]
 
     }
@@ -12603,16 +12180,13 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         ]
 
     }
@@ -12620,20 +12194,17 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
     }
@@ -12641,16 +12212,13 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         ]
 
     }
@@ -12658,15 +12226,12 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        fqs''!16
         ]
 
     }
@@ -12675,21 +12240,18 @@ E_Viola_Music_Voice = {                                                        %
     \times 4/3 {
 
         % [E Viola_Music_Voice measure 381 / measure 76]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        gs''!16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #6 #7                                   %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        a''16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        d''16
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -12698,17 +12260,15 @@ E_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        f''16
         [
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        dqs''!16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16
+        e''16
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]
+        ~                                                                      %! TieCorrectionCommand
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }
@@ -12745,7 +12305,6 @@ E_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up
     \repeatTie
 
     % [E Viola_Music_Voice measure 385 / measure 80]                           %! _comment_measure_numbers
