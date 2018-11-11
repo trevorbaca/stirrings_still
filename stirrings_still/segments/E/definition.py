@@ -125,6 +125,20 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
+    ('v1', (1, 2)),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
+    baca.markup('7°/F'),
+    baca.pitch('Etqf4'),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
     ('v1', (6, 23)),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -135,7 +149,12 @@ maker(
         baca.stem_tremolo(selector=baca.pleaves()),
         map=baca.plts()[abjad.index([0], 2)],
         ),
-    baca.new(
+    baca.suite(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
         baca.hairpin(
             'pp --',
             bookend=False,
@@ -143,8 +162,12 @@ maker(
         baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
             ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
         map=baca.plts()[abjad.index([1], 2)],
         ),
+    baca.pitch('Etqf4'),
     stirrings_still.grid_to_trajectory(0, 0, 2),
     )
 
@@ -341,6 +364,9 @@ maker(
         'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(10.5).staff_padding,
         ),
     stirrings_still.continuous_tremolo(),
     )
@@ -585,6 +611,20 @@ maker(
 # v2
 
 maker(
+    ('v2', (1, 2)),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
+    baca.markup('11°/F'),
+    baca.pitch('Bqf3'),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
     ('v2', (6, 17)),
     stirrings_still.grid_to_trajectory(0, -2, 1),
     )
@@ -594,7 +634,9 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         map=baca.plts().partition_by_counts(
-            [4, 1, 3, 1, 2, 1, 99], cyclic=True)[abjad.index([0], 2)],
+            [4, 1, 3, 1, 2, 1, 99],
+            cyclic=True,
+            )[abjad.index([0], 2)],
         ),
     baca.new(
         baca.accent(),
@@ -602,7 +644,12 @@ maker(
         baca.stem_tremolo(selector=baca.pleaves()),
         map=baca.plts()[abjad.index([0], 2)],
         ),
-    baca.new(
+    baca.suite(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
         baca.hairpin(
             'pp --',
             bookend=False,
@@ -610,8 +657,12 @@ maker(
         baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
             ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
         map=baca.plts()[abjad.index([1], 2)],
         ),
+    baca.pitch('Bqf3'),
     )
 
 maker(
@@ -768,11 +819,27 @@ maker(
 # va
 
 maker(
+    ('va', (1, 2)),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
+    baca.markup('5°/F'),
+    baca.pitch('A3'),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
     ('va', (6, 23)),
     baca.damp_spanner(
         abjad.tweak(5.5).staff_padding,
         map=baca.plts().partition_by_counts(
-            [4, 1, 3, 1, 2, 1, 99], cyclic=True)[abjad.index([0], 2)],
+            [4, 1, 3, 1, 2, 1, 99],
+            cyclic=True,
+            )[abjad.index([0], 2)],
         ),
     baca.new(
         baca.accent(),
@@ -780,7 +847,12 @@ maker(
         baca.stem_tremolo(selector=baca.pleaves()),
         map=baca.plts()[abjad.index([0], 2)],
         ),
-    baca.new(
+    baca.suite(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
         baca.hairpin(
             'pp --',
             bookend=False,
@@ -788,8 +860,12 @@ maker(
         baca.xfb_spanner(
             abjad.tweak(3).staff_padding,
             ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
         map=baca.plts()[abjad.index([1], 2)],
         ),
+    baca.pitch('A3'),
     stirrings_still.grid_to_trajectory(0, -4, 0),
     )
 
@@ -813,7 +889,8 @@ maker(
         ),
     baca.new(
         baca.hairpin(
-            'pp -- !',
+            'pp --',
+            bookend=False,
             ),
         baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -1027,20 +1104,19 @@ maker(
 
 maker(
     ('vc', [(1, 3), (6, 27)]),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
     baca.new(
         baca.dots_transparent(),
         baca.stem_transparent(),
         selector=baca.leaves()[1:-1],
         ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('F2'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
+    baca.pitch('F2'),
+    baca.untie_to(
+        selector=baca.leaves(),
         ),
     stirrings_still.clouded_pane(),
     )
