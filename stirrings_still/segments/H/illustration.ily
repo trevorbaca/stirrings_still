@@ -5110,7 +5110,8 @@ H_Cello_Music_Voice = {                                                        %
     \revert TupletNumber.text
 
     % [H Cello_Music_Voice measure 478 / measure 7]                            %! _comment_measure_numbers
-    af,!2.                                                                     %! baca_make_notes
+    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    af,!2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     _ \markup { IV }                                                           %! baca_markup:IndicatorCommand
@@ -5118,172 +5119,168 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "flaut."                                    %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "ord."                                     %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1):autodetect
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanBowSpeed                                                 %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1)
     - \tweak arrow-length #2                                                   %! baca_finger_pressure_transition
     - \tweak arrow-width #0.5                                                  %! baca_finger_pressure_transition
     - \tweak bound-details.right.arrow ##t                                     %! baca_finger_pressure_transition
     - \tweak thickness #3                                                      %! baca_finger_pressure_transition
     \glissando                                                                 %! baca_finger_pressure_transition
-    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "flaut."                                    %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "ord."                                     %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #3                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [H Cello_Music_Voice measure 479 / measure 8]                            %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    gf,!2                                                                      %! baca_make_notes
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    gf,!2                                                                      %! baca_make_repeat_tied_notes
+    \bacaStopTextSpanBowSpeed                                                  %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(2)
 
     % [H Cello_Music_Voice measure 480 / measure 9]                            %! _comment_measure_numbers
     gf,!4.
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mp-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca_repeat_tie
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     gf,!4
-    \repeatTie                                                                 %! baca_repeat_tie
+    \repeatTie
 
     % [H Cello_Music_Voice measure 481 / measure 10]                           %! _comment_measure_numbers
-    gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2.                                                                     %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 482 / measure 11]                           %! _comment_measure_numbers
-    gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2..                                                                    %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 483 / measure 12]                           %! _comment_measure_numbers
-    gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2..                                                                    %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 484 / measure 13]                           %! _comment_measure_numbers
     gf,!4.
-    \repeatTie                                                                 %! baca_repeat_tie
+    \repeatTie
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "poco overpressure"                         %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     gf,!4
-    \repeatTie                                                                 %! baca_repeat_tie
+    \repeatTie
 
     % [H Cello_Music_Voice measure 485 / measure 14]                           %! _comment_measure_numbers
-    gf,!2                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 486 / measure 15]                           %! _comment_measure_numbers
-    gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2.                                                                     %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 487 / measure 16]                           %! _comment_measure_numbers
-    gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!1                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 488 / measure 17]                           %! _comment_measure_numbers
-    gf,!1                                                                      %! baca_make_notes
+    gf,!1                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie                                                                 %! baca_repeat_tie
+    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "molto overpressure"                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H Cello_Music_Voice measure 489 / measure 18]                           %! _comment_measure_numbers
-    gf,!2                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 490 / measure 19]                           %! _comment_measure_numbers
     gf,!4.
-    \repeatTie                                                                 %! baca_repeat_tie
+    \repeatTie
 
     gf,!4
-    \repeatTie                                                                 %! baca_repeat_tie
+    \repeatTie
 
     % [H Cello_Music_Voice measure 491 / measure 20]                           %! _comment_measure_numbers
-    gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!1                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 492 / measure 21]                           %! _comment_measure_numbers
-    gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2.                                                                     %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 493 / measure 22]                           %! _comment_measure_numbers
-    gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!1                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 494 / measure 23]                           %! _comment_measure_numbers
-    gf,!2..                                                                    %! baca_make_notes
+    gf,!2..                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca_repeat_tie
+    \baca-ff-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "(molto)"                                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "ord."                                     %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H Cello_Music_Voice measure 495 / measure 24]                           %! _comment_measure_numbers
-    gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2.                                                                     %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 496 / measure 25]                           %! _comment_measure_numbers
-    gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2..                                                                    %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 497 / measure 26]                           %! _comment_measure_numbers
-    gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!1                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 498 / measure 27]                           %! _comment_measure_numbers
-    gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!1                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 499 / measure 28]                           %! _comment_measure_numbers
-    gf,!2.                                                                     %! baca_make_notes
+    gf,!2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie                                                                 %! baca_repeat_tie
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
-    <<                                                                         %! _make_multimeasure_rest_container
-
-        \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
-        {                                                                      %! _make_multimeasure_rest_container
-
-            % [H Cello_Music_Voice measure 500 / measure 29]                   %! _comment_measure_numbers
-            \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-
-        }                                                                      %! _make_multimeasure_rest_container
-
-        \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
-        {                                                                      %! _make_multimeasure_rest_container
-
-            % [H Cello_Rest_Voice measure 500 / measure 29]                    %! _comment_measure_numbers
-            R1 * 1/4                                                           %! _make_multimeasure_rest_container
-
-        }                                                                      %! _make_multimeasure_rest_container
-
-    >>                                                                         %! _make_multimeasure_rest_container
+    % [H Cello_Music_Voice measure 500 / measure 29]                           %! _comment_measure_numbers
+    gf,!4                                                                      %! baca_make_repeat_tied_notes
+    \repeatTie
 
     % [H Cello_Music_Voice measure 501 / measure 30]                           %! _comment_measure_numbers
-    gf,!2..                                                                    %! baca_make_notes
+    gf,!2..                                                                    %! baca_make_repeat_tied_notes
+    \repeatTie
     \repeatTie                                                                 %! baca_literal:IndicatorCommand
 
     % [H Cello_Music_Voice measure 502 / measure 31]                           %! _comment_measure_numbers
-    gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! baca_repeat_tie
+    gf,!2..                                                                    %! baca_make_repeat_tied_notes
+    \repeatTie
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -5295,6 +5292,7 @@ H_Cello_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
+            \bacaStopTextSpanCloudedPane                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
