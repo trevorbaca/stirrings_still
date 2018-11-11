@@ -947,6 +947,28 @@ maker(
     
 # STAGE 2
 
+# v1, stage 2
+
+maker(
+    ('v1', 65),
+    baca.markup('(7+11)°/E'),
+    baca.pitch('<Dqf4 Aqs4>'),
+    )
+
+maker(
+    ('v1', (67, 89)),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        baca.pitch('<Dqf4 Aqs4>'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
+        ),
+    )
+
 # tutti, stage 2
 
 maker(
@@ -972,5 +994,49 @@ maker(
             map=baca.logical_ties(nontrivial=True),
             ),
         stirrings_still.ntlt_flat_glissandi(),
+        ),
+    )
+
+# v2, stage 2
+
+maker(
+    ('v2', 65),
+    baca.markup('(5+13)°/E'),
+    baca.pitch('<Ab3 Cqs4>'),
+    )
+
+maker(
+    ('v2', (67, 89)),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        baca.pitch('<Ab3 Cqs4>'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
+        ),
+    )
+
+# va, stage 2
+
+maker(
+    ('va', 65),
+    baca.markup('(3+9)°/E'),
+    baca.pitch('<B2 F#3>'),
+    )
+
+maker(
+    ('va', (67, 89)),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        baca.pitch('<B2 F#3>'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
         ),
     )
