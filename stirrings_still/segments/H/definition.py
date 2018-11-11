@@ -373,44 +373,43 @@ maker(
     )
 
 maker(
-    ('vc', [(7, 28), (30, 31)]),
-    baca.make_notes(repeat_ties=True),
-    baca.new(
-        baca.repeat_tie(selector=baca.notes()[1:]),
-        match=0,
+    ('vc', (7, 8)),
+    baca.hairpin(
+        'mp -- !',
+        selector=baca.leaves().rleak(),
         ),
-    baca.new(
-        baca.repeat_tie(),
-        match=1,
+    baca.markup(
+        baca.markups.string_number(4),
+        direction=abjad.Down,
+        selector=baca.note(0),
+        ),
+    baca.bow_speed_spanner(
+        'flaut. -> ord.',
+        abjad.tweak(5.5).staff_padding,
+        bookend=-1,
+        selector=baca.leaves(),
         ),
     )
 
 maker(
-    ('vc', (7, 32)),
-    baca.finger_pressure_transition(
-        selector=baca.notes()[:2],
+    ('vc', (7, 31)),
+    baca.make_repeat_tied_notes(),
+    baca.note_head_style_harmonic(),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.leaf(1),
+            ),
+        baca.pitch(
+            'Ab2',
+            selector=baca.pleaf(0),
+            ),
+        baca.pitch(
+            'Gb2',
+            selector=baca.pleaves()[1:],
+            ),
+        baca.finger_pressure_transition(),
         ),
-    baca.hairpin(
-        'mp -- !',
-        measures=(7, 8),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.markup(
-        'IV',
-        selector=baca.note(0),
-        direction=abjad.Down,
-        ),
-    baca.new(
-        baca.note_head_style_harmonic(),
-        baca.pitch('Gb2'),
-        selector=baca.notes(exclude=baca.enums.HIDDEN)[1:],
-        ),
-    baca.pitch('Ab2', selector=baca.note(0)),
-    baca.text_spanner(
-        'flaut. -> ord.',
-        abjad.tweak(8).staff_padding,
-        selector=baca.notes()[:2],
-        ),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 3),
     )
 
 maker(
@@ -422,13 +421,11 @@ maker(
     )
 
 maker(
-    ('vc', (13, 22)),
+    ('vc', (13, 27)),
     baca.text_spanner(
-        'poco overpressure -> molto overpressure =|',
+        'poco overpressure -> molto overpressure =| (molto) -> ord.',
         abjad.tweak(5.5).staff_padding,
-        autodetect_right_padding=True,
-        bookend=False,
-        pieces=baca.mgroups([4, 6 + 1]),
+        pieces=baca.mgroups([4, 6, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -436,7 +433,7 @@ maker(
 maker(
     ('vc', (23, 31)),
     baca.hairpin(
-        'ff > ppp -- !',
+        '(ff) > ppp -- !',
         abjad.tweak(True).to_barline,
         pieces=baca.mgroups([5, 4 + 1]),
         selector=baca.leaves().rleak(),
@@ -575,15 +572,27 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.new(
-        stirrings_still.pickets(4, 2, dmask=baca.silence_first()),
+        stirrings_still.pickets(
+            4,
+            2,
+            dmask=baca.silence_first(),
+            ),
         match=0,
         ),
     baca.new(
-        stirrings_still.pickets(4, 1, dmask=baca.silence_first()),
+        stirrings_still.pickets(
+            4,
+            1,
+            dmask=baca.silence_first(),
+            ),
         match=1,
         ),
     baca.new(
-        stirrings_still.pickets(4, 0, dmask=baca.silence_first()),
+        stirrings_still.pickets(
+            4,
+            0,
+            dmask=baca.silence_first(),
+            ),
         match=2,
         ),
     )
@@ -776,9 +785,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (beacon) -|', 5.5,
-        ),
+    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
 maker(
@@ -801,9 +808,7 @@ maker(
         match=2,
         ),
     baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (beacon) -|', 5.5,
-        ),
+    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
 # tutti
@@ -817,7 +822,7 @@ maker(
     ('tutti', (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        'III',
+        baca.markups.string_number(3),
         direction=abjad.Down,
         ),
     baca.new(
@@ -869,7 +874,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        'III',
+        baca.markups.string_number(3),
         direction=abjad.Down,
         ),
     baca.new(

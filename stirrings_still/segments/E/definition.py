@@ -608,11 +608,11 @@ maker(
         ),
     baca.hairpin(
         'ff-scratch > p',
+        selector=baca.leaves().rleak(),
         ),
     baca.note_head_style_harmonic(),
     baca.text_spanner(
-        'harmonic -|',
-        abjad.tweak('red').color,
+        'overpressure harmonic =|',
         abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
