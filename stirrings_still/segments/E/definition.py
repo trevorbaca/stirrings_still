@@ -201,6 +201,47 @@ maker(
     )
 
 maker(
+    ('v1', (32, 33)),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
+    baca.pitch('Ab4'),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
+    ('v1', (35, 40)),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
+    baca.hairpin(
+        'p < "mf"',
+        bookend=False,
+        pieces=baca.mgroups([4, 2]),
+        ),
+    baca.pitch('Ab4'),
+    baca.script_staff_padding(5),
+    baca.suite(
+        stirrings_still.bcps(
+            -8,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.tuplet_bracket_down(),
+    stirrings_still.trajectories('C', 0, -3),
+    )
+
+maker(
     ('v1', (42, 49)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -343,43 +384,6 @@ maker(
             ),
         ),
     stirrings_still.trajectories('C', 0, -3),
-    )
-
-# v1, v2
-
-maker(
-    (['v1', 'v2'], (35, 40)),
-    baca.hairpin(
-        'p < "mf"',
-        bookend=False,
-        pieces=baca.mgroups([4, 2]),
-        ),
-    baca.new(
-        baca.suite(
-            baca.script_staff_padding(5),
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -8,
-                abjad.tweak(2.5).staff_padding,
-                clt=True,
-                ),
-            ),
-        stirrings_still.trajectories('C', 0, -3),
-        match=0,
-        ),
-    baca.new(
-        baca.suite(
-            baca.script_staff_padding(5),
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -7,
-                abjad.tweak(2.5).staff_padding,
-                clt=True,
-                ),
-            ),
-        stirrings_still.trajectories('C', -1, -2),
-        match=1,
-        ),
     )
 
 # trio
@@ -719,6 +723,71 @@ maker(
     )
 
 maker(
+    ('v2', (32, 33)),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
+    baca.pitch('G4'),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
+    ('v2', (35, 36)),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        selector=baca.leaves().rleak(),
+        stems=True,
+        ),
+    )
+
+maker(
+    ('v2', (35, 40)),
+    baca.hairpin(
+        'p < "mf"',
+        bookend=False,
+        pieces=baca.mgroups([4, 2]),
+        ),
+    baca.pitch('G4'),
+    baca.script_staff_padding(5),
+    baca.suite(
+        stirrings_still.bcps(
+            -7,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.tuplet_bracket_down(),
+    stirrings_still.trajectories('C', -1, -2),
+    )
+
+maker(
+    ('v2', (37, 38)),
+    stirrings_still.glissando_interpolation(
+        'G4',
+        'A4',
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v2', (39, 40)),
+    baca.pitch('A4'),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
+    )
+
+maker(
     ('v2', (42, 53)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -937,33 +1006,57 @@ maker(
     )
 
 maker(
+    ('va', (32, 33)),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
+    baca.pitch('Gb4'),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
     ('va', (35, 40)),
-    baca.new(
-        baca.accent(),
-        baca.dynamic('sfp'),
-        baca.stem_tremolo(),
-        map=baca.plts()[abjad.index([0], 2)],
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
         ),
-    baca.new(
-        baca.hairpin(
-            'pp --',
-            bookend=False,
+    baca.suite(
+        baca.new(
+            baca.accent(),
+            baca.dynamic('sfp'),
+            baca.stem_tremolo(),
+            map=baca.plts()[abjad.index([0], 2)],
             ),
-        baca.xfb_spanner(
-            abjad.tweak(5.5).staff_padding,
+        baca.new(
+            baca.hairpin(
+                'pp --',
+                bookend=False,
+                ),
+            baca.xfb_spanner(
+                abjad.tweak(5.5).staff_padding,
+                ),
+            map=baca.plts()[:-1][abjad.index([1], 2)],
             ),
-        map=baca.plts()[:-1][abjad.index([1], 2)],
+        baca.new(
+            baca.hairpin(
+                'pp --',
+                bookend=False,
+                ),
+            baca.xfb_spanner(
+                abjad.tweak(5.5).staff_padding,
+                ),
+            map=baca.plt(-1),
+            ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
         ),
-    baca.new(
-        baca.hairpin(
-            'pp --',
-            bookend=False,
-            ),
-        baca.xfb_spanner(
-            abjad.tweak(5.5).staff_padding,
-            ),
-        map=baca.plt(-1),
-        ),
+    baca.pitch('Gb4'),
     stirrings_still.measure_initiation(),
     )
 

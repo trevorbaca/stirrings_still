@@ -2493,7 +2493,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2502,7 +2501,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2518,7 +2516,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 93 / measure 30]                     %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2535,7 +2532,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2545,7 +2541,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -2556,7 +2551,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -2659,7 +2653,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2668,7 +2661,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2683,7 +2675,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 98 / measure 35]                     %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2706,7 +2697,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -2717,7 +2707,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -2727,7 +2716,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -2793,7 +2781,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2802,7 +2789,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2818,7 +2804,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 101 / measure 38]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2835,7 +2820,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2845,7 +2829,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -2910,7 +2893,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2919,7 +2901,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2935,7 +2916,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 104 / measure 41]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2951,7 +2931,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -2960,7 +2939,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -2971,7 +2949,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -2981,7 +2958,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3079,7 +3055,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3088,7 +3063,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3273,7 +3247,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3282,7 +3255,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3298,11 +3270,9 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 114 / measure 51]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3312,7 +3282,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3323,7 +3292,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3333,7 +3301,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3349,7 +3316,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 115 / measure 52]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3369,7 +3335,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3379,7 +3344,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3390,7 +3354,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3400,7 +3363,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3414,12 +3376,10 @@ B_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Violin_I_Music_Voice measure 116 / measure 53]                        %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -3429,7 +3389,6 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -3438,7 +3397,6 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -3447,7 +3405,6 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -3461,7 +3418,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 117 / measure 54]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3471,7 +3427,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3481,7 +3436,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3496,7 +3450,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 118 / measure 55]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3506,7 +3459,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3516,7 +3468,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3526,7 +3477,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3536,7 +3486,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3552,7 +3501,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 119 / measure 56]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3569,7 +3517,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3579,7 +3526,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3588,7 +3534,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3598,7 +3543,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3611,7 +3555,6 @@ B_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Violin_I_Music_Voice measure 120 / measure 57]                        %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -3621,7 +3564,6 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -3631,7 +3573,6 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -3641,7 +3582,6 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -3674,7 +3614,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3683,7 +3622,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3692,7 +3630,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -3707,7 +3644,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 122 / measure 59]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3717,7 +3653,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3727,7 +3662,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3737,7 +3671,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3753,7 +3686,6 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 123 / measure 60]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3764,7 +3696,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -3775,7 +3706,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -3785,7 +3715,6 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -4505,7 +4434,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4514,7 +4442,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4523,7 +4450,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4538,7 +4464,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 82 / measure 19]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -4548,7 +4473,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -4558,7 +4482,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -4568,7 +4491,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -4579,7 +4501,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -4593,7 +4514,6 @@ B_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Violin_II_Music_Voice measure 83 / measure 20]                        %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -4603,7 +4523,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -4613,7 +4532,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -4623,7 +4541,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -4633,7 +4550,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -4648,7 +4564,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 84 / measure 21]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4659,7 +4574,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4668,7 +4582,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -4679,7 +4592,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -4689,7 +4601,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -4707,11 +4618,9 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 85 / measure 22]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4720,7 +4629,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4730,7 +4638,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -4740,7 +4647,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4756,7 +4662,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 86 / measure 23]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -4766,7 +4671,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4775,7 +4679,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4784,7 +4687,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4796,7 +4698,6 @@ B_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Violin_II_Music_Voice measure 87 / measure 24]                        %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -4806,7 +4707,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -4817,7 +4717,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -4828,7 +4727,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -4842,7 +4740,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 88 / measure 25]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -4852,7 +4749,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -4998,7 +4894,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #10                                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5012,7 +4907,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 93 / measure 30]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5036,7 +4930,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #10                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -5047,7 +4940,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -5147,7 +5039,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5157,7 +5048,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -5168,7 +5058,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5183,7 +5072,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 98 / measure 35]                    %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5206,7 +5094,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -5269,7 +5156,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5283,7 +5169,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 4/3 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 101 / measure 38]                   %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5307,7 +5192,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -5369,7 +5253,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5379,7 +5262,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -5393,7 +5275,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 104 / measure 41]                   %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5414,7 +5295,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -5424,7 +5304,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -5519,7 +5398,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5529,7 +5407,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5553,7 +5430,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5716,7 +5592,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5730,7 +5605,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 114 / measure 51]                   %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -5741,7 +5615,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -5752,7 +5625,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -5762,7 +5634,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -5778,7 +5649,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 115 / measure 52]                   %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5798,7 +5668,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -5808,7 +5677,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -5818,7 +5686,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -5827,7 +5694,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -5843,12 +5709,10 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 116 / measure 53]                   %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -5859,7 +5723,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -5869,7 +5732,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -5879,7 +5741,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -5889,7 +5750,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -5902,7 +5762,6 @@ B_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Violin_II_Music_Voice measure 117 / measure 54]                       %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -5912,7 +5771,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -5921,7 +5779,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -5932,7 +5789,6 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -5946,7 +5802,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 118 / measure 55]                   %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -5955,7 +5810,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -5964,7 +5818,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -5981,7 +5834,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 119 / measure 56]                   %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5998,7 +5850,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -6009,7 +5860,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -6019,7 +5869,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -6029,7 +5878,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -6045,7 +5893,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 120 / measure 57]                   %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -6055,7 +5902,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -6065,7 +5911,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -6075,7 +5920,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -6085,7 +5929,6 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -6741,7 +6584,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -6750,7 +6592,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -6759,7 +6600,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -6769,7 +6609,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -6786,7 +6625,6 @@ B_Viola_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 87 / measure 24]                        %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -6796,7 +6634,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -6806,7 +6643,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -6817,7 +6653,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -6827,7 +6662,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -6841,7 +6675,6 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Viola_Music_Voice measure 88 / measure 25]                            %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6858,7 +6691,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -6946,7 +6778,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7012,7 +6843,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7022,7 +6852,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7031,7 +6860,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7045,7 +6873,6 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Viola_Music_Voice measure 93 / measure 30]                            %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7062,7 +6889,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #10                                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -7072,7 +6898,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -7176,7 +7001,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7186,7 +7010,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7196,7 +7019,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7205,7 +7027,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -7219,7 +7040,6 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Viola_Music_Voice measure 98 / measure 35]                            %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7236,7 +7056,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -7247,7 +7066,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -7257,7 +7075,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -7322,7 +7139,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7332,7 +7148,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7341,7 +7156,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7356,7 +7170,6 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Viola_Music_Voice measure 101 / measure 38]                           %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7424,7 +7237,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7434,7 +7246,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7444,7 +7255,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7456,7 +7266,6 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Viola_Music_Voice measure 104 / measure 41]                           %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7477,7 +7286,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -7488,7 +7296,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -7498,7 +7305,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -7595,7 +7401,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7605,7 +7410,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7628,7 +7432,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7696,7 +7499,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7810,7 +7612,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7820,7 +7621,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7829,7 +7629,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7843,11 +7642,9 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Viola_Music_Voice measure 114 / measure 51]                           %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -7857,7 +7654,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -7868,7 +7664,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -7878,7 +7673,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -7888,7 +7682,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -7904,7 +7697,6 @@ B_Viola_Music_Voice = {                                                        %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 115 / measure 52]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7917,7 +7709,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -7927,7 +7718,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -7943,7 +7733,6 @@ B_Viola_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 116 / measure 53]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -7953,7 +7742,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7962,7 +7750,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7972,7 +7759,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -7982,7 +7768,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -7998,7 +7783,6 @@ B_Viola_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 117 / measure 54]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -8008,7 +7792,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -8019,7 +7802,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -8028,7 +7810,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -8038,7 +7819,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -8051,7 +7831,6 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Viola_Music_Voice measure 118 / measure 55]                           %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -8060,7 +7839,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -8070,7 +7848,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -8083,7 +7860,6 @@ B_Viola_Music_Voice = {                                                        %
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 119 / measure 56]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -8104,7 +7880,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -8114,7 +7889,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -8124,7 +7898,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -8142,11 +7915,9 @@ B_Viola_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 120 / measure 57]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -8156,7 +7927,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -8167,7 +7937,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -8177,7 +7946,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -8211,7 +7979,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -8221,7 +7988,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -8232,7 +7998,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -8242,7 +8007,6 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #2.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -8256,12 +8020,10 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Viola_Music_Voice measure 122 / measure 59]                           %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -8271,7 +8033,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -8281,7 +8042,6 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #2.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -8980,7 +8740,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #13                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -8989,7 +8748,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -8998,7 +8756,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9007,7 +8764,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9023,7 +8779,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 84 / measure 21]                        %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9033,7 +8788,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9043,7 +8797,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9053,7 +8806,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9064,7 +8816,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9079,11 +8830,9 @@ B_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Cello_Music_Voice measure 85 / measure 22]                            %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -9093,7 +8842,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -9107,7 +8855,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 86 / measure 23]                        %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9123,7 +8870,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9132,7 +8878,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9141,7 +8886,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9158,11 +8902,9 @@ B_Cello_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 87 / measure 24]                        %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9172,7 +8914,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9182,7 +8923,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9191,7 +8931,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9207,11 +8946,9 @@ B_Cello_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 88 / measure 25]                        %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9221,7 +8958,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9297,7 +9033,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #13                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9364,7 +9099,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9374,7 +9108,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9384,7 +9117,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9401,7 +9133,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 93 / measure 30]                        %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9419,7 +9150,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9429,7 +9159,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9439,7 +9168,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9450,7 +9178,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9554,7 +9281,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9564,7 +9290,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9574,7 +9299,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9584,7 +9308,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9600,7 +9323,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 98 / measure 35]                        %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9624,7 +9346,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9635,7 +9356,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9645,7 +9365,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9712,7 +9431,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9722,7 +9440,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9732,7 +9449,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9749,7 +9465,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 101 / measure 38]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9767,7 +9482,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9777,7 +9491,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9787,7 +9500,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9853,7 +9565,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -9863,7 +9574,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9873,7 +9583,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9889,7 +9598,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 104 / measure 41]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9911,7 +9619,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9921,7 +9628,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -9932,7 +9638,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -9942,7 +9647,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10041,7 +9745,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10051,7 +9754,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -10074,7 +9776,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10084,7 +9785,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10155,7 +9855,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10165,7 +9864,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10270,7 +9968,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10280,7 +9977,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10290,7 +9986,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10307,12 +10002,10 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 114 / measure 51]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10322,7 +10015,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10332,7 +10024,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10343,7 +10034,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10353,7 +10043,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10366,7 +10055,6 @@ B_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Cello_Music_Voice measure 115 / measure 52]                           %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -10385,7 +10073,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -10394,7 +10081,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -10407,7 +10093,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 116 / measure 53]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10417,7 +10102,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10428,7 +10112,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10438,7 +10121,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10454,7 +10136,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 117 / measure 54]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10464,7 +10145,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10473,7 +10153,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10484,7 +10163,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10493,7 +10171,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10509,7 +10186,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 118 / measure 55]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10518,7 +10194,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10527,7 +10202,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10536,7 +10210,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10549,7 +10222,6 @@ B_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Cello_Music_Voice measure 119 / measure 56]                           %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -10571,7 +10243,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #10.5                                               %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -10581,7 +10252,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -10591,7 +10261,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -10605,7 +10274,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 120 / measure 57]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10616,7 +10284,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10627,7 +10294,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10661,7 +10327,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10672,7 +10337,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10682,7 +10346,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10692,7 +10355,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10703,7 +10365,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10720,7 +10381,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 122 / measure 59]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -10730,7 +10390,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
@@ -10740,7 +10399,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10749,7 +10407,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -10761,7 +10418,6 @@ B_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [B Cello_Music_Voice measure 123 / measure 60]                           %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -10770,7 +10426,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -10780,7 +10435,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
@@ -10791,7 +10445,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -10806,7 +10459,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 124 / measure 61]                       %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -10819,7 +10471,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)

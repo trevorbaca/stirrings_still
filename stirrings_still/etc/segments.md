@@ -1525,14 +1525,14 @@ SEGMENTS
 
     [E.8] (63-70)
     (8 measures)
-    subito-largo-to-presto accelerando
+    largo-to-presto accelerando begins subito
     v1, v2, va trajectory repetition cells appear
         1/2 clt
         eight- or tenfold repetition vortex happens
         accelerando time-sheers vortex dramatically
         "ff" > p governs stage
     vc clouded pane begins again
-        new pitch begins stepwise below
+        new pitch begins below
         o< p governs first quarter of stage
     attacca
 

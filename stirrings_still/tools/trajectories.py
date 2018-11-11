@@ -45,8 +45,8 @@ def trajectories(
         )
     return baca.suite(
         rhythm,
-        baca.hide_black_note_heads(
-            selector=baca.leaves()[1:-1],
-            ),
+        #baca.hide_black_note_heads(
+        #    selector=baca.leaves()[1:-1],
+        #    ),
         measures=measures,
         )
