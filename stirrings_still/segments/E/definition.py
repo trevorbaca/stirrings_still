@@ -172,6 +172,35 @@ maker(
     )
 
 maker(
+    ('v1', (24, 31)),
+    stirrings_still.glissando_interpolation(
+        'Etqf4',
+        'F4',
+        selector=baca.leaves()[:4],
+        ),
+    stirrings_still.glissando_interpolation(
+        'F4',
+        'E4',
+        selector=baca.leaves()[4-1:7],
+        ),
+    stirrings_still.glissando_interpolation(
+        'E4',
+        'Gb4',
+        selector=baca.leaves()[7-1:10],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Gb4',
+        'F4',
+        selector=baca.leaves()[10-1:13],
+        ),
+    stirrings_still.glissando_interpolation(
+        'F4',
+        'Ab4',
+        selector=baca.leaves().rleak()[13-1:16+1],
+        ),
+    )
+
+maker(
     ('v1', (42, 49)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -671,6 +700,25 @@ maker(
     )
 
 maker(
+    ('v2', (24, 31)),
+    stirrings_still.glissando_interpolation(
+        'Bqf3',
+        'Eb4',
+        selector=baca.leaves()[:3],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Eb4',
+        'Db4',
+        selector=baca.leaves()[3-1:8],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Db4',
+        'G4',
+        selector=baca.leaves().rleak()[8-1:16+1],
+        ),
+    )
+
+maker(
     ('v2', (42, 53)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -867,6 +915,25 @@ maker(
         ),
     baca.pitch('A3'),
     stirrings_still.grid_to_trajectory(0, -4, 0),
+    )
+
+maker(
+    ('va', (24, 31)),
+    stirrings_still.glissando_interpolation(
+        'A3',
+        'F4',
+        selector=baca.leaves()[:7],
+        ),
+    stirrings_still.glissando_interpolation(
+        'F4',
+        'D4',
+        selector=baca.leaves()[7-1:12],
+        ),
+    stirrings_still.glissando_interpolation(
+        'D4',
+        'Gb4',
+        selector=baca.leaves().rleak()[12-1:16+1],
+        ),
     )
 
 maker(
