@@ -226,11 +226,11 @@ maker(
         pieces=baca.mgroups([4, 2]),
         ),
     baca.pitch('Ab4'),
-    baca.script_staff_padding(5),
+    baca.script_staff_padding(7),
     baca.suite(
         stirrings_still.bcps(
             -8,
-            abjad.tweak(2.5).staff_padding,
+            abjad.tweak(4.5).staff_padding,
             clt=True,
             ),
         baca.untie_to(
@@ -297,19 +297,18 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
+        abjad.tweak(13).staff_padding,
         ),
-    baca.suite(
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            0,
-            abjad.tweak(2.5).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(5).staff_padding,
-                ),
-            clt=True,
-            selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+    baca.pitches('D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5'),
+    baca.tuplet_bracket_down(),
+    stirrings_still.bcps(
+        0,
+        abjad.tweak(3.5).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(8).staff_padding,
             ),
+        clt=True,
+        selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
         ),
     stirrings_still.running_quarter_divisions(0),
     )
@@ -333,6 +332,7 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
+    baca.tie_to(),
     stirrings_still.flight_spanner('flight -|', 5.5),
     )
 
@@ -753,11 +753,11 @@ maker(
         pieces=baca.mgroups([4, 2]),
         ),
     baca.pitch('G4'),
-    baca.script_staff_padding(5),
+    baca.script_staff_padding(7),
     baca.suite(
         stirrings_still.bcps(
             -7,
-            abjad.tweak(2.5).staff_padding,
+            abjad.tweak(4.5).staff_padding,
             clt=True,
             ),
         baca.untie_to(
@@ -843,21 +843,20 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
+        abjad.tweak(13).staff_padding,
         ),
-    baca.suite(
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            0,
-            abjad.tweak(2.5).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(5).staff_padding,
-                ),
-            clt=True,
-            selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
-            ),
-        ),
+    baca.pitches('D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5'),
+    baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(3.5),
+    stirrings_still.bcps(
+        0,
+        abjad.tweak(5.5).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(8).staff_padding,
+            ),
+        clt=True,
+        selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+        ),
     stirrings_still.running_quarter_divisions(-1),
     )
 
@@ -880,6 +879,7 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
+    baca.tie_to(),
     stirrings_still.flight_spanner('flight -|', 5.5),
     )
 
@@ -1065,25 +1065,25 @@ maker(
     baca.accent(
         selector=baca.pleaves()[abjad.index([0], 7)],
         ),
+    baca.clef('treble'),
     baca.hairpin(
         '"ff" > p',
         measures=(63, 70),
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10).staff_padding,
+        abjad.tweak(13).staff_padding,
         ),
-    baca.suite(
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            0,
-            abjad.tweak(2.5).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(5).staff_padding,
-                ),
-            clt=True,
-            selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+    baca.pitches('D5 F5 Dqs5 E5 Fqs5 G#5 A5'),
+    baca.tuplet_bracket_down(),
+    stirrings_still.bcps(
+        0,
+        abjad.tweak(3.5).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(8).staff_padding,
             ),
+        clt=True,
+        selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
         ),
     stirrings_still.running_quarter_divisions(-1),
     )
@@ -1107,6 +1107,7 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
+    baca.tie_to(),
     stirrings_still.flight_spanner('flight -|', 5.5),
     )
 
