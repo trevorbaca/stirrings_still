@@ -951,8 +951,8 @@ maker(
 
 maker(
     ('v1', 65),
-    baca.markup('(7+11)°/E'),
-    baca.pitch('<Dqf4 Aqs4>'),
+    baca.markup('(7+9)°/E'),
+    baca.pitch('<F#4 Dqf5>'),
     )
 
 maker(
@@ -961,7 +961,7 @@ maker(
         baca.untie_to(
             selector=baca.leaves(),
             ),
-        baca.pitch('<Dqf4 Aqs4>'),
+        baca.pitch('<F#4 Dqf5>'),
         baca.glissando(
             allow_repeats=True,
             stems=True,
@@ -1002,7 +1002,7 @@ maker(
 maker(
     ('v2', 65),
     baca.markup('(5+13)°/E'),
-    baca.pitch('<Ab3 Cqs4>'),
+    baca.pitch('<Cqs4 Ab4>'),
     )
 
 maker(
@@ -1011,7 +1011,7 @@ maker(
         baca.untie_to(
             selector=baca.leaves(),
             ),
-        baca.pitch('<Ab3 Cqs4>'),
+        baca.pitch('<Cqs4 Ab4>'),
         baca.glissando(
             allow_repeats=True,
             stems=True,
@@ -1023,8 +1023,8 @@ maker(
 
 maker(
     ('va', 65),
-    baca.markup('(3+9)°/E'),
-    baca.pitch('<B2 F#3>'),
+    baca.markup('(11+3)°/E'),
+    baca.pitch('<B2 Aqs3>'),
     )
 
 maker(
@@ -1033,7 +1033,7 @@ maker(
         baca.untie_to(
             selector=baca.leaves(),
             ),
-        baca.pitch('<B2 F#3>'),
+        baca.pitch('<B2 Aqs3>'),
         baca.glissando(
             allow_repeats=True,
             stems=True,
