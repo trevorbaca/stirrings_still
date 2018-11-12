@@ -782,7 +782,6 @@ SEGMENTS
             mp
             swell shapes each note
         vc clouded pane
-            new pitch begins stepwise above
             o< f ... f >o governs stage
             subtends declamation
     fermata follows suffix (6)
@@ -1712,7 +1711,7 @@ SEGMENTS
             polyrhythmic louré-swell tuplets
             o< mp >o shapes each note
         vc clouded pane
-            new pitch begins stepwise above
+            new pitch
             o< f ... f >o governs stage
             subtends declamation
     fermata (2)
