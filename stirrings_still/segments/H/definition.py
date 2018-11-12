@@ -687,25 +687,55 @@ maker(
     )
 
 maker(
-    ('trio', [52, 55]),
+    ('trio', 52),
     baca.dynamic('mp'),
-    baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (partial) -|', 5.5,
-        ),
     baca.new(
+        baca.pitch('<F4 A4>'),
         stirrings_still.loure_tuplets(0),
+        stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
         match=0,
         ),
     baca.new(
+        baca.pitch('<E4 G#4>'),
         stirrings_still.loure_tuplets(1),
+        stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
         match=1,
         ),
     baca.new(
+        baca.markup('[as before: (9+7)°/B]'),
+        baca.pitch('<Aqf3 C#4>'),
+        stirrings_still.clouded_pane_spanner('clouded pane (partial) -|', 5.5),
         stirrings_still.loure_tuplets(-1),
         match=2,
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
+    ('trio', 55),
+    baca.dynamic('mp'),
+    baca.new(
+        baca.pitch('<F4 A4>'),
+        stirrings_still.loure_tuplets(0),
+        stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
+        match=0,
+        ),
+    baca.new(
+        baca.pitch('<E4 G#4>'),
+        stirrings_still.loure_tuplets(1),
+        stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
+        match=1,
+        ),
+    baca.new(
+        baca.pitch('<Aqf3 C#4>'),
+        stirrings_still.clouded_pane_spanner('clouded pane (partial) -|', 5.5),
+        stirrings_still.loure_tuplets(-1),
+        match=2,
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
         ),
     )
 
