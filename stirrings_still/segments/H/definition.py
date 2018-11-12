@@ -103,6 +103,26 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
+    ('v1', (1, 5)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('Gb4'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    )
+
+maker(
     ('v1', (1, 6)),
     baca.hairpin(
         'niente o< mp -- !',
@@ -148,7 +168,7 @@ maker(
 
 maker(
     ('v1', (15, 16)),
-    baca.pitch('A4'),
+    baca.pitch('Bb4'),
     )
 
 # v2
@@ -169,6 +189,26 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.urtext_spanner('urtext (rasp) -|', 5.5),
+    )
+
+maker(
+    ('v2', (1, 10)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('F4'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     )
 
 maker(
@@ -293,6 +333,26 @@ maker(
 # va
 
 maker(
+    ('va', (1, 5)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('Ab3'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    )
+
+maker(
     ('va', (1, 6)),
     baca.hairpin(
         'niente o< mp -- !',
@@ -344,6 +404,22 @@ maker(
 
 maker(
     ('vc', (1, 5)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('Ab2'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.hairpin(
         'niente o< mp -- !',
         pieces=baca.mgroups([3, 2 + 1]),
@@ -389,6 +465,7 @@ maker(
     baca.bow_speed_spanner(
         'flaut. -> ord.',
         abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         selector=baca.leaves(),
         ),
@@ -416,6 +493,25 @@ maker(
     )
 
 maker(
+    ('vc', (8, 31)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    )
+
+maker(
     ('vc', (9, 16)),
     baca.hairpin(
         '(mp) < ff',
@@ -426,7 +522,8 @@ maker(
 maker(
     ('vc', (13, 27)),
     baca.text_spanner(
-        'poco overpressure -> molto overpressure =| (molto) -> ord.',
+        'poco overpressure -> molto overpressure =|'
+            ' (molto) -> no overpressure.',
         abjad.tweak(5.5).staff_padding,
         pieces=baca.mgroups([4, 6, 5 + 1]),
         selector=baca.leaves().rleak(),
@@ -441,11 +538,6 @@ maker(
         pieces=baca.mgroups([5, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    )
-
-maker(
-    ('vc', 30),
-    baca.literal(r'\repeatTie', format_slot='after'),
     )
 
 maker(
@@ -546,6 +638,10 @@ maker(
 
 maker(
     ('trio', (15, 16)),
+    baca.glissando(
+        allow_repeats=True,
+        stems=True,
+        ),
     baca.hairpin(
         '(p) >o niente',
         selector=baca.leaves().rleak(),
@@ -874,26 +970,6 @@ maker(
     baca.new(
         stirrings_still.urtext_spanner('urtext (rasp) -|', 5.5),
         match=[0, 2, 3],
-        ),
-    )
-
-maker(
-    ('tutti', (1, 5)),
-    baca.new(
-        baca.pitch('Gb4'),
-        match=0,
-        ),
-    baca.new(
-        baca.pitch('F4'),
-        match=1,
-        ),
-    baca.new(
-        baca.pitch('Ab3'),
-        match=2,
-        ),
-    baca.new(
-        baca.pitch('Ab2'),
-        match=3,
         ),
     )
 
