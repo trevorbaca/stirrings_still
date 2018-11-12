@@ -80,6 +80,11 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', [1, 3, 7, 9, 11, 14]),
     baca.dynamic('mp'),
+    baca.new(
+        baca.markup('(12ET: conflicts with viola)'),
+        match=0,
+        ),
+    baca.pitch('<F4 A4>'),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
@@ -201,9 +206,7 @@ maker(
         match=2,
         ),
     baca.note_head_style_harmonic(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (beacon) -|', 5.5,
-        ),
+    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
 # v2
@@ -211,6 +214,11 @@ maker(
 maker(
     ('v2', [1, 3, 7, 9, 11, 14]),
     baca.dynamic('mp'),
+    baca.new(
+        baca.markup('(12ET: conflicts with viola)'),
+        match=0,
+        ),
+    baca.pitch('<E4 G#4>'),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
@@ -249,12 +257,15 @@ maker(
 maker(
     ('va', [1, 3, 7, 9, 11, 14]),
     baca.dynamic('mp'),
+    baca.new(
+        baca.markup('(9+7)°/B'),
+        match=0,
+        ),
+    baca.pitch('<Aqf3 C#4>'),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (partial) -|', 5.5,
-        ),
+    stirrings_still.clouded_pane_spanner('clouded pane (partial) -|', 5.5),
     stirrings_still.loure_tuplets(-1),
     )
 
@@ -269,15 +280,6 @@ maker(
     )
 
 # vc
-
-maker(
-    ('vc', 1),
-    baca.markup(
-        'new pitch (stepwise above)',
-        abjad.tweak('red').color,
-        abjad.tweak(8).staff_padding,
-        ),
-    )
 
 maker(
     ('vc', [1, 3, 7, 9]),
