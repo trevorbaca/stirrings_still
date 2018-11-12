@@ -46,14 +46,35 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 8)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('<F5 Bqs5>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.hairpin(
         'pp < f > pp < f > pp < f >o niente',
         pieces=baca.mgroups([1, 2, 1, 2, 1, 2]),
         selector=baca.leaves().rleak(),
         ),
+    baca.markup(
+        r'\stirrings-still-thirteen-plus-nine-e-flat',
+        literal=True,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
-        'clouded pane (doublestop partials) -|', 5.5,
+        'clouded pane (doublestop partials) -|',
+        5.5,
         ),
     )
 
@@ -61,14 +82,35 @@ maker(
 
 maker(
     ('v2', (1, 8)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('<G4 Dqs5>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.hairpin(
         'pp < f > pp < f > pp < f >o niente',
         pieces=baca.mgroups([2, 1, 2, 1, 1, 2]),
         selector=baca.leaves().rleak(),
         ),
+    baca.markup(
+        r'\stirrings-still-seven-plus-five-e-flat',
+        literal=True,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
-        'clouded pane (doublestop partials) -|', 5.5,
+        'clouded pane (doublestop partials) -|',
+        5.5,
         ),
     )
 
@@ -76,7 +118,6 @@ maker(
 
 maker(
     ('va', (1, 10)),
-    baca.clef('alto'),
     baca.dynamic(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
@@ -91,12 +132,27 @@ maker(
 
 maker(
     ('vc', (1, 8)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('Eb2'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.hairpin(
         '(p) < ff -- (ff) >o niente',
         pieces=baca.mgroups([2, 4, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.pitch('Eb2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
     )

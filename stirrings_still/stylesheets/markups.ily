@@ -46,5 +46,23 @@ stirrings-still-presto-largo-markup = \markup
 
 %%% MISCELLANEOUS %%%
 
+stirrings-still-thirteen-plus-nine-e-flat = \markup
+    \line {
+        "(13+9)°/E"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+stirrings-still-seven-plus-five-e-flat = \markup
+    \line {
+        "(7+5)°/E"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
 stirrings-still-molto-scratch-on-slow-strokes = \markup
     "(molto scratch on slow strokes)"
