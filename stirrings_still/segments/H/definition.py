@@ -214,13 +214,11 @@ maker(
 maker(
     ('v2', 6),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
     )
 
 maker(
     ('v2', (7, 10)),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
     )
 
 maker(
@@ -494,6 +492,7 @@ maker(
 
 maker(
     ('vc', (8, 31)),
+    baca.markup('11°/Bb'),
     baca.chunk( 
         baca.glissando(
             allow_repeats=True,
@@ -520,12 +519,12 @@ maker(
     )
 
 maker(
-    ('vc', (13, 27)),
+    ('vc', (9, 27)),
     baca.text_spanner(
-        'poco overpressure -> molto overpressure =|'
+        'no overpressure -> molto overpressure =|'
             ' (molto) -> no overpressure.',
         abjad.tweak(5.5).staff_padding,
-        pieces=baca.mgroups([4, 6, 5 + 1]),
+        pieces=baca.mgroups([9, 5, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -660,6 +659,16 @@ maker(
 
 maker(
     ('trio', (23, 28)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
@@ -671,6 +680,8 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.new(
+        baca.markup('13°/Bb'),
+        baca.pitch('Gqf4'),
         stirrings_still.pickets(
             4,
             2,
@@ -679,6 +690,8 @@ maker(
         match=0,
         ),
     baca.new(
+        baca.markup('7°/Bb'),
+        baca.pitch('Atqf3'),
         stirrings_still.pickets(
             4,
             1,
@@ -687,6 +700,8 @@ maker(
         match=1,
         ),
     baca.new(
+        baca.markup('9°/Bb'),
+        baca.pitch('C3'),
         stirrings_still.pickets(
             4,
             0,
@@ -756,19 +771,35 @@ maker(
 
 maker(
     ('trio', (47, 51)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.hairpin(
         'ff -- ! > mf',
         pieces=baca.mgroups([3, 2]),
         ),
     baca.new(
+        baca.markup('13°/Db'),
+        baca.pitch('Aqs4'),
         stirrings_still.pickets(4, 2),
         match=0,
         ),
     baca.new(
+        baca.markup('9°/Db'),
+        baca.pitch('Eb4'),
         stirrings_still.pickets(4, 1),
         match=1,
         ),
     baca.new(
+        baca.markup('7°/Db'),
+        baca.pitch('Bqf3'),
         stirrings_still.pickets(4, 0),
         match=2,
         ),
@@ -850,14 +881,20 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.new(
+        baca.markup('13°/Db'),
+        baca.pitch('Aqs4'),
         stirrings_still.pickets(4, [1, 1, 1]),
         match=0,
         ),
     baca.new(
+        baca.markup('9°/Db'),
+        baca.pitch('Eb4'),
         stirrings_still.pickets(4, [-1, 2, 2]),
         match=1,
         ),
     baca.new(
+        baca.markup('7°/Db'),
+        baca.pitch('Bqf3'),
         stirrings_still.pickets(4, [1, 1]),
         match=2,
         ),
