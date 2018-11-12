@@ -317,7 +317,7 @@ maker(
     )
 
 maker(
-    ('va', (11, 14)),
+    ('va', (7, 14)),
     baca.hairpin(
         'p -- !',
         abjad.tweak(True).to_barline,
