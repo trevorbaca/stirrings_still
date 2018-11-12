@@ -319,7 +319,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
-    ###baca.pitch('<Dqs5 G#5>'),
+    baca.pitch('<Dqs5 G#5>'),
     ###baca.repeat_tie_to(),
     baca.scp_spanner(
         'T -> poco P =|',
@@ -1422,22 +1422,27 @@ maker(
 
 maker(
     ('vc', (118, 127)),
-    baca.glissando(
-        allow_repeats=True,
-        allow_ties=True,
-        stems=True,
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('Eb2'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
         ),
     baca.hairpin(
         'o< p',
         measures=(118, 119),
         selector=baca.leaves().rleak(),
         ),
-    baca.new(
-        baca.dots_transparent(),
-        baca.stem_transparent(),
-        selector=baca.leaves()[1:-1],
-        ),
-    baca.pitch('Eb2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
         'clouded pane (stepwise above) -|',

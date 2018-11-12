@@ -5267,8 +5267,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [E Violin_I_Music_Voice measure 384 / measure 79]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! baca_make_repeat_tied_notes
+    <dqs''! gs''!>1
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5289,8 +5288,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanFlight                                                   %! MATERIAL:FLIGHT:PiecewiseCommand(1)
 
     % [E Violin_I_Music_Voice measure 385 / measure 80]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! baca_make_repeat_tied_notes
+    <dqs''! gs''!>2..
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -14859,48 +14857,39 @@ E_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     ef,!2.                                                                     %! stirrings_still_clouded_pane
-    \repeatTie
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 425 / measure 120]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 426 / measure 121]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 427 / measure 122]                          %! _comment_measure_numbers
     ef,!2                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 428 / measure 123]                          %! _comment_measure_numbers
     ef,!2                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
     \glissando                                                                 %! baca_glissando
 
     ef,!8                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 429 / measure 124]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 430 / measure 125]                          %! _comment_measure_numbers
     ef,!2.                                                                     %! stirrings_still_clouded_pane
-    \repeatTie
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 431 / measure 126]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
     \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
@@ -14911,7 +14900,6 @@ E_Cello_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     ef,!2..                                                                    %! stirrings_still_clouded_pane
-    \repeatTie
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
