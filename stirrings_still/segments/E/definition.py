@@ -319,7 +319,6 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
     baca.scp_spanner(
         'T -> poco P =|',
         abjad.tweak(8).staff_padding,
@@ -878,7 +877,6 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
     baca.scp_spanner(
         'T -> poco P =|',
         abjad.tweak(8).staff_padding,
@@ -1118,7 +1116,6 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
-    baca.repeat_tie_to(),
     baca.scp_spanner(
         'T -> poco P =|',
         abjad.tweak(8).staff_padding,
@@ -1482,4 +1479,21 @@ maker(
         # TODO: extend to phantom measure
         selector=baca.leaves(),
         ),
+    )
+
+# STAGE 2
+
+maker(
+    ('v1', 79),
+    baca.repeat_tie_to(),
+    )
+
+maker(
+    ('v2', 78),
+    baca.repeat_tie_to(),
+    )
+
+maker(
+    ('va', 77),
+    baca.repeat_tie_to(),
     )
