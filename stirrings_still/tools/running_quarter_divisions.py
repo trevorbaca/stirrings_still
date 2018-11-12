@@ -4,15 +4,16 @@ from abjadext import rmakers
 
 
 def running_quarter_divisions(
-    extra,
+    count,
     *,
     measures=None,
     ):
     """
     Makes running quarter divisions.
     """
-    assert isinstance(extra, int), repr(extra)
-    extra_counts_per_division = [extra]
+    assert isinstance(count, int), repr(count)
+    assert 0 < count, repr(count)
+    ratio = tuple(count * [1])
     return baca.rhythm(
         division_maker=baca.FuseByCountsDivisionCallback(
             counts=abjad.Infinity,
@@ -22,12 +23,9 @@ def running_quarter_divisions(
                 ),
             ),
         measures=measures,
-        rhythm_maker=rmakers.TaleaRhythmMaker(
-            extra_counts_per_division=extra_counts_per_division,
-            talea=rmakers.Talea(
-                counts=[1],
-                denominator=16,
-                ),
+        rhythm_maker=rmakers.TupletRhythmMaker(
+            tag='stirrings_still_running_quarter_divisions',
+            tuplet_ratios=[ratio],
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 ),

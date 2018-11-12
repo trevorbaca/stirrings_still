@@ -4657,636 +4657,613 @@ E_Violin_I_Music_Voice = {                                                     %
 
     % [E Violin_I_Music_Voice measure 368 / measure 63]                        %! _comment_measure_numbers
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
-    d''16
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(6)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(6)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #13                                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #10.5                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
-    ]
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    [
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    [
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
-    ]
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    e''16
-    [
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 369 / measure 64]                        %! _comment_measure_numbers
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    a''16
-    ]
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
-    [
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    ]
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
-    [
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 370 / measure 65]                        %! _comment_measure_numbers
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    ]
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    [
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    ]
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 371 / measure 66]                        %! _comment_measure_numbers
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
-    ]
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    [
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 372 / measure 67]                        %! _comment_measure_numbers
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
-    ]
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    e''16
-    [
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
-    ]
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 373 / measure 68]                        %! _comment_measure_numbers
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    ]
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
-    [
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    ]
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    [
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 374 / measure 69]                        %! _comment_measure_numbers
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    aqs''!16
-    ]
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    [
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
-    ]
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    [
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    [
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
-    ]
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 375 / measure 70]                        %! _comment_measure_numbers
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
-    ]
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 376 / measure 71]                        %! _comment_measure_numbers
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    ]
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
-    [
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 377 / measure 72]                        %! _comment_measure_numbers
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    fqs''!16
-    ]
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    [
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    ]
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    [
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
-    ]
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    [
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 378 / measure 73]                        %! _comment_measure_numbers
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    [
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
-    ]
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    e''16
-    [
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
-    ]
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
-    [
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 379 / measure 74]                        %! _comment_measure_numbers
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    gs''!16
-    ]
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
-    [
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    ]
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    [
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    ]
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    [
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 380 / measure 75]                        %! _comment_measure_numbers
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    e''16
-    ]
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    [
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    [
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
-    ]
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 381 / measure 76]                        %! _comment_measure_numbers
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
-    ]
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 382 / measure 77]                        %! _comment_measure_numbers
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    ]
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
-    [
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    ]
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    f''16
-    [
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    ]
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
-    [
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    ]
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_I_Music_Voice measure 383 / measure 78]                        %! _comment_measure_numbers
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
     - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still_running_quarter_divisions
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #6 #7                                       %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
 
-    e''16
-    ]
+    e''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    fqs''!16
-    [
+    fqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    gs''!16
+    gs''!16                                                                    %! stirrings_still_running_quarter_divisions
 
-    a''16
+    a''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
-    ]
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
 
-    aqs''!16
-    [
+    aqs''!16                                                                   %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
 
-    d''16
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    d''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    f''16
+    f''16                                                                      %! stirrings_still_running_quarter_divisions
 
-    dqs''!16
+    dqs''!16                                                                   %! stirrings_still_running_quarter_divisions
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
-    ]
-    ~                                                                          %! TieCorrectionCommand
+    ]                                                                          %! stirrings_still_running_quarter_divisions
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [E Violin_I_Music_Voice measure 384 / measure 79]                        %! _comment_measure_numbers
@@ -8273,726 +8250,663 @@ E_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
         % [E Violin_II_Music_Voice measure 368 / measure 63]                   %! _comment_measure_numbers
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        d''16
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \accent                                                              %! baca_accent:IndicatorCommand
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [
+        [                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #13                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        f''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        e''16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        gs''!16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        a''16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        e''16
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
+        ]                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        gs''!16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        a''16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        e''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
+        ]                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        gs''!16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        a''16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
         % [E Violin_II_Music_Voice measure 371 / measure 66]                   %! _comment_measure_numbers
-        e''16
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
+        [                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        fqs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        gs''!16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        a''16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
         % [E Violin_II_Music_Voice measure 372 / measure 67]                   %! _comment_measure_numbers
-        f''16
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
+        [                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        dqs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        e''16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        gs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        a''16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
         % [E Violin_II_Music_Voice measure 373 / measure 68]                   %! _comment_measure_numbers
-        dqs''!16
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
+        [                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        e''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        gs''!16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        a''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        e''16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        gs''!16
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
+        ]                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        a''16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        e''16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        gs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        a''16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
         % [E Violin_II_Music_Voice measure 375 / measure 70]                   %! _comment_measure_numbers
-        f''16
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
+        [                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        e''16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
         % [E Violin_II_Music_Voice measure 376 / measure 71]                   %! _comment_measure_numbers
-        gs''!16
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
+        [                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        a''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        e''16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        gs''!16
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
+        ]                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        a''16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        e''16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        gs''!16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        a''16
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
+        ]                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        e''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        gs''!16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        a''16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
         - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
+        ]                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        e''16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        gs''!16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        a''16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        e''16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        gs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        a''16
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
+        ]                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        e''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
         % [E Violin_II_Music_Voice measure 381 / measure 76]                   %! _comment_measure_numbers
-        gs''!16
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
+        [                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        a''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        f''16
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
         % [E Violin_II_Music_Voice measure 382 / measure 77]                   %! _comment_measure_numbers
-        e''16
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
+        [                                                                      %! stirrings_still_running_quarter_divisions
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
-        fqs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        gs''!16
-        ]
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        a''16
-        [
+        d''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        f''16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
+        dqs''!8                                                                %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        f''16
-        [
+        e''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        dqs''!16
+        fqs''!8                                                                %! stirrings_still_running_quarter_divisions
 
-        e''16
-        ]
+        gs''!8                                                                 %! stirrings_still_running_quarter_divisions
+        ]                                                                      %! stirrings_still_running_quarter_divisions
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 2/3 {                                                               %! stirrings_still_running_quarter_divisions
 
-        fqs''!16
-        [
+        a''8                                                                   %! stirrings_still_running_quarter_divisions
+        [                                                                      %! stirrings_still_running_quarter_divisions
 
-        gs''!16
+        f''8                                                                   %! stirrings_still_running_quarter_divisions
 
-        a''16
+        aqs''!8                                                                %! stirrings_still_running_quarter_divisions
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        ]
-        ~                                                                      %! TieCorrectionCommand
+        ]                                                                      %! stirrings_still_running_quarter_divisions
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! stirrings_still_running_quarter_divisions
 
     % [E Violin_II_Music_Voice measure 383 / measure 78]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -11604,674 +11518,375 @@ E_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        % [E Viola_Music_Voice measure 368 / measure 63]                       %! _comment_measure_numbers
-        \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
-        \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_368:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_368:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-        \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
-        \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-        d''16
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(6)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [
-        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #13                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-
-        f''16
-
-        dqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        e''16
-        [
-
-        fqs''!16
-
-        gs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        a''16
-        [
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-
-        f''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        dqs''!16
-        [
-
-        e''16
-
-        fqs''!16
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        gs''!16
-        [
-
-        a''16
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        f''16
-        [
-
-        dqs''!16
-
-        e''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        fqs''!16
-        [
-
-        gs''!16
-
-        a''16
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        [
-
-        f''16
-
-        dqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        e''16
-        [
-
-        fqs''!16
-
-        gs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        % [E Viola_Music_Voice measure 371 / measure 66]                       %! _comment_measure_numbers
-        a''16
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-
-        f''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        dqs''!16
-        [
-
-        e''16
-
-        fqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        % [E Viola_Music_Voice measure 372 / measure 67]                       %! _comment_measure_numbers
-        gs''!16
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-        a''16
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        f''16
-        [
-
-        dqs''!16
-
-        e''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        fqs''!16
-        [
-
-        gs''!16
-
-        a''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        % [E Viola_Music_Voice measure 373 / measure 68]                       %! _comment_measure_numbers
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-        f''16
-
-        dqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        e''16
-        [
-
-        fqs''!16
-
-        gs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        a''16
-        [
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-
-        f''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        dqs''!16
-        [
-
-        e''16
-
-        fqs''!16
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        gs''!16
-        [
-
-        a''16
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        f''16
-        [
-
-        dqs''!16
-
-        e''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        fqs''!16
-        [
-
-        gs''!16
-
-        a''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        % [E Viola_Music_Voice measure 375 / measure 70]                       %! _comment_measure_numbers
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-        f''16
-
-        dqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        e''16
-        [
-
-        fqs''!16
-
-        gs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        % [E Viola_Music_Voice measure 376 / measure 71]                       %! _comment_measure_numbers
-        a''16
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-
-        f''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        dqs''!16
-        [
-
-        e''16
-
-        fqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        gs''!16
-        [
-
-        a''16
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        f''16
-        [
-
-        dqs''!16
-
-        e''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        fqs''!16
-        [
-
-        gs''!16
-
-        a''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        [
-
-        f''16
-
-        dqs''!16
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        e''16
-        [
-
-        fqs''!16
-
-        gs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        a''16
-        [
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-
-        f''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        dqs''!16
-        [
-
-        e''16
-
-        fqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        gs''!16
-        [
-
-        a''16
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        - \tweak staff-padding #8                                              %! stirrings_still_bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        f''16
-        [
-
-        dqs''!16
-
-        e''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        fqs''!16
-        [
-
-        gs''!16
-
-        a''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        [
-
-        f''16
-
-        dqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        e''16
-        [
-
-        fqs''!16
-
-        gs''!16
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        a''16
-        [
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-
-        f''16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        dqs''!16
-        [
-
-        e''16
-
-        fqs''!16
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        % [E Viola_Music_Voice measure 381 / measure 76]                       %! _comment_measure_numbers
-        gs''!16
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #6 #7                                   %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-        a''16
-
-        d''16
-        - \accent                                                              %! baca_accent:IndicatorCommand
-        ]
-
-    }
-
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
-
-        f''16
-        [
-
-        dqs''!16
-
-        e''16
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        ]
-        ~                                                                      %! TieCorrectionCommand
-        \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
-
-    }
+    % [E Viola_Music_Voice measure 368 / measure 63]                           %! _comment_measure_numbers
+    \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
+    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_368:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                     %! MEASURE_368:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(6)
+    - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(6)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    [                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #10.5                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 369 / measure 64]                           %! _comment_measure_numbers
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 370 / measure 65]                           %! _comment_measure_numbers
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 371 / measure 66]                           %! _comment_measure_numbers
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    [                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 372 / measure 67]                           %! _comment_measure_numbers
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
+    - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    [                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 373 / measure 68]                           %! _comment_measure_numbers
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
+    - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    [                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 374 / measure 69]                           %! _comment_measure_numbers
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
+    - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 375 / measure 70]                           %! _comment_measure_numbers
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
+    - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    [                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 376 / measure 71]                           %! _comment_measure_numbers
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
+    - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    [                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 377 / measure 72]                           %! _comment_measure_numbers
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
+    - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 378 / measure 73]                           %! _comment_measure_numbers
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(7)
+    - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 379 / measure 74]                           %! _comment_measure_numbers
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    - \tweak staff-padding #8                                                  %! stirrings_still_bcps:BCPCommand(8)
+    - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 380 / measure 75]                           %! _comment_measure_numbers
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    dqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    e''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    fqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    gs''!8                                                                     %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    % [E Viola_Music_Voice measure 381 / measure 76]                           %! _comment_measure_numbers
+    a''8                                                                       %! stirrings_still_running_quarter_divisions
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    [                                                                          %! stirrings_still_running_quarter_divisions
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-right-text #6 #7                                       %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    f''8                                                                       %! stirrings_still_running_quarter_divisions
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+
+    aqs''!8                                                                    %! stirrings_still_running_quarter_divisions
+    [                                                                          %! stirrings_still_running_quarter_divisions
+
+    d''8                                                                       %! stirrings_still_running_quarter_divisions
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
+    ]                                                                          %! stirrings_still_running_quarter_divisions
+    \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [E Viola_Music_Voice measure 382 / measure 77]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -12504,6 +12119,10 @@ E_Viola_Music_Voice = {                                                        %
 
     % [E Viola_Music_Voice measure 394 / measure 89]                           %! _comment_measure_numbers
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
+    \clef "alto"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -12519,6 +12138,7 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -14329,6 +13949,7 @@ E_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (down)"                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -14337,83 +13958,94 @@ E_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [E Cello_Music_Voice measure 369 / measure 64]                           %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 370 / measure 65]                           %! _comment_measure_numbers
     d,2                                                                        %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     d,8                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 371 / measure 66]                           %! _comment_measure_numbers
     d,2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 372 / measure 67]                           %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 373 / measure 68]                           %! _comment_measure_numbers
     d,2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 374 / measure 69]                           %! _comment_measure_numbers
     d,2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 375 / measure 70]                           %! _comment_measure_numbers
     d,2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 376 / measure 71]                           %! _comment_measure_numbers
     d,2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     d,8                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 377 / measure 72]                           %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 378 / measure 73]                           %! _comment_measure_numbers
     d,1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 379 / measure 74]                           %! _comment_measure_numbers
     d,1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 380 / measure 75]                           %! _comment_measure_numbers
     d,2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     d,8                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 381 / measure 76]                           %! _comment_measure_numbers
     d,2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 382 / measure 77]                           %! _comment_measure_numbers
     d,1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 383 / measure 78]                           %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 384 / measure 79]                           %! _comment_measure_numbers
     d,1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 385 / measure 80]                           %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     d,2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -14439,6 +14071,7 @@ E_Cello_Music_Voice = {                                                        %
 
     % [E Cello_Music_Voice measure 387 / measure 82]                           %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (continues)"                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -14447,28 +14080,39 @@ E_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [E Cello_Music_Voice measure 388 / measure 83]                           %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d,2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 389 / measure 84]                           %! _comment_measure_numbers
     d,1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 390 / measure 85]                           %! _comment_measure_numbers
     d,1                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 391 / measure 86]                           %! _comment_measure_numbers
     d,4                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 392 / measure 87]                           %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 393 / measure 88]                           %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     d,2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
@@ -15114,6 +14758,7 @@ E_Cello_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (continues)"                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -15122,36 +14767,47 @@ E_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [E Cello_Music_Voice measure 415 / measure 110]                          %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 416 / measure 111]                          %! _comment_measure_numbers
     d,4                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 417 / measure 112]                          %! _comment_measure_numbers
     d,2                                                                        %! stirrings_still_clouded_pane
     \!                                                                         %! baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 418 / measure 113]                          %! _comment_measure_numbers
     d,2                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     d,8                                                                        %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 419 / measure 114]                          %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 420 / measure 115]                          %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     d,2..                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -15187,6 +14843,7 @@ E_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (stepwise above)"             %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -15195,43 +14852,64 @@ E_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [E Cello_Music_Voice measure 424 / measure 119]                          %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     ef,!2.                                                                     %! stirrings_still_clouded_pane
     \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 425 / measure 120]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 426 / measure 121]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
     \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 427 / measure 122]                          %! _comment_measure_numbers
     ef,!2                                                                      %! stirrings_still_clouded_pane
     \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 428 / measure 123]                          %! _comment_measure_numbers
     ef,!2                                                                      %! stirrings_still_clouded_pane
     \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     ef,!8                                                                      %! stirrings_still_clouded_pane
     \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 429 / measure 124]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
     \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 430 / measure 125]                          %! _comment_measure_numbers
     ef,!2.                                                                     %! stirrings_still_clouded_pane
     \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 431 / measure 126]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
     \repeatTie
+    \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 432 / measure 127]                          %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     ef,!2..                                                                    %! stirrings_still_clouded_pane
     \repeatTie
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
