@@ -353,6 +353,12 @@ maker(
 
 maker(
     ('vc', 6),
+    baca.chunk(
+        baca.beam(),
+        baca.note_head_style_harmonic(),
+        baca.pitches('C#4 F4 G2 B3 D3'),
+        baca.glissando(),
+        ),
     baca.hairpin(
         'p <',
         bookend=False,
@@ -362,14 +368,11 @@ maker(
         abjad.tweak(10.5).staff_padding,
         ),
     baca.script_staff_padding(7),
-    baca.tuplet_bracket_staff_padding(1),
-    baca.tuplet_bracket_down(),
-    stirrings_still.accelerando((1, 4), (3, 32)),
-    stirrings_still.bcps(
-        0,
-        abjad.tweak(4).staff_padding,
-        clt=True,
+    stirrings_still.transition_bcps(
+        abjad.tweak(5).staff_padding,
+        final_spanner=True,
         ),
+    stirrings_still.eighths(),
     )
 
 maker(
