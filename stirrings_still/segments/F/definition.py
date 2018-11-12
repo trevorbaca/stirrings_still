@@ -76,6 +76,7 @@ maker(
 
 maker(
     ('va', (1, 10)),
+    baca.clef('alto'),
     baca.dynamic(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
