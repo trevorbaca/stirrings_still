@@ -171,6 +171,21 @@ maker(
     baca.pitch('Bb4'),
     )
 
+maker(
+    ('v1', [(30, 31), (38, 40), (42, 45)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.interpolate_staff_positions(
+            'Db5',
+            'B4',
+            ),
+        ),
+    )
+
 # v2
 
 maker(
@@ -269,6 +284,18 @@ maker(
 maker(
     ('v2', (15, 16)),
     baca.pitch('Ab4'),
+    )
+
+maker(
+    ('v2', [(30, 31), (38, 40), (42, 45)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('B4'),
+        ),
     )
 
 maker(
@@ -396,6 +423,18 @@ maker(
 maker(
     ('va', (15, 16)),
     baca.pitch('B3'),
+    )
+
+maker(
+    ('va', [(30, 31), (38, 40), (42, 45)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('B4'),
+        ),
     )
 
 # vc
