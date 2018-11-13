@@ -956,7 +956,17 @@ maker(
 
 maker(
     ('vc', (32, -1)),
-    baca.pitch('Db2'),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Db2'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     stirrings_still.clouded_pane_spanner(
         'clouded pane -|',
         5.5,
@@ -967,6 +977,11 @@ maker(
 
 maker(
     ('vc', (38, -1)),
+    baca.new(
+        baca.dots_transparent(),
+        baca.stem_transparent(),
+        selector=baca.leaves()[:-1],
+        ),
     baca.scp_spanner(
         'T -> T poss. =|',
         abjad.tweak(8).staff_padding,
