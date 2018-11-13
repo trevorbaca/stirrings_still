@@ -81,6 +81,11 @@ maker(
             allow_ties=True,
             stems=True,
             ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
         baca.pitch('<F4 A4>'),
         baca.untie_to(
             selector=baca.leaves(),
@@ -255,6 +260,11 @@ maker(
             allow_ties=True,
             stems=True,
             ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
         baca.pitch('<E#4 G#4>'),
         baca.untie_to(
             selector=baca.leaves(),
@@ -332,6 +342,11 @@ maker(
             allow_ties=True,
             stems=True,
             ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
         baca.pitch('<Eqs4 Gtqs4>'),
         baca.untie_to(
             selector=baca.leaves(),
@@ -405,6 +420,11 @@ maker(
             allow_repeats=True,
             allow_ties=True,
             stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
             ),
         baca.pitch('Bb1'),
         baca.untie_to(
