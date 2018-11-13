@@ -220,7 +220,19 @@ maker(
         selector=baca.pheads(),
         ),
     baca.breathe(),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Aqf5'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.dynamic('p'),
+    baca.markup('11°/Eb'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -259,6 +271,22 @@ maker(
         pieces=baca.plts()[:-1],
         ),
     stirrings_still.flight('A', 0, start=0),
+    )
+
+maker(
+    ('v1', (32, 53)),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Bqf5'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('7°/Db'),
     )
 
 maker(
@@ -448,7 +476,19 @@ maker(
         selector=baca.pheads(),
         ),
     baca.breathe(),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('F5'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.dynamic('p'),
+    baca.markup('9°/Eb'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -487,6 +527,22 @@ maker(
         pieces=baca.plts()[:-1],
         ),
     stirrings_still.flight('A', 0, start=2),
+    )
+
+maker(
+    ('v2', (32, 53)),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Eb5'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('9°/Db'),
     )
 
 maker(
@@ -675,7 +731,19 @@ maker(
         selector=baca.pheads(),
         ),
     baca.breathe(),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('G3'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.dynamic('p'),
+    baca.markup('5°/Eb'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -714,6 +782,22 @@ maker(
         pieces=baca.plts()[:-1],
         ),
     stirrings_still.flight('A', -1, start=4),
+    )
+
+maker(
+    ('va', (32, 53)),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('F3'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('5°/Db'),
     )
 
 maker(
@@ -913,6 +997,17 @@ maker(
         selector=baca.pheads(),
         ),
     baca.breathe(),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Eb2'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.dynamic('p'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
