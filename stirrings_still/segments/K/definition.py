@@ -950,6 +950,21 @@ maker(
     )
 
 maker(
+    ('vc', (15, 20)),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('E2'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    )
+
+maker(
     ('vc', (18, 20)),
     baca.accent(
         selector=baca.pheads(),
