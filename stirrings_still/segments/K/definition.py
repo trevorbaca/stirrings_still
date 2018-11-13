@@ -359,6 +359,42 @@ maker(
         ),
     )
 
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('tutti', (1, 2)),
+    baca.hairpin(
+        'pp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.tuplet_bracket_down(),
+    )
+
+maker(
+    ('tutti', (3, 4)),
+    baca.hairpin(
+        '"f" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+# v1, v2, vc
+
+maker(
+    (['v1', 'v2', 'vc'], (5, 17)),
+    baca.hairpin(
+        'pp < mp',
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
 # v2
 
 maker(
@@ -1168,40 +1204,4 @@ maker(
         pieces=baca.cmgroups([8, 8]),
         ),
     stirrings_still.clouded_pane(),
-    )
-
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
-    )
-
-maker(
-    ('tutti', (1, 2)),
-    baca.hairpin(
-        'pp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.tuplet_bracket_down(),
-    )
-
-maker(
-    ('tutti', (3, 4)),
-    baca.hairpin(
-        '"f" -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    )
-
-# TODO: test and see if this needs to remain at end:
-
-maker(
-    (['v1', 'v2', 'vc'], (5, 17)),
-    baca.hairpin(
-        'pp < mp',
-        selector=baca.leaves().rleak(),
-        ),
     )
