@@ -171,6 +171,22 @@ maker(
     )
 
 maker(
+    ('v1', (17, 20)),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Aqs5'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('11°/E'),
+    )
+
+maker(
     ('v1', (18, 20)),
     baca.accent(
         selector=baca.pheads(),
@@ -424,6 +440,22 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
+    )
+
+maker(
+    ('v2', (17, 20)),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('F#5'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('9°/E'),
     )
 
 maker(
@@ -687,6 +719,18 @@ maker(
         selector=baca.pheads(),
         ),
     baca.breathe(),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('G#3'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('5°/E'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -883,6 +927,28 @@ maker(
         clt=True,
         ),
     stirrings_still.trajectories('B', -3, -3, end_counts=[1]),
+    )
+
+maker(
+    ('vc', (1, 2)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'D4',
+        'Ab3',
+        selector=baca.leaves()[:4],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Ab3',
+        'B3',
+        selector=baca.leaves()[4-1:5],
+        ),
+    stirrings_still.glissando_interpolation(
+        'B3',
+        'F3',
+        selector=baca.leaves()[5-1:8],
+        ),
     )
 
 maker(
@@ -1119,7 +1185,6 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.tuplet_bracket_down(),
-    stirrings_still.glissando_without_ties(),
     )
 
 maker(
@@ -1131,12 +1196,7 @@ maker(
         ),
     )
 
-# TODO: test and see if these two need to remain at end
-
-maker(
-    (['v1', 'v2', 'vc'], (5, 8)),
-    stirrings_still.glissando_without_ties(),
-    )
+# TODO: test and see if this needs to remain at end:
 
 maker(
     (['v1', 'v2', 'vc'], (5, 17)),
