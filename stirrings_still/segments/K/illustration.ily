@@ -6750,6 +6750,7 @@ K_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #1.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -6761,15 +6762,19 @@ K_Cello_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! stirrings_still_flight
 
         % [K Cello_Music_Voice measure 588 / measure 33]                       %! _comment_measure_numbers
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         df,!8                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \repeatTie
         \stopTextSpanOne                                                       %! baca_text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "larg."                                 %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #1.5                              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #10.5                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
         df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -6779,6 +6784,7 @@ K_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
         df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -6788,19 +6794,20 @@ K_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_flight
 
     % [K Cello_Music_Voice measure 589 / measure 34]                           %! _comment_measure_numbers
     df,!4                                                                      %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trem. larg."                               %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #1.5                                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     df,!4.                                                                     %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -6810,6 +6817,7 @@ K_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/8 {                                                               %! stirrings_still_flight
@@ -6829,6 +6837,7 @@ K_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #1.5                              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #10.5                                           %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpanOne                                                      %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
         df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -6838,6 +6847,7 @@ K_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
         df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -6847,6 +6857,7 @@ K_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_flight
 
@@ -6856,7 +6867,7 @@ K_Cello_Music_Voice = {                                                        %
         % [K Cello_Music_Voice measure 591 / measure 36]                       %! _comment_measure_numbers
         df,!4                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \repeatTie
+        \glissando                                                             %! baca_glissando
 
         df,!4.                                                                 %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -6866,6 +6877,7 @@ K_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
         df,!4.                                                                 %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -6875,6 +6887,7 @@ K_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "T"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_flight
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -6884,13 +6897,13 @@ K_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_flight
 
     % [K Cello_Music_Voice measure 592 / measure 37]                           %! _comment_measure_numbers
     df,!4.                                                                     %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trem. larghiss."                           %! baca_text_spanner:PiecewiseCommand(1)
@@ -6899,6 +6912,7 @@ K_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #10.5                                               %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     df,!4                                                                      %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -6911,55 +6925,60 @@ K_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     df,!4.                                                                     %! stirrings_still_flight
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 593 / measure 38]                           %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     df,!2                                                                      %! stirrings_still_clouded_pane
     \stopTextSpanOne                                                           %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     df,!8                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 594 / measure 39]                           %! _comment_measure_numbers
     df,!2                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 595 / measure 40]                           %! _comment_measure_numbers
     df,!1                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 596 / measure 41]                           %! _comment_measure_numbers
     df,!2.                                                                     %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 597 / measure 42]                           %! _comment_measure_numbers
     df,!1                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 598 / measure 43]                           %! _comment_measure_numbers
     df,!1                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 599 / measure 44]                           %! _comment_measure_numbers
     df,!2..                                                                    %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 600 / measure 45]                           %! _comment_measure_numbers
     df,!2.                                                                     %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 601 / measure 46]                           %! _comment_measure_numbers
     df,!1                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T poss."                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
@@ -6968,34 +6987,39 @@ K_Cello_Music_Voice = {                                                        %
 
     % [K Cello_Music_Voice measure 602 / measure 47]                           %! _comment_measure_numbers
     df,!1                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 603 / measure 48]                           %! _comment_measure_numbers
     df,!2.                                                                     %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 604 / measure 49]                           %! _comment_measure_numbers
     df,!2..                                                                    %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 605 / measure 50]                           %! _comment_measure_numbers
     df,!2..                                                                    %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 606 / measure 51]                           %! _comment_measure_numbers
     df,!2.                                                                     %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 607 / measure 52]                           %! _comment_measure_numbers
     df,!2                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
 
     % [K Cello_Music_Voice measure 608 / measure 53]                           %! _comment_measure_numbers
     df,!2                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
+    \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     df,!8                                                                      %! stirrings_still_clouded_pane
-    \repeatTie
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)

@@ -71,6 +71,23 @@ time = (
 
 stirrings_still.time(maker, time)
 
+# v1
+
+maker(
+    ('v1', [(1, 2), (5, 11)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<F4 A4>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    )
+
 # trio
 
 maker(
@@ -173,9 +190,7 @@ maker(
         ),
     baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (beacon) -|', 5.5,
-        ),
+    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
 # tutti
@@ -199,6 +214,22 @@ maker(
     )
 
 # v2
+
+maker(
+    ('v2', [(1, 2), (5, 11)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<E#4 G#4>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    )
+
 
 maker(
     ('v2', (3, 4)),
@@ -226,6 +257,23 @@ maker(
         measures=4,
         ),
     baca.tuplet_bracket_staff_padding(3),
+    )
+
+# va
+
+maker(
+    ('va', [(1, 2), (5, 11)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<Eqs4 Gtqs4>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     )
 
 # vc
@@ -257,6 +305,17 @@ maker(
 
 maker(
     ('vc', (7, 11)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Bb1'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=baca.leaf(-1),
@@ -277,6 +336,10 @@ maker(
         'fff > pp',
         ),
     stirrings_still.accelerando((1, 4), (3, 32)),
+    stirrings_still.glissando_interpolation(
+        'Cb2',
+        'Bb1',
+        ),
     )
 
 maker(
