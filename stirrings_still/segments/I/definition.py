@@ -52,10 +52,34 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', (1, 7)),
     baca.beam(),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Aqs4'),
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
         ),
+    )
+
+maker(
+    ('v1', (10, 11)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<F4 A4>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('(12ET)'),
     )
 
 # trio
@@ -127,20 +151,68 @@ maker(
 
 maker(
     ('v2', (1, 7)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Eb4'),
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(8).staff_padding,
         ),
     )
 
+maker(
+    ('v2', (10, 11)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<E4 G#4>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('(12ET)'),
+    )
+
 # va
 
 maker(
     ('va', (1, 7)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('Bqf3'),
+        ),
     baca.circle_bow_spanner(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
         ),
+    )
+
+maker(
+    ('va', (10, 11)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<Eqs4 Gtqs4>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('(24ET)'),
     )
 
 # vc
