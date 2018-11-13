@@ -88,6 +88,38 @@ maker(
         ),
     )
 
+maker(
+    ('v1', (12, 17)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'A4',
+        'C5',
+        selector=baca.leaves()[:4],
+        ),
+    stirrings_still.glissando_interpolation(
+        'C5',
+        'B4',
+        selector=baca.leaves()[4-1:5],
+        ),
+    stirrings_still.glissando_interpolation(
+        'B4',
+        'Db5',
+        selector=baca.leaves()[5-1:12],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Db5',
+        'C5',
+        selector=baca.leaves()[12-1:14],
+        ),
+    stirrings_still.glissando_interpolation(
+        'C5',
+        'E5',
+        selector=baca.leaves()[14-1:25],
+        ),
+    )
+
 # trio
 
 maker(
@@ -127,7 +159,7 @@ maker(
 maker(
     ('trio', (12, 17)),
     baca.hairpin(
-        'fff > pp -- !',
+        '"fff" > pp -- !',
         abjad.tweak(True).to_barline,
         pieces=baca.mgroups([2, 4 + 1]),
         selector=baca.leaves().rleak(),
@@ -230,6 +262,37 @@ maker(
         ),
     )
 
+maker(
+    ('v2', (12, 17)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'G#4',
+        'B4',
+        selector=baca.leaves()[:7],
+        ),
+    stirrings_still.glissando_interpolation(
+        'B4',
+        'A4',
+        selector=baca.leaves()[7-1:13],
+        ),
+    stirrings_still.glissando_interpolation(
+        'A4',
+        'C5',
+        selector=baca.leaves()[13-1:19],
+        ),
+    stirrings_still.glissando_interpolation(
+        'C5',
+        'B4',
+        selector=baca.leaves()[19-1:26],
+        ),
+    stirrings_still.glissando_interpolation(
+        'B4',
+        'C#5',
+        selector=baca.leaves()[26-1:29],
+        ),
+    )
 
 maker(
     ('v2', (3, 4)),
@@ -273,6 +336,38 @@ maker(
         baca.untie_to(
             selector=baca.leaves(),
             ),
+        ),
+    )
+
+maker(
+    ('va', (12, 17)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'F4',
+        'E4',
+        selector=baca.leaves()[:5],
+        ),
+    stirrings_still.glissando_interpolation(
+        'E4',
+        'Gb4',
+        selector=baca.leaves()[5-1:9],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Gb4',
+        'F4',
+        selector=baca.leaves()[9-1:14],
+        ),
+    stirrings_still.glissando_interpolation(
+        'F4',
+        'Eb4',
+        selector=baca.leaves()[14-1:20],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Eb4',
+        'D4',
+        selector=baca.leaves()[20-1:28],
         ),
     )
 
