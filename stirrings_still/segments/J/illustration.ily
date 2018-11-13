@@ -523,6 +523,8 @@ J_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
     % [J Violin_I_Music_Voice measure 544 / measure 6]                         %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
@@ -551,6 +553,8 @@ J_Violin_I_Music_Voice = {                                                     %
 
     <f' a'>8
     \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [J Violin_I_Music_Voice measure 549 / measure 11]                        %! _comment_measure_numbers
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
@@ -1059,6 +1063,8 @@ J_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
 
     % [J Violin_II_Music_Voice measure 544 / measure 6]                        %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
@@ -1087,6 +1093,8 @@ J_Violin_II_Music_Voice = {                                                    %
 
     <es'! gs'!>8
     \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [J Violin_II_Music_Voice measure 549 / measure 11]                       %! _comment_measure_numbers
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
@@ -1564,6 +1572,8 @@ J_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [J Viola_Music_Voice measure 544 / measure 6]                            %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
@@ -1592,6 +1602,8 @@ J_Viola_Music_Voice = {                                                        %
 
     <eqs'! gtqs'!>8
     \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [J Viola_Music_Voice measure 549 / measure 11]                           %! _comment_measure_numbers
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
@@ -2092,6 +2104,8 @@ J_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [J Cello_Music_Voice measure 546 / measure 8]                            %! _comment_measure_numbers
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
@@ -2109,6 +2123,8 @@ J_Cello_Music_Voice = {                                                        %
 
     bf,,!8                                                                     %! stirrings_still_urtext_field
     \glissando                                                                 %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [J Cello_Music_Voice measure 549 / measure 11]                           %! _comment_measure_numbers
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
