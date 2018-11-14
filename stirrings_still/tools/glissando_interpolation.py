@@ -10,6 +10,7 @@ def glissando_interpolation(
     """
     Makes glissando interpolation.
     """
+    # TODO: change to baca.chunk()
     return baca.suite(
         baca.glissando(
             allow_repeats=True,

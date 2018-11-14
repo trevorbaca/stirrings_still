@@ -95,33 +95,9 @@ maker(
 
 maker(
     ('v1', (12, 17)),
-    baca.untie_to(
-        selector=baca.leaves(),
-        ),
-    stirrings_still.glissando_interpolation(
-        'A4',
-        'C5',
-        selector=baca.leaves()[:4],
-        ),
-    stirrings_still.glissando_interpolation(
-        'C5',
-        'B4',
-        selector=baca.leaves()[4-1:5],
-        ),
-    stirrings_still.glissando_interpolation(
-        'B4',
-        'Db5',
-        selector=baca.leaves()[5-1:12],
-        ),
-    stirrings_still.glissando_interpolation(
-        'Db5',
-        'C5',
-        selector=baca.leaves()[12-1:14],
-        ),
-    stirrings_still.glissando_interpolation(
-        'C5',
+    stirrings_still.multistage_leaf_glissando(
+        [('A4', 4), ('C5', 2), ('B4', 8), ('Db5', 3), ('C5', None)],
         'E5',
-        selector=baca.leaves()[14-1:25],
         ),
     )
 
