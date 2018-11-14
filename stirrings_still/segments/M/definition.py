@@ -234,7 +234,26 @@ maker(
 
 maker(
     ('vc', (1, 28)),
-    baca.pitch('C2'),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            selector=baca.leaves().rleak(),
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves().rleak()[1:-1],
+            ),
+        baca.pitch(
+            'C2',
+            selector=baca.leaves().rleak(),
+            ),
+        baca.untie_to(
+            selector=baca.leaves().rleak(),
+            ),
+        ),
     stirrings_still.clouded_pane(),
     )
 
@@ -254,7 +273,7 @@ maker(
 maker(
     'trio',
     baca.hairpin(
-        'p < ff',
+        'o< ff',
         measures=(1, 8),
         selector=baca.leaves().rleak(),
         ),
