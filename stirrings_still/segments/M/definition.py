@@ -50,7 +50,7 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', [(1, 8), (13, 16), (21, 24), (29, 32)]),
-    baca.chunk( 
+    baca.chunk(
         baca.glissando(
             allow_repeats=True,
             allow_ties=True,
@@ -183,113 +183,111 @@ maker(
 # v2
 
 maker(
-    'v2',
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
+    ('v2', [(1, 8), (13, 16), (21, 24), (29, 32)]),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
             ),
-        measures=(1, 8),
-        ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
             ),
-        stirrings_still.pickets(4, 1),
-        measures=(9, 12),
-        ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
+        baca.pitch('Fqs5'),
+        baca.untie_to(
+            selector=baca.leaves(),
             ),
-        measures=(13, 16),
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
-            selector=baca.leaves()[1:].rleak(),
-            ),
-        stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
-        measures=(17, 20),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
         ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        measures=(21, 24),
+    baca.markup('11°/C'),
+    )
+
+maker(
+    ('v2', (9, 12)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
-            selector=baca.leaves()[1:].rleak(),
-            ),
-        stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
-        measures=(25, 28),
+    stirrings_still.pickets(4, 1),
+    )
+
+maker(
+    ('v2', (17, 20)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.leaves()[1:].rleak(),
         ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        measures=(29, 32),
+    stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
+    )
+
+maker(
+    ('v2', (25, 28)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.leaves()[1:].rleak(),
         ),
+    stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
     )
 
 # va
 
 maker(
-    'va',
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
+    ('va', [(1, 8), (13, 16), (21, 24), (29, 32)]),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
             ),
-        measures=(1, 8),
-        ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
             ),
-        stirrings_still.pickets(4, 0),
-        measures=(9, 12),
-        ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
+        baca.pitch('Aqf4'),
+        baca.untie_to(
+            selector=baca.leaves(),
             ),
-        measures=(13, 16),
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
-            selector=baca.leaves()[1:].rleak(),
-            ),
-        stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
-        measures=(17, 20),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
         ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        measures=(21, 24),
+    baca.markup('11°/C'),
+    )
+
+maker(
+    ('va', (9, 12)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
-            selector=baca.leaves()[1:].rleak(),
-            ),
-        stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
-        measures=(25, 28),
+    stirrings_still.pickets(4, 0),
+    )
+
+maker(
+    ('va', (17, 20)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.leaves()[1:].rleak(),
         ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        measures=(29, 32),
+    stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
+    )
+
+maker(
+    ('va', (25, 28)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.leaves()[1:].rleak(),
         ),
+    stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
     )
 
 # vc
@@ -317,7 +315,7 @@ maker(
 
 maker(
     ('vc', (1, 28)),
-    baca.chunk( 
+    baca.chunk(
         baca.glissando(
             allow_repeats=True,
             allow_ties=True,
@@ -341,12 +339,28 @@ maker(
     )
 
 maker(
-    ('vc', (29, -1)),
-    baca.suite(
-        stirrings_still.clouded_pane(),
+    ('vc', (29, 32)),
+    baca.chunk(
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            selector=baca.leaves(),
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
         baca.untie_to(
-            selector=baca.pleaves(),
+            selector=baca.leaves(),
             ),
         ),
-    stirrings_still.glissando_interpolation('C2', 'Bb1'),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        baca.interpolate_staff_positions('C2', 'Bb1'),
+        ),
+    stirrings_still.clouded_pane(),
     )
