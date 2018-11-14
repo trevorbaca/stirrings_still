@@ -105,15 +105,23 @@ maker(
     )
 
 maker(
-    ('v1', (13, 16)),
+    ('v1', (13, 19)),
     baca.hairpin(
         'niente o< f',
         selector=baca.leaves().rleak(),
-        )
+        ),
+    baca.scp_spanner(
+        'T -> O',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
+        bookend=-1,
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
     ('v1', (13, 22)),
+    baca.breathe(),
     stirrings_still.clouded_pane(),
     )
 
@@ -125,10 +133,12 @@ maker(
     baca.hairpin(
         'f < ff >',
         pieces=baca.plts()[:-1].partition_by_counts(
-            [2], cyclic=True),
+            [2],
+            cyclic=True,
+            ),
         ),
     baca.scp_spanner(
-        'T -> P ->',
+        'O -> P ->',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.plts()[:-1],
@@ -160,7 +170,9 @@ maker(
     baca.hairpin(
         'ff < fff >',
         pieces=baca.plts()[:-1].partition_by_counts(
-            [2], cyclic=True),
+            [2],
+            cyclic=True,
+            ),
         ),
     baca.scp_spanner(
         'O -> P ->',
@@ -266,15 +278,23 @@ maker(
     )
 
 maker(
-    ('v2', (13, 16)),
+    ('v2', (13, 19)),
     baca.hairpin(
         'niente o< f',
+        selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> O',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
+        bookend=-1,
         selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('v2', (13, 22)),
+    baca.breathe(),
     stirrings_still.clouded_pane(),
     )
 
@@ -286,10 +306,12 @@ maker(
     baca.hairpin(
         'f < ff >',
         pieces=baca.plts()[:-1].partition_by_counts(
-            [2], cyclic=True),
+            [2],
+            cyclic=True,
+            ),
         ),
     baca.scp_spanner(
-        'T -> P ->',
+        'O -> P ->',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.plts()[:-1],
@@ -321,7 +343,9 @@ maker(
     baca.hairpin(
         'ff < fff >',
         pieces=baca.plts()[:-1].partition_by_counts(
-            [2], cyclic=True),
+            [2],
+            cyclic=True,
+            ),
         ),
     baca.scp_spanner(
         'O -> P ->',
@@ -377,15 +401,23 @@ maker(
     )
 
 maker(
-    ('va', (13, 16)),
+    ('va', (13, 19)),
     baca.hairpin(
         'niente o< f',
+        selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> O',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
+        bookend=-1,
         selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('va', (13, 22)),
+    baca.breathe(),
     stirrings_still.clouded_pane(),
     )
 
@@ -397,10 +429,12 @@ maker(
     baca.hairpin(
         'f < ff >',
         pieces=baca.plts()[:-1].partition_by_counts(
-            [2], cyclic=True),
+            [2],
+            cyclic=True,
+            ),
         ),
     baca.scp_spanner(
-        'T -> P ->',
+        'O -> P ->',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.plts()[:-1],
@@ -432,7 +466,9 @@ maker(
     baca.hairpin(
         'ff < fff >',
         pieces=baca.plts()[:-1].partition_by_counts(
-            [2], cyclic=True),
+            [2],
+            cyclic=True,
+            ),
         ),
     baca.scp_spanner(
         'O -> P ->',
@@ -553,10 +589,12 @@ maker(
     baca.hairpin(
         'f < ff >',
         pieces=baca.plts()[:-1].partition_by_counts(
-            [2], cyclic=True),
+            [2],
+            cyclic=True,
+            ),
         ),
     baca.scp_spanner(
-        'T -> P ->',
+        'O -> P ->',
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.plts()[:-1],
@@ -593,7 +631,9 @@ maker(
     baca.hairpin(
         'ff < fff >',
         pieces=baca.plts()[:-1].partition_by_counts(
-            [2], cyclic=True),
+            [2],
+            cyclic=True,
+            ),
         ),
     baca.scp_spanner(
         'O -> P ->',
