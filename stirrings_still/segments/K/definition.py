@@ -98,6 +98,23 @@ maker(
     )
 
 maker(
+    ('v1', (1, 2)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'E5',
+        'D5',
+        selector=baca.leaves()[:3],
+        ),
+    stirrings_still.glissando_interpolation(
+        'D5',
+        'F5',
+        selector=baca.leaves()[3-1:],
+        ),
+    )
+
+maker(
     ('v1', (3, 4)),
     baca.circle_bow_spanner(
         'wide-poss',
@@ -142,6 +159,58 @@ maker(
     ('v1', [(5, 9), (11, 14), 16]),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('v1', (5, 16)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'F5',
+        'Gb5',
+        selector=baca.leaves()[:5],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Gb5',
+        'C5',
+        selector=baca.leaves()[5-1:8],
+        ),
+    stirrings_still.glissando_interpolation(
+        'C5',
+        'Eb5',
+        selector=baca.leaves()[8-1:13],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Eb5',
+        'Db5',
+        selector=baca.leaves()[13-1:16],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Db5',
+        'F5',
+        selector=baca.leaves()[16-1:21],
+        ),
+    stirrings_still.glissando_interpolation(
+        'F5',
+        'E5',
+        selector=baca.leaves()[21-1:24],
+        ),
+    stirrings_still.glissando_interpolation(
+        'E5',
+        'G5',
+        selector=baca.leaves()[24-1:29],
+        ),
+    stirrings_still.glissando_interpolation(
+        'G5',
+        'F5',
+        selector=baca.leaves()[29-1:31],
+        ),
+    stirrings_still.glissando_interpolation(
+        'F5',
+        'Aqs5',
+        selector=baca.leaves().rleak()[31-1:],
         ),
     )
 
@@ -1021,7 +1090,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(13).staff_padding,
         ),
     stirrings_still.bcps(
         -2,
