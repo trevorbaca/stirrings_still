@@ -415,6 +415,28 @@ maker(
     )
 
 maker(
+    ('v2', (1, 2)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'C#5',
+        'E5',
+        selector=baca.leaves()[:4],
+        ),
+    stirrings_still.glissando_interpolation(
+        'E5',
+        'D5',
+        selector=baca.leaves()[4-1:5],
+        ),
+    stirrings_still.glissando_interpolation(
+        'D5',
+        'Eb5',
+        selector=baca.leaves()[5-1:8],
+        ),
+    )
+
+maker(
     ('v2', (3, 4)),
     baca.circle_bow_spanner(
         'wide-poss',
@@ -450,6 +472,48 @@ maker(
     ('v2', [(5, 9), 13, (15, 16)]),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('v2', (5, 16)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'Eb5',
+        'F5',
+        selector=baca.leaves()[:4],
+        ),
+    stirrings_still.glissando_interpolation(
+        'F5',
+        'B4',
+        selector=baca.leaves()[4-1:12],
+        ),
+    stirrings_still.glissando_interpolation(
+        'B4',
+        'Db5',
+        selector=baca.leaves()[12-1:16],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Db5',
+        'C5',
+        selector=baca.leaves()[16-1:20],
+        ),
+    stirrings_still.glissando_interpolation(
+        'C5',
+        'E5',
+        selector=baca.leaves()[20-1:24],
+        ),
+    stirrings_still.glissando_interpolation(
+        'E5',
+        'D5',
+        selector=baca.leaves()[24-1:28],
+        ),
+    stirrings_still.glissando_interpolation(
+        'D5',
+        'F#5',
+        selector=baca.leaves().rleak()[28-1:],
         ),
     )
 
@@ -726,6 +790,7 @@ maker(
         abjad.tweak((-3, 0)).extra_offset,
         ),
     stirrings_still.tailpiece(
+        (abjad.tweak(0).bound_details__right__Y, -1),
         (abjad.tweak(1.5).bound_details__right__padding, -1),
         ),
     )
