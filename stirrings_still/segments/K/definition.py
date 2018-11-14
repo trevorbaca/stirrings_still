@@ -686,6 +686,23 @@ maker(
     )
 
 maker(
+    ('va', (1, 2)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'D4',
+        'A3',
+        selector=baca.leaves()[:6],
+        ),
+    stirrings_still.glissando_interpolation(
+        'A3',
+        'B3',
+        selector=baca.leaves()[6-1:],
+        ),
+    )
+
+maker(
     ('va', (3, 4)),
     baca.circle_bow_spanner(
         'wide-poss',
@@ -738,6 +755,34 @@ maker(
     baca.hairpin(
         'p < mp',
         selector=baca.leaves().rleak(),
+        ),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'B3',
+        'A3',
+        selector=baca.leaves()[:2],
+        ),
+    stirrings_still.glissando_interpolation(
+        'A3',
+        'C4',
+        selector=baca.leaves()[2-1:5],
+        ),
+    stirrings_still.glissando_interpolation(
+        'C4',
+        'Ab3',
+        selector=baca.leaves()[5-1:8],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Ab3',
+        'B3',
+        selector=baca.leaves()[8-1:14],
+        ),
+    stirrings_still.glissando_interpolation(
+        'B3',
+        'G#3',
+        selector=baca.leaves().rleak()[14-1:],
         ),
     )
 
