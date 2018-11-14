@@ -44,63 +44,36 @@ stirrings_still.time(maker, time)
 maker(
     'v1',
     baca.dls_staff_padding(7),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(1, 2),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(4, 6),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(8, 10),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(12, 14),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -8,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(1, 2),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -8 - 2,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(4, 6),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -8 - 4,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(8, 10),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -8 - 6,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(12, 14),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
+    baca.script_staff_padding(5),
     baca.tuplet_bracket_down(),
+    stirrings_still.bcps(
+        -8,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
+        measures=(1, 2),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.bcps(
+        -8 - 2,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
+        measures=(4, 6),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.bcps(
+        -8 - 4,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
+        measures=(8, 10),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.bcps(
+        -8 - 6,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
+        measures=(12, 14),
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.trajectories(
         'C',
         0,
@@ -109,68 +82,59 @@ maker(
         ),
     )
 
+maker(
+    ('v1', [(1, 2), (4, 6), (8, 10), (12, 14)]),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+# trio
+
+maker(
+    'trio',
+    baca.hairpin(
+        '"f" > p p < "f" > p p < "f" > p p < "f" > p',
+        measures=(1, 15),
+        pieces=baca.cmgroups([2, 1, 1]),
+        ),
+    )
+
 # v2
 
 maker(
     'v2',
     baca.dls_staff_padding(7),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(1, 2),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(4, 6),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(8, 10),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(12, 14),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -7,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(1, 2),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -7 - 2,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(4, 6),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -7 - 4,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(8, 10),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -7 - 6,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(12, 14),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
+    baca.script_staff_padding(5),
     baca.tuplet_bracket_down(),
+    stirrings_still.bcps(
+        -7,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
+        measures=(1, 2),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.bcps(
+        -7 - 2,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
+        measures=(4, 6),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.bcps(
+        -7 - 4,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
+        measures=(8, 10),
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.bcps(
+        -7 - 6,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
+        measures=(12, 14),
+        selector=baca.leaves().rleak(),
+        ),
     stirrings_still.trajectories(
         'C',
         -1,
@@ -179,72 +143,59 @@ maker(
         ),
     )
 
+maker(
+    ('v2', [(1, 2), (4, 6), (8, 10), (12, 14)]),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
 # va
 
 maker(
     'va',
     baca.dls_staff_padding(7),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+    baca.script_staff_padding(5),
+    stirrings_still.bcps(
+        -6,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
         measures=(1, 2),
+        selector=baca.leaves().rleak(),
         ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+    stirrings_still.bcps(
+        -6 - 2,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
         measures=(4, 6),
+        selector=baca.leaves().rleak(),
         ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+    stirrings_still.bcps(
+        -6 - 4,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
         measures=(8, 10),
+        selector=baca.leaves().rleak(),
         ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+    stirrings_still.bcps(
+        -6 - 6,
+        abjad.tweak(2.5).staff_padding,
+        clt=True,
         measures=(12, 14),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -6,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(1, 2),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -6 - 2,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(4, 6),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -6 - 4,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(8, 10),
-            selector=baca.leaves().rleak(),
-            ),
-        ),
-    baca.suite(
-        baca.script_staff_padding(5),
-        stirrings_still.bcps(
-            -6 - 6,
-            abjad.tweak(2.5).staff_padding,
-            clt=True,
-            measures=(12, 14),
-            selector=baca.leaves().rleak(),
-            ),
+        selector=baca.leaves().rleak(),
         ),
     stirrings_still.trajectories(
         'C',
         -2,
         -1,
         dmask=rmakers.sustain([2, 6, 10, 14, 15]),
+        ),
+    )
+
+maker(
+    ('va', [(1, 2), (4, 6), (8, 10), (12, 14)]),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
         ),
     )
 
@@ -265,16 +216,5 @@ maker(
         5.5,
         # TODO: extend to phantom measure
         selector=baca.leaves(),
-        ),
-    )
-
-# trio
-
-maker(
-    'trio',
-    baca.hairpin(
-        '"f" > p p < "f" > p p < "f" > p p < "f" > p',
-        measures=(1, 15),
-        pieces=baca.cmgroups([2, 1, 1]),
         ),
     )
