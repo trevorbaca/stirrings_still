@@ -1027,6 +1027,48 @@ maker(
     )
 
 maker(
+    ('vc', (5, 14)),
+    baca.untie_to(
+        selector=baca.leaves(),
+        ),
+    stirrings_still.glissando_interpolation(
+        'F3',
+        'C3',
+        selector=baca.leaves()[:4],
+        ),
+    stirrings_still.glissando_interpolation(
+        'C3',
+        'Db3',
+        selector=baca.leaves()[4-1:8],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Db3',
+        'A2',
+        selector=baca.leaves()[8-1:12],
+        ),
+    stirrings_still.glissando_interpolation(
+        'A2',
+        'Bb2',
+        selector=baca.leaves()[12-1:16],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Bb2',
+        'F2',
+        selector=baca.leaves()[16-1:20],
+        ),
+    stirrings_still.glissando_interpolation(
+        'F2',
+        'Gb2',
+        selector=baca.leaves()[20-1:24],
+        ),
+    stirrings_still.glissando_interpolation(
+        'Gb2',
+        'E2',
+        selector=baca.leaves().rleak()[24-1:],
+        ),
+    )
+
+maker(
     ('vc', [(9, 10), (13, 14)]),
     baca.new(
         baca.tuplet_bracket_down(),
