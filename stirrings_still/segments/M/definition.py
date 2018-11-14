@@ -49,57 +49,56 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
-    'v1',
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
+    ('v1', [(1, 8), (13, 16), (21, 24), (29, 32)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
             ),
-        measures=(1, 8),
-        ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
             ),
-        stirrings_still.pickets(4, 2),
-        measures=(9, 12),
-        ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
+        baca.pitch('D6'),
+        baca.untie_to(
+            selector=baca.leaves(),
             ),
-        measures=(13, 16),
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
-            selector=baca.leaves()[1:].rleak(),
-            ),
-        stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
-        measures=(17, 20),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
         ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        measures=(21, 24),
+    baca.markup('9°/C'),
+    )
+
+maker(
+    ('v1', (9, 12)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'very-wide',
-            abjad.tweak(5.5).staff_padding,
-            selector=baca.leaves()[1:].rleak(),
-            ),
-        stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
-        measures=(25, 28),
+    stirrings_still.pickets(4, 2),
+    )
+
+maker(
+    ('v1', (17, 20)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.leaves()[1:].rleak(),
         ),
-    baca.new(
-        baca.make_repeat_tied_notes(
-            do_not_rewrite_meter=True,
-            ),
-        measures=(29, 32),
+    stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
+    )
+
+maker(
+    ('v1', (25, 28)),
+    baca.circle_bow_spanner(
+        'very-wide',
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.leaves()[1:].rleak(),
         ),
+    stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
     )
 
 # trio
