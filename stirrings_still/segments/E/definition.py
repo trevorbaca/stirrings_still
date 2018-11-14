@@ -173,30 +173,10 @@ maker(
 
 maker(
     ('v1', (24, 31)),
-    stirrings_still.glissando_interpolation(
-        'Etqf4',
-        'F4',
-        selector=baca.leaves()[:4],
-        ),
-    stirrings_still.glissando_interpolation(
-        'F4',
-        'E4',
-        selector=baca.leaves()[4-1:7],
-        ),
-    stirrings_still.glissando_interpolation(
-        'E4',
-        'Gb4',
-        selector=baca.leaves()[7-1:10],
-        ),
-    stirrings_still.glissando_interpolation(
-        'Gb4',
-        'F4',
-        selector=baca.leaves()[10-1:13],
-        ),
-    stirrings_still.glissando_interpolation(
-        'F4',
+    stirrings_still.multistage_leaf_glissando(
+        [('Etqf4', 4), ('F4', 4), ('E4', 4), ('Gb4', 4), ('F4', None)],
         'Ab4',
-        selector=baca.leaves().rleak()[13-1:16+1],
+        rleak_final_stage=True,
         ),
     )
 
@@ -716,20 +696,10 @@ maker(
 
 maker(
     ('v2', (24, 31)),
-    stirrings_still.glissando_interpolation(
-        'Bqf3',
-        'Eb4',
-        selector=baca.leaves()[:3],
-        ),
-    stirrings_still.glissando_interpolation(
-        'Eb4',
-        'Db4',
-        selector=baca.leaves()[3-1:8],
-        ),
-    stirrings_still.glissando_interpolation(
-        'Db4',
+    stirrings_still.multistage_leaf_glissando(
+        [('Bqf3', 3), ('Eb4', 6), ('Db4', None)],
         'G4',
-        selector=baca.leaves().rleak()[8-1:16+1],
+        rleak_final_stage=True,
         ),
     )
 
@@ -1010,20 +980,10 @@ maker(
 
 maker(
     ('va', (24, 31)),
-    stirrings_still.glissando_interpolation(
-        'A3',
-        'F4',
-        selector=baca.leaves()[:7],
-        ),
-    stirrings_still.glissando_interpolation(
-        'F4',
-        'D4',
-        selector=baca.leaves()[7-1:12],
-        ),
-    stirrings_still.glissando_interpolation(
-        'D4',
+    stirrings_still.multistage_leaf_glissando(
+        [('A3', 7), ('F4', 6), ('D4', None)],
         'Gb4',
-        selector=baca.leaves().rleak()[12-1:16+1],
+        rleak_final_stage=True,
         ),
     )
 
