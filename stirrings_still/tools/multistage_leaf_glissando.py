@@ -2,7 +2,13 @@ import abjad
 import baca
 
 
-def multistage_leaf_glissando(pairs, final_pitch, rleak_final_stage=None):
+def multistage_leaf_glissando(
+    pairs,
+    final_pitch,
+    *,
+    measures=None,
+    rleak_final_stage=None,
+    ):
     """
     Makes multistage leaf glissando.
     """
@@ -63,4 +69,6 @@ def multistage_leaf_glissando(pairs, final_pitch, rleak_final_stage=None):
             ),
         )
     commands.append(command)
+    if measures is not None:
+        commands = [abjad.new(_, measures=measures) for _ in commands]
     return baca.chunk(*commands)
