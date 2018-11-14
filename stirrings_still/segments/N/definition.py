@@ -179,6 +179,56 @@ maker(
     stirrings_still.glissando_interpolation('G4', 'F4'),
     )
 
+# trio
+
+maker(
+    ('trio', (1, 8)),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
+    )
+
+maker(
+    ('trio', (7, 8)),
+    baca.hairpin(
+        'f >o niente',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('triox', 9),
+    baca.tacet(),
+    )
+
+maker(
+    ('trio', (10, 12)),
+    baca.tacet(),
+    )  
+
+maker(
+    ('trio', (13, 28)),
+    stirrings_still.urtext_spanner('urtext (field) -|', 8),
+    )
+
+maker(
+    ('trio', (30, 35)),
+    stirrings_still.urtext_spanner('urtext (field) -|', 8),
+    )
+
+maker(
+    ('trio', (37, 38)),
+    stirrings_still.urtext_spanner(
+        'urtext / clouded pane composite -|', 8,
+        ),
+    )
+
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
 # v2
 
 maker(
@@ -373,9 +423,27 @@ maker(
 
 maker(
     ('vc', (1, 10)),
-    baca.pitch('Bb1'),
+    baca.chunk( 
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
+    )
+
+maker(
+    ('vc', (1, 22)),
+    baca.pitch('Bb1'),
+    baca.glissando(
+        allow_repeats=True,
+        allow_ties=True,
+        stems=True,
+        ),
     )
 
 maker(
@@ -388,28 +456,15 @@ maker(
 
 maker(
     ('vc', (11, 12)),
-    baca.clef('treble'),
-    baca.clef(
-        'bass',
-        selector=baca.leaves().rleak()[-1],
-        ),
-    baca.hairpin(
-        '"f" -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+    baca.chunk( 
+        baca.untie_to(
+            selector=baca.leaves().rleak(),
+            ),
         ),
     baca.half_clt_spanner(
         abjad.tweak(13).staff_padding,
         ),
-    baca.note_head_style_harmonic(),
     baca.script_staff_padding(8),
-    baca.suite(
-        baca.pitch('A5'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         abjad.tweak(5).staff_padding,
@@ -418,11 +473,17 @@ maker(
 
 maker(
     ('vc', (13, 22)),
-    baca.new(
-        baca.dynamic('p'),
-        baca.pitch('Bb1'),
-        stirrings_still.clouded_pane(),
+    baca.chunk( 
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[:-1],
+            ),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
         ),
+    stirrings_still.clouded_pane(),
     )
 
 maker(
@@ -515,54 +576,4 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    )
-
-# trio
-
-maker(
-    ('trio', (1, 8)),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
-    )
-
-maker(
-    ('trio', (7, 8)),
-    baca.hairpin(
-        'f >o niente',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    )
-
-maker(
-    ('triox', 9),
-    baca.tacet(),
-    )
-
-maker(
-    ('trio', (10, 12)),
-    baca.tacet(),
-    )  
-
-maker(
-    ('trio', (13, 28)),
-    stirrings_still.urtext_spanner('urtext (field) -|', 8),
-    )
-
-maker(
-    ('trio', (30, 35)),
-    stirrings_still.urtext_spanner('urtext (field) -|', 8),
-    )
-
-maker(
-    ('trio', (37, 38)),
-    stirrings_still.urtext_spanner(
-        'urtext / clouded pane composite -|', 8,
-        ),
-    )
-
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
     )
