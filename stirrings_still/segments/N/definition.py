@@ -122,6 +122,11 @@ maker(
 maker(
     ('v1', (13, 22)),
     baca.breathe(),
+    baca.new(
+        baca.dots_transparent(),
+        baca.stem_transparent(),
+        selector=baca.leaves()[1:-1],
+        ),
     stirrings_still.clouded_pane(),
     )
 
@@ -264,7 +269,7 @@ maker(
 maker(
     ('trio', (37, 38)),
     stirrings_still.urtext_spanner(
-        'urtext / clouded pane composite -|', 8,
+        'urtext / clouded pane (composite) -|', 8,
         ),
     )
 
@@ -316,6 +321,11 @@ maker(
 maker(
     ('v2', (13, 22)),
     baca.breathe(),
+    baca.new(
+        baca.dots_transparent(),
+        baca.stem_transparent(),
+        selector=baca.leaves()[1:-1],
+        ),
     stirrings_still.clouded_pane(),
     )
 
@@ -460,6 +470,11 @@ maker(
 maker(
     ('va', (13, 22)),
     baca.breathe(),
+    baca.new(
+        baca.dots_transparent(),
+        baca.stem_transparent(),
+        selector=baca.leaves()[1:-1],
+        ),
     stirrings_still.clouded_pane(),
     )
 
@@ -729,10 +744,29 @@ maker(
 
 maker(
     ('vc', (37, 38)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('B1'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     baca.hairpin(
         'p -- ! >o niente',
         pieces=baca.cmgroups(),
         selector=baca.leaves().rleak(),
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(3).staff_padding,
         ),
     baca.text_spanner(
         'slow bow -> stopped',
