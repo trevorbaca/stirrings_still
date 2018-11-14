@@ -84,11 +84,24 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
-    'v1',
-    baca.new(
-        stirrings_still.clouded_pane(),
-        measures=(1, 8),
+    ('v1', (1, 8)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('C6'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
         ),
+    stirrings_still.clouded_pane(),
     )
 
 maker(
@@ -187,9 +200,9 @@ maker(
     )
 
 maker(
-    ('trio', (7, 8)),
+    ('trio', (6, 8)),
     baca.hairpin(
-        'f >o niente',
+        '(fff) >o niente',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
@@ -233,6 +246,22 @@ maker(
 
 maker(
     ('v2', (1, 8)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('Eqf5'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     stirrings_still.clouded_pane(),
     )
 
@@ -328,6 +357,22 @@ maker(
 
 maker(
     ('va', (1, 8)),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.new(
+            baca.dots_transparent(),
+            baca.stem_transparent(),
+            selector=baca.leaves()[1:-1],
+            ),
+        baca.pitch('Gqf4'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
     stirrings_still.clouded_pane(),
     )
 
@@ -447,9 +492,9 @@ maker(
     )
 
 maker(
-    ('vc', (7, 8)),
+    ('vc', (6, 8)),
     baca.hairpin(
-        'ff > p',
+        '(fff) > p',
         selector=baca.leaves().rleak(),
         ),
     )
