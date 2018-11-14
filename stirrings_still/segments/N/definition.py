@@ -16,7 +16,7 @@ stage_markup = (
     ('[N.4]', 13),
     ('[N.5]', 17),
     ('[N.6.1-6]', 23),
-    ('[K.6]', 29, 'darkgreen'),
+    ('[K.6.1]', 29, 'darkgreen'),
     ('[N.6.7-12]', 30),
     ('[N.7]', 37),
     )
@@ -126,6 +126,25 @@ maker(
     )
 
 maker(
+    ('v1', [(13, 22), (23, 28), (30, 35)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<A3 Fqs4>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.new(
+        baca.markup('(24ET)'),
+        match=[0, 2],
+        ),
+    )
+
+maker(
     ('v1', (23, 28)),
     baca.accent(
         selector=baca.pheads(),
@@ -157,6 +176,8 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
+    baca.markup('11°/E'),
+    baca.pitch('Aqs5'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -299,6 +320,25 @@ maker(
     )
 
 maker(
+    ('v2', [(13, 22), (23, 28), (30, 35)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<F#3 Dqs4>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.new(
+        baca.markup('(24ET)'),
+        match=[0, 2],
+        ),
+    )
+
+maker(
     ('v2', (23, 28)),
     baca.accent(
         selector=baca.pheads(),
@@ -329,6 +369,8 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
+    baca.markup('9°/E'),
+    baca.pitch('F#5'),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -422,6 +464,25 @@ maker(
     )
 
 maker(
+    ('va', [(13, 22), (23, 28), (30, 35)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<C3 Aqs3>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.new(
+        baca.markup('(24ET)'),
+        match=[0, 2],
+        ),
+    )
+
+maker(
     ('va', (23, 28)),
     baca.accent(
         selector=baca.pheads(),
@@ -453,6 +514,8 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
+    baca.markup('5°/E'),
+    baca.pitch('G#3'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -607,6 +670,18 @@ maker(
 
 maker(
     ('vc', [(23, 28), (30, 35)]),
+    baca.chunk( 
+        baca.glissando(
+            allow_repeats=True,
+            allow_ties=True,
+            stems=True,
+            ),
+        baca.pitch('<B2 Gqs3>'),
+        baca.untie_to(
+            selector=baca.leaves(),
+            ),
+        ),
+    baca.markup('(24ET)'),
     stirrings_still.urtext_spanner('urtext (field) -|', 8),
     )
 
@@ -618,6 +693,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
+        ),
+    baca.pitch('G2'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),

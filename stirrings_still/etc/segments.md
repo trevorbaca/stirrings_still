@@ -2560,7 +2560,7 @@ SEGMENTS
         tutti flight
         scp process embedded
         dynamic process embedded
-    <<colored flight [K.6] bisects [N.6]>> (29)
+    <<colored flight [K.6.1/3] bisects [N.6]>> (29)
         <<summons past time>>
         andante
     <<attacca second half of [N.6]>>
