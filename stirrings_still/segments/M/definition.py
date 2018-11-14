@@ -102,6 +102,85 @@ maker(
         ),
     )
 
+# trio
+
+maker(
+    'trio',
+    baca.dls_staff_padding(5),
+    baca.hairpin(
+        'o< ff',
+        measures=(1, 8),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.hairpin(
+        'f < ff',
+        measures=(13, 16),
+        selector=baca.leaves().rleak().rleak(),
+        ),
+    baca.hairpin(
+        'f < ff f < ff',
+        measures=(21, 32),
+        pieces=baca.mgroups([5, 3, 4]),
+        ),
+    )
+
+maker(
+    ('trio', (1, 8)),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
+    )
+
+maker(
+    ('trio', (9, 12)),
+    # TODO: allow score-specific simultaneous material spanners
+    #stirrings_still.circle_spanner(
+    #    'intercalated ds circles -|', 10.5,
+    #    ),
+    stirrings_still.urtext_spanner('urtext (ds) -|', 8),
+    )
+
+maker(
+    ('trio', (17, 20)),
+    # TODO: allow score-specific simultaneous material spanners
+    #stirrings_still.circle_spanner(
+    #    'intercalated ds circles -|', 10.5,
+    #    ),
+    stirrings_still.urtext_spanner(
+        'urtext (ds) -|', 8,
+        selector=baca.leaves()[1:].rleak(),
+        ),
+    )
+
+maker(
+    ('trio', (26, 28)),
+    # TODO: allow score-specific simultaneous material spanners
+    #stirrings_still.circle_spanner(
+    #    'intercalated ds circles -|', 10.5,
+    #    ),
+    stirrings_still.urtext_spanner('urtext (ds) -|', 8),
+    )
+
+maker(
+    ('trio', (13, 16)),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane -|', 8,
+        selector=baca.leaves().rleak().rleak(),
+        ),
+    )
+
+maker(
+    ('trio', (21, 25)),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane -|', 8,
+        ),
+    )
+
+maker(
+    ('trio', (29, 32)),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane -|', 8,
+        ),
+    )
+
 # v2
 
 maker(
@@ -218,11 +297,16 @@ maker(
 
 maker(
     'vc',
+    baca.dls_staff_padding(7),
     baca.hairpin(
-        'fff -- fff > f  f < fff  fff > f f < fff fff > f f < fff -- !',
-        abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([6, 2, 2, 2, 2, 2, 2, 2, 2, 3, 1, 2, 4 + 1]),
+        'fff -- (fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff -- !',
+        pieces=baca.mgroups([6, 2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
         selector=baca.leaves().rleak(),
+        ),
+    baca.new(
+        baca.hairpin_to_barline(),
+        measures=29,
+        selector=baca.leaf(0),
         ),
     stirrings_still.clouded_pane_spanner(
         'clouded pane (semitone down) -|',
@@ -266,89 +350,4 @@ maker(
             ),
         ),
     stirrings_still.glissando_interpolation('C2', 'Bb1'),
-    )
-
-# trio
-
-maker(
-    'trio',
-    baca.hairpin(
-        'o< ff',
-        measures=(1, 8),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.hairpin(
-        'f < ff',
-        measures=(13, 16),
-        selector=baca.leaves().rleak().rleak(),
-        ),
-    baca.hairpin(
-        'f < ff f < ff',
-        measures=(21, 32),
-        pieces=baca.mgroups([5, 3, 4]),
-        ),
-    )
-
-maker(
-    ('trio', (1, 8)),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
-    )
-
-maker(
-    ('trio', (9, 12)),
-    # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_spanner(
-    #    'intercalated ds circles -|', 10.5,
-    #    ),
-    stirrings_still.urtext_spanner('urtext (ds) -|', 8),
-    )
-
-maker(
-    ('trio', (17, 20)),
-    # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_spanner(
-    #    'intercalated ds circles -|', 10.5,
-    #    ),
-    stirrings_still.urtext_spanner(
-        'urtext (ds) -|', 8,
-        selector=baca.leaves()[1:].rleak(),
-        ),
-    )
-
-maker(
-    ('trio', (26, 28)),
-    # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_spanner(
-    #    'intercalated ds circles -|', 10.5,
-    #    ),
-    stirrings_still.urtext_spanner('urtext (ds) -|', 8),
-    )
-
-maker(
-    ('trio', (13, 16)),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane -|', 8,
-        selector=baca.leaves().rleak().rleak(),
-        ),
-    )
-
-maker(
-    ('trio', (21, 25)),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane -|', 8,
-        ),
-    )
-
-maker(
-    ('trio', (29, 32)),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane -|', 8,
-        ),
-    )
-
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(5),
     )
