@@ -619,7 +619,8 @@ maker(
     'vc',
     baca.dls_staff_padding(7),
     baca.hairpin(
-        'fff -- (fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff -- !',
+        'fff -- (fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff',
+        bookend=False,
         pieces=baca.mgroups([6, 2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),

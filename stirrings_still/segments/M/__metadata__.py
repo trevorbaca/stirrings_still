@@ -63,8 +63,8 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Cello_Music_Voice',
-                                prototype='abjad.StartHairpin',
-                                value='--',
+                                prototype='abjad.Dynamic',
+                                value='fff',
                                 ),
                             ],
                         ),
