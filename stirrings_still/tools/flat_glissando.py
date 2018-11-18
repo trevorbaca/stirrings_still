@@ -12,7 +12,11 @@ def flat_glissando(pitch, *, hide_stems=None, rleak=None):
     else:
         selector = baca.leaves()
 
-    commands = [ 
+    commands = []
+    command = baca.untie_to(selector=selector)
+    commands.append(command)
+
+    commands.extend([ 
         baca.glissando(
             allow_repeats=True,
             allow_ties=True,
@@ -23,10 +27,7 @@ def flat_glissando(pitch, *, hide_stems=None, rleak=None):
             pitch,
             selector=selector,
             ),
-        baca.untie_to(
-            selector=selector,
-            ),
-        ]
+        ])
 
     if hide_stems:
         commands.append(
@@ -37,4 +38,4 @@ def flat_glissando(pitch, *, hide_stems=None, rleak=None):
                 )
         )
 
-    return baca.chunk(*commands)
+    return baca.suite(*commands)
