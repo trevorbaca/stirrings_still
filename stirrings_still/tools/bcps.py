@@ -24,8 +24,14 @@ def bcps(
     if clt:
         bcps = bcps.replace((0, 7), (1, 7))
         bcps = bcps.replace((0, 4), (1, 4))
+    bcps_, previous_bcp = [], None
+    for bcp in bcps:
+        if bcp != previous_bcp:
+            bcps_.append(bcp)
+        previous_bcp = bcp
+
     command = baca.bcps(
-        bcps,
+        bcps_,
         *tweaks,
         bow_change_tweaks=bow_change_tweaks,
         selector=selector,
