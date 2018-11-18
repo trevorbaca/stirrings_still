@@ -78,27 +78,29 @@ maker(
 
 maker(
     ('v1', (5, 10)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppp',
-            pieces=baca.cmgroups(),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(6, 7),
-        ),
-    baca.new(
-        baca.hairpin(
-            'ppp < p > ppppp',
-            pieces=baca.leaves().partition_by_counts([2, 4, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=10,
-        ),
     baca.rhythm(
         [
             (stirrings_still.wave((4, 16), (1, 16)), [1, 2, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('v1', (6, 7)),
+    baca.hairpin(
+        'ppppp < p > ppp',
+        pieces=baca.cmgroups(),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v1', 10),
+    baca.hairpin(
+        'ppp < p > ppppp',
+        pieces=baca.leaves().partition_by_counts([2, 4, 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -117,27 +119,29 @@ maker(
 
 maker(
     ('v1', (15, 20)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppp',
-            pieces=baca.cmgroups(),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(16, 17),
-        ),
-    baca.new(
-        baca.hairpin(
-            'ppp < p > ppppp',
-            pieces=baca.leaves().partition_by_counts([2, 4, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=20,
-        ),
     baca.rhythm(
         [
             (stirrings_still.wave((4, 16), (1, 16)), [1, 2, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('v1', (16, 17)),
+    baca.hairpin(
+        'ppppp < p > ppp',
+        pieces=baca.cmgroups(),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v1', 20),
+    baca.hairpin(
+        'ppp < p > ppppp',
+        pieces=baca.leaves().partition_by_counts([2, 4, 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -152,16 +156,15 @@ maker(
 maker(
     'tutti',
     baca.dls_staff_padding(6),
-    baca.new(
-        baca.dynamic_text_self_alignment_x(
-            -0.75,
-            selector=baca.leaves(),
-            ),
-        stirrings_still.clouded_pane_spanner(
-            'clouded pane -|', 10.5,
-            ),
-        measures=(1, 20),
+    )
+
+maker(
+    ('tutti', (1, 20)),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.leaves(),
         ),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 10.5),
     )
 
 maker(
@@ -200,30 +203,6 @@ maker(
 
 maker(
     ('v2', (5, 10)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppp',
-            pieces=baca.leaves().partition_by_counts([1, 3, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=5,
-        ),
-    baca.new(
-        baca.hairpin(
-            'ppp < p > ppp',
-            pieces=baca.leaves().partition_by_counts([5, 1, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=7,
-        ),
-    baca.new(
-        baca.hairpin(
-            'ppp < p > ppppp',
-            pieces=baca.leaves().partition_by_counts([1, 3, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=9,
-        ),
     baca.rhythm(
         [
             (stirrings_still.wave((6, 16), (1, 16)), [0, 2, 4]),
@@ -233,37 +212,67 @@ maker(
     )
 
 maker(
+    ('v2', 5),
+    baca.hairpin(
+        'ppppp < p > ppp',
+        pieces=baca.leaves().partition_by_counts([1, 3, 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v2', 7),
+    baca.hairpin(
+        'ppp < p > ppp',
+        pieces=baca.leaves().partition_by_counts([5, 1, 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v2', 9),
+    baca.hairpin(
+        'ppp < p > ppppp',
+        pieces=baca.leaves().partition_by_counts([1, 3, 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
     ('v2', (15, 20)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > pp',
-            pieces=baca.leaves().partition_by_counts([1, 4, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=15,
-        ),
-    baca.new(
-        baca.hairpin(
-            'ppp < p > pp',
-            pieces=baca.leaves().partition_by_counts([7, 1, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=17,
-        ),
-    baca.new(
-        baca.hairpin(
-            'ppp < p > ppppp',
-            pieces=baca.leaves().partition_by_counts([1, 2, 1]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=19,
-        ),
     baca.rhythm(
         [
             (stirrings_still.wave((6, 16), (1, 16)), [0, 2, 4]),
             (stirrings_still.eighths(), [5]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('v2', 15),
+    baca.hairpin(
+        'ppppp < p > pp',
+        pieces=baca.leaves().partition_by_counts([1, 4, 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v2', 17),
+    baca.hairpin(
+        'ppp < p > pp',
+        pieces=baca.leaves().partition_by_counts([7, 1, 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v2', 19),
+    baca.hairpin(
+        'ppp < p > ppppp',
+        pieces=baca.leaves().partition_by_counts([1, 2, 1]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -285,19 +294,20 @@ maker(
 
 maker(
     ('va', (5, 10)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppppp',
-            pieces=baca.cmgroups([1, 2]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(8, 10),
-        ),
     baca.rhythm(
         [
             (stirrings_still.wave((5, 16), (1, 16)), [3, 4, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('va', (8, 10)),
+    baca.hairpin(
+        'ppppp < p > ppppp',
+        pieces=baca.cmgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -316,19 +326,20 @@ maker(
 
 maker(
     ('va', (15, 20)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppppp',
-            pieces=baca.cmgroups([1, 2]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(18, 20),
-        ),
     baca.rhythm(
         [
             (stirrings_still.wave((5, 16), (1, 16)), [3, 4, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('va', (18, 20)),
+    baca.hairpin(
+        'ppppp < p > ppppp',
+        pieces=baca.cmgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -355,19 +366,20 @@ maker(
 
 maker(
     ('vc', (5, 10)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppppp',
-            pieces=baca.cmgroups([1, 2]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(6, 8),
-        ),
     baca.rhythm(
         [
             (stirrings_still.wave((7, 16), (1, 16)), [1, 2, 3]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('vc', (6, 8)),
+    baca.hairpin(
+        'ppppp < p > ppppp',
+        pieces=baca.cmgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
@@ -386,20 +398,21 @@ maker(
 
 maker(
     ('vc', (15, 20)),
-    baca.new(
-        baca.hairpin(
-            'ppppp < p > ppppp',
-            pieces=baca.cmgroups([1, 2]),
-            selector=baca.leaves().rleak(),
-            ),
-        measures=(16, 18),
-        ),
     baca.rhythm(
         [
             (stirrings_still.wave((7, 16), (1, 16)), [1, 2, 3]),
             (stirrings_still.eighths(), [4, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
+        ),
+    )
+
+maker(
+    ('vc', (16, 18)),
+    baca.hairpin(
+        'ppppp < p > ppppp',
+        pieces=baca.cmgroups([1, 2]),
+        selector=baca.leaves().rleak(),
         ),
     )
 
