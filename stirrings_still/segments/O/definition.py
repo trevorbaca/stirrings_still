@@ -10,7 +10,7 @@ import stirrings_still
 
 stage_markup = (
     ('[O.1]', 1),
-    ('[H.3.4]', 7, 'darkgreen'),
+    ('[H.13.4]', 7, 'darkgreen'),
     )
 
 maker = baca.SegmentMaker(
@@ -61,15 +61,26 @@ maker(
 maker(
     ('v1', 7),
     baca.circle_bow_spanner(
-        'very-tight',
+        'wide',
         abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
-        'ff -- !',
-        abjad.tweak(True).to_barline,
+        'mf >o niente',
         selector=baca.leaves().rleak(),
         ),
+    baca.markup(
+        '13°/Db',
+        direction=abjad.Down,
+        ),
+    stirrings_still.flat_glissando('Aqs4'),
     stirrings_still.pickets(4, 2),
+    )
+
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(5),
     )
 
 # v2
@@ -91,12 +102,11 @@ maker(
 maker(
     ('v2', 7),
     baca.circle_bow_spanner(
-        'very-tight',
+        'wide',
         abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
-        'ff -- !',
-        abjad.tweak(True).to_barline,
+        'mf >o niente',
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.pickets(4, 1),
@@ -121,12 +131,11 @@ maker(
 maker(
     ('va', 7),
     baca.circle_bow_spanner(
-        'very-tight',
+        'wide',
         abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
-        'ff -- !',
-        abjad.tweak(True).to_barline,
+        'mf >o niente',
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.pickets(4, 0),
@@ -151,17 +160,29 @@ maker(
 maker(
     ('vc', 7),
     baca.hairpin(
-        'pp -- !',
+        'p -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
-    )
-
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(5),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    baca.script_staff_padding(6),
+    baca.suite(
+        baca.untie_to(),
+        baca.pitch('Db2'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
+        selector=baca.leaves(),   
+        ),
+    baca.tuplet_bracket_down(),
+    stirrings_still.bcps(
+        -4,
+        abjad.tweak(3).staff_padding,
+        clt=True,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.trajectories('A', -1, 0),
     )
