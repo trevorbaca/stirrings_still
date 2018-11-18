@@ -2596,15 +2596,16 @@ SEGMENTS
         new urtext pitches appear
         circles so slow that primary effect is granulation
         "mf" governs stage
-    <<[H.13 (development) 4/4] suffixes [O.1]>> (7)
+    <<[H.13.4/4 (development)] suffixes [O.1]>> (7)
     <<summons past time>>
     largo
-    v1, v2, va interlocking gears repeat as scratch
-        very tight
+    v1, v2, va interlocking gears (fade out)
+        wide
         desynchronized
-        ff
+        mf >o
     vc clouded pane
-        pp
+        1/2 clt trajectories
+        p
     very long fermata (8)
 
 [P] time series C; rotation -90
