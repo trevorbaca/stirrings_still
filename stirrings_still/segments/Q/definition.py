@@ -320,6 +320,7 @@ maker(
             clt=True,
             ),
         ),
+    stirrings_still.flat_glissando('A5'),
     stirrings_still.trajectories('C', 0, -3),
     )
 
@@ -601,6 +602,7 @@ maker(
             clt=True,
             ),
         ),
+    stirrings_still.flat_glissando('Ab4'),
     stirrings_still.trajectories('C', -1, -2),
     )
 
@@ -619,7 +621,7 @@ maker(
         abjad.tweak(-0.75).self_alignment_X,
         ),
     baca.make_repeat_tied_notes(),
-    baca.pitch('Bb2'),
+    stirrings_still.flat_glissando('Bb2', hide_stems=True),
     )
 
 # va, vc
@@ -1022,5 +1024,5 @@ maker(
 maker(
     ('vc', (88, 92)),
     baca.make_repeat_tied_notes(),
-    baca.pitch('B0'),
+    stirrings_still.flat_glissando('B0', hide_stems=True),
     )
