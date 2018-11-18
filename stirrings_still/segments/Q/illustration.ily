@@ -2010,8 +2010,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 731 / measure 2]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -2027,21 +2026,26 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2049,23 +2053,23 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 732 / measure 3]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2073,20 +2077,20 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 733 / measure 4]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2094,20 +2098,20 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 734 / measure 5]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2115,20 +2119,20 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 735 / measure 6]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2136,20 +2140,20 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 736 / measure 7]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2157,20 +2161,23 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 5/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 737 / measure 8]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! stirrings_still_desynchronization
+        bf''!2                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! stirrings_still_desynchronization
+        bf''!2                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Violin_I_Music_Voice measure 738 / measure 9]                         %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    bf''!4                                                                     %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    bf''!4                                                                     %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -2809,9 +2816,9 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 754 / measure 25]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -2825,17 +2832,21 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2843,23 +2854,23 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 755 / measure 26]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2867,23 +2878,26 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 756 / measure 27]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -3421,9 +3435,9 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 770 / measure 41]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -3437,29 +3451,36 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Violin_I_Music_Voice measure 771 / measure 42]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    bf''!4                                                                     %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    bf''!4                                                                     %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -3920,9 +3941,9 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 782 / measure 53]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -3936,17 +3957,21 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -3954,20 +3979,23 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 783 / measure 54]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -4292,9 +4320,9 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 792 / measure 63]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -4308,17 +4336,24 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -4547,9 +4582,9 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_I_Music_Voice measure 798 / measure 69]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -4563,17 +4598,24 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        bf''!4                                                                 %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        bf''!4                                                                 %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -4716,7 +4758,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         % [Q Violin_I_Music_Voice measure 802 / measure 73]                    %! _comment_measure_numbers
         \override Script.staff-padding = #5                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak self-alignment-X #-0.75                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-ppp-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -4737,7 +4779,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4746,7 +4788,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4761,11 +4803,11 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 803 / measure 74]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4774,7 +4816,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4783,7 +4825,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -4791,7 +4833,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -4805,7 +4847,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 804 / measure 75]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -4815,7 +4857,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4824,7 +4866,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -4834,7 +4876,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4843,7 +4885,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4852,7 +4894,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -4863,7 +4905,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Violin_I_Music_Voice measure 805 / measure 76]                        %! _comment_measure_numbers
-    a''4                                                                       %! stirrings_still_trajectories
+    a'''4                                                                      %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -4872,7 +4914,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''4.                                                                      %! stirrings_still_trajectories
+    a'''4.                                                                     %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
@@ -4880,7 +4922,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -4889,7 +4931,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
@@ -4897,7 +4939,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -4911,10 +4953,10 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 806 / measure 77]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4923,7 +4965,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4938,7 +4980,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 807 / measure 78]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -4948,7 +4990,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -4958,7 +5000,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4967,7 +5009,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4976,7 +5018,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4991,7 +5033,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 808 / measure 79]                    %! _comment_measure_numbers
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -4999,7 +5041,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5007,7 +5049,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5016,7 +5058,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5025,7 +5067,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5038,10 +5080,10 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Violin_I_Music_Voice measure 809 / measure 80]                        %! _comment_measure_numbers
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     \glissando                                                                 %! baca_glissando
 
-    a''4.                                                                      %! stirrings_still_trajectories
+    a'''4.                                                                     %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5050,7 +5092,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -5060,7 +5102,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -5074,7 +5116,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 4/3 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 810 / measure 81]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5082,7 +5124,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5097,7 +5139,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 811 / measure 82]                    %! _comment_measure_numbers
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5105,7 +5147,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5113,7 +5155,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5127,7 +5169,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 812 / measure 83]                    %! _comment_measure_numbers
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5136,7 +5178,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -5146,7 +5188,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5156,7 +5198,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5168,7 +5210,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Violin_I_Music_Voice measure 813 / measure 84]                        %! _comment_measure_numbers
-    a''4.                                                                      %! stirrings_still_trajectories
+    a'''4.                                                                     %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5177,7 +5219,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -5187,7 +5229,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5196,7 +5238,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5205,7 +5247,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5218,10 +5260,10 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 814 / measure 85]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5229,7 +5271,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5238,7 +5280,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5254,10 +5296,10 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 815 / measure 86]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5266,7 +5308,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -5276,7 +5318,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5292,7 +5334,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 816 / measure 87]                    %! _comment_measure_numbers
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5301,7 +5343,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5312,7 +5354,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Violin_I_Music_Voice measure 817 / measure 88]                        %! _comment_measure_numbers
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -5322,7 +5364,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still_bcps:BCPCommand(2)
@@ -5330,7 +5372,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5339,7 +5381,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''4                                                                       %! stirrings_still_trajectories
+    a'''4                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
@@ -5347,7 +5389,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5360,10 +5402,10 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 818 / measure 89]                    %! _comment_measure_numbers
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5372,7 +5414,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5381,7 +5423,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5396,11 +5438,11 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 819 / measure 90]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5409,7 +5451,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5419,7 +5461,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5428,7 +5470,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4.                                                                  %! stirrings_still_trajectories
+        a'''4.                                                                 %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5437,7 +5479,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5451,7 +5493,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 820 / measure 91]                    %! _comment_measure_numbers
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5460,7 +5502,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5469,7 +5511,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''4                                                                   %! stirrings_still_trajectories
+        a'''4                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5478,7 +5520,7 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando
 
-        a''8                                                                   %! stirrings_still_trajectories
+        a'''8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5490,10 +5532,10 @@ Q_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Violin_I_Music_Voice measure 821 / measure 92]                        %! _comment_measure_numbers
-    a''4                                                                       %! stirrings_still_trajectories
+    a'''4                                                                      %! stirrings_still_trajectories
     \glissando                                                                 %! baca_glissando
 
-    a''8                                                                       %! stirrings_still_trajectories
+    a'''8                                                                      %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5507,7 +5549,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    a''4                                                                       %! stirrings_still_trajectories
+    a'''4                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
     \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
@@ -5584,8 +5626,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 731 / measure 2]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -5601,18 +5642,23 @@ Q_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5620,20 +5666,20 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 732 / measure 3]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5641,17 +5687,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 733 / measure 4]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5659,17 +5705,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 734 / measure 5]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5677,17 +5723,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 735 / measure 6]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5695,17 +5741,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 736 / measure 7]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5713,14 +5759,14 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 737 / measure 8]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5728,14 +5774,14 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 738 / measure 9]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5743,17 +5789,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 739 / measure 10]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5761,17 +5807,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 740 / measure 11]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5779,17 +5825,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 741 / measure 12]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -5797,14 +5843,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 742 / measure 13]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -6155,11 +6204,11 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 751 / measure 22]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -6173,17 +6222,21 @@ Q_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6191,17 +6244,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 752 / measure 23]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6209,17 +6262,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 753 / measure 24]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6227,17 +6280,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 754 / measure 25]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6245,20 +6298,20 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 755 / measure 26]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6266,20 +6319,20 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 756 / measure 27]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6287,17 +6340,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 757 / measure 28]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6305,17 +6358,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 758 / measure 29]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6323,17 +6376,20 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 759 / measure 30]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -6609,11 +6665,11 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 767 / measure 38]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -6627,11 +6683,15 @@ Q_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6639,17 +6699,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 768 / measure 39]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6657,20 +6717,20 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 769 / measure 40]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6678,20 +6738,20 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 770 / measure 41]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6699,14 +6759,14 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 771 / measure 42]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6714,14 +6774,14 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 772 / measure 43]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6729,20 +6789,20 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 773 / measure 44]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6750,17 +6810,20 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 774 / measure 45]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -7015,11 +7078,11 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 780 / measure 51]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -7033,17 +7096,21 @@ Q_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7051,17 +7118,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 781 / measure 52]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7069,17 +7136,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 782 / measure 53]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7087,17 +7154,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 783 / measure 54]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7105,17 +7172,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 784 / measure 55]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7123,14 +7190,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 785 / measure 56]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -7308,12 +7378,12 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 2/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 790 / measure 61]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak self-alignment-X #-0.75                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-p-ancora                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -7327,11 +7397,15 @@ Q_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7339,14 +7413,14 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 791 / measure 62]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7354,17 +7428,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 792 / measure 63]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7372,20 +7446,23 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 793 / measure 64]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -7521,11 +7598,11 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 797 / measure 68]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -7539,17 +7616,21 @@ Q_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7557,17 +7638,17 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 798 / measure 69]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -7575,20 +7656,23 @@ Q_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
         % [Q Violin_II_Music_Voice measure 799 / measure 70]                   %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        gf'!4                                                                  %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        gf'!4                                                                  %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -8529,11 +8613,11 @@ Q_Viola_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [Q Viola_Music_Voice measure 731 / measure 2]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -8547,50 +8631,54 @@ Q_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 732 / measure 3]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 733 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Viola_Music_Voice measure 734 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -8598,45 +8686,48 @@ Q_Viola_Music_Voice = {                                                        %
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Viola_Music_Voice measure 735 / measure 6]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Viola_Music_Voice measure 736 / measure 7]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Viola_Music_Voice measure 737 / measure 8]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Viola_Music_Voice measure 738 / measure 9]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -9150,11 +9241,11 @@ Q_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Viola_Music_Voice measure 751 / measure 22]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -9168,80 +9259,87 @@ Q_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Viola_Music_Voice measure 752 / measure 23]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Viola_Music_Voice measure 753 / measure 24]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Viola_Music_Voice measure 754 / measure 25]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Viola_Music_Voice measure 755 / measure 26]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 756 / measure 27]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -9665,11 +9763,11 @@ Q_Viola_Music_Voice = {                                                        %
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [Q Viola_Music_Voice measure 767 / measure 38]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-damp-markup                         %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup      %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
@@ -9683,51 +9781,58 @@ Q_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 768 / measure 39]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 769 / measure 40]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 770 / measure 41]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 771 / measure 42]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -10103,11 +10208,11 @@ Q_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Viola_Music_Voice measure 780 / measure 51]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -10121,37 +10226,41 @@ Q_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 781 / measure 52]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Viola_Music_Voice measure 782 / measure 53]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -10159,14 +10268,17 @@ Q_Viola_Music_Voice = {                                                        %
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [Q Viola_Music_Voice measure 783 / measure 54]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        b4                                                                     %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -10428,12 +10540,12 @@ Q_Viola_Music_Voice = {                                                        %
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [Q Viola_Music_Voice measure 790 / measure 61]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak self-alignment-X #-0.75                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-p-ancora                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -10447,30 +10559,37 @@ Q_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Viola_Music_Voice measure 791 / measure 62]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        b4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Viola_Music_Voice measure 792 / measure 63]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -10664,11 +10783,11 @@ Q_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Viola_Music_Voice measure 797 / measure 68]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -10682,24 +10801,31 @@ Q_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 798 / measure 69]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    b4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    b4                                                                         %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -11014,8 +11140,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 731 / measure 2]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -11031,12 +11156,17 @@ Q_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11044,14 +11174,14 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 732 / measure 3]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11059,11 +11189,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 733 / measure 4]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11071,11 +11201,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 734 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11083,11 +11213,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 735 / measure 6]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11095,11 +11225,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 736 / measure 7]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11107,20 +11237,23 @@ Q_Cello_Music_Voice = {                                                        %
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 737 / measure 8]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Cello_Music_Voice measure 738 / measure 9]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    c4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    c4                                                                         %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -11627,8 +11760,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 751 / measure 22]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
@@ -11644,12 +11776,17 @@ Q_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11657,11 +11794,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 752 / measure 23]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11669,11 +11806,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 753 / measure 24]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11681,11 +11818,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 754 / measure 25]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11693,14 +11830,14 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 755 / measure 26]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -11708,14 +11845,17 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 756 / measure 27]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        c4                                                                     %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -12142,8 +12282,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Cello_Music_Voice measure 767 / measure 38]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    c4                                                                         %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
@@ -12159,19 +12298,24 @@ Q_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    c4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 768 / measure 39]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -12179,14 +12323,14 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 769 / measure 40]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -12194,23 +12338,26 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 770 / measure 41]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Cello_Music_Voice measure 771 / measure 42]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    c4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    c4                                                                         %! stirrings_still_desynchronization
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -12579,8 +12726,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 780 / measure 51]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
@@ -12596,12 +12742,17 @@ Q_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -12609,11 +12760,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 781 / measure 52]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -12621,11 +12772,11 @@ Q_Cello_Music_Voice = {                                                        %
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 782 / measure 53]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -12633,11 +12784,14 @@ Q_Cello_Music_Voice = {                                                        %
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 783 / measure 54]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        c4                                                                     %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -12915,8 +13069,7 @@ Q_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_trajectories
 
     % [Q Cello_Music_Voice measure 790 / measure 61]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    c4                                                                         %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak self-alignment-X #-0.75                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-p-ancora                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -12933,19 +13086,24 @@ Q_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #8                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_desynchronization
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    c4                                                                         %! stirrings_still_desynchronization
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 791 / measure 62]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -12953,11 +13111,14 @@ Q_Cello_Music_Voice = {                                                        %
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 792 / measure 63]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        c4                                                                     %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -13155,8 +13316,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 797 / measure 68]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
@@ -13172,12 +13332,17 @@ Q_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #2.75                             %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -13185,11 +13350,14 @@ Q_Cello_Music_Voice = {                                                        %
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
         % [Q Cello_Music_Voice measure 798 / measure 69]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        c4                                                                     %! stirrings_still_desynchronization
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_desynchronization
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        c4                                                                     %! stirrings_still_desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
