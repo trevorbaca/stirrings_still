@@ -2,20 +2,29 @@ import abjad
 import baca
 
 
-def flat_glissando(pitch, *, hide_stems=None):
+def flat_glissando(pitch, *, hide_stems=None, rleak=None):
     """
     Makes flat glissando.
     """
+
+    if rleak:
+        selector = baca.leaves().rleak()
+    else:
+        selector = baca.leaves()
 
     commands = [ 
         baca.glissando(
             allow_repeats=True,
             allow_ties=True,
+            selector=selector,
             stems=True,
             ),
-        baca.pitch(pitch),
+        baca.pitch(
+            pitch,
+            selector=selector,
+            ),
         baca.untie_to(
-            selector=baca.leaves(),
+            selector=selector,
             ),
         ]
 
@@ -24,7 +33,7 @@ def flat_glissando(pitch, *, hide_stems=None):
             baca.new(
                 baca.dots_transparent(),
                 baca.stem_transparent(),
-                selector=baca.leaves()[1:-1],
+                selector=selector[1:-1],
                 )
         )
 

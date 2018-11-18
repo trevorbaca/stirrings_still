@@ -212,8 +212,7 @@ O_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -229,80 +228,88 @@ O_Violin_I_Music_Voice = {                                                     %
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 697 / measure 2]                         %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 698 / measure 3]                         %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 699 / measure 4]                         %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 700 / measure 5]                         %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 701 / measure 6]                         %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    ef'!4                                                                      %! stirrings_still_circles
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
@@ -424,8 +431,7 @@ O_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -441,89 +447,97 @@ O_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 697 / measure 2]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 698 / measure 3]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 699 / measure 4]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 700 / measure 5]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 701 / measure 6]                        %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    d'4                                                                        %! stirrings_still_circles
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         % [O Violin_II_Music_Voice measure 702 / measure 7]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_pickets
+        ef'!4                                                                  %! stirrings_still_pickets
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        ^ \markup { 9°/Db }                                                    %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -535,18 +549,26 @@ O_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.padding #3.25                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_pickets
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        ef'!4                                                                  %! stirrings_still_pickets
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_pickets
+        ef'!4                                                                  %! stirrings_still_pickets
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_pickets
+        ef'!4                                                                  %! stirrings_still_pickets
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_pickets
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        ef'!4                                                                  %! stirrings_still_pickets
 
     }                                                                          %! stirrings_still_pickets
 
@@ -626,8 +648,7 @@ O_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -643,87 +664,95 @@ O_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 697 / measure 2]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 698 / measure 3]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 699 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 700 / measure 5]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 701 / measure 6]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    g4                                                                         %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    g4                                                                         %! stirrings_still_circles
 
     % [O Viola_Music_Voice measure 702 / measure 7]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_pickets
+    bqf!4                                                                      %! stirrings_still_pickets
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ^ \markup { 7°/Db }                                                        %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -735,15 +764,23 @@ O_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #3.25                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_pickets
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    bqf!4                                                                      %! stirrings_still_pickets
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_pickets
+    bqf!4                                                                      %! stirrings_still_pickets
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_pickets
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    bqf!4                                                                      %! stirrings_still_pickets
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -817,8 +854,7 @@ O_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -834,80 +870,88 @@ O_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 697 / measure 2]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 698 / measure 3]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 699 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 700 / measure 5]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 701 / measure 6]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still_circles
+    \glissando                                                                 %! baca_glissando
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! stirrings_still_circles
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    af!4                                                                       %! stirrings_still_circles
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
@@ -933,11 +977,11 @@ O_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
 
         \hide NoteHead                                                         %! baca_glissando
         \override Accidental.stencil = ##f                                     %! baca_glissando
@@ -947,54 +991,50 @@ O_Cello_Music_Voice = {                                                        %
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
 
         df,!4                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
 
-        \revert Accidental.stencil                                             %! baca_glissando
-        \revert NoteColumn.glissando-skip                                      %! baca_glissando
-        \revert NoteHead.no-ledgers                                            %! baca_glissando
-        \undo \hide NoteHead                                                   %! baca_glissando
         df,!4                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -1003,6 +1043,7 @@ O_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
         \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
@@ -1015,7 +1056,11 @@ O_Cello_Music_Voice = {                                                        %
 
             % [O Cello_Music_Voice measure 703 / measure 8]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \revert Accidental.stencil                                         %! baca_glissando
+            \revert NoteColumn.glissando-skip                                  %! baca_glissando
+            \revert NoteHead.no-ledgers                                        %! baca_glissando
+            \undo \hide NoteHead                                               %! baca_glissando
+            df,!1 * 1/4                                                        %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanBCP                                               %! stirrings_still_bcps:BCPCommand(1)
