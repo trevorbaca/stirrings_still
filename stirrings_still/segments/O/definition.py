@@ -56,6 +56,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
+    stirrings_still.flat_glissando('Eb4'),
     )
 
 maker(
@@ -97,6 +98,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
+    stirrings_still.flat_glissando('D4'),
     )
 
 maker(
@@ -109,6 +111,8 @@ maker(
         'mf >o niente',
         selector=baca.leaves().rleak(),
         ),
+    baca.markup('9°/Db'),
+    stirrings_still.flat_glissando('Eb4'),
     stirrings_still.pickets(4, 1),
     )
 
@@ -126,6 +130,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
+    stirrings_still.flat_glissando('G3'),
     )
 
 maker(
@@ -138,6 +143,8 @@ maker(
         'mf >o niente',
         selector=baca.leaves().rleak(),
         ),
+    baca.markup('7°/Db'),
+    stirrings_still.flat_glissando('Bqf3'),
     stirrings_still.pickets(4, 0),
     )
 
@@ -155,6 +162,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
+    stirrings_still.flat_glissando('Ab3'),
     )
 
 maker(
@@ -168,15 +176,6 @@ maker(
         abjad.tweak(10.5).staff_padding,
         ),
     baca.script_staff_padding(6),
-    baca.suite(
-        baca.untie_to(),
-        baca.pitch('Db2'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        selector=baca.leaves(),   
-        ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -4,
@@ -184,5 +183,6 @@ maker(
         clt=True,
         selector=baca.leaves().rleak(),
         ),
+    stirrings_still.flat_glissando('Db2', rleak=True),
     stirrings_still.trajectories('A', -1, 0),
     )
