@@ -95,6 +95,11 @@ maker(
     )
 
 maker(
+    ('v1', [(2, 9), (25, 27), (41, 42), (53, 54), 63, 69]),
+    stirrings_still.flat_glissando('Bb5'),
+    )
+
+maker(
     ('v1', (10, 24)),
     baca.breathe(),
     baca.hairpin(
@@ -320,7 +325,7 @@ maker(
             clt=True,
             ),
         ),
-    stirrings_still.flat_glissando('A5'),
+    stirrings_still.flat_glissando('A6'),
     stirrings_still.trajectories('C', 0, -3),
     )
 
@@ -368,6 +373,11 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     stirrings_still.desynchronization(4, [1]),
+    )
+
+maker(
+    ('v2', [(2, 13), (22, 30), (38, 45), (51, 56), (61, 64), (68, 70)]),
+    stirrings_still.flat_glissando('Gb4'),
     )
 
 maker(
@@ -612,6 +622,11 @@ maker(
     ('va', 1),
     baca.markup('5°/E'),
     baca.pitch('G#3'),
+    )
+
+maker(
+    ('va', [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]),
+    stirrings_still.flat_glissando('B3'),
     )
 
 maker(
@@ -1001,6 +1016,11 @@ maker(
 maker(
     ('vc', 1),
     baca.pitch('G2'),
+    )
+
+maker(
+    ('vc', [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]),
+    stirrings_still.flat_glissando('C3'),
     )
 
 maker(
