@@ -5823,6 +5823,7 @@ H_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     df,!8                                                                      %! stirrings_still_trajectories
+    - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
     \glissando                                                                 %! baca_glissando
@@ -5832,17 +5833,8 @@ H_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     df,!4                                                                      %! stirrings_still_trajectories
-    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    \glissando                                                                 %! baca_glissando
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #1 #4                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
-
-    df,!8                                                                      %! stirrings_still_trajectories
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    [                                                                          %! stirrings_still_trajectories
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #2 #4                                        %! stirrings_still_bcps:BCPCommand(2)
@@ -5851,10 +5843,20 @@ H_Cello_Music_Voice = {                                                        %
 
     df,!8                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    ]                                                                          %! stirrings_still_trajectories
+    [                                                                          %! stirrings_still_trajectories
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #4                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+
+    df,!8                                                                      %! stirrings_still_trajectories
+    - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    ]                                                                          %! stirrings_still_trajectories
+    \glissando                                                                 %! baca_glissando
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
@@ -5866,7 +5868,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5874,21 +5875,12 @@ H_Cello_Music_Voice = {                                                        %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         df,!4                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-        df,!8                                                                  %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5897,6 +5889,7 @@ H_Cello_Music_Voice = {                                                        %
 
         df,!8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -5915,10 +5908,19 @@ H_Cello_Music_Voice = {                                                        %
         df,!8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+
+        df,!8                                                                  %! stirrings_still_trajectories
+        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        ]                                                                      %! stirrings_still_trajectories
+        \glissando                                                             %! baca_glissando
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
@@ -5929,20 +5931,11 @@ H_Cello_Music_Voice = {                                                        %
 
         % [H Cello_Music_Voice measure 522 / measure 51]                       %! _comment_measure_numbers
         df,!8                                                                  %! stirrings_still_trajectories
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
+        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-
-        df,!8                                                                  %! stirrings_still_trajectories
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
@@ -5959,11 +5952,20 @@ H_Cello_Music_Voice = {                                                        %
         df,!8                                                                  %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+
+        df,!8                                                                  %! stirrings_still_trajectories
+        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        ]                                                                      %! stirrings_still_trajectories
+        \glissando                                                             %! baca_glissando
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 

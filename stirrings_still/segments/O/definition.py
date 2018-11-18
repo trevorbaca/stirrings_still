@@ -111,7 +111,10 @@ maker(
         'mf >o niente',
         selector=baca.leaves().rleak(),
         ),
-    baca.markup('9°/Db'),
+    baca.markup(
+        '9°/Db',
+        direction=abjad.Down,
+        ),
     stirrings_still.flat_glissando('Eb4'),
     stirrings_still.pickets(4, 1),
     )
@@ -183,6 +186,6 @@ maker(
         clt=True,
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.flat_glissando('Db2', rleak=True),
+    stirrings_still.flat_glissando('Db2'),
     stirrings_still.trajectories('A', -1, 0),
     )
