@@ -9,7 +9,7 @@ import stirrings_still
 ###############################################################################
 
 stage_markup = (
-    ('[K.6]', 1, 'darkgreen'),
+    ('[K.6.1]', 1, 'darkgreen'),
     ('[Q.1]', 2),
     ('[Q.2]', 10),
     ('[Q.3]', 22),
@@ -74,6 +74,12 @@ time = (
 stirrings_still.time(maker, time)
 
 # v1
+
+maker(
+    ('v1', 1),
+    baca.markup('11°/E'),
+    baca.pitch('Aqs5'),
+    )
 
 maker(
     ('v1', (2, 9)),
@@ -317,7 +323,38 @@ maker(
     stirrings_still.trajectories('C', 0, -3),
     )
 
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('tutti', 1),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    )
+
+maker(
+    ('tutti', 2),
+    baca.dynamic('p'),
+    )
+
 # v2
+
+maker(
+    ('v2', 1),
+    baca.markup('9°/E'),
+    baca.pitch('F#5'),
+    )
 
 maker(
     ('v2', (2, 13)),
@@ -570,6 +607,12 @@ maker(
 # va
 
 maker(
+    ('va', 1),
+    baca.markup('5°/E'),
+    baca.pitch('G#3'),
+    )
+
+maker(
     ('va', (73, -1)),
     baca.dynamic(
         'pp-sempre',
@@ -577,32 +620,6 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
-    )
-
-# vc
-
-maker(
-    ('vc', (73, 88)),
-    baca.dynamic(
-        'pp-sempre',
-        abjad.tweak(-0.75).self_alignment_X,
-        ),
-    baca.new(
-        baca.ottava_bassa(),
-        measures=(73, 92),
-        ),
-    baca.new(
-        baca.beam(),
-        stirrings_still.eighths(),
-        measures=(73, 87),
-        ),
-    stirrings_still.glissando_interpolation('Bb1', 'B0'),
-    )
-
-maker(
-    ('vc', (88, 92)),
-    baca.make_repeat_tied_notes(),
-    baca.pitch('B0'),
     )
 
 # va, vc
@@ -977,27 +994,33 @@ maker(
         ),
     )
 
-# tutti
+# vc
 
 maker(
-    'tutti',
-    baca.dls_staff_padding(6),
+    ('vc', 1),
+    baca.pitch('G2'),
     )
 
 maker(
-    ('tutti', 1),
-    baca.hairpin(
-        'mp -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+    ('vc', (73, 88)),
+    baca.dynamic(
+        'pp-sempre',
+        abjad.tweak(-0.75).self_alignment_X,
         ),
+    baca.new(
+        baca.ottava_bassa(),
+        measures=(73, 92),
+        ),
+    baca.new(
+        baca.beam(),
+        stirrings_still.eighths(),
+        measures=(73, 87),
+        ),
+    stirrings_still.glissando_interpolation('Bb1', 'B0'),
+    )
+
+maker(
+    ('vc', (88, 92)),
     baca.make_repeat_tied_notes(),
-    baca.stem_tremolo(
-        selector=baca.pleaves(),
-        ),
-    )
-
-maker(
-    ('tutti', 2),
-    baca.dynamic('p'),
+    baca.pitch('B0'),
     )
