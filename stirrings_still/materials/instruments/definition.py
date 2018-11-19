@@ -5,11 +5,11 @@ import baca
 instruments = abjad.OrderedDict([
     (
         'ViolinI',
-        abjad.Violin(pitch_range='[F#3, +inf]'),
+        abjad.Violin(pitch_range='[F3, +inf]'),
         ),
     (
         'ViolinII',
-        abjad.Violin(pitch_range='[F#3, +inf]'),
+        abjad.Violin(pitch_range='[F3, +inf]'),
         ),
     (
         'Viola',

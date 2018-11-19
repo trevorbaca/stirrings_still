@@ -124,6 +124,19 @@ maker(
     )
 
 maker(
+    ('v1', [1, 3, (5, 6), (8, 9), (11, 16)]), 
+    stirrings_still.flat_glissando(
+        '<E4 C5>',
+        selector=baca.pleaves()[:2],
+        ),
+    stirrings_still.flat_glissando(
+        '<E4 Cqs5>',
+        hide_stems=True,
+        selector=baca.pleaves()[2:],
+        ),
+    )
+
+maker(
     ('v1', [23, 26, (30, 45)]),
     stirrings_still.desynchronization(4, [1]),
     )
@@ -184,13 +197,14 @@ maker(
     ('trio', [1, 3, (5, 6), (8, 9)]),
     baca.new(
         baca.breathe(),
-        baca.tie_to(),
-        selector=baca.note(1),
+        ###baca.tie_to(),
+        selector=baca.pleaf(1),
         ),
     baca.new(
-        baca.repeat_tie_to(),
+        ###baca.repeat_tie_to(),
+        baca.script_padding(1),
         baca.stop_on_string(),
-        selector=baca.note(-1),
+        selector=baca.pleaf(-1),
         ),
     stirrings_still.declamation(),
     )
@@ -288,13 +302,13 @@ maker(
     ('trio', [18, 20, 22, 25, 29]),
     baca.new(
         baca.breathe(),
-        baca.tie_to(),
-        selector=baca.note(1),
+        ###baca.tie_to(),
+        selector=baca.pleaf(1),
         ),
     baca.new(
-        baca.repeat_tie_to(),
+        ###baca.repeat_tie_to(),
         baca.breathe(),
-        selector=baca.note(-1),
+        selector=baca.pleaf(-1),
         ),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
@@ -425,13 +439,13 @@ maker(
         ),
     baca.new(
         baca.breathe(),
-        baca.tie_to(),
-        selector=baca.note(1),
+        ###baca.tie_to(),
+        selector=baca.pleaf(1),
         ),
     baca.new(
-        baca.repeat_tie_to(),
+        ###baca.repeat_tie_to(),
         baca.stop_on_string(),
-        selector=baca.note(-1),
+        selector=baca.pleaf(-1),
         ),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
@@ -499,6 +513,19 @@ maker(
     )
 
 maker(
+    ('v2', [1, 3, (5, 6), (8, 9), (11, 16)]), 
+    stirrings_still.flat_glissando(
+        '<Eb4 B4>',
+        selector=baca.pleaves()[:2],
+        ),
+    stirrings_still.flat_glissando(
+        '<Eqf4 C5>',
+        hide_stems=True,
+        selector=baca.pleaves()[2:],
+        ),
+    )
+
+maker(
     ('v2', [23, 26, (30, 45)]),
     stirrings_still.desynchronization(4, [0]),
     )
@@ -544,6 +571,19 @@ maker(
     baca.suite(
         stirrings_still.margin_markup('Va.'),
         baca.start_markup(r'\stirrings-still-viola-markup', literal=True),
+        ),
+    )
+
+maker(
+    ('va', [1, 3, (5, 6), (8, 9), (11, 16)]), 
+    stirrings_still.flat_glissando(
+        '<D4 Gqs4>',
+        selector=baca.pleaves()[:2],
+        ),
+    stirrings_still.flat_glissando(
+        '<C#4 Gqs4>',
+        hide_stems=True,
+        selector=baca.pleaves()[2:],
         ),
     )
 
@@ -747,3 +787,8 @@ maker(
     ('vc', 60),
     baca.tacet(),
     )
+
+# STAGE 2 (after trio repeat-tie application)
+
+# v1, stage 2
+
