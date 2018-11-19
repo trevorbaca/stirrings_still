@@ -8,18 +8,20 @@ def glissando_interpolation(
     selector=baca.leaves(),
     ):
     """
-    Makes glissando interpolation.
+    Unties nonfirst leaves; interpolates pitches; makes glissando.
     """
-    # TODO: change to baca.chunk()
     return baca.suite(
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            selector=selector,
+        baca.untie_to(
+            selector=selector.leaves()[1:],
             ),
         baca.interpolate_staff_positions(
             start_pitch,
             stop_pitch,
+            selector=selector,
+            ),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
             selector=selector,
             ),
         )

@@ -155,7 +155,6 @@ maker(
 
 maker(
     ('v1', (5, 16)),
-
     stirrings_still.multistage_leaf_glissando(
         [('F5', 5), ('Gb5', 4), ('C5', 6), ('Eb5', 4), ('Db5', 6),
         ('F5', 4), ('E5', 6), ('G5', 3), ('F5', None)],
