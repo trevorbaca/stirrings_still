@@ -689,7 +689,7 @@ maker(
             clt=True,
             ),
         ),
-    stirrings_still.flat_glissando('Ab4'),
+    stirrings_still.flat_glissando('Ab5'),
     stirrings_still.trajectories('C', -1, -2),
     )
 
