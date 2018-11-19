@@ -56,25 +56,34 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
+    'v1',
+    baca.dls_staff_padding(7),
+    )
+
+maker(
     ('v1', (1, 8)),
-    baca.hairpin(
-        'ppp >o niente',
-        measures=(5, 8),
-        selector=baca.leaves().rleak(),
-        ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(14).staff_padding,
         ),
     baca.suite(
-        baca.script_staff_padding(5),
+        baca.script_staff_padding(10.5),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -8,
-            abjad.tweak(2.5).staff_padding,
+            abjad.tweak(8).staff_padding,
             clt=True,
             ),
         ),
+    stirrings_still.flat_glissando('A6'),
     stirrings_still.trajectories('C', 0, -3),
+    )
+
+maker(
+    ('v1', (5, 8)),
+    baca.hairpin(
+        'ppp >o niente',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -90,25 +99,34 @@ maker(
 # v2
 
 maker(
+    'v2',
+    baca.dls_staff_padding(7),
+    )
+
+maker(
     ('v2', (1, 8)),
-    baca.hairpin(
-        'ppp >o niente',
-        measures=(5, 8),
-        selector=baca.leaves().rleak(),
-        ),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
     baca.suite(
-        baca.script_staff_padding(5),
+        baca.script_staff_padding(7),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -8,
-            abjad.tweak(2.5).staff_padding,
+            abjad.tweak(4.5).staff_padding,
             clt=True,
             ),
         ),
+    stirrings_still.flat_glissando('Ab5'),
     stirrings_still.trajectories('C', -1, -2),
+    )
+
+maker(
+    ('v2', (5, 8)),
+    baca.hairpin(
+        'ppp >o niente',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -126,24 +144,29 @@ maker(
 maker(
     'va',
     baca.make_repeat_tied_notes(),
-    baca.pitch('Bb2'),
+    stirrings_still.flat_glissando('Bb2', hide_stems=True),
     )
 
 # vc
 
 maker(
+    'vc',
+    baca.dls_staff_padding(8),
+    )
+
+maker(
     ('vc', (1, 12)),
+    baca.make_repeat_tied_notes(),
+    baca.ottava_bassa(),
+    stirrings_still.flat_glissando('B0', hide_stems=True),
+    )
+
+maker(
+    ('vc', (9, 12)),
     baca.hairpin(
         'pp >o niente',
-        measures=(9, 12),
         selector=baca.leaves().rleak(),
         ),
-    baca.make_repeat_tied_notes(),
-    baca.new(
-        baca.ottava_bassa(),
-        measures=(1, 12),
-        ),
-    baca.pitch('B0'),
     )
 
 maker(
@@ -154,16 +177,4 @@ maker(
 maker(
     ('vc', (14, -1)),
     baca.tacet(),
-    )
-
-# vertical
-
-maker(
-    ['v1', 'v2'],
-    baca.dls_staff_padding(7),
-    )
-
-maker(
-    'vc',
-    baca.dls_staff_padding(8),
     )
