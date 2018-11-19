@@ -154,248 +154,7 @@ maker(
     stirrings_still.desynchronization(4, [1]),
     )
 
-# v2
-
-maker(
-    'v2',
-    baca.suite(
-        stirrings_still.margin_markup('Vn. II'),
-        baca.start_markup(r'\stirrings-still-violin-ii-markup', literal=True),
-        ),
-    )
-
-maker(
-    ('v2', [23, 26, (30, 45)]),
-    stirrings_still.desynchronization(4, [0]),
-    )
-
-maker(
-    ('v2', 27),
-    baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    stirrings_still.loure_tuplets(1),
-    stirrings_still.urtext_spanner('urtext (double stop G.1) -|', 5.5),
-    )
-
-maker(
-    ('v2', [(46, 50), 52, 54, 58]),
-    baca.circle_bow_spanner(
-        'tight',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.desynchronization(4, [0]),
-    )
-
-# va
-
-maker(
-    'va',
-    baca.clef('alto'),
-    baca.suite(
-        stirrings_still.margin_markup('Va.'),
-        baca.start_markup(r'\stirrings-still-viola-markup', literal=True),
-        ),
-    )
-
-maker(
-    ('va', [23, 26, (30, 45)]),
-    stirrings_still.desynchronization(4, [2]),
-    )
-
-maker(
-    ('va', 27),
-    baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    stirrings_still.clouded_pane_spanner('clouded (partial G.1) -|', 5.5),
-    stirrings_still.loure_tuplets(-1),
-    )
-
-maker(
-    ('va', [(46, 50), 52, 54, 58]),
-    baca.circle_bow_spanner(
-        'tight',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.desynchronization(4, [2]),
-    )
-
-# vc
-
-maker(
-    'vc',
-    baca.clef('bass'),
-    baca.suite(
-        stirrings_still.margin_markup('Vc.'),
-        baca.start_markup(r'\stirrings-still-cello-markup', literal=True),
-        ),
-    )
-
-maker(
-    ('vcx', (1, 11)),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', (12, 26)),
-    baca.dynamic('p'),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-        ),
-    baca.scp_spanner(
-        'tasto (T) =|',
-        abjad.tweak(8).staff_padding,
-        left_broken_text=r'\baca-left-broken-t-markup',
-        ),
-    stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
-    )
-
-maker(
-    ('vc', 27),
-    baca.hairpin(
-        'niente o< f > p',
-        pieces=baca.lparts([1, 2]),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.pitch('B1'),
-    stirrings_still.clouded_pane_spanner(
-        'clouded pane (pane / urtext) -|',
-        5.5,
-        ),
-    stirrings_still.taper((1, 1)),
-    )
-
-maker(
-    ('vc', (28, 40)),
-    baca.hairpin(
-        '(p) >o niente',
-        measures=(35, 40),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True,
-        ),
-    baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    stirrings_still.urtext_spanner(
-        'urtext (field) -|',
-        5.5,
-        measures=(28, 34),
-        ),
-    stirrings_still.urtext_spanner(
-        'urtext (down-glissando) -|',
-        5.5,
-        measures=(35, 40),
-        ),
-    )
-
-maker(
-    ('vcx', [41, (44, 45)]),
-    baca.tacet(),
-    )
-
-maker(
-    ('vc', (42, 43)),
-    baca.clef('treble'),
-    baca.clef(
-        'bass',
-        selector=baca.leaves().rleak()[-1],
-        ),
-    baca.hairpin(
-        'niente o< "f" -- !',
-        abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([1, 2]),
-        selector=baca.leaves().rleak(),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(12.5).staff_padding,
-        ),
-    baca.note_head_style_harmonic(),
-    baca.script_staff_padding(8),
-    baca.suite(
-        baca.pitch('A5'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
-        abjad.tweak(5).staff_padding,
-        ),
-    )
-
-maker(
-    ('vc', [(46, 47), (49, 50), 52, 54, 58]),
-    baca.circle_bow_spanner(
-        'tight',
-        abjad.tweak(5.5).staff_padding,
-        ),
-    baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.hairpin(
-        'p -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    stirrings_still.desynchronization(4, [-1]),
-    )
-
-maker(
-    ('vc', 48),
-    baca.clef('treble'),
-    baca.clef(
-        'bass',
-        selector=baca.leaves().rleak()[-1],
-        ),
-    baca.hairpin(
-        '"f" -- !',
-        abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(12.5).staff_padding,
-        ),
-    baca.note_head_style_harmonic(),
-    baca.script_staff_padding(8),
-    baca.suite(
-        baca.pitch('A5'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
-    stirrings_still.cello_cell(),
-    stirrings_still.cello_cell_bcps(
-        abjad.tweak(5).staff_padding,
-        ),
-    )
-
-maker(
-    ('vc', 60),
-    baca.tacet(),
-    )
-
-# trio
+# v1, v2, va
 
 maker(
     ('trio', 1),
@@ -720,4 +479,245 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
+    )
+
+# v2
+
+maker(
+    'v2',
+    baca.suite(
+        stirrings_still.margin_markup('Vn. II'),
+        baca.start_markup(r'\stirrings-still-violin-ii-markup', literal=True),
+        ),
+    )
+
+maker(
+    ('v2', [23, 26, (30, 45)]),
+    stirrings_still.desynchronization(4, [0]),
+    )
+
+maker(
+    ('v2', 27),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.loure_tuplets(1),
+    stirrings_still.urtext_spanner('urtext (double stop G.1) -|', 5.5),
+    )
+
+maker(
+    ('v2', [(46, 50), 52, 54, 58]),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.desynchronization(4, [0]),
+    )
+
+# va
+
+maker(
+    'va',
+    baca.clef('alto'),
+    baca.suite(
+        stirrings_still.margin_markup('Va.'),
+        baca.start_markup(r'\stirrings-still-viola-markup', literal=True),
+        ),
+    )
+
+maker(
+    ('va', [23, 26, (30, 45)]),
+    stirrings_still.desynchronization(4, [2]),
+    )
+
+maker(
+    ('va', 27),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.clouded_pane_spanner('clouded (partial G.1) -|', 5.5),
+    stirrings_still.loure_tuplets(-1),
+    )
+
+maker(
+    ('va', [(46, 50), 52, 54, 58]),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.desynchronization(4, [2]),
+    )
+
+# vc
+
+maker(
+    'vc',
+    baca.clef('bass'),
+    baca.suite(
+        stirrings_still.margin_markup('Vc.'),
+        baca.start_markup(r'\stirrings-still-cello-markup', literal=True),
+        ),
+    )
+
+maker(
+    ('vcx', (1, 11)),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', (12, 26)),
+    baca.dynamic('p'),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+        ),
+    baca.scp_spanner(
+        'tasto (T) =|',
+        abjad.tweak(8).staff_padding,
+        left_broken_text=r'\baca-left-broken-t-markup',
+        ),
+    stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
+    )
+
+maker(
+    ('vc', 27),
+    baca.hairpin(
+        'niente o< f > p',
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.pitch('B1'),
+    stirrings_still.clouded_pane_spanner(
+        'clouded pane (pane / urtext) -|',
+        5.5,
+        ),
+    stirrings_still.taper((1, 1)),
+    )
+
+maker(
+    ('vc', (28, 40)),
+    baca.hairpin(
+        '(p) >o niente',
+        measures=(35, 40),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.make_repeat_tied_notes(
+        do_not_rewrite_meter=True,
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    stirrings_still.urtext_spanner(
+        'urtext (field) -|',
+        5.5,
+        measures=(28, 34),
+        ),
+    stirrings_still.urtext_spanner(
+        'urtext (down-glissando) -|',
+        5.5,
+        measures=(35, 40),
+        ),
+    )
+
+maker(
+    ('vcx', [41, (44, 45)]),
+    baca.tacet(),
+    )
+
+maker(
+    ('vc', (42, 43)),
+    baca.clef('treble'),
+    baca.clef(
+        'bass',
+        selector=baca.leaves().rleak()[-1],
+        ),
+    baca.hairpin(
+        'niente o< "f" -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([1, 2]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(12.5).staff_padding,
+        ),
+    baca.note_head_style_harmonic(),
+    baca.script_staff_padding(8),
+    baca.suite(
+        baca.pitch('A5'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
+        ),
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(5).staff_padding,
+        ),
+    )
+
+maker(
+    ('vc', [(46, 47), (49, 50), 52, 54, 58]),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.damp_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.hairpin(
+        'p -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    stirrings_still.desynchronization(4, [-1]),
+    )
+
+maker(
+    ('vc', 48),
+    baca.clef('treble'),
+    baca.clef(
+        'bass',
+        selector=baca.leaves().rleak()[-1],
+        ),
+    baca.hairpin(
+        '"f" -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(12.5).staff_padding,
+        ),
+    baca.note_head_style_harmonic(),
+    baca.script_staff_padding(8),
+    baca.suite(
+        baca.pitch('A5'),
+        baca.glissando(
+            allow_repeats=True,
+            stems=True,
+            ),
+        ),
+    stirrings_still.cello_cell(),
+    stirrings_still.cello_cell_bcps(
+        abjad.tweak(5).staff_padding,
+        ),
+    )
+
+maker(
+    ('vc', 60),
+    baca.tacet(),
     )
