@@ -48,10 +48,6 @@ time = (
 
 stirrings_still.time(maker, time)
 
-# shared
-
-whisk_measures = [5, (10, 11), (16, 18), (23, 26)]
-
 # v1
 
 maker(
@@ -61,9 +57,9 @@ maker(
     )
 
 maker(
-    ('v1', whisk_measures),
+    ('v1', [5, (10, 11), (16, 18), (23, 26)]),
     baca.circle_bow_spanner(
-        'wide-poss',
+        'wide',
         abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic_text_self_alignment_x(
@@ -88,6 +84,25 @@ maker(
     stirrings_still.wave((1, 4), (3, 32)),
     )
 
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
+# v1, v2, vc
+
+maker(
+    (['v1', 'v2', 'vc'], [(1, 4), (6, 9), (12, 15), (19, 22), (27, 34)]),
+    baca.tacet(),
+    )
+
+maker(
+    (['v1x', 'v2x', 'vcx'], [1, 6, 12, 19, 27]),
+    baca.tacet(),
+    )
+
 # v2
 
 maker(
@@ -97,9 +112,9 @@ maker(
     )
 
 maker(
-    ('v2', whisk_measures),
+    ('v2', [5, (10, 11), (16, 18), (23, 26)]),
     baca.circle_bow_spanner(
-        'wide-poss',
+        'wide',
         abjad.tweak(5.5).staff_padding,
         ),
     baca.dynamic_text_self_alignment_x(
@@ -129,25 +144,11 @@ maker(
 maker(
     ('va', (1, 34)),
     baca.make_notes(),
-    baca.pitch('Bb2'),
     )
 
 maker(
     ('va', (1, 35)),
-    baca.dots_transparent(
-        selector=baca.leaves()[1:],
-        ),
-    baca.glissando(
-        abjad.tweak(2).bound_details__right__padding,
-        allow_repeats=True,
-        stems=True,
-        ),
-    baca.stem_transparent(
-        selector=baca.leaves()[1:],
-        ),
-    baca.untie_to(
-        selector=baca.leaves(),
-        ),
+    stirrings_still.flat_glissando('Bb2', hide_stems=True)
     )
 
 # vc
@@ -159,54 +160,43 @@ maker(
         'c1 ~ c4 ~ c4',
         repeat_tie_threshold=(1, 4),
         ),
-    baca.pitch('B0', allow_out_of_range=True),
     baca.ottava_bassa(),
+    stirrings_still.flat_glissando('B0'),
     )
 
 maker(
-    ('vc', whisk_measures[1:]),
+    ('vc', [(10, 11), (16, 18), (23, 26)]),
     baca.make_repeat_tied_notes(),
     baca.ottava_bassa(),
-    baca.pitch('B0', allow_out_of_range=True),
+    stirrings_still.flat_glissando('B0', hide_stems=True),
     )
 
 maker(
-    ('vc', 10),
+    ('vc', (10, 11)),
     baca.hairpin(
-        'o< f',
+        'o< f -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
-    ('vc', 16),
+    ('vc', (16, 18)),
     baca.hairpin(
-        'o< ff',
+        'o< ff -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([1, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
-    ('vc', 23),
+    ('vc', (23, 26)),
     baca.hairpin(
-        'o< fff',
+        'o< fff -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([1, 3 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    )
-
-# vertical
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
-    )
-
-maker(
-    (['v1', 'v2', 'vc'], [(1, 4), (6, 9), (12, 15), (19, 22), (27, 34)]),
-    baca.tacet(),
-    )
-
-maker(
-    (['v1x', 'v2x', 'vcx'], [1, 6, 12, 19, 27]),
-    baca.tacet(),
     )
