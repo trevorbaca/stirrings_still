@@ -8443,22 +8443,8 @@ B_Cello_Music_Voice = {                                                        %
 
     % [B Cello_Music_Voice measure 69 / measure 6]                             %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
-    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-    c''2.                                                                      %! stirrings_still_clouded_pane
+    e,2.                                                                       %! stirrings_still_clouded_pane
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "obverse overpressure harmonic (on 9°): bow between LH and nut;" %! baca_markup:IndicatorCommand
-                        "gradually introduce overpressure to encourage sound of open string" %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
     _ \markup { IV }                                                           %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8472,45 +8458,48 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak staff-padding #10.5                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 70 / measure 7]                             %! _comment_measure_numbers
-    c''1                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    e,1                                                                        %! stirrings_still_clouded_pane
+    \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 71 / measure 8]                             %! _comment_measure_numbers
-    c''1                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    e,1                                                                        %! stirrings_still_clouded_pane
+    \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 72 / measure 9]                             %! _comment_measure_numbers
-    c''2                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    e,2                                                                        %! stirrings_still_clouded_pane
+    \glissando                                                                 %! baca_glissando
 
-    c''8                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    e,8                                                                        %! stirrings_still_clouded_pane
+    \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 73 / measure 10]                            %! _comment_measure_numbers
-    c''2                                                                       %! stirrings_still_clouded_pane
+    e,2                                                                        %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 74 / measure 11]                            %! _comment_measure_numbers
-    c''1                                                                       %! stirrings_still_clouded_pane
-    \repeatTie
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    e,1                                                                        %! stirrings_still_clouded_pane
     \breathe                                                                   %! baca_breathe:IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     % [B Cello_Music_Voice measure 75 / measure 12]                            %! _comment_measure_numbers
-    \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
-    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
@@ -8534,7 +8523,6 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #13                                                 %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanDamp                                                     %! DAMP:baca_damp_spanner:PiecewiseCommand(1)
-    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles

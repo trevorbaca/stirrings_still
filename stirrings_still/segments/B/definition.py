@@ -722,28 +722,29 @@ maker(
 maker(
     ('vc', (6, 11)),
     baca.breathe(),
-    baca.clef('treble'),
+    ###baca.clef('treble'),
     baca.hairpin(
         'o< f -- !',
         abjad.tweak(True).to_barline,
         pieces=baca.mgroups([4, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.markup(
-        baca.markups.lines([
-            'obverse overpressure harmonic (on 9°): bow between LH and nut;',
-            'gradually introduce overpressure to encourage sound of open string',
-            ]),
-        boxed=True,
-        ),
+    #baca.markup(
+    #    baca.markups.lines([
+    #        'obverse overpressure harmonic (on 9°): bow between LH and nut;',
+    #        'gradually introduce overpressure to encourage sound of open string',
+    #        ]),
+    #    boxed=True,
+    #    ),
     baca.markup(
         baca.markups.string_number(4),
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.pitch('C5'),
+    ###baca.pitch('C5'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane -|', 10.5),
+    stirrings_still.flat_glissando('E2'),
     )
 
 maker(
@@ -752,7 +753,7 @@ maker(
         'tight',
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.clef('bass'),
+    ###baca.clef('bass'),
     baca.damp_spanner(
         abjad.tweak(13).staff_padding,
         ),
