@@ -90,11 +90,12 @@ time = (
     ('allegro', 34),
     ('allegro', 41),
     (baca.Ritardando(), 41),
-    ('adagio', 42),
+    ###('adagio', 42),
     ('larghissimo', 43),
-    ('adagio', 44),
-    (baca.Ritardando(), 44),
-    ('largo', 45),
+    ###('adagio', 44),
+    ###(baca.Ritardando(), 44),
+    ###('largo', 45),
+    ('largo', 44),
     ('larghissimo', 48),
     ('largo', 49),
     ('fermata', 51),
@@ -124,13 +125,26 @@ maker(
     )
 
 maker(
-    ('v1', [1, 3, (5, 6), (8, 9), (11, 16)]), 
+    ('v1', [1, 3, (5, 6), (8, 9), (11, 16), 60]), 
     stirrings_still.flat_glissando(
         '<E4 C5>',
         selector=baca.pleaves()[:2],
         ),
     stirrings_still.flat_glissando(
         '<E4 Cqs5>',
+        hide_stems=True,
+        selector=baca.pleaves()[2:],
+        ),
+    )
+
+maker(
+    ('v1', [18, 20, 22, 25, 29]),
+    stirrings_still.flat_glissando(
+        '<C#4 A4>',
+        selector=baca.pleaves()[:2],
+        ),
+    stirrings_still.flat_glissando(
+        '<C#4 Aqs4>',
         hide_stems=True,
         selector=baca.pleaves()[2:],
         ),
@@ -272,7 +286,7 @@ maker(
         ),
     baca.hairpin(
         'p < f-scratch -- ! >o niente',
-        pieces=baca.omgroups([1, 1]),
+        pieces=baca.omgroups([1, 2]),
         selector=baca.leaves()[2:].rleak(),
         ),
     baca.tasto_spanner(
@@ -513,13 +527,26 @@ maker(
     )
 
 maker(
-    ('v2', [1, 3, (5, 6), (8, 9), (11, 16)]), 
+    ('v2', [1, 3, (5, 6), (8, 9), (11, 16), 60]), 
     stirrings_still.flat_glissando(
         '<Eb4 B4>',
         selector=baca.pleaves()[:2],
         ),
     stirrings_still.flat_glissando(
         '<Eqf4 C5>',
+        hide_stems=True,
+        selector=baca.pleaves()[2:],
+        ),
+    )
+
+maker(
+    ('v2', [18, 20, 22, 25, 29]),
+    stirrings_still.flat_glissando(
+        '<C4 G#4>',
+        selector=baca.pleaves()[:2],
+        ),
+    stirrings_still.flat_glissando(
+        '<Cqs4 A4>',
         hide_stems=True,
         selector=baca.pleaves()[2:],
         ),
@@ -575,13 +602,26 @@ maker(
     )
 
 maker(
-    ('va', [1, 3, (5, 6), (8, 9), (11, 16)]), 
+    ('va', [1, 3, (5, 6), (8, 9), (11, 16), 60]), 
     stirrings_still.flat_glissando(
         '<D4 Gqs4>',
         selector=baca.pleaves()[:2],
         ),
     stirrings_still.flat_glissando(
         '<C#4 Gqs4>',
+        hide_stems=True,
+        selector=baca.pleaves()[2:],
+        ),
+    )
+
+maker(
+    ('va', [18, 20, 22, 25, 29]),
+    stirrings_still.flat_glissando(
+        '<B3 Eqs4>',
+        selector=baca.pleaves()[:2],
+        ),
+    stirrings_still.flat_glissando(
+        '<A#3 Eqs4>',
         hide_stems=True,
         selector=baca.pleaves()[2:],
         ),
@@ -652,14 +692,15 @@ maker(
         abjad.tweak(8).staff_padding,
         left_broken_text=r'\baca-left-broken-t-markup',
         ),
+    stirrings_still.flat_glissando('D2'),
     stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
 
 maker(
     ('vc', 27),
     baca.hairpin(
-        'niente o< f > p',
-        pieces=baca.lparts([1, 2]),
+        'niente o< f >o !',
+        pieces=baca.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
     baca.pitch('B1'),
@@ -671,7 +712,8 @@ maker(
     )
 
 maker(
-    ('vc', (28, 40)),
+    ('vc', (29, 40)),
+    baca.dynamic('p'),
     baca.hairpin(
         '(p) >o niente',
         measures=(35, 40),
@@ -683,16 +725,8 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.urtext_spanner(
-        'urtext (field) -|',
-        5.5,
-        measures=(28, 34),
-        ),
-    stirrings_still.urtext_spanner(
-        'urtext (down-glissando) -|',
-        5.5,
-        measures=(35, 40),
-        ),
+    stirrings_still.flat_glissando('Db2'),
+    stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
 
 maker(
@@ -715,6 +749,10 @@ maker(
         ),
     baca.half_clt_spanner(
         abjad.tweak(12.5).staff_padding,
+        ),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
     baca.script_staff_padding(8),
@@ -762,6 +800,10 @@ maker(
         ),
     baca.half_clt_spanner(
         abjad.tweak(12.5).staff_padding,
+        ),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
     baca.script_staff_padding(8),
