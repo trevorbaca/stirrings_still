@@ -130,6 +130,8 @@ maker(
 
 maker(
     ('v1', 27),
+    baca.markup('(12ET: conflicts with viola)'),
+    baca.pitch('<F4 A4>'),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
@@ -503,6 +505,8 @@ maker(
 
 maker(
     ('v2', 27),
+    baca.markup('(12ET: conflicts with viola)'),
+    baca.pitch('<E4 G#4>'),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
@@ -550,6 +554,8 @@ maker(
 
 maker(
     ('va', 27),
+    baca.markup('(9+7)°/B'),
+    baca.pitch('<Aqf3 C#4>'),
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
