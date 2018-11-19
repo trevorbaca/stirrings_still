@@ -154,6 +154,11 @@ maker(
     stirrings_still.desynchronization(4, [1]),
     )
 
+maker(
+    ('v1', (55, 56)),
+    stirrings_still.flat_glissando('Gb4'),
+    )
+
 # v1, v2, va
 
 maker(
@@ -522,6 +527,11 @@ maker(
     stirrings_still.desynchronization(4, [0]),
     )
 
+maker(
+    ('v2', (55, 56)),
+    stirrings_still.flat_glissando('F4'),
+    )
+
 # va
 
 maker(
@@ -562,6 +572,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [2]),
+    )
+
+maker(
+    ('va', (55, 56)),
+    stirrings_still.flat_glissando('Ab3'),
     )
 
 # vc
@@ -715,6 +730,11 @@ maker(
     stirrings_still.cello_cell_bcps(
         abjad.tweak(5).staff_padding,
         ),
+    )
+
+maker(
+    ('vc', (55, 56)),
+    stirrings_still.flat_glissando('Ab2'),
     )
 
 maker(
