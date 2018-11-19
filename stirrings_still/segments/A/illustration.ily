@@ -2178,12 +2178,12 @@ A_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still_desynchronization
 
     % [A Violin_I_Music_Voice measure 27]                                      %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_desynchronization
+    <f' a'>8
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+    ^ \markup { "(12ET: conflicts with viola)" }                               %! baca_markup:IndicatorCommand
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     [                                                                          %! stirrings_still_desynchronization
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -2199,28 +2199,22 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #5.5                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
     \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_desynchronization
+    <f' a'>8
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_desynchronization
+    <f' a'>8
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_desynchronization
+    <f' a'>8
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_desynchronization
+    <f' a'>8
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_desynchronization
+    <f' a'>8
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! stirrings_still_desynchronization
+    <f' a'>8
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     ]                                                                          %! stirrings_still_desynchronization
 
@@ -3836,12 +3830,12 @@ A_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
         % [A Violin_II_Music_Voice measure 27]                                 %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <e' gs'!>8
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+        ^ \markup { "(12ET: conflicts with viola)" }                           %! baca_markup:IndicatorCommand
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         [                                                                      %! stirrings_still_desynchronization
         - \abjad-dashed-line-with-hook                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3857,32 +3851,25 @@ A_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #5.5                                            %! MATERIAL:URTEXT:PiecewiseCommand(1)
         \bacaStartTextSpanUrtext                                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <e' gs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <e' gs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <e' gs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <e' gs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <e' gs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <e' gs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <e' gs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
 
@@ -5367,12 +5354,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
         % [A Viola_Music_Voice measure 27]                                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <aqf! cs'!>8
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+        ^ \markup { (9+7)°/B }                                                 %! baca_markup:IndicatorCommand
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         [                                                                      %! stirrings_still_desynchronization
         - \abjad-dashed-line-with-hook                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5388,24 +5375,19 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
         \bacaStartTextSpanCloudedPane                                          %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <aqf! cs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <aqf! cs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <aqf! cs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <aqf! cs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_desynchronization
+        <aqf! cs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
 
