@@ -90,11 +90,7 @@ time = (
     ('allegro', 34),
     ('allegro', 41),
     (baca.Ritardando(), 41),
-    ###('adagio', 42),
     ('larghissimo', 43),
-    ###('adagio', 44),
-    ###(baca.Ritardando(), 44),
-    ###('largo', 45),
     ('largo', 44),
     ('larghissimo', 48),
     ('largo', 49),
@@ -153,6 +149,7 @@ maker(
 maker(
     ('v1', [23, 26, (30, 45)]),
     stirrings_still.desynchronization(4, [1]),
+    stirrings_still.flat_glissando('B4'),
     )
 
 maker(
@@ -181,11 +178,17 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [1]),
+    stirrings_still.flat_glissando('C5'),
     )
 
 maker(
     ('v1', (55, 56)),
     stirrings_still.flat_glissando('Gb4'),
+    )
+
+maker(
+    ('v1', 62),
+    stirrings_still.flat_glissando('C5'),
     )
 
 # v1, v2, va
@@ -555,6 +558,7 @@ maker(
 maker(
     ('v2', [23, 26, (30, 45)]),
     stirrings_still.desynchronization(4, [0]),
+    stirrings_still.flat_glissando('Db4'),
     )
 
 maker(
@@ -583,11 +587,17 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [0]),
+    stirrings_still.flat_glissando('C4'),
     )
 
 maker(
     ('v2', (55, 56)),
     stirrings_still.flat_glissando('F4'),
+    )
+
+maker(
+    ('v2', 62),
+    stirrings_still.flat_glissando('C4'),
     )
 
 # va
@@ -630,6 +640,7 @@ maker(
 maker(
     ('va', [23, 26, (30, 45)]),
     stirrings_still.desynchronization(4, [2]),
+    stirrings_still.flat_glissando('A3'),
     )
 
 maker(
@@ -658,10 +669,16 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [2]),
+    stirrings_still.flat_glissando('Ab3'),
     )
 
 maker(
     ('va', (55, 56)),
+    stirrings_still.flat_glissando('Ab3'),
+    )
+
+maker(
+    ('va', 62),
     stirrings_still.flat_glissando('Ab3'),
     )
 
@@ -692,7 +709,7 @@ maker(
         abjad.tweak(8).staff_padding,
         left_broken_text=r'\baca-left-broken-t-markup',
         ),
-    stirrings_still.flat_glissando('D2'),
+    stirrings_still.flat_glissando('D2', hide_stems=True),
     stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
 
@@ -725,7 +742,7 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.flat_glissando('Db2'),
+    stirrings_still.flat_glissando('Db2', hide_stems=True),
     stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
 
@@ -784,6 +801,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.desynchronization(4, [-1]),
+    stirrings_still.flat_glissando('G3'),
     )
 
 maker(
@@ -830,7 +848,7 @@ maker(
     baca.tacet(),
     )
 
-# STAGE 2 (after trio repeat-tie application)
-
-# v1, stage 2
-
+maker(
+    ('vc', 62),
+    stirrings_still.flat_glissando('G3'),
+    )
