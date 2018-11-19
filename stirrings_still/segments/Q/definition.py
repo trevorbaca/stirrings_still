@@ -112,12 +112,9 @@ maker(
     ('v1', (10, 24)),
     baca.breathe(),
     baca.hairpin(
-        'ff < fff -- "fff" > p',
-        pieces=baca.mgroups([4, 4, 7]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(18, 24),
+        'o< fff -- "fff" >o !',
+        pieces=baca.mgroups([4, 4, 7 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.markup(
         r'\stirrings-still-molto-scratch-on-slow-strokes',
@@ -141,6 +138,13 @@ maker(
     )
 
 maker(
+    ('v1', (18, 24)),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
     ('v1', (25, 27)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -150,6 +154,7 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
+    baca.dynamic('p'),
     stirrings_still.desynchronization(4, [2]),
     )
 
@@ -166,12 +171,9 @@ maker(
     ('v1', (28, 40)),
     baca.breathe(),
     baca.hairpin(
-        'f < ff -- "ff" > p',
-        pieces=baca.mgroups([3, 4, 3 + 3]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(35, 40),
+        'o< ff -- "ff" >o !',
+        pieces=baca.mgroups([3, 4, 6 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.suite(
         baca.script_staff_padding(6),
@@ -191,6 +193,13 @@ maker(
     )
 
 maker(
+    ('v1', (35, 40)),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
     ('v1', (41, 42)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -200,6 +209,7 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
+    baca.dynamic('p'),
     stirrings_still.desynchronization(4, [2]),
     )
 
@@ -216,12 +226,9 @@ maker(
     ('v1', (43, 52)),
     baca.breathe(),
     baca.hairpin(
-        'mf < f -- "f" > p',
-        pieces=baca.mgroups([3, 2, 5]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(49, 52),
+        'o< f -- "f" >o !',
+        pieces=baca.mgroups([3, 2, 5 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.suite(
         baca.script_staff_padding(6),
@@ -241,6 +248,13 @@ maker(
     )
 
 maker(
+    ('v1', (49, 52)),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
     ('v1', (53, 54)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -251,6 +265,7 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.ltleaves().rleak(),
         ),
+    baca.dynamic('p'),
     stirrings_still.desynchronization(4, [2]),
     )
 
@@ -267,12 +282,9 @@ maker(
     ('v1', (55, 62)),
     baca.breathe(),
     baca.hairpin(
-        'mp < mf -- "mf" > pp',
-        pieces=baca.mgroups([2, 2, 4]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(59, 62),
+        'o< mf -- "mf" >o !',
+        pieces=baca.mgroups([2, 2, 4 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.suite(
         baca.script_staff_padding(7),
@@ -292,6 +304,13 @@ maker(
     )
 
 maker(
+    ('v1', (59, 62)),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
     ('v1', 63),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -301,6 +320,7 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
+    baca.dynamic('p'),
     stirrings_still.desynchronization(4, [2]),
     )
 
@@ -317,12 +337,9 @@ maker(
     ('v1', (64, 68)),
     baca.breathe(),
     baca.hairpin(
-        'p < mp -- mp > ppp',
-        pieces=baca.mgroups([1, 1, 3]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(66, 68),
+        'o< mp -- mp >o !',
+        pieces=baca.mgroups([1, 1, 3 + 1]),
+        selector=baca.leaves().rleak()
         ),
     baca.suite(
         baca.script_staff_padding(7),
@@ -334,6 +351,13 @@ maker(
             ),
         ),
     stirrings_still.trajectories('C', 0, -3),
+    )
+
+maker(
+    ('v1', (64, 68)),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
     )
 
 maker(
@@ -351,6 +375,7 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
+    baca.dynamic('p'),
     stirrings_still.desynchronization(4, [2]),
     )
 
@@ -358,12 +383,9 @@ maker(
     ('v1', (70, 71)),
     baca.breathe(),
     baca.hairpin(
-        'pp < p > ppp',
-        pieces=baca.mgroups([1, 1]),
-        ),
-    baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=71,
+        'pp < p >o !',
+        pieces=baca.mgroups([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
         ),
     baca.suite(
         baca.script_staff_padding(7),
@@ -376,6 +398,14 @@ maker(
         ),
     stirrings_still.glissando_interpolation('Ab4', 'Ab5'),
     stirrings_still.trajectories('C', 0, -3),
+    )
+
+maker(
+    ('v1', 71),
+    baca.half_clt_spanner(
+        abjad.tweak(10.5).staff_padding,
+        measures=71,
+        ),
     )
 
 maker(

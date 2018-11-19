@@ -2187,11 +2187,10 @@ Q_Violin_I_Music_Voice = {                                                     %
         \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         ^ \markup { \stirrings-still-molto-scratch-on-slow-strokes }           %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -2573,14 +2572,16 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-fff                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
 
         ef''!8                                                                 %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
@@ -2849,8 +2850,6 @@ Q_Violin_I_Music_Voice = {                                                     %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         ef''!8                                                                 %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
         \breathe                                                               %! baca_breathe:IndicatorCommand
@@ -2864,6 +2863,9 @@ Q_Violin_I_Music_Voice = {                                                     %
 
         % [Q Violin_I_Music_Voice measure 754 / measure 25]                    %! _comment_measure_numbers
         bf''!4                                                                 %! stirrings_still_desynchronization
+        \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
         \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -2956,10 +2958,9 @@ Q_Violin_I_Music_Voice = {                                                     %
         \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -3284,19 +3285,21 @@ Q_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
+    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #10.5                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
-    - \tweak staff-padding #3.5                                                %! stirrings_still_bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
-    \glissando                                                                 %! baca_glissando
 
     e''4.                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
@@ -3516,8 +3519,6 @@ Q_Violin_I_Music_Voice = {                                                     %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         e''8                                                                   %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
         \breathe                                                               %! baca_breathe:IndicatorCommand
@@ -3531,6 +3532,9 @@ Q_Violin_I_Music_Voice = {                                                     %
 
         % [Q Violin_I_Music_Voice measure 770 / measure 41]                    %! _comment_measure_numbers
         bf''!4                                                                 %! stirrings_still_desynchronization
+        \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
         \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -3585,10 +3589,9 @@ Q_Violin_I_Music_Voice = {                                                     %
         \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -3849,6 +3852,8 @@ Q_Violin_I_Music_Voice = {                                                     %
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -3903,13 +3908,13 @@ Q_Violin_I_Music_Voice = {                                                     %
         % [Q Violin_I_Music_Voice measure 778 / measure 49]                    %! _comment_measure_numbers
         f''8                                                                   %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
 
         f''8                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4071,8 +4076,6 @@ Q_Violin_I_Music_Voice = {                                                     %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         f''8                                                                   %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
         \breathe                                                               %! baca_breathe:IndicatorCommand
@@ -4086,6 +4089,9 @@ Q_Violin_I_Music_Voice = {                                                     %
 
         % [Q Violin_I_Music_Voice measure 782 / measure 53]                    %! _comment_measure_numbers
         bf''!4                                                                 %! stirrings_still_desynchronization
+        \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
         \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -4151,10 +4157,9 @@ Q_Violin_I_Music_Voice = {                                                     %
         \override Script.staff-padding = #7                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -4355,19 +4360,21 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         gf''!4.                                                                %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4501,8 +4508,6 @@ Q_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     gf''!8                                                                     %! stirrings_still_trajectories
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
     \breathe                                                                   %! baca_breathe:IndicatorCommand
     \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
@@ -4513,6 +4518,9 @@ Q_Violin_I_Music_Voice = {                                                     %
 
         % [Q Violin_I_Music_Voice measure 792 / measure 63]                    %! _comment_measure_numbers
         bf''!4                                                                 %! stirrings_still_desynchronization
+        \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
         \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -4557,10 +4565,9 @@ Q_Violin_I_Music_Voice = {                                                     %
         \override Script.staff-padding = #7                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanDamp                                                  %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
@@ -4569,6 +4576,12 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
         \hide NoteHead                                                         %! baca_glissando
         \override Accidental.stencil = ##f                                     %! baca_glissando
@@ -4700,14 +4713,10 @@ Q_Violin_I_Music_Voice = {                                                     %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
@@ -4791,8 +4800,6 @@ Q_Violin_I_Music_Voice = {                                                     %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         g''4                                                                   %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         \breathe                                                               %! baca_breathe:IndicatorCommand
         \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
@@ -4805,6 +4812,9 @@ Q_Violin_I_Music_Voice = {                                                     %
 
         % [Q Violin_I_Music_Voice measure 798 / measure 69]                    %! _comment_measure_numbers
         bf''!4                                                                 %! stirrings_still_desynchronization
+        \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
         \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -4903,19 +4913,21 @@ Q_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         e''4                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
@@ -4949,8 +4961,6 @@ Q_Violin_I_Music_Voice = {                                                     %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         af''!8                                                                 %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
         \breathe                                                               %! baca_breathe:IndicatorCommand
@@ -4967,6 +4977,7 @@ Q_Violin_I_Music_Voice = {                                                     %
             % [Q Violin_I_Music_Voice measure 801 / measure 72]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
