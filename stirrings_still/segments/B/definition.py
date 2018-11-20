@@ -143,6 +143,14 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
+    ('v1', (1, 4)),
+    stirrings_still.clockticks(
+        displace=True,
+        dmask=rmakers.silence([0], 2),
+        ),
+    )
+
+maker(
     ('v1', (1, 7)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
@@ -191,6 +199,10 @@ maker(
         (1, 4),
         dmask=baca.silence_last(),
         ),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(8).staff_padding,
+        ),
     )
 
 maker(
@@ -203,73 +215,70 @@ maker(
         pieces=baca.mgroups([8, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'tight',
-            abjad.tweak(8).staff_padding,
-            ),
-        measures=(12, 13),
-        ),
-    baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(8).staff_padding,
-            ),
-        measures=(14, 24),
-        ),
+    )
+
+maker(
+    ('v1', 14),
+    stirrings_still.clockticks(),
+    )
+
+maker(
+    ('v1', (14, 15)),
+    baca.alternate_bow_strokes(),
     )
 
 maker(
     ('v1', (14, 24)),
-    baca.new(
-        stirrings_still.clockticks(),
-        measures=14,
+    baca.half_clt_spanner(
+        abjad.tweak(8).staff_padding,
         ),
-    baca.new(
-        baca.rhythm(
-            abjad.select([
-                abjad.Tuplet((2, 3), "c'8 r4"),
-                abjad.Tuplet((2, 3), "c'8 r8"),
-                ]),
-            annotate_unpitched_music=True,
-            ),
-        measures=15,
+    )
+
+maker(
+    ('v1', 15),
+    baca.rhythm(
+        abjad.select([
+            abjad.Tuplet((2, 3), "c'8 r4"),
+            abjad.Tuplet((2, 3), "c'8 r8"),
+            ]),
+        annotate_unpitched_music=True,
         ),
-    baca.new(
-        baca.alternate_bow_strokes(),
-        measures=(14, 15),
+    )
+
+maker(
+    ('v1', 16),
+    baca.rhythm(
+        abjad.select([
+            abjad.Tuplet((2, 3), "c'8 r4"),
+            abjad.Tuplet((2, 3), "c'8 r4"),
+            abjad.Tuplet((2, 3), "c'8 r4"),
+            abjad.Tuplet((2, 3), "c'8 r16"),
+            ]),
+        annotate_unpitched_music=True,
         ),
-    baca.new(
-        baca.rhythm(
-            abjad.select([
-                abjad.Tuplet((2, 3), "c'8 r4"),
-                abjad.Tuplet((2, 3), "c'8 r4"),
-                abjad.Tuplet((2, 3), "c'8 r4"),
-                abjad.Tuplet((2, 3), "c'8 r16"),
-                ]),
-            annotate_unpitched_music=True,
-            ),
-        measures=16,
+    )
+
+maker(
+    ('v1', (16, 17)),
+    baca.alternate_bow_strokes(),
+    )
+
+maker(
+    ('v1', 17),
+    baca.rhythm(
+        abjad.select([
+            abjad.Tuplet((2, 3), "c'8 r4"),
+            abjad.Tuplet((2, 3), "c'8 r8"),
+            ]),
+        annotate_unpitched_music=True,
         ),
-    baca.new(
-        baca.rhythm(
-            abjad.select([
-                abjad.Tuplet((2, 3), "c'8 r4"),
-                abjad.Tuplet((2, 3), "c'8 r8"),
-                ]),
-            annotate_unpitched_music=True,
-            ),
-        measures=17,
-        ),
-    baca.new(
-        baca.alternate_bow_strokes(),
-        measures=(16, 17),
-        ),
-    baca.new(
-        baca.alternate_bow_strokes(),
-        stirrings_still.clockticks(
-            dmask=baca.silence_last(),
-            ),
-        measures=(18, 24),
+    )
+
+maker(
+    ('v1', (18, 24)),
+    baca.alternate_bow_strokes(),
+    stirrings_still.clockticks(
+        dmask=baca.silence_last(),
         ),
     )
 
@@ -419,31 +428,6 @@ maker(
 maker(
     'tutti',
     baca.dls_staff_padding(6),
-    )
-
-maker(
-    ('tutti', (1, 4)),
-    baca.new(
-        stirrings_still.clockticks(
-            displace=True,
-            dmask=rmakers.silence([0], 2),
-            ),
-        match=0,
-        ),
-    baca.new(
-        stirrings_still.clockticks(
-            dmask=baca.silence_last(),
-            ),
-        match=1,
-        measures=(1, 7),
-        ),
-    baca.new(
-        stirrings_still.clockticks(
-            dmask=baca.silence_last(),
-            ),
-        match=[2, 3],
-        measures=(1, 5),
-        ),
     )
 
 maker(
@@ -622,21 +606,27 @@ maker(
 # v2
 
 maker(
+    ('v2', (1, 4)),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
     ('v2', (1, 7)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.hairpin(
-        'mp -- !',
-        abjad.tweak(True).to_barline,
-        measures=(1, 4),
-        selector=baca.leaves().rleak(),
-        ),
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
     baca.tuplet_number_denominator(),
+    stirrings_still.clockticks(
+        dmask=baca.silence_last(),
+        ),
     )
 
 maker(
@@ -743,10 +733,6 @@ maker(
         pieces=baca.mgroups([6, 3, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.tasto_spanner(
-        abjad.tweak(10.5).staff_padding,
-        measures=(18, 27),
-        ),
     )
 
 maker(
@@ -764,11 +750,17 @@ maker(
     )
 
 maker(
+    ('v2', (18, 27)),
+    baca.tasto_spanner(
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
     ('v2', 27),
     baca.hairpin(
         'mf -- !',
         abjad.tweak(True).to_barline,
-        measures=27,
         selector=baca.leaves().rleak(),
         ),
     baca.suite(
@@ -841,25 +833,22 @@ maker(
         ),
     baca.pitch('Eqs5'),
     baca.tuplet_bracket_staff_padding(2),
+    stirrings_still.clockticks(
+        dmask=baca.silence_last(),
+        ),
+    )
+
+maker(
+    ('va', (1, 5)),
+    baca.half_clt_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
     )
 
 maker(
     ('va', (1, 7)),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
-        ),
-    baca.new(
-        baca.half_clt_spanner(
-            abjad.tweak(8).staff_padding,
-            ),
-        measures=(1, 5),
-        ),
-    baca.new(
-        baca.circle_bow_spanner(
-            'tight',
-            abjad.tweak(8).staff_padding,
-            ),
-        measures=(6, 7),
         ),
     )
 
@@ -875,6 +864,10 @@ maker(
 maker(
     ('va', (6, 7)),
     stirrings_still.circles((1, 4)),
+    baca.circle_bow_spanner(
+        'tight',
+        abjad.tweak(8).staff_padding,
+        ),
     )
 
 maker(
@@ -1016,8 +1009,14 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.pitch('Dtqs5'),
+    baca.pitch(
+        'Dtqs5',
+        selector=baca.pleaves()[:-1],
+        ),
     baca.tuplet_number_denominator(),
+    stirrings_still.clockticks(
+        dmask=baca.silence_last(),
+        ),
     )
 
 maker(
