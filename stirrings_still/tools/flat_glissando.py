@@ -7,7 +7,7 @@ def flat_glissando(
     *,
     hide_stems=None,
     rleak=None,
-    selector=baca.leaves(),
+    selector=baca.pleaves(),
     ):
     """
     Makes flat glissando.
