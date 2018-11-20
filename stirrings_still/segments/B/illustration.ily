@@ -8323,8 +8323,7 @@ B_Cello_Music_Voice = {                                                        %
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        dtqs''8                                                                %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
@@ -8598,7 +8597,8 @@ B_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-    dtqs''8                                                                    %! stirrings_still_clockticks
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_clockticks
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
     ~                                                                          %! TieCorrectionCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)

@@ -1026,10 +1026,7 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    baca.pitch(
-        'Dtqs5',
-        selector=baca.pleaves()[:-1],
-        ),
+    baca.pitch('Dtqs5'),
     baca.tuplet_number_denominator(),
     stirrings_still.clockticks(
         dmask=baca.silence_last(),
@@ -1129,7 +1126,10 @@ maker(
         'bass',
         selector=baca.leaves()[-1],
         ),
-    baca.pitch('Dtqs5'),
+    baca.pitch(
+        'Dtqs5',
+        selector=baca.pleaves()[:-1],
+        ),
     )
 
 maker(
