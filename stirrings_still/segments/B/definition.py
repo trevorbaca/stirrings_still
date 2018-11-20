@@ -49,7 +49,6 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
-    do_not_force_nonnatural_accidentals=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -195,14 +194,15 @@ maker(
 
 maker(
     ('v1', (12, 13)),
-    stirrings_still.circles(
-        (1, 4),
-        dmask=baca.silence_last(),
-        ),
     baca.circle_bow_spanner(
         'tight',
         abjad.tweak(8).staff_padding,
         ),
+    stirrings_still.circles(
+        (1, 4),
+        dmask=baca.silence_last(),
+        ),
+    stirrings_still.flat_glissando('C5'),
     )
 
 maker(
