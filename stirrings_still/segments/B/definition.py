@@ -49,6 +49,7 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
+    do_not_force_nonnatural_accidentals=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -151,6 +152,11 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.tuplet_number_denominator(),
+    )
+
+maker(
+    ('v1', [(1, 7), (14, 24)]),
+    baca.pitch('F#5'),
     )
 
 maker(
@@ -635,6 +641,7 @@ maker(
 
 maker(
     ('v2', (1, 17)),
+    baca.pitch('F5'),
     baca.tuplet_bracket_staff_padding(3),
     )
 
@@ -820,6 +827,11 @@ maker(
 
 maker(
     ('va', (1, 5)),
+    baca.clef('treble'),
+    baca.clef(
+        'alto',
+        selector=baca.leaves().rleak()[-1],
+        ),
     baca.alternate_bow_strokes(),
     baca.hairpin(
         'mp -- !',
@@ -827,6 +839,7 @@ maker(
         measures=(1, 4),
         selector=baca.leaves().rleak(),
         ),
+    baca.pitch('Eqs5'),
     baca.tuplet_bracket_staff_padding(2),
     )
 
@@ -986,6 +999,11 @@ maker(
 maker(
     ('vc', (1, 5)),
     baca.alternate_bow_strokes(),
+    baca.clef('treble'),
+    baca.clef(
+        'bass',
+        selector=baca.leaves().rleak()[-1],
+        ),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
@@ -998,6 +1016,7 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('Dtqs5'),
     baca.tuplet_number_denominator(),
     )
 
@@ -1035,7 +1054,7 @@ maker(
     ###baca.pitch('C5'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane -|', 10.5),
-    stirrings_still.flat_glissando('E2'),
+    stirrings_still.flat_glissando('E2', hide_stems=True),
     )
 
 maker(
@@ -1071,6 +1090,11 @@ maker(
 
 maker(
     ('vc', (16, 19)),
+    baca.clef('treble'),
+    baca.clef(
+        'bass',
+        selector=baca.leaves()[-1],
+        ),
     baca.new(
         baca.rhythm(
             abjad.select([
@@ -1093,6 +1117,7 @@ maker(
             ),
         measures=17,
         ),
+    baca.pitch('Dtqs5'),
     stirrings_still.clockticks(
         encroach=True,
         measures=(18, 19),
