@@ -7,6 +7,7 @@ def multistage_leaf_glissando(
     final_pitch,
     *,
     measures=None,
+    selector=baca.pleaves(),
     rleak_final_stage=None,
     ):
     """
@@ -17,7 +18,7 @@ def multistage_leaf_glissando(
 
     commands = []
     command = baca.untie_to(
-        selector=baca.leaves(),
+        selector=selector,
         )
     commands.append(command)
 
@@ -33,12 +34,12 @@ def multistage_leaf_glissando(
             baca.glissando(
                 allow_repeats=True,
                 stems=True,
-                selector=baca.leaves()[start:stop],
+                selector=selector[start:stop],
                 ),
             baca.interpolate_staff_positions(
                 start_pitch,
                 stop_pitch,
-                selector=baca.leaves()[start:stop],
+                selector=selector[start:stop],
                 ),
             )
         commands.append(command)
