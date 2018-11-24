@@ -308,7 +308,7 @@ maker(
     stirrings_still.glissando_interpolation('G#5', 'B5'),
     )
 
-bcp_staff_padding = 4
+bcp_staff_padding = 6
 maker(
     ('v1', [
         (29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
@@ -859,7 +859,7 @@ maker(
     stirrings_still.glissando_interpolation('G5', 'F5'),
     )
 
-bcp_staff_padding = 3
+bcp_staff_padding = 6
 maker(
     ('v2', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
     baca.script_staff_padding(bcp_staff_padding + 2.5),
@@ -1090,7 +1090,7 @@ maker(
     stirrings_still.glissando_interpolation('Ftqs5', 'Db5'),
     )
 
-bcp_staff_padding = 3
+bcp_staff_padding = 6
 maker(
     ('va', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
     baca.script_staff_padding(bcp_staff_padding + 2.5),
