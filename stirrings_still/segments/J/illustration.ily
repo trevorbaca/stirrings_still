@@ -933,7 +933,7 @@ J_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    <es'! gs'!>2
+    <e' gs'!>2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -963,7 +963,7 @@ J_Violin_II_Music_Voice = {                                                    %
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    <es'! gs'!>2.
+    <e' gs'!>2.
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
@@ -1047,7 +1047,7 @@ J_Violin_II_Music_Voice = {                                                    %
 
     % [J Violin_II_Music_Voice measure 543 / measure 5]                        %! _comment_measure_numbers
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
-    <es'! gs'!>2.
+    <e' gs'!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
@@ -1071,29 +1071,29 @@ J_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    <es'! gs'!>1
+    <e' gs'!>1
     \glissando                                                                 %! baca_glissando
 
     % [J Violin_II_Music_Voice measure 545 / measure 7]                        %! _comment_measure_numbers
-    <es'! gs'!>1
+    <e' gs'!>1
     \!                                                                         %! baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca_glissando
 
     % [J Violin_II_Music_Voice measure 546 / measure 8]                        %! _comment_measure_numbers
-    <es'! gs'!>2..
+    <e' gs'!>2..
     \glissando                                                                 %! baca_glissando
 
     % [J Violin_II_Music_Voice measure 547 / measure 9]                        %! _comment_measure_numbers
-    <es'! gs'!>2..
+    <e' gs'!>2..
     \glissando                                                                 %! baca_glissando
 
     % [J Violin_II_Music_Voice measure 548 / measure 10]                       %! _comment_measure_numbers
-    <es'! gs'!>2
+    <e' gs'!>2
     \glissando                                                                 %! baca_glissando
 
-    <es'! gs'!>8
+    <e' gs'!>8
     \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
@@ -1104,7 +1104,7 @@ J_Violin_II_Music_Voice = {                                                    %
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    <es'! gs'!>2.
+    <e' gs'!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-poco-scratch                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \tweak staff-padding #3                                                  %! baca_markup:IndicatorCommand

@@ -201,6 +201,27 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
+    baca.new(
+        stirrings_still.flat_glissando(
+            '<F4 A4>',
+            hide_stems=True,
+            ),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.flat_glissando(
+            '<E4 G#4>',
+            hide_stems=True,
+            ),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.flat_glissando(
+            '<Eqs4 Gtqs4>',
+            hide_stems=True,
+            ),
+        match=2,
+        ),
     stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     stirrings_still.urtext_field(),
     )

@@ -75,21 +75,9 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', [(1, 2), (5, 11)]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('<F4 A4>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    stirrings_still.flat_glissando(
+        '<F4 A4>',
+        hide_stems=True,
         ),
     )
 
@@ -230,21 +218,9 @@ maker(
 
 maker(
     ('v2', [(1, 2), (5, 11)]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('<E#4 G#4>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    stirrings_still.flat_glissando(
+        '<E4 G#4>',
+        hide_stems=True,
         ),
     )
 
@@ -288,21 +264,9 @@ maker(
 
 maker(
     ('va', [(1, 2), (5, 11)]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('<Eqs4 Gtqs4>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    stirrings_still.flat_glissando(
+        '<Eqs4 Gtqs4>',
+        hide_stems=True,
         ),
     )
 
@@ -343,28 +307,16 @@ maker(
 
 maker(
     ('vc', (7, 11)),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('Bb1'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
         selector=baca.leaf(-1),
         ),
     baca.hairpin(
         'pp < fff-poco-scratch',
+        ),
+    stirrings_still.flat_glissando(
+        'Bb1',
+        hide_stems=True,
         ),
     stirrings_still.urtext_field(),
     )
