@@ -232,6 +232,9 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(8).staff_padding,
         ),
+    baca.tuplet_bracket_down(
+        selector=baca.leaves().lleak(),
+        ),
     )
 
 maker(
@@ -426,7 +429,6 @@ maker(
 
 maker(
     ('trio', 26),
-    baca.breathe(selector=baca.pleaf(1)),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=baca.leaf(2),
@@ -434,6 +436,17 @@ maker(
     baca.hairpin(
         'p <| mp p < mp',
         pieces=baca.clparts([1]),
+        ),
+    baca.new(
+        baca.breathe(
+            abjad.tweak((0, 1)).extra_offset,
+            selector=baca.pleaf(1),
+            ),
+        match=0,
+        ),
+    baca.new(
+        baca.breathe(selector=baca.pleaf(1)),
+        match=[1, 2],
         ),
     baca.stop_on_string(selector=baca.pleaf(-1)),
     stirrings_still.declamation(),
@@ -1172,7 +1185,7 @@ maker(
     stirrings_still.glissando_interpolation('Ftqs5', 'C5'),
     )
 
-bcp_staff_padding = 6
+bcp_staff_padding = 4
 maker(
     ('va', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
     baca.script_staff_padding(bcp_staff_padding + 2.5),
@@ -1266,13 +1279,14 @@ maker(
     stirrings_still.flat_glissando('F3'),
     )
 
+bcp_staff_padding = 4
 maker(
     ('va', (58, 59)),
-    baca.script_staff_padding(5),
+    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -2,
-        abjad.tweak(2.5).staff_padding,
+        abjad.tweak(bcp_staff_padding).staff_padding,
         clt=True,
         ),
     stirrings_still.trajectories('C', -2, -1),
@@ -1393,7 +1407,10 @@ maker(
 
 maker(
     ('vc', (16, 19)),
-    baca.clef('treble'),
+    baca.clef(
+        'treble',
+        selector=baca.leaves().lleak()[0],
+        ),
     baca.pitch(
         'Dtqs5',
         selector=baca.pleaves()[:-1],
@@ -1538,13 +1555,14 @@ maker(
 
 maker(
     ('vc', (37, 38)),
-    baca.clef('bass'),
+    baca.clef('tenor'),
     stirrings_still.glissando_interpolation('Fqs4', 'Gb3'),
     )
 
 maker(
     ('vc', (40, 41)),
-    stirrings_still.glissando_interpolation('Fqs4', 'F2'),
+    baca.clef('bass'),
+    stirrings_still.glissando_interpolation('Fqs3', 'F2'),
     )
 
 maker(
@@ -1554,7 +1572,7 @@ maker(
 
 maker(
     ('vc', 44),
-    stirrings_still.glissando_interpolation('Fqs4', 'D2'),
+    stirrings_still.glissando_interpolation('Fqs3', 'D2'),
     )
 
 maker(
