@@ -363,14 +363,20 @@ maker(
         ),
     baca.new(
         baca.beam(),
+        baca.markup('13°/Db'),
         stirrings_still.circles((1, 8)),
+        stirrings_still.flat_glissando('Aqs4'),
         match=0,
         ),
     baca.new(
+        baca.markup('9°/Db'),
+        baca.pitch('Eb4'),
         stirrings_still.circles((1, 4)),
         match=1,
         ),
     baca.new(
+        baca.markup('7°/Db'),
+        baca.pitch('Bqf3'),
         stirrings_still.circles(
             (1, 2),
             dmask=baca.silence_first(),

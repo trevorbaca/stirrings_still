@@ -138,7 +138,9 @@ maker(
         'wide',
         abjad.tweak(8).staff_padding,
         ),
+    baca.markup('13°/Db'),
     stirrings_still.circles((1, 8)),
+    stirrings_still.flat_glissando('Aqs4'),
     )
 
 maker(
@@ -394,6 +396,8 @@ maker(
         'very-wide',
         abjad.tweak(8).staff_padding,
         ),
+    baca.markup('7°/Db'),
+    baca.pitch('Bqf3'),
     stirrings_still.circles((1, 2)),
     )
 
