@@ -135,6 +135,8 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', 5),
     baca.dynamic('mp'),
+    baca.markup('(12ET: conflicts with viola)'),
+    baca.pitch('<F4 A4>'),
     stirrings_still.loure_tuplets(0),
     stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
     )
@@ -146,9 +148,16 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
+    baca.markup('(7+9)°/E'),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
     stirrings_still.clouded_pane(),
-    baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
+    stirrings_still.flat_glissando(
+        '<F#4 Dqf5>',
+        hide_stems=True,
+        ),
     )
 
 maker(
@@ -442,11 +451,6 @@ maker(
 
 maker(
     ('tutti', (36, 55)),
-    baca.circle_bow_spanner(
-        'wide',
-        abjad.tweak(8).staff_padding,
-        measures=(36, 59),
-        ),
     baca.new(
         stirrings_still.synchronized_circles(rotation=0),
         match=0,
@@ -497,6 +501,14 @@ maker(
         bookend=False,
         measures=(52, 55),
         pieces=baca.pheads()[:-1].map(baca.group()),
+        ),
+    )
+
+maker(
+    ('tutti', (36, 59)),
+    baca.circle_bow_spanner(
+        'wide',
+        abjad.tweak(8).staff_padding,
         ),
     )
 
@@ -600,6 +612,8 @@ maker(
 maker(
     ('v2', 5),
     baca.dynamic('mp'),
+    baca.markup('(12ET: conflicts with viola)'),
+    baca.pitch('<E4 G#4>'),
     stirrings_still.loure_tuplets(1),
     stirrings_still.urtext_spanner('urtext (ds) -|', 5.5),
     )
@@ -629,6 +643,7 @@ maker(
             ),
         measures=29,
         ),
+    baca.pitch('F5'),
     )
 
 maker(
@@ -653,6 +668,8 @@ maker(
 maker(
     ('va', 5),
     baca.dynamic('mp'),
+    baca.markup('(9+7)°/B'),
+    baca.pitch('<Aqf3 C#4>'),
     stirrings_still.clouded_pane_spanner('clouded (partial: stopped) -|', 5.5),
     stirrings_still.loure_tuplets(-1),
     )
@@ -664,9 +681,16 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
+    baca.markup('(11+3)°/E'),
+    baca.tasto_spanner(
+        abjad.tweak(8).staff_padding,
+        ),
     stirrings_still.clouded_pane(),
-    baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
+    stirrings_still.flat_glissando(
+        '<B2 Aqs3>',
+        hide_stems=True,
+        ),
     )
 
 maker(
@@ -717,8 +741,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
+    stirrings_still.flat_glissando(
+        'E2',
+        hide_stems=True,
+        ),
     )
 
 maker(
