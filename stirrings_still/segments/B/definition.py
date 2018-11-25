@@ -974,6 +974,14 @@ maker(
     )
 
 maker(
+    ('v2', (50, 51)),
+    stirrings_still.flat_glissando(
+        'D4',
+        rleak=True,
+        ),
+    )
+
+maker(
     ('v2', (50, 57)),
     baca.new(
         baca.hairpin(
@@ -988,6 +996,20 @@ maker(
         pieces=baca.mgroups([2, 4, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    )
+
+maker(
+    ('v2', (52, 55)),
+    stirrings_still.multistage_leaf_glissando(
+        [('D4', 8), ('Fb4', 8), ('Eb4', None)],
+        'F#4',
+        rleak_final_stage=True,
+        ),
+    )
+
+maker(
+    ('v2', (56, 62)),
+    stirrings_still.flat_glissando('F#4'),
     )
 
 maker(
@@ -1206,11 +1228,20 @@ maker(
     )
 
 maker(
+    ('va', (50, 51)),
+    stirrings_still.flat_glissando(
+        'D3',
+        rleak=True,
+        ),
+    )
+
+maker(
     ('va', (50, 59)),
     baca.new(
         baca.hairpin(
             'fff -- ff > ppp --',
             bookend=False,
+            selector=baca.leaves().rleak(),
             ),
         baca.scp_spanner(
             'P poss. -> P molto -> T =|',
@@ -1218,8 +1249,21 @@ maker(
             stirrings_still.left_broken_tasto_tweak(),
             ),
         pieces=baca.mgroups([2, 4, 4 + 1]),
-        selector=baca.leaves().rleak(),
         ),
+    )
+
+maker(
+    ('va', (52, 55)),
+    stirrings_still.multistage_leaf_glissando(
+        [('D3', 8), ('Fb3', 8), ('Eb3', None)],
+        'F3',
+        rleak_final_stage=True,
+        ),
+    )
+
+maker(
+    ('va', (56, 62)),
+    stirrings_still.flat_glissando('F3'),
     )
 
 maker(
@@ -1543,12 +1587,18 @@ maker(
     )
 
 maker(
+    ('vc', (50, 51)),
+    stirrings_still.flat_glissando(
+        'D2',
+        rleak=True,
+        ),
+    )
+
+maker(
     ('vc', (50, 60)),
-    baca.new(
-        baca.hairpin(
-            'fff -- ff > ppp --',
-            bookend=False,
-            ),
+    baca.hairpin(
+        'fff -- ff > ppp --',
+        bookend=False,
         pieces=baca.mgroups([2, 4, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
@@ -1556,15 +1606,27 @@ maker(
 
 maker(
     ('vc', (50, 61)),
-    baca.new(
-        baca.scp_spanner(
-            'P poss. -> P molto -> T =|',
-            abjad.tweak(10.5).staff_padding,
-            stirrings_still.left_broken_tasto_tweak(),
-            ),
+    baca.scp_spanner(
+        'P poss. -> P molto -> T =|',
+        abjad.tweak(10.5).staff_padding,
+        stirrings_still.left_broken_tasto_tweak(),
         pieces=baca.mgroups([2, 4, 6 + 1]),
-        selector=baca.leaves().rleak(),
+        #selector=baca.leaves().rleak(),
         ),
+    )
+
+maker(
+    ('vc', (52, 55)),
+    stirrings_still.multistage_leaf_glissando(
+        [('D2', 8), ('Fb2', 8), ('Eb2', None)],
+        'F2',
+        rleak_final_stage=True,
+        ),
+    )
+
+maker(
+    ('vc', (56, 62)),
+    stirrings_still.flat_glissando('F2'),
     )
 
 maker(
