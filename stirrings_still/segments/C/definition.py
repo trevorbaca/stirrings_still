@@ -142,6 +142,16 @@ maker(
     )
 
 maker(
+    ('v1', [(12, 23), (30, 59)]),
+    baca.pitch('Bqf5'),
+    )
+
+maker(
+    ('v1', (24, 27)),
+    stirrings_still.flat_glissando('Bqf5'),
+    )
+
+maker(
     ('v1', (28, 29)),
     baca.hairpin(
         'pp -- !',
@@ -154,10 +164,7 @@ maker(
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
-    stirrings_still.flat_glissando(
-        '<F#4 Dqf5>',
-        hide_stems=True,
-        ),
+    stirrings_still.flat_glissando('<F#4 Dqf5>'),
     )
 
 maker(
@@ -272,6 +279,7 @@ maker(
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
+    stirrings_still.flat_glissando('G4'),
     )
 
 maker(
@@ -289,19 +297,22 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.new(
+        stirrings_still.flat_glissando('Bb4'),
         stirrings_still.desynchronization(4, [1]),
         match=0,
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
-        stirrings_still.glissando_interpolation('F4', 'Ab4'),
+        stirrings_still.glissando_interpolation('G4', 'A4'),
         match=1,
         ),
     baca.new(
+        stirrings_still.flat_glissando('Bb4'),
         stirrings_still.desynchronization(4, [2]),
         match=2,
         ),
     baca.new(
+        stirrings_still.flat_glissando('Bb4'),
         stirrings_still.desynchronization(4, [-1]),
         match=3,
         ),
@@ -550,6 +561,22 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
+    baca.new(
+        baca.pitch('B5'),
+        match=0,
+        ),
+    baca.new(
+        baca.pitch('B4'),
+        match=1,
+        ),
+    baca.new(
+        baca.pitch('B3'),
+        match=2,
+        ),
+    baca.new(
+        baca.pitch('B1'),
+        match=3,
+        ),
     stirrings_still.synchronized_circles(
         rests=[-1],
         rotation=0,
@@ -619,6 +646,16 @@ maker(
     )
 
 maker(
+    ('v2', [(12, 23), (30, 59)]),
+    baca.pitch('Bb4'),
+    )
+
+maker(
+    ('v2', (24, 27)),
+    stirrings_still.flat_glissando('Bb4'),
+    )
+
+maker(
     ('v2', (28, 29)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
@@ -675,6 +712,16 @@ maker(
     )
 
 maker(
+    ('va', [(12, 23), (30, 59)]),
+    baca.pitch('Bqf3'),
+    )
+
+maker(
+    ('va', (24, 27)),
+    stirrings_still.flat_glissando('Bqf3'),
+    )
+
+maker(
     ('va', (28, 29)),
     baca.hairpin(
         'pp -- !',
@@ -687,10 +734,7 @@ maker(
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
-    stirrings_still.flat_glissando(
-        '<B2 Aqs3>',
-        hide_stems=True,
-        ),
+    stirrings_still.flat_glissando('<B2 Aqs3>'),
     )
 
 maker(
@@ -719,7 +763,13 @@ maker(
 # vc
 
 maker(
+    'vc',
+    baca.clef('treble'),
+    )
+
+maker(
     ('vc', 5),
+    baca.clef('bass'),
     baca.hairpin(
         'o< f >o niente',
         pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
@@ -734,6 +784,26 @@ maker(
     )
 
 maker(
+    ('vc', 7),
+    baca.clef('treble'),
+    )
+
+maker(
+    ('vc', 12),
+    baca.clef('bass'),
+    )
+
+maker(
+    ('vc', [(12, 23), (30, 59)]),
+    baca.pitch('Bb2'),
+    )
+
+maker(
+    ('vc', (24, 27)),
+    stirrings_still.flat_glissando('Bb2'),
+    )
+
+maker(
     ('vc', (28, 29)),
     baca.hairpin(
         'pp -- !',
@@ -742,10 +812,7 @@ maker(
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
-    stirrings_still.flat_glissando(
-        'E2',
-        hide_stems=True,
-        ),
+    stirrings_still.flat_glissando('E2'),
     )
 
 maker(
@@ -756,9 +823,9 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.pitch('E2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
+    stirrings_still.flat_glissando('E2'),
     )
 
 maker(
