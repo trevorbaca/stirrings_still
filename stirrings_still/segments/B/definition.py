@@ -354,13 +354,30 @@ maker(
 
 maker(
     ('v1', 46),
-    stirrings_still.flat_glissando('Eb6'),
+    stirrings_still.flat_glissando('D6'),
     )
 
 maker(
     ('v1', 48),
     baca.markup('(7+9)°/E'),
     baca.pitch('<F#4 Dqf5>'),
+    )
+
+maker(
+    ('v1', (50, 51)),
+    stirrings_still.flat_glissando(
+        'D6',
+        rleak=True,
+        ),
+    )
+
+maker(
+    ('v1', (52, 55)),
+    stirrings_still.multistage_leaf_glissando(
+        [('D6', 8),  ('Ab5', 8), ('B5', None)],
+        'F5',
+        rleak_final_stage=True,
+        ),
     )
 
 maker(
@@ -379,6 +396,11 @@ maker(
         pieces=baca.mgroups([2, 4, 5 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    )
+
+maker(
+    ('v1', (56, 62)),
+    stirrings_still.flat_glissando('F5'),
     )
 
 maker(
@@ -942,7 +964,7 @@ maker(
 
 maker(
     ('v2', 46),
-    stirrings_still.flat_glissando('Eb4'),
+    stirrings_still.flat_glissando('D4'),
     )
 
 maker(
@@ -1174,7 +1196,7 @@ maker(
 
 maker(
     ('va', 46),
-    stirrings_still.flat_glissando('Eb3'),
+    stirrings_still.flat_glissando('D3'),
     )
 
 maker(
@@ -1505,7 +1527,7 @@ maker(
 
 maker(
     ('vc', 46),
-    stirrings_still.flat_glissando('Eb2'),
+    stirrings_still.flat_glissando('D2'),
     )
 
 maker(
