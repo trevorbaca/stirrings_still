@@ -305,7 +305,7 @@ maker(
 
 maker(
     ('v1', (29, 30)),
-    stirrings_still.glissando_interpolation('G#5', 'B5'),
+    stirrings_still.glissando_interpolation('G#5', 'Bb5'),
     )
 
 bcp_staff_padding = 6
@@ -329,17 +329,17 @@ maker(
 
 maker(
     ('v1', (34, 35)),
-    stirrings_still.glissando_interpolation('G#5', 'C6'),
+    stirrings_still.glissando_interpolation('G#5', 'B5'),
     )
 
 maker(
     ('v1', (37, 38)),
-    stirrings_still.glissando_interpolation('G#5', 'C#6'),
+    stirrings_still.glissando_interpolation('G#5', 'C6'),
     )
 
 maker(
     ('v1', (40, 41)),
-    stirrings_still.glissando_interpolation('G#5', 'D6'),
+    stirrings_still.glissando_interpolation('G#5', 'Db6'),
     )
 
 maker(
@@ -349,7 +349,7 @@ maker(
 
 maker(
     ('v1', 44),
-    stirrings_still.glissando_interpolation('G#5', 'Eb6'),
+    stirrings_still.glissando_interpolation('G#5', 'D6'),
     )
 
 maker(
@@ -373,7 +373,7 @@ maker(
         baca.scp_spanner(
             'P poss. =| P molto -> T =|',
             (abjad.tweak(2.25).bound_details__right__padding, 0),
-            abjad.tweak(10.5).staff_padding,
+            abjad.tweak(13).staff_padding,
             stirrings_still.left_broken_tasto_tweak(),
             ),
         pieces=baca.mgroups([2, 4, 5 + 1]),
@@ -493,17 +493,23 @@ maker(
 
 maker(
     ('tutti', (29, 30)),
-    baca.new(
-        baca.hairpin(
-            'ppp < mp -- !',
-            abjad.tweak(True).to_barline,
-            ),
-        baca.scp_spanner(
-            'T -> ord. =|',
-            abjad.tweak(10).staff_padding,
-            ),
-        pieces=baca.mgroups([1, 2]),
+    baca.hairpin(
+        'ppp < mp -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> ord. =|',
+        abjad.tweak(13).staff_padding,
+        match=0,
+        pieces=baca.mgroups([1, 1 + 1]),
+        ),
+    baca.scp_spanner(
+        'T -> ord. =|',
+        abjad.tweak(10.5).staff_padding,
+        match=[1, 2, 3],
+        pieces=baca.mgroups([1, 1 + 1]),
         ),
     )
 
@@ -523,7 +529,7 @@ maker(
         abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.mgroups([1, 2]),
+        pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.rasp(),
@@ -532,48 +538,68 @@ maker(
 
 maker(
     ('tutti', (34, 35)),
-    baca.new(
-        baca.hairpin(
-            'pp < mf -- !',
-            abjad.tweak(True).to_barline,
-            ),
-        baca.scp_spanner(
-            'T -> poco P =|',
-            abjad.tweak(10.5).staff_padding,
-            ),
-        pieces=baca.mgroups([1, 2]),
+    baca.hairpin(
+        'pp < mf -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> poco P =|',
+        abjad.tweak(13).staff_padding,
+        match=0,
+        pieces=baca.mgroups([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> poco P =|',
+        abjad.tweak(10.5).staff_padding,
+        match=[1, 2, 3],
+        pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('tutti', (37, 38)),
-    baca.new(
-        baca.hairpin(
-            'p < f -- !',
-            abjad.tweak(True).to_barline,
-            ),
-        baca.scp_spanner(
-            'T -> P =|',
-            abjad.tweak(10.5).staff_padding,
-            ),
-        pieces=baca.mgroups([1, 2]),
+    baca.hairpin(
+        'p < f -- !',
+        abjad.tweak(True).to_barline,
+        pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> P =|',
+        abjad.tweak(13).staff_padding,
+        match=0,
+        pieces=baca.mgroups([1, 1 + 1]),
+        ),
+    baca.scp_spanner(
+        'T -> P =|',
+        abjad.tweak(10.5).staff_padding,
+        match=[1, 2, 3],
+        pieces=baca.mgroups([1, 1 + 1]),
         ),
     )
 
 maker(
     ('tutti', (40, 41)),
-    baca.new(
-        baca.hairpin(
-            'mp < ff -- !',
-            ),
-        baca.scp_spanner(
-            'T -> P molto =|',
-            abjad.tweak(10.5).staff_padding,
-            ),
-        pieces=baca.mgroups([1, 2]),
+    baca.hairpin(
+        'mp < ff -- !',
+        pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> P molto =|',
+        abjad.tweak(13).staff_padding,
+        match=0,
+        pieces=baca.mgroups([1, 1 + 1]),
+        ),
+    baca.scp_spanner(
+        'T -> P molto =|',
+        abjad.tweak(10.5).staff_padding,
+        match=[1, 2, 3],
+        pieces=baca.mgroups([1, 1 + 1]),
         ),
     )
 
@@ -596,17 +622,23 @@ maker(
 
 maker(
     ('tutti', 44),
-    baca.new(
-        baca.hairpin(
-            'mf < ff -- !',
-            abjad.tweak(True).to_barline,
-            ),
-        baca.scp_spanner(
-            'T -> P molto =|',
-            abjad.tweak(10.5).staff_padding,
-            ),
+    baca.hairpin(
+        'mf < ff -- !',
+        abjad.tweak(True).to_barline,
         pieces=baca.leaves().partition_by_counts([2], overhang=True),
         selector=baca.leaves().rleak(),
+        ),
+    baca.scp_spanner(
+        'T -> P molto =|',
+        abjad.tweak(13).staff_padding,
+        match=0,
+        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        ),
+    baca.scp_spanner(
+        'T -> P molto =|',
+        abjad.tweak(10.5).staff_padding,
+        match=[1, 2, 3],
+        pieces=baca.leaves().partition_by_counts([2], overhang=True),
         ),
     )
 
@@ -619,7 +651,13 @@ maker(
         ),
     baca.scp_spanner(
         'P poss. =|',
+        abjad.tweak(13).staff_padding,
+        match=0,
+        ),
+    baca.scp_spanner(
+        'P poss. =|',
         abjad.tweak(10.5).staff_padding,
+        match=[1, 2, 3],
         ),
     )
 
@@ -856,10 +894,10 @@ maker(
 
 maker(
     ('v2', (29, 30)),
-    stirrings_still.glissando_interpolation('G5', 'F5'),
+    stirrings_still.glissando_interpolation('G5', 'E5'),
     )
 
-bcp_staff_padding = 6
+bcp_staff_padding = 4
 maker(
     ('v2', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
     baca.script_staff_padding(bcp_staff_padding + 2.5),
@@ -879,17 +917,17 @@ maker(
 
 maker(
     ('v2', (34, 35)),
-    stirrings_still.glissando_interpolation('G5', 'Bb4'),
+    stirrings_still.glissando_interpolation('G5', 'A4'),
     )
 
 maker(
     ('v2', (37, 38)),
-    stirrings_still.glissando_interpolation('G5', 'Ab4'),
+    stirrings_still.glissando_interpolation('G5', 'G4'),
     )
 
 maker(
     ('v2', (40, 41)),
-    stirrings_still.glissando_interpolation('G5', 'G4'),
+    stirrings_still.glissando_interpolation('G5', 'Gb4'),
     )
 
 maker(
@@ -899,7 +937,7 @@ maker(
 
 maker(
     ('v2', 44),
-    stirrings_still.glissando_interpolation('G5', 'Eb4'),
+    stirrings_still.glissando_interpolation('G5', 'D4'),
     )
 
 maker(
@@ -1087,7 +1125,7 @@ maker(
 
 maker(
     ('va', (29, 30)),
-    stirrings_still.glissando_interpolation('Ftqs5', 'Db5'),
+    stirrings_still.glissando_interpolation('Ftqs5', 'C5'),
     )
 
 bcp_staff_padding = 6
@@ -1110,18 +1148,18 @@ maker(
 
 maker(
     ('va', (34, 35)),
-    stirrings_still.glissando_interpolation('Ftqs5', 'A4'),
+    stirrings_still.glissando_interpolation('Ftqs5', 'Ab4'),
     )
 
 maker(
     ('va', (37, 38)),
-    stirrings_still.glissando_interpolation('Ftqs5', 'E4'),
+    stirrings_still.glissando_interpolation('Ftqs5', 'Eb4'),
     )
 
 maker(
     ('va', (40, 41)),
     baca.clef('alto'),
-    stirrings_still.glissando_interpolation('Ftqs5', 'A3'),
+    stirrings_still.glissando_interpolation('Ftqs4', 'Ab3'),
     )
 
 maker(
@@ -1131,7 +1169,7 @@ maker(
 
 maker(
     ('va', 44),
-    stirrings_still.glissando_interpolation('Ftqs5', 'Eb3'),
+    stirrings_still.glissando_interpolation('Ftqs4', 'D3'),
     )
 
 maker(
@@ -1404,7 +1442,7 @@ maker(
 
 maker(
     ('vc', (29, 30)),
-    stirrings_still.glissando_interpolation('Fqs5', 'C5'),
+    stirrings_still.glissando_interpolation('Fqs5', 'B4'),
     )
 
 bcp_staff_padding = 4
@@ -1429,18 +1467,18 @@ maker(
 maker(
     ('vc', (34, 35)),
     baca.clef('treble'),
-    stirrings_still.glissando_interpolation('Fqs5', 'B3'),
+    stirrings_still.glissando_interpolation('Fqs5', 'Bb3'),
     )
 
 maker(
     ('vc', (37, 38)),
     baca.clef('bass'),
-    stirrings_still.glissando_interpolation('Fqs5', 'G3'),
+    stirrings_still.glissando_interpolation('Fqs4', 'Gb3'),
     )
 
 maker(
     ('vc', (40, 41)),
-    stirrings_still.glissando_interpolation('Fqs5', 'Gb2'),
+    stirrings_still.glissando_interpolation('Fqs4', 'F2'),
     )
 
 maker(
@@ -1450,7 +1488,7 @@ maker(
 
 maker(
     ('vc', 44),
-    stirrings_still.glissando_interpolation('Fqs5', 'Eb2'),
+    stirrings_still.glissando_interpolation('Fqs4', 'D2'),
     )
 
 maker(
