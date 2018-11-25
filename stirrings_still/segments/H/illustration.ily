@@ -2002,16 +2002,22 @@ H_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Violin_I_Music_Voice measure 504 / measure 33]                        %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    <fs'! dqf''!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ^ \markup { (7+9)°/E }                                                     %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -2023,14 +2029,20 @@ H_Violin_I_Music_Voice = {                                                     %
     \times 2/3 {
 
         % [H Violin_I_Music_Voice measure 505 / measure 34]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! baca_make_repeat_tied_notes
-        \repeatTie
+        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
+        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        <fs'! dqf''!>2
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! baca_make_repeat_tied_notes
-        \repeatTie
-        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        <fs'! dqf''!>8
 
     }
 
@@ -2043,6 +2055,7 @@ H_Violin_I_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCloudedPane                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -2500,18 +2513,24 @@ H_Violin_I_Music_Voice = {                                                     %
     ]                                                                          %! stirrings_still_desynchronization
 
     % [H Violin_I_Music_Voice measure 524 / measure 53]                        %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
+    <fs'! dqf''!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ^ \markup { (7+9)°/E }                                                     %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanUrtext                                                    %! MATERIAL:URTEXT:PiecewiseCommand(3)
     \bacaStopTextSpanSCP                                                       %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -2523,14 +2542,20 @@ H_Violin_I_Music_Voice = {                                                     %
     \times 2/3 {
 
         % [H Violin_I_Music_Voice measure 525 / measure 54]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! stirrings_still_clouded_pane
-        \repeatTie
+        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
+        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        <fs'! dqf''!>2
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clouded_pane
-        \repeatTie
-        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        <fs'! dqf''!>8
 
     }
 
@@ -2540,6 +2565,7 @@ H_Violin_I_Music_Voice = {                                                     %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     [                                                                          %! stirrings_still_desynchronization
     - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
@@ -3240,8 +3266,7 @@ H_Violin_II_Music_Voice = {                                                    %
         % [H Violin_II_Music_Voice measure 504 / measure 33]                   %! _comment_measure_numbers
         \override TupletBracket.staff-padding = #3                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \override TupletNumber.text = #tuplet-number::calc-denominator-text    %! baca_tuplet_number_denominator:OverrideCommand(1)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        f''8                                                                   %! stirrings_still_clockticks
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3269,8 +3294,7 @@ H_Violin_II_Music_Voice = {                                                    %
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        f''8                                                                   %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
@@ -3279,8 +3303,7 @@ H_Violin_II_Music_Voice = {                                                    %
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        f''8                                                                   %! stirrings_still_clockticks
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
@@ -3292,8 +3315,7 @@ H_Violin_II_Music_Voice = {                                                    %
         \times 2/3 {
 
             % [H Violin_II_Music_Voice measure 505 / measure 34]               %! _comment_measure_numbers
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'8
+            f''8
             - \upbow                                                           %! baca_alternate_bow_strokes:IndicatorCommand
 
             r4
@@ -3303,8 +3325,7 @@ H_Violin_II_Music_Voice = {                                                    %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'8
+            f''8
             - \downbow                                                         %! baca_alternate_bow_strokes:IndicatorCommand
 
             r8
@@ -3766,8 +3787,7 @@ H_Violin_II_Music_Voice = {                                                    %
 
         % [H Violin_II_Music_Voice measure 524 / measure 53]                   %! _comment_measure_numbers
         \override TupletBracket.staff-padding = #3                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        f''8                                                                   %! stirrings_still_clockticks
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3797,8 +3817,7 @@ H_Violin_II_Music_Voice = {                                                    %
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        f''8                                                                   %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
@@ -3807,8 +3826,7 @@ H_Violin_II_Music_Voice = {                                                    %
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
+        f''8                                                                   %! stirrings_still_clockticks
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
@@ -3820,8 +3838,7 @@ H_Violin_II_Music_Voice = {                                                    %
         \times 2/3 {
 
             % [H Violin_II_Music_Voice measure 525 / measure 54]               %! _comment_measure_numbers
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'8
+            f''8
             - \upbow                                                           %! baca_alternate_bow_strokes:IndicatorCommand
 
             r4
@@ -3831,8 +3848,7 @@ H_Violin_II_Music_Voice = {                                                    %
         \tweak edge-height #'(0.7 . 0)
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'8
+            f''8
             - \downbow                                                         %! baca_alternate_bow_strokes:IndicatorCommand
 
             r8
@@ -4550,16 +4566,22 @@ H_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Viola_Music_Voice measure 504 / measure 33]                           %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    <b, aqs!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ^ \markup { (11+3)°/E }                                                    %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -4571,14 +4593,20 @@ H_Viola_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [H Viola_Music_Voice measure 505 / measure 34]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! baca_make_repeat_tied_notes
-        \repeatTie
+        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
+        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        <b, aqs!>2
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! baca_make_repeat_tied_notes
-        \repeatTie
-        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        <b, aqs!>8
 
     }
 
@@ -4591,6 +4619,7 @@ H_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \!                                                                 %! baca_hairpin:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanCloudedPane                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -4990,18 +5019,24 @@ H_Viola_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_desynchronization
 
     % [H Viola_Music_Voice measure 524 / measure 53]                           %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
+    <b, aqs!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    ^ \markup { (11+3)°/E }                                                    %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \bacaStopTextSpanSCP                                                       %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_tasto_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -5013,14 +5048,20 @@ H_Viola_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [H Viola_Music_Voice measure 525 / measure 54]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! stirrings_still_clouded_pane
-        \repeatTie
+        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
+        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        <b, aqs!>2
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clouded_pane
-        \repeatTie
-        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        <b, aqs!>8
 
     }
 
@@ -5033,6 +5074,7 @@ H_Viola_Music_Voice = {                                                        %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanCloudedPane                                           %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
         [                                                                      %! stirrings_still_desynchronization
         - \abjad-solid-line-with-hook                                          %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
@@ -5481,9 +5523,7 @@ H_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Cello_Music_Voice measure 504 / measure 33]                           %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    e,2.                                                                       %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5491,6 +5531,7 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -5502,14 +5543,20 @@ H_Cello_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [H Cello_Music_Voice measure 505 / measure 34]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! baca_make_repeat_tied_notes
-        \repeatTie
+        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
+        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        e,2                                                                    %! stirrings_still_clouded_pane
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! baca_make_repeat_tied_notes
-        \repeatTie
-        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        e,8                                                                    %! stirrings_still_clouded_pane
 
     }
 
@@ -6008,9 +6055,7 @@ H_Cello_Music_Voice = {                                                        %
     }                                                                          %! stirrings_still_taper
 
     % [H Cello_Music_Voice measure 524 / measure 53]                           %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! stirrings_still_clouded_pane
+    e,2.                                                                       %! stirrings_still_clouded_pane
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6020,6 +6065,7 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -6031,14 +6077,20 @@ H_Cello_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [H Cello_Music_Voice measure 525 / measure 54]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! stirrings_still_clouded_pane
-        \repeatTie
+        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
+        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
+        \hide NoteHead                                                         %! baca_glissando
+        \override Accidental.stencil = ##f                                     %! baca_glissando
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        e,2                                                                    %! stirrings_still_clouded_pane
+        \glissando                                                             %! baca_glissando
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clouded_pane
-        \repeatTie
-        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+        \revert Accidental.stencil                                             %! baca_glissando
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando
+        \revert NoteHead.no-ledgers                                            %! baca_glissando
+        \undo \hide NoteHead                                                   %! baca_glissando
+        e,8                                                                    %! stirrings_still_clouded_pane
 
     }
 

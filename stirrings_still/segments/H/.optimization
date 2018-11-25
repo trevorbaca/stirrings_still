@@ -6028,3 +6028,13 @@ LilyPond runtime: 1 second
  Segment-maker runtime: 45 seconds
  Abjad format time: 0 seconds
  LilyPond runtime: 3 seconds
+
+2018-11-25 12:37:10
+ Segment-maker runtime: 48 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 3 seconds
+
+2018-11-25 12:39:18
+ Segment-maker runtime: 49 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 3 seconds

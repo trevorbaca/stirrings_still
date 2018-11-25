@@ -323,6 +323,7 @@ maker(
             ),
         measures=34,
         ),
+    baca.pitch('F5'),
     baca.tuplet_bracket_staff_padding(3),
     baca.tuplet_number_denominator(),
     )
@@ -352,6 +353,7 @@ maker(
             ),
         measures=54,
         ),
+    baca.pitch('F5'),
     baca.tuplet_bracket_staff_padding(3),
     )
 
@@ -988,8 +990,36 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.note_head_style_harmonic(),
+    baca.new(
+        baca.markup('(7+9)°/E'),
+        baca.tasto_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        stirrings_still.flat_glissando(
+            '<F#4 Dqf5>',
+            hide_stems=True,
+            ),
+        match=0,
+        ),
+    baca.new(
+        baca.markup('(11+3)°/E'),
+        baca.tasto_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        stirrings_still.flat_glissando(
+            '<B2 Aqs3>',
+            hide_stems=True,
+            ),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.flat_glissando(
+            'E2',
+            hide_stems=True,
+            ),
+        match=2,
+        ),
+    stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
@@ -1001,18 +1031,35 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.new(
-        stirrings_still.clouded_pane(),
+        baca.markup('(7+9)°/E'),
+        baca.tasto_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        stirrings_still.flat_glissando(
+            '<F#4 Dqf5>',
+            hide_stems=True,
+            ),
         match=0,
         ),
     baca.new(
-        stirrings_still.clouded_pane(),
+        baca.markup('(11+3)°/E'),
+        baca.tasto_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        stirrings_still.flat_glissando(
+            '<B2 Aqs3>',
+            hide_stems=True,
+            ),
         match=1,
         ),
     baca.new(
-        stirrings_still.clouded_pane(),
+        stirrings_still.flat_glissando(
+            'E2',
+            hide_stems=True,
+            ),
         match=2,
         ),
-    baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 

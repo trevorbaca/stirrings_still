@@ -215,18 +215,35 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.new(
-        stirrings_still.clouded_pane(),
+        baca.markup('(7+9)°/E'),
+        baca.tasto_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        stirrings_still.flat_glissando(
+            '<F#4 Dqf5>',
+            hide_stems=True,
+            ),
         match=0,
         ),
     baca.new(
-        stirrings_still.clouded_pane(),
+        baca.markup('(11+3)°/E'),
+        baca.tasto_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        stirrings_still.flat_glissando(
+            '<B2 Aqs3>',
+            hide_stems=True,
+            ),
         match=1,
         ),
     baca.new(
-        stirrings_still.clouded_pane(),
+        stirrings_still.flat_glissando(
+            'E2',
+            hide_stems=True,
+            ),
         match=2,
         ),
-    baca.note_head_style_harmonic(),
+    stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
@@ -249,6 +266,7 @@ maker(
 
 maker(
     ('v2', (12, 13)),
+    baca.alternate_bow_strokes(),
     baca.damp_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
@@ -271,6 +289,7 @@ maker(
             ),
         measures=13,
         ),
+    baca.pitch('F5'),
     )
 
 # va

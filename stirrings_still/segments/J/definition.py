@@ -189,7 +189,35 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.note_head_style_harmonic(),
+    baca.new(
+        baca.markup('(7+9)°/E'),
+        baca.tasto_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        stirrings_still.flat_glissando(
+            '<F#4 Dqf5>',
+            hide_stems=True,
+            ),
+        match=0,
+        ),
+    baca.new(
+        baca.markup('(11+3)°/E'),
+        baca.tasto_spanner(
+            abjad.tweak(8).staff_padding,
+            ),
+        stirrings_still.flat_glissando(
+            '<B2 Aqs3>',
+            hide_stems=True,
+            ),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.flat_glissando(
+            'E2',
+            hide_stems=True,
+            ),
+        match=2,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
@@ -257,6 +285,7 @@ maker(
             ),
         measures=4,
         ),
+    baca.pitch('F5'),
     baca.tuplet_bracket_staff_padding(3),
     )
 
