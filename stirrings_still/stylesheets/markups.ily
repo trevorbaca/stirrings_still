@@ -1,4 +1,5 @@
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
+\include "text-markups.ily"
 
 %%% DIRECTIVES %%%
 
