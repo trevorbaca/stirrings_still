@@ -41,6 +41,13 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twenty-two',
+            literal=True,
+            ),
+        selector=baca.skip(46 - 1),
+        ),
     baca.new(
         baca.new(
             baca.bar_line_x_extent((-1, 3)),

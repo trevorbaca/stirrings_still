@@ -5,6 +5,7 @@ S_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
+    ^ \stirrings-still-text-twenty-five                                        %! baca_markup:IndicatorCommand
     - \tweak extra-offset #'(0 . 10)                                           %! baca_rehearsal_mark:IndicatorCommand
     - \baca-rehearsal-mark-markup "S"                                          %! baca_rehearsal_mark:IndicatorCommand
 %@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP
@@ -361,6 +362,7 @@ S_Global_Skips = {                                                             %
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
+    ^ \stirrings-still-text-twenty-six                                         %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
@@ -480,6 +482,7 @@ S_Global_Skips = {                                                             %
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
+    ^ \stirrings-still-text-twenty-seven                                       %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
@@ -597,6 +600,9 @@ S_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
+    ^ \stirrings-still-text-twenty-eight                                       %! baca_markup:IndicatorCommand
+    - \tweak extra-offset #'(0 . -10)                                          %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-text-twenty-nine                                        %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP

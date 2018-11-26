@@ -54,6 +54,55 @@ maker(
         abjad.tweak((0, 12)).extra_offset,
         selector=baca.skip(18 - 1),
         ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-one',
+            literal=True,
+            ),
+        selector=baca.skip(1 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-two',
+            literal=True,
+            ),
+        selector=baca.skip(10 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-three',
+            literal=True,
+            ),
+        selector=baca.skip(19 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-four',
+            literal=True,
+            ),
+        selector=baca.skip(24 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-five',
+            literal=True,
+            ),
+        selector=baca.skip(28 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-six',
+            literal=True,
+            ),
+        selector=baca.skip(61 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-seven',
+            literal=True,
+            ),
+        selector=baca.skip(63 - 1),
+        ),
     baca.new(
         baca.new(
             baca.bar_line_x_extent((-1, 3)),
