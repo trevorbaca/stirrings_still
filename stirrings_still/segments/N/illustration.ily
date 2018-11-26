@@ -1282,7 +1282,8 @@ N_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { 11°/E }                                                        %! baca_markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    _ \markup { 11°/E }                                                        %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1299,6 +1300,7 @@ N_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \accent                                                              %! baca_accent:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
         ^ \markup { (24ET) }                                                   %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2115,7 +2117,8 @@ N_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { 9°/E }                                                         %! baca_markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    _ \markup { 9°/E }                                                         %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2922,7 +2925,8 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ^ \markup { 5°/E }                                                         %! baca_markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    _ \markup { 5°/E }                                                         %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2939,6 +2943,7 @@ N_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \accent                                                              %! baca_accent:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
         ^ \markup { (24ET) }                                                   %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3453,7 +3458,7 @@ N_Cello_Music_Voice = {                                                        %
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [N Cello_Music_Voice measure 667 / measure 11]                           %! _comment_measure_numbers
-    \override Script.staff-padding = #8                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #5.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     bf,,!8.
     - \downbow                                                                 %! baca_bcps:BCPCommand(6)
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
@@ -3463,11 +3468,11 @@ N_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #13                                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #9.0                                                %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!16
@@ -3477,7 +3482,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8
@@ -3487,7 +3492,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8
@@ -3497,7 +3502,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8.
@@ -3507,7 +3512,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!16
@@ -3517,7 +3522,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8
@@ -3527,7 +3532,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8
@@ -3537,7 +3542,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8.
@@ -3547,7 +3552,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!16
@@ -3557,7 +3562,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8
@@ -3567,7 +3572,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8
@@ -3577,7 +3582,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     % [N Cello_Music_Voice measure 668 / measure 12]                           %! _comment_measure_numbers
@@ -3588,7 +3593,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!16
@@ -3598,7 +3603,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8
@@ -3608,7 +3613,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8
@@ -3618,7 +3623,7 @@ N_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!8.
@@ -3629,7 +3634,7 @@ N_Cello_Music_Voice = {                                                        %
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #7 #7                                       %! baca_bcps:BCPCommand(2)
-    - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
+    - \tweak staff-padding #3                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     bf,,!16
@@ -3905,6 +3910,7 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4224,7 +4230,6 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -4238,6 +4243,7 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     % [N Cello_Music_Voice measure 694 / measure 38]                           %! _comment_measure_numbers
     \hide NoteHead                                                             %! baca_glissando

@@ -45,7 +45,36 @@ stirrings-still-presto-largo-markup = \markup
         \hspace #0.5
     }
 
-%%% MISCELLANEOUS %%%
+%%% PARTIALS (Db) %%%
+
+stirrings-still-seven-d-flat = \markup
+    \line {
+        "7°/D"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+stirrings-still-nine-d-flat = \markup
+    \line {
+        "9°/D"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+stirrings-still-thirteen-d-flat = \markup
+    \line {
+        "13°/D"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+%%% PARTIALS (Eb) %%%
 
 stirrings-still-thirteen-plus-nine-e-flat = \markup
     \line {
@@ -64,6 +93,8 @@ stirrings-still-seven-plus-five-e-flat = \markup
         \scale #'(0.65 . 0.65)
         \flat
     }
+
+%%% MISCELLANEOUS %%%
 
 stirrings-still-molto-scratch-on-slow-strokes = \markup
     "(molto scratch on slow strokes)"

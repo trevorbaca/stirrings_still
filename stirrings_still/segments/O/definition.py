@@ -56,7 +56,6 @@ maker(
         'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
@@ -77,8 +76,10 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.markup(
-        '13°/Db',
+        r'\stirrings-still-thirteen-d-flat',
+        abjad.tweak(1).padding,
         direction=abjad.Down,
+        literal=True,
         ),
     stirrings_still.flat_glissando('Aqs4'),
     stirrings_still.pickets(4, 2),
@@ -119,8 +120,10 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.markup(
-        '9°/Db',
+        r'\stirrings-still-nine-d-flat',
+        abjad.tweak(1).padding,
         direction=abjad.Down,
+        literal=True,
         ),
     stirrings_still.flat_glissando('Eb4'),
     stirrings_still.pickets(4, 1),
@@ -153,7 +156,12 @@ maker(
         'mf >o niente',
         selector=baca.leaves().rleak(),
         ),
-    baca.markup('7°/Db'),
+    baca.markup(
+        r'\stirrings-still-seven-d-flat',
+        abjad.tweak(1).padding,
+        direction=abjad.Down,
+        literal=True,
+        ),
     stirrings_still.flat_glissando('Bqf3'),
     stirrings_still.pickets(4, 0),
     )
