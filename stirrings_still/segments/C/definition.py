@@ -52,6 +52,27 @@ maker(
         'C',
         abjad.tweak((0, 10)).extra_offset,
         ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-ten',
+            literal=True,
+            ),
+        selector=baca.skip(11 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-eleven',
+            literal=True,
+            ),
+        selector=baca.skip(70 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twelve',
+            literal=True,
+            ),
+        selector=baca.skip(77 - 1),
+        ),
     baca.new(
         baca.new(
             baca.bar_line_x_extent((-1, 3)),

@@ -27,6 +27,13 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twenty-four',
+            literal=True,
+            ),
+        selector=baca.skip(8 - 1),
+        ),
     baca.rehearsal_mark(
         'O',
         abjad.tweak((0, 10)).extra_offset,

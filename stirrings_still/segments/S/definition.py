@@ -36,6 +36,42 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twenty-five',
+            literal=True,
+            ),
+        selector=baca.skip(1 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twenty-six',
+            literal=True,
+            ),
+        selector=baca.skip(21 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twenty-seven',
+            literal=True,
+            ),
+        selector=baca.skip(28 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twenty-eight',
+            literal=True,
+            ),
+        selector=baca.skip(35 - 1),
+        ),
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twenty-nine',
+            literal=True,
+            ),
+        abjad.tweak((0, -10)).extra_offset,
+        selector=baca.skip(35 - 1),
+        ),
     baca.rehearsal_mark(
         'S',
         abjad.tweak((0, 10)).extra_offset,

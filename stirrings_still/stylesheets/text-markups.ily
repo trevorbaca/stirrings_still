@@ -387,7 +387,7 @@ stirrings-still-text-twenty-eight = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    Time and grief and self so-called. (28)
+    Time and grief and self so-called.
     } }
 
 stirrings-still-text-twenty-nine = \markup {
