@@ -1494,11 +1494,16 @@ R_Viola_Music_Voice = {                                                        %
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [R Viola_Music_Voice measure 837 / measure 16]                           %! _comment_measure_numbers
-    \revert Accidental.stencil                                                 %! baca_glissando
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando
-    \revert NoteHead.no-ledgers                                                %! baca_glissando
-    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     bf,!1                                                                      %! baca_make_repeat_tied_notes
+%@% \glissando                                                                 %! baca_glissando
+%@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteColumn.glissando-skip                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteHead.no-ledgers                                                %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \undo \hide NoteHead                                                       %! SHOW_TO_JOIN_BROKEN_SPANNERS
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

@@ -2847,6 +2847,8 @@ S_Viola_Music_Voice = {                                                        %
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \override DynamicLineSpanner.staff-padding = #'6                           %! baca_dls_staff_padding:OverrideCommand(1)
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2864,8 +2866,6 @@ S_Viola_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [S Viola_Music_Voice measure 839 / measure 2]                            %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
@@ -3011,12 +3011,15 @@ S_Viola_Music_Voice = {                                                        %
     % [S Viola_Music_Voice measure 870 / measure 33]                           %! _comment_measure_numbers
     bf,1.                                                                      %! baca_make_notes
     \glissando                                                                 %! baca_glissando
-
-    % [S Viola_Music_Voice measure 871 / measure 34]                           %! _comment_measure_numbers
-    bf,1.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
+
+    % [S Viola_Music_Voice measure 871 / measure 34]                           %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    bf,1.                                                                      %! baca_make_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3025,11 +3028,7 @@ S_Viola_Music_Voice = {                                                        %
 
             % [S Viola_Music_Voice measure 872 / measure 35]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            \revert Accidental.stencil                                         %! baca_glissando
-            \revert NoteColumn.glissando-skip                                  %! baca_glissando
-            \revert NoteHead.no-ledgers                                        %! baca_glissando
-            \undo \hide NoteHead                                               %! baca_glissando
-            bf,1 * 1/4                                                         %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container

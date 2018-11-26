@@ -144,7 +144,11 @@ maker(
 maker(
     'va',
     baca.make_repeat_tied_notes(),
-    stirrings_still.flat_glissando('Bb2', hide_stems=True),
+    stirrings_still.flat_glissando(
+        'Bb2',
+        hide_stems=True,
+        right_broken=True,
+        ),
     )
 
 # vc
@@ -158,7 +162,10 @@ maker(
     ('vc', (1, 12)),
     baca.make_repeat_tied_notes(),
     baca.ottava_bassa(),
-    stirrings_still.flat_glissando('B0', hide_stems=True),
+    stirrings_still.flat_glissando(
+        'B0',
+        hide_stems=True,
+        ),
     )
 
 maker(
