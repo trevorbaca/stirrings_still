@@ -88,6 +88,7 @@ stirrings_still.time(maker, time)
 
 maker(
     'v1',
+    baca.dls_staff_padding(7),
     baca.note_head_style_harmonic(),
     baca.pitch('Bb4'),
     )
@@ -96,7 +97,7 @@ maker(
     ('v1', [5, (10, 11), (16, 18), (23, 26)]),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(3).staff_padding,
         ),
     baca.dynamic_text_self_alignment_x(
         0.75,
@@ -120,13 +121,6 @@ maker(
     stirrings_still.wave((1, 4), (3, 32)),
     )
 
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
-    )
-
 # v1, v2, vc
 
 maker(
@@ -143,15 +137,17 @@ maker(
 
 maker(
     'v2',
+    baca.dls_staff_padding(6),
     baca.note_head_style_harmonic(),
     baca.pitch('F4'),
+    baca.tuplet_bracket_down(),
     )
 
 maker(
     ('v2', [5, (10, 11), (16, 18), (23, 26)]),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(3).staff_padding,
         ),
     baca.dynamic_text_self_alignment_x(
         0.75,
@@ -188,6 +184,11 @@ maker(
     )
 
 # vc
+
+maker(
+    'vc',
+    baca.dls_staff_padding(6),
+    )
 
 maker(
     ('vc', 5),

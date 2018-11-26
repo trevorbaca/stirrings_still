@@ -1997,7 +1997,8 @@ Q_Violin_I_Music_Voice = {                                                     %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { 11°/E }                                                        %! baca_markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    _ \markup { 11°/E }                                                        %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2011,6 +2012,8 @@ Q_Violin_I_Music_Voice = {                                                     %
 
         % [Q Violin_I_Music_Voice measure 731 / measure 2]                     %! _comment_measure_numbers
         bf''!4                                                                 %! stirrings_still_desynchronization
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
@@ -5851,7 +5854,8 @@ Q_Violin_II_Music_Voice = {                                                    %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { 9°/E }                                                         %! baca_markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    _ \markup { 9°/E }                                                         %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8881,7 +8885,8 @@ Q_Viola_Music_Voice = {                                                        %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { 5°/E }                                                         %! baca_markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    _ \markup { 5°/E }                                                         %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -14178,6 +14183,7 @@ Q_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak self-alignment-X #-0.75                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-pp-sempre                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    ^ \markup { "tuning peg: slowly detune" }                                  %! baca_markup:IndicatorCommand
     [                                                                          %! baca_beam:SpannerIndicatorCommand(1)
     \glissando                                                                 %! baca_glissando
 

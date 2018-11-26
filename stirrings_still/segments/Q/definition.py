@@ -77,7 +77,11 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', 1),
-    baca.markup('11°/E'),
+    baca.markup(
+        '11°/E',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
+        ),
     baca.pitch('Aqs5'),
     )
 
@@ -91,6 +95,7 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
+    baca.dynamic('p'),
     stirrings_still.desynchronization(4, [2]),
     )
 
@@ -456,7 +461,11 @@ maker(
 
 maker(
     ('v2', 1),
-    baca.markup('9°/E'),
+    baca.markup(
+        '9°/E',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
+        ),
     baca.pitch('F#5'),
     )
 
@@ -747,7 +756,11 @@ maker(
 
 maker(
     ('va', 1),
-    baca.markup('5°/E'),
+    baca.markup(
+        '5°/E',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
+        ),
     baca.pitch('G#3'),
     )
 
@@ -1449,6 +1462,7 @@ maker(
 
 maker(
     ('vc', (73, 92)),
+    baca.markup('tuning peg: slowly detune'),
     baca.ottava_bassa(),
     )
 

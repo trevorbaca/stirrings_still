@@ -758,8 +758,8 @@ S_Violin_I_Music_Voice = {                                                     %
 
             % [S Violin_I_Music_Voice measure 838 / measure 1]                 %! _comment_measure_numbers
             \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \override DynamicLineSpanner.staff-padding = #7                    %! baca_dls_staff_padding:OverrideCommand(1)
             \override NoteHead.style = #'harmonic                              %! baca_note_head_style_harmonic:OverrideCommand(1)
-            \override DynamicLineSpanner.staff-padding = #6                    %! baca_dls_staff_padding:OverrideCommand(1)
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -854,7 +854,7 @@ S_Violin_I_Music_Voice = {                                                     %
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
@@ -988,7 +988,7 @@ S_Violin_I_Music_Voice = {                                                     %
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
@@ -1187,7 +1187,7 @@ S_Violin_I_Music_Voice = {                                                     %
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
@@ -1471,7 +1471,7 @@ S_Violin_I_Music_Voice = {                                                     %
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
@@ -1829,6 +1829,7 @@ S_Violin_II_Music_Voice = {                                                    %
             \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \override DynamicLineSpanner.staff-padding = #6                    %! baca_dls_staff_padding:OverrideCommand(1)
             \override NoteHead.style = #'harmonic                              %! baca_note_head_style_harmonic:OverrideCommand(1)
+            \override TupletBracket.direction = #down                          %! baca_tuplet_bracket_down:OverrideCommand(1)
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1923,7 +1924,7 @@ S_Violin_II_Music_Voice = {                                                    %
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
@@ -2051,7 +2052,7 @@ S_Violin_II_Music_Voice = {                                                    %
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
@@ -2241,7 +2242,7 @@ S_Violin_II_Music_Voice = {                                                    %
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
@@ -2513,7 +2514,7 @@ S_Violin_II_Music_Voice = {                                                    %
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #3                                              %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
@@ -2801,6 +2802,7 @@ S_Violin_II_Music_Voice = {                                                    %
     % [S Violin_II_Music_Voice measure 872 / measure 35]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+    \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2846,7 +2848,6 @@ S_Viola_Music_Voice = {                                                        %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
     \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
     \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3029,7 +3030,6 @@ S_Viola_Music_Voice = {                                                        %
             % [S Viola_Music_Voice measure 872 / measure 35]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 

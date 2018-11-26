@@ -758,7 +758,10 @@ maker(
         abjad.tweak(8).staff_padding,
         left_broken_text=r'\baca-left-broken-t-markup',
         ),
-    stirrings_still.flat_glissando('D2', hide_stems=True),
+    stirrings_still.flat_glissando(
+        'D2',
+        hide_stems=True,
+        ),
     stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
 
@@ -791,7 +794,10 @@ maker(
     baca.tasto_spanner(
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.flat_glissando('Db2', hide_stems=True),
+    stirrings_still.flat_glissando(
+        'Db2',
+        hide_stems=True,
+        ),
     stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
 
