@@ -26,6 +26,7 @@ def flat_glissando(
         baca.glissando(
             allow_repeats=True,
             allow_ties=True,
+            left_broken=left_broken,
             right_broken=right_broken,
             selector=selector,
             stems=True,

@@ -184,7 +184,7 @@ maker(
         'Bb2',
         hide_stems=True,
         left_broken=True,
-        )
+        ),
     )
 
 # vc
