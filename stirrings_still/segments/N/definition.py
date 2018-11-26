@@ -152,7 +152,14 @@ maker(
         ),
     baca.new(
         baca.markup('(24ET)'),
-        match=[0, 2],
+        match=0,
+        ),
+    baca.new(
+        baca.markup(
+            '(24ET)',
+            abjad.tweak(8).staff_padding,
+            ),
+        match=2,
         ),
     )
 
@@ -188,7 +195,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
-    baca.markup('11°/E'),
+    baca.markup(
+        '11°/E',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
+        ),
     baca.pitch('Aqs5'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -386,7 +397,11 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.markup('9°/E'),
+    baca.markup(
+        '9°/E',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
+        ),
     baca.pitch('F#5'),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -500,7 +515,14 @@ maker(
         ),
     baca.new(
         baca.markup('(24ET)'),
-        match=[0, 2],
+        match=0,
+        ),
+    baca.new(
+        baca.markup(
+            '(24ET)',
+            abjad.tweak(8).staff_padding,
+            ),
+        match=2,
         ),
     )
 
@@ -536,7 +558,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
-    baca.markup('5°/E'),
+    baca.markup(
+        '5°/E',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
+        ),
     baca.pitch('G#3'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -620,20 +646,16 @@ maker(
         ),
     )
 
+bcp_staff_padding = 3
 maker(
     ('vc', (11, 12)),
-    baca.chunk( 
-        baca.untie_to(
-            selector=baca.leaves().rleak(),
-            ),
-        ),
     baca.half_clt_spanner(
-        abjad.tweak(13).staff_padding,
+        abjad.tweak(bcp_staff_padding + 2.5 + 3.5).staff_padding,
         ),
-    baca.script_staff_padding(8),
+    baca.script_staff_padding(bcp_staff_padding + 2.5),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(bcp_staff_padding).staff_padding,
         ),
     )
 
@@ -717,6 +739,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.markup(
         baca.markups.string_number(3),
+        abjad.tweak(1.5).padding,
         direction=abjad.Down,
         ),
     baca.pitch('G2'),
@@ -751,22 +774,6 @@ maker(
 
 maker(
     ('vc', (37, 38)),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('B1'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.hairpin(
         'p -- ! >o niente',
         pieces=baca.cmgroups(),
@@ -782,4 +789,5 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando('B1'),
     )
