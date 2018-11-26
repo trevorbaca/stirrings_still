@@ -183,6 +183,7 @@ maker(
         baca.glissando(
             allow_repeats=True,
             allow_ties=True,
+            right_broken=True,
             selector=baca.leaves(),
             stems=True,
             ),
