@@ -5248,7 +5248,7 @@ H_Cello_Music_Voice = {                                                        %
 
     % [H Cello_Music_Voice measure 477 / measure 6]                            %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \override Script.staff-padding = #7                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #7.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     cs'!8                                                                      %! stirrings_still_eighths
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5715,7 +5715,7 @@ H_Cello_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [H Cello_Music_Voice measure 518 / measure 47]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #5.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -6129,7 +6129,7 @@ H_Cello_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [H Cello_Music_Voice measure 527 / measure 56]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #5.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         df,!8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

@@ -582,7 +582,7 @@ J_Violin_I_Music_Voice = {                                                     %
     ^ \markup { "third time no breath" }                                       %! baca_markup:IndicatorCommand
 
     % [J Violin_I_Music_Voice measure 550 / measure 12]                        %! _comment_measure_numbers
-    \override Script.staff-padding = #5                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #5.0                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     a'4                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1122,7 +1122,7 @@ J_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [J Violin_II_Music_Voice measure 550 / measure 12]                   %! _comment_measure_numbers
-        \override Script.staff-padding = #5                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #5.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         gs'!4.                                                                 %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1646,7 +1646,7 @@ J_Viola_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [J Viola_Music_Voice measure 550 / measure 12]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #5                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #5.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         f'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

@@ -864,6 +864,7 @@ maker(
     baca.pitch('Dqs5'),
     )
 
+bcp_staff_padding = 4.5
 maker(
     ('vc', 38),
     baca.hairpin(
@@ -875,7 +876,7 @@ maker(
         abjad.tweak(13).staff_padding,
         ),
     baca.note_head_style_harmonic(),
-    baca.script_staff_padding(7.5),
+    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.suite(
         baca.pitch('A5'),
         baca.glissando(
@@ -885,7 +886,7 @@ maker(
         ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
-        abjad.tweak(4.5).staff_padding,
+        abjad.tweak(bcp_staff_padding).staff_padding,
         ),
     )
 
