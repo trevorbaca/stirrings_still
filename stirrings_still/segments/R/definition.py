@@ -66,11 +66,14 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(bcp_staff_padding + 6).staff_padding,
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.flat_glissando(
@@ -111,11 +114,14 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(bcp_staff_padding + 6).staff_padding,
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.flat_glissando(

@@ -142,11 +142,14 @@ maker(
         ),
     baca.new(
         baca.suite(
-            baca.script_staff_padding(bcp_staff_padding + 2.5),
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -6,
                 abjad.tweak(bcp_staff_padding).staff_padding,
+                bow_change_tweaks=(
+                    abjad.tweak(abjad.Left).self_alignment_X,
+                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+                    ),
                 clt=True,
                 ),
             ),
@@ -155,11 +158,14 @@ maker(
         ),
     baca.new(
         baca.suite(
-            baca.script_staff_padding(bcp_staff_padding + 2.5),
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -6,
                 abjad.tweak(bcp_staff_padding).staff_padding,
+                bow_change_tweaks=(
+                    abjad.tweak(abjad.Left).self_alignment_X,
+                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+                    ),
                 clt=True,
                 ),
             ),
@@ -168,11 +174,14 @@ maker(
         ),
     baca.new(
         baca.suite(
-            baca.script_staff_padding(bcp_staff_padding + 2.5),
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -5,
                 abjad.tweak(bcp_staff_padding).staff_padding,
+                bow_change_tweaks=(
+                    abjad.tweak(abjad.Left).self_alignment_X,
+                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+                    ),
                 clt=True,
                 ),
             ),

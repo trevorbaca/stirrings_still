@@ -1044,6 +1044,8 @@ I_Cello_Music_Voice = {                                                        %
     g,8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(6)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(6)
     - \downbow                                                                 %! baca_bcps:BCPCommand(6)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1067,6 +1069,8 @@ I_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     b8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1076,6 +1080,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1085,6 +1091,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1094,6 +1102,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1103,6 +1113,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1112,6 +1124,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     b8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1121,6 +1135,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1131,6 +1147,8 @@ I_Cello_Music_Voice = {                                                        %
 
     % [I Cello_Music_Voice measure 529 / measure 2]                            %! _comment_measure_numbers
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1140,6 +1158,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1149,6 +1169,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1158,6 +1180,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     b8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1167,6 +1191,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1176,6 +1202,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1186,6 +1214,8 @@ I_Cello_Music_Voice = {                                                        %
 
     % [I Cello_Music_Voice measure 530 / measure 3]                            %! _comment_measure_numbers
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1195,6 +1225,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1204,6 +1236,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     b8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1213,6 +1247,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1222,6 +1258,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1231,6 +1269,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1240,6 +1280,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1249,6 +1291,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     b8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1259,6 +1303,8 @@ I_Cello_Music_Voice = {                                                        %
 
     % [I Cello_Music_Voice measure 531 / measure 4]                            %! _comment_measure_numbers
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1268,6 +1314,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1277,6 +1325,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1286,6 +1336,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1295,6 +1347,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     b8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1304,6 +1358,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1314,6 +1370,8 @@ I_Cello_Music_Voice = {                                                        %
 
     % [I Cello_Music_Voice measure 532 / measure 5]                            %! _comment_measure_numbers
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1323,6 +1381,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1332,6 +1392,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1341,6 +1403,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     b8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1350,6 +1414,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1359,6 +1425,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1368,6 +1436,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1377,6 +1447,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1389,6 +1461,8 @@ I_Cello_Music_Voice = {                                                        %
     b8                                                                         %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1401,6 +1475,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1410,6 +1486,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1419,6 +1497,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1428,6 +1508,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1437,6 +1519,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     b8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1446,6 +1530,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     d8                                                                         %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1455,6 +1541,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     cs'!8                                                                      %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1464,6 +1552,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     f'8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -1473,6 +1563,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     g,8                                                                        %! stirrings_still_eighths
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
@@ -1488,6 +1580,8 @@ I_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(6)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(6)
     - \downbow                                                                 %! baca_bcps:BCPCommand(6)
     _ \markup { (9°) }                                                         %! baca_markup:IndicatorCommand
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(4)
@@ -1504,6 +1598,8 @@ I_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1514,6 +1610,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1524,6 +1622,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1534,6 +1634,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1544,6 +1646,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1554,6 +1658,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1564,6 +1670,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1574,6 +1682,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1584,6 +1694,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1594,6 +1706,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1604,6 +1718,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1615,6 +1731,8 @@ I_Cello_Music_Voice = {                                                        %
 
     % [I Cello_Music_Voice measure 535 / measure 8]                            %! _comment_measure_numbers
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1625,6 +1743,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1635,6 +1755,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1645,6 +1767,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1655,6 +1779,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1665,6 +1791,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1675,6 +1803,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1685,6 +1815,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1695,6 +1827,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1705,6 +1839,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1715,6 +1851,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1725,6 +1863,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1736,6 +1876,8 @@ I_Cello_Music_Voice = {                                                        %
 
     % [I Cello_Music_Voice measure 536 / measure 9]                            %! _comment_measure_numbers
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1746,6 +1888,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1756,6 +1900,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1766,6 +1912,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1776,6 +1924,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1786,6 +1936,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1799,6 +1951,8 @@ I_Cello_Music_Voice = {                                                        %
     a''8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1813,6 +1967,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1823,6 +1979,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1833,6 +1991,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1843,6 +2003,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1853,6 +2015,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1863,6 +2027,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1873,6 +2039,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1884,6 +2052,8 @@ I_Cello_Music_Voice = {                                                        %
 
     % [I Cello_Music_Voice measure 538 / measure 11]                           %! _comment_measure_numbers
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1894,6 +2064,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1904,6 +2076,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1914,6 +2088,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1924,6 +2100,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1934,6 +2112,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1944,6 +2124,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -1954,6 +2136,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -1964,6 +2148,8 @@ I_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.5                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
