@@ -2446,12 +2446,13 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 5/4 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 92 / measure 29]                     %! _comment_measure_numbers
-        \override Script.staff-padding = #8.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         gs''!8                                                                 %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2514,6 +2515,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         a''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -2524,6 +2527,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         a''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -2534,6 +2539,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         b''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -2549,7 +2556,6 @@ B_Violin_I_Music_Voice = {                                                     %
         \undo \hide NoteHead                                                   %! baca_glissando
         bf''!8                                                                 %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -2621,13 +2627,14 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 97 / measure 34]                     %! _comment_measure_numbers
-        \override Script.staff-padding = #8.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         gs''!8                                                                 %! stirrings_still_trajectories
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2693,6 +2700,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
         a''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -2703,6 +2712,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         a''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -2712,6 +2723,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         b''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -2727,7 +2740,6 @@ B_Violin_I_Music_Voice = {                                                     %
         \undo \hide NoteHead                                                   %! baca_glissando
         b''8                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -2759,12 +2771,13 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 5/4 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 100 / measure 37]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #8.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         gs''!8                                                                 %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2831,6 +2844,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         c'''8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -2847,7 +2862,6 @@ B_Violin_I_Music_Voice = {                                                     %
         c'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -2879,11 +2893,12 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 103 / measure 40]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #8.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         gs''!8                                                                 %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2947,6 +2962,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         c'''8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -2957,6 +2974,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         c'''4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -2966,6 +2985,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         c'''4.                                                                 %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -2981,7 +3002,6 @@ B_Violin_I_Music_Voice = {                                                     %
         \undo \hide NoteHead                                                   %! baca_glissando
         df'''!8                                                                %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -3052,12 +3072,13 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 107 / measure 44]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #8.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         gs''!8                                                                 %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3112,7 +3133,6 @@ B_Violin_I_Music_Voice = {                                                     %
         \undo \hide NoteHead                                                   %! baca_glissando
         d'''8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -3145,12 +3165,13 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 4/3 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 109 / measure 46]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #8.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         d'''8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3178,7 +3199,6 @@ B_Violin_I_Music_Voice = {                                                     %
         \undo \hide NoteHead                                                   %! baca_glissando
         d'''4                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -3258,11 +3278,12 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 5/4 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 113 / measure 50]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #8.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         d'''8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3317,6 +3338,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         d'''8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -3327,6 +3350,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         d'''4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3336,6 +3361,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         d'''4.                                                                 %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3357,6 +3384,8 @@ B_Violin_I_Music_Voice = {                                                     %
         d'''8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3378,6 +3407,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d'''8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3387,6 +3418,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         c'''8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -3397,6 +3430,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         c'''4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3406,6 +3441,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         b''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3455,6 +3492,8 @@ B_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
 
     a''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #8.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -3468,6 +3507,8 @@ B_Violin_I_Music_Voice = {                                                     %
 
         % [B Violin_I_Music_Voice measure 117 / measure 54]                    %! _comment_measure_numbers
         a''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3477,6 +3518,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         b''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3486,6 +3529,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         b''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3501,6 +3546,8 @@ B_Violin_I_Music_Voice = {                                                     %
 
         % [B Violin_I_Music_Voice measure 118 / measure 55]                    %! _comment_measure_numbers
         b''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -3527,6 +3574,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         a''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -3591,6 +3640,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3600,6 +3651,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3609,6 +3662,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3621,6 +3676,8 @@ B_Violin_I_Music_Voice = {                                                     %
 
     % [B Violin_I_Music_Voice measure 120 / measure 57]                        %! _comment_measure_numbers
     f''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #8.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -3630,6 +3687,8 @@ B_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
 
     f''4                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #8.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -3639,6 +3698,8 @@ B_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
 
     f''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #8.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -3648,6 +3709,8 @@ B_Violin_I_Music_Voice = {                                                     %
     \glissando                                                                 %! baca_glissando
 
     f''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #8.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -3662,16 +3725,16 @@ B_Violin_I_Music_Voice = {                                                     %
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
     ]                                                                          %! stirrings_still_trajectories
     \glissando                                                                 %! baca_glissando
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_I_Music_Voice measure 121 / measure 58]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #8.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         f''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
@@ -3710,6 +3773,8 @@ B_Violin_I_Music_Voice = {                                                     %
 
         % [B Violin_I_Music_Voice measure 122 / measure 59]                    %! _comment_measure_numbers
         f''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3719,6 +3784,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3728,6 +3795,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3737,6 +3806,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3752,6 +3823,8 @@ B_Violin_I_Music_Voice = {                                                     %
 
         % [B Violin_I_Music_Voice measure 123 / measure 60]                    %! _comment_measure_numbers
         f''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -3762,6 +3835,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -3772,6 +3847,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3781,6 +3858,8 @@ B_Violin_I_Music_Voice = {                                                     %
         \glissando                                                             %! baca_glissando
 
         f''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #8.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -3793,7 +3872,6 @@ B_Violin_I_Music_Voice = {                                                     %
         f''8                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         \glissando                                                             %! baca_glissando
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -4445,12 +4523,13 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 81 / measure 18]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #5.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         bf'!8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \baca-p-parenthesized                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4503,6 +4582,8 @@ B_Violin_II_Music_Voice = {                                                    %
 
         % [B Violin_II_Music_Voice measure 82 / measure 19]                    %! _comment_measure_numbers
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4516,6 +4597,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         d''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4529,6 +4612,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4538,6 +4623,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -4548,6 +4635,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         c''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -4561,6 +4650,8 @@ B_Violin_II_Music_Voice = {                                                    %
 
     % [B Violin_II_Music_Voice measure 83 / measure 20]                        %! _comment_measure_numbers
     c''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #5.0                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -4574,6 +4665,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     c''4                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #5.0                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -4587,6 +4680,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     c''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #5.0                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -4644,6 +4739,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         e''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -4654,6 +4751,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         e''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4663,6 +4762,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -4686,6 +4787,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         d''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4699,6 +4802,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -4717,6 +4822,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         e''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -4765,6 +4872,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         f''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4777,6 +4886,8 @@ B_Violin_II_Music_Voice = {                                                    %
 
     % [B Violin_II_Music_Voice measure 87 / measure 24]                        %! _comment_measure_numbers
     e''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #5.0                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -4786,6 +4897,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
 
     e''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #5.0                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -4800,6 +4913,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     ef''!8                                                                     %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #5.0                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -4814,6 +4929,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     f''4                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #5.0                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -4827,6 +4944,8 @@ B_Violin_II_Music_Voice = {                                                    %
 
         % [B Violin_II_Music_Voice measure 88 / measure 25]                    %! _comment_measure_numbers
         f''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -4836,6 +4955,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         f''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -4853,7 +4974,6 @@ B_Violin_II_Music_Voice = {                                                    %
         g''8                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -4917,12 +5037,13 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [B Violin_II_Music_Voice measure 90 / measure 27]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         g''4                                                                   %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4952,7 +5073,6 @@ B_Violin_II_Music_Voice = {                                                    %
         \undo \hide NoteHead                                                   %! baca_glissando
         g''4.                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -4982,12 +5102,13 @@ B_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_II_Music_Voice measure 92 / measure 29]                        %! _comment_measure_numbers
-    \override Script.staff-padding = #6.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     g''4                                                                       %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(5)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(5)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(5)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5007,6 +5128,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     g''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -5023,6 +5146,8 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5043,6 +5168,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5053,6 +5180,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         e''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -5068,7 +5197,6 @@ B_Violin_II_Music_Voice = {                                                    %
         \undo \hide NoteHead                                                   %! baca_glissando
         e''8                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -5137,13 +5265,14 @@ B_Violin_II_Music_Voice = {                                                    %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [B Violin_II_Music_Voice measure 97 / measure 34]                        %! _comment_measure_numbers
-    \override Script.staff-padding = #6.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     g''4                                                                       %! stirrings_still_trajectories
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(5)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(5)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(5)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5165,6 +5294,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     f''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5174,6 +5305,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
 
     e''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -5184,6 +5317,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
 
     d''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -5201,6 +5336,8 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5220,6 +5357,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         b'4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5235,7 +5374,6 @@ B_Violin_II_Music_Voice = {                                                    %
         \undo \hide NoteHead                                                   %! baca_glissando
         a'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -5264,12 +5402,13 @@ B_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_II_Music_Voice measure 100 / measure 37]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     g''4                                                                       %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(5)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(5)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(5)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5289,6 +5428,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     e''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5305,6 +5446,8 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5325,6 +5468,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         b'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5341,7 +5486,6 @@ B_Violin_II_Music_Voice = {                                                    %
         g'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -5370,11 +5514,12 @@ B_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_II_Music_Voice measure 103 / measure 40]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     g''4                                                                       %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(5)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(5)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(5)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5393,6 +5538,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     f''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5402,6 +5549,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
 
     e''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5417,6 +5566,8 @@ B_Violin_II_Music_Voice = {                                                    %
         d''8                                                                   %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5435,6 +5586,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         b'4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5444,6 +5597,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         a'4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5459,7 +5614,6 @@ B_Violin_II_Music_Voice = {                                                    %
         \undo \hide NoteHead                                                   %! baca_glissando
         gf'!8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -5527,12 +5681,13 @@ B_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_II_Music_Voice measure 107 / measure 44]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     g''4                                                                       %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(5)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(5)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(5)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5552,6 +5707,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5564,6 +5721,8 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5584,6 +5743,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
 
     g'8                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5600,7 +5761,6 @@ B_Violin_II_Music_Voice = {                                                    %
     d'8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
     ]                                                                          %! stirrings_still_trajectories
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -5628,12 +5788,13 @@ B_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_II_Music_Voice measure 109 / measure 46]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     d'4                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(5)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(5)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(5)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5661,7 +5822,6 @@ B_Violin_II_Music_Voice = {                                                    %
     \undo \hide NoteHead                                                       %! baca_glissando
     d'4                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -5736,11 +5896,12 @@ B_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_II_Music_Voice measure 113 / measure 50]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6.5                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     d'4                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(5)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(5)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(5)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5760,6 +5921,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d'4.                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -5773,6 +5936,8 @@ B_Violin_II_Music_Voice = {                                                    %
 
         % [B Violin_II_Music_Voice measure 114 / measure 51]                   %! _comment_measure_numbers
         d'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -5783,6 +5948,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         d'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5793,6 +5960,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         d'4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5802,6 +5971,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         d'4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5823,6 +5994,8 @@ B_Violin_II_Music_Voice = {                                                    %
         d'8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5844,6 +6017,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5888,6 +6063,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         f'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5902,6 +6079,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         ff'!4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5915,6 +6094,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f'4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -5924,6 +6105,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         f'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -5934,6 +6117,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         f'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -5955,6 +6140,8 @@ B_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
 
     e'4.                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -6002,6 +6189,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         f'4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -6011,6 +6200,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         fs'!4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -6049,6 +6240,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         fs'!8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -6059,6 +6252,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         fs'!4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -6068,6 +6263,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         fs'!4.                                                                 %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -6077,6 +6274,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         fs'!8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -6092,6 +6291,8 @@ B_Violin_II_Music_Voice = {                                                    %
 
         % [B Violin_II_Music_Voice measure 120 / measure 57]                   %! _comment_measure_numbers
         fs'!8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -6101,6 +6302,8 @@ B_Violin_II_Music_Voice = {                                                    %
         \glissando                                                             %! baca_glissando
 
         fs'!4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -6139,7 +6342,6 @@ B_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -6769,13 +6971,14 @@ B_Viola_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 86 / measure 23]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
         c''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6830,6 +7033,8 @@ B_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         e''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -6850,6 +7055,8 @@ B_Viola_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         ef''!4                                                                 %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -6863,6 +7070,8 @@ B_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         e''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -6872,6 +7081,8 @@ B_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         e''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -6882,6 +7093,8 @@ B_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -6891,6 +7104,8 @@ B_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -6911,6 +7126,8 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.0                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6928,6 +7145,8 @@ B_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     e''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.0                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -6943,7 +7162,6 @@ B_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     ftqs''!8                                                                   %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [B Viola_Music_Voice measure 89 / measure 26]                            %! _comment_measure_numbers
@@ -7005,12 +7223,13 @@ B_Viola_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 90 / measure 27]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         ftqs''!8                                                               %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7048,7 +7267,6 @@ B_Viola_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! baca_glissando
         ftqs''!4                                                               %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -7081,12 +7299,13 @@ B_Viola_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 92 / measure 29]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         ftqs''!4.                                                              %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7138,6 +7357,8 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7157,6 +7378,8 @@ B_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     d''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -7166,6 +7389,8 @@ B_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     c''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -7183,7 +7408,6 @@ B_Viola_Music_Voice = {                                                        %
     c''8                                                                       %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
     ]                                                                          %! stirrings_still_trajectories
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -7253,13 +7477,14 @@ B_Viola_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 97 / measure 34]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         ftqs''!4.                                                              %! stirrings_still_trajectories
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7307,6 +7532,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -7335,6 +7562,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     c''8                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -7345,6 +7574,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -7354,6 +7585,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     b'8                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -7370,7 +7603,6 @@ B_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     af'!4                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -7400,12 +7632,13 @@ B_Viola_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 100 / measure 37]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         ftqs''!4.                                                              %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7476,7 +7709,6 @@ B_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     ef'!4.                                                                     %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -7506,7 +7738,6 @@ B_Viola_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 103 / measure 40]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_103:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                %! MEASURE_103:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
@@ -7517,6 +7748,8 @@ B_Viola_Music_Voice = {                                                        %
         ftqs'!4.                                                               %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7567,6 +7800,8 @@ B_Viola_Music_Voice = {                                                        %
     c'4.                                                                       %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7585,6 +7820,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     c'8                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -7595,6 +7832,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     b8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -7604,6 +7843,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     b8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -7620,7 +7861,6 @@ B_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     af!4                                                                       %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [B Viola_Music_Voice measure 105 / measure 42]                           %! _comment_measure_numbers
@@ -7689,12 +7929,13 @@ B_Viola_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 107 / measure 44]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         ftqs'!4.                                                               %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7759,7 +8000,6 @@ B_Viola_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! baca_glissando
         d4                                                                     %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -7792,12 +8032,13 @@ B_Viola_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 109 / measure 46]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         d4.                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7835,7 +8076,6 @@ B_Viola_Music_Voice = {                                                        %
         d8                                                                     %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -7915,11 +8155,12 @@ B_Viola_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 113 / measure 50]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         d4.                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7971,6 +8212,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     d4.                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -7980,6 +8223,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     d8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -7990,6 +8235,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     d8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -7999,6 +8246,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     d8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -8008,6 +8257,8 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     d8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -8042,6 +8293,8 @@ B_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d4.                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8051,6 +8304,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         e8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8066,6 +8321,8 @@ B_Viola_Music_Voice = {                                                        %
 
         % [B Viola_Music_Voice measure 116 / measure 53]                       %! _comment_measure_numbers
         e4                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8105,6 +8362,8 @@ B_Viola_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         ff!4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8124,6 +8383,8 @@ B_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f4.                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8133,6 +8394,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -8143,6 +8406,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8152,6 +8417,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         e8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -8173,6 +8440,8 @@ B_Viola_Music_Voice = {                                                        %
 
     % [B Viola_Music_Voice measure 118 / measure 55]                           %! _comment_measure_numbers
     e4.                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -8238,6 +8507,8 @@ B_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -8248,6 +8519,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8257,6 +8530,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -8276,6 +8551,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f4.                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8285,6 +8562,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -8295,6 +8574,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8304,6 +8585,8 @@ B_Viola_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -8317,7 +8600,6 @@ B_Viola_Music_Voice = {                                                        %
         f4                                                                     %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         \glissando                                                             %! baca_glissando
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -8326,9 +8608,10 @@ B_Viola_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Viola_Music_Voice measure 121 / measure 58]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         f4.                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -8346,6 +8629,8 @@ B_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -8356,6 +8641,8 @@ B_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f4                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -8365,6 +8652,8 @@ B_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f4                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -8377,6 +8666,8 @@ B_Viola_Music_Voice = {                                                        %
 
     % [B Viola_Music_Voice measure 122 / measure 59]                           %! _comment_measure_numbers
     f8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -8387,6 +8678,8 @@ B_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     f8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -8396,6 +8689,8 @@ B_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     f8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -8405,6 +8700,8 @@ B_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     f8                                                                         %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -8418,7 +8715,6 @@ B_Viola_Music_Voice = {                                                        %
     f4                                                                         %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
     \glissando                                                                 %! baca_glissando
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [B Viola_Music_Voice measure 123 / measure 60]                           %! _comment_measure_numbers
@@ -9075,7 +9371,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 83 / measure 20]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \hide NoteHead                                                         %! baca_glissando
         \override Accidental.stencil = ##f                                     %! baca_glissando
@@ -9086,6 +9381,8 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \baca-p-parenthesized                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9132,6 +9429,8 @@ B_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9151,6 +9450,8 @@ B_Cello_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9160,6 +9461,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9169,6 +9472,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         c''4.                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9178,6 +9483,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         c''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -9192,6 +9499,8 @@ B_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         c''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -9212,6 +9521,8 @@ B_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     d''4                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.0                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -9221,6 +9532,8 @@ B_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     d''4.                                                                      %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.0                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -9273,6 +9586,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         e''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9291,6 +9606,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9304,6 +9621,8 @@ B_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         d''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9312,6 +9631,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         d''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9325,6 +9646,8 @@ B_Cello_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9351,6 +9674,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9366,7 +9691,6 @@ B_Cello_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! baca_glissando
         fqs''!4                                                                %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -9400,12 +9724,13 @@ B_Cello_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 90 / measure 27]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         fqs''!8                                                                %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9448,7 +9773,6 @@ B_Cello_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! baca_glissando
         fqs''!4                                                                %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -9481,12 +9805,13 @@ B_Cello_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 92 / measure 29]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         fqs''!8                                                                %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9516,6 +9841,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         e''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -9525,6 +9852,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         e''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -9543,6 +9872,8 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9563,6 +9894,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         d''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -9572,6 +9905,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         c''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -9581,6 +9916,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         c''8                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -9591,6 +9928,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         b'4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -9606,7 +9945,6 @@ B_Cello_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! baca_glissando
         b'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -9685,7 +10023,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 97 / measure 34]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -9696,6 +10033,8 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9728,6 +10067,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d''4                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9737,6 +10078,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         b'4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9746,6 +10089,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         a'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9764,6 +10109,8 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9784,6 +10131,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f'8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -9794,6 +10143,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d'4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9803,6 +10154,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         c'4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9818,7 +10171,6 @@ B_Cello_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! baca_glissando
         bf!8                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -9850,7 +10202,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 100 / measure 37]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_100:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                %! MEASURE_100:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
@@ -9862,6 +10213,8 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9892,6 +10245,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         e'4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9901,6 +10256,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d'4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9933,6 +10290,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         b8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9942,6 +10301,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         a8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9951,6 +10312,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         a8                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -9967,7 +10330,6 @@ B_Cello_Music_Voice = {                                                        %
         gf!8                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -9999,7 +10361,6 @@ B_Cello_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 103 / measure 40]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_103:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                %! MEASURE_103:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
@@ -10010,6 +10371,8 @@ B_Cello_Music_Voice = {                                                        %
         fqs!8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10039,6 +10402,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d4                                                                     %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10048,6 +10413,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d4.                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10065,6 +10432,8 @@ B_Cello_Music_Voice = {                                                        %
         c8                                                                     %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10084,6 +10453,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         b,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10093,6 +10464,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         a,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -10103,6 +10476,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         a,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10112,6 +10487,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         g,4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10127,7 +10504,6 @@ B_Cello_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! baca_glissando
         f,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -10198,12 +10574,13 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 107 / measure 44]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         fqs!8                                                                  %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10236,6 +10613,8 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10255,6 +10634,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         a,4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10264,6 +10645,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -10281,7 +10664,6 @@ B_Cello_Music_Voice = {                                                        %
         d,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -10311,13 +10693,14 @@ B_Cello_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 109 / measure 46]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         d,8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10350,6 +10733,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10365,7 +10750,6 @@ B_Cello_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! baca_glissando
         d,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -10436,11 +10820,12 @@ B_Cello_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 113 / measure 50]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         d,8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(6)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10470,6 +10855,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10479,6 +10866,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10498,6 +10887,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10507,6 +10898,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10516,6 +10909,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -10526,6 +10921,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10535,6 +10932,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         d,4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10553,6 +10952,8 @@ B_Cello_Music_Voice = {                                                        %
     d,8                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10602,6 +11003,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         e,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -10612,6 +11015,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         e,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10621,6 +11026,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f,4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10640,6 +11047,8 @@ B_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         ff,!8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -10654,6 +11063,8 @@ B_Cello_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10672,6 +11083,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10715,6 +11128,8 @@ B_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         ef,!4.                                                                 %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10728,6 +11143,8 @@ B_Cello_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         e,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -10746,6 +11163,8 @@ B_Cello_Music_Voice = {                                                        %
     f,8                                                                        %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10769,6 +11188,8 @@ B_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     f,4                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -10778,6 +11199,8 @@ B_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     f,4.                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -10787,6 +11210,8 @@ B_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     f,8                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
@@ -10800,6 +11225,8 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 120 / measure 57]                       %! _comment_measure_numbers
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -10810,6 +11237,8 @@ B_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -10831,7 +11260,6 @@ B_Cello_Music_Voice = {                                                        %
         f,4.                                                                   %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         \glissando                                                             %! baca_glissando
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
@@ -10840,9 +11268,10 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [B Cello_Music_Voice measure 121 / measure 58]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(5)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(5)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando
@@ -10852,6 +11281,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -10862,6 +11293,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -10871,6 +11304,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f,4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -10880,6 +11315,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -10890,6 +11327,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -10906,6 +11345,8 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 122 / measure 59]                       %! _comment_measure_numbers
         f,8                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -10915,6 +11356,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -10951,6 +11394,8 @@ B_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     f,4.                                                                       %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.0                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     \glissando                                                                 %! baca_glissando
@@ -10960,6 +11405,8 @@ B_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     f,8                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(8)
+    - \tweak staff-padding #6.0                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
@@ -10970,6 +11417,8 @@ B_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
 
     f,8                                                                        %! stirrings_still_trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
+    - \tweak staff-padding #6.0                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
@@ -10984,6 +11433,8 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 124 / measure 61]                       %! _comment_measure_numbers
         f,4                                                                    %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10997,6 +11448,8 @@ B_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
 
         f,4.                                                                   %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #6.0                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         \glissando                                                             %! baca_glissando
@@ -11009,7 +11462,6 @@ B_Cello_Music_Voice = {                                                        %
         f,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         \glissando                                                             %! baca_glissando
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories

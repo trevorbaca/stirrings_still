@@ -329,11 +329,14 @@ bcp_staff_padding = 6
 maker(
     ('v1', [
         (29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('C', 0, -3),
@@ -902,11 +905,14 @@ maker(
 bcp_staff_padding = 2.5
 maker(
     ('v2', (18, 25)),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.multistage_leaf_glissando(
@@ -932,11 +938,14 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -2,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.flat_glissando('G5'),
@@ -951,11 +960,14 @@ maker(
 bcp_staff_padding = 4
 maker(
     ('v2', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -4,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('C', -1, -2),
@@ -1147,11 +1159,14 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(bcp_staff_padding + 2.5 + 3.5).staff_padding,
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('C', 0, 0),
@@ -1205,11 +1220,14 @@ maker(
 bcp_staff_padding = 4
 maker(
     ('va', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('C', -2, -1),
@@ -1299,11 +1317,14 @@ maker(
 bcp_staff_padding = 4
 maker(
     ('va', (58, 59)),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -2,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('C', -2, -1),
@@ -1479,7 +1500,6 @@ maker(
         pieces=baca.mgroups([3, 3 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tasto_spanner(
         abjad.tweak(13).staff_padding,
         ),
@@ -1487,6 +1507,10 @@ maker(
     stirrings_still.bcps(
         0,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('B', 0, 0),
@@ -1529,7 +1553,6 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tasto_spanner(
         abjad.tweak(13).staff_padding,
         ),
@@ -1537,6 +1560,10 @@ maker(
     stirrings_still.bcps(
         -2,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.flat_glissando('Fqs5'),
@@ -1551,11 +1578,14 @@ maker(
 bcp_staff_padding = 4
 maker(
     ('vc', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -2,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('C', -3, 0),
@@ -1670,11 +1700,14 @@ maker(
 bcp_staff_padding = 3.5
 maker(
     ('vc', (58, 61)),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -4,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('C', -3, 0),

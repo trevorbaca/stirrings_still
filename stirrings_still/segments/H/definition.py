@@ -487,9 +487,12 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     stirrings_still.transition_bcps(
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         final_spanner=True,
         ),
     stirrings_still.eighths(),
@@ -611,7 +614,6 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.suite(
         baca.untie_to(),
         baca.pitch('Db2'),
@@ -625,6 +627,10 @@ maker(
     stirrings_still.bcps(
         -4,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('A', -1, 0),
@@ -667,7 +673,6 @@ maker(
         #selector=baca.leaves().rleak(),
         selector=baca.leaves(),
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.suite(
         stirrings_still.glissando_interpolation('Db2', 'Db2'),
         baca.untie_to(),
@@ -676,6 +681,10 @@ maker(
     stirrings_still.bcps(
         -8,
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         clt=True,
         ),
     stirrings_still.trajectories('A', -1, 0),

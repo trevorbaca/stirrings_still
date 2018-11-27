@@ -876,7 +876,6 @@ maker(
         abjad.tweak(13).staff_padding,
         ),
     baca.note_head_style_harmonic(),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.suite(
         baca.pitch('A5'),
         baca.glissando(
@@ -887,6 +886,10 @@ maker(
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         ),
     )
 

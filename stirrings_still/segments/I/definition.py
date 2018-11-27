@@ -256,6 +256,10 @@ maker(
     stirrings_still.eighths(),
     stirrings_still.transition_bcps(
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         final_spanner=True,
         ),
     )
@@ -278,5 +282,9 @@ maker(
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         ),
     )

@@ -960,13 +960,14 @@ O_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [O Cello_Music_Voice measure 702 / measure 7]                        %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         df,!8                                                                  %! stirrings_still_trajectories
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(5)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(5)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -991,6 +992,8 @@ O_Cello_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         df,!8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -1001,6 +1004,8 @@ O_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         df,!4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -1010,6 +1015,8 @@ O_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
@@ -1020,6 +1027,8 @@ O_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -1029,6 +1038,8 @@ O_Cello_Music_Voice = {                                                        %
         \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -1043,6 +1054,8 @@ O_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         df,!4                                                                  %! stirrings_still_trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
+        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
@@ -1050,7 +1063,6 @@ O_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories

@@ -652,10 +652,13 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(bcp_staff_padding + 2.5 + 3.5).staff_padding,
         ),
-    baca.script_staff_padding(bcp_staff_padding + 2.5),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         abjad.tweak(bcp_staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
+            ),
         ),
     )
 

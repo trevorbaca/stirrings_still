@@ -7992,11 +7992,12 @@ D_Cello_Music_Voice = {                                                        %
 
     % [D Cello_Music_Voice measure 244 / measure 38]                           %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \override Script.staff-padding = #7.0                                      %! baca_script_staff_padding:OverrideCommand(1)
     a''8.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(6)
+    - \tweak staff-padding #7.0                                                %! baca_bcps:BCPCommand(6)
     - \downbow                                                                 %! baca_bcps:BCPCommand(6)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8020,6 +8021,8 @@ D_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     a''16
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.0                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -8030,6 +8033,8 @@ D_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.0                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -8040,6 +8045,8 @@ D_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(7)
+    - \tweak staff-padding #7.0                                                %! baca_bcps:BCPCommand(7)
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
@@ -8050,6 +8057,8 @@ D_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
 
     a''8.
+    - \tweak self-alignment-X #left                                            %! baca_bcps:BCPCommand(8)
+    - \tweak staff-padding #7.0                                                %! baca_bcps:BCPCommand(8)
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
@@ -8068,7 +8077,6 @@ D_Cello_Music_Voice = {                                                        %
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(1)
     ]
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
-    \revert Script.staff-padding                                               %! baca_script_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
