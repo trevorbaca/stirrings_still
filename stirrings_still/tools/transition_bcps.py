@@ -1,14 +1,16 @@
+import abjad
 import baca
 
 
 def transition_bcps(
-    *tweaks,
+    *,
     final_spanner=None,
-    bow_change_tweaks=None,
+    staff_padding=None,
     ):
     """
     Makes transition bow contact points.
     """
+    assert staff_padding is not None, repr(staff_padding)
 
     bcps = [
         (1, 7), (3, 7), 
@@ -28,8 +30,11 @@ def transition_bcps(
 
     return baca.bcps(
         bcps,
-        *tweaks,
-        bow_change_tweaks=bow_change_tweaks,
+        abjad.tweak(staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(staff_padding + 2.5).staff_padding,
+            ),
         final_spanner=final_spanner,
         helper=helper,
         )

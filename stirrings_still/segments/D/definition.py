@@ -864,7 +864,6 @@ maker(
     baca.pitch('Dqs5'),
     )
 
-bcp_staff_padding = 4.5
 maker(
     ('vc', 38),
     baca.hairpin(
@@ -885,11 +884,7 @@ maker(
         ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
+        staff_padding=4.5,
         ),
     )
 

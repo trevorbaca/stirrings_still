@@ -125,7 +125,6 @@ maker(
     stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     )
 
-bcp_staff_padding = 2.5
 maker(
     ('trio', (12, 17)),
     baca.hairpin(
@@ -145,12 +144,8 @@ maker(
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -6,
-                abjad.tweak(bcp_staff_padding).staff_padding,
-                bow_change_tweaks=(
-                    abjad.tweak(abjad.Left).self_alignment_X,
-                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                    ),
                 clt=True,
+                staff_padding=2.5,
                 ),
             ),
         stirrings_still.trajectories('C', -1, -2),
@@ -161,12 +156,8 @@ maker(
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -6,
-                abjad.tweak(bcp_staff_padding).staff_padding,
-                bow_change_tweaks=(
-                    abjad.tweak(abjad.Left).self_alignment_X,
-                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                    ),
                 clt=True,
+                staff_padding=2.5,
                 ),
             ),
         stirrings_still.trajectories('C', -2, -1),
@@ -177,12 +168,8 @@ maker(
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -5,
-                abjad.tweak(bcp_staff_padding).staff_padding,
-                bow_change_tweaks=(
-                    abjad.tweak(abjad.Left).self_alignment_X,
-                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                    ),
                 clt=True,
+                staff_padding=2.5,
                 ),
             ),
         stirrings_still.trajectories('C', -3, 0),

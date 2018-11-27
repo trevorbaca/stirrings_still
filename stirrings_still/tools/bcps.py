@@ -4,15 +4,15 @@ import baca
 
 def bcps(
     rotation: int,
-    *tweaks,
-    bow_change_tweaks = None,
     clt: bool = False,
     measures = None,
     selector = 'baca.leaves()',
+    staff_padding = None,
     ):
     """
     Makes bow contact points.
     """
+    assert staff_padding is not None, repr(staff_padding)
     bcps = baca.sequence([
         [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7)],
         [(7, 7), (0, 7), (7, 7), (0, 7), (7, 7)],
@@ -32,8 +32,11 @@ def bcps(
 
     command = baca.bcps(
         bcps_,
-        *tweaks,
-        bow_change_tweaks=bow_change_tweaks,
+        abjad.tweak(staff_padding).staff_padding,
+        bow_change_tweaks=(
+            abjad.tweak(abjad.Left).self_alignment_X,
+            abjad.tweak(staff_padding + 2.5).staff_padding,
+            ),
         selector=selector,
         tag='stirrings_still_bcps',
         )

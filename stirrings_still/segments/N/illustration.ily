@@ -3469,7 +3469,7 @@ N_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #9.0                                                %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)

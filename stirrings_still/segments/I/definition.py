@@ -243,7 +243,6 @@ maker(
     )
 
 
-bcp_staff_padding = 5
 maker(
     ('vc', (1, 6)),
     baca.beam(),
@@ -255,16 +254,11 @@ maker(
         ),
     stirrings_still.eighths(),
     stirrings_still.transition_bcps(
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         final_spanner=True,
+        staff_padding=5,
         ),
     )
 
-bcp_staff_padding = 5
 maker(
     ('vc', (7, -1)),
     baca.clef('treble'),
@@ -281,10 +275,6 @@ maker(
         ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
+        staff_padding=5,
         ),
     )
