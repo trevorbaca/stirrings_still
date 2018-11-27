@@ -2185,7 +2185,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 739 / measure 10]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -2956,7 +2956,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 757 / measure 28]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -3587,7 +3587,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 5/4 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 772 / measure 43]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -4155,7 +4155,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 784 / measure 55]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #7                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #7.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -4563,7 +4563,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 793 / measure 64]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #7                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #4.5                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -4857,7 +4857,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Violin_I_Music_Voice measure 799 / measure 70]                    %! _comment_measure_numbers
-        \override Script.staff-padding = #7                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #7.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af'!8                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -6101,7 +6101,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Violin_II_Music_Voice measure 743 / measure 14]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #6.0                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     dqf''!4                                                                    %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6642,7 +6642,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Violin_II_Music_Voice measure 760 / measure 31]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #6.0                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     dqs''!4                                                                    %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7082,7 +7082,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Violin_II_Music_Voice measure 775 / measure 46]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #6.0                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     cqs''!4                                                                    %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7465,7 +7465,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Violin_II_Music_Voice measure 786 / measure 57]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #6.0                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     eqs''!4                                                                    %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7734,7 +7734,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q Violin_II_Music_Voice measure 794 / measure 65]                       %! _comment_measure_numbers
-    \override Script.staff-padding = #6                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override Script.staff-padding = #6.0                                      %! baca_script_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     fqs''!4                                                                    %! stirrings_still_trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9017,7 +9017,7 @@ Q_Viola_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Viola_Music_Voice measure 739 / measure 10]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!4.                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -9667,7 +9667,7 @@ Q_Viola_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Viola_Music_Voice measure 757 / measure 28]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!4.                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -10189,7 +10189,7 @@ Q_Viola_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [Q Viola_Music_Voice measure 772 / measure 43]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!4.                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -10672,7 +10672,7 @@ Q_Viola_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Viola_Music_Voice measure 784 / measure 55]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!4.                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -11010,7 +11010,7 @@ Q_Viola_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [Q Viola_Music_Voice measure 793 / measure 64]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!4.                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -11264,7 +11264,7 @@ Q_Viola_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [Q Viola_Music_Voice measure 799 / measure 70]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!4.                                                                  %! stirrings_still_trajectories
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
@@ -11699,7 +11699,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Cello_Music_Voice measure 739 / measure 10]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!8                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
@@ -12347,7 +12347,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Cello_Music_Voice measure 757 / measure 28]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!8                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
@@ -12891,7 +12891,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [Q Cello_Music_Voice measure 772 / measure 43]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!8                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
@@ -13379,7 +13379,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [Q Cello_Music_Voice measure 784 / measure 55]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!8                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
@@ -13750,7 +13750,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [Q Cello_Music_Voice measure 793 / measure 64]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!8                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
@@ -14020,7 +14020,7 @@ Q_Cello_Music_Voice = {                                                        %
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
         % [Q Cello_Music_Voice measure 799 / measure 70]                       %! _comment_measure_numbers
-        \override Script.staff-padding = #6                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override Script.staff-padding = #6.0                                  %! baca_script_staff_padding:OverrideCommand(1)
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         af!8                                                                   %! stirrings_still_trajectories
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)

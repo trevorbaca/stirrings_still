@@ -125,6 +125,7 @@ maker(
     stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
     )
 
+bcp_staff_padding = 2.5
 maker(
     ('trio', (12, 17)),
     baca.hairpin(
@@ -141,11 +142,11 @@ maker(
         ),
     baca.new(
         baca.suite(
-            baca.script_staff_padding(5),
+            baca.script_staff_padding(bcp_staff_padding + 2.5),
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -6,
-                abjad.tweak(2.5).staff_padding,
+                abjad.tweak(bcp_staff_padding).staff_padding,
                 clt=True,
                 ),
             ),
@@ -154,11 +155,11 @@ maker(
         ),
     baca.new(
         baca.suite(
-            baca.script_staff_padding(5),
+            baca.script_staff_padding(bcp_staff_padding + 2.5),
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -6,
-                abjad.tweak(2.5).staff_padding,
+                abjad.tweak(bcp_staff_padding).staff_padding,
                 clt=True,
                 ),
             ),
@@ -167,11 +168,11 @@ maker(
         ),
     baca.new(
         baca.suite(
-            baca.script_staff_padding(5),
+            baca.script_staff_padding(bcp_staff_padding + 2.5),
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -5,
-                abjad.tweak(2.5).staff_padding,
+                abjad.tweak(bcp_staff_padding).staff_padding,
                 clt=True,
                 ),
             ),

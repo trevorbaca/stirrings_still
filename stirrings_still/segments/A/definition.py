@@ -831,6 +831,7 @@ maker(
     baca.tacet(),
     )
 
+bcp_staff_padding = 4.5
 maker(
     ('vc', (42, 43)),
     baca.clef('treble'),
@@ -845,14 +846,14 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(12.5).staff_padding,
+        abjad.tweak(bcp_staff_padding + 2.5 + 3.5).staff_padding,
         ),
     baca.markup(
         baca.markups.string_number(3),
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.script_staff_padding(8),
+    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.suite(
         baca.pitch('A5'),
         baca.glissando(
@@ -862,7 +863,7 @@ maker(
         ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(bcp_staff_padding).staff_padding,
         ),
     )
 
@@ -884,6 +885,7 @@ maker(
     stirrings_still.flat_glissando('G3'),
     )
 
+bcp_staff_padding = 4.5
 maker(
     ('vc', 48),
     baca.clef('treble'),
@@ -897,14 +899,14 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(12.5).staff_padding,
+        abjad.tweak(bcp_staff_padding + 2.5 + 3.5).staff_padding,
         ),
     baca.markup(
         baca.markups.string_number(3),
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.script_staff_padding(8),
+    baca.script_staff_padding(bcp_staff_padding + 2.5),
     baca.suite(
         baca.pitch('A5'),
         baca.glissando(
@@ -914,7 +916,7 @@ maker(
         ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(bcp_staff_padding).staff_padding,
         ),
     )
 
