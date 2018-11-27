@@ -60,21 +60,16 @@ maker(
     baca.dls_staff_padding(7),
     )
 
-bcp_staff_padding = 8
 maker(
     ('v1', (1, 8)),
     baca.half_clt_spanner(
-        abjad.tweak(bcp_staff_padding + 6).staff_padding,
+        abjad.tweak(8 + 6).staff_padding,
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
+        staff_padding=8,
         ),
     stirrings_still.flat_glissando(
         'A6',
@@ -108,21 +103,16 @@ maker(
     baca.dls_staff_padding(7),
     )
 
-bcp_staff_padding = 4.5
 maker(
     ('v2', (1, 8)),
     baca.half_clt_spanner(
-        abjad.tweak(bcp_staff_padding + 6).staff_padding,
+        abjad.tweak(4.5 + 6).staff_padding,
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
+        staff_padding=4.5,
         ),
     stirrings_still.flat_glissando(
         'Ab5',

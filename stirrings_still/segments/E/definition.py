@@ -214,7 +214,6 @@ maker(
         ),
     )
 
-bcp_staff_padding = 4.5
 maker(
     ('v1', (35, 40)),
     baca.glissando(
@@ -231,12 +230,8 @@ maker(
     baca.suite(
         stirrings_still.bcps(
             -8,
-            abjad.tweak(bcp_staff_padding).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                ),
             clt=True,
+            staff_padding=4.5,
             ),
         baca.untie_to(
             selector=baca.leaves(),
@@ -264,7 +259,6 @@ maker(
     stirrings_still.desynchronization(4, [2]),
     )
 
-bcp_staff_padding = 2.5
 maker(
     ('v1', (50, 61)),
     baca.breathe(),
@@ -283,17 +277,12 @@ maker(
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
+        staff_padding=2.5,
         clt=True,
         ),
     stirrings_still.trajectories('C', 0, -3),
     )
 
-bcp_staff_padding = 5.5
 maker(
     ('v1', (63, 78)),
     baca.hairpin(
@@ -308,13 +297,9 @@ maker(
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
         selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+        staff_padding=5.5,
         ),
     stirrings_still.running_quarter_divisions(4),
     )
@@ -379,7 +364,6 @@ maker(
     stirrings_still.desynchronization(4, [2]),
     )
 
-bcp_staff_padding = 2.5
 maker(
     ('v1', (97, 108)),
     baca.breathe(),
@@ -398,12 +382,8 @@ maker(
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
+        staff_padding=2.5,
         ),
     stirrings_still.trajectories('C', 0, -3),
     )
@@ -757,7 +737,6 @@ maker(
         ),
     )
 
-bcp_staff_padding = 4.5
 maker(
     ('v2', (35, 40)),
     baca.hairpin(
@@ -769,12 +748,8 @@ maker(
     baca.suite(
         stirrings_still.bcps(
             -7,
-            abjad.tweak(bcp_staff_padding).staff_padding,
-            bow_change_tweaks=(
-                abjad.tweak(abjad.Left).self_alignment_X,
-                abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                ),
             clt=True,
+            staff_padding=4.5,
             ),
         baca.untie_to(
             selector=baca.leaves(),
@@ -821,7 +796,6 @@ maker(
     stirrings_still.desynchronization(4, [1]),
     )
 
-bcp_staff_padding = 2.5
 maker(
     ('v2', (54, 61)),
     baca.breathe(),
@@ -840,17 +814,12 @@ maker(
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -7,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
+        staff_padding=2.5,
         ),
     stirrings_still.trajectories('C', -1, -2),
     )
 
-bcp_staff_padding = 5.5
 maker(
     ('v2', (63, 77)),
     baca.hairpin(
@@ -866,13 +835,9 @@ maker(
     baca.tuplet_bracket_staff_padding(3.5),
     stirrings_still.bcps(
         0,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
         selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+        staff_padding=5.5,
         ),
     stirrings_still.running_quarter_divisions(3),
     )
@@ -937,7 +902,6 @@ maker(
     stirrings_still.desynchronization(4, [1]),
     )
 
-bcp_staff_padding = 2.5
 maker(
     ('v2', (101, 108)),
     baca.breathe(),
@@ -956,12 +920,8 @@ maker(
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -7,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
+        staff_padding=2.5,
         ),
     stirrings_still.trajectories('C', -1, -2),
     )
@@ -1083,7 +1043,6 @@ maker(
     stirrings_still.measure_initiation(),
     )
 
-bcp_staff_padding = 5.5
 maker(
     ('va', (63, 76)),
     baca.clef('treble'),
@@ -1099,13 +1058,9 @@ maker(
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
         selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+        staff_padding=5.5,
         ),
     stirrings_still.running_quarter_divisions(2),
     )
@@ -1185,7 +1140,6 @@ maker(
         ),
     )
 
-bcp_staff_padding = 2.5
 maker(
     (['va', 'vc'], (50, 61)),
     baca.breathe(),
@@ -1206,12 +1160,8 @@ maker(
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -6,
-                abjad.tweak(bcp_staff_padding).staff_padding,
-                bow_change_tweaks=(
-                    abjad.tweak(abjad.Left).self_alignment_X,
-                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                    ),
                 clt=True,
+                staff_padding=2.5,
                 ),
             ),
         stirrings_still.trajectories('C', -2, -1),
@@ -1222,12 +1172,8 @@ maker(
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -5,
-                abjad.tweak(bcp_staff_padding).staff_padding,
-                bow_change_tweaks=(
-                    abjad.tweak(abjad.Left).self_alignment_X,
-                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                    ),
                 clt=True,
+                staff_padding=2.5,
                 ),
             ),
         stirrings_still.trajectories('C', -3, 0),
@@ -1265,7 +1211,6 @@ maker(
         ),
     )
 
-bcp_staff_padding = 2.5
 maker(
     (['va', 'vc'], (97, 108)),
     baca.breathe(),
@@ -1286,12 +1231,8 @@ maker(
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -6,
-                abjad.tweak(bcp_staff_padding).staff_padding,
-                bow_change_tweaks=(
-                    abjad.tweak(abjad.Left).self_alignment_X,
-                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                    ),
                 clt=True,
+                staff_padding=2.5,
                 ),
             ),
         stirrings_still.trajectories('C', -2, -1),
@@ -1302,12 +1243,8 @@ maker(
             baca.tuplet_bracket_down(),
             stirrings_still.bcps(
                 -5,
-                abjad.tweak(bcp_staff_padding).staff_padding,
-                bow_change_tweaks=(
-                    abjad.tweak(abjad.Left).self_alignment_X,
-                    abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-                    ),
                 clt=True,
+                staff_padding=2.5,
                 ),
             ),
         stirrings_still.trajectories('C', -3, 0),

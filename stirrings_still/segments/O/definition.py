@@ -183,7 +183,6 @@ maker(
     stirrings_still.flat_glissando('Ab3'),
     )
 
-bcp_staff_padding = 3
 maker(
     ('vc', 7),
     baca.hairpin(
@@ -197,13 +196,9 @@ maker(
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -4,
-        abjad.tweak(bcp_staff_padding).staff_padding,
-        bow_change_tweaks=(
-            abjad.tweak(abjad.Left).self_alignment_X,
-            abjad.tweak(bcp_staff_padding + 2.5).staff_padding,
-            ),
         clt=True,
         selector=baca.leaves().rleak(),
+        staff_padding=3,
         ),
     stirrings_still.flat_glissando('Db2'),
     stirrings_still.trajectories('A', -1, 0),
