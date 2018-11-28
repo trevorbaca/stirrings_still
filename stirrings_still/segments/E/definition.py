@@ -147,16 +147,8 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 2)),
-    baca.glissando(
-        allow_repeats=True,
-        allow_ties=True,
-        stems=True,
-        ),
     baca.markup('7°/F'),
-    baca.pitch('Etqf4'),
-    baca.untie_to(
-        selector=baca.leaves(),
-        ),
+    stirrings_still.flat_glissando('Etqf4'),
     )
 
 maker(
@@ -171,11 +163,6 @@ maker(
         map=baca.plts()[abjad.index([0], 2)],
         ),
     baca.suite(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
         baca.hairpin(
             'pp --',
             bookend=False,
@@ -183,9 +170,7 @@ maker(
         baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
             ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+        stirrings_still.flat_glissando('Etqf4'),
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.pitch('Etqf4'),
@@ -680,11 +665,6 @@ maker(
         map=baca.plts()[abjad.index([0], 2)],
         ),
     baca.suite(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
         baca.hairpin(
             'pp --',
             bookend=False,
@@ -692,9 +672,7 @@ maker(
         baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
             ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+        stirrings_still.flat_glissando('Bqf3'),
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.pitch('Bqf3'),
@@ -958,11 +936,6 @@ maker(
         map=baca.plts()[abjad.index([0], 2)],
         ),
     baca.suite(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
         baca.hairpin(
             'pp --',
             bookend=False,
@@ -970,9 +943,7 @@ maker(
         baca.xfb_spanner(
             abjad.tweak(3).staff_padding,
             ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+        stirrings_still.flat_glissando('A3'),
         map=baca.plts()[abjad.index([1], 2)],
         ),
     baca.pitch('A3'),

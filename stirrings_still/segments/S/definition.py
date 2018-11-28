@@ -90,7 +90,6 @@ maker(
     'v1',
     baca.dls_staff_padding(7),
     baca.note_head_style_harmonic(),
-    baca.pitch('Bb4'),
     )
 
 maker(
@@ -103,10 +102,6 @@ maker(
         0.75,
         selector=baca.pleaf(-1),
         ),
-    baca.glissando(
-        allow_repeats=True,
-        stems=True,
-        ),
     baca.hairpin(
         'p > ppp <',
         pieces=baca.cmgroups(),
@@ -118,6 +113,7 @@ maker(
             ),
         match=0,
         ),
+    stirrings_still.flat_glissando('Bb4'),
     stirrings_still.wave((1, 4), (3, 32)),
     )
 
@@ -139,7 +135,6 @@ maker(
     'v2',
     baca.dls_staff_padding(6),
     baca.note_head_style_harmonic(),
-    baca.pitch('F4'),
     baca.tuplet_bracket_down(),
     )
 
@@ -153,10 +148,6 @@ maker(
         0.75,
         selector=baca.pleaf(-1),
         ),
-    baca.glissando(
-        allow_repeats=True,
-        stems=True,
-        ),
     baca.hairpin(
         'ppp < p >',
         pieces=baca.cmgroups(),
@@ -168,6 +159,7 @@ maker(
             ),
         match=0,
         ),
+    stirrings_still.flat_glissando('F4'),
     stirrings_still.wave((5, 32), (1, 4)),
     )
 
