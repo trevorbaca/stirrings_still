@@ -324,7 +324,10 @@ maker(
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
-        stirrings_still.glissando_interpolation('G4', 'A4'),
+        stirrings_still.flat_glissando(
+            'G4',
+            stop_pitch='A4',
+            ),
         match=1,
         ),
     baca.new(
@@ -627,22 +630,34 @@ maker(
     # TODO: revoice
     baca.new(
         stirrings_still.desynchronization(4, [1]),
-        stirrings_still.glissando_interpolation('Bb4', 'G4'),
+        stirrings_still.flat_glissando(
+            'Bb4',
+            stop_pitch='G4',
+            ),
         match=0,
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
-        stirrings_still.glissando_interpolation('Ab4', 'F4'),
+        stirrings_still.flat_glissando(
+            'Ab4',
+            stop_pitch='F4',
+            ),
         match=1,
         ),
     baca.new(
         stirrings_still.desynchronization(4, [2]),
-        stirrings_still.glissando_interpolation('A3', 'B2'),
+        stirrings_still.flat_glissando(
+            'A3',
+            stop_pitch='B2',
+            ),
         match=2,
         ),
     baca.new(
         stirrings_still.desynchronization(4, [-1]),
-        stirrings_still.glissando_interpolation('G2', 'Bb1'),
+        stirrings_still.flat_glissando(
+            'G2',
+            stop_pitch='Bb1',
+            ),
         match=3,
         ),
     baca.text_spanner(

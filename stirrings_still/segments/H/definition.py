@@ -271,8 +271,9 @@ maker(
 
 maker(
     ('v2', (11, 14)),
-    stirrings_still.glissando_interpolation(
-        'F4', 'Ab4',
+    stirrings_still.flat_glissando(
+        'F4',
+        stop_pitch='Ab4',
         selector=baca.leaves().rleak(),
         ),
     )
@@ -591,9 +592,10 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
-    stirrings_still.glissando_interpolation(
-        'Gb2', 'Db2',
+    stirrings_still.flat_glissando(
+        'Gb2',
         selector=baca.leaves().rleak(),
+        stop_pitch='Db2',
         ),
     )
 
@@ -662,16 +664,12 @@ maker(
         #selector=baca.leaves().rleak(),
         selector=baca.leaves(),
         ),
-    baca.suite(
-        stirrings_still.glissando_interpolation('Db2', 'Db2'),
-        baca.untie_to(),
-        selector=baca.leaves(),   
-        ),
     stirrings_still.bcps(
         -8,
         clt=True,
         staff_padding=3,
         ),
+    stirrings_still.flat_glissando('Db2'),
     stirrings_still.trajectories('A', -1, 0),
     )
 
@@ -947,16 +945,18 @@ maker(
 maker(
     (['v1', 'va'], (7, 14)),
     baca.new(
-        stirrings_still.glissando_interpolation(
-            'Gb4', 'Bb4',
+        stirrings_still.flat_glissando(
+            'Gb4',
             selector=baca.leaves().rleak(),
+            stop_pitch='Bb4',
             ),
         match=0,
         ),
     baca.new(
-        stirrings_still.glissando_interpolation(
-            'Ab3', 'B3',
+        stirrings_still.flat_glissando(
+            'Ab3',
             selector=baca.leaves().rleak(),
+            stop_pitch='B3',
             ),
         match=1,
         ),

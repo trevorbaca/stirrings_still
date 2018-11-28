@@ -322,7 +322,10 @@ maker(
 
 maker(
     ('v1', (29, 30)),
-    stirrings_still.glissando_interpolation('G#5', 'Bb5'),
+    stirrings_still.flat_glissando(
+        'G#5',
+        stop_pitch='Bb5',
+        ),
     )
 
 maker(
@@ -344,17 +347,26 @@ maker(
 
 maker(
     ('v1', (34, 35)),
-    stirrings_still.glissando_interpolation('G#5', 'B5'),
+    stirrings_still.flat_glissando(
+        'G#5',
+        stop_pitch='B5',
+        ),
     )
 
 maker(
     ('v1', (37, 38)),
-    stirrings_still.glissando_interpolation('G#5', 'C6'),
+    stirrings_still.flat_glissando(
+        'G#5',
+        stop_pitch='C6',
+        ),
     )
 
 maker(
     ('v1', (40, 41)),
-    stirrings_still.glissando_interpolation('G#5', 'Db6'),
+    stirrings_still.flat_glissando(
+        'G#5',
+        stop_pitch='Db6',
+        ),
     )
 
 maker(
@@ -364,7 +376,10 @@ maker(
 
 maker(
     ('v1', 44),
-    stirrings_still.glissando_interpolation('G#5', 'D6'),
+    stirrings_still.flat_glissando(
+        'G#5',
+        stop_pitch='D6',
+        ),
     )
 
 maker(
@@ -939,7 +954,10 @@ maker(
 
 maker(
     ('v2', (29, 30)),
-    stirrings_still.glissando_interpolation('G5', 'E5'),
+    stirrings_still.flat_glissando(
+        'G5',
+        stop_pitch='E5',
+        ),
     )
 
 maker(
@@ -960,17 +978,26 @@ maker(
 
 maker(
     ('v2', (34, 35)),
-    stirrings_still.glissando_interpolation('G5', 'A4'),
+    stirrings_still.flat_glissando(
+        'G5',
+        stop_pitch='A4',
+        ),
     )
 
 maker(
     ('v2', (37, 38)),
-    stirrings_still.glissando_interpolation('G5', 'G4'),
+    stirrings_still.flat_glissando(
+        'G5',
+        stop_pitch='G4',
+        ),
     )
 
 maker(
     ('v2', (40, 41)),
-    stirrings_still.glissando_interpolation('G5', 'Gb4'),
+    stirrings_still.flat_glissando(
+        'G5',
+        stop_pitch='Gb4',
+        ),
     )
 
 maker(
@@ -980,7 +1007,10 @@ maker(
 
 maker(
     ('v2', 44),
-    stirrings_still.glissando_interpolation('G5', 'D4'),
+    stirrings_still.flat_glissando(
+        'G5',
+        stop_pitch='D4',
+        ),
     )
 
 maker(
@@ -1189,7 +1219,10 @@ maker(
 
 maker(
     ('va', (29, 30)),
-    stirrings_still.glissando_interpolation('Ftqs5', 'C5'),
+    stirrings_still.flat_glissando(
+        'Ftqs5',
+        stop_pitch='C5',
+        ),
     )
 
 maker(
@@ -1210,18 +1243,27 @@ maker(
 
 maker(
     ('va', (34, 35)),
-    stirrings_still.glissando_interpolation('Ftqs5', 'Ab4'),
+    stirrings_still.flat_glissando(
+        'Ftqs5',
+        stop_pitch='Ab4',
+        ),
     )
 
 maker(
     ('va', (37, 38)),
-    stirrings_still.glissando_interpolation('Ftqs5', 'Eb4'),
+    stirrings_still.flat_glissando(
+        'Ftqs5',
+        stop_pitch='Eb4',
+        ),
     )
 
 maker(
     ('va', (40, 41)),
     baca.clef('alto'),
-    stirrings_still.glissando_interpolation('Ftqs4', 'Ab3'),
+    stirrings_still.flat_glissando(
+        'Ftqs4',
+        stop_pitch='Ab3',
+        ),
     )
 
 maker(
@@ -1231,7 +1273,10 @@ maker(
 
 maker(
     ('va', 44),
-    stirrings_still.glissando_interpolation('Ftqs4', 'D3'),
+    stirrings_still.flat_glissando(
+        'Ftqs4',
+        stop_pitch='D3',
+        ),
     )
 
 maker(
@@ -1527,7 +1572,10 @@ maker(
 
 maker(
     ('vc', (29, 30)),
-    stirrings_still.glissando_interpolation('Fqs5', 'B4'),
+    stirrings_still.flat_glissando(
+        'Fqs5',
+        stop_pitch='B4',
+        ),
     )
 
 maker(
@@ -1550,19 +1598,28 @@ maker(
 maker(
     ('vc', (34, 35)),
     baca.clef('treble'),
-    stirrings_still.glissando_interpolation('Fqs5', 'Bb3'),
+    stirrings_still.flat_glissando(
+        'Fqs5',
+        stop_pitch='Bb3',
+        ),
     )
 
 maker(
     ('vc', (37, 38)),
     baca.clef('tenor'),
-    stirrings_still.glissando_interpolation('Fqs4', 'Gb3'),
+    stirrings_still.flat_glissando(
+        'Fqs4',
+        stop_pitch='Gb3',
+        ),
     )
 
 maker(
     ('vc', (40, 41)),
     baca.clef('bass'),
-    stirrings_still.glissando_interpolation('Fqs3', 'F2'),
+    stirrings_still.flat_glissando(
+        'Fqs3',
+        stop_pitch='F2',
+        ),
     )
 
 maker(
@@ -1572,7 +1629,10 @@ maker(
 
 maker(
     ('vc', 44),
-    stirrings_still.glissando_interpolation('Fqs3', 'D2'),
+    stirrings_still.flat_glissando(
+        'Fqs3',
+        stop_pitch='D2',
+        ),
     )
 
 maker(

@@ -383,7 +383,10 @@ maker(
         clt=True,
         staff_padding=4.5,
         ),
-    stirrings_still.glissando_interpolation('Ab4', 'Ab5'),
+    stirrings_still.flat_glissando(
+        'Ab4',
+        stop_pitch='Ab5',
+        ),
     stirrings_still.trajectories('C', 0, -3),
     )
 
@@ -959,9 +962,10 @@ maker(
 
 maker(
     ('va', 64),
-    stirrings_still.glissando_interpolation(
-        'Ab3', 'Gb3',
+    stirrings_still.flat_glissando(
+        'Ab3',
         selector=baca.leaves().rleak(),
+        stop_pitch='Gb3',
         ),
     )
 
@@ -1022,7 +1026,10 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.glissando_interpolation('Ab3', 'B2'),
+    stirrings_still.flat_glissando(
+        'Ab3',
+        stop_pitch='B2',
+        ),
     stirrings_still.trajectories('C', -2, -1),
     )
 
@@ -1358,7 +1365,10 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.glissando_interpolation('Ab3', 'Ab2'),
+    stirrings_still.flat_glissando(
+        'Ab3',
+        stop_pitch='Ab2',
+        ),
     stirrings_still.trajectories('C', -3, 0),
     )
 
@@ -1381,7 +1391,10 @@ maker(
         'pp-sempre',
         abjad.tweak(-0.75).self_alignment_X,
         ),
-    stirrings_still.glissando_interpolation('Bb1', 'B0'),
+    stirrings_still.flat_glissando(
+        'Bb1',
+        stop_pitch='B0',
+        ),
     )
 
 maker(

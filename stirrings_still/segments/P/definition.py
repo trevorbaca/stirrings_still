@@ -162,7 +162,10 @@ maker(
 maker(
     ('v1', (21, 25)),
     baca.beam(),
-    stirrings_still.glissando_interpolation('A4', 'Bb5'),
+    stirrings_still.flat_glissando(
+        'A4',
+        stop_pitch='Bb5',
+        ),
     )
 
 # tutti
@@ -307,7 +310,10 @@ maker(
 maker(
     ('v2', (20, 25)),
     baca.beam(),
-    stirrings_still.glissando_interpolation('A3', 'Gb4'),
+    stirrings_still.flat_glissando(
+        'A3',
+        stop_pitch='Gb4',
+        ),
     )
 
 # va
@@ -381,7 +387,10 @@ maker(
 maker(
     ('va', (21, 25)),
     baca.beam(),
-    stirrings_still.glissando_interpolation('A3', 'B3'),
+    stirrings_still.flat_glissando(
+        'A3',
+        stop_pitch='B3',
+        ),
     )
 
 # vc
@@ -461,5 +470,8 @@ maker(
 maker(
     ('vc', (19, 25)),
     baca.beam(),
-    stirrings_still.glissando_interpolation('A2', 'C3'),
+    stirrings_still.flat_glissando(
+        'A2',
+        stop_pitch='C3',
+        ),
     )
