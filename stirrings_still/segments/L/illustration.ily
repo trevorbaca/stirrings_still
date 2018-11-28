@@ -544,7 +544,7 @@ L_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    f'''4                                                                      %! stirrings_still_trajectories
+    e'''4                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
@@ -552,7 +552,7 @@ L_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    g'''4                                                                      %! stirrings_still_trajectories
+    f'''4                                                                      %! stirrings_still_trajectories
     - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
     - \tweak staff-padding #9.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -561,6 +561,7 @@ L_Violin_I_Music_Voice = {                                                     %
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #7                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 12/11 {                                                             %! stirrings_still_trajectories
@@ -753,7 +754,7 @@ L_Violin_I_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    d'''8                                                                      %! stirrings_still_trajectories
+    c'''8                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still_bcps:BCPCommand(2)
@@ -769,7 +770,7 @@ L_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando
 
-    g'''4                                                                      %! stirrings_still_trajectories
+    f'''4                                                                      %! stirrings_still_trajectories
     - \tweak self-alignment-X #left                                            %! stirrings_still_bcps:BCPCommand(7)
     - \tweak staff-padding #9.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
@@ -778,6 +779,7 @@ L_Violin_I_Music_Voice = {                                                     %
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #7                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 10/9 {                                                              %! stirrings_still_trajectories

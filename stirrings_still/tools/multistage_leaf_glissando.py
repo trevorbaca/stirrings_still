@@ -17,9 +17,14 @@ def multistage_leaf_glissando(
     assert all(isinstance(_, tuple) for _ in pairs), repr(pairs)
 
     commands = []
-    command = baca.untie_to(
-        selector=selector,
-        )
+    if rleak_final_stage:
+        command = baca.untie_to(
+            selector=selector.rleak(),
+            )
+    else:
+        command = baca.untie_to(
+            selector=selector,
+            )
     commands.append(command)
 
     start = 0
