@@ -2769,12 +2769,12 @@ L_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [L Cello_Music_Voice measure 610 / measure 2]                            %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     df,!1                                                                      %! stirrings_still_clouded_pane
 
     % [L Cello_Music_Voice measure 611 / measure 3]                            %! _comment_measure_numbers
@@ -2851,14 +2851,14 @@ L_Cello_Music_Voice = {                                                        %
     df,!1                                                                      %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [L Cello_Music_Voice measure 624 / measure 16]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     df,!1                                                                      %! stirrings_still_clouded_pane
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)

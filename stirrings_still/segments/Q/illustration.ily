@@ -11325,12 +11325,12 @@ Q_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [Q Viola_Music_Voice measure 803 / measure 74]                           %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     bf,!2..                                                                    %! baca_make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 804 / measure 75]                           %! _comment_measure_numbers
@@ -11390,13 +11390,13 @@ Q_Viola_Music_Voice = {                                                        %
 
     % [Q Viola_Music_Voice measure 821 / measure 92]                           %! _comment_measure_numbers
     bf,!4.
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     bf,!4
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
@@ -14317,12 +14317,12 @@ Q_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [Q Cello_Music_Voice measure 818 / measure 89]                           %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     b,,,1                                                                      %! baca_make_repeat_tied_notes
 
     % [Q Cello_Music_Voice measure 819 / measure 90]                           %! _comment_measure_numbers
@@ -14333,13 +14333,13 @@ Q_Cello_Music_Voice = {                                                        %
 
     % [Q Cello_Music_Voice measure 821 / measure 92]                           %! _comment_measure_numbers
     b,,,4.
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     b,,,4
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
     \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
