@@ -3668,11 +3668,11 @@ E_Violin_I_Music_Voice = {                                                     %
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4.5                                            %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando
 
         \hide NoteHead                                                         %! baca_glissando
         \override Accidental.stencil = ##f                                     %! baca_glissando
@@ -7535,11 +7535,11 @@ E_Violin_II_Music_Voice = {                                                    %
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(6)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #4.5                                                %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando
 
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
@@ -14337,13 +14337,13 @@ E_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (down)"                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 369 / measure 64]                           %! _comment_measure_numbers
     \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
@@ -14440,13 +14440,13 @@ E_Cello_Music_Voice = {                                                        %
 
     % [E Cello_Music_Voice measure 387 / measure 82]                           %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (continues)"                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 388 / measure 83]                           %! _comment_measure_numbers
     \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
@@ -15184,13 +15184,13 @@ E_Cello_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (continues)"                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 415 / measure 110]                          %! _comment_measure_numbers
     \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
@@ -15263,13 +15263,13 @@ E_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane (stepwise above)"             %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 424 / measure 119]                          %! _comment_measure_numbers
     \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
