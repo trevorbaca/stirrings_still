@@ -910,12 +910,8 @@ maker(
                 ),
             map=baca.plt(-1),
             ),
-#        baca.untie_to(
-#            selector=baca.leaves(),
-#            ),
         stirrings_still.flat_glissando('Gb4'),
         ),
-#    baca.pitch('Gb4'),
     stirrings_still.measure_initiation(),
     )
 
