@@ -20,7 +20,6 @@ from .flat_glissando import flat_glissando
 from .flight import flight
 from .flight_spanner import flight_spanner
 from .glissando_interpolation import glissando_interpolation
-from .glissando_without_ties import glissando_without_ties
 from .grid import grid
 from .grid_to_trajectory import grid_to_trajectory
 from .left_broken_circle_bow_tweak import left_broken_circle_bow_tweak

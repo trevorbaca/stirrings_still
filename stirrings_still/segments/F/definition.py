@@ -131,8 +131,7 @@ maker(
         abjad.tweak(-0.75).self_alignment_X,
         ),
     stirrings_still.tailpiece(
-        (abjad.tweak(2).bound_details__right__padding, -1),
-        measures=(1, 10),
+        abjad.tweak(2).bound_details__right__padding,
         ),
     )
 

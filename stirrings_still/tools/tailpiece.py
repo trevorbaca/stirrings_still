@@ -30,7 +30,8 @@ def tailpiece(
                 ),
             ),
         baca.text_script_parent_center(),
-        stirrings_still.glissando_without_ties(
+        stirrings_still.flat_glissando(
+            None,
             *tweaks,
             selector=baca.leaves().rleak(),
             ),
