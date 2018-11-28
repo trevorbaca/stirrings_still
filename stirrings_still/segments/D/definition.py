@@ -221,10 +221,6 @@ maker(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.glissando(
-        allow_repeats=True,
-        stems=True,
-        ),
     baca.markup(
         baca.markups.string_number(4),
         direction=abjad.Down,
@@ -237,8 +233,8 @@ maker(
         baca.hairpin('pp < mp'),
         ),
     baca.note_head_style_harmonic(),
-    baca.pitch('Bb4'),
     stirrings_still.accelerando((1, 4), (1, 16)),
+    stirrings_still.flat_glissando('Bb4'),
     )
 
 maker(
@@ -738,10 +734,6 @@ maker(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.glissando(
-        allow_repeats=True,
-        stems=True,
-        ),
     baca.new(
         baca.dynamic_text_self_alignment_x(
             1,
@@ -750,8 +742,8 @@ maker(
         baca.hairpin('pp < mp'),
         ),
     baca.note_head_style_harmonic(),
-    baca.pitch('F4'),
     stirrings_still.accelerando((1, 4), (2, 16)),
+    stirrings_still.flat_glissando('F4'),
     )
 
 maker(
@@ -876,17 +868,11 @@ maker(
         abjad.tweak(13).staff_padding,
         ),
     baca.note_head_style_harmonic(),
-    baca.suite(
-        baca.pitch('A5'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         staff_padding=4.5,
         ),
+    stirrings_still.flat_glissando('A5'),
     )
 
 maker(
@@ -944,23 +930,12 @@ maker(
         baca.hairpin('niente o< p'),
         map=baca.cmgroups()[:3].group(),
         ),
-    baca.new(
-        baca.dots_transparent(),
-        baca.stem_transparent(),
-        selector=baca.leaves()[1:-1],
-        ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('E2'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (arrival) -|', 5.5),
+    stirrings_still.flat_glissando(
+        'E2',
+        hide_stems=True,
+        ),
     )
 
 maker(
@@ -975,26 +950,15 @@ maker(
         measures=(94, 96),
         selector=baca.leaves().rleak(),
         ),
-    baca.new(
-        baca.dots_transparent(),
-        baca.stem_transparent(),
-        selector=baca.leaves()[1:-1],
-        ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('F2'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
         'clouded pane (stepwise up) -|', 5.5,
         # TODO: extend spanner to phantom measure
         selector=baca.leaves(),
+        ),
+    stirrings_still.flat_glissando(
+        'F2',
+        hide_stems=True,
         ),
     )
     
@@ -1010,16 +974,7 @@ maker(
 
 maker(
     ('v1', (67, 89)),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('<F#4 Dqf5>'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
+    stirrings_still.flat_glissando('<F#4 Dqf5>'),
     )
 
 maker(
@@ -1028,16 +983,7 @@ maker(
         baca.markup('(3+7)°/F'),
         match=0,
         ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('<Etqf4 C5>'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
+    stirrings_still.flat_glissando('<Etqf4 C5>'),
     )
 
 # tutti, stage 2
@@ -1078,16 +1024,7 @@ maker(
 
 maker(
     ('v2', (67, 89)),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('<Cqs4 Ab4>'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
+    stirrings_still.flat_glissando('<Cqs4 Ab4>'),
     )
 
 maker(
@@ -1096,16 +1033,7 @@ maker(
         baca.markup('(9+11)°/F'),
         match=0,
         ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('<Bqf3 G4>'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
+    stirrings_still.flat_glissando('<Bqf3 G4>'),
     )
 
 # va, stage 2
@@ -1118,29 +1046,11 @@ maker(
 
 maker(
     ('va', (67, 89)),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('<B2 Aqs3>'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
+    stirrings_still.flat_glissando('<B2 Aqs3>'),
     )
 
 maker(
     ('va', (94, 96)),
     baca.markup('5°/F'),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.pitch('A3'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
+    stirrings_still.flat_glissando('A3'),
     )

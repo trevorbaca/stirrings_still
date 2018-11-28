@@ -852,17 +852,11 @@ maker(
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.suite(
-        baca.pitch('A5'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         staff_padding=4.5,
         ),
+    stirrings_still.flat_glissando('A5'),
     )
 
 maker(
@@ -903,17 +897,11 @@ maker(
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.suite(
-        baca.pitch('A5'),
-        baca.glissando(
-            allow_repeats=True,
-            stems=True,
-            ),
-        ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
         staff_padding=4.5,
         ),
+    stirrings_still.flat_glissando('A5'),
     )
 
 maker(

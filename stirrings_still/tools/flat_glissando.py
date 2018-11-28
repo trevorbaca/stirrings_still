@@ -23,10 +23,6 @@ def flat_glissando(
         selector = selector.rleak()
 
     commands = []
-    command = baca.untie_to(
-        selector=selector.leaves()[1:],
-        )
-    commands.append(command)
 
     command = baca.glissando(
         *tweaks,
@@ -36,6 +32,11 @@ def flat_glissando(
         right_broken=right_broken,
         selector=selector,
         stems=True,
+        )
+    commands.append(command)
+
+    command = baca.untie_to(
+        selector=selector.leaves()[1:],
         )
     commands.append(command)
 
