@@ -863,28 +863,20 @@ S_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         bf'16 * 235/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 13/4                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 11/4                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 37/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 63/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 111/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 25/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 95/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
@@ -997,24 +989,18 @@ S_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         bf'16 * 213/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 167/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 127/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 103/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 23/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         bf'16 * 87/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -1069,19 +1055,14 @@ S_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 21/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 25/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 2                                                              %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 169/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
@@ -1196,27 +1177,20 @@ S_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         bf'16 * 235/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 199/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 5/2                                                            %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 131/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 111/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 25/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         bf'16 * 47/32                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -1271,39 +1245,28 @@ S_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 87/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 91/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 49/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 109/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 123/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 71/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 83/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 191/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 215/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         bf'16 * 57/16                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -1358,16 +1321,12 @@ S_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 201/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 137/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 51/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
@@ -1480,18 +1439,14 @@ S_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         bf'16 * 201/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 137/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 51/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         bf'16 * 45/32                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -1546,24 +1501,18 @@ S_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 21/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 25/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 2                                                              %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 169/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         bf'16 * 13/4                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -1618,27 +1567,20 @@ S_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 213/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 167/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 127/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 103/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 23/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         bf'16 * 87/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -1693,25 +1635,18 @@ S_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 5/4                                                            %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 11/8                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 103/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 63/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 39/16                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         bf'16 * 189/64                                                         %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
@@ -1933,22 +1868,16 @@ S_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f'16 * 79/32                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 165/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 177/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 193/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 53/16                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 231/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
@@ -2061,21 +1990,16 @@ S_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f'16 * 141/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 155/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 11/4                                                            %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 25/8                                                            %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         f'16 * 27/8                                                            %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -2130,13 +2054,10 @@ S_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 53/16                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 43/16                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
@@ -2251,24 +2172,18 @@ S_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f'16 * 75/32                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 5/2                                                             %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 11/4                                                            %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 49/16                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 109/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         f'16 * 233/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -2323,30 +2238,22 @@ S_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 117/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 109/32                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 99/32                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 179/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 41/16                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 77/32                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         f'16 * 149/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -2401,16 +2308,12 @@ S_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 2                                                               %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 149/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 177/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
@@ -2523,18 +2426,14 @@ S_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f'16 * 2                                                               %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 149/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 177/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         f'16 * 193/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -2589,18 +2488,14 @@ S_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 53/16                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 43/16                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         f'16 * 75/32                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -2655,24 +2550,18 @@ S_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 141/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 155/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 11/4                                                            %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 25/8                                                            %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         f'16 * 27/8                                                            %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
@@ -2727,16 +2616,12 @@ S_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 235/64                                                          %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 51/16                                                           %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         f'16 * 11/4                                                            %! stirrings_still_wave
-        \glissando                                                             %! baca_glissando
 
         \once \override DynamicText.self-alignment-X = #0.75                   %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
@@ -2872,146 +2757,109 @@ S_Viola_Music_Voice = {                                                        %
     % [S Viola_Music_Voice measure 839 / measure 2]                            %! _comment_measure_numbers
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 840 / measure 3]                            %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 841 / measure 4]                            %! _comment_measure_numbers
     bf,2.
-    \glissando                                                                 %! baca_glissando
 
     bf,2
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 842 / measure 5]                            %! _comment_measure_numbers
     bf,1.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 843 / measure 6]                            %! _comment_measure_numbers
     bf,1.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 844 / measure 7]                            %! _comment_measure_numbers
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 845 / measure 8]                            %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 846 / measure 9]                            %! _comment_measure_numbers
     bf,2.
-    \glissando                                                                 %! baca_glissando
 
     bf,2
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 847 / measure 10]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 848 / measure 11]                           %! _comment_measure_numbers
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 849 / measure 12]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 850 / measure 13]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 851 / measure 14]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 852 / measure 15]                           %! _comment_measure_numbers
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 853 / measure 16]                           %! _comment_measure_numbers
     bf,2.
-    \glissando                                                                 %! baca_glissando
 
     bf,2
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 854 / measure 17]                           %! _comment_measure_numbers
     bf,1.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 855 / measure 18]                           %! _comment_measure_numbers
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 856 / measure 19]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 857 / measure 20]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 858 / measure 21]                           %! _comment_measure_numbers
     bf,2.
-    \glissando                                                                 %! baca_glissando
 
     bf,2
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 859 / measure 22]                           %! _comment_measure_numbers
     bf,1.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 860 / measure 23]                           %! _comment_measure_numbers
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 861 / measure 24]                           %! _comment_measure_numbers
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 862 / measure 25]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 863 / measure 26]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 864 / measure 27]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 865 / measure 28]                           %! _comment_measure_numbers
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 866 / measure 29]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 867 / measure 30]                           %! _comment_measure_numbers
     bf,2.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 868 / measure 31]                           %! _comment_measure_numbers
     bf,1                                                                       %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 869 / measure 32]                           %! _comment_measure_numbers
     bf,2.
-    \glissando                                                                 %! baca_glissando
 
     bf,2
-    \glissando                                                                 %! baca_glissando
 
     % [S Viola_Music_Voice measure 870 / measure 33]                           %! _comment_measure_numbers
     bf,1.                                                                      %! baca_make_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -3142,7 +2990,6 @@ S_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     b,,,4
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -3264,7 +3111,6 @@ S_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     b,,,2
-    \glissando                                                                 %! baca_glissando
 
     % [S Cello_Music_Voice measure 854 / measure 17]                           %! _comment_measure_numbers
     b,,,1.                                                                     %! baca_make_repeat_tied_notes
@@ -3275,7 +3121,6 @@ S_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -3345,11 +3190,9 @@ S_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [S Cello_Music_Voice measure 862 / measure 25]                           %! _comment_measure_numbers
     b,,,1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 

@@ -316,69 +316,48 @@ I_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_I_Music_Voice measure 529 / measure 2]                         %! _comment_measure_numbers
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_I_Music_Voice measure 530 / measure 3]                         %! _comment_measure_numbers
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_I_Music_Voice measure 531 / measure 4]                         %! _comment_measure_numbers
     aqs'!8                                                                     %! stirrings_still_circles
@@ -388,112 +367,77 @@ I_Violin_I_Music_Voice = {                                                     %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_I_Music_Voice measure 532 / measure 5]                         %! _comment_measure_numbers
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_I_Music_Voice measure 533 / measure 6]                         %! _comment_measure_numbers
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_I_Music_Voice measure 534 / measure 7]                         %! _comment_measure_numbers
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -556,7 +500,6 @@ I_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     <f' a'>1
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -639,36 +582,26 @@ I_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_II_Music_Voice measure 529 / measure 2]                        %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_II_Music_Voice measure 530 / measure 3]                        %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_II_Music_Voice measure 531 / measure 4]                        %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
@@ -678,58 +611,41 @@ I_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_II_Music_Voice measure 532 / measure 5]                        %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_II_Music_Voice measure 533 / measure 6]                        %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Violin_II_Music_Voice measure 534 / measure 7]                        %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -791,7 +707,6 @@ I_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     <e' gs'!>1
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -877,17 +792,13 @@ I_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Viola_Music_Voice measure 530 / measure 3]                            %! _comment_measure_numbers
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Viola_Music_Voice measure 531 / measure 4]                            %! _comment_measure_numbers
     bqf!2                                                                      %! stirrings_still_circles
@@ -897,29 +808,21 @@ I_Viola_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [I Viola_Music_Voice measure 534 / measure 7]                            %! _comment_measure_numbers
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     bqf!2                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -981,7 +884,6 @@ I_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     <eqs'! gtqs'!>1
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -1603,7 +1505,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1615,7 +1516,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1627,7 +1527,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1639,7 +1538,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1651,7 +1549,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1663,7 +1560,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1675,7 +1571,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1687,7 +1582,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1699,7 +1593,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1711,7 +1604,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1723,7 +1615,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1736,7 +1627,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1748,7 +1638,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1760,7 +1649,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1772,7 +1660,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1784,7 +1671,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1796,7 +1682,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1808,7 +1693,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1820,7 +1704,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1832,7 +1715,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1844,7 +1726,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1856,7 +1737,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1868,7 +1748,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1881,7 +1760,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1893,7 +1771,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1905,7 +1782,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1917,7 +1793,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1929,7 +1804,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1941,7 +1815,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1960,7 +1833,6 @@ I_Cello_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1972,7 +1844,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1984,7 +1855,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -1996,7 +1866,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2008,7 +1877,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2020,7 +1888,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2032,7 +1899,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2044,7 +1910,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2057,7 +1922,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2069,7 +1933,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2081,7 +1944,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2093,7 +1955,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2105,7 +1966,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2117,7 +1977,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2129,7 +1988,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2141,7 +1999,6 @@ I_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #5                                                  %! baca_bcps:BCPCommand(2)
@@ -2153,7 +2010,6 @@ I_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     [
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #5 #7                                       %! baca_bcps:BCPCommand(2)

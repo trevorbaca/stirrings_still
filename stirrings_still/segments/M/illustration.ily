@@ -718,31 +718,24 @@ M_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d'''8                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 626 / measure 2]                         %! _comment_measure_numbers
     d'''2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 627 / measure 3]                         %! _comment_measure_numbers
     d'''2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 628 / measure 4]                         %! _comment_measure_numbers
     d'''2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 629 / measure 5]                         %! _comment_measure_numbers
     d'''2                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 630 / measure 6]                         %! _comment_measure_numbers
     d'''2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 631 / measure 7]                         %! _comment_measure_numbers
     d'''2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -785,19 +778,14 @@ M_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
@@ -805,42 +793,31 @@ M_Violin_I_Music_Voice = {                                                     %
 
         % [M Violin_I_Music_Voice measure 634 / measure 10]                    %! _comment_measure_numbers
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         % [M Violin_I_Music_Voice measure 635 / measure 11]                    %! _comment_measure_numbers
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -875,15 +852,12 @@ M_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d'''2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 639 / measure 15]                        %! _comment_measure_numbers
     d'''2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 640 / measure 16]                        %! _comment_measure_numbers
     d'''1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -925,19 +899,14 @@ M_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
@@ -945,22 +914,16 @@ M_Violin_I_Music_Voice = {                                                     %
 
         % [M Violin_I_Music_Voice measure 643 / measure 19]                    %! _comment_measure_numbers
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
@@ -968,19 +931,14 @@ M_Violin_I_Music_Voice = {                                                     %
 
         % [M Violin_I_Music_Voice measure 644 / measure 20]                    %! _comment_measure_numbers
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -1015,18 +973,14 @@ M_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d'''2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 647 / measure 23]                        %! _comment_measure_numbers
     d'''2                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     d'''8                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 648 / measure 24]                        %! _comment_measure_numbers
     d'''2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -1069,39 +1023,29 @@ M_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         % [M Violin_I_Music_Voice measure 651 / measure 27]                    %! _comment_measure_numbers
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         <ds'! a'>4
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -1135,15 +1079,12 @@ M_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d'''8                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 654 / measure 30]                        %! _comment_measure_numbers
     c'''2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_I_Music_Voice measure 655 / measure 31]                        %! _comment_measure_numbers
     c'''2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -1156,7 +1097,6 @@ M_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ^ \markup { 9°/Bb }                                                        %! baca_markup:IndicatorCommand
-%@% \glissando                                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1235,31 +1175,24 @@ M_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     fqs''!8                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 626 / measure 2]                        %! _comment_measure_numbers
     fqs''!2.                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 627 / measure 3]                        %! _comment_measure_numbers
     fqs''!2.                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 628 / measure 4]                        %! _comment_measure_numbers
     fqs''!2.                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 629 / measure 5]                        %! _comment_measure_numbers
     fqs''!2                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 630 / measure 6]                        %! _comment_measure_numbers
     fqs''!2..                                                                  %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 631 / measure 7]                        %! _comment_measure_numbers
     fqs''!2..                                                                  %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -1302,16 +1235,12 @@ M_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
@@ -1319,35 +1248,26 @@ M_Violin_II_Music_Voice = {                                                    %
 
         % [M Violin_II_Music_Voice measure 634 / measure 10]                   %! _comment_measure_numbers
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -1382,15 +1302,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     fqs''!2..                                                                  %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 639 / measure 15]                       %! _comment_measure_numbers
     fqs''!2..                                                                  %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 640 / measure 16]                       %! _comment_measure_numbers
     fqs''!1                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -1432,16 +1349,12 @@ M_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
@@ -1449,19 +1362,14 @@ M_Violin_II_Music_Voice = {                                                    %
 
         % [M Violin_II_Music_Voice measure 643 / measure 19]                   %! _comment_measure_numbers
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
@@ -1469,16 +1377,12 @@ M_Violin_II_Music_Voice = {                                                    %
 
         % [M Violin_II_Music_Voice measure 644 / measure 20]                   %! _comment_measure_numbers
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -1513,18 +1417,14 @@ M_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     fqs''!2..                                                                  %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 647 / measure 23]                       %! _comment_measure_numbers
     fqs''!2                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     fqs''!8                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 648 / measure 24]                       %! _comment_measure_numbers
     fqs''!2.                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -1567,32 +1467,24 @@ M_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         <dqs'! gtqs'!>4
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -1626,15 +1518,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     f''8                                                                       %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 654 / measure 30]                       %! _comment_measure_numbers
     f''2.                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Violin_II_Music_Voice measure 655 / measure 31]                       %! _comment_measure_numbers
     e''2.                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -1726,31 +1615,24 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     aqf'!8                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 626 / measure 2]                            %! _comment_measure_numbers
     aqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 627 / measure 3]                            %! _comment_measure_numbers
     aqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 628 / measure 4]                            %! _comment_measure_numbers
     aqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 629 / measure 5]                            %! _comment_measure_numbers
     aqf'!2                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 630 / measure 6]                            %! _comment_measure_numbers
     aqf'!2..                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 631 / measure 7]                            %! _comment_measure_numbers
     aqf'!2..                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -1791,37 +1673,27 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 634 / measure 10]                           %! _comment_measure_numbers
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 635 / measure 11]                           %! _comment_measure_numbers
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 636 / measure 12]                           %! _comment_measure_numbers
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -1854,15 +1726,12 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     aqf'!2..                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 639 / measure 15]                           %! _comment_measure_numbers
     aqf'!2..                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 640 / measure 16]                           %! _comment_measure_numbers
     aqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -1902,36 +1771,26 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 643 / measure 19]                           %! _comment_measure_numbers
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 644 / measure 20]                           %! _comment_measure_numbers
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -1964,18 +1823,14 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     aqf'!2..                                                                   %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 647 / measure 23]                           %! _comment_measure_numbers
     aqf'!2                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     aqf'!8                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 648 / measure 24]                           %! _comment_measure_numbers
     aqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -2016,24 +1871,18 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 651 / measure 27]                           %! _comment_measure_numbers
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 652 / measure 28]                           %! _comment_measure_numbers
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     <d' gs'!>4
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -2065,15 +1914,12 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     a'8                                                                        %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 654 / measure 30]                           %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [M Viola_Music_Voice measure 655 / measure 31]                           %! _comment_measure_numbers
     g'2.                                                                       %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -2162,27 +2008,21 @@ M_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     c,8                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 626 / measure 2]                            %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 627 / measure 3]                            %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 628 / measure 4]                            %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 629 / measure 5]                            %! _comment_measure_numbers
     c,2                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 630 / measure 6]                            %! _comment_measure_numbers
     c,2..                                                                      %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 631 / measure 7]                            %! _comment_measure_numbers
     c,2..                                                                      %! stirrings_still_clouded_pane
@@ -2190,11 +2030,9 @@ M_Cello_Music_Voice = {                                                        %
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 632 / measure 8]                            %! _comment_measure_numbers
     c,1                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 633 / measure 9]                            %! _comment_measure_numbers
     c,1                                                                        %! stirrings_still_clouded_pane
@@ -2202,19 +2040,15 @@ M_Cello_Music_Voice = {                                                        %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 634 / measure 10]                           %! _comment_measure_numbers
     c,2                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 635 / measure 11]                           %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 636 / measure 12]                           %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 637 / measure 13]                           %! _comment_measure_numbers
     c,1                                                                        %! stirrings_still_clouded_pane
@@ -2223,11 +2057,9 @@ M_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 638 / measure 14]                           %! _comment_measure_numbers
     c,2..                                                                      %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 639 / measure 15]                           %! _comment_measure_numbers
     c,2..                                                                      %! stirrings_still_clouded_pane
@@ -2235,11 +2067,9 @@ M_Cello_Music_Voice = {                                                        %
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 640 / measure 16]                           %! _comment_measure_numbers
     c,1                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 641 / measure 17]                           %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
@@ -2247,22 +2077,17 @@ M_Cello_Music_Voice = {                                                        %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 642 / measure 18]                           %! _comment_measure_numbers
     c,2                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     c,8                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 643 / measure 19]                           %! _comment_measure_numbers
     c,1                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 644 / measure 20]                           %! _comment_measure_numbers
     c,1                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 645 / measure 21]                           %! _comment_measure_numbers
     c,2..                                                                      %! stirrings_still_clouded_pane
@@ -2271,11 +2096,9 @@ M_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 646 / measure 22]                           %! _comment_measure_numbers
     c,2..                                                                      %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 647 / measure 23]                           %! _comment_measure_numbers
     c,2                                                                        %! stirrings_still_clouded_pane
@@ -2283,18 +2106,14 @@ M_Cello_Music_Voice = {                                                        %
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     c,8                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 648 / measure 24]                           %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 649 / measure 25]                           %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 650 / measure 26]                           %! _comment_measure_numbers
     c,2                                                                        %! stirrings_still_clouded_pane
@@ -2302,15 +2121,12 @@ M_Cello_Music_Voice = {                                                        %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 651 / measure 27]                           %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 652 / measure 28]                           %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -2332,15 +2148,12 @@ M_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     c,8                                                                        %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 654 / measure 30]                           %! _comment_measure_numbers
     c,2.                                                                       %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
 
     % [M Cello_Music_Voice measure 655 / measure 31]                           %! _comment_measure_numbers
     b,,2.                                                                      %! stirrings_still_clouded_pane
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
