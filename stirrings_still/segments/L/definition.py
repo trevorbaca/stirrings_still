@@ -98,25 +98,9 @@ maker(
 
 maker(
     ('v1', [3, 7, 11, 15]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves().rleak(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves().rleak()[1:-1],
-            ),
-        baca.pitch(
-            'Bqf5',
-            selector=baca.leaves().rleak(),
-            ),
-        baca.untie_to(
-            selector=baca.leaves().rleak(),
-            ),
+    stirrings_still.flat_glissando(
+        'Bqf5',
+        rleak=True,
         ),
     )
 
@@ -232,25 +216,9 @@ maker(
 
 maker(
     ('v2', [3, 7, 11, 15]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves().rleak(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves().rleak()[1:-1],
-            ),
-        baca.pitch(
-            'Eb5',
-            selector=baca.leaves().rleak(),
-            ),
-        baca.untie_to(
-            selector=baca.leaves().rleak(),
-            ),
+    stirrings_still.flat_glissando(
+        'Eb5',
+        rleak=True,
         ),
     )
 
@@ -356,25 +324,9 @@ maker(
 
 maker(
     ('va', [3, 7, 11, 15]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves().rleak(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves().rleak()[1:-1],
-            ),
-        baca.pitch(
-            'F3',
-            selector=baca.leaves().rleak(),
-            ),
-        baca.untie_to(
-            selector=baca.leaves().rleak(),
-            ),
+    stirrings_still.flat_glissando(
+        'F3',
+        rleak=True,
         ),
     )
 
@@ -424,22 +376,6 @@ maker(
 
 maker(
     'vc',
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('Db2'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.dls_staff_padding(5),
     baca.hairpin(
         'p < ff ff > p < ff ff > p < fff fff > p < fff',
@@ -452,5 +388,9 @@ maker(
         5.5,
         # TODO: extend to phantom measure
         selector=baca.leaves(),
+        ),
+    stirrings_still.flat_glissando(
+        'Db2',
+        hide_stems=True,
         ),
     )

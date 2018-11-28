@@ -65,21 +65,9 @@ maker(
 
 maker(
     ('v1', [(1, 8), (21, 25)]),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('D6'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    stirrings_still.flat_glissando(
+        'D6',
+        hide_stems=True,
         ),
     )
 
@@ -94,75 +82,33 @@ maker(
 
 maker(
     ('v1', [(9, 12), (26, 28)]),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.markup(
-            '(12ET)',
-            abjad.tweak(8).staff_padding,
-            ),
-        baca.pitch(
-            '<D#4 A4>',
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
+    stirrings_still.flat_glissando('<D#4 A4>'),
     )
 
 maker(
     ('v1', (13, 16)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves().rleak(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves().rleak()[1:-1],
-            ),
-        baca.pitch(
-            'D6',
-            selector=baca.leaves().rleak(),
-            ),
-        baca.untie_to(
-            selector=baca.leaves().rleak(),
-            ),
+    stirrings_still.flat_glissando(
+        'D6',
+        hide_stems=True,
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('v1', (17, 20)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves()[1:],
-            stems=True,
-            ),
-        baca.markup(
-            '(12ET)',
-            abjad.tweak(8).staff_padding,
-            selector=baca.leaf(1),
-            ),
-        baca.pitch(
-            '<D#4 A4>',
-            selector=baca.leaves()[1:],
-            ),
-        baca.untie_to(
-            selector=baca.leaves()[1:],
-            ),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(8).staff_padding,
+        selector=baca.leaf(1),
         ),
     baca.circle_bow_spanner(
         'very-wide',
         abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
+        ),
+    stirrings_still.flat_glissando(
+        '<D#4 A4>',
+        selector=baca.leaves()[1:],
         ),
     stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
     )
@@ -179,32 +125,14 @@ maker(
 
 maker(
     ('v1', (29, 32)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            right_broken=True,
-            selector=baca.leaves(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.markup(
         '9°/Bb',
         measures=32,
         ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.interpolate_staff_positions('D6', 'C6'),
+    stirrings_still.flat_glissando(
+        'D6',
+        stop_pitch='C6',
+        hide_stems=True,
         ),
     )
 
@@ -311,21 +239,9 @@ maker(
 
 maker(
     ('v2', [(1, 8), (21, 25)]),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('Fqs5'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    stirrings_still.flat_glissando(
+        'Fqs5',
+        hide_stems=True,
         ),
     )
 
@@ -340,75 +256,37 @@ maker(
 
 maker(
     ('v2', [(9, 12), (26, 28)]),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.markup(
-            '(24ET)',
-            abjad.tweak(8).staff_padding,
-            ),
-        baca.pitch(
-            '<Dqs4 Gtqs4>',
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    baca.markup(
+        '(24ET)',
+        abjad.tweak(8).staff_padding,
         ),
+    stirrings_still.flat_glissando('<Dqs4 Gtqs4>'),
     )
 
 maker(
     ('v2', (13, 16)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves().rleak(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves().rleak()[1:-1],
-            ),
-        baca.pitch(
-            'Fqs5',
-            selector=baca.leaves().rleak(),
-            ),
-        baca.untie_to(
-            selector=baca.leaves().rleak(),
-            ),
+    stirrings_still.flat_glissando(
+        'Fqs5',
+        hide_stems=True,
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('v2', (17, 20)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves()[1:],
-            stems=True,
-            ),
-        baca.markup(
-            '(24ET)',
-            abjad.tweak(8).staff_padding,
-            selector=baca.leaf(1),
-            ),
-        baca.pitch(
-            '<Dqs4 Gtqs4>',
-            selector=baca.leaves()[1:],
-            ),
-        baca.untie_to(
-            selector=baca.leaves()[1:],
-            ),
+    baca.markup(
+        '(24ET)',
+        abjad.tweak(8).staff_padding,
+        selector=baca.leaf(1),
         ),
     baca.circle_bow_spanner(
         'very-wide',
         abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
+        ),
+    stirrings_still.flat_glissando(
+        '<Dqs4 Gtqs4>',
+        selector=baca.leaves()[1:],
         ),
     stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
     )
@@ -425,31 +303,14 @@ maker(
 
 maker(
     ('v2', (29, 32)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.markup(
         '11°/Bb',
         measures=32,
         ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.interpolate_staff_positions('Fqs5', 'Eqf5'),
+    stirrings_still.flat_glissando(
+        'Fqs5',
+        hide_stems=True,
+        stop_pitch='Eqf5',
         ),
     )
 
@@ -472,21 +333,9 @@ maker(
 
 maker(
     ('va', [(1, 8), (21, 25)]),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('Aqf4'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    stirrings_still.flat_glissando(
+        'Aqf4',
+        hide_stems=True,
         ),
     )
 
@@ -501,75 +350,37 @@ maker(
 
 maker(
     ('va', [(9, 12), (26, 28)]),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.markup(
-            '(12ET)',
-            abjad.tweak(5).staff_padding,
-            ),
-        baca.pitch(
-            '<D4 G#4>',
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(5).staff_padding,
         ),
+    stirrings_still.flat_glissando('<D4 G#4>'),
     )
 
 maker(
     ('va', (13, 16)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves().rleak(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves().rleak()[1:-1],
-            ),
-        baca.pitch(
-            'Aqf4',
-            selector=baca.leaves().rleak(),
-            ),
-        baca.untie_to(
-            selector=baca.leaves().rleak(),
-            ),
+    stirrings_still.flat_glissando(
+        'Aqf4',
+        hide_stems=True,
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('va', (17, 20)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves()[1:],
-            stems=True,
-            ),
-        baca.markup(
-            '(12ET)',
-            abjad.tweak(5).staff_padding,
-            selector=baca.leaf(1),
-            ),
-        baca.pitch(
-            '<D4 G#4>',
-            selector=baca.leaves()[1:],
-            ),
-        baca.untie_to(
-            selector=baca.leaves()[1:],
-            ),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(5).staff_padding,
+        selector=baca.leaf(1),
         ),
     baca.circle_bow_spanner(
         'very-wide',
         abjad.tweak(3).staff_padding,
         selector=baca.leaves()[1:].rleak(),
+        ),
+    stirrings_still.flat_glissando(
+        '<D4 G#4>',
+        selector=baca.leaves()[1:],
         ),
     stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
     )
@@ -586,31 +397,14 @@ maker(
 
 maker(
     ('va', (29, 32)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.markup(
         '13°/Bb',
         measures=32,
         ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.interpolate_staff_positions('Aqf4', 'Gqf4'),
+    stirrings_still.flat_glissando(
+        'Aqf4',
+        hide_stems=True,
+        stop_pitch='Gqf4',
         ),
     )
 
@@ -640,52 +434,19 @@ maker(
 
 maker(
     ('vc', (1, 28)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves().rleak(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves().rleak()[1:-1],
-            ),
-        baca.pitch(
-            'C2',
-            selector=baca.leaves().rleak(),
-            ),
-        baca.untie_to(
-            selector=baca.leaves().rleak(),
-            ),
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando(
+        'C2',
+        hide_stems=True,
+        ),
     )
 
 maker(
     ('vc', (29, 32)),
-    baca.chunk(
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            selector=baca.leaves(),
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
-    baca.suite(
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        baca.interpolate_staff_positions('C2', 'Bb1'),
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando(
+        'C2',
+        hide_stems=True,
+        stop_pitch='Bb1',
+        ),
     )

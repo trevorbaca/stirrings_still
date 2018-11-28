@@ -54,22 +54,6 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 8)),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('<F5 Bqs5>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.hairpin(
         'pp < f > pp < f > pp < f >o niente',
         pieces=baca.mgroups([1, 2, 1, 2, 1, 2]),
@@ -84,28 +68,16 @@ maker(
         'clouded pane (doublestop partials) -|',
         5.5,
         ),
+    stirrings_still.flat_glissando(
+        '<F5 Bqs5>',
+        hide_stems=True,
+        ),
     )
 
 # v2
 
 maker(
     ('v2', (1, 8)),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('<G4 Dqs5>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.hairpin(
         'pp < f > pp < f > pp < f >o niente',
         pieces=baca.mgroups([2, 1, 2, 1, 1, 2]),
@@ -119,6 +91,10 @@ maker(
     stirrings_still.clouded_pane_spanner(
         'clouded pane (doublestop partials) -|',
         5.5,
+        ),
+    stirrings_still.flat_glissando(
+        '<G4 Dqs5>',
+        hide_stems=True,
         ),
     )
 
@@ -139,22 +115,6 @@ maker(
 
 maker(
     ('vc', (1, 8)),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('Eb2'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     baca.hairpin(
         '(p) < ff -- (ff) >o niente',
         pieces=baca.mgroups([2, 4, 2 + 1]),
@@ -162,6 +122,10 @@ maker(
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
+    stirrings_still.flat_glissando(
+        'Eb2',
+        hide_stems=True,
+        ),
     )
 
 # v1, v2, vc
@@ -203,7 +167,10 @@ maker(
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
-        stirrings_still.flat_glissando('F4', stop_pitch='Ab4'),
+        stirrings_still.flat_glissando(
+            'F4',
+            stop_pitch='Ab4',
+            ),
         match=1,
         ),
     baca.new(
