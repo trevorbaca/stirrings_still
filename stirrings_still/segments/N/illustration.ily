@@ -912,12 +912,12 @@ N_Violin_I_Music_Voice = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [N Violin_I_Music_Voice measure 658 / measure 2]                         %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     c'''2                                                                      %! stirrings_still_clouded_pane
 
     c'''8                                                                      %! stirrings_still_clouded_pane
@@ -943,14 +943,14 @@ N_Violin_I_Music_Voice = {                                                     %
 
     % [N Violin_I_Music_Voice measure 663 / measure 7]                         %! _comment_measure_numbers
     c'''2.                                                                     %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [N Violin_I_Music_Voice measure 664 / measure 8]                         %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     c'''2..                                                                    %! stirrings_still_clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1014,12 +1014,12 @@ N_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
 
     % [N Violin_I_Music_Voice measure 670 / measure 14]                        %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     <a fqs'!>2..
 
     % [N Violin_I_Music_Voice measure 671 / measure 15]                        %! _comment_measure_numbers
@@ -1047,14 +1047,14 @@ N_Violin_I_Music_Voice = {                                                     %
 
     % [N Violin_I_Music_Voice measure 677 / measure 21]                        %! _comment_measure_numbers
     <a fqs'!>2..
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [N Violin_I_Music_Voice measure 678 / measure 22]                        %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     <a fqs'!>2
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
@@ -1686,12 +1686,12 @@ N_Violin_II_Music_Voice = {                                                    %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [N Violin_II_Music_Voice measure 658 / measure 2]                        %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     eqf''!2                                                                    %! stirrings_still_clouded_pane
 
     eqf''!8                                                                    %! stirrings_still_clouded_pane
@@ -1717,14 +1717,14 @@ N_Violin_II_Music_Voice = {                                                    %
 
     % [N Violin_II_Music_Voice measure 663 / measure 7]                        %! _comment_measure_numbers
     eqf''!2.                                                                   %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [N Violin_II_Music_Voice measure 664 / measure 8]                        %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     eqf''!2..                                                                  %! stirrings_still_clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1788,12 +1788,12 @@ N_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca_glissando
 
     % [N Violin_II_Music_Voice measure 670 / measure 14]                       %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     <fs! dqs'!>2..
 
     % [N Violin_II_Music_Voice measure 671 / measure 15]                       %! _comment_measure_numbers
@@ -1821,14 +1821,14 @@ N_Violin_II_Music_Voice = {                                                    %
 
     % [N Violin_II_Music_Voice measure 677 / measure 21]                       %! _comment_measure_numbers
     <fs! dqs'!>2..
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [N Violin_II_Music_Voice measure 678 / measure 22]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     <fs! dqs'!>2
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
@@ -2430,12 +2430,12 @@ N_Viola_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [N Viola_Music_Voice measure 658 / measure 2]                            %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     gqf'!2                                                                     %! stirrings_still_clouded_pane
 
     gqf'!8                                                                     %! stirrings_still_clouded_pane
@@ -2461,14 +2461,14 @@ N_Viola_Music_Voice = {                                                        %
 
     % [N Viola_Music_Voice measure 663 / measure 7]                            %! _comment_measure_numbers
     gqf'!2.                                                                    %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [N Viola_Music_Voice measure 664 / measure 8]                            %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     gqf'!2..                                                                   %! stirrings_still_clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -2532,12 +2532,12 @@ N_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [N Viola_Music_Voice measure 670 / measure 14]                           %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     <c aqs!>2..
 
     % [N Viola_Music_Voice measure 671 / measure 15]                           %! _comment_measure_numbers
@@ -2565,14 +2565,14 @@ N_Viola_Music_Voice = {                                                        %
 
     % [N Viola_Music_Voice measure 677 / measure 21]                           %! _comment_measure_numbers
     <c aqs!>2..
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [N Viola_Music_Voice measure 678 / measure 22]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     <c aqs!>2
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 

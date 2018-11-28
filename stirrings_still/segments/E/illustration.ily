@@ -13426,24 +13426,24 @@ E_Cello_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     f,8                                                                        %! stirrings_still_clouded_pane
 
     % [E Cello_Music_Voice measure 307 / measure 2]                            %! _comment_measure_numbers
     f,2                                                                        %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 308 / measure 3]                            %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     f,4                                                                        %! stirrings_still_clouded_pane
 
     % [E Cello_Music_Voice measure 309 / measure 4]                            %! _comment_measure_numbers
@@ -13475,12 +13475,12 @@ E_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 312 / measure 7]                            %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     f,2.                                                                       %! stirrings_still_clouded_pane
 
     % [E Cello_Music_Voice measure 313 / measure 8]                            %! _comment_measure_numbers
@@ -13557,14 +13557,14 @@ E_Cello_Music_Voice = {                                                        %
 
     % [E Cello_Music_Voice measure 331 / measure 26]                           %! _comment_measure_numbers
     f,1                                                                        %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 332 / measure 27]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     f,1                                                                        %! stirrings_still_clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -14346,12 +14346,12 @@ E_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 369 / measure 64]                           %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     d,2.                                                                       %! stirrings_still_clouded_pane
 
     % [E Cello_Music_Voice measure 370 / measure 65]                           %! _comment_measure_numbers
@@ -14406,14 +14406,14 @@ E_Cello_Music_Voice = {                                                        %
 
     % [E Cello_Music_Voice measure 384 / measure 79]                           %! _comment_measure_numbers
     d,1                                                                        %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 385 / measure 80]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     d,2..                                                                      %! stirrings_still_clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -14449,12 +14449,12 @@ E_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 388 / measure 83]                           %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     d,2..                                                                      %! stirrings_still_clouded_pane
 
     % [E Cello_Music_Voice measure 389 / measure 84]                           %! _comment_measure_numbers
@@ -14468,14 +14468,14 @@ E_Cello_Music_Voice = {                                                        %
 
     % [E Cello_Music_Voice measure 392 / measure 87]                           %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 393 / measure 88]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     d,2..                                                                      %! stirrings_still_clouded_pane
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
@@ -15193,12 +15193,12 @@ E_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 415 / measure 110]                          %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     d,2.                                                                       %! stirrings_still_clouded_pane
 
     % [E Cello_Music_Voice measure 416 / measure 111]                          %! _comment_measure_numbers
@@ -15219,14 +15219,14 @@ E_Cello_Music_Voice = {                                                        %
 
     % [E Cello_Music_Voice measure 419 / measure 114]                          %! _comment_measure_numbers
     d,2.                                                                       %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 420 / measure 115]                          %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     d,2..                                                                      %! stirrings_still_clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -15272,12 +15272,12 @@ E_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [E Cello_Music_Voice measure 424 / measure 119]                          %! _comment_measure_numbers
-    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
-    \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     ef,!2.                                                                     %! stirrings_still_clouded_pane
 
     % [E Cello_Music_Voice measure 425 / measure 120]                          %! _comment_measure_numbers
@@ -15304,14 +15304,14 @@ E_Cello_Music_Voice = {                                                        %
 
     % [E Cello_Music_Voice measure 431 / measure 126]                          %! _comment_measure_numbers
     ef,!1                                                                      %! stirrings_still_clouded_pane
-    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
-    \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 432 / measure 127]                          %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     ef,!2..                                                                    %! stirrings_still_clouded_pane
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)

@@ -795,10 +795,14 @@ G_Violin_I_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     <f' a'>2.
 
     % [G Violin_I_Music_Voice measure 453 / measure 7]                         %! _comment_measure_numbers
@@ -993,18 +997,20 @@ G_Violin_I_Music_Voice = {                                                     %
     \times 2/3 {
 
         % [G Violin_I_Music_Voice measure 459 / measure 13]                    %! _comment_measure_numbers
-        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
-        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
         \hide NoteHead                                                         %! baca_glissando
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        \override Dots.transparent = ##t                                       %! baca_glissando
+        \override Stem.transparent = ##t                                       %! baca_glissando
         <fs'! dqf''!>2
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
+        \revert Dots.transparent                                               %! baca_glissando
+        \revert Stem.transparent                                               %! baca_glissando
         <fs'! dqf''!>8
 
     }
@@ -1530,10 +1536,14 @@ G_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     <e' gs'!>2.
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
@@ -2335,10 +2345,14 @@ G_Viola_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     <eqs'! gtqs'!>2.
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
@@ -2539,18 +2553,20 @@ G_Viola_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [G Viola_Music_Voice measure 459 / measure 13]                       %! _comment_measure_numbers
-        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
-        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
         \hide NoteHead                                                         %! baca_glissando
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        \override Dots.transparent = ##t                                       %! baca_glissando
+        \override Stem.transparent = ##t                                       %! baca_glissando
         <b, aqs!>2
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
+        \revert Dots.transparent                                               %! baca_glissando
+        \revert Stem.transparent                                               %! baca_glissando
         <b, aqs!>8
 
     }
@@ -3165,18 +3181,20 @@ G_Cello_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [G Cello_Music_Voice measure 459 / measure 13]                       %! _comment_measure_numbers
-        \once \override Dots.transparent = ##t                                 %! baca_dots_transparent:OverrideCommand(1)
-        \once \override Stem.transparent = ##t                                 %! baca_stem_transparent:OverrideCommand(1)
         \hide NoteHead                                                         %! baca_glissando
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
+        \override Dots.transparent = ##t                                       %! baca_glissando
+        \override Stem.transparent = ##t                                       %! baca_glissando
         e,2                                                                    %! stirrings_still_clouded_pane
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
+        \revert Dots.transparent                                               %! baca_glissando
+        \revert Stem.transparent                                               %! baca_glissando
         e,8                                                                    %! stirrings_still_clouded_pane
 
     }
