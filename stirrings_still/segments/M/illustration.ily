@@ -1092,6 +1092,10 @@ M_Violin_I_Music_Voice = {                                                     %
     c'''2                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+%@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteColumn.glissando-skip                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteHead.no-ledgers                                                %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \undo \hide NoteHead                                                       %! SHOW_TO_JOIN_BROKEN_SPANNERS
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1523,15 +1527,18 @@ M_Violin_II_Music_Voice = {                                                    %
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [M Violin_II_Music_Voice measure 656 / measure 32]                       %! _comment_measure_numbers
-    \revert Accidental.stencil                                                 %! baca_glissando
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando
-    \revert NoteHead.no-ledgers                                                %! baca_glissando
-    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     eqf''!2                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    ^ \markup { 11°/Bb }                                                       %! baca_markup:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+%@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteColumn.glissando-skip                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteHead.no-ledgers                                                %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \undo \hide NoteHead                                                       %! SHOW_TO_JOIN_BROKEN_SPANNERS
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1919,15 +1926,18 @@ M_Viola_Music_Voice = {                                                        %
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [M Viola_Music_Voice measure 656 / measure 32]                           %! _comment_measure_numbers
-    \revert Accidental.stencil                                                 %! baca_glissando
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando
-    \revert NoteHead.no-ledgers                                                %! baca_glissando
-    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     gqf'!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    ^ \markup { 13°/Bb }                                                       %! baca_markup:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+%@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteColumn.glissando-skip                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteHead.no-ledgers                                                %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \undo \hide NoteHead                                                       %! SHOW_TO_JOIN_BROKEN_SPANNERS
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2153,13 +2163,17 @@ M_Cello_Music_Voice = {                                                        %
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
     % [M Cello_Music_Voice measure 656 / measure 32]                           %! _comment_measure_numbers
-    \revert Accidental.stencil                                                 %! baca_glissando
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando
-    \revert NoteHead.no-ledgers                                                %! baca_glissando
-    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     bf,,!2                                                                     %! stirrings_still_clouded_pane
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+%@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteColumn.glissando-skip                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \revert NoteHead.no-ledgers                                                %! SHOW_TO_JOIN_BROKEN_SPANNERS
+%@% \undo \hide NoteHead                                                       %! SHOW_TO_JOIN_BROKEN_SPANNERS
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

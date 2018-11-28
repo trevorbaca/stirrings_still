@@ -280,6 +280,7 @@ maker(
 
 maker(
     ('v2', (1, 8)),
+    baca.markup('11°/Bb'),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'Eqf5',
@@ -414,6 +415,7 @@ maker(
 
 maker(
     ('va', (1, 8)),
+    baca.markup('13°/Bb'),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'Gqf4',

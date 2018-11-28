@@ -130,6 +130,7 @@ maker(
         stop_pitch='C6',
         hide_stems=True,
         right_broken=True,
+        right_broken_show_next=True,
         ),
     )
 
@@ -300,13 +301,11 @@ maker(
 
 maker(
     ('v2', (29, 32)),
-    baca.markup(
-        '11°/Bb',
-        measures=32,
-        ),
     stirrings_still.flat_glissando(
         'Fqs5',
         hide_stems=True,
+        right_broken=True,
+        right_broken_show_next=True,
         stop_pitch='Eqf5',
         ),
     )
@@ -394,13 +393,11 @@ maker(
 
 maker(
     ('va', (29, 32)),
-    baca.markup(
-        '13°/Bb',
-        measures=32,
-        ),
     stirrings_still.flat_glissando(
         'Aqf4',
         hide_stems=True,
+        right_broken=True,
+        right_broken_show_next=True,
         stop_pitch='Gqf4',
         ),
     )
@@ -444,6 +441,8 @@ maker(
     stirrings_still.flat_glissando(
         'C2',
         hide_stems=True,
+        right_broken=True,
+        right_broken_show_next=True,
         stop_pitch='Bb1',
         ),
     )

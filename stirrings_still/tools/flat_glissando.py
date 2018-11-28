@@ -8,6 +8,7 @@ def flat_glissando(
     hide_stems=None,
     left_broken=None,
     right_broken=None,
+    right_broken_show_next=None,
     rleak=None,
     selector=baca.pleaves(),
     stop_pitch=None,
@@ -31,6 +32,7 @@ def flat_glissando(
         hide_middle_note_heads=True,
         left_broken=left_broken,
         right_broken=right_broken,
+        right_broken_show_next=right_broken_show_next,
         selector=selector,
         )
     commands.append(command)
