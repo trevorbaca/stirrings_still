@@ -67,7 +67,7 @@ maker(
     ('v1', [(1, 8), (21, 25)]),
     stirrings_still.flat_glissando(
         'D6',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -89,7 +89,7 @@ maker(
     ('v1', (13, 16)),
     stirrings_still.flat_glissando(
         'D6',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.leaves().rleak(),
         ),
     )
@@ -128,7 +128,7 @@ maker(
     stirrings_still.flat_glissando(
         'D6',
         stop_pitch='C6',
-        hide_stems=True,
+        hide_middle_stems=True,
         right_broken=True,
         right_broken_show_next=True,
         ),
@@ -239,7 +239,7 @@ maker(
     ('v2', [(1, 8), (21, 25)]),
     stirrings_still.flat_glissando(
         'Fqs5',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -265,7 +265,7 @@ maker(
     ('v2', (13, 16)),
     stirrings_still.flat_glissando(
         'Fqs5',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.leaves().rleak(),
         ),
     )
@@ -303,7 +303,7 @@ maker(
     ('v2', (29, 32)),
     stirrings_still.flat_glissando(
         'Fqs5',
-        hide_stems=True,
+        hide_middle_stems=True,
         right_broken=True,
         right_broken_show_next=True,
         stop_pitch='Eqf5',
@@ -331,7 +331,7 @@ maker(
     ('va', [(1, 8), (21, 25)]),
     stirrings_still.flat_glissando(
         'Aqf4',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -357,7 +357,7 @@ maker(
     ('va', (13, 16)),
     stirrings_still.flat_glissando(
         'Aqf4',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.leaves().rleak(),
         ),
     )
@@ -395,7 +395,7 @@ maker(
     ('va', (29, 32)),
     stirrings_still.flat_glissando(
         'Aqf4',
-        hide_stems=True,
+        hide_middle_stems=True,
         right_broken=True,
         right_broken_show_next=True,
         stop_pitch='Gqf4',
@@ -431,7 +431,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'C2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -440,7 +440,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'C2',
-        hide_stems=True,
+        hide_middle_stems=True,
         right_broken=True,
         right_broken_show_next=True,
         stop_pitch='Bb1',

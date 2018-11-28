@@ -64,7 +64,7 @@ maker(
     baca.markup('(12ET)'),
     stirrings_still.flat_glissando(
         '<F4 A4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -149,7 +149,7 @@ maker(
     baca.markup('(12ET)'),
     stirrings_still.flat_glissando(
         '<E4 G#4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -169,7 +169,7 @@ maker(
     baca.markup('(24ET)'),
     stirrings_still.flat_glissando(
         '<Eqs4 Gtqs4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 

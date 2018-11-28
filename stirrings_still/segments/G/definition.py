@@ -123,21 +123,21 @@ maker(
     baca.new(
         stirrings_still.flat_glissando(
             '<F4 A4>',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=0,
         ),
     baca.new(
         stirrings_still.flat_glissando(
             '<E4 G#4>',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.flat_glissando(
             '<Eqs4 Gtqs4>',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=2,
         ),
@@ -235,7 +235,7 @@ maker(
             ),
         stirrings_still.flat_glissando(
             '<F#4 Dqf5>',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=0,
         ),
@@ -246,14 +246,14 @@ maker(
             ),
         stirrings_still.flat_glissando(
             '<B2 Aqs3>',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.flat_glissando(
             'E2',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=2,
         ),

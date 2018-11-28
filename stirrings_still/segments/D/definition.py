@@ -934,7 +934,7 @@ maker(
     stirrings_still.clouded_pane_spanner('clouded pane (arrival) -|', 5.5),
     stirrings_still.flat_glissando(
         'E2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -958,7 +958,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'F2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
     

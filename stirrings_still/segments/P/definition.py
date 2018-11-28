@@ -82,7 +82,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'A4',
-        hide_stems=True,
+        hide_middle_stems=True,
         rleak=True,
         ),
     )
@@ -211,7 +211,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'A3',
-        hide_stems=True,
+        hide_middle_stems=True,
         rleak=True,
         ),
     )
@@ -325,7 +325,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'A3',
-        hide_stems=True,
+        hide_middle_stems=True,
         rleak=True,
         ),
     )
@@ -402,7 +402,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'A2',
-        hide_stems=True,
+        hide_middle_stems=True,
         rleak=True,
         ),
     )

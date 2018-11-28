@@ -96,7 +96,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'C6',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -122,7 +122,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         '<A3 Fqs4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -284,7 +284,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'Eqf5',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -310,7 +310,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         '<F#3 Dqs4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -419,7 +419,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'Gqf4',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -445,7 +445,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         '<C3 Aqs3>',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
