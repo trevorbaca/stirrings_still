@@ -92,23 +92,11 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 8)),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('C6'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando(
+        'C6',
+        hide_stems=True,
+        ),
     )
 
 maker(
@@ -129,38 +117,24 @@ maker(
 maker(
     ('v1', (13, 22)),
     baca.breathe(),
-    baca.new(
-        baca.dots_transparent(),
-        baca.stem_transparent(),
-        selector=baca.leaves()[1:-1],
-        ),
+    baca.markup('(24ET)'),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando(
+        '<A3 Fqs4>',
+        hide_stems=True,
+        ),
     )
 
 maker(
-    ('v1', [(13, 22), (23, 28), (30, 35)]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.pitch('<A3 Fqs4>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
-    baca.new(
-        baca.markup('(24ET)'),
-        match=0,
-        ),
+    ('v1', [(23, 28), (30, 35)]),
     baca.new(
         baca.markup(
             '(24ET)',
             abjad.tweak(8).staff_padding,
             ),
-        match=2,
+        match=-1,
         ),
+    stirrings_still.flat_glissando('<A3 Fqs4>'),
     )
 
 maker(
@@ -305,23 +279,11 @@ maker(
 
 maker(
     ('v2', (1, 8)),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('Eqf5'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando(
+        'Eqf5',
+        hide_stems=True,
+        ),
     )
 
 maker(
@@ -342,31 +304,21 @@ maker(
 maker(
     ('v2', (13, 22)),
     baca.breathe(),
-    baca.new(
-        baca.dots_transparent(),
-        baca.stem_transparent(),
-        selector=baca.leaves()[1:-1],
-        ),
+    baca.markup('(24ET)'),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando(
+        '<F#3 Dqs4>',
+        hide_stems=True,
+        ),
     )
 
 maker(
-    ('v2', [(13, 22), (23, 28), (30, 35)]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.pitch('<F#3 Dqs4>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
+    ('v2', [(23, 28), (30, 35)]),
     baca.new(
         baca.markup('(24ET)'),
-        match=[0, 2],
+        match=-1,
         ),
+    stirrings_still.flat_glissando('<F#3 Dqs4>'),
     )
 
 maker(
@@ -461,23 +413,11 @@ maker(
 
 maker(
     ('va', (1, 8)),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[1:-1],
-            ),
-        baca.pitch('Gqf4'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando(
+        'Gqf4',
+        hide_stems=True,
+        ),
     )
 
 maker(
@@ -498,38 +438,24 @@ maker(
 maker(
     ('va', (13, 22)),
     baca.breathe(),
-    baca.new(
-        baca.dots_transparent(),
-        baca.stem_transparent(),
-        selector=baca.leaves()[1:-1],
-        ),
+    baca.markup('(24ET)'),
     stirrings_still.clouded_pane(),
+    stirrings_still.flat_glissando(
+        '<C3 Aqs3>',
+        hide_stems=True,
+        ),
     )
 
 maker(
-    ('va', [(13, 22), (23, 28), (30, 35)]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.pitch('<C3 Aqs3>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
-        ),
-    baca.new(
-        baca.markup('(24ET)'),
-        match=0,
-        ),
+    ('va', [(23, 28), (30, 35)]),
     baca.new(
         baca.markup(
             '(24ET)',
             abjad.tweak(8).staff_padding,
             ),
-        match=2,
+        match=-1,
         ),
+    stirrings_still.flat_glissando('<C3 Aqs3>'),
     )
 
 maker(
@@ -639,12 +565,7 @@ maker(
 
 maker(
     ('vc', (1, 22)),
-    baca.pitch('Bb1'),
-    baca.glissando(
-        allow_repeats=True,
-        allow_ties=True,
-        stems=True,
-        ),
+    stirrings_still.flat_glissando('Bb1'),
     )
 
 maker(
@@ -721,18 +642,11 @@ maker(
 
 maker(
     ('vc', [(23, 28), (30, 35)]),
-    baca.chunk( 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            stems=True,
-            ),
-        baca.pitch('<B2 Gqs3>'),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    baca.new(
+        baca.markup('(24ET)'),
+        match=0,
         ),
-    baca.markup('(24ET)'),
+    stirrings_still.flat_glissando('<B2 Gqs3>'),
     stirrings_still.urtext_spanner('urtext (field) -|', 8),
     )
 
