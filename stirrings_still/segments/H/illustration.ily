@@ -1368,11 +1368,9 @@ H_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     gf'!1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_I_Music_Voice measure 474 / measure 3]                         %! _comment_measure_numbers
     gf'!2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_I_Music_Voice measure 475 / measure 4]                         %! _comment_measure_numbers
     gf'!2..                                                                    %! baca_make_repeat_tied_notes
@@ -1382,7 +1380,6 @@ H_Violin_I_Music_Voice = {                                                     %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "flaut. (2°)"                               %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -1418,16 +1415,12 @@ H_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     aqs'!8                                                                     %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -1507,15 +1500,12 @@ H_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         g'16 * 91/16                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         g'16 * 257/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         g'16 * 55/16                                                           %! stirrings_still_accelerando
         ]                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_accelerando
@@ -1527,14 +1517,12 @@ H_Violin_I_Music_Voice = {                                                     %
         % [H Violin_I_Music_Voice measure 480 / measure 9]                     %! _comment_measure_numbers
         g'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         g'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1543,19 +1531,14 @@ H_Violin_I_Music_Voice = {                                                     %
 
         % [H Violin_I_Music_Voice measure 481 / measure 10]                    %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1566,21 +1549,17 @@ H_Violin_I_Music_Voice = {                                                     %
         a'8                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-mod-markup               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         a'8                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a'8                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a'8                                                                    %! stirrings_still_desynchronization
         ]                                                                      %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1589,13 +1568,10 @@ H_Violin_I_Music_Voice = {                                                     %
 
         % [H Violin_I_Music_Voice measure 483 / measure 12]                    %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1605,7 +1581,6 @@ H_Violin_I_Music_Voice = {                                                     %
         % [H Violin_I_Music_Voice measure 484 / measure 13]                    %! _comment_measure_numbers
         b'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -1613,7 +1588,6 @@ H_Violin_I_Music_Voice = {                                                     %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         b'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1622,13 +1596,10 @@ H_Violin_I_Music_Voice = {                                                     %
 
         % [H Violin_I_Music_Voice measure 485 / measure 14]                    %! _comment_measure_numbers
         b'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1652,29 +1623,22 @@ H_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     bf'!4                                                                      %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     bf'!4                                                                      %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
         % [H Violin_I_Music_Voice measure 487 / measure 16]                    %! _comment_measure_numbers
         bf'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         bf'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         bf'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         bf'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         bf'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -1754,32 +1718,24 @@ H_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1789,76 +1745,56 @@ H_Violin_I_Music_Voice = {                                                     %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         gqf'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -1955,11 +1891,9 @@ H_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d''16 * 209/32                                                         %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 143/32                                                         %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -1967,13 +1901,10 @@ H_Violin_I_Music_Voice = {                                                     %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         c''16 * 197/64                                                         %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 19/8                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 65/32                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \revert Accidental.stencil                                             %! baca_glissando
@@ -2044,7 +1975,6 @@ H_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <fs'! dqf''!>2
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -2183,11 +2113,9 @@ H_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d''16 * 221/32                                                         %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 315/64                                                         %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -2195,13 +2123,10 @@ H_Violin_I_Music_Voice = {                                                     %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         c''16 * 221/64                                                         %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 21/8                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 141/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \revert Accidental.stencil                                             %! baca_glissando
@@ -2301,17 +2226,13 @@ H_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         d''16 * 59/8                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         d''16 * 51/8                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 333/64                                                         %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 67/16                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -2319,22 +2240,16 @@ H_Violin_I_Music_Voice = {                                                     %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         c''16 * 219/64                                                         %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 185/64                                                         %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 5/2                                                            %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         c''16 * 9/4                                                            %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 133/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 127/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \revert Accidental.stencil                                             %! baca_glissando
@@ -2391,61 +2306,46 @@ H_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
         \!                                                                     %! baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -2453,29 +2353,22 @@ H_Violin_I_Music_Voice = {                                                     %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -2557,7 +2450,6 @@ H_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <fs'! dqf''!>2
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -2717,11 +2609,9 @@ H_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     f'1                                                                        %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_II_Music_Voice measure 474 / measure 3]                        %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_II_Music_Voice measure 475 / measure 4]                        %! _comment_measure_numbers
     f'2..                                                                      %! baca_make_repeat_tied_notes
@@ -2736,23 +2626,18 @@ H_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_II_Music_Voice measure 476 / measure 5]                        %! _comment_measure_numbers
     f'2..                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_II_Music_Voice measure 477 / measure 6]                        %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_II_Music_Voice measure 478 / measure 7]                        %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_II_Music_Voice measure 479 / measure 8]                        %! _comment_measure_numbers
     f'2                                                                        %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Violin_II_Music_Voice measure 480 / measure 9]                        %! _comment_measure_numbers
     f'4.
@@ -2765,14 +2650,12 @@ H_Violin_II_Music_Voice = {                                                    %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanUrtext                                                    %! MATERIAL:URTEXT:PiecewiseCommand(3)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "flaut. (2°)"                               %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     f'4
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -2854,18 +2737,14 @@ H_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         f'16 * 225/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         f'16 * 43/8                                                            %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         g'16 * 133/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         g'16 * 229/64                                                          %! stirrings_still_accelerando
         ]                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_accelerando
@@ -2882,22 +2761,17 @@ H_Violin_II_Music_Voice = {                                                    %
         - \baca-text-spanner-left-markup \baca-circle-mod-markup               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
 
         g'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         g'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [H Violin_II_Music_Voice measure 485 / measure 14]                       %! _comment_measure_numbers
     a'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     a'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
@@ -2928,16 +2802,12 @@ H_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         af'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         af'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         af'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         af'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2946,16 +2816,12 @@ H_Violin_II_Music_Voice = {                                                    %
 
         % [H Violin_II_Music_Voice measure 487 / measure 16]                   %! _comment_measure_numbers
         af'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         af'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         af'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         af'!4                                                                  %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -3035,26 +2901,20 @@ H_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3064,67 +2924,50 @@ H_Violin_II_Music_Voice = {                                                    %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         atqf!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -3221,11 +3064,9 @@ H_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         b'16 * 219/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 173/32                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -3233,7 +3074,6 @@ H_Violin_II_Music_Voice = {                                                    %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         b'16 * 139/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \revert Accidental.stencil                                             %! baca_glissando
@@ -3473,11 +3313,9 @@ H_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         b'16 * 233/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 377/64                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -3485,7 +3323,6 @@ H_Violin_II_Music_Voice = {                                                    %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         b'16 * 19/4                                                            %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \revert Accidental.stencil                                             %! baca_glissando
@@ -3585,17 +3422,13 @@ H_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         b'16 * 461/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 105/16                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 23/4                                                            %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 5                                                               %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -3603,13 +3436,10 @@ H_Violin_II_Music_Voice = {                                                    %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         b'16 * 71/16                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 259/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 61/16                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \revert Accidental.stencil                                             %! baca_glissando
@@ -3666,52 +3496,40 @@ H_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
         \!                                                                     %! baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -3719,26 +3537,20 @@ H_Violin_II_Music_Voice = {                                                    %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_pickets
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -4025,11 +3837,9 @@ H_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     af!1                                                                       %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Viola_Music_Voice measure 474 / measure 3]                            %! _comment_measure_numbers
     af!2.                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Viola_Music_Voice measure 475 / measure 4]                            %! _comment_measure_numbers
     af!2..                                                                     %! baca_make_repeat_tied_notes
@@ -4039,7 +3849,6 @@ H_Viola_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "flaut. (2°)"                               %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -4141,15 +3950,12 @@ H_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         a16 * 377/64                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         a16 * 237/64                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         a16 * 93/32                                                            %! stirrings_still_accelerando
         ]                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_accelerando
@@ -4161,29 +3967,23 @@ H_Viola_Music_Voice = {                                                        %
         % [H Viola_Music_Voice measure 480 / measure 9]                        %! _comment_measure_numbers
         a4                                                                     %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         a4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         a4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [H Viola_Music_Voice measure 481 / measure 10]                           %! _comment_measure_numbers
     a4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     a4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     a4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/10 {                                                              %! stirrings_still_desynchronization
@@ -4191,23 +3991,18 @@ H_Viola_Music_Voice = {                                                        %
         % [H Viola_Music_Voice measure 482 / measure 11]                       %! _comment_measure_numbers
         a4                                                                     %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-mod-markup               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         a4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -4216,16 +4011,12 @@ H_Viola_Music_Voice = {                                                        %
 
         % [H Viola_Music_Voice measure 483 / measure 12]                       %! _comment_measure_numbers
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -4235,7 +4026,6 @@ H_Viola_Music_Voice = {                                                        %
         % [H Viola_Music_Voice measure 484 / measure 13]                       %! _comment_measure_numbers
         b2                                                                     %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -4243,16 +4033,13 @@ H_Viola_Music_Voice = {                                                        %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         b2                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [H Viola_Music_Voice measure 485 / measure 14]                           %! _comment_measure_numbers
     b4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     b4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
@@ -4277,25 +4064,19 @@ H_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [H Viola_Music_Voice measure 487 / measure 16]                           %! _comment_measure_numbers
     b4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     b4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     b4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -4371,19 +4152,14 @@ H_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4393,46 +4169,33 @@ H_Viola_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     % [H Viola_Music_Voice measure 497 / measure 26]                           %! _comment_measure_numbers
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     % [H Viola_Music_Voice measure 498 / measure 27]                           %! _comment_measure_numbers
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     % [H Viola_Music_Voice measure 499 / measure 28]                           %! _comment_measure_numbers
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     c4                                                                         %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -4527,11 +4290,9 @@ H_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         b'16 * 477/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 427/64                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -4607,7 +4368,6 @@ H_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <b, aqs!>2
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -4746,11 +4506,9 @@ H_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         b'16 * 211/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 381/64                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -4758,7 +4516,6 @@ H_Viola_Music_Voice = {                                                        %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         b'16 * 173/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \revert Accidental.stencil                                             %! baca_glissando
@@ -4858,17 +4615,13 @@ H_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         b'16 * 245/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 117/16                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 439/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         b'16 * 411/64                                                          %! stirrings_still_accelerando
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -4876,7 +4629,6 @@ H_Viola_Music_Voice = {                                                        %
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         b'16 * 389/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! baca_glissando
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \revert Accidental.stencil                                             %! baca_glissando
@@ -4931,38 +4683,28 @@ H_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
     \!                                                                         %! baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -4970,16 +4712,12 @@ H_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -5062,7 +4800,6 @@ H_Viola_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         <b, aqs!>2
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -5215,11 +4952,9 @@ H_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     af,!1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 474 / measure 3]                            %! _comment_measure_numbers
     af,!2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 475 / measure 4]                            %! _comment_measure_numbers
     af,!2..                                                                    %! baca_make_repeat_tied_notes
@@ -5229,7 +4964,6 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "flaut. (2°)"                               %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
@@ -5378,56 +5112,44 @@ H_Cello_Music_Voice = {                                                        %
     \baca-mp-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "no overpressure"                           %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     gf,!4
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 481 / measure 10]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 482 / measure 11]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 483 / measure 12]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 484 / measure 13]                           %! _comment_measure_numbers
     gf,!4.
-    \glissando                                                                 %! baca_glissando
 
     gf,!4
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 485 / measure 14]                           %! _comment_measure_numbers
     gf,!2                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 486 / measure 15]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 487 / measure 16]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 488 / measure 17]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 489 / measure 18]                           %! _comment_measure_numbers
     gf,!2                                                                      %! baca_make_repeat_tied_notes
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "molto overpressure"                        %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! baca_text_spanner:PiecewiseCommand(1)
@@ -5435,22 +5157,17 @@ H_Cello_Music_Voice = {                                                        %
 
     % [H Cello_Music_Voice measure 490 / measure 19]                           %! _comment_measure_numbers
     gf,!4.
-    \glissando                                                                 %! baca_glissando
 
     gf,!4
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 491 / measure 20]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 492 / measure 21]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 493 / measure 22]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 494 / measure 23]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_repeat_tied_notes
@@ -5461,7 +5178,6 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "(molto)"                                   %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "no overpressure."                         %! baca_text_spanner:PiecewiseCommand(1)
@@ -5472,19 +5188,15 @@ H_Cello_Music_Voice = {                                                        %
 
     % [H Cello_Music_Voice measure 495 / measure 24]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 496 / measure 25]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 497 / measure 26]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 498 / measure 27]                           %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 499 / measure 28]                           %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_repeat_tied_notes
@@ -5496,15 +5208,12 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 500 / measure 29]                           %! _comment_measure_numbers
     gf,!4                                                                      %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 501 / measure 30]                           %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! baca_glissando
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -5567,7 +5276,6 @@ H_Cello_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         e,2                                                                    %! stirrings_still_clouded_pane
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -5657,69 +5365,48 @@ H_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     g,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     g,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 510 / measure 39]                           %! _comment_measure_numbers
     g,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     % [H Cello_Music_Voice measure 515 / measure 44]                           %! _comment_measure_numbers
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     d,8                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
@@ -5764,7 +5451,6 @@ H_Cello_Music_Voice = {                                                        %
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5775,7 +5461,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5787,7 +5472,6 @@ H_Cello_Music_Voice = {                                                        %
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5799,7 +5483,6 @@ H_Cello_Music_Voice = {                                                        %
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5816,7 +5499,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5827,7 +5509,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5839,7 +5520,6 @@ H_Cello_Music_Voice = {                                                        %
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5847,7 +5527,6 @@ H_Cello_Music_Voice = {                                                        %
 
         df,!8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5855,7 +5534,6 @@ H_Cello_Music_Voice = {                                                        %
 
         df,!8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5864,7 +5542,6 @@ H_Cello_Music_Voice = {                                                        %
         df,!8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5879,7 +5556,6 @@ H_Cello_Music_Voice = {                                                        %
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
@@ -5890,7 +5566,6 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(8)
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
@@ -5901,7 +5576,6 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
@@ -5913,7 +5587,6 @@ H_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #4                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
@@ -5924,7 +5597,6 @@ H_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! stirrings_still_bcps:BCPCommand(7)
     - \upbow                                                                   %! stirrings_still_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #2 #4                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
@@ -5933,7 +5605,6 @@ H_Cello_Music_Voice = {                                                        %
     df,!8                                                                      %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     [                                                                          %! stirrings_still_trajectories
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #4                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
@@ -5945,7 +5616,6 @@ H_Cello_Music_Voice = {                                                        %
     - \downbow                                                                 %! stirrings_still_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
-    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! stirrings_still_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #3                                                  %! stirrings_still_bcps:BCPCommand(2)
@@ -5964,7 +5634,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5972,7 +5641,6 @@ H_Cello_Music_Voice = {                                                        %
 
         df,!4                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5981,7 +5649,6 @@ H_Cello_Music_Voice = {                                                        %
         df,!8                                                                  %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -5992,7 +5659,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -6003,7 +5669,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -6015,7 +5680,6 @@ H_Cello_Music_Voice = {                                                        %
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -6033,7 +5697,6 @@ H_Cello_Music_Voice = {                                                        %
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -6044,7 +5707,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -6055,7 +5717,6 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
         - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
@@ -6067,7 +5728,6 @@ H_Cello_Music_Voice = {                                                        %
         - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! baca_glissando
         - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still_bcps:BCPCommand(2)
@@ -6141,7 +5801,6 @@ H_Cello_Music_Voice = {                                                        %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         e,2                                                                    %! stirrings_still_clouded_pane
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -6218,7 +5877,6 @@ H_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         df,!4                                                                  %! stirrings_still_trajectories
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
@@ -6230,7 +5888,6 @@ H_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando

@@ -238,72 +238,51 @@ O_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 697 / measure 2]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 698 / measure 3]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 699 / measure 4]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 700 / measure 5]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_I_Music_Voice measure 701 / measure 6]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     ef'!4                                                                      %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -338,16 +317,12 @@ O_Violin_I_Music_Voice = {                                                     %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         aqs'!4                                                                 %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -458,72 +433,51 @@ O_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 697 / measure 2]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 698 / measure 3]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 699 / measure 4]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 700 / measure 5]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Violin_II_Music_Voice measure 701 / measure 6]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     d'4                                                                        %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -558,13 +512,10 @@ O_Violin_II_Music_Voice = {                                                    %
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         ef'!4                                                                  %! stirrings_still_pickets
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
@@ -676,72 +627,51 @@ O_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 697 / measure 2]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 698 / measure 3]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 699 / measure 4]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 700 / measure 5]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Viola_Music_Voice measure 701 / measure 6]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     g4                                                                         %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -774,10 +704,8 @@ O_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     bqf!4                                                                      %! stirrings_still_pickets
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -883,72 +811,51 @@ O_Cello_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 697 / measure 2]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 698 / measure 3]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 699 / measure 4]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 700 / measure 5]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     % [O Cello_Music_Voice measure 701 / measure 6]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     af!4                                                                       %! stirrings_still_circles
-    \glissando                                                                 %! baca_glissando
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
@@ -1001,7 +908,6 @@ O_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         df,!4                                                                  %! stirrings_still_trajectories
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
@@ -1012,7 +918,6 @@ O_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
@@ -1024,7 +929,6 @@ O_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
@@ -1035,7 +939,6 @@ O_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         df,!8                                                                  %! stirrings_still_trajectories
         - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
@@ -1047,7 +950,6 @@ O_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \glissando                                                             %! baca_glissando
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
