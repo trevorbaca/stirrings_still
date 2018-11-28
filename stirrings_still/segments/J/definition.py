@@ -140,37 +140,31 @@ maker(
         selector=baca.leaves(),
         ),
     baca.new(
-        baca.suite(
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -6,
-                clt=True,
-                staff_padding=2.5,
-                ),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -6,
+            clt=True,
+            staff_padding=2.5,
             ),
         stirrings_still.trajectories('C', -1, -2),
         match=0,
         ),
     baca.new(
-        baca.suite(
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -6,
-                clt=True,
-                staff_padding=2.5,
-                ),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -6,
+            clt=True,
+            staff_padding=2.5,
             ),
         stirrings_still.trajectories('C', -2, -1),
         match=1,
         ),
     baca.new(
-        baca.suite(
-            baca.tuplet_bracket_down(),
-            stirrings_still.bcps(
-                -5,
-                clt=True,
-                staff_padding=2.5,
-                ),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -5,
+            clt=True,
+            staff_padding=2.5,
             ),
         stirrings_still.trajectories('C', -3, 0),
         match=2,

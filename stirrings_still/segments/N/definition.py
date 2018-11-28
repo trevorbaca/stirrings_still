@@ -550,14 +550,9 @@ maker(
 
 maker(
     ('vc', (1, 10)),
-    baca.chunk( 
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    baca.chunk(
+        baca.dots_transparent(),
+        baca.stem_transparent(),
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane -|', 8),
@@ -589,15 +584,10 @@ maker(
 
 maker(
     ('vc', (13, 22)),
-    baca.chunk( 
-        baca.new(
-            baca.dots_transparent(),
-            baca.stem_transparent(),
-            selector=baca.leaves()[:-1],
-            ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+    baca.new( 
+        baca.dots_transparent(),
+        baca.stem_transparent(),
+        selector=baca.leaves()[:-1],
         ),
     stirrings_still.clouded_pane(),
     )
