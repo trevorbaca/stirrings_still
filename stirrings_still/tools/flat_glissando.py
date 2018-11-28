@@ -5,7 +5,7 @@ import baca
 def flat_glissando(
     pitch,
     *tweaks,
-    hide_stems=None,
+    hide_middle_stems=None,
     left_broken=None,
     right_broken=None,
     right_broken_show_next=None,
@@ -56,7 +56,7 @@ def flat_glissando(
             )
         commands.append(command)
 
-    if hide_stems:
+    if hide_middle_stems:
         if left_broken:
             selector_ = selector[:-1]
         else:

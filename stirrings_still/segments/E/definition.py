@@ -1121,7 +1121,7 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'F2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -1181,7 +1181,7 @@ maker(
     stirrings_still.clouded_pane_spanner('clouded pane (down) -|', 5.5),
     stirrings_still.flat_glissando(
         'D2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -1191,7 +1191,7 @@ maker(
     stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
     stirrings_still.flat_glissando(
         'D2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -1206,7 +1206,7 @@ maker(
     stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
     stirrings_still.flat_glissando(
         'D2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -1236,7 +1236,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'Eb2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 

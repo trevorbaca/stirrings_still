@@ -391,6 +391,6 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'Db2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )

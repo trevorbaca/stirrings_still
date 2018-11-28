@@ -170,7 +170,7 @@ maker(
     baca.make_notes(),
     stirrings_still.flat_glissando(
         'Bb2',
-        hide_stems=True,
+        hide_middle_stems=True,
         left_broken=True,
         ),
     )
@@ -199,7 +199,7 @@ maker(
     baca.ottava_bassa(),
     stirrings_still.flat_glissando(
         'B0',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 

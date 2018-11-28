@@ -106,7 +106,7 @@ maker(
     ('v1', (1, 5)),
     stirrings_still.flat_glissando(
         'Gb4',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -193,7 +193,7 @@ maker(
     ('v2', (1, 10)),
     stirrings_still.flat_glissando(
         'F4',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -328,7 +328,7 @@ maker(
     ('va', (1, 5)),
     stirrings_still.flat_glissando(
         'Ab3',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -398,7 +398,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'Ab2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -467,7 +467,7 @@ maker(
     baca.markup('11°/Bb'),
     stirrings_still.flat_glissando(
         'Gb2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -885,7 +885,7 @@ maker(
             ),
         stirrings_still.flat_glissando(
             '<F#4 Dqf5>',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=0,
         ),
@@ -896,14 +896,14 @@ maker(
             ),
         stirrings_still.flat_glissando(
             '<B2 Aqs3>',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.flat_glissando(
             'E2',
-            hide_stems=True,
+            hide_middle_stems=True,
             ),
         match=2,
         ),

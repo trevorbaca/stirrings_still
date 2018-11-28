@@ -315,7 +315,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<E4 Cqs5>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )
@@ -1202,7 +1202,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<C#4 Gqs4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )
@@ -1403,7 +1403,7 @@ maker(
     stirrings_still.clouded_pane_spanner('clouded pane -|', 10.5),
     stirrings_still.flat_glissando(
         'E2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -1537,7 +1537,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<Eqf4 C5>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )

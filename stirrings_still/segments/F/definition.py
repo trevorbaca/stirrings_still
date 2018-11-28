@@ -70,7 +70,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<F5 Bqs5>',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -94,7 +94,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<G4 Dqs5>',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 
@@ -124,7 +124,7 @@ maker(
     stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
     stirrings_still.flat_glissando(
         'Eb2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     )
 

@@ -181,7 +181,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<E4 Cqs5>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )
@@ -194,7 +194,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<C#4 Aqs4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )
@@ -597,7 +597,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<Eqf4 C5>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )
@@ -610,7 +610,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<Cqs4 A4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )
@@ -686,7 +686,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<C#4 Gqs4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )
@@ -699,7 +699,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         '<A#3 Eqs4>',
-        hide_stems=True,
+        hide_middle_stems=True,
         selector=baca.pleaves()[2:],
         ),
     )
@@ -785,7 +785,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'D2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
@@ -821,7 +821,7 @@ maker(
         ),
     stirrings_still.flat_glissando(
         'Db2',
-        hide_stems=True,
+        hide_middle_stems=True,
         ),
     stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
     )
