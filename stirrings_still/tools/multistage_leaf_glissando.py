@@ -38,7 +38,7 @@ def multistage_leaf_glissando(
         command = baca.chunk(
             baca.glissando(
                 allow_repeats=True,
-                stems=True,
+                hide_middle_note_heads=True,
                 selector=selector[start:stop],
                 ),
             baca.interpolate_staff_positions(
@@ -65,7 +65,7 @@ def multistage_leaf_glissando(
     command = baca.chunk(
         baca.glissando(
             allow_repeats=True,
-            stems=True,
+            hide_middle_note_heads=True,
             selector=selector,
             ),
         baca.interpolate_staff_positions(

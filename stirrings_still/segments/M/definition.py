@@ -125,14 +125,11 @@ maker(
 
 maker(
     ('v1', (29, 32)),
-    baca.markup(
-        '9°/Bb',
-        measures=32,
-        ),
     stirrings_still.flat_glissando(
         'D6',
         stop_pitch='C6',
         hide_stems=True,
+        right_broken=True,
         ),
     )
 
