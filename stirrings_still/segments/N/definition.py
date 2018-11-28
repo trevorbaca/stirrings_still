@@ -92,6 +92,7 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 8)),
+    baca.markup('9°/Bb'),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'C6',

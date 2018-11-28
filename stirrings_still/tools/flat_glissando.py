@@ -28,10 +28,10 @@ def flat_glissando(
         *tweaks,
         allow_repeats=True,
         allow_ties=True,
+        hide_middle_note_heads=True,
         left_broken=left_broken,
         right_broken=right_broken,
         selector=selector,
-        stems=True,
         )
     commands.append(command)
 
