@@ -761,9 +761,9 @@ maker(
 
 maker(
     ('v2', (37, 38)),
-    stirrings_still.glissando_interpolation(
+    stirrings_still.flat_glissando(
         'G4',
-        'A4',
+        stop_pitch='A4',
         selector=baca.leaves().rleak(),
         ),
     )

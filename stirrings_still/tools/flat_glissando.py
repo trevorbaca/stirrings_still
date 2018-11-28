@@ -10,10 +10,14 @@ def flat_glissando(
     right_broken=None,
     rleak=None,
     selector=baca.pleaves(),
+    stop_pitch=None,
     ):
     """
     Makes flat glissando.
     """
+
+    if stop_pitch is not None:
+        assert pitch is not None
 
     if rleak:
         selector = selector.rleak()
@@ -35,9 +39,16 @@ def flat_glissando(
         )
     commands.append(command)
 
-    if pitch is not None:
+    if pitch is not None and stop_pitch is None:
         command = baca.pitch(
             pitch,
+            selector=selector,
+            )
+        commands.append(command)
+    elif pitch is not None and stop_pitch is not None:
+        command = baca.interpolate_staff_positions(
+            pitch,
+            stop_pitch,
             selector=selector,
             )
         commands.append(command)

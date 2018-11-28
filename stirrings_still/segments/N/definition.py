@@ -245,7 +245,10 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
-    stirrings_still.glissando_interpolation('G4', 'F4'),
+    stirrings_still.flat_glissando(
+        'G4',
+        stop_pitch='F4',
+        ),
     )
 
 # trio
@@ -448,7 +451,10 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
-    stirrings_still.glissando_interpolation('F4', 'E4'),
+    stirrings_still.flat_glissando(
+        'F4',
+        stop_pitch='E4',
+        ),
     )
 
 # va
@@ -608,7 +614,10 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
-    stirrings_still.glissando_interpolation('Ab3', 'Gb3'),
+    stirrings_still.flat_glissando(
+        'Ab3',
+        stop_pitch='Gb3',
+        ),
     )
 
 # vc

@@ -19,7 +19,6 @@ from .first_order_stages import first_order_stages
 from .flat_glissando import flat_glissando
 from .flight import flight
 from .flight_spanner import flight_spanner
-from .glissando_interpolation import glissando_interpolation
 from .grid import grid
 from .grid_to_trajectory import grid_to_trajectory
 from .left_broken_circle_bow_tweak import left_broken_circle_bow_tweak

@@ -484,7 +484,10 @@ maker(
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
-        stirrings_still.glissando_interpolation('F4', 'Ab4'),
+        stirrings_still.flat_glissando(
+            'F4',
+            stop_pitch='Ab4',
+            ),
         match=1,
         ),
     baca.new(

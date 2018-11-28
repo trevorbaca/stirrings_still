@@ -357,9 +357,9 @@ maker(
         'fff > pp',
         ),
     stirrings_still.accelerando((1, 4), (3, 32)),
-    stirrings_still.glissando_interpolation(
+    stirrings_still.flat_glissando(
         'Cb2',
-        'Bb1',
+        stop_pitch='Bb1',
         ),
     )
 
