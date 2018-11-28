@@ -4,7 +4,7 @@ import baca
 
 def flat_glissando(
     pitch,
-    *,
+    *tweaks,
     hide_stems=None,
     left_broken=None,
     right_broken=None,
@@ -22,20 +22,23 @@ def flat_glissando(
     command = baca.untie_to(selector=selector)
     commands.append(command)
 
-    commands.extend([ 
-        baca.glissando(
-            allow_repeats=True,
-            allow_ties=True,
-            left_broken=left_broken,
-            right_broken=right_broken,
-            selector=selector,
-            stems=True,
-            ),
-        baca.pitch(
+    command = baca.glissando(
+        *tweaks,
+        allow_repeats=True,
+        allow_ties=True,
+        left_broken=left_broken,
+        right_broken=right_broken,
+        selector=selector,
+        stems=True,
+        )
+    commands.append(command)
+
+    if pitch is not None:
+        command = baca.pitch(
             pitch,
             selector=selector,
-            ),
-        ])
+            )
+        commands.append(command)
 
     if hide_stems:
         if left_broken:
@@ -46,7 +49,6 @@ def flat_glissando(
             baca.new(
                 baca.dots_transparent(),
                 baca.stem_transparent(),
-                #selector=selector[1:-1],
                 selector=selector_,
                 )
         )

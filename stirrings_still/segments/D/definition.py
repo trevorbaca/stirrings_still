@@ -791,8 +791,7 @@ maker(
         abjad.tweak((0, 0)).X_extent,
         ),
     stirrings_still.tailpiece(
-        (abjad.tweak(1.5).bound_details__right__padding, -1),
-        measures=(49, 53),
+        abjad.tweak(1.5).bound_details__right__padding,
         ),
     )
 
@@ -841,9 +840,8 @@ maker(
         abjad.tweak(-0.75).self_alignment_X,
         ),
     stirrings_still.tailpiece(
-        (abjad.tweak(0).bound_details__right__Y, -1),
-        (abjad.tweak(5.5).bound_details__right__padding, -1),
-        measures=(90, 93),
+        abjad.tweak(0).bound_details__right__Y,
+        abjad.tweak(5.5).bound_details__right__padding,
         ),
     )
 

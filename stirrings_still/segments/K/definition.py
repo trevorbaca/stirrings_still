@@ -732,8 +732,8 @@ maker(
         abjad.tweak((-3, 0)).extra_offset,
         ),
     stirrings_still.tailpiece(
-        (abjad.tweak(0).bound_details__right__Y, -1),
-        (abjad.tweak(1.5).bound_details__right__padding, -1),
+        abjad.tweak(0).bound_details__right__Y,
+        abjad.tweak(1.5).bound_details__right__padding,
         ),
     )
 
