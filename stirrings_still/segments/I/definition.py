@@ -56,7 +56,10 @@ maker(
         'wide',
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.flat_glissando('Aqs4'),
+    stirrings_still.flat_glissando(
+        'Aqs4',
+        left_broken=True,
+        ),
     )
 
 maker(
@@ -141,7 +144,10 @@ maker(
         'wide',
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.flat_glissando('Eb4'),
+    stirrings_still.flat_glissando(
+        'Eb4',
+        left_broken=True,
+        ),
     )
 
 maker(
@@ -160,6 +166,12 @@ maker(
     baca.circle_bow_spanner(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
+        ),
+    baca.hairpin(
+        'mp -- !',
+        abjad.tweak(True).to_barline,
+        measures=(1, 3),
+        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.flat_glissando('Bqf3'),
     )

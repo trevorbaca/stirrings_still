@@ -18,10 +18,6 @@ def circles(
         durations=[duration],
         remainder=remainder,
         )
-#    beam_specifier = rmakers.BeamSpecifier(
-#        beam_divisions_together=True,
-#        beam_each_division=True,
-#        )
     return baca.rhythm(
         division_expression=division_expression,
         measures=measures,
