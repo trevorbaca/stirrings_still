@@ -45,6 +45,35 @@ stirrings-still-presto-largo-markup = \markup
         \hspace #0.5
     }
 
+%%% PARTIALS (Bb) %%%
+
+stirrings-still-seven-b-flat = \markup
+    \line {
+        "7°/B"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+stirrings-still-nine-b-flat = \markup
+    \line {
+        "9°/B"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+stirrings-still-thirteen-b-flat = \markup
+    \line {
+        "13°/B"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
 %%% PARTIALS (Db) %%%
 
 stirrings-still-seven-d-flat = \markup
