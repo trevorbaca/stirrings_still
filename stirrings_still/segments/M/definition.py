@@ -110,7 +110,11 @@ maker(
         '<D#4 A4>',
         selector=baca.leaves()[1:],
         ),
-    stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
+    stirrings_still.pickets(
+        4,
+        2,
+        dmask=baca.sustain_first(),
+        ),
     )
 
 maker(
@@ -120,7 +124,11 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
         ),
-    stirrings_still.pickets(4, 2, dmask=baca.sustain_first()),
+    stirrings_still.pickets(
+        4,
+        2,
+        dmask=baca.sustain_first(),
+        ),
     )
 
 maker(
@@ -286,7 +294,11 @@ maker(
         '<Dqs4 Gtqs4>',
         selector=baca.leaves()[1:],
         ),
-    stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
+    stirrings_still.pickets(
+        4,
+        1,
+        dmask=baca.sustain_first(),
+        ),
     )
 
 maker(
@@ -296,7 +308,11 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
         ),
-    stirrings_still.pickets(4, 1, dmask=baca.sustain_first()),
+    stirrings_still.pickets(
+        4,
+        1,
+        dmask=baca.sustain_first(),
+        ),
     )
 
 maker(
@@ -378,7 +394,11 @@ maker(
         '<D4 G#4>',
         selector=baca.leaves()[1:],
         ),
-    stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
+    stirrings_still.pickets(
+        4,
+        0,
+        dmask=baca.sustain_first(),
+        ),
     )
 
 maker(
@@ -388,7 +408,11 @@ maker(
         abjad.tweak(3).staff_padding,
         selector=baca.leaves()[1:].rleak(),
         ),
-    stirrings_still.pickets(4, 0, dmask=baca.sustain_first()),
+    stirrings_still.pickets(
+        4,
+        0,
+        dmask=baca.sustain_first(),
+        ),
     )
 
 maker(
