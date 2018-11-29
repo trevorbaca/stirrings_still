@@ -336,6 +336,11 @@ maker(
 # vc
 
 maker(
+    'vc',
+    baca.clef('bass'),
+    )
+
+maker(
     ('vc', [1, 3, 7, 9]),
     baca.hairpin(
         'o< f >o !',
