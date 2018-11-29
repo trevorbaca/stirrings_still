@@ -61,6 +61,8 @@ maker(
         ),
     baca.markup(
         r'\stirrings-still-thirteen-plus-nine-e-flat',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
         literal=True,
         ),
     stirrings_still.clouded_pane(),
@@ -85,6 +87,8 @@ maker(
         ),
     baca.markup(
         r'\stirrings-still-seven-plus-five-e-flat',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
         literal=True,
         ),
     stirrings_still.clouded_pane(),
@@ -125,6 +129,7 @@ maker(
     stirrings_still.flat_glissando(
         'Eb2',
         hide_middle_stems=True,
+        left_broken=True,
         ),
     )
 
@@ -145,16 +150,17 @@ maker(
 maker(
     'tutti',
     baca.dls_staff_padding(6),
+    baca.tuplet_bracket_down(),
     )
 
 maker(
     ('tutti', (12, 13)),
     baca.circle_bow_spanner(
         'tight-poss-grind-at-talon',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.hairpin(
         'p -- !',
@@ -163,22 +169,26 @@ maker(
         ),
     baca.new(
         stirrings_still.desynchronization(4, [1]),
+        stirrings_still.flat_glissando('Bb4'),
         match=0,
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
         stirrings_still.flat_glissando(
-            'F4',
-            stop_pitch='Ab4',
+            'G4',
+            stop_pitch='A4',
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.desynchronization(4, [2]),
+        stirrings_still.flat_glissando('Bb4'),
         match=2,
         ),
     baca.new(
+        baca.clef('treble'),
         stirrings_still.desynchronization(4, [-1]),
+        stirrings_still.flat_glissando('Bb4'),
         match=3,
         ),
     )
