@@ -325,6 +325,11 @@ maker(
 # va
 
 maker(
+    'va',
+    baca.clef('alto'),
+    )
+
+maker(
     ('va', (1, 5)),
     stirrings_still.flat_glissando(
         'Ab3',
@@ -388,6 +393,11 @@ maker(
     )
 
 # vc
+
+maker(
+    'vc',
+    baca.clef('bass'),
+    )
 
 maker(
     ('vc', (1, 5)),
