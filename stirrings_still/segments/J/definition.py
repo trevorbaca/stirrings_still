@@ -74,7 +74,16 @@ stirrings_still.time(maker, time)
 # v1
 
 maker(
-    ('v1', [(1, 2), (5, 11)]),
+    ('v1', (1, 2)),
+    stirrings_still.flat_glissando(
+        '<F4 A4>',
+        hide_middle_stems=True,
+        left_broken=True,
+        ),
+    )
+
+maker(
+    ('v1', (5, 11)),
     stirrings_still.flat_glissando(
         '<F4 A4>',
         hide_middle_stems=True,
@@ -103,7 +112,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 8),
     )
 
 maker(
@@ -122,7 +131,7 @@ maker(
 
 maker(
     ('trio', (5, 13)),
-    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 8),
     )
 
 maker(
@@ -140,7 +149,6 @@ maker(
         selector=baca.leaves(),
         ),
     baca.new(
-        baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -6,
             clt=True,
@@ -150,7 +158,6 @@ maker(
         match=0,
         ),
     baca.new(
-        baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -6,
             clt=True,
@@ -160,7 +167,6 @@ maker(
         match=1,
         ),
     baca.new(
-        baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             -5,
             clt=True,
@@ -169,6 +175,8 @@ maker(
         stirrings_still.trajectories('C', -3, 0),
         match=2,
         ),
+    baca.tuplet_bracket_down(),
+    baca.tuplet_bracket_staff_padding(1.5),
     )
 
 # v1, va, vc
@@ -183,34 +191,28 @@ maker(
     baca.new(
         baca.markup('(7+9)°/E'),
         baca.tasto_spanner(
-            abjad.tweak(8).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
-        stirrings_still.flat_glissando(
-            '<F#4 Dqf5>',
-            hide_middle_stems=True,
-            ),
+        stirrings_still.flat_glissando('<F#4 Dqf5>'),
         match=0,
         ),
     baca.new(
-        baca.markup('(11+3)°/E'),
+        baca.markup(
+            '(11+3)°/E',
+            abjad.tweak(1.5).padding,
+            ),
         baca.tasto_spanner(
-            abjad.tweak(8).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
-        stirrings_still.flat_glissando(
-            '<B2 Aqs3>',
-            hide_middle_stems=True,
-            ),
+        stirrings_still.flat_glissando('<B2 Aqs3>'),
         match=1,
         ),
     baca.new(
-        stirrings_still.flat_glissando(
-            'E2',
-            hide_middle_stems=True,
-            ),
+        stirrings_still.flat_glissando('E2'),
         match=2,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 8),
     )
 
 # tutti
@@ -236,7 +238,16 @@ maker(
 # v2
 
 maker(
-    ('v2', [(1, 2), (5, 11)]),
+    ('v2', (1, 2)),
+    stirrings_still.flat_glissando(
+        '<E4 G#4>',
+        hide_middle_stems=True,
+        left_broken=True,
+        ),
+    )
+
+maker(
+    ('v2', (5, 11)),
     stirrings_still.flat_glissando(
         '<E4 G#4>',
         hide_middle_stems=True,
@@ -255,7 +266,7 @@ maker(
     ('v2', (3, 4)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.hairpin(
         'mp -- !',
@@ -263,7 +274,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.new(
         stirrings_still.clockticks(),
@@ -277,13 +288,22 @@ maker(
         measures=4,
         ),
     baca.pitch('F5'),
-    baca.tuplet_bracket_staff_padding(3),
+    baca.tuplet_bracket_staff_padding(1),
     )
 
 # va
 
 maker(
-    ('va', [(1, 2), (5, 11)]),
+    ('va', (1, 2)),
+    stirrings_still.flat_glissando(
+        '<Eqs4 Gtqs4>',
+        hide_middle_stems=True,
+        left_broken=True,
+        ),
+    )
+
+maker(
+    ('va', (5, 11)),
     stirrings_still.flat_glissando(
         '<Eqs4 Gtqs4>',
         hide_middle_stems=True,
