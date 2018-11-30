@@ -54,11 +54,23 @@ maker(
         do_not_rewrite_meter=True,
         ),
     baca.new(
-        baca.markup('9°/C; allow vibrato to achieve loud dynamics'),
+        baca.markup(
+            'allow vibrato to achieve loud dynamics',
+            abjad.tweak(1.5).padding,
+            ),
+        baca.markup(
+            '9°/C',
+            abjad.tweak(1).padding,
+            direction=abjad.Down,
+            ),
         match=0,
         ),
     baca.new(
-        baca.markup('9°/C (simile)'),
+        baca.markup(
+            '9°/C',
+            abjad.tweak(1).padding,
+            direction=abjad.Down,
+            ),
         match=[1, 2, 3],
         ),
     )
@@ -82,6 +94,10 @@ maker(
 
 maker(
     ('v1', [(9, 12), (26, 28)]),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(8).staff_padding,
+        ),
     stirrings_still.flat_glissando('<D#4 A4>'),
     )
 
@@ -154,7 +170,7 @@ maker(
         pieces=baca.mgroups([8, 4]),
         ),
     baca.hairpin(
-        'f < ff',
+        'o< ff',
         measures=(13, 16),
         selector=baca.leaves().rleak().rleak(),
         ),
@@ -165,7 +181,7 @@ maker(
         selector=baca.leaves()[1:],
         ),
     baca.hairpin(
-        'f < fff >o f < fff',
+        'o< fff >o ! o< fff',
         measures=(21, 32),
         pieces=baca.mgroups([5, 3, 4]),
         ),
@@ -234,11 +250,23 @@ maker(
         do_not_rewrite_meter=True,
         ),
     baca.new(
-        baca.markup('11°/C; allow vibrato to achieve loud dynamics'),
+        baca.markup(
+            'allow vibrato to achieve loud dynamics',
+            abjad.tweak(1.5).padding,
+            ),
+        baca.markup(
+            '11°/C',
+            abjad.tweak(1).padding,
+            direction=abjad.Down,
+            ),
         match=0,
         ),
     baca.new(
-        baca.markup('11°/C (simile)'),
+        baca.markup(
+            '11°/C',
+            abjad.tweak(1).padding,
+            direction=abjad.Down,
+            ),
         match=[1, 2, 3],
         ),
     )
@@ -334,11 +362,20 @@ maker(
         do_not_rewrite_meter=True,
         ),
     baca.new(
-        baca.markup('13°/C; allow vibrato to achieve loud dynamics'),
+        baca.markup('allow vibrato to achieve loud dynamics'),
+        baca.markup(
+            '13°/C',
+            abjad.tweak(1).padding,
+            direction=abjad.Down,
+            ),
         match=0,
         ),
     baca.new(
-        baca.markup('13°/C (simile)'),
+        baca.markup(
+            '13°/C',
+            abjad.tweak(1).padding,
+            direction=abjad.Down,
+            ),
         match=[1, 2, 3],
         ),
     )
@@ -355,7 +392,7 @@ maker(
     ('va', (9, 12)),
     baca.circle_bow_spanner(
         'very-wide',
-        abjad.tweak(3).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.pickets(4, 0),
     )
@@ -364,7 +401,7 @@ maker(
     ('va', [(9, 12), (26, 28)]),
     baca.markup(
         '(12ET)',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.flat_glissando('<D4 G#4>'),
     )
@@ -382,12 +419,12 @@ maker(
     ('va', (17, 20)),
     baca.markup(
         '(12ET)',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(8).staff_padding,
         selector=baca.leaf(1),
         ),
     baca.circle_bow_spanner(
         'very-wide',
-        abjad.tweak(3).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
         ),
     stirrings_still.flat_glissando(
@@ -405,7 +442,7 @@ maker(
     ('va', (25, 28)),
     baca.circle_bow_spanner(
         'very-wide',
-        abjad.tweak(3).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
         ),
     stirrings_still.pickets(
@@ -432,9 +469,10 @@ maker(
     'vc',
     baca.dls_staff_padding(7),
     baca.hairpin(
-        'fff -- (fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff',
+        '(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff',
         bookend=False,
-        pieces=baca.mgroups([6, 2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
+        measures=(7, -1),
+        pieces=baca.mgroups([2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
     baca.new(
@@ -456,6 +494,7 @@ maker(
     stirrings_still.flat_glissando(
         'C2',
         hide_middle_stems=True,
+        selector=baca.leaves().rleak(),
         ),
     )
 
