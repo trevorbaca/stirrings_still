@@ -54,7 +54,7 @@ maker(
     baca.beam(),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.flat_glissando(
         'Aqs4',
@@ -64,10 +64,14 @@ maker(
 
 maker(
     ('v1', (10, 11)),
-    baca.markup('(12ET)'),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.flat_glissando(
         '<F4 A4>',
         hide_middle_stems=True,
+        right_broken=True,
         ),
     )
 
@@ -142,7 +146,7 @@ maker(
     ('v2', (1, 7)),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.flat_glissando(
         'Eb4',
@@ -152,10 +156,14 @@ maker(
 
 maker(
     ('v2', (10, 11)),
-    baca.markup('(12ET)'),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.flat_glissando(
         '<E4 G#4>',
         hide_middle_stems=True,
+        right_broken=True,
         ),
     )
 
@@ -173,15 +181,25 @@ maker(
         measures=(1, 3),
         selector=baca.ltleaves().rleak(),
         ),
+    baca.markup(
+        r'\stirrings-still-seven-d-flat',
+        abjad.tweak(1).padding,
+        direction=abjad.Down,
+        literal=True,
+        ),
     stirrings_still.flat_glissando('Bqf3'),
     )
 
 maker(
     ('va', (10, 11)),
-    baca.markup('(24ET)'),
+    baca.markup(
+        '(24ET)',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.flat_glissando(
         '<Eqs4 Gtqs4>',
         hide_middle_stems=True,
+        right_broken=True,
         ),
     )
 
@@ -209,7 +227,6 @@ maker(
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.script_staff_padding(8),
     )
 
 
@@ -234,6 +251,7 @@ maker(
     baca.clef('treble'),
     baca.markup(
         '(9°)',
+        abjad.tweak(1.5).padding,
         direction=abjad.Down,
         ),
     stirrings_still.cello_cell(),
