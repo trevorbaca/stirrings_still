@@ -76,6 +76,15 @@ stirrings-still-thirteen-b-flat = \markup
 
 %%% PARTIALS (Db) %%%
 
+stirrings-still-five-d-flat = \markup
+    \line {
+        "5°/D"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
 stirrings-still-seven-d-flat = \markup
     \line {
         "7°/D"
@@ -105,9 +114,9 @@ stirrings-still-thirteen-d-flat = \markup
 
 %%% PARTIALS (Eb) %%%
 
-stirrings-still-thirteen-plus-nine-e-flat = \markup
+stirrings-still-five-e-flat = \markup
     \line {
-        "(13+9)°/E"
+        "5°/E"
         \hspace #-0.4
         \raise #0.5
         \scale #'(0.65 . 0.65)
@@ -117,6 +126,33 @@ stirrings-still-thirteen-plus-nine-e-flat = \markup
 stirrings-still-seven-plus-five-e-flat = \markup
     \line {
         "(7+5)°/E"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+stirrings-still-nine-e-flat = \markup
+    \line {
+        "9°/E"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+stirrings-still-eleven-e-flat = \markup
+    \line {
+        "11°/E"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
+stirrings-still-thirteen-plus-nine-e-flat = \markup
+    \line {
+        "(13+9)°/E"
         \hspace #-0.4
         \raise #0.5
         \scale #'(0.65 . 0.65)
