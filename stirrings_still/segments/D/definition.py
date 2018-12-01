@@ -394,7 +394,7 @@ maker(
         baca.markup(
             r'\stirrings-still-thirteen-d-flat',
             abjad.tweak(1.5).padding,
-            direction=abjad.Down,
+            ###direction=abjad.Down,
             literal=True,
             ),
         stirrings_still.circles((1, 8)),
@@ -405,7 +405,6 @@ maker(
         baca.markup(
             r'\stirrings-still-nine-d-flat',
             abjad.tweak(1.5).padding,
-            direction=abjad.Down,
             literal=True,
             ),
         stirrings_still.circles((1, 4)),
@@ -416,7 +415,7 @@ maker(
         baca.markup(
             r'\stirrings-still-seven-d-flat',
             abjad.tweak(1.5).padding,
-            direction=abjad.Down,
+            ###direction=abjad.Down,
             literal=True,
             ),
         baca.pitch('Bqf3'),
@@ -889,7 +888,12 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(13).staff_padding,
+        abjad.tweak(4.5 + 6.5).staff_padding,
+        ),
+    baca.markup(
+        baca.markups.string_number(3),
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
     stirrings_still.cello_cell(),
@@ -993,17 +997,11 @@ maker(
 # v1, stage 2
 
 maker(
-    ('v1', 65),
+    ('v1', [65, (67, 89)]),
     baca.markup(
         '(7+9)°/E',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
-    stirrings_still.flat_glissando('<F#4 Dqf5>'),
-    )
-
-maker(
-    ('v1', (67, 89)),
     stirrings_still.flat_glissando('<F#4 Dqf5>'),
     )
 
@@ -1013,8 +1011,9 @@ maker(
         baca.markup(
             '(3+7)°/F',
             abjad.tweak(1.5).padding,
-            direction=abjad.Down,
+            ###direction=abjad.Down,
             ),
+        baca.untie_to(),
         match=0,
         ),
     stirrings_still.flat_glissando('<Etqf4 C5>'),
@@ -1051,17 +1050,11 @@ maker(
 # v2, stage 2
 
 maker(
-    ('v2', 65),
+    ('v2', [65, (67, 89)]),
     baca.markup(
         '(5+13)°/E',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
-    stirrings_still.flat_glissando('<Cqs4 Ab4>'),
-    )
-
-maker(
-    ('v2', (67, 89)),
     stirrings_still.flat_glissando('<Cqs4 Ab4>'),
     )
 
@@ -1071,8 +1064,8 @@ maker(
         baca.markup(
             '(9+11)°/F',
             abjad.tweak(1.5).padding,
-            direction=abjad.Down,
             ),
+        baca.untie_to(),
         match=0,
         ),
     stirrings_still.flat_glissando('<Bqf3 G4>'),
@@ -1081,7 +1074,7 @@ maker(
 # va, stage 2
 
 maker(
-    ('va', 65),
+    ('va', [65, (67, 89)]),
     baca.markup(
         '(11+3)°/E',
         abjad.tweak(1.5).padding,
@@ -1090,16 +1083,10 @@ maker(
     )
 
 maker(
-    ('va', (67, 89)),
-    stirrings_still.flat_glissando('<B2 Aqs3>'),
-    )
-
-maker(
     ('va', (94, 96)),
     baca.markup(
         '5°/F',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
     stirrings_still.flat_glissando('A3'),
     )
