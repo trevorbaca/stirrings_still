@@ -92,7 +92,7 @@ maker(
 maker(
     ('v1', [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
-        abjad.tweak(13).staff_padding,
+        abjad.tweak(7 + 6.5).staff_padding,
         ),
     )
 
@@ -210,7 +210,7 @@ maker(
 maker(
     ('v2', [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4 + 6.5).staff_padding,
         ),
     )
 
@@ -318,7 +318,7 @@ maker(
 maker(
     ('va', [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
-        abjad.tweak(9.5).staff_padding,
+        abjad.tweak(3 + 6.5).staff_padding,
         ),
     )
 
