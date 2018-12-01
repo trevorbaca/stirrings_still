@@ -400,6 +400,39 @@ maker(
         ),
     )
 
+maker(
+    ('tutti', (24, 31)),
+    baca.text_spanner(
+        'each time more ponticello =|',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        lilypond_id=2,
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('tutti', (32, 37)),
+    baca.text_spanner(
+        'each time less ponticello =|',
+        abjad.tweak(10.5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        lilypond_id=2,
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+# v1, v2, va
+
+maker(
+    ('trio', (46, 53)),
+    baca.stem_transparent(
+        selector=baca.leaves()[:-1],
+        ),
+    )
+
 # v1, v2, vc
 
 maker(
@@ -569,8 +602,7 @@ maker(
     baca.dynamic('p'),
     baca.markup(
         r'\stirrings-still-nine-e-flat',
-        abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        abjad.tweak(0.5).padding,
         literal=True,
         ),
     baca.stem_tremolo(
@@ -626,8 +658,7 @@ maker(
     ('v2', (32, 53)),
     baca.markup(
         r'\stirrings-still-nine-d-flat',
-        abjad.tweak(1.5).padding,
-        direction=abjad.Down,
+        abjad.tweak(0.5).padding,
         literal=True,
         ),
     stirrings_still.flat_glissando('Eb5'),
@@ -812,7 +843,6 @@ maker(
     baca.markup(
         r'\stirrings-still-seven-d-flat',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         literal=True,
         ),
     stirrings_still.flat_glissando('Bqf3'),
@@ -915,7 +945,7 @@ maker(
         ),
     baca.text_spanner(
         r'\baca-null-markup || \baca-damp-markup =|',
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         final_piece_spanner=False,
@@ -924,7 +954,7 @@ maker(
         ),
     baca.scp_spanner(
         'T1 -> T3 -> T2 -> T3 ->',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.plts()[:-1],
         ),
@@ -1097,6 +1127,7 @@ maker(
         ),
     baca.markup(
         baca.markups.string_number(3),
+        abjad.tweak(1.5).padding,
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
@@ -1167,7 +1198,7 @@ maker(
     ('vc', (32, -1)),
     stirrings_still.clouded_pane_spanner(
         'clouded pane -|',
-        10.5,
+        13,
         # TODO: allow spanner to extend to phantom measure
         selector=baca.leaves(),
         ),
@@ -1186,7 +1217,7 @@ maker(
         ),
     baca.scp_spanner(
         'T -> T poss. =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         pieces=baca.cmgroups([8, 8]),
         ),
     stirrings_still.clouded_pane(),
