@@ -213,10 +213,10 @@ maker(
         ),
     baca.pitch('<F4 A4>'),
     baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.loure_tuplets(0),
-    stirrings_still.urtext_spanner('urtext (double stop G.1) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (double stop G.1) -|', 8),
     )
 
 maker(
@@ -386,7 +386,7 @@ maker(
 
 maker(
     ('trio', [(18, 22), 25, 29]),
-    stirrings_still.urtext_spanner('C, D -|', 5.5),
+    stirrings_still.urtext_spanner('C, D -|', 8),
     )
 
 maker(
@@ -488,6 +488,7 @@ maker(
 maker(
     ('trio', (41, 45)),
     baca.breathe(),
+    baca.dynamic_text_self_alignment_x(-1),
     baca.hairpin(
         '(ppp) >o',
         bookend=False,
@@ -562,10 +563,10 @@ maker(
     ('tutti', 62),
     baca.circle_bow_spanner(
         'very-tight',
-        abjad.tweak(3).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.hairpin(
         'p -- !',
@@ -629,10 +630,10 @@ maker(
         ),
     baca.pitch('<E4 G#4>'),
     baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.loure_tuplets(1),
-    stirrings_still.urtext_spanner('urtext (double stop G.1) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (double stop G.1) -|', 8),
     )
 
 maker(
@@ -718,9 +719,9 @@ maker(
         ),
     baca.pitch('<Aqf3 C#4>'),
     baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
-    stirrings_still.clouded_pane_spanner('clouded (partial G.1) -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded (partial G.1) -|', 8),
     stirrings_still.loure_tuplets(-1),
     )
 
@@ -787,7 +788,7 @@ maker(
         'D2',
         hide_middle_stems=True,
         ),
-    stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (field) -|', 8),
     )
 
 maker(
@@ -823,7 +824,7 @@ maker(
         'Db2',
         hide_middle_stems=True,
         ),
-    stirrings_still.urtext_spanner('urtext (field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (field) -|', 8),
     )
 
 maker(
@@ -845,10 +846,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(4.5 + 6).staff_padding,
+        abjad.tweak(4.5 + 6.5).staff_padding,
         ),
     baca.markup(
         baca.markups.string_number(3),
+        abjad.tweak(1.5).padding,
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
@@ -890,10 +892,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(4.5 + 6).staff_padding,
+        abjad.tweak(4.5 + 6.5).staff_padding,
         ),
     baca.markup(
         baca.markups.string_number(3),
+        abjad.tweak(1.5).padding,
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
