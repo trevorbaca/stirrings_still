@@ -147,7 +147,10 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 2)),
-    baca.markup('7°/F'),
+    baca.markup(
+        '7°/F',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.flat_glissando('Etqf4'),
     )
 
@@ -244,10 +247,6 @@ maker(
         abjad.tweak(10).staff_padding,
         measures=(58, 61),
         ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
@@ -277,7 +276,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4.5 + 6.5).staff_padding,
         ),
     baca.pitches('D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5'),
     baca.tuplet_bracket_down(),
@@ -293,7 +292,7 @@ maker(
 maker(
     ('v1', (79, 80)),
     baca.hairpin(
-        '(p) < mf -- !',
+        'o< mf -- !',
         abjad.tweak(True).to_barline,
         pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
@@ -301,7 +300,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         'T -> poco P =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         bookend=False,
         pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
@@ -309,7 +308,7 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight_spanner('flight -|', 5.5),
+    stirrings_still.flight_spanner('flight -|', 8),
     )
 
 maker(
@@ -365,10 +364,6 @@ maker(
         abjad.tweak(10).staff_padding,
         measures=(105, 108),
         ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
@@ -383,7 +378,7 @@ maker(
 maker(
     ('trio', (1, 2)),
     baca.damp_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin(
         'p -- !',
@@ -391,7 +386,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.tasto_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.continuous_tremolo(),
     )
@@ -406,12 +401,11 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'wide',
-            abjad.tweak(5.5).staff_padding,
+            abjad.tweak(8).staff_padding,
             ),
         baca.markup(
             r'\stirrings-still-thirteen-b-flat',
             abjad.tweak(1.5).padding,
-            direction=abjad.Down,
             literal=True,
             ),
         stirrings_still.flat_glissando('Gqf4'),
@@ -425,12 +419,11 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'wide',
-            abjad.tweak(5.5).staff_padding,
+            abjad.tweak(8).staff_padding,
             ),
         baca.markup(
             r'\stirrings-still-seven-b-flat',
             abjad.tweak(1.5).padding,
-            direction=abjad.Down,
             literal=True,
             ),
         stirrings_still.flat_glissando('Atqf3'),
@@ -444,12 +437,11 @@ maker(
     baca.new(
         baca.circle_bow_spanner(
             'wide',
-            abjad.tweak(3).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
         baca.markup(
             r'\stirrings-still-nine-b-flat',
             abjad.tweak(1.5).padding,
-            direction=abjad.Down,
             literal=True,
             ),
         stirrings_still.flat_glissando('C3'),
@@ -618,9 +610,12 @@ maker(
     ('trio', (109, 110)),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
+        (abjad.tweak(7.75).bound_details__right__padding, -1),
         ),
     baca.hairpin(
         'p -- !',
+        # terminate at double bar:
+        abjad.tweak((0, 3.5)).shorten_pair,
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
@@ -639,6 +634,8 @@ maker(
             'P -> T',
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
+            bookend=True,
+            selector=baca.pleaves(),
             ),
         stirrings_still.talea_eighths([3, 6, 8], -1, 0),
         match=1,
@@ -715,11 +712,32 @@ maker(
     baca.dls_staff_padding(6),
     )
 
+maker(
+    ('tutti', (42, 61)),
+    baca.tuplet_bracket_down(),
+    baca.tuplet_bracket_staff_padding(1),
+    )
+
+maker(
+    ('tutti', (89, 108)),
+    baca.tuplet_bracket_down(),
+    baca.tuplet_bracket_staff_padding(1),
+    )
+
+maker(
+    ('tutti', (112, 119)),
+    baca.tuplet_bracket_down(),
+    baca.tuplet_bracket_staff_padding(1),
+    )
+
 # v2
 
 maker(
     ('v2', (1, 2)),
-    baca.markup('11°/F'),
+    baca.markup(
+        '11°/F',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.flat_glissando('Bqf3'),
     )
 
@@ -832,10 +850,6 @@ maker(
         abjad.tweak(10).staff_padding,
         measures=(58, 61),
         ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -7,
@@ -854,11 +868,11 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4.5 + 6.5).staff_padding,
         ),
     baca.pitches('D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5'),
     baca.tuplet_bracket_down(),
-    baca.tuplet_bracket_staff_padding(3.5),
+    baca.tuplet_bracket_staff_padding(1),
     stirrings_still.bcps(
         0,
         clt=True,
@@ -871,7 +885,7 @@ maker(
 maker(
     ('v2', (78, 80)),
     baca.hairpin(
-        '(p) < mf -- !',
+        'o< mf -- !',
         abjad.tweak(True).to_barline,
         pieces=baca.mgroups([2, 1 + 1]),
         selector=baca.leaves().rleak(),
@@ -879,7 +893,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         'T -> poco P =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         bookend=False,
         pieces=baca.mgroups([2, 1 + 1]),
         selector=baca.leaves().rleak(),
@@ -887,7 +901,7 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight_spanner('flight -|', 5.5),
+    stirrings_still.flight_spanner('flight -|', 8),
     )
 
 maker(
@@ -931,10 +945,6 @@ maker(
         abjad.tweak(10).staff_padding,
         measures=(105, 108),
         ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -7,
@@ -949,7 +959,10 @@ maker(
 
 maker(
     ('va', (1, 2)),
-    baca.markup('5°/F'),
+    baca.markup(
+        '5°/F',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.flat_glissando('A3'),
     )
 
@@ -1044,7 +1057,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4.5 + 6.5).staff_padding,
         ),
     baca.pitches('D5 F5 Dqs5 E5 Fqs5 G#5 A5 F5 Aqs5'),
     baca.tuplet_bracket_down(),
@@ -1060,7 +1073,7 @@ maker(
 maker(
     ('va', (77, 80)),
     baca.hairpin(
-        '(p) < mf -- !',
+        'o< mf -- !',
         abjad.tweak(True).to_barline,
         pieces=baca.mgroups([3, 1 + 1]),
         selector=baca.leaves().rleak(),
@@ -1068,7 +1081,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         'T -> poco P =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         bookend=False,
         pieces=baca.mgroups([3, 1 + 1]),
         selector=baca.leaves().rleak(),
@@ -1076,7 +1089,7 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight_spanner('flight -|', 5.5),
+    stirrings_still.flight_spanner('flight -|', 8),
     )
 
 maker(
@@ -1114,7 +1127,7 @@ maker(
         ),
     baca.new(
         stirrings_still.desynchronization(4, [0]),
-    stirrings_still.flat_glissando('B3'),
+        stirrings_still.flat_glissando('B3'),
         match=0,
         ),
     baca.new(
@@ -1134,10 +1147,6 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(10).staff_padding,
         measures=(58, 61),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
         ),
     baca.new(
         baca.tuplet_bracket_down(),
@@ -1229,10 +1238,6 @@ maker(
         abjad.tweak(10).staff_padding,
         measures=(105, 108),
         ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
     baca.new(
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
@@ -1303,7 +1308,7 @@ maker(
 
 maker(
     ('vc', (1, 27)),
-    stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
+    stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 8),
    )
 
 maker(

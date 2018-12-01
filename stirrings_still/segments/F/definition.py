@@ -62,13 +62,12 @@ maker(
     baca.markup(
         r'\stirrings-still-thirteen-plus-nine-e-flat',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         literal=True,
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
         'clouded pane (doublestop partials) -|',
-        5.5,
+        8,
         ),
     stirrings_still.flat_glissando(
         '<F5 Bqs5>',
@@ -88,13 +87,12 @@ maker(
     baca.markup(
         r'\stirrings-still-seven-plus-five-e-flat',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         literal=True,
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
         'clouded pane (doublestop partials) -|',
-        5.5,
+        8,
         ),
     stirrings_still.flat_glissando(
         '<G4 Dqs5>',
