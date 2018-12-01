@@ -60,16 +60,14 @@ maker(
             ),
         baca.markup(
             '9°/C',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=0,
         ),
     baca.new(
         baca.markup(
             '9°/C',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=[1, 2, 3],
         ),
@@ -256,16 +254,14 @@ maker(
             ),
         baca.markup(
             '11°/C',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=0,
         ),
     baca.new(
         baca.markup(
             '11°/C',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=[1, 2, 3],
         ),
@@ -365,16 +361,14 @@ maker(
         baca.markup('allow vibrato to achieve loud dynamics'),
         baca.markup(
             '13°/C',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=0,
         ),
     baca.new(
         baca.markup(
             '13°/C',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=[1, 2, 3],
         ),
