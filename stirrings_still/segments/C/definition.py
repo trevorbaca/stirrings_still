@@ -216,10 +216,16 @@ maker(
         ),
     )
 
+maker(
+    ('v1', (71, 76)),
+    baca.tuplet_bracket_down(),
+    baca.tuplet_bracket_staff_padding(1.25),
+    )
+
 # v1, v2, va
 
 maker(
-    'trio',
+    ('trio', (1, 69)),
     baca.tuplet_bracket_down(),
     )
 
@@ -636,9 +642,9 @@ maker(
     ('tutti', (71, 76)),
     baca.hairpin(
         'f >o niente',
+        abjad.tweak((0, 3.5)).shorten_pair,
         selector=baca.leaves().rleak(),
         ),
-    # TODO: revoice
     baca.new(
         stirrings_still.desynchronization(4, [1]),
         stirrings_still.flat_glissando(
@@ -674,9 +680,10 @@ maker(
     baca.text_spanner(
         r'\baca-circle-wide-markup -> \baca-circle-very-tight-markup =|',
         abjad.tweak(5.5).staff_padding,
+        # spanner terminates at double bar:
+        (abjad.tweak(7.75).bound_details__right__padding, -1),
         bookend=False,
-        autodetect_right_padding=True,
-        pieces=baca.leaves().mgroups([3, 4]),
+        pieces=baca.leaves().mgroups([3, 3 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
@@ -816,11 +823,21 @@ maker(
         ),
     )
 
+maker(
+    ('va', (71, 76)),
+    baca.tuplet_bracket_staff_padding(0.5),
+    )
+
 # vc
 
 maker(
     'vc',
     baca.clef('treble'),
+    )
+
+maker(
+    ('vc', (1, 35)),
+    baca.tuplet_bracket_down(),
     )
 
 maker(
@@ -913,4 +930,9 @@ maker(
 maker(
     ('vc', 61),
     baca.tacet(),
+    )
+
+maker(
+    ('vc', (71, 76)),
+    baca.tuplet_bracket_staff_padding(0.5),
     )
