@@ -183,8 +183,7 @@ maker(
         ),
     baca.markup(
         r'\stirrings-still-seven-d-flat',
-        abjad.tweak(1).padding,
-        direction=abjad.Down,
+        abjad.tweak(1.5).padding,
         literal=True,
         ),
     stirrings_still.flat_glissando('Bqf3'),
@@ -218,12 +217,13 @@ maker(
         selector=baca.leaves(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(5 + 6.5).staff_padding,
+        abjad.tweak(6 + 6.5).staff_padding,
         # TODO: extend spanner to phantom measure
         selector=baca.leaves(),
         ),
     baca.markup(
         baca.markups.string_number(3),
+        abjad.tweak(1.5).padding,
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
@@ -242,7 +242,7 @@ maker(
     stirrings_still.eighths(),
     stirrings_still.transition_bcps(
         final_spanner=True,
-        staff_padding=5,
+        staff_padding=6,
         ),
     )
 
@@ -256,7 +256,7 @@ maker(
         ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(
-        staff_padding=5,
+        staff_padding=6,
         ),
     stirrings_still.flat_glissando('A5'),
     )
