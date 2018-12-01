@@ -167,10 +167,10 @@ maker(
     ('v1', (1, 7)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.tuplet_number_denominator(),
     )
@@ -182,7 +182,7 @@ maker(
 
 maker(
     ('v1', (1, 24)),
-    baca.tuplet_bracket_staff_padding(3),
+    baca.tuplet_bracket_staff_padding(1),
     )
 
 maker(
@@ -210,7 +210,7 @@ maker(
     ('v1', (12, 13)),
     baca.circle_bow_spanner(
         'tight',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.circles(
         (1, 4),
@@ -222,7 +222,7 @@ maker(
 maker(
     ('v1', (12, 24)),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.hairpin(
         'p -- (p) >o niente',
@@ -244,10 +244,7 @@ maker(
 maker(
     ('v1', (14, 24)),
     baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.tuplet_bracket_down(
-        selector=baca.leaves().lleak(),
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -307,7 +304,7 @@ maker(
 maker(
     ('v1', 26),
     baca.tasto_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.flat_glissando(
         '<E4 C5>',
@@ -331,7 +328,6 @@ maker(
 maker(
     ('v1', [
         (29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
         clt=True,
@@ -389,7 +385,11 @@ maker(
 
 maker(
     ('v1', 48),
-    baca.markup('(7+9)°/E'),
+    baca.markup(
+        '(7+9)°/E',
+        abjad.tweak(1.5).padding,
+        direction=abjad.Down,
+        ),
     baca.pitch('<F#4 Dqf5>'),
     )
 
@@ -437,7 +437,7 @@ maker(
     ('v1', (61, 62)),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -469,15 +469,16 @@ maker(
             abjad.tweak((0, 1)).extra_offset,
             selector=baca.pleaf(1),
             ),
+        stirrings_still.urtext_spanner('A, B -|', 8),
         match=0,
         ),
     baca.new(
+        stirrings_still.urtext_spanner('A, B -|', 10.5),
         baca.breathe(selector=baca.pleaf(1)),
         match=[1, 2],
         ),
     baca.stop_on_string(selector=baca.pleaf(-1)),
     stirrings_still.declamation(),
-    stirrings_still.urtext_spanner('A, B -|', 5.5),
     )
 
 maker(
@@ -493,30 +494,42 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.tasto_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.stem_tremolo(),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_spanner('urtext (cds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (cds) -|', 8),
     )
 
 maker(
     ('trio', 64),
     baca.dynamic('p'),
     baca.new(
-        stirrings_still.flight('A', 0, start=16),
+        stirrings_still.flight(
+            'A',
+            0,
+            start=16,
+            ),
         match=0,
         ),
     baca.new(
-        stirrings_still.flight('C', -1, start=16),
+        stirrings_still.flight(
+            'C',
+            -1,
+            start=16,
+            ),
         match=1,
         ),
     baca.new(
-        stirrings_still.flight('B', -2, start=16),
+        stirrings_still.flight(
+            'B',
+            -2,
+            start=16,
+            ),
         match=2,
         ),
     baca.tasto_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.suite(
         baca.new(
@@ -529,21 +542,30 @@ maker(
         ),
     # stage 2 (after tie adjustments):
     baca.new(
-        baca.markup('(7+9)°/E'),
+        baca.markup(
+            '(7+9)°/E',
+            abjad.tweak(1.5).padding,
+            ),
         stirrings_still.flat_glissando('<F#4 Dqf5>'),
         match=0,
         ),
     baca.new(
-        baca.markup('(5+13)°/E'),
+        baca.markup(
+            '(5+13)°/E',
+            abjad.tweak(1.5).padding,
+            ),
         stirrings_still.flat_glissando('<Cqs4 Ab4>'),
         match=1,
         ),
     baca.new(
-        baca.markup('(11+3)°/E'),
+        baca.markup(
+            '(11+3)°/E',
+            abjad.tweak(1.5).padding,
+            ),
         stirrings_still.flat_glissando('<B2 Aqs3>'),
         match=2,
         ),
-    stirrings_still.urtext_spanner('urtext (cds) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (cds) -|', 8),
     )
 
 # tutti
@@ -551,6 +573,7 @@ maker(
 maker(
     'tutti',
     baca.dls_staff_padding(6),
+    baca.tuplet_bracket_down(),
     )
 
 maker(
@@ -583,19 +606,28 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.markup(
-        'III',
+        baca.markups.string_number(3),
+        abjad.tweak(1.5).padding,
         direction=abjad.Down,
         ),
     baca.text_spanner(
-        'rasp (2°) -> flaut. (2°) =|',
+        '2° =|',
         abjad.tweak(8).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.leaves().rleak(),
+        ),
+    baca.text_spanner(
+        'rasp -> flaut. =|',
+        abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
         pieces=baca.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.rasp(),
-    stirrings_still.urtext_spanner('urtext (rasp) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (rasp) -|', 10.5),
     )
 
 maker(
@@ -669,10 +701,10 @@ maker(
     ('tutti', 42),
     baca.circle_bow_spanner(
         'very-tight',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.hairpin(
         'p -- !',
@@ -734,7 +766,7 @@ maker(
 maker(
     ('tutti', 65),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.new(
         baca.dynamic(
@@ -790,10 +822,10 @@ maker(
     ('v2', (1, 7)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.tuplet_number_denominator(),
     stirrings_still.clockticks(
@@ -804,7 +836,7 @@ maker(
 maker(
     ('v2', (1, 17)),
     baca.pitch('F5'),
-    baca.tuplet_bracket_staff_padding(3),
+    baca.tuplet_bracket_staff_padding(1),
     )
 
 maker(
@@ -829,7 +861,7 @@ maker(
 maker(
     ('v2', (12, 17)),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.tuplet_number_denominator(),
     )
@@ -848,7 +880,7 @@ maker(
 maker(
     ('v2', [(12, 25), 27]),
     baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     )
 
@@ -914,11 +946,11 @@ maker(
 
 maker(
     ('v2', (18, 25)),
-    baca.tuplet_bracket_down(),
+    baca.tuplet_bracket_staff_padding(1.5),
     stirrings_still.bcps(
         0,
         clt=True,
-        staff_padding=2.5,
+        staff_padding=4,
         ),
     stirrings_still.multistage_leaf_glissando(
         [('Bb4', 6), ('D5', 6), ('C5', 6), ('Eb5', 6), ('D5', 6), ('F5', 6),
@@ -931,7 +963,20 @@ maker(
 maker(
     ('v2', (18, 27)),
     baca.tasto_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4 + 6.5 + 2.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('v2', 26),
+    stirrings_still.flat_glissando(
+        '<Eb4 B4>',
+        selector=baca.pleaves()[:2],
+        ),
+    stirrings_still.flat_glissando(
+        '<Eqf4 C5>',
+        hide_middle_stems=True,
+        selector=baca.pleaves()[2:],
         ),
     )
 
@@ -942,11 +987,10 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -2,
         clt=True,
-        staff_padding=3.5,
+        staff_padding=4,
         ),
     stirrings_still.flat_glissando('G5'),
     stirrings_still.trajectories('C', -1, 0),
@@ -962,7 +1006,6 @@ maker(
 
 maker(
     ('v2', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -4,
         clt=True,
@@ -1020,7 +1063,10 @@ maker(
 
 maker(
     ('v2', 48),
-    baca.markup('(5+13)°/E'),
+    baca.markup(
+        '(5+13)°/E',
+        abjad.tweak(1).padding,
+        ),
     baca.pitch('<Cqs4 Ab4>'),
     )
 
@@ -1047,6 +1093,7 @@ maker(
         pieces=baca.mgroups([2, 4, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    baca.tuplet_bracket_staff_padding(1.5),
     )
 
 maker(
@@ -1068,7 +1115,7 @@ maker(
     stirrings_still.circles((1, 4)),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -1092,10 +1139,10 @@ maker(
         selector=baca.leaves().rleak()[-1],
         ),
     baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.pitch('Eqs5'),
-    baca.tuplet_bracket_staff_padding(2),
+    baca.tuplet_bracket_staff_padding(1),
     stirrings_still.clockticks(
         dmask=baca.silence_last(),
         ),
@@ -1104,7 +1151,7 @@ maker(
 maker(
     ('va', (1, 7)),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
@@ -1121,7 +1168,7 @@ maker(
     ('va', (6, 7)),
     baca.circle_bow_spanner(
         'tight',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.circles((1, 4)),
     stirrings_still.flat_glissando('Ab3'),
@@ -1131,10 +1178,10 @@ maker(
     ('va', (12, 21)),
     baca.circle_bow_spanner(
         'tight',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -1166,13 +1213,12 @@ maker(
 maker(
     ('va', [(23, 25), 27]),
     baca.half_clt_spanner(
-        abjad.tweak(3.5 + 6).staff_padding,
+        abjad.tweak(4 + 6.5).staff_padding,
         ),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
         clt=True,
-        staff_padding=3.5,
+        staff_padding=4,
         ),
     stirrings_still.trajectories('C', 0, 0),
     )
@@ -1190,8 +1236,9 @@ maker(
 maker(
     ('va', (23, 27)),
     baca.tasto_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4 + 6.5 + 2.5).staff_padding,
         ),
+    baca.tuplet_bracket_staff_padding(1.5),
     )
 
 maker(
@@ -1227,7 +1274,6 @@ maker(
 
 maker(
     ('va', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
         clt=True,
@@ -1247,6 +1293,11 @@ maker(
         'Ftqs5',
         stop_pitch='Ab4',
         ),
+    )
+
+maker(
+    ('va', (34, 46)),
+    baca.tuplet_bracket_staff_padding(1.5),
     )
 
 maker(
@@ -1286,7 +1337,10 @@ maker(
 
 maker(
     ('va', 48),
-    baca.markup('(11+3)°/E'),
+    baca.markup(
+        '(11+3)°/E',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('<B2 Aqs3>'),
     )
 
@@ -1308,11 +1362,12 @@ maker(
             ),
         baca.scp_spanner(
             'P poss. -> P molto -> T =|',
-            abjad.tweak(10.5).staff_padding,
+            abjad.tweak(4 + 6.5).staff_padding,
             stirrings_still.left_broken_tasto_tweak(),
             ),
         pieces=baca.mgroups([2, 4, 4 + 1]),
         ),
+    baca.tuplet_bracket_staff_padding(1.5),
     )
 
 maker(
@@ -1331,7 +1386,6 @@ maker(
 
 maker(
     ('va', (58, 59)),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -2,
         clt=True,
@@ -1344,7 +1398,7 @@ maker(
     ('va', (60, 62)),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.circles((1, 4)),
     )
@@ -1369,10 +1423,10 @@ maker(
         selector=baca.leaves().rleak()[-1],
         ),
     baca.damp_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.half_clt_spanner(
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.pitch('Dtqs5'),
     baca.tuplet_number_denominator(),
@@ -1400,7 +1454,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane -|', 10.5),
+    stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
     stirrings_still.flat_glissando(
         'E2',
         hide_middle_stems=True,
@@ -1411,10 +1465,10 @@ maker(
     ('vc', (12, 15)),
     baca.circle_bow_spanner(
         'tight',
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.damp_spanner(
-        abjad.tweak(13).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     stirrings_still.circles(
         (1, 4),
@@ -1434,7 +1488,6 @@ maker(
 
 maker(
     ('vc', 15),
-    baca.tuplet_bracket_down(),
     baca.tuplet_bracket_transparent(),
     )
 
@@ -1471,14 +1524,14 @@ maker(
 maker(
     ('vc', (16, 19)),
     baca.damp_spanner(
-        abjad.tweak(13).staff_padding,
+        abjad.tweak(4 + 6.5 + 2.5).staff_padding,
         ),
     )
 
 maker(
     ('vc', (16, 25)),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4 + 6.5).staff_padding,
         ),
     )
 
@@ -1510,13 +1563,12 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.tasto_spanner(
-        abjad.tweak(13).staff_padding,
+        abjad.tweak(4 + 6.5 + 2.5).staff_padding,
         ),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         0,
         clt=True,
-        staff_padding=3.5,
+        staff_padding=4,
         ),
     stirrings_still.trajectories('B', 0, 0),
     # stage 2:
@@ -1530,16 +1582,8 @@ maker(
     )
 
 maker(
-    ('v2', 26),
-    stirrings_still.flat_glissando(
-        '<Eb4 B4>',
-        selector=baca.pleaves()[:2],
-        ),
-    stirrings_still.flat_glissando(
-        '<Eqf4 C5>',
-        hide_middle_stems=True,
-        selector=baca.pleaves()[2:],
-        ),
+    ('vc', (20, 30)),
+    baca.tuplet_bracket_staff_padding(2),
     )
 
 maker(
@@ -1555,16 +1599,15 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4 + 6.5).staff_padding,
         ),
     baca.tasto_spanner(
-        abjad.tweak(13).staff_padding,
+        abjad.tweak(4 + 6.5 + 2.5).staff_padding,
         ),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -2,
         clt=True,
-        staff_padding=3.5,
+        staff_padding=4,
         ),
     stirrings_still.flat_glissando('Fqs5'),
     stirrings_still.trajectories('B', 0, 0),
@@ -1580,7 +1623,6 @@ maker(
 
 maker(
     ('vc', [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57)]),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -2,
         clt=True,
@@ -1602,6 +1644,11 @@ maker(
         'Fqs5',
         stop_pitch='Bb3',
         ),
+    )
+
+maker(
+    ('vc', (34, 46)),
+    baca.tuplet_bracket_staff_padding(1.5),
     )
 
 maker(
@@ -1642,9 +1689,9 @@ maker(
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    baca.pitch('E2'),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
+    stirrings_still.flat_glissando('E2'),
     )
 
 maker(
@@ -1686,11 +1733,11 @@ maker(
     ('vc', (50, 61)),
     baca.scp_spanner(
         'P poss. -> P molto -> T =|',
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4 + 6.5).staff_padding,
         stirrings_still.left_broken_tasto_tweak(),
         pieces=baca.mgroups([2, 4, 6 + 1]),
-        #selector=baca.leaves().rleak(),
         ),
+    baca.tuplet_bracket_staff_padding(1.5),
     )
 
 maker(
@@ -1709,11 +1756,10 @@ maker(
 
 maker(
     ('vc', (58, 61)),
-    baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -4,
         clt=True,
-        staff_padding=3.5,
+        staff_padding=4,
         ),
     stirrings_still.trajectories('C', -3, 0),
     )
@@ -1722,7 +1768,7 @@ maker(
     ('vc', 62),
     baca.circle_bow_spanner(
         'wide',
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.circles((1, 4)),
     )

@@ -159,7 +159,11 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight('C', 0, start=0),
+    stirrings_still.flight(
+        'C',
+        0,
+        start=0,
+        ),
     )
 
 maker(
@@ -202,7 +206,11 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight('C', 0, start=1),
+    stirrings_still.flight(
+        'C',
+        0,
+        start=1,
+        ),
     )
 
 maker(
@@ -344,7 +352,11 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight('C', -1, start=1),
+    stirrings_still.flight(
+        'C',
+        -1,
+        start=1,
+        ),
     )
 
 maker(
@@ -387,7 +399,11 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight('C', -1, start=2),
+    stirrings_still.flight(
+        'C',
+        -1,
+        start=2,
+        ),
     )
 
 maker(
@@ -482,7 +498,11 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight('C', -2, start=2),
+    stirrings_still.flight(
+        'C',
+        -2,
+        start=2,
+        ),
     )
 
 maker(
@@ -525,7 +545,11 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight('C', -2, start=3),
+    stirrings_still.flight(
+        'C',
+        -2,
+        start=3,
+        ),
     )
 
 maker(
@@ -630,7 +654,11 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight('C', -3, start=3),
+    stirrings_still.flight(
+        'C',
+        -3,
+        start=3,
+        ),
     )
 
 maker(
@@ -683,7 +711,11 @@ maker(
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
-    stirrings_still.flight('C', -3, start=4),
+    stirrings_still.flight(
+        'C',
+        -3,
+        start=4,
+        ),
     )
 
 maker(
