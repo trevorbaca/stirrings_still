@@ -130,7 +130,7 @@ maker(
     )
 
 maker(
-    ('trio', (5, 13)),
+    ('trio', (5, 11)),
     stirrings_still.urtext_spanner('urtext (ds field) -|', 8),
     )
 
@@ -143,7 +143,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(4 + 6.5).staff_padding,
         # TODO: allow spanner to extend to phantom measure
         #selector=baca.leaves().rleak(),
         selector=baca.leaves(),
@@ -152,7 +152,7 @@ maker(
         stirrings_still.bcps(
             -6,
             clt=True,
-            staff_padding=2.5,
+            staff_padding=4,
             ),
         stirrings_still.trajectories('C', -1, -2),
         match=0,
@@ -161,7 +161,7 @@ maker(
         stirrings_still.bcps(
             -6,
             clt=True,
-            staff_padding=2.5,
+            staff_padding=4,
             ),
         stirrings_still.trajectories('C', -2, -1),
         match=1,
@@ -170,7 +170,7 @@ maker(
         stirrings_still.bcps(
             -5,
             clt=True,
-            staff_padding=2.5,
+            staff_padding=4,
             ),
         stirrings_still.trajectories('C', -3, 0),
         match=2,
@@ -211,6 +211,7 @@ maker(
         stirrings_still.flat_glissando('E2'),
         match=2,
         ),
+    baca.tuplet_bracket_down(),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 8),
     )
