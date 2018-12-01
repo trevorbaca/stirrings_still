@@ -97,8 +97,7 @@ maker(
     baca.new(
         baca.markup(
             '(12ET: conflicts with viola)',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=0,
         ),
@@ -111,6 +110,11 @@ maker(
     )
 
 # trio
+
+maker(
+    'trio',
+    baca.tuplet_bracket_down(),
+    )
 
 maker(
     ('trio', (5, 6)),
@@ -139,6 +143,10 @@ maker(
         match=1,
         ),
     baca.new(
+        baca.markup(
+            '(24ET)',
+            abjad.tweak(1.5).padding,
+            ),
         stirrings_still.flat_glissando(
             '<Eqs4 Gtqs4>',
             hide_middle_stems=True,
@@ -146,7 +154,7 @@ maker(
         match=2,
         ),
     stirrings_still.urtext_field(),
-    stirrings_still.urtext_spanner('urtext (ds field) -|', 5.5),
+    stirrings_still.urtext_spanner('urtext (ds field) -|', 8),
     )
 
 # tutti
@@ -185,6 +193,10 @@ maker(
         match=1,
         ),
     baca.new(
+        baca.markup(
+            '(24ET)',
+            abjad.tweak(1.5).padding,
+            ),
         stirrings_still.flat_glissando('<Ab3 C4>'),
         stirrings_still.flight(
             'B',
@@ -256,29 +268,34 @@ maker(
     baca.new(
         baca.markup(
             '(7+9)°/E',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         baca.tasto_spanner(
-            abjad.tweak(8).staff_padding,
+            abjad.tweak(5.5).staff_padding,
             ),
+        stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 8),
         stirrings_still.flat_glissando('<F#4 Dqf5>'),
         match=0,
         ),
     baca.new(
-        baca.markup('(11+3)°/E'),
-        baca.tasto_spanner(
-            abjad.tweak(8).staff_padding,
+        baca.markup(
+            '(11+3)°/E',
+            abjad.tweak(1.5).padding,
             ),
+        baca.tasto_spanner(
+            abjad.tweak(5.5).staff_padding,
+            ),
+        stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 8),
         stirrings_still.flat_glissando('<B2 Aqs3>'),
         match=1,
         ),
     baca.new(
+        baca.tuplet_bracket_down(),
+        stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
         stirrings_still.flat_glissando('E2'),
         match=2,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
     )
 
 # v2
@@ -289,8 +306,7 @@ maker(
     baca.new(
         baca.markup(
             '(12ET: conflicts with viola)',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=0,
         ),
@@ -338,8 +354,7 @@ maker(
     baca.new(
         baca.markup(
             '(9+7)°/B',
-            abjad.tweak(1).padding,
-            direction=abjad.Down,
+            abjad.tweak(1.5).padding,
             ),
         match=0,
         ),
