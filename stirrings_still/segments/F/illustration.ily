@@ -1166,8 +1166,8 @@ F_Cello_Music_Voice = {                                                        %
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
         % [F Cello_Music_Voice measure 444 / measure 12]                       %! _comment_measure_numbers
-    %%% \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_444:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_444:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_444:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_444:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
