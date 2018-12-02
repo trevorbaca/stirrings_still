@@ -77,8 +77,7 @@ maker(
         ),
     baca.markup(
         r'\stirrings-still-thirteen-d-flat',
-        abjad.tweak(1).padding,
-        direction=abjad.Down,
+        abjad.tweak(1.5).padding,
         literal=True,
         ),
     stirrings_still.flat_glissando('Aqs4'),
@@ -90,6 +89,7 @@ maker(
 maker(
     'tutti',
     baca.dls_staff_padding(5),
+    baca.tuplet_bracket_down(),
     )
 
 # v2
@@ -121,8 +121,7 @@ maker(
         ),
     baca.markup(
         r'\stirrings-still-nine-d-flat',
-        abjad.tweak(1).padding,
-        direction=abjad.Down,
+        abjad.tweak(1.5).padding,
         literal=True,
         ),
     stirrings_still.flat_glissando('Eb4'),
@@ -158,8 +157,7 @@ maker(
         ),
     baca.markup(
         r'\stirrings-still-seven-d-flat',
-        abjad.tweak(1).padding,
-        direction=abjad.Down,
+        abjad.tweak(1.5).padding,
         literal=True,
         ),
     stirrings_still.flat_glissando('Bqf3'),
@@ -191,13 +189,12 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.half_clt_spanner(
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(3 + 6.5).staff_padding,
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -4,
         clt=True,
-        selector=baca.leaves().rleak(),
         staff_padding=3,
         ),
     stirrings_still.flat_glissando('Db2'),
