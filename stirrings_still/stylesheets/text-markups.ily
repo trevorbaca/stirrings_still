@@ -232,6 +232,7 @@ stirrings-still-text-eighteen = \markup {
 stirrings-still-text-nineteen = \markup {
     \with-color #red
     \with-dimensions-from \null
+    \override #'(baseline-skip . 4)
     \override #'(font-size . 2)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
@@ -329,10 +330,8 @@ stirrings-still-text-twenty-four = \markup {
     \with-color #red
     \with-dimensions-from \null
     \override #'(font-size . 2)
-    %%%\override #'(line-width . 80)
-    \override #'(line-width . 60)
+    \override #'(line-width . 80)
     \override #'(word-space . 2)
-    \whiteout
     \justify {
     till then. In any case whatever it might be to end and so on was he not
     already as he stood there all bowed down to his ears faint from deep within

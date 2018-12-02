@@ -180,7 +180,7 @@ F_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-    - \tweak extra-offset #'(0 . 40)                                           %! baca_markup:IndicatorCommand
+    - \tweak extra-offset #'(4 . -24)                                          %! baca_markup:IndicatorCommand
     ^ \stirrings-still-text-nineteen                                           %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -305,6 +305,7 @@ F_Global_Rests = {                                                             %
     R1 * 3/2                                                                   %! _make_global_rests(1)
 
     % [F Global_Rests measure 443 / measure 11]                                %! _comment_measure_numbers
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
@@ -444,12 +445,21 @@ F_Violin_I_Music_Voice = {                                                     %
     R1 * 3/2                                                                   %! _make_measure_silences
 
     % [F Violin_I_Music_Voice measure 443 / measure 11]                        %! _comment_measure_numbers
+    \stopStaff                                                                 %! _style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
+    \startStaff                                                                %! _style_fermata_measures(1)
+    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
+%%% \once \override Score.BarLine.transparent = ##t                            %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_443
+%%% \once \override Score.SpanBar.transparent = ##t                            %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_443
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
         % [F Violin_I_Music_Voice measure 444 / measure 12]                    %! _comment_measure_numbers
+        \stopStaff                                                             %! _style_fermata_measures(2)
+        \once \override Staff.StaffSymbol.line-count = 5                       %! _style_fermata_measures(2)
+        \startStaff                                                            %! _style_fermata_measures(2)
         bf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -698,9 +708,16 @@ F_Violin_II_Music_Voice = {                                                    %
     R1 * 3/2                                                                   %! _make_measure_silences
 
     % [F Violin_II_Music_Voice measure 443 / measure 11]                       %! _comment_measure_numbers
+    \stopStaff                                                                 %! _style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
+    \startStaff                                                                %! _style_fermata_measures(1)
+    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [F Violin_II_Music_Voice measure 444 / measure 12]                       %! _comment_measure_numbers
+    \stopStaff                                                                 %! _style_fermata_measures(2)
+    \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
+    \startStaff                                                                %! _style_fermata_measures(2)
     g'4                                                                        %! stirrings_still_desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -906,6 +923,10 @@ F_Viola_Music_Voice = {                                                        %
             \revert NoteHead.no-ledgers                                        %! baca_glissando
             \undo \hide NoteHead                                               %! baca_glissando
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+            \stopStaff                                                         %! _style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0                   %! _style_fermata_measures(1)
+            \startStaff                                                        %! _style_fermata_measures(1)
+            \once \override Staff.BarLine.bar-extent = #'(-2 . 2)              %! _style_fermata_measures(1)
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -924,6 +945,9 @@ F_Viola_Music_Voice = {                                                        %
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
         % [F Viola_Music_Voice measure 444 / measure 12]                       %! _comment_measure_numbers
+        \stopStaff                                                             %! _style_fermata_measures(2)
+        \once \override Staff.StaffSymbol.line-count = 5                       %! _style_fermata_measures(2)
+        \startStaff                                                            %! _style_fermata_measures(2)
         bf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1160,6 +1184,10 @@ F_Cello_Music_Voice = {                                                        %
     R1 * 3/2                                                                   %! _make_measure_silences
 
     % [F Cello_Music_Voice measure 443 / measure 11]                           %! _comment_measure_numbers
+    \stopStaff                                                                 %! _style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
+    \startStaff                                                                %! _style_fermata_measures(1)
+    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
@@ -1172,6 +1200,9 @@ F_Cello_Music_Voice = {                                                        %
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+        \stopStaff                                                             %! _style_fermata_measures(2)
+        \once \override Staff.StaffSymbol.line-count = 5                       %! _style_fermata_measures(2)
+        \startStaff                                                            %! _style_fermata_measures(2)
         bf'!4                                                                  %! stirrings_still_desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
