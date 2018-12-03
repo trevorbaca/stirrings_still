@@ -269,13 +269,13 @@ maker(
 
 maker(
     ('trio', [1, 3, (5, 6), (8, 9)]),
-    baca.breathe(
-        selector=baca.pleaf(1),
-        ),
     baca.new(
         baca.script_padding(1),
         baca.stop_on_string(),
         selector=baca.pleaf(-1),
+        ),
+    stirrings_still.breathe(
+        selector=baca.pleaf(1),
         ),
     stirrings_still.declamation(),
     )
@@ -330,9 +330,6 @@ maker(
 
 maker(
     ('trio', (11, 16)),
-    baca.breathe(
-        selector=baca.leaf(1),
-        ),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=baca.leaf(2),
@@ -348,6 +345,9 @@ maker(
         ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
+        ),
+    stirrings_still.breathe(
+        selector=baca.leaf(1),
         ),
     stirrings_still.declamation(
         protract=True,
@@ -373,14 +373,14 @@ maker(
 
 maker(
     ('trio', [18, 20, 22, 25, 29]),
-    baca.breathe(
-        selector=baca.pleaf(1),
-        ),
-    baca.breathe(
-        selector=baca.pleaf(-1),
-        ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
+        ),
+    stirrings_still.breathe(
+        selector=baca.pleaf(1),
+        ),
+    stirrings_still.breathe(
+        selector=baca.pleaf(-1),
         ),
     stirrings_still.declamation(),
     )
@@ -488,20 +488,17 @@ maker(
 
 maker(
     ('trio', (41, 45)),
-    baca.breathe(),
     baca.dynamic_text_self_alignment_x(-1),
     baca.hairpin(
         '(ppp) >o',
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
+    stirrings_still.breathe(),
     )
 
 maker(
     ('trio', 60),
-    baca.breathe(
-        selector=baca.pleaf(1),
-        ),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=baca.leaf(2),
@@ -515,6 +512,9 @@ maker(
         ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
+        ),
+    stirrings_still.breathe(
+        selector=baca.pleaf(1),
         ),
     stirrings_still.declamation(),
     stirrings_still.urtext_spanner('A, B -|', 8),

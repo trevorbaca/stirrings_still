@@ -697,7 +697,8 @@ J_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -1259,7 +1260,8 @@ J_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still_bcps:BCPCommand(2)
     - \tweak staff-padding #4                                                  %! stirrings_still_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! stirrings_still_bcps:BCPCommand(2)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
@@ -1814,7 +1816,8 @@ J_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_trajectories
 

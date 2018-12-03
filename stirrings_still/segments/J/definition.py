@@ -233,7 +233,14 @@ maker(
 
 maker(
     ('tutti', 13),
-    baca.breathe(),
+    baca.new(
+        stirrings_still.breathe(),
+        match=[0, 1, 2],
+        ),
+    baca.new(
+        baca.breathe(),
+        match=3,
+        ),
     )
 
 # v2

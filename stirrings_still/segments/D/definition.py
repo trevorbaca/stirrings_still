@@ -311,7 +311,6 @@ maker(
 
 maker(
     ('trio', [47, 55]),
-    baca.breathe(selector=baca.pleaf(1)),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=baca.leaf(2),
@@ -363,6 +362,9 @@ maker(
         ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
+        ),
+    stirrings_still.breathe(
+        selector=baca.pleaf(1),
         ),
     stirrings_still.declamation(),
     stirrings_still.urtext_spanner('A, B -|', 8),

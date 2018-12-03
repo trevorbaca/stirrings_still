@@ -468,16 +468,17 @@ maker(
         pieces=baca.clparts([1]),
         ),
     baca.new(
-        baca.breathe(
-            abjad.tweak((0, 1)).extra_offset,
+        stirrings_still.breathe(
             selector=baca.pleaf(1),
             ),
         stirrings_still.urtext_spanner('A, B -|', 8),
         match=0,
         ),
     baca.new(
+        stirrings_still.breathe(
+            selector=baca.pleaf(1),
+            ),
         stirrings_still.urtext_spanner('A, B -|', 10.5),
-        baca.breathe(selector=baca.pleaf(1)),
         match=[1, 2],
         ),
     baca.stop_on_string(selector=baca.pleaf(-1)),

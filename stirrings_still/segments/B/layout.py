@@ -4,35 +4,35 @@ import baca
 breaks = baca.breaks(
     baca.page(
         baca.system(
-            20, 28,
+            20, 30,
             measure=1,
-            y_offset=20,
+            y_offset=30,
             ),
         baca.system(
-            20, 28,
+            20, 30,
             measure=17,
-            y_offset=160,
+            y_offset=175,
             ),
         number=1,
         ),
     baca.page(
         baca.system(
-            20, 26,
+            20, 30,
             measure=33,
-            y_offset=20,
+            y_offset=30,
             ),
         baca.system(
-            20, 26,
+            20, 30,
             measure=50,
-            y_offset=160,
+            y_offset=175,
             ),
         number=2,
         ),
     baca.page(
         baca.system(
-            20, 26,
+            20, 30,
             measure=61,
-            y_offset=20,
+            y_offset=30,
             ),
         number=3,
         ),

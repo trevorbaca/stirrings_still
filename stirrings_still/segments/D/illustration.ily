@@ -2920,7 +2920,8 @@ D_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 5/4 {                                                               %! stirrings_still_declamation
@@ -3029,7 +3030,8 @@ D_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation
@@ -4717,7 +4719,8 @@ D_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 5/4 {                                                               %! stirrings_still_declamation
@@ -4826,7 +4829,8 @@ D_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation
@@ -6508,7 +6512,8 @@ D_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 5/4 {                                                               %! stirrings_still_declamation
@@ -6669,7 +6674,8 @@ D_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation

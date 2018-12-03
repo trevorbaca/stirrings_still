@@ -11564,6 +11564,7 @@ Q_Cello_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     c4                                                                         %! stirrings_still_desynchronization
+    \tweak extra-offset #'(-1 . 0)                                             %! baca_breathe:IndicatorCommand
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -12214,6 +12215,7 @@ Q_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         c4                                                                     %! stirrings_still_desynchronization
+        \tweak extra-offset #'(-1 . 0)                                         %! baca_breathe:IndicatorCommand
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -12767,6 +12769,7 @@ Q_Cello_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
     c4                                                                         %! stirrings_still_desynchronization
+    \tweak extra-offset #'(-1 . 0)                                             %! baca_breathe:IndicatorCommand
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -13263,6 +13266,7 @@ Q_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         c4                                                                     %! stirrings_still_desynchronization
+        \tweak extra-offset #'(-1 . 0)                                         %! baca_breathe:IndicatorCommand
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -13649,6 +13653,7 @@ Q_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         c4                                                                     %! stirrings_still_desynchronization
+        \tweak extra-offset #'(-1 . 0)                                         %! baca_breathe:IndicatorCommand
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
@@ -13927,6 +13932,7 @@ Q_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         c4                                                                     %! stirrings_still_desynchronization
+        \tweak extra-offset #'(-1 . 0)                                         %! baca_breathe:IndicatorCommand
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization

@@ -2390,8 +2390,8 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(0 . 1)                                              %! baca_breathe:IndicatorCommand
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>8.
@@ -4921,7 +4921,8 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>8.
@@ -7012,7 +7013,8 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>8.

@@ -1517,7 +1517,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>8.
@@ -1597,7 +1598,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>4.
@@ -1675,7 +1677,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 11/8 {                                                              %! stirrings_still_declamation
@@ -1758,7 +1761,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 13/8 {                                                              %! stirrings_still_declamation
@@ -1850,7 +1854,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>2.
@@ -1971,7 +1976,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation
@@ -2000,7 +2006,8 @@ A_Violin_I_Music_Voice = {                                                     %
         <cs'! aqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -2063,7 +2070,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! aqs'!>4.
@@ -2089,7 +2097,8 @@ A_Violin_I_Music_Voice = {                                                     %
     <cs'! aqs'!>8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2141,7 +2150,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
@@ -2170,7 +2180,8 @@ A_Violin_I_Music_Voice = {                                                     %
         <cs'! aqs'!>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -2278,7 +2289,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! aqs'!>8.
@@ -2306,7 +2318,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
@@ -2454,7 +2467,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
@@ -2483,7 +2497,8 @@ A_Violin_I_Music_Voice = {                                                     %
         <cs'! aqs'!>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -2738,7 +2753,8 @@ A_Violin_I_Music_Voice = {                                                     %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         b'4                                                                    %! stirrings_still_desynchronization
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -3150,7 +3166,8 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>4.
@@ -3369,7 +3386,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>8.
@@ -3449,7 +3467,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>4.
@@ -3527,7 +3546,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 11/8 {                                                              %! stirrings_still_declamation
@@ -3610,7 +3630,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 13/8 {                                                              %! stirrings_still_declamation
@@ -3700,7 +3721,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>2.
@@ -3821,7 +3843,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation
@@ -3850,7 +3873,8 @@ A_Violin_II_Music_Voice = {                                                    %
         <cqs'! a'>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -3911,7 +3935,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cqs'! a'>4.
@@ -3937,7 +3962,8 @@ A_Violin_II_Music_Voice = {                                                    %
     <cqs'! a'>8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3989,7 +4015,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
@@ -4018,7 +4045,8 @@ A_Violin_II_Music_Voice = {                                                    %
         <cqs'! a'>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -4117,7 +4145,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cqs'! a'>8.
@@ -4145,7 +4174,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     % [A Violin_II_Music_Voice measure 26]                                     %! _comment_measure_numbers
     df'!4                                                                      %! stirrings_still_desynchronization
@@ -4292,7 +4322,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
@@ -4321,7 +4352,8 @@ A_Violin_II_Music_Voice = {                                                    %
         <cqs'! a'>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -4484,7 +4516,8 @@ A_Violin_II_Music_Voice = {                                                    %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         df'!4                                                                  %! stirrings_still_desynchronization
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -4860,7 +4893,8 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>4.
@@ -5072,7 +5106,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>8.
@@ -5152,7 +5187,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>4.
@@ -5230,7 +5266,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 11/8 {                                                              %! stirrings_still_declamation
@@ -5313,7 +5350,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 13/8 {                                                              %! stirrings_still_declamation
@@ -5403,7 +5441,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>2.
@@ -5524,7 +5563,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 6/8 {                                                               %! stirrings_still_declamation
@@ -5553,7 +5593,8 @@ A_Viola_Music_Voice = {                                                        %
         <as! eqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -5614,7 +5655,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <as! eqs'!>4.
@@ -5640,7 +5682,8 @@ A_Viola_Music_Voice = {                                                        %
     <as! eqs'!>8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5692,7 +5735,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
@@ -5721,7 +5765,8 @@ A_Viola_Music_Voice = {                                                        %
         <as! eqs'!>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -5829,7 +5874,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <as! eqs'!>8.
@@ -5857,7 +5903,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
@@ -6007,7 +6054,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 3/4 {                                                               %! stirrings_still_declamation
@@ -6036,7 +6084,8 @@ A_Viola_Music_Voice = {                                                        %
         <as! eqs'!>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -6305,7 +6354,8 @@ A_Viola_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         a4                                                                     %! stirrings_still_desynchronization
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -6725,7 +6775,8 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>4.

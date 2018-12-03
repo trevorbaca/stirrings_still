@@ -571,7 +571,6 @@ maker(
 maker(
     ('tutti', (56, 59)),
     baca.breathe(),
-    #baca.dynamic('ff', redundant=True),
     baca.hairpin(
         '"ff" -- !',
         abjad.tweak(True).to_barline,
