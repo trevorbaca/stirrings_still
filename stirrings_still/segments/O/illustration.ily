@@ -1,6 +1,6 @@
 O_Global_Skips = {                                                             %! extern
 
-    % [O Global_Skips measure 696 / measure 1]                                 %! _comment_measure_numbers
+    % [O Global_Skips measure 697 / measure 1]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -11,7 +11,7 @@ O_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "696"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "697"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[O.1]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -24,7 +24,7 @@ O_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only "[31'51'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [O Global_Skips measure 697 / measure 2]                                 %! _comment_measure_numbers
+    % [O Global_Skips measure 698 / measure 2]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -34,12 +34,12 @@ O_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "697"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "698"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \baca-start-ct-left-only "[31'51'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [O Global_Skips measure 698 / measure 3]                                 %! _comment_measure_numbers
+    % [O Global_Skips measure 699 / measure 3]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -51,12 +51,12 @@ O_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "698"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "699"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \baca-start-ct-left-only "[31'55'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [O Global_Skips measure 699 / measure 4]                                 %! _comment_measure_numbers
+    % [O Global_Skips measure 700 / measure 4]                                 %! _comment_measure_numbers
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -66,12 +66,12 @@ O_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "699"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "700"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \baca-start-ct-left-only "[31'55'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [O Global_Skips measure 700 / measure 5]                                 %! _comment_measure_numbers
+    % [O Global_Skips measure 701 / measure 5]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -83,12 +83,12 @@ O_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "700"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "701"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \baca-start-ct-left-only "[31'59'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [O Global_Skips measure 701 / measure 6]                                 %! _comment_measure_numbers
+    % [O Global_Skips measure 702 / measure 6]                                 %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
@@ -100,12 +100,12 @@ O_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "701"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "702"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \baca-start-ct-left-only "[31'59'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [O Global_Skips measure 702 / measure 7]                                 %! _comment_measure_numbers
+    % [O Global_Skips measure 703 / measure 7]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -119,7 +119,7 @@ O_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "702"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "703"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-colored-left-only "[H.13.4]" #darkgreen                  %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -132,11 +132,11 @@ O_Global_Skips = {                                                             %
 %@% - \baca-start-ct-left-only "[32'02'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [O Global_Skips measure 703 / measure 8]                                 %! _comment_measure_numbers
+    % [O Global_Skips measure 704 / measure 8]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-    - \tweak extra-offset #'(0 . -40)                                          %! baca_markup:IndicatorCommand
+    - \tweak extra-offset #'(4 . -30)                                          %! baca_markup:IndicatorCommand
     ^ \stirrings-still-text-twenty-four                                        %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -146,14 +146,14 @@ O_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "703"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "704"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
 %@% - \baca-start-ct-both "[32'02'']" "[32'21'']"                              %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-    % [O Global_Skips measure 704 / measure 9]                                 %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+    % [O Global_Skips measure 705 / measure 9]                                 %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
     \time 1/4                                                                  %! PHANTOM:_style_phantom_measures(1):REDUNDANT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(3)
     \baca-time-signature-transparent                                           %! PHANTOM:_style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:_make_global_skips(3)
@@ -171,34 +171,34 @@ O_Global_Skips = {                                                             %
 
 O_Global_Rests = {                                                             %! extern
 
-    % [O Global_Rests measure 696 / measure 1]                                 %! _comment_measure_numbers
+    % [O Global_Rests measure 697 / measure 1]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [O Global_Rests measure 697 / measure 2]                                 %! _comment_measure_numbers
+    % [O Global_Rests measure 698 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [O Global_Rests measure 698 / measure 3]                                 %! _comment_measure_numbers
+    % [O Global_Rests measure 699 / measure 3]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [O Global_Rests measure 699 / measure 4]                                 %! _comment_measure_numbers
+    % [O Global_Rests measure 700 / measure 4]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [O Global_Rests measure 700 / measure 5]                                 %! _comment_measure_numbers
+    % [O Global_Rests measure 701 / measure 5]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [O Global_Rests measure 701 / measure 6]                                 %! _comment_measure_numbers
+    % [O Global_Rests measure 702 / measure 6]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [O Global_Rests measure 702 / measure 7]                                 %! _comment_measure_numbers
+    % [O Global_Rests measure 703 / measure 7]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [O Global_Rests measure 703 / measure 8]                                 %! _comment_measure_numbers
+    % [O Global_Rests measure 704 / measure 8]                                 %! _comment_measure_numbers
     \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests(1)
     ^ \baca-very-long-fermata-markup                                           %! baca_global_fermata:GlobalFermataCommand(1)
 
-    % [O Global_Rests measure 704 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    % [O Global_Rests measure 705 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
@@ -206,7 +206,7 @@ O_Global_Rests = {                                                             %
 
 O_Violin_I_Music_Voice = {                                                     %! extern
 
-    % [O Violin_I_Music_Voice measure 696 / measure 1]                         %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 697 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override DynamicLineSpanner.staff-padding = #5                            %! baca_dls_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
@@ -246,7 +246,7 @@ O_Violin_I_Music_Voice = {                                                     %
 
     ef'!4                                                                      %! stirrings_still_circles
 
-    % [O Violin_I_Music_Voice measure 697 / measure 2]                         %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 698 / measure 2]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
 
     ef'!4                                                                      %! stirrings_still_circles
@@ -255,21 +255,21 @@ O_Violin_I_Music_Voice = {                                                     %
 
     ef'!4                                                                      %! stirrings_still_circles
 
-    % [O Violin_I_Music_Voice measure 698 / measure 3]                         %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 699 / measure 3]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
 
     ef'!4                                                                      %! stirrings_still_circles
 
     ef'!4                                                                      %! stirrings_still_circles
 
-    % [O Violin_I_Music_Voice measure 699 / measure 4]                         %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 700 / measure 4]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
 
     ef'!4                                                                      %! stirrings_still_circles
 
     ef'!4                                                                      %! stirrings_still_circles
 
-    % [O Violin_I_Music_Voice measure 700 / measure 5]                         %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 701 / measure 5]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
 
     ef'!4                                                                      %! stirrings_still_circles
@@ -278,7 +278,7 @@ O_Violin_I_Music_Voice = {                                                     %
 
     ef'!4                                                                      %! stirrings_still_circles
 
-    % [O Violin_I_Music_Voice measure 701 / measure 6]                         %! _comment_measure_numbers
+    % [O Violin_I_Music_Voice measure 702 / measure 6]                         %! _comment_measure_numbers
     ef'!4                                                                      %! stirrings_still_circles
 
     ef'!4                                                                      %! stirrings_still_circles
@@ -295,7 +295,7 @@ O_Violin_I_Music_Voice = {                                                     %
 
     \times 2/3 {                                                               %! stirrings_still_pickets
 
-        % [O Violin_I_Music_Voice measure 702 / measure 7]                     %! _comment_measure_numbers
+        % [O Violin_I_Music_Voice measure 703 / measure 7]                     %! _comment_measure_numbers
         aqs'!4                                                                 %! stirrings_still_pickets
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -340,7 +340,7 @@ O_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Violin_I_Music_Voice measure 703 / measure 8]                 %! _comment_measure_numbers
+            % [O Violin_I_Music_Voice measure 704 / measure 8]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \stopStaff                                                         %! _style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0                   %! _style_fermata_measures(1)
@@ -355,15 +355,15 @@ O_Violin_I_Music_Voice = {                                                     %
             \stopStaff                                                         %! _style_fermata_measures(3)
             \once \override Staff.StaffSymbol.line-count = 5                   %! _style_fermata_measures(3)
             \startStaff                                                        %! _style_fermata_measures(3)
-            \once \override Score.BarLine.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_703
-            \once \override Score.SpanBar.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_703
+            \once \override Score.BarLine.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_704
+            \once \override Score.SpanBar.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_704
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Violin_I_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Violin_I_Rest_Voice measure 703 / measure 8]                  %! _comment_measure_numbers
+            % [O Violin_I_Rest_Voice measure 704 / measure 8]                  %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -375,7 +375,7 @@ O_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [O Violin_I_Music_Voice measure 704 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [O Violin_I_Music_Voice measure 705 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -384,7 +384,7 @@ O_Violin_I_Music_Voice = {                                                     %
         \context Voice = "Violin_I_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [O Violin_I_Rest_Voice measure 704 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [O Violin_I_Rest_Voice measure 705 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -412,7 +412,7 @@ O_Violin_I_Music_Staff = <<                                                    %
 
 O_Violin_II_Music_Voice = {                                                    %! extern
 
-    % [O Violin_II_Music_Voice measure 696 / measure 1]                        %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 697 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override DynamicLineSpanner.staff-padding = #5                            %! baca_dls_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
@@ -452,7 +452,7 @@ O_Violin_II_Music_Voice = {                                                    %
 
     d'4                                                                        %! stirrings_still_circles
 
-    % [O Violin_II_Music_Voice measure 697 / measure 2]                        %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 698 / measure 2]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
 
     d'4                                                                        %! stirrings_still_circles
@@ -461,21 +461,21 @@ O_Violin_II_Music_Voice = {                                                    %
 
     d'4                                                                        %! stirrings_still_circles
 
-    % [O Violin_II_Music_Voice measure 698 / measure 3]                        %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 699 / measure 3]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
 
     d'4                                                                        %! stirrings_still_circles
 
     d'4                                                                        %! stirrings_still_circles
 
-    % [O Violin_II_Music_Voice measure 699 / measure 4]                        %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 700 / measure 4]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
 
     d'4                                                                        %! stirrings_still_circles
 
     d'4                                                                        %! stirrings_still_circles
 
-    % [O Violin_II_Music_Voice measure 700 / measure 5]                        %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 701 / measure 5]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
 
     d'4                                                                        %! stirrings_still_circles
@@ -484,7 +484,7 @@ O_Violin_II_Music_Voice = {                                                    %
 
     d'4                                                                        %! stirrings_still_circles
 
-    % [O Violin_II_Music_Voice measure 701 / measure 6]                        %! _comment_measure_numbers
+    % [O Violin_II_Music_Voice measure 702 / measure 6]                        %! _comment_measure_numbers
     d'4                                                                        %! stirrings_still_circles
 
     d'4                                                                        %! stirrings_still_circles
@@ -501,7 +501,7 @@ O_Violin_II_Music_Voice = {                                                    %
 
     \times 4/5 {                                                               %! stirrings_still_pickets
 
-        % [O Violin_II_Music_Voice measure 702 / measure 7]                    %! _comment_measure_numbers
+        % [O Violin_II_Music_Voice measure 703 / measure 7]                    %! _comment_measure_numbers
         ef'!4                                                                  %! stirrings_still_pickets
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -544,7 +544,7 @@ O_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Music_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Violin_II_Music_Voice measure 703 / measure 8]                %! _comment_measure_numbers
+            % [O Violin_II_Music_Voice measure 704 / measure 8]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \stopStaff                                                         %! _style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0                   %! _style_fermata_measures(1)
@@ -565,7 +565,7 @@ O_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Rest_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Violin_II_Rest_Voice measure 703 / measure 8]                 %! _comment_measure_numbers
+            % [O Violin_II_Rest_Voice measure 704 / measure 8]                 %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -577,7 +577,7 @@ O_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Music_Voice"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [O Violin_II_Music_Voice measure 704 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [O Violin_II_Music_Voice measure 705 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -586,7 +586,7 @@ O_Violin_II_Music_Voice = {                                                    %
         \context Voice = "Violin_II_Rest_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [O Violin_II_Rest_Voice measure 704 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [O Violin_II_Rest_Voice measure 705 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -611,7 +611,7 @@ O_Violin_II_MusicStaff = {                                                     %
 
 O_Viola_Music_Voice = {                                                        %! extern
 
-    % [O Viola_Music_Voice measure 696 / measure 1]                            %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 697 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -655,7 +655,7 @@ O_Viola_Music_Voice = {                                                        %
 
     g4                                                                         %! stirrings_still_circles
 
-    % [O Viola_Music_Voice measure 697 / measure 2]                            %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 698 / measure 2]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
 
     g4                                                                         %! stirrings_still_circles
@@ -664,21 +664,21 @@ O_Viola_Music_Voice = {                                                        %
 
     g4                                                                         %! stirrings_still_circles
 
-    % [O Viola_Music_Voice measure 698 / measure 3]                            %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 699 / measure 3]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
 
     g4                                                                         %! stirrings_still_circles
 
     g4                                                                         %! stirrings_still_circles
 
-    % [O Viola_Music_Voice measure 699 / measure 4]                            %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 700 / measure 4]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
 
     g4                                                                         %! stirrings_still_circles
 
     g4                                                                         %! stirrings_still_circles
 
-    % [O Viola_Music_Voice measure 700 / measure 5]                            %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 701 / measure 5]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
 
     g4                                                                         %! stirrings_still_circles
@@ -687,7 +687,7 @@ O_Viola_Music_Voice = {                                                        %
 
     g4                                                                         %! stirrings_still_circles
 
-    % [O Viola_Music_Voice measure 701 / measure 6]                            %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 702 / measure 6]                            %! _comment_measure_numbers
     g4                                                                         %! stirrings_still_circles
 
     g4                                                                         %! stirrings_still_circles
@@ -702,7 +702,7 @@ O_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     g4                                                                         %! stirrings_still_circles
 
-    % [O Viola_Music_Voice measure 702 / measure 7]                            %! _comment_measure_numbers
+    % [O Viola_Music_Voice measure 703 / measure 7]                            %! _comment_measure_numbers
     bqf!4                                                                      %! stirrings_still_pickets
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -741,7 +741,7 @@ O_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Viola_Music_Voice measure 703 / measure 8]                    %! _comment_measure_numbers
+            % [O Viola_Music_Voice measure 704 / measure 8]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \stopStaff                                                         %! _style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0                   %! _style_fermata_measures(1)
@@ -762,7 +762,7 @@ O_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Viola_Rest_Voice measure 703 / measure 8]                     %! _comment_measure_numbers
+            % [O Viola_Rest_Voice measure 704 / measure 8]                     %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -774,7 +774,7 @@ O_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [O Viola_Music_Voice measure 704 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [O Viola_Music_Voice measure 705 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -783,7 +783,7 @@ O_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [O Viola_Rest_Voice measure 704 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [O Viola_Rest_Voice measure 705 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -808,7 +808,7 @@ O_Viola_Music_Staff = {                                                        %
 
 O_Cello_Music_Voice = {                                                        %! extern
 
-    % [O Cello_Music_Voice measure 696 / measure 1]                            %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 697 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override DynamicLineSpanner.staff-padding = #5                            %! baca_dls_staff_padding:OverrideCommand(1)
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
@@ -848,7 +848,7 @@ O_Cello_Music_Voice = {                                                        %
 
     af!4                                                                       %! stirrings_still_circles
 
-    % [O Cello_Music_Voice measure 697 / measure 2]                            %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 698 / measure 2]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
 
     af!4                                                                       %! stirrings_still_circles
@@ -857,21 +857,21 @@ O_Cello_Music_Voice = {                                                        %
 
     af!4                                                                       %! stirrings_still_circles
 
-    % [O Cello_Music_Voice measure 698 / measure 3]                            %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 699 / measure 3]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
 
     af!4                                                                       %! stirrings_still_circles
 
     af!4                                                                       %! stirrings_still_circles
 
-    % [O Cello_Music_Voice measure 699 / measure 4]                            %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 700 / measure 4]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
 
     af!4                                                                       %! stirrings_still_circles
 
     af!4                                                                       %! stirrings_still_circles
 
-    % [O Cello_Music_Voice measure 700 / measure 5]                            %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 701 / measure 5]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
 
     af!4                                                                       %! stirrings_still_circles
@@ -880,7 +880,7 @@ O_Cello_Music_Voice = {                                                        %
 
     af!4                                                                       %! stirrings_still_circles
 
-    % [O Cello_Music_Voice measure 701 / measure 6]                            %! _comment_measure_numbers
+    % [O Cello_Music_Voice measure 702 / measure 6]                            %! _comment_measure_numbers
     af!4                                                                       %! stirrings_still_circles
 
     af!4                                                                       %! stirrings_still_circles
@@ -898,7 +898,7 @@ O_Cello_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
 
-        % [O Cello_Music_Voice measure 702 / measure 7]                        %! _comment_measure_numbers
+        % [O Cello_Music_Voice measure 703 / measure 7]                        %! _comment_measure_numbers
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         df,!8                                                                  %! stirrings_still_trajectories
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
@@ -999,7 +999,7 @@ O_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Cello_Music_Voice measure 703 / measure 8]                    %! _comment_measure_numbers
+            % [O Cello_Music_Voice measure 704 / measure 8]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \stopStaff                                                         %! _style_fermata_measures(1)
             \once \override Staff.StaffSymbol.line-count = 0                   %! _style_fermata_measures(1)
@@ -1019,7 +1019,7 @@ O_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Cello_Rest_Voice measure 703 / measure 8]                     %! _comment_measure_numbers
+            % [O Cello_Rest_Voice measure 704 / measure 8]                     %! _comment_measure_numbers
             R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1031,7 +1031,7 @@ O_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [O Cello_Music_Voice measure 704 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [O Cello_Music_Voice measure 705 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1040,7 +1040,7 @@ O_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [O Cello_Rest_Voice measure 704 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [O Cello_Rest_Voice measure 705 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)

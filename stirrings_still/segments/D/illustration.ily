@@ -322,7 +322,7 @@ D_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[9'06'']"                                  %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
-        \once \override Score.BarLine.X-extent = #'(-2 . 4)                    %! baca_bar_line_x_extent:OverrideCommand(1)
+        \once \override Score.BarLine.X-extent = #'(-2 . 0)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
@@ -643,7 +643,8 @@ D_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[9'17'']"                                  %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
-        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
+    %%% \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! -SEGMENT:baca_bar_line_x_extent:OverrideCommand(1)
+        \once \override Score.BarLine.X-extent = #'(-2 . 0)                    %! +SEGMENT:baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
@@ -822,7 +823,7 @@ D_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-    - \tweak extra-offset #'(4 . -30)                                          %! baca_markup:IndicatorCommand
+    - \tweak extra-offset #'(18 . -30)                                         %! baca_markup:IndicatorCommand
     ^ \stirrings-still-text-fourteen                                           %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -1048,9 +1049,9 @@ D_Global_Skips = {                                                             %
 
         % [D Global_Skips measure 263 / measure 57]                            %! _comment_measure_numbers
         \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca_bar_line_x_extent:OverrideCommand(1)
-        \time 6/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+        \time 4/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-        s1 * 3/2                                                               %! _make_global_skips(1)
+        s1 * 1                                                                 %! _make_global_skips(1)
     %@% \bacaStopTextSpanLMI                                                   %! LOCAL_MEASURE_INDEX_MARKUP
         \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER_MARKUP
     %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER_MARKUP
@@ -1870,7 +1871,7 @@ D_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "305"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-both "[9'58'']" "[12'43'']"                               %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-both "[9'58'']" "[12'41'']"                               %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
@@ -2076,7 +2077,7 @@ D_Global_Rests = {                                                             %
     ^ \baca-long-fermata-markup                                                %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [D Global_Rests measure 263 / measure 57]                                %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_global_rests(1)
+    R1 * 1                                                                     %! _make_global_rests(1)
 
     % [D Global_Rests measure 264 / measure 58]                                %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests(1)
@@ -3116,7 +3117,7 @@ D_Violin_I_Music_Voice = {                                                     %
                             tupletFullLength = ##t
                         }
                         {
-                            c'1.
+                            c'1
                         }
                     >>
                     \layout {
@@ -3131,7 +3132,7 @@ D_Violin_I_Music_Voice = {                                                     %
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
-        bf'!16 * 249/64                                                        %! stirrings_still_accelerando
+        bf'!16 * 245/64                                                        %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
@@ -3151,23 +3152,15 @@ D_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        bf'!16 * 59/16                                                         %! stirrings_still_accelerando
+        bf'!16 * 109/32                                                        %! stirrings_still_accelerando
 
-        bf'!16 * 51/16                                                         %! stirrings_still_accelerando
+        bf'!16 * 161/64                                                        %! stirrings_still_accelerando
 
-        bf'!16 * 167/64                                                        %! stirrings_still_accelerando
+        bf'!16 * 115/64                                                        %! stirrings_still_accelerando
 
-        bf'!16 * 67/32                                                         %! stirrings_still_accelerando
-
-        bf'!16 * 55/32                                                         %! stirrings_still_accelerando
-
-        bf'!16 * 23/16                                                         %! stirrings_still_accelerando
-
-        bf'!16 * 5/4                                                           %! stirrings_still_accelerando
+        bf'!16 * 87/64                                                         %! stirrings_still_accelerando
 
         bf'!16 * 9/8                                                           %! stirrings_still_accelerando
-
-        bf'!16 * 67/64                                                         %! stirrings_still_accelerando
 
         bf'!16 * 1                                                             %! stirrings_still_accelerando
 
@@ -3177,7 +3170,7 @@ D_Violin_I_Music_Voice = {                                                     %
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        bf'!16 * 61/64                                                         %! stirrings_still_accelerando
+        bf'!16 * 31/32                                                         %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         ]                                                                      %! stirrings_still_accelerando
@@ -4915,7 +4908,7 @@ D_Violin_II_Music_Voice = {                                                    %
                             tupletFullLength = ##t
                         }
                         {
-                            c'1.
+                            c'1
                         }
                     >>
                     \layout {
@@ -4930,7 +4923,7 @@ D_Violin_II_Music_Voice = {                                                    %
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
-        f'16 * 239/64                                                          %! stirrings_still_accelerando
+        f'16 * 235/64                                                          %! stirrings_still_accelerando
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4948,19 +4941,13 @@ D_Violin_II_Music_Voice = {                                                    %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        f'16 * 231/64                                                          %! stirrings_still_accelerando
+        f'16 * 109/32                                                          %! stirrings_still_accelerando
 
-        f'16 * 105/32                                                          %! stirrings_still_accelerando
+        f'16 * 45/16                                                           %! stirrings_still_accelerando
 
-        f'16 * 23/8                                                            %! stirrings_still_accelerando
+        f'16 * 73/32                                                           %! stirrings_still_accelerando
 
-        f'16 * 5/2                                                             %! stirrings_still_accelerando
-
-        f'16 * 71/32                                                           %! stirrings_still_accelerando
-
-        f'16 * 129/64                                                          %! stirrings_still_accelerando
-
-        f'16 * 61/32                                                           %! stirrings_still_accelerando
+        f'16 * 63/32                                                           %! stirrings_still_accelerando
 
         \once \override DynamicText.self-alignment-X = #1                      %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
@@ -6731,7 +6718,7 @@ D_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 263 / measure 57]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8305,8 +8292,8 @@ D_Cello_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [D Cello_Music_Voice measure 255 / measure 49]                           %! _comment_measure_numbers
-    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_255:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_255:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_255:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_255:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -8424,7 +8411,7 @@ D_Cello_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [D Cello_Music_Voice measure 263 / measure 57]                           %! _comment_measure_numbers
-    b,,1
+    b,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8441,8 +8428,6 @@ D_Cello_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    b,,4
-
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando

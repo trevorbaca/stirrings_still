@@ -10,14 +10,10 @@ import stirrings_still
 
 stage_markup = (
     ('[S.1]', 1),
-    ('[S.2]', 5),
+    ('[S.2]', 3),
     ('[S.3]', 6),
     ('[S.4]', 10),
-    ('[S.5]', 12),
-    ('[S.6]', 16),
-    ('[S.7]', 19),
-    ('[S.8]', 23),
-    ('[S.9]', 27),
+    ('[S.5]', 17),
     )
 
 maker = baca.SegmentMaker(
@@ -26,56 +22,48 @@ maker = baca.SegmentMaker(
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
     do_not_force_nonnatural_accidentals=True,
-    fermata_measure_empty_overrides=[35],
+    fermata_measure_empty_overrides=[9, 16, 20],
     final_segment=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('S'),
-    validate_measure_count=35,
+    validate_measure_count=20,
     )
 
 maker(
     'Global_Skips',
     baca.markup(
         abjad.Markup.from_literal(
-            r'\stirrings-still-text-twenty-five',
-            literal=True,
-            ),
-        abjad.tweak((4, -30)).extra_offset,
-        selector=baca.skip(1 - 1),
-        ),
-    baca.markup(
-        abjad.Markup.from_literal(
             r'\stirrings-still-text-twenty-six',
             literal=True,
             ),
         abjad.tweak((4, -30)).extra_offset,
-        selector=baca.skip(19 - 1),
+        selector=baca.skip(9 - 1),
         ),
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-text-twenty-seven',
             literal=True,
             ),
-        abjad.tweak((4, -30)).extra_offset,
-        selector=baca.skip(28 - 1),
+        abjad.tweak((14, -50)).extra_offset,
+        selector=baca.skip(16 - 1),
         ),
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-text-twenty-eight',
             literal=True,
             ),
-        abjad.tweak((8, -30)).extra_offset,
-        selector=baca.skip(35 - 1),
+        abjad.tweak((21, -75)).extra_offset,
+        selector=baca.skip(20 - 1),
         ),
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-text-twenty-nine',
             literal=True,
             ),
-        abjad.tweak((24, -90)).extra_offset,
-        selector=baca.skip(35 - 1),
+        abjad.tweak((34, -100)).extra_offset,
+        selector=baca.skip(20 - 1),
         ),
     baca.rehearsal_mark(
         'S',
@@ -84,7 +72,11 @@ maker(
     )
 
 time = (
-    ('long', 35),
+    ('long', 2),
+    ('long', 5),
+    ('long', 9),
+    ('long', 16),
+    ('very_long', 20),
     )
 
 stirrings_still.time(maker, time)
@@ -98,7 +90,7 @@ maker(
     )
 
 maker(
-    ('v1', [5, (10, 11), (16, 18), (23, 26)]),
+    ('v1', [1, (3, 4), (6, 8), (10, 15)]),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(3).staff_padding,
@@ -125,12 +117,7 @@ maker(
 # v1, v2, vc
 
 maker(
-    (['v1', 'v2', 'vc'], [(1, 4), (6, 9), (12, 15), (19, 22), (27, 34)]),
-    baca.tacet(),
-    )
-
-maker(
-    (['v1x', 'v2x', 'vcx'], [1, 6, 12, 19, 27]),
+    (['v1', 'v2', 'vc'], (17, 19)),
     baca.tacet(),
     )
 
@@ -144,7 +131,7 @@ maker(
     )
 
 maker(
-    ('v2', [5, (10, 11), (16, 18), (23, 26)]),
+    ('v2', [1, (3, 4), (6, 8), (10, 15)]),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(3).staff_padding,
@@ -171,7 +158,7 @@ maker(
 # va
 
 maker(
-    ('va', (1, 34)),
+    ('va', (1, 19)),
     baca.make_notes(),
     stirrings_still.flat_glissando(
         'Bb2',
@@ -188,10 +175,10 @@ maker(
     )
 
 maker(
-    ('vc', 5),
+    ('vc', 1),
     baca.hairpin('o< mf'),
     baca.make_rhythm(
-        'c1 ~ c4 ~ c4',
+        'c2. ~ c4',
         repeat_tie_threshold=(1, 4),
         ),
     baca.ottava_bassa(),
@@ -199,7 +186,7 @@ maker(
     )
 
 maker(
-    ('vc', [(10, 11), (16, 18), (23, 26)]),
+    ('vc', [(3, 4), (6, 8), (10, 15)]),
     baca.make_repeat_tied_notes(),
     baca.ottava_bassa(),
     stirrings_still.flat_glissando(
@@ -209,7 +196,7 @@ maker(
     )
 
 maker(
-    ('vc', (10, 11)),
+    ('vc', (3, 4)),
     baca.hairpin(
         'o< f -- !',
         abjad.tweak(True).to_barline,
@@ -219,7 +206,7 @@ maker(
     )
 
 maker(
-    ('vc', (16, 18)),
+    ('vc', (6, 8)),
     baca.hairpin(
         'o< ff -- !',
         abjad.tweak(True).to_barline,
@@ -229,11 +216,11 @@ maker(
     )
 
 maker(
-    ('vc', (23, 26)),
+    ('vc', (10, 15)),
     baca.hairpin(
         'o< fff -- !',
         abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([1, 3 + 1]),
+        pieces=baca.mgroups([2, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )

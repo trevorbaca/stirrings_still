@@ -28,11 +28,16 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [822],
+            [823],
             ),
-        ('duration', "1'15''"),
-        ('final_measure_number', 837),
-        ('first_measure_number', 822),
+        ('duration', "1'16''"),
+        (
+            'fermata_measure_numbers',
+            [839],
+            ),
+        ('final_measure_is_fermata', True),
+        ('final_measure_number', 839),
+        ('first_measure_number', 823),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -79,7 +84,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Global_Skips',
                                 prototype='abjad.TimeSignature',
-                                value='4/4',
+                                value='1/4',
                                 ),
                             ],
                         ),
@@ -188,7 +193,7 @@ metadata = abjad.OrderedDict(
         ('segment_name', 'R'),
         ('segment_number', 18),
         ('start_clock_time', "36'46''"),
-        ('stop_clock_time', "38'01''"),
+        ('stop_clock_time', "38'02''"),
         (
             'time_signatures',
             [
@@ -208,6 +213,7 @@ metadata = abjad.OrderedDict(
                 '3/4',
                 '3/4',
                 '4/4',
+                '1/4',
                 ],
             ),
         ]

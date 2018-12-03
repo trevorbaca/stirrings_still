@@ -2038,7 +2038,7 @@ E_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[14'02'']"                                 %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
-        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
+        \once \override Score.BarLine.X-extent = #'(-2 . 0)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 
@@ -14557,8 +14557,8 @@ E_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         c4                                                                     %! stirrings_still_desynchronization
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-1 . 0)                                         %! baca_breathe:IndicatorCommand
+        \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
 

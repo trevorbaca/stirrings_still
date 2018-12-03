@@ -81,6 +81,7 @@
         \Staff
         \accepts GlobalRests
         \remove Time_signature_engraver
+        explicitClefVisibility = #end-of-line-invisible
     }
 
     % STRING QUARTET STAFF GROUP

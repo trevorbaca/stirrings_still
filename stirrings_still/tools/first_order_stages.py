@@ -129,7 +129,7 @@ stage_to_time_signatures = abjad.OrderedDict({
         [4, 2, 2, 1, 2, 4,
         ]),
     'K': ('B', -24,
-        [3,  3, 3, 3, 3, 3, 8, 6, 8, 8,
+        [3,  3, 3, 3, 3, 3, 8, 6, 8, (8, 'short'),
         ]),
     'L': ('A', -42,
         [16,
@@ -164,11 +164,12 @@ stage_to_time_signatures = abjad.OrderedDict({
         20,
         ]),
     'R': ('A', -70,
-        [4, 4, 4, 4,
+        [4, 4, 4, (4, 'fermata'),
         ]),
     'S': ('A', -86,
-        [4, 1, 4, 2, 4, 3, 4, 4,
-        (8, 'long'),
+        #[4, 1, 4, 2, 4, 3, 4, 4,
+        #(8, 'long'),
+        [(1, 'long'), (2, 'long'), (3, 'long'), (6, 'long'), (3, 'very_long'),
         ]),
     })
 
@@ -2549,6 +2550,7 @@ def first_order_stages(segment):
                             abjad.TimeSignature((4, 8)),
                             abjad.TimeSignature((5, 8)),
                             ],
+                        after='short',
                         ),
                     ),
                 ]
@@ -3237,6 +3239,7 @@ def first_order_stages(segment):
                             abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((4, 4)),
                             ],
+                        after='fermata',
                         ),
                     ),
                 ]
@@ -3246,7 +3249,7 @@ def first_order_stages(segment):
 
         >>> stages = stirrings_still.first_order_stages('S')
         >>> len(stages)
-        9
+        5
 
         >>> abjad.f(stages)
         abjad.OrderedDict(
@@ -3255,116 +3258,65 @@ def first_order_stages(segment):
                     1,
                     stirrings_still.StageSpecifier(
                         stage_number=1,
-                        measure_numbers=[1, 2, 3, 4],
+                        measure_numbers=[1],
                         time_signatures=[
                             abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((5, 4)),
                             ],
+                        after='long',
                         ),
                     ),
                 (
                     2,
                     stirrings_still.StageSpecifier(
                         stage_number=2,
-                        measure_numbers=[5],
+                        measure_numbers=[3, 4],
                         time_signatures=[
-                            abjad.TimeSignature((6, 4)),
+                            abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((4, 4)),
                             ],
+                        after='long',
                         ),
                     ),
                 (
                     3,
                     stirrings_still.StageSpecifier(
                         stage_number=3,
-                        measure_numbers=[6, 7, 8, 9],
+                        measure_numbers=[6, 7, 8],
                         time_signatures=[
-                            abjad.TimeSignature((6, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((5, 4)),
+                            abjad.TimeSignature((6, 4)),
+                            abjad.TimeSignature((6, 4)),
                             ],
+                        after='long',
                         ),
                     ),
                 (
                     4,
                     stirrings_still.StageSpecifier(
                         stage_number=4,
-                        measure_numbers=[10, 11],
+                        measure_numbers=[10, 11, 12, 13, 14, 15],
                         time_signatures=[
+                            abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((4, 4)),
+                            abjad.TimeSignature((5, 4)),
                             abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((4, 4)),
                             ],
+                        after='long',
                         ),
                     ),
                 (
                     5,
                     stirrings_still.StageSpecifier(
                         stage_number=5,
-                        measure_numbers=[12, 13, 14, 15],
+                        measure_numbers=[17, 18, 19],
                         time_signatures=[
-                            abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((3, 4)),
                             ],
-                        ),
-                    ),
-                (
-                    6,
-                    stirrings_still.StageSpecifier(
-                        stage_number=6,
-                        measure_numbers=[16, 17, 18],
-                        time_signatures=[
-                            abjad.TimeSignature((5, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            ],
-                        ),
-                    ),
-                (
-                    7,
-                    stirrings_still.StageSpecifier(
-                        stage_number=7,
-                        measure_numbers=[19, 20, 21, 22],
-                        time_signatures=[
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((5, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            ],
-                        ),
-                    ),
-                (
-                    8,
-                    stirrings_still.StageSpecifier(
-                        stage_number=8,
-                        measure_numbers=[23, 24, 25, 26],
-                        time_signatures=[
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            ],
-                        ),
-                    ),
-                (
-                    9,
-                    stirrings_still.StageSpecifier(
-                        stage_number=9,
-                        measure_numbers=[27, 28, 29, 30, 31, 32, 33, 34],
-                        time_signatures=[
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((5, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            ],
-                        after='long',
+                        after='very_long',
                         ),
                     ),
                 ]

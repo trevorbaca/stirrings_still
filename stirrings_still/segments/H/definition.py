@@ -55,7 +55,7 @@ maker(
             selector=baca.skip(0),
             ),
         baca.new(
-            baca.bar_line_x_extent((-2, 2)),
+            baca.bar_line_x_extent((-2, 3)),
             after=True,
             selector=baca.skip(-1),
             ),

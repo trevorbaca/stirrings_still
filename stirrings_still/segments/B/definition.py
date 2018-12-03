@@ -81,11 +81,11 @@ maker(
         ),
     baca.new(
         baca.new(
-            baca.bar_line_x_extent((-1, 3)),
+            baca.bar_line_x_extent((0, 3)),
             selector=baca.skip(0),
             ),
         baca.new(
-            baca.bar_line_x_extent((-2, 2)),
+            baca.bar_line_x_extent((-2, 0)),
             after=True,
             selector=baca.skip(-1),
             ),
@@ -1138,12 +1138,13 @@ maker(
     ('va', (1, 5)),
     baca.alternate_bow_strokes(),
     baca.clef('treble'),
-    baca.clef(
-        'alto',
-        selector=baca.leaves().rleak()[-1],
-        ),
     baca.half_clt_spanner(
         abjad.tweak(5.5).staff_padding,
+        ),
+    baca.new(
+        baca.clef('alto'),
+        baca.clef_extra_offset((-1, 0)),
+        selector=baca.leaves().rleak()[-1],
         ),
     baca.pitch('Eqs5'),
     baca.tuplet_bracket_staff_padding(1),
@@ -1492,7 +1493,16 @@ maker(
 
 maker(
     ('vc', 15),
-    baca.tuplet_bracket_transparent(),
+    baca.rest_extra_offset((-0.5, 0)),
+    baca.tuplet_bracket_shorten_pair(
+        (-1.5, 0),
+        selector=baca.rest(-1),
+        ),
+    )
+
+maker(
+    ('vc', (15, 19)),
+    baca.tuplet_bracket_staff_padding(1),
     )
 
 maker(
@@ -1515,8 +1525,9 @@ maker(
 
 maker(
     ('vc', (16, 19)),
-    baca.clef(
-        'treble',
+    baca.new(
+        baca.clef('treble'),
+        baca.clef_extra_offset((-1, 0)),
         selector=baca.leaves().lleak()[0],
         ),
     baca.pitch(

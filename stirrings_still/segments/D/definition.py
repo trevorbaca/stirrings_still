@@ -73,7 +73,7 @@ maker(
             r'\stirrings-still-text-fourteen',
             literal=True,
             ),
-        abjad.tweak((4, -30)).extra_offset,
+        abjad.tweak((18, -30)).extra_offset,
         selector=baca.skip(46 - 1),
         ),
     baca.markup(
@@ -108,7 +108,7 @@ maker(
         ),
     baca.new(
         baca.new(
-            baca.bar_line_x_extent((-2, 4)),
+            baca.bar_line_x_extent((-2, 0)),
             after=True,
             selector=baca.skip(-1),
             ),
@@ -134,10 +134,21 @@ maker(
         measures=(25, 30),
         ),
     baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-2, 2)),
-            after=True,
-            selector=baca.skip(-1),
+        baca.tag(
+            '-SEGMENT',
+            baca.bar_line_x_extent(
+                (-2, 2),
+                after=True,
+                selector=baca.skip(-1),
+                ),
+            ),
+        baca.tag(
+            '+SEGMENT',
+            baca.bar_line_x_extent(
+                (-2, 0),
+                after=True,
+                selector=baca.skip(-1),
+                ),
             ),
         baca.volta(),
         measures=(31, 36),
@@ -944,7 +955,7 @@ maker(
     ('vc', 57),
     baca.hairpin('o<| mf'),
     baca.make_rhythm(
-        'c1 ~ c4 ~ c4',
+        'c2. ~ c4',
         repeat_tie_threshold=(1, 4),
         ),
     stirrings_still.flat_glissando('B1'),
