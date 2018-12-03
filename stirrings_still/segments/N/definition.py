@@ -94,7 +94,11 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 8)),
-    baca.markup('9°/Bb'),
+    baca.markup(
+        r'\stirrings-still-nine-b-flat',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'C6',
@@ -120,7 +124,10 @@ maker(
 maker(
     ('v1', (13, 22)),
     baca.breathe(),
-    baca.markup('(24ET)'),
+    baca.markup(
+        '(24ET)',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         '<A3 Fqs4>',
@@ -179,7 +186,6 @@ maker(
     baca.markup(
         '11°/E',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
     baca.pitch('Aqs5'),
     baca.stem_tremolo(
@@ -290,7 +296,11 @@ maker(
 
 maker(
     ('v2', (1, 8)),
-    baca.markup('11°/Bb'),
+    baca.markup(
+        r'\stirrings-still-eleven-b-flat',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'Eqf5',
@@ -316,7 +326,10 @@ maker(
 maker(
     ('v2', (13, 22)),
     baca.breathe(),
-    baca.markup('(24ET)'),
+    baca.markup(
+        '(24ET)',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         '<F#3 Dqs4>',
@@ -327,7 +340,10 @@ maker(
 maker(
     ('v2', [(23, 28), (30, 35)]),
     baca.new(
-        baca.markup('(24ET)'),
+        baca.markup(
+            '(24ET)',
+            abjad.tweak(1.5).padding,
+            ),
         match=-1,
         ),
     stirrings_still.flat_glissando('<F#3 Dqs4>'),
@@ -371,7 +387,6 @@ maker(
     baca.markup(
         '9°/E',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
     baca.pitch('F#5'),
     baca.make_repeat_tied_notes(),
@@ -433,7 +448,11 @@ maker(
 
 maker(
     ('va', (1, 8)),
-    baca.markup('13°/Bb'),
+    baca.markup(
+        r'\stirrings-still-thirteen-b-flat',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         'Gqf4',
@@ -459,7 +478,10 @@ maker(
 maker(
     ('va', (13, 22)),
     baca.breathe(),
-    baca.markup('(24ET)'),
+    baca.markup(
+        '(24ET)',
+        abjad.tweak(1.5).padding,
+        ),
     stirrings_still.clouded_pane(),
     stirrings_still.flat_glissando(
         '<C3 Aqs3>',
@@ -518,7 +540,6 @@ maker(
     baca.markup(
         '5°/E',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
     baca.pitch('G#3'),
     baca.stem_tremolo(
@@ -666,7 +687,10 @@ maker(
 maker(
     ('vc', [(23, 28), (30, 35)]),
     baca.new(
-        baca.markup('(24ET)'),
+        baca.markup(
+            '(24ET)',
+            abjad.tweak(1.5).padding,
+            ),
         match=0,
         ),
     stirrings_still.flat_glissando('<B2 Gqs3>'),

@@ -411,7 +411,6 @@ maker(
         baca.markup(
             r'\stirrings-still-thirteen-d-flat',
             abjad.tweak(1.5).padding,
-            ###direction=abjad.Down,
             literal=True,
             ),
         stirrings_still.circles((1, 8)),
