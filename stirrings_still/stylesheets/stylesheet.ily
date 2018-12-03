@@ -1,5 +1,5 @@
 #(set-default-paper-size "11x17landscape")
-#(set-global-staff-size 11)
+#(set-global-staff-size 10)
 
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
 \include "annotation-spanners.ily"
@@ -74,7 +74,12 @@
         \override #'(font-name . "Palatino")
         \fontsize #5
         %%%\line { Trevor Bača (*1975) \hspace #15 }
-        \line { Trevor Bača (*1975) }
+        %%%\line { Trevor Bača (*1975) }
+        \line { Trevor Bača }
+    }
+    poet = \markup {
+        \fontsize #5
+        \line { Samuel Beckett }
     }
     tagline = \markup { "" }
     title = \markup \column {
