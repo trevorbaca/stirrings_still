@@ -3647,7 +3647,8 @@ E_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>8.
@@ -6378,8 +6379,9 @@ E_Violin_I_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! baca_glissando
     ef''!8                                                                     %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! stirrings_still_bcps:BCPCommand(1)
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
     \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
@@ -7554,7 +7556,8 @@ E_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>8.
@@ -10877,7 +10880,8 @@ E_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ]                                                                          %! stirrings_still_declamation
-    \breathe                                                                   %! baca_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>8.
@@ -14553,7 +14557,8 @@ E_Cello_Music_Voice = {                                                        %
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
         c4                                                                     %! stirrings_still_desynchronization
-        \breathe                                                               %! baca_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_desynchronization
 

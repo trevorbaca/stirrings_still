@@ -4,6 +4,7 @@ from .StageSpecifier import StageSpecifier
 from .StageToken import StageToken
 from .accelerando import accelerando
 from .bcps import bcps
+from .breathe import breathe
 from .cello_cell import cello_cell
 from .cello_cell_bcps import cello_cell_bcps
 from .circle_spanner import circle_spanner

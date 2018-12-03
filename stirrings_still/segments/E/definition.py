@@ -346,7 +346,6 @@ maker(
 
 maker(
     ('v1', (97, 108)),
-    baca.breathe(),
     baca.chunk(
         stirrings_still.multistage_leaf_glissando(
             [('Ab4', 3), ('C5', 2), ('B4', 6), ('Db5', 3), ('C5', None)],
@@ -374,6 +373,7 @@ maker(
         clt=True,
         staff_padding=2.5,
         ),
+    stirrings_still.breathe(),
     stirrings_still.trajectories('C', 0, -3),
     )
 
@@ -503,8 +503,10 @@ maker(
 maker(
     ('trio', 34),
     baca.chunk(
-        baca.breathe(selector=baca.pleaf(1)),
         baca.stop_on_string(selector=baca.pleaf(-1)),
+        stirrings_still.breathe(
+            selector=baca.pleaf(1),
+            ),
         ),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -1200,7 +1202,6 @@ maker(
 
 maker(
     (['va', 'vc'], (89, 96)),
-    baca.breathe(),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(5.5).staff_padding,
@@ -1219,11 +1220,13 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.new(
+        baca.breathe(),
         stirrings_still.desynchronization(4, [0]),
         stirrings_still.flat_glissando('B3'),
         match=0,
         ),
     baca.new(
+        stirrings_still.breathe(),
         stirrings_still.desynchronization(4, [-1]),
         stirrings_still.flat_glissando('C3'),
         match=1,

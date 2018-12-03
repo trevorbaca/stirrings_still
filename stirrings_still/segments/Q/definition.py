@@ -1063,7 +1063,9 @@ maker(
 
 maker(
     ('vc', (2, 9)),
-    baca.breathe(),
+    baca.breathe(
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(5.5).staff_padding,
@@ -1124,7 +1126,9 @@ maker(
 
 maker(
     ('vc', (22, 27)),
-    baca.breathe(),
+    baca.breathe(
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(5.5).staff_padding,
@@ -1180,7 +1184,9 @@ maker(
 
 maker(
     ('vc', (38, 42)),
-    baca.breathe(),
+    baca.breathe(
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(5.5).staff_padding,
@@ -1232,7 +1238,9 @@ maker(
 
 maker(
     ('vc', (51, 54)),
-    baca.breathe(),
+    baca.breathe(
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(5.5).staff_padding,
@@ -1284,7 +1292,9 @@ maker(
 
 maker(
     ('vc', (61, 63)),
-    baca.breathe(),
+    baca.breathe(
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(5.5).staff_padding,
@@ -1339,7 +1349,9 @@ maker(
 
 maker(
     ('vc', (68, 69)),
-    baca.breathe(),
+    baca.breathe(
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.circle_bow_spanner(
         'wide',
         abjad.tweak(5.5).staff_padding,

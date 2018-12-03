@@ -1041,7 +1041,13 @@ maker(
         ),
     baca.new(
         baca.breathe(),
-        match=[0, 2, 3],
+        match=[0, 2],
+        ),
+    baca.new(
+        baca.breathe(
+            abjad.tweak((-1, 0)).extra_offset,
+            ),
+        match=3,
         ),
     baca.text_spanner(
         '2° =|',

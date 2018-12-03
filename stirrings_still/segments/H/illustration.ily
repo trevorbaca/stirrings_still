@@ -5067,6 +5067,7 @@ H_Cello_Music_Voice = {                                                        %
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
     af,!2..                                                                    %! baca_make_repeat_tied_notes
+    \tweak extra-offset #'(-1 . 0)                                             %! baca_breathe:IndicatorCommand
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [H Cello_Music_Voice measure 477 / measure 6]                            %! _comment_measure_numbers
