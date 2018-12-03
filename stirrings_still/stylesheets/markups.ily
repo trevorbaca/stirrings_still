@@ -65,6 +65,15 @@ stirrings-still-nine-b-flat = \markup
         \flat
     }
 
+stirrings-still-eleven-b-flat = \markup
+    \line {
+        "11°/B"
+        \hspace #-0.4
+        \raise #0.5
+        \scale #'(0.65 . 0.65)
+        \flat
+    }
+
 stirrings-still-thirteen-b-flat = \markup
     \line {
         "13°/B"

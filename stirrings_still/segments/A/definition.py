@@ -61,7 +61,8 @@ maker(
             r'\stirrings-still-text-two',
             literal=True,
             ),
-        abjad.tweak((4, -30)).extra_offset,
+        # -20 because first page spaces differently
+        abjad.tweak((4, -20)).extra_offset,
         selector=baca.skip(10 - 1),
         ),
     baca.markup(
@@ -69,7 +70,8 @@ maker(
             r'\stirrings-still-text-three',
             literal=True,
             ),
-        abjad.tweak((14, -30)).extra_offset,
+        # -20 because first page spaces differently
+        abjad.tweak((14, -20)).extra_offset,
         selector=baca.skip(19 - 1),
         ),
     baca.markup(

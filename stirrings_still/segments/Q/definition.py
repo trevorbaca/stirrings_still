@@ -80,7 +80,6 @@ maker(
     baca.markup(
         '11°/E',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
     baca.pitch('Aqs5'),
     )
@@ -424,6 +423,8 @@ maker(
 maker(
     'tutti',
     baca.dls_staff_padding(6),
+    baca.tuplet_bracket_down(),
+    baca.tuplet_bracket_staff_padding(1),
     )
 
 maker(
@@ -446,7 +447,6 @@ maker(
     baca.markup(
         '9°/E',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
     baca.pitch('F#5'),
     )
@@ -722,7 +722,6 @@ maker(
     baca.markup(
         '5°/E',
         abjad.tweak(1.5).padding,
-        direction=abjad.Down,
         ),
     baca.pitch('G#3'),
     )
