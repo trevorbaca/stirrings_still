@@ -28,6 +28,14 @@ breaks = baca.breaks(
             ),
         number=2,
         ),
+    baca.page(
+        baca.system(
+            20, 26,
+            measure=61,
+            y_offset=20,
+            ),
+        number=3,
+        ),
     local_measure_numbers=True,
     )
 
@@ -39,3 +47,4 @@ spacing = baca.scorewide_spacing(
 spacing.override(26, (1, 32)),
 spacing.override(45, (1, 48)),
 spacing.override(64, (1, 32), force_local=True),
+spacing.override([28, 66], (1, 288), fermata=True, force_local=True)
