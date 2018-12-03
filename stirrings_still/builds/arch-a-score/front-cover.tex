@@ -1,49 +1,63 @@
 \documentclass[11pt]{report}
 \usepackage[T1]{fontenc}
-\usepackage[papersize={9in, 12in}, margin=1in]{geometry}
+\usepackage[papersize={9in, 12in}, margin=0.5in]{geometry}
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{xltxtra,fontspec,xunicode}
 \usetikzlibrary{calc}
-\setmainfont{Palatino}
 \defaultfontfeatures{Scale=MatchLowercase}
 \newlength{\drop}
 \pagenumbering{gobble}
 \parindent=0pt
+\setmainfont{Adobe Garamond Pro Bold}
 
 \begin{document}
     \begin{titlepage}
+
         \begin{tikzpicture}[remember picture, overlay]
-            \draw[line width = 1.6pt]
-                ($(current page.north west) + (1in,-1in)$)
+            \draw[line width = 6pt]
+                ($(current page.north west) + (1.0in,-1.0in)$)
                 rectangle
-                ($(current page.south east) + (-1in,1in)$);
-            \draw[line width = 0.4pt]
-                ($(current page.north west) + (1in,-1in) + (2.8pt,-2.8pt)$)
-                rectangle
-                ($(current page.south east) + (-1in,1in) + (-2.8pt,2.8pt)$);
+                ($(current page.south east) + (-1.0in,1.0in)$);
         \end{tikzpicture}
 
         \drop=0.1\textheight
         \centering
 
-        {\vspace*{1\baselineskip}}
+        \vspace*{3\baselineskip}
+        {
+            \scalebox{1}[2.5]
+            {\fontsize{1.75cm}{1em}\selectfont STIRRINGS \hspace{2pt} STILL}
+            \vspace*{8\baselineskip}
+        }
 
-        {\fontsize{2.75cm}{1em}\selectfont STIRRINGS STILL}
 
-        \vspace*{12\baselineskip}
+        {
+            \scalebox{1}[2]
+            {\fontsize{0.6cm}{1em}\selectfont \itshape for}
+            \vspace*{2\baselineskip}
+        }
 
-        {\fontsize{0.85cm}{1em}\selectfont \itshape for narrator & string quartet}
-        
-        \vspace*{1\baselineskip}
+        {
+            \scalebox{1}[2]
+            {\fontsize{0.6cm}{1em}\selectfont
+                \itshape narrator \& string quartet
+            }
+            \vspace*{2\baselineskip}
+        }
 
-        {\fontsize{0.85cm}{1em}\selectfont \itshape 2018}
+        {
+            \scalebox{1}[2]
+            {\fontsize{0.6cm}{1em}\selectfont \itshape (2016-18)}
+        }
 
         \vfill
 
-        {\fontsize{2.75cm}{1em}\selectfont TREVOR BAČA}
-
-        \vspace*{1.25\baselineskip}
+        {
+            \scalebox{1}[2]
+            {\fontsize{2.15cm}{1em}\selectfont TREVOR \hspace{1pt} BA\v{C}A}
+            \vspace*{4\baselineskip}
+        }
 
     \end{titlepage}
-\end{document}
+\end{document}end{document}
