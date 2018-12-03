@@ -39,6 +39,7 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
+    fermata_measure_empty_overrides=[11, 70, 77],
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -57,6 +58,7 @@ maker(
             r'\stirrings-still-text-ten',
             literal=True,
             ),
+        abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(11 - 1),
         ),
     baca.markup(
@@ -64,6 +66,7 @@ maker(
             r'\stirrings-still-text-eleven',
             literal=True,
             ),
+        abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(70 - 1),
         ),
     baca.markup(
@@ -71,6 +74,7 @@ maker(
             r'\stirrings-still-text-twelve',
             literal=True,
             ),
+        abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(77 - 1),
         ),
     baca.new(
