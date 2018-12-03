@@ -46,6 +46,7 @@ maker(
             r'\stirrings-still-text-twenty-two',
             literal=True,
             ),
+        abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(46 - 1),
         ),
     baca.new(
