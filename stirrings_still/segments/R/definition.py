@@ -20,22 +20,31 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
+    fermata_measure_empty_overrides=[17],
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('R'),
-    validate_measure_count=16,
+    validate_measure_count=17,
     )
 
 maker(
     'Global_Skips',
+    baca.markup(
+        abjad.Markup.from_literal(
+            r'\stirrings-still-text-twenty-five',
+            literal=True,
+            ),
+        abjad.tweak((4, -30)).extra_offset,
+        selector=baca.skip(17 - 1),
+        ),
     baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-1, 3)),
+        baca.bar_line_x_extent(
+            (-1, 3),
             selector=baca.skip(0),
             ),
-        baca.new(
-            baca.bar_line_x_extent((-2, 2)),
+        baca.bar_line_x_extent(
+            (-2, 2),
             after=True,
             selector=baca.skip(-1),
             ),
@@ -49,6 +58,7 @@ maker(
     )
 
 time = (
+    ('fermata', 17),
     )
 
 stirrings_still.time(maker, time)

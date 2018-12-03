@@ -1548,7 +1548,7 @@ C_Global_Skips = {                                                             %
     %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER_MARKUP
     %@% - \baca-start-ct-left-only "[7'03'']"                                  %! CLOCK_TIME_MARKUP
     %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME_MARKUP
-        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
+        \once \override Score.BarLine.X-extent = #'(-2 . 0)                    %! baca_bar_line_x_extent:OverrideCommand(1)
 
     }
 

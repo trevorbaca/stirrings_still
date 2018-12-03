@@ -18,7 +18,6 @@ stirrings-still-text-one = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     One night as he sat at his table head on hands he saw himself rise and go.
     } } }
@@ -30,7 +29,6 @@ stirrings-still-text-two = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     For when his own light went out he was not left in the dark. Light of a
     kind came then from the one high window. Under it stood the stool on which
@@ -46,7 +44,6 @@ stirrings-still-text-three = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     or because he could or would not open it.
     } } }
@@ -58,7 +55,6 @@ stirrings-still-text-four = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Perhaps he knew only too well what lay beneath and did not wish to see it
     again. So he would simply stand there high above the earth and see through
@@ -74,7 +70,6 @@ stirrings-still-text-five = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     This outer light then when his own went out became his only light till it
     in its turn went out and left him in the dark. Till it in its turn went
@@ -88,7 +83,6 @@ stirrings-still-text-six = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     One night or day then as he sat at his table head on hands he saw himself
     rise and go.
@@ -101,7 +95,6 @@ stirrings-still-text-seven = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     First rise and stand clinging to the table. Then sit again. Then rise again
     and stand clinging to the table again. Then go.
@@ -114,7 +107,6 @@ stirrings-still-text-eight = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Start to go. On unseen feet start to go. So slow that only change of place
     to show he went. As when he disappeared only to reappear later at another
@@ -129,7 +121,6 @@ stirrings-still-text-nine = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     So again and again disappeared again only to reappear again later at
     another place again. Another place in the place where he sat at his table
@@ -145,7 +136,6 @@ stirrings-still-text-ten = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Head on hands half hoping when he disappeared again that he would not
     reappear again and half fearing that he would not. Or merely wondering. Or
@@ -161,7 +151,6 @@ stirrings-still-text-eleven = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Same hat and coat as of old when he walked the roads. The back roads. Now
     as one in a strange place seeking the way out. In the dark. In a strange
@@ -176,7 +165,6 @@ stirrings-still-text-twelve = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     A clock struck the hours and the half-hours. The same as when among others
     Darly once died and left him.
@@ -189,7 +177,6 @@ stirrings-still-text-thirteen = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Strokes now clear as if carried by a wind now faint on the still air. Cries
     afar now faint now clear. Head on hands half hoping when the hour struck
@@ -205,7 +192,6 @@ stirrings-still-text-fourteen = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Or merely waiting. Waiting to hear.
     } } }
@@ -217,7 +203,6 @@ stirrings-still-text-fifteen = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     There had been a time he would sometimes lift his head enough to
     see his hands. What of them was to be seen. One laid on the table and the
@@ -231,7 +216,6 @@ stirrings-still-text-sixteen = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Lift his past head a moment to see his past hands. Then lay it back on them
     to rest it too. After all it did. The same place as when left day after day
@@ -252,7 +236,6 @@ stirrings-still-text-seventeen = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Rise and go in the same place as ever. Disappear and reappear in another
     where never. Nothing to show not another where never. Nothing but the
@@ -267,7 +250,6 @@ stirrings-still-text-eighteen = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Then so many cries since the strokes were last heard that perhaps they
     would not be heard again. Then such silence since the cries were last heard
@@ -285,7 +267,6 @@ stirrings-still-text-nineteen = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     As one in his right mind when at last out again he knew not how he was not
     long out again when he began to wonder if he was in his right mind. For
@@ -310,7 +291,6 @@ stirrings-still-text-twenty = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     of none. Of the sole other sound that of cries enlivener of his solitude as
     lost to suffering he sat at his table head on hands the same was true. Of
@@ -327,7 +307,6 @@ stirrings-still-text-twenty-one = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     of none. Further to his disarray his soundless tread as when barefoot he
     trod his floor. So all ears from bad to worse till in the end he ceased if
@@ -350,8 +329,8 @@ stirrings-still-text-twenty-two = \markup {
     \override #'(font-size . 2)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
+    \whiteout
     \justify {
-    %NARRATOR.
     \with-color #red {
     So all eyes from bad to worse till in the end he ceased if not to see to
     look (about him or more closely) and set out to take thought. To this end
@@ -371,7 +350,6 @@ stirrings-still-text-twenty-three = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     and no end in sight. Unknowing and what it is more no wish to know nor
     indeed any wish of any kind nor therefore any sorrow save that he would
@@ -391,7 +369,6 @@ stirrings-still-text-twenty-four = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     till then. In any case whatever it might be to end and so on was he not
     already as he stood there all bowed down to his ears faint from deep within
@@ -412,7 +389,6 @@ stirrings-still-text-twenty-five = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     no danger or hope as the case might be of his ever getting out of it. Was
     he then now to press on regardless now in one direction and now in another
@@ -429,7 +405,6 @@ stirrings-still-text-twenty-six = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Such and much more such as the hubbub in his mind so-called till nothing
     left from deep within but only ever fainter oh
@@ -442,7 +417,6 @@ stirrings-still-text-twenty-seven = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     to end. No matter how no matter where.
     } } }
@@ -454,7 +428,6 @@ stirrings-still-text-twenty-eight = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Time and grief and self so-called.
     } } }
@@ -466,7 +439,6 @@ stirrings-still-text-twenty-nine = \markup {
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
-    %NARRATOR.
     \with-color #red {
     Oh all to end.
     } } }

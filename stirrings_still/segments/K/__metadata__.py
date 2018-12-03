@@ -31,7 +31,12 @@ metadata = abjad.OrderedDict(
             [556, 572, 587, 601],
             ),
         ('duration', "2'18''"),
-        ('final_measure_number', 608),
+        (
+            'fermata_measure_numbers',
+            [609],
+            ),
+        ('final_measure_is_fermata', True),
+        ('final_measure_number', 609),
         ('first_measure_number', 556),
         (
             'persistent_indicators',
@@ -79,7 +84,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Global_Skips',
                                 prototype='abjad.TimeSignature',
-                                value='5/8',
+                                value='1/4',
                                 ),
                             ],
                         ),
@@ -245,6 +250,7 @@ metadata = abjad.OrderedDict(
                 '6/8',
                 '4/8',
                 '5/8',
+                '1/4',
                 ],
             ),
         ]

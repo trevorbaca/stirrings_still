@@ -321,7 +321,7 @@ def operations():
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
                         letter='S',
-                        number=2,
+                        number=1,
                         description='transformatum',
                         length=1,
                         ),
@@ -883,7 +883,7 @@ def operations():
             StageToken('D', 9, 'isolatum', 4), (2, 3),
             ),
         Operation(
-            StageToken('S', 2, 'transformatum', 1),  1,
+            StageToken('S', 1, 'transformatum', 1),  1,
             'prefix',
             StageToken('D', 11, 'isolatum'),
             ),

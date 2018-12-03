@@ -95,7 +95,7 @@ maker(
             selector=baca.skip(0),
             ),
         baca.new(
-            baca.bar_line_x_extent((-2, 2)),
+            baca.bar_line_x_extent((-2, 0)),
             after=True,
             selector=baca.skip(-1),
             ),
@@ -1226,7 +1226,9 @@ maker(
         match=0,
         ),
     baca.new(
-        stirrings_still.breathe(),
+        baca.breathe(
+            abjad.tweak((-1, 0)).extra_offset,
+            ),
         stirrings_still.desynchronization(4, [-1]),
         stirrings_still.flat_glissando('C3'),
         match=1,

@@ -1311,7 +1311,7 @@ def second_order_stages(segment):
                         stage_number=11,
                         measure_numbers=[57, 58, 59, 60, 61, 62, 63, 64],
                         time_signatures=[
-                            abjad.TimeSignature((6, 4)),
+                            abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((14, 16)),
                             abjad.TimeSignature((12, 16)),
                             abjad.TimeSignature((10, 16)),
@@ -1324,7 +1324,7 @@ def second_order_stages(segment):
                             stirrings_still.Operation(
                                 source_stage=stirrings_still.StageToken(
                                     letter='S',
-                                    number=2,
+                                    number=1,
                                     description='transformatum',
                                     length=1,
                                     ),
@@ -2896,7 +2896,7 @@ def second_order_stages(segment):
                     10,
                     stirrings_still.StageSpecifier(
                         stage_number=10,
-                        measure_numbers=[46, 47, 48, 49, 50, 51, 52, 53],
+                        measure_numbers=[46, 47, 48, 49, 50, 51, 52, 53, 54],
                         time_signatures=[
                             abjad.TimeSignature((8, 8)),
                             abjad.TimeSignature((8, 8)),
@@ -2907,6 +2907,7 @@ def second_order_stages(segment):
                             abjad.TimeSignature((4, 8)),
                             abjad.TimeSignature((5, 8)),
                             ],
+                        after='short',
                         ),
                     ),
                 ]
@@ -3680,13 +3681,14 @@ def second_order_stages(segment):
                     4,
                     stirrings_still.StageSpecifier(
                         stage_number=4,
-                        measure_numbers=[13, 14, 15, 16],
+                        measure_numbers=[13, 14, 15, 16, 17],
                         time_signatures=[
                             abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((4, 4)),
                             ],
+                        after='fermata',
                         ),
                     ),
                 ]
@@ -3696,7 +3698,7 @@ def second_order_stages(segment):
 
         >>> stages = stirrings_still.second_order_stages('S')
         >>> len(stages)
-        9
+        5
 
         >>> abjad.f(stages)
         abjad.OrderedDict(
@@ -3705,23 +3707,23 @@ def second_order_stages(segment):
                     1,
                     stirrings_still.StageSpecifier(
                         stage_number=1,
-                        measure_numbers=[1, 2, 3, 4],
+                        measure_numbers=[1, 2],
                         time_signatures=[
                             abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((5, 4)),
                             ],
+                        after='long',
                         ),
                     ),
                 (
                     2,
                     stirrings_still.StageSpecifier(
                         stage_number=2,
-                        measure_numbers=[5],
+                        measure_numbers=[3, 4, 5],
                         time_signatures=[
-                            abjad.TimeSignature((6, 4)),
+                            abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((4, 4)),
                             ],
+                        after='long',
                         ),
                     ),
                 (
@@ -3730,91 +3732,40 @@ def second_order_stages(segment):
                         stage_number=3,
                         measure_numbers=[6, 7, 8, 9],
                         time_signatures=[
-                            abjad.TimeSignature((6, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((5, 4)),
+                            abjad.TimeSignature((6, 4)),
+                            abjad.TimeSignature((6, 4)),
                             ],
+                        after='long',
                         ),
                     ),
                 (
                     4,
                     stirrings_still.StageSpecifier(
                         stage_number=4,
-                        measure_numbers=[10, 11],
+                        measure_numbers=[10, 11, 12, 13, 14, 15, 16],
                         time_signatures=[
+                            abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((4, 4)),
+                            abjad.TimeSignature((5, 4)),
                             abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((4, 4)),
                             ],
+                        after='long',
                         ),
                     ),
                 (
                     5,
                     stirrings_still.StageSpecifier(
                         stage_number=5,
-                        measure_numbers=[12, 13, 14, 15],
+                        measure_numbers=[17, 18, 19, 20],
                         time_signatures=[
-                            abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((3, 4)),
                             ],
-                        ),
-                    ),
-                (
-                    6,
-                    stirrings_still.StageSpecifier(
-                        stage_number=6,
-                        measure_numbers=[16, 17, 18],
-                        time_signatures=[
-                            abjad.TimeSignature((5, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            ],
-                        ),
-                    ),
-                (
-                    7,
-                    stirrings_still.StageSpecifier(
-                        stage_number=7,
-                        measure_numbers=[19, 20, 21, 22],
-                        time_signatures=[
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((5, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            ],
-                        ),
-                    ),
-                (
-                    8,
-                    stirrings_still.StageSpecifier(
-                        stage_number=8,
-                        measure_numbers=[23, 24, 25, 26],
-                        time_signatures=[
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            ],
-                        ),
-                    ),
-                (
-                    9,
-                    stirrings_still.StageSpecifier(
-                        stage_number=9,
-                        measure_numbers=[27, 28, 29, 30, 31, 32, 33, 34, 35],
-                        time_signatures=[
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((5, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            ],
-                        after='long',
+                        after='very_long',
                         ),
                     ),
                 ]

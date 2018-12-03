@@ -32,11 +32,12 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
+    fermata_measure_empty_overrides=[54],
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('K'),
-    validate_measure_count=53,
+    validate_measure_count=54,
     )
 
 maker(
@@ -47,7 +48,7 @@ maker(
             literal=True,
             ),
         abjad.tweak((4, -30)).extra_offset,
-        selector=baca.skip(46 - 1),
+        selector=baca.skip(54 - 1),
         ),
     baca.new(
         baca.new(
@@ -82,6 +83,7 @@ time = (
     ('allegro', 38),
     ('andante', 43),
     ('allegro', 46),
+    ('short', 54),
     )
 
 stirrings_still.time(maker, time)
@@ -356,7 +358,7 @@ maker(
     )
 
 maker(
-    ('v1', (46, -1)),
+    ('v1', (46, 53)),
     baca.hairpin('p >o niente'),
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
@@ -702,7 +704,7 @@ maker(
     )
 
 maker(
-    ('v2', (46, -1)),
+    ('v2', (46, 53)),
     baca.hairpin('p >o niente'),
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
@@ -985,7 +987,7 @@ maker(
     )
 
 maker(
-    ('va', (46, -1)),
+    ('va', (46, 53)),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         # TODO: allow spanner to extend to phantom measure
