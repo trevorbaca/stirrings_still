@@ -1,7 +1,7 @@
 stirrings-still-text-toplevel = \markup {
-    \hcenter-in #200
     \fontsize #6 {
-    %%%\vspace #8
+    \vspace #8
+    \hspace #40
     \override #'(word-space . 2)
     \justify {
     NARRATOR.
@@ -212,7 +212,8 @@ stirrings-still-text-fifteen = \markup {
 
 stirrings-still-text-sixteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 6)
+    \override #'(baseline-skip . 5)
     \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
@@ -305,7 +306,8 @@ stirrings-still-text-twenty-one = \markup {
     \with-dimensions-from \null
     \override #'(baseline-skip . 6)
     \override #'(font-size . 6)
-    \override #'(line-width . 80)
+    %%%\override #'(line-width . 80)
+    \override #'(line-width . 120)
     \override #'(word-space . 2)
     \justify {
     \with-color #red {

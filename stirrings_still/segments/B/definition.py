@@ -63,6 +63,10 @@ maker(
         'B',
         abjad.tweak((0, 10)).extra_offset,
         ),
+    )
+
+maker(
+    'Global_Skips',
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-text-eight',
@@ -79,13 +83,17 @@ maker(
         abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(66 - 1),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((0, 3)),
+    )
+
+maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (0, 3),
             selector=baca.skip(0),
             ),
-        baca.new(
-            baca.bar_line_x_extent((-2, 0)),
+        baca.bar_line_x_extent(
+            (-2, 0),
             after=True,
             selector=baca.skip(-1),
             ),

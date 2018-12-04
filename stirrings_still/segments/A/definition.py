@@ -56,12 +56,16 @@ maker(
         abjad.tweak((0, 12)).extra_offset,
         selector=baca.skip(18 - 1),
         ),
+    )
+
+maker(
+    'Global_Skips',
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-text-two',
             literal=True,
             ),
-        # -20 because first page spaces differently
+        # -20 because first page compresses vertical spacing
         abjad.tweak((4, -20)).extra_offset,
         selector=baca.skip(10 - 1),
         ),
@@ -70,8 +74,8 @@ maker(
             r'\stirrings-still-text-three',
             literal=True,
             ),
-        # -20 because first page spaces differently
-        abjad.tweak((14, -20)).extra_offset,
+        # -20 because first page compresses vertical spacing
+        abjad.tweak((4, -20)).extra_offset,
         selector=baca.skip(19 - 1),
         ),
     baca.markup(
@@ -106,15 +110,30 @@ maker(
         abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(63 - 1),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-1, 3)),
+    )
+
+maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-1, 3),
             selector=baca.skip(0),
             ),
-        baca.new(
-            baca.bar_line_x_extent((-2, 2)),
-            after=True,
-            selector=baca.skip(-1),
+        baca.tag(
+            '+SCORE',
+            baca.bar_line_x_extent(
+                (-2, 0),
+                after=True,
+                selector=baca.skip(-1),
+                ),
+            ),
+        baca.tag(
+            '-SCORE',
+            baca.bar_line_x_extent(
+                (-2, 2),
+                after=True,
+                selector=baca.skip(-1),
+                ),
             ),
         baca.volta(),
         measures=(44, 48),
@@ -490,13 +509,13 @@ maker(
 
 maker(
     ('trio', (41, 45)),
+    baca.breathe(),
     baca.dynamic_text_self_alignment_x(-1),
     baca.hairpin(
         '(ppp) >o',
         bookend=False,
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.breathe(),
     )
 
 maker(
@@ -838,10 +857,6 @@ maker(
 maker(
     ('vc', (42, 43)),
     baca.clef('treble'),
-    baca.clef(
-        'bass',
-        selector=baca.leaves().rleak()[-1],
-        ),
     baca.hairpin(
         'niente o< "f" -- !',
         abjad.tweak(True).to_barline,
@@ -862,6 +877,11 @@ maker(
         staff_padding=4.5,
         ),
     stirrings_still.flat_glissando('A5'),
+    )
+
+maker(
+    ('vc', 46),
+    baca.clef('bass'),
     )
 
 maker(
