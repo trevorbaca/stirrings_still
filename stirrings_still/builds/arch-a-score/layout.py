@@ -132,7 +132,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=136,
+            measure=139,
             y_offset=third_system_y_offset,
             ),
         number=6,
@@ -273,13 +273,13 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=297,
+            measure=296,
             y_offset=second_system_y_offset,
             ),
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=305,
+            measure=306,
             y_offset=third_system_y_offset,
             ),
         number=13,
@@ -372,7 +372,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=409,
+            measure=410,
             y_offset=first_system_y_offset,
             ),
         baca.system(
@@ -399,7 +399,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=441,
+            measure=442,
             y_offset=second_system_y_offset,
             ),
         baca.system(
@@ -483,7 +483,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=537,
+            measure=535,
             y_offset=second_system_y_offset,
             ),
         baca.system(
@@ -546,7 +546,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=609,
+            measure=610,
             y_offset=second_system_y_offset,
             ),
         baca.system(
@@ -594,7 +594,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=665,
+            measure=667,
             y_offset=third_system_y_offset,
             ),
         number=28,
@@ -609,13 +609,13 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=681,
+            measure=680,
             y_offset=second_system_y_offset,
             ),
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=689,
+            measure=688,
             y_offset=third_system_y_offset,
             ),
         number=29,
@@ -741,7 +741,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=833,
+            measure=835,
             y_offset=third_system_y_offset,
             ),
         number=35,
@@ -750,7 +750,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=841,
+            measure=840,
             y_offset=first_system_y_offset,
             ),
         baca.system(
@@ -762,9 +762,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=857,
-            y_offset=third_system_y_offset,
-            ),
+            measure=856, y_offset=third_system_y_offset,),
         number=36,
         ),
 
@@ -776,23 +774,57 @@ spacing = baca.scorewide_spacing(
     fallback_duration=(1, 20),
     )
 
-#spacing.override(108, (1, 48))
-#spacing.override((368, 383), (1, 32))
-#spacing.override((425, 442), (1, 12))
-#spacing.override((830, 841), (1, 12))
-#spacing.override((841, 846), (1, 12))
-#spacing.override((856, 859), (1, 12))
-#spacing.override((864, 871), (1, 12))
-
 # OVERRIDES
-spacing.override((12, 16), (1, 16))
-spacing.override([18, 20, 22], (1, 40))
+spacing.override(11, (1, 40))
+spacing.override((12, 16), (1, 12))
+#spacing.override([18, 20, 22], (1, 40))
+#spacing.override([18, 20, 22], (1, 48))
+spacing.override([18, 20, 22], (1, 44))
+spacing.override([23, 26], (1, 12))
 spacing.override(25, (1, 40))
+#spacing.override(27, (1, 16)
+spacing.override(27, (1, 12)),
 spacing.override(29, (1, 40))
 spacing.override(60, (1, 40))
+spacing.override(62, (1, 40))
 spacing.override(89, (1, 40))
+spacing.override(90, (1, 40))
+spacing.override([127, 128], (1, 40))
+#spacing.override((193, 198), (1, 40))
+#spacing.override((193, 198), (1, 36))
+spacing.override((193, 198), (1, 28))
+spacing.override(244, (1, 40))
 spacing.override(253, (1, 40))
 spacing.override(261, (1, 40))
+spacing.override((271, 272), (1, 32))
+spacing.override(417, (1, 32))
+spacing.override(442, (1, 12))
+#spacing.override((444, 445), (1, 32))
+#spacing.override((444, 445), (1, 24))
+#spacing.override((444, 445), (1, 28))
+spacing.override((444, 445), (1, 30))
+#spacing.override([447, 449, 453, 455], (1, 18))
+#spacing.override([447, 449, 453, 455], (1, 16))
+#spacing.override([447, 449, 453, 455], (1, 12))
+spacing.override([447, 449, 453, 455], (1, 10))
+#spacing.override((451, 452), (1, 12))
+#spacing.override((451, 452), (1, 8))
+spacing.override((451, 452), (1, 4))
+#spacing.override((601, 608), (1, 24))
+spacing.override((601, 608), (1, 26))
+spacing.override((694, 695), (1, 40))
+spacing.override(703, (1, 40))
+spacing.override((831, 834), (1, 12))
+#spacing.override((835, 838), (1, 80))
+#spacing.override((835, 838), (1, 40))
+spacing.override((835, 838), (1, 48))
+#spacing.override((849, 854), (1, 22))
+#spacing.override((849, 854), (1, 26))
+#spacing.override((849, 854), (1, 32))
+spacing.override((849, 854), (1, 30))
+#spacing.override((856, 858), (1, 22))
+#spacing.override((856, 858), (1, 24))
+spacing.override((856, 858), (1, 23))
 
 textholding_fermata_measures = [
     10, 19, 24, 28, 61, 63, # A
@@ -811,6 +843,10 @@ textholding_fermata_measures = [
     ]
 
 spacing.override(textholding_fermata_measures, (1, 288), fermata=True)
+spacing.override(28, (1, 216), fermata=True)
+spacing.override(63, (1, 216), fermata=True)
+spacing.override(443, (1, 504), fermata=True)
+spacing.override(859, (1, 420), fermata=True)
 
 '''
 last_system_start = -7

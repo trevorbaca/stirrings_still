@@ -66,7 +66,8 @@ maker(
             literal=True,
             ),
         # -20 because first page compresses vertical spacing
-        abjad.tweak((4, -20)).extra_offset,
+        #abjad.tweak((4, -20)).extra_offset,
+        abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(10 - 1),
         ),
     baca.markup(
@@ -75,7 +76,8 @@ maker(
             literal=True,
             ),
         # -20 because first page compresses vertical spacing
-        abjad.tweak((4, -20)).extra_offset,
+        #abjad.tweak((4, -20)).extra_offset,
+        abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(19 - 1),
         ),
     baca.markup(

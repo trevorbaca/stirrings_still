@@ -52,12 +52,22 @@ maker(
 maker(
     'Global_Skips',
     baca.chunk(
-        baca.bar_line_x_extent(
-            (-1, 3),
-            selector=baca.skip(0),
+        baca.tag(
+            '+SCORE',
+            baca.bar_line_x_extent(
+                (0, 3),
+                selector=baca.skip(0),
+                ),
+            ),
+        baca.tag(
+            '-SCORE',
+            baca.bar_line_x_extent(
+                (-1, 3),
+                selector=baca.skip(0),
+                ),
             ),
         baca.bar_line_x_extent(
-            (-2, 2),
+            (-2, 3),
             after=True,
             selector=baca.skip(-1),
             ),
@@ -129,7 +139,7 @@ maker(
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
-        -8,
+        -9,
         clt=True,
         staff_padding=4.5,
         ),

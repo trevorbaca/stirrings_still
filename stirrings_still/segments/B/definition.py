@@ -92,10 +92,21 @@ maker(
             (0, 3),
             selector=baca.skip(0),
             ),
-        baca.bar_line_x_extent(
-            (-2, 0),
-            after=True,
-            selector=baca.skip(-1),
+        baca.tag(
+            '+SEGMENT',
+            baca.bar_line_x_extent(
+                (0, 0),
+                after=True,
+                selector=baca.skip(-1),
+                ),
+            ),
+        baca.tag(
+            '-SEGMENT',
+            baca.bar_line_x_extent(
+                (0, 2),
+                after=True,
+                selector=baca.skip(-1),
+                ),
             ),
         baca.volta(),
         measures=(29, 32),
