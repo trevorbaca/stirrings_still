@@ -120,10 +120,6 @@ maker(
         pieces=baca.mgroups([4, 4, 7 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -8,
@@ -478,10 +474,6 @@ maker(
         pieces=baca.mgroups([4, 4 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
-        ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
         -7,
@@ -761,10 +753,6 @@ maker(
         'o< fff -- "fff" >o !',
         pieces=baca.mgroups([4, 4, 4 + 1]),
         selector=baca.leaves().rleak(),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -1097,10 +1085,6 @@ maker(
         'o< fff -- "fff" >o !',
         pieces=baca.mgroups([4, 4, 4 + 1]),
         selector=baca.leaves().rleak(),
-        ),
-    baca.markup(
-        r'\stirrings-still-molto-scratch-on-slow-strokes',
-        literal=True,
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(

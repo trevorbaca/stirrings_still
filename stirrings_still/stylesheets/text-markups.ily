@@ -1,7 +1,8 @@
 stirrings-still-text-toplevel = \markup {
-    \hcenter-in #232
+    \hcenter-in #200
     \fontsize #6 {
-    \vspace #8
+    %%%\vspace #8
+    \override #'(word-space . 2)
     \justify {
     NARRATOR.
     \with-color #red {
@@ -13,8 +14,8 @@ stirrings-still-text-toplevel = \markup {
 
 stirrings-still-text-one = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -24,8 +25,8 @@ stirrings-still-text-one = \markup {
 
 stirrings-still-text-two = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -39,8 +40,8 @@ stirrings-still-text-two = \markup {
 
 stirrings-still-text-three = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -50,8 +51,8 @@ stirrings-still-text-three = \markup {
 
 stirrings-still-text-four = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -65,8 +66,8 @@ stirrings-still-text-four = \markup {
 
 stirrings-still-text-five = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -78,8 +79,8 @@ stirrings-still-text-five = \markup {
 
 stirrings-still-text-six = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -90,8 +91,8 @@ stirrings-still-text-six = \markup {
 
 stirrings-still-text-seven = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -102,8 +103,8 @@ stirrings-still-text-seven = \markup {
 
 stirrings-still-text-eight = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -116,8 +117,8 @@ stirrings-still-text-eight = \markup {
 
 stirrings-still-text-nine = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -131,8 +132,8 @@ stirrings-still-text-nine = \markup {
 
 stirrings-still-text-ten = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -146,8 +147,8 @@ stirrings-still-text-ten = \markup {
 
 stirrings-still-text-eleven = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -160,8 +161,8 @@ stirrings-still-text-eleven = \markup {
 
 stirrings-still-text-twelve = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -172,8 +173,8 @@ stirrings-still-text-twelve = \markup {
 
 stirrings-still-text-thirteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -187,8 +188,8 @@ stirrings-still-text-thirteen = \markup {
 
 stirrings-still-text-fourteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -198,8 +199,8 @@ stirrings-still-text-fourteen = \markup {
 
 stirrings-still-text-fifteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -211,8 +212,8 @@ stirrings-still-text-fifteen = \markup {
 
 stirrings-still-text-sixteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -231,8 +232,8 @@ stirrings-still-text-sixteen = \markup {
 
 stirrings-still-text-seventeen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -245,8 +246,8 @@ stirrings-still-text-seventeen = \markup {
 
 stirrings-still-text-eighteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -262,8 +263,8 @@ stirrings-still-text-eighteen = \markup {
 
 stirrings-still-text-nineteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -286,8 +287,8 @@ stirrings-still-text-nineteen = \markup {
 
 stirrings-still-text-twenty = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -302,8 +303,8 @@ stirrings-still-text-twenty = \markup {
 
 stirrings-still-text-twenty-one = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -325,8 +326,8 @@ stirrings-still-text-twenty-one = \markup {
 
 stirrings-still-text-twenty-two = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \whiteout
@@ -345,8 +346,8 @@ stirrings-still-text-twenty-two = \markup {
 
 stirrings-still-text-twenty-three = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -364,8 +365,8 @@ stirrings-still-text-twenty-three = \markup {
 
 stirrings-still-text-twenty-four = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -384,8 +385,8 @@ stirrings-still-text-twenty-four = \markup {
 
 stirrings-still-text-twenty-five = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -400,8 +401,8 @@ stirrings-still-text-twenty-five = \markup {
 
 stirrings-still-text-twenty-six = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -412,8 +413,8 @@ stirrings-still-text-twenty-six = \markup {
 
 stirrings-still-text-twenty-seven = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -423,8 +424,8 @@ stirrings-still-text-twenty-seven = \markup {
 
 stirrings-still-text-twenty-eight = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
@@ -434,8 +435,8 @@ stirrings-still-text-twenty-eight = \markup {
 
 stirrings-still-text-twenty-nine = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 4)
-    \override #'(font-size . 2)
+    \override #'(baseline-skip . 6)
+    \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
