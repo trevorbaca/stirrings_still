@@ -31,18 +31,18 @@ stirrings-still-text-two = \markup {
     \override #'(word-space . 2)
     \justify {
     \with-color #red {
-    For when his own light went out he was not left in the dark. Light of a
-    kind came then from the one high window. Under it stood the stool on which
-    till he could or would no more he used to mount to see the sky. Why he did
-    not crane out to see what lay beneath was perhaps because the window was
-    not made to open
+    One night or day. For when his own light went out he was not left in the
+    dark. Light of a kind came then from the one high window. Under it still
+    the stool on which till he could or would no more he used to mount to see
+    the sky. Why he did not crane out to see what lay beneath was perhaps
+    because the window was not made to open
     } } }
 
 stirrings-still-text-three = \markup {
     \with-dimensions-from \null
     \override #'(baseline-skip . 6)
     \override #'(font-size . 6)
-    \override #'(line-width . 80)
+    %%%\override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
     \with-color #red {
@@ -126,7 +126,7 @@ stirrings-still-text-nine = \markup {
     So again and again disappeared again only to reappear again later at
     another place again. Another place in the place where he sat at his table
     head on hands. The same place and table as when Darly for example died and
-    left him. And when others too in their turn before and since. As when
+    left him. As when others would too in their turn before and since. As when
     others too in their turn and leave him till he too in his turn.
     } } }
 
@@ -167,8 +167,8 @@ stirrings-still-text-twelve = \markup {
     \override #'(word-space . 2)
     \justify {
     \with-color #red {
-    A clock struck the hours and the half-hours. The same as when among others
-    Darly once died and left him.
+    A clock afar struck the hours and half-hours. The same as when among
+    others Darly once died and left him.
     } } }
 
 stirrings-still-text-thirteen = \markup {
@@ -213,7 +213,7 @@ stirrings-still-text-fifteen = \markup {
 stirrings-still-text-sixteen = \markup {
     \with-dimensions-from \null
     %%%\override #'(baseline-skip . 6)
-    \override #'(baseline-skip . 5)
+    \override #'(baseline-skip . 4.8)
     \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
@@ -222,10 +222,10 @@ stirrings-still-text-sixteen = \markup {
     Lift his past head a moment to see his past hands. Then lay it back on them
     to rest it too. After all it did. The same place as when left day after day
     for the roads. The back roads. Returned to night after night. Paced from
-    wall to wall in the dark. Then the fleeting dark of night. Now as if
+    wall to wall in the dark. The then fleeting dark of night. Now as if
     strange to him seen to rise and go. Disappear and reappear at another
     place. Disappear again and reappear again at another place again. Or at the
-    same. Nothing to show not the same. No wall toward which or from. Not able
+    same. Nothing to show not the same. No wall toward which or from. No table
     back toward which or further from. In the same place as when paced from
     wall to wall all places as the same. Or in another. Nothing to show not
     another. Where never.
@@ -247,7 +247,8 @@ stirrings-still-text-seventeen = \markup {
 
 stirrings-still-text-eighteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 6)
+    \override #'(baseline-skip . 5)
     \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
@@ -258,15 +259,19 @@ stirrings-still-text-eighteen = \markup {
     that perhaps even they would not be heard again. Perhaps thus the end.
     Unless no more than a mere lull. Then all as before. The strokes and cries
     as before and he as before now there now gone now there again now gone
-    again. Then the lull again. Then all as before again. And patience till the
-    one true end to time and grief and self and second self his own.
+    again. Then the lull again. Then all as before again. So again and again.
+    And patience till the one true end to time and grief and self and second
+    self his own.
     } } }
 
 stirrings-still-text-nineteen = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 5)
+    \override #'(baseline-skip . 4.5)
     \override #'(font-size . 6)
-    \override #'(line-width . 80)
+    %%%\override #'(line-width . 80)
+    \override #'(line-width . 120)
     \override #'(word-space . 2)
     \justify {
     \with-color #red {
@@ -279,11 +284,11 @@ stirrings-still-text-nineteen = \markup {
     emerged at last he knew not how into the outer world and had not been there
     for more than six or seven hours by the clock when he could not but begin
     to wonder if he was in his right mind. By the same clock whose strokes were
-    heard time without number in his confinement as it struck the hours and
-    half hours and so in a sense a source of reassurance till finally one of
-    alarm as being no clearer now than when in principle muffled by his four
-    walls. Then he sought help in the thought of one hastening westward at
-    sundown to obtain a better view of Venus and found it
+    those heard times without number in his confinement as it struck the hours
+    and half hours and so in a sense at first a source of reassurance till
+    finally one of alarm as being no clearer now than when in principle muffled
+    by his four walls. Then he sought help in the thought of one hastening
+    westward at sundown to obtain a better view of Venus and found it
     } } }
 
 stirrings-still-text-twenty = \markup {
@@ -304,7 +309,8 @@ stirrings-still-text-twenty = \markup {
 
 stirrings-still-text-twenty-one = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 6)
+    \override #'(baseline-skip . 5)
     \override #'(font-size . 6)
     %%%\override #'(line-width . 80)
     \override #'(line-width . 120)
@@ -328,7 +334,8 @@ stirrings-still-text-twenty-one = \markup {
 
 stirrings-still-text-twenty-two = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 6)
+    \override #'(baseline-skip . 4.5)
     \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
@@ -337,18 +344,20 @@ stirrings-still-text-twenty-two = \markup {
     \with-color #red {
     So all eyes from bad to worse till in the end he ceased if not to see to
     look (about him or more closely) and set out to take thought. To this end
-    for want of a stone on which to sit like Walter and cross his legs the best
-    he could do was stop dead and stand stock still which after a moment of
-    hesitation he did and of course sink his head as one deep in meditation
-    which after another moment he did also. But soon weary of vainly delving in
-    these remains he moved on through the long hoar grass resigned to not
-    knowing where he was going or how to get back to when he knew not how he
-    came. So on unknowing
+    for want of a stone on which to sit like Walther and cross his legs the
+    best he could do was stop dead and stand stock still which after a moment
+    of hesitation he did and of course sink his head as one deep in meditation
+    which after another moment of hesitation he did also. But soon weary of
+    vainly delving in those remains he moved on through the long hoar grass
+    resigned to not knowing where he was or how he got there or where he was
+    going or how to get back to whence he knew not how he came.
+    So on unknowing
     } } }
 
 stirrings-still-text-twenty-three = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 6)
+    \override #'(baseline-skip . 5)
     \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
@@ -358,7 +367,7 @@ stirrings-still-text-twenty-three = \markup {
     indeed any wish of any kind nor therefore any sorrow save that he would
     have wished the strokes to cease and the cries for good and was sorry that
     they did not. The strokes now faint now clear as if carried by the wind but
-    not a breath and the cries now faint now clear. So on still stayed when to
+    not a breath and the cries now faint now clear. So on till stayed when to
     his ears from deep within oh how and here a word he could not catch it were
     to end where never till then. Rest then before again from not long to so
     long that perhaps never again and then again faint from deep within oh how
@@ -367,27 +376,29 @@ stirrings-still-text-twenty-three = \markup {
 
 stirrings-still-text-twenty-four = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 6)
+    \override #'(baseline-skip . 4.5)
     \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
     \justify {
     \with-color #red {
     till then. In any case whatever it might be to end and so on was he not
-    already as he stood there all bowed down to his ears faint from deep within
-    again and again oh how something and so on was he not so far as he could
-    see already there where never till then. For how could such a one as he
-    having once found himself in such a place not shudder to find himself in it
-    again which he had not done nor having shuddered seek help in vain in the
-    thought so-called that having somehow got out of it then he could somehow
-    get out of it again which he not done either. There then all this time
-    where never till then and so far as he could see in every direction when he
-    raised his head and opened his eyes
+    already as he stood there all bowed down and to his ears faint from deep
+    within again and again oh how something and so on was he not so far as he
+    could see already there where never till then. For how could even such a
+    one as he having once found himself in such a place not shudder to find
+    himself in it again which he had not done nor having shuddered seek help in
+    vain in the thought so-called that having somehow got out of it then he
+    could somehow get out of it again which he not done either. There then all
+    this time where never till then and so far as he could see in every
+    direction when he raised his head and opened his eyes
     } } }
 
 stirrings-still-text-twenty-five = \markup {
     \with-dimensions-from \null
-    \override #'(baseline-skip . 6)
+    %%%\override #'(baseline-skip . 6)
+    \override #'(baseline-skip . 5)
     \override #'(font-size . 6)
     \override #'(line-width . 80)
     \override #'(word-space . 2)
@@ -397,7 +408,7 @@ stirrings-still-text-twenty-five = \markup {
     he then now to press on regardless now in one direction and now in another
     or on the other hand stir no more as the case might be that is as that
     missing word might be which if to warn such as sad or bad for example then
-    of course then in spite of all the one and if the reverse then of course
+    of course in spite of all the one and if the reverse then of course
     the other that is stir no more.
     } } }
 
@@ -409,8 +420,8 @@ stirrings-still-text-twenty-six = \markup {
     \override #'(word-space . 2)
     \justify {
     \with-color #red {
-    Such and much more such as the hubbub in his mind so-called till nothing
-    left from deep within but only ever fainter oh
+    Such and much more such the hubbub in his mind so-called till nothing left
+    from deep within but only ever fainter oh
     } } }
 
 stirrings-still-text-twenty-seven = \markup {

@@ -46,7 +46,8 @@ maker(
             r'\stirrings-still-text-twenty-seven',
             literal=True,
             ),
-        abjad.tweak((14, -50)).extra_offset,
+        #abjad.tweak((14, -50)).extra_offset,
+        abjad.tweak((4, -50)).extra_offset,
         selector=baca.skip(16 - 1),
         ),
     baca.markup(
@@ -54,7 +55,7 @@ maker(
             r'\stirrings-still-text-twenty-eight',
             literal=True,
             ),
-        abjad.tweak((21, -75)).extra_offset,
+        abjad.tweak((9, -75)).extra_offset,
         selector=baca.skip(20 - 1),
         ),
     baca.markup(
@@ -62,7 +63,7 @@ maker(
             r'\stirrings-still-text-twenty-nine',
             literal=True,
             ),
-        abjad.tweak((34, -100)).extra_offset,
+        abjad.tweak((28, -100)).extra_offset,
         selector=baca.skip(20 - 1),
         ),
     baca.rehearsal_mark(

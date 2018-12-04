@@ -90,16 +90,42 @@
                 \concat {
                 S
                 \hspace #-1
-                TIRRIN
+                \hspace #1
+
+                T
+                \hspace #1
+                I
+                \hspace #1
+                R
+                \hspace #1
+                R
+                \hspace #1
+                I
+                \hspace #1
+
+                N
                 \hspace #-2
-                GS
+                \hspace #1
+
+                G
+                \hspace #1
+                S
+                \hspace #1
                 }
                 \hspace #4
                 \concat{
                 S
                 \hspace #-1
-                TIL
+                \hspace #1
+
+                T
+                \hspace #1
+                I
+                \hspace #1
+                L
+                \hspace #1
                 \hspace #-1
+                \hspace #1
                 L
                 }
             }

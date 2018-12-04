@@ -275,7 +275,7 @@ S_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-    - \tweak extra-offset #'(14 . -50)                                         %! baca_markup:IndicatorCommand
+    - \tweak extra-offset #'(4 . -50)                                          %! baca_markup:IndicatorCommand
     ^ \stirrings-still-text-twenty-seven                                       %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -346,9 +346,9 @@ S_Global_Skips = {                                                             %
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
-    - \tweak extra-offset #'(21 . -75)                                         %! baca_markup:IndicatorCommand
+    - \tweak extra-offset #'(9 . -75)                                          %! baca_markup:IndicatorCommand
     ^ \stirrings-still-text-twenty-eight                                       %! baca_markup:IndicatorCommand
-    - \tweak extra-offset #'(34 . -100)                                        %! baca_markup:IndicatorCommand
+    - \tweak extra-offset #'(28 . -100)                                        %! baca_markup:IndicatorCommand
     ^ \stirrings-still-text-twenty-nine                                        %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
