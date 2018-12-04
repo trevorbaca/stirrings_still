@@ -846,7 +846,7 @@ R_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [R Violin_I_Rest_Voice measure 831 / measure 9]                  %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -854,7 +854,7 @@ R_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [R Violin_I_Music_Voice measure 832 / measure 10]                        %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 3/2                                                                   %! _make_measure_silences
 
     % [R Violin_I_Music_Voice measure 833 / measure 11]                        %! _comment_measure_numbers
@@ -882,7 +882,7 @@ R_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
     \stopStaff                                                                 %! _style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(3)
     \startStaff                                                                %! _style_fermata_measures(3)
@@ -1380,7 +1380,7 @@ R_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [R Violin_II_Rest_Voice measure 831 / measure 9]                 %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1388,7 +1388,7 @@ R_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [R Violin_II_Music_Voice measure 832 / measure 10]                       %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 3/2                                                                   %! _make_measure_silences
 
     % [R Violin_II_Music_Voice measure 833 / measure 11]                       %! _comment_measure_numbers
@@ -1416,7 +1416,7 @@ R_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
     \stopStaff                                                                 %! _style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(3)
     \startStaff                                                                %! _style_fermata_measures(3)
@@ -1683,7 +1683,7 @@ R_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [R Cello_Rest_Voice measure 835 / measure 13]                    %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1691,7 +1691,7 @@ R_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [R Cello_Music_Voice measure 836 / measure 14]                           %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [R Cello_Music_Voice measure 837 / measure 15]                           %! _comment_measure_numbers
@@ -1707,7 +1707,7 @@ R_Cello_Music_Voice = {                                                        %
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
     \stopStaff                                                                 %! _style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(3)
     \startStaff                                                                %! _style_fermata_measures(3)

@@ -6969,7 +6969,7 @@ A_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [A Cello_Rest_Voice measure 1]                                   %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 1/2                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -6977,7 +6977,7 @@ A_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 2]                                          %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A Cello_Music_Voice measure 3]                                          %! _comment_measure_numbers
@@ -7013,7 +7013,7 @@ A_Cello_Music_Voice = {                                                        %
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
     R1 * 1                                                                     %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [A Cello_Music_Voice measure 12]                                         %! _comment_measure_numbers
     d,2                                                                        %! baca_make_repeat_tied_notes
@@ -7250,7 +7250,7 @@ A_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [A Cello_Rest_Voice measure 41]                                  %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 7/8                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -7466,7 +7466,7 @@ A_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [A Cello_Rest_Voice measure 44]                                  %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! baca_mmrest_text_color:OverrideCommand(1)
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -7474,7 +7474,7 @@ A_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 45]                                         %! _comment_measure_numbers
-    \once \override MultiMeasureRest.color = #green                            %! baca_mmrest_text_color:OverrideCommand(1)
+    \once \override MultiMeasureRest.color = #green                            %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 7/8                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
@@ -7942,7 +7942,7 @@ A_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Cello_Music_Voice measure 60]                                         %! _comment_measure_numbers
-    \once \override MultiMeasureRest.color = #green                            %! baca_mmrest_text_color:OverrideCommand(1)
+    \once \override MultiMeasureRest.color = #green                            %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A Cello_Music_Voice measure 61]                                         %! _comment_measure_numbers

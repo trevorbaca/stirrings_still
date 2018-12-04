@@ -3110,12 +3110,12 @@ G_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [G Cello_Music_Voice measure 451 / measure 5]                            %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1/2                                                                   %! _make_measure_silences
 
     % [G Cello_Music_Voice measure 452 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [G Cello_Music_Voice measure 453 / measure 7]                            %! _comment_measure_numbers
     b,,2                                                                       %! stirrings_still_taper

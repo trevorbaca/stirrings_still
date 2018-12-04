@@ -1489,7 +1489,7 @@ S_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_I_Music_Voice measure 856 / measure 17]                        %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
@@ -1500,7 +1500,7 @@ S_Violin_I_Music_Voice = {                                                     %
 
     % [S Violin_I_Music_Voice measure 858 / measure 19]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [S Violin_I_Music_Voice measure 859 / measure 20]                        %! _comment_measure_numbers
     \stopStaff                                                                 %! _style_fermata_measures(1)
@@ -2537,7 +2537,7 @@ S_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Violin_II_Music_Voice measure 856 / measure 17]                       %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
@@ -2548,7 +2548,7 @@ S_Violin_II_Music_Voice = {                                                    %
 
     % [S Violin_II_Music_Voice measure 858 / measure 19]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [S Violin_II_Music_Voice measure 859 / measure 20]                       %! _comment_measure_numbers
     \stopStaff                                                                 %! _style_fermata_measures(1)
@@ -3020,7 +3020,7 @@ S_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [S Cello_Music_Voice measure 856 / measure 17]                           %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! baca_mmrest_text_color:OverrideCommand(1)
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
@@ -3031,7 +3031,7 @@ S_Cello_Music_Voice = {                                                        %
 
     % [S Cello_Music_Voice measure 858 / measure 19]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! baca_mmrest_text_color:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [S Cello_Music_Voice measure 859 / measure 20]                           %! _comment_measure_numbers
     \stopStaff                                                                 %! _style_fermata_measures(1)
