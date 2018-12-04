@@ -28,6 +28,15 @@ maker = baca.SegmentMaker(
     validate_measure_count=17,
     )
 
+
+maker(
+    'Global_Skips',
+    baca.rehearsal_mark(
+        'R',
+        abjad.tweak((0, 10)).extra_offset,
+        ),
+    )
+
 maker(
     'Global_Skips',
     baca.markup(
@@ -38,7 +47,11 @@ maker(
         abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(17 - 1),
         ),
-    baca.new(
+    )
+
+maker(
+    'Global_Skips',
+    baca.chunk(
         baca.bar_line_x_extent(
             (-1, 3),
             selector=baca.skip(0),
@@ -50,10 +63,6 @@ maker(
             ),
         baca.volta(),
         measures=(3, 4),
-        ),
-    baca.rehearsal_mark(
-        'R',
-        abjad.tweak((0, 10)).extra_offset,
         ),
     )
 

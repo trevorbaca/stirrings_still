@@ -60,6 +60,14 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.rehearsal_mark(
+        'D',
+        abjad.tweak((0, 10)).extra_offset,
+        ),
+    )
+
+maker(
+    'Global_Skips',
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-text-thirteen',
@@ -84,56 +92,60 @@ maker(
         abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(64 - 1),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-1, 3)),
+    )
+
+maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-1, 3),
             selector=baca.skip(0),
             ),
-        baca.new(
-            baca.bar_line_x_extent((-2, 4)),
+        baca.bar_line_x_extent(
+            (-2, 4),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(1, 6),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-2, 4)),
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-2, 4),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(7, 12),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-2, 0)),
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-2, 0),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(13, 18),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-2, 4)),
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-2, 4),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(19, 24),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-2, 4)),
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-2, 4),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(25, 30),
         ),
-    baca.new(
+    baca.chunk(
         baca.tag(
             '-SEGMENT',
             baca.bar_line_x_extent(
@@ -153,36 +165,32 @@ maker(
         baca.volta(),
         measures=(31, 36),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-1, 3)),
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-1, 3),
             selector=baca.skip(0),
             ),
-        baca.new(
-            baca.bar_line_x_extent((-2, 2)),
+        baca.bar_line_x_extent(
+            (-2, 2),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(57, 60),
         ),
-    baca.new(
+    baca.chunk(
         # left extent zero because empty measure to left
-        baca.new(
-            baca.bar_line_x_extent((0, 3)),
+        baca.bar_line_x_extent(
+            (0, 3),
             selector=baca.skip(0),
             ),
-        baca.new(
-            baca.bar_line_x_extent((-2, 2)),
+        baca.bar_line_x_extent(
+            (-2, 2),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(94, 97),
-        ),
-    baca.rehearsal_mark(
-        'D',
-        abjad.tweak((0, 10)).extra_offset,
         ),
     )
 

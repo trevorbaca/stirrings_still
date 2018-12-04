@@ -37,6 +37,10 @@ maker(
         'J',
         abjad.tweak((0, 10)).extra_offset,
         ),
+    )
+
+maker(
+    'Global_Skips',
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-repeat-three',
@@ -46,13 +50,18 @@ maker(
         measures=11,
         selector=baca.skip(0),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((-2, 4)),
+    )
+
+
+maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-2, 4),
             selector=baca.skip(0),
             ),
-        baca.new(
-            baca.bar_line_x_extent((-3, 2)),
+        baca.bar_line_x_extent(
+            (-3, 2),
             after=True,
             selector=baca.skip(-1),
             ),

@@ -36,6 +36,14 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.rehearsal_mark(
+        'G',
+        abjad.tweak((0, 10)).extra_offset,
+        ),
+    )
+
+maker(
+    'Global_Skips',
     baca.markup(
         abjad.Markup.from_literal(
             r'\stirrings-still-text-twenty',
@@ -52,22 +60,22 @@ maker(
         abjad.tweak((4, -30)).extra_offset,
         selector=baca.skip(18 - 1),
         ),
-    baca.new(
-        baca.new(
-            baca.bar_line_x_extent((0, 3)),
+    )
+
+maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (0, 3),
             selector=baca.skip(0),
             ),
-        baca.new(
-            baca.bar_line_x_extent((-2, 3)),
+        baca.bar_line_x_extent(
+            (-2, 3),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(19, 21),
-        ),
-    baca.rehearsal_mark(
-        'G',
-        abjad.tweak((0, 10)).extra_offset,
         ),
     )
 

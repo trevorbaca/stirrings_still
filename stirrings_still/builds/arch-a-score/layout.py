@@ -16,18 +16,18 @@ breaks = baca.breaks (
             after_time_signatures,
             after_staff - 4,
             measure=1,
-            y_offset=70,
+            y_offset=80,
             ),
         baca.system(
             after_time_signatures,
             after_staff - 4,
             measure=9,
-            y_offset=190,
+            y_offset=195,
             ),
         baca.system(
             after_time_signatures,
             after_staff - 4,
-            measure=17,
+            measure=18,
             y_offset=310,
             ),
         number=1,
@@ -36,13 +36,13 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=25,
+            measure=23,
             y_offset=first_system_y_offset,
             ),
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=33,
+            measure=29,
             y_offset=second_system_y_offset,
             ),
         baca.system(
@@ -63,13 +63,13 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=57,
+            measure=60,
             y_offset=second_system_y_offset,
             ),
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=65,
+            measure=64,
             y_offset=third_system_y_offset,
             ),
         number=3,
@@ -126,13 +126,13 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=129,
+            measure=130,
             y_offset=second_system_y_offset,
             ),
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=137,
+            measure=136,
             y_offset=third_system_y_offset,
             ),
         number=6,
@@ -189,13 +189,13 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=201,
+            measure=200,
             y_offset=second_system_y_offset,
             ),
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=209,
+            measure=207,
             y_offset=third_system_y_offset,
             ),
         number=9,
@@ -321,7 +321,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=353,
+            measure=352,
             y_offset=third_system_y_offset,
             ),
         number=15,
@@ -378,7 +378,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=417,
+            measure=418,
             y_offset=second_system_y_offset,
             ),
         baca.system(
@@ -405,7 +405,7 @@ breaks = baca.breaks (
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=449,
+            measure=447,
             y_offset=third_system_y_offset,
             ),
         number=19,
@@ -783,6 +783,16 @@ spacing = baca.scorewide_spacing(
 #spacing.override((841, 846), (1, 12))
 #spacing.override((856, 859), (1, 12))
 #spacing.override((864, 871), (1, 12))
+
+# OVERRIDES
+spacing.override((12, 16), (1, 16))
+spacing.override([18, 20, 22], (1, 40))
+spacing.override(25, (1, 40))
+spacing.override(29, (1, 40))
+spacing.override(60, (1, 40))
+spacing.override(89, (1, 40))
+spacing.override(253, (1, 40))
+spacing.override(261, (1, 40))
 
 textholding_fermata_measures = [
     10, 19, 24, 28, 61, 63, # A
