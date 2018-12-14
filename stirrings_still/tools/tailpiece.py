@@ -26,7 +26,7 @@ def tailpiece(
             baca.staff_lines(1),
             baca.staff_lines(
                 5,
-                selector=baca.rleaves()[-1:],
+                selector=baca.leaves().rleak()[-1:],
                 ),
             ),
         baca.text_script_parent_center(),
