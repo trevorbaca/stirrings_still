@@ -75,7 +75,7 @@ maker(
 
 maker(
     ('v1', [(1, 8), (21, 25)]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'D6',
         hide_middle_stems=True,
         ),
@@ -92,16 +92,16 @@ maker(
 
 maker(
     ('v1', [(9, 12), (26, 28)]),
+    baca.flat_glissando('<D#4 A4>'),
     baca.markup(
         '(12ET)',
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.flat_glissando('<D#4 A4>'),
     )
 
 maker(
     ('v1', (13, 16)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'D6',
         hide_middle_stems=True,
         selector=baca.leaves().rleak(),
@@ -110,19 +110,19 @@ maker(
 
 maker(
     ('v1', (17, 20)),
-    baca.markup(
-        '(12ET)',
-        abjad.tweak(8).staff_padding,
-        selector=baca.leaf(1),
-        ),
     baca.circle_bow_spanner(
         'very-wide',
         abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<D#4 A4>',
         selector=baca.leaves()[1:],
+        ),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(8).staff_padding,
+        selector=baca.leaf(1),
         ),
     stirrings_still.pickets(
         4,
@@ -147,7 +147,7 @@ maker(
 
 maker(
     ('v1', (29, 32)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'D6',
         stop_pitch='C6',
         hide_middle_stems=True,
@@ -269,7 +269,7 @@ maker(
 
 maker(
     ('v2', [(1, 8), (21, 25)]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Fqs5',
         hide_middle_stems=True,
         ),
@@ -286,16 +286,16 @@ maker(
 
 maker(
     ('v2', [(9, 12), (26, 28)]),
+    baca.flat_glissando('<Dqs4 Gtqs4>'),
     baca.markup(
         '(24ET)',
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.flat_glissando('<Dqs4 Gtqs4>'),
     )
 
 maker(
     ('v2', (13, 16)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Fqs5',
         hide_middle_stems=True,
         selector=baca.leaves().rleak(),
@@ -304,19 +304,19 @@ maker(
 
 maker(
     ('v2', (17, 20)),
-    baca.markup(
-        '(24ET)',
-        abjad.tweak(8).staff_padding,
-        selector=baca.leaf(1),
-        ),
     baca.circle_bow_spanner(
         'very-wide',
         abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<Dqs4 Gtqs4>',
         selector=baca.leaves()[1:],
+        ),
+    baca.markup(
+        '(24ET)',
+        abjad.tweak(8).staff_padding,
+        selector=baca.leaf(1),
         ),
     stirrings_still.pickets(
         4,
@@ -341,7 +341,7 @@ maker(
 
 maker(
     ('v2', (29, 32)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Fqs5',
         hide_middle_stems=True,
         right_broken=True,
@@ -376,7 +376,7 @@ maker(
 
 maker(
     ('va', [(1, 8), (21, 25)]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Aqf4',
         hide_middle_stems=True,
         ),
@@ -393,16 +393,16 @@ maker(
 
 maker(
     ('va', [(9, 12), (26, 28)]),
+    baca.flat_glissando('<D4 G#4>'),
     baca.markup(
         '(12ET)',
         abjad.tweak(8).staff_padding,
         ),
-    stirrings_still.flat_glissando('<D4 G#4>'),
     )
 
 maker(
     ('va', (13, 16)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Aqf4',
         hide_middle_stems=True,
         selector=baca.leaves().rleak(),
@@ -411,19 +411,19 @@ maker(
 
 maker(
     ('va', (17, 20)),
-    baca.markup(
-        '(12ET)',
-        abjad.tweak(8).staff_padding,
-        selector=baca.leaf(1),
-        ),
     baca.circle_bow_spanner(
         'very-wide',
         abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[1:].rleak(),
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<D4 G#4>',
         selector=baca.leaves()[1:],
+        ),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(8).staff_padding,
+        selector=baca.leaf(1),
         ),
     stirrings_still.pickets(
         4,
@@ -448,7 +448,7 @@ maker(
 
 maker(
     ('va', (29, 32)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Aqf4',
         hide_middle_stems=True,
         right_broken=True,
@@ -484,22 +484,22 @@ maker(
 
 maker(
     ('vc', (1, 28)),
-    stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'C2',
         hide_middle_stems=True,
         selector=baca.leaves().rleak(),
         ),
+    stirrings_still.clouded_pane(),
     )
 
 maker(
     ('vc', (29, 32)),
-    stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'C2',
         hide_middle_stems=True,
         right_broken=True,
         right_broken_show_next=True,
         stop_pitch='Bb1',
         ),
+    stirrings_still.clouded_pane(),
     )

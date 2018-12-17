@@ -77,13 +77,13 @@ vc_spanner_staff_padding = 5.5
 
 maker(
     ('v1', [(1, 5), (8, 9), (11, 15), (18, 19)]),
-    baca.tasto_spanner(
-        abjad.tweak(v1_spanner_staff_padding).staff_padding,
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A4',
         hide_middle_stems=True,
         rleak=True,
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(v1_spanner_staff_padding).staff_padding,
         ),
     )
 
@@ -117,7 +117,7 @@ maker(
 
 maker(
     ('v1', [(6, 7), 10, (16, 17), 20]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A4',
         rleak=True,
         ),
@@ -162,7 +162,7 @@ maker(
 maker(
     ('v1', (21, 25)),
     baca.beam(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A4',
         stop_pitch='Bb5',
         ),
@@ -206,19 +206,19 @@ maker(
 
 maker(
     ('v2', [(1, 4), 6, 8, (10, 14), 16, 18]),
-    baca.tasto_spanner(
-        abjad.tweak(v2_spanner_staff_padding).staff_padding,
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A3',
         hide_middle_stems=True,
         rleak=True,
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(v2_spanner_staff_padding).staff_padding,
         ),
     )
 
 maker(
     ('v2', [5, 7, 9, 15, 17, 19]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A3',
         rleak=True,
         ),
@@ -310,7 +310,7 @@ maker(
 maker(
     ('v2', (20, 25)),
     baca.beam(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A3',
         stop_pitch='Gb4',
         ),
@@ -320,13 +320,13 @@ maker(
 
 maker(
     ('va', [(1, 7), (11, 17)]),
-    baca.tasto_spanner(
-        abjad.tweak(va_spanner_staff_padding).staff_padding,
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A3',
         hide_middle_stems=True,
         rleak=True,
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(va_spanner_staff_padding).staff_padding,
         ),
     )
 
@@ -351,7 +351,7 @@ maker(
 
 maker(
     ('va', [(8, 10), (18, 20)]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A3',
         rleak=True,
         ),
@@ -387,7 +387,7 @@ maker(
 maker(
     ('va', (21, 25)),
     baca.beam(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A3',
         stop_pitch='B3',
         ),
@@ -397,13 +397,13 @@ maker(
 
 maker(
     ('vc', [(1, 5), (9, 15)]),
-    baca.tasto_spanner(
-        abjad.tweak(vc_spanner_staff_padding).staff_padding,
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A2',
         hide_middle_stems=True,
         rleak=True,
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(vc_spanner_staff_padding).staff_padding,
         ),
     )
 
@@ -433,7 +433,7 @@ maker(
 
 maker(
     ('vc', [(6, 8), (16, 18)]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A2',
         rleak=True,
         ),
@@ -470,7 +470,7 @@ maker(
 maker(
     ('vc', (19, 25)),
     baca.beam(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A2',
         stop_pitch='C3',
         ),

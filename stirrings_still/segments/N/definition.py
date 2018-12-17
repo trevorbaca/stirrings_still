@@ -102,16 +102,16 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 8)),
+    baca.flat_glissando(
+        'C6',
+        hide_middle_stems=True,
+        ),
     baca.markup(
         r'\stirrings-still-nine-b-flat',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando(
-        'C6',
-        hide_middle_stems=True,
-        ),
     )
 
 maker(
@@ -132,19 +132,20 @@ maker(
 maker(
     ('v1', (13, 22)),
     baca.breathe(),
+    baca.flat_glissando(
+        '<A3 Fqs4>',
+        hide_middle_stems=True,
+        ),
     baca.markup(
         '(24ET)',
         abjad.tweak(1.5).padding,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando(
-        '<A3 Fqs4>',
-        hide_middle_stems=True,
-        ),
     )
 
 maker(
     ('v1', [(23, 28), (30, 35)]),
+    baca.flat_glissando('<A3 Fqs4>'),
     baca.new(
         baca.markup(
             '(24ET)',
@@ -152,7 +153,6 @@ maker(
             ),
         match=-1,
         ),
-    stirrings_still.flat_glissando('<A3 Fqs4>'),
     )
 
 maker(
@@ -232,6 +232,10 @@ maker(
 maker(
     ('v1', (37, 38)),
     baca.beam(),
+    baca.flat_glissando(
+        'G4',
+        stop_pitch='F4',
+        ),
     baca.hairpin(
         'p -- ! >o niente',
         pieces=baca.cmgroups(),
@@ -244,10 +248,6 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
-    stirrings_still.flat_glissando(
-        'G4',
-        stop_pitch='F4',
-        ),
     )
 
 # trio
@@ -304,16 +304,16 @@ maker(
 
 maker(
     ('v2', (1, 8)),
+    baca.flat_glissando(
+        'Eqf5',
+        hide_middle_stems=True,
+        ),
     baca.markup(
         r'\stirrings-still-eleven-b-flat',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando(
-        'Eqf5',
-        hide_middle_stems=True,
-        ),
     )
 
 maker(
@@ -334,19 +334,20 @@ maker(
 maker(
     ('v2', (13, 22)),
     baca.breathe(),
+    baca.flat_glissando(
+        '<F#3 Dqs4>',
+        hide_middle_stems=True,
+        ),
     baca.markup(
         '(24ET)',
         abjad.tweak(1.5).padding,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando(
-        '<F#3 Dqs4>',
-        hide_middle_stems=True,
-        ),
     )
 
 maker(
     ('v2', [(23, 28), (30, 35)]),
+    baca.flat_glissando('<F#3 Dqs4>'),
     baca.new(
         baca.markup(
             '(24ET)',
@@ -354,7 +355,6 @@ maker(
             ),
         match=-1,
         ),
-    stirrings_still.flat_glissando('<F#3 Dqs4>'),
     )
 
 maker(
@@ -434,6 +434,10 @@ maker(
 maker(
     ('v2', (37, 38)),
     baca.beam(),
+    baca.flat_glissando(
+        'F4',
+        stop_pitch='E4',
+        ),
     baca.hairpin(
         'p -- ! >o niente',
         pieces=baca.cmgroups(),
@@ -446,26 +450,22 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
-    stirrings_still.flat_glissando(
-        'F4',
-        stop_pitch='E4',
-        ),
     )
 
 # va
 
 maker(
     ('va', (1, 8)),
+    baca.flat_glissando(
+        'Gqf4',
+        hide_middle_stems=True,
+        ),
     baca.markup(
         r'\stirrings-still-thirteen-b-flat',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando(
-        'Gqf4',
-        hide_middle_stems=True,
-        ),
     )
 
 maker(
@@ -486,19 +486,20 @@ maker(
 maker(
     ('va', (13, 22)),
     baca.breathe(),
+    baca.flat_glissando(
+        '<C3 Aqs3>',
+        hide_middle_stems=True,
+        ),
     baca.markup(
         '(24ET)',
         abjad.tweak(1.5).padding,
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando(
-        '<C3 Aqs3>',
-        hide_middle_stems=True,
-        ),
     )
 
 maker(
     ('va', [(23, 28), (30, 35)]),
+    baca.flat_glissando('<C3 Aqs3>'),
     baca.new(
         baca.markup(
             '(24ET)',
@@ -506,7 +507,6 @@ maker(
             ),
         match=-1,
         ),
-    stirrings_still.flat_glissando('<C3 Aqs3>'),
     )
 
 maker(
@@ -586,6 +586,10 @@ maker(
 maker(
     ('va', (37, 38)),
     baca.beam(),
+    baca.flat_glissando(
+        'Ab3',
+        stop_pitch='Gb3',
+        ),
     baca.hairpin(
         'p -- ! >o niente',
         pieces=baca.cmgroups(),
@@ -598,10 +602,6 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.eighths(),
-    stirrings_still.flat_glissando(
-        'Ab3',
-        stop_pitch='Gb3',
-        ),
     )
 
 # vc
@@ -618,7 +618,7 @@ maker(
 
 maker(
     ('vc', (1, 22)),
-    stirrings_still.flat_glissando('Bb1'),
+    baca.flat_glissando('Bb1'),
     )
 
 maker(
@@ -694,6 +694,7 @@ maker(
 
 maker(
     ('vc', [(23, 28), (30, 35)]),
+    baca.flat_glissando('<B2 Gqs3>'),
     baca.new(
         baca.markup(
             '(24ET)',
@@ -701,7 +702,6 @@ maker(
             ),
         match=0,
         ),
-    stirrings_still.flat_glissando('<B2 Gqs3>'),
     stirrings_still.urtext_spanner('urtext (field) -|', 8),
     )
 
@@ -754,6 +754,7 @@ maker(
 
 maker(
     ('vc', (37, 38)),
+    baca.flat_glissando('B1'),
     baca.hairpin(
         'p -- ! >o niente',
         pieces=baca.cmgroups(),
@@ -769,5 +770,4 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.clouded_pane(),
-    stirrings_still.flat_glissando('B1'),
     )

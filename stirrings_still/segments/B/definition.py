@@ -234,11 +234,11 @@ maker(
         'tight',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('C5'),
     stirrings_still.circles(
         (1, 4),
         dmask=baca.silence_last(),
         ),
-    stirrings_still.flat_glissando('C5'),
     )
 
 maker(
@@ -325,23 +325,23 @@ maker(
 
 maker(
     ('v1', 26),
-    baca.tasto_spanner(
-        abjad.tweak(5.5).staff_padding,
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<E4 C5>',
         selector=baca.pleaves()[:2],
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<E4 Cqs5>',
         hide_middle_stems=True,
         selector=baca.pleaves()[2:],
+        ),
+    baca.tasto_spanner(
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
 maker(
     ('v1', (29, 30)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G#5',
         stop_pitch='Bb5',
         ),
@@ -360,12 +360,12 @@ maker(
 
 maker(
     ('v1', (32, 33)),
-    stirrings_still.flat_glissando('Gb4'),
+    baca.flat_glissando('Gb4'),
     )
 
 maker(
     ('v1', (34, 35)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G#5',
         stop_pitch='B5',
         ),
@@ -373,7 +373,7 @@ maker(
 
 maker(
     ('v1', (37, 38)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G#5',
         stop_pitch='C6',
         ),
@@ -381,7 +381,7 @@ maker(
 
 maker(
     ('v1', (40, 41)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G#5',
         stop_pitch='Db6',
         ),
@@ -389,12 +389,12 @@ maker(
 
 maker(
     ('v1', 42),
-    stirrings_still.flat_glissando('C5'),
+    baca.flat_glissando('C5'),
     )
 
 maker(
     ('v1', 44),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G#5',
         stop_pitch='D6',
         ),
@@ -402,7 +402,7 @@ maker(
 
 maker(
     ('v1', 46),
-    stirrings_still.flat_glissando('D6'),
+    baca.flat_glissando('D6'),
     )
 
 maker(
@@ -417,7 +417,7 @@ maker(
 
 maker(
     ('v1', (50, 51)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'D6',
         rleak=True,
         ),
@@ -452,7 +452,7 @@ maker(
 
 maker(
     ('v1', (56, 62)),
-    stirrings_still.flat_glissando('F5'),
+    baca.flat_glissando('F5'),
     )
 
 maker(
@@ -565,19 +565,19 @@ maker(
         ),
     # stage 2 (after tie adjustments):
     baca.new(
+        baca.flat_glissando('<F#4 Dqf5>'),
         baca.markup(
             '(7+9)°/E',
             abjad.tweak(1.5).padding,
             ),
-        stirrings_still.flat_glissando('<F#4 Dqf5>'),
         match=0,
         ),
     baca.new(
+        baca.flat_glissando('<Cqs4 Ab4>'),
         baca.markup(
             '(5+13)°/E',
             abjad.tweak(1.5).padding,
             ),
-        stirrings_still.flat_glissando('<Cqs4 Ab4>'),
         match=1,
         ),
     baca.new(
@@ -585,7 +585,7 @@ maker(
             '(11+3)°/E',
             abjad.tweak(1.5).padding,
             ),
-        stirrings_still.flat_glissando('<B2 Aqs3>'),
+        baca.flat_glissando('<B2 Aqs3>'),
         match=2,
         ),
     stirrings_still.urtext_spanner('urtext (cds) -|', 8),
@@ -992,11 +992,11 @@ maker(
 
 maker(
     ('v2', 26),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<Eb4 B4>',
         selector=baca.pleaves()[:2],
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<Eqf4 C5>',
         hide_middle_stems=True,
         selector=baca.pleaves()[2:],
@@ -1005,6 +1005,7 @@ maker(
 
 maker(
     ('v2', 27),
+    baca.flat_glissando('G5'),
     baca.hairpin(
         'mf -- !',
         abjad.tweak(True).to_barline,
@@ -1015,13 +1016,12 @@ maker(
         clt=True,
         staff_padding=4,
         ),
-    stirrings_still.flat_glissando('G5'),
     stirrings_still.trajectories('C', -1, 0),
     )
 
 maker(
     ('v2', (29, 30)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G5',
         stop_pitch='E5',
         ),
@@ -1039,12 +1039,12 @@ maker(
 
 maker(
     ('v2', (32, 33)),
-    stirrings_still.flat_glissando('F4'),
+    baca.flat_glissando('F4'),
     )
 
 maker(
     ('v2', (34, 35)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G5',
         stop_pitch='A4',
         ),
@@ -1052,7 +1052,7 @@ maker(
 
 maker(
     ('v2', (37, 38)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G5',
         stop_pitch='G4',
         ),
@@ -1060,7 +1060,7 @@ maker(
 
 maker(
     ('v2', (40, 41)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G5',
         stop_pitch='Gb4',
         ),
@@ -1068,12 +1068,12 @@ maker(
 
 maker(
     ('v2', 42),
-    stirrings_still.flat_glissando('C4'),
+    baca.flat_glissando('C4'),
     )
 
 maker(
     ('v2', 44),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'G5',
         stop_pitch='D4',
         ),
@@ -1081,7 +1081,7 @@ maker(
 
 maker(
     ('v2', 46),
-    stirrings_still.flat_glissando('D4'),
+    baca.flat_glissando('D4'),
     )
 
 maker(
@@ -1095,7 +1095,7 @@ maker(
 
 maker(
     ('v2', (50, 51)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'D4',
         rleak=True,
         ),
@@ -1130,7 +1130,7 @@ maker(
 
 maker(
     ('v2', (56, 62)),
-    stirrings_still.flat_glissando('F#4'),
+    baca.flat_glissando('F#4'),
     )
 
 maker(
@@ -1190,12 +1190,12 @@ maker(
 
 maker(
     ('va', (6, 7)),
+    baca.flat_glissando('Ab3'),
     baca.circle_bow_spanner(
         'tight',
         abjad.tweak(5.5).staff_padding,
         ),
     stirrings_still.circles((1, 4)),
-    stirrings_still.flat_glissando('Ab3'),
     )
 
 maker(
@@ -1211,13 +1211,13 @@ maker(
         -0.75,
         selector=baca.pleaf(0),
         ),
+    baca.flat_glissando('Ab3'),
     baca.hairpin(
         'p-ancora -- (p) >o niente',
         pieces=baca.mgroups([8, 2 + 1]),
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
-    stirrings_still.flat_glissando('Ab3'),
     )
 
 maker(
@@ -1267,11 +1267,11 @@ maker(
 
 maker(
     ('va', 26),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<D4 Gqs4>',
         selector=baca.pleaves()[:2],
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<C#4 Gqs4>',
         hide_middle_stems=True,
         selector=baca.pleaves()[2:],
@@ -1280,17 +1280,17 @@ maker(
 
 maker(
     ('va', 27),
+    baca.flat_glissando('Ftqs5'),
     baca.hairpin(
         'mf -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
-    stirrings_still.flat_glissando('Ftqs5'),
     )
 
 maker(
     ('va', (29, 30)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ftqs5',
         stop_pitch='C5',
         ),
@@ -1308,12 +1308,12 @@ maker(
 
 maker(
     ('va', (32, 33)),
-    stirrings_still.flat_glissando('Ab3'),
+    baca.flat_glissando('Ab3'),
     )
 
 maker(
     ('va', (34, 35)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ftqs5',
         stop_pitch='Ab4',
         ),
@@ -1326,7 +1326,7 @@ maker(
 
 maker(
     ('va', (37, 38)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ftqs5',
         stop_pitch='Eb4',
         ),
@@ -1335,7 +1335,7 @@ maker(
 maker(
     ('va', (40, 41)),
     baca.clef('alto'),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ftqs4',
         stop_pitch='Ab3',
         ),
@@ -1343,12 +1343,12 @@ maker(
 
 maker(
     ('va', 42),
-    stirrings_still.flat_glissando('Ab3'),
+    baca.flat_glissando('Ab3'),
     )
 
 maker(
     ('va', 44),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ftqs4',
         stop_pitch='D3',
         ),
@@ -1356,7 +1356,7 @@ maker(
 
 maker(
     ('va', 46),
-    stirrings_still.flat_glissando('D3'),
+    baca.flat_glissando('D3'),
     )
 
 maker(
@@ -1370,7 +1370,7 @@ maker(
 
 maker(
     ('va', (50, 51)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'D3',
         rleak=True,
         ),
@@ -1405,7 +1405,7 @@ maker(
 
 maker(
     ('va', (56, 62)),
-    stirrings_still.flat_glissando('F3'),
+    baca.flat_glissando('F3'),
     )
 
 maker(
@@ -1471,6 +1471,10 @@ maker(
 maker(
     ('vc', (6, 11)),
     baca.breathe(),
+    baca.flat_glissando(
+        'E2',
+        hide_middle_stems=True,
+        ),
     baca.hairpin(
         'o< f -- !',
         abjad.tweak(True).to_barline,
@@ -1479,10 +1483,6 @@ maker(
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane -|', 5.5),
-    stirrings_still.flat_glissando(
-        'E2',
-        hide_middle_stems=True,
-        ),
     )
 
 maker(
@@ -1494,11 +1494,11 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         ),
+    baca.flat_glissando('G3'),
     stirrings_still.circles(
         (1, 4),
         dmask=baca.silence_last(),
         ),
-    stirrings_still.flat_glissando('G3'),
     )
 
 maker(
@@ -1627,6 +1627,7 @@ maker(
 
 maker(
     ('vc', 27),
+    baca.flat_glissando('Fqs5'),
     baca.hairpin(
         'mf -- !',
         abjad.tweak(True).to_barline,
@@ -1643,13 +1644,12 @@ maker(
         clt=True,
         staff_padding=4,
         ),
-    stirrings_still.flat_glissando('Fqs5'),
     stirrings_still.trajectories('B', 0, 0),
     )
 
 maker(
     ('vc', (29, 30)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Fqs5',
         stop_pitch='B4',
         ),
@@ -1668,13 +1668,13 @@ maker(
 maker(
     ('vc', (32, 33)),
     baca.clef('bass'),
-    stirrings_still.flat_glissando('Ab2'),
+    baca.flat_glissando('Ab2'),
     )
 
 maker(
     ('vc', (34, 35)),
     baca.clef('treble'),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Fqs5',
         stop_pitch='Bb3',
         ),
@@ -1688,7 +1688,7 @@ maker(
 maker(
     ('vc', (37, 38)),
     baca.clef('tenor'),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Fqs4',
         stop_pitch='Gb3',
         ),
@@ -1697,7 +1697,7 @@ maker(
 maker(
     ('vc', (40, 41)),
     baca.clef('bass'),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Fqs3',
         stop_pitch='F2',
         ),
@@ -1705,12 +1705,12 @@ maker(
 
 maker(
     ('vc', 42),
-    stirrings_still.flat_glissando('G3'),
+    baca.flat_glissando('G3'),
     )
 
 maker(
     ('vc', 44),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Fqs3',
         stop_pitch='D2',
         ),
@@ -1718,6 +1718,7 @@ maker(
 
 maker(
     ('vc', 45),
+    baca.flat_glissando('E2'),
     baca.hairpin(
         'p -- !',
         abjad.tweak(True).to_barline,
@@ -1725,12 +1726,11 @@ maker(
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
-    stirrings_still.flat_glissando('E2'),
     )
 
 maker(
     ('vc', 46),
-    stirrings_still.flat_glissando('D2'),
+    baca.flat_glissando('D2'),
     )
 
 maker(
@@ -1747,7 +1747,7 @@ maker(
 
 maker(
     ('vc', (50, 51)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'D2',
         rleak=True,
         ),
@@ -1785,7 +1785,7 @@ maker(
 
 maker(
     ('vc', (56, 62)),
-    stirrings_still.flat_glissando('F2'),
+    baca.flat_glissando('F2'),
     )
 
 maker(

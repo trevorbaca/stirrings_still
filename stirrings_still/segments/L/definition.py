@@ -98,7 +98,7 @@ maker(
 
 maker(
     ('v1', [3, 7, 11, 15]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Bqf5',
         rleak=True,
         ),
@@ -216,7 +216,7 @@ maker(
 
 maker(
     ('v2', [3, 7, 11, 15]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Eb5',
         rleak=True,
         ),
@@ -324,7 +324,7 @@ maker(
 
 maker(
     ('va', [3, 7, 11, 15]),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'F3',
         rleak=True,
         ),
@@ -377,6 +377,11 @@ maker(
 maker(
     'vc',
     baca.dls_staff_padding(5),
+    baca.flat_glissando(
+        'Db2',
+        hide_middle_stems=True,
+        left_broken=True,
+        ),
     baca.hairpin(
         'p < ff ff > p < ff ff > p < fff fff > p < fff',
         measures=(1, 15),
@@ -388,10 +393,5 @@ maker(
         5.5,
         # TODO: extend to phantom measure
         selector=baca.leaves(),
-        ),
-    stirrings_still.flat_glissando(
-        'Db2',
-        hide_middle_stems=True,
-        left_broken=True,
         ),
     )

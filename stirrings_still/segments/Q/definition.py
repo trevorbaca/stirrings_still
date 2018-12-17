@@ -100,7 +100,7 @@ maker(
 
 maker(
     ('v1', [(2, 9), (25, 27), (41, 42), (53, 54), 63, 69]),
-    stirrings_still.flat_glissando('Bb5'),
+    baca.flat_glissando('Bb5'),
     )
 
 maker(
@@ -131,7 +131,7 @@ maker(
 
 maker(
     ('v1', (14, 24)),
-    stirrings_still.flat_glissando('Eb5'),
+    baca.flat_glissando('Eb5'),
     )
 
 maker(
@@ -183,7 +183,7 @@ maker(
 
 maker(
     ('v1', (31, 40)),
-    stirrings_still.flat_glissando('E5'),
+    baca.flat_glissando('E5'),
     )
 
 maker(
@@ -235,7 +235,7 @@ maker(
 
 maker(
     ('v1', (46, 52)),
-    stirrings_still.flat_glissando('F5'),
+    baca.flat_glissando('F5'),
     )
 
 maker(
@@ -288,7 +288,7 @@ maker(
 
 maker(
     ('v1', (57, 62)),
-    stirrings_still.flat_glissando('Gb5'),
+    baca.flat_glissando('Gb5'),
     )
 
 maker(
@@ -347,7 +347,7 @@ maker(
 
 maker(
     ('v1', (65, 68)),
-    stirrings_still.flat_glissando('G5'),
+    baca.flat_glissando('G5'),
     )
 
 maker(
@@ -378,7 +378,7 @@ maker(
         clt=True,
         staff_padding=4.5,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ab4',
         stop_pitch='Ab5',
         ),
@@ -407,7 +407,7 @@ maker(
         clt=True,
         staff_padding=8,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A6',
         right_broken=True,
         ),
@@ -463,7 +463,7 @@ maker(
 
 maker(
     ('v2', [(2, 13), (22, 30), (38, 45), (51, 56), (61, 64), (68, 70)]),
-    stirrings_still.flat_glissando('Gb4'),
+    baca.flat_glissando('Gb4'),
     )
 
 maker(
@@ -480,7 +480,7 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.flat_glissando('Dqf5'),
+    baca.flat_glissando('Dqf5'),
     stirrings_still.trajectories('C', -1, -2),
     )
 
@@ -519,7 +519,7 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.flat_glissando('Dqs5'),
+    baca.flat_glissando('Dqs5'),
     stirrings_still.trajectories('C', -1, -2),
     )
 
@@ -558,7 +558,7 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.flat_glissando('Cqs5'),
+    baca.flat_glissando('Cqs5'),
     stirrings_still.trajectories('C', -1, -2),
     )
 
@@ -597,7 +597,7 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.flat_glissando('Eqs5'),
+    baca.flat_glissando('Eqs5'),
     stirrings_still.trajectories('C', -1, -2),
     )
 
@@ -639,7 +639,7 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.flat_glissando('Fqs5'),
+    baca.flat_glissando('Fqs5'),
     stirrings_still.trajectories('C', -1, -2),
     )
 
@@ -681,7 +681,7 @@ maker(
         clt=True,
         staff_padding=4.5,
         ),
-    stirrings_still.flat_glissando('G4'),
+    baca.flat_glissando('G4'),
     stirrings_still.trajectories('C', -1, -2),
     )
 
@@ -700,7 +700,7 @@ maker(
         clt=True,
         staff_padding=4.5,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ab5',
         right_broken=True,
         ),
@@ -734,7 +734,7 @@ maker(
 
 maker(
     ('va', [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]),
-    stirrings_still.flat_glissando('B3'),
+    baca.flat_glissando('B3'),
     )
 
 maker(
@@ -765,7 +765,7 @@ maker(
 
 maker(
     ('va', (14, 21)),
-    stirrings_still.flat_glissando('E3'),
+    baca.flat_glissando('E3'),
     )
 
 maker(
@@ -817,7 +817,7 @@ maker(
 
 maker(
     ('va', (31, 37)),
-    stirrings_still.flat_glissando('Eb3'),
+    baca.flat_glissando('Eb3'),
     )
 
 maker(
@@ -868,7 +868,7 @@ maker(
 
 maker(
     ('va', (46, 50)),
-    stirrings_still.flat_glissando('C3'),
+    baca.flat_glissando('C3'),
     )
 
 maker(
@@ -920,7 +920,7 @@ maker(
 
 maker(
     ('va', (57, 60)),
-    stirrings_still.flat_glissando('B2'),
+    baca.flat_glissando('B2'),
     )
 
 maker(
@@ -949,7 +949,7 @@ maker(
 
 maker(
     ('va', 64),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ab3',
         selector=baca.leaves().rleak(),
         stop_pitch='Gb3',
@@ -975,7 +975,7 @@ maker(
 
 maker(
     ('va', (65, 67)),
-    stirrings_still.flat_glissando('Gb3'),
+    baca.flat_glissando('Gb3'),
     )
 
 maker(
@@ -1013,7 +1013,7 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ab3',
         stop_pitch='B2',
         ),
@@ -1034,7 +1034,7 @@ maker(
         abjad.tweak(-0.75).self_alignment_X,
         ),
     baca.make_repeat_tied_notes(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Bb2',
         hide_middle_stems=True,
         right_broken=True,
@@ -1066,7 +1066,7 @@ maker(
 
 maker(
     ('vc', [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]),
-    stirrings_still.flat_glissando('C3'),
+    baca.flat_glissando('C3'),
     )
 
 maker(
@@ -1097,7 +1097,7 @@ maker(
 
 maker(
     ('vc', (14, 21)),
-    stirrings_still.flat_glissando('D3'),
+    baca.flat_glissando('D3'),
     )
 
 maker(
@@ -1155,7 +1155,7 @@ maker(
 
 maker(
     ('vc', (31, 37)),
-    stirrings_still.flat_glissando('Db3'),
+    baca.flat_glissando('Db3'),
     )
 
 maker(
@@ -1209,7 +1209,7 @@ maker(
 
 maker(
     ('vc', (46, 50)),
-    stirrings_still.flat_glissando('B2'),
+    baca.flat_glissando('B2'),
     )
 
 maker(
@@ -1263,7 +1263,7 @@ maker(
 
 maker(
     ('vc', (57, 60)),
-    stirrings_still.flat_glissando('Bb2'),
+    baca.flat_glissando('Bb2'),
     )
 
 maker(
@@ -1320,7 +1320,7 @@ maker(
 
 maker(
     ('vc', (65, 67)),
-    stirrings_still.flat_glissando('A2'),
+    baca.flat_glissando('A2'),
     )
 
 maker(
@@ -1360,7 +1360,7 @@ maker(
         clt=True,
         staff_padding=3.5,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ab3',
         stop_pitch='Ab2',
         ),
@@ -1386,7 +1386,7 @@ maker(
         'pp-sempre',
         abjad.tweak(-0.75).self_alignment_X,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Bb1',
         stop_pitch='B0',
         ),
@@ -1401,7 +1401,7 @@ maker(
 maker(
     ('vc', (88, 92)),
     baca.make_repeat_tied_notes(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'B0',
         hide_middle_stems=True,
         right_broken=True,

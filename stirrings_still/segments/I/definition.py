@@ -56,7 +56,7 @@ maker(
         'wide',
         abjad.tweak(5.5).staff_padding,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Aqs4',
         left_broken=True,
         ),
@@ -64,14 +64,14 @@ maker(
 
 maker(
     ('v1', (10, 11)),
-    baca.markup(
-        '(12ET)',
-        abjad.tweak(1.5).padding,
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<F4 A4>',
         hide_middle_stems=True,
         right_broken=True,
+        ),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(1.5).padding,
         ),
     )
 
@@ -148,7 +148,7 @@ maker(
         'wide',
         abjad.tweak(5.5).staff_padding,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Eb4',
         left_broken=True,
         ),
@@ -156,14 +156,14 @@ maker(
 
 maker(
     ('v2', (10, 11)),
-    baca.markup(
-        '(12ET)',
-        abjad.tweak(1.5).padding,
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<E4 G#4>',
         hide_middle_stems=True,
         right_broken=True,
+        ),
+    baca.markup(
+        '(12ET)',
+        abjad.tweak(1.5).padding,
         ),
     )
 
@@ -175,6 +175,7 @@ maker(
         'wide-poss',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('Bqf3'),
     baca.hairpin(
         'mp -- !',
         abjad.tweak(True).to_barline,
@@ -186,19 +187,18 @@ maker(
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    stirrings_still.flat_glissando('Bqf3'),
     )
 
 maker(
     ('va', (10, 11)),
-    baca.markup(
-        '(24ET)',
-        abjad.tweak(1.5).padding,
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<Eqs4 Gtqs4>',
         hide_middle_stems=True,
         right_broken=True,
+        ),
+    baca.markup(
+        '(24ET)',
+        abjad.tweak(1.5).padding,
         ),
     )
 
@@ -249,6 +249,7 @@ maker(
 maker(
     ('vc', (7, -1)),
     baca.clef('treble'),
+    baca.flat_glissando('A5'),
     baca.markup(
         '(9°)',
         abjad.tweak(1.5).padding,
@@ -258,5 +259,4 @@ maker(
     stirrings_still.cello_cell_bcps(
         staff_padding=6,
         ),
-    stirrings_still.flat_glissando('A5'),
     )
