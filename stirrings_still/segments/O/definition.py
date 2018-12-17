@@ -58,13 +58,13 @@ maker(
         'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('Eb4'),
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
-    stirrings_still.flat_glissando('Eb4'),
     )
 
 maker(
@@ -73,6 +73,7 @@ maker(
         'wide',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('Aqs4'),
     baca.hairpin(
         'mf >o niente',
         selector=baca.leaves().rleak(),
@@ -82,7 +83,6 @@ maker(
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    stirrings_still.flat_glissando('Aqs4'),
     stirrings_still.pickets(4, 2),
     )
 
@@ -102,13 +102,13 @@ maker(
         'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('D4'),
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
-    stirrings_still.flat_glissando('D4'),
     )
 
 maker(
@@ -117,6 +117,7 @@ maker(
         'wide',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('Eb4'),
     baca.hairpin(
         'mf >o niente',
         selector=baca.leaves().rleak(),
@@ -126,7 +127,6 @@ maker(
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    stirrings_still.flat_glissando('Eb4'),
     stirrings_still.pickets(4, 1),
     )
 
@@ -138,13 +138,13 @@ maker(
         'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('G3'),
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
-    stirrings_still.flat_glissando('G3'),
     )
 
 maker(
@@ -153,6 +153,7 @@ maker(
         'wide',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('Bqf3'),
     baca.hairpin(
         'mf >o niente',
         selector=baca.leaves().rleak(),
@@ -162,7 +163,6 @@ maker(
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    stirrings_still.flat_glissando('Bqf3'),
     stirrings_still.pickets(4, 0),
     )
 
@@ -174,17 +174,18 @@ maker(
         'granulation',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando('Ab3'),
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
-    stirrings_still.flat_glissando('Ab3'),
     )
 
 maker(
     ('vc', 7),
+    baca.flat_glissando('Db2'),
     baca.hairpin(
         'p -- !',
         abjad.tweak(True).to_barline,
@@ -199,6 +200,5 @@ maker(
         clt=True,
         staff_padding=3,
         ),
-    stirrings_still.flat_glissando('Db2'),
     stirrings_still.trajectories('A', -1, 0),
     )

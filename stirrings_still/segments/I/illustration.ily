@@ -1513,11 +1513,11 @@ I_Cello_Music_Voice = {                                                        %
     _ \markup { (9°) }                                                         %! baca_markup:IndicatorCommand
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(4)
     [
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca_bcps:BCPCommand(2)
     - \tweak staff-padding #6                                                  %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
-    \glissando                                                                 %! baca_glissando
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     \hide NoteHead                                                             %! baca_glissando

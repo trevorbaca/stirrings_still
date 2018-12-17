@@ -140,27 +140,27 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.new(
-        stirrings_still.flat_glissando(
+        baca.flat_glissando(
             '<F4 A4>',
             hide_middle_stems=True,
             ),
         match=0,
         ),
     baca.new(
-        stirrings_still.flat_glissando(
+        baca.flat_glissando(
             '<E4 G#4>',
             hide_middle_stems=True,
             ),
         match=1,
         ),
     baca.new(
+        baca.flat_glissando(
+            '<Eqs4 Gtqs4>',
+            hide_middle_stems=True,
+            ),
         baca.markup(
             '(24ET)',
             abjad.tweak(1.5).padding,
-            ),
-        stirrings_still.flat_glissando(
-            '<Eqs4 Gtqs4>',
-            hide_middle_stems=True,
             ),
         match=2,
         ),
@@ -186,29 +186,29 @@ maker(
         ),
     baca.hairpin_shorten_pair((0, 5)),
     baca.new(
-        stirrings_still.flat_glissando('<F#4 A#4>'),
         stirrings_still.flight(
             'A',
             0,
             start=4,
             ),
+        baca.flat_glissando('<F#4 A#4>'),
         match=0,
         ),
     baca.new(
-        stirrings_still.flat_glissando('<F4 A4>'),
         stirrings_still.flight(
             'C',
             -1,
             start=4,
             ),
+        baca.flat_glissando('<F4 A4>'),
         match=1,
         ),
     baca.new(
+        baca.flat_glissando('<Ab3 C4>'),
         baca.markup(
             '(24ET)',
             abjad.tweak(1.5).padding,
             ),
-        stirrings_still.flat_glissando('<Ab3 C4>'),
         stirrings_still.flight(
             'B',
             -2,
@@ -217,7 +217,7 @@ maker(
         match=2,
         ),
     baca.new(
-        stirrings_still.flat_glissando('<G3 B3>'),
+        baca.flat_glissando('<G3 B3>'),
         stirrings_still.flight(
             'B',
             -4,
@@ -277,6 +277,7 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.new(
+        baca.flat_glissando('<F#4 Dqf5>'),
         baca.markup(
             '(7+9)°/E',
             abjad.tweak(1.5).padding,
@@ -285,10 +286,10 @@ maker(
             abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 8),
-        stirrings_still.flat_glissando('<F#4 Dqf5>'),
         match=0,
         ),
     baca.new(
+        baca.flat_glissando('<B2 Aqs3>'),
         baca.markup(
             '(11+3)°/E',
             abjad.tweak(1.5).padding,
@@ -297,13 +298,12 @@ maker(
             abjad.tweak(5.5).staff_padding,
             ),
         stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 8),
-        stirrings_still.flat_glissando('<B2 Aqs3>'),
         match=1,
         ),
     baca.new(
+        baca.flat_glissando('E2'),
         baca.tuplet_bracket_down(),
         stirrings_still.clouded_pane_spanner('clouded pane (beacon) -|', 5.5),
-        stirrings_still.flat_glissando('E2'),
         match=2,
         ),
     stirrings_still.clouded_pane(),

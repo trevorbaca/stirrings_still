@@ -55,6 +55,10 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 8)),
+    baca.flat_glissando(
+        '<F5 Bqs5>',
+        hide_middle_stems=True,
+        ),
     baca.hairpin(
         'pp < f > pp < f > pp < f >o niente',
         pieces=baca.mgroups([1, 2, 1, 2, 1, 2]),
@@ -70,16 +74,16 @@ maker(
         'clouded pane (doublestop partials) -|',
         8,
         ),
-    stirrings_still.flat_glissando(
-        '<F5 Bqs5>',
-        hide_middle_stems=True,
-        ),
     )
 
 # v2
 
 maker(
     ('v2', (1, 8)),
+    baca.flat_glissando(
+        '<G4 Dqs5>',
+        hide_middle_stems=True,
+        ),
     baca.hairpin(
         'pp < f > pp < f > pp < f >o niente',
         pieces=baca.mgroups([2, 1, 2, 1, 1, 2]),
@@ -94,10 +98,6 @@ maker(
     stirrings_still.clouded_pane_spanner(
         'clouded pane (doublestop partials) -|',
         8,
-        ),
-    stirrings_still.flat_glissando(
-        '<G4 Dqs5>',
-        hide_middle_stems=True,
         ),
     )
 
@@ -118,6 +118,11 @@ maker(
 
 maker(
     ('vc', (1, 8)),
+    baca.flat_glissando(
+        'Eb2',
+        hide_middle_stems=True,
+        left_broken=True,
+        ),
     baca.hairpin(
         '(p) < ff -- (ff) >o niente',
         pieces=baca.mgroups([2, 4, 2 + 1]),
@@ -125,11 +130,6 @@ maker(
         ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner('clouded pane (continues) -|', 5.5),
-    stirrings_still.flat_glissando(
-        'Eb2',
-        hide_middle_stems=True,
-        left_broken=True,
-        ),
     )
 
 # v1, v2, vc
@@ -167,27 +167,27 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.new(
+        baca.flat_glissando('Bb4'),
         stirrings_still.desynchronization(4, [1]),
-        stirrings_still.flat_glissando('Bb4'),
         match=0,
         ),
     baca.new(
-        stirrings_still.desynchronization(4, [0]),
-        stirrings_still.flat_glissando(
+        baca.flat_glissando(
             'G4',
             stop_pitch='A4',
             ),
+        stirrings_still.desynchronization(4, [0]),
         match=1,
         ),
     baca.new(
+        baca.flat_glissando('Bb4'),
         stirrings_still.desynchronization(4, [2]),
-        stirrings_still.flat_glissando('Bb4'),
         match=2,
         ),
     baca.new(
         baca.clef('treble'),
+        baca.flat_glissando('Bb4'),
         stirrings_still.desynchronization(4, [-1]),
-        stirrings_still.flat_glissando('Bb4'),
         match=3,
         ),
     )

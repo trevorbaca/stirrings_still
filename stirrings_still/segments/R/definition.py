@@ -100,7 +100,7 @@ maker(
         clt=True,
         staff_padding=8,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'A6',
         left_broken=True,
         ),
@@ -143,7 +143,7 @@ maker(
         clt=True,
         staff_padding=4.5,
         ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Ab5',
         left_broken=True,
         ),
@@ -173,7 +173,7 @@ maker(
 maker(
     'va',
     baca.make_repeat_tied_notes(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Bb2',
         hide_middle_stems=True,
         left_broken=True,
@@ -192,7 +192,7 @@ maker(
     ('vc', (1, 12)),
     baca.make_repeat_tied_notes(),
     baca.ottava_bassa(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'B0',
         hide_middle_stems=True,
         ),

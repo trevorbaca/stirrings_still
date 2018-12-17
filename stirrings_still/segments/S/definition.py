@@ -100,6 +100,7 @@ maker(
         0.75,
         selector=baca.pleaf(-1),
         ),
+    baca.flat_glissando('Bb4'),
     baca.hairpin(
         'p > ppp <',
         pieces=baca.cmgroups(),
@@ -111,7 +112,6 @@ maker(
             ),
         match=0,
         ),
-    stirrings_still.flat_glissando('Bb4'),
     stirrings_still.wave((1, 4), (3, 32)),
     )
 
@@ -141,6 +141,7 @@ maker(
         0.75,
         selector=baca.pleaf(-1),
         ),
+    baca.flat_glissando('F4'),
     baca.hairpin(
         'ppp < p >',
         pieces=baca.cmgroups(),
@@ -152,7 +153,6 @@ maker(
             ),
         match=0,
         ),
-    stirrings_still.flat_glissando('F4'),
     stirrings_still.wave((5, 32), (1, 4)),
     )
 
@@ -160,12 +160,12 @@ maker(
 
 maker(
     ('va', (1, 19)),
-    baca.make_notes(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Bb2',
         hide_middle_stems=True,
         left_broken=True,
         ),
+    baca.make_notes(),
     )
 
 # vc
@@ -177,23 +177,23 @@ maker(
 
 maker(
     ('vc', 1),
+    baca.flat_glissando('B0'),
     baca.hairpin('o< mf'),
     baca.make_rhythm(
         'c2. ~ c4',
         repeat_tie_threshold=(1, 4),
         ),
     baca.ottava_bassa(),
-    stirrings_still.flat_glissando('B0'),
     )
 
 maker(
     ('vc', [(3, 4), (6, 8), (10, 15)]),
-    baca.make_repeat_tied_notes(),
-    baca.ottava_bassa(),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'B0',
         hide_middle_stems=True,
         ),
+    baca.make_repeat_tied_notes(),
+    baca.ottava_bassa(),
     )
 
 maker(

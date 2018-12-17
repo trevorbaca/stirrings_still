@@ -84,7 +84,7 @@ stirrings_still.time(maker, time)
 
 maker(
     ('v1', (1, 2)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<F4 A4>',
         hide_middle_stems=True,
         left_broken=True,
@@ -93,7 +93,7 @@ maker(
 
 maker(
     ('v1', (5, 11)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<F4 A4>',
         hide_middle_stems=True,
         ),
@@ -198,14 +198,15 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.new(
+        baca.flat_glissando('<F#4 Dqf5>'),
         baca.markup('(7+9)°/E'),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
             ),
-        stirrings_still.flat_glissando('<F#4 Dqf5>'),
         match=0,
         ),
     baca.new(
+        baca.flat_glissando('<B2 Aqs3>'),
         baca.markup(
             '(11+3)°/E',
             abjad.tweak(1.5).padding,
@@ -213,11 +214,10 @@ maker(
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
             ),
-        stirrings_still.flat_glissando('<B2 Aqs3>'),
         match=1,
         ),
     baca.new(
-        stirrings_still.flat_glissando('E2'),
+        baca.flat_glissando('E2'),
         match=2,
         ),
     baca.tuplet_bracket_down(),
@@ -256,7 +256,7 @@ maker(
 
 maker(
     ('v2', (1, 2)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<E4 G#4>',
         hide_middle_stems=True,
         left_broken=True,
@@ -265,7 +265,7 @@ maker(
 
 maker(
     ('v2', (5, 11)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<E4 G#4>',
         hide_middle_stems=True,
         ),
@@ -312,7 +312,7 @@ maker(
 
 maker(
     ('va', (1, 2)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<Eqs4 Gtqs4>',
         hide_middle_stems=True,
         left_broken=True,
@@ -321,7 +321,7 @@ maker(
 
 maker(
     ('va', (5, 11)),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         '<Eqs4 Gtqs4>',
         hide_middle_stems=True,
         ),
@@ -368,12 +368,12 @@ maker(
         -0.75,
         selector=baca.leaf(-1),
         ),
-    baca.hairpin(
-        'pp < fff-poco-scratch',
-        ),
-    stirrings_still.flat_glissando(
+    baca.flat_glissando(
         'Bb1',
         hide_middle_stems=True,
+        ),
+    baca.hairpin(
+        'pp < fff-poco-scratch',
         ),
     stirrings_still.urtext_field(),
     )
@@ -384,14 +384,14 @@ maker(
         'wide',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.flat_glissando(
+        'Cb2',
+        stop_pitch='Bb1',
+        ),
     baca.hairpin(
         'fff > pp',
         ),
     stirrings_still.accelerando((1, 4), (3, 32)),
-    stirrings_still.flat_glissando(
-        'Cb2',
-        stop_pitch='Bb1',
-        ),
     )
 
 maker(
