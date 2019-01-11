@@ -30,11 +30,9 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-nineteen',
-            literal=True,
-            ),
+        r'\stirrings-still-text-nineteen',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(11 - 1),
         ),
     baca.rehearsal_mark(

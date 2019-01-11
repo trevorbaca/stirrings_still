@@ -1024,7 +1024,7 @@ K_Global_Skips = {                                                             %
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
     - \tweak extra-offset #'(4 . -30)                                          %! baca_markup:IndicatorCommand
-    ^ \stirrings-still-text-twenty-two                                         %! baca_markup:IndicatorCommand
+    ^ \markup { \stirrings-still-text-twenty-two }                             %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP

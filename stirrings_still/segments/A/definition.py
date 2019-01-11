@@ -61,55 +61,43 @@ maker(
 maker(
     'Global_Skips',
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-two',
-            literal=True,
-            ),
+        r'\stirrings-still-text-two',
         # -20 because first page compresses vertical spacing
         #abjad.tweak((4, -20)).extra_offset,
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(10 - 1),
         ),
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-three',
-            literal=True,
-            ),
+        r'\stirrings-still-text-three',
         # -20 because first page compresses vertical spacing
         #abjad.tweak((4, -20)).extra_offset,
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(19 - 1),
         ),
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-four',
-            literal=True,
-            ),
+        r'\stirrings-still-text-four',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(24 - 1),
         ),
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-five',
-            literal=True,
-            ),
+        r'\stirrings-still-text-five',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(28 - 1),
         ),
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-six',
-            literal=True,
-            ),
+        r'\stirrings-still-text-six',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(61 - 1),
         ),
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-seven',
-            literal=True,
-            ),
+        r'\stirrings-still-text-seven',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(63 - 1),
         ),
     )

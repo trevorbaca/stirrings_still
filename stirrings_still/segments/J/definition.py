@@ -42,11 +42,9 @@ maker(
 maker(
     'Global_Skips',
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-repeat-three',
-            literal=True,
-            ),
+        r'\stirrings-still-repeat-three',
         abjad.tweak((0, 10)).extra_offset,
+        literal=True,
         measures=11,
         selector=baca.skip(0),
         ),

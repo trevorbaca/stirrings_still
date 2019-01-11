@@ -61,27 +61,21 @@ maker(
 maker(
     'Global_Skips',
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-sixteen',
-            literal=True,
-            ),
+        r'\stirrings-still-text-sixteen',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(41 - 1),
         ),
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-seventeen',
-            literal=True,
-            ),
+        r'\stirrings-still-text-seventeen',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(86 - 1),
         ),
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-eighteen',
-            literal=True,
-            ),
+        r'\stirrings-still-text-eighteen',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(111 - 1),
         ),
     )
