@@ -51,11 +51,9 @@ maker(
 maker(
     'Global_Skips',
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-twenty-two',
-            literal=True,
-            ),
+        r'\stirrings-still-text-twenty-two',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(54 - 1),
         ),
     )

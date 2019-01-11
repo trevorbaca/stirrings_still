@@ -45,19 +45,15 @@ maker(
 maker(
     'Global_Skips',
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-twenty',
-            literal=True,
-            ),
+        r'\stirrings-still-text-twenty',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(8 - 1),
         ),
     baca.markup(
-        abjad.Markup.from_literal(
-            r'\stirrings-still-text-twenty-one',
-            literal=True,
-            ),
+        r'\stirrings-still-text-twenty-one',
         abjad.tweak((4, -30)).extra_offset,
+        literal=True,
         selector=baca.skip(18 - 1),
         ),
     )
