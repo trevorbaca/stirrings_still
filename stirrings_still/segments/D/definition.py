@@ -140,16 +140,14 @@ maker(
         measures=(25, 30),
         ),
     baca.chunk(
-        baca.tag(
-            '-SEGMENT',
+        baca.not_segment(
             baca.bar_line_x_extent(
                 (-2, 2),
                 after=True,
                 selector=baca.skip(-1),
                 ),
             ),
-        baca.tag(
-            '+SEGMENT',
+        baca.only_segment(
             baca.bar_line_x_extent(
                 (-2, 0),
                 after=True,

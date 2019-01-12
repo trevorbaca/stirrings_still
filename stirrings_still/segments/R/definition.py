@@ -50,15 +50,13 @@ maker(
 maker(
     'Global_Skips',
     baca.chunk(
-        baca.tag(
-            '+SCORE',
+        baca.only_score(
             baca.bar_line_x_extent(
                 (0, 3),
                 selector=baca.skip(0),
                 ),
             ),
-        baca.tag(
-            '-SCORE',
+        baca.not_score(
             baca.bar_line_x_extent(
                 (-1, 3),
                 selector=baca.skip(0),
