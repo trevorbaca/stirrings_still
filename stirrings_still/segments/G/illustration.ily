@@ -641,6 +641,7 @@ G_Violin_I_Music_Voice = {                                                     %
 
     % [G Violin_I_Music_Voice measure 447 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName = \stirrings-still-vn-i-markup                   %! _clone_segment_initial_short_instrument_name
     \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
     \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1394,6 +1395,7 @@ G_Violin_II_Music_Voice = {                                                    %
 
         % [G Violin_II_Music_Voice measure 447 / measure 1]                    %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName = \stirrings-still-vn-ii-markup              %! _clone_segment_initial_short_instrument_name
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2236,6 +2238,7 @@ G_Viola_Music_Voice = {                                                        %
         \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.line-count = 5                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \set Staff.instrumentName = \stirrings-still-va-markup                 %! _clone_segment_initial_short_instrument_name
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
         \clef "alto"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -3009,6 +3012,7 @@ G_Cello_Music_Voice = {                                                        %
 
     % [G Cello_Music_Voice measure 447 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName = \stirrings-still-vc-markup                     %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
 %%% \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_447:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_447:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
