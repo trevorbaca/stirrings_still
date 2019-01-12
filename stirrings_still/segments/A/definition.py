@@ -109,16 +109,14 @@ maker(
             (-1, 3),
             selector=baca.skip(0),
             ),
-        baca.tag(
-            '+SCORE',
+        baca.only_score(
             baca.bar_line_x_extent(
                 (-2, 0),
                 after=True,
                 selector=baca.skip(-1),
                 ),
             ),
-        baca.tag(
-            '-SCORE',
+        baca.not_score(
             baca.bar_line_x_extent(
                 (-2, 2),
                 after=True,
