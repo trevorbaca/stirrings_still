@@ -25,6 +25,6 @@ if __name__ == '__main__':
         keywords=keywords,
         name='stirrings_still',
         packages=['stirrings_still'],
-        paltforms='Any',
+        platforms='Any',
         url='https://github.com/trevorbaca/stirrings_still',
         )
