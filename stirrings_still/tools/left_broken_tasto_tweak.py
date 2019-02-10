@@ -5,7 +5,7 @@ def left_broken_tasto_tweak():
     """
     Makes left-broken tasto tweak.
     """
-    markup= abjad.Markup.from_literal(
+    markup= abjad.Markup(
         r'\baca-left-broken-t-markup',
         literal=True,
         )

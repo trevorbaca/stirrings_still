@@ -51,7 +51,7 @@ metronome_marks = abjad.OrderedDict([
         abjad.MetronomeMark(
             reference_duration=(1, 4),
             units_per_minute=52,
-            custom_markup=abjad.Markup.from_literal(
+            custom_markup=abjad.Markup(
                 r'\stirrings-still-presto-largo-markup',
                 literal=True,
                 ),
