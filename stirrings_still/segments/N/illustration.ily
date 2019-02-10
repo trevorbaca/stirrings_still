@@ -724,7 +724,7 @@ N_Global_Skips = {                                                             %
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
     - \tweak extra-offset #'(4 . -30)                                          %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-text-twenty-three }                           %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-text-twenty-three                                       %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
@@ -903,7 +903,7 @@ N_Violin_I_Music_Voice = {                                                     %
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-nine-b-flat }                                 %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-nine-b-flat                                             %! baca_markup:IndicatorCommand
     \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
@@ -1689,7 +1689,7 @@ N_Violin_II_Music_Voice = {                                                    %
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-eleven-b-flat }                               %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-eleven-b-flat                                           %! baca_markup:IndicatorCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
@@ -2444,7 +2444,7 @@ N_Viola_Music_Voice = {                                                        %
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-thirteen-b-flat }                             %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-thirteen-b-flat                                         %! baca_markup:IndicatorCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
