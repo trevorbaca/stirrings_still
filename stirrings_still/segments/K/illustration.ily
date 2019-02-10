@@ -1024,7 +1024,7 @@ K_Global_Skips = {                                                             %
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
     - \tweak extra-offset #'(4 . -30)                                          %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-text-twenty-two }                             %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-text-twenty-two                                         %! baca_markup:IndicatorCommand
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
@@ -1971,7 +1971,7 @@ K_Violin_I_Music_Voice = {                                                     %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \stirrings-still-thirteen-d-flat }                         %! baca_markup:IndicatorCommand
+        ^ \stirrings-still-thirteen-d-flat                                     %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2075,7 +2075,7 @@ K_Violin_I_Music_Voice = {                                                     %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    _ \markup { \stirrings-still-eleven-e-flat }                               %! baca_markup:IndicatorCommand
+    _ \stirrings-still-eleven-e-flat                                           %! baca_markup:IndicatorCommand
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -2218,7 +2218,7 @@ K_Violin_I_Music_Voice = {                                                     %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    _ \markup { \stirrings-still-seven-d-flat }                                %! baca_markup:IndicatorCommand
+    _ \stirrings-still-seven-d-flat                                            %! baca_markup:IndicatorCommand
     \stopTextSpanTwo                                                           %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-arrow                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "trem. ord."                                %! baca_text_spanner:PiecewiseCommand(1)
@@ -3431,7 +3431,7 @@ K_Violin_II_Music_Voice = {                                                    %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \stirrings-still-nine-d-flat }                             %! baca_markup:IndicatorCommand
+        ^ \stirrings-still-nine-d-flat                                         %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3531,7 +3531,7 @@ K_Violin_II_Music_Voice = {                                                    %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak padding #0.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-nine-e-flat }                                 %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-nine-e-flat                                             %! baca_markup:IndicatorCommand
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "each time more ponticello"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -3695,7 +3695,7 @@ K_Violin_II_Music_Voice = {                                                    %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak padding #0.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-nine-d-flat }                                 %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-nine-d-flat                                             %! baca_markup:IndicatorCommand
     \stopTextSpanTwo                                                           %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "each time less ponticello"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -4783,7 +4783,7 @@ K_Viola_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-seven-d-flat }                                %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-seven-d-flat                                            %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4873,7 +4873,7 @@ K_Viola_Music_Voice = {                                                        %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-five-e-flat }                                 %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-five-e-flat                                             %! baca_markup:IndicatorCommand
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "each time more ponticello"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -5091,7 +5091,7 @@ K_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \stirrings-still-five-d-flat }                                 %! baca_markup:IndicatorCommand
+    ^ \stirrings-still-five-d-flat                                             %! baca_markup:IndicatorCommand
     \stopTextSpanTwo                                                           %! baca_text_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "each time less ponticello"                 %! baca_text_spanner:PiecewiseCommand(1)
