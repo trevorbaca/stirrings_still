@@ -1545,7 +1545,7 @@ S_Violin_I_Music_Voice = {                                                     %
 
 S_Violin_I_Music_Staff = <<                                                    %! extern
 
-    \context GlobalRests = "Global_Rests"                                      %! _make_global_context
+    \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
     \S_Global_Rests                                                            %! extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
