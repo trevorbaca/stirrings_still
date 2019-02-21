@@ -29,7 +29,7 @@ def tailpiece(
                 selector=baca.leaves().rleak()[-1:],
                 ),
             ),
-        baca.text_script_parent_center(),
+        baca.text_script_parent_alignment_x(0),
         baca.flat_glissando(
             None,
             *tweaks,
