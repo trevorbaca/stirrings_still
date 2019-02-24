@@ -18,8 +18,8 @@ stage_markup = (
 
 maker = baca.SegmentMaker(
     activate=[
-        abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
-        abjad.Tags().STAGE_NUMBER_MARKUP,
+        abjad.const.LOCAL_MEASURE_NUMBER,
+        abjad.const.STAGE_NUMBER,
         ],
     do_not_force_nonnatural_accidentals=True,
     fermata_measure_empty_overrides=[9, 16, 20],
