@@ -1,18 +1,18 @@
-\version "2.19.82"                                                             %! _make_lilypond_file:LilyPondFile
-\language "english"                                                            %! _make_lilypond_file:LilyPondFile
+\version "2.19.82"                                                             %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\language "english"                                                            %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
 
-\include "../../stylesheets/stylesheet.ily"                                    %! _make_lilypond_file:LilyPondFile
-\include "stylesheet.ily"                                                      %! _make_lilypond_file:LilyPondFile
-\include "illustration.ily"                                                    %! extern
+\include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\include "stylesheet.ily"                                                      %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
+\include "illustration.ily"                                                    %! abjad.Path.extern
 
 
-\score {                                                                       %! _make_lilypond_file:LilyPondFile
+\score {                                                                       %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile
     
-    <<                                                                         %! _make_lilypond_file
+    <<                                                                         %! baca.SegmentMaker._make_lilypond_file
 
-        {                                                                      %! _make_lilypond_file
-            \include "layout.ly"                                               %! _make_lilypond_file
-        }                                                                      %! _make_lilypond_file
+        {                                                                      %! baca.SegmentMaker._make_lilypond_file
+            \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file
+        }                                                                      %! baca.SegmentMaker._make_lilypond_file
 
         \context Score = "Score"                                               %! ScoreTemplate
         <<                                                                     %! ScoreTemplate
@@ -21,7 +21,7 @@
             <<                                                                 %! abjad.ScoreTemplate._make_global_context
 
                 \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context
-                \A_Global_Skips                                                %! extern
+                \A_Global_Skips                                                %! abjad.Path.extern
 
             >>                                                                 %! abjad.ScoreTemplate._make_global_context
 
@@ -33,19 +33,19 @@
 
                     \tag ViolinI                                               %! baca.ScoreTemplate._attach_liypond_tag
                     \context Staff = "Violin_I_Music_Staff"                    %! ScoreTemplate
-                    \A_Violin_I_Music_Staff                                    %! extern
+                    \A_Violin_I_Music_Staff                                    %! abjad.Path.extern
 
                     \tag ViolinII                                              %! baca.ScoreTemplate._attach_liypond_tag
                     \context Staff = "Violin_II_MusicStaff"                    %! ScoreTemplate
-                    \A_Violin_II_MusicStaff                                    %! extern
+                    \A_Violin_II_MusicStaff                                    %! abjad.Path.extern
 
                     \tag viola                                                 %! baca.ScoreTemplate._attach_liypond_tag
                     \context Staff = "Viola_Music_Staff"                       %! ScoreTemplate
-                    \A_Viola_Music_Staff                                       %! extern
+                    \A_Viola_Music_Staff                                       %! abjad.Path.extern
 
                     \tag cello                                                 %! baca.ScoreTemplate._attach_liypond_tag
                     \context Staff = "Cello_Music_Staff"                       %! ScoreTemplate
-                    \A_Cello_Music_Staff                                       %! extern
+                    \A_Cello_Music_Staff                                       %! abjad.Path.extern
 
                 >>                                                             %! ScoreTemplate
 
@@ -53,6 +53,6 @@
 
         >>                                                                     %! ScoreTemplate
 
-    >>                                                                         %! _make_lilypond_file
+    >>                                                                         %! baca.SegmentMaker._make_lilypond_file
     
-}                                                                              %! _make_lilypond_file:LilyPondFile
+}                                                                              %! baca.SegmentMaker._make_lilypond_file:abjad.LilyPondFile

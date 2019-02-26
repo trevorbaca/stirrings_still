@@ -1,4 +1,4 @@
-B_Global_Skips = {                                                             %! extern
+B_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [B Global_Skips measure 64 / measure 1]                                  %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -1481,10 +1481,10 @@ B_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-B_Global_Rests = {                                                             %! extern
+B_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [B Global_Rests measure 64 / measure 1]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
@@ -1707,10 +1707,10 @@ B_Global_Rests = {                                                             %
     % [B Global_Rests measure 130 / measure 67]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-B_Violin_I_Music_Voice = {                                                     %! extern
+B_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [B Violin_I_Music_Voice measure 64 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3984,21 +3984,21 @@ B_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-B_Violin_I_Music_Staff = <<                                                    %! extern
+B_Violin_I_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
-    \B_Global_Rests                                                            %! extern
+    \B_Global_Rests                                                            %! abjad.Path.extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
-    \B_Violin_I_Music_Voice                                                    %! extern
+    \B_Violin_I_Music_Voice                                                    %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-B_Violin_II_Music_Voice = {                                                    %! extern
+B_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
@@ -6410,18 +6410,18 @@ B_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-B_Violin_II_MusicStaff = {                                                     %! extern
+B_Violin_II_MusicStaff = {                                                     %! abjad.Path.extern
 
     \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
-    \B_Violin_II_Music_Voice                                                   %! extern
+    \B_Violin_II_Music_Voice                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-B_Viola_Music_Voice = {                                                        %! extern
+B_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
@@ -8665,18 +8665,18 @@ B_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-B_Viola_Music_Staff = {                                                        %! extern
+B_Viola_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \B_Viola_Music_Voice                                                       %! extern
+    \B_Viola_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-B_Cello_Music_Voice = {                                                        %! extern
+B_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
@@ -11258,12 +11258,12 @@ B_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-B_Cello_Music_Staff = {                                                        %! extern
+B_Cello_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \B_Cello_Music_Voice                                                       %! extern
+    \B_Cello_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
