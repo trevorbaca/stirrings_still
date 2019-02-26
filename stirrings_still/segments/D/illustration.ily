@@ -3920,7 +3920,7 @@ D_Violin_I_Music_Staff = <<                                                    %
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
     \D_Global_Rests                                                            %! abjad.Path.extern
 
-    \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
+    \context Voice = "Violin_I_Music_Voice"                                    %! stirrings_still.ScoreTemplate.__call__
     \D_Violin_I_Music_Voice                                                    %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -5682,7 +5682,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
 D_Violin_II_MusicStaff = {                                                     %! abjad.Path.extern
 
-    \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
+    \context Voice = "Violin_II_Music_Voice"                                   %! stirrings_still.ScoreTemplate.__call__
     \D_Violin_II_Music_Voice                                                   %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -7426,7 +7426,7 @@ D_Viola_Music_Voice = {                                                        %
 
 D_Viola_Music_Staff = {                                                        %! abjad.Path.extern
 
-    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \context Voice = "Viola_Music_Voice"                                       %! stirrings_still.ScoreTemplate.__call__
     \D_Viola_Music_Voice                                                       %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
@@ -8849,7 +8849,7 @@ D_Cello_Music_Voice = {                                                        %
 
 D_Cello_Music_Staff = {                                                        %! abjad.Path.extern
 
-    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \context Voice = "Cello_Music_Voice"                                       %! stirrings_still.ScoreTemplate.__call__
     \D_Cello_Music_Voice                                                       %! abjad.Path.extern
 
 }                                                                              %! abjad.Path.extern
