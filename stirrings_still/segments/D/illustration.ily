@@ -1,4 +1,4 @@
-D_Global_Skips = {                                                             %! extern
+D_Global_Skips = {                                                             %! abjad.Path.extern
 
     \repeat volta 2
     {
@@ -1889,10 +1889,10 @@ D_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-D_Global_Rests = {                                                             %! extern
+D_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [D Global_Rests measure 207 / measure 1]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests(1)
@@ -2213,10 +2213,10 @@ D_Global_Rests = {                                                             %
     % [D Global_Rests measure 306 / measure 100]                               %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-D_Violin_I_Music_Voice = {                                                     %! extern
+D_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [D Violin_I_Music_Voice measure 207 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3912,21 +3912,21 @@ D_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-D_Violin_I_Music_Staff = <<                                                    %! extern
+D_Violin_I_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
-    \D_Global_Rests                                                            %! extern
+    \D_Global_Rests                                                            %! abjad.Path.extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
-    \D_Violin_I_Music_Voice                                                    %! extern
+    \D_Violin_I_Music_Voice                                                    %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-D_Violin_II_Music_Voice = {                                                    %! extern
+D_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern
 
     % [D Violin_II_Music_Voice measure 207 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5677,18 +5677,18 @@ D_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-D_Violin_II_MusicStaff = {                                                     %! extern
+D_Violin_II_MusicStaff = {                                                     %! abjad.Path.extern
 
     \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
-    \D_Violin_II_Music_Voice                                                   %! extern
+    \D_Violin_II_Music_Voice                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-D_Viola_Music_Voice = {                                                        %! extern
+D_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [D Viola_Music_Voice measure 207 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7421,18 +7421,18 @@ D_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-D_Viola_Music_Staff = {                                                        %! extern
+D_Viola_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \D_Viola_Music_Voice                                                       %! extern
+    \D_Viola_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-D_Cello_Music_Voice = {                                                        %! extern
+D_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [D Cello_Music_Voice measure 207 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -8844,12 +8844,12 @@ D_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-D_Cello_Music_Staff = {                                                        %! extern
+D_Cello_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \D_Cello_Music_Voice                                                       %! extern
+    \D_Cello_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern

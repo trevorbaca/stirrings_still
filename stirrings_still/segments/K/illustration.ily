@@ -1,4 +1,4 @@
-K_Global_Skips = {                                                             %! extern
+K_Global_Skips = {                                                             %! abjad.Path.extern
 
     \repeat volta 2
     {
@@ -1053,10 +1053,10 @@ K_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-K_Global_Rests = {                                                             %! extern
+K_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [K Global_Rests measure 556 / measure 1]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
@@ -1226,10 +1226,10 @@ K_Global_Rests = {                                                             %
     % [K Global_Rests measure 610 / measure 55]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-K_Violin_I_Music_Voice = {                                                     %! extern
+K_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
@@ -2726,21 +2726,21 @@ K_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-K_Violin_I_Music_Staff = <<                                                    %! extern
+K_Violin_I_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
-    \K_Global_Rests                                                            %! extern
+    \K_Global_Rests                                                            %! abjad.Path.extern
 
     \context Voice = "Violin_I_Music_Voice"                                    %! ScoreTemplate
-    \K_Violin_I_Music_Voice                                                    %! extern
+    \K_Violin_I_Music_Voice                                                    %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-K_Violin_II_Music_Voice = {                                                    %! extern
+K_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
@@ -4251,18 +4251,18 @@ K_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-K_Violin_II_MusicStaff = {                                                     %! extern
+K_Violin_II_MusicStaff = {                                                     %! abjad.Path.extern
 
     \context Voice = "Violin_II_Music_Voice"                                   %! ScoreTemplate
-    \K_Violin_II_Music_Voice                                                   %! extern
+    \K_Violin_II_Music_Voice                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-K_Viola_Music_Voice = {                                                        %! extern
+K_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [K Viola_Music_Voice measure 556 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5814,18 +5814,18 @@ K_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-K_Viola_Music_Staff = {                                                        %! extern
+K_Viola_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \K_Viola_Music_Voice                                                       %! extern
+    \K_Viola_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-K_Cello_Music_Voice = {                                                        %! extern
+K_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/5 {                                                               %! stirrings_still_trajectories
@@ -7290,12 +7290,12 @@ K_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-K_Cello_Music_Staff = {                                                        %! extern
+K_Cello_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \K_Cello_Music_Voice                                                       %! extern
+    \K_Cello_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
