@@ -18,7 +18,7 @@ metadata = abjad.OrderedDict(
                 427,
                 ],
             ),
-        ('duration', "4'34''"),
+        ('duration', "4'40''"),
         (
             'fermata_measure_numbers',
             [308, 346, 367, 386, 391, 416],
@@ -28,8 +28,8 @@ metadata = abjad.OrderedDict(
         ('phantom', True),
         ('segment_name', 'E'),
         ('segment_number', 5),
-        ('start_clock_time', "12'44''"),
-        ('stop_clock_time', "17'18''"),
+        ('start_clock_time', "13'35''"),
+        ('stop_clock_time', "18'15''"),
         (
             'time_signatures',
             [
