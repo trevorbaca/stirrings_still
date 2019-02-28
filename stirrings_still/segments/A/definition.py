@@ -42,7 +42,6 @@ maker = baca.SegmentMaker(
         ],
     fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
     includes=['stylesheet.ily'],
-    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures('A'),
