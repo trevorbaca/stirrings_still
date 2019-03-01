@@ -677,7 +677,6 @@ maker(
 
 maker(
     'va',
-    baca.clef('alto'),
     baca.suite(
         stirrings_still.margin_markup('Va.'),
         baca.start_markup(
@@ -766,7 +765,6 @@ maker(
 
 maker(
     'vc',
-    baca.clef('bass'),
     baca.suite(
         stirrings_still.margin_markup('Vc.'),
         baca.start_markup(
