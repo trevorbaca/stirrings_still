@@ -786,249 +786,320 @@ def operations():
 
     """
 
-    return abjad.TypedList([
-        Operation(
-            StageToken('G', 1, 'inception', 1), 1,
-            'suffix',
-            StageToken('A', 9, 'iteratum'),
+    return abjad.TypedList(
+        [
+            Operation(
+                StageToken("G", 1, "inception", 1),
+                1,
+                "suffix",
+                StageToken("A", 9, "iteratum"),
             ),
-        Operation(
-            StageToken('I', 6, 'current', 2), 2,
-            'bisect',
-            StageToken('A', 12, 'conclusion', 4), (2, 3),
+            Operation(
+                StageToken("I", 6, "current", 2),
+                2,
+                "bisect",
+                StageToken("A", 12, "conclusion", 4),
+                (2, 3),
             ),
-        Operation(
-            StageToken('I', 6, 'current', 2), 2,
-            'bisect',
-            StageToken('A', 13, 'iteratum', 4), (2, 3),
+            Operation(
+                StageToken("I", 6, "current", 2),
+                2,
+                "bisect",
+                StageToken("A", 13, "iteratum", 4),
+                (2, 3),
             ),
-        Operation(
-            StageToken('H', 1, 'inception', 4), (1, 2),
-            'suffix',
-            StageToken('A', 15, 'iteratum'),
+            Operation(
+                StageToken("H", 1, "inception", 4),
+                (1, 2),
+                "suffix",
+                StageToken("A", 15, "iteratum"),
             ),
-        Operation(
-            StageToken('A', 1, 'isolatum', 1), 1,
-            'bisect',
-            StageToken('B', 12, 'conclusion', 2), (1, 2),
+            Operation(
+                StageToken("A", 1, "isolatum", 1),
+                1,
+                "bisect",
+                StageToken("B", 12, "conclusion", 2),
+                (1, 2),
             ),
-        Operation(
-            StageToken('H', 1, 'inception', 4), (1, 2),
-            'prefix',
-            StageToken('B', 14, 'iteratum'),
+            Operation(
+                StageToken("H", 1, "inception", 4),
+                (1, 2),
+                "prefix",
+                StageToken("B", 14, "iteratum"),
             ),
-        Operation(
-            StageToken('A', 18, 'isolatum', 1), 1,
-            'suffix',
-            StageToken('B', 16, 'iteratum'),
+            Operation(
+                StageToken("A", 18, "isolatum", 1),
+                1,
+                "suffix",
+                StageToken("B", 16, "iteratum"),
             ),
-        Operation(
-            StageToken('D', 9, 'isolatum', 4), 1,
-            'bisect',
-            StageToken('B', 17, 'iteratum', 2), (1, 2),
+            Operation(
+                StageToken("D", 9, "isolatum", 4),
+                1,
+                "bisect",
+                StageToken("B", 17, "iteratum", 2),
+                (1, 2),
             ),
-        Operation(
-            StageToken('D', 17, 'development', 2), 2,
-            'prolong',
-            StageToken('B', 17, 'pause'),
+            Operation(
+                StageToken("D", 17, "development", 2),
+                2,
+                "prolong",
+                StageToken("B", 17, "pause"),
             ),
-        Operation(
-            StageToken('D', 16, 'development', 2), 1,
-            'prefix',
-            StageToken('B', 24, 'isolatum'),
+            Operation(
+                StageToken("D", 16, "development", 2),
+                1,
+                "prefix",
+                StageToken("B", 24, "isolatum"),
             ),
-        Operation(
-            StageToken('G', 1, 'inception', 1), 1,
-            'suffix',
-            StageToken('C', 1, 'isolatum'),
+            Operation(
+                StageToken("G", 1, "inception", 1),
+                1,
+                "suffix",
+                StageToken("C", 1, "isolatum"),
             ),
-        Operation(
-            StageToken('D', 9, 'isolatum', 4), (1, 2),
-            'suffix',
-            StageToken('C', 8, 'development'),
+            Operation(
+                StageToken("D", 9, "isolatum", 4),
+                (1, 2),
+                "suffix",
+                StageToken("C", 8, "development"),
             ),
-        Operation(
-            StageToken('C', 8, 'process', 4), (1, 4),
-            'replace',
-            StageToken('C', 10, 'process'), (1, 4),
+            Operation(
+                StageToken("C", 8, "process", 4),
+                (1, 4),
+                "replace",
+                StageToken("C", 10, "process"),
+                (1, 4),
             ),
-        Operation(
-            StageToken('C', 9, 'process', 4), (1, 4),
-            'replace',
-            StageToken('C', 11, 'process'), (1, 4),
+            Operation(
+                StageToken("C", 9, "process", 4),
+                (1, 4),
+                "replace",
+                StageToken("C", 11, "process"),
+                (1, 4),
             ),
-        Operation(
-            StageToken('C', 8, 'process', 4), (1, 4),
-            'replace',
-            StageToken('C', 12, 'process'), (1, 4),
+            Operation(
+                StageToken("C", 8, "process", 4),
+                (1, 4),
+                "replace",
+                StageToken("C", 12, "process"),
+                (1, 4),
             ),
-        Operation(
-            StageToken('C', 9, 'process', 4), (1, 4),
-            'replace',
-            StageToken('C', 13, 'process'), (1, 4),
+            Operation(
+                StageToken("C", 9, "process", 4),
+                (1, 4),
+                "replace",
+                StageToken("C", 13, "process"),
+                (1, 4),
             ),
-        Operation(
-            StageToken('J', 1, 'clearing', 4), (1, 2),
-            'suffix',
-            StageToken('C', 14, 'conclusion'),
+            Operation(
+                StageToken("J", 1, "clearing", 4),
+                (1, 2),
+                "suffix",
+                StageToken("C", 14, "conclusion"),
             ),
-        Operation(
-            StageToken('I', 6, 'current', 2), 2,
-            'prolong',
-            StageToken('D', 6, 'pause'),
+            Operation(
+                StageToken("I", 6, "current", 2),
+                2,
+                "prolong",
+                StageToken("D", 6, "pause"),
             ),
-        Operation(
-            StageToken('F', 2, 'clearing', 2), 2,
-            'bisect',
-            StageToken('D', 9, 'isolatum', 4), (2, 3),
+            Operation(
+                StageToken("F", 2, "clearing", 2),
+                2,
+                "bisect",
+                StageToken("D", 9, "isolatum", 4),
+                (2, 3),
             ),
-        Operation(
-            StageToken('S', 1, 'transformatum', 1),  1,
-            'prefix',
-            StageToken('D', 11, 'isolatum'),
+            Operation(
+                StageToken("S", 1, "transformatum", 1),
+                1,
+                "prefix",
+                StageToken("D", 11, "isolatum"),
             ),
-        Operation(
-            StageToken('I', 1, 'clearing', 2), 2,
-            'bisect',
-            StageToken('D', 12, 'inception', 2), (1, 2),
+            Operation(
+                StageToken("I", 1, "clearing", 2),
+                2,
+                "bisect",
+                StageToken("D", 12, "inception", 2),
+                (1, 2),
             ),
-        Operation(
-            StageToken('F', 2, 'clearing', 2), 2,
-            'bisect',
-            StageToken('D', 21, 'clearing', 2), (1, 2),
+            Operation(
+                StageToken("F", 2, "clearing", 2),
+                2,
+                "bisect",
+                StageToken("D", 21, "clearing", 2),
+                (1, 2),
             ),
-        Operation(
-            StageToken('C', 2, 'process', 4), (3, 4),
-            'suffix',
-            StageToken('D', 22, 'conclusion'),
+            Operation(
+                StageToken("C", 2, "process", 4),
+                (3, 4),
+                "suffix",
+                StageToken("D", 22, "conclusion"),
             ),
-        Operation(
-            StageToken('H', 9, 'clearing', 6), (1, 2),
-            'prefix',
-            StageToken('E', 1, 'inception'),
+            Operation(
+                StageToken("H", 9, "clearing", 6),
+                (1, 2),
+                "prefix",
+                StageToken("E", 1, "inception"),
             ),
-        Operation(
-            StageToken('A', 1, 'isolatum', 1), 1,
-            'bisect',
-            StageToken('E', 6, 'clearing', 4), (2, 3),
+            Operation(
+                StageToken("A", 1, "isolatum", 1),
+                1,
+                "bisect",
+                StageToken("E", 6, "clearing", 4),
+                (2, 3),
             ),
-        Operation(
-            StageToken('Q', 1, 'inception', 8), (1, 8), 
-            'prolong',
-            StageToken('E', 7, 'pause'),
+            Operation(
+                StageToken("Q", 1, "inception", 8),
+                (1, 8),
+                "prolong",
+                StageToken("E", 7, "pause"),
             ),
-        Operation(
-            StageToken('Q', 2, 'transformatum', 12), (1, 12),
-            'prolong',
-            StageToken('E', 7, 'pause'),
+            Operation(
+                StageToken("Q", 2, "transformatum", 12),
+                (1, 12),
+                "prolong",
+                StageToken("E", 7, "pause"),
             ),
-        Operation(
-            StageToken('Q', 1, 'inception', 8), (1, 8), 
-            'bisect',
-            StageToken('E', 12, 'development', 4), (2, 3),
+            Operation(
+                StageToken("Q", 1, "inception", 8),
+                (1, 8),
+                "bisect",
+                StageToken("E", 12, "development", 4),
+                (2, 3),
             ),
-        Operation(
-            StageToken('Q', 2, 'transformatum', 12), (1, 12),
-            'bisect',
-            StageToken('E', 12, 'development', 4), (2, 3),
+            Operation(
+                StageToken("Q", 2, "transformatum", 12),
+                (1, 12),
+                "bisect",
+                StageToken("E", 12, "development", 4),
+                (2, 3),
             ),
-        Operation(
-            StageToken('C', 2, 'process', 4), (3, 4),
-            'prolong',
-            StageToken('F', 2, 'pause'),
+            Operation(
+                StageToken("C", 2, "process", 4),
+                (3, 4),
+                "prolong",
+                StageToken("F", 2, "pause"),
             ),
-        Operation(
-            StageToken('J', 1, 'clearing', 4), (1, 2),
-            'prefix',
-            StageToken('G', 3, 'iteratum'),
+            Operation(
+                StageToken("J", 1, "clearing", 4),
+                (1, 2),
+                "prefix",
+                StageToken("G", 3, "iteratum"),
             ),
-        Operation(
-            StageToken('C', 7, 'isolatum', 1), 1,
-            'bisect',
-            StageToken('G', 5, 'iteratum', 2), (1, 2),
-            include_after=True,
+            Operation(
+                StageToken("C", 7, "isolatum", 1),
+                1,
+                "bisect",
+                StageToken("G", 5, "iteratum", 2),
+                (1, 2),
+                include_after=True,
             ),
-        Operation(
-            StageToken('D', 11, 'isolatum', 6), (1, 6),
-            'prolong',
-            StageToken('G', 6, 'pause'),
+            Operation(
+                StageToken("D", 11, "isolatum", 6),
+                (1, 6),
+                "prolong",
+                StageToken("G", 6, "pause"),
             ),
-        Operation(
-            StageToken('I', 1, 'clearing', 2), 2,
-            'prolong',
-            StageToken('H', 2, 'pause'),
+            Operation(
+                StageToken("I", 1, "clearing", 2),
+                2,
+                "prolong",
+                StageToken("H", 2, "pause"),
             ),
-        Operation(
-            StageToken('C', 7, 'iteratum', 1), 1,
-            'prolong',
-            StageToken('H', 10, 'pause'),
-            include_after=True,
+            Operation(
+                StageToken("C", 7, "iteratum", 1),
+                1,
+                "prolong",
+                StageToken("H", 10, "pause"),
+                include_after=True,
             ),
-        Operation(
-            StageToken('H', 1, 'inception', 4), (1, 2),
-            'prefix',
-            StageToken('H', 11, 'iteratum'),
+            Operation(
+                StageToken("H", 1, "inception", 4),
+                (1, 2),
+                "prefix",
+                StageToken("H", 11, "iteratum"),
             ),
-        Operation(
-            StageToken('G', 5, 'iteratum', 2), (1, 2),
-            'bisect',
-            StageToken('H', 14, 'clearing', 2), (1, 2),
+            Operation(
+                StageToken("G", 5, "iteratum", 2),
+                (1, 2),
+                "bisect",
+                StageToken("H", 14, "clearing", 2),
+                (1, 2),
             ),
-        Operation(
-            StageToken('C', 7, 'iteratum', 1), 1,
-            'bisect',
-            StageToken('H', 14, 'clearing', 4), (2, 3),
-            include_after=True,
+            Operation(
+                StageToken("C", 7, "iteratum", 1),
+                1,
+                "bisect",
+                StageToken("H", 14, "clearing", 4),
+                (2, 3),
+                include_after=True,
             ),
-        Operation(
-            StageToken('C', 7, 'isolatum', 1), 1,
-            'bisect',
-            StageToken('J', 1, 'clearing', 4), (2, 3),
-            include_after=True,
+            Operation(
+                StageToken("C", 7, "isolatum", 1),
+                1,
+                "bisect",
+                StageToken("J", 1, "clearing", 4),
+                (2, 3),
+                include_after=True,
             ),
-        Operation(
-            StageToken('C', 14, 'conclusion', 4), (3, 4),
-            'bisect',
-            StageToken('K', 1, 'inception', 4), (2, 3),
+            Operation(
+                StageToken("C", 14, "conclusion", 4),
+                (3, 4),
+                "bisect",
+                StageToken("K", 1, "inception", 4),
+                (2, 3),
             ),
-        Operation(
-            StageToken('H', 13, 'development', 4), 3,
-            'suffix',
-            StageToken('K', 6, 'clearing'),
+            Operation(
+                StageToken("H", 13, "development", 4),
+                3,
+                "suffix",
+                StageToken("K", 6, "clearing"),
             ),
-        Operation(
-            StageToken('I', 6, 'current', 2), 2,
-            'suffix',
-            StageToken('K', 6, 'clearing'),
+            Operation(
+                StageToken("I", 6, "current", 2),
+                2,
+                "suffix",
+                StageToken("K", 6, "clearing"),
             ),
-        Operation(
-            StageToken('H', 13, 'development', 4), 4,
-            'suffix',
-            StageToken('K', 6, 'clearing'),
+            Operation(
+                StageToken("H", 13, "development", 4),
+                4,
+                "suffix",
+                StageToken("K", 6, "clearing"),
             ),
-        Operation(
-            StageToken('K', 5, 'development', 3), (1, 3),
-            'replace',
-            StageToken('K', 9, 'conclusion', 8), (6, 8),
+            Operation(
+                StageToken("K", 5, "development", 3),
+                (1, 3),
+                "replace",
+                StageToken("K", 9, "conclusion", 8),
+                (6, 8),
             ),
-        Operation(
-            StageToken('I', 6, 'current', 2), (1, 2),
-            'prefix',
-            StageToken('N', 4, 'inception'),
+            Operation(
+                StageToken("I", 6, "current", 2),
+                (1, 2),
+                "prefix",
+                StageToken("N", 4, "inception"),
             ),
-        Operation(
-            StageToken('K', 6, 'clearing', 3), 1,
-            'bisect',
-            StageToken('N', 6, 'conclusion', 12), (6, 7),
+            Operation(
+                StageToken("K", 6, "clearing", 3),
+                1,
+                "bisect",
+                StageToken("N", 6, "conclusion", 12),
+                (6, 7),
             ),
-        Operation(
-            StageToken('H', 13, 'development', 4), 4,
-            'suffix',
-            StageToken('O', 1, 'isolatum'),
+            Operation(
+                StageToken("H", 13, "development", 4),
+                4,
+                "suffix",
+                StageToken("O", 1, "isolatum"),
             ),
-        Operation(
-            StageToken('K', 6, 'clearing', 3), 1,
-            'prefix',
-            StageToken('Q', 1, 'inception'),
+            Operation(
+                StageToken("K", 6, "clearing", 3),
+                1,
+                "prefix",
+                StageToken("Q", 1, "inception"),
             ),
-        ])
+        ]
+    )

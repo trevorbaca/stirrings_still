@@ -40,22 +40,17 @@ class Operation(object):
     ### CLASS VARIABLES ###
 
     __slots__ = (
-        '_include_after',
-        '_source_measures',
-        '_source_stage',
-        '_target_stage',
-        '_target_site',
-        '_verb',
-        )
+        "_include_after",
+        "_source_measures",
+        "_source_stage",
+        "_target_stage",
+        "_target_site",
+        "_verb",
+    )
 
     _publish_storage_format = True
 
-    _verbs = (
-        'bisect',
-        'prefix',
-        'replace',
-        'suffix',
-        )
+    _verbs = ("bisect", "prefix", "replace", "suffix")
 
     ### INITIALIZER ###
 
@@ -68,7 +63,7 @@ class Operation(object):
         target_site=None,
         *,
         include_after=None,
-        ):
+    ):
         if source_stage is not None:
             assert isinstance(source_stage, StageToken)
         self._source_stage = source_stage
@@ -81,7 +76,7 @@ class Operation(object):
         if target_stage is not None:
             assert isinstance(target_stage, StageToken)
         self._target_stage = target_stage
-        if target_site is not None or verb == 'bisect':
+        if target_site is not None or verb == "bisect":
             assert isinstance(target_site, tuple)
         self._target_site = target_site
         if include_after is not None:
@@ -105,12 +100,12 @@ class Operation(object):
             for measure_number in range(start, stop + 1):
                 source_measure_numbers.append(measure_number)
         for source_measure_number in source_measure_numbers:
-            i = source_measure_number  - 1
+            i = source_measure_number - 1
             try:
                 source_time_signatures.append(source_stage.time_signatures[i])
             except IndexError:
                 abjad.f(self)
-                print(f'source measure number: {source_measure_number}')
+                print(f"source measure number: {source_measure_number}")
                 raise
         if self.include_after is True:
             assert source_stage.after
@@ -124,26 +119,26 @@ class Operation(object):
             assert target_stage.operation is None
             operations = [self]
         target_stage_.operation = operations
-        if self.verb == 'bisect':
+        if self.verb == "bisect":
             start, stop = self.target_site
             assert start + 1 == stop, repr(self.target_site)
             target_stage_.time_signatures[start:start] = source_time_signatures
-        elif self.verb == 'prefix':
+        elif self.verb == "prefix":
             target_stage_.time_signatures[0:0] = source_time_signatures
-        elif self.verb == 'prolong':
+        elif self.verb == "prolong":
             if target_stage_.suffix is None:
                 target_stage_.suffix = source_time_signatures[:]
             else:
                 target_stage_.suffix.extend(source_time_signatures)
             target_stage_.postsuffix = target_stage.after
-        elif self.verb == 'replace':
+        elif self.verb == "replace":
             start, stop = self.target_site
             start -= 1
             target_stage_.time_signatures[start:stop] = source_time_signatures
             length = len(target_stage.time_signatures)
             length_ = len(target_stage_.time_signatures)
             assert length == length_
-        elif self.verb == 'suffix':
+        elif self.verb == "suffix":
             if target_stage_.suffix is None:
                 target_stage_.suffix = source_time_signatures[:]
             else:
@@ -154,7 +149,7 @@ class Operation(object):
             raise ValueError(self.verb)
         return target_stage_
 
-    def __format__(self, format_specification=''):
+    def __format__(self, format_specification=""):
         """
         Formats object.
         """

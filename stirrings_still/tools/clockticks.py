@@ -3,17 +3,11 @@ import baca
 from abjadext import rmakers
 
 
-def clockticks(
-    *,
-    displace=False,
-    dmask=None,
-    encroach=False,
-    measures=None,
-    ):
+def clockticks(*, displace=False, dmask=None, encroach=False, measures=None):
     """
     Makes clockticks.
     """
-    tag = 'stirrings_still_clockticks'
+    tag = "stirrings_still_clockticks"
 
     if displace:
         division_expression = None
@@ -32,12 +26,7 @@ def clockticks(
             division_masks=dmask,
             extra_counts_per_division=[1],
             tag=tag,
-            talea=rmakers.Talea(
-                counts=counts,
-                denominator=8,
-                ),
-            tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True,
-                ),
-            ),
-        )
+            talea=rmakers.Talea(counts=counts, denominator=8),
+            tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
+        ),
+    )

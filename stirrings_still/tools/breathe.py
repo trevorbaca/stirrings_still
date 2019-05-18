@@ -2,10 +2,7 @@ import abjad
 import baca
 
 
-def breathe(
-    *,
-    selector='baca.pleaf(-1)',
-    ):
+def breathe(*, selector="baca.pleaf(-1)"):
     """
     Makes breathe command with (-0.25, 2) extra offset.
     """
@@ -13,5 +10,5 @@ def breathe(
     return baca.breathe(
         abjad.tweak((-0.25, 2)).extra_offset,
         selector=selector,
-        tag='stirrings_still_breathe',
-        )
+        tag="stirrings_still_breathe",
+    )

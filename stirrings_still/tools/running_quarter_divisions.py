@@ -3,11 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def running_quarter_divisions(
-    count,
-    *,
-    measures=None,
-    ):
+def running_quarter_divisions(count, *, measures=None):
     """
     Makes running quarter divisions.
     """
@@ -18,16 +14,13 @@ def running_quarter_divisions(
         division_maker=baca.FuseByCountsDivisionCallback(
             counts=abjad.Infinity,
             secondary_division_maker=baca.SplitByDurationsDivisionCallback(
-                cyclic=True,
-                durations=[(1, 4)],
-                ),
+                cyclic=True, durations=[(1, 4)]
             ),
+        ),
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            tag='stirrings_still_running_quarter_divisions',
+            tag="stirrings_still_running_quarter_divisions",
             tuplet_ratios=[ratio],
-            tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True,
-                ),
-            ),
-        )
+            tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
+        ),
+    )

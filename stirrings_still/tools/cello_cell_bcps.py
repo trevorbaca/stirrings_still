@@ -15,5 +15,5 @@ def cello_cell_bcps(*, staff_padding=None):
         bow_change_tweaks=(
             abjad.tweak(abjad.Left).self_alignment_X,
             abjad.tweak(staff_padding + 2.5).staff_padding,
-            ),
-        )
+        ),
+    )

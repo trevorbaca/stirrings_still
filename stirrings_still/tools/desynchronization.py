@@ -3,13 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def desynchronization(
-    denominator,
-    extra_counts,
-    *,
-    measures=None,
-    rests=None,
-    ):
+def desynchronization(denominator, extra_counts, *, measures=None, rests=None):
     """
     Makes desynchronization rhythms.
     """
@@ -35,15 +29,15 @@ def desynchronization(
             denominators=denominators,
             extra_counts_per_division=extra_counts,
             logical_tie_masks=logical_tie_masks,
-            tag='stirrings_still_desynchronization',
+            tag="stirrings_still_desynchronization",
             tuplet_specifier=rmakers.TupletSpecifier(
                 denominator=(1, denominator),
-                #denominator='divisions',
+                # denominator='divisions',
                 diminution=diminution,
                 extract_trivial=True,
                 force_fraction=True,
                 rewrite_dots=True,
                 trivialize=True,
-                ),
             ),
-        )
+        ),
+    )

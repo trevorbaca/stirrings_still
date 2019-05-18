@@ -3,175 +3,225 @@ import baca
 import stirrings_still
 
 
-stage_to_series = abjad.OrderedDict({
-    'A': ('C', 0),
-    'B': ('B', 0),
-    'C': ('A', 0),
-    'D': ('C', -18),
-    'E': ('B', -8),
-    'F': ('A', -14),
-    'G': ('C', -36),
-    'H': ('B', -16),
-    'I': ('A', -28),
-    'J': ('C', -54),
-    'K': ('B', -24),
-    'L': ('A', -42),
-    'M': ('C', -72),
-    'N': ('B', -32),
-    'O': ('A', -56),
-    'P': ('C', -90),
-    'Q': ('B', -40),
-    'R': ('A', -70),
-    'S': ('A', -86),
-    })
+stage_to_series = abjad.OrderedDict(
+    {
+        "A": ("C", 0),
+        "B": ("B", 0),
+        "C": ("A", 0),
+        "D": ("C", -18),
+        "E": ("B", -8),
+        "F": ("A", -14),
+        "G": ("C", -36),
+        "H": ("B", -16),
+        "I": ("A", -28),
+        "J": ("C", -54),
+        "K": ("B", -24),
+        "L": ("A", -42),
+        "M": ("C", -72),
+        "N": ("B", -32),
+        "O": ("A", -56),
+        "P": ("C", -90),
+        "Q": ("B", -40),
+        "R": ("A", -70),
+        "S": ("A", -86),
+    }
+)
 
-stage_to_time_signatures = abjad.OrderedDict({
-    'A': ('C', 0, [
-        (1, 'fermata'),
-        (1, 'fermata'),
-        (2, 'fermata'),
-        (2, 'fermata'),
-        (6, 'fermata'),
-        (1, 'fermata'),
-        (1, 'fermata'),
-        (2, 'fermata'),
-        (2, 'fermata'),
-        6, 6, 4,
-        (4, 'fermata'),
-        (1, 'fermata'),
-        (1, 'fermata'),
-        (1, 'fermata'),
-        (1, 'fermata'),
-        (1, 'long'),
-        ]),
-    'B': ('B', 0,
-        [4, 1, 2, 4,
-        (1, (5, 12)),
-        (1, (5, 12)),
-        (1, (5, 12)),
-        2, 2, 1, 2,
-        (2, 'fermata'),
-        (2, 'fermata'),
-        (2, 'fermata'),
-        (2, 'fermata'),
-        (2, 'fermata'),
-        (2, 'fermata'),
-        2, 6, 2, 1, 1,
-        (1, 'fermata'),
-        (1, 'fermata'),
-        ]),
-    'C': ('A', 0,
-        [(4, 'fermata'),
-        (4, 'fermata'),
-        4, 4, 4, 4,
-        (1, (5, 12)),
-        4, 4, # 8-9
-        4, 4, # 10-11
-        4, 4, # 12-13
-        4, 2, 2, 2,
-        (2, 'fermata'), # 18
-        (6, 'fermata'), # 19
-        ]),
-    'D': ('C', -18,
-        [6, 6, 6, 6, 6, # D1-5
-        (6, 'fermata'), # D6
-        (6, 'fermata'), # D7
-        (1, 'long'),
-        (4, 'long'),
-        (1, 'long'),
-        (6, 'long'),
-        2, # D12
-        4, # D13
-        4, # D14
-        4, # D15
-        4, # D16
-        2, # D17
-        2, # D18
-        2,
-        2,
-        2,
-        (2, 'short'), # D22
-        ]),
-    'E': ('B', -8,
-        [(2, 'short'),
-        6, 8, 4, 4, 4, 4,
-        (4, 'fermata'),
-        8, 8,
-        (2, 'short'),
-        (4, 'fermata'),
-        (4, 'fermata'),
-        4, 2, 2, 8,
-        ]),
-    'F': ('A', -14,
-        [8,
-        (2, 'long'),
-        ]),
-    'G': ('C', -36,
-        [(1, 'fermata'),
-        (1, 'fermata'),
-        (1, 'fermata'),
-        (1, 'fermata'),
-        (2, 'long'),
-        (2, 'long'),
-        ]),
-    'H': ('B', -16,
-        [4, 1, 2, 2, 2, 2, 2, 6,
-        (6, 'short'),
-        (2, 'short'),
-        (3, 'short'),
-        (4, 'short'),
-        4, 2,
-        ]),
-    'I': ('A', -28,
-        [2, 1, 1, 1, 2, 2, 2,
-        ]),
-    'J': ('C', -54,
-        [4, 2, 2, 1, 2, 4,
-        ]),
-    'K': ('B', -24,
-        [3,  3, 3, 3, 3, 3, 8, 6, 8, (8, 'short'),
-        ]),
-    'L': ('A', -42,
-        [16,
-        ]),
-    'M': ('C', -72,
-        [8, 4, 4, 4, 4, 4, 4,
-        ]),
-    'N': ('B', -32,
-        [6, 2, 2, 4, 6,
-        (12, 'very_long'),
-        (2, 'very_long'),
-        ]),
-    'O': ('A', -56,
-        [(6, 'very_long'),
-        ]),
-    'P': ('C', -90,
-        [4, 6, 4, 6, 6,
-        ]),
-    'Q': ('B', -40,
-        [8,
-        12,
-        6,
-        10,
-        5,
-        8,
-        4,
-        6,
-        3,
-        4,
-        2,
-        (2, 'fermata'),
-        20,
-        ]),
-    'R': ('A', -70,
-        [4, 4, 4, (4, 'fermata'),
-        ]),
-    'S': ('A', -86,
-        #[4, 1, 4, 2, 4, 3, 4, 4,
-        #(8, 'long'),
-        [(1, 'long'), (2, 'long'), (3, 'long'), (6, 'long'), (3, 'very_long'),
-        ]),
-    })
+stage_to_time_signatures = abjad.OrderedDict(
+    {
+        "A": (
+            "C",
+            0,
+            [
+                (1, "fermata"),
+                (1, "fermata"),
+                (2, "fermata"),
+                (2, "fermata"),
+                (6, "fermata"),
+                (1, "fermata"),
+                (1, "fermata"),
+                (2, "fermata"),
+                (2, "fermata"),
+                6,
+                6,
+                4,
+                (4, "fermata"),
+                (1, "fermata"),
+                (1, "fermata"),
+                (1, "fermata"),
+                (1, "fermata"),
+                (1, "long"),
+            ],
+        ),
+        "B": (
+            "B",
+            0,
+            [
+                4,
+                1,
+                2,
+                4,
+                (1, (5, 12)),
+                (1, (5, 12)),
+                (1, (5, 12)),
+                2,
+                2,
+                1,
+                2,
+                (2, "fermata"),
+                (2, "fermata"),
+                (2, "fermata"),
+                (2, "fermata"),
+                (2, "fermata"),
+                (2, "fermata"),
+                2,
+                6,
+                2,
+                1,
+                1,
+                (1, "fermata"),
+                (1, "fermata"),
+            ],
+        ),
+        "C": (
+            "A",
+            0,
+            [
+                (4, "fermata"),
+                (4, "fermata"),
+                4,
+                4,
+                4,
+                4,
+                (1, (5, 12)),
+                4,
+                4,  # 8-9
+                4,
+                4,  # 10-11
+                4,
+                4,  # 12-13
+                4,
+                2,
+                2,
+                2,
+                (2, "fermata"),  # 18
+                (6, "fermata"),  # 19
+            ],
+        ),
+        "D": (
+            "C",
+            -18,
+            [
+                6,
+                6,
+                6,
+                6,
+                6,  # D1-5
+                (6, "fermata"),  # D6
+                (6, "fermata"),  # D7
+                (1, "long"),
+                (4, "long"),
+                (1, "long"),
+                (6, "long"),
+                2,  # D12
+                4,  # D13
+                4,  # D14
+                4,  # D15
+                4,  # D16
+                2,  # D17
+                2,  # D18
+                2,
+                2,
+                2,
+                (2, "short"),  # D22
+            ],
+        ),
+        "E": (
+            "B",
+            -8,
+            [
+                (2, "short"),
+                6,
+                8,
+                4,
+                4,
+                4,
+                4,
+                (4, "fermata"),
+                8,
+                8,
+                (2, "short"),
+                (4, "fermata"),
+                (4, "fermata"),
+                4,
+                2,
+                2,
+                8,
+            ],
+        ),
+        "F": ("A", -14, [8, (2, "long")]),
+        "G": (
+            "C",
+            -36,
+            [
+                (1, "fermata"),
+                (1, "fermata"),
+                (1, "fermata"),
+                (1, "fermata"),
+                (2, "long"),
+                (2, "long"),
+            ],
+        ),
+        "H": (
+            "B",
+            -16,
+            [
+                4,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                6,
+                (6, "short"),
+                (2, "short"),
+                (3, "short"),
+                (4, "short"),
+                4,
+                2,
+            ],
+        ),
+        "I": ("A", -28, [2, 1, 1, 1, 2, 2, 2]),
+        "J": ("C", -54, [4, 2, 2, 1, 2, 4]),
+        "K": ("B", -24, [3, 3, 3, 3, 3, 3, 8, 6, 8, (8, "short")]),
+        "L": ("A", -42, [16]),
+        "M": ("C", -72, [8, 4, 4, 4, 4, 4, 4]),
+        "N": ("B", -32, [6, 2, 2, 4, 6, (12, "very_long"), (2, "very_long")]),
+        "O": ("A", -56, [(6, "very_long")]),
+        "P": ("C", -90, [4, 6, 4, 6, 6]),
+        "Q": (
+            "B",
+            -40,
+            [8, 12, 6, 10, 5, 8, 4, 6, 3, 4, 2, (2, "fermata"), 20],
+        ),
+        "R": ("A", -70, [4, 4, 4, (4, "fermata")]),
+        "S": (
+            "A",
+            -86,
+            # [4, 1, 4, 2, 4, 3, 4, 4,
+            # (8, 'long'),
+            [
+                (1, "long"),
+                (2, "long"),
+                (3, "long"),
+                (6, "long"),
+                (3, "very_long"),
+            ],
+        ),
+    }
+)
+
 
 def first_order_stages(segment):
     """
@@ -3328,7 +3378,7 @@ def first_order_stages(segment):
     series = stirrings_still.time_signature_series[series]
     series = baca.sequence(series).rotate(rotation)
     series = abjad.CyclicTuple(series)
-    fermatas = ('very_short', 'short', 'fermata', 'long', 'very_long')
+    fermatas = ("very_short", "short", "fermata", "long", "very_long")
     time_signatures, fermata_measures = [], []
     specifiers = abjad.OrderedDict()
     time_signature_index, measure_number, stage_number = 0, 1, 1
@@ -3357,13 +3407,13 @@ def first_order_stages(segment):
                 assert isinstance(item_, int), repr(item_)
                 assert 0 < item_, repr(item_)
                 # E begins with [E.0]
-                if segment == 'E':
+                if segment == "E":
                     stage_number = i
                 else:
                     stage_number = i + 1
                 specifier = stirrings_still.StageSpecifier(
-                    stage_number=stage_number,
-                    )
+                    stage_number=stage_number
+                )
                 specifiers[stage_number] = specifier
                 start = measure_number
                 time_signatures_ = []

@@ -9,14 +9,14 @@ class StageSpecifier(object):
     ### CLASS VARIABLES ###
 
     __slots__ = (
-        'after',
-        'measure_numbers',
-        'operation',
-        'postsuffix',
-        'stage_number',
-        'suffix',
-        'time_signatures',
-        )
+        "after",
+        "measure_numbers",
+        "operation",
+        "postsuffix",
+        "stage_number",
+        "suffix",
+        "time_signatures",
+    )
 
     _publish_storage_format = True
 
@@ -31,7 +31,7 @@ class StageSpecifier(object):
         suffix=None,
         postsuffix=None,
         operation=None,
-        ):
+    ):
         self.stage_number = stage_number
         self.measure_numbers = measure_numbers
         self.time_signatures = time_signatures
@@ -42,7 +42,7 @@ class StageSpecifier(object):
 
     ### SPECIAL METHODS ###
 
-    def __format__(self, format_specification=''):
+    def __format__(self, format_specification=""):
         """
         Formats object.
         """

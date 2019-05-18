@@ -3,11 +3,7 @@ import baca
 import stirrings_still
 
 
-def loure_tuplets(
-    extra_count,
-    *,
-    measures=None,
-    ):
+def loure_tuplets(extra_count, *, measures=None):
     """
     Makes louré tuplets.
     """
@@ -15,4 +11,4 @@ def loure_tuplets(
         baca.espressivo(selector=baca.pheads()),
         stirrings_still.desynchronization(8, [extra_count]),
         measures=measures,
-        )
+    )

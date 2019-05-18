@@ -3,13 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def pickets(
-    fuse,
-    extra_count,
-    *,
-    dmask=None,
-    measures=None,
-    ):
+def pickets(fuse, extra_count, *, dmask=None, measures=None):
     """
     Makes picket polyrhythm.
     """
@@ -17,9 +11,8 @@ def pickets(
     assert isinstance(fuse, int)
     durations = [(fuse, 4)]
     division_expression = baca.split_by_durations(
-        durations=durations,
-        remainder=abjad.Left,
-        )
+        durations=durations, remainder=abjad.Left
+    )
 
     if isinstance(extra_count, int):
         counts = 4 + extra_count
@@ -27,16 +20,14 @@ def pickets(
     else:
         assert isinstance(extra_count, list)
         tuplet_ratio = extra_count
-    
+
     return baca.rhythm(
         division_expression=division_expression,
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
-            tag='stirrings_still_pickets',
+            tag="stirrings_still_pickets",
             tuplet_ratios=[tuplet_ratio],
-            tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True,
-                ),
-            ),
-        )
+            tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
+        ),
+    )

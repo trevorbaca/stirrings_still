@@ -9,7 +9,7 @@ def multistage_leaf_glissando(
     measures=None,
     selector=baca.pleaves(),
     rleak_final_stage=None,
-    ):
+):
     """
     Makes multistage leaf glissando.
     """
@@ -18,13 +18,9 @@ def multistage_leaf_glissando(
 
     commands = []
     if rleak_final_stage:
-        command = baca.untie_to(
-            selector=selector.rleak(),
-            )
+        command = baca.untie_to(selector=selector.rleak())
     else:
-        command = baca.untie_to(
-            selector=selector,
-            )
+        command = baca.untie_to(selector=selector)
     commands.append(command)
 
     start = 0
@@ -40,13 +36,11 @@ def multistage_leaf_glissando(
                 allow_repeats=True,
                 hide_middle_note_heads=True,
                 selector=selector[start:stop],
-                ),
+            ),
             baca.interpolate_staff_positions(
-                start_pitch,
-                stop_pitch,
-                selector=selector[start:stop],
-                ),
-            )
+                start_pitch, stop_pitch, selector=selector[start:stop]
+            ),
+        )
         commands.append(command)
         start = stop - 1
 
@@ -64,16 +58,12 @@ def multistage_leaf_glissando(
     selector = selector[start:stop]
     command = baca.chunk(
         baca.glissando(
-            allow_repeats=True,
-            hide_middle_note_heads=True,
-            selector=selector,
-            ),
+            allow_repeats=True, hide_middle_note_heads=True, selector=selector
+        ),
         baca.interpolate_staff_positions(
-            start_pitch,
-            final_pitch,
-            selector=selector,
-            ),
-        )
+            start_pitch, final_pitch, selector=selector
+        ),
+    )
     commands.append(command)
     if measures is not None:
         commands = [abjad.new(_, measures=measures) for _ in commands]

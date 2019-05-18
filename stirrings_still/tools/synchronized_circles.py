@@ -4,13 +4,8 @@ from abjadext import rmakers
 
 
 def synchronized_circles(
-    *,
-    gaps=True,
-    measures=None,
-    rests=None,
-    rotation=0,
-    sustain=None,
-    ):
+    *, gaps=True, measures=None, rests=None, rotation=0, sustain=None
+):
     """
     Makes rhythm for synchronized circles.
     """
@@ -35,10 +30,7 @@ def synchronized_circles(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=division_masks,
             logical_tie_masks=logical_tie_masks,
-            tag='stirrings_still_synchronized_circles',
-            talea=rmakers.Talea(
-                counts=counts,
-                denominator=8,
-                ),
-            ),
-        )
+            tag="stirrings_still_synchronized_circles",
+            talea=rmakers.Talea(counts=counts, denominator=8),
+        ),
+    )

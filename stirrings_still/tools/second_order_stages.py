@@ -3779,9 +3779,7 @@ def second_order_stages(segment):
         if operation.target_stage.letter != segment:
             continue
         source_segment = operation.source_stage.letter
-        source_stages = stirrings_still.first_order_stages(
-            source_segment
-            )
+        source_stages = stirrings_still.first_order_stages(source_segment)
         source_stage = source_stages[operation.source_stage.number]
         target_stage = target_stages[operation.target_stage.number]
         new_specifier = operation(source_stage, target_stage)
