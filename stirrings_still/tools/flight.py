@@ -3,19 +3,13 @@ import baca
 from abjadext import rmakers
 
 
-def flight(
-    counts,
-    rotation,
-    *,
-    measures=None,
-    start=None,
-    ):
+def flight(counts, rotation, *, measures=None, start=None):
     """
     Makes flight.
     """
 
     if start is not None and start < 0:
-        raise Exception('set start to nonnegative integer (not {start}).')
+        raise Exception("set start to nonnegative integer (not {start}).")
 
     """
     1,-5    -6      -6
@@ -27,38 +21,84 @@ def flight(
     """
     counts_a = [
         8 + 4 + 4,
-        1, 17,
-        1, 5, 2, 10,
-        2, 4, 3, 4, 2, 4,
-        3, 3, 4, 2, 3, 3,
-        4, 2, 10, 2,
+        1,
+        17,
+        1,
+        5,
+        2,
+        10,
+        2,
+        4,
+        3,
+        4,
+        2,
+        4,
+        3,
+        3,
+        4,
+        2,
+        3,
+        3,
+        4,
+        2,
+        10,
+        2,
         99,
-        ]
+    ]
 
     counts_b = [
         8 + 4,
-        1, 16,
-        1, 5, 2, 9,
-        2, 4, 3, 4, 2, 3,
-        3, 3, 4, 2, 3, 2,
-        4, 2, 10, 1,
+        1,
+        16,
+        1,
+        5,
+        2,
+        9,
+        2,
+        4,
+        3,
+        4,
+        2,
+        3,
+        3,
+        3,
+        4,
+        2,
+        3,
+        2,
+        4,
+        2,
+        10,
+        1,
         99,
-        ]
+    ]
 
     counts_c = [
         8,
-        1, 15,
-        1, 5, 2, 8,
-        2, 4, 3, 4, 2, 2,
-        3, 3, 4, 2, 3, 1,
-        4, 2, 99,
-        ]
+        1,
+        15,
+        1,
+        5,
+        2,
+        8,
+        2,
+        4,
+        3,
+        4,
+        2,
+        2,
+        3,
+        3,
+        4,
+        2,
+        3,
+        1,
+        4,
+        2,
+        99,
+    ]
 
-    counts_ = {
-        'A': counts_a,
-        'B': counts_b,
-        'C': counts_c,
-        }[counts]
+    counts_ = {"A": counts_a, "B": counts_b, "C": counts_c}[counts]
 
     counts_ = baca.sequence(counts_)
     counts_ = counts_[start:]
@@ -67,14 +107,9 @@ def flight(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts,
-            tag='stirrings_still_flight',
-            talea=rmakers.Talea(
-                counts=counts_,
-                denominator=8,
-                ),
-            tie_specifier=rmakers.TieSpecifier(
-                repeat_ties=(1, 4),
-                ),
+            tag="stirrings_still_flight",
+            talea=rmakers.Talea(counts=counts_, denominator=8),
+            tie_specifier=rmakers.TieSpecifier(repeat_ties=(1, 4)),
             tuplet_specifier=rmakers.TupletSpecifier(
                 diminution=True,
                 denominator=(1, 8),
@@ -83,6 +118,6 @@ def flight(
                 rewrite_dots=True,
                 rewrite_sustained=True,
                 trivialize=True,
-                ),
             ),
-        )
+        ),
+    )

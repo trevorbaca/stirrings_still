@@ -8,35 +8,26 @@ class StageToken(object):
 
     ### CLASS VARIABLES ###
 
-    __slots__ = (
-        '_description',
-        '_length',
-        '_letter',
-        '_number',
-        )
+    __slots__ = ("_description", "_length", "_letter", "_number")
 
     _descriptions = (
-        'clearing',
-        'conclusion',
-        'current',
-        'development',
-        'inception',
-        'isolatum',
-        'iteratum',
-        'pause',
-        'process',
-        'transformatum',
-        )
+        "clearing",
+        "conclusion",
+        "current",
+        "development",
+        "inception",
+        "isolatum",
+        "iteratum",
+        "pause",
+        "process",
+        "transformatum",
+    )
 
     ### INITIALIZER ###
 
     def __init__(
-        self,
-        letter=None,
-        number=None,
-        description=None,
-        length=None,
-        ):
+        self, letter=None, number=None, description=None, length=None
+    ):
         if description is not None:
             assert description in self._descriptions, repr(description)
         self._description = description
@@ -52,7 +43,7 @@ class StageToken(object):
 
     ### SPECIAL METHODS ###
 
-    def __format__(self, format_specification=''):
+    def __format__(self, format_specification=""):
         """
         Formats object.
         """
