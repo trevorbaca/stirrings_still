@@ -26,10 +26,12 @@ def declamation(*, measures=None, protract=None):
     )
 
     if protract is True:
-        division_maker = baca.DivisionMaker()
-        division_maker = division_maker.split_by_durations(durations=[(1, 4)])
+        expression = baca.DivisionSequenceExpression()
+        expression = expression.division_sequence()
+        expression = expression.split_by_durations(durations=[(1, 4)])
+        expression = expression.flatten(depth=-1)
         return baca.rhythm(
-            division_maker=division_maker,
+            division_expression=expression,
             measures=measures,
             rhythm_maker=(
                 (tuplet_rhythm_maker, abjad.index([0])),
@@ -37,11 +39,13 @@ def declamation(*, measures=None, protract=None):
             ),
         )
     else:
-        division_maker = baca.DivisionMaker()
-        division_maker = division_maker.fuse_by_counts(counts=abjad.Infinity)
-        division_maker = division_maker.split_by_durations(durations=[(1, 4)])
+        expression = baca.DivisionSequenceExpression()
+        expression = expression.division_sequence()
+        expression = expression.join()
+        expression = expression.split_by_durations(durations=[(1, 4)])
+        expression = expression.flatten(depth=-1)
         return baca.rhythm(
-            division_maker=division_maker,
+            division_expression=expression,
             measures=measures,
             rhythm_maker=tuplet_rhythm_maker,
         )
