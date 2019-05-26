@@ -11,7 +11,7 @@ def pickets(fuse, extra_count, *, dmask=None, measures=None):
     assert isinstance(fuse, int)
     durations = [(fuse, 4)]
     division_expression = baca.split_by_durations(
-        durations=durations, remainder=abjad.Left
+        durations, remainder=abjad.Left
     )
 
     if isinstance(extra_count, int):

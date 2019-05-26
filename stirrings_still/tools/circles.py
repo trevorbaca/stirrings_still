@@ -9,13 +9,12 @@ def circles(duration, *, dmask=None, measures=None, remainder=abjad.Right):
     """
     duration = abjad.Duration(duration)
     division_expression = baca.split_by_durations(
-        durations=[duration], remainder=remainder
+        [duration], remainder=remainder
     )
     return baca.rhythm(
         division_expression=division_expression,
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            ###beam_specifier=beam_specifier,
             division_masks=dmask,
             tag="stirrings_still_circles",
         ),
