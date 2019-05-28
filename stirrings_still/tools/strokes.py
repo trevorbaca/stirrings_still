@@ -8,7 +8,7 @@ def strokes(rotation, *, dmask=None, ltmask=None, measures=None):
     Makes strokes.
     """
     return baca.rhythm(
-        division_expression=baca.division_sequence().rotate(n=rotation),
+        divisions=baca.division_sequence().rotate(n=rotation),
         measures=measures,
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
