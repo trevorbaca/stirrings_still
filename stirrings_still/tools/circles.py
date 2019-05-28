@@ -8,7 +8,9 @@ def circles(duration, *, dmask=None, measures=None, remainder=abjad.Right):
     Makes circle rhythm with ``duration``.
     """
     duration = abjad.Duration(duration)
-    divisions = baca.split_by_durations([duration], remainder=remainder)
+    divisions = baca.split_expanse(
+        [duration], cyclic=True, remainder=remainder
+    )
     return baca.rhythm(
         divisions=divisions,
         measures=measures,
