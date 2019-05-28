@@ -10,17 +10,17 @@ def clockticks(*, displace=False, dmask=None, encroach=False, measures=None):
     tag = "stirrings_still_clockticks"
 
     if displace:
-        division_expression = None
+        divisions = None
         counts = [1, -1]
     elif encroach:
-        division_expression = baca.split_by_durations([(1, 4)])
+        divisions = baca.split_by_durations([(1, 4)])
         counts = [2, -1]
     else:
-        division_expression = baca.split_by_durations([(1, 4)])
+        divisions = baca.split_by_durations([(1, 4)])
         counts = [1, -2]
 
     return baca.rhythm(
-        division_expression=division_expression,
+        divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=dmask,

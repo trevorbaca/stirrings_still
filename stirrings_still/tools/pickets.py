@@ -10,9 +10,7 @@ def pickets(fuse, extra_count, *, dmask=None, measures=None):
 
     assert isinstance(fuse, int)
     durations = [(fuse, 4)]
-    division_expression = baca.split_by_durations(
-        durations, remainder=abjad.Left
-    )
+    divisions = baca.split_by_durations(durations, remainder=abjad.Left)
 
     if isinstance(extra_count, int):
         counts = 4 + extra_count
@@ -22,7 +20,7 @@ def pickets(fuse, extra_count, *, dmask=None, measures=None):
         tuplet_ratio = extra_count
 
     return baca.rhythm(
-        division_expression=division_expression,
+        divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
