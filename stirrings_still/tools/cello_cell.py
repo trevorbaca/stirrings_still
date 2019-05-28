@@ -7,7 +7,7 @@ def cello_cell():
     Makes cello cell.
     """
     return baca.rhythm(
-        divisions=baca.quarter_divisions(),
+        divisions=baca.quarter_split_each(),
         rhythm_maker=rmakers.TaleaRhythmMaker(
             talea=rmakers.Talea(counts=[3, 1, 2, 2], denominator=16)
         ),

@@ -10,7 +10,9 @@ def pickets(fuse, extra_count, *, dmask=None, measures=None):
 
     assert isinstance(fuse, int)
     durations = [(fuse, 4)]
-    divisions = baca.split_by_durations(durations, remainder=abjad.Left)
+    divisions = baca.split_expanse(
+        durations, cyclic=True, remainder=abjad.Left
+    )
 
     if isinstance(extra_count, int):
         counts = 4 + extra_count
