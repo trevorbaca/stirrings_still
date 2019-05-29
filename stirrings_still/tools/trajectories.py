@@ -31,7 +31,7 @@ def trajectories(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=dmask,
             extra_counts_per_division=extra_counts,
-            tag="stirrings_still_trajectories",
+            tag="stirrings_still.trajectories",
             talea=talea,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True, force_fraction=True

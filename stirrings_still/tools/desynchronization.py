@@ -29,7 +29,7 @@ def desynchronization(denominator, extra_counts, *, measures=None, rests=None):
             denominators=denominators,
             extra_counts_per_division=extra_counts,
             logical_tie_masks=logical_tie_masks,
-            tag="stirrings_still_desynchronization",
+            tag="stirrings_still.desynchronization",
             tuplet_specifier=rmakers.TupletSpecifier(
                 denominator=(1, denominator),
                 # denominator='divisions',

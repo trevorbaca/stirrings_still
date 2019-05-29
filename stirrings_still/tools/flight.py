@@ -107,7 +107,7 @@ def flight(counts, rotation, *, measures=None, start=None):
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts,
-            tag="stirrings_still_flight",
+            tag="stirrings_still.flight",
             talea=rmakers.Talea(counts=counts_, denominator=8),
             tie_specifier=rmakers.TieSpecifier(repeat_ties=(1, 4)),
             tuplet_specifier=rmakers.TupletSpecifier(

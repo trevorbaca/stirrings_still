@@ -30,7 +30,7 @@ def synchronized_circles(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=division_masks,
             logical_tie_masks=logical_tie_masks,
-            tag="stirrings_still_synchronized_circles",
+            tag="stirrings_still.synchronized_circles",
             talea=rmakers.Talea(counts=counts, denominator=8),
         ),
     )

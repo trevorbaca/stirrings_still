@@ -14,7 +14,7 @@ def running_quarter_divisions(count, *, measures=None):
         divisions=baca.split_expanse([(1, 4)], cyclic=True),
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            tag="stirrings_still_running_quarter_divisions",
+            tag="stirrings_still.running_quarter_divisions",
             tuplet_ratios=[ratio],
             tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
         ),

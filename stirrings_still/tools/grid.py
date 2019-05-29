@@ -13,7 +13,7 @@ def grid(stage, rotation, *, measures=None):
         return baca.rhythm(
             measures=measures,
             rhythm_maker=rmakers.TaleaRhythmMaker(
-                tag="stirrings_still_grid",
+                tag="stirrings_still.grid",
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
         )

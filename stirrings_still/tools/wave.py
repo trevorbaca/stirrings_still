@@ -26,7 +26,7 @@ def wave(start, stop, *, measures=None):
                     written_duration=(1, 16),
                 ),
             ],
-            tag="stirrings_still_wave",
+            tag="stirrings_still.wave",
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
         ),
     )
