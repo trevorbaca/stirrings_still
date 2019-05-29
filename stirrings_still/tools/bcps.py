@@ -40,6 +40,6 @@ def bcps(
             abjad.tweak(staff_padding + 2.5).staff_padding,
         ),
         selector=selector,
-        tag="stirrings_still_bcps",
+        tag="stirrings_still.bcps",
     )
     return baca.new(command, measures=measures)

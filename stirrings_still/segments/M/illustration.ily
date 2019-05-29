@@ -654,7 +654,7 @@ M_Violin_I_Music_Voice = {                                                     %
     \revert Stem.transparent                                                   %! baca_glissando
     d'''1                                                                      %! baca_make_repeat_tied_notes
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         % [M Violin_I_Music_Voice measure 634 / measure 9]                     %! _comment_measure_numbers
         <ds'! a'>4
@@ -695,9 +695,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         % [M Violin_I_Music_Voice measure 635 / measure 10]                    %! _comment_measure_numbers
         <ds'! a'>4
@@ -713,9 +713,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         <ds'! a'>4
 
@@ -733,7 +733,7 @@ M_Violin_I_Music_Voice = {                                                     %
         \undo \hide NoteHead                                                   %! baca_glissando
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
     % [M Violin_I_Music_Voice measure 638 / measure 13]                        %! _comment_measure_numbers
     d'''1                                                                      %! baca_make_repeat_tied_notes
@@ -774,9 +774,9 @@ M_Violin_I_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    d'''4.                                                                     %! stirrings_still_pickets
+    d'''4.                                                                     %! stirrings_still.pickets
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         <ds'! a'>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -816,9 +816,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         % [M Violin_I_Music_Voice measure 644 / measure 19]                    %! _comment_measure_numbers
         <ds'! a'>4
@@ -833,9 +833,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         % [M Violin_I_Music_Voice measure 645 / measure 20]                    %! _comment_measure_numbers
         <ds'! a'>4
@@ -854,7 +854,7 @@ M_Violin_I_Music_Voice = {                                                     %
         \undo \hide NoteHead                                                   %! baca_glissando
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
     % [M Violin_I_Music_Voice measure 646 / measure 21]                        %! _comment_measure_numbers
     d'''2..                                                                    %! baca_make_repeat_tied_notes
@@ -897,9 +897,9 @@ M_Violin_I_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    d'''2.                                                                     %! stirrings_still_pickets
+    d'''2.                                                                     %! stirrings_still.pickets
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         % [M Violin_I_Music_Voice measure 651 / measure 26]                    %! _comment_measure_numbers
         <ds'! a'>4
@@ -941,9 +941,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         <ds'! a'>4
 
@@ -961,7 +961,7 @@ M_Violin_I_Music_Voice = {                                                     %
         \undo \hide NoteHead                                                   %! baca_glissando
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
     % [M Violin_I_Music_Voice measure 654 / measure 29]                        %! _comment_measure_numbers
     d'''2                                                                      %! baca_make_repeat_tied_notes
@@ -1121,7 +1121,7 @@ M_Violin_II_Music_Voice = {                                                    %
     \revert Stem.transparent                                                   %! baca_glissando
     fqs''!1                                                                    %! baca_make_repeat_tied_notes
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         % [M Violin_II_Music_Voice measure 634 / measure 9]                    %! _comment_measure_numbers
         <dqs'! gtqs'!>4
@@ -1160,9 +1160,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         % [M Violin_II_Music_Voice measure 635 / measure 10]                   %! _comment_measure_numbers
         <dqs'! gtqs'!>4
@@ -1175,9 +1175,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         <dqs'! gtqs'!>4
 
@@ -1193,7 +1193,7 @@ M_Violin_II_Music_Voice = {                                                    %
         \undo \hide NoteHead                                                   %! baca_glissando
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
     % [M Violin_II_Music_Voice measure 638 / measure 13]                       %! _comment_measure_numbers
     fqs''!1                                                                    %! baca_make_repeat_tied_notes
@@ -1234,9 +1234,9 @@ M_Violin_II_Music_Voice = {                                                    %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    fqs''!4.                                                                   %! stirrings_still_pickets
+    fqs''!4.                                                                   %! stirrings_still.pickets
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         <dqs'! gtqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1274,9 +1274,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         % [M Violin_II_Music_Voice measure 644 / measure 19]                   %! _comment_measure_numbers
         <dqs'! gtqs'!>4
@@ -1289,9 +1289,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         % [M Violin_II_Music_Voice measure 645 / measure 20]                   %! _comment_measure_numbers
         <dqs'! gtqs'!>4
@@ -1308,7 +1308,7 @@ M_Violin_II_Music_Voice = {                                                    %
         \undo \hide NoteHead                                                   %! baca_glissando
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
     % [M Violin_II_Music_Voice measure 646 / measure 21]                       %! _comment_measure_numbers
     fqs''!2..                                                                  %! baca_make_repeat_tied_notes
@@ -1351,9 +1351,9 @@ M_Violin_II_Music_Voice = {                                                    %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    fqs''!2.                                                                   %! stirrings_still_pickets
+    fqs''!2.                                                                   %! stirrings_still.pickets
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         % [M Violin_II_Music_Voice measure 651 / measure 26]                   %! _comment_measure_numbers
         <dqs'! gtqs'!>4
@@ -1392,9 +1392,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         <dqs'! gtqs'!>4
 
@@ -1410,7 +1410,7 @@ M_Violin_II_Music_Voice = {                                                    %
         \undo \hide NoteHead                                                   %! baca_glissando
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
     % [M Violin_II_Music_Voice measure 654 / measure 29]                       %! _comment_measure_numbers
     fqs''!2                                                                    %! baca_make_repeat_tied_notes
@@ -1667,7 +1667,7 @@ M_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    aqf'!4.                                                                    %! stirrings_still_pickets
+    aqf'!4.                                                                    %! stirrings_still.pickets
 
     <d' gs'!>4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1766,7 +1766,7 @@ M_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    aqf'!2.                                                                    %! stirrings_still_pickets
+    aqf'!2.                                                                    %! stirrings_still.pickets
 
     % [M Viola_Music_Voice measure 651 / measure 26]                           %! _comment_measure_numbers
     <d' gs'!>4
@@ -1916,7 +1916,7 @@ M_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    c,2                                                                        %! stirrings_still_clouded_pane
+    c,2                                                                        %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1938,51 +1938,51 @@ M_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     \override Dots.transparent = ##t                                           %! baca_glissando
     \override Stem.transparent = ##t                                           %! baca_glissando
-    c,8                                                                        %! stirrings_still_clouded_pane
+    c,8                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 627 / measure 2]                            %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 628 / measure 3]                            %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 629 / measure 4]                            %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 630 / measure 5]                            %! _comment_measure_numbers
-    c,2                                                                        %! stirrings_still_clouded_pane
+    c,2                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 631 / measure 6]                            %! _comment_measure_numbers
-    c,2..                                                                      %! stirrings_still_clouded_pane
+    c,2..                                                                      %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 632 / measure 7]                            %! _comment_measure_numbers
-    c,2..                                                                      %! stirrings_still_clouded_pane
+    c,2..                                                                      %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 633 / measure 8]                            %! _comment_measure_numbers
-    c,1                                                                        %! stirrings_still_clouded_pane
+    c,1                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 634 / measure 9]                            %! _comment_measure_numbers
-    c,1                                                                        %! stirrings_still_clouded_pane
+    c,1                                                                        %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 635 / measure 10]                           %! _comment_measure_numbers
-    c,2                                                                        %! stirrings_still_clouded_pane
+    c,2                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 636 / measure 11]                           %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 637 / measure 12]                           %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 638 / measure 13]                           %! _comment_measure_numbers
-    c,1                                                                        %! stirrings_still_clouded_pane
+    c,1                                                                        %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1990,38 +1990,38 @@ M_Cello_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 639 / measure 14]                           %! _comment_measure_numbers
-    c,2..                                                                      %! stirrings_still_clouded_pane
+    c,2..                                                                      %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 640 / measure 15]                           %! _comment_measure_numbers
-    c,2..                                                                      %! stirrings_still_clouded_pane
+    c,2..                                                                      %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 641 / measure 16]                           %! _comment_measure_numbers
-    c,1                                                                        %! stirrings_still_clouded_pane
+    c,1                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 642 / measure 17]                           %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 643 / measure 18]                           %! _comment_measure_numbers
-    c,2                                                                        %! stirrings_still_clouded_pane
+    c,2                                                                        %! stirrings_still.clouded_pane
 
-    c,8                                                                        %! stirrings_still_clouded_pane
+    c,8                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 644 / measure 19]                           %! _comment_measure_numbers
-    c,1                                                                        %! stirrings_still_clouded_pane
+    c,1                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 645 / measure 20]                           %! _comment_measure_numbers
-    c,1                                                                        %! stirrings_still_clouded_pane
+    c,1                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 646 / measure 21]                           %! _comment_measure_numbers
-    c,2..                                                                      %! stirrings_still_clouded_pane
+    c,2..                                                                      %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2029,35 +2029,35 @@ M_Cello_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 647 / measure 22]                           %! _comment_measure_numbers
-    c,2..                                                                      %! stirrings_still_clouded_pane
+    c,2..                                                                      %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 648 / measure 23]                           %! _comment_measure_numbers
-    c,2                                                                        %! stirrings_still_clouded_pane
+    c,2                                                                        %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    c,8                                                                        %! stirrings_still_clouded_pane
+    c,8                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 649 / measure 24]                           %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 650 / measure 25]                           %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 651 / measure 26]                           %! _comment_measure_numbers
-    c,2                                                                        %! stirrings_still_clouded_pane
+    c,2                                                                        %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 652 / measure 27]                           %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 653 / measure 28]                           %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 654 / measure 29]                           %! _comment_measure_numbers
     \once \override Hairpin.to-barline = ##t                                   %! baca_hairpin_to_barline:OverrideCommand(1)
@@ -2067,7 +2067,7 @@ M_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    c,2                                                                        %! stirrings_still_clouded_pane
+    c,2                                                                        %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca_glissando
@@ -2078,13 +2078,13 @@ M_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     \override Dots.transparent = ##t                                           %! baca_glissando
     \override Stem.transparent = ##t                                           %! baca_glissando
-    c,8                                                                        %! stirrings_still_clouded_pane
+    c,8                                                                        %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 655 / measure 30]                           %! _comment_measure_numbers
-    c,2.                                                                       %! stirrings_still_clouded_pane
+    c,2.                                                                       %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 656 / measure 31]                           %! _comment_measure_numbers
-    b,,2.                                                                      %! stirrings_still_clouded_pane
+    b,,2.                                                                      %! stirrings_still.clouded_pane
 
     % [M Cello_Music_Voice measure 657 / measure 32]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -2093,7 +2093,7 @@ M_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    bf,,!2                                                                     %! stirrings_still_clouded_pane
+    bf,,!2                                                                     %! stirrings_still.clouded_pane
     \bacaStopTextSpanCloudedPane                                               %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 %@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS

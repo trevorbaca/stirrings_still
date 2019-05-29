@@ -1343,7 +1343,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto (T)"                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -1372,9 +1372,9 @@ A_Violin_I_Music_Voice = {                                                     %
     <e' c''>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>8.
@@ -1382,7 +1382,7 @@ A_Violin_I_Music_Voice = {                                                     %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
 
     \once \override Script.padding = #1                                        %! baca_script_padding:OverrideCommand(1)
@@ -1402,7 +1402,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]                                                                          %! stirrings_still_declamation
+    ]                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1433,7 +1433,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -1453,9 +1453,9 @@ A_Violin_I_Music_Voice = {                                                     %
     <e' c''>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>4.
@@ -1512,7 +1512,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -1532,12 +1532,12 @@ A_Violin_I_Music_Voice = {                                                     %
     <e' c''>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 11/8 {                                                              %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 11/8 {                                                              %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <e' cqs''!>2.
@@ -1565,7 +1565,7 @@ A_Violin_I_Music_Voice = {                                                     %
         \baca-mf-poco-scratch                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1596,7 +1596,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -1616,12 +1616,12 @@ A_Violin_I_Music_Voice = {                                                     %
     <e' c''>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 13/8 {                                                              %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 13/8 {                                                              %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <e' cqs''!>2.
@@ -1649,7 +1649,7 @@ A_Violin_I_Music_Voice = {                                                     %
         \baca-f-poco-scratch                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1689,7 +1689,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -1709,9 +1709,9 @@ A_Violin_I_Music_Voice = {                                                     %
     <e' c''>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>2.
@@ -1805,7 +1805,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -1831,12 +1831,12 @@ A_Violin_I_Music_Voice = {                                                     %
     <cs'! a'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 6/8 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 6/8 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <cs'! aqs'!>2.
@@ -1862,10 +1862,10 @@ A_Violin_I_Music_Voice = {                                                     %
         <cs'! aqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1905,7 +1905,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -1925,9 +1925,9 @@ A_Violin_I_Music_Voice = {                                                     %
     <cs'! a'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! aqs'!>4.
@@ -1953,8 +1953,8 @@ A_Violin_I_Music_Voice = {                                                     %
     <cs'! aqs'!>8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1985,7 +1985,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -2005,12 +2005,12 @@ A_Violin_I_Music_Voice = {                                                     %
     <cs'! a'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 3/4 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 3/4 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <cs'! aqs'!>4.
@@ -2036,16 +2036,16 @@ A_Violin_I_Music_Voice = {                                                     %
         <cs'! aqs'!>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 23]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2067,17 +2067,17 @@ A_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2118,7 +2118,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -2144,9 +2144,9 @@ A_Violin_I_Music_Voice = {                                                     %
     <cs'! a'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! aqs'!>8.
@@ -2155,7 +2155,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
 
     \hide NoteHead                                                             %! baca_glissando
@@ -2173,15 +2173,15 @@ A_Violin_I_Music_Voice = {                                                     %
     <cs'! aqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 26]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2203,17 +2203,17 @@ A_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Violin_I_Music_Voice measure 27]                                      %! _comment_measure_numbers
     <f' a'>8
@@ -2224,7 +2224,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     ^ \markup { "(12ET: conflicts with viola)" }                               %! baca_markup:IndicatorCommand
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
-    [                                                                          %! stirrings_still_desynchronization
+    [                                                                          %! stirrings_still.desynchronization
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -2255,7 +2255,7 @@ A_Violin_I_Music_Voice = {                                                     %
 
     <f' a'>8
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
-    ]                                                                          %! stirrings_still_desynchronization
+    ]                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2296,7 +2296,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -2322,12 +2322,12 @@ A_Violin_I_Music_Voice = {                                                     %
     <cs'! a'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 3/4 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 3/4 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <cs'! aqs'!>4.
@@ -2353,16 +2353,16 @@ A_Violin_I_Music_Voice = {                                                     %
         <cs'! aqs'!>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 30]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
@@ -2379,160 +2379,160 @@ A_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 31]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 32]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 2/3 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 2/3 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 33]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 34]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 35]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 36]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 37]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 2/3 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 2/3 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 38]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 39]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 40]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 41]                                  %! _comment_measure_numbers
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-ppp-parenthesized                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2540,84 +2540,84 @@ A_Violin_I_Music_Voice = {                                                     %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 42]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 43]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 44]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 45]                                  %! _comment_measure_numbers
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        b'4                                                                    %! stirrings_still_desynchronization
+        b'4                                                                    %! stirrings_still.desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 46]                                  %! _comment_measure_numbers
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2644,71 +2644,71 @@ A_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 5/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 5/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 47]                                  %! _comment_measure_numbers
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 48]                                  %! _comment_measure_numbers
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 49]                                  %! _comment_measure_numbers
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 50]                                  %! _comment_measure_numbers
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2734,11 +2734,11 @@ A_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 52]                                  %! _comment_measure_numbers
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2764,19 +2764,19 @@ A_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2802,11 +2802,11 @@ A_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 54]                                  %! _comment_measure_numbers
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2832,19 +2832,19 @@ A_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Violin_I_Music_Voice measure 55]                                      %! _comment_measure_numbers
     gf'!1                                                                      %! baca_make_repeat_tied_notes
@@ -2923,11 +2923,11 @@ A_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 5/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 5/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_I_Music_Voice measure 58]                                  %! _comment_measure_numbers
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2953,15 +2953,15 @@ A_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        c''4                                                                   %! stirrings_still_desynchronization
+        c''4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2994,7 +2994,7 @@ A_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3020,9 +3020,9 @@ A_Violin_I_Music_Voice = {                                                     %
     <e' c''>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <e' cqs''!>4.
@@ -3082,7 +3082,7 @@ A_Violin_I_Music_Voice = {                                                     %
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    c''4                                                                       %! stirrings_still_circles
+    c''4                                                                       %! stirrings_still.circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3108,13 +3108,13 @@ A_Violin_I_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    c''4                                                                       %! stirrings_still_circles
+    c''4                                                                       %! stirrings_still.circles
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    c''4                                                                       %! stirrings_still_circles
+    c''4                                                                       %! stirrings_still.circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3211,7 +3211,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto (T)"                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -3240,9 +3240,9 @@ A_Violin_II_Music_Voice = {                                                    %
     <ef'! b'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>8.
@@ -3250,7 +3250,7 @@ A_Violin_II_Music_Voice = {                                                    %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
 
     \once \override Script.padding = #1                                        %! baca_script_padding:OverrideCommand(1)
@@ -3270,7 +3270,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]                                                                          %! stirrings_still_declamation
+    ]                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3301,7 +3301,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3321,9 +3321,9 @@ A_Violin_II_Music_Voice = {                                                    %
     <ef'! b'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>4.
@@ -3380,7 +3380,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3400,12 +3400,12 @@ A_Violin_II_Music_Voice = {                                                    %
     <ef'! b'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 11/8 {                                                              %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 11/8 {                                                              %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <eqf'! c''>2.
@@ -3433,7 +3433,7 @@ A_Violin_II_Music_Voice = {                                                    %
         \baca-mf-poco-scratch                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3464,7 +3464,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3484,12 +3484,12 @@ A_Violin_II_Music_Voice = {                                                    %
     <ef'! b'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 13/8 {                                                              %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 13/8 {                                                              %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <eqf'! c''>2.
@@ -3517,7 +3517,7 @@ A_Violin_II_Music_Voice = {                                                    %
         \baca-f-poco-scratch                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3555,7 +3555,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3575,9 +3575,9 @@ A_Violin_II_Music_Voice = {                                                    %
     <ef'! b'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>2.
@@ -3671,7 +3671,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3697,12 +3697,12 @@ A_Violin_II_Music_Voice = {                                                    %
     <c' gs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 6/8 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 6/8 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <cqs'! a'>2.
@@ -3728,10 +3728,10 @@ A_Violin_II_Music_Voice = {                                                    %
         <cqs'! a'>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3769,7 +3769,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3789,9 +3789,9 @@ A_Violin_II_Music_Voice = {                                                    %
     <c' gs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cqs'! a'>4.
@@ -3817,8 +3817,8 @@ A_Violin_II_Music_Voice = {                                                    %
     <cqs'! a'>8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3849,7 +3849,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3869,12 +3869,12 @@ A_Violin_II_Music_Voice = {                                                    %
     <c' gs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 3/4 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 3/4 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <cqs'! a'>4.
@@ -3900,13 +3900,13 @@ A_Violin_II_Music_Voice = {                                                    %
         <cqs'! a'>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     % [A Violin_II_Music_Voice measure 23]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3928,13 +3928,13 @@ A_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3973,7 +3973,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -3999,9 +3999,9 @@ A_Violin_II_Music_Voice = {                                                    %
     <c' gs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cqs'! a'>8.
@@ -4010,7 +4010,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
 
     \hide NoteHead                                                             %! baca_glissando
@@ -4028,12 +4028,12 @@ A_Violin_II_Music_Voice = {                                                    %
     <cqs'! a'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     % [A Violin_II_Music_Voice measure 26]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4055,16 +4055,16 @@ A_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 27]                                 %! _comment_measure_numbers
         <e' gs'!>8
@@ -4075,7 +4075,7 @@ A_Violin_II_Music_Voice = {                                                    %
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         ^ \markup { "(12ET: conflicts with viola)" }                           %! baca_markup:IndicatorCommand
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
-        [                                                                      %! stirrings_still_desynchronization
+        [                                                                      %! stirrings_still.desynchronization
         - \abjad-dashed-line-with-hook                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "T"                                     %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-t-markup     %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -4109,9 +4109,9 @@ A_Violin_II_Music_Voice = {                                                    %
 
         <e' gs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ]                                                                      %! stirrings_still_desynchronization
+        ]                                                                      %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4150,7 +4150,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -4176,12 +4176,12 @@ A_Violin_II_Music_Voice = {                                                    %
     <c' gs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 3/4 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 3/4 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <cqs'! a'>4.
@@ -4207,13 +4207,13 @@ A_Violin_II_Music_Voice = {                                                    %
         <cqs'! a'>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     % [A Violin_II_Music_Voice measure 30]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
@@ -4230,96 +4230,96 @@ A_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 31]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 32]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 33]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 34]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 35]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 36]                                 %! _comment_measure_numbers
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 37]                                 %! _comment_measure_numbers
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 38]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 39]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 40]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 41]                                 %! _comment_measure_numbers
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-ppp-parenthesized                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4327,56 +4327,56 @@ A_Violin_II_Music_Voice = {                                                    %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 42]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 43]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 44]                                     %! _comment_measure_numbers
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    df'!4                                                                      %! stirrings_still_desynchronization
+    df'!4                                                                      %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 45]                                 %! _comment_measure_numbers
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        df'!4                                                                  %! stirrings_still_desynchronization
+        df'!4                                                                  %! stirrings_still.desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 46]                                     %! _comment_measure_numbers
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4403,54 +4403,54 @@ A_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 5/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 5/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 47]                                 %! _comment_measure_numbers
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 48]                                     %! _comment_measure_numbers
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 49]                                 %! _comment_measure_numbers
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 50]                                 %! _comment_measure_numbers
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4477,7 +4477,7 @@ A_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 52]                                     %! _comment_measure_numbers
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4503,15 +4503,15 @@ A_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4538,7 +4538,7 @@ A_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Violin_II_Music_Voice measure 54]                                     %! _comment_measure_numbers
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4564,15 +4564,15 @@ A_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    c'4                                                                        %! stirrings_still_desynchronization
+    c'4                                                                        %! stirrings_still.desynchronization
 
     % [A Violin_II_Music_Voice measure 55]                                     %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
@@ -4651,11 +4651,11 @@ A_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 5/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 5/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Violin_II_Music_Voice measure 58]                                 %! _comment_measure_numbers
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4685,9 +4685,9 @@ A_Violin_II_Music_Voice = {                                                    %
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        c'4                                                                    %! stirrings_still_desynchronization
+        c'4                                                                    %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4720,7 +4720,7 @@ A_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -4746,9 +4746,9 @@ A_Violin_II_Music_Voice = {                                                    %
     <ef'! b'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <eqf'! c''>4.
@@ -4806,7 +4806,7 @@ A_Violin_II_Music_Voice = {                                                    %
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    c'4                                                                        %! stirrings_still_circles
+    c'4                                                                        %! stirrings_still.circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4832,13 +4832,13 @@ A_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    c'4                                                                        %! stirrings_still_circles
+    c'4                                                                        %! stirrings_still.circles
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    c'4                                                                        %! stirrings_still_circles
+    c'4                                                                        %! stirrings_still.circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4930,7 +4930,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto (T)"                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -4959,9 +4959,9 @@ A_Viola_Music_Voice = {                                                        %
     <d' gqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>8.
@@ -4969,7 +4969,7 @@ A_Viola_Music_Voice = {                                                        %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
 
     \once \override Script.padding = #1                                        %! baca_script_padding:OverrideCommand(1)
@@ -4989,7 +4989,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \baca-stop-on-string                                                     %! baca_stop_on_string:IndicatorCommand
-    ]                                                                          %! stirrings_still_declamation
+    ]                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5020,7 +5020,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5040,9 +5040,9 @@ A_Viola_Music_Voice = {                                                        %
     <d' gqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>4.
@@ -5099,7 +5099,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5119,12 +5119,12 @@ A_Viola_Music_Voice = {                                                        %
     <d' gqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 11/8 {                                                              %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 11/8 {                                                              %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <cs'! gqs'!>2.
@@ -5152,7 +5152,7 @@ A_Viola_Music_Voice = {                                                        %
         \baca-mf-poco-scratch                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5183,7 +5183,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5203,12 +5203,12 @@ A_Viola_Music_Voice = {                                                        %
     <d' gqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 13/8 {                                                              %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 13/8 {                                                              %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <cs'! gqs'!>2.
@@ -5236,7 +5236,7 @@ A_Viola_Music_Voice = {                                                        %
         \baca-f-poco-scratch                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-stop-on-string                                                 %! baca_stop_on_string:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5274,7 +5274,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5294,9 +5294,9 @@ A_Viola_Music_Voice = {                                                        %
     <d' gqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>2.
@@ -5390,7 +5390,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5416,12 +5416,12 @@ A_Viola_Music_Voice = {                                                        %
     <b eqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 6/8 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 6/8 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <as! eqs'!>2.
@@ -5447,10 +5447,10 @@ A_Viola_Music_Voice = {                                                        %
         <as! eqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5488,7 +5488,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5508,9 +5508,9 @@ A_Viola_Music_Voice = {                                                        %
     <b eqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <as! eqs'!>4.
@@ -5536,8 +5536,8 @@ A_Viola_Music_Voice = {                                                        %
     <as! eqs'!>8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5568,7 +5568,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5588,12 +5588,12 @@ A_Viola_Music_Voice = {                                                        %
     <b eqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 3/4 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 3/4 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <as! eqs'!>4.
@@ -5619,16 +5619,16 @@ A_Viola_Music_Voice = {                                                        %
         <as! eqs'!>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 23]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5650,19 +5650,19 @@ A_Viola_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5701,7 +5701,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5727,9 +5727,9 @@ A_Viola_Music_Voice = {                                                        %
     <b eqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <as! eqs'!>8.
@@ -5738,7 +5738,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     \glissando                                                                 %! baca_glissando
 
     \hide NoteHead                                                             %! baca_glissando
@@ -5756,15 +5756,15 @@ A_Viola_Music_Voice = {                                                        %
     <as! eqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 26]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5786,22 +5786,22 @@ A_Viola_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 27]                                     %! _comment_measure_numbers
         <aqf! cs'!>8
@@ -5812,7 +5812,7 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         ^ \markup { (9+7)°/B }                                                 %! baca_markup:IndicatorCommand
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
-        [                                                                      %! stirrings_still_desynchronization
+        [                                                                      %! stirrings_still.desynchronization
         - \abjad-dashed-line-with-hook                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "T"                                     %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-t-markup     %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5840,9 +5840,9 @@ A_Viola_Music_Voice = {                                                        %
 
         <aqf! cs'!>8
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ]                                                                      %! stirrings_still_desynchronization
+        ]                                                                      %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5881,7 +5881,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -5907,12 +5907,12 @@ A_Viola_Music_Voice = {                                                        %
     <b eqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
-    \times 3/4 {                                                               %! stirrings_still_declamation
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.declamation
+    \times 3/4 {                                                               %! stirrings_still.declamation
 
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         <as! eqs'!>4.
@@ -5938,16 +5938,16 @@ A_Viola_Music_Voice = {                                                        %
         <as! eqs'!>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still_breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still_breathe:IndicatorCommand
+        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
+        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_declamation
+    }                                                                          %! stirrings_still.declamation
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 30]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_tasto_spanner:PiecewiseCommand(3)
@@ -5964,164 +5964,164 @@ A_Viola_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 31]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 32]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Viola_Music_Voice measure 33]                                         %! _comment_measure_numbers
-    a4                                                                         %! stirrings_still_desynchronization
+    a4                                                                         %! stirrings_still.desynchronization
 
-    a4                                                                         %! stirrings_still_desynchronization
+    a4                                                                         %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 34]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 35]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/10 {                                                              %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/10 {                                                              %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 36]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/10 {                                                              %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/10 {                                                              %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 37]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Viola_Music_Voice measure 38]                                         %! _comment_measure_numbers
-    a4                                                                         %! stirrings_still_desynchronization
+    a4                                                                         %! stirrings_still.desynchronization
 
-    a4                                                                         %! stirrings_still_desynchronization
+    a4                                                                         %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 39]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 40]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/10 {                                                              %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/10 {                                                              %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 41]                                     %! _comment_measure_numbers
         \once \override DynamicText.self-alignment-X = #-1                     %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-ppp-parenthesized                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6129,94 +6129,94 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 42]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 43]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 44]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/10 {                                                              %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/10 {                                                              %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 45]                                     %! _comment_measure_numbers
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        a4                                                                     %! stirrings_still_desynchronization
+        a4                                                                     %! stirrings_still.desynchronization
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 46]                                     %! _comment_measure_numbers
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6243,77 +6243,77 @@ A_Viola_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 5/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 5/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 47]                                     %! _comment_measure_numbers
-        af!2                                                                   %! stirrings_still_desynchronization
+        af!2                                                                   %! stirrings_still.desynchronization
 
-        af!2                                                                   %! stirrings_still_desynchronization
+        af!2                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 48]                                     %! _comment_measure_numbers
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/10 {                                                              %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/10 {                                                              %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 49]                                     %! _comment_measure_numbers
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/10 {                                                              %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/10 {                                                              %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 50]                                     %! _comment_measure_numbers
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -6339,11 +6339,11 @@ A_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 52]                                     %! _comment_measure_numbers
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6369,21 +6369,21 @@ A_Viola_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -6409,11 +6409,11 @@ A_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/6 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 54]                                     %! _comment_measure_numbers
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6439,21 +6439,21 @@ A_Viola_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        af!4                                                                   %! stirrings_still_desynchronization
+        af!4                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Viola_Music_Voice measure 55]                                         %! _comment_measure_numbers
     af!1                                                                       %! baca_make_repeat_tied_notes
@@ -6532,11 +6532,11 @@ A_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 5/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 5/8 {                                                               %! stirrings_still.desynchronization
 
         % [A Viola_Music_Voice measure 58]                                     %! _comment_measure_numbers
-        af!2                                                                   %! stirrings_still_desynchronization
+        af!2                                                                   %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6566,9 +6566,9 @@ A_Viola_Music_Voice = {                                                        %
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        af!2                                                                   %! stirrings_still_desynchronization
+        af!2                                                                   %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -6601,7 +6601,7 @@ A_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_declamation
+    [                                                                          %! stirrings_still.declamation
     - \abjad-dashed-line-with-hook                                             %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca_tasto_spanner:PiecewiseCommand(1)
@@ -6627,9 +6627,9 @@ A_Viola_Music_Voice = {                                                        %
     <d' gqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_declamation
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still_breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still_breathe:IndicatorCommand
+    ]                                                                          %! stirrings_still.declamation
+    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
+    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
 
     \once \override DynamicText.self-alignment-X = #-1                         %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
     <cs'! gqs'!>4.
@@ -6687,7 +6687,7 @@ A_Viola_Music_Voice = {                                                        %
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6713,13 +6713,13 @@ A_Viola_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -6959,7 +6959,7 @@ A_Cello_Music_Voice = {                                                        %
     d,2.                                                                       %! baca_make_repeat_tied_notes
 
     % [A Cello_Music_Voice measure 27]                                         %! _comment_measure_numbers
-    b,,4..                                                                     %! stirrings_still_taper
+    b,,4..                                                                     %! stirrings_still.taper
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6974,7 +6974,7 @@ A_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
-    b,,4..                                                                     %! stirrings_still_taper
+    b,,4..                                                                     %! stirrings_still.taper
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
@@ -7325,15 +7325,15 @@ A_Cello_Music_Voice = {                                                        %
     \once \override MultiMeasureRest.color = #green                            %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 7/8                                                                   %! _make_measure_silences
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 3/2 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 3/2 {                                                               %! stirrings_still.desynchronization
 
         % [A Cello_Music_Voice measure 46]                                     %! _comment_measure_numbers
         \clef "bass"                                                           %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7360,23 +7360,23 @@ A_Cello_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 5/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 5/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Cello_Music_Voice measure 47]                                     %! _comment_measure_numbers
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Cello_Music_Voice measure 48]                                         %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
@@ -7472,15 +7472,15 @@ A_Cello_Music_Voice = {                                                        %
     ]
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Cello_Music_Voice measure 49]                                     %! _comment_measure_numbers
         \clef "bass"                                                           %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7509,23 +7509,23 @@ A_Cello_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 7/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 7/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Cello_Music_Voice measure 50]                                     %! _comment_measure_numbers
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -7551,11 +7551,11 @@ A_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/3 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/3 {                                                               %! stirrings_still.desynchronization
 
         % [A Cello_Music_Voice measure 52]                                     %! _comment_measure_numbers
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7581,15 +7581,15 @@ A_Cello_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -7615,11 +7615,11 @@ A_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 4/3 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 4/3 {                                                               %! stirrings_still.desynchronization
 
         % [A Cello_Music_Voice measure 54]                                     %! _comment_measure_numbers
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7645,15 +7645,15 @@ A_Cello_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     % [A Cello_Music_Voice measure 55]                                         %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
@@ -7732,11 +7732,11 @@ A_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 5/4 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 5/4 {                                                               %! stirrings_still.desynchronization
 
         % [A Cello_Music_Voice measure 58]                                     %! _comment_measure_numbers
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7766,9 +7766,9 @@ A_Cello_Music_Voice = {                                                        %
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        g4                                                                     %! stirrings_still_desynchronization
+        g4                                                                     %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -7809,7 +7809,7 @@ A_Cello_Music_Voice = {                                                        %
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7835,13 +7835,13 @@ A_Cello_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 

@@ -411,14 +411,14 @@ F_Violin_I_Music_Voice = {                                                     %
 %%% \once \override Score.BarLine.transparent = ##t                            %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_443
 %%% \once \override Score.SpanBar.transparent = ##t                            %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_443
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/7 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 6/7 {                                                               %! stirrings_still.desynchronization
 
         % [F Violin_I_Music_Voice measure 444 / measure 12]                    %! _comment_measure_numbers
         \stopStaff                                                             %! _style_fermata_measures(2)
         \once \override Staff.StaffSymbol.line-count = 5                       %! _style_fermata_measures(2)
         \startStaff                                                            %! _style_fermata_measures(2)
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -444,43 +444,43 @@ F_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/7 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 6/7 {                                                               %! stirrings_still.desynchronization
 
         % [F Violin_I_Music_Voice measure 445 / measure 13]                    %! _comment_measure_numbers
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -677,7 +677,7 @@ F_Violin_II_Music_Voice = {                                                    %
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    g'4                                                                        %! stirrings_still_desynchronization
+    g'4                                                                        %! stirrings_still.desynchronization
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -703,32 +703,32 @@ F_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    g'4                                                                        %! stirrings_still_desynchronization
+    g'4                                                                        %! stirrings_still.desynchronization
 
-    g'4                                                                        %! stirrings_still_desynchronization
+    g'4                                                                        %! stirrings_still.desynchronization
 
-    g'4                                                                        %! stirrings_still_desynchronization
+    g'4                                                                        %! stirrings_still.desynchronization
 
-    g'4                                                                        %! stirrings_still_desynchronization
+    g'4                                                                        %! stirrings_still.desynchronization
 
-    g'4                                                                        %! stirrings_still_desynchronization
+    g'4                                                                        %! stirrings_still.desynchronization
 
     % [F Violin_II_Music_Voice measure 445 / measure 13]                       %! _comment_measure_numbers
-    a'4                                                                        %! stirrings_still_desynchronization
+    a'4                                                                        %! stirrings_still.desynchronization
 
-    a'4                                                                        %! stirrings_still_desynchronization
+    a'4                                                                        %! stirrings_still.desynchronization
 
-    a'4                                                                        %! stirrings_still_desynchronization
+    a'4                                                                        %! stirrings_still.desynchronization
 
-    a'4                                                                        %! stirrings_still_desynchronization
+    a'4                                                                        %! stirrings_still.desynchronization
 
-    a'4                                                                        %! stirrings_still_desynchronization
+    a'4                                                                        %! stirrings_still.desynchronization
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    a'4                                                                        %! stirrings_still_desynchronization
+    a'4                                                                        %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -810,7 +810,7 @@ F_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'1                                                                        %! stirrings_still_tailpiece
+    c'1                                                                        %! stirrings_still.tailpiece
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak self-alignment-X #-0.75                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -835,35 +835,35 @@ F_Viola_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    c'1                                                                        %! stirrings_still_tailpiece
+    c'1                                                                        %! stirrings_still.tailpiece
 
     % [F Viola_Music_Voice measure 435 / measure 3]                            %! _comment_measure_numbers
-    c'2.                                                                       %! stirrings_still_tailpiece
+    c'2.                                                                       %! stirrings_still.tailpiece
 
     % [F Viola_Music_Voice measure 436 / measure 4]                            %! _comment_measure_numbers
-    c'1                                                                        %! stirrings_still_tailpiece
+    c'1                                                                        %! stirrings_still.tailpiece
 
-    c'4                                                                        %! stirrings_still_tailpiece
+    c'4                                                                        %! stirrings_still.tailpiece
 
     % [F Viola_Music_Voice measure 437 / measure 5]                            %! _comment_measure_numbers
-    c'1.                                                                       %! stirrings_still_tailpiece
+    c'1.                                                                       %! stirrings_still.tailpiece
 
     % [F Viola_Music_Voice measure 438 / measure 6]                            %! _comment_measure_numbers
-    c'2.                                                                       %! stirrings_still_tailpiece
+    c'2.                                                                       %! stirrings_still.tailpiece
 
     % [F Viola_Music_Voice measure 439 / measure 7]                            %! _comment_measure_numbers
-    c'1                                                                        %! stirrings_still_tailpiece
+    c'1                                                                        %! stirrings_still.tailpiece
 
     % [F Viola_Music_Voice measure 440 / measure 8]                            %! _comment_measure_numbers
-    c'1                                                                        %! stirrings_still_tailpiece
+    c'1                                                                        %! stirrings_still.tailpiece
 
     % [F Viola_Music_Voice measure 441 / measure 9]                            %! _comment_measure_numbers
-    c'1                                                                        %! stirrings_still_tailpiece
+    c'1                                                                        %! stirrings_still.tailpiece
 
-    c'4                                                                        %! stirrings_still_tailpiece
+    c'4                                                                        %! stirrings_still.tailpiece
 
     % [F Viola_Music_Voice measure 442 / measure 10]                           %! _comment_measure_numbers
-    c'1.                                                                       %! stirrings_still_tailpiece
+    c'1.                                                                       %! stirrings_still.tailpiece
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
     \revert TextScript.parent-alignment-X                                      %! baca_text_script_parent_alignment_x:OverrideCommand(2)
@@ -901,14 +901,14 @@ F_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 6/8 {                                                               %! stirrings_still.desynchronization
 
         % [F Viola_Music_Voice measure 444 / measure 12]                       %! _comment_measure_numbers
         \stopStaff                                                             %! _style_fermata_measures(2)
         \once \override Staff.StaffSymbol.line-count = 5                       %! _style_fermata_measures(2)
         \startStaff                                                            %! _style_fermata_measures(2)
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -934,47 +934,47 @@ F_Viola_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/8 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 6/8 {                                                               %! stirrings_still.desynchronization
 
         % [F Viola_Music_Voice measure 445 / measure 13]                       %! _comment_measure_numbers
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1056,7 +1056,7 @@ F_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Dots.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Stem.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    ef,!1                                                                      %! stirrings_still_clouded_pane
+    ef,!1                                                                      %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1076,10 +1076,10 @@ F_Cello_Music_Voice = {                                                        %
 
     % [F Cello_Music_Voice measure 434 / measure 2]                            %! _comment_measure_numbers
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    ef,!1                                                                      %! stirrings_still_clouded_pane
+    ef,!1                                                                      %! stirrings_still.clouded_pane
 
     % [F Cello_Music_Voice measure 435 / measure 3]                            %! _comment_measure_numbers
-    ef,!2.                                                                     %! stirrings_still_clouded_pane
+    ef,!2.                                                                     %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1087,18 +1087,18 @@ F_Cello_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [F Cello_Music_Voice measure 436 / measure 4]                            %! _comment_measure_numbers
-    ef,!1                                                                      %! stirrings_still_clouded_pane
+    ef,!1                                                                      %! stirrings_still.clouded_pane
 
-    ef,!4                                                                      %! stirrings_still_clouded_pane
+    ef,!4                                                                      %! stirrings_still.clouded_pane
 
     % [F Cello_Music_Voice measure 437 / measure 5]                            %! _comment_measure_numbers
-    ef,!1.                                                                     %! stirrings_still_clouded_pane
+    ef,!1.                                                                     %! stirrings_still.clouded_pane
 
     % [F Cello_Music_Voice measure 438 / measure 6]                            %! _comment_measure_numbers
-    ef,!2.                                                                     %! stirrings_still_clouded_pane
+    ef,!2.                                                                     %! stirrings_still.clouded_pane
 
     % [F Cello_Music_Voice measure 439 / measure 7]                            %! _comment_measure_numbers
-    ef,!1                                                                      %! stirrings_still_clouded_pane
+    ef,!1                                                                      %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ff-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1113,7 +1113,7 @@ F_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    ef,!1                                                                      %! stirrings_still_clouded_pane
+    ef,!1                                                                      %! stirrings_still.clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1151,8 +1151,8 @@ F_Cello_Music_Voice = {                                                        %
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 6/5 {                                                               %! stirrings_still.desynchronization
 
         % [F Cello_Music_Voice measure 444 / measure 12]                       %! _comment_measure_numbers
         \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_444:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
@@ -1164,7 +1164,7 @@ F_Cello_Music_Voice = {                                                        %
         \stopStaff                                                             %! _style_fermata_measures(2)
         \once \override Staff.StaffSymbol.line-count = 5                       %! _style_fermata_measures(2)
         \startStaff                                                            %! _style_fermata_measures(2)
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1191,35 +1191,35 @@ F_Cello_Music_Voice = {                                                        %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
-    \times 6/5 {                                                               %! stirrings_still_desynchronization
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.desynchronization
+    \times 6/5 {                                                               %! stirrings_still.desynchronization
 
         % [F Cello_Music_Voice measure 445 / measure 13]                       %! _comment_measure_numbers
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        bf'!4                                                                  %! stirrings_still_desynchronization
+        bf'!4                                                                  %! stirrings_still.desynchronization
 
-    }                                                                          %! stirrings_still_desynchronization
+    }                                                                          %! stirrings_still.desynchronization
 
     <<                                                                         %! _make_multimeasure_rest_container
 

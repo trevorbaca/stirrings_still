@@ -779,7 +779,7 @@ N_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    c'''2                                                                      %! stirrings_still_clouded_pane
+    c'''2                                                                      %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -804,21 +804,21 @@ N_Violin_I_Music_Voice = {                                                     %
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     \override Dots.transparent = ##t                                           %! baca_glissando
     \override Stem.transparent = ##t                                           %! baca_glissando
-    c'''2                                                                      %! stirrings_still_clouded_pane
+    c'''2                                                                      %! stirrings_still.clouded_pane
 
-    c'''8                                                                      %! stirrings_still_clouded_pane
+    c'''8                                                                      %! stirrings_still.clouded_pane
 
     % [N Violin_I_Music_Voice measure 660 / measure 3]                         %! _comment_measure_numbers
-    c'''1                                                                      %! stirrings_still_clouded_pane
+    c'''1                                                                      %! stirrings_still.clouded_pane
 
     % [N Violin_I_Music_Voice measure 661 / measure 4]                         %! _comment_measure_numbers
-    c'''2.                                                                     %! stirrings_still_clouded_pane
+    c'''2.                                                                     %! stirrings_still.clouded_pane
 
     % [N Violin_I_Music_Voice measure 662 / measure 5]                         %! _comment_measure_numbers
-    c'''1                                                                      %! stirrings_still_clouded_pane
+    c'''1                                                                      %! stirrings_still.clouded_pane
 
     % [N Violin_I_Music_Voice measure 663 / measure 6]                         %! _comment_measure_numbers
-    c'''2..                                                                    %! stirrings_still_clouded_pane
+    c'''2..                                                                    %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -828,7 +828,7 @@ N_Violin_I_Music_Voice = {                                                     %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Violin_I_Music_Voice measure 664 / measure 7]                         %! _comment_measure_numbers
-    c'''2.                                                                     %! stirrings_still_clouded_pane
+    c'''2.                                                                     %! stirrings_still.clouded_pane
 
     % [N Violin_I_Music_Voice measure 665 / measure 8]                         %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
@@ -837,7 +837,7 @@ N_Violin_I_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    c'''2..                                                                    %! stirrings_still_clouded_pane
+    c'''2..                                                                    %! stirrings_still.clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1018,8 +1018,8 @@ N_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/9 {                                                               %! stirrings_still.flight
 
         % [N Violin_I_Music_Voice measure 683 / measure 26]                    %! _comment_measure_numbers
         <a fqs'!>4
@@ -1061,7 +1061,7 @@ N_Violin_I_Music_Voice = {                                                     %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_flight
+        [                                                                      %! stirrings_still.flight
         - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -1075,13 +1075,13 @@ N_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-        ]                                                                      %! stirrings_still_flight
+        ]                                                                      %! stirrings_still.flight
         - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "O"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Violin_I_Music_Voice measure 684 / measure 27]                        %! _comment_measure_numbers
     <a fqs'!>8
@@ -1106,8 +1106,8 @@ N_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 4/6 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 4/6 {                                                               %! stirrings_still.flight
 
         % [N Violin_I_Music_Voice measure 685 / measure 28]                    %! _comment_measure_numbers
         <a fqs'!>2
@@ -1133,7 +1133,7 @@ N_Violin_I_Music_Voice = {                                                     %
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Violin_I_Music_Voice measure 686 / measure 29]                        %! _comment_measure_numbers
     aqs''!2..                                                                  %! baca_make_repeat_tied_notes
@@ -1149,8 +1149,8 @@ N_Violin_I_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanUrtext                                                    %! MATERIAL:URTEXT:PiecewiseCommand(3)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/9 {                                                               %! stirrings_still.flight
 
         % [N Violin_I_Music_Voice measure 687 / measure 30]                    %! _comment_measure_numbers
         <a fqs'!>8
@@ -1188,7 +1188,7 @@ N_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Violin_I_Music_Voice measure 688 / measure 31]                        %! _comment_measure_numbers
     <a fqs'!>2.
@@ -1204,15 +1204,15 @@ N_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/10 {                                                              %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/10 {                                                              %! stirrings_still.flight
 
         % [N Violin_I_Music_Voice measure 689 / measure 32]                    %! _comment_measure_numbers
         <a fqs'!>8
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still_flight
+        [                                                                      %! stirrings_still.flight
         - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "P"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -1226,7 +1226,7 @@ N_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-        ]                                                                      %! stirrings_still_flight
+        ]                                                                      %! stirrings_still.flight
         - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "O"                                     %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -1276,10 +1276,10 @@ N_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 7/8 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 7/8 {                                                               %! stirrings_still.flight
 
         % [N Violin_I_Music_Voice measure 690 / measure 33]                    %! _comment_measure_numbers
         <a fqs'!>2..
@@ -1304,7 +1304,7 @@ N_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Violin_I_Music_Voice measure 691 / measure 34]                        %! _comment_measure_numbers
     <a fqs'!>8
@@ -1338,8 +1338,8 @@ N_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 7/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 7/9 {                                                               %! stirrings_still.flight
 
         % [N Violin_I_Music_Voice measure 692 / measure 35]                    %! _comment_measure_numbers
         <a fqs'!>4
@@ -1387,7 +1387,7 @@ N_Violin_I_Music_Voice = {                                                     %
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1412,7 +1412,7 @@ N_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Violin_I_Music_Voice measure 694 / measure 37]                        %! _comment_measure_numbers
-    g'8                                                                        %! stirrings_still_eighths
+    g'8                                                                        %! stirrings_still.eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1438,45 +1438,45 @@ N_Violin_I_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    g'8                                                                        %! stirrings_still_eighths
+    g'8                                                                        %! stirrings_still.eighths
 
-    g'8                                                                        %! stirrings_still_eighths
+    g'8                                                                        %! stirrings_still.eighths
 
-    g'8                                                                        %! stirrings_still_eighths
+    g'8                                                                        %! stirrings_still.eighths
 
-    g'8                                                                        %! stirrings_still_eighths
+    g'8                                                                        %! stirrings_still.eighths
 
-    g'8                                                                        %! stirrings_still_eighths
+    g'8                                                                        %! stirrings_still.eighths
 
-    g'8                                                                        %! stirrings_still_eighths
+    g'8                                                                        %! stirrings_still.eighths
 
-    g'8                                                                        %! stirrings_still_eighths
+    g'8                                                                        %! stirrings_still.eighths
 
     % [N Violin_I_Music_Voice measure 695 / measure 38]                        %! _comment_measure_numbers
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
     \!                                                                         %! baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1565,7 +1565,7 @@ N_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    eqf''!2                                                                    %! stirrings_still_clouded_pane
+    eqf''!2                                                                    %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1590,21 +1590,21 @@ N_Violin_II_Music_Voice = {                                                    %
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     \override Dots.transparent = ##t                                           %! baca_glissando
     \override Stem.transparent = ##t                                           %! baca_glissando
-    eqf''!2                                                                    %! stirrings_still_clouded_pane
+    eqf''!2                                                                    %! stirrings_still.clouded_pane
 
-    eqf''!8                                                                    %! stirrings_still_clouded_pane
+    eqf''!8                                                                    %! stirrings_still.clouded_pane
 
     % [N Violin_II_Music_Voice measure 660 / measure 3]                        %! _comment_measure_numbers
-    eqf''!1                                                                    %! stirrings_still_clouded_pane
+    eqf''!1                                                                    %! stirrings_still.clouded_pane
 
     % [N Violin_II_Music_Voice measure 661 / measure 4]                        %! _comment_measure_numbers
-    eqf''!2.                                                                   %! stirrings_still_clouded_pane
+    eqf''!2.                                                                   %! stirrings_still.clouded_pane
 
     % [N Violin_II_Music_Voice measure 662 / measure 5]                        %! _comment_measure_numbers
-    eqf''!1                                                                    %! stirrings_still_clouded_pane
+    eqf''!1                                                                    %! stirrings_still.clouded_pane
 
     % [N Violin_II_Music_Voice measure 663 / measure 6]                        %! _comment_measure_numbers
-    eqf''!2..                                                                  %! stirrings_still_clouded_pane
+    eqf''!2..                                                                  %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1614,7 +1614,7 @@ N_Violin_II_Music_Voice = {                                                    %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Violin_II_Music_Voice measure 664 / measure 7]                        %! _comment_measure_numbers
-    eqf''!2.                                                                   %! stirrings_still_clouded_pane
+    eqf''!2.                                                                   %! stirrings_still.clouded_pane
 
     % [N Violin_II_Music_Voice measure 665 / measure 8]                        %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
@@ -1623,7 +1623,7 @@ N_Violin_II_Music_Voice = {                                                    %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    eqf''!2..                                                                  %! stirrings_still_clouded_pane
+    eqf''!2..                                                                  %! stirrings_still.clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1772,8 +1772,8 @@ N_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/9 {                                                               %! stirrings_still.flight
 
         % [N Violin_II_Music_Voice measure 682 / measure 25]                   %! _comment_measure_numbers
         <fs! dqs'!>4.
@@ -1820,7 +1820,7 @@ N_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Violin_II_Music_Voice measure 683 / measure 26]                       %! _comment_measure_numbers
     <fs! dqs'!>4
@@ -1845,8 +1845,8 @@ N_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 5/7 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 5/7 {                                                               %! stirrings_still.flight
 
         % [N Violin_II_Music_Voice measure 684 / measure 27]                   %! _comment_measure_numbers
         <fs! dqs'!>4
@@ -1880,10 +1880,10 @@ N_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 4/5 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 4/5 {                                                               %! stirrings_still.flight
 
         % [N Violin_II_Music_Voice measure 685 / measure 28]                   %! _comment_measure_numbers
         <fs! dqs'!>8
@@ -1922,7 +1922,7 @@ N_Violin_II_Music_Voice = {                                                    %
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Violin_II_Music_Voice measure 686 / measure 29]                       %! _comment_measure_numbers
     fs''!2..                                                                   %! baca_make_repeat_tied_notes
@@ -1961,8 +1961,8 @@ N_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 6/8 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 6/8 {                                                               %! stirrings_still.flight
 
         % [N Violin_II_Music_Voice measure 688 / measure 31]                   %! _comment_measure_numbers
         \hide NoteHead                                                         %! baca_glissando
@@ -1991,10 +1991,10 @@ N_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/9 {                                                               %! stirrings_still.flight
 
         % [N Violin_II_Music_Voice measure 689 / measure 32]                   %! _comment_measure_numbers
         <fs! dqs'!>2
@@ -2041,7 +2041,7 @@ N_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Violin_II_Music_Voice measure 690 / measure 33]                       %! _comment_measure_numbers
     <fs! dqs'!>2.
@@ -2066,8 +2066,8 @@ N_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 6/8 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 6/8 {                                                               %! stirrings_still.flight
 
         % [N Violin_II_Music_Voice measure 691 / measure 34]                   %! _comment_measure_numbers
         <fs! dqs'!>8
@@ -2101,10 +2101,10 @@ N_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 7/8 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 7/8 {                                                               %! stirrings_still.flight
 
         % [N Violin_II_Music_Voice measure 692 / measure 35]                   %! _comment_measure_numbers
         <fs! dqs'!>2
@@ -2143,7 +2143,7 @@ N_Violin_II_Music_Voice = {                                                    %
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2168,7 +2168,7 @@ N_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Violin_II_Music_Voice measure 694 / measure 37]                       %! _comment_measure_numbers
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2194,45 +2194,45 @@ N_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
-    f'8                                                                        %! stirrings_still_eighths
+    f'8                                                                        %! stirrings_still.eighths
 
     % [N Violin_II_Music_Voice measure 695 / measure 38]                       %! _comment_measure_numbers
-    e'8                                                                        %! stirrings_still_eighths
+    e'8                                                                        %! stirrings_still.eighths
     \!                                                                         %! baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    e'8                                                                        %! stirrings_still_eighths
+    e'8                                                                        %! stirrings_still.eighths
 
-    e'8                                                                        %! stirrings_still_eighths
+    e'8                                                                        %! stirrings_still.eighths
 
-    e'8                                                                        %! stirrings_still_eighths
+    e'8                                                                        %! stirrings_still.eighths
 
-    e'8                                                                        %! stirrings_still_eighths
+    e'8                                                                        %! stirrings_still.eighths
 
-    e'8                                                                        %! stirrings_still_eighths
+    e'8                                                                        %! stirrings_still.eighths
 
-    e'8                                                                        %! stirrings_still_eighths
+    e'8                                                                        %! stirrings_still.eighths
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    e'8                                                                        %! stirrings_still_eighths
+    e'8                                                                        %! stirrings_still.eighths
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -2320,7 +2320,7 @@ N_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    gqf'!2                                                                     %! stirrings_still_clouded_pane
+    gqf'!2                                                                     %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2345,21 +2345,21 @@ N_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     \override Dots.transparent = ##t                                           %! baca_glissando
     \override Stem.transparent = ##t                                           %! baca_glissando
-    gqf'!2                                                                     %! stirrings_still_clouded_pane
+    gqf'!2                                                                     %! stirrings_still.clouded_pane
 
-    gqf'!8                                                                     %! stirrings_still_clouded_pane
+    gqf'!8                                                                     %! stirrings_still.clouded_pane
 
     % [N Viola_Music_Voice measure 660 / measure 3]                            %! _comment_measure_numbers
-    gqf'!1                                                                     %! stirrings_still_clouded_pane
+    gqf'!1                                                                     %! stirrings_still.clouded_pane
 
     % [N Viola_Music_Voice measure 661 / measure 4]                            %! _comment_measure_numbers
-    gqf'!2.                                                                    %! stirrings_still_clouded_pane
+    gqf'!2.                                                                    %! stirrings_still.clouded_pane
 
     % [N Viola_Music_Voice measure 662 / measure 5]                            %! _comment_measure_numbers
-    gqf'!1                                                                     %! stirrings_still_clouded_pane
+    gqf'!1                                                                     %! stirrings_still.clouded_pane
 
     % [N Viola_Music_Voice measure 663 / measure 6]                            %! _comment_measure_numbers
-    gqf'!2..                                                                   %! stirrings_still_clouded_pane
+    gqf'!2..                                                                   %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2369,7 +2369,7 @@ N_Viola_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Viola_Music_Voice measure 664 / measure 7]                            %! _comment_measure_numbers
-    gqf'!2.                                                                    %! stirrings_still_clouded_pane
+    gqf'!2.                                                                    %! stirrings_still.clouded_pane
 
     % [N Viola_Music_Voice measure 665 / measure 8]                            %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
@@ -2378,7 +2378,7 @@ N_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    gqf'!2..                                                                   %! stirrings_still_clouded_pane
+    gqf'!2..                                                                   %! stirrings_still.clouded_pane
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2532,7 +2532,7 @@ N_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_flight
+    [                                                                          %! stirrings_still.flight
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -2546,7 +2546,7 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_flight
+    ]                                                                          %! stirrings_still.flight
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "O"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -2569,7 +2569,7 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    [                                                                          %! stirrings_still_flight
+    [                                                                          %! stirrings_still.flight
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "O"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -2579,14 +2579,14 @@ N_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
-    ]                                                                          %! stirrings_still_flight
+    ]                                                                          %! stirrings_still.flight
     - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "P"                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/10 {                                                              %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/10 {                                                              %! stirrings_still.flight
 
         % [N Viola_Music_Voice measure 683 / measure 26]                       %! _comment_measure_numbers
         <c aqs!>8
@@ -2624,10 +2624,10 @@ N_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 5/6 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 5/6 {                                                               %! stirrings_still.flight
 
         % [N Viola_Music_Voice measure 684 / measure 27]                       %! _comment_measure_numbers
         <c aqs!>8
@@ -2663,7 +2663,7 @@ N_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Viola_Music_Voice measure 685 / measure 28]                           %! _comment_measure_numbers
     <c aqs!>4
@@ -2701,8 +2701,8 @@ N_Viola_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanUrtext                                                    %! MATERIAL:URTEXT:PiecewiseCommand(3)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/10 {                                                              %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/10 {                                                              %! stirrings_still.flight
 
         % [N Viola_Music_Voice measure 687 / measure 30]                       %! _comment_measure_numbers
         <c aqs!>8
@@ -2775,10 +2775,10 @@ N_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 6/7 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 6/7 {                                                               %! stirrings_still.flight
 
         % [N Viola_Music_Voice measure 688 / measure 31]                       %! _comment_measure_numbers
         <c aqs!>2.
@@ -2803,7 +2803,7 @@ N_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Viola_Music_Voice measure 689 / measure 32]                           %! _comment_measure_numbers
     <c aqs!>8
@@ -2837,8 +2837,8 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 7/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 7/9 {                                                               %! stirrings_still.flight
 
         % [N Viola_Music_Voice measure 690 / measure 33]                       %! _comment_measure_numbers
         <c aqs!>2
@@ -2885,10 +2885,10 @@ N_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 6/7 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 6/7 {                                                               %! stirrings_still.flight
 
         % [N Viola_Music_Voice measure 691 / measure 34]                       %! _comment_measure_numbers
         <c aqs!>4
@@ -2926,7 +2926,7 @@ N_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Viola_Music_Voice measure 692 / measure 35]                           %! _comment_measure_numbers
     <c aqs!>4
@@ -2984,7 +2984,7 @@ N_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Viola_Music_Voice measure 694 / measure 37]                           %! _comment_measure_numbers
-    af!8                                                                       %! stirrings_still_eighths
+    af!8                                                                       %! stirrings_still.eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3010,45 +3010,45 @@ N_Viola_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    a8                                                                         %! stirrings_still_eighths
+    a8                                                                         %! stirrings_still.eighths
 
-    a8                                                                         %! stirrings_still_eighths
+    a8                                                                         %! stirrings_still.eighths
 
-    a8                                                                         %! stirrings_still_eighths
+    a8                                                                         %! stirrings_still.eighths
 
-    a8                                                                         %! stirrings_still_eighths
+    a8                                                                         %! stirrings_still.eighths
 
-    a8                                                                         %! stirrings_still_eighths
+    a8                                                                         %! stirrings_still.eighths
 
-    a8                                                                         %! stirrings_still_eighths
+    a8                                                                         %! stirrings_still.eighths
 
-    a8                                                                         %! stirrings_still_eighths
+    a8                                                                         %! stirrings_still.eighths
 
     % [N Viola_Music_Voice measure 695 / measure 38]                           %! _comment_measure_numbers
-    g8                                                                         %! stirrings_still_eighths
+    g8                                                                         %! stirrings_still.eighths
     \!                                                                         %! baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    g8                                                                         %! stirrings_still_eighths
+    g8                                                                         %! stirrings_still.eighths
 
-    g8                                                                         %! stirrings_still_eighths
+    g8                                                                         %! stirrings_still.eighths
 
-    g8                                                                         %! stirrings_still_eighths
+    g8                                                                         %! stirrings_still.eighths
 
-    g8                                                                         %! stirrings_still_eighths
+    g8                                                                         %! stirrings_still.eighths
 
-    g8                                                                         %! stirrings_still_eighths
+    g8                                                                         %! stirrings_still.eighths
 
-    g8                                                                         %! stirrings_still_eighths
+    g8                                                                         %! stirrings_still.eighths
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    gf!8                                                                       %! stirrings_still_eighths
+    gf!8                                                                       %! stirrings_still.eighths
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3134,7 +3134,7 @@ N_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    bf,,!2                                                                     %! stirrings_still_clouded_pane
+    bf,,!2                                                                     %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -3155,39 +3155,39 @@ N_Cello_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    bf,,!2                                                                     %! stirrings_still_clouded_pane
+    bf,,!2                                                                     %! stirrings_still.clouded_pane
 
-    bf,,!8                                                                     %! stirrings_still_clouded_pane
+    bf,,!8                                                                     %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 660 / measure 3]                            %! _comment_measure_numbers
-    bf,,!1                                                                     %! stirrings_still_clouded_pane
+    bf,,!1                                                                     %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 661 / measure 4]                            %! _comment_measure_numbers
-    bf,,!2.                                                                    %! stirrings_still_clouded_pane
+    bf,,!2.                                                                    %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 662 / measure 5]                            %! _comment_measure_numbers
-    bf,,!1                                                                     %! stirrings_still_clouded_pane
+    bf,,!1                                                                     %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 663 / measure 6]                            %! _comment_measure_numbers
-    bf,,!2..                                                                   %! stirrings_still_clouded_pane
+    bf,,!2..                                                                   %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Cello_Music_Voice measure 664 / measure 7]                            %! _comment_measure_numbers
-    bf,,!2.                                                                    %! stirrings_still_clouded_pane
+    bf,,!2.                                                                    %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 665 / measure 8]                            %! _comment_measure_numbers
-    bf,,!2..                                                                   %! stirrings_still_clouded_pane
+    bf,,!2..                                                                   %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 666 / measure 9]                            %! _comment_measure_numbers
-    bf,,!1                                                                     %! stirrings_still_clouded_pane
+    bf,,!1                                                                     %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [N Cello_Music_Voice measure 667 / measure 10]                           %! _comment_measure_numbers
-    bf,,!1                                                                     %! stirrings_still_clouded_pane
+    bf,,!1                                                                     %! stirrings_still.clouded_pane
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -3394,7 +3394,7 @@ N_Cello_Music_Voice = {                                                        %
     % [N Cello_Music_Voice measure 670 / measure 13]                           %! _comment_measure_numbers
     \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
     \override Stem.transparent = ##t                                           %! baca_stem_transparent:OverrideCommand(1)
-    bf,,!2.                                                                    %! stirrings_still_clouded_pane
+    bf,,!2.                                                                    %! stirrings_still.clouded_pane
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
@@ -3404,16 +3404,16 @@ N_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [N Cello_Music_Voice measure 671 / measure 14]                           %! _comment_measure_numbers
-    bf,,!2..                                                                   %! stirrings_still_clouded_pane
+    bf,,!2..                                                                   %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 672 / measure 15]                           %! _comment_measure_numbers
-    bf,,!2..                                                                   %! stirrings_still_clouded_pane
+    bf,,!2..                                                                   %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 673 / measure 16]                           %! _comment_measure_numbers
-    bf,,!2.                                                                    %! stirrings_still_clouded_pane
+    bf,,!2.                                                                    %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 674 / measure 17]                           %! _comment_measure_numbers
-    bf,,!2                                                                     %! stirrings_still_clouded_pane
+    bf,,!2                                                                     %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3421,19 +3421,19 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    bf,,!8                                                                     %! stirrings_still_clouded_pane
+    bf,,!8                                                                     %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 675 / measure 18]                           %! _comment_measure_numbers
-    bf,,!2                                                                     %! stirrings_still_clouded_pane
+    bf,,!2                                                                     %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 676 / measure 19]                           %! _comment_measure_numbers
-    bf,,!2.                                                                    %! stirrings_still_clouded_pane
+    bf,,!2.                                                                    %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 677 / measure 20]                           %! _comment_measure_numbers
-    bf,,!2..                                                                   %! stirrings_still_clouded_pane
+    bf,,!2..                                                                   %! stirrings_still.clouded_pane
 
     % [N Cello_Music_Voice measure 678 / measure 21]                           %! _comment_measure_numbers
-    bf,,!2..                                                                   %! stirrings_still_clouded_pane
+    bf,,!2..                                                                   %! stirrings_still.clouded_pane
     \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
     \revert Stem.transparent                                                   %! baca_stem_transparent:OverrideCommand(2)
 
@@ -3442,10 +3442,10 @@ N_Cello_Music_Voice = {                                                        %
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    bf,,!2                                                                     %! stirrings_still_clouded_pane
+    bf,,!2                                                                     %! stirrings_still.clouded_pane
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 5/6 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 5/6 {                                                               %! stirrings_still.flight
 
         % [N Cello_Music_Voice measure 680 / measure 23]                       %! _comment_measure_numbers
         <b, gqs!>8
@@ -3486,7 +3486,7 @@ N_Cello_Music_Voice = {                                                        %
         <b, gqs!>8
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Cello_Music_Voice measure 681 / measure 24]                           %! _comment_measure_numbers
     <b, gqs!>4
@@ -3511,8 +3511,8 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/10 {                                                              %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/10 {                                                              %! stirrings_still.flight
 
         % [N Cello_Music_Voice measure 682 / measure 25]                       %! _comment_measure_numbers
         <b, gqs!>2
@@ -3540,10 +3540,10 @@ N_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/9 {                                                               %! stirrings_still.flight
 
         % [N Cello_Music_Voice measure 683 / measure 26]                       %! _comment_measure_numbers
         <b, gqs!>4.
@@ -3581,7 +3581,7 @@ N_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Cello_Music_Voice measure 684 / measure 27]                           %! _comment_measure_numbers
     <b, gqs!>4
@@ -3644,8 +3644,8 @@ N_Cello_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanUrtext                                                    %! MATERIAL:URTEXT:PiecewiseCommand(3)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/9 {                                                               %! stirrings_still.flight
 
         % [N Cello_Music_Voice measure 687 / measure 30]                       %! _comment_measure_numbers
         <b, gqs!>2
@@ -3703,7 +3703,7 @@ N_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Cello_Music_Voice measure 688 / measure 31]                           %! _comment_measure_numbers
     <b, gqs!>2.
@@ -3719,8 +3719,8 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 8/10 {                                                              %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 8/10 {                                                              %! stirrings_still.flight
 
         % [N Cello_Music_Voice measure 689 / measure 32]                       %! _comment_measure_numbers
         <b, gqs!>4
@@ -3767,10 +3767,10 @@ N_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 7/8 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 7/8 {                                                               %! stirrings_still.flight
 
         % [N Cello_Music_Voice measure 690 / measure 33]                       %! _comment_measure_numbers
         <b, gqs!>4.
@@ -3817,7 +3817,7 @@ N_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     % [N Cello_Music_Voice measure 691 / measure 34]                           %! _comment_measure_numbers
     <b, gqs!>4
@@ -3851,8 +3851,8 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! SCP:baca_scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
-    \times 7/9 {                                                               %! stirrings_still_flight
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.flight
+    \times 7/9 {                                                               %! stirrings_still.flight
 
         % [N Cello_Music_Voice measure 692 / measure 35]                       %! _comment_measure_numbers
         <b, gqs!>4.
@@ -3900,7 +3900,7 @@ N_Cello_Music_Voice = {                                                        %
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! stirrings_still_flight
+    }                                                                          %! stirrings_still.flight
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3925,7 +3925,7 @@ N_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [N Cello_Music_Voice measure 694 / measure 37]                           %! _comment_measure_numbers
-    b,,1                                                                       %! stirrings_still_clouded_pane
+    b,,1                                                                       %! stirrings_still.clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3961,7 +3961,7 @@ N_Cello_Music_Voice = {                                                        %
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    b,,1                                                                       %! stirrings_still_clouded_pane
+    b,,1                                                                       %! stirrings_still.clouded_pane
     \!                                                                         %! baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

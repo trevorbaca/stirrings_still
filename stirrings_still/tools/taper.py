@@ -9,7 +9,7 @@ def taper(tuplet_ratio=(1, 4, 1), *, measures=None):
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            tag="stirrings_still_taper",
+            tag="stirrings_still.taper",
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=(1, 4), tie_consecutive_notes=True
             ),

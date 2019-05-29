@@ -12,6 +12,6 @@ def solid_line_rhythm(*, measures=None):
             duration_specifier=rmakers.DurationSpecifier(
                 forbidden_note_duration=(1, 2)
             ),
-            tag="stirrings_still_solid_line_rhythm",
+            tag="stirrings_still.solid_line_rhythm",
         ),
     )

@@ -191,7 +191,7 @@ O_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -216,63 +216,63 @@ O_Violin_I_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
     % [O Violin_I_Music_Voice measure 698 / measure 2]                         %! _comment_measure_numbers
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
     % [O Violin_I_Music_Voice measure 699 / measure 3]                         %! _comment_measure_numbers
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
     % [O Violin_I_Music_Voice measure 700 / measure 4]                         %! _comment_measure_numbers
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
     % [O Violin_I_Music_Voice measure 701 / measure 5]                         %! _comment_measure_numbers
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
     % [O Violin_I_Music_Voice measure 702 / measure 6]                         %! _comment_measure_numbers
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    ef'!4                                                                      %! stirrings_still_circles
+    ef'!4                                                                      %! stirrings_still.circles
 
-    \times 2/3 {                                                               %! stirrings_still_pickets
+    \times 2/3 {                                                               %! stirrings_still.pickets
 
         % [O Violin_I_Music_Voice measure 703 / measure 7]                     %! _comment_measure_numbers
-        aqs'!4                                                                 %! stirrings_still_pickets
+        aqs'!4                                                                 %! stirrings_still.pickets
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -295,21 +295,21 @@ O_Violin_I_Music_Voice = {                                                     %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        aqs'!4                                                                 %! stirrings_still_pickets
+        aqs'!4                                                                 %! stirrings_still.pickets
 
-        aqs'!4                                                                 %! stirrings_still_pickets
+        aqs'!4                                                                 %! stirrings_still.pickets
 
-        aqs'!4                                                                 %! stirrings_still_pickets
+        aqs'!4                                                                 %! stirrings_still.pickets
 
-        aqs'!4                                                                 %! stirrings_still_pickets
+        aqs'!4                                                                 %! stirrings_still.pickets
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        aqs'!4                                                                 %! stirrings_still_pickets
+        aqs'!4                                                                 %! stirrings_still.pickets
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -398,7 +398,7 @@ O_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -423,63 +423,63 @@ O_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
     % [O Violin_II_Music_Voice measure 698 / measure 2]                        %! _comment_measure_numbers
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
     % [O Violin_II_Music_Voice measure 699 / measure 3]                        %! _comment_measure_numbers
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
     % [O Violin_II_Music_Voice measure 700 / measure 4]                        %! _comment_measure_numbers
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
     % [O Violin_II_Music_Voice measure 701 / measure 5]                        %! _comment_measure_numbers
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
     % [O Violin_II_Music_Voice measure 702 / measure 6]                        %! _comment_measure_numbers
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    d'4                                                                        %! stirrings_still_circles
+    d'4                                                                        %! stirrings_still.circles
 
-    \times 4/5 {                                                               %! stirrings_still_pickets
+    \times 4/5 {                                                               %! stirrings_still.pickets
 
         % [O Violin_II_Music_Voice measure 703 / measure 7]                    %! _comment_measure_numbers
-        ef'!4                                                                  %! stirrings_still_pickets
+        ef'!4                                                                  %! stirrings_still.pickets
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -502,19 +502,19 @@ O_Violin_II_Music_Voice = {                                                    %
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        ef'!4                                                                  %! stirrings_still_pickets
+        ef'!4                                                                  %! stirrings_still.pickets
 
-        ef'!4                                                                  %! stirrings_still_pickets
+        ef'!4                                                                  %! stirrings_still.pickets
 
-        ef'!4                                                                  %! stirrings_still_pickets
+        ef'!4                                                                  %! stirrings_still.pickets
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        ef'!4                                                                  %! stirrings_still_pickets
+        ef'!4                                                                  %! stirrings_still.pickets
 
-    }                                                                          %! stirrings_still_pickets
+    }                                                                          %! stirrings_still.pickets
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -602,7 +602,7 @@ O_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -627,61 +627,61 @@ O_Viola_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     % [O Viola_Music_Voice measure 698 / measure 2]                            %! _comment_measure_numbers
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     % [O Viola_Music_Voice measure 699 / measure 3]                            %! _comment_measure_numbers
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     % [O Viola_Music_Voice measure 700 / measure 4]                            %! _comment_measure_numbers
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     % [O Viola_Music_Voice measure 701 / measure 5]                            %! _comment_measure_numbers
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     % [O Viola_Music_Voice measure 702 / measure 6]                            %! _comment_measure_numbers
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    g4                                                                         %! stirrings_still_circles
+    g4                                                                         %! stirrings_still.circles
 
     % [O Viola_Music_Voice measure 703 / measure 7]                            %! _comment_measure_numbers
-    bqf!4                                                                      %! stirrings_still_pickets
+    bqf!4                                                                      %! stirrings_still.pickets
     \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -704,15 +704,15 @@ O_Viola_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    bqf!4                                                                      %! stirrings_still_pickets
+    bqf!4                                                                      %! stirrings_still.pickets
 
-    bqf!4                                                                      %! stirrings_still_pickets
+    bqf!4                                                                      %! stirrings_still.pickets
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    bqf!4                                                                      %! stirrings_still_pickets
+    bqf!4                                                                      %! stirrings_still.pickets
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -796,7 +796,7 @@ O_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -821,78 +821,78 @@ O_Cello_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
     % [O Cello_Music_Voice measure 698 / measure 2]                            %! _comment_measure_numbers
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
     % [O Cello_Music_Voice measure 699 / measure 3]                            %! _comment_measure_numbers
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
     % [O Cello_Music_Voice measure 700 / measure 4]                            %! _comment_measure_numbers
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
     % [O Cello_Music_Voice measure 701 / measure 5]                            %! _comment_measure_numbers
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
     % [O Cello_Music_Voice measure 702 / measure 6]                            %! _comment_measure_numbers
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    af!4                                                                       %! stirrings_still_circles
+    af!4                                                                       %! stirrings_still.circles
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
-    \times 8/9 {                                                               %! stirrings_still_trajectories
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
+    \times 8/9 {                                                               %! stirrings_still.trajectories
 
         % [O Cello_Music_Voice measure 703 / measure 7]                        %! _comment_measure_numbers
         \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
-        df,!8                                                                  %! stirrings_still_trajectories
+        df,!8                                                                  %! stirrings_still.trajectories
         \!                                                                     %! baca_hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(5)
-        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(5)
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(5)
+        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(5)
+        - \tweak staff-padding #5.5                                            %! stirrings_still.bcps:BCPCommand(5)
+        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(5)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca_circle_bow_spanner:PiecewiseCommand(3)
-        [                                                                      %! stirrings_still_trajectories
+        [                                                                      %! stirrings_still.trajectories
         \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
@@ -900,78 +900,78 @@ O_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #3.25                             %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #9.5                                            %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
+        - \tweak staff-padding #3                                              %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
         \hide NoteHead                                                         %! baca_glissando
         \override Accidental.stencil = ##f                                     %! baca_glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca_glissando
         \override NoteHead.no-ledgers = ##t                                    %! baca_glissando
-        df,!8                                                                  %! stirrings_still_trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
-        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        df,!8                                                                  %! stirrings_still.trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
+        - \tweak staff-padding #5.5                                            %! stirrings_still.bcps:BCPCommand(8)
+        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
+        ]                                                                      %! stirrings_still.trajectories
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
+        - \tweak staff-padding #3                                              %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
-        df,!4                                                                  %! stirrings_still_trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
-        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        df,!4                                                                  %! stirrings_still.trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
+        - \tweak staff-padding #5.5                                            %! stirrings_still.bcps:BCPCommand(7)
+        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
+        - \tweak staff-padding #3                                              %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
-        df,!8                                                                  %! stirrings_still_trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
-        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        df,!8                                                                  %! stirrings_still.trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
+        - \tweak staff-padding #5.5                                            %! stirrings_still.bcps:BCPCommand(8)
+        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
+        [                                                                      %! stirrings_still.trajectories
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
+        - \tweak staff-padding #3                                              %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
-        df,!8                                                                  %! stirrings_still_trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(7)
-        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        df,!8                                                                  %! stirrings_still.trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
+        - \tweak staff-padding #5.5                                            %! stirrings_still.bcps:BCPCommand(7)
+        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
+        - \tweak staff-padding #3                                              %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
-        df,!8                                                                  %! stirrings_still_trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still_bcps:BCPCommand(8)
-        - \tweak staff-padding #5.5                                            %! stirrings_still_bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
-        - \tweak staff-padding #3                                              %! stirrings_still_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
+        df,!8                                                                  %! stirrings_still.trajectories
+        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
+        - \tweak staff-padding #5.5                                            %! stirrings_still.bcps:BCPCommand(8)
+        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
+        ]                                                                      %! stirrings_still.trajectories
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still.bcps:BCPCommand(2)
+        - \tweak staff-padding #3                                              %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
         \revert Accidental.stencil                                             %! baca_glissando
         \revert NoteColumn.glissando-skip                                      %! baca_glissando
         \revert NoteHead.no-ledgers                                            %! baca_glissando
         \undo \hide NoteHead                                                   %! baca_glissando
-        df,!4                                                                  %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
+        df,!4                                                                  %! stirrings_still.trajectories
+        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(1)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
-    }                                                                          %! stirrings_still_trajectories
+    }                                                                          %! stirrings_still.trajectories
 
     <<                                                                         %! _make_multimeasure_rest_container
 

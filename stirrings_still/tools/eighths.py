@@ -12,7 +12,7 @@ def eighths():
             beam_specifier=rmakers.BeamSpecifier(
                 beam_divisions_together=False, beam_each_division=False
             ),
-            tag="stirrings_still_eighths",
+            tag="stirrings_still.eighths",
             talea=rmakers.Talea(counts=[1], denominator=8),
         ),
     )

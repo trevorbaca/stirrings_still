@@ -12,6 +12,6 @@ def measure_initiation():
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=[2], prefix_counts=[1], talea_denominator=8
             ),
-            tag="stirrings_still_measure_initation",
+            tag="stirrings_still.measure_initation",
         )
     )

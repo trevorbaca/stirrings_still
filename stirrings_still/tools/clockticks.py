@@ -7,7 +7,7 @@ def clockticks(*, displace=False, dmask=None, encroach=False, measures=None):
     """
     Makes clockticks.
     """
-    tag = "stirrings_still_clockticks"
+    tag = "stirrings_still.clockticks"
 
     if displace:
         divisions = None

@@ -26,7 +26,7 @@ def pickets(fuse, extra_count, *, dmask=None, measures=None):
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
-            tag="stirrings_still_pickets",
+            tag="stirrings_still.pickets",
             tuplet_ratios=[tuplet_ratio],
             tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
         ),

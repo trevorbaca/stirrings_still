@@ -15,6 +15,6 @@ def circles(duration, *, dmask=None, measures=None, remainder=abjad.Right):
         divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            division_masks=dmask, tag="stirrings_still_circles"
+            division_masks=dmask, tag="stirrings_still.circles"
         ),
     )

@@ -9,7 +9,7 @@ def declamation(*, measures=None, protract=None):
     """
 
     tuplet_rhythm_maker = rmakers.TupletRhythmMaker(
-        tag="stirrings_still_declamation",
+        tag="stirrings_still.declamation",
         tuplet_ratios=[(3, 1)],
         tuplet_specifier=rmakers.TupletSpecifier(
             denominator=(1, 8),

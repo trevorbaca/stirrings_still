@@ -15,7 +15,7 @@ def grid_to_trajectory(counts, rotation, extra, *, measures=None):
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
-            tag="stirrings_still_grid_to_trajectory",
+            tag="stirrings_still.grid_to_trajectory",
             talea=rmakers.Talea(counts=counts_, denominator=8),
             tie_specifier=rmakers.TieSpecifier(repeat_ties=(1, 4)),
             tuplet_specifier=rmakers.TupletSpecifier(
