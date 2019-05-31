@@ -11,7 +11,7 @@ def running_quarter_divisions(count, *, measures=None):
     assert 0 < count, repr(count)
     ratio = tuple(count * [1])
     return baca.rhythm(
-        divisions=baca.split_expanse([(1, 4)], cyclic=True),
+        divisions=baca.divisions().fuse().split_each([(1, 4)], cyclic=True),
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
             tag="stirrings_still.running_quarter_divisions",
