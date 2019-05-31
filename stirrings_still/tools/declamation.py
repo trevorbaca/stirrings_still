@@ -36,7 +36,7 @@ def declamation(*, measures=None, protract=None):
         )
     else:
         return baca.rhythm(
-            divisions=baca.divisions().fuse().split_each([(1, 4)]),
+            divisions=baca.divisions().fuse().split([(1, 4)]),
             measures=measures,
             rhythm_maker=tuplet_rhythm_maker,
         )
