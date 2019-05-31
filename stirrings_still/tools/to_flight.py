@@ -11,7 +11,7 @@ def to_flight(
     """
 
     return baca.rhythm(
-        divisions=baca.split_expanse(divisions, cyclic=True),
+        divisions=baca.divisions().fuse().split_each(divisions, cyclic=True),
         measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(
