@@ -13,10 +13,10 @@ def clockticks(*, displace=False, dmask=None, encroach=False, measures=None):
         divisions = None
         counts = [1, -1]
     elif encroach:
-        divisions = baca.divisions().fuse().split_each([(1, 4)], cyclic=True)
+        divisions = baca.divisions().fuse().split([(1, 4)], cyclic=True)
         counts = [2, -1]
     else:
-        divisions = baca.divisions().fuse().split_each([(1, 4)], cyclic=True)
+        divisions = baca.divisions().fuse().split([(1, 4)], cyclic=True)
         counts = [1, -2]
 
     return baca.rhythm(

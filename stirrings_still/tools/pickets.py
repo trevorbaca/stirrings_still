@@ -13,7 +13,7 @@ def pickets(fuse, extra_count, *, dmask=None, measures=None):
     divisions = (
         baca.divisions()
         .fuse()
-        .split_each(durations, cyclic=True, remainder=abjad.Left)
+        .split(durations, cyclic=True, remainder=abjad.Left)
     )
 
     if isinstance(extra_count, int):
