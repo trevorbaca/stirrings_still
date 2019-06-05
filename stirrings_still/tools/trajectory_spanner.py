@@ -3,8 +3,12 @@ import baca
 
 
 def trajectory_spanner(
-    string, staff_padding, *, measures=None, selector="baca.leaves().rleak()"
-):
+    string: str,
+    staff_padding: abjad.Number,
+    *,
+    measures: baca.SliceTyping = None,
+    selector: abjad.SelectorTyping = "baca.leaves().rleak()",
+) -> baca.PiecewiseCommand:
     """
     Makes trajectory annotation spanner.
     """

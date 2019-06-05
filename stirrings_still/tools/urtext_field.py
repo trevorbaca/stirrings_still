@@ -1,7 +1,7 @@
 import baca
 
 
-def urtext_field(*, measures=None):
+def urtext_field(*, measures: baca.SliceTyping = None) -> baca.RhythmCommand:
     """
     Makes urtext field.
     """

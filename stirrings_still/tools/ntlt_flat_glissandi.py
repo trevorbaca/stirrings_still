@@ -1,7 +1,7 @@
 import baca
 
 
-def ntlt_flat_glissandi():
+def ntlt_flat_glissandi() -> baca.Suite:
     """
     Changes nontrivial logical ties to flat glissandi.
     """

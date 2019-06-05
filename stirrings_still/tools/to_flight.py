@@ -4,8 +4,13 @@ from abjadext import rmakers
 
 
 def to_flight(
-    divisions, *, dmask=None, measures=None, start=(1, 4), stop=(1, 8)
-):
+    divisions: abjad.DurationSequenceTyping,
+    *,
+    dmask: rmakers.MasksTyping = None,
+    measures: baca.SliceTyping = None,
+    start: abjad.DurationTyping = (1, 4),
+    stop: abjad.DurationTyping = (1, 8),
+) -> baca.RhythmCommand:
     """
     Makes trajectories-to-flight.
     """

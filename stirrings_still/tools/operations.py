@@ -4,7 +4,7 @@ from .Operation import Operation
 from .StageToken import StageToken
 
 
-def operations():
+def operations() -> abjad.TypedList:
     """
     Makes operations.
 

@@ -1,8 +1,10 @@
 import abjad
 import stirrings_still
+from .first_order_stages import first_order_stages
+from .operations import operations
 
 
-def second_order_stages(segment):
+def second_order_stages(segment) -> abjad.OrderedDict:
     """
     Makes second-order time signatures.
 
@@ -3772,14 +3774,14 @@ def second_order_stages(segment):
             )
 
     """
-    target_stages = stirrings_still.first_order_stages(segment)
+    target_stages = first_order_stages(segment)
     assert isinstance(target_stages, abjad.OrderedDict)
-    operations = stirrings_still.operations()
-    for operation in operations:
+    operations_ = operations()
+    for operation in operations_:
         if operation.target_stage.letter != segment:
             continue
         source_segment = operation.source_stage.letter
-        source_stages = stirrings_still.first_order_stages(source_segment)
+        source_stages = first_order_stages(source_segment)
         source_stage = source_stages[operation.source_stage.number]
         target_stage = target_stages[operation.target_stage.number]
         new_specifier = operation(source_stage, target_stage)

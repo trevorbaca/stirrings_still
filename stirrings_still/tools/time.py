@@ -1,7 +1,8 @@
 import baca
+import typing
 
 
-def time(maker, pairs):
+def time(maker: baca.SegmentMaker, pairs: typing.Tuple) -> None:
     """
     Makes time.
     """
