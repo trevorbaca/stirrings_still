@@ -3,7 +3,13 @@ import baca
 from abjadext import rmakers
 
 
-def circles(duration, *, dmask=None, measures=None, remainder=abjad.Right):
+def circles(
+    duration: abjad.DurationTyping,
+    *,
+    dmask: rmakers.MasksTyping = None,
+    measures: baca.SliceTyping = None,
+    remainder: abjad.HorizontalAlignment = abjad.Right,
+) -> baca.RhythmCommand:
     """
     Makes circle rhythm with ``duration``.
     """
@@ -15,9 +21,9 @@ def circles(duration, *, dmask=None, measures=None, remainder=abjad.Right):
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=dmask,
-            tag="stirrings_still.circles",
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_sustained=True
             ),
         ),
+        tag="stirrings_still.circles",
     )

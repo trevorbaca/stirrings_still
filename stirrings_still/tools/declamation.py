@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def declamation(*, measures=None, protract=None):
+def declamation(
+    *, measures: baca.SliceTyping = None, protract: bool = None
+) -> baca.RhythmCommand:
     """
     Makes declamation.
     """

@@ -3,13 +3,18 @@ import baca
 from abjadext import rmakers
 
 
-def accelerando(start, stop, *, ltmask=None, measures=None):
+def accelerando(
+    start: abjad.DurationTyping,
+    stop: abjad.DurationTyping,
+    *,
+    ltmask: rmakers.MasksTyping = None,
+    measures: baca.SliceTyping = None,
+) -> baca.RhythmCommand:
     """
     Makes accelerando.
     """
-
     return baca.rhythm(
-        divisions=baca.sequence().sum().sequence(),
+        divisions=baca.divisions().fuse(),
         measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(
@@ -17,13 +22,13 @@ def accelerando(start, stop, *, ltmask=None, measures=None):
             ),
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
-                    start_duration=abjad.Duration(start),
-                    stop_duration=abjad.Duration(stop),
+                    start_duration=start,
+                    stop_duration=stop,
                     written_duration=abjad.Duration(1, 16),
                 )
             ],
             logical_tie_masks=ltmask,
-            tag="stirrings_still.accelerando",
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
         ),
+        tag="stirrings_still.accelerando",
     )

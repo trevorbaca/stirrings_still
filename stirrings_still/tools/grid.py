@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def grid(stage, rotation, *, measures=None):
+def grid(
+    stage: int, rotation: int, *, measures: baca.SliceTyping = None
+) -> baca.RhythmCommand:
     """
     Makes grid.
     """
@@ -13,9 +15,9 @@ def grid(stage, rotation, *, measures=None):
         return baca.rhythm(
             measures=measures,
             rhythm_maker=rmakers.TaleaRhythmMaker(
-                tag="stirrings_still.grid",
-                talea=rmakers.Talea(counts=counts, denominator=8),
+                talea=rmakers.Talea(counts=counts, denominator=8)
             ),
+            tag="stirrings_still.grid",
         )
     else:
         raise NotImplementedError(stage)

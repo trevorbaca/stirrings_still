@@ -1,7 +1,8 @@
 import abjad
+import typing
 
 
-def left_broken_circle_bow_tweak():
+def left_broken_circle_bow_tweak() -> abjad.IndexedTweakManager:
     """
     Makes left-broken circle bow tweak.
     """

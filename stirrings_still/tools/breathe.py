@@ -2,7 +2,9 @@ import abjad
 import baca
 
 
-def breathe(*, selector="baca.pleaf(-1)"):
+def breathe(
+    *, selector: abjad.SelectorTyping = "baca.pleaf(-1)"
+) -> baca.IndicatorCommand:
     """
     Makes breathe command with (-0.25, 2) extra offset.
     """

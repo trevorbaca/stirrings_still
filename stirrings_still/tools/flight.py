@@ -3,7 +3,13 @@ import baca
 from abjadext import rmakers
 
 
-def flight(counts, rotation, *, measures=None, start=None):
+def flight(
+    counts: str,
+    rotation: int,
+    *,
+    measures: baca.SliceTyping = None,
+    start: int = None,
+) -> baca.RhythmCommand:
     """
     Makes flight.
     """

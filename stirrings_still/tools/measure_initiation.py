@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def measure_initiation():
+def measure_initiation() -> baca.RhythmCommand:
     """
     Makes measure initiation.
     """
@@ -11,7 +11,7 @@ def measure_initiation():
         rhythm_maker=rmakers.IncisedRhythmMaker(
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=[2], prefix_counts=[1], talea_denominator=8
-            ),
-            tag="stirrings_still.measure_initation",
-        )
+            )
+        ),
+        tag="stirrings_still.measure_initation",
     )

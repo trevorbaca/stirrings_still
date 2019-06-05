@@ -5,10 +5,10 @@ import baca
 def bcps(
     rotation: int,
     clt: bool = False,
-    measures=None,
-    selector="baca.leaves()",
-    staff_padding=None,
-):
+    measures: baca.SliceTyping = None,
+    selector: abjad.SelectorTyping = "baca.leaves()",
+    staff_padding: abjad.Number = None,
+) -> baca.CommandTyping:
     """
     Makes bow contact points.
     """
