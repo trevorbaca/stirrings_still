@@ -4,23 +4,23 @@ from abjadext import rmakers
 
 
 def trajectories(
-    counts,
-    rotation,
-    extra_counts_rotation,
+    counts: str,
+    rotation: int,
+    extra_counts_rotation: int,
     *,
-    dmask=None,
-    end_counts=None,
-    measures=None,
-):
+    dmask: rmakers.MasksTyping = None,
+    end_counts: abjad.IntegerSequence = None,
+    measures: baca.SliceTyping = None,
+) -> baca.Suite:
     """
     Makes trajectories.
     """
-    counts_ = {
+    counts__ = {
         "A": [1, 1, 1, 2],
         "B": [1, 2, 2, 3],
         "C": [1, 2, 3, 1, 1, 2, 3, 1, 1, 1, 2, 3],
     }[counts]
-    counts_ = baca.sequence(counts_)
+    counts_ = baca.sequence(counts__)
     counts_ = counts_.rotate(n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts)

@@ -2,7 +2,9 @@ import abjad
 import baca
 
 
-def transition_bcps(*, final_spanner=None, staff_padding=None):
+def transition_bcps(
+    *, final_spanner: bool = None, staff_padding: abjad.Number = None
+) -> baca.BCPCommand:
     """
     Makes transition bow contact points.
     """
@@ -20,17 +22,17 @@ def transition_bcps(*, final_spanner=None, staff_padding=None):
         (1, 7),
         (7, 7),
     ]
-    bcps = baca.PaddedTuple(bcps, pad=2)
+    padded_bcps = baca.PaddedTuple(bcps, pad=2)
 
-    def helper(bcps, argument):
+    def helper(padded_bcps, argument):
         result = []
         selector = baca.cmgroups()
         for leaves in selector(argument):
-            result.extend(bcps[: len(leaves)])
+            result.extend(padded_bcps[: len(leaves)])
         return result
 
     return baca.bcps(
-        bcps,
+        padded_bcps,
         abjad.tweak(staff_padding).staff_padding,
         bow_change_tweaks=(
             abjad.tweak(abjad.Left).self_alignment_X,

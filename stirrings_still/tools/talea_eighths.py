@@ -3,7 +3,14 @@ import baca
 from abjadext import rmakers
 
 
-def talea_eighths(counts, rotation, extra, *, end_counts=None, measures=None):
+def talea_eighths(
+    counts: abjad.IntegerSequence,
+    rotation: int,
+    extra: int,
+    *,
+    end_counts: abjad.IntegerSequence = None,
+    measures: baca.SliceTyping = None,
+) -> baca.RhythmCommand:
     """
     Makes talea eighths.
     """
@@ -20,7 +27,6 @@ def talea_eighths(counts, rotation, extra, *, end_counts=None, measures=None):
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
-            tag="stirrings_still.talea_eighths",
             talea=rmakers.Talea(
                 counts=counts_, denominator=8, end_counts=end_counts
             ),
@@ -34,4 +40,5 @@ def talea_eighths(counts, rotation, extra, *, end_counts=None, measures=None):
                 trivialize=True,
             ),
         ),
+        tag="stirrings_still.talea_eighths",
     )

@@ -3,9 +3,14 @@ import baca
 from abjadext import rmakers
 
 
-def wave(start, stop, *, measures=None):
+def wave(
+    start: abjad.DurationTyping,
+    stop: abjad.DurationTyping,
+    *,
+    measures: baca.SliceTyping = None,
+) -> baca.RhythmCommand:
     """
-    Makes wave.
+    Makes wave rhythm.
     """
 
     return baca.rhythm(
@@ -26,7 +31,7 @@ def wave(start, stop, *, measures=None):
                     written_duration=(1, 16),
                 ),
             ],
-            tag="stirrings_still.wave",
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
         ),
+        tag="stirrings_still.wave",
     )

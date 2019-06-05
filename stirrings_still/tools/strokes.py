@@ -3,7 +3,13 @@ import baca
 from abjadext import rmakers
 
 
-def strokes(rotation, *, dmask=None, ltmask=None, measures=None):
+def strokes(
+    rotation: int,
+    *,
+    dmask: rmakers.MasksTyping = None,
+    ltmask: rmakers.MasksTyping = None,
+    measures: baca.SliceTyping = None,
+) -> baca.RhythmCommand:
     """
     Makes strokes.
     """
@@ -20,9 +26,9 @@ def strokes(rotation, *, dmask=None, ltmask=None, measures=None):
                 suffix_talea=[1], suffix_counts=[1], talea_denominator=8
             ),
             logical_tie_masks=ltmask,
-            tag="stirrings_still.strokes",
             tie_specifier=rmakers.TieSpecifier(tie_within_divisions=True),
         ),
         rewrite_rest_filled=True,
         split_at_measure_boundaries=True,
+        tag="stirrings_still.strokes",
     )

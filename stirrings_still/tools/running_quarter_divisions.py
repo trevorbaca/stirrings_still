@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def running_quarter_divisions(count, *, measures=None):
+def running_quarter_divisions(
+    count: int, *, measures: baca.SliceTyping = None
+) -> baca.RhythmCommand:
     """
     Makes running quarter divisions.
     """
@@ -14,8 +16,8 @@ def running_quarter_divisions(count, *, measures=None):
         divisions=baca.divisions().fuse().split([(1, 4)], cyclic=True),
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            tag="stirrings_still.running_quarter_divisions",
             tuplet_ratios=[ratio],
             tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
         ),
+        tag="stirrings_still.running_quarter_divisions",
     )

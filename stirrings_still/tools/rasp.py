@@ -1,7 +1,7 @@
 import baca
 
 
-def rasp():
+def rasp() -> baca.RhythmCommand:
     """
     Makes rasp.
     """

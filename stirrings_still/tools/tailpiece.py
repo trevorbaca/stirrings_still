@@ -1,8 +1,11 @@
+import abjad
 import baca
 import stirrings_still
 
 
-def tailpiece(*tweaks, measures=None):
+def tailpiece(
+    *tweaks: abjad.IndexedTweakManager, measures: baca.SliceTyping = None
+) -> baca.Suite:
     """
     Makes tailpiece.
     """
