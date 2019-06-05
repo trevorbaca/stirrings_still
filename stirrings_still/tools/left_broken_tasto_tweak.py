@@ -1,7 +1,7 @@
 import abjad
 
 
-def left_broken_tasto_tweak():
+def left_broken_tasto_tweak() -> abjad.IndexedTweakManager:
     """
     Makes left-broken tasto tweak.
     """

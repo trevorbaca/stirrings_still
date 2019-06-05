@@ -2,7 +2,9 @@ import abjad
 import baca
 
 
-def flight_spanner(string, staff_padding, measures=None):
+def flight_spanner(
+    string: str, staff_padding: abjad.Number, measures: baca.SliceTyping = None
+) -> baca.PiecewiseCommand:
     """
     Makes flight annotation spanner.
     """

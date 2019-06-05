@@ -2,12 +2,11 @@ import abjad
 import baca
 
 
-def cello_cell_bcps(*, staff_padding=None):
+def cello_cell_bcps(*, staff_padding: abjad.Number = None) -> baca.BCPCommand:
     """
     Makes cello cell bow contact points.
     """
     assert staff_padding is not None, repr(staff_padding)
-
     bcps = [(4, 7), (7, 7), (1, 7), (5, 7)]
     return baca.bcps(
         bcps,

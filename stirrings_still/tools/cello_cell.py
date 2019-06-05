@@ -2,10 +2,11 @@ import baca
 from abjadext import rmakers
 
 
-def cello_cell():
+def cello_cell() -> baca.RhythmCommand:
     """
     Makes cello cell.
     """
+    # TODO: add tag
     return baca.rhythm(
         divisions=baca.divisions().fuse().quarters(),
         rhythm_maker=rmakers.TaleaRhythmMaker(

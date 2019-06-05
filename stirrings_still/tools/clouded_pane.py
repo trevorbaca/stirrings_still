@@ -1,7 +1,7 @@
 import baca
 
 
-def clouded_pane():
+def clouded_pane() -> baca.RhythmCommand:
     """
     Makes clouded pane.
     """
