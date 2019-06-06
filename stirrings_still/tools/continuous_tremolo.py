@@ -9,9 +9,10 @@ def continuous_tremolo() -> baca.Suite:
     return baca.suite(
         baca.rhythm(
             rhythm_maker=rmakers.NoteRhythmMaker(
+                beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
                 tie_specifier=rmakers.TieSpecifier(
                     tie_across_divisions=True, repeat_ties=(1, 2)
-                )
+                ),
             ),
             tag="stirrings_still.continuous_tremolo",
         ),

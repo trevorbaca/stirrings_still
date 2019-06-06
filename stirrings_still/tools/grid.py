@@ -15,7 +15,8 @@ def grid(
         return baca.rhythm(
             measures=measures,
             rhythm_maker=rmakers.TaleaRhythmMaker(
-                talea=rmakers.Talea(counts=counts, denominator=8)
+                beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+                talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             tag="stirrings_still.grid",
         )

@@ -16,6 +16,7 @@ def running_quarter_divisions(
         divisions=baca.divisions().fuse().split([(1, 4)], cyclic=True),
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             tuplet_ratios=[ratio],
             tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
         ),

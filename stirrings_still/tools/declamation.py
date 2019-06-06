@@ -11,6 +11,7 @@ def declamation(
     """
 
     tuplet_rhythm_maker = rmakers.TupletRhythmMaker(
+        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         tag="stirrings_still.declamation",
         tuplet_ratios=[(3, 1)],
         tuplet_specifier=rmakers.TupletSpecifier(
@@ -22,9 +23,10 @@ def declamation(
     )
 
     note_rhythm_maker = rmakers.NoteRhythmMaker(
+        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         tie_specifier=rmakers.TieSpecifier(
             tie_across_divisions=True, repeat_ties=True
-        )
+        ),
     )
 
     if protract is True:

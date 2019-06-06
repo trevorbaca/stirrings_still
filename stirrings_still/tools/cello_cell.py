@@ -10,6 +10,7 @@ def cello_cell() -> baca.RhythmCommand:
     return baca.rhythm(
         divisions=baca.divisions().fuse().quarters(),
         rhythm_maker=rmakers.TaleaRhythmMaker(
-            talea=rmakers.Talea(counts=[3, 1, 2, 2], denominator=16)
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            talea=rmakers.Talea(counts=[3, 1, 2, 2], denominator=16),
         ),
     )
