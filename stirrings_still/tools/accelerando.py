@@ -7,7 +7,6 @@ def accelerando(
     start: abjad.DurationTyping,
     stop: abjad.DurationTyping,
     *,
-    ltmask: rmakers.MasksTyping = None,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
     """
@@ -30,7 +29,6 @@ def accelerando(
                     written_duration=abjad.Duration(1, 16),
                 )
             ],
-            logical_tie_masks=ltmask,
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
         ),
         tag="stirrings_still.accelerando",

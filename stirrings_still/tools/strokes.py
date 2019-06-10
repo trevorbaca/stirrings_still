@@ -7,7 +7,6 @@ def strokes(
     rotation: int,
     *,
     dmask: rmakers.MasksTyping = None,
-    ltmask: rmakers.MasksTyping = None,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
     """
@@ -26,7 +25,6 @@ def strokes(
             incise_specifier=rmakers.InciseSpecifier(
                 suffix_talea=[1], suffix_counts=[1], talea_denominator=8
             ),
-            logical_tie_masks=ltmask,
             tie_specifier=rmakers.TieSpecifier(tie_within_divisions=True),
         ),
         rewrite_rest_filled=True,
