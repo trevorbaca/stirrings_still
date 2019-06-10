@@ -17,12 +17,20 @@ def desynchronization(
     assert isinstance(denominator, int), repr(denominator)
     denominators = [denominator]
     assert isinstance(extra_counts, list), repr(extra_counts)
-    logical_tie_masks = None
+
+    specifiers = []
+
     if rests is True:
-        logical_tie_masks = [rmakers.silence([1], period=2)]
+        specifier = rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([1], 2)]
+        )
+        specifiers.append(specifier)
     elif isinstance(rests, tuple):
-        mask = rmakers.silence(*rests)
-        logical_tie_masks = [mask]
+        specifier = rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index(*rests)]
+        )
+        specifiers.append(specifier)
+
     diminution = None
     if extra_counts[0] < 0:
         diminution = False
@@ -33,10 +41,10 @@ def desynchronization(
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
+            *specifiers,
             beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             denominators=denominators,
             extra_counts_per_division=extra_counts,
-            logical_tie_masks=logical_tie_masks,
             tuplet_specifier=rmakers.TupletSpecifier(
                 denominator=(1, denominator),
                 diminution=diminution,

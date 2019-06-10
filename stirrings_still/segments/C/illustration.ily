@@ -1931,11 +1931,11 @@ C_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -1945,11 +1945,11 @@ C_Violin_I_Music_Voice = {                                                     %
         % [C Violin_I_Music_Voice measure 142 / measure 13]                    %! _comment_measure_numbers
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
@@ -1959,7 +1959,7 @@ C_Violin_I_Music_Voice = {                                                     %
     \times 5/6 {                                                               %! stirrings_still.desynchronization
 
         % [C Violin_I_Music_Voice measure 143 / measure 14]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
         \stopTextSpan                                                          %! baca.text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca.text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca.text_spanner:PiecewiseCommand(1)
@@ -1969,11 +1969,11 @@ C_Violin_I_Music_Voice = {                                                     %
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
@@ -1983,15 +1983,15 @@ C_Violin_I_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! stirrings_still.desynchronization
 
         % [C Violin_I_Music_Voice measure 144 / measure 15]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -2006,11 +2006,11 @@ C_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #5.5                                            %! baca.text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca.text_spanner:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -2020,11 +2020,11 @@ C_Violin_I_Music_Voice = {                                                     %
         % [C Violin_I_Music_Voice measure 146 / measure 17]                    %! _comment_measure_numbers
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
@@ -2034,7 +2034,7 @@ C_Violin_I_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! stirrings_still.desynchronization
 
         % [C Violin_I_Music_Voice measure 147 / measure 18]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
         \stopTextSpan                                                          %! baca.text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca.text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca.text_spanner:PiecewiseCommand(1)
@@ -2044,11 +2044,11 @@ C_Violin_I_Music_Voice = {                                                     %
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -2058,11 +2058,11 @@ C_Violin_I_Music_Voice = {                                                     %
         % [C Violin_I_Music_Voice measure 148 / measure 19]                    %! _comment_measure_numbers
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
@@ -2081,7 +2081,7 @@ C_Violin_I_Music_Voice = {                                                     %
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
@@ -2093,13 +2093,13 @@ C_Violin_I_Music_Voice = {                                                     %
         % [C Violin_I_Music_Voice measure 150 / measure 21]                    %! _comment_measure_numbers
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
@@ -2118,13 +2118,13 @@ C_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #5.5                                            %! baca.text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca.text_spanner:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
@@ -2136,13 +2136,13 @@ C_Violin_I_Music_Voice = {                                                     %
     \times 3/4 {                                                               %! stirrings_still.desynchronization
 
         % [C Violin_I_Music_Voice measure 152 / measure 23]                    %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
         bqf''!4                                                                %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -3351,21 +3351,21 @@ C_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #8                                                  %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanDamp                                                     %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 142 / measure 13]                       %! _comment_measure_numbers
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 143 / measure 14]                       %! _comment_measure_numbers
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup            %! baca.text_spanner:PiecewiseCommand(1)
@@ -3375,20 +3375,20 @@ C_Violin_II_Music_Voice = {                                                    %
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 144 / measure 15]                       %! _comment_measure_numbers
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 145 / measure 16]                       %! _comment_measure_numbers
     bf'!4                                                                      %! stirrings_still.desynchronization
@@ -3398,21 +3398,21 @@ C_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #5.5                                                %! baca.text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca.text_spanner:PiecewiseCommand(1)
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 146 / measure 17]                       %! _comment_measure_numbers
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 147 / measure 18]                       %! _comment_measure_numbers
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-tight-markup                 %! baca.text_spanner:PiecewiseCommand(1)
@@ -3422,16 +3422,16 @@ C_Violin_II_Music_Voice = {                                                    %
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 148 / measure 19]                       %! _comment_measure_numbers
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
@@ -3445,21 +3445,21 @@ C_Violin_II_Music_Voice = {                                                    %
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 150 / measure 21]                       %! _comment_measure_numbers
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 151 / measure 22]                       %! _comment_measure_numbers
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
     \stopTextSpan                                                              %! baca.text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! baca.text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-mod-markup                   %! baca.text_spanner:PiecewiseCommand(1)
@@ -3472,14 +3472,14 @@ C_Violin_II_Music_Voice = {                                                    %
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
     % [C Violin_II_Music_Voice measure 152 / measure 23]                       %! _comment_measure_numbers
-    r4
+    r4                                                                         %! stirrings_still.desynchronization
 
     bf'!4                                                                      %! stirrings_still.desynchronization
 
@@ -4711,11 +4711,11 @@ C_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanDamp                                                 %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -4725,15 +4725,15 @@ C_Viola_Music_Voice = {                                                        %
     \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [C Viola_Music_Voice measure 142 / measure 13]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -4743,7 +4743,7 @@ C_Viola_Music_Voice = {                                                        %
     \times 5/7 {                                                               %! stirrings_still.desynchronization
 
         % [C Viola_Music_Voice measure 143 / measure 14]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
         \stopTextSpan                                                          %! baca.text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca.text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca.text_spanner:PiecewiseCommand(1)
@@ -4753,15 +4753,15 @@ C_Viola_Music_Voice = {                                                        %
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -4771,15 +4771,15 @@ C_Viola_Music_Voice = {                                                        %
         % [C Viola_Music_Voice measure 144 / measure 15]                       %! _comment_measure_numbers
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -4794,11 +4794,11 @@ C_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! baca.text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca.text_spanner:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -4808,15 +4808,15 @@ C_Viola_Music_Voice = {                                                        %
     \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [C Viola_Music_Voice measure 146 / measure 17]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -4826,7 +4826,7 @@ C_Viola_Music_Voice = {                                                        %
     \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [C Viola_Music_Voice measure 147 / measure 18]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
         \stopTextSpan                                                          %! baca.text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca.text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca.text_spanner:PiecewiseCommand(1)
@@ -4836,11 +4836,11 @@ C_Viola_Music_Voice = {                                                        %
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -4850,15 +4850,15 @@ C_Viola_Music_Voice = {                                                        %
     \times 4/6 {                                                               %! stirrings_still.desynchronization
 
         % [C Viola_Music_Voice measure 148 / measure 19]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -4877,7 +4877,7 @@ C_Viola_Music_Voice = {                                                        %
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -4889,19 +4889,19 @@ C_Viola_Music_Voice = {                                                        %
     \times 5/7 {                                                               %! stirrings_still.desynchronization
 
         % [C Viola_Music_Voice measure 150 / measure 21]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -4920,13 +4920,13 @@ C_Viola_Music_Voice = {                                                        %
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -4938,13 +4938,13 @@ C_Viola_Music_Voice = {                                                        %
     \times 3/5 {                                                               %! stirrings_still.desynchronization
 
         % [C Viola_Music_Voice measure 152 / measure 23]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bqf!4                                                                  %! stirrings_still.desynchronization
 
@@ -6196,7 +6196,7 @@ C_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanDamp                                                 %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -6206,7 +6206,7 @@ C_Cello_Music_Voice = {                                                        %
         % [C Cello_Music_Voice measure 142 / measure 13]                       %! _comment_measure_numbers
         bf,!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
@@ -6216,7 +6216,7 @@ C_Cello_Music_Voice = {                                                        %
     \times 5/4 {                                                               %! stirrings_still.desynchronization
 
         % [C Cello_Music_Voice measure 143 / measure 14]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
         \stopTextSpan                                                          %! baca.text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca.text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-tight-markup        %! baca.text_spanner:PiecewiseCommand(1)
@@ -6226,7 +6226,7 @@ C_Cello_Music_Voice = {                                                        %
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
@@ -6236,11 +6236,11 @@ C_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still.desynchronization
 
         % [C Cello_Music_Voice measure 144 / measure 15]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -6255,7 +6255,7 @@ C_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! baca.text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca.text_spanner:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -6265,7 +6265,7 @@ C_Cello_Music_Voice = {                                                        %
         % [C Cello_Music_Voice measure 146 / measure 17]                       %! _comment_measure_numbers
         bf,!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
@@ -6275,7 +6275,7 @@ C_Cello_Music_Voice = {                                                        %
     \times 4/3 {                                                               %! stirrings_still.desynchronization
 
         % [C Cello_Music_Voice measure 147 / measure 18]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
         \stopTextSpan                                                          %! baca.text_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! baca.text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-tight-markup             %! baca.text_spanner:PiecewiseCommand(1)
@@ -6285,7 +6285,7 @@ C_Cello_Music_Voice = {                                                        %
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -6295,7 +6295,7 @@ C_Cello_Music_Voice = {                                                        %
         % [C Cello_Music_Voice measure 148 / measure 19]                       %! _comment_measure_numbers
         bf,!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
@@ -6320,13 +6320,13 @@ C_Cello_Music_Voice = {                                                        %
     \times 5/4 {                                                               %! stirrings_still.desynchronization
 
         % [C Cello_Music_Voice measure 150 / measure 21]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
     }                                                                          %! stirrings_still.desynchronization
 
@@ -6345,7 +6345,7 @@ C_Cello_Music_Voice = {                                                        %
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
@@ -6357,7 +6357,7 @@ C_Cello_Music_Voice = {                                                        %
     \times 3/2 {                                                               %! stirrings_still.desynchronization
 
         % [C Cello_Music_Voice measure 152 / measure 23]                       %! _comment_measure_numbers
-        r4
+        r4                                                                     %! stirrings_still.desynchronization
 
         bf,!4                                                                  %! stirrings_still.desynchronization
 
