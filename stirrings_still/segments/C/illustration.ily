@@ -2338,7 +2338,7 @@ C_Violin_I_Music_Voice = {                                                     %
 
     r4                                                                         %! stirrings_still.synchronized_circles
 
-    r8
+    r8                                                                         %! stirrings_still.synchronized_circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2833,7 +2833,7 @@ C_Violin_I_Music_Voice = {                                                     %
 
     r8                                                                         %! stirrings_still.synchronized_circles
 
-    r8
+    r8                                                                         %! stirrings_still.synchronized_circles
     \revert TupletBracket.direction                                            %! baca.tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3677,7 +3677,7 @@ C_Violin_II_Music_Voice = {                                                    %
 
     r4                                                                         %! stirrings_still.synchronized_circles
 
-    r8
+    r8                                                                         %! stirrings_still.synchronized_circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4177,7 +4177,7 @@ C_Violin_II_Music_Voice = {                                                    %
 
     r8                                                                         %! stirrings_still.synchronized_circles
 
-    r8
+    r8                                                                         %! stirrings_still.synchronized_circles
     \revert TupletBracket.direction                                            %! baca.tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -5150,7 +5150,7 @@ C_Viola_Music_Voice = {                                                        %
 
     r4                                                                         %! stirrings_still.synchronized_circles
 
-    r8
+    r8                                                                         %! stirrings_still.synchronized_circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5653,7 +5653,7 @@ C_Viola_Music_Voice = {                                                        %
 
     r8                                                                         %! stirrings_still.synchronized_circles
 
-    r8
+    r8                                                                         %! stirrings_still.synchronized_circles
     \revert TupletBracket.direction                                            %! baca.tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -6530,7 +6530,7 @@ C_Cello_Music_Voice = {                                                        %
 
     r4                                                                         %! stirrings_still.synchronized_circles
 
-    r8
+    r8                                                                         %! stirrings_still.synchronized_circles
 
     % [C Cello_Music_Voice measure 163 / measure 34]                           %! _comment_measure_numbers
     e,2                                                                        %! stirrings_still.clouded_pane
@@ -7030,7 +7030,7 @@ C_Cello_Music_Voice = {                                                        %
 
     r8                                                                         %! stirrings_still.synchronized_circles
 
-    r8
+    r8                                                                         %! stirrings_still.synchronized_circles
 
     <<                                                                         %! _make_multimeasure_rest_container
 

@@ -4,7 +4,6 @@ from abjadext import rmakers
 
 
 def synchronized_circles(
-    *,
     gaps: bool = True,
     measures: baca.SliceTyping = None,
     rests: abjad.IntegerSequence = None,
@@ -19,13 +18,18 @@ def synchronized_circles(
     counts = counts.rotate(n=rotation)
     if not gaps:
         counts = [abs(_) for _ in counts]
-    ltmask = None
+
+    specifiers = []
     if rests is None:
-        ltmask = None
+        pass
     elif isinstance(rests, list):
-        ltmask = [rmakers.silence(rests)]
+        specifier = rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index(rests)]
+        )
+        specifiers.append(specifier)
     else:
         raise TypeError(rests)
+
     dmask = None
     if sustain is not None:
         assert isinstance(sustain, list)
@@ -33,9 +37,9 @@ def synchronized_circles(
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            *specifiers,
             beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
-            logical_tie_masks=ltmask,
             talea=rmakers.Talea(counts=counts, denominator=8),
         ),
         tag="stirrings_still.synchronized_circles",
