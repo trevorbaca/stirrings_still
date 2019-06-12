@@ -1,5 +1,6 @@
 import abjad
 import baca
+import typing
 from abjadext import rmakers
 
 
@@ -19,7 +20,8 @@ def synchronized_circles(
     if not gaps:
         counts = [abs(_) for _ in counts]
 
-    specifiers = []
+    specifiers: typing.List[rmakers.SpecifierTyping] = []
+    specifiers.append(rmakers.TupletSpecifier(extract_trivial=True))
     if rests is None:
         pass
     elif isinstance(rests, list):
