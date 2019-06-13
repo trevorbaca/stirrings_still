@@ -3459,13 +3459,19 @@ K_Violin_II_Music_Voice = {                                                    %
         % [K Violin_II_Music_Voice measure 584 / measure 29]                   %! _comment_measure_numbers
         f''4                                                                   %! stirrings_still.flight
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
+        \bacaStopTextSpanSCP                                                   %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+        - \abjad-solid-line-with-arrow                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
         f''2                                                                   %! stirrings_still.flight
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca.accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
@@ -3480,7 +3486,7 @@ K_Violin_II_Music_Voice = {                                                    %
         - \accent                                                              %! baca.accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "T"                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "P"                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
@@ -3489,7 +3495,7 @@ K_Violin_II_Music_Voice = {                                                    %
         - \accent                                                              %! baca.accent:IndicatorCommand
         \bacaStopTextSpanSCP                                                   %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "P"                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "T"                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
@@ -3501,7 +3507,7 @@ K_Violin_II_Music_Voice = {                                                    %
     - \accent                                                                  %! baca.accent:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "T"                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "P"                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
@@ -3510,8 +3516,8 @@ K_Violin_II_Music_Voice = {                                                    %
     - \accent                                                                  %! baca.accent:IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "P"                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "T"                                        %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "T"                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "P"                                        %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -4597,6 +4603,7 @@ K_Viola_Music_Voice = {                                                        %
         % [K Viola_Music_Voice measure 575 / measure 20]                       %! _comment_measure_numbers
         gs!4                                                                   %! stirrings_still.flight
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
 
         gs!2                                                                   %! stirrings_still.flight
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
