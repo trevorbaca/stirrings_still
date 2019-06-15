@@ -17,6 +17,7 @@ def strokes(
         measures=measures,
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
+            rmakers.TupletSpecifier(extract_trivial=True),
             beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             duration_specifier=rmakers.DurationSpecifier(
