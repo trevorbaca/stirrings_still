@@ -19,7 +19,7 @@ def to_flight(
         divisions=baca.divisions().fuse().split(divisions, cyclic=True),
         measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
+            rmakers.BeamSpecifier(
                 beam_each_division=True,
                 beam_rests=True,
                 stemlet_length=0.75,

@@ -40,7 +40,7 @@ def synchronized_circles(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             talea=rmakers.Talea(counts=counts, denominator=8),
         ),

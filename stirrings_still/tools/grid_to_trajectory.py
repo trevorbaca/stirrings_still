@@ -23,7 +23,7 @@ def grid_to_trajectory(
             rmakers.TupletSpecifier(
                 denominator=(1, 8), extract_trivial=True, force_fraction=True
             ),
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             extra_counts_per_division=extra_counts_per_division,
             talea=rmakers.Talea(counts=counts_, denominator=8),
             tie_specifier=rmakers.TieSpecifier(repeat_ties=(1, 4)),

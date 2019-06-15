@@ -11,7 +11,7 @@ def cello_cell() -> baca.RhythmCommand:
         divisions=baca.divisions().fuse().quarters(),
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             talea=rmakers.Talea(counts=[3, 1, 2, 2], denominator=16),
         ),
     )

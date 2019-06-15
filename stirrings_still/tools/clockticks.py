@@ -27,7 +27,7 @@ def clockticks(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             extra_counts_per_division=[1],
             talea=rmakers.Talea(counts=counts, denominator=8),
