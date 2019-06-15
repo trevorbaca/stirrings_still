@@ -16,7 +16,7 @@ def accelerando(
         divisions=baca.divisions().fuse(),
         measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
+            rmakers.BeamSpecifier(
                 beam_each_division=True,
                 beam_rests=True,
                 stemlet_length=0.75,

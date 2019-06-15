@@ -30,7 +30,7 @@ def pickets(
         divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=[tuplet_ratio],
             tuplet_specifier=rmakers.TupletSpecifier(extract_trivial=True),
