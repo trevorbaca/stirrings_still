@@ -18,6 +18,7 @@ def strokes(
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.TieSpecifier(tie_within_divisions=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             duration_specifier=rmakers.DurationSpecifier(
@@ -26,7 +27,6 @@ def strokes(
             incise_specifier=rmakers.InciseSpecifier(
                 suffix_talea=[1], suffix_counts=[1], talea_denominator=8
             ),
-            tie_specifier=rmakers.TieSpecifier(tie_within_divisions=True),
         ),
         rewrite_rest_filled=True,
         split_at_measure_boundaries=True,
