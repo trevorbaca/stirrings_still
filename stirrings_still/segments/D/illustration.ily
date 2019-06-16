@@ -6423,7 +6423,7 @@ D_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Viola_Music_Voice measure 263 / measure 57]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -8004,7 +8004,7 @@ D_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    e,2                                                                        %! baca_make_repeat_tied_notes
+    e,2                                                                        %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -8025,14 +8025,14 @@ D_Cello_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    e,8                                                                        %! baca_make_repeat_tied_notes
+    e,8                                                                        %! baca.make_repeat_tied_notes
 
     % [D Cello_Music_Voice measure 256 / measure 50]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    e,2.                                                                       %! baca_make_repeat_tied_notes
+    e,2.                                                                       %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -8059,7 +8059,7 @@ D_Cello_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Cello_Music_Voice measure 258 / measure 52]                           %! _comment_measure_numbers
-    e,2..                                                                      %! baca_make_repeat_tied_notes
+    e,2..                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -8084,7 +8084,7 @@ D_Cello_Music_Voice = {                                                        %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    e,1                                                                        %! baca_make_repeat_tied_notes
+    e,1                                                                        %! baca.make_repeat_tied_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 

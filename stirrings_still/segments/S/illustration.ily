@@ -2559,7 +2559,7 @@ S_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Dots.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Stem.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    bf,1                                                                       %! baca_make_notes
+    bf,1                                                                       %! baca.make_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-pp-sempre                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2571,16 +2571,16 @@ S_Viola_Music_Voice = {                                                        %
 
     % [S Viola_Music_Voice measure 841 / measure 2]                            %! _comment_measure_numbers
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    bf,4                                                                       %! baca_make_notes
+    bf,4                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 842 / measure 3]                            %! _comment_measure_numbers
-    bf,2.                                                                      %! baca_make_notes
+    bf,2.                                                                      %! baca.make_notes
 
     % [S Viola_Music_Voice measure 843 / measure 4]                            %! _comment_measure_numbers
-    bf,1                                                                       %! baca_make_notes
+    bf,1                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 844 / measure 5]                            %! _comment_measure_numbers
-    bf,4                                                                       %! baca_make_notes
+    bf,4                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 845 / measure 6]                            %! _comment_measure_numbers
     bf,2.
@@ -2588,26 +2588,26 @@ S_Viola_Music_Voice = {                                                        %
     bf,2
 
     % [S Viola_Music_Voice measure 846 / measure 7]                            %! _comment_measure_numbers
-    bf,1.                                                                      %! baca_make_notes
+    bf,1.                                                                      %! baca.make_notes
 
     % [S Viola_Music_Voice measure 847 / measure 8]                            %! _comment_measure_numbers
-    bf,1.                                                                      %! baca_make_notes
+    bf,1.                                                                      %! baca.make_notes
 
     % [S Viola_Music_Voice measure 848 / measure 9]                            %! _comment_measure_numbers
     \stopStaff                                                                 %! _style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
     \startStaff                                                                %! _style_fermata_measures(1)
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
-    bf,4                                                                       %! baca_make_notes
+    bf,4                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 849 / measure 10]                           %! _comment_measure_numbers
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    bf,2.                                                                      %! baca_make_notes
+    bf,2.                                                                      %! baca.make_notes
 
     % [S Viola_Music_Voice measure 850 / measure 11]                           %! _comment_measure_numbers
-    bf,1                                                                       %! baca_make_notes
+    bf,1                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 851 / measure 12]                           %! _comment_measure_numbers
     bf,2.
@@ -2615,29 +2615,29 @@ S_Viola_Music_Voice = {                                                        %
     bf,2
 
     % [S Viola_Music_Voice measure 852 / measure 13]                           %! _comment_measure_numbers
-    bf,1                                                                       %! baca_make_notes
+    bf,1                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 853 / measure 14]                           %! _comment_measure_numbers
-    bf,2.                                                                      %! baca_make_notes
+    bf,2.                                                                      %! baca.make_notes
 
     % [S Viola_Music_Voice measure 854 / measure 15]                           %! _comment_measure_numbers
-    bf,1                                                                       %! baca_make_notes
+    bf,1                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 855 / measure 16]                           %! _comment_measure_numbers
     \stopStaff                                                                 %! _style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
     \startStaff                                                                %! _style_fermata_measures(1)
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
-    bf,4                                                                       %! baca_make_notes
+    bf,4                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 856 / measure 17]                           %! _comment_measure_numbers
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    bf,1                                                                       %! baca_make_notes
+    bf,1                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 857 / measure 18]                           %! _comment_measure_numbers
-    bf,1                                                                       %! baca_make_notes
+    bf,1                                                                       %! baca.make_notes
 
     % [S Viola_Music_Voice measure 858 / measure 19]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -2646,7 +2646,7 @@ S_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    bf,2.                                                                      %! baca_make_notes
+    bf,2.                                                                      %! baca.make_notes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2772,7 +2772,7 @@ S_Cello_Music_Voice = {                                                        %
 
     % [S Cello_Music_Voice measure 842 / measure 3]                            %! _comment_measure_numbers
     \ottava -1                                                                 %! baca.ottava_bassa:SpannerIndicatorCommand(1)
-    b,,,2.                                                                     %! baca_make_repeat_tied_notes
+    b,,,2.                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2792,7 +2792,7 @@ S_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2842,7 +2842,7 @@ S_Cello_Music_Voice = {                                                        %
     b,,,2
 
     % [S Cello_Music_Voice measure 846 / measure 7]                            %! _comment_measure_numbers
-    b,,,1.                                                                     %! baca_make_repeat_tied_notes
+    b,,,1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2858,7 +2858,7 @@ S_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    b,,,1.                                                                     %! baca_make_repeat_tied_notes
+    b,,,1.                                                                     %! baca.make_repeat_tied_notes
     \ottava 0                                                                  %! baca.ottava_bassa:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -2892,7 +2892,7 @@ S_Cello_Music_Voice = {                                                        %
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    b,,,2.                                                                     %! baca_make_repeat_tied_notes
+    b,,,2.                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2906,7 +2906,7 @@ S_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
 
     % [S Cello_Music_Voice measure 851 / measure 12]                           %! _comment_measure_numbers
     b,,,2.
@@ -2921,10 +2921,10 @@ S_Cello_Music_Voice = {                                                        %
     b,,,2
 
     % [S Cello_Music_Voice measure 852 / measure 13]                           %! _comment_measure_numbers
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
 
     % [S Cello_Music_Voice measure 853 / measure 14]                           %! _comment_measure_numbers
-    b,,,2.                                                                     %! baca_make_repeat_tied_notes
+    b,,,2.                                                                     %! baca.make_repeat_tied_notes
 
     % [S Cello_Music_Voice measure 854 / measure 15]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -2933,7 +2933,7 @@ S_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
     \ottava 0                                                                  %! baca.ottava_bassa:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container

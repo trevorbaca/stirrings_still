@@ -1136,7 +1136,7 @@ N_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still.flight
 
     % [N Violin_I_Music_Voice measure 686 / measure 29]                        %! _comment_measure_numbers
-    aqs''!2..                                                                  %! baca_make_repeat_tied_notes
+    aqs''!2..                                                                  %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1925,7 +1925,7 @@ N_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still.flight
 
     % [N Violin_II_Music_Voice measure 686 / measure 29]                       %! _comment_measure_numbers
-    fs''!2..                                                                   %! baca_make_repeat_tied_notes
+    fs''!2..                                                                   %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2688,7 +2688,7 @@ N_Viola_Music_Voice = {                                                        %
     \bacaStopTextSpanSCP                                                       %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
     % [N Viola_Music_Voice measure 686 / measure 29]                           %! _comment_measure_numbers
-    gs!2..                                                                     %! baca_make_repeat_tied_notes
+    gs!2..                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3631,7 +3631,7 @@ N_Cello_Music_Voice = {                                                        %
     \bacaStopTextSpanSCP                                                       %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
     % [N Cello_Music_Voice measure 686 / measure 29]                           %! _comment_measure_numbers
-    g,2..                                                                      %! baca_make_repeat_tied_notes
+    g,2..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)

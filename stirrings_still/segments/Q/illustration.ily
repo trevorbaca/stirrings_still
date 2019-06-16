@@ -1717,7 +1717,7 @@ Q_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    aqs''!2..                                                                  %! baca_make_repeat_tied_notes
+    aqs''!2..                                                                  %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5615,7 +5615,7 @@ Q_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    fs''!2..                                                                   %! baca_make_repeat_tied_notes
+    fs''!2..                                                                   %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -8531,7 +8531,7 @@ Q_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    gs!2..                                                                     %! baca_make_repeat_tied_notes
+    gs!2..                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -11052,7 +11052,7 @@ Q_Viola_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [Q Viola_Music_Voice measure 803 / measure 73]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak self-alignment-X #-0.75                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \baca-pp-sempre                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -11065,28 +11065,28 @@ Q_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    bf,!2..                                                                    %! baca_make_repeat_tied_notes
+    bf,!2..                                                                    %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 805 / measure 75]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 806 / measure 76]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 807 / measure 77]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 808 / measure 78]                           %! _comment_measure_numbers
-    bf,!2..                                                                    %! baca_make_repeat_tied_notes
+    bf,!2..                                                                    %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 809 / measure 79]                           %! _comment_measure_numbers
-    bf,!2..                                                                    %! baca_make_repeat_tied_notes
+    bf,!2..                                                                    %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 810 / measure 80]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 811 / measure 81]                           %! _comment_measure_numbers
-    bf,!2                                                                      %! baca_make_repeat_tied_notes
+    bf,!2                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 812 / measure 82]                           %! _comment_measure_numbers
     bf,!4.
@@ -11094,13 +11094,13 @@ Q_Viola_Music_Voice = {                                                        %
     bf,!4
 
     % [Q Viola_Music_Voice measure 813 / measure 83]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 814 / measure 84]                           %! _comment_measure_numbers
-    bf,!2..                                                                    %! baca_make_repeat_tied_notes
+    bf,!2..                                                                    %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 815 / measure 85]                           %! _comment_measure_numbers
-    bf,!2..                                                                    %! baca_make_repeat_tied_notes
+    bf,!2..                                                                    %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 816 / measure 86]                           %! _comment_measure_numbers
     bf,!4.
@@ -11108,19 +11108,19 @@ Q_Viola_Music_Voice = {                                                        %
     bf,!4
 
     % [Q Viola_Music_Voice measure 817 / measure 87]                           %! _comment_measure_numbers
-    bf,!2                                                                      %! baca_make_repeat_tied_notes
+    bf,!2                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 818 / measure 88]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 819 / measure 89]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 820 / measure 90]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 821 / measure 91]                           %! _comment_measure_numbers
-    bf,!2                                                                      %! baca_make_repeat_tied_notes
+    bf,!2                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Viola_Music_Voice measure 822 / measure 92]                           %! _comment_measure_numbers
     bf,!4.
@@ -11186,7 +11186,7 @@ Q_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    g,2..                                                                      %! baca_make_repeat_tied_notes
+    g,2..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -14057,7 +14057,7 @@ Q_Cello_Music_Voice = {                                                        %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    b,,,2.                                                                     %! baca_make_repeat_tied_notes
+    b,,,2.                                                                     %! baca.make_repeat_tied_notes
     \glissando                                                                 %! baca.glissando
 
     % [Q Cello_Music_Voice measure 819 / measure 89]                           %! _comment_measure_numbers
@@ -14067,13 +14067,13 @@ Q_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Cello_Music_Voice measure 820 / measure 90]                           %! _comment_measure_numbers
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Cello_Music_Voice measure 821 / measure 91]                           %! _comment_measure_numbers
-    b,,,2                                                                      %! baca_make_repeat_tied_notes
+    b,,,2                                                                      %! baca.make_repeat_tied_notes
 
     % [Q Cello_Music_Voice measure 822 / measure 92]                           %! _comment_measure_numbers
     b,,,4.
