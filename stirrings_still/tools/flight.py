@@ -121,10 +121,10 @@ def flight(
                 rewrite_sustained=True,
                 trivialize=True,
             ),
+            rmakers.TieSpecifier(repeat_ties=(1, 4)),
             rmakers.BeamSpecifier(beam_each_division=True),
             extra_counts_per_division=extra_counts,
             tag="stirrings_still.flight",
             talea=rmakers.Talea(counts=counts_, denominator=8),
-            tie_specifier=rmakers.TieSpecifier(repeat_ties=(1, 4)),
         ),
     )

@@ -23,10 +23,8 @@ def declamation(
     )
 
     note_rhythm_maker = rmakers.NoteRhythmMaker(
+        rmakers.TieSpecifier(tie_across_divisions=True, repeat_ties=True),
         rmakers.BeamSpecifier(beam_each_division=True),
-        tie_specifier=rmakers.TieSpecifier(
-            tie_across_divisions=True, repeat_ties=True
-        ),
     )
 
     if protract is True:
