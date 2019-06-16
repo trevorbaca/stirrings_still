@@ -1425,7 +1425,7 @@ R_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Dots.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Stem.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-pp-sempre                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1437,10 +1437,10 @@ R_Viola_Music_Voice = {                                                        %
 
     % [R Viola_Music_Voice measure 824 / measure 2]                            %! _comment_measure_numbers
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 825 / measure 3]                            %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 826 / measure 4]                            %! _comment_measure_numbers
     bf,!2.
@@ -1448,16 +1448,16 @@ R_Viola_Music_Voice = {                                                        %
     bf,!2
 
     % [R Viola_Music_Voice measure 827 / measure 5]                            %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 828 / measure 6]                            %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 829 / measure 7]                            %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 830 / measure 8]                            %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 831 / measure 9]                            %! _comment_measure_numbers
     bf,!2.
@@ -1465,25 +1465,25 @@ R_Viola_Music_Voice = {                                                        %
     bf,!2
 
     % [R Viola_Music_Voice measure 832 / measure 10]                           %! _comment_measure_numbers
-    bf,!1.                                                                     %! baca_make_repeat_tied_notes
+    bf,!1.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 833 / measure 11]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 834 / measure 12]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 835 / measure 13]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 836 / measure 14]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 837 / measure 15]                           %! _comment_measure_numbers
-    bf,!2.                                                                     %! baca_make_repeat_tied_notes
+    bf,!2.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 838 / measure 16]                           %! _comment_measure_numbers
-    bf,!1                                                                      %! baca_make_repeat_tied_notes
+    bf,!1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Viola_Music_Voice measure 839 / measure 17]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -1496,7 +1496,7 @@ R_Viola_Music_Voice = {                                                        %
     \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
     \startStaff                                                                %! _style_fermata_measures(1)
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
-    bf,!4                                                                      %! baca_make_repeat_tied_notes
+    bf,!4                                                                      %! baca.make_repeat_tied_notes
     \stopStaff                                                                 %! _style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(3)
     \startStaff                                                                %! _style_fermata_measures(3)
@@ -1550,7 +1550,7 @@ R_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-pp-sempre                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1567,10 +1567,10 @@ R_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    b,,,2.                                                                     %! baca_make_repeat_tied_notes
+    b,,,2.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Cello_Music_Voice measure 825 / measure 3]                            %! _comment_measure_numbers
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Cello_Music_Voice measure 826 / measure 4]                            %! _comment_measure_numbers
     b,,,2.
@@ -1578,16 +1578,16 @@ R_Cello_Music_Voice = {                                                        %
     b,,,2
 
     % [R Cello_Music_Voice measure 827 / measure 5]                            %! _comment_measure_numbers
-    b,,,1.                                                                     %! baca_make_repeat_tied_notes
+    b,,,1.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Cello_Music_Voice measure 828 / measure 6]                            %! _comment_measure_numbers
-    b,,,2.                                                                     %! baca_make_repeat_tied_notes
+    b,,,2.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Cello_Music_Voice measure 829 / measure 7]                            %! _comment_measure_numbers
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Cello_Music_Voice measure 830 / measure 8]                            %! _comment_measure_numbers
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
 
     % [R Cello_Music_Voice measure 831 / measure 9]                            %! _comment_measure_numbers
     b,,,2.
@@ -1601,10 +1601,10 @@ R_Cello_Music_Voice = {                                                        %
     b,,,2
 
     % [R Cello_Music_Voice measure 832 / measure 10]                           %! _comment_measure_numbers
-    b,,,1.                                                                     %! baca_make_repeat_tied_notes
+    b,,,1.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Cello_Music_Voice measure 833 / measure 11]                           %! _comment_measure_numbers
-    b,,,2.                                                                     %! baca_make_repeat_tied_notes
+    b,,,2.                                                                     %! baca.make_repeat_tied_notes
 
     % [R Cello_Music_Voice measure 834 / measure 12]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1613,7 +1613,7 @@ R_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    b,,,1                                                                      %! baca_make_repeat_tied_notes
+    b,,,1                                                                      %! baca.make_repeat_tied_notes
     \ottava 0                                                                  %! baca.ottava_bassa:SpannerIndicatorCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container

@@ -598,7 +598,7 @@ M_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    d'''2                                                                      %! baca_make_repeat_tied_notes
+    d'''2                                                                      %! baca.make_repeat_tied_notes
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
@@ -625,25 +625,25 @@ M_Violin_I_Music_Voice = {                                                     %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    d'''8                                                                      %! baca_make_repeat_tied_notes
+    d'''8                                                                      %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 627 / measure 2]                         %! _comment_measure_numbers
-    d'''2.                                                                     %! baca_make_repeat_tied_notes
+    d'''2.                                                                     %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 628 / measure 3]                         %! _comment_measure_numbers
-    d'''2.                                                                     %! baca_make_repeat_tied_notes
+    d'''2.                                                                     %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 629 / measure 4]                         %! _comment_measure_numbers
-    d'''2.                                                                     %! baca_make_repeat_tied_notes
+    d'''2.                                                                     %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 630 / measure 5]                         %! _comment_measure_numbers
-    d'''2                                                                      %! baca_make_repeat_tied_notes
+    d'''2                                                                      %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 631 / measure 6]                         %! _comment_measure_numbers
-    d'''2..                                                                    %! baca_make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 632 / measure 7]                         %! _comment_measure_numbers
-    d'''2..                                                                    %! baca_make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 633 / measure 8]                         %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -652,7 +652,7 @@ M_Violin_I_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    d'''1                                                                      %! baca_make_repeat_tied_notes
+    d'''1                                                                      %! baca.make_repeat_tied_notes
 
     \times 2/3 {                                                               %! stirrings_still.pickets
 
@@ -736,7 +736,7 @@ M_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still.pickets
 
     % [M Violin_I_Music_Voice measure 638 / measure 13]                        %! _comment_measure_numbers
-    d'''1                                                                      %! baca_make_repeat_tied_notes
+    d'''1                                                                      %! baca.make_repeat_tied_notes
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 9°/C }                                                         %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -759,13 +759,13 @@ M_Violin_I_Music_Voice = {                                                     %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    d'''2..                                                                    %! baca_make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 640 / measure 15]                        %! _comment_measure_numbers
-    d'''2..                                                                    %! baca_make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 641 / measure 16]                        %! _comment_measure_numbers
-    d'''1                                                                      %! baca_make_repeat_tied_notes
+    d'''1                                                                      %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 642 / measure 17]                        %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -857,7 +857,7 @@ M_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still.pickets
 
     % [M Violin_I_Music_Voice measure 646 / measure 21]                        %! _comment_measure_numbers
-    d'''2..                                                                    %! baca_make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 9°/C }                                                         %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -880,15 +880,15 @@ M_Violin_I_Music_Voice = {                                                     %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    d'''2..                                                                    %! baca_make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 648 / measure 23]                        %! _comment_measure_numbers
-    d'''2                                                                      %! baca_make_repeat_tied_notes
+    d'''2                                                                      %! baca.make_repeat_tied_notes
 
-    d'''8                                                                      %! baca_make_repeat_tied_notes
+    d'''8                                                                      %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 649 / measure 24]                        %! _comment_measure_numbers
-    d'''2.                                                                     %! baca_make_repeat_tied_notes
+    d'''2.                                                                     %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 650 / measure 25]                        %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -964,7 +964,7 @@ M_Violin_I_Music_Voice = {                                                     %
     }                                                                          %! stirrings_still.pickets
 
     % [M Violin_I_Music_Voice measure 654 / measure 29]                        %! _comment_measure_numbers
-    d'''2                                                                      %! baca_make_repeat_tied_notes
+    d'''2                                                                      %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:PiecewiseCommand(1)
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 9°/C }                                                         %! baca.markup:IndicatorCommand
@@ -987,13 +987,13 @@ M_Violin_I_Music_Voice = {                                                     %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    d'''8                                                                      %! baca_make_repeat_tied_notes
+    d'''8                                                                      %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 655 / measure 30]                        %! _comment_measure_numbers
-    c'''2.                                                                     %! baca_make_repeat_tied_notes
+    c'''2.                                                                     %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 656 / measure 31]                        %! _comment_measure_numbers
-    c'''2.                                                                     %! baca_make_repeat_tied_notes
+    c'''2.                                                                     %! baca.make_repeat_tied_notes
 
     % [M Violin_I_Music_Voice measure 657 / measure 32]                        %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -1002,7 +1002,7 @@ M_Violin_I_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    c'''2                                                                      %! baca_make_repeat_tied_notes
+    c'''2                                                                      %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 %@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
@@ -1065,7 +1065,7 @@ M_Violin_II_Music_Voice = {                                                    %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    fqs''!2                                                                    %! baca_make_repeat_tied_notes
+    fqs''!2                                                                    %! baca.make_repeat_tied_notes
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
@@ -1092,25 +1092,25 @@ M_Violin_II_Music_Voice = {                                                    %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    fqs''!8                                                                    %! baca_make_repeat_tied_notes
+    fqs''!8                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 627 / measure 2]                        %! _comment_measure_numbers
-    fqs''!2.                                                                   %! baca_make_repeat_tied_notes
+    fqs''!2.                                                                   %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 628 / measure 3]                        %! _comment_measure_numbers
-    fqs''!2.                                                                   %! baca_make_repeat_tied_notes
+    fqs''!2.                                                                   %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 629 / measure 4]                        %! _comment_measure_numbers
-    fqs''!2.                                                                   %! baca_make_repeat_tied_notes
+    fqs''!2.                                                                   %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 630 / measure 5]                        %! _comment_measure_numbers
-    fqs''!2                                                                    %! baca_make_repeat_tied_notes
+    fqs''!2                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 631 / measure 6]                        %! _comment_measure_numbers
-    fqs''!2..                                                                  %! baca_make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 632 / measure 7]                        %! _comment_measure_numbers
-    fqs''!2..                                                                  %! baca_make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 633 / measure 8]                        %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1119,7 +1119,7 @@ M_Violin_II_Music_Voice = {                                                    %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    fqs''!1                                                                    %! baca_make_repeat_tied_notes
+    fqs''!1                                                                    %! baca.make_repeat_tied_notes
 
     \times 4/5 {                                                               %! stirrings_still.pickets
 
@@ -1196,7 +1196,7 @@ M_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still.pickets
 
     % [M Violin_II_Music_Voice measure 638 / measure 13]                       %! _comment_measure_numbers
-    fqs''!1                                                                    %! baca_make_repeat_tied_notes
+    fqs''!1                                                                    %! baca.make_repeat_tied_notes
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 11°/C }                                                        %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1219,13 +1219,13 @@ M_Violin_II_Music_Voice = {                                                    %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    fqs''!2..                                                                  %! baca_make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 640 / measure 15]                       %! _comment_measure_numbers
-    fqs''!2..                                                                  %! baca_make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 641 / measure 16]                       %! _comment_measure_numbers
-    fqs''!1                                                                    %! baca_make_repeat_tied_notes
+    fqs''!1                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 642 / measure 17]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1311,7 +1311,7 @@ M_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still.pickets
 
     % [M Violin_II_Music_Voice measure 646 / measure 21]                       %! _comment_measure_numbers
-    fqs''!2..                                                                  %! baca_make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 11°/C }                                                        %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1334,15 +1334,15 @@ M_Violin_II_Music_Voice = {                                                    %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    fqs''!2..                                                                  %! baca_make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 648 / measure 23]                       %! _comment_measure_numbers
-    fqs''!2                                                                    %! baca_make_repeat_tied_notes
+    fqs''!2                                                                    %! baca.make_repeat_tied_notes
 
-    fqs''!8                                                                    %! baca_make_repeat_tied_notes
+    fqs''!8                                                                    %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 649 / measure 24]                       %! _comment_measure_numbers
-    fqs''!2.                                                                   %! baca_make_repeat_tied_notes
+    fqs''!2.                                                                   %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 650 / measure 25]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1413,7 +1413,7 @@ M_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! stirrings_still.pickets
 
     % [M Violin_II_Music_Voice measure 654 / measure 29]                       %! _comment_measure_numbers
-    fqs''!2                                                                    %! baca_make_repeat_tied_notes
+    fqs''!2                                                                    %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:PiecewiseCommand(1)
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 11°/C }                                                        %! baca.markup:IndicatorCommand
@@ -1436,13 +1436,13 @@ M_Violin_II_Music_Voice = {                                                    %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    f''8                                                                       %! baca_make_repeat_tied_notes
+    f''8                                                                       %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 655 / measure 30]                       %! _comment_measure_numbers
-    f''2.                                                                      %! baca_make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 656 / measure 31]                       %! _comment_measure_numbers
-    e''2.                                                                      %! baca_make_repeat_tied_notes
+    e''2.                                                                      %! baca.make_repeat_tied_notes
 
     % [M Violin_II_Music_Voice measure 657 / measure 32]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -1451,7 +1451,7 @@ M_Violin_II_Music_Voice = {                                                    %
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    eqf''!2                                                                    %! baca_make_repeat_tied_notes
+    eqf''!2                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
@@ -1515,7 +1515,7 @@ M_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    aqf'!2                                                                     %! baca_make_repeat_tied_notes
+    aqf'!2                                                                     %! baca.make_repeat_tied_notes
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "allow vibrato to achieve loud dynamics" }                     %! baca.markup:IndicatorCommand
@@ -1541,25 +1541,25 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    aqf'!8                                                                     %! baca_make_repeat_tied_notes
+    aqf'!8                                                                     %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 627 / measure 2]                            %! _comment_measure_numbers
-    aqf'!2.                                                                    %! baca_make_repeat_tied_notes
+    aqf'!2.                                                                    %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 628 / measure 3]                            %! _comment_measure_numbers
-    aqf'!2.                                                                    %! baca_make_repeat_tied_notes
+    aqf'!2.                                                                    %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 629 / measure 4]                            %! _comment_measure_numbers
-    aqf'!2.                                                                    %! baca_make_repeat_tied_notes
+    aqf'!2.                                                                    %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 630 / measure 5]                            %! _comment_measure_numbers
-    aqf'!2                                                                     %! baca_make_repeat_tied_notes
+    aqf'!2                                                                     %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 631 / measure 6]                            %! _comment_measure_numbers
-    aqf'!2..                                                                   %! baca_make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 632 / measure 7]                            %! _comment_measure_numbers
-    aqf'!2..                                                                   %! baca_make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 633 / measure 8]                            %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1568,7 +1568,7 @@ M_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    aqf'!1                                                                     %! baca_make_repeat_tied_notes
+    aqf'!1                                                                     %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 634 / measure 9]                            %! _comment_measure_numbers
     <d' gs'!>4
@@ -1629,7 +1629,7 @@ M_Viola_Music_Voice = {                                                        %
     <d' gs'!>4
 
     % [M Viola_Music_Voice measure 638 / measure 13]                           %! _comment_measure_numbers
-    aqf'!1                                                                     %! baca_make_repeat_tied_notes
+    aqf'!1                                                                     %! baca.make_repeat_tied_notes
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 13°/C }                                                        %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1652,13 +1652,13 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    aqf'!2..                                                                   %! baca_make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 640 / measure 15]                           %! _comment_measure_numbers
-    aqf'!2..                                                                   %! baca_make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 641 / measure 16]                           %! _comment_measure_numbers
-    aqf'!1                                                                     %! baca_make_repeat_tied_notes
+    aqf'!1                                                                     %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 642 / measure 17]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1726,7 +1726,7 @@ M_Viola_Music_Voice = {                                                        %
     <d' gs'!>4
 
     % [M Viola_Music_Voice measure 646 / measure 21]                           %! _comment_measure_numbers
-    aqf'!2..                                                                   %! baca_make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 13°/C }                                                        %! baca.markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1749,15 +1749,15 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    aqf'!2..                                                                   %! baca_make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 648 / measure 23]                           %! _comment_measure_numbers
-    aqf'!2                                                                     %! baca_make_repeat_tied_notes
+    aqf'!2                                                                     %! baca.make_repeat_tied_notes
 
-    aqf'!8                                                                     %! baca_make_repeat_tied_notes
+    aqf'!8                                                                     %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 649 / measure 24]                           %! _comment_measure_numbers
-    aqf'!2.                                                                    %! baca_make_repeat_tied_notes
+    aqf'!2.                                                                    %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 650 / measure 25]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1818,7 +1818,7 @@ M_Viola_Music_Voice = {                                                        %
     <d' gs'!>4
 
     % [M Viola_Music_Voice measure 654 / measure 29]                           %! _comment_measure_numbers
-    aqf'!2                                                                     %! baca_make_repeat_tied_notes
+    aqf'!2                                                                     %! baca.make_repeat_tied_notes
     \!                                                                         %! baca.hairpin:PiecewiseCommand(1)
     - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
     ^ \markup { 13°/C }                                                        %! baca.markup:IndicatorCommand
@@ -1841,13 +1841,13 @@ M_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    a'8                                                                        %! baca_make_repeat_tied_notes
+    a'8                                                                        %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 655 / measure 30]                           %! _comment_measure_numbers
-    g'2.                                                                       %! baca_make_repeat_tied_notes
+    g'2.                                                                       %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 656 / measure 31]                           %! _comment_measure_numbers
-    g'2.                                                                       %! baca_make_repeat_tied_notes
+    g'2.                                                                       %! baca.make_repeat_tied_notes
 
     % [M Viola_Music_Voice measure 657 / measure 32]                           %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -1856,7 +1856,7 @@ M_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    gqf'!2                                                                     %! baca_make_repeat_tied_notes
+    gqf'!2                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
