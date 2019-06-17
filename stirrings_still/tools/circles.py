@@ -20,11 +20,11 @@ def circles(
         divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            rmakers.BeamSpecifier(beam_each_division=True),
-            division_masks=dmask,
-            tuplet_specifier=rmakers.TupletSpecifier(
+            rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_sustained=True
             ),
+            rmakers.BeamSpecifier(beam_each_division=True),
+            division_masks=dmask,
         ),
         tag="stirrings_still.circles",
     )

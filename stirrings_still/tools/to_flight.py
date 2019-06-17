@@ -19,6 +19,9 @@ def to_flight(
         divisions=baca.divisions().fuse().split(divisions, cyclic=True),
         measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
+            rmakers.TupletSpecifier(
+                duration_bracket=True, extract_trivial=True
+            ),
             rmakers.BeamSpecifier(
                 beam_each_division=True,
                 beam_rests=True,
@@ -39,8 +42,5 @@ def to_flight(
                 ),
             ],
             tag="stirrings_still.to_flight",
-            tuplet_specifier=rmakers.TupletSpecifier(
-                duration_bracket=True, extract_trivial=True
-            ),
         ),
     )

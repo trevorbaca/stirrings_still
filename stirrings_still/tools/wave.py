@@ -16,6 +16,7 @@ def wave(
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
+            rmakers.TupletSpecifier(duration_bracket=True),
             rmakers.BeamSpecifier(
                 beam_each_division=True,
                 beam_rests=True,
@@ -34,7 +35,6 @@ def wave(
                     written_duration=(1, 16),
                 ),
             ],
-            tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
         ),
         tag="stirrings_still.wave",
     )

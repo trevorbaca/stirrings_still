@@ -42,10 +42,7 @@ def desynchronization(
         measures=measures,
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             *specifiers,
-            rmakers.BeamSpecifier(beam_each_division=True),
-            denominators=denominators,
-            extra_counts_per_division=extra_counts,
-            tuplet_specifier=rmakers.TupletSpecifier(
+            rmakers.TupletSpecifier(
                 denominator=(1, denominator),
                 diminution=diminution,
                 extract_trivial=True,
@@ -53,6 +50,9 @@ def desynchronization(
                 rewrite_dots=True,
                 trivialize=True,
             ),
+            rmakers.BeamSpecifier(beam_each_division=True),
+            denominators=denominators,
+            extra_counts_per_division=extra_counts,
         ),
         tag="stirrings_still.desynchronization",
     )
