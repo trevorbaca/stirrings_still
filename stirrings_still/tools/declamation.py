@@ -11,15 +11,15 @@ def declamation(
     """
 
     tuplet_rhythm_maker = rmakers.TupletRhythmMaker(
-        rmakers.BeamSpecifier(beam_each_division=True),
-        tag="stirrings_still.declamation",
-        tuplet_ratios=[(3, 1)],
-        tuplet_specifier=rmakers.TupletSpecifier(
+        rmakers.TupletSpecifier(
             denominator=(1, 8),
             extract_trivial=True,
             force_fraction=True,
             rewrite_dots=True,
         ),
+        rmakers.BeamSpecifier(beam_each_division=True),
+        tag="stirrings_still.declamation",
+        tuplet_ratios=[(3, 1)],
     )
 
     note_rhythm_maker = rmakers.NoteRhythmMaker(
