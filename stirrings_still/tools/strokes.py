@@ -29,6 +29,6 @@ def strokes(
             ),
         ),
         rewrite_rest_filled_divisions=True,
-        split_at_measure_boundaries=True,
+        split_measures=True,
         tag="stirrings_still.strokes",
     )
