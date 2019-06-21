@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def circles(
     duration: abjad.DurationTyping,
-    *,
+    *specifiers: rmakers.SpecifierTyping,
     dmask: rmakers.MasksTyping = None,
     measures: baca.SliceTyping = None,
     remainder: abjad.HorizontalAlignment = abjad.Right,
@@ -20,6 +20,7 @@ def circles(
         divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
+            *specifiers,
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_sustained=True
             ),

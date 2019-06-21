@@ -653,7 +653,7 @@ maker(
         stirrings_still.pickets(
             4,
             2,
-            dmask=baca.silence_first(),
+            rmakers.SilenceMask(selector=baca.tuplet(0)),
             ),
         match=0,
         ),
@@ -667,7 +667,7 @@ maker(
         stirrings_still.pickets(
             4,
             1,
-            dmask=baca.silence_first(),
+            rmakers.SilenceMask(selector=baca.tuplet(0)),
             ),
         match=1,
         ),
@@ -681,7 +681,7 @@ maker(
         stirrings_still.pickets(
             4,
             0,
-            dmask=baca.silence_first(),
+            rmakers.SilenceMask(selector=baca.tuplet(0)),
             ),
         match=2,
         ),
