@@ -2,6 +2,7 @@ import abjad
 import baca
 import os
 import stirrings_still
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -126,9 +127,13 @@ maker(
     stirrings_still.pickets(
         4,
         2,
-        dmask=baca.sustain_first(),
+        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[:1].leaves()[:-1],
         ),
-    )
+    ),
+)
 
 maker(
     ('v1', (25, 28)),
@@ -140,9 +145,13 @@ maker(
     stirrings_still.pickets(
         4,
         2,
-        dmask=baca.sustain_first(),
+        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[:1].leaves()[:-1],
         ),
-    )
+    ),
+)
 
 maker(
     ('v1', (29, 32)),
@@ -320,9 +329,13 @@ maker(
     stirrings_still.pickets(
         4,
         1,
-        dmask=baca.sustain_first(),
+        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[:1].leaves()[:-1],
         ),
-    )
+    ),
+)
 
 maker(
     ('v2', (25, 28)),
@@ -334,9 +347,13 @@ maker(
     stirrings_still.pickets(
         4,
         1,
-        dmask=baca.sustain_first(),
+        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[:1].leaves()[:-1],
         ),
-    )
+    ),
+)
 
 maker(
     ('v2', (29, 32)),
@@ -427,9 +444,13 @@ maker(
     stirrings_still.pickets(
         4,
         0,
-        dmask=baca.sustain_first(),
+        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[:1].leaves()[:-1],
         ),
-    )
+    ),
+)
 
 maker(
     ('va', (25, 28)),
@@ -441,9 +462,13 @@ maker(
     stirrings_still.pickets(
         4,
         0,
-        dmask=baca.sustain_first(),
+        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[:1].leaves()[:-1],
         ),
-    )
+    ),
+)
 
 maker(
     ('va', (29, 32)),

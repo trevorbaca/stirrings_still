@@ -6,7 +6,7 @@ from abjadext import rmakers
 def pickets(
     fuse: int,
     extra_count: int,
-    *,
+    *specifiers: rmakers.SpecifierTyping,
     dmask: rmakers.MasksTyping = None,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
@@ -30,7 +30,12 @@ def pickets(
         divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            rmakers.TupletSpecifier(extract_trivial=True),
+            *specifiers,
+            rmakers.TupletSpecifier(
+                extract_trivial=True,
+                rewrite_rest_filled=True,
+                rewrite_sustained=True,
+            ),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=[tuplet_ratio],
