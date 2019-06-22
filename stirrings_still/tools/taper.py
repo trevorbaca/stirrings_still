@@ -14,10 +14,10 @@ def taper(
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.TieSpecifier(
-                repeat_ties=(1, 4), tie_consecutive_notes=True
+                attach_repeat_ties=True, selector=baca.notes()[1:]
             ),
+            rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             tuplet_ratios=[tuplet_ratio],
         ),
