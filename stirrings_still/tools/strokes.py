@@ -17,8 +17,15 @@ def strokes(
         measures=measures,
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
+            rmakers.TieSpecifier(
+                detach_ties=True,
+                selector=baca.tuplets().map(baca.leaves()[:-1]),
+            ),
+            rmakers.TieSpecifier(
+                attach_ties=True,
+                selector=baca.tuplets().map(baca.leaves()[:-1]),
+            ),
             rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.TieSpecifier(tie_within_divisions=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             duration_specifier=rmakers.DurationSpecifier(
