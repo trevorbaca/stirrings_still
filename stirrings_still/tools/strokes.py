@@ -35,7 +35,6 @@ def strokes(
                 suffix_talea=[1], suffix_counts=[1], talea_denominator=8
             ),
         ),
-        rewrite_rest_filled_divisions=True,
         split_measures=True,
         tag="stirrings_still.strokes",
     )
