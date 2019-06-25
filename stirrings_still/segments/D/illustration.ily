@@ -1930,7 +1930,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 5/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! stirrings_still.strokes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1938,6 +1938,8 @@ D_Violin_I_Music_Voice = {                                                     %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+    r8                                                                         %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 208 / measure 2]                         %! _comment_measure_numbers
     d''4                                                                       %! stirrings_still.strokes
@@ -1972,7 +1974,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 209 / measure 3]                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 210 / measure 4]                         %! _comment_measure_numbers
     d''4                                                                       %! stirrings_still.strokes
@@ -1999,7 +2001,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 211 / measure 5]                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 212 / measure 6]                         %! _comment_measure_numbers
     d''4                                                                       %! stirrings_still.strokes
@@ -2024,7 +2026,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 213 / measure 7]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 214 / measure 8]                         %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -2051,7 +2053,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 215 / measure 9]                         %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2..                                                                       %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 216 / measure 10]                        %! _comment_measure_numbers
     dqs''!4.                                                                   %! stirrings_still.strokes
@@ -2067,7 +2069,7 @@ D_Violin_I_Music_Voice = {                                                     %
     - \baca-stop-on-string                                                     %! baca.stop_on_string:IndicatorCommand
 
     % [D Violin_I_Music_Voice measure 217 / measure 11]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 218 / measure 12]                        %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -2096,7 +2098,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 219 / measure 13]                        %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2..                                                                       %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 220 / measure 14]                        %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -2123,7 +2125,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 221 / measure 15]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 222 / measure 16]                        %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -2150,7 +2152,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 223 / measure 17]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 224 / measure 18]                        %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -2173,7 +2175,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 225 / measure 19]                        %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2..                                                                       %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 226 / measure 20]                        %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -2200,7 +2202,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 227 / measure 21]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 228 / measure 22]                        %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -2227,7 +2229,9 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 229 / measure 23]                        %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! stirrings_still.strokes
+
+    r8                                                                         %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 230 / measure 24]                        %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -2256,7 +2260,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 231 / measure 25]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 232 / measure 26]                        %! _comment_measure_numbers
     ef''!4.                                                                    %! stirrings_still.strokes
@@ -2272,7 +2276,7 @@ D_Violin_I_Music_Voice = {                                                     %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
 
     % [D Violin_I_Music_Voice measure 233 / measure 27]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 234 / measure 28]                        %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -2301,7 +2305,9 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 235 / measure 29]                        %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! stirrings_still.strokes
+
+    r8                                                                         %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 236 / measure 30]                        %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -2330,7 +2336,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 237 / measure 31]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 238 / measure 32]                        %! _comment_measure_numbers
     ef''!4.                                                                    %! stirrings_still.strokes
@@ -2346,7 +2352,7 @@ D_Violin_I_Music_Voice = {                                                     %
     - \baca-stop-on-string                                                     %! baca.stop_on_string:IndicatorCommand
 
     % [D Violin_I_Music_Voice measure 239 / measure 33]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 240 / measure 34]                        %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -2371,7 +2377,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_I_Music_Voice measure 241 / measure 35]                        %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2..                                                                       %! stirrings_still.strokes
 
     % [D Violin_I_Music_Voice measure 242 / measure 36]                        %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -3828,7 +3834,7 @@ D_Violin_II_Music_Voice = {                                                    %
     r4
 
     % [D Violin_II_Music_Voice measure 218 / measure 12]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.
 
     % [D Violin_II_Music_Voice measure 219 / measure 13]                       %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -3913,7 +3919,9 @@ D_Violin_II_Music_Voice = {                                                    %
     r4
 
     % [D Violin_II_Music_Voice measure 224 / measure 18]                       %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2
+
+    r8
 
     % [D Violin_II_Music_Voice measure 225 / measure 19]                       %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -3964,7 +3972,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_II_Music_Voice measure 227 / measure 21]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! stirrings_still.strokes
 
     % [D Violin_II_Music_Voice measure 228 / measure 22]                       %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -4011,7 +4019,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_II_Music_Voice measure 230 / measure 24]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_II_Music_Voice measure 231 / measure 25]                       %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -4053,7 +4061,7 @@ D_Violin_II_Music_Voice = {                                                    %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
 
     % [D Violin_II_Music_Voice measure 233 / measure 27]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_II_Music_Voice measure 234 / measure 28]                       %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -4102,7 +4110,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_II_Music_Voice measure 236 / measure 30]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Violin_II_Music_Voice measure 237 / measure 31]                       %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -4142,7 +4150,7 @@ D_Violin_II_Music_Voice = {                                                    %
     - \baca-stop-on-string                                                     %! baca.stop_on_string:IndicatorCommand
 
     % [D Violin_II_Music_Voice measure 239 / measure 33]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! stirrings_still.strokes
 
     % [D Violin_II_Music_Voice measure 240 / measure 34]                       %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -4189,7 +4197,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Violin_II_Music_Voice measure 242 / measure 36]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! stirrings_still.strokes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5404,7 +5412,7 @@ D_Viola_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    R1 * 5/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -5413,8 +5421,14 @@ D_Viola_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
+    r8
+
     % [D Viola_Music_Voice measure 208 / measure 2]                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r8
+
+    r2
+
+    r8
 
     % [D Viola_Music_Voice measure 209 / measure 3]                            %! _comment_measure_numbers
     r8
@@ -5440,10 +5454,12 @@ D_Viola_Music_Voice = {                                                        %
     r8
 
     % [D Viola_Music_Voice measure 210 / measure 4]                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.
 
     % [D Viola_Music_Voice measure 211 / measure 5]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r8
+
+    r4.
 
     % [D Viola_Music_Voice measure 212 / measure 6]                            %! _comment_measure_numbers
     r8
@@ -5586,7 +5602,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Viola_Music_Voice measure 219 / measure 13]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2..
 
     % [D Viola_Music_Voice measure 220 / measure 14]                           %! _comment_measure_numbers
     r8
@@ -5700,7 +5716,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Viola_Music_Voice measure 225 / measure 19]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2..
 
     % [D Viola_Music_Voice measure 226 / measure 20]                           %! _comment_measure_numbers
     r8
@@ -5816,7 +5832,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Viola_Music_Voice measure 231 / measure 25]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Viola_Music_Voice measure 232 / measure 26]                           %! _comment_measure_numbers
     dqs''!4                                                                    %! stirrings_still.strokes
@@ -5920,7 +5936,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Viola_Music_Voice measure 238 / measure 32]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! stirrings_still.strokes
 
     % [D Viola_Music_Voice measure 239 / measure 33]                           %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -5945,7 +5961,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Viola_Music_Voice measure 240 / measure 34]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2..                                                                       %! stirrings_still.strokes
 
     % [D Viola_Music_Voice measure 241 / measure 35]                           %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
@@ -5970,7 +5986,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Viola_Music_Voice measure 242 / measure 36]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! stirrings_still.strokes
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -7189,7 +7205,7 @@ D_Cello_Music_Voice = {                                                        %
     r8
 
     % [D Cello_Music_Voice measure 209 / measure 3]                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.
 
     % [D Cello_Music_Voice measure 210 / measure 4]                            %! _comment_measure_numbers
     r8
@@ -7212,10 +7228,12 @@ D_Cello_Music_Voice = {                                                        %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Cello_Music_Voice measure 211 / measure 5]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2
 
     % [D Cello_Music_Voice measure 212 / measure 6]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r4
+
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Cello_Music_Voice measure 213 / measure 7]                            %! _comment_measure_numbers
     d''4.                                                                      %! stirrings_still.strokes
@@ -7233,7 +7251,11 @@ D_Cello_Music_Voice = {                                                        %
     r2
 
     % [D Cello_Music_Voice measure 214 / measure 8]                            %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r4
+
+    r2
+
+    r8
 
     % [D Cello_Music_Voice measure 215 / measure 9]                            %! _comment_measure_numbers
     r8
@@ -7269,10 +7291,14 @@ D_Cello_Music_Voice = {                                                        %
     r4
 
     % [D Cello_Music_Voice measure 217 / measure 11]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2
+
+    r8
+
+    r8
 
     % [D Cello_Music_Voice measure 218 / measure 12]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.
 
     % [D Cello_Music_Voice measure 219 / measure 13]                           %! _comment_measure_numbers
     d''4                                                                       %! stirrings_still.strokes
@@ -7613,7 +7639,7 @@ D_Cello_Music_Voice = {                                                        %
     r2                                                                         %! stirrings_still.strokes
 
     % [D Cello_Music_Voice measure 237 / measure 31]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! stirrings_still.strokes
 
     % [D Cello_Music_Voice measure 238 / measure 32]                           %! _comment_measure_numbers
     ef''!4.                                                                    %! stirrings_still.strokes
@@ -7651,7 +7677,7 @@ D_Cello_Music_Voice = {                                                        %
     \revert NoteHead.X-extent                                                  %! baca.note_head_x_extent_zero:OverrideCommand(2)
 
     % [D Cello_Music_Voice measure 240 / measure 34]                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2..                                                                       %! stirrings_still.strokes
 
     % [D Cello_Music_Voice measure 241 / measure 35]                           %! _comment_measure_numbers
     ef''!4                                                                     %! stirrings_still.strokes
