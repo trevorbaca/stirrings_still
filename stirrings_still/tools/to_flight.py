@@ -23,8 +23,8 @@ def to_flight(
                 duration_bracket=True, extract_trivial=True
             ),
             rmakers.BeamSpecifier(
-                beam_each_division=True,
                 beam_rests=True,
+                selector=baca.tuplets(),
                 stemlet_length=0.75,
                 use_feather_beams=True,
             ),
