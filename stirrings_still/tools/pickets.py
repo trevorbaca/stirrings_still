@@ -32,11 +32,10 @@ def pickets(
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
             rmakers.TupletSpecifier(
-                extract_trivial=True,
-                rewrite_rest_filled=True,
-                rewrite_sustained=True,
+                rewrite_rest_filled=True, rewrite_sustained=True
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
+            rmakers.TupletSpecifier(extract_trivial=True),
             division_masks=dmask,
             tuplet_ratios=[tuplet_ratio],
         ),

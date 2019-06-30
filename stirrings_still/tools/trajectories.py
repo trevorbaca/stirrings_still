@@ -29,8 +29,8 @@ def trajectories(
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
     rhythm = baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True, force_fraction=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             extra_counts_per_division=extra_counts,
             tag="stirrings_still.trajectories",

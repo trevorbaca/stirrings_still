@@ -26,6 +26,7 @@ def talea_eighths(
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 denominator=(1, 8),
                 extract_trivial=True,
@@ -35,7 +36,6 @@ def talea_eighths(
                 trivialize=True,
             ),
             rmakers.TieSpecifier(repeat_ties=(1, 4)),
-            rmakers.BeamSpecifier(beam_each_division=True),
             extra_counts_per_division=extra_counts_per_division,
             talea=rmakers.Talea(
                 counts=counts_, denominator=8, end_counts=end_counts

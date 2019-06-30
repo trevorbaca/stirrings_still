@@ -11,7 +11,7 @@ def solid_line_rhythm(
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(selector=baca.plts()),
             duration_specifier=rmakers.DurationSpecifier(
                 forbidden_note_duration=(1, 2)
             ),

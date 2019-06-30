@@ -27,10 +27,10 @@ def clockticks(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             extra_counts_per_division=[1],
             talea=rmakers.Talea(counts=counts, denominator=8),
