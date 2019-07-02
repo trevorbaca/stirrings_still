@@ -24,7 +24,8 @@ def declamation(
 
     note_rhythm_maker = rmakers.NoteRhythmMaker(
         rmakers.BeamSpecifier(selector=baca.plts()),
-        rmakers.TieSpecifier(tie_across_divisions=True, repeat_ties=True),
+        rmakers.TieSpecifier(attach_ties=True, selector=baca.ptails()[:-1]),
+        rmakers.TieSpecifier(repeat_ties=True),
     )
 
     if protract is True:
