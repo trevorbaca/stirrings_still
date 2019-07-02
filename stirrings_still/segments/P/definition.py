@@ -91,7 +91,7 @@ maker(
     baca.rhythm(
         [
             (stirrings_still.wave((4, 16), (1, 16)), [1, 2, 5]),
-            (baca.make_repeat_tied_notes(), True),
+            (baca.make_repeat_tied_notes(do_not_rewrite_meter=True), True),
             ],
         ),
     )
@@ -236,7 +236,7 @@ maker(
     baca.rhythm(
         [
             (stirrings_still.wave((6, 16), (1, 16)), [0, 2, 4]),
-            (baca.make_repeat_tied_notes(), True),
+            (baca.make_repeat_tied_notes(do_not_rewrite_meter=True), True),
             ],
         ),
     )
@@ -334,7 +334,7 @@ maker(
     baca.rhythm(
         [
             (stirrings_still.wave((5, 16), (1, 16)), [3, 4, 5]),
-            (baca.make_repeat_tied_notes(), True),
+            (baca.make_repeat_tied_notes(do_not_rewrite_meter=True), True),
             ],
         ),
     )
@@ -416,7 +416,7 @@ maker(
     baca.rhythm(
         [
             (stirrings_still.wave((7, 16), (1, 16)), [1, 2, 3]),
-            (baca.make_repeat_tied_notes(), True),
+            (baca.make_repeat_tied_notes(do_not_rewrite_meter=True), True),
             ],
         ),
     )
