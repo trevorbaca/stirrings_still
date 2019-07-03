@@ -620,13 +620,20 @@ L_Violin_I_Music_Voice = {                                                     %
         \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #6 #7                                   %! stirrings_still.bcps:BCPCommand(2)
         - \tweak staff-padding #7                                              %! stirrings_still.bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
         b''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
+        - \tweak staff-padding #9.5                                            %! stirrings_still.bcps:BCPCommand(8)
+        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still.trajectories
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still.bcps:BCPCommand(2)
+        - \tweak staff-padding #7                                              %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
     }                                                                          %! stirrings_still.trajectories
 
@@ -638,6 +645,7 @@ L_Violin_I_Music_Voice = {                                                     %
     bqf''!1                                                                    %! stirrings_still.trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(1)
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
     \glissando                                                                 %! baca.glissando
 
@@ -1392,13 +1400,20 @@ L_Violin_II_Music_Voice = {                                                    %
         \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still.bcps:BCPCommand(2)
         - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
         e''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(1)
+        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
+        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still.trajectories
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #6 #7                                   %! stirrings_still.bcps:BCPCommand(2)
+        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
 
     }                                                                          %! stirrings_still.trajectories
 
@@ -1410,6 +1425,7 @@ L_Violin_II_Music_Voice = {                                                    %
     ef''!1                                                                     %! stirrings_still.trajectories
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(1)
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
     \glissando                                                                 %! baca.glissando
 

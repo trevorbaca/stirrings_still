@@ -76,9 +76,20 @@ maker(
         'C',
         0,
         -3,
-        dmask=rmakers.sustain([2, 6, 10, 14, 15]),
+        rmakers.TieSpecifier(
+            detach_ties=True,
+            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+                baca.pleaves().lleak(),
+            ),
         ),
-    )
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+                baca.pleaves()[:-1],
+            ),
+        ),
+    ),
+)
 
 maker(
     ('v1', (1, 2)),
@@ -194,9 +205,20 @@ maker(
         'C',
         -1,
         -2,
-        dmask=rmakers.sustain([2, 6, 10, 14, 15]),
+        rmakers.TieSpecifier(
+            detach_ties=True,
+            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+                baca.pleaves().lleak(),
+            ),
         ),
-    )
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+                baca.pleaves()[:-1],
+            ),
+        ),
+    ),
+)
 
 maker(
     ('v2', (1, 2)),
@@ -302,9 +324,20 @@ maker(
         'C',
         -2,
         -1,
-        dmask=rmakers.sustain([2, 6, 10, 14, 15]),
+        rmakers.TieSpecifier(
+            detach_ties=True,
+            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+                baca.pleaves().lleak(),
+            ),
         ),
-    )
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+                baca.pleaves()[:-1],
+            ),
+        ),
+    ),
+)
 
 maker(
     ('va', (1, 2)),

@@ -6,7 +6,6 @@ from abjadext import rmakers
 def circles(
     duration: abjad.DurationTyping,
     *specifiers: rmakers.SpecifierTyping,
-    dmask: rmakers.MasksTyping = None,
     measures: baca.SliceTyping = None,
     remainder: abjad.HorizontalAlignment = abjad.Right,
 ) -> baca.RhythmCommand:
@@ -17,15 +16,16 @@ def circles(
     divisions = divisions.split([duration], cyclic=True, remainder=remainder)
     divisions = divisions.flatten(depth=-1)
     return baca.rhythm(
-        divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.plts()),
             rmakers.TupletSpecifier(
-                extract_trivial=True, rewrite_sustained=True
+                extract_trivial=True,
+                rewrite_rest_filled=True,
+                rewrite_sustained=True,
             ),
-            division_masks=dmask,
+            divisions=divisions,
         ),
         tag="stirrings_still.circles",
     )

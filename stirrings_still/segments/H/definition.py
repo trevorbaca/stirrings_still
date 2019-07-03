@@ -381,7 +381,7 @@ maker(
     baca.pitch('Bqf3'),
     stirrings_still.circles(
         (1, 2),
-        dmask=rmakers.silence([0]),
+        rmakers.SilenceMask(selector=baca.lt(0)),
         remainder=abjad.Left,
         ),
     )

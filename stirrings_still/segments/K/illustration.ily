@@ -1512,31 +1512,26 @@ K_Violin_I_Music_Voice = {                                                     %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \bacaStopTextSpanHalfCLT                                                   %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 4/3 {                                                               %! stirrings_still.trajectories
-
-        % [K Violin_I_Music_Voice measure 566 / measure 11]                    %! _comment_measure_numbers
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        df''!4.                                                                %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(6)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(6)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(6)
-        - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #10.5                                           %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca.glissando
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-
-    }                                                                          %! stirrings_still.trajectories
+    % [K Violin_I_Music_Voice measure 566 / measure 11]                        %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca.glissando
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando
+    \revert NoteHead.no-ledgers                                                %! baca.glissando
+    \undo \hide NoteHead                                                       %! baca.glissando
+    df''!2                                                                     %! stirrings_still.trajectories
+    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(6)
+    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(6)
+    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(6)
+    - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #10.5                                               %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still.bcps:BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
     \times 5/6 {                                                               %! stirrings_still.trajectories
