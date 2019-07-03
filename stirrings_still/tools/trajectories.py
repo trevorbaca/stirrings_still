@@ -7,8 +7,7 @@ def trajectories(
     counts: str,
     rotation: int,
     extra_counts_rotation: int,
-    *,
-    dmask: rmakers.MasksTyping = None,
+    *specifiers: rmakers.SpecifierTyping,
     end_counts: abjad.IntegerSequence = None,
     measures: baca.SliceTyping = None,
 ) -> baca.Suite:
@@ -29,9 +28,11 @@ def trajectories(
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
     rhythm = baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.TupletSpecifier(force_fraction=True),
+            *specifiers,
+            rmakers.TupletSpecifier(rewrite_sustained=True),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(extract_trivial=True, force_fraction=True),
-            division_masks=dmask,
+            rmakers.TupletSpecifier(extract_trivial=True),
             extra_counts_per_division=extra_counts,
             tag="stirrings_still.trajectories",
             talea=talea,

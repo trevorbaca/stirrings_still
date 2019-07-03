@@ -173,10 +173,10 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', (1, 4)),
     stirrings_still.clockticks(
+        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([0], 2)]),
         displace=True,
-        dmask=rmakers.silence([0], 2),
-        ),
-    )
+    ),
+)
 
 maker(
     ('v1', (1, 7)),
