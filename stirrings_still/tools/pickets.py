@@ -7,7 +7,6 @@ def pickets(
     fuse: int,
     extra_count: int,
     *specifiers: rmakers.SpecifierTyping,
-    dmask: rmakers.MasksTyping = None,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
     """
@@ -36,7 +35,6 @@ def pickets(
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
-            division_masks=dmask,
             tuplet_ratios=[tuplet_ratio],
         ),
         tag="stirrings_still.pickets",

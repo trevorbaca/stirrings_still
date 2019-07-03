@@ -5,8 +5,7 @@ from abjadext import rmakers
 
 def strokes(
     rotation: int,
-    *,
-    dmask: rmakers.MasksTyping = None,
+    *specifiers: rmakers.SpecifierTyping,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
     """
@@ -17,6 +16,7 @@ def strokes(
         measures=measures,
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
+            *specifiers,
             rmakers.TieSpecifier(
                 detach_ties=True,
                 selector=baca.tuplets().map(baca.leaves()[:-1]),
@@ -26,8 +26,9 @@ def strokes(
                 selector=baca.tuplets().map(baca.leaves()[:-1]),
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(extract_trivial=True),
-            division_masks=dmask,
+            rmakers.TupletSpecifier(
+                extract_trivial=True, rewrite_rest_filled=True
+            ),
             duration_specifier=rmakers.DurationSpecifier(
                 forbidden_note_duration=(1, 2)
             ),

@@ -6,7 +6,6 @@ from abjadext import rmakers
 def clockticks(
     *specifiers: rmakers.SpecifierTyping,
     displace: bool = False,
-    dmask: rmakers.MasksTyping = None,
     encroach: bool = False,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
@@ -31,7 +30,6 @@ def clockticks(
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
-            division_masks=dmask,
             extra_counts_per_division=[1],
             talea=rmakers.Talea(counts=counts, denominator=8),
         ),
