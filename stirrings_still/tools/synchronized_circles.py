@@ -32,16 +32,11 @@ def synchronized_circles(
     else:
         raise TypeError(rests)
 
-    dmask = None
-    if sustain is not None:
-        assert isinstance(sustain, list)
-        dmask = [rmakers.sustain(sustain)]
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
-            division_masks=dmask,
             talea=rmakers.Talea(counts=counts, denominator=8),
         ),
         tag="stirrings_still.synchronized_circles",

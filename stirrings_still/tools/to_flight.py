@@ -6,7 +6,6 @@ from abjadext import rmakers
 def to_flight(
     divisions: abjad.DurationSequenceTyping,
     *,
-    dmask: rmakers.MasksTyping = None,
     measures: baca.SliceTyping = None,
     start: abjad.DurationTyping = (1, 4),
     stop: abjad.DurationTyping = (1, 8),
@@ -28,7 +27,6 @@ def to_flight(
                 stemlet_length=0.75,
                 use_feather_beams=True,
             ),
-            division_masks=dmask,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=start,
