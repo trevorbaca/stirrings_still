@@ -1745,27 +1745,23 @@ G_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! stirrings_still.clockticks
 
-    {
+    \times 2/3 {
 
-        \times 2/3 {
+        % [G Violin_II_Music_Voice measure 459 / measure 13]                   %! _comment_measure_numbers
+        f''8
+        - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-            % [G Violin_II_Music_Voice measure 459 / measure 13]               %! _comment_measure_numbers
-            f''8
-            - \upbow                                                           %! baca.alternate_bow_strokes:IndicatorCommand
+        r4
 
-            r4
+    }
 
-        }
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        f''8
+        - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-            f''8
-            - \downbow                                                         %! baca.alternate_bow_strokes:IndicatorCommand
-
-            r8
-
-        }
+        r8
 
     }
 
