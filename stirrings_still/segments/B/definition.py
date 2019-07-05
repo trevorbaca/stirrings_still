@@ -266,7 +266,7 @@ maker(
 maker(
     ('v1', 15),
     baca.rhythm(
-        abjad.parse(r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }")[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -274,16 +274,8 @@ maker(
 maker(
     ('v1', 16),
     baca.rhythm(
-#        abjad.select([
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r16"),
-#            ]),
-        abjad.parse(
-            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
-            r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 } }"
-        )[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
+        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -296,11 +288,7 @@ maker(
 maker(
     ('v1', 17),
     baca.rhythm(
-#        abjad.select([
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r8"),
-#            ]),
-        abjad.parse(r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }")[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -887,11 +875,7 @@ maker(
 maker(
     ('v2', 15),
     baca.rhythm(
-#        abjad.select([
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r8"),
-#            ]),
-        abjad.parse(r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }")[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -916,11 +900,7 @@ maker(
 maker(
     ('v2', 13),
     baca.rhythm(
-#        abjad.select([
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r8"),
-#            ]),
-        abjad.parse(r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }")[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -938,16 +918,8 @@ maker(
 maker(
     ('v2', 16),
     baca.rhythm(
-#        abjad.select([
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r16"),
-#            ]),
-        abjad.parse(
-            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
-            r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 } }"
-        )[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
+        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -960,11 +932,7 @@ maker(
 maker(
     ('v2', 17),
     baca.rhythm(
-#        abjad.select([
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r8"),
-#            ]),
-        abjad.parse(r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }")[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -1529,16 +1497,8 @@ maker(
 maker(
     ('vc', 16),
     baca.rhythm(
-#        abjad.select([
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r16"),
-#            ]),
-        abjad.parse(
-            r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
-            r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 } }"
-        )[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r4 }"
+        r" \times 2/3 { c'8 r4 } \times 2/3 { c'8 r16 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -1578,11 +1538,7 @@ maker(
 maker(
     ('vc', 17),
     baca.rhythm(
-#        abjad.select([
-#            abjad.Tuplet((2, 3), "c'8 r4"),
-#            abjad.Tuplet((2, 3), "c'8 r8"),
-#            ]),
-        abjad.parse(r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }")[:],
+        r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
         annotate_unpitched_music=True,
         ),
     )
