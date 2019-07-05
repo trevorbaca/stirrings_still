@@ -11,6 +11,7 @@ def grid(
     """
     counts = baca.sequence([1, -3, 1, -3, 1, -2])
     counts = counts.rotate(n=rotation)
+
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(

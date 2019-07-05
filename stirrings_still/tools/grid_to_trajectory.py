@@ -17,6 +17,7 @@ def grid_to_trajectory(
     counts_ = counts_.rotate(n=rotation)
     assert isinstance(extra, int), repr(extra)
     extra_counts_per_division = [extra]
+
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(

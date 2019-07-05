@@ -38,6 +38,7 @@ def desynchronization(
         diminution = None
     else:
         diminution = True
+
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
