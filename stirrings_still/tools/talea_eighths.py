@@ -37,9 +37,9 @@ def talea_eighths(
             ),
             rmakers.TieSpecifier(repeat_ties=(1, 4)),
             extra_counts_per_division=extra_counts_per_division,
+            tag="stirrings_still.talea_eighths",
             talea=rmakers.Talea(
                 counts=counts_, denominator=8, end_counts=end_counts
             ),
         ),
-        tag="stirrings_still.talea_eighths",
     )

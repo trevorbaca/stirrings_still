@@ -53,6 +53,6 @@ def desynchronization(
             rmakers.TupletSpecifier(extract_trivial=True),
             denominators=denominators,
             extra_counts_per_division=extra_counts,
+            tag="stirrings_still.desynchronization",
         ),
-        tag="stirrings_still.desynchronization",
     )

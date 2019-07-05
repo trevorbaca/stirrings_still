@@ -19,7 +19,7 @@ def taper(
                 attach_repeat_ties=True, selector=baca.notes()[1:]
             ),
             rmakers.TupletSpecifier(extract_trivial=True),
+            tag="stirrings_still.taper",
             tuplet_ratios=[tuplet_ratio],
         ),
-        tag="stirrings_still.taper",
     )

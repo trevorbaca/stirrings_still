@@ -22,7 +22,6 @@ def clockticks(
         divisions = baca.divisions().fuse().split([(1, 4)], cyclic=True)
         counts = [1, -2]
     return baca.rhythm(
-        divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
@@ -30,8 +29,9 @@ def clockticks(
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
+            divisions=divisions,
             extra_counts_per_division=[1],
+            tag="stirrings_still.clockticks",
             talea=rmakers.Talea(counts=counts, denominator=8),
         ),
-        tag="stirrings_still.clockticks",
     )
