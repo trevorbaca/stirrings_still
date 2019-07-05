@@ -10,7 +10,7 @@ def trajectories(
     *specifiers: rmakers.SpecifierTyping,
     end_counts: abjad.IntegerSequence = None,
     measures: baca.SliceTyping = None,
-) -> baca.Suite:
+) -> baca.RhythmCommand:
     """
     Makes trajectories.
     """
