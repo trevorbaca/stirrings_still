@@ -14,6 +14,6 @@ def measure_initiation() -> baca.RhythmCommand:
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=[2], prefix_counts=[1], talea_denominator=8
             ),
-        ),
-        tag="stirrings_still.measure_initation",
+            tag="stirrings_still.measure_initation",
+        )
     )

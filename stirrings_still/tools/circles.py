@@ -14,7 +14,6 @@ def circles(
     """
     divisions = baca.divisions().fuse()
     divisions = divisions.split([duration], cyclic=True, remainder=remainder)
-    divisions = divisions.flatten(depth=-1)
     return baca.rhythm(
         measures=measures,
         rhythm_maker=rmakers.NoteRhythmMaker(
@@ -26,6 +25,6 @@ def circles(
                 rewrite_sustained=True,
             ),
             divisions=divisions,
+            tag="stirrings_still.circles",
         ),
-        tag="stirrings_still.circles",
     )

@@ -10,6 +10,8 @@ def declamation(
     Makes declamation.
     """
 
+    tag = "stirrings_still.declamation"
+
     tuplet_rhythm_maker = rmakers.TupletRhythmMaker(
         rmakers.BeamSpecifier(selector=baca.tuplets()),
         rmakers.TupletSpecifier(
@@ -18,7 +20,7 @@ def declamation(
             force_fraction=True,
             rewrite_dots=True,
         ),
-        tag="stirrings_still.declamation",
+        tag=tag,
         tuplet_ratios=[(3, 1)],
     )
 
@@ -26,6 +28,7 @@ def declamation(
         rmakers.BeamSpecifier(selector=baca.plts()),
         rmakers.TieSpecifier(attach_ties=True, selector=baca.ptails()[:-1]),
         rmakers.TieSpecifier(repeat_ties=True),
+        tag=tag,
     )
 
     if protract is True:

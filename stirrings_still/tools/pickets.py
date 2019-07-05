@@ -26,7 +26,6 @@ def pickets(
     tuplet_ratio = counts * (1,)
 
     return baca.rhythm(
-        divisions=divisions,
         measures=measures,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
@@ -35,7 +34,8 @@ def pickets(
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
+            divisions=divisions,
+            tag="stirrings_still.pickets",
             tuplet_ratios=[tuplet_ratio],
         ),
-        tag="stirrings_still.pickets",
     )

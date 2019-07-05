@@ -15,7 +15,6 @@ def to_flight(
     """
 
     return baca.rhythm(
-        divisions=baca.divisions().fuse().split(divisions, cyclic=True),
         measures=measures,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             rmakers.TupletSpecifier(
@@ -27,6 +26,7 @@ def to_flight(
                 stemlet_length=0.75,
                 use_feather_beams=True,
             ),
+            divisions=baca.divisions().fuse().split(divisions, cyclic=True),
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=start,

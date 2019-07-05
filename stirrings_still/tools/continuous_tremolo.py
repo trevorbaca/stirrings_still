@@ -14,8 +14,8 @@ def continuous_tremolo() -> baca.Suite:
                     attach_ties=True, selector=baca.ptails()[:-1]
                 ),
                 rmakers.TieSpecifier(repeat_ties=(1, 2)),
-            ),
-            tag="stirrings_still.continuous_tremolo",
+                tag="stirrings_still.continuous_tremolo",
+            )
         ),
         baca.stem_tremolo(selector=baca.pleaves()),
     )

@@ -7754,7 +7754,7 @@ D_Cello_Music_Voice = {                                                        %
     \stopStaff                                                                 %! _style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(2)
     \startStaff                                                                %! _style_fermata_measures(2)
-    a''8.
+    a''8.                                                                      %! stirrings_still.cello_cell
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -7767,7 +7767,7 @@ D_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    [
+    [                                                                          %! stirrings_still.cello_cell
     \glissando                                                                 %! baca.glissando
     - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
@@ -7784,45 +7784,45 @@ D_Cello_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    a''16
+    a''16                                                                      %! stirrings_still.cello_cell
     - \tweak self-alignment-X #left                                            %! baca.bcps:BCPCommand(7)
     - \tweak staff-padding #7.0                                                %! baca.bcps:BCPCommand(7)
     - \upbow                                                                   %! baca.bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca.bcps:BCPCommand(3)
-    ]
+    ]                                                                          %! stirrings_still.cello_cell
     - \abjad-solid-line-with-arrow                                             %! baca.bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps:BCPCommand(2)
     - \tweak staff-padding #4.5                                                %! baca.bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps:BCPCommand(2)
 
-    a''8
+    a''8                                                                       %! stirrings_still.cello_cell
     - \tweak self-alignment-X #left                                            %! baca.bcps:BCPCommand(8)
     - \tweak staff-padding #7.0                                                %! baca.bcps:BCPCommand(8)
     - \downbow                                                                 %! baca.bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca.bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still.cello_cell
     - \abjad-solid-line-with-arrow                                             %! baca.bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca.bcps:BCPCommand(2)
     - \tweak staff-padding #4.5                                                %! baca.bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps:BCPCommand(2)
 
-    a''8
+    a''8                                                                       %! stirrings_still.cello_cell
     - \tweak self-alignment-X #left                                            %! baca.bcps:BCPCommand(7)
     - \tweak staff-padding #7.0                                                %! baca.bcps:BCPCommand(7)
     - \upbow                                                                   %! baca.bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca.bcps:BCPCommand(3)
-    ]
+    ]                                                                          %! stirrings_still.cello_cell
     - \abjad-solid-line-with-arrow                                             %! baca.bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca.bcps:BCPCommand(2)
     - \tweak staff-padding #4.5                                                %! baca.bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps:BCPCommand(2)
 
-    a''8.
+    a''8.                                                                      %! stirrings_still.cello_cell
     - \tweak self-alignment-X #left                                            %! baca.bcps:BCPCommand(8)
     - \tweak staff-padding #7.0                                                %! baca.bcps:BCPCommand(8)
     - \downbow                                                                 %! baca.bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca.bcps:BCPCommand(3)
-    [
+    [                                                                          %! stirrings_still.cello_cell
     - \abjad-solid-line-with-arrow                                             %! baca.bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca.bcps:BCPCommand(2)
     - \baca-bcp-spanner-right-text #7 #7                                       %! baca.bcps:BCPCommand(2)
@@ -7833,9 +7833,9 @@ D_Cello_Music_Voice = {                                                        %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a''16
+    a''16                                                                      %! stirrings_still.cello_cell
     \bacaStopTextSpanBCP                                                       %! baca.bcps:BCPCommand(1)
-    ]
+    ]                                                                          %! stirrings_still.cello_cell
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container

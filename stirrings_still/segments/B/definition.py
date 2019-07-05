@@ -779,12 +779,12 @@ maker(
             'mp-sub',
             abjad.tweak(-0.75).self_alignment_X,
             ),
-        stirrings_still.grid(1, 0),
+        stirrings_still.grid(rotation=0),
         match=0,
         ),
     baca.new(
         baca.dynamic('mp-sub'),
-        stirrings_still.grid(1, -1),
+        stirrings_still.grid(rotation=-1),
         match=1,
         ),
     baca.new(
@@ -797,7 +797,7 @@ maker(
             'mp-sub',
             abjad.tweak(-0.75).self_alignment_X,
             ),
-        stirrings_still.grid(1, -2),
+        stirrings_still.grid(rotation=-2),
         match=2,
         ),
     baca.new(
@@ -807,7 +807,7 @@ maker(
             selector=baca.leaves().rleak()[-1],
             ),
         baca.dynamic('mp-sub'),
-        stirrings_still.grid(1, -3),
+        stirrings_still.grid(rotation=-3),
         match=3,
         ),
     baca.pitch('Eb5'),

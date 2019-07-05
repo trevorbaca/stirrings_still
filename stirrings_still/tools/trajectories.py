@@ -26,7 +26,9 @@ def trajectories(
     talea = rmakers.Talea(counts=counts_, denominator=8, end_counts=end_counts)
     extra_counts = baca.sequence([1, 1, 0, -1])
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
-    rhythm = baca.rhythm(
+
+    return baca.rhythm(
+        measures=measures,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.TupletSpecifier(force_fraction=True),
             *specifiers,
@@ -36,6 +38,5 @@ def trajectories(
             extra_counts_per_division=extra_counts,
             tag="stirrings_still.trajectories",
             talea=talea,
-        )
+        ),
     )
-    return baca.suite(rhythm, measures=measures)

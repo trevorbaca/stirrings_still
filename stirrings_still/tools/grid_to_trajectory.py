@@ -26,7 +26,7 @@ def grid_to_trajectory(
             ),
             rmakers.TieSpecifier(repeat_ties=(1, 4)),
             extra_counts_per_division=extra_counts_per_division,
+            tag="stirrings_still.grid_to_trajectory",
             talea=rmakers.Talea(counts=counts_, denominator=8),
         ),
-        tag="stirrings_still.grid_to_trajectory",
     )
