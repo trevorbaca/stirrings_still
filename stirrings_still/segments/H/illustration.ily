@@ -3029,29 +3029,25 @@ H_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! stirrings_still.clockticks
 
-    {
+    \times 2/3 {
 
-        \times 2/3 {
+        % [H Violin_II_Music_Voice measure 505 / measure 34]                   %! _comment_measure_numbers
+        f''8
+        - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-            % [H Violin_II_Music_Voice measure 505 / measure 34]               %! _comment_measure_numbers
-            f''8
-            - \upbow                                                           %! baca.alternate_bow_strokes:IndicatorCommand
+        r4
 
-            r4
+    }
 
-        }
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        f''8
+        - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-            f''8
-            - \downbow                                                         %! baca.alternate_bow_strokes:IndicatorCommand
-
-            r8
-            \revert TupletBracket.staff-padding                                %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
-            \revert TupletNumber.text                                          %! baca.tuplet_number_denominator:OverrideCommand(2)
-
-        }
+        r8
+        \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
+        \revert TupletNumber.text                                              %! baca.tuplet_number_denominator:OverrideCommand(2)
 
     }
 
