@@ -12,9 +12,7 @@ def strokes(
     Makes strokes.
     """
     return baca.rhythm(
-        divisions=baca.divisions().rotate(n=rotation),
         measures=measures,
-        multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             *specifiers,
             rmakers.TieSpecifier(
@@ -29,13 +27,14 @@ def strokes(
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
+            rmakers.SplitCommand(),
+            divisions=baca.divisions().rotate(n=rotation),
             duration_specifier=rmakers.DurationSpecifier(
                 forbidden_note_duration=(1, 2)
             ),
             incise_specifier=rmakers.InciseSpecifier(
                 suffix_talea=[1], suffix_counts=[1], talea_denominator=8
             ),
+            tag="stirrings_still.strokes",
         ),
-        split_measures=True,
-        tag="stirrings_still.strokes",
     )
