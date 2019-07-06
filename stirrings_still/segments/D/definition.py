@@ -1024,10 +1024,7 @@ maker(
     ('vc', 57),
     baca.flat_glissando('B1'),
     baca.hairpin('o<| mf'),
-    baca.make_rhythm(
-        'c2. ~ c4',
-        repeat_tie_threshold=(1, 4),
-        ),
+    baca.rhythm("c2. ~ c4"),
     stirrings_still.flight_spanner('memory of flight -|', 5.5),
     )
 
