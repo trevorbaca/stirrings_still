@@ -170,7 +170,7 @@ maker(
     ('vc', 1),
     baca.flat_glissando('B0'),
     baca.hairpin('o< mf'),
-    baca.rhythm("c2. ~ c4"),
+    baca.skeleton("c2. ~ c4"),
     baca.ottava_bassa(),
     )
 

@@ -296,9 +296,8 @@ maker(
         measures=33,
         ),
     baca.new(
-        baca.rhythm(
+        baca.skeleton(
             r"\times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 }",
-            annotate_unpitched_music=True,
             ),
         measures=34,
         ),
@@ -333,9 +332,8 @@ maker(
         measures=53,
         ),
     baca.new(
-        baca.rhythm(
+        baca.skeleton(
             r"{ \times 2/3 { c'8 r4 } \times 2/3 { c'8 r8 } }",
-            annotate_unpitched_music=True,
             ),
         measures=54,
         ),

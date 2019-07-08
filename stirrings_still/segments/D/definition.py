@@ -1024,7 +1024,7 @@ maker(
     ('vc', 57),
     baca.flat_glissando('B1'),
     baca.hairpin('o<| mf'),
-    baca.rhythm("c2. ~ c4"),
+    baca.skeleton("c2. ~ c4"),
     stirrings_still.flight_spanner('memory of flight -|', 5.5),
     )
 
