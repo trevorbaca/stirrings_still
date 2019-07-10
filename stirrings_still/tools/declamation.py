@@ -37,8 +37,12 @@ def declamation(
             divisions=baca.divisions().map(split),
             measures=measures,
             rhythm_maker=rmakers.DivisionAssignments(
-                rmakers.DivisionAssignment(abjad.index([0]), tuplet_rhythm_maker),
-                rmakers.DivisionAssignment(~abjad.index([0]), note_rhythm_maker),
+                rmakers.DivisionAssignment(
+                    abjad.index([0]), tuplet_rhythm_maker
+                ),
+                rmakers.DivisionAssignment(
+                    ~abjad.index([0]), note_rhythm_maker
+                ),
             ),
         )
     else:
