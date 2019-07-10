@@ -19,15 +19,18 @@ def grid_to_trajectory(
     extra_counts_per_division = [extra]
 
     return baca.rhythm(
-        measures=measures,
-        rhythm_maker=rmakers.TaleaRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TaleaRhythmMaker(
+                extra_counts_per_division=extra_counts_per_division,
+                tag="stirrings_still.grid_to_trajectory",
+                talea=rmakers.Talea(counts=counts_, denominator=8),
+            ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 denominator=(1, 8), extract_trivial=True, force_fraction=True
             ),
             rmakers.TieSpecifier(repeat_ties=(1, 4)),
-            extra_counts_per_division=extra_counts_per_division,
             tag="stirrings_still.grid_to_trajectory",
-            talea=rmakers.Talea(counts=counts_, denominator=8),
         ),
+        measures=measures,
     )

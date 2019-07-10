@@ -40,8 +40,12 @@ def desynchronization(
         diminution = True
 
     return baca.rhythm(
-        measures=measures,
-        rhythm_maker=rmakers.EvenDivisionRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.EvenDivisionRhythmMaker(
+                denominators=denominators,
+                extra_counts_per_division=extra_counts,
+                tag="stirrings_still.desynchronization",
+            ),
             *specifiers,
             rmakers.TupletSpecifier(
                 denominator=(1, denominator),
@@ -52,8 +56,7 @@ def desynchronization(
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
-            denominators=denominators,
-            extra_counts_per_division=extra_counts,
             tag="stirrings_still.desynchronization",
         ),
+        measures=measures,
     )

@@ -13,8 +13,17 @@ def accelerando(
     Makes accelerando.
     """
     return baca.rhythm(
-        measures=measures,
-        rhythm_maker=rmakers.AccelerandoRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.AccelerandoRhythmMaker(
+                interpolation_specifiers=[
+                    rmakers.InterpolationSpecifier(
+                        start_duration=start,
+                        stop_duration=stop,
+                        written_duration=(1, 16),
+                    )
+                ],
+                tag="stirrings_still.accelerando",
+            ),
             rmakers.TupletSpecifier(duration_bracket=True),
             rmakers.BeamSpecifier(
                 beam_rests=True,
@@ -23,13 +32,7 @@ def accelerando(
                 use_feather_beams=True,
             ),
             divisions=baca.divisions().fuse(),
-            interpolation_specifiers=[
-                rmakers.InterpolationSpecifier(
-                    start_duration=start,
-                    stop_duration=stop,
-                    written_duration=abjad.Duration(1, 16),
-                )
-            ],
             tag="stirrings_still.accelerando",
         ),
+        measures=measures,
     )
