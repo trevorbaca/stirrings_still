@@ -90,13 +90,13 @@ maker(
 maker(
     ('v1', (5, 10)),
     baca.rhythm(
-        rmakers.DivisionAssignments(
-            rmakers.DivisionAssignment(
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
                 abjad.index([1, 2, 5]),
                 stirrings_still.wave((4, 16), (1, 16)),
                 remember_state_across_gaps=True,
             ),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(
                 abjad.index([0], 1),
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
             ),
@@ -141,13 +141,13 @@ maker(
 maker(
     ('v1', (15, 20)),
     baca.rhythm(
-        rmakers.DivisionAssignments(
-            rmakers.DivisionAssignment(
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
                 abjad.index([1, 2, 5]),
                 stirrings_still.wave((4, 16), (1, 16)),
                 remember_state_across_gaps=True,
             ),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(
                 abjad.index([0], 1),
                 baca.make_repeat_tied_notes(),
             ),
@@ -249,13 +249,13 @@ maker(
 maker(
     ('v2', (5, 10)),
     baca.rhythm(
-        rmakers.DivisionAssignments(
-            rmakers.DivisionAssignment(
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
                 abjad.index([0, 2, 4]),
                 stirrings_still.wave((6, 16), (1, 16)),
                 remember_state_across_gaps=True,
             ),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(
                 abjad.index([0], 1),
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
             ),
@@ -293,17 +293,17 @@ maker(
 maker(
     ('v2', (15, 20)),
     baca.rhythm(
-        rmakers.DivisionAssignments(
-            rmakers.DivisionAssignment(
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
                 abjad.index([0, 2, 4]),
                 stirrings_still.wave((6, 16), (1, 16)),
                 remember_state_across_gaps=True,
             ),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(
                 abjad.index([5]),
                 stirrings_still.eighths(),
             ),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(
                 abjad.index([0], 1),
                 baca.make_repeat_tied_notes(),
             ),
@@ -364,13 +364,13 @@ maker(
 maker(
     ('va', (5, 10)),
     baca.rhythm(
-        rmakers.DivisionAssignments(
-            rmakers.DivisionAssignment(
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
                 abjad.index([3, 4,5 ]),
                 stirrings_still.wave((5, 16), (1, 16)),
                 remember_state_across_gaps=True,
             ),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(
                 abjad.index([0], 1),
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
             ),
@@ -406,13 +406,13 @@ maker(
 maker(
     ('va', (15, 20)),
     baca.rhythm(
-        rmakers.DivisionAssignments(
-            rmakers.DivisionAssignment(
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
                 abjad.index([3, 4, 5]),
                 stirrings_still.wave((5, 16), (1, 16)),
                 remember_state_across_gaps=True,
             ),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(
                 abjad.index([0], 1),
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
             ),
@@ -460,13 +460,13 @@ maker(
 maker(
     ('vc', (5, 10)),
     baca.rhythm(
-        rmakers.DivisionAssignments(
-            rmakers.DivisionAssignment(
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
                 abjad.index([1, 2, 3]),
                 stirrings_still.wave((7, 16), (1, 16)),
                 remember_state_across_gaps=True,
             ),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(
                 abjad.index([0], 1),
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
             ),
@@ -502,14 +502,14 @@ maker(
 maker(
     ('vc', (15, 20)),
     baca.rhythm(
-        rmakers.DivisionAssignments(
-            rmakers.DivisionAssignment(
+        rmakers.MakerAssignments(
+            rmakers.MakerAssignment(
                 abjad.index([1, 2, 3]),
                 stirrings_still.wave((7, 16), (1, 16)),
                 remember_state_across_gaps=True,
             ),
-            rmakers.DivisionAssignment(abjad.index([4, 5]), stirrings_still.eighths()),
-            rmakers.DivisionAssignment(
+            rmakers.MakerAssignment(abjad.index([4, 5]), stirrings_still.eighths()),
+            rmakers.MakerAssignment(
                 abjad.index([0], 1),
                 baca.make_repeat_tied_notes(),
             ),

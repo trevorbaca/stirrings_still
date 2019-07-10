@@ -36,11 +36,11 @@ def declamation(
         return baca.rhythm(
             divisions=baca.divisions().map(split),
             measures=measures,
-            rhythm_maker=rmakers.DivisionAssignments(
-                rmakers.DivisionAssignment(
+            rhythm_maker=rmakers.MakerAssignments(
+                rmakers.MakerAssignment(
                     abjad.index([0]), tuplet_rhythm_maker
                 ),
-                rmakers.DivisionAssignment(
+                rmakers.MakerAssignment(
                     ~abjad.index([0]), note_rhythm_maker
                 ),
             ),
