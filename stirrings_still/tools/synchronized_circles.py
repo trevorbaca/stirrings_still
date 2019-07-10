@@ -33,11 +33,14 @@ def synchronized_circles(
         raise TypeError(rests)
 
     return baca.rhythm(
-        measures=measures,
-        rhythm_maker=rmakers.TaleaRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TaleaRhythmMaker(
+                tag="stirrings_still.synchronized_circles",
+                talea=rmakers.Talea(counts=counts, denominator=8),
+            ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             tag="stirrings_still.synchronized_circles",
-            talea=rmakers.Talea(counts=counts, denominator=8),
         ),
+        measures=measures,
     )

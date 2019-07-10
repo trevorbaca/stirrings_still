@@ -13,11 +13,14 @@ def grid(
     counts = counts.rotate(n=rotation)
 
     return baca.rhythm(
-        measures=measures,
-        rhythm_maker=rmakers.TaleaRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TaleaRhythmMaker(
+                tag="stirrings_still.grid",
+                talea=rmakers.Talea(counts=counts, denominator=8),
+            ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
             tag="stirrings_still.grid",
-            talea=rmakers.Talea(counts=counts, denominator=8),
         ),
+        measures=measures,
     )

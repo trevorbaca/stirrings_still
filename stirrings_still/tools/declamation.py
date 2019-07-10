@@ -34,16 +34,26 @@ def declamation(
     if protract is True:
         split = baca.divisions().split([(1, 4)])
         return baca.rhythm(
-            divisions=baca.divisions().map(split),
-            measures=measures,
-            rhythm_maker=rmakers.MakerAssignments(
-                rmakers.MakerAssignment(abjad.index([0]), tuplet_rhythm_maker),
-                rmakers.MakerAssignment(~abjad.index([0]), note_rhythm_maker),
+            rmakers.RhythmCommand(
+                rmakers.MakerAssignments(
+                    rmakers.MakerAssignment(
+                        abjad.index([0]), tuplet_rhythm_maker
+                    ),
+                    rmakers.MakerAssignment(
+                        ~abjad.index([0]), note_rhythm_maker
+                    ),
+                ),
+                divisions=baca.divisions().map(split),
+                tag=tag,
             ),
+            measures=measures,
         )
     else:
         return baca.rhythm(
-            divisions=baca.divisions().fuse().split([(1, 4)]),
+            rmakers.RhythmCommand(
+                tuplet_rhythm_maker,
+                divisions=baca.divisions().fuse().split([(1, 4)]),
+                tag=tag,
+            ),
             measures=measures,
-            rhythm_maker=tuplet_rhythm_maker,
         )

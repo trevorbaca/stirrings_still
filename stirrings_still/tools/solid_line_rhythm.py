@@ -9,12 +9,15 @@ def solid_line_rhythm(
     Makes solid line rhythm.
     """
     return baca.rhythm(
-        measures=measures,
-        rhythm_maker=rmakers.NoteRhythmMaker(
-            rmakers.BeamSpecifier(selector=baca.plts()),
-            duration_specifier=rmakers.DurationSpecifier(
-                forbidden_note_duration=(1, 2)
+        rmakers.RhythmCommand(
+            rmakers.NoteRhythmMaker(
+                duration_specifier=rmakers.DurationSpecifier(
+                    forbidden_note_duration=(1, 2)
+                ),
+                tag="stirrings_still.solid_line_rhythm",
             ),
+            rmakers.BeamSpecifier(selector=baca.plts()),
             tag="stirrings_still.solid_line_rhythm",
         ),
+        measures=measures,
     )

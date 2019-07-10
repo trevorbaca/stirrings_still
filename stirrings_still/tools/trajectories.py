@@ -28,15 +28,18 @@ def trajectories(
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
 
     return baca.rhythm(
-        measures=measures,
-        rhythm_maker=rmakers.TaleaRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TaleaRhythmMaker(
+                extra_counts_per_division=extra_counts,
+                tag="stirrings_still.trajectories",
+                talea=talea,
+            ),
             rmakers.TupletSpecifier(force_fraction=True),
             *specifiers,
             rmakers.TupletSpecifier(rewrite_sustained=True),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
-            extra_counts_per_division=extra_counts,
             tag="stirrings_still.trajectories",
-            talea=talea,
         ),
+        measures=measures,
     )
