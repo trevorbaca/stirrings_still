@@ -540,7 +540,7 @@ maker(
             baca.stem_tremolo(selector=baca.pleaves()),
             map=baca.plts()[abjad.index([1], 2)],
             ),
-        baca.untie_to(selector=baca.pleaves()),
+        baca.untie(baca.leaves()),
         ),
     # stage 2 (after tie adjustments):
     baca.new(

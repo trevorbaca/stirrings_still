@@ -477,7 +477,7 @@ maker(
             baca.stem_tremolo(selector=baca.pleaves()),
             map=baca.plts()[abjad.index([1], 2)],
             ),
-        baca.untie_to(selector=baca.pleaves()),
+        baca.untie(baca.leaves()),
         ),
     )
 
@@ -1095,7 +1095,7 @@ maker(
                 '(3+7)°/F',
                 abjad.tweak(1.5).padding,
                 ),
-            baca.untie_to(),
+            baca.untie(baca.pleaf(0)),
             match=0,
             ),
         baca.flat_glissando('<Etqf4 C5>'),
@@ -1149,7 +1149,7 @@ maker(
                 '(9+11)°/F',
                 abjad.tweak(1.5).padding,
                 ),
-            baca.untie_to(),
+            baca.untie(baca.pleaf(0)),
             match=0,
             ),
         baca.flat_glissando('<Bqf3 G4>'),

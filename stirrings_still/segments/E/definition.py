@@ -212,9 +212,7 @@ maker(
             clt=True,
             staff_padding=4.5,
             ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+        baca.untie(baca.leaves()),
         ),
     baca.tuplet_bracket_down(),
     baca.flat_glissando('Ab4'),
@@ -814,9 +812,7 @@ maker(
             clt=True,
             staff_padding=4.5,
             ),
-        baca.untie_to(
-            selector=baca.leaves(),
-            ),
+        baca.untie(baca.leaves()),
         ),
     baca.tuplet_bracket_down(),
     stirrings_still.multistage_leaf_glissando(
