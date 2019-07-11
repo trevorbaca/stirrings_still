@@ -226,9 +226,7 @@ maker(
         selector=baca.leaf(0),
         ),
     baca.suite(
-        baca.untie_to(
-            selector=baca.pleaves(),
-            ),
+        baca.untie(baca.leaves()),
         baca.scp_spanner(
             'T -> P ->',
             abjad.tweak(5.5).staff_padding,

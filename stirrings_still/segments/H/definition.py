@@ -492,9 +492,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.note_head_style_harmonic(),
     baca.suite(
-        baca.untie_to(
-            selector=baca.leaf(1),
-            ),
+        baca.untie(baca.leaf(1)),
         baca.pitch(
             'Ab2',
             selector=baca.pleaf(0),
