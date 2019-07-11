@@ -19,9 +19,9 @@ def multistage_leaf_glissando(
 
     commands: typing.List[baca.CommandTyping] = []
     if rleak_final_stage:
-        command = baca.untie_to(selector=selector.rleak())
+        command = baca.untie(selector.rleak())
     else:
-        command = baca.untie_to(selector=selector)
+        command = baca.untie(selector)
     commands.append(command)
 
     start, stop = 0, None
