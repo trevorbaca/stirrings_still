@@ -2648,7 +2648,7 @@ C_Violin_I_Music_Voice = {                                                     %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    ~                                                                          %! TieCorrectionCommand
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     % [C Violin_I_Music_Voice measure 185 / measure 56]                        %! _comment_measure_numbers
     bqf''!4.                                                                   %! stirrings_still.synchronized_circles
@@ -3985,7 +3985,7 @@ C_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    ~                                                                          %! TieCorrectionCommand
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     % [C Violin_II_Music_Voice measure 185 / measure 56]                       %! _comment_measure_numbers
     bf'!4.                                                                     %! stirrings_still.synchronized_circles
@@ -5461,7 +5461,7 @@ C_Viola_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    ~                                                                          %! TieCorrectionCommand
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     % [C Viola_Music_Voice measure 185 / measure 56]                           %! _comment_measure_numbers
     bqf!4.                                                                     %! stirrings_still.synchronized_circles
@@ -6846,7 +6846,7 @@ C_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    ~                                                                          %! TieCorrectionCommand
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     % [C Cello_Music_Voice measure 185 / measure 56]                           %! _comment_measure_numbers
     bf,!4.                                                                     %! stirrings_still.synchronized_circles

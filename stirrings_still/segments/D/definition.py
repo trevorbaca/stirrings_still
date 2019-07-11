@@ -278,7 +278,7 @@ maker(
 
 maker(
     (['v1', 'v2'], (84, 92)),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     stirrings_still.continuous_tremolo(),
     )
 
@@ -330,7 +330,7 @@ maker(
         pieces=baca.clparts([1]),
         ),
     baca.new(
-        baca.repeat_tie_to(),
+        baca.repeat_tie(baca.pleaf(0)),
         baca.stop_on_string(),
         selector=baca.pleaf(-1),
         ),
@@ -930,7 +930,7 @@ maker(
 maker(
     ('va', [(84, 89), (94, 96)]),
     baca.new(
-        baca.repeat_tie_to(),
+        baca.repeat_tie(baca.pleaf(0)),
         match=0,
         ),
     stirrings_still.continuous_tremolo(),

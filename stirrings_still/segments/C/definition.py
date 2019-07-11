@@ -203,7 +203,7 @@ maker(
     ('v1', (36, 59)),
     baca.suite(
         baca.new(
-            baca.tie_to(),
+            baca.tie(baca.lleaf(0)),
             measures=56,
             ),
         baca.articulations(
@@ -747,7 +747,7 @@ maker(
     ('v2', (36, 59)),
     baca.suite(
         baca.new(
-            baca.tie_to(),
+            baca.tie(baca.lleaf(0)),
             measures=56,
             ),
         baca.articulations(
@@ -807,7 +807,7 @@ maker(
     ('va', (36, 59)),
     baca.suite(
         baca.new(
-            baca.tie_to(),
+            baca.tie(baca.lleaf(0)),
             measures=56,
             ),
         baca.articulations(
@@ -908,7 +908,7 @@ maker(
     ('vc', (36, 59)),
     baca.suite(
         baca.new(
-            baca.tie_to(),
+            baca.tie(baca.lleaf(0)),
             measures=56,
             ),
         baca.articulations(
