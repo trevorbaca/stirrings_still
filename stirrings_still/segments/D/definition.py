@@ -478,7 +478,6 @@ maker(
             map=baca.plts()[abjad.index([1], 2)],
             ),
         baca.untie_to(selector=baca.pleaves()),
-        baca.tie(repeat=(1, 4)),
         ),
     )
 
