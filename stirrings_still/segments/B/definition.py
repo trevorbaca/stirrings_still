@@ -1559,7 +1559,7 @@ maker(
         ),
     stirrings_still.trajectories('B', 0, 0),
     # stage 2:
-    baca.tie_to(),
+    baca.tie(baca.lleaf(0)),
     # stage 3:
     stirrings_still.multistage_leaf_glissando(
         [('Bb4', 6), ('D5', 6), ('C5', 6), ('Eb5', 6), ('D5', None)],
