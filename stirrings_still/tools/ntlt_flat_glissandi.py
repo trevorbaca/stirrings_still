@@ -13,6 +13,6 @@ def ntlt_flat_glissandi() -> baca.Suite:
             baca.note_head_x_extent_zero(),
             selector=baca.leaves()[1:],
         ),
-        baca.untie_to(selector=baca.leaves()),
+        baca.untie(baca.leaves()),
         map=baca.logical_ties(nontrivial=True),
     )
