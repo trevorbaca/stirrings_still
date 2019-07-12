@@ -1828,82 +1828,82 @@ B_Violin_I_Music_Voice = {                                                     %
 
     }                                                                          %! stirrings_still.clockticks
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Violin_I_Music_Voice measure 78 / measure 15]                     %! _comment_measure_numbers
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Violin_I_Music_Voice measure 79 / measure 16]                     %! _comment_measure_numbers
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r16
+        r16                                                                    %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Violin_I_Music_Voice measure 80 / measure 17]                     %! _comment_measure_numbers
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     \times 2/3 {                                                               %! stirrings_still.clockticks
 
@@ -4128,25 +4128,25 @@ B_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! stirrings_still.clockticks
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Violin_II_Music_Voice measure 76 / measure 13]                    %! _comment_measure_numbers
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton
 
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     \times 2/3 {                                                               %! stirrings_still.clockticks
 
@@ -4185,84 +4185,84 @@ B_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! stirrings_still.clockticks
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Violin_II_Music_Voice measure 78 / measure 15]                    %! _comment_measure_numbers
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton
 
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Violin_II_Music_Voice measure 79 / measure 16]                    %! _comment_measure_numbers
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r16
+        r16                                                                    %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Violin_II_Music_Voice measure 80 / measure 17]                    %! _comment_measure_numbers
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton
 
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca.tuplet_number_denominator:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
     \times 6/7 {                                                               %! stirrings_still.trajectories
@@ -8783,10 +8783,10 @@ B_Cello_Music_Voice = {                                                        %
 
     }
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Cello_Music_Voice measure 79 / measure 16]                        %! _comment_measure_numbers
-        dtqs''!8
+        dtqs''!8                                                               %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
         \bacaStopTextSpanCircleBow                                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanDamp                                                  %! DAMP:baca.damp_spanner:PiecewiseCommand(3)
@@ -8803,56 +8803,56 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        dtqs''!8
+        dtqs''!8                                                               %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        dtqs''!8
+        dtqs''!8                                                               %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
-        dtqs''!8
+        dtqs''!8                                                               %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r16
+        r16                                                                    %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [B Cello_Music_Voice measure 80 / measure 17]                        %! _comment_measure_numbers
-        dtqs''!8
+        dtqs''!8                                                               %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton
 
-        dtqs''!8
+        dtqs''!8                                                               %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     \times 2/3 {                                                               %! stirrings_still.clockticks
 

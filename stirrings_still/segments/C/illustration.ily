@@ -3593,25 +3593,25 @@ C_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! stirrings_still.clockticks
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [C Violin_II_Music_Voice measure 158 / measure 29]                   %! _comment_measure_numbers
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton
 
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     % [C Violin_II_Music_Voice measure 159 / measure 30]                       %! _comment_measure_numbers
     bf'!4.                                                                     %! stirrings_still.synchronized_circles

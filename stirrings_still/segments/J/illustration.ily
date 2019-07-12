@@ -996,26 +996,26 @@ J_Violin_II_Music_Voice = {                                                    %
 
     }                                                                          %! stirrings_still.clockticks
 
-    \times 2/3 {
+    \times 2/3 {                                                               %! baca.skeleton
 
         % [J Violin_II_Music_Voice measure 542 / measure 4]                    %! _comment_measure_numbers
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton
 
-        f''8
+        f''8                                                                   %! baca.skeleton
         - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     % [J Violin_II_Music_Voice measure 543 / measure 5]                        %! _comment_measure_numbers
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca.dynamic_text_self_alignment_x:OverrideCommand(1)
