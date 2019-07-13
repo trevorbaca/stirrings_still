@@ -114,7 +114,6 @@ def flight(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extra_counts,
-                tag="stirrings_still.flight",
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
@@ -128,7 +127,7 @@ def flight(
                 trivialize=True,
             ),
             rmakers.TieSpecifier(repeat_ties=(1, 4)),
-            tag="stirrings_still.flight",
         ),
         measures=measures,
+        tag="stirrings_still.flight",
     )

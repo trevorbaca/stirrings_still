@@ -21,8 +21,7 @@ def accelerando(
                         stop_duration=stop,
                         written_duration=(1, 16),
                     )
-                ],
-                tag="stirrings_still.accelerando",
+                ]
             ),
             rmakers.TupletSpecifier(duration_bracket=True),
             rmakers.BeamSpecifier(
@@ -32,7 +31,7 @@ def accelerando(
                 use_feather_beams=True,
             ),
             divisions=baca.divisions().fuse(),
-            tag="stirrings_still.accelerando",
         ),
         measures=measures,
+        tag="stirrings_still.accelerando",
     )

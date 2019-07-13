@@ -15,14 +15,11 @@ def running_quarter_divisions(
 
     return baca.rhythm(
         rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(
-                tag="stirrings_still.running_quarter_divisions",
-                tuplet_ratios=[ratio],
-            ),
+            rmakers.TupletRhythmMaker(tuplet_ratios=[ratio]),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
             divisions=baca.divisions().fuse().split([(1, 4)], cyclic=True),
-            tag="stirrings_still.running_quarter_divisions",
         ),
         measures=measures,
+        tag="stirrings_still.running_quarter_divisions",
     )

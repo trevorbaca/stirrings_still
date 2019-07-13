@@ -10,10 +10,9 @@ def eighths() -> baca.RhythmCommand:
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
                 rmakers.TupletSpecifier(extract_trivial=True),
-                tag="stirrings_still.eighths",
                 talea=rmakers.Talea(counts=[1], denominator=8),
             ),
             divisions=baca.divisions().fuse(),
-            tag="stirrings_still.eighths",
-        )
+        ),
+        tag="stirrings_still.eighths",
     )

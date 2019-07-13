@@ -35,9 +35,8 @@ def wave(
                         written_duration=(1, 16),
                     ),
                 ],
-                tag="stirrings_still.wave",
-            ),
-            tag="stirrings_still.wave",
+            )
         ),
         measures=measures,
+        tag="stirrings_still.wave",
     )

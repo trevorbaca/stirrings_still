@@ -20,7 +20,6 @@ def strokes(
                 incise_specifier=rmakers.InciseSpecifier(
                     suffix_talea=[1], suffix_counts=[1], talea_denominator=8
                 ),
-                tag="stirrings_still.strokes",
             ),
             *specifiers,
             rmakers.TieSpecifier(
@@ -37,7 +36,7 @@ def strokes(
             ),
             rmakers.SplitCommand(),
             divisions=baca.divisions().rotate(n=rotation),
-            tag="stirrings_still.strokes",
         ),
         measures=measures,
+        tag="stirrings_still.strokes",
     )
