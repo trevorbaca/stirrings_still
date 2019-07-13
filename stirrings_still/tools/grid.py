@@ -15,12 +15,11 @@ def grid(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                tag="stirrings_still.grid",
-                talea=rmakers.Talea(counts=counts, denominator=8),
+                talea=rmakers.Talea(counts=counts, denominator=8)
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
-            tag="stirrings_still.grid",
         ),
         measures=measures,
+        tag="stirrings_still.grid",
     )

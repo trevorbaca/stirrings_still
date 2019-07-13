@@ -35,12 +35,11 @@ def synchronized_circles(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                tag="stirrings_still.synchronized_circles",
-                talea=rmakers.Talea(counts=counts, denominator=8),
+                talea=rmakers.Talea(counts=counts, denominator=8)
             ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
-            tag="stirrings_still.synchronized_circles",
         ),
         measures=measures,
+        tag="stirrings_still.synchronized_circles",
     )

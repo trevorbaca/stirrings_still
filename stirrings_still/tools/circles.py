@@ -17,7 +17,7 @@ def circles(
 
     return baca.rhythm(
         rmakers.RhythmCommand(
-            rmakers.NoteRhythmMaker(tag="stirrings_still.circles"),
+            rmakers.NoteRhythmMaker(),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.plts()),
             rmakers.TupletSpecifier(
@@ -26,7 +26,7 @@ def circles(
                 rewrite_sustained=True,
             ),
             divisions=divisions,
-            tag="stirrings_still.circles",
         ),
         measures=measures,
+        tag="stirrings_still.circles",
     )

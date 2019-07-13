@@ -28,8 +28,7 @@ def to_flight(
                         stop_duration=(1, 2),
                         written_duration=(1, 4),
                     ),
-                ],
-                tag="stirrings_still.to_flight",
+                ]
             ),
             rmakers.TupletSpecifier(
                 duration_bracket=True, extract_trivial=True
@@ -41,7 +40,7 @@ def to_flight(
                 use_feather_beams=True,
             ),
             divisions=baca.divisions().fuse().split(divisions, cyclic=True),
-            tag="stirrings_still.to_flight",
         ),
         measures=measures,
+        tag="stirrings_still.to_flight",
     )

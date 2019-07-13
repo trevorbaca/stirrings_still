@@ -13,11 +13,10 @@ def solid_line_rhythm(
             rmakers.NoteRhythmMaker(
                 duration_specifier=rmakers.DurationSpecifier(
                     forbidden_note_duration=(1, 2)
-                ),
-                tag="stirrings_still.solid_line_rhythm",
+                )
             ),
             rmakers.BeamSpecifier(selector=baca.plts()),
-            tag="stirrings_still.solid_line_rhythm",
         ),
         measures=measures,
+        tag="stirrings_still.solid_line_rhythm",
     )

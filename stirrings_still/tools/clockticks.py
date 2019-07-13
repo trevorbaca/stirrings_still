@@ -26,7 +26,6 @@ def clockticks(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=[1],
-                tag="stirrings_still.clockticks",
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             *specifiers,
@@ -35,7 +34,7 @@ def clockticks(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
             divisions=divisions,
-            tag="stirrings_still.clockticks",
         ),
         measures=measures,
+        tag="stirrings_still.clockticks",
     )
