@@ -1,5 +1,6 @@
 import abjad
 import baca
+import typing
 from abjadext import rmakers
 
 
@@ -7,7 +8,7 @@ def circles(
     duration: abjad.DurationTyping,
     *specifiers: rmakers.SpecifierTyping,
     measures: baca.SliceTyping = None,
-    remainder: abjad.HorizontalAlignment = abjad.Right,
+    remainder: typing.Union[int, abjad.HorizontalAlignment] = abjad.Right,
 ) -> baca.RhythmCommand:
     """
     Makes circle rhythm with ``duration``.
