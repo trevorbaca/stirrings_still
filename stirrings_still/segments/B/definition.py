@@ -173,7 +173,7 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', (1, 4)),
     stirrings_still.clockticks(
-        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([0], 2)]),
+        rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
         displace=True,
     ),
 )
@@ -217,7 +217,7 @@ maker(
         selector=baca.tleaves().rleak(),
         ),
     stirrings_still.clockticks(
-        rmakers.SilenceMask(selector=baca.tuplet(-1)),
+        rmakers.SilenceMask(baca.tuplet(-1)),
         ),
     )
 
@@ -230,7 +230,7 @@ maker(
     baca.flat_glissando('C5'),
     stirrings_still.circles(
         (1, 4),
-        rmakers.SilenceMask(selector=baca.lt(-1)),
+        rmakers.SilenceMask(baca.lt(-1)),
         ),
     )
 
@@ -294,7 +294,7 @@ maker(
     ('v1', (18, 24)),
     baca.alternate_bow_strokes(),
     stirrings_still.clockticks(
-        rmakers.SilenceMask(selector=baca.tuplet(-1)),
+        rmakers.SilenceMask(baca.tuplet(-1)),
         ),
     )
 
@@ -831,7 +831,7 @@ maker(
         ),
     baca.tuplet_number_denominator(),
     stirrings_still.clockticks(
-        rmakers.SilenceMask(selector=baca.tuplet(-1)),
+        rmakers.SilenceMask(baca.tuplet(-1)),
         ),
     )
 
@@ -1130,7 +1130,7 @@ maker(
     baca.pitch('Eqs5'),
     baca.tuplet_bracket_staff_padding(1),
     stirrings_still.clockticks(
-        rmakers.SilenceMask(selector=baca.tuplet(-1)),
+        rmakers.SilenceMask(baca.tuplet(-1)),
         ),
     )
 
@@ -1417,7 +1417,7 @@ maker(
     baca.pitch('Dtqs5'),
     baca.tuplet_number_denominator(),
     stirrings_still.clockticks(
-        rmakers.SilenceMask(selector=baca.tuplet(-1)),
+        rmakers.SilenceMask(baca.tuplet(-1)),
         ),
     )
 
@@ -1459,7 +1459,7 @@ maker(
     baca.flat_glissando('G3'),
     stirrings_still.circles(
         (1, 4),
-        rmakers.SilenceMask(selector=baca.tuplet(-1)),
+        rmakers.SilenceMask(baca.tuplet(-1)),
         ),
     )
 
