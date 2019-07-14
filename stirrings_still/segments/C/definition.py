@@ -216,7 +216,7 @@ maker(
             ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.plts()[abjad.index([3], 4)],
+            map=baca.plts().get([3], 4),
             ),
         ),
     )
@@ -821,7 +821,7 @@ maker(
             ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.plts()[abjad.index([4], 5)],
+            map=baca.plts().get([4], 5),
             ),
         ),
     )
@@ -920,7 +920,7 @@ maker(
             ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.plts()[abjad.index([2], 3)],
+            map=baca.plts().get([2], 3),
             ),
         ),
     )

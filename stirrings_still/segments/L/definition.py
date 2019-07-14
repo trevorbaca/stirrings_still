@@ -78,13 +78,13 @@ maker(
         -3,
         rmakers.TieSpecifier(
             detach_ties=True,
-            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
                 baca.pleaves().lleak(),
             ),
         ),
         rmakers.TieSpecifier(
             attach_ties=True,
-            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
                 baca.pleaves()[:-1],
             ),
         ),
@@ -207,13 +207,13 @@ maker(
         -2,
         rmakers.TieSpecifier(
             detach_ties=True,
-            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
                 baca.pleaves().lleak(),
             ),
         ),
         rmakers.TieSpecifier(
             attach_ties=True,
-            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
                 baca.pleaves()[:-1],
             ),
         ),
@@ -326,13 +326,13 @@ maker(
         -1,
         rmakers.TieSpecifier(
             detach_ties=True,
-            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
                 baca.pleaves().lleak(),
             ),
         ),
         rmakers.TieSpecifier(
             attach_ties=True,
-            selector=baca.tuplets()[abjad.index([2, 6, 10, 14, 15])].map(
+            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
                 baca.pleaves()[:-1],
             ),
         ),

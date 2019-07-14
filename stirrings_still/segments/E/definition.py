@@ -168,7 +168,7 @@ maker(
         baca.accent(),
         baca.dynamic('sfp'),
         baca.stem_tremolo(selector=baca.pleaves()),
-        map=baca.plts()[abjad.index([0], 2)],
+        map=baca.plts().get([0], 2),
         ),
     baca.suite(
         baca.hairpin(
@@ -179,7 +179,7 @@ maker(
             abjad.tweak(5.5).staff_padding,
             ),
         baca.flat_glissando('Etqf4'),
-        map=baca.plts()[abjad.index([1], 2)],
+        map=baca.plts().get([1], 2),
         ),
     baca.pitch('Etqf4'),
     stirrings_still.grid_to_trajectory(0, 0, 2),
@@ -484,7 +484,7 @@ maker(
         baca.accent(),
         baca.dynamic('sfp'),
         baca.stem_tremolo(),
-        map=baca.plts()[abjad.index([0], 2)],
+        map=baca.plts().get([0], 2),
         ),
     baca.new(
         baca.hairpin(
@@ -494,7 +494,7 @@ maker(
         baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
             ),
-        map=baca.plts()[abjad.index([1], 2)],
+        map=baca.plts().get([1], 2),
         ),
     stirrings_still.measure_initiation(),
     )
@@ -758,13 +758,13 @@ maker(
         map=baca.plts().partition_by_counts(
             [4, 1, 3, 1, 2, 1, 99],
             cyclic=True,
-            )[abjad.index([0], 2)],
+            ).get([0], 2),
         ),
     baca.new(
         baca.accent(),
         baca.dynamic('sfp'),
         baca.stem_tremolo(selector=baca.pleaves()),
-        map=baca.plts()[abjad.index([0], 2)],
+        map=baca.plts().get([0], 2),
         ),
     baca.suite(
         baca.hairpin(
@@ -775,7 +775,7 @@ maker(
             abjad.tweak(5.5).staff_padding,
             ),
         baca.flat_glissando('Bqf3'),
-        map=baca.plts()[abjad.index([1], 2)],
+        map=baca.plts().get([1], 2),
         ),
     baca.pitch('Bqf3'),
     )
@@ -976,13 +976,13 @@ maker(
         map=baca.plts().partition_by_counts(
             [4, 1, 3, 1, 2, 1, 99],
             cyclic=True,
-            )[abjad.index([0], 2)],
+            ).get([0], 2),
         ),
     baca.new(
         baca.accent(),
         baca.dynamic('sfp'),
         baca.stem_tremolo(selector=baca.pleaves()),
-        map=baca.plts()[abjad.index([0], 2)],
+        map=baca.plts().get([0], 2),
         ),
     baca.suite(
         baca.hairpin(
@@ -993,7 +993,7 @@ maker(
             abjad.tweak(3).staff_padding,
             ),
         baca.flat_glissando('A3'),
-        map=baca.plts()[abjad.index([1], 2)],
+        map=baca.plts().get([1], 2),
         ),
     baca.pitch('A3'),
     stirrings_still.grid_to_trajectory(0, -4, 0),
@@ -1020,7 +1020,7 @@ maker(
             baca.accent(),
             baca.dynamic('sfp'),
             baca.stem_tremolo(),
-            map=baca.plts()[abjad.index([0], 2)],
+            map=baca.plts().get([0], 2),
             ),
         baca.new(
             baca.hairpin(
@@ -1030,7 +1030,7 @@ maker(
             baca.xfb_spanner(
                 abjad.tweak(5.5).staff_padding,
                 ),
-            map=baca.plts()[:-1][abjad.index([1], 2)],
+            map=baca.plts()[:-1].get([1], 2),
             ),
         baca.new(
             baca.hairpin(
