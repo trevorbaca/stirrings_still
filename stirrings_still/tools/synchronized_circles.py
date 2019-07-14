@@ -25,9 +25,7 @@ def synchronized_circles(
     if rests is None:
         pass
     elif isinstance(rests, list):
-        specifier = rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index(rests)]
-        )
+        specifier = rmakers.SilenceMask(baca.lts()[abjad.index(rests)])
         specifiers.append(specifier)
     else:
         raise TypeError(rests)

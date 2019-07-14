@@ -127,7 +127,7 @@ maker(
     stirrings_still.pickets(
         4,
         2,
-        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.SustainMask(baca.tuplet(0)),
         rmakers.TieSpecifier(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
@@ -145,7 +145,7 @@ maker(
     stirrings_still.pickets(
         4,
         2,
-        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.SustainMask(baca.tuplet(0)),
         rmakers.TieSpecifier(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
@@ -329,7 +329,7 @@ maker(
     stirrings_still.pickets(
         4,
         1,
-        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.SustainMask(baca.tuplet(0)),
         rmakers.TieSpecifier(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
@@ -347,7 +347,7 @@ maker(
     stirrings_still.pickets(
         4,
         1,
-        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.SustainMask(baca.tuplet(0)),
         rmakers.TieSpecifier(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
@@ -444,7 +444,7 @@ maker(
     stirrings_still.pickets(
         4,
         0,
-        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.SustainMask(baca.tuplet(0)),
         rmakers.TieSpecifier(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
@@ -462,7 +462,7 @@ maker(
     stirrings_still.pickets(
         4,
         0,
-        rmakers.SustainMask(selector=baca.tuplet(0)),
+        rmakers.SustainMask(baca.tuplet(0)),
         rmakers.TieSpecifier(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],

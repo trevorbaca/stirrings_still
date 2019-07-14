@@ -21,14 +21,10 @@ def desynchronization(
     specifiers = []
 
     if rests is True:
-        specifier = rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index([1], 2)]
-        )
+        specifier = rmakers.SilenceMask(baca.lts()[abjad.index([1], 2)])
         specifiers.append(specifier)
     elif isinstance(rests, tuple):
-        specifier = rmakers.SilenceMask(
-            selector=baca.lts()[abjad.index(*rests)]
-        )
+        specifier = rmakers.SilenceMask(baca.lts()[abjad.index(*rests)])
         specifiers.append(specifier)
 
     diminution = None
