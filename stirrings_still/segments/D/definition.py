@@ -430,7 +430,6 @@ maker(
         baca.markup(
             r'\stirrings-still-seven-d-flat',
             abjad.tweak(1.5).padding,
-            ###direction=abjad.Down,
             literal=True,
             ),
         baca.pitch('Bqf3'),
@@ -475,7 +474,7 @@ maker(
         baca.new(
             baca.espressivo(),
             baca.stem_tremolo(selector=baca.pleaves()),
-            map=baca.plts()[abjad.index([1], 2)],
+            map=baca.plts().get([1], 2),
             ),
         baca.untie(baca.leaves()),
         ),
@@ -546,27 +545,27 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 2)),
         ),
         match=0,
         ),
     baca.new(
         stirrings_still.strokes(
             -1,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([1], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([1], 2)),
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.strokes(-2,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0, 1], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([0, 1], 3)),
             ),
         match=2,
         ),
     baca.new(
         stirrings_still.strokes(
             3,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([1, 2], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([1, 2], 3)),
             ),
         match=3,
         ),
@@ -592,28 +591,28 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 2)),
             ),
         match=0,
         ),
     baca.new(
         stirrings_still.strokes(
             -1,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([1], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([1], 2)),
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 3)),
             ),
         match=2,
         ),
     baca.new(
         stirrings_still.strokes(
             -3,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([1, 2], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([1, 2], 3)),
             ),
         match=3,
         ),
@@ -629,28 +628,28 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 2)),
             ),
         match=0,
         ),
     baca.new(
         stirrings_still.strokes(
             -1,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([1], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([1], 2)),
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 3)),
             ),
         match=2,
         ),
     baca.new(
         stirrings_still.strokes(
             -3,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([1], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([1], 3)),
             ),
         match=3,
         ),
@@ -666,28 +665,28 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 2)),
             ),
         match=0,
         ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([2], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([2], 3)),
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 3)),
             ),
         match=2,
         ),
     baca.new(
         stirrings_still.strokes(
             -3,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([1], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([1], 3)),
             ),
         match=3,
         ),
@@ -703,28 +702,28 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 2)),
             ),
         match=0,
         ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([2], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([2], 3)),
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 2)),
             ),
         match=2,
         ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([2], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([2], 3)),
             ),
         match=3,
         ),
@@ -736,28 +735,28 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 2)),
             ),
         match=0,
         ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([2], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([2], 3)),
             ),
         match=1,
         ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([1], 2)]),
+            rmakers.SilenceMask(baca.tuplets().get([1], 2)),
             ),
         match=2,
         ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 3)]),
+            rmakers.SilenceMask(baca.tuplets().get([0], 3)),
             ),
         match=3,
         ),

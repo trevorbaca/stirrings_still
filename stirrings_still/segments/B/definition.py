@@ -173,7 +173,7 @@ stirrings_still.time(maker, time)
 maker(
     ('v1', (1, 4)),
     stirrings_still.clockticks(
-        rmakers.SilenceMask(baca.tuplets()[abjad.index([0], 2)]),
+        rmakers.SilenceMask(baca.tuplets().get([0], 2)),
         displace=True,
     ),
 )
@@ -538,7 +538,7 @@ maker(
         baca.new(
             baca.espressivo(),
             baca.stem_tremolo(selector=baca.pleaves()),
-            map=baca.plts()[abjad.index([1], 2)],
+            map=baca.plts().get([1], 2),
             ),
         baca.untie(baca.leaves()),
         ),
