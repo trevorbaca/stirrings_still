@@ -29,11 +29,10 @@ def pickets(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=[tuplet_ratio]),
             *specifiers,
-            rmakers.TupletCommand(
-                rewrite_rest_filled=True, rewrite_sustained=True
-            ),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(extract_trivial=True),
+            rmakers.rewrite_rest_filled(),
+            rmakers.rewrite_sustained(),
+            rmakers.beam(),
+            rmakers.extract_trivial(),
             divisions=divisions,
         ),
         measures=measures,

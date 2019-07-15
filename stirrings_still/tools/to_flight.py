@@ -30,13 +30,10 @@ def to_flight(
                     ),
                 ]
             ),
-            rmakers.TupletCommand(duration_bracket=True, extract_trivial=True),
-            rmakers.BeamCommand(
-                beam_rests=True,
-                selector=baca.tuplets(),
-                stemlet_length=0.75,
-                use_feather_beams=True,
-            ),
+            rmakers.set_duration_bracket(),
+            ###rmakers.extract_trivial(),
+            rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
+            rmakers.extract_trivial(),
             divisions=baca.divisions().fuse().split(divisions, cyclic=True),
         ),
         measures=measures,

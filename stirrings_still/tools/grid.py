@@ -17,8 +17,8 @@ def grid(
             rmakers.TaleaRhythmMaker(
                 talea=rmakers.Talea(counts=counts, denominator=8)
             ),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(extract_trivial=True),
+            rmakers.beam(),
+            rmakers.extract_trivial(),
         ),
         measures=measures,
         tag="stirrings_still.grid",

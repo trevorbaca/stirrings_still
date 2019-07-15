@@ -36,7 +36,7 @@ def synchronized_circles(
                 talea=rmakers.Talea(counts=counts, denominator=8)
             ),
             *specifiers,
-            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.beam(),
         ),
         measures=measures,
         tag="stirrings_still.synchronized_circles",

@@ -32,11 +32,11 @@ def trajectories(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extra_counts, talea=talea
             ),
-            rmakers.TupletCommand(force_fraction=True),
+            rmakers.force_fraction(),
             *specifiers,
-            rmakers.TupletCommand(rewrite_sustained=True),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(extract_trivial=True),
+            rmakers.rewrite_sustained(),
+            rmakers.beam(),
+            rmakers.extract_trivial(),
         ),
         measures=measures,
         tag="stirrings_still.trajectories",
