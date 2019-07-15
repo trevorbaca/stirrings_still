@@ -20,8 +20,8 @@ def circles(
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.plts()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.plts()),
+            rmakers.TupletCommand(
                 extract_trivial=True,
                 rewrite_rest_filled=True,
                 rewrite_sustained=True,

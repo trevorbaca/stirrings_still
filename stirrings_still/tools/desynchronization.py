@@ -42,15 +42,15 @@ def desynchronization(
                 extra_counts_per_division=extra_counts,
             ),
             *specifiers,
-            rmakers.TupletSpecifier(
+            rmakers.TupletCommand(
                 denominator=(1, denominator),
                 diminution=diminution,
                 force_fraction=True,
                 rewrite_dots=True,
                 trivialize=True,
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(extract_trivial=True),
         ),
         measures=measures,
         tag="stirrings_still.desynchronization",

@@ -31,8 +31,8 @@ def talea_eighths(
                     counts=counts_, denominator=8, end_counts=end_counts
                 ),
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 denominator=(1, 8),
                 extract_trivial=True,
                 force_fraction=True,
@@ -40,7 +40,7 @@ def talea_eighths(
                 rewrite_sustained=True,
                 trivialize=True,
             ),
-            rmakers.TieSpecifier(repeat_ties=(1, 4)),
+            rmakers.TieCommand(repeat_ties=(1, 4)),
         ),
         measures=measures,
         tag="stirrings_still.talea_eighths",

@@ -9,7 +9,7 @@ def eighths() -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                rmakers.TupletSpecifier(extract_trivial=True),
+                rmakers.TupletCommand(extract_trivial=True),
                 talea=rmakers.Talea(counts=[1], denominator=8),
             ),
             divisions=baca.divisions().fuse(),

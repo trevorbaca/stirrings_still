@@ -30,10 +30,8 @@ def to_flight(
                     ),
                 ]
             ),
-            rmakers.TupletSpecifier(
-                duration_bracket=True, extract_trivial=True
-            ),
-            rmakers.BeamSpecifier(
+            rmakers.TupletCommand(duration_bracket=True, extract_trivial=True),
+            rmakers.BeamCommand(
                 beam_rests=True,
                 selector=baca.tuplets(),
                 stemlet_length=0.75,

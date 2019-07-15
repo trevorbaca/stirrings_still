@@ -21,7 +21,7 @@ def synchronized_circles(
         counts = [abs(_) for _ in counts]
 
     specifiers: typing.List[rmakers.SpecifierTyping] = []
-    specifiers.append(rmakers.TupletSpecifier(extract_trivial=True))
+    specifiers.append(rmakers.TupletCommand(extract_trivial=True))
     if rests is None:
         pass
     elif isinstance(rests, list):
@@ -36,7 +36,7 @@ def synchronized_circles(
                 talea=rmakers.Talea(counts=counts, denominator=8)
             ),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
+            rmakers.BeamCommand(selector=baca.tuplets()),
         ),
         measures=measures,
         tag="stirrings_still.synchronized_circles",
