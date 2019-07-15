@@ -128,7 +128,7 @@ maker(
         4,
         2,
         rmakers.note(baca.tuplet(0)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
         ),
@@ -146,7 +146,7 @@ maker(
         4,
         2,
         rmakers.note(baca.tuplet(0)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
         ),
@@ -330,7 +330,7 @@ maker(
         4,
         1,
         rmakers.note(baca.tuplet(0)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
         ),
@@ -348,7 +348,7 @@ maker(
         4,
         1,
         rmakers.note(baca.tuplet(0)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
         ),
@@ -445,7 +445,7 @@ maker(
         4,
         0,
         rmakers.note(baca.tuplet(0)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
         ),
@@ -463,7 +463,7 @@ maker(
         4,
         0,
         rmakers.note(baca.tuplet(0)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets()[:1].leaves()[:-1],
         ),

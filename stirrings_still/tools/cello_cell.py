@@ -11,8 +11,8 @@ def cello_cell() -> baca.RhythmCommand:
             rmakers.TaleaRhythmMaker(
                 talea=rmakers.Talea(counts=[3, 1, 2, 2], denominator=16)
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(extract_trivial=True),
             divisions=baca.divisions().fuse().quarters(),
         ),
         tag="stirrings_still.cello_cell",

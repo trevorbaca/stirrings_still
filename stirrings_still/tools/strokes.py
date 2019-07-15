@@ -22,19 +22,19 @@ def strokes(
                 ),
             ),
             *specifiers,
-            rmakers.TieSpecifier(
+            rmakers.TieCommand(
                 detach_ties=True,
                 selector=baca.tuplets().map(baca.leaves()[:-1]),
             ),
-            rmakers.TieSpecifier(
+            rmakers.TieCommand(
                 attach_ties=True,
                 selector=baca.tuplets().map(baca.leaves()[:-1]),
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
-            rmakers.SplitCommand(),
+            rmakers.split_measures(),
             divisions=baca.divisions().rotate(n=rotation),
         ),
         measures=measures,

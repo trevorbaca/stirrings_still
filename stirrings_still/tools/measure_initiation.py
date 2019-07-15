@@ -14,8 +14,8 @@ def measure_initiation() -> baca.RhythmCommand:
                     prefix_talea=[2], prefix_counts=[1], talea_denominator=8
                 )
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(extract_trivial=True),
         ),
         tag="stirrings_still.measure_initation",
     )

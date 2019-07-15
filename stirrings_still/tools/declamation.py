@@ -11,8 +11,8 @@ def declamation(
     """
 
     tuplet_rhythm_maker = rmakers.TupletRhythmMaker(
-        rmakers.BeamSpecifier(selector=baca.tuplets()),
-        rmakers.TupletSpecifier(
+        rmakers.BeamCommand(selector=baca.tuplets()),
+        rmakers.TupletCommand(
             denominator=(1, 8),
             extract_trivial=True,
             force_fraction=True,
@@ -22,9 +22,9 @@ def declamation(
     )
 
     note_rhythm_maker = rmakers.NoteRhythmMaker(
-        rmakers.BeamSpecifier(selector=baca.plts()),
-        rmakers.TieSpecifier(attach_ties=True, selector=baca.ptails()[:-1]),
-        rmakers.TieSpecifier(repeat_ties=True),
+        rmakers.BeamCommand(selector=baca.plts()),
+        rmakers.TieCommand(attach_ties=True, selector=baca.ptails()[:-1]),
+        rmakers.TieCommand(repeat_ties=True),
     )
 
     if protract is True:

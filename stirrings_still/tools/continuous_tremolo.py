@@ -10,11 +10,11 @@ def continuous_tremolo() -> baca.Suite:
         baca.rhythm(
             rmakers.RhythmCommand(
                 rmakers.NoteRhythmMaker(),
-                rmakers.BeamSpecifier(selector=baca.plts()),
-                rmakers.TieSpecifier(
+                rmakers.BeamCommand(selector=baca.plts()),
+                rmakers.TieCommand(
                     attach_ties=True, selector=baca.ptails()[:-1]
                 ),
-                rmakers.TieSpecifier(repeat_ties=(1, 2)),
+                rmakers.TieCommand(repeat_ties=(1, 2)),
             ),
             tag="stirrings_still.continuous_tremolo",
         ),

@@ -116,8 +116,8 @@ def flight(
                 extra_counts_per_division=extra_counts,
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 diminution=True,
                 denominator=(1, 8),
                 extract_trivial=True,
@@ -126,7 +126,7 @@ def flight(
                 rewrite_sustained=True,
                 trivialize=True,
             ),
-            rmakers.TieSpecifier(repeat_ties=(1, 4)),
+            rmakers.TieCommand(repeat_ties=(1, 4)),
         ),
         measures=measures,
         tag="stirrings_still.flight",
