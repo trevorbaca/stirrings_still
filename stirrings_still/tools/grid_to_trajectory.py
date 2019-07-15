@@ -24,11 +24,11 @@ def grid_to_trajectory(
                 extra_counts_per_division=extra_counts_per_division,
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(
-                denominator=(1, 8), extract_trivial=True, force_fraction=True
-            ),
-            rmakers.TieCommand(repeat_ties=(1, 4)),
+            rmakers.beam(),
+            rmakers.TupletCommand(denominator=(1, 8)),
+            rmakers.force_fraction(),
+            rmakers.extract_trivial(),
+            rmakers.to_repeat_tie(threshold=(1, 4)),
         ),
         measures=measures,
         tag="stirrings_still.grid_to_trajectory",

@@ -15,7 +15,7 @@ def solid_line_rhythm(
                     forbidden_note_duration=(1, 2)
                 )
             ),
-            rmakers.BeamCommand(selector=baca.plts()),
+            rmakers.beam(baca.plts()),
         ),
         measures=measures,
         tag="stirrings_still.solid_line_rhythm",

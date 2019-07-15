@@ -29,10 +29,9 @@ def clockticks(
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             *specifiers,
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(
-                extract_trivial=True, rewrite_rest_filled=True
-            ),
+            rmakers.beam(),
+            rmakers.rewrite_rest_filled(),
+            rmakers.extract_trivial(),
             divisions=divisions,
         ),
         measures=measures,
