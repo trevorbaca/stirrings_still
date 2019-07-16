@@ -21,7 +21,7 @@ def synchronized_circles(
         counts = [abs(_) for _ in counts]
 
     specifiers: typing.List[rmakers.SpecifierTyping] = []
-    specifiers.append(rmakers.TupletCommand(extract_trivial=True))
+    specifiers.append(rmakers.extract_trivial())
     if rests is None:
         pass
     elif isinstance(rests, list):

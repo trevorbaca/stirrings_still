@@ -12,7 +12,7 @@ def declamation(
 
     tuplet_rhythm_maker = rmakers.TupletRhythmMaker(
         rmakers.beam(),
-        rmakers.TupletCommand(denominator=(1, 8)),
+        rmakers.denominator((1, 8)),
         rmakers.force_fraction(),
         rmakers.rewrite_tuplet_dots(),
         rmakers.extract_trivial(),

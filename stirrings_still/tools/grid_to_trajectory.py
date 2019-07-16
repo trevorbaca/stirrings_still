@@ -25,7 +25,7 @@ def grid_to_trajectory(
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),
             rmakers.beam(),
-            rmakers.TupletCommand(denominator=(1, 8)),
+            rmakers.denominator((1, 8)),
             rmakers.force_fraction(),
             rmakers.extract_trivial(),
             rmakers.to_repeat_tie(threshold=(1, 4)),
