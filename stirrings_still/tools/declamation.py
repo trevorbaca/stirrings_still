@@ -14,7 +14,7 @@ def declamation(
         rmakers.beam(),
         rmakers.denominator((1, 8)),
         rmakers.force_fraction(),
-        rmakers.rewrite_tuplet_dots(),
+        rmakers.rewrite_dots(),
         rmakers.extract_trivial(),
         tuplet_ratios=[(3, 1)],
     )

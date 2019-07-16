@@ -44,7 +44,7 @@ def desynchronization(
             rmakers.denominator((1, denominator)),
             rmakers.force_fraction(),
             rmakers.trivialize(),
-            rmakers.rewrite_tuplet_dots(),
+            rmakers.rewrite_dots(),
             *diminution,
             rmakers.beam(),
             rmakers.extract_trivial(),
