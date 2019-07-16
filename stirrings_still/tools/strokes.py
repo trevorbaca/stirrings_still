@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def strokes(
     rotation: int,
-    *specifiers: rmakers.SpecifierTyping,
+    *specifiers: rmakers.Command,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
     """
