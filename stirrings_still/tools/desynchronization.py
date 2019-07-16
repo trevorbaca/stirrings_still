@@ -27,6 +27,7 @@ def desynchronization(
         specifier = rmakers.rest(baca.lts().get(*rests))
         specifiers.append(specifier)
 
+    diminution: typing.List[rmakers.Command]
     if extra_counts[0] < 0:
         diminution = [rmakers.force_augmentation()]
     elif extra_counts[0] == 0:
