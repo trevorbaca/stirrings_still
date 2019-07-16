@@ -24,7 +24,7 @@ def grid_to_trajectory(
                 extra_counts_per_division=extra_counts_per_division,
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.denominator((1, 8)),
             rmakers.force_fraction(),
             rmakers.extract_trivial(),

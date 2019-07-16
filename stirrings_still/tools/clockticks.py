@@ -29,7 +29,7 @@ def clockticks(
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             *specifiers,
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
             divisions=divisions,
