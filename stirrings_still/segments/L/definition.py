@@ -76,17 +76,11 @@ maker(
         'C',
         0,
         -3,
-        rmakers.TieCommand(
-            detach_ties=True,
-            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
-                baca.pleaves().lleak(),
-            ),
+        rmakers.untie(
+            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
         ),
-        rmakers.TieCommand(
-            attach_ties=True,
-            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
-                baca.pleaves()[:-1],
-            ),
+        rmakers.tie(
+            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
         ),
     ),
 )
@@ -205,17 +199,11 @@ maker(
         'C',
         -1,
         -2,
-        rmakers.TieCommand(
-            detach_ties=True,
-            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
-                baca.pleaves().lleak(),
-            ),
+        rmakers.untie(
+            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
         ),
-        rmakers.TieCommand(
-            attach_ties=True,
-            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
-                baca.pleaves()[:-1],
-            ),
+        rmakers.tie(
+            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
         ),
     ),
 )
@@ -324,17 +312,11 @@ maker(
         'C',
         -2,
         -1,
-        rmakers.TieCommand(
-            detach_ties=True,
-            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
-                baca.pleaves().lleak(),
-            ),
+        rmakers.untie(
+            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
         ),
-        rmakers.TieCommand(
-            attach_ties=True,
-            selector=baca.tuplets().get([2, 6, 10, 14, 15]).map(
-                baca.pleaves()[:-1],
-            ),
+        rmakers.tie(
+            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
         ),
     ),
 )
