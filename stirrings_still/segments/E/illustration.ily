@@ -13047,7 +13047,7 @@ E_Cello_Music_Voice = {                                                        %
 
     % [E Cello_Music_Voice measure 310 / measure 5]                            %! _comment_measure_numbers
     gf,!2.                                                                     %! stirrings_still.clouded_pane
-    \repeatTie
+    \repeatTie                                                                 %! stirrings_still.clouded_pane
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     % [E Cello_Music_Voice measure 311 / measure 6]                            %! _comment_measure_numbers

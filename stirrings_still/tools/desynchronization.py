@@ -27,13 +27,12 @@ def desynchronization(
         specifier = rmakers.rest(baca.lts().get(*rests))
         specifiers.append(specifier)
 
-    diminution = None
     if extra_counts[0] < 0:
-        diminution = False
+        diminution = [rmakers.force_augmentation()]
     elif extra_counts[0] == 0:
-        diminution = None
+        diminution = []
     else:
-        diminution = True
+        diminution = [rmakers.force_diminution()]
 
     return baca.rhythm(
         rmakers.RhythmCommand(
@@ -42,13 +41,11 @@ def desynchronization(
                 extra_counts_per_division=extra_counts,
             ),
             *specifiers,
-            rmakers.TupletCommand(
-                denominator=(1, denominator),
-                diminution=diminution,
-                force_fraction=True,
-                rewrite_dots=True,
-                trivialize=True,
-            ),
+            rmakers.denominator((1, denominator)),
+            rmakers.force_fraction(),
+            rmakers.trivialize(),
+            rmakers.rewrite_tuplet_dots(),
+            *diminution,
             rmakers.beam(),
             rmakers.extract_trivial(),
         ),
