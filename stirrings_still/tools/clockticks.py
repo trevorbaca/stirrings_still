@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 
 def clockticks(
-    *specifiers: rmakers.SpecifierTyping,
+    *specifiers: rmakers.Command,
     displace: bool = False,
     encroach: bool = False,
     measures: baca.SliceTyping = None,

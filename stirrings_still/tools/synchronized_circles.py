@@ -20,7 +20,7 @@ def synchronized_circles(
     if not gaps:
         counts = [abs(_) for _ in counts]
 
-    specifiers: typing.List[rmakers.SpecifierTyping] = []
+    specifiers: typing.List[rmakers.Command] = []
     specifiers.append(rmakers.extract_trivial())
     if rests is None:
         pass

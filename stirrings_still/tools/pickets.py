@@ -6,7 +6,7 @@ from abjadext import rmakers
 def pickets(
     fuse: int,
     extra_count: int,
-    *specifiers: rmakers.SpecifierTyping,
+    *specifiers: rmakers.Command,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
     """
