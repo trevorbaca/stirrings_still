@@ -10,7 +10,7 @@ def continuous_tremolo() -> baca.Suite:
         baca.rhythm(
             rmakers.RhythmCommand(
                 rmakers.NoteRhythmMaker(),
-                rmakers.beam(baca.plts()),
+                rmakers.simple_beam(baca.plts()),
                 rmakers.tie(baca.ptails()[:-1]),
                 rmakers.force_repeat_ties(threshold=(1, 2)),
             ),

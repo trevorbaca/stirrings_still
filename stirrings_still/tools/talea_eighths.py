@@ -31,7 +31,7 @@ def talea_eighths(
                     counts=counts_, denominator=8, end_counts=end_counts
                 ),
             ),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.denominator((1, 8)),
             rmakers.force_fraction(),
             rmakers.trivialize(),

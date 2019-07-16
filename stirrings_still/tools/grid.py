@@ -17,7 +17,7 @@ def grid(
             rmakers.TaleaRhythmMaker(
                 talea=rmakers.Talea(counts=counts, denominator=8)
             ),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.extract_trivial(),
         ),
         measures=measures,

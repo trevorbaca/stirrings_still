@@ -31,7 +31,7 @@ def pickets(
             *specifiers,
             rmakers.rewrite_rest_filled(),
             rmakers.rewrite_sustained(),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.extract_trivial(),
             divisions=divisions,
         ),

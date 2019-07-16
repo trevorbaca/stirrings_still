@@ -24,7 +24,7 @@ def strokes(
             *specifiers,
             rmakers.untie(baca.tuplets().map(baca.leaves()[:-1])),
             rmakers.tie(baca.tuplets().map(baca.leaves()[:-1])),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
             rmakers.split_measures(),
