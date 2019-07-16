@@ -28,7 +28,7 @@ def grid_to_trajectory(
             rmakers.denominator((1, 8)),
             rmakers.force_fraction(),
             rmakers.extract_trivial(),
-            rmakers.to_repeat_tie(threshold=(1, 4)),
+            rmakers.force_repeat_ties(threshold=(1, 4)),
         ),
         measures=measures,
         tag="stirrings_still.grid_to_trajectory",

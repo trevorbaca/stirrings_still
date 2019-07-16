@@ -124,7 +124,7 @@ def flight(
             rmakers.rewrite_sustained(),
             rmakers.extract_trivial(),
             rmakers.force_diminution(),
-            rmakers.to_repeat_tie(threshold=(1, 4)),
+            rmakers.force_repeat_ties(threshold=(1, 4)),
         ),
         measures=measures,
         tag="stirrings_still.flight",
