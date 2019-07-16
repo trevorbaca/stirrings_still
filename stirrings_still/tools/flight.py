@@ -117,7 +117,7 @@ def flight(
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),
             rmakers.beam(),
-            rmakers.TupletCommand(denominator=(1, 8)),
+            rmakers.denominator((1, 8)),
             rmakers.force_fraction(),
             rmakers.trivialize(),
             rmakers.rewrite_tuplet_dots(),
