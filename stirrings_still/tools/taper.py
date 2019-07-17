@@ -14,7 +14,7 @@ def taper(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=[tuplet_ratio]),
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.repeat_tie(baca.notes()[1:]),
             rmakers.extract_trivial(),
         ),

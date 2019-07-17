@@ -35,7 +35,7 @@ def trajectories(
             rmakers.force_fraction(),
             *specifiers,
             rmakers.rewrite_sustained(),
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.extract_trivial(),
         ),
         measures=measures,

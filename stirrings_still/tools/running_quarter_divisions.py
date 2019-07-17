@@ -16,7 +16,7 @@ def running_quarter_divisions(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=[ratio]),
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.extract_trivial(),
             divisions=baca.divisions().fuse().split([(1, 4)], cyclic=True),
         ),
