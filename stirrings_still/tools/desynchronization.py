@@ -47,7 +47,7 @@ def desynchronization(
             rmakers.trivialize(),
             rmakers.rewrite_dots(),
             *diminution,
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.extract_trivial(),
         ),
         measures=measures,
