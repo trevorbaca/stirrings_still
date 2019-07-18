@@ -379,7 +379,7 @@ maker(
     baca.pitch('Bqf3'),
     stirrings_still.circles(
         (1, 2),
-        rmakers.rest(baca.lt(0)),
+        rmakers.force_rest(baca.lt(0)),
         remainder=abjad.Left,
         ),
     )
@@ -649,7 +649,7 @@ maker(
         stirrings_still.pickets(
             4,
             2,
-            rmakers.rest(baca.tuplet(0)),
+            rmakers.force_rest(baca.tuplet(0)),
             ),
         match=0,
         ),
@@ -663,7 +663,7 @@ maker(
         stirrings_still.pickets(
             4,
             1,
-            rmakers.rest(baca.tuplet(0)),
+            rmakers.force_rest(baca.tuplet(0)),
             ),
         match=1,
         ),
@@ -677,7 +677,7 @@ maker(
         stirrings_still.pickets(
             4,
             0,
-            rmakers.rest(baca.tuplet(0)),
+            rmakers.force_rest(baca.tuplet(0)),
             ),
         match=2,
         ),
