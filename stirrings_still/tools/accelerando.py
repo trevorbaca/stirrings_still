@@ -15,7 +15,7 @@ def accelerando(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.AccelerandoRhythmMaker(
-                interpolation_specifiers=[
+                interpolations=[
                     rmakers.Interpolation(
                         start_duration=start,
                         stop_duration=stop,

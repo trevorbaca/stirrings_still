@@ -18,7 +18,7 @@ def wave(
             rmakers.AccelerandoRhythmMaker(
                 rmakers.duration_bracket(),
                 rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-                interpolation_specifiers=[
+                interpolations=[
                     rmakers.Interpolation(
                         start_duration=start,
                         stop_duration=stop,
