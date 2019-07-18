@@ -127,7 +127,7 @@ maker(
     stirrings_still.pickets(
         4,
         2,
-        rmakers.note(baca.tuplet(0)),
+        rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(baca.tuplets()[:1].leaves()[:-1]),
     ),
 )
@@ -142,7 +142,7 @@ maker(
     stirrings_still.pickets(
         4,
         2,
-        rmakers.note(baca.tuplet(0)),
+        rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(selector=baca.tuplets()[:1].leaves()[:-1]),
     ),
 )
@@ -323,7 +323,7 @@ maker(
     stirrings_still.pickets(
         4,
         1,
-        rmakers.note(baca.tuplet(0)),
+        rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(selector=baca.tuplets()[:1].leaves()[:-1]),
     ),
 )
@@ -338,7 +338,7 @@ maker(
     stirrings_still.pickets(
         4,
         1,
-        rmakers.note(baca.tuplet(0)),
+        rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(baca.tuplets()[:1].leaves()[:-1]),
     ),
 )
@@ -432,7 +432,7 @@ maker(
     stirrings_still.pickets(
         4,
         0,
-        rmakers.note(baca.tuplet(0)),
+        rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(baca.tuplets()[:1].leaves()[:-1]),
     ),
 )
@@ -447,7 +447,7 @@ maker(
     stirrings_still.pickets(
         4,
         0,
-        rmakers.note(baca.tuplet(0)),
+        rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(baca.tuplets()[:1].leaves()[:-1]),
     ),
 )

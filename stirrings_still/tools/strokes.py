@@ -14,10 +14,10 @@ def strokes(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.IncisedRhythmMaker(
-                duration_specifier=rmakers.DurationSpecifier(
+                duration_specifier=rmakers.Duration(
                     forbidden_note_duration=(1, 2)
                 ),
-                incise_specifier=rmakers.InciseSpecifier(
+                incise_specifier=rmakers.Incise(
                     suffix_talea=[1], suffix_counts=[1], talea_denominator=8
                 ),
             ),

@@ -25,7 +25,7 @@ def synchronized_circles(
     if rests is None:
         pass
     elif isinstance(rests, list):
-        specifier = rmakers.rest(baca.lts().get(rests))
+        specifier = rmakers.force_rest(baca.lts().get(rests))
         specifiers.append(specifier)
     else:
         raise TypeError(rests)

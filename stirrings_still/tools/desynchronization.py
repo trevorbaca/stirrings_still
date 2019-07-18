@@ -21,10 +21,10 @@ def desynchronization(
     specifiers = []
 
     if rests is True:
-        specifier = rmakers.rest(baca.lts().get([1], 2))
+        specifier = rmakers.force_rest(baca.lts().get([1], 2))
         specifiers.append(specifier)
     elif isinstance(rests, tuple):
-        specifier = rmakers.rest(baca.lts().get(*rests))
+        specifier = rmakers.force_rest(baca.lts().get(*rests))
         specifiers.append(specifier)
 
     diminution: typing.List[rmakers.Command]

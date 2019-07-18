@@ -16,7 +16,7 @@ def accelerando(
         rmakers.RhythmCommand(
             rmakers.AccelerandoRhythmMaker(
                 interpolation_specifiers=[
-                    rmakers.InterpolationSpecifier(
+                    rmakers.Interpolation(
                         start_duration=start,
                         stop_duration=stop,
                         written_duration=(1, 16),

@@ -11,7 +11,7 @@ def solid_line_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.NoteRhythmMaker(
-                duration_specifier=rmakers.DurationSpecifier(
+                duration_specifier=rmakers.Duration(
                     forbidden_note_duration=(1, 2)
                 )
             ),
