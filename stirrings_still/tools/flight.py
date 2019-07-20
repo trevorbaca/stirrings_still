@@ -111,8 +111,8 @@ def flight(
     extra_counts = baca.sequence([1, 0, 2]).rotate(n=rotation)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=extra_counts,
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),

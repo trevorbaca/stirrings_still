@@ -31,10 +31,8 @@ def synchronized_circles(
         raise TypeError(rests)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
-                talea=rmakers.Talea(counts=counts, denominator=8)
-            ),
+        rmakers.rhythm(
+            rmakers.talea(talea=rmakers.Talea(counts=counts, denominator=8)),
             *specifiers,
             rmakers.beam(),
         ),

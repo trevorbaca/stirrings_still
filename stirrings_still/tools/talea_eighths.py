@@ -24,8 +24,8 @@ def talea_eighths(
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=extra_counts,
                 talea=rmakers.Talea(
                     counts=counts_, denominator=8, end_counts=end_counts

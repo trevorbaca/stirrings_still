@@ -28,8 +28,8 @@ def trajectories(
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(extra_counts=extra_counts, talea=talea),
+        rmakers.rhythm(
+            rmakers.talea(extra_counts=extra_counts, talea=talea),
             rmakers.force_fraction(),
             *specifiers,
             rmakers.rewrite_sustained(),
