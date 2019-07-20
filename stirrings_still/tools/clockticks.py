@@ -25,7 +25,7 @@ def clockticks(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                extra_counts_per_division=[1],
+                extra_counts=[1],
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             *specifiers,

@@ -16,7 +16,7 @@ def talea_eighths(
     """
 
     assert isinstance(extra, int), extra
-    extra_counts_per_division = [extra]
+    extra_counts = [extra]
     assert isinstance(rotation, int), rotation
     counts_ = baca.sequence(counts)
     counts_ = counts_.rotate(n=rotation)
@@ -26,7 +26,7 @@ def talea_eighths(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                extra_counts_per_division=extra_counts_per_division,
+                extra_counts=extra_counts,
                 talea=rmakers.Talea(
                     counts=counts_, denominator=8, end_counts=end_counts
                 ),

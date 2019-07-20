@@ -38,8 +38,7 @@ def desynchronization(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.EvenDivisionRhythmMaker(
-                denominators=denominators,
-                extra_counts_per_division=extra_counts,
+                denominators=denominators, extra_counts=extra_counts
             ),
             *specifiers,
             rmakers.denominator((1, denominator)),
