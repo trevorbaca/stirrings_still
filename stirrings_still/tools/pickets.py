@@ -33,7 +33,7 @@ def pickets(
             rmakers.rewrite_sustained(),
             rmakers.beam(),
             rmakers.extract_trivial(),
-            divisions=divisions,
+            preprocessor=divisions,
         ),
         measures=measures,
         tag="stirrings_still.pickets",

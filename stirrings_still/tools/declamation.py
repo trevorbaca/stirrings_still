@@ -37,7 +37,7 @@ def declamation(
                         ~abjad.index([0]), note_rhythm_maker
                     ),
                 ),
-                divisions=baca.divisions().map(split),
+                preprocessor=baca.divisions().map(split),
             ),
             measures=measures,
             tag="stirrings_still.declamation",
@@ -46,7 +46,7 @@ def declamation(
         return baca.rhythm(
             rmakers.RhythmCommand(
                 tuplet_rhythm_maker,
-                divisions=baca.divisions().fuse().split([(1, 4)]),
+                preprocessor=baca.divisions().fuse().split([(1, 4)]),
             ),
             measures=measures,
             tag="stirrings_still.declamation",
