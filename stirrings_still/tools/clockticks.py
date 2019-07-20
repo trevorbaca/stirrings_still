@@ -23,8 +23,8 @@ def clockticks(
         counts = [1, -2]
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=[1],
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),

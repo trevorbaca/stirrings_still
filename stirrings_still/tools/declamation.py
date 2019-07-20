@@ -10,7 +10,7 @@ def declamation(
     Makes declamation.
     """
 
-    tuplet_rhythm_maker = rmakers.TupletRhythmMaker(
+    tuplet_rhythm_maker = rmakers.tuplet(
         rmakers.beam(),
         rmakers.denominator((1, 8)),
         rmakers.force_fraction(),
@@ -19,7 +19,7 @@ def declamation(
         tuplet_ratios=[(3, 1)],
     )
 
-    note_rhythm_maker = rmakers.NoteRhythmMaker(
+    note_rhythm_maker = rmakers.note(
         rmakers.beam(baca.plts()),
         rmakers.tie(baca.ptails()[:-1]),
         rmakers.force_repeat_ties(),
@@ -28,7 +28,7 @@ def declamation(
     if protract is True:
         split = baca.divisions().split([(1, 4)])
         return baca.rhythm(
-            rmakers.RhythmCommand(
+            rmakers.rhythm(
                 rmakers.MakerAssignments(
                     rmakers.MakerAssignment(
                         abjad.index([0]), tuplet_rhythm_maker
@@ -44,7 +44,7 @@ def declamation(
         )
     else:
         return baca.rhythm(
-            rmakers.RhythmCommand(
+            rmakers.rhythm(
                 tuplet_rhythm_maker,
                 preprocessor=baca.divisions().fuse().split([(1, 4)]),
             ),

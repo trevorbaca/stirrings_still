@@ -17,8 +17,8 @@ def circles(
     divisions = divisions.split([duration], cyclic=True, remainder=remainder)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.NoteRhythmMaker(),
+        rmakers.rhythm(
+            rmakers.note(),
             *specifiers,
             rmakers.beam(baca.plts()),
             rmakers.rewrite_sustained(),

@@ -19,8 +19,8 @@ def grid_to_trajectory(
     extra_counts = [extra]
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=extra_counts,
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),

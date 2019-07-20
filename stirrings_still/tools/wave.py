@@ -14,8 +14,8 @@ def wave(
     """
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.AccelerandoRhythmMaker(
+        rmakers.rhythm(
+            rmakers.accelerando(
                 rmakers.duration_bracket(),
                 rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
                 interpolations=[

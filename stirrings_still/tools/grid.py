@@ -13,10 +13,8 @@ def grid(
     counts = counts.rotate(n=rotation)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
-                talea=rmakers.Talea(counts=counts, denominator=8)
-            ),
+        rmakers.rhythm(
+            rmakers.talea(talea=rmakers.Talea(counts=counts, denominator=8)),
             rmakers.beam(),
             rmakers.extract_trivial(),
         ),

@@ -8,8 +8,8 @@ def measure_initiation() -> baca.RhythmCommand:
     Makes measure initiation.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.IncisedRhythmMaker(
+        rmakers.rhythm(
+            rmakers.incised(
                 incise=rmakers.Incise(
                     prefix_talea=[2], prefix_counts=[1], talea_denominator=8
                 )
