@@ -10,7 +10,7 @@ def measure_initiation() -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.IncisedRhythmMaker(
-                incise_specifier=rmakers.Incise(
+                incise=rmakers.Incise(
                     prefix_talea=[2], prefix_counts=[1], talea_denominator=8
                 )
             ),
