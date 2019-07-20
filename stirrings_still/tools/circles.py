@@ -24,7 +24,7 @@ def circles(
             rmakers.rewrite_sustained(),
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
-            divisions=divisions,
+            preprocessor=divisions,
         ),
         measures=measures,
         tag="stirrings_still.circles",

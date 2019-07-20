@@ -12,7 +12,7 @@ def eighths() -> baca.RhythmCommand:
                 rmakers.extract_trivial(),
                 talea=rmakers.Talea(counts=[1], denominator=8),
             ),
-            divisions=baca.divisions().fuse(),
+            preprocessor=baca.divisions().fuse(),
         ),
         tag="stirrings_still.eighths",
     )
