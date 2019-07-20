@@ -113,7 +113,7 @@ def flight(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                extra_counts_per_division=extra_counts,
+                extra_counts=extra_counts,
                 talea=rmakers.Talea(counts=counts_, denominator=8),
             ),
             rmakers.beam(),
