@@ -12,7 +12,7 @@ def continuous_tremolo() -> baca.Suite:
                 rmakers.note(),
                 rmakers.beam(baca.plts()),
                 rmakers.tie(baca.ptails()[:-1]),
-                rmakers.force_repeat_ties(threshold=(1, 2)),
+                rmakers.force_repeat_tie(threshold=(1, 2)),
             ),
             tag="stirrings_still.continuous_tremolo",
         ),
