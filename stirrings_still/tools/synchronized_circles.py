@@ -32,7 +32,7 @@ def synchronized_circles(
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(talea=rmakers.Talea(counts=counts, denominator=8)),
+            rmakers.talea(counts, 8),
             *specifiers,
             rmakers.beam(),
         ),
