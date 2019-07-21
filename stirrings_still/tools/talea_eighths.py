@@ -26,10 +26,7 @@ def talea_eighths(
     return baca.rhythm(
         rmakers.rhythm(
             rmakers.talea(
-                counts_,
-                8,
-                end_counts=end_counts,
-                extra_counts=extra_counts,
+                counts_, 8, end_counts=end_counts, extra_counts=extra_counts
             ),
             rmakers.beam(),
             rmakers.denominator((1, 8)),
