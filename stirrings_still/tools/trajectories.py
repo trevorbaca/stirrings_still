@@ -23,13 +23,17 @@ def trajectories(
     counts_ = counts_.rotate(n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts)
-    talea = rmakers.Talea(counts=counts_, denominator=8, end_counts=end_counts)
     extra_counts = baca.sequence([1, 1, 0, -1])
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(extra_counts=extra_counts, talea=talea),
+            rmakers.talea(
+                counts_,
+                8,
+                end_counts=end_counts,
+                extra_counts=extra_counts,
+            ),
             rmakers.force_fraction(),
             *specifiers,
             rmakers.rewrite_sustained(),

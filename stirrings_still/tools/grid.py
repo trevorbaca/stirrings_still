@@ -14,7 +14,7 @@ def grid(
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(talea=rmakers.Talea(counts=counts, denominator=8)),
+            rmakers.talea(counts, 8),
             rmakers.beam(),
             rmakers.extract_trivial(),
         ),
