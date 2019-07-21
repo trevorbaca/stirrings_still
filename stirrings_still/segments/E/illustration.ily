@@ -6632,6 +6632,7 @@ E_Violin_II_Music_Voice = {                                                    %
         - \accent                                                              %! baca.accent:IndicatorCommand
         \bacaStopTextSpanDamp                                                  %! DAMP:baca.damp_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanBowSpeed                                              %! BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
+        ~
 
     }                                                                          %! stirrings_still.grid_to_trajectory
 
@@ -6641,7 +6642,6 @@ E_Violin_II_Music_Voice = {                                                    %
         % [E Violin_II_Music_Voice measure 315 / measure 10]                   %! _comment_measure_numbers
         bqf!8                                                                  %! stirrings_still.grid_to_trajectory
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
-        \repeatTie
 
         bqf!2.                                                                 %! stirrings_still.grid_to_trajectory
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6780,6 +6780,7 @@ E_Violin_II_Music_Voice = {                                                    %
         \sfp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \accent                                                              %! baca.accent:IndicatorCommand
         \bacaStopTextSpanBowSpeed                                              %! BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
+        ~
 
     }                                                                          %! stirrings_still.grid_to_trajectory
 
@@ -6789,7 +6790,6 @@ E_Violin_II_Music_Voice = {                                                    %
         % [E Violin_II_Music_Voice measure 321 / measure 16]                   %! _comment_measure_numbers
         bqf!8                                                                  %! stirrings_still.grid_to_trajectory
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
-        \repeatTie
 
         bqf!2..                                                                %! stirrings_still.grid_to_trajectory
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
