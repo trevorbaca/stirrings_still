@@ -534,9 +534,9 @@ P_Violin_I_Music_Voice = {                                                     %
     a'2..                                                                      %! baca.make_repeat_tied_notes
 
     % [P Violin_I_Music_Voice measure 709 / measure 5]                         %! _comment_measure_numbers
-    a'2                                                                        %! baca.make_repeat_tied_notes
+    a'2
 
-    a'8                                                                        %! baca.make_repeat_tied_notes
+    a'8
 
     \override TupletNumber.text = \markup {
         \scale
@@ -695,7 +695,7 @@ P_Violin_I_Music_Voice = {                                                     %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a'2                                                                        %! baca.make_repeat_tied_notes
+    a'2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
@@ -714,7 +714,7 @@ P_Violin_I_Music_Voice = {                                                     %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    a'2.                                                                       %! baca.make_repeat_tied_notes
+    a'2.
 
     \override TupletNumber.text = \markup {
         \scale
@@ -839,7 +839,7 @@ P_Violin_I_Music_Voice = {                                                     %
     a'2                                                                        %! baca.make_repeat_tied_notes
 
     % [P Violin_I_Music_Voice measure 719 / measure 15]                        %! _comment_measure_numbers
-    a'2..                                                                      %! baca.make_repeat_tied_notes
+    a'2..
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1006,7 +1006,7 @@ P_Violin_I_Music_Voice = {                                                     %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a'2..                                                                      %! baca.make_repeat_tied_notes
+    a'2..
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
@@ -1025,7 +1025,7 @@ P_Violin_I_Music_Voice = {                                                     %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    a'2                                                                        %! baca.make_repeat_tied_notes
+    a'2
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1416,7 +1416,7 @@ P_Violin_II_Music_Voice = {                                                    %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a2.                                                                        %! baca.make_repeat_tied_notes
+    a2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
@@ -1527,7 +1527,7 @@ P_Violin_II_Music_Voice = {                                                    %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a2                                                                         %! baca.make_repeat_tied_notes
+    a2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
@@ -1634,7 +1634,7 @@ P_Violin_II_Music_Voice = {                                                    %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a2.                                                                        %! baca.make_repeat_tied_notes
+    a2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
@@ -1757,7 +1757,7 @@ P_Violin_II_Music_Voice = {                                                    %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a1                                                                         %! baca.make_repeat_tied_notes
+    a1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
@@ -1872,7 +1872,7 @@ P_Violin_II_Music_Voice = {                                                    %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a2..                                                                       %! baca.make_repeat_tied_notes
+    a2..
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
@@ -2197,15 +2197,15 @@ P_Viola_Music_Voice = {                                                        %
     a2..                                                                       %! baca.make_repeat_tied_notes
 
     % [P Viola_Music_Voice measure 709 / measure 5]                            %! _comment_measure_numbers
-    a2                                                                         %! baca.make_repeat_tied_notes
+    a2
 
-    a8                                                                         %! baca.make_repeat_tied_notes
+    a8
 
     % [P Viola_Music_Voice measure 710 / measure 6]                            %! _comment_measure_numbers
-    a2.                                                                        %! baca.make_repeat_tied_notes
+    a2.
 
     % [P Viola_Music_Voice measure 711 / measure 7]                            %! _comment_measure_numbers
-    a2.                                                                        %! baca.make_repeat_tied_notes
+    a2.
 
     \override TupletNumber.text = \markup {
         \scale
@@ -2448,13 +2448,13 @@ P_Viola_Music_Voice = {                                                        %
     a2                                                                         %! baca.make_repeat_tied_notes
 
     % [P Viola_Music_Voice measure 719 / measure 15]                           %! _comment_measure_numbers
-    a2..                                                                       %! baca.make_repeat_tied_notes
+    a2..
 
     % [P Viola_Music_Voice measure 720 / measure 16]                           %! _comment_measure_numbers
-    a1                                                                         %! baca.make_repeat_tied_notes
+    a1
 
     % [P Viola_Music_Voice measure 721 / measure 17]                           %! _comment_measure_numbers
-    a1                                                                         %! baca.make_repeat_tied_notes
+    a1
 
     \override TupletNumber.text = \markup {
         \scale
@@ -2873,9 +2873,9 @@ P_Cello_Music_Voice = {                                                        %
     a,2..                                                                      %! baca.make_repeat_tied_notes
 
     % [P Cello_Music_Voice measure 709 / measure 5]                            %! _comment_measure_numbers
-    a,2                                                                        %! baca.make_repeat_tied_notes
+    a,2
 
-    a,8                                                                        %! baca.make_repeat_tied_notes
+    a,8
 
     \override TupletNumber.text = \markup {
         \scale
@@ -3082,7 +3082,7 @@ P_Cello_Music_Voice = {                                                        %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a,2.                                                                       %! baca.make_repeat_tied_notes
+    a,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
@@ -3101,7 +3101,7 @@ P_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    a,2.                                                                       %! baca.make_repeat_tied_notes
+    a,2.
 
     % [P Cello_Music_Voice measure 715 / measure 11]                           %! _comment_measure_numbers
     a,2                                                                        %! baca.make_repeat_tied_notes
@@ -3118,7 +3118,7 @@ P_Cello_Music_Voice = {                                                        %
     a,2                                                                        %! baca.make_repeat_tied_notes
 
     % [P Cello_Music_Voice measure 719 / measure 15]                           %! _comment_measure_numbers
-    a,2..                                                                      %! baca.make_repeat_tied_notes
+    a,2..
 
     \override TupletNumber.text = \markup {
         \scale
