@@ -26,15 +26,13 @@ def pickets(
     tuplet_ratio = counts * (1,)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet([tuplet_ratio]),
-            *specifiers,
-            rmakers.rewrite_rest_filled(),
-            rmakers.rewrite_sustained(),
-            rmakers.beam(),
-            rmakers.extract_trivial(),
-            preprocessor=divisions,
-        ),
+        rmakers.tuplet([tuplet_ratio]),
+        *specifiers,
+        rmakers.rewrite_rest_filled(),
+        rmakers.rewrite_sustained(),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
+        preprocessor=divisions,
         measures=measures,
         tag="stirrings_still.pickets",
     )

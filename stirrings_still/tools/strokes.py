@@ -12,22 +12,20 @@ def strokes(
     Makes strokes.
     """
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.incised(
-                suffix_talea=[1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                spelling=rmakers.Spelling(forbidden_note_duration=(1, 2)),
-            ),
-            *specifiers,
-            rmakers.untie(baca.tuplets().map(baca.leaves()[:-1])),
-            rmakers.tie(baca.tuplets().map(baca.leaves()[:-1])),
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.extract_trivial(),
-            rmakers.split_measures(),
-            preprocessor=baca.divisions().rotate(n=rotation),
+        rmakers.incised(
+            suffix_talea=[1],
+            suffix_counts=[1],
+            talea_denominator=8,
+            spelling=rmakers.Spelling(forbidden_note_duration=(1, 2)),
         ),
+        *specifiers,
+        rmakers.untie(baca.tuplets().map(baca.leaves()[:-1])),
+        rmakers.tie(baca.tuplets().map(baca.leaves()[:-1])),
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
+        rmakers.split_measures(),
+        preprocessor=baca.divisions().rotate(n=rotation),
         measures=measures,
         tag="stirrings_still.strokes",
     )

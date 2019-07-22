@@ -36,19 +36,17 @@ def desynchronization(
         diminution = [rmakers.force_diminution()]
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.even_division(
-                denominators=denominators, extra_counts=extra_counts
-            ),
-            *specifiers,
-            rmakers.denominator((1, denominator)),
-            rmakers.force_fraction(),
-            rmakers.trivialize(),
-            rmakers.rewrite_dots(),
-            *diminution,
-            rmakers.beam(),
-            rmakers.extract_trivial(),
+        rmakers.even_division(
+            denominators=denominators, extra_counts=extra_counts
         ),
+        *specifiers,
+        rmakers.denominator((1, denominator)),
+        rmakers.force_fraction(),
+        rmakers.trivialize(),
+        rmakers.rewrite_dots(),
+        *diminution,
+        rmakers.beam(),
+        rmakers.extract_trivial(),
         measures=measures,
         tag="stirrings_still.desynchronization",
     )

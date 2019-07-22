@@ -8,12 +8,10 @@ def measure_initiation() -> baca.RhythmCommand:
     Makes measure initiation.
     """
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.incised(
-                prefix_talea=[2], prefix_counts=[1], talea_denominator=8
-            ),
-            rmakers.beam(),
-            rmakers.extract_trivial(),
+        rmakers.incised(
+            prefix_talea=[2], prefix_counts=[1], talea_denominator=8
         ),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
         tag="stirrings_still.measure_initation",
     )

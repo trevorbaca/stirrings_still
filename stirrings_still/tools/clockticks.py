@@ -23,14 +23,12 @@ def clockticks(
         counts = [1, -2]
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts, 8, extra_counts=[1]),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.extract_trivial(),
-            preprocessor=divisions,
-        ),
+        rmakers.talea(counts, 8, extra_counts=[1]),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
+        preprocessor=divisions,
         measures=measures,
         tag="stirrings_still.clockticks",
     )

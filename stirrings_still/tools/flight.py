@@ -111,18 +111,16 @@ def flight(
     extra_counts = baca.sequence([1, 0, 2]).rotate(n=rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts_, 8, extra_counts=extra_counts),
-            rmakers.beam(),
-            rmakers.denominator((1, 8)),
-            rmakers.force_fraction(),
-            rmakers.trivialize(),
-            rmakers.rewrite_dots(),
-            rmakers.rewrite_sustained(),
-            rmakers.extract_trivial(),
-            rmakers.force_diminution(),
-            rmakers.force_repeat_tie(threshold=(1, 4)),
-        ),
+        rmakers.talea(counts_, 8, extra_counts=extra_counts),
+        rmakers.beam(),
+        rmakers.denominator((1, 8)),
+        rmakers.force_fraction(),
+        rmakers.trivialize(),
+        rmakers.rewrite_dots(),
+        rmakers.rewrite_sustained(),
+        rmakers.extract_trivial(),
+        rmakers.force_diminution(),
+        rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
         tag="stirrings_still.flight",
     )

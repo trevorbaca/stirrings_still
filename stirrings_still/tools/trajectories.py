@@ -27,16 +27,14 @@ def trajectories(
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(
-                counts_, 8, end_counts=end_counts, extra_counts=extra_counts
-            ),
-            rmakers.force_fraction(),
-            *specifiers,
-            rmakers.rewrite_sustained(),
-            rmakers.beam(),
-            rmakers.extract_trivial(),
+        rmakers.talea(
+            counts_, 8, end_counts=end_counts, extra_counts=extra_counts
         ),
+        rmakers.force_fraction(),
+        *specifiers,
+        rmakers.rewrite_sustained(),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
         measures=measures,
         tag="stirrings_still.trajectories",
     )
