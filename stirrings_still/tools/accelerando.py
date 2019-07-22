@@ -13,15 +13,7 @@ def accelerando(
     Makes accelerando.
     """
     return baca.rhythm(
-        rmakers.accelerando(
-            interpolations=[
-                rmakers.Interpolation(
-                    start_duration=start,
-                    stop_duration=stop,
-                    written_duration=(1, 16),
-                )
-            ]
-        ),
+        rmakers.accelerando([start, stop, (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         preprocessor=baca.divisions().fuse(),

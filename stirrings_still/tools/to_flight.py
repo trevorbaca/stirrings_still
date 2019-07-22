@@ -15,12 +15,7 @@ def to_flight(
     """
 
     return baca.rhythm(
-        rmakers.accelerando(
-            interpolations=[
-                rmakers.interpolate(start, stop, (1, 16)),
-                rmakers.interpolate((1, 2), (1, 2), (1, 4)),
-            ]
-        ),
+        rmakers.accelerando([start, stop, (1, 16)], [(1, 2), (1, 2), (1, 4)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.extract_trivial(),
