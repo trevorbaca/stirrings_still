@@ -11,7 +11,7 @@ def declamation(
     """
 
     tuplet_rhythm_maker = rmakers.rhythm(
-        rmakers.tuplet(tuplet_ratios=[(3, 1)]),
+        rmakers.tuplet([(3, 1)]),
         rmakers.beam(),
         rmakers.denominator((1, 8)),
         rmakers.force_fraction(),

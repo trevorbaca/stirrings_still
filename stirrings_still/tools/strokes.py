@@ -14,9 +14,9 @@ def strokes(
     return baca.rhythm(
         rmakers.rhythm(
             rmakers.incised(
-                incise=rmakers.Incise(
-                    suffix_talea=[1], suffix_counts=[1], talea_denominator=8
-                ),
+                suffix_talea=[1],
+                suffix_counts=[1],
+                talea_denominator=8,
                 spelling=rmakers.Spelling(forbidden_note_duration=(1, 2)),
             ),
             *specifiers,
