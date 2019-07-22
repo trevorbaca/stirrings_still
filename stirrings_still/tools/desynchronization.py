@@ -36,9 +36,7 @@ def desynchronization(
         diminution = [rmakers.force_diminution()]
 
     return baca.rhythm(
-        rmakers.even_division(
-            denominators=denominators, extra_counts=extra_counts
-        ),
+        rmakers.even_division(denominators, extra_counts=extra_counts),
         *specifiers,
         rmakers.denominator((1, denominator)),
         rmakers.force_fraction(),

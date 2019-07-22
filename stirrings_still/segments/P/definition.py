@@ -149,7 +149,7 @@ maker(
             ),
             rmakers.MakerAssignment(
                 abjad.index([0], 1),
-                baca.make_repeat_tied_notes().rhythm_maker,
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
     ),
@@ -305,7 +305,7 @@ maker(
             ),
             rmakers.MakerAssignment(
                 abjad.index([0], 1),
-                baca.make_repeat_tied_notes().rhythm_maker,
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
     ),
@@ -514,7 +514,7 @@ maker(
             ),
             rmakers.MakerAssignment(
                 abjad.index([0], 1),
-                baca.make_repeat_tied_notes().rhythm_maker,
+                baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
     ),
