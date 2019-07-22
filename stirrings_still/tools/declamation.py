@@ -29,26 +29,18 @@ def declamation(
     if protract is True:
         split = baca.divisions().split([(1, 4)])
         return baca.rhythm(
-            rmakers.rhythm(
-                rmakers.MakerAssignments(
-                    rmakers.MakerAssignment(
-                        abjad.index([0]), tuplet_rhythm_maker
-                    ),
-                    rmakers.MakerAssignment(
-                        ~abjad.index([0]), note_rhythm_maker
-                    ),
-                ),
-                preprocessor=baca.divisions().map(split),
+            rmakers.MakerAssignments(
+                rmakers.MakerAssignment(abjad.index([0]), tuplet_rhythm_maker),
+                rmakers.MakerAssignment(~abjad.index([0]), note_rhythm_maker),
             ),
+            preprocessor=baca.divisions().map(split),
             measures=measures,
             tag="stirrings_still.declamation",
         )
     else:
         return baca.rhythm(
-            rmakers.rhythm(
-                tuplet_rhythm_maker,
-                preprocessor=baca.divisions().fuse().split([(1, 4)]),
-            ),
+            tuplet_rhythm_maker,
+            preprocessor=baca.divisions().fuse().split([(1, 4)]),
             measures=measures,
             tag="stirrings_still.declamation",
         )

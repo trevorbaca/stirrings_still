@@ -24,19 +24,17 @@ def talea_eighths(
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(
-                counts_, 8, end_counts=end_counts, extra_counts=extra_counts
-            ),
-            rmakers.beam(),
-            rmakers.denominator((1, 8)),
-            rmakers.force_fraction(),
-            rmakers.trivialize(),
-            rmakers.rewrite_dots(),
-            rmakers.rewrite_sustained(),
-            rmakers.extract_trivial(),
-            rmakers.force_repeat_tie(threshold=(1, 4)),
+        rmakers.talea(
+            counts_, 8, end_counts=end_counts, extra_counts=extra_counts
         ),
+        rmakers.beam(),
+        rmakers.denominator((1, 8)),
+        rmakers.force_fraction(),
+        rmakers.trivialize(),
+        rmakers.rewrite_dots(),
+        rmakers.rewrite_sustained(),
+        rmakers.extract_trivial(),
+        rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
         tag="stirrings_still.talea_eighths",
     )

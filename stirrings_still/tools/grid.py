@@ -13,9 +13,9 @@ def grid(
     counts = counts.rotate(n=rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts, 8), rmakers.beam(), rmakers.extract_trivial()
-        ),
+        rmakers.talea(counts, 8),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
         measures=measures,
         tag="stirrings_still.grid",
     )

@@ -14,12 +14,10 @@ def running_quarter_divisions(
     ratio = tuple(count * [1])
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet([ratio]),
-            rmakers.beam(),
-            rmakers.extract_trivial(),
-            preprocessor=baca.divisions().fuse().split([(1, 4)], cyclic=True),
-        ),
+        rmakers.tuplet([ratio]),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
+        preprocessor=baca.divisions().fuse().split([(1, 4)], cyclic=True),
         measures=measures,
         tag="stirrings_still.running_quarter_divisions",
     )

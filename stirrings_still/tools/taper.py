@@ -12,12 +12,10 @@ def taper(
     Makes taper.
     """
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet([tuplet_ratio]),
-            rmakers.beam(),
-            rmakers.repeat_tie(baca.notes()[1:]),
-            rmakers.extract_trivial(),
-        ),
+        rmakers.tuplet([tuplet_ratio]),
+        rmakers.beam(),
+        rmakers.repeat_tie(baca.notes()[1:]),
+        rmakers.extract_trivial(),
         measures=measures,
         tag="stirrings_still.taper",
     )

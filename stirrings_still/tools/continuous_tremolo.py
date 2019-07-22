@@ -8,12 +8,10 @@ def continuous_tremolo() -> baca.Suite:
     """
     return baca.suite(
         baca.rhythm(
-            rmakers.rhythm(
-                rmakers.note(),
-                rmakers.beam(baca.plts()),
-                rmakers.tie(baca.ptails()[:-1]),
-                rmakers.force_repeat_tie(threshold=(1, 2)),
-            ),
+            rmakers.note(),
+            rmakers.beam(baca.plts()),
+            rmakers.tie(baca.ptails()[:-1]),
+            rmakers.force_repeat_tie(threshold=(1, 2)),
             tag="stirrings_still.continuous_tremolo",
         ),
         baca.stem_tremolo(selector=baca.pleaves()),
