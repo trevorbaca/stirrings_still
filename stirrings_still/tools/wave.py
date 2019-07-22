@@ -16,21 +16,13 @@ def wave(
     return baca.rhythm(
         rmakers.rhythm(
             rmakers.accelerando(
-                rmakers.duration_bracket(),
-                rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
                 interpolations=[
-                    rmakers.Interpolation(
-                        start_duration=start,
-                        stop_duration=stop,
-                        written_duration=(1, 16),
-                    ),
-                    rmakers.Interpolation(
-                        start_duration=stop,
-                        stop_duration=start,
-                        written_duration=(1, 16),
-                    ),
-                ],
-            )
+                    rmakers.interpolate(start, stop, (1, 16)),
+                    rmakers.interpolate(stop, start, (1, 16)),
+                ]
+            ),
+            rmakers.duration_bracket(),
+            rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         ),
         measures=measures,
         tag="stirrings_still.wave",
