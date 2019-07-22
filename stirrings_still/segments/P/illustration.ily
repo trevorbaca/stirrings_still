@@ -581,7 +581,7 @@ P_Violin_I_Music_Voice = {                                                     %
 
         % [P Violin_I_Music_Voice measure 710 / measure 6]                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -594,7 +594,7 @@ P_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -615,9 +615,9 @@ P_Violin_I_Music_Voice = {                                                     %
 
         a'16 * 33/32
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a'16 * 61/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -665,13 +665,13 @@ P_Violin_I_Music_Voice = {                                                     %
 
         % [P Violin_I_Music_Voice measure 711 / measure 7]                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a'16 * 29/32
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        [
+        [                                                                      %! stirrings_still.wave
 
         a'16 * 61/64
 
@@ -683,9 +683,9 @@ P_Violin_I_Music_Voice = {                                                     %
 
         a'16 * 81/32
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a'16 * 213/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -759,7 +759,7 @@ P_Violin_I_Music_Voice = {                                                     %
 
         % [P Violin_I_Music_Voice measure 714 / measure 10]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -772,7 +772,7 @@ P_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -797,9 +797,9 @@ P_Violin_I_Music_Voice = {                                                     %
 
         a'16 * 33/32
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a'16 * 61/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -884,7 +884,7 @@ P_Violin_I_Music_Voice = {                                                     %
 
         % [P Violin_I_Music_Voice measure 720 / measure 16]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -897,7 +897,7 @@ P_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -922,9 +922,9 @@ P_Violin_I_Music_Voice = {                                                     %
 
         a'16 * 1
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a'16 * 31/32
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -972,13 +972,13 @@ P_Violin_I_Music_Voice = {                                                     %
 
         % [P Violin_I_Music_Voice measure 721 / measure 17]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a'16 * 59/64
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        [
+        [                                                                      %! stirrings_still.wave
 
         a'16 * 61/64
 
@@ -994,9 +994,9 @@ P_Violin_I_Music_Voice = {                                                     %
 
         a'16 * 187/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a'16 * 225/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -1070,7 +1070,7 @@ P_Violin_I_Music_Voice = {                                                     %
 
         % [P Violin_I_Music_Voice measure 724 / measure 20]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -1083,7 +1083,7 @@ P_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1108,9 +1108,9 @@ P_Violin_I_Music_Voice = {                                                     %
 
         a'16 * 33/32
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a'16 * 61/64
-        ]
+        ]                                                                      %! stirrings_still.wave
         \revert DynamicText.self-alignment-X                                   %! baca.dynamic_text_self_alignment_x:OverrideCommand(2)
 
     }
@@ -1370,7 +1370,7 @@ P_Violin_II_Music_Voice = {                                                    %
 
         % [P Violin_II_Music_Voice measure 709 / measure 5]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -1383,7 +1383,7 @@ P_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1404,9 +1404,9 @@ P_Violin_II_Music_Voice = {                                                    %
 
         a16 * 35/32
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 59/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -1471,7 +1471,7 @@ P_Violin_II_Music_Voice = {                                                    %
 
         % [P Violin_II_Music_Voice measure 711 / measure 7]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \hide NoteHead                                                         %! baca.glissando
         \override Accidental.stencil = ##f                                     %! baca.glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
@@ -1490,7 +1490,7 @@ P_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1511,13 +1511,13 @@ P_Violin_II_Music_Voice = {                                                    %
 
         a16 * 11/4
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 285/64
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -1582,7 +1582,7 @@ P_Violin_II_Music_Voice = {                                                    %
 
         % [P Violin_II_Music_Voice measure 713 / measure 9]                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \hide NoteHead                                                         %! baca.glissando
         \override Accidental.stencil = ##f                                     %! baca.glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
@@ -1601,7 +1601,7 @@ P_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1622,9 +1622,9 @@ P_Violin_II_Music_Voice = {                                                    %
 
         a16 * 3/2
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 69/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -1709,7 +1709,7 @@ P_Violin_II_Music_Voice = {                                                    %
 
         % [P Violin_II_Music_Voice measure 719 / measure 15]                   %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -1722,7 +1722,7 @@ P_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1745,9 +1745,9 @@ P_Violin_II_Music_Voice = {                                                    %
 
         a16 * 79/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 65/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -1812,7 +1812,7 @@ P_Violin_II_Music_Voice = {                                                    %
 
         % [P Violin_II_Music_Voice measure 721 / measure 17]                   %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \hide NoteHead                                                         %! baca.glissando
         \override Accidental.stencil = ##f                                     %! baca.glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
@@ -1831,7 +1831,7 @@ P_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1856,13 +1856,13 @@ P_Violin_II_Music_Voice = {                                                    %
 
         a16 * 223/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 151/32
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -1927,7 +1927,7 @@ P_Violin_II_Music_Voice = {                                                    %
 
         % [P Violin_II_Music_Voice measure 723 / measure 19]                   %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \hide NoteHead                                                         %! baca.glissando
         \override Accidental.stencil = ##f                                     %! baca.glissando
         \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
@@ -1946,7 +1946,7 @@ P_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1965,9 +1965,9 @@ P_Violin_II_Music_Voice = {                                                    %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 15/16
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -2250,7 +2250,7 @@ P_Viola_Music_Voice = {                                                        %
 
         % [P Viola_Music_Voice measure 712 / measure 8]                        %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -2263,7 +2263,7 @@ P_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -2278,9 +2278,9 @@ P_Viola_Music_Voice = {                                                        %
         \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
         a16 * 137/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 67/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -2328,13 +2328,13 @@ P_Viola_Music_Voice = {                                                        %
 
         % [P Viola_Music_Voice measure 713 / measure 9]                        %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a16 * 47/64
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        [
+        [                                                                      %! stirrings_still.wave
 
         a16 * 25/32
 
@@ -2346,9 +2346,9 @@ P_Viola_Music_Voice = {                                                        %
 
         a16 * 179/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 233/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -2396,9 +2396,9 @@ P_Viola_Music_Voice = {                                                        %
 
         % [P Viola_Music_Voice measure 714 / measure 10]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a16 * 307/64
-        [
+        [                                                                      %! stirrings_still.wave
 
         a16 * 27/8
 
@@ -2406,9 +2406,9 @@ P_Viola_Music_Voice = {                                                        %
 
         a16 * 73/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 63/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -2499,7 +2499,7 @@ P_Viola_Music_Voice = {                                                        %
 
         % [P Viola_Music_Voice measure 722 / measure 18]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -2512,7 +2512,7 @@ P_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -2533,9 +2533,9 @@ P_Viola_Music_Voice = {                                                        %
 
         a16 * 17/16
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 63/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -2583,13 +2583,13 @@ P_Viola_Music_Voice = {                                                        %
 
         % [P Viola_Music_Voice measure 723 / measure 19]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a16 * 45/64
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        [
+        [                                                                      %! stirrings_still.wave
 
         a16 * 13/16
 
@@ -2597,9 +2597,9 @@ P_Viola_Music_Voice = {                                                        %
 
         a16 * 2
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 53/16
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -2647,9 +2647,9 @@ P_Viola_Music_Voice = {                                                        %
 
         % [P Viola_Music_Voice measure 724 / measure 20]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a16 * 307/64
-        [
+        [                                                                      %! stirrings_still.wave
 
         a16 * 27/8
 
@@ -2657,9 +2657,9 @@ P_Viola_Music_Voice = {                                                        %
 
         a16 * 73/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a16 * 63/64
-        ]
+        ]                                                                      %! stirrings_still.wave
         \revert DynamicText.self-alignment-X                                   %! baca.dynamic_text_self_alignment_x:OverrideCommand(2)
 
     }
@@ -2920,7 +2920,7 @@ P_Cello_Music_Voice = {                                                        %
 
         % [P Cello_Music_Voice measure 710 / measure 6]                        %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -2933,7 +2933,7 @@ P_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -2950,9 +2950,9 @@ P_Cello_Music_Voice = {                                                        %
 
         a,16 * 81/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a,16 * 31/32
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -3000,13 +3000,13 @@ P_Cello_Music_Voice = {                                                        %
 
         % [P Cello_Music_Voice measure 711 / measure 7]                        %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a,16 * 3/4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        [
+        [                                                                      %! stirrings_still.wave
 
         a,16 * 53/64
 
@@ -3016,9 +3016,9 @@ P_Cello_Music_Voice = {                                                        %
 
         a,16 * 183/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a,16 * 309/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -3066,13 +3066,13 @@ P_Cello_Music_Voice = {                                                        %
 
         % [P Cello_Music_Voice measure 712 / measure 8]                        %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a,16 * 109/16
-        [
+        [                                                                      %! stirrings_still.wave
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a,16 * 19/16
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -3163,7 +3163,7 @@ P_Cello_Music_Voice = {                                                        %
 
         % [P Cello_Music_Voice measure 720 / measure 16]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         \revert Accidental.stencil                                             %! baca.glissando
         \revert NoteColumn.glissando-skip                                      %! baca.glissando
         \revert NoteHead.no-ledgers                                            %! baca.glissando
@@ -3176,7 +3176,7 @@ P_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
-        [
+        [                                                                      %! stirrings_still.wave
         \glissando                                                             %! baca.glissando
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-poss-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -3195,9 +3195,9 @@ P_Cello_Music_Voice = {                                                        %
 
         a,16 * 21/16
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a,16 * 17/16
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -3245,13 +3245,13 @@ P_Cello_Music_Voice = {                                                        %
 
         % [P Cello_Music_Voice measure 721 / measure 17]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a,16 * 63/64
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        [
+        [                                                                      %! stirrings_still.wave
 
         a,16 * 67/64
 
@@ -3263,9 +3263,9 @@ P_Cello_Music_Voice = {                                                        %
 
         a,16 * 111/32
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a,16 * 349/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text
@@ -3313,9 +3313,9 @@ P_Cello_Music_Voice = {                                                        %
 
         % [P Cello_Music_Voice measure 722 / measure 18]                       %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.wave
         a,16 * 53/8
-        [
+        [                                                                      %! stirrings_still.wave
 
         a,16 * 121/32
 
@@ -3323,9 +3323,9 @@ P_Cello_Music_Voice = {                                                        %
 
         a,16 * 69/64
 
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.wave
         a,16 * 61/64
-        ]
+        ]                                                                      %! stirrings_still.wave
 
     }
     \revert TupletNumber.text

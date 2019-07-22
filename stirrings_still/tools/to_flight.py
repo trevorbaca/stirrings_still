@@ -18,16 +18,8 @@ def to_flight(
         rmakers.rhythm(
             rmakers.accelerando(
                 interpolations=[
-                    rmakers.Interpolation(
-                        start_duration=start,
-                        stop_duration=stop,
-                        written_duration=(1, 16),
-                    ),
-                    rmakers.Interpolation(
-                        start_duration=(1, 2),
-                        stop_duration=(1, 2),
-                        written_duration=(1, 4),
-                    ),
+                    rmakers.interpolate(start, stop, (1, 16)),
+                    rmakers.interpolate((1, 2), (1, 2), (1, 4)),
                 ]
             ),
             rmakers.duration_bracket(),
