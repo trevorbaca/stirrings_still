@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def strokes(
     rotation: int,
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
     """
@@ -18,7 +18,7 @@ def strokes(
             talea_denominator=8,
             spelling=rmakers.Spelling(forbidden_note_duration=(1, 2)),
         ),
-        *specifiers,
+        *commands,
         rmakers.untie(baca.tuplets().map(baca.leaves()[:-1])),
         rmakers.tie(baca.tuplets().map(baca.leaves()[:-1])),
         rmakers.beam(),

@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 
 def clockticks(
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     displace: bool = False,
     encroach: bool = False,
     measures: baca.SliceTyping = None,
@@ -24,7 +24,7 @@ def clockticks(
 
     return baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=[1]),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
