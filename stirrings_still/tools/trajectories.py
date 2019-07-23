@@ -7,7 +7,7 @@ def trajectories(
     counts: str,
     rotation: int,
     extra_counts_rotation: int,
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     end_counts: abjad.IntegerSequence = None,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
@@ -31,7 +31,7 @@ def trajectories(
             counts_, 8, end_counts=end_counts, extra_counts=extra_counts
         ),
         rmakers.force_fraction(),
-        *specifiers,
+        *commands,
         rmakers.rewrite_sustained(),
         rmakers.beam(),
         rmakers.extract_trivial(),

@@ -6,7 +6,7 @@ from abjadext import rmakers
 def pickets(
     fuse: int,
     extra_count: int,
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     measures: baca.SliceTyping = None,
 ) -> baca.RhythmCommand:
     """
@@ -27,7 +27,7 @@ def pickets(
 
     return baca.rhythm(
         rmakers.tuplet([tuplet_ratio]),
-        *specifiers,
+        *commands,
         rmakers.rewrite_rest_filled(),
         rmakers.rewrite_sustained(),
         rmakers.beam(),

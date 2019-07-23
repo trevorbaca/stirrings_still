@@ -6,7 +6,7 @@ from abjadext import rmakers
 
 def circles(
     duration: abjad.DurationTyping,
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     measures: baca.SliceTyping = None,
     remainder: typing.Union[int, abjad.HorizontalAlignment] = abjad.Right,
 ) -> baca.RhythmCommand:
@@ -18,7 +18,7 @@ def circles(
 
     return baca.rhythm(
         rmakers.note(),
-        *specifiers,
+        *commands,
         rmakers.beam(baca.plts()),
         rmakers.rewrite_sustained(),
         rmakers.rewrite_rest_filled(),

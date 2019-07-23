@@ -20,19 +20,19 @@ def synchronized_circles(
     if not gaps:
         counts = [abs(_) for _ in counts]
 
-    specifiers: typing.List[rmakers.Command] = []
-    specifiers.append(rmakers.extract_trivial())
+    commands: typing.List[rmakers.Command] = []
+    commands.append(rmakers.extract_trivial())
     if rests is None:
         pass
     elif isinstance(rests, list):
         specifier = rmakers.force_rest(baca.lts().get(rests))
-        specifiers.append(specifier)
+        commands.append(specifier)
     else:
         raise TypeError(rests)
 
     return baca.rhythm(
         rmakers.talea(counts, 8),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         measures=measures,
         tag="stirrings_still.synchronized_circles",
