@@ -53,6 +53,7 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'E',
+        baca.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
         ),
     )
@@ -1224,6 +1225,7 @@ maker(
         ),
     baca.new(
         baca.breathe(
+            baca.leaf(-1),
             abjad.tweak((-1, 0)).extra_offset,
             ),
         stirrings_still.desynchronization(4, [-1]),
