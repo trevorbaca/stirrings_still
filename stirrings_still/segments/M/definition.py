@@ -34,6 +34,7 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'M',
+        baca.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
         ),
     )

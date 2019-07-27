@@ -35,6 +35,7 @@ maker(
         ),
     baca.rehearsal_mark(
         'O',
+        baca.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
         ),
     )

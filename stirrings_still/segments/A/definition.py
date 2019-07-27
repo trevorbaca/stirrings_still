@@ -52,8 +52,8 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'A',
+        baca.skip(18 - 1),
         abjad.tweak((0, 12)).extra_offset,
-        selector=baca.skip(18 - 1),
         ),
     )
 
@@ -282,9 +282,7 @@ maker(
         baca.stop_on_string(),
         selector=baca.pleaf(-1),
         ),
-    stirrings_still.breathe(
-        selector=baca.pleaf(1),
-        ),
+    stirrings_still.breathe(baca.pleaf(1)),
     stirrings_still.declamation(),
     )
 
