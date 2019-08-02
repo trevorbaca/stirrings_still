@@ -35,7 +35,6 @@ def declamation(
             ),
             preprocessor=baca.divisions().map(split),
             measures=measures,
-            stack=True,
             tag="stirrings_still.declamation",
         )
     else:
@@ -43,6 +42,5 @@ def declamation(
             tuplet_rhythm_maker,
             preprocessor=baca.divisions().fuse().split([(1, 4)]),
             measures=measures,
-            stack=True,
             tag="stirrings_still.declamation",
         )

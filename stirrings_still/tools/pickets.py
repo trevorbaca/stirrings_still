@@ -34,6 +34,5 @@ def pickets(
         rmakers.extract_trivial(),
         preprocessor=divisions,
         measures=measures,
-        stack=True,
         tag="stirrings_still.pickets",
     )

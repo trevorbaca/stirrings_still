@@ -21,6 +21,5 @@ def to_flight(
         rmakers.extract_trivial(),
         preprocessor=baca.divisions().fuse().split(divisions, cyclic=True),
         measures=measures,
-        stack=True,
         tag="stirrings_still.to_flight",
     )

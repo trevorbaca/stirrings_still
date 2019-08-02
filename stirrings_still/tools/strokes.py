@@ -27,6 +27,5 @@ def strokes(
         rmakers.split_measures(),
         measures=measures,
         preprocessor=baca.divisions().rotate(n=rotation),
-        stack=True,
         tag="stirrings_still.strokes",
     )

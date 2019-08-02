@@ -19,6 +19,5 @@ def running_quarter_divisions(
         rmakers.extract_trivial(),
         preprocessor=baca.divisions().fuse().split([(1, 4)], cyclic=True),
         measures=measures,
-        stack=True,
         tag="stirrings_still.running_quarter_divisions",
     )

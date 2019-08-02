@@ -17,6 +17,5 @@ def grid(
         rmakers.beam(),
         rmakers.extract_trivial(),
         measures=measures,
-        stack=True,
         tag="stirrings_still.grid",
     )
