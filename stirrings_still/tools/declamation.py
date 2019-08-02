@@ -10,7 +10,7 @@ def declamation(
     Makes declamation.
     """
 
-    tuplet_rhythm_maker = rmakers.command(
+    tuplet_rhythm_maker = rmakers.stack(
         rmakers.tuplet([(3, 1)]),
         rmakers.beam(),
         rmakers.denominator((1, 8)),
@@ -19,7 +19,7 @@ def declamation(
         rmakers.extract_trivial(),
     )
 
-    note_rhythm_maker = rmakers.command(
+    note_rhythm_maker = rmakers.stack(
         rmakers.note(),
         rmakers.beam(baca.plts()),
         rmakers.tie(baca.ptails()[:-1]),
