@@ -11,5 +11,6 @@ def cello_cell() -> baca.RhythmCommand:
         rmakers.beam(),
         rmakers.extract_trivial(),
         preprocessor=baca.divisions().fuse().quarters(),
+        stack=True,
         tag="stirrings_still.cello_cell",
     )

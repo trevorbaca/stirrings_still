@@ -13,5 +13,6 @@ def measure_initiation() -> baca.RhythmCommand:
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
+        stack=True,
         tag="stirrings_still.measure_initation",
     )
