@@ -35,5 +35,6 @@ def synchronized_circles(
         *commands,
         rmakers.beam(),
         measures=measures,
+        stack=True,
         tag="stirrings_still.synchronized_circles",
     )

@@ -1977,7 +1977,7 @@ P_Violin_II_Music_Voice = {                                                    %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a8
+    a8                                                                         %! stirrings_still.eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     [                                                                          %! baca.beam:SpannerIndicatorCommand(1)
@@ -1987,15 +1987,15 @@ P_Violin_II_Music_Voice = {                                                    %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    a8
+    a8                                                                         %! stirrings_still.eighths
 
-    a8
+    a8                                                                         %! stirrings_still.eighths
 
-    a8
+    a8                                                                         %! stirrings_still.eighths
 
-    b8
+    b8                                                                         %! stirrings_still.eighths
 
-    b8
+    b8                                                                         %! stirrings_still.eighths
     \revert DynamicText.self-alignment-X                                       %! baca.dynamic_text_self_alignment_x:OverrideCommand(2)
 
     % [P Violin_II_Music_Voice measure 725 / measure 21]                       %! _comment_measure_numbers
@@ -3335,7 +3335,7 @@ P_Cello_Music_Voice = {                                                        %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     [                                                                          %! baca.beam:SpannerIndicatorCommand(1)
@@ -3345,24 +3345,24 @@ P_Cello_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
 
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
 
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
 
     % [P Cello_Music_Voice measure 724 / measure 20]                           %! _comment_measure_numbers
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
 
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
 
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
 
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
 
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
 
-    a,8
+    a,8                                                                        %! stirrings_still.eighths
     \revert DynamicText.self-alignment-X                                       %! baca.dynamic_text_self_alignment_x:OverrideCommand(2)
 
     % [P Cello_Music_Voice measure 725 / measure 21]                           %! _comment_measure_numbers

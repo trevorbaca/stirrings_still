@@ -122,5 +122,6 @@ def flight(
         rmakers.force_diminution(),
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
+        stack=True,
         tag="stirrings_still.flight",
     )
