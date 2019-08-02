@@ -91,7 +91,7 @@ maker(
 maker(
     ('v1', (5, 10)),
     baca.rhythm(
-        rmakers.RhythmAssignments(
+        rmakers.tesselate(
             rmakers.assign(
                 stirrings_still.wave((4, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 5]),
@@ -101,6 +101,7 @@ maker(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+        stack=True,
     ),
 )
 
@@ -141,7 +142,7 @@ maker(
 maker(
     ('v1', (15, 20)),
     baca.rhythm(
-        rmakers.RhythmAssignments(
+        rmakers.tesselate(
             rmakers.assign(
                 stirrings_still.wave((4, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 5]),
@@ -151,6 +152,7 @@ maker(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+        stack=True,
     ),
 )
 
@@ -248,7 +250,7 @@ maker(
 maker(
     ('v2', (5, 10)),
     baca.rhythm(
-        rmakers.RhythmAssignments(
+        rmakers.tesselate(
             rmakers.assign(
                 stirrings_still.wave((6, 16), (1, 16)).rhythm_maker,
                 abjad.index([0, 2, 4]),
@@ -258,6 +260,7 @@ maker(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+        stack=True,
     ),
 )
 
@@ -291,7 +294,7 @@ maker(
 maker(
     ('v2', (15, 20)),
     baca.rhythm(
-        rmakers.RhythmAssignments(
+        rmakers.tesselate(
             rmakers.assign(
                 stirrings_still.wave((6, 16), (1, 16)).rhythm_maker,
                 abjad.index([0, 2, 4]),
@@ -305,6 +308,7 @@ maker(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+        stack=True,
     ),
 )
 
@@ -361,7 +365,7 @@ maker(
 maker(
     ('va', (5, 10)),
     baca.rhythm(
-        rmakers.RhythmAssignments(
+        rmakers.tesselate(
             rmakers.assign(
                 stirrings_still.wave((5, 16), (1, 16)).rhythm_maker,
                 abjad.index([3, 4,5 ]),
@@ -371,6 +375,7 @@ maker(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+        stack=True,
     ),
 )
 
@@ -402,7 +407,7 @@ maker(
 maker(
     ('va', (15, 20)),
     baca.rhythm(
-        rmakers.RhythmAssignments(
+        rmakers.tesselate(
             rmakers.assign(
                 stirrings_still.wave((5, 16), (1, 16)).rhythm_maker,
                 abjad.index([3, 4, 5]),
@@ -412,6 +417,7 @@ maker(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+        stack=True,
     ),
 )
 
@@ -455,7 +461,7 @@ maker(
 maker(
     ('vc', (5, 10)),
     baca.rhythm(
-        rmakers.RhythmAssignments(
+        rmakers.tesselate(
             rmakers.assign(
                 stirrings_still.wave((7, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 3]),
@@ -465,6 +471,7 @@ maker(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+        stack=True,
     ),
 )
 
@@ -496,7 +503,7 @@ maker(
 maker(
     ('vc', (15, 20)),
     baca.rhythm(
-        rmakers.RhythmAssignments(
+        rmakers.tesselate(
             rmakers.assign(
                 stirrings_still.wave((7, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 3]),
@@ -510,6 +517,7 @@ maker(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
             ),
         ),
+        stack=True,
     ),
 )
 
