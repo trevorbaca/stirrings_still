@@ -29,7 +29,7 @@ def declamation(
     if protract is True:
         split = baca.divisions().split([(1, 4)])
         return baca.rhythm(
-            rmakers.tesselate(
+            rmakers.bind(
                 rmakers.assign(tuplet_rhythm_maker, abjad.index([0])),
                 rmakers.assign(note_rhythm_maker),
             ),
