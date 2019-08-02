@@ -14,6 +14,5 @@ def solid_line_rhythm(
         ),
         rmakers.beam(baca.plts()),
         measures=measures,
-        stack=True,
         tag="stirrings_still.solid_line_rhythm",
     )

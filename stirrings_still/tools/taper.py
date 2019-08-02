@@ -17,6 +17,5 @@ def taper(
         rmakers.repeat_tie(baca.notes()[1:]),
         rmakers.extract_trivial(),
         measures=measures,
-        stack=True,
         tag="stirrings_still.taper",
     )

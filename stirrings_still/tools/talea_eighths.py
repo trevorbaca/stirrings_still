@@ -36,6 +36,5 @@ def talea_eighths(
         rmakers.extract_trivial(),
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
-        stack=True,
         tag="stirrings_still.talea_eighths",
     )
