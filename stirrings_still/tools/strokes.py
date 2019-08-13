@@ -26,6 +26,6 @@ def strokes(
         rmakers.extract_trivial(),
         rmakers.split_measures(),
         measures=measures,
-        preprocessor=baca.divisions().rotate(n=rotation),
+        preprocessor=baca.sequence().rotate(n=rotation),
         tag="stirrings_still.strokes",
     )

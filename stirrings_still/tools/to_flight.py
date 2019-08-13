@@ -19,7 +19,9 @@ def to_flight(
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.extract_trivial(),
-        preprocessor=baca.divisions().fuse().split(divisions, cyclic=True),
+        preprocessor=baca.sequence()
+        .fuse()
+        .split_divisions(divisions, cyclic=True),
         measures=measures,
         tag="stirrings_still.to_flight",
     )
