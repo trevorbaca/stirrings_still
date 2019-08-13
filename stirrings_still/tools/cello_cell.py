@@ -10,6 +10,6 @@ def cello_cell() -> baca.RhythmCommand:
         rmakers.talea([3, 1, 2, 2], 16),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        preprocessor=baca.divisions().fuse().quarters(),
+        preprocessor=baca.sequence().fuse().quarters(),
         tag="stirrings_still.cello_cell",
     )

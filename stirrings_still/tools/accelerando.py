@@ -16,7 +16,7 @@ def accelerando(
         rmakers.accelerando([start, stop, (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-        preprocessor=baca.divisions().fuse(),
+        preprocessor=baca.sequence().fuse(),
         measures=measures,
         tag="stirrings_still.accelerando",
     )

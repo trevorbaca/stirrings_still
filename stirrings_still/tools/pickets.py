@@ -16,9 +16,9 @@ def pickets(
     assert isinstance(fuse, int)
     durations = [(fuse, 4)]
     divisions = (
-        baca.divisions()
+        baca.sequence()
         .fuse()
-        .split(durations, cyclic=True, remainder=abjad.Left)
+        .split_divisions(durations, cyclic=True, remainder=abjad.Left)
     )
 
     assert isinstance(extra_count, int), repr(extra_count)

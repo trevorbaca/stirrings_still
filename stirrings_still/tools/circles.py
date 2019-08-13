@@ -13,8 +13,10 @@ def circles(
     """
     Makes circle rhythm with ``duration``.
     """
-    divisions = baca.divisions().fuse()
-    divisions = divisions.split([duration], cyclic=True, remainder=remainder)
+    divisions = baca.sequence().fuse()
+    divisions = divisions.split_divisions(
+        [duration], cyclic=True, remainder=remainder
+    )
 
     return baca.rhythm(
         rmakers.note(),
