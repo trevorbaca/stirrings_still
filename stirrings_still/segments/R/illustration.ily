@@ -829,7 +829,6 @@ R_Violin_I_Music_Voice = {                                                     %
     \stopStaff                                                                 %! _style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
     \startStaff                                                                %! _style_fermata_measures(1)
-    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
     \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
@@ -1361,7 +1360,6 @@ R_Violin_II_Music_Voice = {                                                    %
     \stopStaff                                                                 %! _style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
     \startStaff                                                                %! _style_fermata_measures(1)
-    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
     \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
@@ -1495,7 +1493,6 @@ R_Viola_Music_Voice = {                                                        %
     \stopStaff                                                                 %! _style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
     \startStaff                                                                %! _style_fermata_measures(1)
-    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     bf,!4                                                                      %! baca.make_repeat_tied_notes
     \stopStaff                                                                 %! _style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! _style_fermata_measures(3)
@@ -1654,7 +1651,6 @@ R_Cello_Music_Voice = {                                                        %
     \stopStaff                                                                 %! _style_fermata_measures(1)
     \once \override Staff.StaffSymbol.line-count = 0                           %! _style_fermata_measures(1)
     \startStaff                                                                %! _style_fermata_measures(1)
-    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                      %! _style_fermata_measures(1)
     R1 * 1/4                                                                   %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
     \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
