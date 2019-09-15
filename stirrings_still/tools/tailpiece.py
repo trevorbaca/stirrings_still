@@ -17,10 +17,6 @@ def tailpiece(
         baca.markup("tailpiece", boxed=True),
         baca.staff_position(0),
         baca.stem_transparent(selector=baca.leaves()[1:]),
-#        baca.suite(
-#            baca.staff_lines(1),
-#            baca.staff_lines(5, selector=baca.leaves().rleak()[-1:]),
-#        ),
         baca.text_script_parent_alignment_x(0),
         baca.flat_glissando(None, *tweaks, selector=baca.leaves().rleak()),
         measures=measures,
