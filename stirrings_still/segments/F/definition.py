@@ -103,6 +103,7 @@ maker(
 
 maker(
     ("va", (1, 10)),
+    baca.staff_lines(1),
     baca.dynamic(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
@@ -110,6 +111,11 @@ maker(
     stirrings_still.tailpiece(
         abjad.tweak(2).bound_details__right__padding,
     ),
+)
+
+maker(
+    ("va", 12),
+    baca.staff_lines(5),
 )
 
 # vc
