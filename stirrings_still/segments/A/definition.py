@@ -161,6 +161,7 @@ stirrings_still.time(maker, time)
 
 maker(
     "v1",
+    baca.staff_lines(5),
     baca.suite(
         stirrings_still.margin_markup("Vn. I"),
         baca.start_markup(
@@ -576,6 +577,7 @@ maker(
 
 maker(
     "v2",
+    baca.staff_lines(5),
     baca.suite(
         stirrings_still.margin_markup("Vn. II"),
         baca.start_markup(
@@ -664,6 +666,7 @@ maker(
 
 maker(
     "va",
+    baca.staff_lines(5),
     baca.suite(
         stirrings_still.margin_markup("Va."),
         baca.start_markup(
@@ -752,6 +755,7 @@ maker(
 
 maker(
     "vc",
+    baca.staff_lines(5),
     baca.suite(
         stirrings_still.margin_markup("Vc."),
         baca.start_markup(
