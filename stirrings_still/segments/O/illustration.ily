@@ -333,8 +333,6 @@ O_Violin_I_Music_Voice = {                                                     %
             \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! _style_fermata_measures(1.5)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
             \revert TupletBracket.direction                                    %! baca.tuplet_bracket_down:OverrideCommand(2)
-            \once \override Score.BarLine.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_704
-            \once \override Score.SpanBar.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_704
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -355,6 +353,8 @@ O_Violin_I_Music_Voice = {                                                     %
 
             % [O Violin_I_Music_Voice measure 705 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
+            \once \override Score.BarLine.transparent = ##t                    %! PHANTOM:_style_phantom_measures(5):_style_fermata_measures(4):EOL_FERMATA:MEASURE_704
+            \once \override Score.SpanBar.transparent = ##t                    %! PHANTOM:_style_phantom_measures(5):_style_fermata_measures(4):EOL_FERMATA:MEASURE_704
             R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container

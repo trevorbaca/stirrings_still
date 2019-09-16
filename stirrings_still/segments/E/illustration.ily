@@ -3597,8 +3597,6 @@ E_Violin_I_Music_Voice = {                                                     %
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanSCP                                               %! SCP:baca.tasto_spanner:PiecewiseCommand(3)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! _style_fermata_measures(1.5)
-        %%% \once \override Score.BarLine.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_346
-        %%% \once \override Score.SpanBar.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_346
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3622,6 +3620,8 @@ E_Violin_I_Music_Voice = {                                                     %
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! _style_fermata_measures(2.5)
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #1                             %! baca.tuplet_bracket_staff_padding:OverrideCommand(1)
+    %%% \once \override Score.BarLine.transparent = ##t                        %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_346
+    %%% \once \override Score.SpanBar.transparent = ##t                        %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_346
         bf''!4                                                                 %! stirrings_still.desynchronization
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -5193,8 +5193,6 @@ E_Violin_I_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! _style_fermata_measures(1.5)
-        %%% \once \override Score.BarLine.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_391
-        %%% \once \override Score.SpanBar.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_391
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5216,6 +5214,8 @@ E_Violin_I_Music_Voice = {                                                     %
         \once \override Staff.StaffSymbol.line-count = 5                       %! _style_fermata_measures(2)
         \startStaff                                                            %! _style_fermata_measures(2)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! _style_fermata_measures(2.5)
+    %%% \once \override Score.BarLine.transparent = ##t                        %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_391
+    %%% \once \override Score.SpanBar.transparent = ##t                        %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_391
         <dqs''! gs''!>4.
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6102,8 +6102,6 @@ E_Violin_I_Music_Voice = {                                                     %
             \!                                                                 %! baca.hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanDamp                                              %! DAMP:baca.damp_spanner:PiecewiseCommand(3)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! _style_fermata_measures(1.5)
-        %%% \once \override Score.BarLine.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_416
-        %%% \once \override Score.SpanBar.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_416
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6127,6 +6125,8 @@ E_Violin_I_Music_Voice = {                                                     %
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! _style_fermata_measures(2.5)
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #1                             %! baca.tuplet_bracket_staff_padding:OverrideCommand(1)
+    %%% \once \override Score.BarLine.transparent = ##t                        %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_416
+    %%% \once \override Score.SpanBar.transparent = ##t                        %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_416
         <dqs''! gs''!>4.
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

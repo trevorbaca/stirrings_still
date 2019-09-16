@@ -2519,8 +2519,6 @@ K_Violin_I_Music_Voice = {                                                     %
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
             \revert TupletBracket.direction                                    %! baca.tuplet_bracket_down:OverrideCommand(2)
             \revert TupletBracket.staff-padding                                %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
-            \once \override Score.BarLine.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_609
-            \once \override Score.SpanBar.transparent = ##t                    %! _style_fermata_measures(4):EOL_FERMATA:MEASURE_609
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2541,6 +2539,8 @@ K_Violin_I_Music_Voice = {                                                     %
 
             % [K Violin_I_Music_Voice measure 610 / measure 55]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
+            \once \override Score.BarLine.transparent = ##t                    %! PHANTOM:_style_phantom_measures(5):_style_fermata_measures(4):EOL_FERMATA:MEASURE_609
+            \once \override Score.SpanBar.transparent = ##t                    %! PHANTOM:_style_phantom_measures(5):_style_fermata_measures(4):EOL_FERMATA:MEASURE_609
             R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
