@@ -793,7 +793,7 @@ R_Violin_I_Music_Voice = {                                                     %
             c'1 * 5/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! STOP_TEXT_SPAN:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1326,7 +1326,7 @@ R_Violin_II_Music_Voice = {                                                    %
             c'1 * 5/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanHalfCLT                                           %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanHalfCLT                                           %! STOP_TEXT_SPAN:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 

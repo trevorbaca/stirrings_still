@@ -388,7 +388,7 @@ F_Violin_I_Music_Voice = {                                                     %
             c'1 * 5/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCloudedPane                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+            \bacaStopTextSpanCloudedPane                                       %! STOP_TEXT_SPAN:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -497,8 +497,8 @@ F_Violin_I_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             \!                                                                 %! baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca.damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! STOP_TEXT_SPAN:DAMP:baca.damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
             \revert TupletBracket.direction                                    %! baca.tuplet_bracket_down:OverrideCommand(2)
 
@@ -657,7 +657,7 @@ F_Violin_II_Music_Voice = {                                                    %
             c'1 * 5/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCloudedPane                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+            \bacaStopTextSpanCloudedPane                                       %! STOP_TEXT_SPAN:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -748,8 +748,8 @@ F_Violin_II_Music_Voice = {                                                    %
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             \!                                                                 %! baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca.damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! STOP_TEXT_SPAN:DAMP:baca.damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
             \revert TupletBracket.direction                                    %! baca.tuplet_bracket_down:OverrideCommand(2)
 
@@ -990,8 +990,8 @@ F_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             \!                                                                 %! baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca.damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! STOP_TEXT_SPAN:DAMP:baca.damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
             \revert TupletBracket.direction                                    %! baca.tuplet_bracket_down:OverrideCommand(2)
 
@@ -1135,7 +1135,7 @@ F_Cello_Music_Voice = {                                                        %
             c'1 * 5/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCloudedPane                                       %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+            \bacaStopTextSpanCloudedPane                                       %! STOP_TEXT_SPAN:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1241,8 +1241,8 @@ F_Cello_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             \!                                                                 %! baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-            \bacaStopTextSpanDamp                                              %! DAMP:baca.damp_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanDamp                                              %! STOP_TEXT_SPAN:DAMP:baca.damp_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
             \revert TupletBracket.direction                                    %! baca.tuplet_bracket_down:OverrideCommand(2)
 

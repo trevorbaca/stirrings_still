@@ -517,7 +517,7 @@ S_Violin_I_Music_Voice = {                                                     %
             % [S Violin_I_Music_Voice measure 841 / measure 2]                 %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -691,7 +691,7 @@ S_Violin_I_Music_Voice = {                                                     %
             % [S Violin_I_Music_Voice measure 844 / measure 5]                 %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -956,7 +956,7 @@ S_Violin_I_Music_Voice = {                                                     %
             \startStaff                                                        %! baca.SegmentMaker._style_fermata_measures(1)
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! baca.SegmentMaker._style_fermata_measures(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1416,7 +1416,7 @@ S_Violin_I_Music_Voice = {                                                     %
             \startStaff                                                        %! baca.SegmentMaker._style_fermata_measures(1)
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! baca.SegmentMaker._style_fermata_measures(3)
             \revert NoteHead.style                                             %! baca.note_head_style_harmonic:OverrideCommand(2)
 
@@ -1611,7 +1611,7 @@ S_Violin_II_Music_Voice = {                                                    %
             % [S Violin_II_Music_Voice measure 841 / measure 2]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1779,7 +1779,7 @@ S_Violin_II_Music_Voice = {                                                    %
             % [S Violin_II_Music_Voice measure 844 / measure 5]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2032,7 +2032,7 @@ S_Violin_II_Music_Voice = {                                                    %
             \startStaff                                                        %! baca.SegmentMaker._style_fermata_measures(1)
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2468,7 +2468,7 @@ S_Violin_II_Music_Voice = {                                                    %
             \startStaff                                                        %! baca.SegmentMaker._style_fermata_measures(1)
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCircleBow                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCircleBow                                         %! STOP_TEXT_SPAN:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
             \revert NoteHead.style                                             %! baca.note_head_style_harmonic:OverrideCommand(2)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
