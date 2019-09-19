@@ -53,10 +53,11 @@ maker(
 
 maker(
     "Global_Skips",
+    baca.bar_line(".|:", baca.skip(10 - 1)),
+    baca.bar_line(":|.", baca.skip(13 - 1)),
     baca.chunk(
         baca.bar_line_x_extent((-2, 4), baca.skip(0)),
         baca.bar_line_x_extent((-3, 2), baca.skip(-1), after=True),
-        baca.volta(),
         measures=(11, 13),
     ),
 )
