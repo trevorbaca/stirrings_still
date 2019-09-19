@@ -111,9 +111,10 @@ maker(
         baca.not_score(
             baca.bar_line_x_extent((-2, 2), baca.skip(-1), after=True),
         ),
-        baca.volta(),
         measures=(44, 48),
     ),
+    baca.bar_line(".|:", baca.skip(43 - 1)),
+    baca.bar_line(":|.", baca.skip(48 - 1)),
 )
 
 time = (

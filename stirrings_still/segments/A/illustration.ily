@@ -699,107 +699,104 @@ A_Global_Skips = {                                                             %
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
 %@% - \baca-start-ct-left-only "[1'31'']"                                      %! CLOCK_TIME
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+    \bar ".|:"                                                                 %! baca.bar_line:IndicatorCommand
 
-    \repeat volta 2
-    {
+    % [A Global_Skips measure 44]                                              %! baca.SegmentMaker._comment_measure_numbers()
+    \once \override Score.BarLine.X-extent = #'(-1 . 3)                        %! baca.bar_line_x_extent:OverrideCommand(1)
+    \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
+    s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
+    \bacaStopTextSpanMM                                                        %! baca.SegmentMaker._attach_metronome_marks(1)
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+    - \baca-start-lmn-left-only "44"                                           %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "44"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+    - \baca-start-snm-left-only "[A.12.3-4]"                                   %! STAGE_NUMBER
+    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
+%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
+    \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
+%@% - \baca-start-ct-left-only "[1'36'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-        % [A Global_Skips measure 44]                                          %! baca.SegmentMaker._comment_measure_numbers()
-        \once \override Score.BarLine.X-extent = #'(-1 . 3)                    %! baca.bar_line_x_extent:OverrideCommand(1)
-        \time 16/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
-        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        s1 * 1                                                                 %! baca.SegmentMaker._make_global_skips(1)
-        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
-        \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
-        \bacaStopTextSpanMM                                                    %! baca.SegmentMaker._attach_metronome_marks(1)
-    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-        - \baca-start-lmn-left-only "44"                                       %! LOCAL_MEASURE_NUMBER
-        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "44"                                        %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
-        - \baca-start-snm-left-only "[A.12.3-4]"                               %! STAGE_NUMBER
-        \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER
-    %@% - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
-    %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "52"                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
-    %@% \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
-        - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
-        - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "52" #'blue     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
-        \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
-    %@% - \baca-start-ct-left-only "[1'36'']"                                  %! CLOCK_TIME
-    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME
+    % [A Global_Skips measure 45]                                              %! baca.SegmentMaker._comment_measure_numbers()
+    \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
+    s1 * 7/8                                                                   %! baca.SegmentMaker._make_global_skips(1)
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+    - \baca-start-lmn-left-only "45"                                           %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "45"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[1'40'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-        % [A Global_Skips measure 45]                                          %! baca.SegmentMaker._comment_measure_numbers()
-        \time 14/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
-        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        s1 * 7/8                                                               %! baca.SegmentMaker._make_global_skips(1)
-        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-        - \baca-start-lmn-left-only "45"                                       %! LOCAL_MEASURE_NUMBER
-        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "45"                                        %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
-    %@% - \baca-start-ct-left-only "[1'40'']"                                  %! CLOCK_TIME
-    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME
+    % [A Global_Skips measure 46]                                              %! baca.SegmentMaker._comment_measure_numbers()
+    \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
+    s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+    - \baca-start-lmn-left-only "46"                                           %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "46"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+    - \baca-start-snm-left-only "[A.13.1-2]"                                   %! STAGE_NUMBER
+    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER
+%@% - \baca-start-ct-left-only "[1'44'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-        % [A Global_Skips measure 46]                                          %! baca.SegmentMaker._comment_measure_numbers()
-        \time 12/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
-        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        s1 * 3/4                                                               %! baca.SegmentMaker._make_global_skips(1)
-        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
-        \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
-    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-        - \baca-start-lmn-left-only "46"                                       %! LOCAL_MEASURE_NUMBER
-        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "46"                                        %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
-        - \baca-start-snm-left-only "[A.13.1-2]"                               %! STAGE_NUMBER
-        \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER
-    %@% - \baca-start-ct-left-only "[1'44'']"                                  %! CLOCK_TIME
-    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME
+    % [A Global_Skips measure 47]                                              %! baca.SegmentMaker._comment_measure_numbers()
+    \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
+    s1 * 5/8                                                                   %! baca.SegmentMaker._make_global_skips(1)
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+    - \baca-start-lmn-left-only "47"                                           %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "47"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+%@% - \baca-start-ct-left-only "[1'48'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
-        % [A Global_Skips measure 47]                                          %! baca.SegmentMaker._comment_measure_numbers()
-        \time 10/16                                                            %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
-        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        s1 * 5/8                                                               %! baca.SegmentMaker._make_global_skips(1)
-        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-        - \baca-start-lmn-left-only "47"                                       %! LOCAL_MEASURE_NUMBER
-        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "47"                                        %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
-    %@% - \baca-start-ct-left-only "[1'48'']"                                  %! CLOCK_TIME
-    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME
-
-        % [A Global_Skips measure 48]                                          %! baca.SegmentMaker._comment_measure_numbers()
-        \time 3/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
-        \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        s1 * 3/4                                                               %! baca.SegmentMaker._make_global_skips(1)
-        \bacaStopTextSpanLMN                                                   %! LOCAL_MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN                                                    %! MEASURE_NUMBER
-        \bacaStopTextSpanSNM                                                   %! STAGE_NUMBER
-        \bacaStopTextSpanMM                                                    %! baca.SegmentMaker._attach_metronome_marks(1)
-    %@% \bacaStopTextSpanCT                                                    %! CLOCK_TIME
-        - \baca-start-lmn-left-only "48"                                       %! LOCAL_MEASURE_NUMBER
-        \bacaStartTextSpanLMN                                                  %! LOCAL_MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "48"                                        %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN                                                   %! MEASURE_NUMBER
-        - \baca-start-snm-colored-left-only "[I.6.2]" #darkgreen               %! STAGE_NUMBER
-        \bacaStartTextSpanSNM                                                  %! STAGE_NUMBER
-    %@% - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
-    %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "39"                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
-    %@% \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
-        - \abjad-invisible-line                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
-        - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "39" #'blue     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
-        \bacaStartTextSpanMM                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
-    %@% - \baca-start-ct-left-only "[1'51'']"                                  %! CLOCK_TIME
-    %@% \bacaStartTextSpanCT                                                   %! CLOCK_TIME
-    %%% \once \override Score.BarLine.X-extent = #'(-2 . 0)                    %! +SCORE:baca.bar_line_x_extent:OverrideCommand(1)
-        \once \override Score.BarLine.X-extent = #'(-2 . 2)                    %! -SCORE:baca.bar_line_x_extent:OverrideCommand(1)
-
-    }
+    % [A Global_Skips measure 48]                                              %! baca.SegmentMaker._comment_measure_numbers()
+    \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
+    s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
+    \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
+    \bacaStopTextSpanMM                                                        %! baca.SegmentMaker._attach_metronome_marks(1)
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
+    - \baca-start-lmn-left-only "48"                                           %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
+%@% - \baca-start-mn-left-only "48"                                            %! MEASURE_NUMBER
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
+    - \baca-start-snm-colored-left-only "[I.6.2]" #darkgreen                   %! STAGE_NUMBER
+    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "39"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
+%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "39" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
+    \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
+%@% - \baca-start-ct-left-only "[1'51'']"                                      %! CLOCK_TIME
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+    \bar ":|."                                                                 %! baca.bar_line:IndicatorCommand
+%%% \once \override Score.BarLine.X-extent = #'(-2 . 0)                        %! +SCORE:baca.bar_line_x_extent:OverrideCommand(1)
+    \once \override Score.BarLine.X-extent = #'(-2 . 2)                        %! -SCORE:baca.bar_line_x_extent:OverrideCommand(1)
 
     % [A Global_Skips measure 49]                                              %! baca.SegmentMaker._comment_measure_numbers()
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)

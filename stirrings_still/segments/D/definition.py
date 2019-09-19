@@ -90,30 +90,36 @@ maker(
 
 maker(
     "Global_Skips",
+    baca.bar_line(".|:", baca.skip(1 - 1), format_slot="before"),
+    baca.bar_line(":.|.:", baca.skip(6 - 1)),
+    baca.bar_line(":.|.:", baca.skip(12 - 1)),
+    baca.bar_line(":.|.:", baca.skip(18 - 1)),
+    baca.bar_line(":.|.:", baca.skip(24 - 1)),
+    baca.bar_line(":.|.:", baca.skip(30 - 1)),
+    baca.bar_line(":|.", baca.skip(36 - 1)),
+    baca.bar_line(".|:", baca.skip(56 - 1)),
+    baca.bar_line(":|.", baca.skip(60 - 1)),
+    baca.bar_line(".|:", baca.skip(93 - 1)),
+    baca.bar_line(":|.", baca.skip(97 - 1)),
     baca.chunk(
         baca.bar_line_x_extent((-1, 3), baca.skip(0)),
         baca.bar_line_x_extent((-2, 4), baca.skip(-1), after=True),
-        baca.volta(),
         measures=(1, 6),
     ),
     baca.chunk(
         baca.bar_line_x_extent((-2, 4), baca.skip(-1), after=True),
-        baca.volta(),
         measures=(7, 12),
     ),
     baca.chunk(
         baca.bar_line_x_extent((-2, 0), baca.skip(-1), after=True),
-        baca.volta(),
         measures=(13, 18),
     ),
     baca.chunk(
         baca.bar_line_x_extent((-2, 4), baca.skip(-1), after=True),
-        baca.volta(),
         measures=(19, 24),
     ),
     baca.chunk(
         baca.bar_line_x_extent((-2, 4), baca.skip(-1), after=True),
-        baca.volta(),
         measures=(25, 30),
     ),
     baca.chunk(
@@ -123,20 +129,17 @@ maker(
         baca.only_segment(
             baca.bar_line_x_extent((-2, 0), baca.skip(-1), after=True),
         ),
-        baca.volta(),
         measures=(31, 36),
     ),
     baca.chunk(
         baca.bar_line_x_extent((-1, 3), baca.skip(0)),
         baca.bar_line_x_extent((-2, 2), baca.skip(-1), after=True),
-        baca.volta(),
         measures=(57, 60),
     ),
     baca.chunk(
         # left extent zero because empty measure to left
         baca.bar_line_x_extent((0, 3), baca.skip(0)),
         baca.bar_line_x_extent((-2, 2), baca.skip(-1), after=True),
-        baca.volta(),
         measures=(94, 97),
     ),
 )

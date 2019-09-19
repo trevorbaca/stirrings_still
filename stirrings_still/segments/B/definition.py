@@ -91,9 +91,10 @@ maker(
         baca.not_segment(
             baca.bar_line_x_extent((0, 2), baca.skip(-1), after=True),
         ),
-        baca.volta(),
         measures=(29, 32),
     ),
+    baca.bar_line(".|:", baca.skip(28 - 1)),
+    baca.bar_line(":|.", baca.skip(32 - 1)),
 )
 
 time = (
