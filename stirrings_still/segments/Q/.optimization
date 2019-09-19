@@ -4068,3 +4068,8 @@
  Segment-maker runtime: 160 seconds
  Abjad format time: 2 seconds
  LilyPond runtime: 16 seconds
+
+2019-09-19 15:00:59
+ Segment-maker runtime: 135 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 10 seconds
