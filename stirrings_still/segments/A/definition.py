@@ -40,6 +40,7 @@ maker = baca.SegmentMaker(
         abjad.const.LOCAL_MEASURE_NUMBER,
         abjad.const.STAGE_NUMBER,
     ],
+    check_all_are_pitched=True,
     fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
     includes=["stylesheet.ily"],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,

@@ -42,6 +42,7 @@ maker = baca.SegmentMaker(
         abjad.const.LOCAL_MEASURE_NUMBER,
         abjad.const.STAGE_NUMBER,
         ],
+    check_all_are_pitched=True,
     fermata_measure_empty_overrides=[41, 86, 111],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -160,7 +161,7 @@ maker(
         baca.flat_glissando("Etqf4"),
         map=baca.plts().get([1], 2),
     ),
-    baca.pitch("Etqf4"),
+    baca.pitch("Etqf4", allow_repitch=True),
     stirrings_still.grid_to_trajectory(0, 0, 2),
 )
 
@@ -756,7 +757,7 @@ maker(
         baca.flat_glissando("Bqf3"),
         map=baca.plts().get([1], 2),
     ),
-    baca.pitch("Bqf3"),
+    baca.pitch("Bqf3", allow_repitch=True),
 )
 
 maker(
@@ -974,7 +975,7 @@ maker(
         baca.flat_glissando("A3"),
         map=baca.plts().get([1], 2),
     ),
-    baca.pitch("A3"),
+    baca.pitch("A3", allow_repitch=True),
     stirrings_still.grid_to_trajectory(0, -4, 0),
 )
 
