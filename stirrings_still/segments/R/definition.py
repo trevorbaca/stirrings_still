@@ -49,18 +49,8 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.bar_line(".|:", baca.skip(2 - 1)),
-    baca.bar_line(":|.", baca.skip(4 - 1)),
-    baca.chunk(
-        baca.only_score(
-            baca.bar_line_x_extent((0, 3), baca.skip(0)),
-        ),
-        baca.not_score(
-            baca.bar_line_x_extent((-1, 3), baca.skip(0)),
-        ),
-        baca.bar_line_x_extent((-2, 3), baca.skip(-1), after=True),
-        measures=(3, 4),
-    ),
+    baca.open_volta(baca.skip(3 - 1)),
+    baca.close_volta(baca.skip(5 - 1)),
 )
 
 time = (

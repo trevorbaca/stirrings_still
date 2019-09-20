@@ -82,20 +82,10 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.bar_line(".|:", baca.skip(34 - 1)),
-    baca.bar_line(":|.", baca.skip(43 - 1)),
-    baca.chunk(
-        baca.bar_line_x_extent((-1, 3), baca.skip(0)),
-        baca.bar_line_x_extent((-2, 2), baca.skip(-1), after=True),
-        measures=(35, 43),
-    ),
-    baca.bar_line(".|:", baca.skip(104 - 1)),
-    baca.bar_line(":|.", baca.skip(110 - 1)),
-    baca.chunk(
-        baca.bar_line_x_extent((-1, 3), baca.skip(0)),
-        baca.bar_line_x_extent((-2, 0), baca.skip(-1), after=True),
-        measures=(105, 110),
-    ),
+    baca.open_volta(baca.skip(35 - 1)),
+    baca.close_volta(baca.skip(44 - 1)),
+    baca.open_volta(baca.skip(105 - 1)),
+    baca.close_volta(baca.skip(111 - 1)),
 )
 
 time = (

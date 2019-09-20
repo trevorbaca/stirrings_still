@@ -90,58 +90,17 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.bar_line(".|:", baca.skip(1 - 1), format_slot="before"),
-    baca.bar_line(":.|.:", baca.skip(6 - 1)),
-    baca.bar_line(":.|.:", baca.skip(12 - 1)),
-    baca.bar_line(":.|.:", baca.skip(18 - 1)),
-    baca.bar_line(":.|.:", baca.skip(24 - 1)),
-    baca.bar_line(":.|.:", baca.skip(30 - 1)),
-    baca.bar_line(":|.", baca.skip(36 - 1)),
-    baca.bar_line(".|:", baca.skip(56 - 1)),
-    baca.bar_line(":|.", baca.skip(60 - 1)),
-    baca.bar_line(".|:", baca.skip(93 - 1)),
-    baca.bar_line(":|.", baca.skip(97 - 1)),
-    baca.chunk(
-        baca.bar_line_x_extent((-1, 3), baca.skip(0)),
-        baca.bar_line_x_extent((-2, 4), baca.skip(-1), after=True),
-        measures=(1, 6),
-    ),
-    baca.chunk(
-        baca.bar_line_x_extent((-2, 4), baca.skip(-1), after=True),
-        measures=(7, 12),
-    ),
-    baca.chunk(
-        baca.bar_line_x_extent((-2, 0), baca.skip(-1), after=True),
-        measures=(13, 18),
-    ),
-    baca.chunk(
-        baca.bar_line_x_extent((-2, 4), baca.skip(-1), after=True),
-        measures=(19, 24),
-    ),
-    baca.chunk(
-        baca.bar_line_x_extent((-2, 4), baca.skip(-1), after=True),
-        measures=(25, 30),
-    ),
-    baca.chunk(
-        baca.not_segment(
-            baca.bar_line_x_extent((-2, 2), baca.skip(-1), after=True),
-        ),
-        baca.only_segment(
-            baca.bar_line_x_extent((-2, 0), baca.skip(-1), after=True),
-        ),
-        measures=(31, 36),
-    ),
-    baca.chunk(
-        baca.bar_line_x_extent((-1, 3), baca.skip(0)),
-        baca.bar_line_x_extent((-2, 2), baca.skip(-1), after=True),
-        measures=(57, 60),
-    ),
-    baca.chunk(
-        # left extent zero because empty measure to left
-        baca.bar_line_x_extent((0, 3), baca.skip(0)),
-        baca.bar_line_x_extent((-2, 2), baca.skip(-1), after=True),
-        measures=(94, 97),
-    ),
+    baca.open_volta(baca.skip(1 - 1)),
+    baca.double_volta(baca.skip(7 - 1)),
+    baca.double_volta(baca.skip(13 - 1)),
+    baca.double_volta(baca.skip(19 - 1)),
+    baca.double_volta(baca.skip(25 - 1)),
+    baca.double_volta(baca.skip(31 - 1)),
+    baca.close_volta(baca.skip(37 - 1)),
+    baca.open_volta(baca.skip(57 - 1)),
+    baca.close_volta(baca.skip(61 - 1)),
+    baca.open_volta(baca.skip(94 - 1)),
+    baca.close_volta(baca.skip(98 - 1)),
 )
 
 time = (
