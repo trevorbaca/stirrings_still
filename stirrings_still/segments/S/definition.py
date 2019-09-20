@@ -21,6 +21,7 @@ maker = baca.SegmentMaker(
         abjad.const.LOCAL_MEASURE_NUMBER,
         abjad.const.STAGE_NUMBER,
         ],
+    check_all_are_pitched=True,
     do_not_force_nonnatural_accidentals=True,
     fermata_measure_empty_overrides=[9, 16, 20],
     final_segment=True,

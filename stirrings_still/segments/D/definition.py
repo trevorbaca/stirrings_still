@@ -48,6 +48,7 @@ maker = baca.SegmentMaker(
         abjad.const.LOCAL_MEASURE_NUMBER,
         abjad.const.STAGE_NUMBER,
         ],
+    check_all_are_pitched=True,
     do_not_color_repeat_pitch_classes=True,
     fermata_measure_empty_overrides=[37, 46, 64],
     ignore_repeat_pitch_classes=True,
@@ -1015,7 +1016,7 @@ maker(
             baca.untie(baca.pleaf(0)),
             match=0,
         ),
-        baca.flat_glissando("<Etqf4 C5>"),
+        baca.flat_glissando("<Etqf4 C5>", allow_repitch=True),
     ),
 )
 
@@ -1069,7 +1070,7 @@ maker(
             baca.untie(baca.pleaf(0)),
             match=0,
         ),
-        baca.flat_glissando("<Bqf3 G4>"),
+        baca.flat_glissando("<Bqf3 G4>", allow_repitch=True),
     ),
 )
 

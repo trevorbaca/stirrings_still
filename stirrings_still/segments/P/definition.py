@@ -22,6 +22,7 @@ maker = baca.SegmentMaker(
         abjad.const.LOCAL_MEASURE_NUMBER,
         abjad.const.STAGE_NUMBER,
         ],
+    check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("P"),
@@ -126,6 +127,7 @@ maker(
     ("v1", [(6, 7), 10, (16, 17), 20]),
     baca.flat_glissando(
         "A4",
+        allow_repitch=True,
         rleak=True,
     ),
 )
@@ -233,6 +235,7 @@ maker(
     ("v2", [5, 7, 9, 15, 17, 19]),
     baca.flat_glissando(
         "A3",
+        allow_repitch=True,
         rleak=True,
     ),
 )
@@ -387,6 +390,7 @@ maker(
     ("va", [(8, 10), (18, 20)]),
     baca.flat_glissando(
         "A3",
+        allow_repitch=True,
         rleak=True,
     ),
 )
@@ -449,7 +453,7 @@ maker(
 
 maker(
     ("vc", (1, 18)),
-    baca.pitch("A2"),
+    baca.pitch("A2", allow_repitch=True),
 )
 
 maker(
@@ -481,6 +485,7 @@ maker(
     ("vc", [(6, 8), (16, 18)]),
     baca.flat_glissando(
         "A2",
+        allow_repitch=True,
         rleak=True,
     ),
 )
