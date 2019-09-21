@@ -49,7 +49,6 @@ maker = baca.SegmentMaker(
         abjad.const.STAGE_NUMBER,
         ],
     check_all_are_pitched=True,
-    do_not_color_repeat_pitch_classes=True,
     fermata_measure_empty_overrides=[37, 46, 64],
     ignore_repeat_pitch_classes=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
