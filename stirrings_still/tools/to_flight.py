@@ -14,7 +14,7 @@ def to_flight(
     Makes trajectories-to-flight.
     """
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)], [(1, 2), (1, 2), (1, 4)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
@@ -23,5 +23,6 @@ def to_flight(
         .fuse()
         .split_divisions(divisions, cyclic=True),
         measures=measures,
-        tag="stirrings_still.to_flight",
     )
+    command = baca.tag("stirrings_still.to_flight()", command)
+    return command

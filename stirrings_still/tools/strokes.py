@@ -11,7 +11,7 @@ def strokes(
     """
     Makes strokes.
     """
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.incised(
             suffix_talea=[1],
             suffix_counts=[1],
@@ -27,5 +27,6 @@ def strokes(
         rmakers.split_measures(),
         measures=measures,
         preprocessor=baca.sequence().rotate(n=rotation),
-        tag="stirrings_still.strokes",
     )
+    command = baca.tag("stirrings_still.strokes()", command)
+    return command

@@ -122,5 +122,6 @@ def flight(
         rmakers.force_diminution(),
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
-        tag="stirrings_still.flight",
     )
+    command = baca.tag("stirrings_still.flight()", command)
+    return command

@@ -19,5 +19,6 @@ def circle_spanner(
         lilypond_id="Circles",
         measures=measures,
         selector=selector,
-        tag="MATERIAL:CIRCLE",
     )
+    command = baca.tag(["MATERIAL", "CIRCLE"], command)
+    return command

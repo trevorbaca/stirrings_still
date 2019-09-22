@@ -26,7 +26,7 @@ def trajectories(
     extra_counts = baca.sequence([1, 1, 0, -1])
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.talea(
             counts_, 8, end_counts=end_counts, extra_counts=extra_counts
         ),
@@ -36,5 +36,6 @@ def trajectories(
         rmakers.beam(),
         rmakers.extract_trivial(),
         measures=measures,
-        tag="stirrings_still.trajectories",
     )
+    command = baca.tag("stirrings_still.trajectories()", command)
+    return command

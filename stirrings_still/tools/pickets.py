@@ -25,7 +25,7 @@ def pickets(
     counts = 4 + extra_count
     tuplet_ratio = counts * (1,)
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.tuplet([tuplet_ratio]),
         *commands,
         rmakers.rewrite_rest_filled(),
@@ -34,5 +34,6 @@ def pickets(
         rmakers.extract_trivial(),
         preprocessor=divisions,
         measures=measures,
-        tag="stirrings_still.pickets",
     )
+    command = baca.tag("stirrings_still.pickets()", command)
+    return command

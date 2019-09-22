@@ -5,8 +5,8 @@ M_Global_Skips = {                                                             %
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 5/8                                                                   %! baca.SegmentMaker._make_global_skips(1)
-    - \tweak extra-offset #'(0 . 10)                                           %! baca.rehearsal_mark:IndicatorCommand
-    - \baca-rehearsal-mark-markup "M"                                          %! baca.rehearsal_mark:IndicatorCommand
+    - \tweak extra-offset #'(0 . 10)                                           %! baca.rehearsal_mark():IndicatorCommand
+    - \baca-rehearsal-mark-markup "M"                                          %! baca.rehearsal_mark():IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "626"                                           %! MEASURE_NUMBER
@@ -603,93 +603,93 @@ M_Violin_I_Music_Voice = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    d'''2                                                                      %! baca.make_repeat_tied_notes
+    d'''2                                                                      %! baca.make_repeat_tied_notes()
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { "allow vibrato to achieve loud dynamics" }                     %! baca.markup:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 9°/C }                                                         %! baca.markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { "allow vibrato to achieve loud dynamics" }                     %! baca.markup():IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 9°/C }                                                         %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    d'''8                                                                      %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    d'''8                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 627 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2.                                                                     %! baca.make_repeat_tied_notes
+    d'''2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 628 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2.                                                                     %! baca.make_repeat_tied_notes
+    d'''2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 629 / measure 4]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2.                                                                     %! baca.make_repeat_tied_notes
+    d'''2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 630 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2                                                                      %! baca.make_repeat_tied_notes
+    d'''2                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 631 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2..                                                                    %! baca.make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 632 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2..                                                                    %! baca.make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 633 / measure 8]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    d'''1                                                                      %! baca.make_repeat_tied_notes
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    d'''1                                                                      %! baca.make_repeat_tied_notes()
 
-    \times 2/3 {                                                               %! stirrings_still.pickets
+    \times 2/3 {
 
         % [M Violin_I_Music_Voice measure 634 / measure 9]                     %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
-        ^ \markup { (12ET) }                                                   %! baca.markup:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca.markup():IndicatorCommand
+        ^ \markup { (12ET) }                                                   %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca.glissando
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        \bacaStartTextSpanUrtext                                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
+        \glissando                                                             %! baca.glissando()
+        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+        - \tweak color #darkred                                                %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        \bacaStartTextSpanUrtext                                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
         <ds'! a'>4
 
         <ds'! a'>4
@@ -700,9 +700,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 2/3 {                                                               %! stirrings_still.pickets
+    \times 2/3 {
 
         % [M Violin_I_Music_Voice measure 635 / measure 10]                    %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
@@ -718,11 +718,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 2/3 {                                                               %! stirrings_still.pickets
-
-        <ds'! a'>4
+    \times 2/3 {
 
         <ds'! a'>4
 
@@ -732,85 +730,87 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still.pickets
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        <ds'! a'>4
+
+    }
 
     % [M Violin_I_Music_Voice measure 638 / measure 13]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d'''1                                                                      %! baca.make_repeat_tied_notes
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 9°/C }                                                         %! baca.markup:IndicatorCommand
+    d'''1                                                                      %! baca.make_repeat_tied_notes()
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 9°/C }                                                         %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
-    \glissando                                                                 %! baca.glissando
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
+    \glissando                                                                 %! baca.glissando()
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 639 / measure 14]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    d'''2..                                                                    %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    d'''2..                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 640 / measure 15]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2..                                                                    %! baca.make_repeat_tied_notes
+    d'''2..                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 641 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d'''1                                                                      %! baca.make_repeat_tied_notes
+    d'''1                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 642 / measure 17]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    d'''4.                                                                     %! stirrings_still.pickets
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    d'''4.
 
-    \times 2/3 {                                                               %! stirrings_still.pickets
+    \times 2/3 {
 
         <ds'! a'>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-        - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
-        ^ \markup { (12ET) }                                                   %! baca.markup:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca.markup():IndicatorCommand
+        ^ \markup { (12ET) }                                                   %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca.glissando
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        \bacaStartTextSpanUrtext                                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
+        \glissando                                                             %! baca.glissando()
+        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+        - \tweak color #darkred                                                %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        \bacaStartTextSpanUrtext                                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
         <ds'! a'>4
 
         <ds'! a'>4
@@ -821,9 +821,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 2/3 {                                                               %! stirrings_still.pickets
+    \times 2/3 {
 
         % [M Violin_I_Music_Voice measure 644 / measure 19]                    %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
@@ -838,9 +838,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 2/3 {                                                               %! stirrings_still.pickets
+    \times 2/3 {
 
         % [M Violin_I_Music_Voice measure 645 / measure 20]                    %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
@@ -853,88 +853,88 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
     % [M Violin_I_Music_Voice measure 646 / measure 21]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2..                                                                    %! baca.make_repeat_tied_notes
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 9°/C }                                                         %! baca.markup:IndicatorCommand
+    d'''2..                                                                    %! baca.make_repeat_tied_notes()
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 9°/C }                                                         %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
-    \glissando                                                                 %! baca.glissando
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
+    \glissando                                                                 %! baca.glissando()
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
 
     % [M Violin_I_Music_Voice measure 647 / measure 22]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    d'''2..                                                                    %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    d'''2..                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 648 / measure 23]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2                                                                      %! baca.make_repeat_tied_notes
+    d'''2                                                                      %! baca.make_repeat_tied_notes()
 
-    d'''8                                                                      %! baca.make_repeat_tied_notes
+    d'''8                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 649 / measure 24]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2.                                                                     %! baca.make_repeat_tied_notes
+    d'''2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 650 / measure 25]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    d'''2.                                                                     %! stirrings_still.pickets
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    d'''2.
 
-    \times 2/3 {                                                               %! stirrings_still.pickets
+    \times 2/3 {
 
         % [M Violin_I_Music_Voice measure 651 / measure 26]                    %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
-        ^ \markup { (12ET) }                                                   %! baca.markup:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca.markup():IndicatorCommand
+        ^ \markup { (12ET) }                                                   %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-        \glissando                                                             %! baca.glissando
+        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+        \glissando                                                             %! baca.glissando()
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        \bacaStartTextSpanUrtext                                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
+        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+        - \tweak color #darkred                                                %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        \bacaStartTextSpanUrtext                                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
         <ds'! a'>4
 
         <ds'! a'>4
@@ -946,11 +946,9 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 2/3 {                                                               %! stirrings_still.pickets
-
-        <ds'! a'>4
+    \times 2/3 {
 
         <ds'! a'>4
 
@@ -960,45 +958,47 @@ M_Violin_I_Music_Voice = {                                                     %
 
         <ds'! a'>4
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
         <ds'! a'>4
 
-    }                                                                          %! stirrings_still.pickets
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        <ds'! a'>4
+
+    }
 
     % [M Violin_I_Music_Voice measure 654 / measure 29]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d'''2                                                                      %! baca.make_repeat_tied_notes
+    d'''2                                                                      %! baca.make_repeat_tied_notes()
     \!                                                                         %! SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 9°/C }                                                         %! baca.markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 9°/C }                                                         %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
-    \glissando                                                                 %! baca.glissando
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
+    \glissando                                                                 %! baca.glissando()
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    d'''8                                                                      %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    d'''8                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 655 / measure 30]                        %! baca.SegmentMaker._comment_measure_numbers()
-    c'''2.                                                                     %! baca.make_repeat_tied_notes
+    c'''2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 656 / measure 31]                        %! baca.SegmentMaker._comment_measure_numbers()
-    c'''2.                                                                     %! baca.make_repeat_tied_notes
+    c'''2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 657 / measure 32]                        %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -1007,7 +1007,7 @@ M_Violin_I_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    c'''2                                                                      %! baca.make_repeat_tied_notes
+    c'''2                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
 %@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
@@ -1026,7 +1026,7 @@ M_Violin_I_Music_Voice = {                                                     %
             % [M Violin_I_Music_Voice measure 658 / measure 33]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCloudedPane                                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+            \bacaStopTextSpanCloudedPane                                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1074,93 +1074,93 @@ M_Violin_II_Music_Voice = {                                                    %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    fqs''!2                                                                    %! baca.make_repeat_tied_notes
+    fqs''!2                                                                    %! baca.make_repeat_tied_notes()
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { "allow vibrato to achieve loud dynamics" }                     %! baca.markup:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 11°/C }                                                        %! baca.markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { "allow vibrato to achieve loud dynamics" }                     %! baca.markup():IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 11°/C }                                                        %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    fqs''!8                                                                    %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    fqs''!8                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 627 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2.                                                                   %! baca.make_repeat_tied_notes
+    fqs''!2.                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 628 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2.                                                                   %! baca.make_repeat_tied_notes
+    fqs''!2.                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 629 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2.                                                                   %! baca.make_repeat_tied_notes
+    fqs''!2.                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 630 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2                                                                    %! baca.make_repeat_tied_notes
+    fqs''!2                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 631 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 632 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 633 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    fqs''!1                                                                    %! baca.make_repeat_tied_notes
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    fqs''!1                                                                    %! baca.make_repeat_tied_notes()
 
-    \times 4/5 {                                                               %! stirrings_still.pickets
+    \times 4/5 {
 
         % [M Violin_II_Music_Voice measure 634 / measure 9]                    %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
-        ^ \markup { (24ET) }                                                   %! baca.markup:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca.markup():IndicatorCommand
+        ^ \markup { (24ET) }                                                   %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        \bacaStartTextSpanUrtext                                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
+        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+        - \tweak color #darkred                                                %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        \bacaStartTextSpanUrtext                                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca.glissando
+        \glissando                                                             %! baca.glissando()
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
         <dqs'! gtqs'!>4
 
         <dqs'! gtqs'!>4
@@ -1169,9 +1169,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 4/5 {                                                               %! stirrings_still.pickets
+    \times 4/5 {
 
         % [M Violin_II_Music_Voice measure 635 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
@@ -1184,11 +1184,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 4/5 {                                                               %! stirrings_still.pickets
-
-        <dqs'! gtqs'!>4
+    \times 4/5 {
 
         <dqs'! gtqs'!>4
 
@@ -1196,85 +1194,87 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still.pickets
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        <dqs'! gtqs'!>4
+
+    }
 
     % [M Violin_II_Music_Voice measure 638 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!1                                                                    %! baca.make_repeat_tied_notes
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 11°/C }                                                        %! baca.markup:IndicatorCommand
+    fqs''!1                                                                    %! baca.make_repeat_tied_notes()
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 11°/C }                                                        %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
 
     % [M Violin_II_Music_Voice measure 639 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 640 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 641 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!1                                                                    %! baca.make_repeat_tied_notes
+    fqs''!1                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 642 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    fqs''!4.                                                                   %! stirrings_still.pickets
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    fqs''!4.
 
-    \times 4/5 {                                                               %! stirrings_still.pickets
+    \times 4/5 {
 
         <dqs'! gtqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-        - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
-        ^ \markup { (24ET) }                                                   %! baca.markup:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca.markup():IndicatorCommand
+        ^ \markup { (24ET) }                                                   %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        \bacaStartTextSpanUrtext                                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
+        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+        - \tweak color #darkred                                                %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        \bacaStartTextSpanUrtext                                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca.glissando
+        \glissando                                                             %! baca.glissando()
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
         <dqs'! gtqs'!>4
 
         <dqs'! gtqs'!>4
@@ -1283,9 +1283,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 4/5 {                                                               %! stirrings_still.pickets
+    \times 4/5 {
 
         % [M Violin_II_Music_Voice measure 644 / measure 19]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
@@ -1298,9 +1298,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 4/5 {                                                               %! stirrings_still.pickets
+    \times 4/5 {
 
         % [M Violin_II_Music_Voice measure 645 / measure 20]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
@@ -1311,77 +1311,77 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
     % [M Violin_II_Music_Voice measure 646 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 11°/C }                                                        %! baca.markup:IndicatorCommand
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes()
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 11°/C }                                                        %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
 
     % [M Violin_II_Music_Voice measure 647 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    fqs''!2..                                                                  %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    fqs''!2..                                                                  %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 648 / measure 23]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2                                                                    %! baca.make_repeat_tied_notes
+    fqs''!2                                                                    %! baca.make_repeat_tied_notes()
 
-    fqs''!8                                                                    %! baca.make_repeat_tied_notes
+    fqs''!8                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 649 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2.                                                                   %! baca.make_repeat_tied_notes
+    fqs''!2.                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 650 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    fqs''!2.                                                                   %! stirrings_still.pickets
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    fqs''!2.
 
-    \times 4/5 {                                                               %! stirrings_still.pickets
+    \times 4/5 {
 
         % [M Violin_II_Music_Voice measure 651 / measure 26]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
-        ^ \markup { (24ET) }                                                   %! baca.markup:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca.markup():IndicatorCommand
+        ^ \markup { (24ET) }                                                   %! baca.markup():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-        - \tweak color #darkred                                                %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        \bacaStartTextSpanUrtext                                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
-        \glissando                                                             %! baca.glissando
+        \bacaStopTextSpanCloudedPane                                           %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "urtext (ds)"                           %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+        - \tweak color #darkred                                                %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        \bacaStartTextSpanUrtext                                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+        \glissando                                                             %! baca.glissando()
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-very-wide-markup         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1389,10 +1389,10 @@ M_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
         <dqs'! gtqs'!>4
 
         <dqs'! gtqs'!>4
@@ -1401,11 +1401,9 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still.pickets
+    }
 
-    \times 4/5 {                                                               %! stirrings_still.pickets
-
-        <dqs'! gtqs'!>4
+    \times 4/5 {
 
         <dqs'! gtqs'!>4
 
@@ -1413,45 +1411,47 @@ M_Violin_II_Music_Voice = {                                                    %
 
         <dqs'! gtqs'!>4
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
         <dqs'! gtqs'!>4
 
-    }                                                                          %! stirrings_still.pickets
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        <dqs'! gtqs'!>4
+
+    }
 
     % [M Violin_II_Music_Voice measure 654 / measure 29]                       %! baca.SegmentMaker._comment_measure_numbers()
-    fqs''!2                                                                    %! baca.make_repeat_tied_notes
+    fqs''!2                                                                    %! baca.make_repeat_tied_notes()
     \!                                                                         %! SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 11°/C }                                                        %! baca.markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 11°/C }                                                        %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    f''8                                                                       %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    f''8                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 655 / measure 30]                       %! baca.SegmentMaker._comment_measure_numbers()
-    f''2.                                                                      %! baca.make_repeat_tied_notes
+    f''2.                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 656 / measure 31]                       %! baca.SegmentMaker._comment_measure_numbers()
-    e''2.                                                                      %! baca.make_repeat_tied_notes
+    e''2.                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 657 / measure 32]                       %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -1460,7 +1460,7 @@ M_Violin_II_Music_Voice = {                                                    %
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    eqf''!2                                                                    %! baca.make_repeat_tied_notes
+    eqf''!2                                                                    %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():OverrideCommand(2)
@@ -1479,7 +1479,7 @@ M_Violin_II_Music_Voice = {                                                    %
             % [M Violin_II_Music_Voice measure 658 / measure 33]               %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCloudedPane                                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+            \bacaStopTextSpanCloudedPane                                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1524,90 +1524,90 @@ M_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    aqf'!2                                                                     %! baca.make_repeat_tied_notes
+    aqf'!2                                                                     %! baca.make_repeat_tied_notes()
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    ^ \markup { "allow vibrato to achieve loud dynamics" }                     %! baca.markup:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 13°/C }                                                        %! baca.markup:IndicatorCommand
+    ^ \markup { "allow vibrato to achieve loud dynamics" }                     %! baca.markup():IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 13°/C }                                                        %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    aqf'!8                                                                     %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    aqf'!8                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 627 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2.                                                                    %! baca.make_repeat_tied_notes
+    aqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 628 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2.                                                                    %! baca.make_repeat_tied_notes
+    aqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 629 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2.                                                                    %! baca.make_repeat_tied_notes
+    aqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 630 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2                                                                     %! baca.make_repeat_tied_notes
+    aqf'!2                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 631 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 632 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 633 / measure 8]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    aqf'!1                                                                     %! baca.make_repeat_tied_notes
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    aqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 634 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
     <d' gs'!>4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! baca.markup:IndicatorCommand
-    ^ \markup { (12ET) }                                                       %! baca.markup:IndicatorCommand
+    - \tweak staff-padding #8                                                  %! baca.markup():IndicatorCommand
+    ^ \markup { (12ET) }                                                       %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds)"                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds)"                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-wide-markup             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    \glissando                                                                 %! baca.glissando()
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     <d' gs'!>4
 
     <d' gs'!>4
@@ -1631,81 +1631,81 @@ M_Viola_Music_Voice = {                                                        %
 
     <d' gs'!>4
 
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
     <d' gs'!>4
 
     % [M Viola_Music_Voice measure 638 / measure 13]                           %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!1                                                                     %! baca.make_repeat_tied_notes
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 13°/C }                                                        %! baca.markup:IndicatorCommand
+    aqf'!1                                                                     %! baca.make_repeat_tied_notes()
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 13°/C }                                                        %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
 
     % [M Viola_Music_Voice measure 639 / measure 14]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 640 / measure 15]                           %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 641 / measure 16]                           %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!1                                                                     %! baca.make_repeat_tied_notes
+    aqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 642 / measure 17]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    aqf'!4.                                                                    %! stirrings_still.pickets
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    aqf'!4.
 
     <d' gs'!>4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \tweak staff-padding #8                                                  %! baca.markup:IndicatorCommand
-    ^ \markup { (12ET) }                                                       %! baca.markup:IndicatorCommand
+    - \tweak staff-padding #8                                                  %! baca.markup():IndicatorCommand
+    ^ \markup { (12ET) }                                                       %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds)"                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds)"                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-wide-markup             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    \glissando                                                                 %! baca.glissando()
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     <d' gs'!>4
 
     <d' gs'!>4
@@ -1728,73 +1728,73 @@ M_Viola_Music_Voice = {                                                        %
 
     <d' gs'!>4
 
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
     <d' gs'!>4
 
     % [M Viola_Music_Voice measure 646 / measure 21]                           %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 13°/C }                                                        %! baca.markup:IndicatorCommand
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes()
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 13°/C }                                                        %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
 
     % [M Viola_Music_Voice measure 647 / measure 22]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    aqf'!2..                                                                   %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    aqf'!2..                                                                   %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 648 / measure 23]                           %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2                                                                     %! baca.make_repeat_tied_notes
+    aqf'!2                                                                     %! baca.make_repeat_tied_notes()
 
-    aqf'!8                                                                     %! baca.make_repeat_tied_notes
+    aqf'!8                                                                     %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 649 / measure 24]                           %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2.                                                                    %! baca.make_repeat_tied_notes
+    aqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 650 / measure 25]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    aqf'!2.                                                                    %! stirrings_still.pickets
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    aqf'!2.
 
     % [M Viola_Music_Voice measure 651 / measure 26]                           %! baca.SegmentMaker._comment_measure_numbers()
     <d' gs'!>4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! baca.markup:IndicatorCommand
-    ^ \markup { (12ET) }                                                       %! baca.markup:IndicatorCommand
+    - \tweak staff-padding #8                                                  %! baca.markup():IndicatorCommand
+    ^ \markup { (12ET) }                                                       %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds)"                               %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds)"                               %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
     - \abjad-dashed-line-with-hook                                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-circle-very-wide-markup             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
@@ -1802,10 +1802,10 @@ M_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanCircleBow                                                %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     <d' gs'!>4
 
     % [M Viola_Music_Voice measure 652 / measure 27]                           %! baca.SegmentMaker._comment_measure_numbers()
@@ -1820,43 +1820,43 @@ M_Viola_Music_Voice = {                                                        %
 
     <d' gs'!>4
 
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
     <d' gs'!>4
 
     % [M Viola_Music_Voice measure 654 / measure 29]                           %! baca.SegmentMaker._comment_measure_numbers()
-    aqf'!2                                                                     %! baca.make_repeat_tied_notes
+    aqf'!2                                                                     %! baca.make_repeat_tied_notes()
     \!                                                                         %! SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { 13°/C }                                                        %! baca.markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { 13°/C }                                                        %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
     \bacaStopTextSpanCircleBow                                                 %! SPANNER_STOP:CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane"                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    a'8                                                                        %! baca.make_repeat_tied_notes
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    a'8                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 655 / measure 30]                           %! baca.SegmentMaker._comment_measure_numbers()
-    g'2.                                                                       %! baca.make_repeat_tied_notes
+    g'2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 656 / measure 31]                           %! baca.SegmentMaker._comment_measure_numbers()
-    g'2.                                                                       %! baca.make_repeat_tied_notes
+    g'2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 657 / measure 32]                           %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -1865,7 +1865,7 @@ M_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    gqf'!2                                                                     %! baca.make_repeat_tied_notes
+    gqf'!2                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():OverrideCommand(2)
@@ -1884,7 +1884,7 @@ M_Viola_Music_Voice = {                                                        %
             % [M Viola_Music_Voice measure 658 / measure 33]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanCloudedPane                                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+            \bacaStopTextSpanCloudedPane                                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1930,73 +1930,73 @@ M_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    c,2                                                                        %! stirrings_still.clouded_pane
+    c,2                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane (semitone down)"              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #5.5                                                %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane (semitone down)"              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    c,8                                                                        %! stirrings_still.clouded_pane
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    c,8                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 627 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 628 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 629 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 630 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c,2                                                                        %! stirrings_still.clouded_pane
+    c,2                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 631 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c,2..                                                                      %! stirrings_still.clouded_pane
+    c,2..                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 632 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c,2..                                                                      %! stirrings_still.clouded_pane
+    c,2..                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 633 / measure 8]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c,1                                                                        %! stirrings_still.clouded_pane
+    c,1                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 634 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
-    c,1                                                                        %! stirrings_still.clouded_pane
+    c,1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 635 / measure 10]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2                                                                        %! stirrings_still.clouded_pane
+    c,2                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 636 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 637 / measure 12]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 638 / measure 13]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,1                                                                        %! stirrings_still.clouded_pane
+    c,1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2004,38 +2004,38 @@ M_Cello_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 639 / measure 14]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2..                                                                      %! stirrings_still.clouded_pane
+    c,2..                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 640 / measure 15]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2..                                                                      %! stirrings_still.clouded_pane
+    c,2..                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 641 / measure 16]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,1                                                                        %! stirrings_still.clouded_pane
+    c,1                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 642 / measure 17]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 643 / measure 18]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2                                                                        %! stirrings_still.clouded_pane
+    c,2                                                                        %! baca.make_repeat_tied_notes()
 
-    c,8                                                                        %! stirrings_still.clouded_pane
+    c,8                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 644 / measure 19]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,1                                                                        %! stirrings_still.clouded_pane
+    c,1                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 645 / measure 20]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,1                                                                        %! stirrings_still.clouded_pane
+    c,1                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 646 / measure 21]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2..                                                                      %! stirrings_still.clouded_pane
+    c,2..                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2043,62 +2043,62 @@ M_Cello_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 647 / measure 22]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2..                                                                      %! stirrings_still.clouded_pane
+    c,2..                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 648 / measure 23]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2                                                                        %! stirrings_still.clouded_pane
+    c,2                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-    c,8                                                                        %! stirrings_still.clouded_pane
+    c,8                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 649 / measure 24]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 650 / measure 25]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 651 / measure 26]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2                                                                        %! stirrings_still.clouded_pane
+    c,2                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [M Cello_Music_Voice measure 652 / measure 27]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 653 / measure 28]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 654 / measure 29]                           %! baca.SegmentMaker._comment_measure_numbers()
     \once \override Hairpin.to-barline = ##t                                   %! baca.hairpin_to_barline():OverrideCommand(1)
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    c,2                                                                        %! stirrings_still.clouded_pane
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    c,2                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    \glissando                                                                 %! baca.glissando()
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    c,8                                                                        %! stirrings_still.clouded_pane
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    c,8                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 655 / measure 30]                           %! baca.SegmentMaker._comment_measure_numbers()
-    c,2.                                                                       %! stirrings_still.clouded_pane
+    c,2.                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 656 / measure 31]                           %! baca.SegmentMaker._comment_measure_numbers()
-    b,,2.                                                                      %! stirrings_still.clouded_pane
+    b,,2.                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 657 / measure 32]                           %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
@@ -2107,8 +2107,8 @@ M_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    bf,,!2                                                                     %! stirrings_still.clouded_pane
-    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+    bf,,!2                                                                     %! baca.make_repeat_tied_notes()
+    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():OverrideCommand(2)
 %@% \revert Accidental.stencil                                                 %! SHOW_TO_JOIN_BROKEN_SPANNERS
 %@% \revert NoteColumn.glissando-skip                                          %! SHOW_TO_JOIN_BROKEN_SPANNERS

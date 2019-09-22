@@ -8,11 +8,12 @@ def solid_line_rhythm(
     """
     Makes solid line rhythm.
     """
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.note(
             spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))
         ),
         rmakers.beam(baca.plts()),
         measures=measures,
-        tag="stirrings_still.solid_line_rhythm",
     )
+    command = baca.tag("stirrings_still.solid_line_rhythm()", command)
+    return command

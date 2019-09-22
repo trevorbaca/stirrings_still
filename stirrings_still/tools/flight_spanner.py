@@ -8,11 +8,12 @@ def flight_spanner(
     """
     Makes flight annotation spanner.
     """
-    return baca.material_annotation_spanner(
+    command = baca.material_annotation_spanner(
         string,
         abjad.tweak("darkmagenta").color,
         abjad.tweak(staff_padding).staff_padding,
         lilypond_id="Flight",
         measures=measures,
-        tag="MATERIAL:FLIGHT",
     )
+    command = baca.tag(["MATERIAL", "FLIGHT"], command)
+    return command

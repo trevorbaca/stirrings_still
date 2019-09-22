@@ -35,7 +35,7 @@ def desynchronization(
     else:
         diminution = [rmakers.force_diminution()]
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.even_division(denominators, extra_counts=extra_counts),
         *commands,
         rmakers.denominator((1, denominator)),
@@ -46,5 +46,6 @@ def desynchronization(
         rmakers.beam(),
         rmakers.extract_trivial(),
         measures=measures,
-        tag="stirrings_still.desynchronization",
     )
+    command = baca.tag("stirrings_still.desynchronization()", command)
+    return command
