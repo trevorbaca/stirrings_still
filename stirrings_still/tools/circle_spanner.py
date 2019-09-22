@@ -7,7 +7,7 @@ def circle_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = "baca.leaves().rleak()",
+    selector: abjad.SelectorTyping = baca.leaves().rleak(),
 ):
     """
     Makes circle annotation spanner.

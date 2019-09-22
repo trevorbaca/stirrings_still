@@ -7,7 +7,7 @@ def clouded_pane_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = "baca.leaves().rleak()",
+    selector: abjad.SelectorTyping = baca.leaves().rleak(),
 ):
     """
     Makes clouded pane annotation spanner.

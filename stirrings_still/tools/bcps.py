@@ -6,7 +6,7 @@ def bcps(
     rotation: int,
     clt: bool = False,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = "baca.leaves()",
+    selector: abjad.SelectorTyping = baca.leaves(),
     staff_padding: abjad.Number = None,
 ) -> baca.CommandTyping:
     """

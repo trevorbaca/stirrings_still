@@ -7,7 +7,7 @@ def urtext_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = "baca.leaves().rleak()",
+    selector: abjad.SelectorTyping = baca.leaves().rleak(),
 ) -> baca.PiecewiseCommand:
     """
     Makes urtext annotation spanner.
