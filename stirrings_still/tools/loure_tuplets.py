@@ -10,8 +10,10 @@ def loure_tuplets(
     """
     Makes louré tuplets.
     """
-    return baca.suite(
+    command = baca.suite(
         baca.espressivo(selector=baca.pheads()),
         desynchronization(8, [extra_count]),
         measures=measures,
     )
+    command = baca.tag("stirrings_still.loure_tuplets()", command)
+    return command

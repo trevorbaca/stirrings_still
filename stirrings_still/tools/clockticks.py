@@ -26,7 +26,7 @@ def clockticks(
         )
         counts = [1, -2]
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=[1]),
         *commands,
         rmakers.beam(),
@@ -34,5 +34,6 @@ def clockticks(
         rmakers.extract_trivial(),
         preprocessor=divisions,
         measures=measures,
-        tag="stirrings_still.clockticks",
     )
+    command = baca.tag("stirrings_still.clockticks()", command)
+    return command

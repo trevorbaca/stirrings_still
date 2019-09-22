@@ -31,7 +31,7 @@ def transition_bcps(
             result.extend(padded_bcps[: len(leaves)])
         return result
 
-    return baca.bcps(
+    command = baca.bcps(
         padded_bcps,
         abjad.tweak(staff_padding).staff_padding,
         bow_change_tweaks=(
@@ -41,3 +41,5 @@ def transition_bcps(
         final_spanner=final_spanner,
         helper=helper,
     )
+    command = baca.tag("stirrings_still.transition_bcps()", command)
+    return command

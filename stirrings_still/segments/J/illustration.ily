@@ -5,8 +5,8 @@ J_Global_Skips = {                                                             %
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
-    - \tweak extra-offset #'(0 . 10)                                           %! baca.rehearsal_mark:IndicatorCommand
-    - \baca-rehearsal-mark-markup "J"                                          %! baca.rehearsal_mark:IndicatorCommand
+    - \tweak extra-offset #'(0 . 10)                                           %! baca.rehearsal_mark():IndicatorCommand
+    - \baca-rehearsal-mark-markup "J"                                          %! baca.rehearsal_mark():IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "539"                                           %! MEASURE_NUMBER
@@ -179,14 +179,14 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [J Global_Skips measure 549 / measure 11]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \bar ".|:"                                                                 %! baca.bar_line:IndicatorCommand
+    \bar ".|:"                                                                 %! baca.bar_line():IndicatorCommand
 %%% \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! MEASURE_549:NOT_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! MEASURE_549:ONLY_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
-    - \tweak extra-offset #'(0 . 10)                                           %! baca.markup:IndicatorCommand
-    ^ \stirrings-still-repeat-three                                            %! baca.markup:IndicatorCommand
+    - \tweak extra-offset #'(0 . 10)                                           %! baca.markup():IndicatorCommand
+    ^ \stirrings-still-repeat-three                                            %! baca.markup():IndicatorCommand
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
     \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER
@@ -239,7 +239,7 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [J Global_Skips measure 552 / measure 14]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \bar ":|."                                                                 %! baca.bar_line:IndicatorCommand
+    \bar ":|."                                                                 %! baca.bar_line():IndicatorCommand
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! MEASURE_552:ONLY_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
@@ -405,25 +405,25 @@ J_Violin_I_Music_Voice = {                                                     %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [J Violin_I_Music_Voice measure 540 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
     <f' a'>2.
 
     % [J Violin_I_Music_Voice measure 541 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -433,40 +433,40 @@ J_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    ^ \markup { (7+9)°/E }                                                     %! baca.markup:IndicatorCommand
+    ^ \markup { (7+9)°/E }                                                     %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
-    \glissando                                                                 %! baca.glissando
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
+    \glissando                                                                 %! baca.glissando()
     - \abjad-dashed-line-with-hook                                             %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! SCP:baca.tasto_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
 
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
         % [J Violin_I_Music_Voice measure 542 / measure 4]                     %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
         <fs'! dqf''!>2
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
         <fs'! dqf''!>8
         \revert TupletBracket.direction                                        %! baca.tuplet_bracket_down():OverrideCommand(2)
 
@@ -482,22 +482,22 @@ J_Violin_I_Music_Voice = {                                                     %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.tasto_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-    \glissando                                                                 %! baca.glissando
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
+    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+    \glissando                                                                 %! baca.glissando()
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
 
     % [J Violin_I_Music_Voice measure 544 / measure 6]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
     <f' a'>1
 
     % [J Violin_I_Music_Voice measure 545 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -519,147 +519,147 @@ J_Violin_I_Music_Voice = {                                                     %
 
     % [J Violin_I_Music_Voice measure 549 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca.dynamic_text_self_alignment_x():OverrideCommand(1)
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
     <f' a'>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-poco-scratch                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \tweak staff-padding #3                                                  %! baca.markup:IndicatorCommand
-    ^ \markup { "third time no breath" }                                       %! baca.markup:IndicatorCommand
+    - \tweak staff-padding #3                                                  %! baca.markup():IndicatorCommand
+    ^ \markup { "third time no breath" }                                       %! baca.markup():IndicatorCommand
 
     % [J Violin_I_Music_Voice measure 550 / measure 12]                        %! baca.SegmentMaker._comment_measure_numbers()
     \override TupletBracket.direction = #down                                  %! baca.tuplet_bracket_down():OverrideCommand(1)
     \override TupletBracket.staff-padding = #1.5                               %! baca.tuplet_bracket_staff_padding():OverrideCommand(1)
-    a'4                                                                        %! stirrings_still.trajectories
+    a'4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \baca-effort-fff                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(5)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(5)
-    - \upbow                                                                   %! stirrings_still.bcps:BCPCommand(5)
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(5)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(5)
+    - \upbow                                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(5)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
-    \glissando                                                                 %! baca.glissando
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
+    \glissando                                                                 %! baca.glissando()
     - \abjad-dashed-line-with-hook                                             %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "½ clt"                                     %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup  %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #10.5                                               %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanHalfCLT                                                  %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    b'4.                                                                       %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(8)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(8)
-    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    b'4.
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \downbow                                                                 %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    b'8                                                                        %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(7)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(7)
-    - \upbow                                                                   %! stirrings_still.bcps:BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    [                                                                          %! stirrings_still.trajectories
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    b'8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \upbow                                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    [
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    c''8                                                                       %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(8)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(8)
-    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    ]                                                                          %! stirrings_still.trajectories
-    \glissando                                                                 %! baca.glissando
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    c''8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \downbow                                                                 %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    ]
+    \glissando                                                                 %! baca.glissando()
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 8/7 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
 
         % [J Violin_I_Music_Voice measure 551 / measure 13]                    %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        b'4                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        \glissando                                                             %! baca.glissando
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        b'4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        \glissando                                                             %! baca.glissando()
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        b'4.                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        b'4.
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        c''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        c''8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        c''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
+        c''8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \tweak extra-offset #'(-0.25 . 2)                                      %! baca.breathe():stirrings_still.breathe():IndicatorCommand
+        \breathe                                                               %! baca.breathe():stirrings_still.breathe():IndicatorCommand
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 8/9 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/9 {
 
         % [J Violin_I_Music_Voice measure 552 / measure 14]                    %! baca.SegmentMaker._comment_measure_numbers()
-        c''8                                                                   %! stirrings_still.trajectories
+        c''8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -667,198 +667,198 @@ J_Violin_I_Music_Voice = {                                                     %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        c''4                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        c''4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        d''4.                                                                  %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        d''4.
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        df''!8                                                                 %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        \glissando                                                             %! baca.glissando
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        df''!8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        \glissando                                                             %! baca.glissando()
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        d''4                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        d''4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 7/8 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
 
         % [J Violin_I_Music_Voice measure 553 / measure 15]                    %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        c''4.                                                                  %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        \glissando                                                             %! baca.glissando
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #2 #4                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        c''4.
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        \glissando                                                             %! baca.glissando()
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #2 #4                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        c''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        c''8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        c''8                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        c''8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        d''4                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        d''4
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        d''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        d''8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
     % [J Violin_I_Music_Voice measure 554 / measure 16]                        %! baca.SegmentMaker._comment_measure_numbers()
-    d''4                                                                       %! stirrings_still.trajectories
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    d''4
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    d''8                                                                       %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(7)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(7)
-    - \upbow                                                                   %! stirrings_still.bcps:BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    [                                                                          %! stirrings_still.trajectories
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    d''8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \upbow                                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    [
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    d''8                                                                       %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(8)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(8)
-    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    d''8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \downbow                                                                 %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    d''8                                                                       %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(7)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(7)
-    - \upbow                                                                   %! stirrings_still.bcps:BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    d''8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \upbow                                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    e''8                                                                       %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(8)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(8)
-    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    ]                                                                          %! stirrings_still.trajectories
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    e''8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \downbow                                                                 %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    ]
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 5/4 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/4 {
 
         % [J Violin_I_Music_Voice measure 555 / measure 17]                    %! baca.SegmentMaker._comment_measure_numbers()
-        e''8                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e''8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-right-text #1 #7                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        e''4.                                                                  %! stirrings_still.trajectories
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        e''4.
         \bacaStopTextSpanHalfCLT                                               %! SPANNER_STOP:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(1)
         \revert TupletBracket.direction                                        %! baca.tuplet_bracket_down():OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding():OverrideCommand(2)
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding():OverrideCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -932,42 +932,42 @@ J_Violin_II_Music_Voice = {                                                    %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [J Violin_II_Music_Voice measure 540 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
     <e' gs'!>2.
 
-    \times 2/3 {                                                               %! stirrings_still.clockticks
+    \times 2/3 {
 
         % [J Violin_II_Music_Voice measure 541 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.staff-padding = #1                             %! baca.tuplet_bracket_staff_padding():OverrideCommand(1)
-        f''8                                                                   %! stirrings_still.clockticks
+        f''8
         \!                                                                     %! SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
+        - \downbow                                                             %! baca.alternate_bow_strokes():IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanUrtext                                                %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
+        \bacaStopTextSpanUrtext                                                %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-markup                     %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup  %! DAMP:baca.damp_spanner:PiecewiseCommand(1)
@@ -981,48 +981,48 @@ J_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #5.5                                            %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
 
-        r4                                                                     %! stirrings_still.clockticks
+        r4
 
-    }                                                                          %! stirrings_still.clockticks
+    }
 
-    \times 2/3 {                                                               %! stirrings_still.clockticks
+    \times 2/3 {
 
-        f''8                                                                   %! stirrings_still.clockticks
-        - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
+        f''8
+        - \upbow                                                               %! baca.alternate_bow_strokes():IndicatorCommand
 
-        r4                                                                     %! stirrings_still.clockticks
+        r4
 
-    }                                                                          %! stirrings_still.clockticks
+    }
 
-    \times 2/3 {                                                               %! stirrings_still.clockticks
+    \times 2/3 {
 
-        f''8                                                                   %! stirrings_still.clockticks
-        - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
+        f''8
+        - \downbow                                                             %! baca.alternate_bow_strokes():IndicatorCommand
 
-        r4                                                                     %! stirrings_still.clockticks
+        r4
 
-    }                                                                          %! stirrings_still.clockticks
+    }
 
-    \times 2/3 {                                                               %! baca.skeleton
+    \times 2/3 {                                                               %! baca.skeleton()
 
         % [J Violin_II_Music_Voice measure 542 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
-        f''8                                                                   %! baca.skeleton
-        - \upbow                                                               %! baca.alternate_bow_strokes:IndicatorCommand
+        f''8                                                                   %! baca.skeleton()
+        - \upbow                                                               %! baca.alternate_bow_strokes():IndicatorCommand
 
-        r4                                                                     %! baca.skeleton
+        r4                                                                     %! baca.skeleton()
 
-    }                                                                          %! baca.skeleton
+    }                                                                          %! baca.skeleton()
 
-    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton
-    \times 2/3 {                                                               %! baca.skeleton
+    \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton()
+    \times 2/3 {                                                               %! baca.skeleton()
 
-        f''8                                                                   %! baca.skeleton
-        - \downbow                                                             %! baca.alternate_bow_strokes:IndicatorCommand
+        f''8                                                                   %! baca.skeleton()
+        - \downbow                                                             %! baca.alternate_bow_strokes():IndicatorCommand
 
-        r8                                                                     %! baca.skeleton
+        r8                                                                     %! baca.skeleton()
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding():OverrideCommand(2)
 
-    }                                                                          %! baca.skeleton
+    }                                                                          %! baca.skeleton()
 
     % [J Violin_II_Music_Voice measure 543 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca.dynamic_text_self_alignment_x():OverrideCommand(1)
@@ -1035,21 +1035,21 @@ J_Violin_II_Music_Voice = {                                                    %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanDamp                                                      %! SPANNER_STOP:DAMP:baca.damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanHalfCLT                                                   %! SPANNER_STOP:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
 
     % [J Violin_II_Music_Voice measure 544 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
     <e' gs'!>1
 
     % [J Violin_II_Music_Voice measure 545 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -1071,157 +1071,157 @@ J_Violin_II_Music_Voice = {                                                    %
 
     % [J Violin_II_Music_Voice measure 549 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca.dynamic_text_self_alignment_x():OverrideCommand(1)
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
     <e' gs'!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-poco-scratch                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \tweak staff-padding #3                                                  %! baca.markup:IndicatorCommand
-    ^ \markup { "third time no breath" }                                       %! baca.markup:IndicatorCommand
+    - \tweak staff-padding #3                                                  %! baca.markup():IndicatorCommand
+    ^ \markup { "third time no breath" }                                       %! baca.markup():IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 7/8 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
 
         % [J Violin_II_Music_Voice measure 550 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():OverrideCommand(1)
         \override TupletBracket.staff-padding = #1.5                           %! baca.tuplet_bracket_staff_padding():OverrideCommand(1)
-        gs'!4.                                                                 %! stirrings_still.trajectories
+        gs'!4.
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         \baca-effort-fff                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(5)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(5)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(5)
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(5)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(5)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(5)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanUrtext                                                %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
+        \bacaStopTextSpanUrtext                                                %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \glissando                                                             %! baca.glissando
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \glissando                                                             %! baca.glissando()
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        g'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        g'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        a'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        a'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        a'4                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        a'4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        a'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        a'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
     % [J Violin_II_Music_Voice measure 551 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
-    b'4                                                                        %! stirrings_still.trajectories
+    b'4
 
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    b'8                                                                        %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(8)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(8)
-    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    [                                                                          %! stirrings_still.trajectories
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
-    \glissando                                                                 %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    b'8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \downbow                                                                 %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    [
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \glissando                                                                 %! baca.glissando()
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    b'8                                                                        %! stirrings_still.trajectories
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #4 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    b'8
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    b'8                                                                        %! stirrings_still.trajectories
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    ]                                                                          %! stirrings_still.trajectories
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #5 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    b'8
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    ]
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    b'4                                                                        %! stirrings_still.trajectories
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    b'4
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    a'8                                                                        %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(7)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(7)
-    - \upbow                                                                   %! stirrings_still.bcps:BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
-    \tweak extra-offset #'(-0.25 . 2)                                          %! stirrings_still.breathe:IndicatorCommand
-    \breathe                                                                   %! stirrings_still.breathe:IndicatorCommand
+    a'8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \upbow                                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \tweak extra-offset #'(-0.25 . 2)                                          %! baca.breathe():stirrings_still.breathe():IndicatorCommand
+    \breathe                                                                   %! baca.breathe():stirrings_still.breathe():IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 8/7 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
 
         % [J Violin_II_Music_Voice measure 552 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
-        a'4                                                                    %! stirrings_still.trajectories
+        a'4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -1230,194 +1230,194 @@ J_Violin_II_Music_Voice = {                                                    %
         - \tweak stencil #constante-hairpin                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        a'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \glissando                                                             %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        a'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \glissando                                                             %! baca.glissando()
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        a'4                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        a'4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        b'4                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        b'4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 7/8 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
 
         % [J Violin_II_Music_Voice measure 553 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
-        b'8                                                                    %! stirrings_still.trajectories
-        [                                                                      %! stirrings_still.trajectories
+        b'8
+        [
 
-        b'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #2 #4                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        b'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #2 #4                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        c''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        c''8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        c''4                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \glissando                                                             %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        c''4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \glissando                                                             %! baca.glissando()
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        c''4.                                                                  %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        c''4.
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 6/7 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
 
         % [J Violin_II_Music_Voice measure 554 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
-        c''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        c''8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        c''8                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        c''8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        b'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        b'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        b'4                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        b'4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        b'4                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        b'4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
     % [J Violin_II_Music_Voice measure 555 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    b'8                                                                        %! stirrings_still.trajectories
-    [                                                                          %! stirrings_still.trajectories
-    \glissando                                                                 %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    b'8
+    [
+    \glissando                                                                 %! baca.glissando()
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    b'8                                                                        %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(8)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(8)
-    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    ]                                                                          %! stirrings_still.trajectories
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #1 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    b'8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \downbow                                                                 %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    ]
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    c''4                                                                       %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(7)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(7)
-    - \upbow                                                                   %! stirrings_still.bcps:BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-right-text #1 #7                                       %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    c''4
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \upbow                                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-right-text #1 #7                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    cs''!8                                                                     %! stirrings_still.trajectories
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    cs''!8
     \bacaStopTextSpanHalfCLT                                                   %! SPANNER_STOP:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(1)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(1)
     \revert TupletBracket.direction                                            %! baca.tuplet_bracket_down():OverrideCommand(2)
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():OverrideCommand(2)
@@ -1491,25 +1491,25 @@ J_Viola_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
     % [J Viola_Music_Voice measure 540 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
     <eqs'! gtqs'!>2.
 
     % [J Viola_Music_Voice measure 541 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1519,41 +1519,41 @@ J_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-    - \tweak padding #1.5                                                      %! baca.markup:IndicatorCommand
-    ^ \markup { (11+3)°/E }                                                    %! baca.markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
+    ^ \markup { (11+3)°/E }                                                    %! baca.markup():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
-    \glissando                                                                 %! baca.glissando
+    \bacaStopTextSpanUrtext                                                    %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
+    \glissando                                                                 %! baca.glissando()
     - \abjad-dashed-line-with-hook                                             %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! SCP:baca.tasto_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #5.5                                                %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanSCP                                                      %! SCP:baca.tasto_spanner:PiecewiseCommand(1)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
 
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
         % [J Viola_Music_Voice measure 542 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
         <b, aqs!>2
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
         <b, aqs!>8
         \revert TupletBracket.direction                                        %! baca.tuplet_bracket_down():OverrideCommand(2)
 
@@ -1569,22 +1569,22 @@ J_Viola_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.tasto_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:URTEXT:PiecewiseCommand(1):autodetect
-    - \tweak color #darkred                                                    %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \bacaStartTextSpanUrtext                                                   %! MATERIAL:URTEXT:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    \bacaStopTextSpanCloudedPane                                               %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "urtext (ds field)"                         %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1):autodetect
+    - \tweak color #darkred                                                    %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \bacaStartTextSpanUrtext                                                   %! MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
 
     % [J Viola_Music_Voice measure 544 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
     <eqs'! gtqs'!>1
 
     % [J Viola_Music_Voice measure 545 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
@@ -1606,178 +1606,178 @@ J_Viola_Music_Voice = {                                                        %
 
     % [J Viola_Music_Voice measure 549 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca.dynamic_text_self_alignment_x():OverrideCommand(1)
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
     <eqs'! gtqs'!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-poco-scratch                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \tweak staff-padding #3                                                  %! baca.markup:IndicatorCommand
-    ^ \markup { "third time no breath" }                                       %! baca.markup:IndicatorCommand
+    - \tweak staff-padding #3                                                  %! baca.markup():IndicatorCommand
+    ^ \markup { "third time no breath" }                                       %! baca.markup():IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 7/8 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
 
         % [J Viola_Music_Voice measure 550 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():OverrideCommand(1)
         \override TupletBracket.staff-padding = #1.5                           %! baca.tuplet_bracket_staff_padding():OverrideCommand(1)
-        f'8                                                                    %! stirrings_still.trajectories
+        f'8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         \baca-effort-fff                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(6)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(6)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(6)
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(6)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(6)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(6)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanUrtext                                                %! SPANNER_STOP:MATERIAL:URTEXT:PiecewiseCommand(3)
-        [                                                                      %! stirrings_still.trajectories
+        \bacaStopTextSpanUrtext                                                %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:URTEXT:PiecewiseCommand(3)
+        [
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #10.5                                           %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \glissando                                                             %! baca.glissando
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \glissando                                                             %! baca.glissando()
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        f'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        f'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        e'4                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e'4
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        e'4.                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e'4.
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        e'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \glissando                                                             %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        e'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 8/9 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/9 {
 
         % [J Viola_Music_Voice measure 551 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        e'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        e'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        f'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        f'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        g'4                                                                    %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        g'4
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        gf'!4.                                                                 %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \glissando                                                             %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        gf'!4.
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \glissando                                                             %! baca.glissando()
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        g'8                                                                    %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        g'8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        g'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \tweak extra-offset #'(-0.25 . 2)                                      %! stirrings_still.breathe:IndicatorCommand
-        \breathe                                                               %! stirrings_still.breathe:IndicatorCommand
+        g'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \tweak extra-offset #'(-0.25 . 2)                                      %! baca.breathe():stirrings_still.breathe():IndicatorCommand
+        \breathe                                                               %! baca.breathe():stirrings_still.breathe():IndicatorCommand
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
     % [J Viola_Music_Voice measure 552 / measure 14]                           %! baca.SegmentMaker._comment_measure_numbers()
-    f'8                                                                        %! stirrings_still.trajectories
+    f'8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -1786,191 +1786,191 @@ J_Viola_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-    f'4.                                                                       %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(8)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(8)
-    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #6 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    f'4.
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \downbow                                                                 %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    f'8                                                                        %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(7)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(7)
-    - \upbow                                                                   %! stirrings_still.bcps:BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    [                                                                          %! stirrings_still.trajectories
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
-    \glissando                                                                 %! baca.glissando
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    f'8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \upbow                                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    [
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \glissando                                                                 %! baca.glissando()
 
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    f'8                                                                        %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(8)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(8)
-    - \downbow                                                                 %! stirrings_still.bcps:BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    ]                                                                          %! stirrings_still.trajectories
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #1 #4                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    f'8
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    - \downbow                                                                 %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    ]
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #4                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    f'4                                                                        %! stirrings_still.trajectories
-    - \tweak self-alignment-X #left                                            %! stirrings_still.bcps:BCPCommand(7)
-    - \tweak staff-padding #6.5                                                %! stirrings_still.bcps:BCPCommand(7)
-    - \upbow                                                                   %! stirrings_still.bcps:BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! stirrings_still.bcps:BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! stirrings_still.bcps:BCPCommand(2)
-    - \baca-bcp-spanner-left-text #2 #4                                        %! stirrings_still.bcps:BCPCommand(2)
-    - \tweak staff-padding #4                                                  %! stirrings_still.bcps:BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! stirrings_still.bcps:BCPCommand(2)
+    f'4
+    - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    - \upbow                                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \baca-bcp-spanner-left-text #2 #4                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 7/6 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/6 {
 
         % [J Viola_Music_Voice measure 553 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
-        e'4.                                                                   %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #4                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e'4.
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        e'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        e'8                                                                    %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e'8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        ef'!8                                                                  %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
-        \glissando                                                             %! baca.glissando
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        ef'!8
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \glissando                                                             %! baca.glissando()
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 6/7 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
 
         % [J Viola_Music_Voice measure 554 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        e'4                                                                    %! stirrings_still.trajectories
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        e'4
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        e'4.                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e'4.
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        e'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        e'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        ]                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        e'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        ]
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still.trajectories
-    \times 5/6 {                                                               %! stirrings_still.trajectories
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
 
         % [J Viola_Music_Voice measure 555 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
-        d'8                                                                    %! stirrings_still.trajectories
+        d'8
 
-        d'4.                                                                   %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(8)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(8)
-        - \downbow                                                             %! stirrings_still.bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        d'4.
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        - \downbow                                                             %! baca.bcps():stirrings_still.bcps():BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        d'8                                                                    %! stirrings_still.trajectories
-        - \tweak self-alignment-X #left                                        %! stirrings_still.bcps:BCPCommand(7)
-        - \tweak staff-padding #6.5                                            %! stirrings_still.bcps:BCPCommand(7)
-        - \upbow                                                               %! stirrings_still.bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(3)
-        [                                                                      %! stirrings_still.trajectories
-        - \abjad-solid-line-with-arrow                                         %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still.bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #1 #7                                   %! stirrings_still.bcps:BCPCommand(2)
-        - \tweak staff-padding #4                                              %! stirrings_still.bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! stirrings_still.bcps:BCPCommand(2)
+        d'8
+        - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        - \upbow                                                               %! baca.bcps():stirrings_still.bcps():BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(3)
+        [
+        - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \baca-bcp-spanner-right-text #1 #7                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():BCPCommand(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        d'8                                                                    %! stirrings_still.trajectories
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        d'8
         \bacaStopTextSpanHalfCLT                                               %! SPANNER_STOP:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
-        \bacaStopTextSpanBCP                                                   %! stirrings_still.bcps:BCPCommand(1)
-        ]                                                                      %! stirrings_still.trajectories
+        \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():BCPCommand(1)
+        ]
         \revert TupletBracket.direction                                        %! baca.tuplet_bracket_down():OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding():OverrideCommand(2)
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding():OverrideCommand(2)
 
-    }                                                                          %! stirrings_still.trajectories
+    }
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2027,13 +2027,13 @@ J_Cello_Music_Voice = {                                                        %
             \override DynamicLineSpanner.staff-padding = #6                    %! baca.dls_staff_padding():OverrideCommand(1)
         %%% \once \override Staff.Clef.X-extent = ##f                          %! MEASURE_539:SHIFTED_CLEF:baca.clef_shift():baca.clef_x_extent_false():OverrideCommand(1)
         %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)            %! MEASURE_539:SHIFTED_CLEF:baca.clef_extra_offset():baca.clef_shift():OverrideCommand(1)
-            \clef "bass"                                                       %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
+            \clef "bass"                                                       %! EXPLICIT_CLEF:_set_status_tag:baca.clef():IndicatorCommand
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:baca.SegmentMaker._attach_color_literal(2)
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
             \once \override Staff.Clef.color = #(x11-color 'blue)              %! EXPLICIT_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
         %@% \override Staff.Clef.color = ##f                                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-            \set Staff.forceClef = ##t                                         %! EXPLICIT_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef:IndicatorCommand
+            \set Staff.forceClef = ##t                                         %! EXPLICIT_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.clef():IndicatorCommand
             c'1 * 1/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -2062,7 +2062,7 @@ J_Cello_Music_Voice = {                                                        %
 
     % [J Cello_Music_Voice measure 541 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
     \override TupletBracket.direction = #down                                  %! baca.tuplet_bracket_down():OverrideCommand(1)
-    e,2.                                                                       %! stirrings_still.clouded_pane
+    e,2.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -2070,29 +2070,29 @@ J_Cello_Music_Voice = {                                                        %
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak stencil #constante-hairpin                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
-    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:CLOUDED_PANE:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando()
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1):autodetect
+    - \tweak color #red                                                        %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
+    \bacaStartTextSpanCloudedPane                                              %! MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(1)
 
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
         % [J Cello_Music_Voice measure 542 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        e,2                                                                    %! stirrings_still.clouded_pane
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        e,2                                                                    %! baca.make_repeat_tied_notes()
 
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        e,8                                                                    %! stirrings_still.clouded_pane
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        e,8                                                                    %! baca.make_repeat_tied_notes()
         \revert TupletBracket.direction                                        %! baca.tuplet_bracket_down():OverrideCommand(2)
 
     }
@@ -2106,7 +2106,7 @@ J_Cello_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
             \!                                                                 %! SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCloudedPane                                       %! SPANNER_STOP:MATERIAL:CLOUDED_PANE:PiecewiseCommand(3)
+            \bacaStopTextSpanCloudedPane                                       %! SPANNER_STOP:MATERIAL:baca.material_annotation_spanner:CLOUDED_PANE:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2126,43 +2126,43 @@ J_Cello_Music_Voice = {                                                        %
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 
     % [J Cello_Music_Voice measure 545 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf,,!1                                                                     %! stirrings_still.urtext_field
+    bf,,!1                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca.glissando
+    \glissando                                                                 %! baca.glissando()
 
     % [J Cello_Music_Voice measure 546 / measure 8]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando
-    \override Accidental.stencil = ##f                                         %! baca.glissando
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    \override Dots.transparent = ##t                                           %! baca.glissando
-    \override Stem.transparent = ##t                                           %! baca.glissando
-    bf,,!2..                                                                   %! stirrings_still.urtext_field
+    \hide NoteHead                                                             %! baca.glissando()
+    \override Accidental.stencil = ##f                                         %! baca.glissando()
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \override Dots.transparent = ##t                                           %! baca.glissando()
+    \override Stem.transparent = ##t                                           %! baca.glissando()
+    bf,,!2..                                                                   %! baca.make_repeat_tied_notes()
 
     % [J Cello_Music_Voice measure 547 / measure 9]                            %! baca.SegmentMaker._comment_measure_numbers()
-    bf,,!2..                                                                   %! stirrings_still.urtext_field
+    bf,,!2..                                                                   %! baca.make_repeat_tied_notes()
 
     % [J Cello_Music_Voice measure 548 / measure 10]                           %! baca.SegmentMaker._comment_measure_numbers()
-    bf,,!2                                                                     %! stirrings_still.urtext_field
+    bf,,!2                                                                     %! baca.make_repeat_tied_notes()
 
-    bf,,!8                                                                     %! stirrings_still.urtext_field
+    bf,,!8                                                                     %! baca.make_repeat_tied_notes()
 
     % [J Cello_Music_Voice measure 549 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
     \once \override DynamicText.self-alignment-X = #-0.75                      %! baca.dynamic_text_self_alignment_x():OverrideCommand(1)
-    \revert Accidental.stencil                                                 %! baca.glissando
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando
-    \revert NoteHead.no-ledgers                                                %! baca.glissando
-    \undo \hide NoteHead                                                       %! baca.glissando
-    \revert Dots.transparent                                                   %! baca.glissando
-    \revert Stem.transparent                                                   %! baca.glissando
-    bf,,!2.                                                                    %! stirrings_still.urtext_field
+    \revert Accidental.stencil                                                 %! baca.glissando()
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
+    \revert NoteHead.no-ledgers                                                %! baca.glissando()
+    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Dots.transparent                                                   %! baca.glissando()
+    \revert Stem.transparent                                                   %! baca.glissando()
+    bf,,!2.                                                                    %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-poco-scratch                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-    - \tweak staff-padding #3                                                  %! baca.markup:IndicatorCommand
-    ^ \markup { "third time no breath" }                                       %! baca.markup:IndicatorCommand
+    - \tweak staff-padding #3                                                  %! baca.markup():IndicatorCommand
+    ^ \markup { "third time no breath" }                                       %! baca.markup():IndicatorCommand
 
     \override TupletNumber.text = \markup {
         \scale
@@ -2203,61 +2203,61 @@ J_Cello_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! stirrings_still.accelerando
+    \times 1/1 {
 
         % [J Cello_Music_Voice measure 550 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still.accelerando
-        cf,!16 * 253/64                                                        %! stirrings_still.accelerando
+        \override Staff.Stem.stemlet-length = 0.75
+        cf,!16 * 253/64
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        [                                                                      %! stirrings_still.accelerando
+        [
         - \abjad-dashed-line-with-hook                                         %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCircleBow                                            %! CIRCLE_BOW:baca.circle_bow_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca.glissando
+        \glissando                                                             %! baca.glissando()
 
-        \hide NoteHead                                                         %! baca.glissando
-        \override Accidental.stencil = ##f                                     %! baca.glissando
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando
-        c,16 * 123/32                                                          %! stirrings_still.accelerando
+        \hide NoteHead                                                         %! baca.glissando()
+        \override Accidental.stencil = ##f                                     %! baca.glissando()
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        c,16 * 123/32
 
-        c,16 * 227/64                                                          %! stirrings_still.accelerando
+        c,16 * 227/64
 
-        c,16 * 101/32                                                          %! stirrings_still.accelerando
+        c,16 * 101/32
 
-        c,16 * 11/4                                                            %! stirrings_still.accelerando
+        c,16 * 11/4
 
-        c,16 * 77/32                                                           %! stirrings_still.accelerando
+        c,16 * 77/32
 
-        b,,16 * 135/64                                                         %! stirrings_still.accelerando
+        b,,16 * 135/64
 
-        b,,16 * 121/64                                                         %! stirrings_still.accelerando
+        b,,16 * 121/64
 
-        b,,16 * 55/32                                                          %! stirrings_still.accelerando
+        b,,16 * 55/32
 
-        b,,16 * 103/64                                                         %! stirrings_still.accelerando
+        b,,16 * 103/64
 
-        b,,16 * 49/32                                                          %! stirrings_still.accelerando
+        b,,16 * 49/32
 
-        \revert Staff.Stem.stemlet-length                                      %! stirrings_still.accelerando
-        \revert Accidental.stencil                                             %! baca.glissando
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando
-        \revert NoteHead.no-ledgers                                            %! baca.glissando
-        \undo \hide NoteHead                                                   %! baca.glissando
-        bf,,!16 * 95/64                                                        %! stirrings_still.accelerando
+        \revert Staff.Stem.stemlet-length
+        \revert Accidental.stencil                                             %! baca.glissando()
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
+        \revert NoteHead.no-ledgers                                            %! baca.glissando()
+        \undo \hide NoteHead                                                   %! baca.glissando()
+        bf,,!16 * 95/64
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(2)
-        ]                                                                      %! stirrings_still.accelerando
-        \breathe                                                               %! baca.breathe:IndicatorCommand
+        ]
+        \breathe                                                               %! baca.breathe():IndicatorCommand
 
-    }                                                                          %! stirrings_still.accelerando
+    }
     \revert TupletNumber.text
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()

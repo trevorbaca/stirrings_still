@@ -12,12 +12,13 @@ def clouded_pane_spanner(
     """
     Makes clouded pane annotation spanner.
     """
-    return baca.material_annotation_spanner(
+    command = baca.material_annotation_spanner(
         string,
         abjad.tweak("red").color,
         abjad.tweak(staff_padding).staff_padding,
         lilypond_id="CloudedPane",
         measures=measures,
         selector=selector,
-        tag="MATERIAL:CLOUDED_PANE",
     )
+    command = baca.tag(["MATERIAL", "CLOUDED_PANE"], command)
+    return command

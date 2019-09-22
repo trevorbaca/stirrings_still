@@ -12,12 +12,13 @@ def urtext_spanner(
     """
     Makes urtext annotation spanner.
     """
-    return baca.material_annotation_spanner(
+    command = baca.material_annotation_spanner(
         string,
         abjad.tweak("darkred").color,
         abjad.tweak(staff_padding).staff_padding,
         lilypond_id="Urtext",
         measures=measures,
         selector=selector,
-        tag="MATERIAL:URTEXT",
     )
+    command = baca.tag(["MATERIAL", "URTEXT"], command)
+    return command

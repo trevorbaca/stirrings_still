@@ -8,7 +8,7 @@ def cello_cell_bcps(*, staff_padding: abjad.Number = None) -> baca.BCPCommand:
     """
     assert staff_padding is not None, repr(staff_padding)
     bcps = [(4, 7), (7, 7), (1, 7), (5, 7)]
-    return baca.bcps(
+    command = baca.bcps(
         bcps,
         abjad.tweak(staff_padding).staff_padding,
         bow_change_tweaks=(
@@ -16,3 +16,5 @@ def cello_cell_bcps(*, staff_padding: abjad.Number = None) -> baca.BCPCommand:
             abjad.tweak(staff_padding + 2.5).staff_padding,
         ),
     )
+    command = baca.tag("stirrings_still.cello_cell_bcps()", command)
+    return command

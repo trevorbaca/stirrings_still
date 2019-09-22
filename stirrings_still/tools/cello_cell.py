@@ -11,5 +11,6 @@ def cello_cell() -> baca.RhythmCommand:
         rmakers.beam(),
         rmakers.extract_trivial(),
         preprocessor=baca.sequence().fuse().quarters(),
-        tag="stirrings_still.cello_cell",
     )
+    command = baca.tag("stirrings_still.cello_cell()", command)
+    return command

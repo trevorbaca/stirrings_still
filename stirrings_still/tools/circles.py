@@ -18,7 +18,7 @@ def circles(
         [duration], cyclic=True, remainder=remainder
     )
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.note(),
         *commands,
         rmakers.beam(baca.plts()),
@@ -27,5 +27,6 @@ def circles(
         rmakers.extract_trivial(),
         preprocessor=divisions,
         measures=measures,
-        tag="stirrings_still.circles",
     )
+    command = baca.tag("stirrings_still.circles()", command)
+    return command
