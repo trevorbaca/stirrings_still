@@ -38,7 +38,7 @@ def multistage_leaf_glissando(
                 hide_middle_note_heads=True,
                 selector=selector[start:stop],
             ),
-            baca.interpolate_staff_positions(
+            baca.interpolate_pitches(
                 start_pitch, stop_pitch, selector=selector[start:stop]
             ),
         )
@@ -60,7 +60,7 @@ def multistage_leaf_glissando(
         baca.glissando(
             allow_repeats=True, hide_middle_note_heads=True, selector=selector
         ),
-        baca.interpolate_staff_positions(
+        baca.interpolate_pitches(
             start_pitch, final_pitch, selector=selector
         ),
     )
