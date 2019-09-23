@@ -8,7 +8,7 @@ def bcps(
     measures: baca.SliceTyping = None,
     selector: abjad.SelectorTyping = baca.leaves(),
     staff_padding: abjad.Number = None,
-) -> baca.CommandTyping:
+) -> baca.BCPCommand:
     """
     Makes bow contact points.
     """
@@ -42,4 +42,6 @@ def bcps(
         selector=selector,
     )
     command = baca.new(command, measures=measures)
-    return baca.tag("stirrings_still.bcps()", command)
+    result = baca.tag("stirrings_still.bcps()", command)
+    assert isinstance(result, baca.BCPCommand)
+    return result
