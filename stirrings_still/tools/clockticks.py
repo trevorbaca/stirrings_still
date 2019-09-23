@@ -26,7 +26,6 @@ def clockticks(
         )
         counts = [1, -2]
 
-    command: baca.Command
     command = baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=[1]),
         *commands,
@@ -36,5 +35,6 @@ def clockticks(
         preprocessor=divisions,
         measures=measures,
     )
-    command = baca.tag("stirrings_still.clockticks()", command)
-    return command
+    result = baca.tag("stirrings_still.clockticks()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

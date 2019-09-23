@@ -8,11 +8,10 @@ def clouded_pane_spanner(
     *,
     measures: baca.SliceTyping = None,
     selector: abjad.SelectorTyping = baca.leaves().rleak(),
-):
+) -> baca.PiecewiseCommand:
     """
     Makes clouded pane annotation spanner.
     """
-    command: baca.Command
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("red").color,
@@ -21,5 +20,6 @@ def clouded_pane_spanner(
         measures=measures,
         selector=selector,
     )
-    command = baca.tag(["MATERIAL", "CLOUDED_PANE"], command)
-    return command
+    result = baca.tag(["MATERIAL", "CLOUDED_PANE"], command)
+    assert isinstance(result, baca.PiecewiseCommand)
+    return result

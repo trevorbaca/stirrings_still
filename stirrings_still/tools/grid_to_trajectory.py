@@ -18,7 +18,6 @@ def grid_to_trajectory(
     assert isinstance(extra, int), repr(extra)
     extra_counts = [extra]
 
-    command: baca.Command
     command = baca.rhythm(
         rmakers.talea(counts_, 8, extra_counts=extra_counts),
         rmakers.beam(),
@@ -28,5 +27,6 @@ def grid_to_trajectory(
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
     )
-    command = baca.tag("stirrings_still.grid_to_trajectory()", command)
-    return command
+    result = baca.tag("stirrings_still.grid_to_trajectory()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

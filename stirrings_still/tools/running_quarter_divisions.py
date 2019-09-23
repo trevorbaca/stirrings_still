@@ -13,7 +13,6 @@ def running_quarter_divisions(
     assert 0 < count, repr(count)
     ratio = tuple(count * [1])
 
-    command: baca.Command
     command = baca.rhythm(
         rmakers.tuplet([ratio]),
         rmakers.beam(),
@@ -23,5 +22,6 @@ def running_quarter_divisions(
         .split_divisions([(1, 4)], cyclic=True),
         measures=measures,
     )
-    command = baca.tag("stirrings_still.running_quarter_divisions()", command)
-    return command
+    result = baca.tag("stirrings_still.running_quarter_divisions()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

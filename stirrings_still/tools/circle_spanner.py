@@ -8,11 +8,10 @@ def circle_spanner(
     *,
     measures: baca.SliceTyping = None,
     selector: abjad.SelectorTyping = baca.leaves().rleak(),
-):
+) -> baca.PiecewiseCommand:
     """
     Makes circle annotation spanner.
     """
-    command: baca.Command
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("darkyellow").color,
@@ -21,5 +20,6 @@ def circle_spanner(
         measures=measures,
         selector=selector,
     )
-    command = baca.tag(["MATERIAL", "CIRCLE"], command)
-    return command
+    result = baca.tag(["MATERIAL", "CIRCLE"], command)
+    assert isinstance(result, baca.PiecewiseCommand)
+    return result

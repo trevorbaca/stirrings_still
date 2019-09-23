@@ -12,7 +12,6 @@ def trajectory_spanner(
     """
     Makes trajectory annotation spanner.
     """
-    command: baca.Command
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("blue").color,
@@ -21,5 +20,6 @@ def trajectory_spanner(
         measures=measures,
         selector=selector,
     )
-    command = baca.tag(["MATERIAL", "TRAJECTORIES"], command)
-    return command
+    result = baca.tag(["MATERIAL", "TRAJECTORIES"], command)
+    assert isinstance(result, baca.PiecewiseCommand)
+    return result

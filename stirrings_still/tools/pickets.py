@@ -25,7 +25,6 @@ def pickets(
     counts = 4 + extra_count
     tuplet_ratio = counts * (1,)
 
-    command: baca.Command
     command = baca.rhythm(
         rmakers.tuplet([tuplet_ratio]),
         *commands,
@@ -36,5 +35,6 @@ def pickets(
         preprocessor=divisions,
         measures=measures,
     )
-    command = baca.tag("stirrings_still.pickets()", command)
-    return command
+    result = baca.tag("stirrings_still.pickets()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

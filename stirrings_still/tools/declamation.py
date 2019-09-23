@@ -26,7 +26,6 @@ def declamation(
         rmakers.force_repeat_tie(),
     )
 
-    command: baca.Command
     if protract is True:
         split = baca.sequence().split_divisions([(1, 4)])
         command = baca.rhythm(
@@ -43,5 +42,6 @@ def declamation(
             preprocessor=baca.sequence().fuse().split_divisions([(1, 4)]),
             measures=measures,
         )
-    command = baca.tag("stirrings_still.declamation()", command)
-    return command
+    result = baca.tag("stirrings_still.declamation()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

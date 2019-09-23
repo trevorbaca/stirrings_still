@@ -110,7 +110,6 @@ def flight(
     counts_ = counts_[start:]
     extra_counts = baca.sequence([1, 0, 2]).rotate(n=rotation)
 
-    command: baca.Command
     command = baca.rhythm(
         rmakers.talea(counts_, 8, extra_counts=extra_counts),
         rmakers.beam(),
@@ -124,5 +123,6 @@ def flight(
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
     )
-    command = baca.tag("stirrings_still.flight()", command)
-    return command
+    result = baca.tag("stirrings_still.flight()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

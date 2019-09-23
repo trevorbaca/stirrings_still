@@ -10,7 +10,7 @@ def desynchronization(
     *,
     measures: baca.SliceTyping = None,
     rests: typing.Union[bool, typing.Tuple[typing.List[int], int]] = None,
-):
+) -> baca.RhythmCommand:
     """
     Makes desynchronization rhythms.
     """
@@ -47,5 +47,6 @@ def desynchronization(
         rmakers.extract_trivial(),
         measures=measures,
     )
-    command = baca.tag("stirrings_still.desynchronization()", command)
-    return command
+    result = baca.tag("stirrings_still.desynchronization()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

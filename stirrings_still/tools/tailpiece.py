@@ -9,7 +9,6 @@ def tailpiece(
     """
     Makes tailpiece.
     """
-    command: baca.Command
     command = baca.suite(
         baca.dots_transparent(selector=baca.leaves()[1:]),
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
@@ -20,5 +19,6 @@ def tailpiece(
         baca.flat_glissando(None, *tweaks, selector=baca.leaves().rleak()),
         measures=measures,
     )
-    command = baca.tag("stirrings_still.tailpiece()", command)
-    return command
+    result = baca.tag("stirrings_still.tailpiece()", command)
+    assert isinstance(result, baca.Suite)
+    return result

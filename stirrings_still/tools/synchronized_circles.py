@@ -10,7 +10,7 @@ def synchronized_circles(
     rests: abjad.IntegerSequence = None,
     rotation: int = 0,
     sustain: abjad.IntegerSequence = None,
-):
+) -> baca.RhythmCommand:
     """
     Makes rhythm for synchronized circles.
     """
@@ -30,9 +30,9 @@ def synchronized_circles(
     else:
         raise TypeError(rests)
 
-    command: baca.Command
     command = baca.rhythm(
         rmakers.talea(counts, 8), *commands, rmakers.beam(), measures=measures
     )
-    command = baca.tag("stirrings_still.synchronized_circles()", command)
-    return command
+    result = baca.tag("stirrings_still.synchronized_circles()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result
