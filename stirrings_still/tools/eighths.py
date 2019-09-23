@@ -6,6 +6,7 @@ def eighths() -> baca.RhythmCommand:
     """
     Makes eighths.
     """
+    command: baca.Command
     command = baca.rhythm(
         rmakers.talea([1], 8),
         rmakers.extract_trivial(),

@@ -12,6 +12,7 @@ def accelerando(
     """
     Makes accelerando.
     """
+    command: baca.Command
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)]),
         rmakers.duration_bracket(),

@@ -32,6 +32,7 @@ def bcps(
             bcps_.append(bcp)
         previous_bcp = bcp
 
+    command: baca.Command
     command = baca.bcps(
         bcps_,
         abjad.tweak(staff_padding).staff_padding,

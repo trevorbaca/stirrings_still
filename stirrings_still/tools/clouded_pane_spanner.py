@@ -12,6 +12,7 @@ def clouded_pane_spanner(
     """
     Makes clouded pane annotation spanner.
     """
+    command: baca.Command
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("red").color,

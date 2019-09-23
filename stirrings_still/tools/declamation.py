@@ -26,6 +26,7 @@ def declamation(
         rmakers.force_repeat_tie(),
     )
 
+    command: baca.Command
     if protract is True:
         split = baca.sequence().split_divisions([(1, 4)])
         command = baca.rhythm(

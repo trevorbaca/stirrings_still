@@ -8,6 +8,7 @@ def flight_spanner(
     """
     Makes flight annotation spanner.
     """
+    command: baca.Command
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("darkmagenta").color,

@@ -13,7 +13,7 @@ def to_flight(
     """
     Makes trajectories-to-flight.
     """
-
+    command: baca.Command
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)], [(1, 2), (1, 2), (1, 4)]),
         rmakers.duration_bracket(),

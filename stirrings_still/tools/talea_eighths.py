@@ -23,6 +23,7 @@ def talea_eighths(
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
 
+    command: baca.Command
     command = baca.rhythm(
         rmakers.talea(
             counts_, 8, end_counts=end_counts, extra_counts=extra_counts

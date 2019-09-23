@@ -6,7 +6,8 @@ def cello_cell() -> baca.RhythmCommand:
     """
     Makes cello cell.
     """
-    return baca.rhythm(
+    command: baca.Command
+    command = baca.rhythm(
         rmakers.talea([3, 1, 2, 2], 16),
         rmakers.beam(),
         rmakers.extract_trivial(),

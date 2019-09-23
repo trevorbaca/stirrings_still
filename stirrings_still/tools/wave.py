@@ -12,7 +12,7 @@ def wave(
     """
     Makes wave rhythm.
     """
-
+    command: baca.Command
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)], [stop, start, (1, 16)]),
         rmakers.duration_bracket(),

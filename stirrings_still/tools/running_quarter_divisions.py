@@ -13,6 +13,7 @@ def running_quarter_divisions(
     assert 0 < count, repr(count)
     ratio = tuple(count * [1])
 
+    command: baca.Command
     command = baca.rhythm(
         rmakers.tuplet([ratio]),
         rmakers.beam(),

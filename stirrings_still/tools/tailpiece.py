@@ -9,6 +9,7 @@ def tailpiece(
     """
     Makes tailpiece.
     """
+    command: baca.Command
     command = baca.suite(
         baca.dots_transparent(selector=baca.leaves()[1:]),
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),

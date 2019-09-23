@@ -2416,7 +2416,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
     etqf'!2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -2450,7 +2450,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     etqf'!8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [E Violin_I_Music_Voice measure 307 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! baca.glissando()
@@ -2458,7 +2458,7 @@ E_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     etqf'!2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -6423,7 +6423,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
     bqf!2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -6457,7 +6457,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     bqf!8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [E Violin_II_Music_Voice measure 307 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! baca.glissando()
@@ -6465,7 +6465,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     bqf!2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -9847,7 +9847,7 @@ E_Viola_Music_Voice = {                                                        %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
     a2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -9881,7 +9881,7 @@ E_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     a8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [E Viola_Music_Voice measure 307 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! baca.glissando()
@@ -9889,7 +9889,7 @@ E_Viola_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     a2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 

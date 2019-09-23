@@ -26,6 +26,7 @@ def trajectories(
     extra_counts = baca.sequence([1, 1, 0, -1])
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
 
+    command: baca.Command
     command = baca.rhythm(
         rmakers.talea(
             counts_, 8, end_counts=end_counts, extra_counts=extra_counts

@@ -18,6 +18,7 @@ def circles(
         [duration], cyclic=True, remainder=remainder
     )
 
+    command: baca.Command
     command = baca.rhythm(
         rmakers.note(),
         *commands,

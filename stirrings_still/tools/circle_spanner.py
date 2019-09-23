@@ -12,7 +12,8 @@ def circle_spanner(
     """
     Makes circle annotation spanner.
     """
-    return baca.material_annotation_spanner(
+    command: baca.Command
+    command = baca.material_annotation_spanner(
         string,
         abjad.tweak("darkyellow").color,
         abjad.tweak(staff_padding).staff_padding,

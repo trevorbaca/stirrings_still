@@ -10,6 +10,7 @@ def loure_tuplets(
     """
     Makes louré tuplets.
     """
+    command: baca.Command
     command = baca.suite(
         baca.espressivo(selector=baca.pheads()),
         desynchronization(8, [extra_count]),
