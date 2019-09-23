@@ -17,8 +17,6 @@ def circles(
     divisions = divisions.split_divisions(
         [duration], cyclic=True, remainder=remainder
     )
-
-    command: baca.Command
     command = baca.rhythm(
         rmakers.note(),
         *commands,
@@ -29,5 +27,6 @@ def circles(
         preprocessor=divisions,
         measures=measures,
     )
-    command = baca.tag("stirrings_still.circles()", command)
-    return command
+    result = baca.tag("stirrings_still.circles()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

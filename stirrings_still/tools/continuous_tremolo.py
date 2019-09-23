@@ -6,7 +6,6 @@ def continuous_tremolo() -> baca.Suite:
     """
     Makes continuous tremolo.
     """
-    command: baca.Command
     command = baca.suite(
         baca.rhythm(
             rmakers.note(),
@@ -16,5 +15,6 @@ def continuous_tremolo() -> baca.Suite:
         ),
         baca.stem_tremolo(selector=baca.pleaves()),
     )
-    command = baca.tag("stirrings_still.continuous_tremolo()", command)
-    return command
+    result = baca.tag("stirrings_still.continuous_tremolo()", command)
+    assert isinstance(result, baca.Suite)
+    return result

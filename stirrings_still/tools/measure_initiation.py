@@ -7,7 +7,6 @@ def measure_initiation() -> baca.RhythmCommand:
     """
     Makes measure initiation.
     """
-    command: baca.Command
     command = baca.rhythm(
         rmakers.incised(
             prefix_talea=[2], prefix_counts=[1], talea_denominator=8
@@ -15,5 +14,6 @@ def measure_initiation() -> baca.RhythmCommand:
         rmakers.beam(),
         rmakers.extract_trivial(),
     )
-    command = baca.tag("stirrings_still.measure_initiation()", command)
-    return command
+    result = baca.tag("stirrings_still.measure_initiation()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

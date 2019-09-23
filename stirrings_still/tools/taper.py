@@ -11,7 +11,6 @@ def taper(
     """
     Makes taper.
     """
-    command: baca.Command
     command = baca.rhythm(
         rmakers.tuplet([tuplet_ratio]),
         rmakers.beam(),
@@ -19,5 +18,6 @@ def taper(
         rmakers.extract_trivial(),
         measures=measures,
     )
-    command = baca.tag("stirrings_still.taper()", command)
-    return command
+    result = baca.tag("stirrings_still.taper()", command)
+    assert isinstance(result, baca.RhythmCommand)
+    return result

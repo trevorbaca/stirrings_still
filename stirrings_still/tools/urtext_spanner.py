@@ -12,7 +12,6 @@ def urtext_spanner(
     """
     Makes urtext annotation spanner.
     """
-    command: baca.Command
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("darkred").color,
@@ -21,5 +20,6 @@ def urtext_spanner(
         measures=measures,
         selector=selector,
     )
-    command = baca.tag(["MATERIAL", "URTEXT"], command)
-    return command
+    result = baca.tag(["MATERIAL", "URTEXT"], command)
+    assert isinstance(result, baca.PiecewiseCommand)
+    return result
