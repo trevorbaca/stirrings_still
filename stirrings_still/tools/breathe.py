@@ -8,8 +8,5 @@ def breathe(
     """
     Makes breathe command with (-0.25, 2) extra offset.
     """
-
-    command: baca.Command
     command = baca.breathe(selector, abjad.tweak((-0.25, 2)).extra_offset)
-    command = baca.tag("stirrings_still.breathe()", command)
-    return command
+    return baca.tag("stirrings_still.breathe()", command)

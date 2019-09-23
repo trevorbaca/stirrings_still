@@ -12,7 +12,6 @@ def accelerando(
     """
     Makes accelerando.
     """
-    command: baca.Command
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)]),
         rmakers.duration_bracket(),
@@ -20,5 +19,4 @@ def accelerando(
         preprocessor=baca.sequence().fuse(),
         measures=measures,
     )
-    command = baca.tag("stirrings_still.accelerando()", command)
-    return command
+    return baca.tag("stirrings_still.accelerando()", command)

@@ -12,12 +12,10 @@ def wave(
     """
     Makes wave rhythm.
     """
-    command: baca.Command
     command = baca.rhythm(
         rmakers.accelerando([start, stop, (1, 16)], [stop, start, (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         measures=measures,
     )
-    command = baca.tag("stirrings_still.wave()", command)
-    return command
+    return baca.tag("stirrings_still.wave()", command)

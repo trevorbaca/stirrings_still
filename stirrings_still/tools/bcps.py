@@ -32,7 +32,6 @@ def bcps(
             bcps_.append(bcp)
         previous_bcp = bcp
 
-    command: baca.Command
     command = baca.bcps(
         bcps_,
         abjad.tweak(staff_padding).staff_padding,
@@ -42,5 +41,5 @@ def bcps(
         ),
         selector=selector,
     )
-    command = baca.tag("stirrings_still.bcps()", command)
-    return baca.new(command, measures=measures)
+    command = baca.new(command, measures=measures)
+    return baca.tag("stirrings_still.bcps()", command)
