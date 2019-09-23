@@ -3309,17 +3309,17 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 290 / measure 84]                        %! baca.SegmentMaker._comment_measure_numbers()
     <fs'! dqf''!>1
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     % [D Violin_I_Music_Voice measure 291 / measure 85]                        %! baca.SegmentMaker._comment_measure_numbers()
     <fs'! dqf''!>1
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     % [D Violin_I_Music_Voice measure 292 / measure 86]                        %! baca.SegmentMaker._comment_measure_numbers()
     <fs'! dqf''!>2..
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -3335,7 +3335,7 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 293 / measure 87]                        %! baca.SegmentMaker._comment_measure_numbers()
     <fs'! dqf''!>2..
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -3345,11 +3345,11 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 294 / measure 88]                        %! baca.SegmentMaker._comment_measure_numbers()
     <fs'! dqf''!>2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     <fs'! dqf''!>8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -3363,7 +3363,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     <fs'! dqf''!>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -3381,7 +3381,7 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 296 / measure 90]                        %! baca.SegmentMaker._comment_measure_numbers()
     <etqf'! c''>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
     ^ \markup { (3+7)°/F }                                                     %! baca.markup():IndicatorCommand
@@ -3400,7 +3400,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     <etqf'! c''>2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     % [D Violin_I_Music_Voice measure 298 / measure 92]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -3409,7 +3409,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     <etqf'! c''>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -3439,7 +3439,7 @@ D_Violin_I_Music_Voice = {                                                     %
 
     % [D Violin_I_Music_Voice measure 300 / measure 94]                        %! baca.SegmentMaker._comment_measure_numbers()
     <etqf'! c''>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -3465,10 +3465,10 @@ D_Violin_I_Music_Voice = {                                                     %
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     <etqf'! c''>2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     <etqf'! c''>8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Violin_I_Music_Voice measure 302 / measure 96]                        %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! baca.glissando()
@@ -3476,7 +3476,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     <etqf'! c''>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -5091,17 +5091,17 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 290 / measure 84]                       %! baca.SegmentMaker._comment_measure_numbers()
     <cqs'! af'!>1
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     % [D Violin_II_Music_Voice measure 291 / measure 85]                       %! baca.SegmentMaker._comment_measure_numbers()
     <cqs'! af'!>1
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     % [D Violin_II_Music_Voice measure 292 / measure 86]                       %! baca.SegmentMaker._comment_measure_numbers()
     <cqs'! af'!>2..
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -5117,12 +5117,12 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 293 / measure 87]                       %! baca.SegmentMaker._comment_measure_numbers()
     <cqs'! af'!>2..
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     % [D Violin_II_Music_Voice measure 294 / measure 88]                       %! baca.SegmentMaker._comment_measure_numbers()
     <cqs'! af'!>2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -5131,7 +5131,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanSCP                                                      %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
     <cqs'! af'!>8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-solid-line-with-arrow                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -5145,7 +5145,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     <cqs'! af'!>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -5163,7 +5163,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 296 / measure 90]                       %! baca.SegmentMaker._comment_measure_numbers()
     <bqf! g'>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
     - \tweak padding #1.5                                                      %! baca.markup():IndicatorCommand
     ^ \markup { (9+11)°/F }                                                    %! baca.markup():IndicatorCommand
@@ -5182,7 +5182,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     <bqf! g'>2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     % [D Violin_II_Music_Voice measure 298 / measure 92]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -5191,7 +5191,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     <bqf! g'>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     :32                                                                        %! baca.stem_tremolo():IndicatorCommand
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -5221,7 +5221,7 @@ D_Violin_II_Music_Voice = {                                                    %
 
     % [D Violin_II_Music_Voice measure 300 / measure 94]                       %! baca.SegmentMaker._comment_measure_numbers()
     <bqf! g'>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -5247,10 +5247,10 @@ D_Violin_II_Music_Voice = {                                                    %
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     <bqf! g'>2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     <bqf! g'>8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Violin_II_Music_Voice measure 302 / measure 96]                       %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! baca.glissando()
@@ -5258,7 +5258,7 @@ D_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     <bqf! g'>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -6869,26 +6869,26 @@ D_Viola_Music_Voice = {                                                        %
 
     % [D Viola_Music_Voice measure 290 / measure 84]                           %! baca.SegmentMaker._comment_measure_numbers()
     <b, aqs!>1
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Viola_Music_Voice measure 291 / measure 85]                           %! baca.SegmentMaker._comment_measure_numbers()
     <b, aqs!>1
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Viola_Music_Voice measure 292 / measure 86]                           %! baca.SegmentMaker._comment_measure_numbers()
     <b, aqs!>2..
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Viola_Music_Voice measure 293 / measure 87]                           %! baca.SegmentMaker._comment_measure_numbers()
     <b, aqs!>2..
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Viola_Music_Voice measure 294 / measure 88]                           %! baca.SegmentMaker._comment_measure_numbers()
     <b, aqs!>2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     <b, aqs!>8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Viola_Music_Voice measure 295 / measure 89]                           %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! baca.glissando()
@@ -6896,7 +6896,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     <b, aqs!>2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Viola_Music_Voice measure 296 / measure 90]                           %! baca.SegmentMaker._comment_measure_numbers()
     \override TextScript.parent-alignment-X = #0                               %! baca.text_script_parent_alignment_x():stirrings_still.tailpiece():OverrideCommand(1)
@@ -6940,7 +6940,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():stirrings_still.tailpiece()
     \undo \hide NoteHead                                                       %! baca.glissando():stirrings_still.tailpiece()
     a2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:SPANNER_STOP:baca.hairpin:PiecewiseCommand(1)
@@ -6968,10 +6968,10 @@ D_Viola_Music_Voice = {                                                        %
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
     a2
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     a8
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
 
     % [D Viola_Music_Voice measure 302 / measure 96]                           %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! baca.glissando()
@@ -6979,7 +6979,7 @@ D_Viola_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca.glissando()
     \undo \hide NoteHead                                                       %! baca.glissando()
     a2.
-    :32                                                                        %! baca.stem_tremolo():IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo():stirrings_still.continuous_tremolo():IndicatorCommand
     \bacaStopTextSpanSCP                                                       %! SPANNER_STOP:SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-hook                                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "T"                                         %! SCP:baca.scp_spanner:PiecewiseCommand(1)

@@ -60,9 +60,7 @@ def multistage_leaf_glissando(
         baca.glissando(
             allow_repeats=True, hide_middle_note_heads=True, selector=selector
         ),
-        baca.interpolate_pitches(
-            start_pitch, final_pitch, selector=selector
-        ),
+        baca.interpolate_pitches(start_pitch, final_pitch, selector=selector),
     )
     commands.append(chunk)
     if measures is not None:

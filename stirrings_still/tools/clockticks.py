@@ -26,6 +26,7 @@ def clockticks(
         )
         counts = [1, -2]
 
+    command: baca.Command
     command = baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=[1]),
         *commands,

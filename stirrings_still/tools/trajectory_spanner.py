@@ -12,6 +12,7 @@ def trajectory_spanner(
     """
     Makes trajectory annotation spanner.
     """
+    command: baca.Command
     command = baca.material_annotation_spanner(
         string,
         abjad.tweak("blue").color,

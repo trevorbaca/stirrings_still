@@ -31,6 +31,7 @@ def transition_bcps(
             result.extend(padded_bcps[: len(leaves)])
         return result
 
+    command: baca.Command
     command = baca.bcps(
         padded_bcps,
         abjad.tweak(staff_padding).staff_padding,

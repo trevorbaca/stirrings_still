@@ -11,6 +11,7 @@ def strokes(
     """
     Makes strokes.
     """
+    command: baca.Command
     command = baca.rhythm(
         rmakers.incised(
             suffix_talea=[1],

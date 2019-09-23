@@ -6,7 +6,8 @@ def continuous_tremolo() -> baca.Suite:
     """
     Makes continuous tremolo.
     """
-    return baca.suite(
+    command: baca.Command
+    command = baca.suite(
         baca.rhythm(
             rmakers.note(),
             rmakers.beam(baca.plts()),

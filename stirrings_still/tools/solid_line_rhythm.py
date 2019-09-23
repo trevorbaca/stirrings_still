@@ -8,6 +8,7 @@ def solid_line_rhythm(
     """
     Makes solid line rhythm.
     """
+    command: baca.Command
     command = baca.rhythm(
         rmakers.note(
             spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))

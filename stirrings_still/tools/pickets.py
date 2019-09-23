@@ -25,6 +25,7 @@ def pickets(
     counts = 4 + extra_count
     tuplet_ratio = counts * (1,)
 
+    command: baca.Command
     command = baca.rhythm(
         rmakers.tuplet([tuplet_ratio]),
         *commands,
