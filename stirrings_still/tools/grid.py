@@ -18,6 +18,7 @@ def grid(
         rmakers.extract_trivial(),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.grid()", command)
+    tag = abjad.Tag("stirrings_still.grid()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

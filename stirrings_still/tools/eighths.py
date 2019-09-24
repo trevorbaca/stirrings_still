@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -11,6 +12,7 @@ def eighths() -> baca.RhythmCommand:
         rmakers.extract_trivial(),
         preprocessor=baca.sequence().fuse(),
     )
-    result = baca.tag("stirrings_still.eighths()", command)
+    tag = abjad.Tag("stirrings_still.eighths()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

@@ -15,6 +15,7 @@ def flight_spanner(
         lilypond_id="Flight",
         measures=measures,
     )
-    result = baca.tag(["MATERIAL", "FLIGHT"], command)
+    tag = abjad.Tag.from_words(["MATERIAL", "FLIGHT"])
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.PiecewiseCommand)
     return result

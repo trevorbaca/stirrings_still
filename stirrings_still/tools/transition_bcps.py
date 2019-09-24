@@ -41,6 +41,7 @@ def transition_bcps(
         final_spanner=final_spanner,
         helper=helper,
     )
-    result = baca.tag("stirrings_still.transition_bcps()", command)
+    tag = abjad.Tag("stirrings_still.transition_bcps()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.BCPCommand)
     return result

@@ -16,6 +16,7 @@ def cello_cell_bcps(*, staff_padding: abjad.Number = None) -> baca.BCPCommand:
             abjad.tweak(staff_padding + 2.5).staff_padding,
         ),
     )
-    result = baca.tag("stirrings_still.cello_cell_bcps()", command)
+    tag = abjad.Tag("stirrings_still.cello_cell_bcps()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.BCPCommand)
     return result

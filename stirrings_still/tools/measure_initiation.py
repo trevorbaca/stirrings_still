@@ -14,6 +14,7 @@ def measure_initiation() -> baca.RhythmCommand:
         rmakers.beam(),
         rmakers.extract_trivial(),
     )
-    result = baca.tag("stirrings_still.measure_initiation()", command)
+    tag = abjad.Tag("stirrings_still.measure_initiation()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

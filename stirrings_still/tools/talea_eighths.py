@@ -37,6 +37,7 @@ def talea_eighths(
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.talea_eighths()", command)
+    tag = abjad.Tag("stirrings_still.talea_eighths()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

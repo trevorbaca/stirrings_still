@@ -27,6 +27,7 @@ def grid_to_trajectory(
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.grid_to_trajectory()", command)
+    tag = abjad.Tag("stirrings_still.grid_to_trajectory()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

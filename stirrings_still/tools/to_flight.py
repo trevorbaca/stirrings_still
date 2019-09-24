@@ -23,6 +23,7 @@ def to_flight(
         .split_divisions(divisions, cyclic=True),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.to_flight()", command)
+    tag = abjad.Tag("stirrings_still.to_flight()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

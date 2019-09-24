@@ -123,6 +123,7 @@ def flight(
         rmakers.force_repeat_tie(threshold=(1, 4)),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.flight()", command)
+    tag = abjad.Tag("stirrings_still.flight()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

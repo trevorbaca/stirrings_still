@@ -20,6 +20,7 @@ def trajectory_spanner(
         measures=measures,
         selector=selector,
     )
-    result = baca.tag(["MATERIAL", "TRAJECTORIES"], command)
+    tag = abjad.Tag.from_words(["MATERIAL", "TRAJECTORIES"])
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.PiecewiseCommand)
     return result

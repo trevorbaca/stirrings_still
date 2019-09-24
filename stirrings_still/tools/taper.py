@@ -18,6 +18,7 @@ def taper(
         rmakers.extract_trivial(),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.taper()", command)
+    tag = abjad.Tag("stirrings_still.taper()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

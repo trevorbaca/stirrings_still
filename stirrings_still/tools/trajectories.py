@@ -37,6 +37,7 @@ def trajectories(
         rmakers.extract_trivial(),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.trajectories()", command)
+    tag = abjad.Tag("stirrings_still.trajectories()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

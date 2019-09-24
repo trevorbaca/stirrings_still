@@ -19,6 +19,7 @@ def tailpiece(
         baca.flat_glissando(None, *tweaks, selector=baca.leaves().rleak()),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.tailpiece()", command)
+    tag = abjad.Tag("stirrings_still.tailpiece()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.Suite)
     return result

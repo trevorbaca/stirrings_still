@@ -20,6 +20,7 @@ def urtext_spanner(
         measures=measures,
         selector=selector,
     )
-    result = baca.tag(["MATERIAL", "URTEXT"], command)
+    tag = abjad.Tag.from_words(["MATERIAL", "URTEXT"])
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.PiecewiseCommand)
     return result
