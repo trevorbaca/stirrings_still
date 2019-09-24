@@ -43,6 +43,6 @@ def bcps(
     )
     result = baca.new(command, measures=measures)
     assert isinstance(result, baca.BCPCommand)
-    result_ = baca.tag("stirrings_still.bcps()", command)
+    result_ = baca.tag("stirrings_still.bcps()", result)
     assert isinstance(result_, baca.BCPCommand)
     return result_
