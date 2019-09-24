@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -15,6 +16,7 @@ def solid_line_rhythm(
         rmakers.beam(baca.plts()),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.solid_line_rhythm()", command)
+    tag = abjad.Tag("stirrings_still.solid_line_rhythm()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

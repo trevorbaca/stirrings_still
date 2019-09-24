@@ -35,6 +35,7 @@ def clockticks(
         preprocessor=divisions,
         measures=measures,
     )
-    result = baca.tag("stirrings_still.clockticks()", command)
+    tag = abjad.Tag("stirrings_still.clockticks()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

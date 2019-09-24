@@ -2578,7 +2578,7 @@ K_Violin_I_Music_Staff = <<                                                    %
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
     \K_Global_Rests                                                            %! abjad.Path.extern()
 
-    \context Voice = "Violin_I_Music_Voice"                                    %! stirrings_still.ScoreTemplate.__call__
+    \context Voice = "Violin_I_Music_Voice"                                    %! stirrings_still.ScoreTemplate.__call__()
     \K_Violin_I_Music_Voice                                                    %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -4117,7 +4117,7 @@ K_Violin_II_Music_Voice = {                                                    %
 
 K_Violin_II_MusicStaff = {                                                     %! abjad.Path.extern()
 
-    \context Voice = "Violin_II_Music_Voice"                                   %! stirrings_still.ScoreTemplate.__call__
+    \context Voice = "Violin_II_Music_Voice"                                   %! stirrings_still.ScoreTemplate.__call__()
     \K_Violin_II_Music_Voice                                                   %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -5687,7 +5687,7 @@ K_Viola_Music_Voice = {                                                        %
 
 K_Viola_Music_Staff = {                                                        %! abjad.Path.extern()
 
-    \context Voice = "Viola_Music_Voice"                                       %! stirrings_still.ScoreTemplate.__call__
+    \context Voice = "Viola_Music_Voice"                                       %! stirrings_still.ScoreTemplate.__call__()
     \K_Viola_Music_Voice                                                       %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()
@@ -7176,7 +7176,7 @@ K_Cello_Music_Voice = {                                                        %
 
 K_Cello_Music_Staff = {                                                        %! abjad.Path.extern()
 
-    \context Voice = "Cello_Music_Voice"                                       %! stirrings_still.ScoreTemplate.__call__
+    \context Voice = "Cello_Music_Voice"                                       %! stirrings_still.ScoreTemplate.__call__()
     \K_Cello_Music_Voice                                                       %! abjad.Path.extern()
 
 }                                                                              %! abjad.Path.extern()

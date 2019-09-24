@@ -42,6 +42,7 @@ def declamation(
             preprocessor=baca.sequence().fuse().split_divisions([(1, 4)]),
             measures=measures,
         )
-    result = baca.tag("stirrings_still.declamation()", command)
+    tag = abjad.Tag("stirrings_still.declamation()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

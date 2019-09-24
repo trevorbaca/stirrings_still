@@ -47,6 +47,7 @@ def desynchronization(
         rmakers.extract_trivial(),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.desynchronization()", command)
+    tag = abjad.Tag("stirrings_still.desynchronization()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

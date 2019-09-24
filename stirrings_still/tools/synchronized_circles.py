@@ -33,6 +33,7 @@ def synchronized_circles(
     command = baca.rhythm(
         rmakers.talea(counts, 8), *commands, rmakers.beam(), measures=measures
     )
-    result = baca.tag("stirrings_still.synchronized_circles()", command)
+    tag = abjad.Tag("stirrings_still.synchronized_circles()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

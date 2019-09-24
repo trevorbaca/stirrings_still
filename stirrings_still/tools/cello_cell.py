@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -12,6 +13,7 @@ def cello_cell() -> baca.RhythmCommand:
         rmakers.extract_trivial(),
         preprocessor=baca.sequence().fuse().quarters(),
     )
-    result = baca.tag("stirrings_still.cello_cell()", command)
+    tag = abjad.Tag("stirrings_still.cello_cell()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

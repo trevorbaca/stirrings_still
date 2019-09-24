@@ -18,6 +18,7 @@ def wave(
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.wave()", command)
+    tag = abjad.Tag("stirrings_still.wave()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

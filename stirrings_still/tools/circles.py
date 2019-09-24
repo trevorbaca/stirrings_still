@@ -27,6 +27,7 @@ def circles(
         preprocessor=divisions,
         measures=measures,
     )
-    result = baca.tag("stirrings_still.circles()", command)
+    tag = abjad.Tag("stirrings_still.circles()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

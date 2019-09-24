@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -15,6 +16,7 @@ def continuous_tremolo() -> baca.Suite:
         ),
         baca.stem_tremolo(selector=baca.pleaves()),
     )
-    result = baca.tag("stirrings_still.continuous_tremolo()", command)
+    tag = abjad.Tag("stirrings_still.continuous_tremolo()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.Suite)
     return result

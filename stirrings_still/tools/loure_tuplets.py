@@ -15,6 +15,7 @@ def loure_tuplets(
         desynchronization(8, [extra_count]),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.loure_tuplets()", command)
+    tag = abjad.Tag("stirrings_still.loure_tuplets()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.Suite)
     return result

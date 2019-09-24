@@ -22,6 +22,7 @@ def running_quarter_divisions(
         .split_divisions([(1, 4)], cyclic=True),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.running_quarter_divisions()", command)
+    tag = abjad.Tag("stirrings_still.running_quarter_divisions()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

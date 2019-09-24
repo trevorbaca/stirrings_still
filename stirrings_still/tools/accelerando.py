@@ -19,6 +19,7 @@ def accelerando(
         preprocessor=baca.sequence().fuse(),
         measures=measures,
     )
-    result = baca.tag("stirrings_still.accelerando()", command)
+    tag = abjad.Tag("stirrings_still.accelerando()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

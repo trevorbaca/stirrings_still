@@ -28,6 +28,7 @@ def strokes(
         measures=measures,
         preprocessor=baca.sequence().rotate(n=rotation),
     )
-    result = baca.tag("stirrings_still.strokes()", command)
+    tag = abjad.Tag("stirrings_still.strokes()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result

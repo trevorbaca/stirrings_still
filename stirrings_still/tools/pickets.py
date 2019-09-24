@@ -35,6 +35,7 @@ def pickets(
         preprocessor=divisions,
         measures=measures,
     )
-    result = baca.tag("stirrings_still.pickets()", command)
+    tag = abjad.Tag("stirrings_still.pickets()")
+    result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
     return result
