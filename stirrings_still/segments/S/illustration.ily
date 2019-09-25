@@ -1536,7 +1536,7 @@ S_Violin_I_Music_Voice = {                                                     %
     \once \override Staff.StaffSymbol.line-count = 5                           %! baca.SegmentMaker._style_fermata_measures(2)
     \startStaff                                                                %! baca.SegmentMaker._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! baca.SegmentMaker._style_fermata_measures(2.5)
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+    \override MultiMeasureRest.color = #green                                  %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
 %%% \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_fermata_measures(4):FERMATA_MEASURE:MEASURE_855
 %%% \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_fermata_measures(4):FERMATA_MEASURE:MEASURE_855
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
@@ -1549,7 +1549,7 @@ S_Violin_I_Music_Voice = {                                                     %
     % [S Violin_I_Music_Voice measure 858 / measure 19]                        %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-    \revert MultiMeasureRest.color                                             %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(2)
+    \revert MultiMeasureRest.color                                             %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(2)
 
     % [S Violin_I_Music_Voice measure 859 / measure 20]                        %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._style_fermata_measures(1)
@@ -2671,7 +2671,7 @@ S_Violin_II_Music_Voice = {                                                    %
     \stopStaff                                                                 %! baca.SegmentMaker._style_fermata_measures(2)
     \once \override Staff.StaffSymbol.line-count = 5                           %! baca.SegmentMaker._style_fermata_measures(2)
     \startStaff                                                                %! baca.SegmentMaker._style_fermata_measures(2)
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+    \override MultiMeasureRest.color = #green                                  %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
@@ -2682,7 +2682,7 @@ S_Violin_II_Music_Voice = {                                                    %
     % [S Violin_II_Music_Voice measure 858 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-    \revert MultiMeasureRest.color                                             %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(2)
+    \revert MultiMeasureRest.color                                             %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(2)
 
     % [S Violin_II_Music_Voice measure 859 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._style_fermata_measures(1)
@@ -3171,7 +3171,7 @@ S_Cello_Music_Voice = {                                                        %
     \once \override Staff.StaffSymbol.line-count = 5                           %! baca.SegmentMaker._style_fermata_measures(2)
     \startStaff                                                                %! baca.SegmentMaker._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! baca.SegmentMaker._style_fermata_measures(2.5)
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+    \override MultiMeasureRest.color = #green                                  %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
@@ -3182,7 +3182,7 @@ S_Cello_Music_Voice = {                                                        %
     % [S Cello_Music_Voice measure 858 / measure 19]                           %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-    \revert MultiMeasureRest.color                                             %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(2)
+    \revert MultiMeasureRest.color                                             %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(2)
 
     % [S Cello_Music_Voice measure 859 / measure 20]                           %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! baca.SegmentMaker._style_fermata_measures(1)

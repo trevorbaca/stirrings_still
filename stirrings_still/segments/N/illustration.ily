@@ -185,8 +185,8 @@ N_Global_Skips = {                                                             %
 
     % [N Global_Skips measure 670 / measure 13]                                %! baca.SegmentMaker._comment_measure_numbers()
     \bar ".|:"                                                                 %! baca.bar_line():baca.IndicatorCommand._call()
-%%% \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! MEASURE_670:NOT_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
-    \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! MEASURE_670:ONLY_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
+%%% \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! baca.bar_line_x_extent():NOT_MOL:MEASURE_670:baca.OverrideCommand._call(1)
+    \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! baca.bar_line_x_extent():ONLY_MOL:MEASURE_670:baca.OverrideCommand._call(1)
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
@@ -429,8 +429,8 @@ N_Global_Skips = {                                                             %
 
     % [N Global_Skips measure 686 / measure 29]                                %! baca.SegmentMaker._comment_measure_numbers()
     \bar ":.|.:"                                                               %! baca.bar_line():baca.IndicatorCommand._call()
-%%% \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! MEASURE_686:NOT_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
-    \once \override Score.BarLine.X-extent = #'(0 . 4)                         %! MEASURE_686:ONLY_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
+%%% \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! baca.bar_line_x_extent():NOT_MOL:MEASURE_686:baca.OverrideCommand._call(1)
+    \once \override Score.BarLine.X-extent = #'(0 . 4)                         %! baca.bar_line_x_extent():ONLY_MOL:MEASURE_686:baca.OverrideCommand._call(1)
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 7/8                                                                   %! baca.SegmentMaker._make_global_skips(1)
@@ -588,7 +588,7 @@ N_Global_Skips = {                                                             %
 
     % [N Global_Skips measure 695 / measure 38]                                %! baca.SegmentMaker._comment_measure_numbers()
     \bar ":|."                                                                 %! baca.bar_line():baca.IndicatorCommand._call()
-    \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! MEASURE_695:ONLY_MOL:baca.bar_line_x_extent():baca.OverrideCommand._call(1)
+    \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! baca.bar_line_x_extent():ONLY_MOL:MEASURE_695:baca.OverrideCommand._call(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -858,7 +858,7 @@ N_Violin_I_Music_Voice = {                                                     %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
             % [N Violin_I_Rest_Voice measure 666 / measure 9]                  %! baca.SegmentMaker._comment_measure_numbers()
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+            \once \override MultiMeasureRest.color = #green                    %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
@@ -867,7 +867,7 @@ N_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [N Violin_I_Music_Voice measure 667 / measure 10]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+    \override MultiMeasureRest.color = #green                                  %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
@@ -878,7 +878,7 @@ N_Violin_I_Music_Voice = {                                                     %
     % [N Violin_I_Music_Voice measure 669 / measure 12]                        %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-    \revert MultiMeasureRest.color                                             %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(2)
+    \revert MultiMeasureRest.color                                             %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(2)
 
     % [N Violin_I_Music_Voice measure 670 / measure 13]                        %! baca.SegmentMaker._comment_measure_numbers()
     <a fqs'!>2.
@@ -1656,7 +1656,7 @@ N_Violin_II_Music_Voice = {                                                    %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
             % [N Violin_II_Rest_Voice measure 666 / measure 9]                 %! baca.SegmentMaker._comment_measure_numbers()
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+            \once \override MultiMeasureRest.color = #green                    %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
@@ -1665,7 +1665,7 @@ N_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [N Violin_II_Music_Voice measure 667 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+    \override MultiMeasureRest.color = #green                                  %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
@@ -1676,7 +1676,7 @@ N_Violin_II_Music_Voice = {                                                    %
     % [N Violin_II_Music_Voice measure 669 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-    \revert MultiMeasureRest.color                                             %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(2)
+    \revert MultiMeasureRest.color                                             %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(2)
 
     % [N Violin_II_Music_Voice measure 670 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
     <fs! dqs'!>2.
@@ -2418,7 +2418,7 @@ N_Viola_Music_Voice = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
             % [N Viola_Rest_Voice measure 666 / measure 9]                     %! baca.SegmentMaker._comment_measure_numbers()
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+            \once \override MultiMeasureRest.color = #green                    %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
@@ -2427,7 +2427,7 @@ N_Viola_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
     % [N Viola_Music_Voice measure 667 / measure 10]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(1)
+    \override MultiMeasureRest.color = #green                                  %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
@@ -2438,7 +2438,7 @@ N_Viola_Music_Voice = {                                                        %
     % [N Viola_Music_Voice measure 669 / measure 12]                           %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
-    \revert MultiMeasureRest.color                                             %! TACET:baca.mmrest_color():baca.tacet():baca.OverrideCommand._call(2)
+    \revert MultiMeasureRest.color                                             %! baca.mmrest_color():TACET:baca.tacet():baca.OverrideCommand._call(2)
 
     % [N Viola_Music_Voice measure 670 / measure 13]                           %! baca.SegmentMaker._comment_measure_numbers()
     <c aqs!>2.
