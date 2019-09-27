@@ -20,7 +20,7 @@ def circle_spanner(
         measures=measures,
         selector=selector,
     )
-    tag = abjad.Tag.from_words(["MATERIAL", "CIRCLE"])
+    tag = abjad.Tag("MATERIAL:CIRCLE")
     result = baca.tag(tag, command)
     assert isinstance(result, baca.PiecewiseCommand)
     return result

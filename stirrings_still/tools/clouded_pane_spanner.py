@@ -20,7 +20,7 @@ def clouded_pane_spanner(
         measures=measures,
         selector=selector,
     )
-    tag = abjad.Tag.from_words(["MATERIAL", "CLOUDED_PANE"])
+    tag = abjad.Tag("MATERIAL:CLOUDED_PANE")
     result = baca.tag(tag, command)
     assert isinstance(result, baca.PiecewiseCommand)
     return result
