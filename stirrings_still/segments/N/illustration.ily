@@ -615,8 +615,6 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% - \baca-start-ct-both-left-fermata "8''" "[33'31'']"                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
-    \baca-bar-line-visible                                                     %! baca.SegmentMaker._attach_final_bar_line()
-    \bar "|"                                                                   %! baca.SegmentMaker._attach_final_bar_line()
 
     % [N Global_Skips measure 697 / measure 40]                                %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
     \baca-time-signature-transparent                                           %! baca.SegmentMaker._style_phantom_measures(2):PHANTOM
