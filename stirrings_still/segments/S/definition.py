@@ -215,3 +215,14 @@ maker(
         selector=baca.leaves().rleak(),
     ),
 )
+
+maker(
+    ("vc", -1),
+    baca.chunk(
+        baca.mark(r"\stirrings-still-colophon-markup"),
+        baca.rehearsal_mark_down(),
+        baca.rehearsal_mark_padding(6),
+        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        selector=baca.leaves().rleak()[-1],
+    ),
+)

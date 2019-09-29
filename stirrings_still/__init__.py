@@ -18,8 +18,3 @@ from stirrings_still.materials.time_signature_series.definition import (
     time_signature_series,
 )
 from stirrings_still import segments
-
-"""
-['Madison, WI', 'Chicago, IL', 'Palo Alto, CA.']
-['September 2016', 'September 2017.']
-"""

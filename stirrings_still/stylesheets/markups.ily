@@ -1,6 +1,22 @@
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
 \include "text-markups.ily"
 
+%%% COLOPHON %%%
+
+stirrings-still-colophon-markup = \markup {
+    \override #'(font-name . "Palatino")
+    \with-color #black
+    \override #'(baseline-skip . 4)
+    \right-column {
+        \line {
+            Madison, Wisc. \hspace #0.75 – \hspace #0.75
+            Chicago, Ill. \hspace #0.75 – \hspace #0.75
+            Palo Alto, Calif.
+        }
+        \line { Sep. 2016 \hspace #0.75 – \hspace #0.75 Dec. 2018. }
+        }
+    }
+
 %%% DIRECTIVES %%%
 
 stirrings-still-repeat-three = \markup
