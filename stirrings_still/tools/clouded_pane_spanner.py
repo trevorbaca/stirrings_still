@@ -16,7 +16,6 @@ def clouded_pane_spanner(
         string,
         abjad.tweak("red").color,
         abjad.tweak(staff_padding).staff_padding,
-        lilypond_id="CloudedPane",
         measures=measures,
         selector=selector,
     )

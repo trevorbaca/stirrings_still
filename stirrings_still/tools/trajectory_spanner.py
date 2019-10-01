@@ -16,7 +16,6 @@ def trajectory_spanner(
         string,
         abjad.tweak("blue").color,
         abjad.tweak(staff_padding).staff_padding,
-        lilypond_id="Trajectories",
         measures=measures,
         selector=selector,
     )
