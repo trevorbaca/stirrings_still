@@ -1761,7 +1761,7 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak bound-details.right.padding #2.75                                 %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
     - \tweak staff-padding #5.5                                                %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanCircleBow                                                %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-dashed-line-with-hook                                             %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-damp-markup      %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
@@ -1769,19 +1769,19 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #8                                                  %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanDamp                                                     %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     c''4
 
     c''4
 
     % [B Violin_I_Music_Voice measure 76 / measure 13]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     c''4
 
     \tweak edge-height #'(0.7 . 0)
@@ -2199,7 +2199,7 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak stencil #abjad-flared-hairpin                                     %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-dashed-line-with-hook                                             %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-text "T"                                         %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-t-markup         %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
@@ -2213,14 +2213,14 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #8                                                  %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     <e' c''>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2235,20 +2235,20 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \override Dots.transparent = ##t                                           %! baca.glissando()
-    \override Stem.transparent = ##t                                           %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
-    \revert Dots.transparent                                                   %! baca.glissando()
-    \revert Stem.transparent                                                   %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
     <e' cqs''!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2311,7 +2311,7 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -2321,10 +2321,10 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         g''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -2398,10 +2398,10 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         bf''!8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -2447,7 +2447,7 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-dashed-line-with-hook                                             %! baca.text_spanner():baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-text "2°"                                        %! baca.text_spanner():baca.PiecewiseCommand._call(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca.text_spanner():baca.PiecewiseCommand._call(1):AUTODETECT
@@ -2465,14 +2465,14 @@ B_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
 
     % [B Violin_I_Music_Voice measure 96 / measure 33]                         %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     gf'!1                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2509,16 +2509,16 @@ B_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "T"                                     %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         g''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -2592,10 +2592,10 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         b''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -2646,16 +2646,16 @@ B_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "T"                                     %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         a''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -2710,10 +2710,10 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         c'''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         ]
@@ -2763,16 +2763,16 @@ B_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "T"                                     %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         a''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -2846,10 +2846,10 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         df'''!8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -2866,7 +2866,7 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak stencil #constante-hairpin                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \bacaStopTextSpanSCP                                                       %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-dashed-line-with-hook                                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-markup \baca-circle-very-tight-markup            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
@@ -2880,16 +2880,16 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #8                                                  %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanDamp                                                     %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     c''4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     c''4
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -2938,16 +2938,16 @@ B_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "T"                                     %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         a''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -2976,10 +2976,10 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d'''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -3033,21 +3033,21 @@ B_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-right-text #4 #7                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-dashed-line-with-hook                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "P poss."                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak bound-details.right.padding #3.25                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d'''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -3157,17 +3157,17 @@ B_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-dashed-line-with-hook                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "P poss."                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak bound-details.right.padding #2.25                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d'''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -3235,10 +3235,10 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 6/7 {
 
         % [B Violin_I_Music_Voice measure 115 / measure 52]                    %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d'''8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -3254,16 +3254,16 @@ B_Violin_I_Music_Voice = {                                                     %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "P molto"                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d'''8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #8.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -3319,22 +3319,22 @@ B_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #6                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     af''!4
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #6                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     a''4.
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -3403,22 +3403,22 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         b''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #6                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         a''8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #8.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -3450,10 +3450,10 @@ B_Violin_I_Music_Voice = {                                                     %
     \times 7/8 {
 
         % [B Violin_I_Music_Voice measure 119 / measure 56]                    %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         f''8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -3468,12 +3468,12 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak bound-details.right.padding #2.75                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
         - \tweak staff-padding #13                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         f''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         ]
@@ -3719,10 +3719,10 @@ B_Violin_I_Music_Voice = {                                                     %
 
     f''4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     f''8
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -3768,7 +3768,7 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak bound-details.right.padding #2.75                             %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
         - \tweak staff-padding #5.5                                            %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-hook                                          %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "urtext (cds)"                          %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
         - \tweak bound-details.right.padding #2.75                             %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1):AUTODETECT
@@ -3776,18 +3776,18 @@ B_Violin_I_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanMaterialAnnotation                                   %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         <fs'! dqf''!>4.
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \espressivo                                                          %! baca.espressivo():baca.IndicatorCommand._call()
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         <fs'! dqf''!>4.
 
     }
@@ -4411,7 +4411,7 @@ B_Violin_II_Music_Voice = {                                                    %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-dashed-line-with-hook                                         %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "T"                                     %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-t-markup     %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
@@ -4419,10 +4419,10 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #13.0                                           %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         b'4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -4460,10 +4460,10 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d''4
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -4473,12 +4473,12 @@ B_Violin_II_Music_Voice = {                                                    %
         - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d''4.
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -4524,10 +4524,10 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     c''4
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -4537,12 +4537,12 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     c''4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -4582,22 +4582,22 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak stencil #constante-hairpin                                    %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         ef''!4.
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e''8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -4638,10 +4638,10 @@ B_Violin_II_Music_Voice = {                                                    %
         % [B Violin_II_Music_Voice measure 85 / measure 22]                    %! baca.SegmentMaker._comment_measure_numbers()
         d''8
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d''4.
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -4651,12 +4651,12 @@ B_Violin_II_Music_Voice = {                                                    %
         - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d''8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -4699,22 +4699,22 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         f''4.
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         f''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -4756,10 +4756,10 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     ef''!8
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -4770,12 +4770,12 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     f''4
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -4812,10 +4812,10 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         g''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         ]
@@ -4838,16 +4838,16 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak color #darkred                                                    %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #10.5                                               %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     <ef'! b'>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4862,20 +4862,20 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \override Dots.transparent = ##t                                           %! baca.glissando()
-    \override Stem.transparent = ##t                                           %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
-    \revert Dots.transparent                                                   %! baca.glissando()
-    \revert Stem.transparent                                                   %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
     <eqf'! c''>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4905,21 +4905,21 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.padding #3.25                             %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
         - \tweak staff-padding #10.5                                           %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanHalfCLT                                              %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-right-text #6 #7                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         g''4.
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -4974,16 +4974,16 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-text-spanner-left-text "T"                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #10.5                                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanSCP                                                      %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     g''4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -5044,10 +5044,10 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         e''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -5108,17 +5108,17 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak color #darkred                                                    %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #10.5                                               %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [B Violin_II_Music_Voice measure 96 / measure 33]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     f'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5156,12 +5156,12 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     f''4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -5232,10 +5232,10 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         a'8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -5287,12 +5287,12 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     e''4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -5342,10 +5342,10 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         g'8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         ]
@@ -5396,12 +5396,12 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     f''4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -5468,10 +5468,10 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         gf'!8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -5500,18 +5500,18 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #3.25                                 %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
     - \tweak staff-padding #8                                                  %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanDamp                                                     %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     c'4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     c'4
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -5561,12 +5561,12 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     d''4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -5612,10 +5612,10 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     d'8
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
     ]
@@ -5670,16 +5670,16 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-right-text #6 #7                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     d'4
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -5785,16 +5785,16 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-arrow                                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-text "P poss."                                   %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #10.5                                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanSCP                                                      %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     d'4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -5857,10 +5857,10 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 6/7 {
 
         % [B Violin_II_Music_Voice measure 115 / measure 52]                   %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d'8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5880,12 +5880,12 @@ B_Violin_II_Music_Voice = {                                                    %
         - \baca-text-spanner-left-text "P molto"                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #10.5                                           %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d'8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -5938,10 +5938,10 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         ff'!4
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -5951,12 +5951,12 @@ B_Violin_II_Music_Voice = {                                                    %
         - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         f'4.
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -6017,10 +6017,10 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     ef'!8
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
     ]
@@ -6028,16 +6028,16 @@ B_Violin_II_Music_Voice = {                                                    %
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
 
         % [B Violin_II_Music_Voice measure 118 / measure 55]                   %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e'8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -6071,10 +6071,10 @@ B_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {
 
         % [B Violin_II_Music_Voice measure 119 / measure 56]                   %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         fs'!8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -6089,12 +6089,12 @@ B_Violin_II_Music_Voice = {                                                    %
         - \tweak bound-details.right.padding #2.75                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
         - \tweak staff-padding #10.5                                           %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         fs'!8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -6239,10 +6239,10 @@ B_Violin_II_Music_Voice = {                                                    %
 
     fs'!4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     fs'!4
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -6285,7 +6285,7 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak bound-details.right.padding #2.75                                 %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
     - \tweak staff-padding #5.5                                                %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanSCP                                                      %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-hook                                              %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-text "urtext (cds)"                              %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1):AUTODETECT
@@ -6293,10 +6293,10 @@ B_Violin_II_Music_Voice = {                                                    %
     - \tweak staff-padding #8                                                  %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     <cqs'! af'!>4.
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \espressivo                                                              %! baca.espressivo():baca.IndicatorCommand._call()
@@ -6304,10 +6304,10 @@ B_Violin_II_Music_Voice = {                                                    %
     <cqs'! af'!>8
     [
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     <cqs'! af'!>8
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \espressivo                                                              %! baca.espressivo():baca.IndicatorCommand._call()
@@ -6597,7 +6597,7 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \bacaStopTextSpanHalfCLT                                                   %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-dashed-line-with-hook                                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-markup \baca-circle-tight-markup                 %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
@@ -6606,10 +6606,10 @@ B_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanCircleBow                                                %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(1)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     af!4
 
     af!4
@@ -6621,10 +6621,10 @@ B_Viola_Music_Voice = {                                                        %
 
     af!4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     af!4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -6691,12 +6691,12 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
     - \tweak staff-padding #8                                                  %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanDamp                                                     %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     af!4
 
     af!4
@@ -6762,10 +6762,10 @@ B_Viola_Music_Voice = {                                                        %
 
     af!4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     af!4
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -6817,7 +6817,7 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \tweak circled-tip ##t                                               %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-dashed-line-with-hook                                         %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1)
@@ -6836,10 +6836,10 @@ B_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanSCP                                                  %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         c''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -6879,25 +6879,25 @@ B_Viola_Music_Voice = {                                                        %
     \times 7/8 {
 
         % [B Viola_Music_Voice measure 87 / measure 24]                        %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         ef''!4
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \downbow                                                             %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e''4.
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -6943,10 +6943,10 @@ B_Viola_Music_Voice = {                                                        %
     }
 
     % [B Viola_Music_Voice measure 88 / measure 25]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     d''4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -6959,16 +6959,16 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak stencil #constante-hairpin                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     e''4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -6980,10 +6980,10 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     ftqs''!8
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -7003,16 +7003,16 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak color #darkred                                                    %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #10.5                                               %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     <d' gqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7027,20 +7027,20 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \override Dots.transparent = ##t                                           %! baca.glissando()
-    \override Stem.transparent = ##t                                           %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
-    \revert Dots.transparent                                                   %! baca.glissando()
-    \revert Stem.transparent                                                   %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
     <cs'! gqs'!>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7073,12 +7073,12 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         ftqs''!4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -7087,10 +7087,10 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         ftqs''!4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
@@ -7149,16 +7149,16 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "T"                                     %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #10.5                                           %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         f''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         [
@@ -7230,10 +7230,10 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     c''8
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
     ]
@@ -7293,17 +7293,17 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak color #darkred                                                    %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #10.5                                               %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [B Viola_Music_Voice measure 96 / measure 33]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     af!1                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7345,12 +7345,12 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         [
@@ -7435,10 +7435,10 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     af'!4
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -7491,12 +7491,12 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         [
@@ -7539,10 +7539,10 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #10.5                                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanSCP                                                      %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     ef'!4.
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -7599,13 +7599,13 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e'8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         [
@@ -7686,10 +7686,10 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     af!4
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -7716,18 +7716,18 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #3.25                                 %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
     - \tweak staff-padding #8                                                  %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanDamp                                                     %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     af!4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     af!4
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -7780,12 +7780,12 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d'8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         [
@@ -7823,10 +7823,10 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -7884,12 +7884,12 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         [
@@ -7899,10 +7899,10 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         ]
@@ -8015,16 +8015,16 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "P poss."                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #10.5                                           %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         [
@@ -8109,10 +8109,10 @@ B_Viola_Music_Voice = {                                                        %
     \times 6/5 {
 
         % [B Viola_Music_Voice measure 115 / measure 52]                       %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8123,12 +8123,12 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "P molto"                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #10.5                                           %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d4.
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -8188,10 +8188,10 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         ff!4
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -8201,7 +8201,7 @@ B_Viola_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }
 
@@ -8209,10 +8209,10 @@ B_Viola_Music_Voice = {                                                        %
     \times 7/8 {
 
         % [B Viola_Music_Voice measure 117 / measure 54]                       %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         f4.
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -8275,22 +8275,22 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     ef!8
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #4 #7                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     - \tweak staff-padding #4                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     f4
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -8302,10 +8302,10 @@ B_Viola_Music_Voice = {                                                        %
     \times 7/6 {
 
         % [B Viola_Music_Voice measure 119 / measure 56]                       %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         f4.
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8324,12 +8324,12 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #2.75                             %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
         - \tweak staff-padding #10.5                                           %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         f8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -8551,10 +8551,10 @@ B_Viola_Music_Voice = {                                                        %
 
     f4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     f4
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -8600,7 +8600,7 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #2.75                             %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
         - \tweak staff-padding #5.5                                            %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-hook                                          %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "urtext (cds)"                          %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
         - \tweak bound-details.right.padding #2.75                             %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1):AUTODETECT
@@ -8608,20 +8608,20 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanMaterialAnnotation                                   %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         <b, aqs!>4.
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \espressivo                                                          %! baca.espressivo():baca.IndicatorCommand._call()
 
         <b, aqs!>4
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         <b, aqs!>4
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \espressivo                                                          %! baca.espressivo():baca.IndicatorCommand._call()
@@ -8936,7 +8936,7 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-hook                                              %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-text "clouded pane"                              %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(1):AUTODETECT
@@ -8946,12 +8946,12 @@ B_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
     % [B Cello_Music_Voice measure 70 / measure 7]                             %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \override Dots.transparent = ##t                                           %! baca.glissando()
-    \override Stem.transparent = ##t                                           %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
     e,1                                                                        %! baca.make_repeat_tied_notes()
 
     % [B Cello_Music_Voice measure 71 / measure 8]                             %! baca.SegmentMaker._comment_measure_numbers()
@@ -8973,12 +8973,12 @@ B_Cello_Music_Voice = {                                                        %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [B Cello_Music_Voice measure 74 / measure 11]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
-    \revert Dots.transparent                                                   %! baca.glissando()
-    \revert Stem.transparent                                                   %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
     e,1                                                                        %! baca.make_repeat_tied_notes()
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
@@ -9006,12 +9006,12 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
     - \tweak staff-padding #8                                                  %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanDamp                                                     %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     g4
 
     g4
@@ -9030,10 +9030,10 @@ B_Cello_Music_Voice = {                                                        %
     g4
 
     \override TupletBracket.staff-padding = #1                                 %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     g4
 
     \tweak edge-height #'(0.7 . 0)
@@ -9194,7 +9194,7 @@ B_Cello_Music_Voice = {                                                        %
 
     bf'!8
     - \downbow                                                                 %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
@@ -9202,10 +9202,10 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 83 / measure 20]                        %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.staff-padding = #2                             %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         b'8
         \!                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9250,10 +9250,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d''8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -9263,7 +9263,7 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }
 
@@ -9271,10 +9271,10 @@ B_Cello_Music_Voice = {                                                        %
     \times 8/9 {
 
         % [B Cello_Music_Voice measure 84 / measure 21]                        %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d''4
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -9316,10 +9316,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         c''8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -9330,15 +9330,15 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
     }
 
     % [B Cello_Music_Voice measure 85 / measure 22]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     c''8
 
     d''4
@@ -9379,22 +9379,22 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         ef''!4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e''4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -9430,10 +9430,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d''4
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -9453,12 +9453,12 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d''8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -9495,10 +9495,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         fqs''!4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -9548,7 +9548,7 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \tweak stencil #constante-hairpin                                    %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(1):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-dashed-line-with-hook                                         %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(1)
@@ -9566,10 +9566,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         fqs''!4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -9578,10 +9578,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         fqs''!4
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -9642,16 +9642,16 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "T"                                     %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #10.5                                           %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         f''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         ]
@@ -9752,10 +9752,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         b'8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
@@ -9823,18 +9823,18 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak color #darkred                                                    %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #10.5                                               %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
     % [B Cello_Music_Voice measure 96 / measure 33]                            %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     af,!1                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9883,13 +9883,13 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e''8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         ]
@@ -9990,10 +9990,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         bf!8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -10055,13 +10055,13 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e'8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         ]
@@ -10143,10 +10143,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         gf!8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         ]
@@ -10207,13 +10207,13 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         ]
@@ -10312,10 +10312,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         f,8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
 
@@ -10344,18 +10344,18 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #3.25                                 %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
     - \tweak staff-padding #8                                                  %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanDamp                                                     %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     g4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     g4
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -10409,12 +10409,12 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         ]
@@ -10468,10 +10468,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d,8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         ]
@@ -10495,7 +10495,7 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-hook                                              %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-text "clouded pane (beacon)"                     %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(1)
     - \tweak bound-details.right.padding #2.75                                 %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(1):AUTODETECT
@@ -10503,14 +10503,14 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #5.5                                                %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(1)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     e,8                                                                        %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
 
@@ -10541,12 +10541,12 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d,8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         ]
@@ -10566,10 +10566,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         d,8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(1)
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
@@ -10672,16 +10672,16 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #5 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
         - \abjad-solid-line-with-arrow                                         %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \baca-text-spanner-left-text "P poss."                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         - \tweak staff-padding #10.5                                           %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         d,8
         \bacaStopTextSpanBCP                                                   %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
         ]
@@ -10773,10 +10773,10 @@ B_Cello_Music_Voice = {                                                        %
     }
 
     % [B Cello_Music_Voice measure 115 / measure 52]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     d,8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10795,12 +10795,12 @@ B_Cello_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "P molto"                                   %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak staff-padding #10.5                                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanSCP                                                      %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     d,4
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(3)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
@@ -10864,10 +10864,10 @@ B_Cello_Music_Voice = {                                                        %
     \times 7/8 {
 
         % [B Cello_Music_Voice measure 117 / measure 54]                       %! baca.SegmentMaker._comment_measure_numbers()
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         ff,!8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -10878,12 +10878,12 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #1 #4                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         f,8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -10939,10 +10939,10 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
-        \revert Accidental.stencil                                             %! baca.glissando()
-        \revert NoteColumn.glissando-skip                                      %! baca.glissando()
-        \revert NoteHead.no-ledgers                                            %! baca.glissando()
-        \undo \hide NoteHead                                                   %! baca.glissando()
+        \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
+        \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
+        \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(6)
+        \undo \hide NoteHead                                                   %! baca.glissando():abjad.glissando(6)
         ef,!4.
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -10952,12 +10952,12 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-bcp-spanner-left-text #7 #7                                    %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         - \tweak staff-padding #4                                              %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
-        \glissando                                                             %! baca.glissando()
+        \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando()
-        \override Accidental.stencil = ##f                                     %! baca.glissando()
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando()
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando()
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
         e,8
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #6.5                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -10971,10 +10971,10 @@ B_Cello_Music_Voice = {                                                        %
     }
 
     % [B Cello_Music_Voice measure 119 / measure 56]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     f,8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(1):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10996,12 +10996,12 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1):AUTODETECT
     - \tweak staff-padding #10.5                                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
     \bacaStartTextSpanSCP                                                      %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(1)
-    \glissando                                                                 %! baca.glissando()
+    \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando()
-    \override Accidental.stencil = ##f                                         %! baca.glissando()
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando()
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando()
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     f,4
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
     - \tweak staff-padding #6.5                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -11267,10 +11267,10 @@ B_Cello_Music_Voice = {                                                        %
 
     f,4
 
-    \revert Accidental.stencil                                                 %! baca.glissando()
-    \revert NoteColumn.glissando-skip                                          %! baca.glissando()
-    \revert NoteHead.no-ledgers                                                %! baca.glissando()
-    \undo \hide NoteHead                                                       %! baca.glissando()
+    \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
+    \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
+    \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
+    \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     f,4
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
