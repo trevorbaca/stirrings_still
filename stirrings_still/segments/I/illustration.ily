@@ -273,7 +273,7 @@ I_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
     \<                                                                         %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
-    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     - \abjad-dashed-line-with-hook                                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2)
     - \baca-text-spanner-left-markup \baca-circle-wide-markup                  %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2)
     - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2)
@@ -415,7 +415,7 @@ I_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     aqs'!8
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -1015,7 +1015,7 @@ I_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #2.75                                 %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT
     - \tweak staff-padding #12.5                                               %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanHalfCLT                                                  %! baca.half_clt_spanner():HALF_CLT_SPANNER:baca.PiecewiseCommand._call(2)
-    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.transition_bcps():baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #1 #7                                        %! baca.bcps():stirrings_still.transition_bcps():baca.BCPCommand._call(2)
@@ -1524,7 +1524,7 @@ I_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding #8.5                                                %! baca.bcps():stirrings_still.transition_bcps():baca.BCPCommand._call(7)
     - \upbow                                                                   %! baca.bcps():stirrings_still.transition_bcps():baca.BCPCommand._call(7)
     \bacaStopTextSpanBCP                                                       %! baca.bcps():stirrings_still.transition_bcps():baca.BCPCommand._call(3)
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-arrow                                             %! baca.bcps():stirrings_still.transition_bcps():baca.BCPCommand._call(2)
     - \baca-bcp-spanner-left-text #7 #7                                        %! baca.bcps():stirrings_still.transition_bcps():baca.BCPCommand._call(2)
