@@ -1447,7 +1447,7 @@ N_Violin_I_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak stencil #constante-hairpin                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-arrow                                             %! baca.text_spanner():baca.PiecewiseCommand._call(2)
     - \baca-text-spanner-left-text "slow bow"                                  %! baca.text_spanner():baca.PiecewiseCommand._call(2)
@@ -1506,7 +1506,7 @@ N_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     f'8
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -2249,7 +2249,7 @@ N_Violin_II_Music_Voice = {                                                    %
     - \tweak color #darkred                                                    %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(2)
     - \tweak staff-padding #8                                                  %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(2)
-    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-arrow                                             %! baca.text_spanner():baca.PiecewiseCommand._call(2)
     - \baca-text-spanner-left-text "slow bow"                                  %! baca.text_spanner():baca.PiecewiseCommand._call(2)
@@ -2302,7 +2302,7 @@ N_Violin_II_Music_Voice = {                                                    %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     e'8
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
@@ -3100,7 +3100,7 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak color #darkred                                                    %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(2)
     - \tweak staff-padding #8                                                  %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(2)
-    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     - \abjad-solid-line-with-arrow                                             %! baca.text_spanner():baca.PiecewiseCommand._call(2)
     - \baca-text-spanner-left-text "slow bow"                                  %! baca.text_spanner():baca.PiecewiseCommand._call(2)
@@ -3153,7 +3153,7 @@ N_Viola_Music_Voice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     gf!8
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 

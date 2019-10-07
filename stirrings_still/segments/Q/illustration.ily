@@ -13915,13 +13915,13 @@ Q_Cello_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [Q Cello_Music_Voice measure 803 / measure 73]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \ottava -1                                                                 %! baca.ottava_bassa():baca.SpannerIndicatorCommand._call(1)
+    \ottava -1                                                                 %! baca.ottava_bassa():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     bf,,!8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak self-alignment-X #-0.75                                           %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \baca-pp-sempre                                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ^ \markup { "tuning peg: slowly detune" }                                  %! baca.markup():baca.IndicatorCommand._call()
-    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
@@ -14125,7 +14125,7 @@ Q_Cello_Music_Voice = {                                                        %
     b,,,8
 
     b,,,8
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     % [Q Cello_Music_Voice measure 818 / measure 88]                           %! baca.SegmentMaker._comment_measure_numbers()
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
@@ -14169,7 +14169,7 @@ Q_Cello_Music_Voice = {                                                        %
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
     \revert TupletBracket.direction                                            %! baca.tuplet_bracket_down():baca.OverrideCommand._call(2)
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
-    \ottava 0                                                                  %! baca.ottava_bassa():baca.SpannerIndicatorCommand._call(2)
+    \ottava 0                                                                  %! baca.ottava_bassa():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM

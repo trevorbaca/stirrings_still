@@ -3139,7 +3139,7 @@ D_Violin_I_Music_Voice = {                                                     %
     - \tweak bound-details.right.padding #2.75                                 %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT
     - \tweak staff-padding #5.5                                                %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanCircleBow                                                %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2)
-    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
@@ -3159,7 +3159,7 @@ D_Violin_I_Music_Voice = {                                                     %
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     aqs'!8
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     % [D Violin_I_Music_Voice measure 273 / measure 67]                        %! baca.SegmentMaker._comment_measure_numbers()
     <fs'! dqf''!>2.
