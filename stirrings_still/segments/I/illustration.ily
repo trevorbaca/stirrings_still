@@ -478,12 +478,12 @@ I_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(2)
 
     % [I Violin_I_Music_Voice measure 538 / measure 11]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     <f' a'>1
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
@@ -711,12 +711,12 @@ I_Violin_II_Music_Voice = {                                                    %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [I Violin_II_Music_Voice measure 538 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     <e' gs'!>1
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
@@ -919,12 +919,12 @@ I_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [I Viola_Music_Voice measure 538 / measure 11]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     <eqs'! gtqs'!>1
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN

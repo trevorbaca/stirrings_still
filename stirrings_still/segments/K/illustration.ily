@@ -7014,10 +7014,10 @@ K_Cello_Music_Voice = {                                                        %
     \times 4/5 {
 
         % [K Cello_Music_Voice measure 588 / measure 33]                       %! baca.SegmentMaker._comment_measure_numbers()
-        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
-        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
         df,!8
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         \stopTextSpanOne                                                       %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_STOP

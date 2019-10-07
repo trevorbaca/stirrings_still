@@ -1011,12 +1011,12 @@ M_Violin_I_Music_Voice = {                                                     %
     - \tweak staff-padding #8                                                  %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(2)
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(2)
 
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     d'''8                                                                      %! baca.make_repeat_tied_notes()
 
     % [M Violin_I_Music_Voice measure 655 / measure 30]                        %! baca.SegmentMaker._comment_measure_numbers()
@@ -1496,12 +1496,12 @@ M_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(2)
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     f''8                                                                       %! baca.make_repeat_tied_notes()
 
     % [M Violin_II_Music_Voice measure 655 / measure 30]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -1933,12 +1933,12 @@ M_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(2)
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     a'8                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Viola_Music_Voice measure 655 / measure 30]                           %! baca.SegmentMaker._comment_measure_numbers()
@@ -2193,12 +2193,12 @@ M_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     c,8                                                                        %! baca.make_repeat_tied_notes()
 
     % [M Cello_Music_Voice measure 655 / measure 30]                           %! baca.SegmentMaker._comment_measure_numbers()
