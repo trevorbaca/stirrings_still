@@ -2457,10 +2457,10 @@ H_Violin_I_Music_Voice = {                                                     %
     [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     aqs'!8
 
     aqs'!8
@@ -3823,10 +3823,10 @@ H_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanCircleBow                                                %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2)
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN

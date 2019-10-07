@@ -8750,12 +8750,12 @@ D_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(2)
 
     % [D Cello_Music_Voice measure 301 / measure 95]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     f,2                                                                        %! baca.make_repeat_tied_notes()
 
     f,8                                                                        %! baca.make_repeat_tied_notes()

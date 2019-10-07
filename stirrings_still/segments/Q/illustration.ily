@@ -4778,10 +4778,10 @@ Q_Violin_I_Music_Voice = {                                                     %
         \bacaStartTextSpanBCP                                                  %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
-        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
-        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
         a'''4
         - \tweak self-alignment-X #left                                        %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
         - \tweak staff-padding #10.5                                           %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(8)
@@ -7717,10 +7717,10 @@ Q_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     af''!4.
     - \tweak self-alignment-X #left                                            %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
     - \tweak staff-padding #7.0                                                %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(7)
@@ -11113,12 +11113,12 @@ Q_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [Q Viola_Music_Voice measure 804 / measure 74]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     bf,!2..                                                                    %! baca.make_repeat_tied_notes()
 
     % [Q Viola_Music_Voice measure 805 / measure 75]                           %! baca.SegmentMaker._comment_measure_numbers()
@@ -14142,12 +14142,12 @@ Q_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     % [Q Cello_Music_Voice measure 819 / measure 89]                           %! baca.SegmentMaker._comment_measure_numbers()
-    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(1)
-    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
-    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
-    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
-    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
-    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    \hide NoteHead                                                             %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+    \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
     b,,,1                                                                      %! baca.make_repeat_tied_notes()
 
     % [Q Cello_Music_Voice measure 820 / measure 90]                           %! baca.SegmentMaker._comment_measure_numbers()
