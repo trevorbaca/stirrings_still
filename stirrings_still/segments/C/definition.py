@@ -275,8 +275,8 @@ maker(
 maker(
     ("tutti", (1, 4)),
     baca.circle_bow_spanner(
-        "tight-poss-grind-at-talon",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight-poss-grind-at-talon",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -308,8 +308,8 @@ maker(
 maker(
     ("tutti", (7, 10)),
     baca.circle_bow_spanner(
-        "tight-poss-grind-at-talon",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight-poss-grind-at-talon",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -463,17 +463,17 @@ maker(
         match=3,
     ),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
         selector=baca.ltleaves().rleak(),
+        qualifier="wide",
     ),
 )
 
 maker(
     ("tutti", (30, 33)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -544,8 +544,8 @@ maker(
 maker(
     ("tutti", (36, 59)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
 )
 
@@ -578,8 +578,8 @@ maker(
 maker(
     ("tutti", (62, 69)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.hairpin(
         "p -- !",

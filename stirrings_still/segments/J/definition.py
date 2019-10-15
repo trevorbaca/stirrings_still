@@ -368,8 +368,8 @@ maker(
 maker(
     ("vc", (12, 13)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando(
         "Cb2",

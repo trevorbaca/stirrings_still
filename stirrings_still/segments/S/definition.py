@@ -87,8 +87,8 @@ maker(
 maker(
     ("v1", [1, (3, 4), (6, 8), (10, 15)]),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(3).staff_padding,
+        qualifier="wide",
     ),
     baca.dynamic_text_self_alignment_x(
         0.75,
@@ -128,8 +128,8 @@ maker(
 maker(
     ("v2", [1, (3, 4), (6, 8), (10, 15)]),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(3).staff_padding,
+        qualifier="wide",
     ),
     baca.dynamic_text_self_alignment_x(
         0.75,

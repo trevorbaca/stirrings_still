@@ -54,8 +54,8 @@ maker(
     ("v1", (1, 7)),
     baca.beam(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando(
         "Aqs4",
@@ -146,8 +146,8 @@ maker(
 maker(
     ("v2", (1, 7)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando(
         "Eb4",
@@ -173,8 +173,8 @@ maker(
 maker(
     ("va", (1, 7)),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide-poss",
     ),
     baca.flat_glissando("Bqf3"),
     baca.hairpin(

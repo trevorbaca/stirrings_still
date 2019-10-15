@@ -206,8 +206,8 @@ maker(
 maker(
     ("v1", (12, 13)),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.flat_glissando("C5"),
     stirrings_still.circles(
@@ -420,8 +420,8 @@ maker(
 maker(
     ("v1", (61, 62)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     stirrings_still.circles((1, 4)),
 )
@@ -684,8 +684,8 @@ maker(
 maker(
     ("tutti", 42),
     baca.circle_bow_spanner(
-        "very-tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="very-tight",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1081,8 +1081,8 @@ maker(
     ("v2", (58, 62)),
     stirrings_still.circles((1, 4)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
 )
 
@@ -1136,8 +1136,8 @@ maker(
     ("va", (6, 7)),
     baca.flat_glissando("Ab3"),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     stirrings_still.circles((1, 4)),
 )
@@ -1145,8 +1145,8 @@ maker(
 maker(
     ("va", (12, 21)),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1365,8 +1365,8 @@ maker(
 maker(
     ("va", (60, 62)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     stirrings_still.circles((1, 4)),
 )
@@ -1432,8 +1432,8 @@ maker(
 maker(
     ("vc", (12, 15)),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1736,8 +1736,8 @@ maker(
 maker(
     ("vc", 62),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     stirrings_still.circles((1, 4)),
 )
