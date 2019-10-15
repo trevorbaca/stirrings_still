@@ -213,8 +213,8 @@ maker(
 maker(
     ("v1", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -405,8 +405,8 @@ maker(
 maker(
     ("trio", 23),
     baca.circle_bow_spanner(
-        "mod-width",
         abjad.tweak(5.5).staff_padding,
+        qualifier="mod-width",
     ),
     baca.hairpin(
         "p -- !",
@@ -430,10 +430,10 @@ maker(
 maker(
     ("trio", 26),
     baca.circle_bow_spanner(
-        "wide",
         # manual padding because spanner ends at espressivo
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.hairpin(
         "pp -- !",
@@ -467,10 +467,10 @@ maker(
 maker(
     ("trio", (30, 45)),
     baca.circle_bow_spanner(
-        "very-wide",
         # manual padding because spanner ends at end-of-system
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5.5).staff_padding,
+        qualifier="very-wide",
     ),
 )
 
@@ -551,8 +551,8 @@ maker(
 maker(
     ("tutti", 62),
     baca.circle_bow_spanner(
-        "very-tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="very-tight",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -629,8 +629,8 @@ maker(
 maker(
     ("v2", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -718,8 +718,8 @@ maker(
 maker(
     ("va", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -855,8 +855,8 @@ maker(
 maker(
     ("vc", [(46, 47), (49, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,

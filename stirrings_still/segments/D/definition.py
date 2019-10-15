@@ -150,8 +150,8 @@ maker(
 maker(
     ("v1", 57),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide-poss",
     ),
     baca.flat_glissando("Bb4"),
     baca.markup(
@@ -315,8 +315,8 @@ maker(
 maker(
     ("trio", 66),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.hairpin(
         "mp -- !",
@@ -419,8 +419,8 @@ maker(
 maker(
     ("trio", (97, 98)),
     baca.circle_bow_spanner(
-        "tight-poss-grind-at-talon",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight-poss-grind-at-talon",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -756,8 +756,8 @@ maker(
 maker(
     ("v2", 57),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide-poss",
     ),
     baca.flat_glissando("F4"),
     baca.new(

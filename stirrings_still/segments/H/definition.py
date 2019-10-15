@@ -117,8 +117,8 @@ maker(
     ("v1", 6),
     baca.beam(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.markup(
         r"\stirrings-still-thirteen-d-flat",
@@ -359,8 +359,8 @@ maker(
 maker(
     ("va", 6),
     baca.circle_bow_spanner(
-        "very-wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="very-wide",
     ),
     baca.markup(
         r"\stirrings-still-seven-d-flat",
@@ -621,8 +621,8 @@ maker(
 maker(
     ("trio", (23, 28)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.hairpin(
         "niente o< p -- !",
@@ -864,8 +864,8 @@ maker(
 maker(
     (["v1", "v2"], 56),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
         # TODO: allow spanner to run to end of segment
         #selector=baca.leaves().rleak(),
         selector=baca.leaves(),

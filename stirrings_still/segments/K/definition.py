@@ -110,8 +110,8 @@ maker(
 maker(
     ("v1", (3, 4)),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(8).staff_padding,
+        qualifier="wide-poss",
     ),
     baca.text_spanner(
         r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
@@ -207,8 +207,8 @@ maker(
 maker(
     ("v1", 21),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin(
@@ -236,8 +236,8 @@ maker(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin('"ff" > mf'),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando("Aqs4"),
     stirrings_still.pickets(4, 2),
@@ -468,8 +468,8 @@ maker(
 maker(
     ("v2", (3, 4)),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(8).staff_padding,
+        qualifier="wide-poss",
     ),
     baca.text_spanner(
         r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
@@ -556,8 +556,8 @@ maker(
 maker(
     ("v2", 21),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin(
@@ -585,8 +585,8 @@ maker(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin('"ff" > mf'),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando("Eb4"),
     stirrings_still.pickets(4, 1),
@@ -744,8 +744,8 @@ maker(
 maker(
     ("va", (3, 4)),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(8).staff_padding,
+        qualifier="wide-poss",
     ),
     baca.text_spanner(
         r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",
@@ -830,8 +830,8 @@ maker(
 maker(
     ("va", 21),
     baca.circle_bow_spanner(
-        "tight",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight",
     ),
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin(
@@ -859,8 +859,8 @@ maker(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.hairpin('"ff" > mf'),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando("Bqf3"),
     stirrings_still.pickets(4, 0),
@@ -1027,8 +1027,8 @@ maker(
 maker(
     ("vc", (3, 4)),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(8).staff_padding,
+        qualifier="wide",
     ),
     baca.text_spanner(
         r"\baca-diamond-markup -> \baca-black-diamond-markup => ord. ||",

@@ -89,8 +89,8 @@ maker(
     ("v1", (2, 9)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -146,8 +146,8 @@ maker(
     ("v1", (25, 27)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -198,8 +198,8 @@ maker(
     ("v1", (41, 42)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -250,8 +250,8 @@ maker(
     ("v1", (53, 54)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -303,8 +303,8 @@ maker(
     ("v1", 63),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -355,8 +355,8 @@ maker(
     ("v1", 69),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -452,8 +452,8 @@ maker(
     ("v2", (2, 13)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -496,8 +496,8 @@ maker(
     ("v2", (22, 30)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -535,8 +535,8 @@ maker(
     ("v2", (38, 45)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -574,8 +574,8 @@ maker(
     ("v2", (51, 56)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -613,8 +613,8 @@ maker(
     ("v2", (61, 64)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -656,8 +656,8 @@ maker(
     ("v2", (68, 70)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -723,8 +723,8 @@ maker(
     ("va", (2, 9)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -780,8 +780,8 @@ maker(
     ("va", (22, 27)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -832,8 +832,8 @@ maker(
     ("va", (38, 42)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -883,8 +883,8 @@ maker(
     ("va", (51, 54)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -935,8 +935,8 @@ maker(
     ("va", (61, 63)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -990,8 +990,8 @@ maker(
     ("va", (68, 69)),
     baca.breathe(),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1056,8 +1056,8 @@ maker(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1116,8 +1116,8 @@ maker(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1175,8 +1175,8 @@ maker(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1230,8 +1230,8 @@ maker(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1285,8 +1285,8 @@ maker(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1343,8 +1343,8 @@ maker(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,

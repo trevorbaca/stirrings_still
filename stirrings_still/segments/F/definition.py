@@ -160,8 +160,8 @@ maker(
 maker(
     ("tutti", (12, 13)),
     baca.circle_bow_spanner(
-        "tight-poss-grind-at-talon",
         abjad.tweak(5.5).staff_padding,
+        qualifier="tight-poss-grind-at-talon",
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,

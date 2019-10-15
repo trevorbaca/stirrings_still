@@ -135,8 +135,8 @@ maker(
 maker(
     ("v1", [(6, 7), 10, (16, 17), (20, 25)]),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(v1_spanner_staff_padding).staff_padding,
+        qualifier="wide-poss",
     ),
 )
 
@@ -243,8 +243,8 @@ maker(
 maker(
     ("v2", [5, 7, 9, 15, 17, (19, 25)]),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(v2_spanner_staff_padding).staff_padding,
+        qualifier="wide-poss",
     ),
 )
 
@@ -398,8 +398,8 @@ maker(
 maker(
     ("va", [(8, 10), (18, 25)]),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(va_spanner_staff_padding).staff_padding,
+        qualifier="wide-poss",
     ),
 )
 
@@ -493,8 +493,8 @@ maker(
 maker(
     ("vc", [(6, 8), (16, 25)]),
     baca.circle_bow_spanner(
-        "wide-poss",
         abjad.tweak(vc_spanner_staff_padding).staff_padding,
+        qualifier="wide-poss",
     ),
 )
 

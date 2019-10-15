@@ -54,8 +54,8 @@ stirrings_still.time(maker, time)
 maker(
     ("v1", (1, 6)),
     baca.circle_bow_spanner(
-        "granulation",
         abjad.tweak(5.5).staff_padding,
+        qualifier="granulation",
     ),
     baca.flat_glissando("Eb4"),
     baca.hairpin(
@@ -69,8 +69,8 @@ maker(
 maker(
     ("v1", 7),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando("Aqs4"),
     baca.hairpin(
@@ -98,8 +98,8 @@ maker(
 maker(
     ("v2", (1, 6)),
     baca.circle_bow_spanner(
-        "granulation",
         abjad.tweak(5.5).staff_padding,
+        qualifier="granulation",
     ),
     baca.flat_glissando("D4"),
     baca.hairpin(
@@ -113,8 +113,8 @@ maker(
 maker(
     ("v2", 7),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando("Eb4"),
     baca.hairpin(
@@ -134,8 +134,8 @@ maker(
 maker(
     ("va", (1, 6)),
     baca.circle_bow_spanner(
-        "granulation",
         abjad.tweak(5.5).staff_padding,
+        qualifier="granulation",
     ),
     baca.flat_glissando("G3"),
     baca.hairpin(
@@ -149,8 +149,8 @@ maker(
 maker(
     ("va", 7),
     baca.circle_bow_spanner(
-        "wide",
         abjad.tweak(5.5).staff_padding,
+        qualifier="wide",
     ),
     baca.flat_glissando("Bqf3"),
     baca.hairpin(
@@ -170,8 +170,8 @@ maker(
 maker(
     ("vc", (1, 6)),
     baca.circle_bow_spanner(
-        "granulation",
         abjad.tweak(5.5).staff_padding,
+        qualifier="granulation",
     ),
     baca.flat_glissando("Ab3"),
     baca.hairpin(
