@@ -6695,7 +6695,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 6/7 {
 
         % [E Violin_II_Music_Voice measure 315 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
-        bqf!8
+        bqf8
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
 
         bqf!2.
@@ -6843,7 +6843,7 @@ E_Violin_II_Music_Voice = {                                                    %
     \times 7/8 {
 
         % [E Violin_II_Music_Voice measure 321 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
-        bqf!8
+        bqf8
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
 
         bqf!2..
@@ -13203,9 +13203,11 @@ E_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak staff-padding #5.5                                                %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
     \startTextSpan                                                             %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [E Cello_Music_Voice measure 310 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
-    gf,!2.                                                                     %! baca.make_repeat_tied_notes()
+    gf,2.                                                                      %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert NoteHead.style                                                     %! baca.note_head_style_harmonic():baca.OverrideCommand._call(2)
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
