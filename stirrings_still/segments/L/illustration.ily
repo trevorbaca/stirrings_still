@@ -6,7 +6,7 @@ L_Global_Skips = {                                                             %
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     - \tweak extra-offset #'(0 . 10)                                           %! baca.rehearsal_mark():baca.IndicatorCommand._call()
-    - \baca-rehearsal-mark-markup "L"                                          %! baca.rehearsal_mark():baca.IndicatorCommand._call()
+    - \baca-rehearsal-mark-markup "L" #10                                      %! baca.rehearsal_mark():baca.IndicatorCommand._call()
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% - \baca-start-mn-left-only "610"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
