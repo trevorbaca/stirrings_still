@@ -83,7 +83,7 @@ maker(
         hide_middle_stems=True,
     ),
     baca.markup(
-        r"\stirrings-still-nine-b-flat",
+        r"\baca-nine-b-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -285,7 +285,7 @@ maker(
         hide_middle_stems=True,
     ),
     baca.markup(
-        r"\stirrings-still-eleven-b-flat",
+        r"\baca-eleven-b-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -437,7 +437,7 @@ maker(
         hide_middle_stems=True,
     ),
     baca.markup(
-        r"\stirrings-still-thirteen-b-flat",
+        r"\baca-thirteen-b-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),

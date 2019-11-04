@@ -327,7 +327,7 @@ maker(
         baca.beam(),
         baca.flat_glissando("Aqs4"),
         baca.markup(
-            r"\stirrings-still-thirteen-d-flat",
+            r"\baca-thirteen-d-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -337,7 +337,7 @@ maker(
     baca.new(
         baca.flat_glissando("Eb4"),
         baca.markup(
-            r"\stirrings-still-nine-d-flat",
+            r"\baca-nine-d-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -346,7 +346,7 @@ maker(
     ),
     baca.new(
         baca.markup(
-            r"\stirrings-still-seven-d-flat",
+            r"\baca-seven-d-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),

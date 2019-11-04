@@ -217,7 +217,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-thirteen-d-flat",
+        r"\baca-thirteen-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -251,7 +251,7 @@ maker(
     baca.breathe(),
     baca.dynamic("p"),
     baca.markup(
-        r"\stirrings-still-eleven-e-flat",
+        r"\baca-eleven-e-flat",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
         literal=True,
@@ -308,7 +308,7 @@ maker(
 maker(
     ("v1", (32, 53)),
     baca.markup(
-        r"\stirrings-still-seven-d-flat",
+        r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
         literal=True,
@@ -566,7 +566,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-nine-d-flat",
+        r"\baca-nine-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -600,7 +600,7 @@ maker(
     baca.breathe(),
     baca.dynamic("p"),
     baca.markup(
-        r"\stirrings-still-nine-e-flat",
+        r"\baca-nine-e-flat",
         abjad.tweak(0.5).padding,
         literal=True,
     ),
@@ -656,7 +656,7 @@ maker(
 maker(
     ("v2", (32, 53)),
     baca.markup(
-        r"\stirrings-still-nine-d-flat",
+        r"\baca-nine-d-flat",
         abjad.tweak(0.5).padding,
         literal=True,
     ),
@@ -840,7 +840,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-seven-d-flat",
+        r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -874,7 +874,7 @@ maker(
     baca.breathe(),
     baca.dynamic("p"),
     baca.markup(
-        r"\stirrings-still-five-e-flat",
+        r"\baca-five-e-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -930,7 +930,7 @@ maker(
 maker(
     ("va", (32, 53)),
     baca.markup(
-        r"\stirrings-still-five-d-flat",
+        r"\baca-five-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),

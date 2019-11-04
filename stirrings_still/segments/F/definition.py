@@ -64,7 +64,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-thirteen-plus-nine-e-flat",
+        r"\baca-thirteen-plus-nine-e-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -89,7 +89,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-seven-plus-five-e-flat",
+        r"\baca-seven-plus-five-e-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),

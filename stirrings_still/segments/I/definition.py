@@ -184,7 +184,7 @@ maker(
         selector=baca.ltleaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-seven-d-flat",
+        r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),

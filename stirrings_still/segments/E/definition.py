@@ -387,7 +387,7 @@ maker(
             qualifier="wide",
         ),
         baca.markup(
-            r"\stirrings-still-thirteen-b-flat",
+            r"\baca-thirteen-b-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -405,7 +405,7 @@ maker(
             qualifier="wide",
         ),
         baca.markup(
-            r"\stirrings-still-seven-b-flat",
+            r"\baca-seven-b-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -423,7 +423,7 @@ maker(
             qualifier="wide",
         ),
         baca.markup(
-            r"\stirrings-still-nine-b-flat",
+            r"\baca-nine-b-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
