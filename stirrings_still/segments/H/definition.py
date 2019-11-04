@@ -121,7 +121,7 @@ maker(
         qualifier="wide",
     ),
     baca.markup(
-        r"\stirrings-still-thirteen-d-flat",
+        r"\baca-thirteen-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -363,7 +363,7 @@ maker(
         qualifier="very-wide",
     ),
     baca.markup(
-        r"\stirrings-still-seven-d-flat",
+        r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -632,7 +632,7 @@ maker(
     ),
     baca.new(
         baca.markup(
-            r"\stirrings-still-thirteen-b-flat",
+            r"\baca-thirteen-b-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -646,7 +646,7 @@ maker(
     ),
     baca.new(
         baca.markup(
-            r"\stirrings-still-seven-b-flat",
+            r"\baca-seven-b-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -660,7 +660,7 @@ maker(
     ),
     baca.new(
         baca.markup(
-            r"\stirrings-still-nine-b-flat",
+            r"\baca-nine-b-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -770,7 +770,7 @@ maker(
     ),
     baca.new(
         baca.markup(
-            r"\stirrings-still-thirteen-d-flat",
+            r"\baca-thirteen-d-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -780,7 +780,7 @@ maker(
     ),
     baca.new(
         baca.markup(
-            r"\stirrings-still-nine-d-flat",
+            r"\baca-nine-d-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -790,7 +790,7 @@ maker(
     ),
     baca.new(
         baca.markup(
-            r"\stirrings-still-seven-d-flat",
+            r"\baca-seven-d-flat",
             abjad.tweak(1).padding,
             literal=True,
         ),
@@ -878,7 +878,7 @@ maker(
     baca.new(
         baca.beam(),
         baca.markup(
-            r"\stirrings-still-thirteen-d-flat",
+            r"\baca-thirteen-d-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),
@@ -891,7 +891,7 @@ maker(
     ),
     baca.new(
         baca.markup(
-            r"\stirrings-still-nine-d-flat",
+            r"\baca-nine-d-flat",
             abjad.tweak(1.5).padding,
             literal=True,
         ),

@@ -78,7 +78,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-thirteen-d-flat",
+        r"\baca-thirteen-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -122,7 +122,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-nine-d-flat",
+        r"\baca-nine-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -158,7 +158,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\stirrings-still-seven-d-flat",
+        r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
