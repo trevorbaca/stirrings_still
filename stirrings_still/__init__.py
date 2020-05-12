@@ -17,4 +17,3 @@ from stirrings_still.materials.metronome_marks.definition import (
 from stirrings_still.materials.time_signature_series.definition import (
     time_signature_series,
 )
-from stirrings_still import segments
