@@ -8,6 +8,7 @@ if not (
     raise ImportError("Requires Python 3.7.")
 del distutils
 del platform
+from .ScoreTemplate import ScoreTemplate
 from stirrings_still.tools import *
 from stirrings_still.materials.instruments.definition import instruments
 from stirrings_still.materials.margin_markups.definition import margin_markups
