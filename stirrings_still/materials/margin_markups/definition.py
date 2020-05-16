@@ -1,7 +1,6 @@
 import abjad
 import baca
 
-
 margin_markups = abjad.OrderedDict(
     [
         ("Va.", abjad.MarginMarkup(markup=r"\stirrings-still-va-markup")),
