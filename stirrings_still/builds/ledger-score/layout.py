@@ -1,6 +1,5 @@
 import baca
 
-
 after_time_signatures = 20
 after_staff = 30
 first_system_y_offset = 30

@@ -1,9 +1,9 @@
+import typing
+
 import abjad
 import baca
-import typing
 from abjadext import rmakers
-from stirrings_still.materials import margin_markups
-from stirrings_still.materials import time_signature_series
+from stirrings_still.materials import margin_markups, time_signature_series
 
 
 class Operation(object):

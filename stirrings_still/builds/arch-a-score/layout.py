@@ -1,6 +1,5 @@
 import baca
 
-
 after_time_signatures = 20
 after_staff = 30
 

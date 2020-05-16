@@ -1,9 +1,9 @@
+import os
+
 import abjad
 import baca
-import os
 import stirrings_still
 from abjadext import rmakers
-
 
 ###############################################################################
 ##################################### [B] #####################################
