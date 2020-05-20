@@ -41,7 +41,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[41, 86, 111],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -449,14 +449,14 @@ maker(
     ),
 )
 
-#maker(
-#    ("trio", (24, 31)),
-#    baca.pitch_annotation_spanner(
-#        "slight independent pitch ascents -|",
-#        abjad.tweak("magenta").color,
-#        abjad.tweak(3).staff_padding,
-#    ),
-#)
+# maker(
+#     ("trio", (24, 31)),
+#     baca.pitch_annotation_spanner(
+#         "slight independent pitch ascents -|",
+#         abjad.tweak("magenta").color,
+#         abjad.tweak(3).staff_padding,
+#     ),
+# )
 
 maker(
     ("trio", (24, 33)),
@@ -1296,7 +1296,7 @@ maker(
 maker(
     ("vc", (1, 27)),
     stirrings_still.clouded_pane_spanner("clouded pane (continues) -|", 8),
-   )
+)
 
 maker(
     ("vc", (4, 5)),

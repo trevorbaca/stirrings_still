@@ -63,7 +63,7 @@ maker(
     baca.markup(
         r"\stirrings-still-text-two",
         # -20 because first page compresses vertical spacing
-        #abjad.tweak((4, -20)).extra_offset,
+        # abjad.tweak((4, -20)).extra_offset,
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
         selector=baca.skip(10 - 1),
@@ -71,7 +71,7 @@ maker(
     baca.markup(
         r"\stirrings-still-text-three",
         # -20 because first page compresses vertical spacing
-        #abjad.tweak((4, -20)).extra_offset,
+        # abjad.tweak((4, -20)).extra_offset,
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
         selector=baca.skip(19 - 1),
@@ -165,7 +165,7 @@ maker(
 )
 
 maker(
-    ("v1", [1, 3, (5, 6), (8, 9), (11, 16), 60]), 
+    ("v1", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<E4 C5>",
         selector=baca.pleaves()[:2],
@@ -581,7 +581,7 @@ maker(
 )
 
 maker(
-    ("v2", [1, 3, (5, 6), (8, 9), (11, 16), 60]), 
+    ("v2", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<Eb4 B4>",
         selector=baca.pleaves()[:2],
@@ -670,7 +670,7 @@ maker(
 )
 
 maker(
-    ("va", [1, 3, (5, 6), (8, 9), (11, 16), 60]), 
+    ("va", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<D4 Gqs4>",
         selector=baca.pleaves()[:2],

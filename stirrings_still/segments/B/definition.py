@@ -48,7 +48,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[28, 66],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -157,7 +157,7 @@ maker(
     stirrings_still.clockticks(
         rmakers.force_rest(baca.tuplets().get([0], 2)),
         displace=True,
-),
+    ),
 )
 
 maker(
@@ -388,7 +388,7 @@ maker(
 maker(
     ("v1", (52, 55)),
     stirrings_still.multistage_leaf_glissando(
-        [("D6", 8),  ("Ab5", 8), ("B5", None)],
+        [("D6", 8), ("Ab5", 8), ("B5", None)],
         "F5",
         rleak_final_stage=True,
     ),
@@ -921,7 +921,7 @@ maker(
     ),
     stirrings_still.multistage_leaf_glissando(
         [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", 6), ("F5", 6),
-        ("Eb5", None)],
+            ("Eb5", None)],
         "G5",
     ),
     stirrings_still.trajectories("C", 0, 0),

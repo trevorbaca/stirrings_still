@@ -6,43 +6,43 @@ breaks = baca.breaks(
             18, 28,
             measure=1,
             y_offset=85,
-            ),
+        ),
         baca.system(
             18, 28,
             measure=12,
             y_offset=200,
-            ),
-        number=1,
         ),
+        number=1,
+    ),
     baca.page(
         baca.system(
             20, 30,
             measure=24,
             y_offset=30,
-            ),
+        ),
         baca.system(
             20, 30,
             measure=35,
             y_offset=175,
-            ),
-        number=2,
         ),
+        number=2,
+    ),
     baca.page(
         baca.system(
             20, 30,
             measure=50,
             y_offset=30,
-            ),
-        number=3,
         ),
+        number=3,
+    ),
     local_measure_numbers=True,
-    )
+)
 
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 20),
-    )
+)
 spacing.override((1, 11), (1, 48))
 spacing.override([6, 9], (1, 20))
 spacing.override((13, 16), (1, 12))

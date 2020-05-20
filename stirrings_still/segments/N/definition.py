@@ -25,7 +25,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[39],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -250,7 +250,7 @@ maker(
 maker(
     ("trio", (10, 12)),
     baca.tacet(),
-)  
+)
 
 maker(
     ("trio", (13, 28)),
@@ -618,7 +618,7 @@ maker(
 
 maker(
     ("vc", (13, 22)),
-    baca.new( 
+    baca.new(
         baca.dots_transparent(),
         baca.stem_transparent(),
         selector=baca.leaves()[:-1],

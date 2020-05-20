@@ -23,7 +23,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -131,7 +131,7 @@ maker(
         2,
         rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(baca.tuplets()[:1].leaves()[:-1]),
-),
+    ),
 )
 
 maker(
@@ -146,7 +146,7 @@ maker(
         2,
         rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(selector=baca.tuplets()[:1].leaves()[:-1]),
-),
+    ),
 )
 
 maker(
@@ -197,9 +197,9 @@ maker(
 maker(
     ("trio", (9, 12)),
     # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_spanner(
-    #    "intercalated ds circles -|", 10.5,
-    #),
+    # stirrings_still.circle_spanner(
+    #     "intercalated ds circles -|", 10.5,
+    # ),
     stirrings_still.urtext_spanner("urtext (ds) -|", 8),
 )
 
@@ -215,9 +215,9 @@ maker(
 maker(
     ("trio", (17, 20)),
     # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_spanner(
-    #    "intercalated ds circles -|", 10.5,
-    #),
+    # stirrings_still.circle_spanner(
+    #     "intercalated ds circles -|", 10.5,
+    # ),
     stirrings_still.urtext_spanner(
         "urtext (ds) -|",
         8,
@@ -233,9 +233,9 @@ maker(
 maker(
     ("trio", (26, 28)),
     # TODO: allow score-specific simultaneous material spanners
-    #stirrings_still.circle_spanner(
-    #    "intercalated ds circles -|", 10.5,
-    #),
+    # stirrings_still.circle_spanner(
+    #     "intercalated ds circles -|", 10.5,
+    # ),
     stirrings_still.urtext_spanner("urtext (ds) -|", 8),
 )
 
@@ -327,7 +327,7 @@ maker(
         1,
         rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(selector=baca.tuplets()[:1].leaves()[:-1]),
-),
+    ),
 )
 
 maker(
@@ -342,7 +342,7 @@ maker(
         1,
         rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(baca.tuplets()[:1].leaves()[:-1]),
-),
+    ),
 )
 
 maker(
@@ -436,7 +436,7 @@ maker(
         0,
         rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(baca.tuplets()[:1].leaves()[:-1]),
-),
+    ),
 )
 
 maker(
@@ -451,7 +451,7 @@ maker(
         0,
         rmakers.force_note(baca.tuplet(0)),
         rmakers.tie(baca.tuplets()[:1].leaves()[:-1]),
-),
+    ),
 )
 
 maker(

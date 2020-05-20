@@ -29,7 +29,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -877,7 +877,7 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
-) 
+)
 
 maker(
     ("va", (51, 54)),

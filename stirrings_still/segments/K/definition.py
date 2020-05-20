@@ -31,7 +31,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[54],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -155,7 +155,7 @@ maker(
     ("v1", (5, 16)),
     stirrings_still.multistage_leaf_glissando(
         [("F5", 5), ("Gb5", 4), ("C5", 6), ("Eb5", 4), ("Db5", 6),
-        ("F5", 4), ("E5", 6), ("G5", 3), ("F5", None)],
+            ("F5", 4), ("E5", 6), ("G5", 3), ("F5", None)],
         "Aqs5",
         rleak_final_stage=True,
     ),
@@ -283,7 +283,7 @@ maker(
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
-            " trem. larghiss. -> no trem.",
+        " trem. larghiss. -> no trem.",
         abjad.tweak(1.5).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
         bookend=False,
@@ -504,7 +504,7 @@ maker(
     ("v2", (5, 16)),
     stirrings_still.multistage_leaf_glissando(
         [("Eb5", 4), ("F5", 9), ("B4", 5), ("Db5", 5), ("C5", 5), ("E5", 5),
-        ("D5", None)],
+            ("D5", None)],
         "F#5",
         rleak_final_stage=True,
     ),
@@ -631,7 +631,7 @@ maker(
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
-            " trem. larghiss. -> no trem.",
+        " trem. larghiss. -> no trem.",
         abjad.tweak(1.5).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
         bookend=False,
@@ -905,7 +905,7 @@ maker(
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
-            " trem. larghiss. -> no trem.",
+        " trem. larghiss. -> no trem.",
         abjad.tweak(1.5).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
         bookend=False,
@@ -1064,7 +1064,7 @@ maker(
 
     stirrings_still.multistage_leaf_glissando(
         [("F3", 4), ("C3", 5), ("Db3", 5), ("A2", 5), ("Bb2", 5), ("F2", 5),
-        ("Gb2", None)],
+            ("Gb2", None)],
         "E2",
         rleak_final_stage=True,
     )
@@ -1177,7 +1177,7 @@ maker(
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
-            " trem. larghiss. -> no trem.",
+        " trem. larghiss. -> no trem.",
         abjad.tweak(1.5).bound_details__right__padding,
         abjad.tweak(8).staff_padding,
         bookend=False,

@@ -21,7 +21,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -97,12 +97,12 @@ maker(
                 stirrings_still.wave((4, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 5]),
                 remember_state_across_gaps=True,
-        ),
+            ),
             rmakers.assign(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
         ),
     ),
-),
 )
 
 maker(
@@ -148,12 +148,12 @@ maker(
                 stirrings_still.wave((4, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 5]),
                 remember_state_across_gaps=True,
-        ),
+            ),
             rmakers.assign(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
         ),
     ),
-),
 )
 
 maker(
@@ -256,12 +256,12 @@ maker(
                 stirrings_still.wave((6, 16), (1, 16)).rhythm_maker,
                 abjad.index([0, 2, 4]),
                 remember_state_across_gaps=True,
-        ),
+            ),
             rmakers.assign(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
         ),
     ),
-),
 )
 
 maker(
@@ -299,16 +299,16 @@ maker(
                 stirrings_still.wave((6, 16), (1, 16)).rhythm_maker,
                 abjad.index([0, 2, 4]),
                 remember_state_across_gaps=True,
-        ),
+            ),
             rmakers.assign(
                 stirrings_still.eighths().rhythm_maker,
                 abjad.index([5]),
-        ),
+            ),
             rmakers.assign(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
         ),
     ),
-),
 )
 
 maker(
@@ -367,14 +367,14 @@ maker(
         rmakers.bind(
             rmakers.assign(
                 stirrings_still.wave((5, 16), (1, 16)).rhythm_maker,
-                abjad.index([3, 4,5 ]),
+                abjad.index([3, 4, 5]),
                 remember_state_across_gaps=True,
-        ),
+            ),
             rmakers.assign(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
         ),
     ),
-),
 )
 
 maker(
@@ -411,12 +411,12 @@ maker(
                 stirrings_still.wave((5, 16), (1, 16)).rhythm_maker,
                 abjad.index([3, 4, 5]),
                 remember_state_across_gaps=True,
-        ),
+            ),
             rmakers.assign(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
         ),
     ),
-),
 )
 
 maker(
@@ -464,12 +464,12 @@ maker(
                 stirrings_still.wave((7, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 3]),
                 remember_state_across_gaps=True,
-        ),
+            ),
             rmakers.assign(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
         ),
     ),
-),
 )
 
 maker(
@@ -506,16 +506,16 @@ maker(
                 stirrings_still.wave((7, 16), (1, 16)).rhythm_maker,
                 abjad.index([1, 2, 3]),
                 remember_state_across_gaps=True,
-        ),
+            ),
             rmakers.assign(
                 stirrings_still.eighths().rhythm_maker,
                 abjad.index([4, 5]),
-        ),
+            ),
             rmakers.assign(
                 baca.make_repeat_tied_notes(do_not_rewrite_meter=True).rhythm_maker,
+            ),
         ),
     ),
-),
 )
 
 maker(

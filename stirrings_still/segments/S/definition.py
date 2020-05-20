@@ -20,7 +20,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     do_not_force_nonnatural_accidentals=True,
     fermata_measure_empty_overrides=[9, 16, 20],
@@ -41,7 +41,7 @@ maker(
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-seven",
-        #abjad.tweak((14, -50)).extra_offset,
+        # abjad.tweak((14, -50)).extra_offset,
         abjad.tweak((4, -50)).extra_offset,
         literal=True,
         selector=baca.skip(16 - 1),
