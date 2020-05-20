@@ -38,7 +38,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     color_octaves=False,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -225,7 +225,7 @@ maker(
 )
 
 maker(
-    ("v2", (9, 16)), 
+    ("v2", (9, 16)),
     baca.text_spanner(
         "flaut. (2°) -> ord. ->"
         r" \baca-circle-tight-markup ->"
@@ -513,7 +513,7 @@ maker(
     ("vc", (9, 27)),
     baca.text_spanner(
         "no overpressure -> molto overpressure =|"
-            " (molto) -> no overpressure.",
+        " (molto) -> no overpressure.",
         abjad.tweak(5.5).staff_padding,
         pieces=baca.mgroups([8, 6, 5 + 1]),
         selector=baca.leaves().rleak(),
@@ -867,7 +867,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         qualifier="wide",
         # TODO: allow spanner to run to end of segment
-        #selector=baca.leaves().rleak(),
+        # selector=baca.leaves().rleak(),
         selector=baca.leaves(),
     ),
     baca.hairpin(
@@ -927,7 +927,7 @@ maker(
 )
 
 maker(
-    (["v1", "va"], (7, 16)), 
+    (["v1", "va"], (7, 16)),
     baca.text_spanner(
         r"\baca-circle-very-tight-markup ->"
         r" \baca-circle-tight-markup ->"

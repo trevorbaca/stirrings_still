@@ -38,7 +38,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[11, 70, 77],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -192,7 +192,7 @@ maker(
                 abjad.Articulation("baca-double-diamond"),
                 abjad.Articulation("baca-damp"),
                 None,
-                ],
+            ],
         ),
         baca.new(
             baca.note_head_style_harmonic(),
@@ -509,7 +509,7 @@ maker(
 maker(
     ("tutti", (36, 55)),
     baca.hairpin(
-        "pp pp p p mp mp", 
+        "pp pp p p mp mp",
         bookend=False,
         measures=(36, 39),
         pieces=baca.pheads().map(baca.group()),
@@ -533,7 +533,7 @@ maker(
         pieces=baca.pheads().map(baca.group()),
     ),
     baca.hairpin(
-        #"pp p mp mf f ff",
+        # "pp p mp mf f ff",
         "pp p mp mf f",
         bookend=False,
         measures=(52, 55),
@@ -735,7 +735,7 @@ maker(
                 abjad.Articulation("baca-damp"),
                 abjad.Articulation("baca-damp"),
                 abjad.Articulation("baca-double-diamond"),
-                ],
+            ],
         ),
     ),
 )
@@ -797,7 +797,7 @@ maker(
                 abjad.Articulation("baca-double-diamond"),
                 abjad.Articulation("baca-damp"),
                 None,
-                ],
+            ],
         ),
         baca.new(
             baca.note_head_style_harmonic(),
@@ -896,7 +896,7 @@ maker(
                 abjad.Articulation("baca-damp"),
                 abjad.Articulation("baca-double-diamond"),
                 None,
-                ],
+            ],
         ),
         baca.new(
             baca.note_head_style_harmonic(),

@@ -47,7 +47,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[37, 46, 64],
     ignore_repeat_pitch_classes=True,
@@ -464,7 +464,7 @@ maker(
         stirrings_still.strokes(
             0,
             rmakers.force_rest(baca.tuplets().get([0], 2)),
-    ),
+        ),
         match=0,
     ),
     baca.new(
@@ -475,7 +475,8 @@ maker(
         match=1,
     ),
     baca.new(
-        stirrings_still.strokes(-2,
+        stirrings_still.strokes(
+            -2,
             rmakers.force_rest(baca.tuplets().get([0, 1], 3)),
         ),
         match=2,
@@ -990,7 +991,7 @@ maker(
         selector=baca.leaves(),
     ),
 )
-    
+
 # STAGE 2
 
 # v1, stage 2

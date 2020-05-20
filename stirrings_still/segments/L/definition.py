@@ -17,7 +17,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -80,11 +80,11 @@ maker(
         -3,
         rmakers.untie(
             baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
+        ),
     ),
-),
 )
 
 maker(
@@ -203,11 +203,11 @@ maker(
         -2,
         rmakers.untie(
             baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
+        ),
     ),
-),
 )
 
 maker(
@@ -316,11 +316,11 @@ maker(
         -1,
         rmakers.untie(
             baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
+        ),
     ),
-),
 )
 
 maker(

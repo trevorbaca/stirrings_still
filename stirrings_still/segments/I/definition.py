@@ -23,7 +23,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -211,8 +211,8 @@ maker(
         'p < "f" -- "f" >o niente',
         # TODO: extend hairpin to phantom measure
         # following two lines should remain
-        #pieces=baca.mgroups([5, 4, 2 + 1]),
-        #selector=baca.leaves().rleak(),
+        # pieces=baca.mgroups([5, 4, 2 + 1]),
+        # selector=baca.leaves().rleak(),
         # temporary:
         pieces=baca.mgroups([5, 4, 1 + 1]),
         selector=baca.leaves(),
