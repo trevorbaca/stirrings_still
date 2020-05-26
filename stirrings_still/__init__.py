@@ -2,12 +2,6 @@ import distutils.version
 import platform
 
 from .ScoreTemplate import ScoreTemplate
-from .materials import (
-    instruments,
-    margin_markups,
-    metronome_marks,
-    time_signature_series,
-)
 from .tools import (
     Operation,
     StageSpecifier,
@@ -31,11 +25,14 @@ from .tools import (
     flight_spanner,
     grid,
     grid_to_trajectory,
+    instruments,
     left_broken_circle_bow_tweak,
     left_broken_tasto_tweak,
     loure_tuplets,
     margin_markup,
+    margin_markups,
     measure_initiation,
+    metronome_marks,
     multistage_leaf_glissando,
     ntlt_flat_glissandi,
     operations,
@@ -49,6 +46,7 @@ from .tools import (
     talea_eighths,
     taper,
     time,
+    time_signature_series,
     time_signatures,
     to_flight,
     trajectories,
