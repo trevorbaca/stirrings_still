@@ -3,7 +3,81 @@ import typing
 import abjad
 import baca
 from abjadext import rmakers
-from stirrings_still.materials import margin_markups, time_signature_series
+
+# instruments & margin markup
+
+instruments = abjad.OrderedDict(
+    [
+        ("ViolinI", abjad.Violin(pitch_range="[F3, +inf]")),
+        ("ViolinII", abjad.Violin(pitch_range="[F3, +inf]")),
+        ("Viola", abjad.Viola(pitch_range="[Bb2, +inf]")),
+        ("Cello", abjad.Cello(pitch_range="[Bb0, +inf]")),
+    ]
+)
+
+margin_markups = abjad.OrderedDict(
+    [
+        ("Va.", abjad.MarginMarkup(markup=r"\stirrings-still-va-markup")),
+        ("Vc.", abjad.MarginMarkup(markup=r"\stirrings-still-vc-markup")),
+        ("Vn. I", abjad.MarginMarkup(markup=r"\stirrings-still-vn-i-markup")),
+        (
+            "Vn. II",
+            abjad.MarginMarkup(markup=r"\stirrings-still-vn-ii-markup"),
+        ),
+    ]
+)
+
+# metronome marks
+
+metronome_marks = abjad.OrderedDict(
+    [
+        ("larghissimo", abjad.MetronomeMark((1, 4), 39)),
+        ("largo meno mosso", abjad.MetronomeMark((1, 4), 48)),
+        ("largo", abjad.MetronomeMark((1, 4), 52)),
+        ("largo piu mosso", abjad.MetronomeMark((1, 4), 56)),
+        ("adagio meno mosso", abjad.MetronomeMark((1, 4), 60)),
+        ("adagio", abjad.MetronomeMark((1, 4), 65)),
+        ("adagio piu mosso", abjad.MetronomeMark((1, 4), 78)),
+        ("andante", abjad.MetronomeMark((1, 4), 91)),
+        ("allegro", abjad.MetronomeMark((1, 4), 117)),
+        ("allegro piu mosso", abjad.MetronomeMark((1, 4), 137)),
+        ("presto", abjad.MetronomeMark((1, 4), 169)),
+        (
+            "presto ! largo",
+            abjad.MetronomeMark(
+                reference_duration=(1, 4),
+                units_per_minute=52,
+                custom_markup=abjad.Markup(
+                    r"\stirrings-still-presto-largo-markup", literal=True
+                ),
+            ),
+        ),
+    ]
+)
+
+# time signature series
+
+time_signature_series = abjad.OrderedDict()
+
+numerators = baca.sequence([[3, 4, 4], [3, 4, 5, 6]])
+numerators = numerators.helianthate(-1, 1).flatten()
+assert len(numerators) == 84
+_time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
+time_signature_series["A"] = _time_signatures
+
+numerators = baca.sequence([[6, 7, 7], [4, 5], [6, 8, 8]])
+numerators = numerators.helianthate(-1, 1).flatten()
+assert len(numerators) == 48
+_time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
+time_signature_series["B"] = _time_signatures
+
+numerators = baca.sequence([[8, 12, 12], [14, 14, 16, 16], [10, 12]])
+numerators = numerators.helianthate(-1, 1).flatten()
+assert len(numerators) == 108
+_time_signatures = [abjad.TimeSignature((_, 16)) for _ in numerators]
+time_signature_series["C"] = _time_signatures
+
+# classes
 
 
 class Operation(object):
