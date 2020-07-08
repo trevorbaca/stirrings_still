@@ -1,5 +1,3 @@
-import os
-
 import abjad
 import baca
 import stirrings_still
@@ -25,7 +23,7 @@ maker = baca.SegmentMaker(
     do_not_force_nonnatural_accidentals=True,
     fermata_measure_empty_overrides=[9, 16, 20],
     final_segment=True,
-    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    segment_directory=abjad.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("S"),
     validate_measure_count=20,
