@@ -1,5 +1,3 @@
-import os
-
 import abjad
 import baca
 import stirrings_still
@@ -44,7 +42,7 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[41, 86, 111],
-    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    segment_directory=abjad.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("E"),
     validate_measure_count=127,
