@@ -506,7 +506,7 @@ def bcps(
     rotation: int,
     clt: bool = False,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = baca.leaves(),
+    selector: abjad.Expression = baca.leaves(),
     staff_padding: abjad.Number = None,
 ) -> baca.BCPCommand:
     """
@@ -550,7 +550,7 @@ def bcps(
 
 
 def breathe(
-    selector: abjad.SelectorTyping = baca.pleaf(-1),
+    selector: abjad.Expression = baca.pleaf(-1),
 ) -> baca.IndicatorCommand:
     """
     Makes breathe command with (-0.25, 2) extra offset.
@@ -603,7 +603,7 @@ def circle_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = baca.leaves().rleak(),
+    selector: abjad.Expression = baca.leaves().rleak(),
 ) -> baca.PiecewiseCommand:
     """
     Makes circle annotation spanner.
@@ -704,7 +704,7 @@ def clouded_pane_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = baca.leaves().rleak(),
+    selector: abjad.Expression = baca.leaves().rleak(),
 ) -> baca.PiecewiseCommand:
     """
     Makes clouded pane annotation spanner.
@@ -4520,7 +4520,7 @@ def margin_markup(
     *,
     alert: baca.IndicatorCommand = None,
     context: str = "Staff",
-    selector: abjad.SelectorTyping = baca.leaf(0),
+    selector: abjad.Expression = baca.leaf(0),
 ) -> baca.CommandTyping:
     """
     Makes tagged margin markup indicator command.
@@ -9866,7 +9866,7 @@ def trajectory_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = baca.leaves().rleak(),
+    selector: abjad.Expression = baca.leaves().rleak(),
 ) -> baca.PiecewiseCommand:
     """
     Makes trajectory annotation spanner.
@@ -9947,7 +9947,7 @@ def urtext_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.SelectorTyping = baca.leaves().rleak(),
+    selector: abjad.Expression = baca.leaves().rleak(),
 ) -> baca.PiecewiseCommand:
     """
     Makes urtext annotation spanner.
