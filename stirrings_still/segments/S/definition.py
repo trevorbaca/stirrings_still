@@ -16,8 +16,8 @@ stage_markup = (
 
 maker = baca.SegmentMaker(
     activate=[
-        abjad.tags.LOCAL_MEASURE_NUMBER,
-        abjad.tags.STAGE_NUMBER,
+        baca.tags.LOCAL_MEASURE_NUMBER,
+        baca.tags.STAGE_NUMBER,
     ],
     check_all_are_pitched=True,
     do_not_force_nonnatural_accidentals=True,
