@@ -1,4 +1,4 @@
-O_Global_Skips = {                                                             %! abjad.Path.extern()
+O_Global_Skips = {                                                             %! ide.Path.extern()
 
     % [O Global_Skips measure 697 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
@@ -139,10 +139,10 @@ O_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
     \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-O_Global_Rests = {                                                             %! abjad.Path.extern()
+O_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [O Global_Rests measure 697 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
@@ -174,10 +174,10 @@ O_Global_Rests = {                                                             %
     % [O Global_Rests measure 705 / measure 9]                                 %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-O_Violin_I_Music_Voice = {                                                     %! abjad.Path.extern()
+O_Violin_I_Music_Voice = {                                                     %! ide.Path.extern()
 
     % [O Violin_I_Music_Voice measure 697 / measure 1]                         %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -379,21 +379,21 @@ O_Violin_I_Music_Voice = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-O_Violin_I_Music_Staff = <<                                                    %! abjad.Path.extern()
+O_Violin_I_Music_Staff = <<                                                    %! ide.Path.extern()
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
-    \O_Global_Rests                                                            %! abjad.Path.extern()
+    \O_Global_Rests                                                            %! ide.Path.extern()
 
     \context Voice = "Violin_I_Music_Voice"                                    %! stirrings_still.ScoreTemplate.__call__()
-    \O_Violin_I_Music_Voice                                                    %! abjad.Path.extern()
+    \O_Violin_I_Music_Voice                                                    %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()
 
 
-O_Violin_II_Music_Voice = {                                                    %! abjad.Path.extern()
+O_Violin_II_Music_Voice = {                                                    %! ide.Path.extern()
 
     % [O Violin_II_Music_Voice measure 697 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -589,18 +589,18 @@ O_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-O_Violin_II_MusicStaff = {                                                     %! abjad.Path.extern()
+O_Violin_II_MusicStaff = {                                                     %! ide.Path.extern()
 
     \context Voice = "Violin_II_Music_Voice"                                   %! stirrings_still.ScoreTemplate.__call__()
-    \O_Violin_II_Music_Voice                                                   %! abjad.Path.extern()
+    \O_Violin_II_Music_Voice                                                   %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-O_Viola_Music_Voice = {                                                        %! abjad.Path.extern()
+O_Viola_Music_Voice = {                                                        %! ide.Path.extern()
 
     % [O Viola_Music_Voice measure 697 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -790,18 +790,18 @@ O_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-O_Viola_Music_Staff = {                                                        %! abjad.Path.extern()
+O_Viola_Music_Staff = {                                                        %! ide.Path.extern()
 
     \context Voice = "Viola_Music_Voice"                                       %! stirrings_still.ScoreTemplate.__call__()
-    \O_Viola_Music_Voice                                                       %! abjad.Path.extern()
+    \O_Viola_Music_Voice                                                       %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-O_Cello_Music_Voice = {                                                        %! abjad.Path.extern()
+O_Cello_Music_Voice = {                                                        %! ide.Path.extern()
 
     % [O Cello_Music_Voice measure 697 / measure 1]                            %! baca.SegmentMaker._comment_measure_numbers()
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1057,12 +1057,12 @@ O_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-O_Cello_Music_Staff = {                                                        %! abjad.Path.extern()
+O_Cello_Music_Staff = {                                                        %! ide.Path.extern()
 
     \context Voice = "Cello_Music_Voice"                                       %! stirrings_still.ScoreTemplate.__call__()
-    \O_Cello_Music_Voice                                                       %! abjad.Path.extern()
+    \O_Cello_Music_Voice                                                       %! ide.Path.extern()
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
