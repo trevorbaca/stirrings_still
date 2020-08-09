@@ -12,7 +12,7 @@ class ScoreTemplate(baca.ScoreTemplate):
     ..  container:: example
 
         >>> template = stirrings_still.ScoreTemplate()
-        >>> path = abjad.Path('stirrings_still', 'stylesheets', 'contexts.ily')
+        >>> path = baca.Path('stirrings_still', 'stylesheets', 'contexts.ily')
         >>> lilypond_file = template.__illustrate__(
         ...     global_staff_size=15,
         ...     includes=[path],
