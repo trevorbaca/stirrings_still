@@ -3,7 +3,7 @@
 
 \include "../../stylesheets/stylesheet.ily"                                    %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
 \include "stylesheet.ily"                                                      %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
-\include "illustration.ily"                                                    %! abjad.Path.extern()
+\include "illustration.ily"                                                    %! ide.Path.extern()
 
 
 \score {                                                                       %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_blocks()
@@ -21,7 +21,7 @@
             <<                                                                 %! abjad.ScoreTemplate._make_global_context()
 
                 \context GlobalSkips = "Global_Skips"                          %! abjad.ScoreTemplate._make_global_context()
-                \A_Global_Skips                                                %! abjad.Path.extern()
+                \A_Global_Skips                                                %! ide.Path.extern()
 
             >>                                                                 %! abjad.ScoreTemplate._make_global_context()
 
@@ -33,19 +33,19 @@
 
                     \tag ViolinI                                               %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Violin_I_Music_Staff"                    %! stirrings_still.ScoreTemplate.__call__()
-                    \A_Violin_I_Music_Staff                                    %! abjad.Path.extern()
+                    \A_Violin_I_Music_Staff                                    %! ide.Path.extern()
 
                     \tag ViolinII                                              %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Violin_II_MusicStaff"                    %! stirrings_still.ScoreTemplate.__call__()
-                    \A_Violin_II_MusicStaff                                    %! abjad.Path.extern()
+                    \A_Violin_II_MusicStaff                                    %! ide.Path.extern()
 
                     \tag viola                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Viola_Music_Staff"                       %! stirrings_still.ScoreTemplate.__call__()
-                    \A_Viola_Music_Staff                                       %! abjad.Path.extern()
+                    \A_Viola_Music_Staff                                       %! ide.Path.extern()
 
                     \tag cello                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Cello_Music_Staff"                       %! stirrings_still.ScoreTemplate.__call__()
-                    \A_Cello_Music_Staff                                       %! abjad.Path.extern()
+                    \A_Cello_Music_Staff                                       %! ide.Path.extern()
 
                 >>                                                             %! stirrings_still.ScoreTemplate.__call__()
 
