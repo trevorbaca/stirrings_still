@@ -1123,9 +1123,10 @@ maker(
         abjad.tweak(4.5 + 6.5).staff_padding,
     ),
     baca.markup(
-        baca.markups.string_number(3),
+        r"\baca-string-iii",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
+        literal=True,
     ),
     baca.note_head_style_harmonic(),
     stirrings_still.cello_cell(),

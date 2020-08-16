@@ -466,7 +466,7 @@ S_Violin_I_Music_Voice = {                                                     %
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     %@% ^ \baca-duration-multiplier-markup #"235" #"64"                        %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
-        _ \markup { IV }                                                       %! baca.markup():baca.IndicatorCommand._call()
+        _ \baca-string-iv                                                      %! baca.markup():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [
@@ -1673,7 +1673,7 @@ S_Violin_II_Music_Voice = {                                                    %
         ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     %@% ^ \baca-duration-multiplier-markup #"17" #"8"                          %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
-        _ \markup { IV }                                                       %! baca.markup():baca.IndicatorCommand._call()
+        _ \baca-string-iv                                                      %! baca.markup():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [

@@ -462,9 +462,10 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        baca.markups.string_number(4),
+        r"\baca-string-iv",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
+        literal=True,
     ),
     baca.bow_speed_spanner(
         "flaut. -> ord.",
@@ -1022,9 +1023,10 @@ maker(
     ("tutti", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        baca.markups.string_number(3),
+        r"\baca-string-iii",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
+        literal=True,
     ),
     baca.new(
         baca.breathe(),
@@ -1071,9 +1073,10 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        baca.markups.string_number(3),
+        r"\baca-string-iii",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
+        literal=True,
     ),
     baca.new(
         baca.flat_glissando("Gb4"),

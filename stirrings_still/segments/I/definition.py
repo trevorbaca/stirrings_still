@@ -221,9 +221,10 @@ maker(
         selector=baca.leaves(),
     ),
     baca.markup(
-        baca.markups.string_number(3),
+        r"\baca-string-iii",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
+        literal=True,
     ),
     baca.note_head_style_harmonic(),
 )

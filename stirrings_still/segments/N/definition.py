@@ -688,9 +688,10 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        baca.markups.string_number(3),
+        r"\baca-string-iii",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
+        literal=True,
     ),
     baca.pitch("G2"),
     baca.stem_tremolo(
