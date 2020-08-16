@@ -99,8 +99,9 @@ maker(
     ),
     baca.new(
         baca.markup(
-            baca.markups.string_number(4),
+            r"\baca-string-iv",
             direction=abjad.Down,
+            literal=True,
         ),
         match=0,
     ),
@@ -140,8 +141,9 @@ maker(
     ),
     baca.new(
         baca.markup(
-            baca.markups.string_number(4),
+            r"\baca-string-iv",
             direction=abjad.Down,
+            literal=True,
         ),
         match=0,
     ),
