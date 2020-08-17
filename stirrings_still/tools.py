@@ -9693,7 +9693,7 @@ def tailpiece(
     command = baca.suite(
         baca.dots_transparent(selector=baca.leaves()[1:]),
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-        baca.markup("tailpiece", boxed=True),
+        baca.markup(r"\baca-boxed-markup tailpiece", literal=True),
         baca.staff_position(0),
         baca.stem_transparent(selector=baca.leaves()[1:]),
         baca.text_script_parent_alignment_x(0),
