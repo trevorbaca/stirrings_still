@@ -6404,12 +6404,7 @@ D_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak extra-offset #'(-2 . 0)                                           %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \baca-effort-mf                                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup {                                                                %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-                tailpiece                                                      %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup tailpiece                                             %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes(do_not_rewrite_meter=True)" %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -7076,12 +7071,7 @@ D_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak self-alignment-X #-0.75                                           %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \baca-effort-mf                                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    ^ \markup {                                                                %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-        \override                                                              %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-            #'(box-padding . 0.5)                                              %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-            \box                                                               %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-                tailpiece                                                      %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
-        }                                                                      %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
+    ^ \baca-boxed-markup tailpiece                                             %! baca.markup():stirrings_still.tailpiece():baca.IndicatorCommand._call()
     \bacaStopTextSpanMaterialAnnotation                                        %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:URTEXT:baca.PiecewiseCommand._call(4):SPANNER_STOP
     \bacaStopTextSpanSCP                                                       %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
