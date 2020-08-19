@@ -5353,22 +5353,7 @@ K_Viola_Music_Voice = {                                                        %
         \bacaStopTextSpanSCP                                                   %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_STOP
         - \abjad-dashed-line-with-hook                                         %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-markup                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.text \markup {                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            \concat                                                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                {                                                              %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                    \raise                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                        #-1                                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                        \draw-line                                             %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                            #'(0 . -1)                                         %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                    \hspace                                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                        #0.75                                                  %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                    \general-align                                             %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                        #Y                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                        #1                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                        \upright                                               %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                            \baca-null-markup                                  %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-                }                                                              %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            }                                                                  %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.text \markup \concat { \raise #-1 \draw-line #'(0 . -1) \hspace #0.75 \general-align #Y #1 \upright \baca-null-markup } %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.right.padding #1.25                             %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak staff-padding #8                                              %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
