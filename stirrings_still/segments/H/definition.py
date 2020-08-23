@@ -462,7 +462,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        r"\baca-string-iv",
+        r"\baca-string-iv-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
         literal=True,
@@ -1023,7 +1023,7 @@ maker(
     ("tutti", (1, 5)),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r"\baca-string-iii",
+        r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
         literal=True,
@@ -1073,7 +1073,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r"\baca-string-iii",
+        r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
         literal=True,
