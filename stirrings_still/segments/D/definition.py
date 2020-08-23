@@ -153,7 +153,7 @@ maker(
     ),
     baca.flat_glissando("Bb4"),
     baca.markup(
-        r"\baca-string-iv",
+        r"\baca-string-iv-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
         literal=True,
@@ -894,7 +894,7 @@ maker(
         abjad.tweak(4.5 + 6.5).staff_padding,
     ),
     baca.markup(
-        r"\baca-string-iii",
+        r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
         literal=True,
