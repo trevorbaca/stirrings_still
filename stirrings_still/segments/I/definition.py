@@ -69,8 +69,9 @@ maker(
         right_broken=True,
     ),
     baca.markup(
-        "(12ET)",
+        r"\stirrings-still-twelve-et-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
 )
 
@@ -161,8 +162,9 @@ maker(
         right_broken=True,
     ),
     baca.markup(
-        "(12ET)",
+        r"\stirrings-still-twelve-et-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
 )
 
@@ -196,8 +198,9 @@ maker(
         right_broken=True,
     ),
     baca.markup(
-        "(24ET)",
+        r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
 )
 
@@ -251,9 +254,10 @@ maker(
     baca.clef("treble"),
     baca.flat_glissando("A5"),
     baca.markup(
-        "(9°)",
+        r"\stirrings-still-ninth-partial-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
+        literal=True,
     ),
     stirrings_still.cello_cell(),
     stirrings_still.cello_cell_bcps(

@@ -91,8 +91,9 @@ maker(
     baca.dynamic("mp"),
     baca.new(
         baca.markup(
-            "(12ET: conflicts with viola)",
+            r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=0,
     ),
@@ -143,8 +144,9 @@ maker(
             hide_middle_stems=True,
         ),
         baca.markup(
-            "(24ET)",
+            r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=2,
     ),
@@ -190,8 +192,9 @@ maker(
     baca.new(
         baca.flat_glissando("<Ab3 C4>"),
         baca.markup(
-            "(24ET)",
+            r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         stirrings_still.flight(
             "B",
@@ -261,8 +264,9 @@ maker(
     baca.new(
         baca.flat_glissando("<F#4 Dqf5>"),
         baca.markup(
-            "(7+9)°/E",
+            r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -273,8 +277,9 @@ maker(
     baca.new(
         baca.flat_glissando("<B2 Aqs3>"),
         baca.markup(
-            "(11+3)°/E",
+            r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -298,8 +303,9 @@ maker(
     baca.dynamic("mp"),
     baca.new(
         baca.markup(
-            "(12ET: conflicts with viola)",
+            r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=0,
     ),
@@ -345,8 +351,9 @@ maker(
     baca.dynamic("mp"),
     baca.new(
         baca.markup(
-            "(9+7)°/B",
+            r"\stirrings-still-nine-plus-seven-of-b-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=0,
     ),

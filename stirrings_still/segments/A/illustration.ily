@@ -2257,7 +2257,7 @@ A_Violin_I_Music_Voice = {                                                     %
     \mp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \espressivo                                                              %! baca.espressivo():stirrings_still.loure_tuplets():baca.IndicatorCommand._call()
     - \tweak padding #1.5                                                      %! baca.markup():baca.IndicatorCommand._call()
-    ^ \markup { "(12ET: conflicts with viola)" }                               %! baca.markup():baca.IndicatorCommand._call()
+    ^ \stirrings-still-twelve-et-conflicts-with-viola-markup                   %! baca.markup():baca.IndicatorCommand._call()
     \bacaStopTextSpanCircleBow                                                 %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
     [
     - \abjad-dashed-line-with-hook                                             %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -4178,7 +4178,7 @@ A_Violin_II_Music_Voice = {                                                    %
         \mp                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \espressivo                                                          %! baca.espressivo():stirrings_still.loure_tuplets():baca.IndicatorCommand._call()
         - \tweak padding #1.5                                                  %! baca.markup():baca.IndicatorCommand._call()
-        ^ \markup { "(12ET: conflicts with viola)" }                           %! baca.markup():baca.IndicatorCommand._call()
+        ^ \stirrings-still-twelve-et-conflicts-with-viola-markup               %! baca.markup():baca.IndicatorCommand._call()
         \bacaStopTextSpanCircleBow                                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
         [
         - \abjad-dashed-line-with-hook                                         %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -5980,7 +5980,7 @@ A_Viola_Music_Voice = {                                                        %
         \mp                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \espressivo                                                          %! baca.espressivo():stirrings_still.loure_tuplets():baca.IndicatorCommand._call()
         - \tweak padding #1.5                                                  %! baca.markup():baca.IndicatorCommand._call()
-        ^ \markup { (9+7)°/B }                                                 %! baca.markup():baca.IndicatorCommand._call()
+        ^ \stirrings-still-nine-plus-seven-of-b-markup                         %! baca.markup():baca.IndicatorCommand._call()
         \bacaStopTextSpanCircleBow                                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
         [
         - \abjad-dashed-line-with-hook                                         %! baca.tasto_spanner():TASTO_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
