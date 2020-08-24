@@ -77,8 +77,9 @@ stirrings_still.time(maker, time)
 maker(
     ("v1", 1),
     baca.markup(
-        "11°/E",
+        r"\baca-eleven-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("Aqs5"),
 )
@@ -440,8 +441,9 @@ maker(
 maker(
     ("v2", 1),
     baca.markup(
-        "9°/E",
+        r"\baca-nine-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("F#5"),
 )
@@ -711,8 +713,9 @@ maker(
 maker(
     ("va", 1),
     baca.markup(
-        "5°/E",
+        r"\baca-five-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("G#3"),
 )
@@ -1399,7 +1402,10 @@ maker(
 
 maker(
     ("vc", (73, 92)),
-    baca.markup("tuning peg: slowly detune"),
+    baca.markup(
+        r"\stirrings-still-tuning-peg-slowly-detune-markup",
+        literal=True,
+    ),
     baca.ottava_bassa(),
 )
 

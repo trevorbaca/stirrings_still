@@ -139,8 +139,9 @@ maker(
     ("v1", 5),
     baca.dynamic("mp"),
     baca.markup(
-        "(12ET: conflicts with viola)",
+        r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("<F4 A4>"),
     stirrings_still.loure_tuplets(0),
@@ -166,8 +167,9 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        "(7+9)°/E",
+        r"\stirrings-still-seven-plus-nine-of-e-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -675,8 +677,9 @@ maker(
     ("v2", 5),
     baca.dynamic("mp"),
     baca.markup(
-        "(12ET: conflicts with viola)",
+        r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("<E4 G#4>"),
     stirrings_still.loure_tuplets(1),
@@ -743,8 +746,9 @@ maker(
     ("va", 5),
     baca.dynamic("mp"),
     baca.markup(
-        "(9+7)°/B",
+        r"\stirrings-still-nine-plus-seven-of-b-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("<Aqf3 C#4>"),
     stirrings_still.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
@@ -770,8 +774,9 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        "(11+3)°/E",
+        r"\stirrings-still-eleven-plus-three-of-e-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,

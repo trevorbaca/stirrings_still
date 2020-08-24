@@ -180,8 +180,9 @@ maker(
 maker(
     ("v1", (17, 20)),
     baca.markup(
-        "11°/E",
+        r"\baca-eleven-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.flat_glissando("Aqs5"),
 )
@@ -529,8 +530,9 @@ maker(
 maker(
     ("v2", (17, 20)),
     baca.markup(
-        "9°/E",
+        r"\baca-nine-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.flat_glissando("F#5"),
 )
@@ -811,8 +813,9 @@ maker(
     ),
     baca.breathe(),
     baca.markup(
-        "5°/E",
+        r"\baca-five-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.stem_tremolo(
         selector=baca.pleaves(),

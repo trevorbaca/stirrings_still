@@ -55,19 +55,22 @@ maker(
     ),
     baca.new(
         baca.markup(
-            "allow vibrato to achieve loud dynamics",
+            r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         baca.markup(
-            "9°/C",
+            r"\baca-nine-c",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=0,
     ),
     baca.new(
         baca.markup(
-            "9°/C",
+            r"\baca-nine-c",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=[1, 2, 3],
     ),
@@ -94,8 +97,9 @@ maker(
     ("v1", [(9, 12), (26, 28)]),
     baca.flat_glissando("<D#4 A4>"),
     baca.markup(
-        "(12ET)",
+        r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
+        literal=True,
     ),
 )
 
@@ -120,8 +124,9 @@ maker(
         selector=baca.leaves()[1:],
     ),
     baca.markup(
-        "(12ET)",
+        r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
+        literal=True,
         selector=baca.leaf(1),
     ),
     stirrings_still.pickets(
@@ -251,19 +256,22 @@ maker(
     ),
     baca.new(
         baca.markup(
-            "allow vibrato to achieve loud dynamics",
+            r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         baca.markup(
-            "11°/C",
+            r"\baca-eleven-c",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=0,
     ),
     baca.new(
         baca.markup(
-            "11°/C",
+            r"\baca-eleven-c",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=[1, 2, 3],
     ),
@@ -290,8 +298,9 @@ maker(
     ("v2", [(9, 12), (26, 28)]),
     baca.flat_glissando("<Dqs4 Gtqs4>"),
     baca.markup(
-        "(24ET)",
+        r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
+        literal=True,
     ),
 )
 
@@ -316,8 +325,9 @@ maker(
         selector=baca.leaves()[1:],
     ),
     baca.markup(
-        "(24ET)",
+        r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(8).staff_padding,
+        literal=True,
         selector=baca.leaf(1),
     ),
     stirrings_still.pickets(
@@ -362,17 +372,22 @@ maker(
         do_not_rewrite_meter=True,
     ),
     baca.new(
-        baca.markup("allow vibrato to achieve loud dynamics"),
         baca.markup(
-            "13°/C",
+            r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
+            literal=True,
+        ),
+        baca.markup(
+            r"\baca-thirteen-c",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=0,
     ),
     baca.new(
         baca.markup(
-            "13°/C",
+            r"\baca-thirteen-c",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=[1, 2, 3],
     ),
@@ -399,8 +414,9 @@ maker(
     ("va", [(9, 12), (26, 28)]),
     baca.flat_glissando("<D4 G#4>"),
     baca.markup(
-        "(12ET)",
+        r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
+        literal=True,
     ),
 )
 
@@ -425,8 +441,9 @@ maker(
         selector=baca.leaves()[1:],
     ),
     baca.markup(
-        "(12ET)",
+        r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
+        literal=True,
         selector=baca.leaf(1),
     ),
     stirrings_still.pickets(

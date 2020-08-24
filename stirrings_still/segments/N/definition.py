@@ -111,8 +111,9 @@ maker(
         hide_middle_stems=True,
     ),
     baca.markup(
-        "(24ET)",
+        r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -122,8 +123,9 @@ maker(
     baca.flat_glissando("<A3 Fqs4>"),
     baca.new(
         baca.markup(
-            "(24ET)",
+            r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(8).staff_padding,
+            literal=True,
         ),
         match=-1,
     ),
@@ -166,8 +168,9 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        "11°/E",
+        r"\baca-eleven-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("Aqs5"),
     baca.stem_tremolo(
@@ -313,8 +316,9 @@ maker(
         hide_middle_stems=True,
     ),
     baca.markup(
-        "(24ET)",
+        r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -324,8 +328,9 @@ maker(
     baca.flat_glissando("<F#3 Dqs4>"),
     baca.new(
         baca.markup(
-            "(24ET)",
+            r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=-1,
     ),
@@ -367,8 +372,9 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
-        "9°/E",
+        r"\baca-nine-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("F#5"),
     baca.make_repeat_tied_notes(),
@@ -465,8 +471,9 @@ maker(
         hide_middle_stems=True,
     ),
     baca.markup(
-        "(24ET)",
+        r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -476,8 +483,9 @@ maker(
     baca.flat_glissando("<C3 Aqs3>"),
     baca.new(
         baca.markup(
-            "(24ET)",
+            r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(8).staff_padding,
+            literal=True,
         ),
         match=-1,
     ),
@@ -520,8 +528,9 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        "5°/E",
+        r"\baca-five-e",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("G#3"),
     baca.stem_tremolo(
@@ -671,8 +680,9 @@ maker(
     baca.flat_glissando("<B2 Gqs3>"),
     baca.new(
         baca.markup(
-            "(24ET)",
+            r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         match=0,
     ),

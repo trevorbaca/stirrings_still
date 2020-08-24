@@ -131,8 +131,9 @@ stirrings_still.time(maker, time)
 maker(
     ("v1", (1, 2)),
     baca.markup(
-        "7°/F",
+        r"\baca-seven-f-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.flat_glissando("Etqf4"),
 )
@@ -718,8 +719,9 @@ maker(
 maker(
     ("v2", (1, 2)),
     baca.markup(
-        "11°/F",
+        r"\baca-eleven-f-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.flat_glissando("Bqf3"),
 )
@@ -941,8 +943,9 @@ maker(
 maker(
     ("va", (1, 2)),
     baca.markup(
-        "5°/F",
+        r"\baca-five-f-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.flat_glissando("A3"),
 )

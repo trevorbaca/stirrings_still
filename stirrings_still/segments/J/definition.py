@@ -41,7 +41,7 @@ maker(
 maker(
     "Global_Skips",
     baca.markup(
-        r"\stirrings-still-repeat-three",
+        r"\stirrings-still-repeat-three-markup",
         abjad.tweak((0, 10)).extra_offset,
         literal=True,
         measures=11,
@@ -185,7 +185,10 @@ maker(
     ),
     baca.new(
         baca.flat_glissando("<F#4 Dqf5>"),
-        baca.markup("(7+9)°/E"),
+        baca.markup(
+            r"\stirrings-still-seven-plus-nine-of-e-markup",
+            literal=True,
+        ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
         ),
@@ -194,8 +197,9 @@ maker(
     baca.new(
         baca.flat_glissando("<B2 Aqs3>"),
         baca.markup(
-            "(11+3)°/E",
+            r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.tweak(1.5).padding,
+            literal=True,
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -221,8 +225,9 @@ maker(
 maker(
     ("tutti", 11),
     baca.markup(
-        "third time no breath",
+        r"\stirrings-still-third-time-no-breath-markup",
         abjad.tweak(3).staff_padding,
+        literal=True,
     ),
 )
 

@@ -197,8 +197,9 @@ maker(
 maker(
     ("v1", 27),
     baca.markup(
-        "(12ET: conflicts with viola)",
+        r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("<F4 A4>"),
     baca.tasto_spanner(
@@ -614,8 +615,9 @@ maker(
 maker(
     ("v2", 27),
     baca.markup(
-        "(12ET: conflicts with viola)",
+        r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("<E4 G#4>"),
     baca.tasto_spanner(
@@ -703,8 +705,9 @@ maker(
 maker(
     ("va", 27),
     baca.markup(
-        "(9+7)°/B",
+        r"\stirrings-still-nine-plus-seven-of-b-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("<Aqf3 C#4>"),
     baca.tasto_spanner(

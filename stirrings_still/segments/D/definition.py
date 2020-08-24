@@ -1000,8 +1000,9 @@ maker(
     ("v1", [65, (67, 89)]),
     baca.flat_glissando("<F#4 Dqf5>"),
     baca.markup(
-        "(7+9)°/E",
+        r"\stirrings-still-seven-plus-nine-of-e-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
 )
 
@@ -1010,8 +1011,9 @@ maker(
     baca.suite(
         baca.new(
             baca.markup(
-                "(3+7)°/F",
+                r"\stirrings-still-three-plus-seven-of-f-markup",
                 abjad.tweak(1.5).padding,
+                literal=True,
             ),
             baca.untie(baca.pleaf(0)),
             match=0,
@@ -1054,8 +1056,9 @@ maker(
     ("v2", [65, (67, 89)]),
     baca.flat_glissando("<Cqs4 Ab4>"),
     baca.markup(
-        "(5+13)°/E",
+        r"\stirrings-still-five-plus-thirteen-of-e-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
 )
 
@@ -1064,8 +1067,9 @@ maker(
     baca.suite(
         baca.new(
             baca.markup(
-                "(9+11)°/F",
+                r"\stirrings-still-nine-plus-eleven-of-f-markup",
                 abjad.tweak(1.5).padding,
+                literal=True,
             ),
             baca.untie(baca.pleaf(0)),
             match=0,
@@ -1080,8 +1084,9 @@ maker(
     ("va", [65, (67, 89)]),
     baca.flat_glissando("<B2 Aqs3>"),
     baca.markup(
-        "(11+3)°/E",
+        r"\stirrings-still-eleven-plus-three-of-e-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
 )
 
@@ -1089,7 +1094,8 @@ maker(
     ("va", (94, 96)),
     baca.flat_glissando("A3"),
     baca.markup(
-        "5°/F",
+        r"\baca-five-f-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
 )
