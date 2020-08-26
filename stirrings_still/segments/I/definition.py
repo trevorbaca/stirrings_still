@@ -128,7 +128,8 @@ maker(
     stirrings_still.urtext_field(),
     # TODO: allow right-broken spanner
     stirrings_still.urtext_spanner(
-        "urtext (sustained ds) -|", 5.5,
+        "urtext (sustained ds) -|",
+        5.5,
         selector=baca.leaves(),
     ),
 )

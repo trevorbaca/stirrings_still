@@ -882,7 +882,7 @@ maker(
     ),
     baca.flat_glissando("A5"),
     baca.hairpin(
-        "\"f\" -- !",
+        '"f" -- !',
         abjad.tweak(True).to_barline,
         selector=baca.leaves().rleak(),
     ),

@@ -735,10 +735,12 @@ maker(
     ("v2", (6, 23)),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        map=baca.plts().partition_by_counts(
+        map=baca.plts()
+        .partition_by_counts(
             [4, 1, 3, 1, 2, 1, 99],
             cyclic=True,
-        ).get([0], 2),
+        )
+        .get([0], 2),
     ),
     baca.new(
         baca.accent(),
@@ -954,10 +956,12 @@ maker(
     ("va", (6, 23)),
     baca.damp_spanner(
         abjad.tweak(5.5).staff_padding,
-        map=baca.plts().partition_by_counts(
+        map=baca.plts()
+        .partition_by_counts(
             [4, 1, 3, 1, 2, 1, 99],
             cyclic=True,
-        ).get([0], 2),
+        )
+        .get([0], 2),
     ),
     baca.new(
         baca.accent(),

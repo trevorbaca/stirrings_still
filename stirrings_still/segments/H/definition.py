@@ -510,8 +510,7 @@ maker(
 maker(
     ("vc", (9, 27)),
     baca.text_spanner(
-        "no overpressure -> molto overpressure =|"
-        " (molto) -> no overpressure.",
+        "no overpressure -> molto overpressure =|" " (molto) -> no overpressure.",
         abjad.tweak(5.5).staff_padding,
         pieces=baca.mgroups([8, 6, 5 + 1]),
         selector=baca.leaves().rleak(),

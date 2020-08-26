@@ -152,8 +152,17 @@ maker(
 maker(
     ("v1", (5, 16)),
     stirrings_still.multistage_leaf_glissando(
-        [("F5", 5), ("Gb5", 4), ("C5", 6), ("Eb5", 4), ("Db5", 6),
-            ("F5", 4), ("E5", 6), ("G5", 3), ("F5", None)],
+        [
+            ("F5", 5),
+            ("Gb5", 4),
+            ("C5", 6),
+            ("Eb5", 4),
+            ("Db5", 6),
+            ("F5", 4),
+            ("E5", 6),
+            ("G5", 3),
+            ("F5", None),
+        ],
         "Aqs5",
         rleak_final_stage=True,
     ),
@@ -502,8 +511,15 @@ maker(
 maker(
     ("v2", (5, 16)),
     stirrings_still.multistage_leaf_glissando(
-        [("Eb5", 4), ("F5", 9), ("B4", 5), ("Db5", 5), ("C5", 5), ("E5", 5),
-            ("D5", None)],
+        [
+            ("Eb5", 4),
+            ("F5", 9),
+            ("B4", 5),
+            ("Db5", 5),
+            ("C5", 5),
+            ("E5", 5),
+            ("D5", None),
+        ],
         "F#5",
         rleak_final_stage=True,
     ),
@@ -790,7 +806,6 @@ maker(
         "p < mp",
         selector=baca.leaves().rleak(),
     ),
-
     stirrings_still.multistage_leaf_glissando(
         [("B3", 2), ("A3", 4), ("C4", 4), ("Ab3", 7), ("B3", None)],
         "G#3",
@@ -1062,13 +1077,19 @@ maker(
 
 maker(
     ("vc", (5, 14)),
-
     stirrings_still.multistage_leaf_glissando(
-        [("F3", 4), ("C3", 5), ("Db3", 5), ("A2", 5), ("Bb2", 5), ("F2", 5),
-            ("Gb2", None)],
+        [
+            ("F3", 4),
+            ("C3", 5),
+            ("Db3", 5),
+            ("A2", 5),
+            ("Bb2", 5),
+            ("F2", 5),
+            ("Gb2", None),
+        ],
         "E2",
         rleak_final_stage=True,
-    )
+    ),
 )
 
 maker(

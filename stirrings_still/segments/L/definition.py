@@ -7,9 +7,7 @@ from abjadext import rmakers
 ##################################### [L] #####################################
 ###############################################################################
 
-stage_markup = (
-    ("[L.1]", 1),
-)
+stage_markup = (("[L.1]", 1),)
 
 maker = baca.SegmentMaker(
     activate=[
@@ -32,9 +30,7 @@ maker(
     ),
 )
 
-time = (
-    ("largo meno mosso", 1),
-)
+time = (("largo meno mosso", 1),)
 
 stirrings_still.time(maker, time)
 
@@ -88,9 +84,10 @@ maker(
 maker(
     ("v1", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
-        [("G6", None)], "Bqf5",
+        [("G6", None)],
+        "Bqf5",
         rleak_final_stage=True,
-    )
+    ),
 )
 
 maker(
@@ -111,12 +108,14 @@ maker(
 maker(
     ("v1", (4, 6)),
     stirrings_still.multistage_leaf_glissando(
-        [("Bqf5", None)], "G6",
+        [("Bqf5", None)],
+        "G6",
         measures=4,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("G6", None)], "Bqf5",
+        [("G6", None)],
+        "Bqf5",
         measures=(5, 6),
         rleak_final_stage=True,
     ),
@@ -125,12 +124,14 @@ maker(
 maker(
     ("v1", (8, 10)),
     stirrings_still.multistage_leaf_glissando(
-        [("Bqf5", None)], "G6",
+        [("Bqf5", None)],
+        "G6",
         measures=8,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("G6", None)], "Bqf5",
+        [("G6", None)],
+        "Bqf5",
         measures=(9, 10),
         rleak_final_stage=True,
     ),
@@ -139,12 +140,14 @@ maker(
 maker(
     ("v1", (12, 14)),
     stirrings_still.multistage_leaf_glissando(
-        [("Bqf5", None)], "G6",
+        [("Bqf5", None)],
+        "G6",
         measures=12,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("G6", None)], "Bqf5",
+        [("G6", None)],
+        "Bqf5",
         measures=(13, 14),
         rleak_final_stage=True,
     ),
@@ -211,9 +214,10 @@ maker(
 maker(
     ("v2", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
-        [("A5", None)], "Eb5",
+        [("A5", None)],
+        "Eb5",
         rleak_final_stage=True,
-    )
+    ),
 )
 
 maker(
@@ -234,12 +238,14 @@ maker(
 maker(
     ("v2", (4, 6)),
     stirrings_still.multistage_leaf_glissando(
-        [("Eb5", None)], "A5",
+        [("Eb5", None)],
+        "A5",
         measures=4,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("A5", None)], "Eb5",
+        [("A5", None)],
+        "Eb5",
         measures=(5, 6),
         rleak_final_stage=True,
     ),
@@ -248,12 +254,14 @@ maker(
 maker(
     ("v2", (8, 10)),
     stirrings_still.multistage_leaf_glissando(
-        [("Eb5", None)], "A5",
+        [("Eb5", None)],
+        "A5",
         measures=8,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("A5", None)], "Eb5",
+        [("A5", None)],
+        "Eb5",
         measures=(9, 10),
         rleak_final_stage=True,
     ),
@@ -262,12 +270,14 @@ maker(
 maker(
     ("v2", (12, 14)),
     stirrings_still.multistage_leaf_glissando(
-        [("Eb5", None)], "A5",
+        [("Eb5", None)],
+        "A5",
         measures=12,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("A5", None)], "Eb5",
+        [("A5", None)],
+        "Eb5",
         measures=(13, 14),
         rleak_final_stage=True,
     ),
@@ -324,9 +334,10 @@ maker(
 maker(
     ("va", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
-        [("D3", None)], "F3",
+        [("D3", None)],
+        "F3",
         rleak_final_stage=True,
-    )
+    ),
 )
 
 maker(
@@ -347,12 +358,14 @@ maker(
 maker(
     ("va", (4, 6)),
     stirrings_still.multistage_leaf_glissando(
-        [("F3", None)], "D3",
+        [("F3", None)],
+        "D3",
         measures=4,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("D3", None)], "F3",
+        [("D3", None)],
+        "F3",
         measures=(5, 6),
         rleak_final_stage=True,
     ),
@@ -361,12 +374,14 @@ maker(
 maker(
     ("va", (8, 10)),
     stirrings_still.multistage_leaf_glissando(
-        [("F3", None)], "D3",
+        [("F3", None)],
+        "D3",
         measures=8,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("D3", None)], "F3",
+        [("D3", None)],
+        "F3",
         measures=(9, 10),
         rleak_final_stage=True,
     ),
@@ -375,12 +390,14 @@ maker(
 maker(
     ("va", (12, 14)),
     stirrings_still.multistage_leaf_glissando(
-        [("F3", None)], "D3",
+        [("F3", None)],
+        "D3",
         measures=12,
         rleak_final_stage=True,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("D3", None)], "F3",
+        [("D3", None)],
+        "F3",
         measures=(13, 14),
         rleak_final_stage=True,
     ),

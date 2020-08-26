@@ -266,7 +266,8 @@ maker(
 maker(
     ("trio", (37, 38)),
     stirrings_still.urtext_spanner(
-        "urtext / clouded pane (composite) -|", 8,
+        "urtext / clouded pane (composite) -|",
+        8,
     ),
 )
 

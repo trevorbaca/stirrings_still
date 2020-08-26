@@ -308,8 +308,7 @@ maker(
 )
 
 maker(
-    ("v1", [
-        (29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
+    ("v1", [(29, 30), (34, 35), (37, 38), (40, 41), 44, 46, (50, 57), (58, 60)]),
     stirrings_still.bcps(
         0,
         clt=True,
@@ -923,8 +922,15 @@ maker(
         staff_padding=4,
     ),
     stirrings_still.multistage_leaf_glissando(
-        [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", 6), ("F5", 6),
-            ("Eb5", None)],
+        [
+            ("Bb4", 6),
+            ("D5", 6),
+            ("C5", 6),
+            ("Eb5", 6),
+            ("D5", 6),
+            ("F5", 6),
+            ("Eb5", None),
+        ],
         "G5",
     ),
     stirrings_still.trajectories("C", 0, 0),

@@ -604,7 +604,7 @@ maker(
     stirrings_still.synchronized_circles(
         rests=[-1],
         rotation=0,
-    )
+    ),
 )
 
 maker(
