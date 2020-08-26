@@ -327,7 +327,7 @@ maker(
     baca.hairpin(
         "o< mp -- mp >o !",
         pieces=baca.mgroups([1, 1, 3 + 1]),
-        selector=baca.leaves().rleak()
+        selector=baca.leaves().rleak(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(

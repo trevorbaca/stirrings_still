@@ -52,9 +52,7 @@ maker(
     baca.close_volta(baca.skip(5 - 1)),
 )
 
-time = (
-    ("fermata", 17),
-)
+time = (("fermata", 17),)
 
 stirrings_still.time(maker, time)
 
