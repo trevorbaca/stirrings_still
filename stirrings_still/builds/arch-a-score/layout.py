@@ -9,7 +9,6 @@ second_system_y_offset = 150
 third_system_y_offset = 287.5
 
 breaks = baca.breaks(
-
     baca.page(
         baca.system(
             after_time_signatures,
@@ -761,10 +760,11 @@ breaks = baca.breaks(
         baca.system(
             after_time_signatures,
             after_staff,
-            measure=856, y_offset=third_system_y_offset,),
+            measure=856,
+            y_offset=third_system_y_offset,
+        ),
         number=36,
     ),
-
 )
 
 spacing = baca.scorewide_spacing(
@@ -826,19 +826,33 @@ spacing.override((849, 854), (1, 30))
 spacing.override((856, 858), (1, 23))
 
 textholding_fermata_measures = [
-    10, 19, 24, 28, 61, 63,  # A
-    91, 129,  # B
-    140, 199, 206,  # C
-    243, 252, 270,  # D
-    346, 391, 416,  # E
+    10,
+    19,
+    24,
+    28,
+    61,
+    63,  # A
+    91,
+    129,  # B
+    140,
+    199,
+    206,  # C
+    243,
+    252,
+    270,  # D
+    346,
+    391,
+    416,  # E
     443,  # F
-    454, 464,  # G
+    454,
+    464,  # G
     609,  # K
     696,  # N
     704,  # O
     839,  # R
     848,  # S
-    855, 859,  # S
+    855,
+    859,  # S
 ]
 
 spacing.override(textholding_fermata_measures, (1, 288), fermata=True)

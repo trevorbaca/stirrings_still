@@ -414,9 +414,7 @@ class StageToken(object):
 
     ### INITIALIZER ###
 
-    def __init__(
-        self, letter=None, number=None, description=None, length=None
-    ):
+    def __init__(self, letter=None, number=None, description=None, length=None):
         if description is not None:
             assert description in self._descriptions, repr(description)
         self._description = description
@@ -631,9 +629,7 @@ def circles(
     Makes circle rhythm with ``duration``.
     """
     divisions = baca.sequence().fuse()
-    divisions = divisions.split_divisions(
-        [duration], cyclic=True, remainder=remainder
-    )
+    divisions = divisions.split_divisions([duration], cyclic=True, remainder=remainder)
     command = baca.rhythm(
         rmakers.note(),
         *commands,
@@ -663,14 +659,10 @@ def clockticks(
         divisions = None
         counts = [1, -1]
     elif encroach:
-        divisions = (
-            baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True)
-        )
+        divisions = baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True)
         counts = [2, -1]
     else:
-        divisions = (
-            baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True)
-        )
+        divisions = baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True)
         counts = [1, -2]
 
     command = baca.rhythm(
@@ -4423,9 +4415,7 @@ def flight_spanner(
     return result
 
 
-def grid(
-    *, rotation: int, measures: baca.SliceTyping = None
-) -> baca.RhythmCommand:
+def grid(*, rotation: int, measures: baca.SliceTyping = None) -> baca.RhythmCommand:
     """
     Makes grid.
     """
@@ -4478,9 +4468,7 @@ def left_broken_circle_bow_tweak() -> abjad.IndexedTweakManager:
     """
     Makes left-broken circle bow tweak.
     """
-    markup = abjad.Markup(
-        r"\baca-left-broken-circle-bowing-markup", literal=True
-    )
+    markup = abjad.Markup(r"\baca-left-broken-circle-bowing-markup", literal=True)
     return (
         abjad.tweak(markup, expression=True).bound_details__left_broken__text,
         -1,
@@ -4498,9 +4486,7 @@ def left_broken_tasto_tweak() -> abjad.IndexedTweakManager:
     )
 
 
-def loure_tuplets(
-    extra_count: int, *, measures: baca.SliceTyping = None
-) -> baca.Suite:
+def loure_tuplets(extra_count: int, *, measures: baca.SliceTyping = None) -> baca.Suite:
     """
     Makes louré tuplets.
     """
@@ -4537,9 +4523,7 @@ def measure_initiation() -> baca.RhythmCommand:
     Makes measure initiation.
     """
     command = baca.rhythm(
-        rmakers.incised(
-            prefix_talea=[2], prefix_counts=[1], talea_denominator=8
-        ),
+        rmakers.incised(prefix_talea=[2], prefix_counts=[1], talea_denominator=8),
         rmakers.beam(),
         rmakers.extract_trivial(),
     )
@@ -5795,9 +5779,7 @@ def running_quarter_divisions(
         rmakers.tuplet([ratio]),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        preprocessor=baca.sequence()
-        .fuse()
-        .split_divisions([(1, 4)], cyclic=True),
+        preprocessor=baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True),
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.running_quarter_divisions()")
@@ -9599,16 +9581,12 @@ def second_order_stages(segment) -> abjad.OrderedDict:
     return dictionary
 
 
-def solid_line_rhythm(
-    *, measures: baca.SliceTyping = None
-) -> baca.RhythmCommand:
+def solid_line_rhythm(*, measures: baca.SliceTyping = None) -> baca.RhythmCommand:
     """
     Makes solid line rhythm.
     """
     command = baca.rhythm(
-        rmakers.note(
-            spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))
-        ),
+        rmakers.note(spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))),
         rmakers.beam(baca.plts()),
         measures=measures,
     )
@@ -9727,9 +9705,7 @@ def talea_eighths(
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
 
     command = baca.rhythm(
-        rmakers.talea(
-            counts_, 8, end_counts=end_counts, extra_counts=extra_counts
-        ),
+        rmakers.talea(counts_, 8, end_counts=end_counts, extra_counts=extra_counts),
         rmakers.beam(),
         rmakers.denominator((1, 8)),
         rmakers.force_fraction(),
@@ -9810,9 +9786,7 @@ def to_flight(
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.extract_trivial(),
-        preprocessor=baca.sequence()
-        .fuse()
-        .split_divisions(divisions, cyclic=True),
+        preprocessor=baca.sequence().fuse().split_divisions(divisions, cyclic=True),
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.to_flight()")
@@ -9845,9 +9819,7 @@ def trajectories(
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
 
     command = baca.rhythm(
-        rmakers.talea(
-            counts_, 8, end_counts=end_counts, extra_counts=extra_counts
-        ),
+        rmakers.talea(counts_, 8, end_counts=end_counts, extra_counts=extra_counts),
         rmakers.force_fraction(),
         *commands,
         rmakers.rewrite_sustained(),
@@ -9933,9 +9905,7 @@ def urtext_field(*, measures: baca.SliceTyping = None) -> baca.RhythmCommand:
     """
     Makes urtext field.
     """
-    command = baca.make_repeat_tied_notes(
-        do_not_rewrite_meter=True, measures=measures
-    )
+    command = baca.make_repeat_tied_notes(do_not_rewrite_meter=True, measures=measures)
     tag = abjad.Tag("stirrings_still.urtext_field()")
     result = baca.tag(tag, command)
     assert isinstance(result, baca.RhythmCommand)
