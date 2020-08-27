@@ -6,7 +6,6 @@ first_system_y_offset = 30
 second_system_y_offset = 190
 
 breaks = baca.breaks(
-
     baca.page(
         baca.system(
             after_time_signatures,
@@ -22,7 +21,6 @@ breaks = baca.breaks(
         ),
         number=1,
     ),
-
     baca.page(
         baca.system(
             after_time_signatures,
@@ -308,7 +306,6 @@ breaks = baca.breaks(
         ),
         number=20,
     ),
-
 )
 
 spacing = baca.scorewide_spacing(

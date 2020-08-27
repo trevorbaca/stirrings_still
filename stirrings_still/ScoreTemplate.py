@@ -83,9 +83,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             "default_instrument",
             stirrings_still.instruments["ViolinI"],
         )
-        abjad.annotate(
-            violin_one_music_staff, "default_clef", abjad.Clef("treble")
-        )
+        abjad.annotate(violin_one_music_staff, "default_clef", abjad.Clef("treble"))
         self._attach_lilypond_tag("ViolinI", violin_one_music_staff)
 
         # VIOLIN 2
@@ -99,9 +97,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             "default_instrument",
             stirrings_still.instruments["ViolinII"],
         )
-        abjad.annotate(
-            violin_two_music_staff, "default_clef", abjad.Clef("treble")
-        )
+        abjad.annotate(violin_two_music_staff, "default_clef", abjad.Clef("treble"))
         self._attach_lilypond_tag("ViolinII", violin_two_music_staff)
 
         # VIOLA
@@ -154,9 +150,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         )
 
         # SCORE
-        score = abjad.Score(
-            [global_context, music_context], name="Score", tag=tag
-        )
+        score = abjad.Score([global_context, music_context], name="Score", tag=tag)
         self._assert_lilypond_identifiers(score)
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)
