@@ -1,7 +1,8 @@
 import abjad
 import baca
-import stirrings_still
 from abjadext import rmakers
+
+import stirrings_still
 
 ###############################################################################
 ##################################### [E] #####################################
