@@ -2292,7 +2292,7 @@ j_Cello_Music_Voice = {                                                        %
                 }
             >>
             \layout {
-                indent = #0
+                indent = 0
                 ragged-right = ##t
             }
         }
