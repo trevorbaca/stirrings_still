@@ -167,7 +167,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         ..  container:: example
 
             >>> score_template = stirrings_still.ScoreTemplate()
-            >>> abjad.f(score_template.voice_abbreviations)
+            >>> string = abjad.storage(score_template.voice_abbreviations)
+            >>> print(string)
             abjad.OrderedDict(
                 [
                     ('v1', 'Violin_I_Music_Voice'),
