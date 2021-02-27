@@ -9,7 +9,7 @@ import stirrings_still
 
 stage_markup = (
     ("[O.1]", 1),
-    ("[H.13.4]", 7, "darkgreen"),
+    ("[H.13.4]", 7, "#darkgreen"),
 )
 
 maker = baca.SegmentMaker(

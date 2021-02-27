@@ -611,7 +611,7 @@ def circle_spanner(
     """
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("darkyellow").color,
+        abjad.tweak("#darkyellow").color,
         abjad.tweak(staff_padding).staff_padding,
         measures=measures,
         selector=selector,
@@ -710,7 +710,7 @@ def clouded_pane_spanner(
     """
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(staff_padding).staff_padding,
         measures=measures,
         selector=selector,
@@ -4433,7 +4433,7 @@ def flight_spanner(
     """
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("darkmagenta").color,
+        abjad.tweak("#darkmagenta").color,
         abjad.tweak(staff_padding).staff_padding,
         measures=measures,
     )
@@ -9893,7 +9893,7 @@ def trajectory_spanner(
     """
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("blue").color,
+        abjad.tweak("#blue").color,
         abjad.tweak(staff_padding).staff_padding,
         measures=measures,
         selector=selector,
@@ -9972,7 +9972,7 @@ def urtext_spanner(
     """
     command = baca.material_annotation_spanner(
         string,
-        abjad.tweak("darkred").color,
+        abjad.tweak("#darkred").color,
         abjad.tweak(staff_padding).staff_padding,
         measures=measures,
         selector=selector,
