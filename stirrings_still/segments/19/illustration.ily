@@ -407,7 +407,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -417,14 +417,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -446,7 +446,7 @@ s_Violin_I_Music_Voice = {                                                     %
         \once \override Staff.StaffSymbol.line-count = 5                       %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES:baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
         \startStaff                                                            %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES:baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
         \set Staff.instrumentName = \stirrings-still-vn-i-markup               %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \override DynamicLineSpanner.staff-padding = #7                        %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
+        \override DynamicLineSpanner.staff-padding = 7                         %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
         \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
         \once \override Beam.grow-direction = #right
         \clef "treble"                                                         %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
@@ -469,8 +469,8 @@ s_Violin_I_Music_Voice = {                                                     %
         - \abjad-dashed-line-with-hook                                         %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.padding #3.25                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
-        - \tweak staff-padding #3                                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.padding 3.25                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+        - \tweak staff-padding 3                                               %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCircleBow                                            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -496,7 +496,7 @@ s_Violin_I_Music_Voice = {                                                     %
         bf'16 * 23/16
     %@% ^ \baca-duration-multiplier-markup #"23" #"16"                         %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-        \once \override DynamicText.self-alignment-X = #0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
+        \once \override DynamicText.self-alignment-X = 0.75                    %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
         \revert Staff.Stem.stemlet-length
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
@@ -542,7 +542,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -552,14 +552,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -587,8 +587,8 @@ s_Violin_I_Music_Voice = {                                                     %
         - \abjad-dashed-line-with-hook                                         %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.padding #3.25                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
-        - \tweak staff-padding #3                                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.padding 3.25                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+        - \tweak staff-padding 3                                               %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCircleBow                                            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -618,7 +618,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -628,14 +628,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -679,7 +679,7 @@ s_Violin_I_Music_Voice = {                                                     %
         bf'16 * 189/64
     %@% ^ \baca-duration-multiplier-markup #"189" #"64"                        %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-        \once \override DynamicText.self-alignment-X = #0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
+        \once \override DynamicText.self-alignment-X = 0.75                    %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
         \revert Staff.Stem.stemlet-length
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
@@ -725,7 +725,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -735,14 +735,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -772,8 +772,8 @@ s_Violin_I_Music_Voice = {                                                     %
         - \abjad-dashed-line-with-hook                                         %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.padding #3.25                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
-        - \tweak staff-padding #3                                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.padding 3.25                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+        - \tweak staff-padding 3                                               %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCircleBow                                            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -812,7 +812,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -822,14 +822,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -895,7 +895,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -905,14 +905,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -962,7 +962,7 @@ s_Violin_I_Music_Voice = {                                                     %
         bf'16 * 95/64
     %@% ^ \baca-duration-multiplier-markup #"95" #"64"                         %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-        \once \override DynamicText.self-alignment-X = #0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
+        \once \override DynamicText.self-alignment-X = 0.75                    %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
         \revert Staff.Stem.stemlet-length
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
@@ -1011,7 +1011,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1021,14 +1021,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1062,8 +1062,8 @@ s_Violin_I_Music_Voice = {                                                     %
         - \abjad-dashed-line-with-hook                                         %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.padding #3.25                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
-        - \tweak staff-padding #3                                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.padding 3.25                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+        - \tweak staff-padding 3                                               %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCircleBow                                            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -1093,7 +1093,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1103,14 +1103,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1167,7 +1167,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1177,14 +1177,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1243,7 +1243,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1253,14 +1253,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1317,7 +1317,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1327,14 +1327,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1382,7 +1382,7 @@ s_Violin_I_Music_Voice = {                                                     %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1392,14 +1392,14 @@ s_Violin_I_Music_Voice = {                                                     %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1443,7 +1443,7 @@ s_Violin_I_Music_Voice = {                                                     %
         bf'16 * 189/64
     %@% ^ \baca-duration-multiplier-markup #"189" #"64"                        %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-        \once \override DynamicText.self-alignment-X = #0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
+        \once \override DynamicText.self-alignment-X = 0.75                    %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
         \revert Staff.Stem.stemlet-length
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
@@ -1566,7 +1566,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1576,14 +1576,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1604,7 +1604,7 @@ s_Violin_II_Music_Voice = {                                                    %
         \once \override Staff.StaffSymbol.line-count = 5                       %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES:baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
         \startStaff                                                            %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES:baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
         \set Staff.instrumentName = \stirrings-still-vn-ii-markup              %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-        \override DynamicLineSpanner.staff-padding = #6                        %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
+        \override DynamicLineSpanner.staff-padding = 6                         %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
         \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic():baca.OverrideCommand._call(1)
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
         \once \override Beam.grow-direction = #left
@@ -1628,8 +1628,8 @@ s_Violin_II_Music_Voice = {                                                    %
         - \abjad-dashed-line-with-hook                                         %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.padding #3.25                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
-        - \tweak staff-padding #3                                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.padding 3.25                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+        - \tweak staff-padding 3                                               %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCircleBow                                            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -1652,7 +1652,7 @@ s_Violin_II_Music_Voice = {                                                    %
         f'16 * 25/8
     %@% ^ \baca-duration-multiplier-markup #"25" #"8"                          %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-        \once \override DynamicText.self-alignment-X = #0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
+        \once \override DynamicText.self-alignment-X = 0.75                    %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
         \revert Staff.Stem.stemlet-length
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
@@ -1698,7 +1698,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1708,14 +1708,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1743,8 +1743,8 @@ s_Violin_II_Music_Voice = {                                                    %
         - \abjad-dashed-line-with-hook                                         %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.padding #3.25                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
-        - \tweak staff-padding #3                                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.padding 3.25                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+        - \tweak staff-padding 3                                               %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCircleBow                                            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -1774,7 +1774,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1784,14 +1784,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1826,7 +1826,7 @@ s_Violin_II_Music_Voice = {                                                    %
         f'16 * 11/4
     %@% ^ \baca-duration-multiplier-markup #"11" #"4"                          %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-        \once \override DynamicText.self-alignment-X = #0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
+        \once \override DynamicText.self-alignment-X = 0.75                    %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
         \revert Staff.Stem.stemlet-length
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
@@ -1872,7 +1872,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1882,14 +1882,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -1919,8 +1919,8 @@ s_Violin_II_Music_Voice = {                                                    %
         - \abjad-dashed-line-with-hook                                         %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.padding #3.25                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
-        - \tweak staff-padding #3                                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.padding 3.25                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+        - \tweak staff-padding 3                                               %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCircleBow                                            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -1956,7 +1956,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -1966,14 +1966,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2030,7 +2030,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2040,14 +2040,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2091,7 +2091,7 @@ s_Violin_II_Music_Voice = {                                                    %
         f'16 * 231/64
     %@% ^ \baca-duration-multiplier-markup #"231" #"64"                        %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-        \once \override DynamicText.self-alignment-X = #0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
+        \once \override DynamicText.self-alignment-X = 0.75                    %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
         \revert Staff.Stem.stemlet-length
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
@@ -2140,7 +2140,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2150,14 +2150,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2188,8 +2188,8 @@ s_Violin_II_Music_Voice = {                                                    %
         - \abjad-dashed-line-with-hook                                         %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-markup \baca-circle-wide-markup              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-circle-bowing-markup %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-        - \tweak bound-details.right.padding #3.25                             %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
-        - \tweak staff-padding #3                                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+        - \tweak bound-details.right.padding 3.25                              %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+        - \tweak staff-padding 3                                               %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCircleBow                                            %! baca.circle_bow_spanner():CIRCLE_BOW_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
 
@@ -2219,7 +2219,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2229,14 +2229,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2284,7 +2284,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2294,14 +2294,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2357,7 +2357,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2367,14 +2367,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2422,7 +2422,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2432,14 +2432,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2487,7 +2487,7 @@ s_Violin_II_Music_Voice = {                                                    %
             \new Score
             \with
             {
-                \override SpacingSpanner.spacing-increment = #0.5
+                \override SpacingSpanner.spacing-increment = 0.5
                 proportionalNotationDuration = ##f
             }
             <<
@@ -2497,14 +2497,14 @@ s_Violin_II_Music_Voice = {                                                    %
                     \remove Time_signature_engraver
                     \remove Staff_symbol_engraver
                     \override Stem.direction = #up
-                    \override Stem.length = #5
+                    \override Stem.length = 5
                     \override TupletBracket.bracket-visibility = ##t
                     \override TupletBracket.direction = #up
-                    \override TupletBracket.minimum-length = #4
-                    \override TupletBracket.padding = #1.25
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                     \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                    \override TupletNumber.font-size = #0
+                    \override TupletNumber.font-size = 0
                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                     tupletFullLength = ##t
                 }
@@ -2539,7 +2539,7 @@ s_Violin_II_Music_Voice = {                                                    %
         f'16 * 11/4
     %@% ^ \baca-duration-multiplier-markup #"11" #"4"                          %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
-        \once \override DynamicText.self-alignment-X = #0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
+        \once \override DynamicText.self-alignment-X = 0.75                    %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
         \revert Staff.Stem.stemlet-length
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(6)
@@ -2676,9 +2676,9 @@ s_Viola_Music_Voice = {                                                        %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_notes()"                              %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -2840,7 +2840,7 @@ s_Cello_Music_Voice = {                                                        %
     \once \override Staff.StaffSymbol.line-count = 5                           %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES:baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
     \startStaff                                                                %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES:baca.SegmentMaker._reanalyze_reapplied_synthetic_wrappers()
     \set Staff.instrumentName = \stirrings-still-vc-markup                     %! baca.SegmentMaker._clone_segment_initial_short_instrument_name()
-    \override DynamicLineSpanner.staff-padding = #6                            %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
+    \override DynamicLineSpanner.staff-padding = 6                             %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
     \ottava -1                                                                 %! baca.ottava_bassa():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \clef "bass"                                                               %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_MARGIN_MARKUP_COLOR
@@ -2856,9 +2856,9 @@ s_Cello_Music_Voice = {                                                        %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "baca.skeleton()"                           %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! baca.SegmentMaker._attach_color_literal(2):REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -2913,9 +2913,9 @@ s_Cello_Music_Voice = {                                                        %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -2978,9 +2978,9 @@ s_Cello_Music_Voice = {                                                        %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -3055,9 +3055,9 @@ s_Cello_Music_Voice = {                                                        %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
@@ -3163,7 +3163,7 @@ s_Cello_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \once \override Score.RehearsalMark.direction = #down              %! baca.rehearsal_mark_down():baca.OverrideCommand._call(1):baca.SegmentMaker._style_phantom_measures(5):PHANTOM
-            \once \override Score.RehearsalMark.padding = #6                   %! baca.rehearsal_mark_padding():baca.OverrideCommand._call(1):baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            \once \override Score.RehearsalMark.padding = 6                    %! baca.rehearsal_mark_padding():baca.OverrideCommand._call(1):baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \once \override Score.RehearsalMark.self-alignment-X = #right      %! baca.rehearsal_mark_self_alignment_x():baca.OverrideCommand._call(1):baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \mark \stirrings-still-colophon-markup                             %! baca.mark():baca.IndicatorCommand._call():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
