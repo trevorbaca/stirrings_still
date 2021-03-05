@@ -28,7 +28,7 @@ its turn went out and left him in the dark. [1.1.9]
 
 Till it in its turn went out. [1.1.10]
 
-                                       *
+----
 
 One night or day then as he sat at his table head on hands he saw himself rise
 and go. [1.2.1]
@@ -64,7 +64,7 @@ And when others too in their turn before and since. [1.2.14]
 As when others too in their turn and leave him till he too in his turn.
 [1.2.15]
 
-                                       *
+----
 
 Head on hands half hoping when he disappeared again that he would not reappear
 again and half fearing that he would not. [1.3.1]
@@ -77,7 +77,7 @@ Waiting to see if he would or would not. [1.3.4]
 
 Leave him or not alone again waiting for nothing again. [1.3.5]
 
-                                       *
+----
 
 Seen always from behind withersoever he went. [1.4.1]
 
@@ -98,7 +98,7 @@ To the roads. [1.4.8]
 
 The back roads. [1.4.9]
 
-                                       *
+----
 
 A clock struck the hours and the half-hours. [1.5.1]
 
@@ -121,7 +121,7 @@ Or merely waiting. [1.5.9]
 
 Waiting to hear. [1.5.10]
 
-                                       *
+----
 
 Then had been a time he would sometimes lift his head enough to see his hands.
 [1.6.1]
@@ -138,7 +138,7 @@ Then lay it back on them to rest it too. [1.6.6]
 
 After all it did. [1.6.7]
 
-                                       *
+----
 
 The same place as when left day after day for the roads. [1.7.1]
 
@@ -185,7 +185,7 @@ The cries. [1.7.21]
 
 The same as ever. [1.7.22]
 
-                                       *
+----
 
 Till so many strokes and cries since he was last seen that perhaps he would not
 be seen again. [1.8.1]
@@ -212,7 +212,7 @@ Then all as before again. [1.8.9]
 And patience till the one true end to time and grief and self and second self
 his own. [1.8.10]
 
-                                     * * *
+----
 
 As one in his right mind when at last out again he knew not how he was not long
 out again when he began to wonder if he was in his right mind. [2.1]
@@ -287,7 +287,7 @@ and the cries for good and was sorry that they did not. [2.19]
 The strokes now faint now clear as if carried by the wind but not a breath and
 the cries now faint now clear. [2.20]
 
-                                     * * *
+----
 
 So on still stayed when to his ears from deep within oh how and here a word he
 could not catch it were to end where never till then. [3.1]
