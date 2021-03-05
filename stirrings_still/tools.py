@@ -80,7 +80,7 @@ time_signature_series["C"] = _time_signatures
 # classes
 
 
-class Operation(object):
+class Operation:
     """
     Operation.
 
@@ -291,7 +291,7 @@ class Operation(object):
         return self._verb
 
 
-class StageSpecifier(object):
+class StageSpecifier:
     """
     Stage specifier.
     """
@@ -393,7 +393,7 @@ class StageSpecifier(object):
         return result
 
 
-class StageToken(object):
+class StageToken:
     """
     Stage token.
     """
