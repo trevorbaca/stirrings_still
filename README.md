@@ -1,13 +1,10 @@
 Stirrings Still
 ===============
 
-[![Build Status](
-    https://api.travis-ci.org/trevorbaca/stirrings_still.svg)](
-    https://api.travis-ci.org/trevorbaca/stirrings_still)
-<!---
+![Build Status](
+    https://github.com/trevorbaca/stirrings_still/actions/workflows/test.yml/badge.svg)
 [![Code style: black](
     https://img.shields.io/badge/code%20style-black-000000.svg)](
     https://github.com/ambv/black)
--->
 
 Stirrings Still (2018) for narrator and string quartet.
