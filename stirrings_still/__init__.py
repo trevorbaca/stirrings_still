@@ -1,9 +1,9 @@
 import distutils.version
 import platform
 
-from .ScoreTemplate import ScoreTemplate
 from .tools import (
     Operation,
+    ScoreTemplate,
     StageSpecifier,
     StageToken,
     accelerando,
