@@ -465,7 +465,8 @@ j_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(2):SPANNER_START
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Violin_I_Music_Voice measure 542 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -618,7 +619,8 @@ j_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [10 Violin_I_Music_Voice measure 551 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -675,7 +677,8 @@ j_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [10 Violin_I_Music_Voice measure 552 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         c''8
@@ -744,7 +747,8 @@ j_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [10 Violin_I_Music_Voice measure 553 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -852,7 +856,8 @@ j_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [10 Violin_I_Music_Voice measure 555 / measure 17]                   %! baca.SegmentMaker._comment_measure_numbers()
         e''8
@@ -983,7 +988,8 @@ j_Violin_II_Music_Voice = {                                                    %
     <e' gs'!>2.
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Violin_II_Music_Voice measure 541 / measure 3]                   %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.staff-padding = 1                              %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
@@ -1015,7 +1021,8 @@ j_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f''8
         - \upbow                                                               %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
@@ -1024,7 +1031,8 @@ j_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f''8
         - \downbow                                                             %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
@@ -1033,7 +1041,8 @@ j_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {                                                               %! baca.skeleton()
+    \times 2/3                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [10 Violin_II_Music_Voice measure 542 / measure 4]                   %! baca.SegmentMaker._comment_measure_numbers()
         f''8                                                                   %! baca.skeleton()
@@ -1050,7 +1059,8 @@ j_Violin_II_Music_Voice = {                                                    %
     }                                                                          %! baca.skeleton()
 
     \tweak edge-height #'(0.7 . 0)                                             %! baca.skeleton()
-    \times 2/3 {                                                               %! baca.skeleton()
+    \times 2/3                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         f''8                                                                   %! baca.skeleton()
         - \downbow                                                             %! baca.alternate_bow_strokes():baca.IndicatorCommand._call()
@@ -1128,7 +1138,8 @@ j_Violin_II_Music_Voice = {                                                    %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [10 Violin_II_Music_Voice measure 550 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -1262,7 +1273,8 @@ j_Violin_II_Music_Voice = {                                                    %
     \breathe                                                                   %! baca.breathe():stirrings_still.breathe():baca.IndicatorCommand._call()
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [10 Violin_II_Music_Voice measure 552 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         a'4
@@ -1316,7 +1328,8 @@ j_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [10 Violin_II_Music_Voice measure 553 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         b'8
@@ -1369,7 +1382,8 @@ j_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [10 Violin_II_Music_Voice measure 554 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         c''8
@@ -1602,7 +1616,8 @@ j_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(2):SPANNER_START
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Viola_Music_Voice measure 542 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -1688,7 +1703,8 @@ j_Viola_Music_Voice = {                                                        %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [10 Viola_Music_Voice measure 550 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -1770,7 +1786,8 @@ j_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [10 Viola_Music_Voice measure 551 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -1907,7 +1924,8 @@ j_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [10 Viola_Music_Voice measure 553 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
         e'4.
@@ -1951,7 +1969,8 @@ j_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [10 Viola_Music_Voice measure 554 / measure 16]                      %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2000,7 +2019,8 @@ j_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [10 Viola_Music_Voice measure 555 / measure 17]                      %! baca.SegmentMaker._comment_measure_numbers()
         d'8
@@ -2163,7 +2183,8 @@ j_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanMaterialAnnotation                                       %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:MATERIAL:CLOUDED_PANE:baca.PiecewiseCommand._call(2):SPANNER_START
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Cello_Music_Voice measure 542 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2297,7 +2318,8 @@ j_Cello_Music_Voice = {                                                        %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [10 Cello_Music_Voice measure 550 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right

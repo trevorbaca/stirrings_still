@@ -664,7 +664,8 @@ m_Violin_I_Music_Voice = {                                                     %
     d'''1                                                                      %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 634 / measure 9]                    %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
@@ -707,7 +708,8 @@ m_Violin_I_Music_Voice = {                                                     %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 635 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
@@ -725,7 +727,8 @@ m_Violin_I_Music_Voice = {                                                     %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         <ds'! a'>4
 
@@ -793,7 +796,8 @@ m_Violin_I_Music_Voice = {                                                     %
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
     d'''4.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         <ds'! a'>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -835,7 +839,8 @@ m_Violin_I_Music_Voice = {                                                     %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 644 / measure 19]                   %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
@@ -852,7 +857,8 @@ m_Violin_I_Music_Voice = {                                                     %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 645 / measure 20]                   %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
@@ -923,7 +929,8 @@ m_Violin_I_Music_Voice = {                                                     %
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
     d'''2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 651 / measure 26]                   %! baca.SegmentMaker._comment_measure_numbers()
         <ds'! a'>4
@@ -967,7 +974,8 @@ m_Violin_I_Music_Voice = {                                                     %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         <ds'! a'>4
 
@@ -1167,7 +1175,8 @@ m_Violin_II_Music_Voice = {                                                    %
     fqs''!1                                                                    %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 634 / measure 9]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
@@ -1208,7 +1217,8 @@ m_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 635 / measure 10]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
@@ -1223,7 +1233,8 @@ m_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         <dqs'! gtqs'!>4
 
@@ -1289,7 +1300,8 @@ m_Violin_II_Music_Voice = {                                                    %
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
     fqs''!4.
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         <dqs'! gtqs'!>4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1329,7 +1341,8 @@ m_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 644 / measure 19]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
@@ -1344,7 +1357,8 @@ m_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 645 / measure 20]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
@@ -1413,7 +1427,8 @@ m_Violin_II_Music_Voice = {                                                    %
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
     fqs''!2.
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 651 / measure 26]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs'! gtqs'!>4
@@ -1454,7 +1469,8 @@ m_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         <dqs'! gtqs'!>4
 

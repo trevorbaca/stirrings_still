@@ -426,7 +426,8 @@ f_Violin_I_Music_Voice = {                                                     %
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! baca.SegmentMaker._style_fermata_measures(2):FERMATA_MEASURE_EMPTY_BAR_EXTENT
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 444 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -476,7 +477,8 @@ f_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 445 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf'!4
@@ -950,7 +952,8 @@ f_Viola_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [06 Viola_Music_Voice measure 444 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -1000,7 +1003,8 @@ f_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [06 Viola_Music_Voice measure 445 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
         bf'!4
@@ -1226,7 +1230,8 @@ f_Cello_Music_Voice = {                                                        %
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! baca.SegmentMaker._style_fermata_measures(2):FERMATA_MEASURE_EMPTY_BAR_EXTENT
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [06 Cello_Music_Voice measure 444 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -1277,7 +1282,8 @@ f_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [06 Cello_Music_Voice measure 445 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
         bf'!4

@@ -315,7 +315,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 840 / measure 1]
         \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
@@ -440,7 +441,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 842 / measure 3]
         \once \override Beam.grow-direction = #right
@@ -512,7 +514,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 843 / measure 4]
         \once \override Beam.grow-direction = #left
@@ -611,7 +614,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 845 / measure 6]
         \once \override Beam.grow-direction = #right
@@ -689,7 +693,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 846 / measure 7]
         \once \override Beam.grow-direction = #left
@@ -762,7 +767,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 847 / measure 8]
         \once \override Beam.grow-direction = #right
@@ -866,7 +872,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 849 / measure 10]
         \stopStaff
@@ -944,7 +951,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 850 / measure 11]
         \once \override Beam.grow-direction = #left
@@ -1013,7 +1021,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 851 / measure 12]
         \once \override Beam.grow-direction = #right
@@ -1080,7 +1089,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 852 / measure 13]
         \once \override Beam.grow-direction = #left
@@ -1147,7 +1157,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 853 / measure 14]
         \once \override Beam.grow-direction = #right
@@ -1208,7 +1219,8 @@ s_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 854 / measure 15]
         \once \override Beam.grow-direction = #left
@@ -1375,7 +1387,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 840 / measure 1]
         \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
@@ -1498,7 +1511,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 842 / measure 3]
         \once \override Beam.grow-direction = #left
@@ -1570,7 +1584,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 843 / measure 4]
         \once \override Beam.grow-direction = #right
@@ -1663,7 +1678,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 845 / measure 6]
         \once \override Beam.grow-direction = #left
@@ -1739,7 +1755,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 846 / measure 7]
         \once \override Beam.grow-direction = #right
@@ -1806,7 +1823,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 847 / measure 8]
         \once \override Beam.grow-direction = #left
@@ -1906,7 +1924,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 849 / measure 10]
         \stopStaff
@@ -1981,7 +2000,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 850 / measure 11]
         \once \override Beam.grow-direction = #right
@@ -2044,7 +2064,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 851 / measure 12]
         \once \override Beam.grow-direction = #left
@@ -2109,7 +2130,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 852 / measure 13]
         \once \override Beam.grow-direction = #right
@@ -2170,7 +2192,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 853 / measure 14]
         \once \override Beam.grow-direction = #left
@@ -2231,7 +2254,8 @@ s_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 854 / measure 15]
         \once \override Beam.grow-direction = #right

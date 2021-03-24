@@ -462,7 +462,8 @@ m_Violin_I_Music_Voice = {
     d'''1
     <> \bacaStopTextSpanRhythmAnnotation
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 634 / measure 9]
         <ds'! a'>4
@@ -505,7 +506,8 @@ m_Violin_I_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 635 / measure 10]
         <ds'! a'>4
@@ -523,7 +525,8 @@ m_Violin_I_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         <ds'! a'>4
 
@@ -591,7 +594,8 @@ m_Violin_I_Music_Voice = {
     \revert Stem.transparent
     d'''4.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         <ds'! a'>4
         - \tweak color #(x11-color 'blue)
@@ -633,7 +637,8 @@ m_Violin_I_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 644 / measure 19]
         <ds'! a'>4
@@ -650,7 +655,8 @@ m_Violin_I_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 645 / measure 20]
         <ds'! a'>4
@@ -721,7 +727,8 @@ m_Violin_I_Music_Voice = {
     \revert Stem.transparent
     d'''2.
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [13 Violin_I_Music_Voice measure 651 / measure 26]
         <ds'! a'>4
@@ -765,7 +772,8 @@ m_Violin_I_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         <ds'! a'>4
 
@@ -955,7 +963,8 @@ m_Violin_II_Music_Voice = {
     fqs''!1
     <> \bacaStopTextSpanRhythmAnnotation
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 634 / measure 9]
         <dqs'! gtqs'!>4
@@ -996,7 +1005,8 @@ m_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 635 / measure 10]
         <dqs'! gtqs'!>4
@@ -1011,7 +1021,8 @@ m_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         <dqs'! gtqs'!>4
 
@@ -1077,7 +1088,8 @@ m_Violin_II_Music_Voice = {
     \revert Stem.transparent
     fqs''!4.
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         <dqs'! gtqs'!>4
         - \tweak color #(x11-color 'blue)
@@ -1117,7 +1129,8 @@ m_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 644 / measure 19]
         <dqs'! gtqs'!>4
@@ -1132,7 +1145,8 @@ m_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 645 / measure 20]
         <dqs'! gtqs'!>4
@@ -1201,7 +1215,8 @@ m_Violin_II_Music_Voice = {
     \revert Stem.transparent
     fqs''!2.
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Violin_II_Music_Voice measure 651 / measure 26]
         <dqs'! gtqs'!>4
@@ -1242,7 +1257,8 @@ m_Violin_II_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         <dqs'! gtqs'!>4
 
