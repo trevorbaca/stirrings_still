@@ -272,7 +272,8 @@ o_Violin_I_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     ef'!4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [15 Violin_I_Music_Voice measure 703 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         aqs'!4
@@ -487,7 +488,8 @@ o_Violin_II_Music_Voice = {                                                    %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     d'4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [15 Violin_II_Music_Voice measure 703 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         ef'!4
@@ -897,7 +899,8 @@ o_Cello_Music_Voice = {                                                        %
     af!4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [15 Cello_Music_Voice measure 703 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)

@@ -330,7 +330,8 @@ f_Violin_I_Music_Voice = {
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 444 / measure 12]
         \stopStaff
@@ -380,7 +381,8 @@ f_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [06 Violin_I_Music_Voice measure 445 / measure 13]
         bf'!4
@@ -832,7 +834,8 @@ f_Viola_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [06 Viola_Music_Voice measure 444 / measure 12]
         \stopStaff
@@ -882,7 +885,8 @@ f_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [06 Viola_Music_Voice measure 445 / measure 13]
         bf'!4
@@ -1096,7 +1100,8 @@ f_Cello_Music_Voice = {
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [06 Cello_Music_Voice measure 444 / measure 12]
         \stopStaff
@@ -1146,7 +1151,8 @@ f_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [06 Cello_Music_Voice measure 445 / measure 13]
         bf'!4

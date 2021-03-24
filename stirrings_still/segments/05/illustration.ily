@@ -2491,7 +2491,8 @@ e_Violin_I_Music_Voice = {                                                     %
 
     r8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         gqf'!4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2531,7 +2532,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [05 Violin_I_Music_Voice measure 311 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         etqf'!4
@@ -2570,7 +2572,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [05 Violin_I_Music_Voice measure 312 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2593,7 +2596,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [05 Violin_I_Music_Voice measure 313 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         etqf'!1
@@ -2623,7 +2627,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [05 Violin_I_Music_Voice measure 314 / measure 9]                    %! baca.SegmentMaker._comment_measure_numbers()
         etqf'!4
@@ -2650,7 +2655,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [05 Violin_I_Music_Voice measure 315 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2662,7 +2668,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [05 Violin_I_Music_Voice measure 316 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -2695,7 +2702,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [05 Violin_I_Music_Voice measure 317 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2713,7 +2721,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [05 Violin_I_Music_Voice measure 318 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         etqf'!4
@@ -2740,7 +2749,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [05 Violin_I_Music_Voice measure 319 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2777,7 +2787,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [05 Violin_I_Music_Voice measure 320 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2791,7 +2802,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [05 Violin_I_Music_Voice measure 321 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
         etqf'!2
@@ -2826,7 +2838,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [05 Violin_I_Music_Voice measure 322 / measure 17]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2838,7 +2851,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [05 Violin_I_Music_Voice measure 323 / measure 18]                   %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -2857,7 +2871,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 5/7
+    {
 
         % [05 Violin_I_Music_Voice measure 324 / measure 19]                   %! baca.SegmentMaker._comment_measure_numbers()
         etqf'!2..
@@ -2877,7 +2892,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [05 Violin_I_Music_Voice measure 325 / measure 20]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2914,7 +2930,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [05 Violin_I_Music_Voice measure 326 / measure 21]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -2928,7 +2945,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [05 Violin_I_Music_Voice measure 327 / measure 22]                   %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -2961,7 +2979,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 5/7
+    {
 
         % [05 Violin_I_Music_Voice measure 328 / measure 23]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -3301,7 +3320,8 @@ e_Violin_I_Music_Voice = {                                                     %
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Violin_I_Music_Voice measure 340 / measure 35]                   %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -3346,7 +3366,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_I_Music_Voice measure 341 / measure 36]                   %! baca.SegmentMaker._comment_measure_numbers()
         af'!8
@@ -3387,7 +3408,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_I_Music_Voice measure 342 / measure 37]                   %! baca.SegmentMaker._comment_measure_numbers()
         af'!8
@@ -3496,7 +3518,8 @@ e_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Violin_I_Music_Voice measure 344 / measure 39]                   %! baca.SegmentMaker._comment_measure_numbers()
         af'!8
@@ -3526,7 +3549,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_I_Music_Voice measure 345 / measure 40]                   %! baca.SegmentMaker._comment_measure_numbers()
         af'!8
@@ -3613,7 +3637,8 @@ e_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [05 Violin_I_Music_Voice measure 347 / measure 42]                   %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -3663,7 +3688,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [05 Violin_I_Music_Voice measure 348 / measure 43]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -3681,7 +3707,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [05 Violin_I_Music_Voice measure 349 / measure 44]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -3697,7 +3724,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 7/10
+    {
 
         % [05 Violin_I_Music_Voice measure 350 / measure 45]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -3713,7 +3741,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 7/10
+    {
 
         % [05 Violin_I_Music_Voice measure 351 / measure 46]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -3729,7 +3758,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [05 Violin_I_Music_Voice measure 352 / measure 47]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -3745,7 +3775,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/8 {
+    \times 5/8
+    {
 
         % [05 Violin_I_Music_Voice measure 353 / measure 48]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!2
@@ -3765,7 +3796,8 @@ e_Violin_I_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Violin_I_Music_Voice measure 355 / measure 50]                   %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -3817,7 +3849,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_I_Music_Voice measure 356 / measure 51]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -3871,7 +3904,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_I_Music_Voice measure 357 / measure 52]                   %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -3972,7 +4006,8 @@ e_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Violin_I_Music_Voice measure 359 / measure 54]                   %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -4010,7 +4045,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_I_Music_Voice measure 360 / measure 55]                   %! baca.SegmentMaker._comment_measure_numbers()
         ef''!4
@@ -4058,7 +4094,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_I_Music_Voice measure 361 / measure 56]                   %! baca.SegmentMaker._comment_measure_numbers()
         ef''!8
@@ -4158,7 +4195,8 @@ e_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Violin_I_Music_Voice measure 363 / measure 58]                   %! baca.SegmentMaker._comment_measure_numbers()
         ef''!4
@@ -4200,7 +4238,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_I_Music_Voice measure 364 / measure 59]                   %! baca.SegmentMaker._comment_measure_numbers()
         ef''!8
@@ -4230,7 +4269,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_I_Music_Voice measure 365 / measure 60]                   %! baca.SegmentMaker._comment_measure_numbers()
         ef''!8
@@ -5047,7 +5087,8 @@ e_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_I_Music_Voice measure 387 / measure 82]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4.
@@ -5081,7 +5122,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_I_Music_Voice measure 388 / measure 83]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4
@@ -5112,7 +5154,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_I_Music_Voice measure 389 / measure 84]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4
@@ -5155,7 +5198,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_I_Music_Voice measure 390 / measure 85]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4
@@ -5228,7 +5272,8 @@ e_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_I_Music_Voice measure 392 / measure 87]                   %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -5270,7 +5315,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_I_Music_Voice measure 393 / measure 88]                   %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4
@@ -5297,7 +5343,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [05 Violin_I_Music_Voice measure 394 / measure 89]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override DynamicText.self-alignment-X = -0.75                   %! baca.dynamic_text_self_alignment_x():baca.OverrideCommand._call(1)
@@ -5334,7 +5381,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 7/10
+    {
 
         % [05 Violin_I_Music_Voice measure 395 / measure 90]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -5350,7 +5398,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 7/10
+    {
 
         % [05 Violin_I_Music_Voice measure 396 / measure 91]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -5371,7 +5420,8 @@ e_Violin_I_Music_Voice = {                                                     %
     bf''!4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/8 {
+    \times 5/8
+    {
 
         % [05 Violin_I_Music_Voice measure 398 / measure 93]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!2
@@ -5381,7 +5431,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 3/5
+    {
 
         % [05 Violin_I_Music_Voice measure 399 / measure 94]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -5397,7 +5448,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [05 Violin_I_Music_Voice measure 400 / measure 95]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -5415,7 +5467,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [05 Violin_I_Music_Voice measure 401 / measure 96]                   %! baca.SegmentMaker._comment_measure_numbers()
         bf''!4
@@ -5438,7 +5491,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Violin_I_Music_Voice measure 402 / measure 97]                   %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -5490,7 +5544,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_I_Music_Voice measure 403 / measure 98]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -5542,7 +5597,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_I_Music_Voice measure 404 / measure 99]                   %! baca.SegmentMaker._comment_measure_numbers()
         d''8
@@ -5650,7 +5706,8 @@ e_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [05 Violin_I_Music_Voice measure 406 / measure 101]                  %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -5709,7 +5766,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_I_Music_Voice measure 407 / measure 102]                  %! baca.SegmentMaker._comment_measure_numbers()
         ef''!4.
@@ -5774,7 +5832,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_I_Music_Voice measure 408 / measure 103]                  %! baca.SegmentMaker._comment_measure_numbers()
         ef''!4
@@ -5864,7 +5923,8 @@ e_Violin_I_Music_Voice = {                                                     %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Violin_I_Music_Voice measure 410 / measure 105]                  %! baca.SegmentMaker._comment_measure_numbers()
         ef''!8
@@ -5925,7 +5985,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_I_Music_Voice measure 411 / measure 106]                  %! baca.SegmentMaker._comment_measure_numbers()
         ef''!4.
@@ -5971,7 +6032,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Violin_I_Music_Voice measure 412 / measure 107]                  %! baca.SegmentMaker._comment_measure_numbers()
         ef''!4
@@ -6034,7 +6096,8 @@ e_Violin_I_Music_Voice = {                                                     %
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_I_Music_Voice measure 414 / measure 109]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4.
@@ -6085,7 +6148,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_I_Music_Voice measure 415 / measure 110]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>8
@@ -6141,7 +6205,8 @@ e_Violin_I_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_I_Music_Voice measure 417 / measure 112]                  %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -6186,7 +6251,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Violin_I_Music_Voice measure 418 / measure 113]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>2
@@ -6208,7 +6274,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_I_Music_Voice measure 419 / measure 114]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>2.
@@ -6230,7 +6297,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_I_Music_Voice measure 420 / measure 115]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4
@@ -6270,7 +6338,8 @@ e_Violin_I_Music_Voice = {                                                     %
     \startTextSpan                                                             %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Violin_I_Music_Voice measure 422 / measure 117]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4
@@ -6292,7 +6361,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_I_Music_Voice measure 423 / measure 118]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>4.
@@ -6314,7 +6384,8 @@ e_Violin_I_Music_Voice = {                                                     %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_I_Music_Voice measure 424 / measure 119]                  %! baca.SegmentMaker._comment_measure_numbers()
         <dqs''! gs''!>2.
@@ -6543,7 +6614,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     r8
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         atqf!4
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -6581,7 +6653,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 311 / measure 6]                   %! baca.SegmentMaker._comment_measure_numbers()
         bqf!4
@@ -6620,7 +6693,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_II_Music_Voice measure 312 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -6657,7 +6731,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 313 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -6671,7 +6746,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 314 / measure 9]                   %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -6692,7 +6768,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_II_Music_Voice measure 315 / measure 10]                  %! baca.SegmentMaker._comment_measure_numbers()
         bqf8
@@ -6721,7 +6798,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 316 / measure 11]                  %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -6737,7 +6815,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 317 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         bqf!4
@@ -6764,7 +6843,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 318 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -6808,7 +6888,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_II_Music_Voice measure 319 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -6820,7 +6901,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 320 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -6840,7 +6922,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 321 / measure 16]                  %! baca.SegmentMaker._comment_measure_numbers()
         bqf8
@@ -6864,7 +6947,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_II_Music_Voice measure 322 / measure 17]                  %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -7303,7 +7387,8 @@ e_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Violin_II_Music_Voice measure 341 / measure 36]                  %! baca.SegmentMaker._comment_measure_numbers()
         g'8
@@ -7336,7 +7421,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 342 / measure 37]                  %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -7407,7 +7493,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 343 / measure 38]                  %! baca.SegmentMaker._comment_measure_numbers()
         a'4
@@ -7507,7 +7594,8 @@ e_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Violin_II_Music_Voice measure 345 / measure 40]                  %! baca.SegmentMaker._comment_measure_numbers()
         a'4
@@ -7571,7 +7659,8 @@ e_Violin_II_Music_Voice = {                                                    %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_II_Music_Voice measure 347 / measure 42]                  %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -7616,7 +7705,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_II_Music_Voice measure 348 / measure 43]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7632,7 +7722,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [05 Violin_II_Music_Voice measure 349 / measure 44]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7646,7 +7737,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 350 / measure 45]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7660,7 +7752,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 351 / measure 46]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7674,7 +7767,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [05 Violin_II_Music_Voice measure 352 / measure 47]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7688,7 +7782,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Violin_II_Music_Voice measure 353 / measure 48]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7700,7 +7795,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 354 / measure 49]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7712,7 +7808,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [05 Violin_II_Music_Voice measure 355 / measure 50]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7726,7 +7823,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 356 / measure 51]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7740,7 +7838,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 357 / measure 52]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7754,7 +7853,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 358 / measure 53]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -7805,7 +7905,8 @@ e_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Violin_II_Music_Voice measure 360 / measure 55]                  %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!8
@@ -7850,7 +7951,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 361 / measure 56]                  %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!4
@@ -7904,7 +8006,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 362 / measure 57]                  %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!8
@@ -7987,7 +8090,8 @@ e_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 4/3
+    {
 
         % [05 Violin_II_Music_Voice measure 364 / measure 59]                  %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!8
@@ -8025,7 +8129,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Violin_II_Music_Voice measure 365 / measure 60]                  %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!4
@@ -8081,7 +8186,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_II_Music_Voice measure 366 / measure 61]                  %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!4
@@ -8150,7 +8256,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 368 / measure 63]                  %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -8182,7 +8289,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8194,7 +8302,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8206,7 +8315,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8223,7 +8333,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8235,7 +8346,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8247,7 +8359,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8264,7 +8377,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8276,7 +8390,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8288,7 +8403,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 371 / measure 66]                  %! baca.SegmentMaker._comment_measure_numbers()
         d''8
@@ -8306,7 +8422,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8318,7 +8435,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 372 / measure 67]                  %! baca.SegmentMaker._comment_measure_numbers()
         a''8
@@ -8339,7 +8457,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8351,7 +8470,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8363,7 +8483,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 373 / measure 68]                  %! baca.SegmentMaker._comment_measure_numbers()
         a''8
@@ -8384,7 +8505,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8396,7 +8518,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8408,7 +8531,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8428,7 +8552,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8440,7 +8565,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8452,7 +8578,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8464,7 +8591,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 375 / measure 70]                  %! baca.SegmentMaker._comment_measure_numbers()
         d''8
@@ -8485,7 +8613,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8497,7 +8626,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 376 / measure 71]                  %! baca.SegmentMaker._comment_measure_numbers()
         a''8
@@ -8520,7 +8650,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8532,7 +8663,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8552,7 +8684,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8564,7 +8697,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8576,7 +8710,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8596,7 +8731,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8608,7 +8744,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8620,7 +8757,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8632,7 +8770,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8652,7 +8791,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8664,7 +8804,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8676,7 +8817,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8688,7 +8830,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8705,7 +8848,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8717,7 +8861,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -8729,7 +8874,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 381 / measure 76]                  %! baca.SegmentMaker._comment_measure_numbers()
         d''8
@@ -8747,7 +8893,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8759,7 +8906,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 382 / measure 77]                  %! baca.SegmentMaker._comment_measure_numbers()
         a''8
@@ -8778,7 +8926,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         d''8
         [
@@ -8790,7 +8939,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e''8
         [
@@ -8802,7 +8952,8 @@ e_Violin_II_Music_Voice = {                                                    %
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         a''8
         [
@@ -9063,7 +9214,8 @@ e_Violin_II_Music_Voice = {                                                    %
     \bacaStopTextSpanSCP                                                       %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [05 Violin_II_Music_Voice measure 394 / measure 89]                  %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -9098,7 +9250,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 395 / measure 90]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9112,7 +9265,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 396 / measure 91]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9126,7 +9280,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 397 / measure 92]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9138,7 +9293,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Violin_II_Music_Voice measure 398 / measure 93]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9150,7 +9306,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [05 Violin_II_Music_Voice measure 399 / measure 94]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9164,7 +9321,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_II_Music_Voice measure 400 / measure 95]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9180,7 +9338,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_II_Music_Voice measure 401 / measure 96]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9196,7 +9355,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Violin_II_Music_Voice measure 402 / measure 97]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9208,7 +9368,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [05 Violin_II_Music_Voice measure 403 / measure 98]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9220,7 +9381,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_II_Music_Voice measure 404 / measure 99]                  %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9236,7 +9398,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [05 Violin_II_Music_Voice measure 405 / measure 100]                 %! baca.SegmentMaker._comment_measure_numbers()
         gf'!4
@@ -9321,7 +9484,8 @@ e_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [05 Violin_II_Music_Voice measure 407 / measure 102]                 %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!8
@@ -9362,7 +9526,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Violin_II_Music_Voice measure 408 / measure 103]                 %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!4
@@ -9410,7 +9575,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Violin_II_Music_Voice measure 409 / measure 104]                 %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!8
@@ -9513,7 +9679,8 @@ e_Violin_II_Music_Voice = {                                                    %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Violin_II_Music_Voice measure 411 / measure 106]                 %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!8
@@ -9541,7 +9708,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Violin_II_Music_Voice measure 412 / measure 107]                 %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!4
@@ -9574,7 +9742,8 @@ e_Violin_II_Music_Voice = {                                                    %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Violin_II_Music_Voice measure 413 / measure 108]                 %! baca.SegmentMaker._comment_measure_numbers()
         dqf''!8
@@ -10853,7 +11022,8 @@ e_Viola_Music_Voice = {                                                        %
     b4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Viola_Music_Voice measure 350 / measure 45]                      %! baca.SegmentMaker._comment_measure_numbers()
         b4
@@ -10865,7 +11035,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Viola_Music_Voice measure 351 / measure 46]                      %! baca.SegmentMaker._comment_measure_numbers()
         b4
@@ -10884,7 +11055,8 @@ e_Viola_Music_Voice = {                                                        %
     b4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Viola_Music_Voice measure 353 / measure 48]                      %! baca.SegmentMaker._comment_measure_numbers()
         b4
@@ -10904,7 +11076,8 @@ e_Viola_Music_Voice = {                                                        %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Viola_Music_Voice measure 355 / measure 50]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -11017,7 +11190,8 @@ e_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Viola_Music_Voice measure 357 / measure 52]                      %! baca.SegmentMaker._comment_measure_numbers()
         g8
@@ -11066,7 +11240,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Viola_Music_Voice measure 358 / measure 53]                      %! baca.SegmentMaker._comment_measure_numbers()
         f8
@@ -11094,7 +11269,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Viola_Music_Voice measure 359 / measure 54]                      %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -11185,7 +11361,8 @@ e_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [05 Viola_Music_Voice measure 361 / measure 56]                      %! baca.SegmentMaker._comment_measure_numbers()
         e4
@@ -11223,7 +11400,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Viola_Music_Voice measure 362 / measure 57]                      %! baca.SegmentMaker._comment_measure_numbers()
         e8
@@ -11274,7 +11452,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Viola_Music_Voice measure 363 / measure 58]                      %! baca.SegmentMaker._comment_measure_numbers()
         e8
@@ -11354,7 +11533,8 @@ e_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [05 Viola_Music_Voice measure 365 / measure 60]                      %! baca.SegmentMaker._comment_measure_numbers()
         e4.
@@ -11393,7 +11573,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Viola_Music_Voice measure 366 / measure 61]                      %! baca.SegmentMaker._comment_measure_numbers()
         e4.
@@ -11961,7 +12142,8 @@ e_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/4 {
+    \times 7/4
+    {
 
         % [05 Viola_Music_Voice measure 388 / measure 83]                      %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -11986,7 +12168,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [05 Viola_Music_Voice measure 389 / measure 84]                      %! baca.SegmentMaker._comment_measure_numbers()
         <d'' fqs''!>2.
@@ -12020,7 +12203,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [05 Viola_Music_Voice measure 390 / measure 85]                      %! baca.SegmentMaker._comment_measure_numbers()
         <d'' fqs''!>2.
@@ -12092,7 +12276,8 @@ e_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanDamp                                                     %! baca.damp_spanner():DAMP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/4 {
+    \times 7/4
+    {
 
         % [05 Viola_Music_Voice measure 393 / measure 88]                      %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -12150,7 +12335,8 @@ e_Viola_Music_Voice = {                                                        %
     b4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Viola_Music_Voice measure 395 / measure 90]                      %! baca.SegmentMaker._comment_measure_numbers()
         b4
@@ -12162,7 +12348,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Viola_Music_Voice measure 396 / measure 91]                      %! baca.SegmentMaker._comment_measure_numbers()
         b4
@@ -12179,7 +12366,8 @@ e_Viola_Music_Voice = {                                                        %
     b4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Viola_Music_Voice measure 398 / measure 93]                      %! baca.SegmentMaker._comment_measure_numbers()
         b4
@@ -12219,7 +12407,8 @@ e_Viola_Music_Voice = {                                                        %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Viola_Music_Voice measure 402 / measure 97]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -12296,7 +12485,8 @@ e_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [05 Viola_Music_Voice measure 404 / measure 99]                      %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -12354,7 +12544,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Viola_Music_Voice measure 405 / measure 100]                     %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -12398,7 +12589,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Viola_Music_Voice measure 406 / measure 101]                     %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -12523,7 +12715,8 @@ e_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Viola_Music_Voice measure 408 / measure 103]                     %! baca.SegmentMaker._comment_measure_numbers()
         e8
@@ -12551,7 +12744,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Viola_Music_Voice measure 409 / measure 104]                     %! baca.SegmentMaker._comment_measure_numbers()
         e8
@@ -12600,7 +12794,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Viola_Music_Voice measure 410 / measure 105]                     %! baca.SegmentMaker._comment_measure_numbers()
         e8
@@ -12696,7 +12891,8 @@ e_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Viola_Music_Voice measure 412 / measure 107]                     %! baca.SegmentMaker._comment_measure_numbers()
         e4
@@ -12719,7 +12915,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Viola_Music_Voice measure 413 / measure 108]                     %! baca.SegmentMaker._comment_measure_numbers()
         e8
@@ -12800,7 +12997,8 @@ e_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca.glissando():abjad.glissando(7)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Viola_Music_Voice measure 415 / measure 110]                     %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -12887,7 +13085,8 @@ e_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Viola_Music_Voice measure 419 / measure 114]                     %! baca.SegmentMaker._comment_measure_numbers()
         <d'' fqs''!>8
@@ -12912,7 +13111,8 @@ e_Viola_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Viola_Music_Voice measure 420 / measure 115]                     %! baca.SegmentMaker._comment_measure_numbers()
         <d'' fqs''!>2
@@ -12947,7 +13147,8 @@ e_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Viola_Music_Voice measure 422 / measure 117]                     %! baca.SegmentMaker._comment_measure_numbers()
         <d'' fqs''!>8
@@ -12976,7 +13177,8 @@ e_Viola_Music_Voice = {                                                        %
     \bacaStartTextSpanSCP                                                      %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Viola_Music_Voice measure 424 / measure 119]                     %! baca.SegmentMaker._comment_measure_numbers()
         <d'' fqs''!>4.
@@ -13406,7 +13608,8 @@ e_Cello_Music_Voice = {                                                        %
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! baca.SegmentMaker._style_fermata_measures(2):FERMATA_MEASURE_EMPTY_BAR_EXTENT
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 4/3
+    {
 
         % [05 Cello_Music_Voice measure 347 / measure 42]                      %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -13448,7 +13651,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 4/3
+    {
 
         % [05 Cello_Music_Voice measure 348 / measure 43]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -13460,7 +13664,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2 {
+    \times 3/2
+    {
 
         % [05 Cello_Music_Voice measure 349 / measure 44]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -13470,7 +13675,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/4 {
+    \times 7/4
+    {
 
         % [05 Cello_Music_Voice measure 350 / measure 45]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -13480,7 +13686,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/4 {
+    \times 7/4
+    {
 
         % [05 Cello_Music_Voice measure 351 / measure 46]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -13490,7 +13697,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2 {
+    \times 3/2
+    {
 
         % [05 Cello_Music_Voice measure 352 / measure 47]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -13500,7 +13708,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Cello_Music_Voice measure 353 / measure 48]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -13520,7 +13729,8 @@ e_Cello_Music_Voice = {                                                        %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Cello_Music_Voice measure 355 / measure 50]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -13594,7 +13804,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Cello_Music_Voice measure 356 / measure 51]                      %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -13706,7 +13917,8 @@ e_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 4/3
+    {
 
         % [05 Cello_Music_Voice measure 358 / measure 53]                      %! baca.SegmentMaker._comment_measure_numbers()
         e8
@@ -13732,7 +13944,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Cello_Music_Voice measure 359 / measure 54]                      %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -13785,7 +13998,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Cello_Music_Voice measure 360 / measure 55]                      %! baca.SegmentMaker._comment_measure_numbers()
         d4
@@ -13875,7 +14089,8 @@ e_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [05 Cello_Music_Voice measure 362 / measure 57]                      %! baca.SegmentMaker._comment_measure_numbers()
         d4.
@@ -13924,7 +14139,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Cello_Music_Voice measure 363 / measure 58]                      %! baca.SegmentMaker._comment_measure_numbers()
         d8
@@ -13974,7 +14190,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Cello_Music_Voice measure 364 / measure 59]                      %! baca.SegmentMaker._comment_measure_numbers()
         d8
@@ -14043,7 +14260,8 @@ e_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Cello_Music_Voice measure 366 / measure 61]                      %! baca.SegmentMaker._comment_measure_numbers()
         d8
@@ -14283,7 +14501,8 @@ e_Cello_Music_Voice = {                                                        %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2 {
+    \times 3/2
+    {
 
         % [05 Cello_Music_Voice measure 394 / measure 89]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -14321,7 +14540,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/4 {
+    \times 7/4
+    {
 
         % [05 Cello_Music_Voice measure 395 / measure 90]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -14331,7 +14551,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/4 {
+    \times 7/4
+    {
 
         % [05 Cello_Music_Voice measure 396 / measure 91]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -14346,7 +14567,8 @@ e_Cello_Music_Voice = {                                                        %
     c4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [05 Cello_Music_Voice measure 398 / measure 93]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -14356,7 +14578,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/2 {
+    \times 3/2
+    {
 
         % [05 Cello_Music_Voice measure 399 / measure 94]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -14366,7 +14589,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 4/3
+    {
 
         % [05 Cello_Music_Voice measure 400 / measure 95]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -14378,7 +14602,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 4/3
+    {
 
         % [05 Cello_Music_Voice measure 401 / measure 96]                      %! baca.SegmentMaker._comment_measure_numbers()
         c4
@@ -14396,7 +14621,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [05 Cello_Music_Voice measure 402 / measure 97]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override TupletBracket.direction = #down                              %! baca.tuplet_bracket_down():baca.OverrideCommand._call(1)
@@ -14469,7 +14695,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Cello_Music_Voice measure 403 / measure 98]                      %! baca.SegmentMaker._comment_measure_numbers()
         \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
@@ -14575,7 +14802,8 @@ e_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 6/5
+    {
 
         % [05 Cello_Music_Voice measure 405 / measure 100]                     %! baca.SegmentMaker._comment_measure_numbers()
         f4
@@ -14615,7 +14843,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Cello_Music_Voice measure 406 / measure 101]                     %! baca.SegmentMaker._comment_measure_numbers()
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(6)
@@ -14677,7 +14906,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [05 Cello_Music_Voice measure 407 / measure 102]                     %! baca.SegmentMaker._comment_measure_numbers()
         d4.
@@ -14766,7 +14996,8 @@ e_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [05 Cello_Music_Voice measure 409 / measure 104]                     %! baca.SegmentMaker._comment_measure_numbers()
         d8
@@ -14807,7 +15038,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [05 Cello_Music_Voice measure 410 / measure 105]                     %! baca.SegmentMaker._comment_measure_numbers()
         d4.
@@ -14865,7 +15097,8 @@ e_Cello_Music_Voice = {                                                        %
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [05 Cello_Music_Voice measure 411 / measure 106]                     %! baca.SegmentMaker._comment_measure_numbers()
         d8
@@ -14949,7 +15182,8 @@ e_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanBCP                                                      %! baca.bcps():stirrings_still.bcps():baca.BCPCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \times 4/3
+    {
 
         % [05 Cello_Music_Voice measure 413 / measure 108]                     %! baca.SegmentMaker._comment_measure_numbers()
         d8

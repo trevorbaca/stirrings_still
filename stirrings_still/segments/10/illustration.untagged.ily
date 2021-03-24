@@ -347,7 +347,8 @@ j_Violin_I_Music_Voice = {
     \bacaStartTextSpanMaterialAnnotation
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Violin_I_Music_Voice measure 542 / measure 4]
         \hide NoteHead
@@ -500,7 +501,8 @@ j_Violin_I_Music_Voice = {
     \bacaStartTextSpanBCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [10 Violin_I_Music_Voice measure 551 / measure 13]
         \hide NoteHead
@@ -557,7 +559,8 @@ j_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [10 Violin_I_Music_Voice measure 552 / measure 14]
         c''8
@@ -626,7 +629,8 @@ j_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [10 Violin_I_Music_Voice measure 553 / measure 15]
         \revert Accidental.stencil
@@ -734,7 +738,8 @@ j_Violin_I_Music_Voice = {
     \bacaStartTextSpanBCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [10 Violin_I_Music_Voice measure 555 / measure 17]
         e''8
@@ -861,7 +866,8 @@ j_Violin_II_Music_Voice = {
     <e' gs'!>2.
     <> \bacaStopTextSpanRhythmAnnotation
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Violin_II_Music_Voice measure 541 / measure 3]
         \override TupletBracket.staff-padding = 1
@@ -893,7 +899,8 @@ j_Violin_II_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f''8
         - \upbow
@@ -902,7 +909,8 @@ j_Violin_II_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f''8
         - \downbow
@@ -911,7 +919,8 @@ j_Violin_II_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Violin_II_Music_Voice measure 542 / measure 4]
         f''8
@@ -928,7 +937,8 @@ j_Violin_II_Music_Voice = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \times 2/3
+    {
 
         f''8
         - \downbow
@@ -1006,7 +1016,8 @@ j_Violin_II_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [10 Violin_II_Music_Voice measure 550 / measure 12]
         \override TupletBracket.direction = #down
@@ -1140,7 +1151,8 @@ j_Violin_II_Music_Voice = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 8/7
+    {
 
         % [10 Violin_II_Music_Voice measure 552 / measure 14]
         a'4
@@ -1194,7 +1206,8 @@ j_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [10 Violin_II_Music_Voice measure 553 / measure 15]
         b'8
@@ -1247,7 +1260,8 @@ j_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [10 Violin_II_Music_Voice measure 554 / measure 16]
         c''8
@@ -1476,7 +1490,8 @@ j_Viola_Music_Voice = {
     \bacaStartTextSpanMaterialAnnotation
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Viola_Music_Voice measure 542 / measure 4]
         \hide NoteHead
@@ -1562,7 +1577,8 @@ j_Viola_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [10 Viola_Music_Voice measure 550 / measure 12]
         \override TupletBracket.direction = #down
@@ -1644,7 +1660,8 @@ j_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [10 Viola_Music_Voice measure 551 / measure 13]
         \hide NoteHead
@@ -1781,7 +1798,8 @@ j_Viola_Music_Voice = {
     \bacaStartTextSpanBCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [10 Viola_Music_Voice measure 553 / measure 15]
         e'4.
@@ -1825,7 +1843,8 @@ j_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [10 Viola_Music_Voice measure 554 / measure 16]
         \hide NoteHead
@@ -1874,7 +1893,8 @@ j_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [10 Viola_Music_Voice measure 555 / measure 17]
         d'8
@@ -2029,7 +2049,8 @@ j_Cello_Music_Voice = {
     \bacaStartTextSpanMaterialAnnotation
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [10 Cello_Music_Voice measure 542 / measure 4]
         \hide NoteHead
@@ -2159,7 +2180,8 @@ j_Cello_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [10 Cello_Music_Voice measure 550 / measure 12]
         \once \override Beam.grow-direction = #right

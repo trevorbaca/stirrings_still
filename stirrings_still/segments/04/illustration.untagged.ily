@@ -1985,7 +1985,8 @@ d_Violin_I_Music_Voice = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         \once \override DynamicText.self-alignment-X = -1
         <e' cqs''!>4.
@@ -2096,7 +2097,8 @@ d_Violin_I_Music_Voice = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         \once \override DynamicText.self-alignment-X = -1
         <e' cqs''!>2.
@@ -2185,7 +2187,8 @@ d_Violin_I_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [04 Violin_I_Music_Voice measure 263 / measure 57]
         \override NoteHead.style = #'harmonic
@@ -2534,7 +2537,8 @@ d_Violin_I_Music_Voice = {
     <fs'! dqf''!>2.
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [04 Violin_I_Music_Voice measure 276 / measure 70]
         <fs'! dqf''!>4.
@@ -2554,7 +2558,8 @@ d_Violin_I_Music_Voice = {
     <fs'! dqf''!>2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [04 Violin_I_Music_Voice measure 279 / measure 73]
         <fs'! dqf''!>8
@@ -2574,7 +2579,8 @@ d_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [04 Violin_I_Music_Voice measure 280 / measure 74]
         <fs'! dqf''!>1
@@ -2592,7 +2598,8 @@ d_Violin_I_Music_Voice = {
     <fs'! dqf''!>4.
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [04 Violin_I_Music_Voice measure 282 / measure 76]
         <fs'! dqf''!>8
@@ -2606,7 +2613,8 @@ d_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [04 Violin_I_Music_Voice measure 283 / measure 77]
         <fs'! dqf''!>4
@@ -2632,7 +2640,8 @@ d_Violin_I_Music_Voice = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [04 Violin_I_Music_Voice measure 285 / measure 79]
         <fs'! dqf''!>8
@@ -2649,7 +2658,8 @@ d_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [04 Violin_I_Music_Voice measure 286 / measure 80]
         <fs'! dqf''!>2
@@ -2669,7 +2679,8 @@ d_Violin_I_Music_Voice = {
     :32
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [04 Violin_I_Music_Voice measure 288 / measure 82]
         <fs'! dqf''!>4
@@ -2866,7 +2877,8 @@ d_Violin_I_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [04 Violin_I_Music_Voice measure 303 / measure 97]
         bf'!4
@@ -2912,7 +2924,8 @@ d_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [04 Violin_I_Music_Voice measure 304 / measure 98]
         bf'!4
@@ -3799,7 +3812,8 @@ d_Violin_II_Music_Voice = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         \once \override DynamicText.self-alignment-X = -1
         <eqf'! c''>4.
@@ -3910,7 +3924,8 @@ d_Violin_II_Music_Voice = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         \once \override DynamicText.self-alignment-X = -1
         <eqf'! c''>2.
@@ -3999,7 +4014,8 @@ d_Violin_II_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [04 Violin_II_Music_Voice measure 263 / measure 57]
         \override NoteHead.style = #'harmonic
@@ -4327,7 +4343,8 @@ d_Violin_II_Music_Voice = {
     <cqs'! af'!>2.
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [04 Violin_II_Music_Voice measure 275 / measure 69]
         <cqs'! af'!>4
@@ -4359,7 +4376,8 @@ d_Violin_II_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [04 Violin_II_Music_Voice measure 278 / measure 72]
         <cqs'! af'!>2
@@ -4373,7 +4391,8 @@ d_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [04 Violin_II_Music_Voice measure 279 / measure 73]
         <cqs'! af'!>2
@@ -4398,7 +4417,8 @@ d_Violin_II_Music_Voice = {
     <cqs'! af'!>4.
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [04 Violin_II_Music_Voice measure 281 / measure 75]
         <cqs'! af'!>8
@@ -4416,7 +4436,8 @@ d_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [04 Violin_II_Music_Voice measure 282 / measure 76]
         <cqs'! af'!>4
@@ -4441,7 +4462,8 @@ d_Violin_II_Music_Voice = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [04 Violin_II_Music_Voice measure 284 / measure 78]
         <cqs'! af'!>8
@@ -5612,7 +5634,8 @@ d_Viola_Music_Voice = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         \once \override DynamicText.self-alignment-X = -1
         <cs'! gqs'!>4.
@@ -5770,7 +5793,8 @@ d_Viola_Music_Voice = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         \once \override DynamicText.self-alignment-X = -1
         <cs'! gqs'!>2.
@@ -6129,7 +6153,8 @@ d_Viola_Music_Voice = {
     <b, aqs!>2.
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [04 Viola_Music_Voice measure 275 / measure 69]
         <b, aqs!>2
@@ -6149,7 +6174,8 @@ d_Viola_Music_Voice = {
     <b, aqs!>2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [04 Viola_Music_Voice measure 278 / measure 72]
         <b, aqs!>8
@@ -6179,7 +6205,8 @@ d_Viola_Music_Voice = {
     <b, aqs!>2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [04 Viola_Music_Voice measure 280 / measure 74]
         <b, aqs!>4
@@ -6197,7 +6224,8 @@ d_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [04 Viola_Music_Voice measure 281 / measure 75]
         <b, aqs!>8
@@ -6219,7 +6247,8 @@ d_Viola_Music_Voice = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [04 Viola_Music_Voice measure 283 / measure 77]
         <b, aqs!>4
@@ -6234,7 +6263,8 @@ d_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [04 Viola_Music_Voice measure 284 / measure 78]
         <b, aqs!>8
@@ -6265,7 +6295,8 @@ d_Viola_Music_Voice = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [04 Viola_Music_Voice measure 286 / measure 80]
         <b, aqs!>1
@@ -6414,7 +6445,8 @@ d_Viola_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [04 Viola_Music_Voice measure 303 / measure 97]
         af'!4
@@ -6462,7 +6494,8 @@ d_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [04 Viola_Music_Voice measure 304 / measure 98]
         af'!4

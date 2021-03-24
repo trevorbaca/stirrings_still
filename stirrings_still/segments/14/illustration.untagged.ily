@@ -778,7 +778,8 @@ n_Violin_I_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [14 Violin_I_Music_Voice measure 683 / measure 26]
         <a fqs'!>4
@@ -866,7 +867,8 @@ n_Violin_I_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [14 Violin_I_Music_Voice measure 685 / measure 28]
         <a fqs'!>2
@@ -916,7 +918,8 @@ n_Violin_I_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [14 Violin_I_Music_Voice measure 687 / measure 30]
         <a fqs'!>8
@@ -971,7 +974,8 @@ n_Violin_I_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [14 Violin_I_Music_Voice measure 689 / measure 32]
         <a fqs'!>8
@@ -1045,7 +1049,8 @@ n_Violin_I_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [14 Violin_I_Music_Voice measure 690 / measure 33]
         <a fqs'!>2..
@@ -1105,7 +1110,8 @@ n_Violin_I_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [14 Violin_I_Music_Voice measure 692 / measure 35]
         <a fqs'!>4
@@ -1556,7 +1562,8 @@ n_Violin_II_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [14 Violin_II_Music_Voice measure 682 / measure 25]
         <fs! dqs'!>4.
@@ -1629,7 +1636,8 @@ n_Violin_II_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 5/7
+    {
 
         % [14 Violin_II_Music_Voice measure 684 / measure 27]
         <fs! dqs'!>4
@@ -1666,7 +1674,8 @@ n_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Violin_II_Music_Voice measure 685 / measure 28]
         <fs! dqs'!>8
@@ -1752,7 +1761,8 @@ n_Violin_II_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [14 Violin_II_Music_Voice measure 688 / measure 31]
         \hide NoteHead
@@ -1784,7 +1794,8 @@ n_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [14 Violin_II_Music_Voice measure 689 / measure 32]
         <fs! dqs'!>2
@@ -1857,7 +1868,8 @@ n_Violin_II_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [14 Violin_II_Music_Voice measure 691 / measure 34]
         <fs! dqs'!>8
@@ -1894,7 +1906,8 @@ n_Violin_II_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [14 Violin_II_Music_Voice measure 692 / measure 35]
         <fs! dqs'!>2
@@ -2388,7 +2401,8 @@ n_Viola_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [14 Viola_Music_Voice measure 683 / measure 26]
         <c aqs!>8
@@ -2429,7 +2443,8 @@ n_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [14 Viola_Music_Voice measure 684 / measure 27]
         <c aqs!>8
@@ -2511,7 +2526,8 @@ n_Viola_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [14 Viola_Music_Voice measure 687 / measure 30]
         <c aqs!>8
@@ -2587,7 +2603,8 @@ n_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [14 Viola_Music_Voice measure 688 / measure 31]
         <c aqs!>2.
@@ -2647,7 +2664,8 @@ n_Viola_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [14 Viola_Music_Voice measure 690 / measure 33]
         <c aqs!>2
@@ -2697,7 +2715,8 @@ n_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [14 Viola_Music_Voice measure 691 / measure 34]
         <c aqs!>4
@@ -3270,7 +3289,8 @@ n_Cello_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [14 Cello_Music_Voice measure 680 / measure 23]
         <b, gqs!>8
@@ -3337,7 +3357,8 @@ n_Cello_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [14 Cello_Music_Voice measure 682 / measure 25]
         <b, gqs!>2
@@ -3368,7 +3389,8 @@ n_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [14 Cello_Music_Voice measure 683 / measure 26]
         <b, gqs!>4.
@@ -3477,7 +3499,8 @@ n_Cello_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [14 Cello_Music_Voice measure 687 / measure 30]
         <b, gqs!>2
@@ -3552,7 +3575,8 @@ n_Cello_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [14 Cello_Music_Voice measure 689 / measure 32]
         <b, gqs!>4
@@ -3602,7 +3626,8 @@ n_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [14 Cello_Music_Voice measure 690 / measure 33]
         <b, gqs!>4.
@@ -3684,7 +3709,8 @@ n_Cello_Music_Voice = {
     \bacaStartTextSpanSCP
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \times 7/9
+    {
 
         % [14 Cello_Music_Voice measure 692 / measure 35]
         <b, gqs!>4.

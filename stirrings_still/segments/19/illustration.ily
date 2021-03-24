@@ -438,7 +438,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 840 / measure 1]                    %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -574,7 +575,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 842 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -651,7 +653,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 843 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -761,7 +764,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 845 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -847,7 +851,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 846 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -931,7 +936,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 847 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -1048,7 +1054,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 849 / measure 10]                   %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -1131,7 +1138,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 850 / measure 11]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -1208,7 +1216,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 851 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -1283,7 +1292,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 852 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -1358,7 +1368,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 853 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -1424,7 +1435,8 @@ s_Violin_I_Music_Voice = {                                                     %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_I_Music_Voice measure 854 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -1609,7 +1621,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 840 / measure 1]                   %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1742,7 +1755,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 842 / measure 3]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -1819,7 +1833,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 843 / measure 4]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -1920,7 +1935,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 845 / measure 6]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -2003,7 +2019,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 846 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -2078,7 +2095,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 847 / measure 8]                   %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -2189,7 +2207,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 849 / measure 10]                  %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -2269,7 +2288,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 850 / measure 11]                  %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -2337,7 +2357,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 851 / measure 12]                  %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -2409,7 +2430,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 852 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
@@ -2475,7 +2497,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 853 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #left
@@ -2541,7 +2564,8 @@ s_Violin_II_Music_Voice = {                                                    %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [19 Violin_II_Music_Voice measure 854 / measure 15]                  %! baca.SegmentMaker._comment_measure_numbers()
         \once \override Beam.grow-direction = #right
