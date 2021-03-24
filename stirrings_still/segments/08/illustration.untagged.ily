@@ -925,7 +925,8 @@ h_Violin_I_Music_Voice = {
                     c'4
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -1319,7 +1320,8 @@ h_Violin_I_Music_Voice = {
                     c'1..
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -1565,7 +1567,8 @@ h_Violin_I_Music_Voice = {
                     c'1...
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -1679,7 +1682,8 @@ h_Violin_I_Music_Voice = {
                     c'\breve.
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -2227,7 +2231,8 @@ h_Violin_II_Music_Voice = {
                     c'1..
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -2555,7 +2560,8 @@ h_Violin_II_Music_Voice = {
                     c'1..
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -2823,7 +2829,8 @@ h_Violin_II_Music_Voice = {
                     c'1...
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -2933,7 +2940,8 @@ h_Violin_II_Music_Voice = {
                     c'\breve.
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -3490,7 +3498,8 @@ h_Viola_Music_Voice = {
                     c'4
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -3833,7 +3842,8 @@ h_Viola_Music_Voice = {
                     c'1..
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -4073,7 +4083,8 @@ h_Viola_Music_Voice = {
                     c'1...
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -4183,7 +4194,8 @@ h_Viola_Music_Voice = {
                     c'\breve.
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }

@@ -2179,7 +2179,8 @@ d_Violin_I_Music_Voice = {
                     c'1
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
@@ -3992,7 +3993,8 @@ d_Violin_II_Music_Voice = {
                     c'1
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
