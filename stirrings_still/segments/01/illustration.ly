@@ -10,6 +10,7 @@
 %! baca.SegmentMaker._make_lilypond_file()
 %! abjad.LilyPondFile._get_formatted_includes()
 \include "stylesheet.ily" %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
+%! ide.Path.extern()
 \include "illustration.ily" %! ide.Path.extern()
 
 %! baca.SegmentMaker._make_lilypond_file()
@@ -43,6 +44,7 @@
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalSkips = "Global_Skips" %! abjad.ScoreTemplate._make_global_context()
                 %! abjad.ScoreTemplate._make_global_context()
+                %! ide.Path.extern()
                 \a_Global_Skips %! ide.Path.extern()
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -63,6 +65,7 @@
                     %! stirrings_still.ScoreTemplate.__call__()
                     \context Staff = "Violin_I_Music_Staff" %! stirrings_still.ScoreTemplate.__call__()
                     %! stirrings_still.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Violin_I_Music_Staff %! ide.Path.extern()
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -70,6 +73,7 @@
                     %! stirrings_still.ScoreTemplate.__call__()
                     \context Staff = "Violin_II_MusicStaff" %! stirrings_still.ScoreTemplate.__call__()
                     %! stirrings_still.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Violin_II_MusicStaff %! ide.Path.extern()
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -77,6 +81,7 @@
                     %! stirrings_still.ScoreTemplate.__call__()
                     \context Staff = "Viola_Music_Staff" %! stirrings_still.ScoreTemplate.__call__()
                     %! stirrings_still.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Viola_Music_Staff %! ide.Path.extern()
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -84,6 +89,7 @@
                     %! stirrings_still.ScoreTemplate.__call__()
                     \context Staff = "Cello_Music_Staff" %! stirrings_still.ScoreTemplate.__call__()
                     %! stirrings_still.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Cello_Music_Staff %! ide.Path.extern()
 
                 %! stirrings_still.ScoreTemplate.__call__()
