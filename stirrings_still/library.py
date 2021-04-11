@@ -631,8 +631,17 @@ def circles(
     """
     Makes circle rhythm with ``duration``.
     """
-    divisions = baca.sequence().fuse()
-    divisions = divisions.split_divisions([duration], cyclic=True, remainder=remainder)
+
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.fuse()
+        divisions = divisions.split_divisions(
+            [duration],
+            cyclic=True,
+            remainder=remainder,
+        )
+        return divisions
+
     command = baca.rhythm(
         rmakers.note(),
         *commands,
@@ -641,7 +650,7 @@ def circles(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.reduce_multiplier(),
-        preprocessor=divisions,
+        preprocessor=preprocessor,
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.circles()")
@@ -659,14 +668,21 @@ def clockticks(
     """
     Makes clockticks.
     """
+
+    def preprocessor_(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.fuse()
+        divisions = divisions.split_divisions([(1, 4)], cyclic=True)
+        return divisions
+
     if displace:
-        divisions = None
+        preprocessor = None
         counts = [1, -1]
     elif encroach:
-        divisions = baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True)
+        preprocessor = preprocessor_
         counts = [2, -1]
     else:
-        divisions = baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True)
+        preprocessor = preprocessor_
         counts = [1, -2]
 
     command = baca.rhythm(
@@ -675,7 +691,7 @@ def clockticks(
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
-        preprocessor=divisions,
+        preprocessor=preprocessor,
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.clockticks()")
@@ -764,19 +780,26 @@ def declamation(
     )
 
     if protract is True:
-        split = baca.sequence().split_divisions([(1, 4)])
+
+        def preprocessor(divisions):
+            divisions = baca.Sequence(divisions)
+            divisions = divisions.map(
+                lambda _: baca.Sequence(_).split_divisions([(1, 4)])
+            )
+            return divisions
+
         command = baca.rhythm(
             rmakers.bind(
                 rmakers.assign(tuplet_rhythm_maker, abjad.index([0])),
                 rmakers.assign(note_rhythm_maker),
             ),
-            preprocessor=baca.sequence().map(split),
+            preprocessor=preprocessor,
             measures=measures,
         )
     else:
         command = baca.rhythm(
             tuplet_rhythm_maker,
-            preprocessor=baca.sequence().fuse().split_divisions([(1, 4)]),
+            preprocessor=lambda _: baca.Sequence(_).fuse().split_divisions([(1, 4)]),
             measures=measures,
         )
     tag = abjad.Tag("stirrings_still.declamation()")
@@ -5756,12 +5779,16 @@ def pickets(
     """
 
     assert isinstance(fuse, int)
-    durations = [(fuse, 4)]
-    divisions = (
-        baca.sequence()
-        .fuse()
-        .split_divisions(durations, cyclic=True, remainder=abjad.Left)
-    )
+
+    def preprocessor(divisions):
+        divisions = baca.Sequence(divisions)
+        divisions = divisions.fuse()
+        divisions = divisions.split_divisions(
+            [(fuse, 4)],
+            cyclic=True,
+            remainder=abjad.Left,
+        )
+        return divisions
 
     assert isinstance(extra_count, int), repr(extra_count)
     counts = 4 + extra_count
@@ -5774,7 +5801,7 @@ def pickets(
         rmakers.rewrite_sustained(),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        preprocessor=divisions,
+        preprocessor=preprocessor,
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.pickets()")
@@ -5808,7 +5835,9 @@ def running_quarter_divisions(
         rmakers.tuplet([ratio]),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        preprocessor=baca.sequence().fuse().split_divisions([(1, 4)], cyclic=True),
+        preprocessor=lambda _: baca.Sequence(_)
+        .fuse()
+        .split_divisions([(1, 4)], cyclic=True),
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.running_quarter_divisions()")
@@ -9834,7 +9863,9 @@ def to_flight(
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         rmakers.extract_trivial(),
-        preprocessor=baca.sequence().fuse().split_divisions(divisions, cyclic=True),
+        preprocessor=lambda _: baca.Sequence(_)
+        .fuse()
+        .split_divisions(divisions, cyclic=True),
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.to_flight()")
