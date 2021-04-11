@@ -869,7 +869,7 @@ systems_per_page = 3
 total_measures = 859
 page_count = total_measures / float(systems_per_page * measures_per_system)
 page_count = math.ceil(page_count)
-mm = baca.sequence(
+mm = baca.Sequence(
     [_ * measures_per_system + last_system_start
     for _ in range(1, systems_per_page * page_count + 1)]
 )

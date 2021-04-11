@@ -325,7 +325,7 @@ spacing.override((864, 871), (1, 12))
 '''
 last_system_start = 541
 last_complete_page = 17
-mm = baca.sequence([_ * 16 + last_system_start for _ in range(1, 30)])
+mm = baca.Sequence([_ * 16 + last_system_start for _ in range(1, 30)])
 pairs = mm.partition_by_counts([2], cyclic=True)
 string = """    baca.page(
         baca.system(
