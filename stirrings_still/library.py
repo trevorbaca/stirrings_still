@@ -59,19 +59,19 @@ metronome_marks = abjad.OrderedDict(
 
 time_signature_series = abjad.OrderedDict()
 
-numerators = baca.sequence([[3, 4, 4], [3, 4, 5, 6]])
+numerators = baca.Sequence([[3, 4, 4], [3, 4, 5, 6]])
 numerators = numerators.helianthate(-1, 1).flatten()
 assert len(numerators) == 84
 _time_signatures = [abjad.TimeSignature((_, 4)) for _ in numerators]
 time_signature_series["A"] = _time_signatures
 
-numerators = baca.sequence([[6, 7, 7], [4, 5], [6, 8, 8]])
+numerators = baca.Sequence([[6, 7, 7], [4, 5], [6, 8, 8]])
 numerators = numerators.helianthate(-1, 1).flatten()
 assert len(numerators) == 48
 _time_signatures = [abjad.TimeSignature((_, 8)) for _ in numerators]
 time_signature_series["B"] = _time_signatures
 
-numerators = baca.sequence([[8, 12, 12], [14, 14, 16, 16], [10, 12]])
+numerators = baca.Sequence([[8, 12, 12], [14, 14, 16, 16], [10, 12]])
 numerators = numerators.helianthate(-1, 1).flatten()
 assert len(numerators) == 108
 _time_signatures = [abjad.TimeSignature((_, 16)) for _ in numerators]
@@ -494,7 +494,7 @@ def accelerando(
         rmakers.accelerando([start, stop, (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-        preprocessor=baca.sequence().fuse(),
+        preprocessor=lambda _: baca.Sequence(_).fuse(),
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.accelerando()")
@@ -514,7 +514,7 @@ def bcps(
     Makes bow contact points.
     """
     assert staff_padding is not None, repr(staff_padding)
-    bcps = baca.sequence(
+    bcps = baca.Sequence(
         [
             [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7)],
             [(7, 7), (0, 7), (7, 7), (0, 7), (7, 7)],
@@ -571,7 +571,7 @@ def cello_cell() -> baca.RhythmCommand:
         rmakers.talea([3, 1, 2, 2], 16),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        preprocessor=baca.sequence().fuse().quarters(),
+        preprocessor=lambda _: baca.Sequence(_).fuse().quarters(),
     )
     tag = abjad.Tag("stirrings_still.cello_cell()")
     result = baca.tag(tag, command)
@@ -841,7 +841,7 @@ def eighths() -> baca.RhythmCommand:
     command = baca.rhythm(
         rmakers.talea([1], 8),
         rmakers.extract_trivial(),
-        preprocessor=baca.sequence().fuse(),
+        preprocessor=lambda _: baca.Sequence(_).fuse(),
     )
     tag = abjad.Tag("stirrings_still.eighths()")
     result = baca.tag(tag, command)
@@ -4243,7 +4243,7 @@ def first_order_stages(segment):
     """
     series, rotation, stages = stage_to_time_signatures[segment]
     series = time_signature_series[series]
-    series = baca.sequence(series).rotate(rotation)
+    series = baca.Sequence(series).rotate(rotation)
     series = abjad.CyclicTuple(series)
     fermatas = ("very_short", "short", "fermata", "long", "very_long")
     time_signatures, fermata_measures = [], []
@@ -4402,9 +4402,9 @@ def flight(
 
     counts_ = {"A": counts_a, "B": counts_b, "C": counts_c}[counts]
 
-    counts_ = baca.sequence(counts_)
+    counts_ = baca.Sequence(counts_)
     counts_ = counts_[start:]
-    extra_counts = baca.sequence([1, 0, 2]).rotate(n=rotation)
+    extra_counts = baca.Sequence([1, 0, 2]).rotate(n=rotation)
 
     command = baca.rhythm(
         rmakers.talea(counts_, 8, extra_counts=extra_counts),
@@ -4447,7 +4447,7 @@ def grid(*, rotation: int, measures: baca.SliceTyping = None) -> baca.RhythmComm
     """
     Makes grid.
     """
-    counts = baca.sequence([1, -3, 1, -3, 1, -2])
+    counts = baca.Sequence([1, -3, 1, -3, 1, -2])
     counts = counts.rotate(n=rotation)
 
     command = baca.rhythm(
@@ -4472,7 +4472,7 @@ def grid_to_trajectory(
     """
     Makes grid-to-trajectory transition.
     """
-    counts_ = {0: baca.sequence([2, 14, 2, 10, 2, 18])}[counts]
+    counts_ = {0: baca.Sequence([2, 14, 2, 10, 2, 18])}[counts]
     counts_ = counts_.rotate(n=rotation)
     assert isinstance(extra, int), repr(extra)
     extra_counts = [extra]
@@ -4583,7 +4583,7 @@ def multistage_leaf_glissando(
     commands.append(command)
 
     start, stop = 0, None
-    for pair_1, pair_2 in baca.sequence(pairs).nwise():
+    for pair_1, pair_2 in baca.Sequence(pairs).nwise():
         start_pitch, leaf_count = pair_1
         stop_pitch = pair_2[0]
         assert isinstance(start_pitch, str), repr(start_pitch)
@@ -9667,7 +9667,7 @@ def strokes(
         rmakers.extract_trivial(),
         rmakers.split_measures(),
         measures=measures,
-        preprocessor=baca.sequence().rotate(n=rotation),
+        preprocessor=lambda _: baca.Sequence(_).rotate(n=rotation),
     )
     tag = abjad.Tag("stirrings_still.strokes()")
     result = baca.tag(tag, command)
@@ -9685,7 +9685,7 @@ def synchronized_circles(
     """
     Makes rhythm for synchronized circles.
     """
-    counts = baca.sequence([3, -2, 3, -2, 3, -2, 3, -1])
+    counts = baca.Sequence([3, -2, 3, -2, 3, -2, 3, -1])
     rotation *= 2
     counts = counts.rotate(n=rotation)
     if not gaps:
@@ -9747,7 +9747,7 @@ def talea_eighths(
     assert isinstance(extra, int), extra
     extra_counts = [extra]
     assert isinstance(rotation, int), rotation
-    counts_ = baca.sequence(counts)
+    counts_ = baca.Sequence(counts)
     counts_ = counts_.rotate(n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts), repr(end_counts)
@@ -9859,11 +9859,11 @@ def trajectories(
         "B": [1, 2, 2, 3],
         "C": [1, 2, 3, 1, 1, 2, 3, 1, 1, 1, 2, 3],
     }[counts]
-    counts_ = baca.sequence(counts__)
+    counts_ = baca.Sequence(counts__)
     counts_ = counts_.rotate(n=rotation)
     if end_counts is not None:
         assert all(isinstance(_, int) for _ in end_counts)
-    extra_counts = baca.sequence([1, 1, 0, -1])
+    extra_counts = baca.Sequence([1, 1, 0, -1])
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
 
     command = baca.rhythm(

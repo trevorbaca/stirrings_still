@@ -53,10 +53,13 @@ maker(
 )
 
 """
-permutation = baca.sequence([1, 3, 5, 4, 2, 0])
-operand = baca.sequence().permute(permutation)
-mask = baca.sequence([0, 1, 1, 0, 0, 1])
-for item in baca.sequence([mask]).accumulate([operand]):
+def operand(argument):
+    permutation = baca.Sequence([1, 3, 5, 4, 2, 0])
+    argument = baca.Sequence(argument).permute(permutation)
+    return argument
+
+mask = baca.Sequence([0, 1, 1, 0, 0, 1])
+for item in baca.Sequence([mask]).accumulate([operand]):
     print(item)
 
 Sequence([Sequence([0, 1, 1, 0, 0, 1])])
