@@ -251,6 +251,16 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
+def measure_starts_plus_rest(argument):
+    selection_1 = baca.Selection(argument)
+    selection_1 = selection_1.cmgroups()
+    selection_1 = selection_1.map(baca.leaf(0))
+    selection_2 = baca.Selection(argument)
+    selection_2 = selection_2.leaves()
+    selection_2 = selection_2[-1:]
+    selection = selection_1 + selection_2
+    return selection
+
 maker(
     ("v1", (63, 78)),
     baca.hairpin(
@@ -266,7 +276,7 @@ maker(
     stirrings_still.bcps(
         0,
         clt=True,
-        selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+        selector=measure_starts_plus_rest,
         staff_padding=4.5,
     ),
     stirrings_still.running_quarter_divisions(4),
@@ -862,7 +872,7 @@ maker(
     stirrings_still.bcps(
         0,
         clt=True,
-        selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+        selector=measure_starts_plus_rest,
         staff_padding=4.5,
     ),
     stirrings_still.running_quarter_divisions(3),
@@ -1053,7 +1063,7 @@ maker(
     stirrings_still.bcps(
         0,
         clt=True,
-        selector=baca.cmgroups().map(baca.leaf(0)) + baca.leaves()[-1:],
+        selector=measure_starts_plus_rest,
         staff_padding=4.5,
     ),
     stirrings_still.running_quarter_divisions(2),
