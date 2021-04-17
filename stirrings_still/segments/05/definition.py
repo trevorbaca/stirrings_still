@@ -251,6 +251,7 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
+
 def measure_starts_plus_rest(argument):
     selection_1 = baca.Selection(argument)
     selection_1 = selection_1.cmgroups()
@@ -260,6 +261,7 @@ def measure_starts_plus_rest(argument):
     selection_2 = selection_2[-1:]
     selection = selection_1 + selection_2
     return selection
+
 
 maker(
     ("v1", (63, 78)),
