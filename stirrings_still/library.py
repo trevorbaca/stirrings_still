@@ -783,8 +783,8 @@ def declamation(
 
         def preprocessor(divisions):
             divisions = baca.Sequence(divisions)
-            divisions = divisions.map(
-                lambda _: baca.Sequence(_).split_divisions([(1, 4)])
+            divisions = baca.Sequence(
+                baca.Sequence(_).split_divisions([(1, 4)]) for _ in divisions
             )
             return divisions
 
@@ -9689,8 +9689,8 @@ def strokes(
             spelling=rmakers.Spelling(forbidden_note_duration=(1, 2)),
         ),
         *commands,
-        rmakers.untie(baca.tuplets().map(baca.leaves()[:-1])),
-        rmakers.tie(baca.tuplets().map(baca.leaves()[:-1])),
+        rmakers.untie(baca.leaves_in_each_tuplet(None, -1)),
+        rmakers.tie(baca.leaves_in_each_tuplet(None, -1)),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),

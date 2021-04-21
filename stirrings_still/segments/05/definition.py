@@ -255,7 +255,7 @@ maker(
 def measure_starts_plus_rest(argument):
     selection_1 = baca.Selection(argument)
     selection_1 = selection_1.cmgroups()
-    selection_1 = selection_1.map(baca.leaf(0))
+    selection_1 = baca.Selection(baca.Selection(_).leaf(0) for _ in selection_1)
     selection_2 = baca.Selection(argument)
     selection_2 = selection_2.leaves()
     selection_2 = selection_2[-1:]
