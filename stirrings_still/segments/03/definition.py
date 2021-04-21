@@ -506,38 +506,48 @@ maker(
     ),
 )
 
+
+def grouped_pheads(start=0, stop=None):
+    def selector(argument):
+        selection = baca.Selection(argument).pheads()
+        selection = selection[start:stop]
+        return baca.Selection([baca.Selection(_).group() for _ in selection])
+
+    return selector
+
+
 maker(
     ("tutti", (36, 55)),
     baca.hairpin(
         "pp pp p p mp mp",
         bookend=False,
         measures=(36, 39),
-        pieces=baca.pheads().map(baca.group()),
+        pieces=grouped_pheads(),
     ),
     baca.hairpin(
         "mf mp mp p p pp pp",
         bookend=False,
         measures=(40, 43),
-        pieces=baca.pheads().map(baca.group()),
+        pieces=grouped_pheads(),
     ),
     baca.hairpin(
         "pp pp p mp mf",
         bookend=False,
         measures=(44, 47),
-        pieces=baca.pheads().map(baca.group()),
+        pieces=grouped_pheads(),
     ),
     baca.hairpin(
         "f mf mp mp p p pp",
         bookend=False,
         measures=(48, 51),
-        pieces=baca.pheads().map(baca.group()),
+        pieces=grouped_pheads(),
     ),
     baca.hairpin(
         # "pp p mp mf f ff",
         "pp p mp mf f",
         bookend=False,
         measures=(52, 55),
-        pieces=baca.pheads()[:-1].map(baca.group()),
+        pieces=grouped_pheads(None, -1),
     ),
 )
 

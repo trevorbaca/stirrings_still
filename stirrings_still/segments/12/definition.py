@@ -37,6 +37,25 @@ stirrings_still.time(maker, time)
 
 # v1
 
+
+def lleak_tuplet_pleaves(indices):
+    def selector(argument):
+        selection = baca.Selection(argument).tuplets().get(indices)
+        selection = [baca.Selection(_).pleaves().lleak() for _ in selection]
+        return baca.Selection(selection)
+
+    return selector
+
+
+def nonlast_tuplet_pleaves(indices):
+    def selector(argument):
+        selection = baca.Selection(argument).tuplets().get(indices)
+        selection = [baca.Selection(_).pleaves()[:-1] for _ in selection]
+        return baca.Selection(selection)
+
+    return selector
+
+
 maker(
     "v1",
     baca.dls_staff_padding(7),
@@ -74,10 +93,10 @@ maker(
         0,
         -3,
         rmakers.untie(
-            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
         rmakers.tie(
-            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
     ),
 )
@@ -204,10 +223,10 @@ maker(
         -1,
         -2,
         rmakers.untie(
-            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
         rmakers.tie(
-            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
     ),
 )
@@ -324,10 +343,10 @@ maker(
         -2,
         -1,
         rmakers.untie(
-            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves().lleak()),
+            lleak_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
         rmakers.tie(
-            baca.tuplets().get([2, 6, 10, 14, 15]).map(baca.pleaves()[:-1]),
+            nonlast_tuplet_pleaves([2, 6, 10, 14, 15]),
         ),
     ),
 )
