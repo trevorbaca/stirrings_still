@@ -216,7 +216,7 @@ maker(
     ),
     baca.hairpin(
         "p -- ! >o niente",
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
         selector=baca.leaves().rleak(),
     ),
     baca.text_spanner(
@@ -422,7 +422,7 @@ maker(
     ),
     baca.hairpin(
         "p -- ! >o niente",
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
         selector=baca.leaves().rleak(),
     ),
     baca.text_spanner(
@@ -577,7 +577,7 @@ maker(
     ),
     baca.hairpin(
         "p -- ! >o niente",
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
         selector=baca.leaves().rleak(),
     ),
     baca.text_spanner(
@@ -744,7 +744,7 @@ maker(
     baca.flat_glissando("B1"),
     baca.hairpin(
         "p -- ! >o niente",
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
         selector=baca.leaves().rleak(),
     ),
     baca.tasto_spanner(

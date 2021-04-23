@@ -246,7 +246,7 @@ maker(
             baca.stop_on_string(
                 selector=baca.leaf(-1),
             ),
-            map=baca.logical_ties(nontrivial=True),
+            map=baca.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),
@@ -382,7 +382,7 @@ maker(
     ("vc", [1, 3, 7, 9]),
     baca.hairpin(
         "o< f >o !",
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -406,7 +406,7 @@ maker(
     ("vc", 11),
     baca.hairpin(
         "o< f -- !",
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -415,7 +415,7 @@ maker(
     ("vc", 14),
     baca.hairpin(
         "f -- ! >o niente",
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves().rleak(),
     ),
 )

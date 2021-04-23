@@ -175,7 +175,7 @@ maker(
     baca.scp_spanner(
         "T -> P -> T -> P =|",
         abjad.tweak(5.5).staff_padding,
-        pieces=baca.lparts([1, 2, 1, 4 + 1]),
+        pieces=baca.selectors.lparts([1, 2, 1, 4 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -245,7 +245,7 @@ maker(
     ),
     baca.hairpin(
         "p <| mp p < mp",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
     baca.new(
         baca.repeat_tie(baca.pleaf(0)),
@@ -505,7 +505,7 @@ maker(
     baca.hairpin(
         "mp p",
         bookend=False,
-        pieces=baca.logical_ties(nontrivial=True),
+        pieces=baca.lts(nontrivial=True),
     ),
     baca.new(
         stirrings_still.strokes(
@@ -542,7 +542,7 @@ maker(
     baca.hairpin(
         "mf mp",
         bookend=False,
-        pieces=baca.logical_ties(nontrivial=True),
+        pieces=baca.lts(nontrivial=True),
     ),
     baca.new(
         stirrings_still.strokes(
@@ -579,7 +579,7 @@ maker(
     baca.hairpin(
         '"f" mf',
         bookend=False,
-        pieces=baca.logical_ties(nontrivial=True),
+        pieces=baca.lts(nontrivial=True),
     ),
     baca.new(
         stirrings_still.strokes(
@@ -616,7 +616,7 @@ maker(
     baca.hairpin(
         '"ff" "f"',
         bookend=False,
-        pieces=baca.logical_ties(nontrivial=True),
+        pieces=baca.lts(nontrivial=True),
     ),
     baca.new(
         stirrings_still.strokes(
@@ -706,7 +706,7 @@ maker(
             baca.stem_tremolo(
                 selector=baca.leaf(-1),
             ),
-            map=baca.logical_ties(nontrivial=True),
+            map=baca.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),
@@ -729,7 +729,7 @@ maker(
             baca.stop_on_string(
                 selector=baca.leaf(-1),
             ),
-            map=baca.logical_ties(nontrivial=True),
+            map=baca.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),
@@ -777,7 +777,7 @@ maker(
     baca.scp_spanner(
         "T -> P -> T -> P =|",
         abjad.tweak(5.5).staff_padding,
-        pieces=baca.lparts([2, 1, 1, 4 + 1]),
+        pieces=baca.selectors.lparts([2, 1, 1, 4 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -962,7 +962,7 @@ maker(
     ),
     baca.new(
         baca.hairpin("niente o< p"),
-        map=baca.cmgroups()[:3].group(),
+        map=lambda _: baca.Selection(_).cmgroups()[:3].group(),
     ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
@@ -1033,7 +1033,7 @@ maker(
             baca.stem_tremolo(
                 selector=baca.leaf(-1),
             ),
-            map=baca.logical_ties(nontrivial=True),
+            map=baca.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),
@@ -1046,7 +1046,7 @@ maker(
             baca.stop_on_string(
                 selector=baca.leaf(-1),
             ),
-            map=baca.logical_ties(nontrivial=True),
+            map=baca.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),

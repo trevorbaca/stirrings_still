@@ -570,14 +570,14 @@ maker(
     ("vc", [52, 55]),
     baca.hairpin(
         "o< f -- !",
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves().rleak(),
         match=0,
     ),
     baca.hairpin(
         "f -- ! >o !",
         match=1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves().rleak(),
     ),
     baca.pitch("B1"),

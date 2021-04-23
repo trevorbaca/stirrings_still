@@ -445,7 +445,7 @@ maker(
     ),
     baca.hairpin(
         "p <| mp p < mp",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
     baca.new(
         stirrings_still.breathe(
@@ -1553,7 +1553,7 @@ maker(
     ),
     stirrings_still.trajectories("B", 0, 0),
     # stage 2:
-    baca.tie(baca.lleaf(0)),
+    baca.tie(baca.selectors.lleaf(0)),
     # stage 3:
     stirrings_still.multistage_leaf_glissando(
         [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", None)],

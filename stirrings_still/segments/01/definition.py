@@ -248,7 +248,7 @@ maker(
     ),
     baca.hairpin(
         "p <| f p < mp",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
     baca.scp_spanner(
         "tasto (T) =|",
@@ -281,7 +281,7 @@ maker(
     ),
     baca.hairpin(
         "p <| f p < mf",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
 )
 
@@ -300,7 +300,7 @@ maker(
     ),
     baca.hairpin(
         "p <| f p < mf-poco-scratch",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
 )
 
@@ -312,7 +312,7 @@ maker(
     ),
     baca.hairpin(
         "p <| f p < f-poco-scratch",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
 )
 
@@ -355,7 +355,7 @@ maker(
     ),
     baca.hairpin(
         "pp <| p pp <| p",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
 )
 
@@ -386,7 +386,7 @@ maker(
     ),
     baca.hairpin(
         "pp <| p pp <| mp",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
 )
 
@@ -398,7 +398,7 @@ maker(
     ),
     baca.hairpin(
         "pp <| p pp <| mf",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
 )
 
@@ -423,7 +423,7 @@ maker(
     ),
     baca.hairpin(
         "pp <| p pp <| f",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
 )
 
@@ -455,7 +455,7 @@ maker(
     ),
     baca.hairpin(
         "pp <| p pp <| ff",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
 )
 
@@ -493,7 +493,7 @@ maker(
     ),
     baca.hairpin(
         "p <| f p < mp",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
     baca.stop_on_string(
         selector=baca.pleaf(-1),
@@ -788,7 +788,7 @@ maker(
     ("vc", 27),
     baca.hairpin(
         "niente o< f >o !",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.pitch("B1"),

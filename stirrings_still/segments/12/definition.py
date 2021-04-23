@@ -436,7 +436,7 @@ maker(
     baca.hairpin(
         "p < ff ff > p < ff ff > p < fff fff > p < fff",
         measures=(1, 15),
-        pieces=baca.cmgroups([2, 1, 1]),
+        pieces=baca.selectors.cmgroups([2, 1, 1]),
     ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(

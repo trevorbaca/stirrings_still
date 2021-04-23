@@ -298,7 +298,7 @@ maker(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.cmgroups([1, 1, 1, 1, 2, 1]),
+        pieces=baca.selectors.cmgroups([1, 1, 1, 1, 2, 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.scp_spanner(
@@ -654,7 +654,7 @@ maker(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.cmgroups([1, 2, 1, 1, 1, 1]),
+        pieces=baca.selectors.cmgroups([1, 2, 1, 1, 1, 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.scp_spanner(
@@ -928,7 +928,7 @@ maker(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.cmgroups([1, 1, 2, 1, 1, 1]),
+        pieces=baca.selectors.cmgroups([1, 1, 2, 1, 1, 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.scp_spanner(
@@ -1142,7 +1142,7 @@ maker(
     ),
     baca.hairpin(
         'niente o< "f" -- ! >o niente',
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
     ),
     baca.half_clt_spanner(
         abjad.tweak(4.5 + 6.5).staff_padding,
@@ -1207,7 +1207,7 @@ maker(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.cmgroups([1, 1, 1, 2, 1, 1]),
+        pieces=baca.selectors.cmgroups([1, 1, 1, 2, 1, 1]),
         selector=baca.leaves().rleak(),
     ),
     stirrings_still.flight(
@@ -1241,7 +1241,7 @@ maker(
     baca.scp_spanner(
         "T -> T poss. =|",
         abjad.tweak(5.5).staff_padding,
-        pieces=baca.cmgroups([8, 8]),
+        pieces=baca.selectors.cmgroups([8, 8]),
     ),
     stirrings_still.clouded_pane(),
 )
