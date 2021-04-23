@@ -4662,7 +4662,7 @@ def ntlt_flat_glissandi() -> baca.Suite:
             selector=baca.leaves()[1:],
         ),
         baca.untie(baca.leaves()),
-        map=baca.logical_ties(nontrivial=True),
+        map=baca.lts(nontrivial=True),
     )
 
 
@@ -9959,7 +9959,7 @@ def transition_bcps(
 
     def helper(padded_bcps, argument):
         result = []
-        selector = baca.cmgroups()
+        selector = baca.selectors.cmgroups()
         for leaves in selector(argument):
             result.extend(padded_bcps[: len(leaves)])
         return result

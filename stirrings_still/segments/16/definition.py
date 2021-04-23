@@ -111,7 +111,7 @@ maker(
     ("v1", (6, 7)),
     baca.hairpin(
         "ppppp < p > ppp",
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -162,7 +162,7 @@ maker(
     ("v1", (16, 17)),
     baca.hairpin(
         "ppppp < p > ppp",
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -383,7 +383,7 @@ maker(
     ("va", (8, 10)),
     baca.hairpin(
         "ppppp < p > ppppp",
-        pieces=baca.cmgroups([1, 2]),
+        pieces=baca.selectors.cmgroups([1, 2]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -425,7 +425,7 @@ maker(
     ("va", (18, 20)),
     baca.hairpin(
         "ppppp < p > ppppp",
-        pieces=baca.cmgroups([1, 2]),
+        pieces=baca.selectors.cmgroups([1, 2]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -478,7 +478,7 @@ maker(
     ("vc", (6, 8)),
     baca.hairpin(
         "ppppp < p > ppppp",
-        pieces=baca.cmgroups([1, 2]),
+        pieces=baca.selectors.cmgroups([1, 2]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -524,7 +524,7 @@ maker(
     ("vc", (16, 18)),
     baca.hairpin(
         "ppppp < p > ppppp",
-        pieces=baca.cmgroups([1, 2]),
+        pieces=baca.selectors.cmgroups([1, 2]),
         selector=baca.leaves().rleak(),
     ),
 )

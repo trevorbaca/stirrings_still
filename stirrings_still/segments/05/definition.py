@@ -505,7 +505,7 @@ maker(
     ),
     baca.hairpin(
         "p <| mp p < mp",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
     baca.new(
         baca.flat_glissando(

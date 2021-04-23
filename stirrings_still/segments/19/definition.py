@@ -96,7 +96,7 @@ maker(
     baca.flat_glissando("Bb4"),
     baca.hairpin(
         "p > ppp <",
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
     ),
     baca.new(
         baca.markup(
@@ -138,7 +138,7 @@ maker(
     baca.flat_glissando("F4"),
     baca.hairpin(
         "ppp < p >",
-        pieces=baca.cmgroups(),
+        pieces=baca.selectors.cmgroups(),
     ),
     baca.new(
         baca.markup(
