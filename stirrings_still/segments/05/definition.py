@@ -1038,7 +1038,7 @@ maker(
             baca.xfb_spanner(
                 abjad.tweak(5.5).staff_padding,
             ),
-            map=baca.plt(-1),
+            map=baca.selectors.plts((-1, None)),
         ),
         baca.dynamic(
             "!",
