@@ -173,7 +173,7 @@ maker(
         "o< f >o",
         bookend=False,
         measures=(1, 12),
-        pieces=baca.mgroups([8, 4]),
+        pieces=baca.selectors.mgroups([8, 4]),
     ),
     baca.hairpin(
         "o< ff",
@@ -189,7 +189,7 @@ maker(
     baca.hairpin(
         "o< fff >o ! o< fff",
         measures=(21, 32),
-        pieces=baca.mgroups([5, 3, 4]),
+        pieces=baca.selectors.mgroups([5, 3, 4]),
     ),
 )
 
@@ -490,7 +490,7 @@ maker(
         "(fff) > f < fff -- (fff) > f < fff -- (fff) > f < fff",
         bookend=False,
         measures=(7, -1),
-        pieces=baca.mgroups([2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
+        pieces=baca.selectors.mgroups([2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.new(

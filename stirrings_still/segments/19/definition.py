@@ -193,7 +193,7 @@ maker(
     baca.hairpin(
         "o< f -- !",
         abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([1, 1 + 1]),
+        pieces=baca.selectors.mgroups([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -203,7 +203,7 @@ maker(
     baca.hairpin(
         "o< ff -- !",
         abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([1, 2 + 1]),
+        pieces=baca.selectors.mgroups([1, 2 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -213,7 +213,7 @@ maker(
     baca.hairpin(
         "o< fff -- !",
         abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([2, 4 + 1]),
+        pieces=baca.selectors.mgroups([2, 4 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )

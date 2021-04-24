@@ -371,7 +371,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.omgroups([2]),
+        pieces=baca.selectors.omgroups([2]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -408,8 +408,8 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.omgroups([2]),
-        selector=baca.ltleaves().rleak(),
+        pieces=baca.selectors.omgroups([2]),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
 )
 
@@ -438,8 +438,8 @@ maker(
         stirrings_still.left_broken_circle_bow_tweak(),
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.omgroups([2]),
-        selector=baca.ltleaves().rleak(),
+        pieces=baca.selectors.omgroups([2]),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
 )
 
@@ -464,7 +464,7 @@ maker(
     ),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
         qualifier="wide",
     ),
 )
@@ -481,7 +481,7 @@ maker(
     baca.hairpin(
         "mf mf mp p pp pp",
         bookend=False,
-        pieces=baca.runs(),
+        pieces=baca.selectors.runs(),
     ),
     stirrings_still.synchronized_circles(rests=[-1]),
 )

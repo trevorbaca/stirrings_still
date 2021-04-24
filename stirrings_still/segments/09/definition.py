@@ -183,7 +183,7 @@ maker(
         "mp -- !",
         abjad.tweak(True).to_barline,
         measures=(1, 3),
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
     baca.markup(
         r"\baca-seven-d-flat",
@@ -214,10 +214,10 @@ maker(
         'p < "f" -- "f" >o niente',
         # TODO: extend hairpin to phantom measure
         # following two lines should remain
-        # pieces=baca.mgroups([5, 4, 2 + 1]),
+        # pieces=baca.selectors.mgroups([5, 4, 2 + 1]),
         # selector=baca.leaves().rleak(),
         # temporary:
-        pieces=baca.mgroups([5, 4, 1 + 1]),
+        pieces=baca.selectors.mgroups([5, 4, 1 + 1]),
         selector=baca.leaves(),
     ),
     baca.half_clt_spanner(

@@ -59,7 +59,7 @@ maker(
     ),
     baca.hairpin(
         "pp < f > pp < f > pp < f >o niente",
-        pieces=baca.mgroups([1, 2, 1, 2, 1, 2]),
+        pieces=baca.selectors.mgroups([1, 2, 1, 2, 1, 2]),
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
@@ -84,7 +84,7 @@ maker(
     ),
     baca.hairpin(
         "pp < f > pp < f > pp < f >o niente",
-        pieces=baca.mgroups([2, 1, 2, 1, 1, 2]),
+        pieces=baca.selectors.mgroups([2, 1, 2, 1, 1, 2]),
         selector=baca.leaves().rleak(),
     ),
     baca.markup(
@@ -129,7 +129,7 @@ maker(
     ),
     baca.hairpin(
         "(p) < ff -- (ff) >o niente",
-        pieces=baca.mgroups([2, 4, 2 + 1]),
+        pieces=baca.selectors.mgroups([2, 4, 2 + 1]),
         selector=baca.leaves().rleak(),
     ),
     stirrings_still.clouded_pane(),
