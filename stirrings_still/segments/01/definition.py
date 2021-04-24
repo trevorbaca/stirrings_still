@@ -328,7 +328,7 @@ maker(
     ),
     baca.hairpin(
         "p < f-scratch -- ! >o niente",
-        pieces=baca.omgroups([1, 2]),
+        pieces=baca.selectors.omgroups([1, 2]),
         selector=baca.leaves()[2:].rleak(),
     ),
     baca.tasto_spanner(
@@ -520,7 +520,7 @@ maker(
     baca.hairpin(
         "o< mp -- !",
         abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([1, 2]),
+        pieces=baca.selectors.mgroups([1, 2]),
         selector=baca.leaves().rleak(),
     ),
     baca.make_repeat_tied_notes(),
@@ -543,7 +543,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        pieces=baca.mgroups([1, 2]),
+        pieces=baca.selectors.mgroups([1, 2]),
         selector=baca.leaves().rleak(),
     ),
     stirrings_still.urtext_spanner("urtext (rasp) -|", 10.5),
@@ -832,7 +832,7 @@ maker(
     baca.hairpin(
         'niente o< "f" -- !',
         abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([1, 2]),
+        pieces=baca.selectors.mgroups([1, 2]),
         selector=baca.leaves().rleak(),
     ),
     baca.half_clt_spanner(

@@ -179,7 +179,7 @@ maker(
     "trio",
     baca.hairpin(
         '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
-        pieces=baca.mgroups([2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1]),
+        pieces=baca.selectors.mgroups([2, 1, 1, 2, 1, 1, 2, 1, 1, 4 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )

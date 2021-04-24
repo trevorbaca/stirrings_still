@@ -205,7 +205,7 @@ maker(
     baca.hairpin(
         "(p) < mp -- !",
         abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([3, 4 + 1]),
+        pieces=baca.selectors.mgroups([3, 4 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -321,7 +321,7 @@ maker(
     baca.hairpin(
         "mp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
     baca.new(
         baca.beam(),
@@ -410,7 +410,7 @@ maker(
         "P -> T =|",
         abjad.tweak(5.5).staff_padding,
         bookend=False,
-        pieces=baca.mgroups([2, 1 + 1]),
+        pieces=baca.selectors.mgroups([2, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
     stirrings_still.urtext_spanner("urtext (resumes) -|", 8),
@@ -957,7 +957,7 @@ maker(
         "(p) < fff -- !",
         abjad.tweak(True).to_barline,
         measures=(86, 92),
-        pieces=baca.mgroups([3, 4 + 1]),
+        pieces=baca.selectors.mgroups([3, 4 + 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.new(

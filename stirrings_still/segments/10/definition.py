@@ -120,7 +120,7 @@ maker(
     ),
     baca.hairpin(
         "appena-udibile -- ! < fff-poco-scratch",
-        pieces=baca.mgroups([2, 5]),
+        pieces=baca.selectors.mgroups([2, 5]),
     ),
     stirrings_still.urtext_field(),
 )
@@ -135,7 +135,7 @@ maker(
     baca.hairpin(
         '"fff" > pp -- !',
         abjad.tweak(True).to_barline,
-        pieces=baca.mgroups([2, 4 + 1]),
+        pieces=baca.selectors.mgroups([2, 4 + 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.half_clt_spanner(
