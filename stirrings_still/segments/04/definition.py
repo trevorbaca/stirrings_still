@@ -353,7 +353,7 @@ maker(
         baca.pitch("Bqf3"),
         stirrings_still.circles(
             (1, 2),
-            rmakers.force_rest(baca.lt(0)),
+            rmakers.force_rest(baca.selectors.lt(0)),
             remainder=abjad.Left,
         ),
         match=2,
@@ -463,28 +463,36 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([0], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 2)),
+            ),
         ),
         match=0,
     ),
     baca.new(
         stirrings_still.strokes(
             -1,
-            rmakers.force_rest(baca.tuplets().get([1], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([1], 2)),
+            ),
         ),
         match=1,
     ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.force_rest(baca.tuplets().get([0, 1], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0, 1], 3)),
+            ),
         ),
         match=2,
     ),
     baca.new(
         stirrings_still.strokes(
             3,
-            rmakers.force_rest(baca.tuplets().get([1, 2], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([1, 2], 3)),
+            ),
         ),
         match=3,
     ),
@@ -510,28 +518,36 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([0], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 2)),
+            ),
         ),
         match=0,
     ),
     baca.new(
         stirrings_still.strokes(
             -1,
-            rmakers.force_rest(baca.tuplets().get([1], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([1], 2)),
+            ),
         ),
         match=1,
     ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.force_rest(baca.tuplets().get([0], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 3)),
+            ),
         ),
         match=2,
     ),
     baca.new(
         stirrings_still.strokes(
             -3,
-            rmakers.force_rest(baca.tuplets().get([1, 2], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([1, 2], 3)),
+            ),
         ),
         match=3,
     ),
@@ -547,28 +563,36 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([0], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 2)),
+            ),
         ),
         match=0,
     ),
     baca.new(
         stirrings_still.strokes(
             -1,
-            rmakers.force_rest(baca.tuplets().get([1], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([1], 2)),
+            ),
         ),
         match=1,
     ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.force_rest(baca.tuplets().get([0], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 3)),
+            ),
         ),
         match=2,
     ),
     baca.new(
         stirrings_still.strokes(
             -3,
-            rmakers.force_rest(baca.tuplets().get([1], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([1], 3)),
+            ),
         ),
         match=3,
     ),
@@ -584,28 +608,36 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([0], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 2)),
+            ),
         ),
         match=0,
     ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([2], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([2], 3)),
+            ),
         ),
         match=1,
     ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.force_rest(baca.tuplets().get([0], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 3)),
+            ),
         ),
         match=2,
     ),
     baca.new(
         stirrings_still.strokes(
             -3,
-            rmakers.force_rest(baca.tuplets().get([1], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([1], 3)),
+            ),
         ),
         match=3,
     ),
@@ -621,28 +653,36 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([0], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 2)),
+            ),
         ),
         match=0,
     ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([2], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([2], 3)),
+            ),
         ),
         match=1,
     ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.force_rest(baca.tuplets().get([0], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 2)),
+            ),
         ),
         match=2,
     ),
     baca.new(
         stirrings_still.strokes(
             -2,
-            rmakers.force_rest(baca.tuplets().get([2], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([2], 3)),
+            ),
         ),
         match=3,
     ),
@@ -654,28 +694,36 @@ maker(
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([0], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 2)),
+            ),
         ),
         match=0,
     ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([2], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([2], 3)),
+            ),
         ),
         match=1,
     ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([1], 2)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([1], 2)),
+            ),
         ),
         match=2,
     ),
     baca.new(
         stirrings_still.strokes(
             0,
-            rmakers.force_rest(baca.tuplets().get([0], 3)),
+            rmakers.force_rest(
+                baca.selectors.tuplets(([0], 3)),
+            ),
         ),
         match=3,
     ),
