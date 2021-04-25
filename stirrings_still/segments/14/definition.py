@@ -135,7 +135,7 @@ maker(
 maker(
     ("v1", (23, 28)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "f < ff >",
@@ -151,7 +151,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "C",
@@ -175,14 +175,14 @@ maker(
     ),
     baca.pitch("Aqs5"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
 maker(
     ("v1", (30, 35)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "ff < fff >",
@@ -198,7 +198,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "C",
@@ -341,7 +341,7 @@ maker(
 maker(
     ("v2", (23, 28)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "f < ff >",
@@ -357,7 +357,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "C",
@@ -381,14 +381,14 @@ maker(
     baca.pitch("F#5"),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
 maker(
     ("v2", (30, 35)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "ff < fff >",
@@ -404,7 +404,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "C",
@@ -496,7 +496,7 @@ maker(
 maker(
     ("va", (23, 28)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "f < ff >",
@@ -512,7 +512,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "C",
@@ -536,14 +536,14 @@ maker(
     ),
     baca.pitch("G#3"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
 maker(
     ("va", (30, 35)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "ff < fff >",
@@ -559,7 +559,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "C",
@@ -652,7 +652,7 @@ maker(
 maker(
     ("vc", (23, 28)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "f < ff >",
@@ -668,7 +668,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "C",
@@ -707,14 +707,14 @@ maker(
     ),
     baca.pitch("G2"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
 maker(
     ("vc", (30, 35)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "ff < fff >",
@@ -730,7 +730,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "C",

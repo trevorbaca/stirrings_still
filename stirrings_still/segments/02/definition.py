@@ -290,12 +290,12 @@ maker(
     ("v1", 26),
     baca.flat_glissando(
         "<E4 C5>",
-        selector=baca.pleaves()[:2],
+        selector=baca.selectors.pleaves((None, 2)),
     ),
     baca.flat_glissando(
         "<E4 Cqs5>",
         hide_middle_stems=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -451,19 +451,21 @@ maker(
     ),
     baca.new(
         stirrings_still.breathe(
-            selector=baca.pleaf(1),
+            selector=baca.selectors.pleaf(1),
         ),
         stirrings_still.urtext_spanner("A, B -|", 8),
         match=0,
     ),
     baca.new(
         stirrings_still.breathe(
-            selector=baca.pleaf(1),
+            selector=baca.selectors.pleaf(1),
         ),
         stirrings_still.urtext_spanner("A, B -|", 10.5),
         match=[1, 2],
     ),
-    baca.stop_on_string(selector=baca.pleaf(-1)),
+    baca.stop_on_string(
+        selector=baca.selectors.pleaf(-1),
+    ),
     stirrings_still.declamation(),
 )
 
@@ -520,7 +522,7 @@ maker(
     baca.suite(
         baca.new(
             baca.espressivo(),
-            baca.stem_tremolo(selector=baca.pleaves()),
+            baca.stem_tremolo(selector=baca.selectors.pleaves()),
             map=baca.plts().get([1], 2),
         ),
         baca.untie(baca.leaves()),
@@ -950,12 +952,12 @@ maker(
     ("v2", 26),
     baca.flat_glissando(
         "<Eb4 B4>",
-        selector=baca.pleaves()[:2],
+        selector=baca.selectors.pleaves((None, 2)),
     ),
     baca.flat_glissando(
         "<Eqf4 C5>",
         hide_middle_stems=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
 )
 
@@ -1166,7 +1168,7 @@ maker(
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.flat_glissando("Ab3"),
     baca.hairpin(
@@ -1226,12 +1228,12 @@ maker(
     ("va", 26),
     baca.flat_glissando(
         "<D4 Gqs4>",
-        selector=baca.pleaves()[:2],
+        selector=baca.selectors.pleaves((None, 2)),
     ),
     baca.flat_glissando(
         "<C#4 Gqs4>",
         hide_middle_stems=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
 )
 
@@ -1504,7 +1506,7 @@ maker(
     ),
     baca.pitch(
         "Dtqs5",
-        selector=baca.pleaves()[:-1],
+        selector=baca.selectors.pleaves((None, -1)),
     ),
 )
 

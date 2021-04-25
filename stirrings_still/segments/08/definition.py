@@ -485,7 +485,7 @@ maker(
         baca.untie(baca.leaf(1)),
         baca.pitch(
             "Ab2",
-            selector=baca.pleaf(0),
+            selector=baca.selectors.pleaf(0),
         ),
         baca.finger_pressure_transition(),
     ),
@@ -1041,7 +1041,7 @@ maker(
     ),
     baca.new(
         baca.breathe(
-            baca.pleaf(-1),
+            baca.selectors.pleaf(-1),
             abjad.tweak((-1, 0)).extra_offset,
         ),
         match=3,

@@ -183,7 +183,7 @@ maker(
     ("v1", [10, 15, 17]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -200,11 +200,11 @@ maker(
 maker(
     ("v1", (18, 20)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.breathe(),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "A",
@@ -255,7 +255,7 @@ maker(
 maker(
     ("v1", (24, 31)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.breathe(),
     baca.dynamic("p"),
@@ -266,7 +266,7 @@ maker(
         literal=True,
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -285,10 +285,10 @@ maker(
 maker(
     ("v1", (32, 37)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
@@ -328,7 +328,7 @@ maker(
 maker(
     ("v1", (38, 45)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "p > pp",
@@ -540,7 +540,7 @@ maker(
     ("v2", [10, (11, 12), 14, 17]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -557,11 +557,11 @@ maker(
 maker(
     ("v2", (18, 20)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.breathe(),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "A",
@@ -612,7 +612,7 @@ maker(
 maker(
     ("v2", (24, 31)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.breathe(),
     baca.dynamic("p"),
@@ -622,7 +622,7 @@ maker(
         literal=True,
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -641,10 +641,10 @@ maker(
 maker(
     ("v2", (32, 37)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
@@ -683,7 +683,7 @@ maker(
 maker(
     ("v2", (38, 45)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "p > pp",
@@ -818,14 +818,14 @@ maker(
     ("va", (14, 15)),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
 maker(
     ("va", (18, 20)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.breathe(),
     baca.markup(
@@ -834,7 +834,7 @@ maker(
         literal=True,
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.flat_glissando("G#3"),
     stirrings_still.flight(
@@ -886,7 +886,7 @@ maker(
 maker(
     ("va", (24, 31)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.breathe(),
     baca.dynamic("p"),
@@ -896,7 +896,7 @@ maker(
         literal=True,
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -915,10 +915,10 @@ maker(
 maker(
     ("va", (32, 37)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"
@@ -957,7 +957,7 @@ maker(
 maker(
     ("va", (38, 42)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.text_spanner(
         r"\baca-null-markup || \baca-damp-markup =|",
@@ -1107,7 +1107,7 @@ maker(
     ("vc", [(11, 12), (15, 17)]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -1119,11 +1119,11 @@ maker(
 maker(
     ("vc", (18, 20)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.breathe(),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight(
         "A",
@@ -1164,12 +1164,12 @@ maker(
 maker(
     ("vc", (24, 31)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.breathe(),
     baca.dynamic("p"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -1188,7 +1188,7 @@ maker(
 maker(
     ("vc", (32, 37)),
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -1197,7 +1197,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.text_spanner(
         "trem. ord. -> larg. =| trem. larg. -> larghiss. =|"

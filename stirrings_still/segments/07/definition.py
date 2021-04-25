@@ -165,7 +165,7 @@ maker(
 maker(
     ("tutti", (16, 17)),
     baca.espressivo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.hairpin(
         "pp < mf",
@@ -228,7 +228,7 @@ maker(
         ),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.urtext_spanner("urtext (ds) -|", 8),

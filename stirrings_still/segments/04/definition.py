@@ -162,7 +162,7 @@ maker(
     baca.new(
         baca.dynamic_text_self_alignment_x(
             1,
-            selector=baca.pleaf(-1),
+            selector=baca.selectors.pleaf(-1),
         ),
         baca.hairpin("pp < mp"),
     ),
@@ -196,7 +196,9 @@ maker(
 
 maker(
     (["v1", "v2"], (84, 92)),
-    baca.repeat_tie(baca.pleaf(0)),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
     stirrings_still.continuous_tremolo(),
 )
 
@@ -248,43 +250,45 @@ maker(
         pieces=baca.selectors.clparts([1]),
     ),
     baca.new(
-        baca.repeat_tie(baca.pleaf(0)),
+        baca.repeat_tie(
+            baca.selectors.pleaf(0),
+        ),
         baca.stop_on_string(),
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.new(
         baca.flat_glissando(
             "<E4 C5>",
-            selector=baca.pleaves()[:2],
+            selector=baca.selectors.pleaves((None, 2)),
         ),
         baca.flat_glissando(
             "<E4 Cqs5>",
             hide_middle_stems=True,
-            selector=baca.pleaves()[2:],
+            selector=baca.selectors.pleaves((2, None)),
         ),
         match=[0, 1],
     ),
     baca.new(
         baca.flat_glissando(
             "<Eb4 B4>",
-            selector=baca.pleaves()[:2],
+            selector=baca.selectors.pleaves((None, 2)),
         ),
         baca.flat_glissando(
             "<Eqf4 C5>",
             hide_middle_stems=True,
-            selector=baca.pleaves()[2:],
+            selector=baca.selectors.pleaves((2, None)),
         ),
         match=[2, 3],
     ),
     baca.new(
         baca.flat_glissando(
             "<D4 Gqs4>",
-            selector=baca.pleaves()[:2],
+            selector=baca.selectors.pleaves((None, 2)),
         ),
         baca.flat_glissando(
             "<C#4 Gqs4>",
             hide_middle_stems=True,
-            selector=baca.pleaves()[2:],
+            selector=baca.selectors.pleaves((2, None)),
         ),
         match=[4, 5],
     ),
@@ -292,7 +296,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
     ),
     stirrings_still.breathe(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     stirrings_still.declamation(),
     stirrings_still.urtext_spanner("A, B -|", 8),
@@ -391,7 +395,7 @@ maker(
     baca.suite(
         baca.new(
             baca.espressivo(),
-            baca.stem_tremolo(selector=baca.pleaves()),
+            baca.stem_tremolo(selector=baca.selectors.pleaves()),
             map=baca.plts().get([1], 2),
         ),
         baca.untie(baca.leaves()),
@@ -812,7 +816,7 @@ maker(
     baca.new(
         baca.dynamic_text_self_alignment_x(
             1,
-            selector=baca.pleaf(-1),
+            selector=baca.selectors.pleaf(-1),
         ),
         baca.hairpin("pp < mp"),
     ),
@@ -896,7 +900,9 @@ maker(
 maker(
     ("va", [(84, 89), (94, 96)]),
     baca.new(
-        baca.repeat_tie(baca.pleaf(0)),
+        baca.repeat_tie(
+            baca.selectors.pleaf(0),
+        ),
         match=0,
     ),
     stirrings_still.continuous_tremolo(),
@@ -1065,7 +1071,9 @@ maker(
                 abjad.tweak(1.5).padding,
                 literal=True,
             ),
-            baca.untie(baca.pleaf(0)),
+            baca.untie(
+                baca.selectors.pleaf(0),
+            ),
             match=0,
         ),
         baca.flat_glissando("<Etqf4 C5>", allow_repitch=True),
@@ -1121,7 +1129,9 @@ maker(
                 abjad.tweak(1.5).padding,
                 literal=True,
             ),
-            baca.untie(baca.pleaf(0)),
+            baca.untie(
+                baca.selectors.pleaf(0),
+            ),
             match=0,
         ),
         baca.flat_glissando("<Bqf3 G4>", allow_repitch=True),
