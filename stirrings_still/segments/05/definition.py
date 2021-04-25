@@ -147,7 +147,7 @@ maker(
     baca.new(
         baca.accent(),
         baca.dynamic("sfp"),
-        baca.stem_tremolo(selector=baca.pleaves()),
+        baca.stem_tremolo(selector=baca.selectors.pleaves()),
         map=baca.plts().get([0], 2),
     ),
     baca.suite(
@@ -301,7 +301,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight_spanner("flight -|", 8),
 )
@@ -324,7 +324,7 @@ maker(
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.hairpin(
         "p-ancora -- !",
@@ -494,9 +494,11 @@ maker(
 maker(
     ("trio", 34),
     baca.chunk(
-        baca.stop_on_string(selector=baca.pleaf(-1)),
+        baca.stop_on_string(
+            selector=baca.selectors.pleaf(-1),
+        ),
         stirrings_still.breathe(
-            selector=baca.pleaf(1),
+            selector=baca.selectors.pleaf(1),
         ),
     ),
     baca.dynamic_text_self_alignment_x(
@@ -510,36 +512,36 @@ maker(
     baca.new(
         baca.flat_glissando(
             "<E4 C5>",
-            selector=baca.pleaves()[:2],
+            selector=baca.selectors.pleaves((None, 2)),
         ),
         baca.flat_glissando(
             "<E4 Cqs5>",
             hide_middle_stems=True,
-            selector=baca.pleaves()[2:],
+            selector=baca.selectors.pleaves((2, None)),
         ),
         match=0,
     ),
     baca.new(
         baca.flat_glissando(
             "<Eb4 B4>",
-            selector=baca.pleaves()[:2],
+            selector=baca.selectors.pleaves((None, 2)),
         ),
         baca.flat_glissando(
             "<Eqf4 C5>",
             hide_middle_stems=True,
-            selector=baca.pleaves()[2:],
+            selector=baca.selectors.pleaves((2, None)),
         ),
         match=1,
     ),
     baca.new(
         baca.flat_glissando(
             "<D4 Gqs4>",
-            selector=baca.pleaves()[:2],
+            selector=baca.selectors.pleaves((None, 2)),
         ),
         baca.flat_glissando(
             "<C#4 Gqs4>",
             hide_middle_stems=True,
-            selector=baca.pleaves()[2:],
+            selector=baca.selectors.pleaves((2, None)),
         ),
         match=2,
     ),
@@ -573,7 +575,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -599,7 +601,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -632,7 +634,7 @@ maker(
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
             bookend=True,
-            selector=baca.pleaves(),
+            selector=baca.selectors.pleaves(),
         ),
         stirrings_still.talea_eighths([3, 6, 8], -1, 0),
         match=1,
@@ -648,7 +650,7 @@ maker(
         match=2,
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -681,7 +683,7 @@ maker(
         pieces=baca.plts()[:-1],
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -758,7 +760,7 @@ maker(
     baca.new(
         baca.accent(),
         baca.dynamic("sfp"),
-        baca.stem_tremolo(selector=baca.pleaves()),
+        baca.stem_tremolo(selector=baca.selectors.pleaves()),
         map=baca.plts().get([0], 2),
     ),
     baca.suite(
@@ -897,7 +899,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight_spanner("flight -|", 8),
 )
@@ -920,7 +922,7 @@ maker(
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.hairpin(
         "p-ancora -- !",
@@ -979,7 +981,7 @@ maker(
     baca.new(
         baca.accent(),
         baca.dynamic("sfp"),
-        baca.stem_tremolo(selector=baca.pleaves()),
+        baca.stem_tremolo(selector=baca.selectors.pleaves()),
         map=baca.plts().get([0], 2),
     ),
     baca.suite(
@@ -1042,7 +1044,7 @@ maker(
         ),
         baca.dynamic(
             "!",
-            selector=baca.pleaf(-1),
+            selector=baca.selectors.pleaf(-1),
         ),
         baca.flat_glissando("Gb4"),
     ),
@@ -1088,7 +1090,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     stirrings_still.flight_spanner("flight -|", 8),
 )
@@ -1207,7 +1209,7 @@ maker(
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.hairpin(
         "p-ancora -- !",

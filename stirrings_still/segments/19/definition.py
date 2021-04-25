@@ -91,7 +91,7 @@ maker(
     ),
     baca.dynamic_text_self_alignment_x(
         0.75,
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.flat_glissando("Bb4"),
     baca.hairpin(
@@ -133,7 +133,7 @@ maker(
     ),
     baca.dynamic_text_self_alignment_x(
         0.75,
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.flat_glissando("F4"),
     baca.hairpin(

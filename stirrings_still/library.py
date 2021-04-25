@@ -551,7 +551,7 @@ def bcps(
 
 
 def breathe(
-    selector: abjad.Expression = baca.pleaf(-1),
+    selector: abjad.Expression = baca.selectors.pleaf(-1),
 ) -> baca.IndicatorCommand:
     """
     Makes breathe command with (-0.25, 2) extra offset.
@@ -748,7 +748,7 @@ def continuous_tremolo() -> baca.Suite:
             rmakers.tie(baca.ptails()[:-1]),
             rmakers.force_repeat_tie(threshold=(1, 2)),
         ),
-        baca.stem_tremolo(selector=baca.pleaves()),
+        baca.stem_tremolo(selector=baca.selectors.pleaves()),
     )
     tag = abjad.Tag("stirrings_still.continuous_tremolo()")
     result = baca.tag(tag, command)
@@ -4546,7 +4546,7 @@ def loure_tuplets(extra_count: int, *, measures: baca.SliceTyping = None) -> bac
     Makes louré tuplets.
     """
     command = baca.suite(
-        baca.espressivo(selector=baca.pheads()),
+        baca.espressivo(selector=baca.selectors.pheads()),
         desynchronization(8, [extra_count]),
         measures=measures,
     )
@@ -4624,7 +4624,9 @@ def multistage_leaf_glissando(
                 selector=selector[start:stop],
             ),
             baca.interpolate_pitches(
-                start_pitch, stop_pitch, selector=selector[start:stop]
+                start_pitch,
+                stop_pitch,
+                selector=selector[start:stop],
             ),
         )
         commands.append(chunk)
