@@ -244,7 +244,7 @@ maker(
     ("trio", 1),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| f p < mp",
@@ -279,7 +279,7 @@ maker(
     ("trio", 3),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| f p < mf",
@@ -298,7 +298,7 @@ maker(
     ("trio", (5, 6)),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| f p < mf-poco-scratch",
@@ -310,7 +310,7 @@ maker(
     ("trio", (8, 9)),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| f p < f-poco-scratch",
@@ -322,7 +322,7 @@ maker(
     ("trio", (11, 16)),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| f",
@@ -337,7 +337,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
     ),
     stirrings_still.breathe(
-        selector=baca.leaf(1),
+        selector=baca.selectors.leaf(1),
     ),
     stirrings_still.declamation(
         protract=True,
@@ -353,7 +353,7 @@ maker(
     ("trio", 18),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "pp <| p pp <| p",
@@ -384,7 +384,7 @@ maker(
     ("trio", 20),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "pp <| p pp <| mp",
@@ -396,7 +396,7 @@ maker(
     ("trio", 22),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "pp <| p pp <| mf",
@@ -421,7 +421,7 @@ maker(
     ("trio", 25),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "pp <| p pp <| f",
@@ -453,7 +453,7 @@ maker(
     ("trio", 29),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "pp <| p pp <| ff",
@@ -491,7 +491,7 @@ maker(
     ("trio", 60),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| f p < mp",

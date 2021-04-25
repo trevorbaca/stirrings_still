@@ -49,7 +49,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "C",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )

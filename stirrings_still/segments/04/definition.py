@@ -60,7 +60,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "D",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )
@@ -243,7 +243,7 @@ maker(
     ("trio", [47, 55]),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| mp p < mp",
@@ -756,7 +756,7 @@ maker(
     baca.suite(
         baca.new(
             baca.stem_tremolo(
-                selector=baca.leaf(-1),
+                selector=baca.selectors.leaf(-1),
             ),
             map=baca.lts(nontrivial=True),
         ),
@@ -779,7 +779,7 @@ maker(
     baca.suite(
         baca.new(
             baca.stop_on_string(
-                selector=baca.leaf(-1),
+                selector=baca.selectors.leaf(-1),
             ),
             map=baca.lts(nontrivial=True),
         ),
@@ -1087,7 +1087,7 @@ maker(
     baca.suite(
         baca.new(
             baca.stem_tremolo(
-                selector=baca.leaf(-1),
+                selector=baca.selectors.leaf(-1),
             ),
             map=baca.lts(nontrivial=True),
         ),
@@ -1100,7 +1100,7 @@ maker(
     baca.suite(
         baca.new(
             baca.stop_on_string(
-                selector=baca.leaf(-1),
+                selector=baca.selectors.leaf(-1),
             ),
             map=baca.lts(nontrivial=True),
         ),

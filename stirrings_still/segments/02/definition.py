@@ -60,7 +60,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "B",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )
@@ -443,7 +443,7 @@ maker(
     ("trio", 26),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| mp p < mp",

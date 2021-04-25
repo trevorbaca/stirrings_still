@@ -59,7 +59,7 @@ maker(
     ),
     baca.rehearsal_mark(
         "S",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
     baca.bar_line("|.", baca.skip(-1)),

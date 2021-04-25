@@ -34,7 +34,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "I",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )
@@ -119,7 +119,7 @@ maker(
     ("trio", (10, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
     baca.hairpin(
         "appena-udibile -- !",

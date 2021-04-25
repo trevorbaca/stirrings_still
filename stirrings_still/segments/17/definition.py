@@ -40,7 +40,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "Q",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )
@@ -1147,7 +1147,7 @@ maker(
     ),
     baca.dynamic_text_x_offset(
         -3,
-        selector=baca.leaf(-1),
+        selector=baca.selectors.leaf(-1),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
