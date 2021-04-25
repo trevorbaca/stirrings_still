@@ -197,7 +197,7 @@ maker(
     baca.hairpin(
         "mf -- ! >o niente",
         pieces=baca.selectors.mgroups([1, 2]),
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     stirrings_still.clockticks(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
@@ -833,7 +833,7 @@ maker(
     baca.hairpin(
         "mf -- ! >o niente",
         pieces=baca.selectors.mgroups([1, 2]),
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 

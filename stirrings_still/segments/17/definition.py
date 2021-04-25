@@ -649,7 +649,7 @@ maker(
     ("v2", (66, 67)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 

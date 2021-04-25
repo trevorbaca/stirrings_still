@@ -391,7 +391,7 @@ maker(
     baca.hairpin(
         "niente o<|",
         bookend=False,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.new(
         baca.circle_bow_spanner(

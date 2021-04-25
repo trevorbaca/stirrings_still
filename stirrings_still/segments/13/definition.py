@@ -357,7 +357,7 @@ maker(
         1,
         rmakers.force_note(baca.selectors.tuplet(0)),
         rmakers.tie(
-            lambda _ :baca.Selection(_).tuplets()[:1].leaves()[:-1],
+            lambda _: baca.Selection(_).tuplets()[:1].leaves()[:-1],
         ),
     ),
 )
