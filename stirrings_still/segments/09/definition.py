@@ -98,7 +98,7 @@ maker(
     baca.new(
         stirrings_still.circles(
             (1, 2),
-            rmakers.force_rest(baca.lt(0)),
+            rmakers.force_rest(baca.selectors.lt(0)),
             remainder=abjad.Left,
         ),
         match=2,

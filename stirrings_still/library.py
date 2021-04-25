@@ -825,10 +825,14 @@ def desynchronization(
     commands = []
 
     if rests is True:
-        specifier = rmakers.force_rest(baca.lts().get([1], 2))
+        specifier = rmakers.force_rest(
+            baca.lts().get([1], 2),
+        )
         commands.append(specifier)
     elif isinstance(rests, tuple):
-        specifier = rmakers.force_rest(baca.lts().get(*rests))
+        specifier = rmakers.force_rest(
+            baca.lts().get(*rests),
+        )
         commands.append(specifier)
 
     diminution: typing.List[rmakers.Command]
@@ -9725,7 +9729,9 @@ def synchronized_circles(
     if rests is None:
         pass
     elif isinstance(rests, list):
-        specifier = rmakers.force_rest(baca.lts().get(rests))
+        specifier = rmakers.force_rest(
+            baca.lts().get(rests),
+        )
         commands.append(specifier)
     else:
         raise TypeError(rests)
@@ -9810,7 +9816,9 @@ def taper(
     command = baca.rhythm(
         rmakers.tuplet([tuplet_ratio]),
         rmakers.beam(),
-        rmakers.repeat_tie(baca.notes()[1:]),
+        rmakers.repeat_tie(
+            baca.selectors.notes((1, None)),
+        ),
         rmakers.extract_trivial(),
         measures=measures,
     )
