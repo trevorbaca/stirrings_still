@@ -34,7 +34,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "M",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )
@@ -128,7 +128,7 @@ maker(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
         literal=True,
-        selector=baca.leaf(1),
+        selector=baca.selectors.leaf(1),
     ),
     stirrings_still.pickets(
         4,
@@ -333,7 +333,7 @@ maker(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(8).staff_padding,
         literal=True,
-        selector=baca.leaf(1),
+        selector=baca.selectors.leaf(1),
     ),
     stirrings_still.pickets(
         4,
@@ -453,7 +453,7 @@ maker(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
         literal=True,
-        selector=baca.leaf(1),
+        selector=baca.selectors.leaf(1),
     ),
     stirrings_still.pickets(
         4,
@@ -508,7 +508,7 @@ maker(
     baca.new(
         baca.hairpin_to_barline(),
         measures=29,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
     stirrings_still.clouded_pane_spanner(
         "clouded pane (semitone down) -|",

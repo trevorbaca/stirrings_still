@@ -49,7 +49,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "H",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )
@@ -482,7 +482,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.note_head_style_harmonic(),
     baca.suite(
-        baca.untie(baca.leaf(1)),
+        baca.untie(baca.selectors.leaf(1)),
         baca.pitch(
             "Ab2",
             selector=baca.selectors.pleaf(0),

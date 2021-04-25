@@ -34,7 +34,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "J",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )
@@ -100,7 +100,7 @@ maker(
     ("trio", (1, 2)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
     baca.hairpin(
         "appena-udibile -- !",
@@ -116,7 +116,7 @@ maker(
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.leaf(-1),
+        selector=baca.selectors.leaf(-1),
     ),
     baca.hairpin(
         "appena-udibile -- ! < fff-poco-scratch",
@@ -357,7 +357,7 @@ maker(
     ("vc", (7, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.leaf(-1),
+        selector=baca.selectors.leaf(-1),
     ),
     baca.flat_glissando(
         "Bb1",

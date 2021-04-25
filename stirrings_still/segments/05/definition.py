@@ -53,7 +53,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "E",
-        baca.leaf(0),
+        baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
 )
@@ -503,7 +503,7 @@ maker(
     ),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.leaf(2),
+        selector=baca.selectors.leaf(2),
     ),
     baca.hairpin(
         "p <| mp p < mp",
@@ -1224,7 +1224,7 @@ maker(
     ),
     baca.new(
         baca.breathe(
-            baca.leaf(-1),
+            baca.selectors.leaf(-1),
             abjad.tweak((-1, 0)).extra_offset,
         ),
         stirrings_still.desynchronization(4, [-1]),
@@ -1322,7 +1322,7 @@ maker(
     ("vc", (4, 5)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
     baca.hairpin(
         "ff > p",
@@ -1349,7 +1349,7 @@ maker(
     baca.new(
         baca.dynamic_text_self_alignment_x(-0.75),
         measures=24,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
 )
 
