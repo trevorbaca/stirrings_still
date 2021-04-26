@@ -60,7 +60,7 @@ maker(
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.circles((1, 4)),
 )
@@ -74,7 +74,7 @@ maker(
     baca.flat_glissando("Aqs4"),
     baca.hairpin(
         "mf >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.markup(
         r"\baca-thirteen-d-flat",
@@ -104,7 +104,7 @@ maker(
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.circles((1, 4)),
 )
@@ -118,7 +118,7 @@ maker(
     baca.flat_glissando("Eb4"),
     baca.hairpin(
         "mf >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.markup(
         r"\baca-nine-d-flat",
@@ -140,7 +140,7 @@ maker(
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.circles((1, 4)),
 )
@@ -154,7 +154,7 @@ maker(
     baca.flat_glissando("Bqf3"),
     baca.hairpin(
         "mf >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.markup(
         r"\baca-seven-d-flat",
@@ -176,7 +176,7 @@ maker(
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.circles((1, 4)),
 )
@@ -187,7 +187,7 @@ maker(
     baca.hairpin(
         "p -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
         abjad.tweak(3 + 6.5).staff_padding,

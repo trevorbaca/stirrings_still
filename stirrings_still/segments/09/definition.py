@@ -83,7 +83,7 @@ maker(
     baca.new(
         baca.hairpin(
             "(mp) >o niente",
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
         ),
         measures=(4, 7),
     ),
@@ -124,14 +124,14 @@ maker(
     baca.hairpin(
         "appena-udibile -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.urtext_field(),
     # TODO: allow right-broken spanner
     stirrings_still.urtext_spanner(
         "urtext (sustained ds) -|",
         5.5,
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -215,15 +215,15 @@ maker(
         # TODO: extend hairpin to phantom measure
         # following two lines should remain
         # pieces=baca.selectors.mgroups([5, 4, 2 + 1]),
-        # selector=baca.leaves().rleak(),
+        # selector=baca.selectors.rleaves(),
         # temporary:
         pieces=baca.selectors.mgroups([5, 4, 1 + 1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.half_clt_spanner(
         abjad.tweak(6 + 6.5).staff_padding,
         # TODO: extend spanner to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.markup(
         r"\baca-string-iii-markup",
@@ -241,7 +241,7 @@ maker(
     baca.suite(
         baca.pitches("G2 B3 D3 C#4 F4"),
         baca.glissando(
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
         ),
     ),
     stirrings_still.eighths(),

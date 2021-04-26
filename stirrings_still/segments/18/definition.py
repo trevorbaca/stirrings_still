@@ -86,7 +86,7 @@ maker(
     ("v1", (5, 8)),
     baca.hairpin(
         "ppp >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -129,7 +129,7 @@ maker(
     ("v2", (5, 8)),
     baca.hairpin(
         "ppp >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -177,7 +177,7 @@ maker(
     ("vc", (9, 12)),
     baca.hairpin(
         "pp >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 

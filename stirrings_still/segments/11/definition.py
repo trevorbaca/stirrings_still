@@ -223,7 +223,7 @@ maker(
     baca.hairpin(
         '"ff" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.markup(
         r"\baca-thirteen-d-flat",
@@ -299,7 +299,7 @@ maker(
         final_piece_spanner=False,
         lilypond_id=1,
         pieces=baca.selectors.cmgroups([1, 1, 1, 1, 2, 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -333,7 +333,7 @@ maker(
     baca.hairpin(
         "p > pp",
         measures=(41, 42),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.hairpin(
         "pp <",
@@ -371,13 +371,13 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.scp_spanner(
         "T poss. =|",
         abjad.tweak(5.5).staff_padding,
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -395,7 +395,7 @@ maker(
     baca.hairpin(
         "pp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -404,7 +404,7 @@ maker(
     baca.hairpin(
         '"f" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -416,7 +416,7 @@ maker(
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=2,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -428,7 +428,7 @@ maker(
         autodetect_right_padding=True,
         bookend=False,
         lilypond_id=2,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -447,7 +447,7 @@ maker(
     (["v1", "v2", "vc"], (5, 17)),
     baca.hairpin(
         "pp < mp",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -580,7 +580,7 @@ maker(
     baca.hairpin(
         '"ff" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.markup(
         r"\baca-nine-d-flat",
@@ -655,7 +655,7 @@ maker(
         final_piece_spanner=False,
         lilypond_id=1,
         pieces=baca.selectors.cmgroups([1, 2, 1, 1, 1, 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -688,7 +688,7 @@ maker(
     baca.hairpin(
         "p > pp",
         measures=(41, 42),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.hairpin(
         "pp <",
@@ -725,13 +725,13 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.scp_spanner(
         "T poss. =|",
         abjad.tweak(5.5).staff_padding,
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -805,7 +805,7 @@ maker(
     ("va", (12, 17)),
     baca.hairpin(
         "p < mp",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.multistage_leaf_glissando(
         [("B3", 2), ("A3", 4), ("C4", 4), ("Ab3", 7), ("B3", None)],
@@ -854,7 +854,7 @@ maker(
     baca.hairpin(
         '"ff" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.markup(
         r"\baca-seven-d-flat",
@@ -929,7 +929,7 @@ maker(
         final_piece_spanner=False,
         lilypond_id=1,
         pieces=baca.selectors.cmgroups([1, 1, 2, 1, 1, 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "T -> P ->",
@@ -986,7 +986,7 @@ maker(
     baca.hairpin(
         '"mf" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
@@ -1004,7 +1004,7 @@ maker(
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.hairpin("p >o niente"),
     baca.make_repeat_tied_notes(
@@ -1014,7 +1014,7 @@ maker(
         "T poss. =|",
         abjad.tweak(5.5).staff_padding,
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -1208,7 +1208,7 @@ maker(
         final_piece_spanner=False,
         lilypond_id=1,
         pieces=baca.selectors.cmgroups([1, 1, 1, 2, 1, 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.flight(
         "A",
@@ -1223,7 +1223,7 @@ maker(
         "clouded pane -|",
         13,
         # TODO: allow spanner to extend to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.flat_glissando(
         "Db2",

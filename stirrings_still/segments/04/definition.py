@@ -176,7 +176,7 @@ maker(
         "T -> P -> T -> P =|",
         abjad.tweak(5.5).staff_padding,
         pieces=baca.selectors.lparts([1, 2, 1, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -208,7 +208,7 @@ maker(
         "(p) < mp -- !",
         abjad.tweak(True).to_barline,
         pieces=baca.selectors.mgroups([3, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -307,7 +307,7 @@ maker(
     baca.hairpin(
         "p -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -398,7 +398,7 @@ maker(
             baca.stem_tremolo(selector=baca.selectors.pleaves()),
             map=baca.plts().get([1], 2),
         ),
-        baca.untie(baca.leaves()),
+        baca.untie(baca.selectors.leaves()),
     ),
 )
 
@@ -408,14 +408,14 @@ maker(
         "mp >o",
         abjad.tweak(True).to_barline,
         bookend=False,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "P -> T =|",
         abjad.tweak(5.5).staff_padding,
         bookend=False,
         pieces=baca.selectors.mgroups([2, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.urtext_spanner("urtext (resumes) -|", 8),
 )
@@ -432,7 +432,7 @@ maker(
     baca.hairpin(
         "p -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.new(
         baca.flat_glissando("Bb4"),
@@ -830,7 +830,7 @@ maker(
         "T -> P -> T -> P =|",
         abjad.tweak(5.5).staff_padding,
         pieces=baca.selectors.lparts([2, 1, 1, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -873,7 +873,7 @@ maker(
     baca.hairpin(
         "pp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
     baca.pitch("Bb2"),
@@ -943,7 +943,7 @@ maker(
     baca.hairpin(
         '"f" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
         abjad.tweak(4.5 + 6.5).staff_padding,
@@ -972,7 +972,7 @@ maker(
     baca.hairpin(
         "p -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.new(
@@ -1012,7 +1012,7 @@ maker(
         abjad.tweak(True).to_barline,
         measures=(86, 92),
         pieces=baca.selectors.mgroups([3, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.new(
         baca.hairpin("niente o< p"),
@@ -1037,14 +1037,14 @@ maker(
     baca.hairpin(
         "o< p",
         measures=(94, 96),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner(
         "clouded pane (stepwise up) -|",
         5.5,
         # TODO: extend spanner to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 

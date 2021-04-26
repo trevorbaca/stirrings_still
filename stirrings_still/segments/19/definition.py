@@ -194,7 +194,7 @@ maker(
         "o< f -- !",
         abjad.tweak(True).to_barline,
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -204,7 +204,7 @@ maker(
         "o< ff -- !",
         abjad.tweak(True).to_barline,
         pieces=baca.selectors.mgroups([1, 2 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -214,7 +214,7 @@ maker(
         "o< fff -- !",
         abjad.tweak(True).to_barline,
         pieces=baca.selectors.mgroups([2, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
