@@ -105,7 +105,7 @@ maker(
     baca.hairpin(
         "appena-udibile -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.urtext_field(),
     stirrings_still.urtext_spanner("urtext (ds field) -|", 8),
@@ -136,13 +136,13 @@ maker(
         '"fff" > pp -- !',
         abjad.tweak(True).to_barline,
         pieces=baca.selectors.mgroups([2, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
         # TODO: allow spanner to extend to phantom measure
-        # selector=baca.leaves().rleak(),
-        selector=baca.leaves(),
+        # selector=baca.selectors.rleaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.new(
         stirrings_still.bcps(
@@ -182,7 +182,7 @@ maker(
     baca.hairpin(
         "pp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.new(
         baca.flat_glissando("<F#4 Dqf5>"),
@@ -280,7 +280,7 @@ maker(
     baca.hairpin(
         "mp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
         abjad.tweak(5.5).staff_padding,

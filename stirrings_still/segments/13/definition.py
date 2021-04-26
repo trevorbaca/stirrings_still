@@ -109,7 +109,7 @@ maker(
     baca.flat_glissando(
         "D6",
         hide_middle_stems=True,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -314,7 +314,7 @@ maker(
     baca.flat_glissando(
         "Fqs5",
         hide_middle_stems=True,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -434,7 +434,7 @@ maker(
     baca.flat_glissando(
         "Aqf4",
         hide_middle_stems=True,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -503,7 +503,7 @@ maker(
         bookend=False,
         measures=(7, -1),
         pieces=baca.selectors.mgroups([2, 4, 2, 2, 4, 2, 3, 3, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.new(
         baca.hairpin_to_barline(),
@@ -514,7 +514,7 @@ maker(
         "clouded pane (semitone down) -|",
         5.5,
         # TODO: extend to phantom measure
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -523,7 +523,7 @@ maker(
     baca.flat_glissando(
         "C2",
         hide_middle_stems=True,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.clouded_pane(),
 )

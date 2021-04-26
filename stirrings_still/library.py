@@ -507,7 +507,7 @@ def bcps(
     rotation: int,
     clt: bool = False,
     measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.leaves(),
+    selector: abjad.Expression = baca.selectors.leaves(),
     staff_padding: abjad.Number = None,
 ) -> baca.BCPCommand:
     """
@@ -604,7 +604,7 @@ def circle_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.leaves().rleak(),
+    selector: abjad.Expression = baca.selectors.rleaves(),
 ) -> baca.PiecewiseCommand:
     """
     Makes circle annotation spanner.
@@ -719,7 +719,7 @@ def clouded_pane_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.leaves().rleak(),
+    selector: abjad.Expression = baca.selectors.rleaves(),
 ) -> baca.PiecewiseCommand:
     """
     Makes clouded pane annotation spanner.
@@ -4671,7 +4671,7 @@ def ntlt_flat_glissandi() -> baca.Suite:
             baca.note_head_x_extent_zero(),
             selector=baca.leaves()[1:],
         ),
-        baca.untie(baca.leaves()),
+        baca.untie(baca.selectors.leaves()),
         map=baca.lts(nontrivial=True),
     )
 
@@ -9931,7 +9931,7 @@ def trajectory_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.leaves().rleak(),
+    selector: abjad.Expression = baca.selectors.rleaves(),
 ) -> baca.PiecewiseCommand:
     """
     Makes trajectory annotation spanner.
@@ -10010,7 +10010,7 @@ def urtext_spanner(
     staff_padding: abjad.Number,
     *,
     measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.leaves().rleak(),
+    selector: abjad.Expression = baca.selectors.rleaves(),
 ) -> baca.PiecewiseCommand:
     """
     Makes urtext annotation spanner.

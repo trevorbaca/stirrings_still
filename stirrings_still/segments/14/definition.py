@@ -93,14 +93,14 @@ maker(
     ("v1", (13, 19)),
     baca.hairpin(
         "niente o< f",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "T -> O",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -165,7 +165,7 @@ maker(
     baca.hairpin(
         "mp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -217,13 +217,13 @@ maker(
     baca.hairpin(
         "p -- ! >o niente",
         pieces=baca.selectors.cmgroups(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.text_spanner(
         "slow bow -> stopped",
         abjad.tweak(11).bound_details__right__padding,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.eighths(),
 )
@@ -240,7 +240,7 @@ maker(
     baca.hairpin(
         "(fff) >o niente",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -299,14 +299,14 @@ maker(
     ("v2", (13, 19)),
     baca.hairpin(
         "niente o< f",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "T -> O",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -371,7 +371,7 @@ maker(
     baca.hairpin(
         "mp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.markup(
         r"\baca-nine-e",
@@ -423,13 +423,13 @@ maker(
     baca.hairpin(
         "p -- ! >o niente",
         pieces=baca.selectors.cmgroups(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.text_spanner(
         "slow bow -> stopped",
         abjad.tweak(11).bound_details__right__padding,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.eighths(),
 )
@@ -454,14 +454,14 @@ maker(
     ("va", (13, 19)),
     baca.hairpin(
         "niente o< f",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "T -> O",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -526,7 +526,7 @@ maker(
     baca.hairpin(
         "mp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -578,13 +578,13 @@ maker(
     baca.hairpin(
         "p -- ! >o niente",
         pieces=baca.selectors.cmgroups(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.text_spanner(
         "slow bow -> stopped",
         abjad.tweak(11).bound_details__right__padding,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.eighths(),
 )
@@ -610,7 +610,7 @@ maker(
     ("vc", (6, 8)),
     baca.hairpin(
         "(fff) > p",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -645,7 +645,7 @@ maker(
     baca.hairpin(
         "(p) >o",
         bookend=False,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -696,7 +696,7 @@ maker(
     baca.hairpin(
         "mp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -745,7 +745,7 @@ maker(
     baca.hairpin(
         "p -- ! >o niente",
         pieces=baca.selectors.cmgroups(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tasto_spanner(
         abjad.tweak(3).staff_padding,
@@ -754,7 +754,7 @@ maker(
         "slow bow -> stopped",
         abjad.tweak(11).bound_details__right__padding,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     stirrings_still.clouded_pane(),
 )

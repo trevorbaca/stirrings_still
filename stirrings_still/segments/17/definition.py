@@ -119,7 +119,7 @@ maker(
     baca.hairpin(
         'o< fff -- "fff" >o !',
         pieces=baca.selectors.mgroups([4, 4, 7 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -171,7 +171,7 @@ maker(
     baca.hairpin(
         'o< ff -- "ff" >o !',
         pieces=baca.selectors.mgroups([3, 4, 6 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -223,7 +223,7 @@ maker(
     baca.hairpin(
         'o< f -- "f" >o !',
         pieces=baca.selectors.mgroups([3, 2, 5 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -276,7 +276,7 @@ maker(
     baca.hairpin(
         'o< mf -- "mf" >o !',
         pieces=baca.selectors.mgroups([2, 2, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -328,7 +328,7 @@ maker(
     baca.hairpin(
         "o< mp -- mp >o !",
         pieces=baca.selectors.mgroups([1, 1, 3 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -371,7 +371,7 @@ maker(
     baca.hairpin(
         "o< p >o !",
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -429,7 +429,7 @@ maker(
     baca.hairpin(
         "mp -- !",
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -474,7 +474,7 @@ maker(
     baca.hairpin(
         'fff -- "fff" >o !',
         pieces=baca.selectors.mgroups([4, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -513,7 +513,7 @@ maker(
     baca.hairpin(
         'ff -- "ff" >o !',
         pieces=baca.selectors.mgroups([4, 3 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -552,7 +552,7 @@ maker(
     baca.hairpin(
         'f -- "f" >o !',
         pieces=baca.selectors.mgroups([2, 3 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -591,7 +591,7 @@ maker(
     baca.hairpin(
         'mf -- "mf" >o !',
         pieces=baca.selectors.mgroups([2, 2 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -633,7 +633,7 @@ maker(
     baca.hairpin(
         "mp -- mp >o !",
         pieces=baca.selectors.mgroups([1, 2 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -672,7 +672,7 @@ maker(
     baca.breathe(),
     baca.hairpin(
         "p >o !",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.half_clt_spanner(
         abjad.tweak(4.5 + 6).staff_padding,
@@ -755,7 +755,7 @@ maker(
     baca.hairpin(
         'o< fff -- "fff" >o !',
         pieces=baca.selectors.mgroups([4, 4, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -807,7 +807,7 @@ maker(
     baca.hairpin(
         'o< ff -- "ff" >o !',
         pieces=baca.selectors.mgroups([3, 4, 3 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -910,7 +910,7 @@ maker(
     baca.hairpin(
         'o< mf -- "mf" >o !',
         pieces=baca.selectors.mgroups([2, 2, 2 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -954,7 +954,7 @@ maker(
     ("va", 64),
     baca.flat_glissando(
         "Ab3",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
         stop_pitch="Gb3",
     ),
 )
@@ -965,7 +965,7 @@ maker(
     baca.hairpin(
         "o< mp -- mp >o !",
         pieces=baca.selectors.mgroups([1, 1, 2 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -1008,7 +1008,7 @@ maker(
     baca.hairpin(
         "o< p >o !",
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -1088,7 +1088,7 @@ maker(
     baca.hairpin(
         'o< fff -- "fff" >o !',
         pieces=baca.selectors.mgroups([4, 4, 4 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -1143,7 +1143,7 @@ maker(
     baca.hairpin(
         'o< ff -- "ff" >o !',
         pieces=baca.selectors.mgroups([3, 4, 3 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.dynamic_text_x_offset(
         -3,
@@ -1202,7 +1202,7 @@ maker(
     baca.hairpin(
         'o< f -- "f" >o !',
         pieces=baca.selectors.mgroups([3, 2, 3 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -1257,7 +1257,7 @@ maker(
     baca.hairpin(
         'o< mf -- "mf" >o !',
         pieces=baca.selectors.mgroups([2, 2, 2 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -1315,7 +1315,7 @@ maker(
     baca.hairpin(
         "o< mp -- mp >o !",
         pieces=baca.selectors.mgroups([1, 1, 2 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
@@ -1361,7 +1361,7 @@ maker(
     baca.hairpin(
         "o< p >o !",
         pieces=baca.selectors.mgroups([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.tuplet_bracket_down(),
     stirrings_still.bcps(
