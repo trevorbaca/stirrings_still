@@ -60,28 +60,28 @@ maker(
         r"\stirrings-still-text-ten",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(11 - 1),
+        selector=baca.selectors.skip(11 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-eleven",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(70 - 1),
+        selector=baca.selectors.skip(70 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twelve",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(77 - 1),
+        selector=baca.selectors.skip(77 - 1),
     ),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(4 - 1)),
-    baca.close_volta(baca.skip(8 - 1)),
-    baca.open_volta(baca.skip(74 - 1)),
-    baca.close_volta(baca.skip(77 - 1)),
+    baca.open_volta(baca.selectors.skip(4 - 1)),
+    baca.close_volta(baca.selectors.skip(8 - 1)),
+    baca.open_volta(baca.selectors.skip(74 - 1)),
+    baca.close_volta(baca.selectors.skip(77 - 1)),
 )
 
 time = (
@@ -621,14 +621,14 @@ maker(
 maker(
     ("tutti", [62, 64, 66, 68]),
     baca.laissez_vibrer(
-        selector=baca.ptails(),
+        selector=baca.selectors.ptails(),
     ),
 )
 
 maker(
     ("tutti", [63, 65, 67, 69]),
     baca.stop_on_string(
-        selector=baca.ptails(),
+        selector=baca.selectors.ptails(),
     ),
 )
 

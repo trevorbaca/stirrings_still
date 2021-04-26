@@ -52,7 +52,7 @@ maker(
     "Global_Skips",
     baca.rehearsal_mark(
         "A",
-        baca.skip(18 - 1),
+        baca.selectors.skip(18 - 1),
         abjad.tweak((0, 12)).extra_offset,
     ),
 )
@@ -65,7 +65,7 @@ maker(
         # abjad.tweak((4, -20)).extra_offset,
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(10 - 1),
+        selector=baca.selectors.skip(10 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-three",
@@ -73,38 +73,38 @@ maker(
         # abjad.tweak((4, -20)).extra_offset,
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(19 - 1),
+        selector=baca.selectors.skip(19 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-four",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(24 - 1),
+        selector=baca.selectors.skip(24 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-five",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(28 - 1),
+        selector=baca.selectors.skip(28 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-six",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(61 - 1),
+        selector=baca.selectors.skip(61 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-seven",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(63 - 1),
+        selector=baca.selectors.skip(63 - 1),
     ),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(44 - 1)),
-    baca.close_volta(baca.skip(49 - 1)),
+    baca.open_volta(baca.selectors.skip(44 - 1)),
+    baca.close_volta(baca.selectors.skip(49 - 1)),
 )
 
 time = (

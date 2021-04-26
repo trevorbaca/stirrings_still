@@ -64,28 +64,28 @@ maker(
         r"\stirrings-still-text-sixteen",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(41 - 1),
+        selector=baca.selectors.skip(41 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-seventeen",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(86 - 1),
+        selector=baca.selectors.skip(86 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-eighteen",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(111 - 1),
+        selector=baca.selectors.skip(111 - 1),
     ),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(35 - 1)),
-    baca.close_volta(baca.skip(44 - 1)),
-    baca.open_volta(baca.skip(105 - 1)),
-    baca.close_volta(baca.skip(111 - 1)),
+    baca.open_volta(baca.selectors.skip(35 - 1)),
+    baca.close_volta(baca.selectors.skip(44 - 1)),
+    baca.open_volta(baca.selectors.skip(105 - 1)),
+    baca.close_volta(baca.selectors.skip(111 - 1)),
 )
 
 time = (

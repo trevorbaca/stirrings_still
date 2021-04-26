@@ -56,8 +56,8 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(30 - 1)),
-    baca.close_volta(baca.skip(37 - 1)),
+    baca.open_volta(baca.selectors.skip(30 - 1)),
+    baca.close_volta(baca.selectors.skip(37 - 1)),
 )
 
 time = (

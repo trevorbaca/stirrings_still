@@ -36,33 +36,33 @@ maker(
         r"\stirrings-still-text-twenty-six",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(9 - 1),
+        selector=baca.selectors.skip(9 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-seven",
         # abjad.tweak((14, -50)).extra_offset,
         abjad.tweak((4, -50)).extra_offset,
         literal=True,
-        selector=baca.skip(16 - 1),
+        selector=baca.selectors.skip(16 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-eight",
         abjad.tweak((9, -75)).extra_offset,
         literal=True,
-        selector=baca.skip(20 - 1),
+        selector=baca.selectors.skip(20 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-nine",
         abjad.tweak((28, -100)).extra_offset,
         literal=True,
-        selector=baca.skip(20 - 1),
+        selector=baca.selectors.skip(20 - 1),
     ),
     baca.rehearsal_mark(
         "S",
         baca.selectors.leaf(0),
         abjad.tweak((0, 10)).extra_offset,
     ),
-    baca.bar_line("|.", baca.skip(-1)),
+    baca.bar_line("|.", baca.selectors.skip(-1)),
 )
 
 time = (
