@@ -745,7 +745,9 @@ def continuous_tremolo() -> baca.Suite:
         baca.rhythm(
             rmakers.note(),
             rmakers.beam(baca.plts()),
-            rmakers.tie(baca.ptails()[:-1]),
+            rmakers.tie(
+                baca.selectors.ptails((None, -1)),
+            ),
             rmakers.force_repeat_tie(threshold=(1, 2)),
         ),
         baca.stem_tremolo(selector=baca.selectors.pleaves()),
@@ -775,7 +777,9 @@ def declamation(
     note_rhythm_maker = rmakers.stack(
         rmakers.note(),
         rmakers.beam(baca.plts()),
-        rmakers.tie(baca.ptails()[:-1]),
+        rmakers.tie(
+            baca.selectors.ptails((None, -1)),
+        ),
         rmakers.force_repeat_tie(),
     )
 
@@ -9838,12 +9842,12 @@ def time(maker: baca.SegmentMaker, pairs: typing.Tuple) -> None:
         if value in baca.GlobalFermataCommand.description_to_command:
             maker(
                 "Global_Rests",
-                baca.global_fermata(value, selector=baca.rest(lmn - 1)),
+                baca.global_fermata(value, selector=baca.selectors.rest(lmn - 1)),
             )
         else:
             maker(
                 "Global_Skips",
-                baca.metronome_mark(value, selector=baca.skip(lmn - 1)),
+                baca.metronome_mark(value, selector=baca.selectors.skip(lmn - 1)),
             )
 
 

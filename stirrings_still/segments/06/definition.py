@@ -32,7 +32,7 @@ maker(
         r"\stirrings-still-text-nineteen",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(11 - 1),
+        selector=baca.selectors.skip(11 - 1),
     ),
     baca.rehearsal_mark(
         "F",

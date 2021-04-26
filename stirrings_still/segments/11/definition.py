@@ -54,14 +54,14 @@ maker(
         r"\stirrings-still-text-twenty-two",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(54 - 1),
+        selector=baca.selectors.skip(54 - 1),
     ),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(1 - 1)),
-    baca.close_volta(baca.skip(9 - 1)),
+    baca.open_volta(baca.selectors.skip(1 - 1)),
+    baca.close_volta(baca.selectors.skip(9 - 1)),
 )
 
 time = (

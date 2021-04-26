@@ -46,15 +46,15 @@ maker(
         abjad.tweak((0, 10)).extra_offset,
         literal=True,
         measures=11,
-        selector=baca.skip(0),
+        selector=baca.selectors.skip(0),
     ),
 )
 
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(11 - 1)),
-    baca.close_volta(baca.skip(14 - 1)),
+    baca.open_volta(baca.selectors.skip(11 - 1)),
+    baca.close_volta(baca.selectors.skip(14 - 1)),
 )
 
 time = (

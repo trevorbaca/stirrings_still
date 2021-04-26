@@ -71,20 +71,20 @@ maker(
         r"\stirrings-still-text-eight",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(28 - 1),
+        selector=baca.selectors.skip(28 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-nine",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(66 - 1),
+        selector=baca.selectors.skip(66 - 1),
     ),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(29 - 1)),
-    baca.close_volta(baca.skip(32 - 1)),
+    baca.open_volta(baca.selectors.skip(29 - 1)),
+    baca.close_volta(baca.selectors.skip(32 - 1)),
 )
 
 time = (
@@ -1475,7 +1475,7 @@ maker(
     baca.rest_extra_offset((-0.5, 0)),
     baca.tuplet_bracket_shorten_pair(
         (-1.5, 0),
-        selector=baca.rest(-1),
+        selector=baca.selectors.rest(-1),
     ),
 )
 

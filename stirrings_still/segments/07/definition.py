@@ -48,20 +48,20 @@ maker(
         r"\stirrings-still-text-twenty",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(8 - 1),
+        selector=baca.selectors.skip(8 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twenty-one",
         abjad.tweak((4, -30)).extra_offset,
         literal=True,
-        selector=baca.skip(18 - 1),
+        selector=baca.selectors.skip(18 - 1),
     ),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(19 - 1)),
-    baca.close_volta(baca.skip(22 - 1)),
+    baca.open_volta(baca.selectors.skip(19 - 1)),
+    baca.close_volta(baca.selectors.skip(22 - 1)),
 )
 
 time = (
