@@ -4572,7 +4572,10 @@ def margin_markup(
     """
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
-        margin_markup, alert=alert, context=context, selector=selector
+        margin_markup,
+        alert=alert,
+        context=context,
+        selector=selector,
     )
     return baca.not_parts(command)
 
@@ -4649,9 +4652,15 @@ def multistage_leaf_glissando(
     selector = selector[start:stop]
     chunk = baca.chunk(
         baca.glissando(
-            allow_repeats=True, hide_middle_note_heads=True, selector=selector
+            allow_repeats=True,
+            hide_middle_note_heads=True,
+            selector=selector,
         ),
-        baca.interpolate_pitches(start_pitch, final_pitch, selector=selector),
+        baca.interpolate_pitches(
+            start_pitch,
+            final_pitch,
+            selector=selector,
+        ),
     )
     commands.append(chunk)
     if measures is not None:
@@ -9764,7 +9773,11 @@ def tailpiece(
         baca.staff_position(0),
         baca.stem_transparent(selector=baca.leaves()[1:]),
         baca.text_script_parent_alignment_x(0),
-        baca.flat_glissando(None, *tweaks, selector=baca.leaves().rleak()),
+        baca.flat_glissando(
+            None,
+            *tweaks,
+            selector=baca.leaves().rleak(),
+        ),
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.tailpiece()")
@@ -9842,12 +9855,18 @@ def time(maker: baca.SegmentMaker, pairs: typing.Tuple) -> None:
         if value in baca.GlobalFermataCommand.description_to_command:
             maker(
                 "Global_Rests",
-                baca.global_fermata(value, selector=baca.selectors.rest(lmn - 1)),
+                baca.global_fermata(
+                    value,
+                    selector=baca.selectors.rest(lmn - 1),
+                ),
             )
         else:
             maker(
                 "Global_Skips",
-                baca.metronome_mark(value, selector=baca.selectors.skip(lmn - 1)),
+                baca.metronome_mark(
+                    value,
+                    selector=baca.selectors.skip(lmn - 1),
+                ),
             )
 
 
