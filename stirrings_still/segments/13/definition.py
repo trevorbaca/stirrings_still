@@ -122,7 +122,7 @@ maker(
     ),
     baca.flat_glissando(
         "<D#4 A4>",
-        selector=baca.leaves()[1:],
+        selector=baca.selectors.leaves((1, None)),
     ),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
@@ -188,7 +188,7 @@ maker(
         ">o",
         bookend=False,
         measures=(17, 20),
-        selector=baca.leaves()[1:],
+        selector=baca.selectors.leaves((1, None)),
     ),
     baca.hairpin(
         "o< fff >o ! o< fff",
@@ -327,7 +327,7 @@ maker(
     ),
     baca.flat_glissando(
         "<Dqs4 Gtqs4>",
-        selector=baca.leaves()[1:],
+        selector=baca.selectors.leaves((1, None)),
     ),
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
@@ -447,7 +447,7 @@ maker(
     ),
     baca.flat_glissando(
         "<D4 G#4>",
-        selector=baca.leaves()[1:],
+        selector=baca.selectors.leaves((1, None)),
     ),
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
