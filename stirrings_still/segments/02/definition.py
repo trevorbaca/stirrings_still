@@ -776,7 +776,7 @@ maker(
         baca.clef("treble"),
         baca.clef(
             "alto",
-            selector=baca.leaves().rleak()[-1],
+            selector=baca.selectors.rleaf(-1),
         ),
         baca.dynamic(
             "mp-sub",
@@ -789,7 +789,7 @@ maker(
         baca.clef("treble"),
         baca.clef(
             "bass",
-            selector=baca.leaves().rleak()[-1],
+            selector=baca.selectors.rleaf(-1),
         ),
         baca.dynamic("mp-sub"),
         stirrings_still.grid(rotation=-3),
@@ -1122,7 +1122,7 @@ maker(
     baca.new(
         baca.clef("alto"),
         baca.clef_extra_offset((-1, 0)),
-        selector=baca.leaves().rleak()[-1],
+        selector=baca.selectors.rleaf(-1),
     ),
     baca.pitch("Eqs5"),
     baca.tuplet_bracket_staff_padding(1),
@@ -1404,7 +1404,7 @@ maker(
     baca.clef("treble"),
     baca.clef(
         "bass",
-        selector=baca.leaves().rleak()[-1],
+        selector=baca.selectors.rleaf(-1),
     ),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,

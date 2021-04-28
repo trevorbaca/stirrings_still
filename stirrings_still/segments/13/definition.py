@@ -118,7 +118,7 @@ maker(
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
-        selector=baca.leaves()[1:].rleak(),
+        selector=baca.selectors.leaves((1, None), rleak=True),
     ),
     baca.flat_glissando(
         "<D#4 A4>",
@@ -145,7 +145,7 @@ maker(
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
-        selector=baca.leaves()[1:].rleak(),
+        selector=baca.selectors.leaves((1, None), rleak=True),
     ),
     stirrings_still.pickets(
         4,
@@ -182,7 +182,7 @@ maker(
     baca.hairpin(
         "o< ff",
         measures=(13, 16),
-        selector=baca.leaves().rleak().rleak(),
+        selector=lambda _: baca.Selection(_).leaves().rleak().rleak(),
     ),
     baca.hairpin(
         ">o",
@@ -216,7 +216,7 @@ maker(
     stirrings_still.clouded_pane_spanner(
         "clouded pane -|",
         8,
-        selector=baca.leaves().rleak().rleak(),
+        selector=lambda _: baca.Selection(_).leaves().rleak().rleak(),
     ),
 )
 
@@ -229,7 +229,7 @@ maker(
     stirrings_still.urtext_spanner(
         "urtext (ds) -|",
         8,
-        selector=baca.leaves()[1:].rleak(),
+        selector=baca.selectors.leaves((1, None), rleak=True),
     ),
 )
 
@@ -323,7 +323,7 @@ maker(
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
-        selector=baca.leaves()[1:].rleak(),
+        selector=baca.selectors.leaves((1, None), rleak=True),
     ),
     baca.flat_glissando(
         "<Dqs4 Gtqs4>",
@@ -350,7 +350,7 @@ maker(
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
-        selector=baca.leaves()[1:].rleak(),
+        selector=baca.selectors.leaves((1, None), rleak=True),
     ),
     stirrings_still.pickets(
         4,
@@ -443,7 +443,7 @@ maker(
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
-        selector=baca.leaves()[1:].rleak(),
+        selector=baca.selectors.leaves((1, None), rleak=True),
     ),
     baca.flat_glissando(
         "<D4 G#4>",
@@ -470,7 +470,7 @@ maker(
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
         qualifier="very-wide",
-        selector=baca.leaves()[1:].rleak(),
+        selector=baca.selectors.leaves((1, None), rleak=True),
     ),
     stirrings_still.pickets(
         4,

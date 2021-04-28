@@ -565,7 +565,7 @@ maker(
     baca.hairpin(
         '"ff" -- !',
         abjad.tweak(True).to_barline,
-        selector=baca.leaves().lleak().rleak(),
+        selector=lambda _: baca.Selection(_).leaves().lleak().rleak(),
     ),
     baca.new(
         stirrings_still.synchronized_circles(gaps=False, rotation=0),
@@ -841,7 +841,7 @@ maker(
     baca.clef("bass"),
     baca.hairpin(
         "o< f >o niente",
-        pieces=baca.leaves().rleak().partition_by_counts([1, 1, 1]),
+        pieces=stirrings_still.rleaves_partition_by_counts([1, 1, 1]),
         selector=baca.selectors.rleaves(),
     ),
     baca.pitch("B1"),

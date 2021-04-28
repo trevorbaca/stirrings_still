@@ -331,7 +331,7 @@ maker(
     baca.hairpin(
         "p < f-scratch -- ! >o niente",
         pieces=baca.selectors.omgroups([1, 2]),
-        selector=baca.leaves()[2:].rleak(),
+        selector=baca.selectors.leaves((2, None), rleak=True),
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -881,7 +881,7 @@ maker(
     baca.clef("treble"),
     baca.clef(
         "bass",
-        selector=baca.leaves().rleak()[-1],
+        selector=baca.selectors.rleaf(-1),
     ),
     baca.flat_glissando("A5"),
     baca.hairpin(
