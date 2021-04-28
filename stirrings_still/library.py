@@ -481,6 +481,32 @@ class StageToken:
         return self._number
 
 
+# selectors
+
+
+def rleaves_partition_by_counts(counts):
+    def selector(argument):
+        result = baca.Selection(argument).leaves()
+        result = result.rleak()
+        result = result.partition_by_counts(counts)
+        return result
+
+    return selector
+
+
+def rleaves_partition_by_ratio(ratio):
+    def selector(argument):
+        result = baca.Selection(argument).leaves()
+        result = result.rleak()
+        result = result.partition_by_ratio(ratio)
+        return result
+
+    return selector
+
+
+# functions
+
+
 def accelerando(
     start: abjad.DurationTyping,
     stop: abjad.DurationTyping,
@@ -9776,7 +9802,7 @@ def tailpiece(
         baca.flat_glissando(
             None,
             *tweaks,
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
         ),
         measures=measures,
     )
