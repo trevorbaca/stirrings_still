@@ -4704,7 +4704,7 @@ def ntlt_flat_glissandi() -> baca.Suite:
             baca.accidental_stencil_false(),
             baca.note_head_transparent(),
             baca.note_head_x_extent_zero(),
-            selector=baca.leaves()[1:],
+            selector=baca.selectors.leaves((1, None)),
         ),
         baca.untie(baca.selectors.leaves()),
         map=baca.lts(nontrivial=True),
@@ -9793,11 +9793,15 @@ def tailpiece(
     Makes tailpiece.
     """
     command = baca.suite(
-        baca.dots_transparent(selector=baca.leaves()[1:]),
+        baca.dots_transparent(
+            selector=baca.selectors.leaves((1, None)),
+        ),
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
         baca.markup(r"\baca-boxed-markup tailpiece", literal=True),
         baca.staff_position(0),
-        baca.stem_transparent(selector=baca.leaves()[1:]),
+        baca.stem_transparent(
+            selector=baca.selectors.leaves((1, None)),
+        ),
         baca.text_script_parent_alignment_x(0),
         baca.flat_glissando(
             None,

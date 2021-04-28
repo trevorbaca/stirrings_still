@@ -326,7 +326,7 @@ maker(
     ),
     baca.hairpin(
         "p <| f",
-        selector=baca.leaves()[:2],
+        selector=baca.selectors.leaves((None, 2)),
     ),
     baca.hairpin(
         "p < f-scratch -- ! >o niente",

@@ -437,7 +437,7 @@ maker(
 maker(
     ("trio", (46, 53)),
     baca.stem_transparent(
-        selector=baca.leaves()[:-1],
+        selector=baca.selectors.leaves((None, -1))
     ),
 )
 
@@ -1236,7 +1236,7 @@ maker(
     baca.new(
         baca.dots_transparent(),
         baca.stem_transparent(),
-        selector=baca.leaves()[:-1],
+        selector=baca.selectors.leaves((None, -1)),
     ),
     baca.scp_spanner(
         "T -> T poss. =|",
