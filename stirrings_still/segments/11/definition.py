@@ -436,9 +436,7 @@ maker(
 
 maker(
     ("trio", (46, 53)),
-    baca.stem_transparent(
-        selector=baca.selectors.leaves((None, -1))
-    ),
+    baca.stem_transparent(selector=baca.selectors.leaves((None, -1))),
 )
 
 # v1, v2, vc
