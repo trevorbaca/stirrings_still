@@ -710,20 +710,26 @@ maker(
     baca.hairpin(
         "mf < ff -- !",
         abjad.tweak(True).to_barline,
-        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        pieces=lambda _: baca.Selection(_)
+        .leaves()
+        .partition_by_counts([2], overhang=True),
         selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "T -> P molto =|",
         abjad.tweak(13).staff_padding,
         match=0,
-        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        pieces=lambda _: baca.Selection(_)
+        .leaves()
+        .partition_by_counts([2], overhang=True),
     ),
     baca.scp_spanner(
         "T -> P molto =|",
         abjad.tweak(10.5).staff_padding,
         match=[1, 2, 3],
-        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        pieces=lambda _: baca.Selection(_)
+        .leaves()
+        .partition_by_counts([2], overhang=True),
     ),
 )
 
@@ -1502,7 +1508,7 @@ maker(
     baca.new(
         baca.clef("treble"),
         baca.clef_extra_offset((-1, 0)),
-        selector=baca.leaves().lleak()[0],
+        selector=lambda _: baca.Selection(_).leaves().lleak()[0],
     ),
     baca.pitch(
         "Dtqs5",
