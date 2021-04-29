@@ -4672,10 +4672,9 @@ def multistage_leaf_glissando(
     stop = None
     if leaf_count is not None:
         stop = start + leaf_count
-    selector = baca.leaves()
+    selector = baca.selectors.leaves((start, stop))
     if rleak_final_stage:
-        selector = selector.rleak()
-    selector = selector[start:stop]
+        selector = baca.selectors.rleaves((start, stop))
     chunk = baca.chunk(
         baca.glissando(
             allow_repeats=True,

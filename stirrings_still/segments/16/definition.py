@@ -120,7 +120,7 @@ maker(
     ("v1", 10),
     baca.hairpin(
         "ppp < p > ppppp",
-        pieces=baca.leaves().partition_by_counts([2, 4, 1]),
+        pieces=baca.selectors.lparts([2, 4, 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -171,7 +171,7 @@ maker(
     ("v1", 20),
     baca.hairpin(
         "ppp < p > ppppp",
-        pieces=baca.leaves().partition_by_counts([2, 4, 1]),
+        pieces=baca.selectors.lparts([2, 4, 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -270,7 +270,7 @@ maker(
     ("v2", 5),
     baca.hairpin(
         "ppppp < p > ppp",
-        pieces=baca.leaves().partition_by_counts([1, 3, 1]),
+        pieces=baca.selectors.lparts([1, 3, 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -279,7 +279,7 @@ maker(
     ("v2", 7),
     baca.hairpin(
         "ppp < p > ppp",
-        pieces=baca.leaves().partition_by_counts([5, 1, 1]),
+        pieces=baca.selectors.lparts([5, 1, 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -288,7 +288,7 @@ maker(
     ("v2", 9),
     baca.hairpin(
         "ppp < p > ppppp",
-        pieces=baca.leaves().partition_by_counts([1, 3, 1]),
+        pieces=baca.selectors.lparts([1, 3, 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -317,7 +317,7 @@ maker(
     ("v2", 15),
     baca.hairpin(
         "ppppp < p > pp",
-        pieces=baca.leaves().partition_by_counts([1, 4, 1]),
+        pieces=baca.selectors.lparts([1, 4, 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -326,7 +326,7 @@ maker(
     ("v2", 17),
     baca.hairpin(
         "ppp < p > pp",
-        pieces=baca.leaves().partition_by_counts([7, 1, 1]),
+        pieces=baca.selectors.lparts([7, 1, 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -335,7 +335,7 @@ maker(
     ("v2", 19),
     baca.hairpin(
         "ppp < p > ppppp",
-        pieces=baca.leaves().partition_by_counts([1, 2, 1]),
+        pieces=baca.selectors.lparts([1, 2, 1]),
         selector=baca.selectors.rleaves(),
     ),
 )

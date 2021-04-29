@@ -677,7 +677,7 @@ maker(
         # spanner terminates at double bar:
         (abjad.tweak(7.75).bound_details__right__padding, -1),
         bookend=False,
-        pieces=baca.leaves().mgroups([3, 3 + 1]),
+        pieces=lambda _: baca.Selection(_).leaves().mgroups([3, 3 + 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
