@@ -856,12 +856,12 @@ def desynchronization(
 
     if rests is True:
         specifier = rmakers.force_rest(
-            baca.lts().get([1], 2),
+            baca.selectors.lts(([1], 2)),
         )
         commands.append(specifier)
     elif isinstance(rests, tuple):
         specifier = rmakers.force_rest(
-            baca.lts().get(*rests),
+            baca.selectors.lts(rests),
         )
         commands.append(specifier)
 
@@ -4706,7 +4706,7 @@ def ntlt_flat_glissandi() -> baca.Suite:
             selector=baca.selectors.leaves((1, None)),
         ),
         baca.untie(baca.selectors.leaves()),
-        map=baca.lts(nontrivial=True),
+        map=baca.selectors.lts(nontrivial=True),
     )
 
 
@@ -9770,7 +9770,7 @@ def synchronized_circles(
         pass
     elif isinstance(rests, list):
         specifier = rmakers.force_rest(
-            baca.lts().get(rests),
+            baca.selectors.lts(rests),
         )
         commands.append(specifier)
     else:

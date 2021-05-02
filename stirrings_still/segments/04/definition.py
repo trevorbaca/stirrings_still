@@ -517,7 +517,7 @@ maker(
     baca.hairpin(
         "mp p",
         bookend=False,
-        pieces=baca.lts(nontrivial=True),
+        pieces=baca.selectors.lts(nontrivial=True),
     ),
     baca.new(
         stirrings_still.strokes(
@@ -562,7 +562,7 @@ maker(
     baca.hairpin(
         "mf mp",
         bookend=False,
-        pieces=baca.lts(nontrivial=True),
+        pieces=baca.selectors.lts(nontrivial=True),
     ),
     baca.new(
         stirrings_still.strokes(
@@ -607,7 +607,7 @@ maker(
     baca.hairpin(
         '"f" mf',
         bookend=False,
-        pieces=baca.lts(nontrivial=True),
+        pieces=baca.selectors.lts(nontrivial=True),
     ),
     baca.new(
         stirrings_still.strokes(
@@ -652,7 +652,7 @@ maker(
     baca.hairpin(
         '"ff" "f"',
         bookend=False,
-        pieces=baca.lts(nontrivial=True),
+        pieces=baca.selectors.lts(nontrivial=True),
     ),
     baca.new(
         stirrings_still.strokes(
@@ -758,7 +758,7 @@ maker(
             baca.stem_tremolo(
                 selector=baca.selectors.leaf(-1),
             ),
-            map=baca.lts(nontrivial=True),
+            map=baca.selectors.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),
@@ -781,7 +781,7 @@ maker(
             baca.stop_on_string(
                 selector=baca.selectors.leaf(-1),
             ),
-            map=baca.lts(nontrivial=True),
+            map=baca.selectors.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),
@@ -1089,7 +1089,7 @@ maker(
             baca.stem_tremolo(
                 selector=baca.selectors.leaf(-1),
             ),
-            map=baca.lts(nontrivial=True),
+            map=baca.selectors.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),
@@ -1102,7 +1102,7 @@ maker(
             baca.stop_on_string(
                 selector=baca.selectors.leaf(-1),
             ),
-            map=baca.lts(nontrivial=True),
+            map=baca.selectors.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),

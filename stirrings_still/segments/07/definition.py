@@ -246,7 +246,7 @@ maker(
             baca.stop_on_string(
                 selector=baca.selectors.leaf(-1),
             ),
-            map=baca.lts(nontrivial=True),
+            map=baca.selectors.lts(nontrivial=True),
         ),
         stirrings_still.ntlt_flat_glissandi(),
     ),
