@@ -139,7 +139,9 @@ maker(
     ),
     baca.hairpin(
         "f < ff >",
-        pieces=baca.plts()[:-1].partition_by_counts(
+        pieces=lambda _: baca.Selection(_)
+        .plts()[:-1]
+        .partition_by_counts(
             [2],
             cyclic=True,
         ),
@@ -148,7 +150,7 @@ maker(
         "O -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -186,7 +188,9 @@ maker(
     ),
     baca.hairpin(
         "ff < fff >",
-        pieces=baca.plts()[:-1].partition_by_counts(
+        pieces=lambda _: baca.Selection(_)
+        .plts()[:-1]
+        .partition_by_counts(
             [2],
             cyclic=True,
         ),
@@ -195,7 +199,7 @@ maker(
         "O -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -345,7 +349,9 @@ maker(
     ),
     baca.hairpin(
         "f < ff >",
-        pieces=baca.plts()[:-1].partition_by_counts(
+        pieces=lambda _: baca.Selection(_)
+        .plts()[:-1]
+        .partition_by_counts(
             [2],
             cyclic=True,
         ),
@@ -354,7 +360,7 @@ maker(
         "O -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -392,7 +398,9 @@ maker(
     ),
     baca.hairpin(
         "ff < fff >",
-        pieces=baca.plts()[:-1].partition_by_counts(
+        pieces=lambda _: baca.Selection(_)
+        .plts()[:-1]
+        .partition_by_counts(
             [2],
             cyclic=True,
         ),
@@ -401,7 +409,7 @@ maker(
         "O -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -500,7 +508,9 @@ maker(
     ),
     baca.hairpin(
         "f < ff >",
-        pieces=baca.plts()[:-1].partition_by_counts(
+        pieces=lambda _: baca.Selection(_)
+        .plts()[:-1]
+        .partition_by_counts(
             [2],
             cyclic=True,
         ),
@@ -509,7 +519,7 @@ maker(
         "O -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -547,7 +557,9 @@ maker(
     ),
     baca.hairpin(
         "ff < fff >",
-        pieces=baca.plts()[:-1].partition_by_counts(
+        pieces=lambda _: baca.Selection(_)
+        .plts()[:-1]
+        .partition_by_counts(
             [2],
             cyclic=True,
         ),
@@ -556,7 +568,7 @@ maker(
         "O -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -656,7 +668,9 @@ maker(
     ),
     baca.hairpin(
         "f < ff >",
-        pieces=baca.plts()[:-1].partition_by_counts(
+        pieces=lambda _: baca.Selection(_)
+        .plts()[:-1]
+        .partition_by_counts(
             [2],
             cyclic=True,
         ),
@@ -665,7 +679,7 @@ maker(
         "O -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -718,7 +732,9 @@ maker(
     ),
     baca.hairpin(
         "ff < fff >",
-        pieces=baca.plts()[:-1].partition_by_counts(
+        pieces=lambda _: baca.Selection(_)
+        .plts()[:-1]
+        .partition_by_counts(
             [2],
             cyclic=True,
         ),
@@ -727,7 +743,7 @@ maker(
         "O -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),

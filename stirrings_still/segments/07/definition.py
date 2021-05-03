@@ -224,7 +224,7 @@ maker(
             "T -> P ->",
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
-            pieces=baca.plts()[:-1],
+            pieces=baca.selectors.plts((None, -1)),
         ),
     ),
     baca.stem_tremolo(

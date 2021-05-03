@@ -148,7 +148,7 @@ maker(
         baca.accent(),
         baca.dynamic("sfp"),
         baca.stem_tremolo(selector=baca.selectors.pleaves()),
-        map=baca.plts().get([0], 2),
+        map=baca.selectors.plts(([0], 2)),
     ),
     baca.suite(
         baca.hairpin(
@@ -159,7 +159,7 @@ maker(
             abjad.tweak(5.5).staff_padding,
         ),
         baca.flat_glissando("Etqf4"),
-        map=baca.plts().get([1], 2),
+        map=baca.selectors.plts(([1], 2)),
     ),
     baca.pitch("Etqf4", allow_repitch=True),
     stirrings_still.grid_to_trajectory(0, 0, 2),
@@ -476,7 +476,7 @@ maker(
         baca.accent(),
         baca.dynamic("sfp"),
         baca.stem_tremolo(),
-        map=baca.plts().get([0], 2),
+        map=baca.selectors.plts(([0], 2)),
     ),
     baca.new(
         baca.hairpin(
@@ -486,7 +486,7 @@ maker(
         baca.xfb_spanner(
             abjad.tweak(5.5).staff_padding,
         ),
-        map=baca.plts().get([1], 2),
+        map=baca.selectors.plts(([1], 2)),
     ),
     stirrings_still.measure_initiation(),
 )
@@ -554,7 +554,7 @@ maker(
         "ff > p < ff -- f > p < f --",
         bookend=False,
         final_hairpin=False,
-        pieces=baca.plts(),
+        pieces=baca.selectors.plts(),
     ),
     baca.new(
         stirrings_still.talea_eighths([3, 6, 8], 0, 1, end_counts=[1]),
@@ -572,7 +572,7 @@ maker(
         "P -> T ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -598,7 +598,7 @@ maker(
         "P -> T ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -623,7 +623,7 @@ maker(
             "P -> T ->",
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
-            pieces=baca.plts()[:-1],
+            pieces=baca.selectors.plts((None, -1)),
         ),
         stirrings_still.talea_eighths([3, 6, 8], 0, 1),
         match=0,
@@ -644,7 +644,7 @@ maker(
             "P -> T ->",
             abjad.tweak(5.5).staff_padding,
             autodetect_right_padding=False,
-            pieces=baca.plts()[:-1],
+            pieces=baca.selectors.plts((None, -1)),
         ),
         stirrings_still.talea_eighths([3, 6, 8], -2, -1),
         match=2,
@@ -680,7 +680,7 @@ maker(
         "P -> T ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -750,7 +750,8 @@ maker(
     ("v2", (6, 23)),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
-        map=baca.plts()
+        map=lambda _: baca.Selection(_)
+        .plts()
         .partition_by_counts(
             [4, 1, 3, 1, 2, 1, 99],
             cyclic=True,
@@ -761,7 +762,7 @@ maker(
         baca.accent(),
         baca.dynamic("sfp"),
         baca.stem_tremolo(selector=baca.selectors.pleaves()),
-        map=baca.plts().get([0], 2),
+        map=baca.selectors.plts(([0], 2)),
     ),
     baca.suite(
         baca.hairpin(
@@ -772,7 +773,7 @@ maker(
             abjad.tweak(5.5).staff_padding,
         ),
         baca.flat_glissando("Bqf3"),
-        map=baca.plts().get([1], 2),
+        map=baca.selectors.plts(([1], 2)),
     ),
     baca.pitch("Bqf3", allow_repitch=True),
 )
@@ -971,7 +972,8 @@ maker(
     ("va", (6, 23)),
     baca.damp_spanner(
         abjad.tweak(5.5).staff_padding,
-        map=baca.plts()
+        map=lambda _: baca.Selection(_)
+        .plts()
         .partition_by_counts(
             [4, 1, 3, 1, 2, 1, 99],
             cyclic=True,
@@ -982,7 +984,7 @@ maker(
         baca.accent(),
         baca.dynamic("sfp"),
         baca.stem_tremolo(selector=baca.selectors.pleaves()),
-        map=baca.plts().get([0], 2),
+        map=baca.selectors.plts(([0], 2)),
     ),
     baca.suite(
         baca.hairpin(
@@ -993,7 +995,7 @@ maker(
             abjad.tweak(3).staff_padding,
         ),
         baca.flat_glissando("A3"),
-        map=baca.plts().get([1], 2),
+        map=baca.selectors.plts(([1], 2)),
     ),
     baca.pitch("A3", allow_repitch=True),
     stirrings_still.grid_to_trajectory(0, -4, 0),
@@ -1020,7 +1022,7 @@ maker(
             baca.accent(),
             baca.dynamic("sfp"),
             baca.stem_tremolo(),
-            map=baca.plts().get([0], 2),
+            map=baca.selectors.plts(([0], 2)),
         ),
         baca.new(
             baca.hairpin(
@@ -1030,7 +1032,7 @@ maker(
             baca.xfb_spanner(
                 abjad.tweak(5.5).staff_padding,
             ),
-            map=baca.plts()[:-1].get([1], 2),
+            map=lambda _: baca.Selection(_).plts()[:-1].get([1], 2),
         ),
         baca.new(
             baca.hairpin(
