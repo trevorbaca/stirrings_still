@@ -671,7 +671,9 @@ def circles(
     command = baca.rhythm(
         rmakers.note(),
         *commands,
-        rmakers.beam(baca.plts()),
+        rmakers.beam(
+            baca.selectors.plts(),
+        ),
         rmakers.rewrite_sustained(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
@@ -770,7 +772,9 @@ def continuous_tremolo() -> baca.Suite:
     command = baca.suite(
         baca.rhythm(
             rmakers.note(),
-            rmakers.beam(baca.plts()),
+            rmakers.beam(
+                baca.selectors.plts(),
+            ),
             rmakers.tie(
                 baca.selectors.ptails((None, -1)),
             ),
@@ -802,7 +806,9 @@ def declamation(
 
     note_rhythm_maker = rmakers.stack(
         rmakers.note(),
-        rmakers.beam(baca.plts()),
+        rmakers.beam(
+            baca.selectors.plts(),
+        ),
         rmakers.tie(
             baca.selectors.ptails((None, -1)),
         ),
@@ -9708,7 +9714,9 @@ def solid_line_rhythm(*, measures: baca.SliceTyping = None) -> baca.RhythmComman
     """
     command = baca.rhythm(
         rmakers.note(spelling=rmakers.Spelling(forbidden_note_duration=(1, 2))),
-        rmakers.beam(baca.plts()),
+        rmakers.beam(
+            baca.selectors.plts(),
+        ),
         measures=measures,
     )
     tag = abjad.Tag("stirrings_still.solid_line_rhythm()")

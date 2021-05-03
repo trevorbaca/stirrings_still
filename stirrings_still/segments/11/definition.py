@@ -272,7 +272,7 @@ maker(
         "T -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.flat_glissando("Aqf5"),
     stirrings_still.flight(
@@ -305,7 +305,7 @@ maker(
         "T -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     stirrings_still.flight(
         "A",
@@ -347,13 +347,13 @@ maker(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.plts(),
+        pieces=baca.selectors.plts(),
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     stirrings_still.flight(
         "A",
@@ -626,7 +626,7 @@ maker(
         "T -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.flat_glissando("F5"),
     stirrings_still.flight(
@@ -659,7 +659,7 @@ maker(
         "T -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     stirrings_still.flight(
         "A",
@@ -699,13 +699,13 @@ maker(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.plts(),
+        pieces=baca.selectors.plts(),
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     stirrings_still.flight(
         "A",
@@ -900,7 +900,7 @@ maker(
         "T -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.flat_glissando("G3"),
     stirrings_still.flight(
@@ -933,7 +933,7 @@ maker(
         "T -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     stirrings_still.flight(
         "A",
@@ -964,13 +964,13 @@ maker(
         bookend=False,
         final_piece_spanner=False,
         lilypond_id=1,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.scp_spanner(
         "T1 -> T3 -> T2 -> T3 ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     stirrings_still.flight(
         "A",
@@ -1173,7 +1173,7 @@ maker(
         "T -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.flat_glissando("Eb2"),
     stirrings_still.flight(
@@ -1192,7 +1192,7 @@ maker(
         "T -> P ->",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
-        pieces=baca.plts()[:-1],
+        pieces=baca.selectors.plts((None, -1)),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),

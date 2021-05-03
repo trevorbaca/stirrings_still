@@ -196,7 +196,7 @@ maker(
         ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.plts().get([3], 4),
+            map=baca.selectors.plts(([3], 4)),
         ),
     ),
 )
@@ -814,7 +814,7 @@ maker(
         ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.plts().get([4], 5),
+            map=baca.selectors.plts(([4], 5)),
         ),
     ),
 )
@@ -913,7 +913,7 @@ maker(
         ),
         baca.new(
             baca.note_head_style_harmonic(),
-            map=baca.plts().get([2], 3),
+            map=baca.selectors.plts(([2], 3)),
         ),
     ),
 )
