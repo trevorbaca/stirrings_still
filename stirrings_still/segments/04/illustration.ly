@@ -7,7 +7,7 @@
 %! baca.SegmentMaker._make_lilypond_file()
 %! abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheet.ily"
-%! ide.Path.extern()
+%! baca.Path.extern()
 \include "illustration.ily"
 
 %! baca.SegmentMaker._make_lilypond_file()
@@ -49,7 +49,7 @@
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalSkips = "Global_Skips"
                 %! abjad.ScoreTemplate._make_global_context()
-                %! ide.Path.extern()
+                %! baca.Path.extern()
                 \d_Global_Skips
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -70,7 +70,7 @@
                     %! stirrings_still.ScoreTemplate.__call__()
                     \context Staff = "Violin_I_Music_Staff"
                     %! stirrings_still.ScoreTemplate.__call__()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \d_Violin_I_Music_Staff
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -78,7 +78,7 @@
                     %! stirrings_still.ScoreTemplate.__call__()
                     \context Staff = "Violin_II_MusicStaff"
                     %! stirrings_still.ScoreTemplate.__call__()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \d_Violin_II_MusicStaff
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -86,7 +86,7 @@
                     %! stirrings_still.ScoreTemplate.__call__()
                     \context Staff = "Viola_Music_Staff"
                     %! stirrings_still.ScoreTemplate.__call__()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \d_Viola_Music_Staff
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -94,7 +94,7 @@
                     %! stirrings_still.ScoreTemplate.__call__()
                     \context Staff = "Cello_Music_Staff"
                     %! stirrings_still.ScoreTemplate.__call__()
-                    %! ide.Path.extern()
+                    %! baca.Path.extern()
                     \d_Cello_Music_Staff
 
                 %! stirrings_still.ScoreTemplate.__call__()
