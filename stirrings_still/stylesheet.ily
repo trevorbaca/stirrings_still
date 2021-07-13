@@ -2,6 +2,7 @@
 #(set-global-staff-size 10)
 
 \include "baca.ily"
+\include "text-markups.ily"
 
 
 \paper {
