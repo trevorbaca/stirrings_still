@@ -53,7 +53,6 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("B"),
-    validate_measure_count=66,
 )
 
 maker(
