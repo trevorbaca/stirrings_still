@@ -395,3 +395,6 @@ maker(
     ("vc", (15, 17)),
     baca.tacet(),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

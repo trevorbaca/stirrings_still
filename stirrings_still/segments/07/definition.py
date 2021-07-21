@@ -425,3 +425,6 @@ maker(
     ("vc", 19),
     baca.clef("treble"),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

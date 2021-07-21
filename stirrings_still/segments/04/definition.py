@@ -1160,3 +1160,6 @@ maker(
         literal=True,
     ),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)
