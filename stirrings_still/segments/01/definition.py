@@ -1,3 +1,5 @@
+import pathlib
+
 import abjad
 import baca
 
@@ -42,7 +44,7 @@ maker = baca.SegmentMaker(
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
     includes=["stylesheet.ily"],
-    segment_directory=baca.Path(__file__).resolve().parent,
+    segment_directory=pathlib.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("A"),
 )

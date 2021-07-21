@@ -1,3 +1,5 @@
+import pathlib
+
 import abjad
 import baca
 from abjadext import rmakers
@@ -43,7 +45,7 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[41, 86, 111],
-    segment_directory=baca.Path(__file__).resolve().parent,
+    segment_directory=pathlib.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("E"),
 )
