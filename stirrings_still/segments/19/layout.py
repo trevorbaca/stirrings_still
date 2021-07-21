@@ -25,3 +25,6 @@ spacing = baca.scorewide_spacing(
     fallback_duration=(1, 16),
 )
 spacing.override([9, 16, 20], (1, 288), fermata=True)
+
+if __name__ == "__main__":
+    baca.build.make_layout_ly(__file__)
