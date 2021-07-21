@@ -43,3 +43,6 @@ spacing.override(26, (1, 48))
 spacing.override(45, (1, 48))
 spacing.override(64, (1, 32), force_local=True)
 spacing.override([28, 66], (1, 288), fermata=True, force_local=True)
+
+if __name__ == "__main__":
+    baca.build.make_layout_ly(__file__)

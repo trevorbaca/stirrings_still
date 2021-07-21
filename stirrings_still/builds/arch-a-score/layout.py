@@ -901,3 +901,6 @@ for i, tuple_ in enumerate(tuples):
     print(string.format(first, second, third, page_number))
 print()
 '''
+
+if __name__ == "__main__":
+    baca.build.make_layout_ly(__file__)
