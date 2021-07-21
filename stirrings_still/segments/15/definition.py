@@ -201,3 +201,6 @@ maker(
     ),
     stirrings_still.trajectories("A", -1, 0),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

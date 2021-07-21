@@ -933,3 +933,6 @@ maker(
     ("vc", (71, 76)),
     baca.tuplet_bracket_staff_padding(0.5),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

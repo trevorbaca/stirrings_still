@@ -1776,3 +1776,6 @@ maker(
     stirrings_still.clouded_pane(),
     stirrings_still.clouded_pane_spanner("clouded pane (flight) -|", 5.5),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

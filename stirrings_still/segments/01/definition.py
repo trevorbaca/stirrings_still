@@ -920,3 +920,6 @@ maker(
     ("vc", 62),
     baca.flat_glissando("G3"),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)
