@@ -4,7 +4,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-import stirrings_still
+from stirrings_still import library as stirrings_still
 
 ###############################################################################
 ##################################### [L] #####################################
