@@ -88,17 +88,17 @@ class Operation:
 
     ..  container:: example
 
-        >>> operation = stirrings_still.Operation(
-        ...     source_stage=stirrings_still.StageToken('G', 9, 'inception', 1),
+        >>> operation = stirrings_still.library.Operation(
+        ...     source_stage=stirrings_still.library.StageToken('G', 9, 'inception', 1),
         ...     source_measures=1,
         ...     verb='suffix',
-        ...     target_stage=stirrings_still.StageToken('A', 9, 'iteratum', 2),
+        ...     target_stage=stirrings_still.library.StageToken('A', 9, 'iteratum', 2),
         ...     )
 
         >>> string = abjad.storage(operation)
         >>> print(string)
-        stirrings_still.Operation(
-            source_stage=stirrings_still.StageToken(
+        stirrings_still.stirrings_still.library.Operation(
+            source_stage=stirrings_still.stirrings_still.library.StageToken(
                 letter='G',
                 number=9,
                 description='inception',
@@ -106,7 +106,7 @@ class Operation:
                 ),
             source_measures=1,
             verb='suffix',
-            target_stage=stirrings_still.StageToken(
+            target_stage=stirrings_still.stirrings_still.library.StageToken(
                 letter='A',
                 number=9,
                 description='iteratum',
@@ -1140,7 +1140,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('A')
+        >>> stages = stirrings_still.library.first_order_stages('A')
         >>> len(stages)
         18
 
@@ -1150,7 +1150,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1],
                         time_signatures=[
@@ -1161,7 +1161,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[3],
                         time_signatures=[
@@ -1172,7 +1172,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[5, 6],
                         time_signatures=[
@@ -1184,7 +1184,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[8, 9],
                         time_signatures=[
@@ -1196,7 +1196,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[11, 12, 13, 14, 15, 16],
                         time_signatures=[
@@ -1212,7 +1212,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[18],
                         time_signatures=[
@@ -1223,7 +1223,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[20],
                         time_signatures=[
@@ -1234,7 +1234,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[22, 23],
                         time_signatures=[
@@ -1246,7 +1246,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[25, 26],
                         time_signatures=[
@@ -1258,7 +1258,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[28, 29, 30, 31, 32, 33],
                         time_signatures=[
@@ -1273,7 +1273,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[34, 35, 36, 37, 38, 39],
                         time_signatures=[
@@ -1288,7 +1288,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[40, 41, 42, 43],
                         time_signatures=[
@@ -1301,7 +1301,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[44, 45, 46, 47],
                         time_signatures=[
@@ -1315,7 +1315,7 @@ def first_order_stages(segment):
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[49],
                         time_signatures=[
@@ -1326,7 +1326,7 @@ def first_order_stages(segment):
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[51],
                         time_signatures=[
@@ -1337,7 +1337,7 @@ def first_order_stages(segment):
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[53],
                         time_signatures=[
@@ -1348,7 +1348,7 @@ def first_order_stages(segment):
                     ),
                 (
                     17,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=17,
                         measure_numbers=[55],
                         time_signatures=[
@@ -1359,7 +1359,7 @@ def first_order_stages(segment):
                     ),
                 (
                     18,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=18,
                         measure_numbers=[57],
                         time_signatures=[
@@ -1373,7 +1373,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('B')
+        >>> stages = stirrings_still.library.first_order_stages('B')
         >>> len(stages)
         24
 
@@ -1383,7 +1383,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -1396,7 +1396,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5],
                         time_signatures=[
@@ -1406,7 +1406,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[6, 7],
                         time_signatures=[
@@ -1417,7 +1417,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[8, 9, 10, 11],
                         time_signatures=[
@@ -1430,7 +1430,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[12],
                         time_signatures=[
@@ -1441,7 +1441,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[14],
                         time_signatures=[
@@ -1452,7 +1452,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[16],
                         time_signatures=[
@@ -1463,7 +1463,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[18, 19],
                         time_signatures=[
@@ -1474,7 +1474,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[20, 21],
                         time_signatures=[
@@ -1485,7 +1485,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[22],
                         time_signatures=[
@@ -1495,7 +1495,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[23, 24],
                         time_signatures=[
@@ -1506,7 +1506,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[25, 26],
                         time_signatures=[
@@ -1518,7 +1518,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[28, 29],
                         time_signatures=[
@@ -1530,7 +1530,7 @@ def first_order_stages(segment):
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[31, 32],
                         time_signatures=[
@@ -1542,7 +1542,7 @@ def first_order_stages(segment):
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[34, 35],
                         time_signatures=[
@@ -1554,7 +1554,7 @@ def first_order_stages(segment):
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[37, 38],
                         time_signatures=[
@@ -1566,7 +1566,7 @@ def first_order_stages(segment):
                     ),
                 (
                     17,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=17,
                         measure_numbers=[40, 41],
                         time_signatures=[
@@ -1578,7 +1578,7 @@ def first_order_stages(segment):
                     ),
                 (
                     18,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=18,
                         measure_numbers=[43, 44],
                         time_signatures=[
@@ -1589,7 +1589,7 @@ def first_order_stages(segment):
                     ),
                 (
                     19,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=19,
                         measure_numbers=[45, 46, 47, 48, 49, 50],
                         time_signatures=[
@@ -1604,7 +1604,7 @@ def first_order_stages(segment):
                     ),
                 (
                     20,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=20,
                         measure_numbers=[51, 52],
                         time_signatures=[
@@ -1615,7 +1615,7 @@ def first_order_stages(segment):
                     ),
                 (
                     21,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=21,
                         measure_numbers=[53],
                         time_signatures=[
@@ -1625,7 +1625,7 @@ def first_order_stages(segment):
                     ),
                 (
                     22,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=22,
                         measure_numbers=[54],
                         time_signatures=[
@@ -1635,7 +1635,7 @@ def first_order_stages(segment):
                     ),
                 (
                     23,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=23,
                         measure_numbers=[55],
                         time_signatures=[
@@ -1646,7 +1646,7 @@ def first_order_stages(segment):
                     ),
                 (
                     24,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=24,
                         measure_numbers=[57],
                         time_signatures=[
@@ -1660,7 +1660,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('H')
+        >>> stages = stirrings_still.library.first_order_stages('H')
         >>> len(stages)
         14
 
@@ -1670,7 +1670,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -1683,7 +1683,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5],
                         time_signatures=[
@@ -1693,7 +1693,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[6, 7],
                         time_signatures=[
@@ -1704,7 +1704,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[8, 9],
                         time_signatures=[
@@ -1715,7 +1715,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[10, 11],
                         time_signatures=[
@@ -1726,7 +1726,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[12, 13],
                         time_signatures=[
@@ -1737,7 +1737,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[14, 15],
                         time_signatures=[
@@ -1748,7 +1748,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[16, 17, 18, 19, 20, 21],
                         time_signatures=[
@@ -1763,7 +1763,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[22, 23, 24, 25, 26, 27],
                         time_signatures=[
@@ -1779,7 +1779,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[29, 30],
                         time_signatures=[
@@ -1791,7 +1791,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[32, 33, 34],
                         time_signatures=[
@@ -1804,7 +1804,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[36, 37, 38, 39],
                         time_signatures=[
@@ -1818,7 +1818,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[41, 42, 43, 44],
                         time_signatures=[
@@ -1831,7 +1831,7 @@ def first_order_stages(segment):
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[45, 46],
                         time_signatures=[
@@ -1845,7 +1845,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('E')
+        >>> stages = stirrings_still.library.first_order_stages('E')
         >>> len(stages)
         17
 
@@ -1855,7 +1855,7 @@ def first_order_stages(segment):
             [
                 (
                     0,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=0,
                         measure_numbers=[1, 2],
                         time_signatures=[
@@ -1867,7 +1867,7 @@ def first_order_stages(segment):
                     ),
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[4, 5, 6, 7, 8, 9],
                         time_signatures=[
@@ -1882,7 +1882,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17],
                         time_signatures=[
@@ -1899,7 +1899,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[18, 19, 20, 21],
                         time_signatures=[
@@ -1912,7 +1912,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[22, 23, 24, 25],
                         time_signatures=[
@@ -1925,7 +1925,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[26, 27, 28, 29],
                         time_signatures=[
@@ -1938,7 +1938,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[30, 31, 32, 33],
                         time_signatures=[
@@ -1951,7 +1951,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[34, 35, 36, 37],
                         time_signatures=[
@@ -1965,7 +1965,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[39, 40, 41, 42, 43, 44, 45, 46],
                         time_signatures=[
@@ -1982,7 +1982,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[47, 48, 49, 50, 51, 52, 53, 54],
                         time_signatures=[
@@ -1999,7 +1999,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[55, 56],
                         time_signatures=[
@@ -2011,7 +2011,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[58, 59, 60, 61],
                         time_signatures=[
@@ -2025,7 +2025,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[63, 64, 65, 66],
                         time_signatures=[
@@ -2039,7 +2039,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[68, 69, 70, 71],
                         time_signatures=[
@@ -2052,7 +2052,7 @@ def first_order_stages(segment):
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[72, 73],
                         time_signatures=[
@@ -2063,7 +2063,7 @@ def first_order_stages(segment):
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[74, 75],
                         time_signatures=[
@@ -2074,7 +2074,7 @@ def first_order_stages(segment):
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[76, 77, 78, 79, 80, 81, 82, 83],
                         time_signatures=[
@@ -2094,7 +2094,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('C')
+        >>> stages = stirrings_still.library.first_order_stages('C')
         >>> len(stages)
         19
 
@@ -2104,7 +2104,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -2118,7 +2118,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[6, 7, 8, 9],
                         time_signatures=[
@@ -2132,7 +2132,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[11, 12, 13, 14],
                         time_signatures=[
@@ -2145,7 +2145,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[15, 16, 17, 18],
                         time_signatures=[
@@ -2158,7 +2158,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[19, 20, 21, 22],
                         time_signatures=[
@@ -2171,7 +2171,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[23, 24, 25, 26],
                         time_signatures=[
@@ -2184,7 +2184,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[27],
                         time_signatures=[
@@ -2195,7 +2195,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[29, 30, 31, 32],
                         time_signatures=[
@@ -2208,7 +2208,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[33, 34, 35, 36],
                         time_signatures=[
@@ -2221,7 +2221,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[37, 38, 39, 40],
                         time_signatures=[
@@ -2234,7 +2234,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[41, 42, 43, 44],
                         time_signatures=[
@@ -2247,7 +2247,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[45, 46, 47, 48],
                         time_signatures=[
@@ -2260,7 +2260,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[49, 50, 51, 52],
                         time_signatures=[
@@ -2273,7 +2273,7 @@ def first_order_stages(segment):
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[53, 54, 55, 56],
                         time_signatures=[
@@ -2286,7 +2286,7 @@ def first_order_stages(segment):
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[57, 58],
                         time_signatures=[
@@ -2297,7 +2297,7 @@ def first_order_stages(segment):
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[59, 60],
                         time_signatures=[
@@ -2308,7 +2308,7 @@ def first_order_stages(segment):
                     ),
                 (
                     17,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=17,
                         measure_numbers=[61, 62],
                         time_signatures=[
@@ -2319,7 +2319,7 @@ def first_order_stages(segment):
                     ),
                 (
                     18,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=18,
                         measure_numbers=[63, 64],
                         time_signatures=[
@@ -2331,7 +2331,7 @@ def first_order_stages(segment):
                     ),
                 (
                     19,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=19,
                         measure_numbers=[66, 67, 68, 69, 70, 71],
                         time_signatures=[
@@ -2350,7 +2350,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('D')
+        >>> stages = stirrings_still.library.first_order_stages('D')
         >>> len(stages)
         22
 
@@ -2360,7 +2360,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6],
                         time_signatures=[
@@ -2375,7 +2375,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[7, 8, 9, 10, 11, 12],
                         time_signatures=[
@@ -2390,7 +2390,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[13, 14, 15, 16, 17, 18],
                         time_signatures=[
@@ -2405,7 +2405,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[19, 20, 21, 22, 23, 24],
                         time_signatures=[
@@ -2420,7 +2420,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[25, 26, 27, 28, 29, 30],
                         time_signatures=[
@@ -2435,7 +2435,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[31, 32, 33, 34, 35, 36],
                         time_signatures=[
@@ -2451,7 +2451,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[38, 39, 40, 41, 42, 43],
                         time_signatures=[
@@ -2467,7 +2467,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[45],
                         time_signatures=[
@@ -2478,7 +2478,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[47, 48, 49, 50],
                         time_signatures=[
@@ -2492,7 +2492,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[52],
                         time_signatures=[
@@ -2503,7 +2503,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[54, 55, 56, 57, 58, 59],
                         time_signatures=[
@@ -2519,7 +2519,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[61, 62],
                         time_signatures=[
@@ -2530,7 +2530,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[63, 64, 65, 66],
                         time_signatures=[
@@ -2543,7 +2543,7 @@ def first_order_stages(segment):
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[67, 68, 69, 70],
                         time_signatures=[
@@ -2556,7 +2556,7 @@ def first_order_stages(segment):
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[71, 72, 73, 74],
                         time_signatures=[
@@ -2569,7 +2569,7 @@ def first_order_stages(segment):
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[75, 76, 77, 78],
                         time_signatures=[
@@ -2582,7 +2582,7 @@ def first_order_stages(segment):
                     ),
                 (
                     17,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=17,
                         measure_numbers=[79, 80],
                         time_signatures=[
@@ -2593,7 +2593,7 @@ def first_order_stages(segment):
                     ),
                 (
                     18,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=18,
                         measure_numbers=[81, 82],
                         time_signatures=[
@@ -2604,7 +2604,7 @@ def first_order_stages(segment):
                     ),
                 (
                     19,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=19,
                         measure_numbers=[83, 84],
                         time_signatures=[
@@ -2615,7 +2615,7 @@ def first_order_stages(segment):
                     ),
                 (
                     20,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=20,
                         measure_numbers=[85, 86],
                         time_signatures=[
@@ -2626,7 +2626,7 @@ def first_order_stages(segment):
                     ),
                 (
                     21,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=21,
                         measure_numbers=[87, 88],
                         time_signatures=[
@@ -2637,7 +2637,7 @@ def first_order_stages(segment):
                     ),
                 (
                     22,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=22,
                         measure_numbers=[89, 90],
                         time_signatures=[
@@ -2652,7 +2652,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('E')
+        >>> stages = stirrings_still.library.first_order_stages('E')
         >>> len(stages)
         17
 
@@ -2662,7 +2662,7 @@ def first_order_stages(segment):
             [
                 (
                     0,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=0,
                         measure_numbers=[1, 2],
                         time_signatures=[
@@ -2674,7 +2674,7 @@ def first_order_stages(segment):
                     ),
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[4, 5, 6, 7, 8, 9],
                         time_signatures=[
@@ -2689,7 +2689,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17],
                         time_signatures=[
@@ -2706,7 +2706,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[18, 19, 20, 21],
                         time_signatures=[
@@ -2719,7 +2719,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[22, 23, 24, 25],
                         time_signatures=[
@@ -2732,7 +2732,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[26, 27, 28, 29],
                         time_signatures=[
@@ -2745,7 +2745,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[30, 31, 32, 33],
                         time_signatures=[
@@ -2758,7 +2758,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[34, 35, 36, 37],
                         time_signatures=[
@@ -2772,7 +2772,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[39, 40, 41, 42, 43, 44, 45, 46],
                         time_signatures=[
@@ -2789,7 +2789,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[47, 48, 49, 50, 51, 52, 53, 54],
                         time_signatures=[
@@ -2806,7 +2806,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[55, 56],
                         time_signatures=[
@@ -2818,7 +2818,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[58, 59, 60, 61],
                         time_signatures=[
@@ -2832,7 +2832,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[63, 64, 65, 66],
                         time_signatures=[
@@ -2846,7 +2846,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[68, 69, 70, 71],
                         time_signatures=[
@@ -2859,7 +2859,7 @@ def first_order_stages(segment):
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[72, 73],
                         time_signatures=[
@@ -2870,7 +2870,7 @@ def first_order_stages(segment):
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[74, 75],
                         time_signatures=[
@@ -2881,7 +2881,7 @@ def first_order_stages(segment):
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[76, 77, 78, 79, 80, 81, 82, 83],
                         time_signatures=[
@@ -2901,7 +2901,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('F')
+        >>> stages = stirrings_still.library.first_order_stages('F')
         >>> len(stages)
         2
 
@@ -2911,7 +2911,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8],
                         time_signatures=[
@@ -2928,7 +2928,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[9, 10],
                         time_signatures=[
@@ -2943,7 +2943,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('G')
+        >>> stages = stirrings_still.library.first_order_stages('G')
         >>> len(stages)
         6
 
@@ -2953,7 +2953,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1],
                         time_signatures=[
@@ -2964,7 +2964,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[3],
                         time_signatures=[
@@ -2975,7 +2975,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[5],
                         time_signatures=[
@@ -2986,7 +2986,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[7],
                         time_signatures=[
@@ -2997,7 +2997,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[9, 10],
                         time_signatures=[
@@ -3009,7 +3009,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[12, 13],
                         time_signatures=[
@@ -3024,7 +3024,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('H')
+        >>> stages = stirrings_still.library.first_order_stages('H')
         >>> len(stages)
         14
 
@@ -3034,7 +3034,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -3047,7 +3047,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5],
                         time_signatures=[
@@ -3057,7 +3057,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[6, 7],
                         time_signatures=[
@@ -3068,7 +3068,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[8, 9],
                         time_signatures=[
@@ -3079,7 +3079,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[10, 11],
                         time_signatures=[
@@ -3090,7 +3090,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[12, 13],
                         time_signatures=[
@@ -3101,7 +3101,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[14, 15],
                         time_signatures=[
@@ -3112,7 +3112,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[16, 17, 18, 19, 20, 21],
                         time_signatures=[
@@ -3127,7 +3127,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[22, 23, 24, 25, 26, 27],
                         time_signatures=[
@@ -3143,7 +3143,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[29, 30],
                         time_signatures=[
@@ -3155,7 +3155,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[32, 33, 34],
                         time_signatures=[
@@ -3168,7 +3168,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[36, 37, 38, 39],
                         time_signatures=[
@@ -3182,7 +3182,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[41, 42, 43, 44],
                         time_signatures=[
@@ -3195,7 +3195,7 @@ def first_order_stages(segment):
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[45, 46],
                         time_signatures=[
@@ -3209,7 +3209,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('I')
+        >>> stages = stirrings_still.library.first_order_stages('I')
         >>> len(stages)
         7
 
@@ -3219,7 +3219,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2],
                         time_signatures=[
@@ -3230,7 +3230,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[3],
                         time_signatures=[
@@ -3240,7 +3240,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[4],
                         time_signatures=[
@@ -3250,7 +3250,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[5],
                         time_signatures=[
@@ -3260,7 +3260,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[6, 7],
                         time_signatures=[
@@ -3271,7 +3271,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[8, 9],
                         time_signatures=[
@@ -3282,7 +3282,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[10, 11],
                         time_signatures=[
@@ -3296,7 +3296,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('J')
+        >>> stages = stirrings_still.library.first_order_stages('J')
         >>> len(stages)
         6
 
@@ -3306,7 +3306,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -3319,7 +3319,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5, 6],
                         time_signatures=[
@@ -3330,7 +3330,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[7, 8],
                         time_signatures=[
@@ -3341,7 +3341,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[9],
                         time_signatures=[
@@ -3351,7 +3351,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[10, 11],
                         time_signatures=[
@@ -3362,7 +3362,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[12, 13, 14, 15],
                         time_signatures=[
@@ -3378,7 +3378,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('K')
+        >>> stages = stirrings_still.library.first_order_stages('K')
         >>> len(stages)
         10
 
@@ -3388,7 +3388,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3],
                         time_signatures=[
@@ -3400,7 +3400,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[4, 5, 6],
                         time_signatures=[
@@ -3412,7 +3412,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[7, 8, 9],
                         time_signatures=[
@@ -3424,7 +3424,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[10, 11, 12],
                         time_signatures=[
@@ -3436,7 +3436,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[13, 14, 15],
                         time_signatures=[
@@ -3448,7 +3448,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[16, 17, 18],
                         time_signatures=[
@@ -3460,7 +3460,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[19, 20, 21, 22, 23, 24, 25, 26],
                         time_signatures=[
@@ -3477,7 +3477,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[27, 28, 29, 30, 31, 32],
                         time_signatures=[
@@ -3492,7 +3492,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[33, 34, 35, 36, 37, 38, 39, 40],
                         time_signatures=[
@@ -3509,7 +3509,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[41, 42, 43, 44, 45, 46, 47, 48],
                         time_signatures=[
@@ -3530,7 +3530,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('L')
+        >>> stages = stirrings_still.library.first_order_stages('L')
         >>> len(stages)
         1
 
@@ -3540,7 +3540,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[
                             1,
@@ -3585,7 +3585,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('M')
+        >>> stages = stirrings_still.library.first_order_stages('M')
         >>> len(stages)
         7
 
@@ -3595,7 +3595,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8],
                         time_signatures=[
@@ -3612,7 +3612,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[9, 10, 11, 12],
                         time_signatures=[
@@ -3625,7 +3625,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[13, 14, 15, 16],
                         time_signatures=[
@@ -3638,7 +3638,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[17, 18, 19, 20],
                         time_signatures=[
@@ -3651,7 +3651,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[21, 22, 23, 24],
                         time_signatures=[
@@ -3664,7 +3664,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[25, 26, 27, 28],
                         time_signatures=[
@@ -3677,7 +3677,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[29, 30, 31, 32],
                         time_signatures=[
@@ -3693,7 +3693,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('N')
+        >>> stages = stirrings_still.library.first_order_stages('N')
         >>> len(stages)
         7
 
@@ -3703,7 +3703,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6],
                         time_signatures=[
@@ -3718,7 +3718,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[7, 8],
                         time_signatures=[
@@ -3729,7 +3729,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[9, 10],
                         time_signatures=[
@@ -3740,7 +3740,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[11, 12, 13, 14],
                         time_signatures=[
@@ -3753,7 +3753,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[15, 16, 17, 18, 19, 20],
                         time_signatures=[
@@ -3768,7 +3768,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
                         time_signatures=[
@@ -3790,7 +3790,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[34, 35],
                         time_signatures=[
@@ -3805,7 +3805,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('O')
+        >>> stages = stirrings_still.library.first_order_stages('O')
         >>> len(stages)
         1
 
@@ -3815,7 +3815,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6],
                         time_signatures=[
@@ -3834,7 +3834,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('P')
+        >>> stages = stirrings_still.library.first_order_stages('P')
         >>> len(stages)
         5
 
@@ -3844,7 +3844,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -3857,7 +3857,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5, 6, 7, 8, 9, 10],
                         time_signatures=[
@@ -3872,7 +3872,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[11, 12, 13, 14],
                         time_signatures=[
@@ -3885,7 +3885,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[15, 16, 17, 18, 19, 20],
                         time_signatures=[
@@ -3900,7 +3900,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[21, 22, 23, 24, 25, 26],
                         time_signatures=[
@@ -3918,7 +3918,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('Q')
+        >>> stages = stirrings_still.library.first_order_stages('Q')
         >>> len(stages)
         13
 
@@ -3928,7 +3928,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8],
                         time_signatures=[
@@ -3945,7 +3945,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
                         time_signatures=[
@@ -3966,7 +3966,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[21, 22, 23, 24, 25, 26],
                         time_signatures=[
@@ -3981,7 +3981,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[27, 28, 29, 30, 31, 32, 33, 34, 35, 36],
                         time_signatures=[
@@ -4000,7 +4000,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[37, 38, 39, 40, 41],
                         time_signatures=[
@@ -4014,7 +4014,7 @@ def first_order_stages(segment):
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[42, 43, 44, 45, 46, 47, 48, 49],
                         time_signatures=[
@@ -4031,7 +4031,7 @@ def first_order_stages(segment):
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[50, 51, 52, 53],
                         time_signatures=[
@@ -4044,7 +4044,7 @@ def first_order_stages(segment):
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[54, 55, 56, 57, 58, 59],
                         time_signatures=[
@@ -4059,7 +4059,7 @@ def first_order_stages(segment):
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[60, 61, 62],
                         time_signatures=[
@@ -4071,7 +4071,7 @@ def first_order_stages(segment):
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[63, 64, 65, 66],
                         time_signatures=[
@@ -4084,7 +4084,7 @@ def first_order_stages(segment):
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[67, 68],
                         time_signatures=[
@@ -4095,7 +4095,7 @@ def first_order_stages(segment):
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[69, 70],
                         time_signatures=[
@@ -4107,7 +4107,7 @@ def first_order_stages(segment):
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[
                             72,
@@ -4160,7 +4160,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('R')
+        >>> stages = stirrings_still.library.first_order_stages('R')
         >>> len(stages)
         4
 
@@ -4170,7 +4170,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -4183,7 +4183,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5, 6, 7, 8],
                         time_signatures=[
@@ -4196,7 +4196,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[9, 10, 11, 12],
                         time_signatures=[
@@ -4209,7 +4209,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[13, 14, 15, 16],
                         time_signatures=[
@@ -4226,7 +4226,7 @@ def first_order_stages(segment):
 
     ..  container:: example
 
-        >>> stages = stirrings_still.first_order_stages('S')
+        >>> stages = stirrings_still.library.first_order_stages('S')
         >>> len(stages)
         5
 
@@ -4236,7 +4236,7 @@ def first_order_stages(segment):
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1],
                         time_signatures=[
@@ -4247,7 +4247,7 @@ def first_order_stages(segment):
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[3, 4],
                         time_signatures=[
@@ -4259,7 +4259,7 @@ def first_order_stages(segment):
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[6, 7, 8],
                         time_signatures=[
@@ -4272,7 +4272,7 @@ def first_order_stages(segment):
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[10, 11, 12, 13, 14, 15],
                         time_signatures=[
@@ -4288,7 +4288,7 @@ def first_order_stages(segment):
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[17, 18, 19],
                         time_signatures=[
@@ -4724,7 +4724,7 @@ def operations() -> abjad.TypedList:
 
     ..  container:: example
 
-        >>> operations = stirrings_still.operations()
+        >>> operations = stirrings_still.library.operations()
         >>> len(operations)
         48
 
@@ -4732,8 +4732,8 @@ def operations() -> abjad.TypedList:
         >>> print(string)
         abjad.TypedList(
             [
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='G',
                         number=1,
                         description='inception',
@@ -4741,14 +4741,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='A',
                         number=9,
                         description='iteratum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='I',
                         number=6,
                         description='current',
@@ -4756,7 +4756,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='A',
                         number=12,
                         description='conclusion',
@@ -4764,8 +4764,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(2, 3),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='I',
                         number=6,
                         description='current',
@@ -4773,7 +4773,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='A',
                         number=13,
                         description='iteratum',
@@ -4781,8 +4781,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(2, 3),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=1,
                         description='inception',
@@ -4790,14 +4790,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='A',
                         number=15,
                         description='iteratum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='A',
                         number=1,
                         description='isolatum',
@@ -4805,7 +4805,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='B',
                         number=12,
                         description='conclusion',
@@ -4813,8 +4813,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(1, 2),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=1,
                         description='inception',
@@ -4822,14 +4822,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='prefix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='B',
                         number=14,
                         description='iteratum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='A',
                         number=18,
                         description='isolatum',
@@ -4837,14 +4837,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='B',
                         number=16,
                         description='iteratum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=9,
                         description='isolatum',
@@ -4852,7 +4852,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='B',
                         number=17,
                         description='iteratum',
@@ -4860,8 +4860,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(1, 2),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=17,
                         description='development',
@@ -4869,14 +4869,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='prolong',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='B',
                         number=17,
                         description='pause',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=16,
                         description='development',
@@ -4884,14 +4884,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='prefix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='B',
                         number=24,
                         description='isolatum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='G',
                         number=1,
                         description='inception',
@@ -4899,14 +4899,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=1,
                         description='isolatum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=9,
                         description='isolatum',
@@ -4914,14 +4914,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=8,
                         description='development',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=8,
                         description='process',
@@ -4929,15 +4929,15 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 4),
                     verb='replace',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=10,
                         description='process',
                         ),
                     target_site=(1, 4),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=9,
                         description='process',
@@ -4945,15 +4945,15 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 4),
                     verb='replace',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=11,
                         description='process',
                         ),
                     target_site=(1, 4),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=8,
                         description='process',
@@ -4961,15 +4961,15 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 4),
                     verb='replace',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=12,
                         description='process',
                         ),
                     target_site=(1, 4),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=9,
                         description='process',
@@ -4977,15 +4977,15 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 4),
                     verb='replace',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=13,
                         description='process',
                         ),
                     target_site=(1, 4),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='J',
                         number=1,
                         description='clearing',
@@ -4993,14 +4993,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=14,
                         description='conclusion',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='I',
                         number=6,
                         description='current',
@@ -5008,14 +5008,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='prolong',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=6,
                         description='pause',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='F',
                         number=2,
                         description='clearing',
@@ -5023,7 +5023,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=9,
                         description='isolatum',
@@ -5031,8 +5031,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(2, 3),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='S',
                         number=1,
                         description='transformatum',
@@ -5040,14 +5040,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='prefix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=11,
                         description='isolatum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='I',
                         number=1,
                         description='clearing',
@@ -5055,7 +5055,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=12,
                         description='inception',
@@ -5063,8 +5063,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(1, 2),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='F',
                         number=2,
                         description='clearing',
@@ -5072,7 +5072,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=21,
                         description='clearing',
@@ -5080,8 +5080,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(1, 2),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=2,
                         description='process',
@@ -5089,14 +5089,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(3, 4),
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=22,
                         description='conclusion',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=9,
                         description='clearing',
@@ -5104,14 +5104,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='prefix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='E',
                         number=1,
                         description='inception',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='A',
                         number=1,
                         description='isolatum',
@@ -5119,7 +5119,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='E',
                         number=6,
                         description='clearing',
@@ -5127,8 +5127,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(2, 3),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='Q',
                         number=1,
                         description='inception',
@@ -5136,14 +5136,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 8),
                     verb='prolong',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='E',
                         number=7,
                         description='pause',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='Q',
                         number=2,
                         description='transformatum',
@@ -5151,14 +5151,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 12),
                     verb='prolong',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='E',
                         number=7,
                         description='pause',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='Q',
                         number=1,
                         description='inception',
@@ -5166,7 +5166,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 8),
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='E',
                         number=12,
                         description='development',
@@ -5174,8 +5174,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(2, 3),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='Q',
                         number=2,
                         description='transformatum',
@@ -5183,7 +5183,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 12),
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='E',
                         number=12,
                         description='development',
@@ -5191,8 +5191,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(2, 3),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=2,
                         description='process',
@@ -5200,14 +5200,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(3, 4),
                     verb='prolong',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='F',
                         number=2,
                         description='pause',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='J',
                         number=1,
                         description='clearing',
@@ -5215,14 +5215,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='prefix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='G',
                         number=3,
                         description='iteratum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=7,
                         description='isolatum',
@@ -5230,7 +5230,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='G',
                         number=5,
                         description='iteratum',
@@ -5239,8 +5239,8 @@ def operations() -> abjad.TypedList:
                     target_site=(1, 2),
                     include_after=True,
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='D',
                         number=11,
                         description='isolatum',
@@ -5248,14 +5248,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 6),
                     verb='prolong',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='G',
                         number=6,
                         description='pause',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='I',
                         number=1,
                         description='clearing',
@@ -5263,14 +5263,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='prolong',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=2,
                         description='pause',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=7,
                         description='iteratum',
@@ -5278,15 +5278,15 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='prolong',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=10,
                         description='pause',
                         ),
                     include_after=True,
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=1,
                         description='inception',
@@ -5294,14 +5294,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='prefix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=11,
                         description='iteratum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='G',
                         number=5,
                         description='iteratum',
@@ -5309,7 +5309,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=14,
                         description='clearing',
@@ -5317,8 +5317,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(1, 2),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=7,
                         description='iteratum',
@@ -5326,7 +5326,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=14,
                         description='clearing',
@@ -5335,8 +5335,8 @@ def operations() -> abjad.TypedList:
                     target_site=(2, 3),
                     include_after=True,
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=7,
                         description='isolatum',
@@ -5344,7 +5344,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='J',
                         number=1,
                         description='clearing',
@@ -5353,8 +5353,8 @@ def operations() -> abjad.TypedList:
                     target_site=(2, 3),
                     include_after=True,
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='C',
                         number=14,
                         description='conclusion',
@@ -5362,7 +5362,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(3, 4),
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='K',
                         number=1,
                         description='inception',
@@ -5370,8 +5370,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(2, 3),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=13,
                         description='development',
@@ -5379,14 +5379,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=3,
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='K',
                         number=6,
                         description='clearing',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='I',
                         number=6,
                         description='current',
@@ -5394,14 +5394,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=2,
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='K',
                         number=6,
                         description='clearing',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=13,
                         description='development',
@@ -5409,14 +5409,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=4,
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='K',
                         number=6,
                         description='clearing',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='K',
                         number=5,
                         description='development',
@@ -5424,7 +5424,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 3),
                     verb='replace',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='K',
                         number=9,
                         description='conclusion',
@@ -5432,8 +5432,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(6, 8),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='I',
                         number=6,
                         description='current',
@@ -5441,14 +5441,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=(1, 2),
                     verb='prefix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='N',
                         number=4,
                         description='inception',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='K',
                         number=6,
                         description='clearing',
@@ -5456,7 +5456,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='bisect',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='N',
                         number=6,
                         description='conclusion',
@@ -5464,8 +5464,8 @@ def operations() -> abjad.TypedList:
                         ),
                     target_site=(6, 7),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='H',
                         number=13,
                         description='development',
@@ -5473,14 +5473,14 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=4,
                     verb='suffix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='O',
                         number=1,
                         description='isolatum',
                         ),
                     ),
-                stirrings_still.Operation(
-                    source_stage=stirrings_still.StageToken(
+                stirrings_still.stirrings_still.library.Operation(
+                    source_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='K',
                         number=6,
                         description='clearing',
@@ -5488,7 +5488,7 @@ def operations() -> abjad.TypedList:
                         ),
                     source_measures=1,
                     verb='prefix',
-                    target_stage=stirrings_still.StageToken(
+                    target_stage=stirrings_still.stirrings_still.library.StageToken(
                         letter='Q',
                         number=1,
                         description='inception',
@@ -5904,7 +5904,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('A')
+        >>> stages = stirrings_still.library.second_order_stages('A')
         >>> len(stages)
         18
 
@@ -5914,7 +5914,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2],
                         time_signatures=[
@@ -5925,7 +5925,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[3, 4],
                         time_signatures=[
@@ -5936,7 +5936,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[5, 6, 7],
                         time_signatures=[
@@ -5948,7 +5948,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[8, 9, 10],
                         time_signatures=[
@@ -5960,7 +5960,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[11, 12, 13, 14, 15, 16, 17],
                         time_signatures=[
@@ -5976,7 +5976,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[18, 19],
                         time_signatures=[
@@ -5987,7 +5987,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[20, 21],
                         time_signatures=[
@@ -5998,7 +5998,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[22, 23, 24],
                         time_signatures=[
@@ -6010,7 +6010,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[25, 26, 27, 28],
                         time_signatures=[
@@ -6022,8 +6022,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='G',
                                     number=1,
                                     description='inception',
@@ -6031,7 +6031,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='A',
                                     number=9,
                                     description='iteratum',
@@ -6042,7 +6042,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[29, 30, 31, 32, 33, 34],
                         time_signatures=[
@@ -6057,7 +6057,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[35, 36, 37, 38, 39, 40],
                         time_signatures=[
@@ -6072,7 +6072,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[41, 42, 43, 44, 45],
                         time_signatures=[
@@ -6083,8 +6083,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((14, 16)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='I',
                                     number=6,
                                     description='current',
@@ -6092,7 +6092,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='A',
                                     number=12,
                                     description='conclusion',
@@ -6105,7 +6105,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[46, 47, 48, 49, 50, 51],
                         time_signatures=[
@@ -6117,8 +6117,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='I',
                                     number=6,
                                     description='current',
@@ -6126,7 +6126,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='A',
                                     number=13,
                                     description='iteratum',
@@ -6139,7 +6139,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[52, 53],
                         time_signatures=[
@@ -6150,7 +6150,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[54, 55, 56, 57],
                         time_signatures=[
@@ -6162,8 +6162,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=1,
                                     description='inception',
@@ -6171,7 +6171,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='A',
                                     number=15,
                                     description='iteratum',
@@ -6182,7 +6182,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[58, 59],
                         time_signatures=[
@@ -6193,7 +6193,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     17,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=17,
                         measure_numbers=[60, 61],
                         time_signatures=[
@@ -6204,7 +6204,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     18,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=18,
                         measure_numbers=[62, 63],
                         time_signatures=[
@@ -6218,7 +6218,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('B')
+        >>> stages = stirrings_still.library.second_order_stages('B')
         >>> len(stages)
         24
 
@@ -6228,7 +6228,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -6241,7 +6241,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5],
                         time_signatures=[
@@ -6251,7 +6251,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[6, 7],
                         time_signatures=[
@@ -6262,7 +6262,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[8, 9, 10, 11],
                         time_signatures=[
@@ -6275,7 +6275,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[12, 13],
                         time_signatures=[
@@ -6286,7 +6286,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[14, 15],
                         time_signatures=[
@@ -6297,7 +6297,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[16, 17],
                         time_signatures=[
@@ -6308,7 +6308,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[18, 19],
                         time_signatures=[
@@ -6319,7 +6319,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[20, 21],
                         time_signatures=[
@@ -6330,7 +6330,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[22],
                         time_signatures=[
@@ -6340,7 +6340,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[23, 24],
                         time_signatures=[
@@ -6351,7 +6351,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[25, 26, 27, 28],
                         time_signatures=[
@@ -6361,8 +6361,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='A',
                                     number=1,
                                     description='isolatum',
@@ -6370,7 +6370,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='B',
                                     number=12,
                                     description='conclusion',
@@ -6383,7 +6383,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[29, 30, 31],
                         time_signatures=[
@@ -6395,7 +6395,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[32, 33, 34, 35, 36],
                         time_signatures=[
@@ -6406,8 +6406,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=1,
                                     description='inception',
@@ -6415,7 +6415,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='prefix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='B',
                                     number=14,
                                     description='iteratum',
@@ -6426,7 +6426,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[37, 38, 39],
                         time_signatures=[
@@ -6438,7 +6438,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[40, 41, 42, 43],
                         time_signatures=[
@@ -6450,8 +6450,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='A',
                                     number=18,
                                     description='isolatum',
@@ -6459,7 +6459,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='B',
                                     number=16,
                                     description='iteratum',
@@ -6470,7 +6470,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     17,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=17,
                         measure_numbers=[44, 45, 46, 47, 48, 49],
                         time_signatures=[
@@ -6484,8 +6484,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=9,
                                     description='isolatum',
@@ -6493,7 +6493,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='B',
                                     number=17,
                                     description='iteratum',
@@ -6501,8 +6501,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 target_site=(1, 2),
                                 ),
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=17,
                                     description='development',
@@ -6510,7 +6510,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='prolong',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='B',
                                     number=17,
                                     description='pause',
@@ -6521,7 +6521,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     18,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=18,
                         measure_numbers=[50, 51],
                         time_signatures=[
@@ -6532,7 +6532,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     19,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=19,
                         measure_numbers=[52, 53, 54, 55, 56, 57],
                         time_signatures=[
@@ -6547,7 +6547,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     20,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=20,
                         measure_numbers=[58, 59],
                         time_signatures=[
@@ -6558,7 +6558,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     21,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=21,
                         measure_numbers=[60],
                         time_signatures=[
@@ -6568,7 +6568,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     22,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=22,
                         measure_numbers=[61],
                         time_signatures=[
@@ -6578,7 +6578,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     23,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=23,
                         measure_numbers=[62, 63],
                         time_signatures=[
@@ -6589,7 +6589,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     24,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=24,
                         measure_numbers=[64, 65, 66],
                         time_signatures=[
@@ -6598,8 +6598,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=16,
                                     description='development',
@@ -6607,7 +6607,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='prefix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='B',
                                     number=24,
                                     description='isolatum',
@@ -6621,7 +6621,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('C')
+        >>> stages = stirrings_still.library.second_order_stages('C')
         >>> len(stages)
         19
 
@@ -6631,7 +6631,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6],
                         time_signatures=[
@@ -6645,8 +6645,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='G',
                                     number=1,
                                     description='inception',
@@ -6654,7 +6654,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=1,
                                     description='isolatum',
@@ -6665,7 +6665,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[7, 8, 9, 10, 11],
                         time_signatures=[
@@ -6679,7 +6679,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[12, 13, 14, 15],
                         time_signatures=[
@@ -6692,7 +6692,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[16, 17, 18, 19],
                         time_signatures=[
@@ -6705,7 +6705,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[20, 21, 22, 23],
                         time_signatures=[
@@ -6718,7 +6718,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[24, 25, 26, 27],
                         time_signatures=[
@@ -6731,7 +6731,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[28, 29],
                         time_signatures=[
@@ -6742,7 +6742,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[30, 31, 32, 33, 34, 35],
                         time_signatures=[
@@ -6756,8 +6756,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((12, 16)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=9,
                                     description='isolatum',
@@ -6765,7 +6765,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=8,
                                     description='development',
@@ -6776,7 +6776,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[36, 37, 38, 39],
                         time_signatures=[
@@ -6789,7 +6789,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[40, 41, 42, 43],
                         time_signatures=[
@@ -6799,8 +6799,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((4, 4)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=8,
                                     description='process',
@@ -6808,7 +6808,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 4),
                                 verb='replace',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=10,
                                     description='process',
@@ -6820,7 +6820,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[44, 45, 46, 47],
                         time_signatures=[
@@ -6830,8 +6830,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((4, 4)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=9,
                                     description='process',
@@ -6839,7 +6839,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 4),
                                 verb='replace',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=11,
                                     description='process',
@@ -6851,7 +6851,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[48, 49, 50, 51],
                         time_signatures=[
@@ -6861,8 +6861,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((4, 4)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=8,
                                     description='process',
@@ -6870,7 +6870,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 4),
                                 verb='replace',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=12,
                                     description='process',
@@ -6882,7 +6882,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[52, 53, 54, 55],
                         time_signatures=[
@@ -6892,8 +6892,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((4, 4)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=9,
                                     description='process',
@@ -6901,7 +6901,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 4),
                                 verb='replace',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=13,
                                     description='process',
@@ -6913,7 +6913,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[56, 57, 58, 59, 60, 61],
                         time_signatures=[
@@ -6927,8 +6927,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((12, 16)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='J',
                                     number=1,
                                     description='clearing',
@@ -6936,7 +6936,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=14,
                                     description='conclusion',
@@ -6947,7 +6947,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[62, 63],
                         time_signatures=[
@@ -6958,7 +6958,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[64, 65],
                         time_signatures=[
@@ -6969,7 +6969,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     17,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=17,
                         measure_numbers=[66, 67],
                         time_signatures=[
@@ -6980,7 +6980,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     18,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=18,
                         measure_numbers=[68, 69, 70],
                         time_signatures=[
@@ -6992,7 +6992,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     19,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=19,
                         measure_numbers=[71, 72, 73, 74, 75, 76, 77],
                         time_signatures=[
@@ -7011,7 +7011,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('D')
+        >>> stages = stirrings_still.library.second_order_stages('D')
         >>> len(stages)
         22
 
@@ -7021,7 +7021,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6],
                         time_signatures=[
@@ -7036,7 +7036,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[7, 8, 9, 10, 11, 12],
                         time_signatures=[
@@ -7051,7 +7051,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[13, 14, 15, 16, 17, 18],
                         time_signatures=[
@@ -7066,7 +7066,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[19, 20, 21, 22, 23, 24],
                         time_signatures=[
@@ -7081,7 +7081,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[25, 26, 27, 28, 29, 30],
                         time_signatures=[
@@ -7096,7 +7096,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[31, 32, 33, 34, 35, 36, 37, 38, 39],
                         time_signatures=[
@@ -7113,8 +7113,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='I',
                                     number=6,
                                     description='current',
@@ -7122,7 +7122,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='prolong',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=6,
                                     description='pause',
@@ -7133,7 +7133,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[40, 41, 42, 43, 44, 45, 46],
                         time_signatures=[
@@ -7149,7 +7149,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[47, 48],
                         time_signatures=[
@@ -7160,7 +7160,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[49, 50, 51, 52, 53, 54],
                         time_signatures=[
@@ -7172,8 +7172,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='long',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='F',
                                     number=2,
                                     description='clearing',
@@ -7181,7 +7181,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=9,
                                     description='isolatum',
@@ -7194,7 +7194,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[55, 56],
                         time_signatures=[
@@ -7205,7 +7205,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[57, 58, 59, 60, 61, 62, 63, 64],
                         time_signatures=[
@@ -7219,8 +7219,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='long',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='S',
                                     number=1,
                                     description='transformatum',
@@ -7228,7 +7228,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='prefix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=11,
                                     description='isolatum',
@@ -7239,7 +7239,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[65, 66, 67],
                         time_signatures=[
@@ -7248,8 +7248,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((12, 16)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='I',
                                     number=1,
                                     description='clearing',
@@ -7257,7 +7257,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=12,
                                     description='inception',
@@ -7270,7 +7270,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[68, 69, 70, 71],
                         time_signatures=[
@@ -7283,7 +7283,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[72, 73, 74, 75],
                         time_signatures=[
@@ -7296,7 +7296,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[76, 77, 78, 79],
                         time_signatures=[
@@ -7309,7 +7309,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[80, 81, 82, 83],
                         time_signatures=[
@@ -7322,7 +7322,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     17,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=17,
                         measure_numbers=[84, 85],
                         time_signatures=[
@@ -7333,7 +7333,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     18,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=18,
                         measure_numbers=[86, 87],
                         time_signatures=[
@@ -7344,7 +7344,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     19,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=19,
                         measure_numbers=[88, 89],
                         time_signatures=[
@@ -7355,7 +7355,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     20,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=20,
                         measure_numbers=[90, 91],
                         time_signatures=[
@@ -7366,7 +7366,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     21,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=21,
                         measure_numbers=[92, 93, 94],
                         time_signatures=[
@@ -7375,8 +7375,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((12, 16)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='F',
                                     number=2,
                                     description='clearing',
@@ -7384,7 +7384,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=21,
                                     description='clearing',
@@ -7397,7 +7397,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     22,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=22,
                         measure_numbers=[95, 96, 97, 98, 99],
                         time_signatures=[
@@ -7410,8 +7410,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='short',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=2,
                                     description='process',
@@ -7419,7 +7419,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(3, 4),
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=22,
                                     description='conclusion',
@@ -7433,7 +7433,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('E')
+        >>> stages = stirrings_still.library.second_order_stages('E')
         >>> len(stages)
         17
 
@@ -7443,7 +7443,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     0,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=0,
                         measure_numbers=[1, 2, 3],
                         time_signatures=[
@@ -7455,7 +7455,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[4, 5, 6, 7, 8, 9, 10, 11],
                         time_signatures=[
@@ -7469,8 +7469,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((7, 8)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=9,
                                     description='clearing',
@@ -7478,7 +7478,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='prefix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='E',
                                     number=1,
                                     description='inception',
@@ -7489,7 +7489,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[12, 13, 14, 15, 16, 17, 18, 19],
                         time_signatures=[
@@ -7506,7 +7506,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[20, 21, 22, 23],
                         time_signatures=[
@@ -7519,7 +7519,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[24, 25, 26, 27],
                         time_signatures=[
@@ -7532,7 +7532,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[28, 29, 30, 31],
                         time_signatures=[
@@ -7545,7 +7545,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[32, 33, 34, 35, 36],
                         time_signatures=[
@@ -7556,8 +7556,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((7, 8)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='A',
                                     number=1,
                                     description='isolatum',
@@ -7565,7 +7565,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='E',
                                     number=6,
                                     description='clearing',
@@ -7578,7 +7578,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[
                             37,
@@ -7639,8 +7639,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='Q',
                                     number=1,
                                     description='inception',
@@ -7648,14 +7648,14 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 8),
                                 verb='prolong',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='E',
                                     number=7,
                                     description='pause',
                                     ),
                                 ),
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='Q',
                                     number=2,
                                     description='transformatum',
@@ -7663,7 +7663,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 12),
                                 verb='prolong',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='E',
                                     number=7,
                                     description='pause',
@@ -7674,7 +7674,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[63, 64, 65, 66, 67, 68, 69, 70],
                         time_signatures=[
@@ -7691,7 +7691,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[71, 72, 73, 74, 75, 76, 77, 78],
                         time_signatures=[
@@ -7708,7 +7708,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[79, 80, 81],
                         time_signatures=[
@@ -7720,7 +7720,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[82, 83, 84, 85, 86],
                         time_signatures=[
@@ -7734,7 +7734,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[
                             87,
@@ -7791,8 +7791,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='Q',
                                     number=1,
                                     description='inception',
@@ -7800,7 +7800,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 8),
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='E',
                                     number=12,
                                     description='development',
@@ -7808,8 +7808,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 target_site=(2, 3),
                                 ),
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='Q',
                                     number=2,
                                     description='transformatum',
@@ -7817,7 +7817,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 12),
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='E',
                                     number=12,
                                     description='development',
@@ -7830,7 +7830,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[112, 113, 114, 115],
                         time_signatures=[
@@ -7843,7 +7843,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[116, 117],
                         time_signatures=[
@@ -7854,7 +7854,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     15,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=15,
                         measure_numbers=[118, 119],
                         time_signatures=[
@@ -7865,7 +7865,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     16,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=16,
                         measure_numbers=[120, 121, 122, 123, 124, 125, 126, 127],
                         time_signatures=[
@@ -7885,7 +7885,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('F')
+        >>> stages = stirrings_still.library.second_order_stages('F')
         >>> len(stages)
         2
 
@@ -7895,7 +7895,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8],
                         time_signatures=[
@@ -7912,7 +7912,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[9, 10, 11, 12, 13, 14],
                         time_signatures=[
@@ -7926,8 +7926,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='long',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=2,
                                     description='process',
@@ -7935,7 +7935,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(3, 4),
                                 verb='prolong',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='F',
                                     number=2,
                                     description='pause',
@@ -7949,7 +7949,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('G')
+        >>> stages = stirrings_still.library.second_order_stages('G')
         >>> len(stages)
         6
 
@@ -7959,7 +7959,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2],
                         time_signatures=[
@@ -7970,7 +7970,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[3, 4],
                         time_signatures=[
@@ -7981,7 +7981,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[5, 6, 7, 8],
                         time_signatures=[
@@ -7991,8 +7991,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='fermata',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='J',
                                     number=1,
                                     description='clearing',
@@ -8000,7 +8000,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='prefix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='G',
                                     number=3,
                                     description='iteratum',
@@ -8011,7 +8011,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[9, 10],
                         time_signatures=[
@@ -8022,7 +8022,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[11, 12, 13, 14, 15],
                         time_signatures=[
@@ -8033,8 +8033,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='long',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=7,
                                     description='isolatum',
@@ -8042,7 +8042,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='G',
                                     number=5,
                                     description='iteratum',
@@ -8056,7 +8056,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
                         time_signatures=[
@@ -8074,8 +8074,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='long',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='D',
                                     number=11,
                                     description='isolatum',
@@ -8083,7 +8083,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 6),
                                 verb='prolong',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='G',
                                     number=6,
                                     description='pause',
@@ -8097,7 +8097,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('H')
+        >>> stages = stirrings_still.library.second_order_stages('H')
         >>> len(stages)
         14
 
@@ -8107,7 +8107,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -8120,7 +8120,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5, 6],
                         time_signatures=[
@@ -8130,8 +8130,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((3, 4)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='I',
                                     number=1,
                                     description='clearing',
@@ -8139,7 +8139,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='prolong',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=2,
                                     description='pause',
@@ -8150,7 +8150,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[7, 8],
                         time_signatures=[
@@ -8161,7 +8161,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[9, 10],
                         time_signatures=[
@@ -8172,7 +8172,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[11, 12],
                         time_signatures=[
@@ -8183,7 +8183,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[13, 14],
                         time_signatures=[
@@ -8194,7 +8194,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[15, 16],
                         time_signatures=[
@@ -8205,7 +8205,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[17, 18, 19, 20, 21, 22],
                         time_signatures=[
@@ -8220,7 +8220,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[23, 24, 25, 26, 27, 28, 29],
                         time_signatures=[
@@ -8236,7 +8236,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[30, 31, 32, 33, 34, 35],
                         time_signatures=[
@@ -8250,8 +8250,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='short',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=7,
                                     description='iteratum',
@@ -8259,7 +8259,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='prolong',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=10,
                                     description='pause',
@@ -8271,7 +8271,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[36, 37, 38, 39, 40, 41],
                         time_signatures=[
@@ -8283,8 +8283,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='short',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=1,
                                     description='inception',
@@ -8292,7 +8292,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='prefix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=11,
                                     description='iteratum',
@@ -8303,7 +8303,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[42, 43, 44, 45, 46],
                         time_signatures=[
@@ -8317,7 +8317,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[47, 48, 49, 50],
                         time_signatures=[
@@ -8330,7 +8330,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     14,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=14,
                         measure_numbers=[51, 52, 53, 54, 55, 56],
                         time_signatures=[
@@ -8342,8 +8342,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((4, 8)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='G',
                                     number=5,
                                     description='iteratum',
@@ -8351,7 +8351,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=14,
                                     description='clearing',
@@ -8359,8 +8359,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 target_site=(1, 2),
                                 ),
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=7,
                                     description='iteratum',
@@ -8368,7 +8368,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=14,
                                     description='clearing',
@@ -8385,7 +8385,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('I')
+        >>> stages = stirrings_still.library.second_order_stages('I')
         >>> len(stages)
         7
 
@@ -8395,7 +8395,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2],
                         time_signatures=[
@@ -8406,7 +8406,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[3],
                         time_signatures=[
@@ -8416,7 +8416,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[4],
                         time_signatures=[
@@ -8426,7 +8426,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[5],
                         time_signatures=[
@@ -8436,7 +8436,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[6, 7],
                         time_signatures=[
@@ -8447,7 +8447,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[8, 9],
                         time_signatures=[
@@ -8458,7 +8458,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[10, 11],
                         time_signatures=[
@@ -8472,7 +8472,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('J')
+        >>> stages = stirrings_still.library.second_order_stages('J')
         >>> len(stages)
         6
 
@@ -8482,7 +8482,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6],
                         time_signatures=[
@@ -8494,8 +8494,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((16, 16)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=7,
                                     description='isolatum',
@@ -8503,7 +8503,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='J',
                                     number=1,
                                     description='clearing',
@@ -8517,7 +8517,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[7, 8],
                         time_signatures=[
@@ -8528,7 +8528,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[9, 10],
                         time_signatures=[
@@ -8539,7 +8539,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[11],
                         time_signatures=[
@@ -8549,7 +8549,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[12, 13],
                         time_signatures=[
@@ -8560,7 +8560,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[14, 15, 16, 17],
                         time_signatures=[
@@ -8576,7 +8576,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('K')
+        >>> stages = stirrings_still.library.second_order_stages('K')
         >>> len(stages)
         10
 
@@ -8586,7 +8586,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5],
                         time_signatures=[
@@ -8597,8 +8597,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((7, 8)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='C',
                                     number=14,
                                     description='conclusion',
@@ -8606,7 +8606,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(3, 4),
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='K',
                                     number=1,
                                     description='inception',
@@ -8619,7 +8619,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[6, 7, 8],
                         time_signatures=[
@@ -8631,7 +8631,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[9, 10, 11],
                         time_signatures=[
@@ -8643,7 +8643,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[12, 13, 14],
                         time_signatures=[
@@ -8655,7 +8655,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[15, 16, 17],
                         time_signatures=[
@@ -8667,7 +8667,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[18, 19, 20, 21, 22, 23],
                         time_signatures=[
@@ -8681,8 +8681,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((8, 8)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=13,
                                     description='development',
@@ -8690,14 +8690,14 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=3,
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='K',
                                     number=6,
                                     description='clearing',
                                     ),
                                 ),
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='I',
                                     number=6,
                                     description='current',
@@ -8705,14 +8705,14 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=2,
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='K',
                                     number=6,
                                     description='clearing',
                                     ),
                                 ),
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=13,
                                     description='development',
@@ -8720,7 +8720,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=4,
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='K',
                                     number=6,
                                     description='clearing',
@@ -8731,7 +8731,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[24, 25, 26, 27, 28, 29, 30, 31],
                         time_signatures=[
@@ -8748,7 +8748,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[32, 33, 34, 35, 36, 37],
                         time_signatures=[
@@ -8763,7 +8763,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[38, 39, 40, 41, 42, 43, 44, 45],
                         time_signatures=[
@@ -8777,8 +8777,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((6, 8)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='K',
                                     number=5,
                                     description='development',
@@ -8786,7 +8786,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 3),
                                 verb='replace',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='K',
                                     number=9,
                                     description='conclusion',
@@ -8799,7 +8799,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[46, 47, 48, 49, 50, 51, 52, 53, 54],
                         time_signatures=[
@@ -8820,7 +8820,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('L')
+        >>> stages = stirrings_still.library.second_order_stages('L')
         >>> len(stages)
         1
 
@@ -8830,7 +8830,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[
                             1,
@@ -8875,7 +8875,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('M')
+        >>> stages = stirrings_still.library.second_order_stages('M')
         >>> len(stages)
         7
 
@@ -8885,7 +8885,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8],
                         time_signatures=[
@@ -8902,7 +8902,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[9, 10, 11, 12],
                         time_signatures=[
@@ -8915,7 +8915,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[13, 14, 15, 16],
                         time_signatures=[
@@ -8928,7 +8928,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[17, 18, 19, 20],
                         time_signatures=[
@@ -8941,7 +8941,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[21, 22, 23, 24],
                         time_signatures=[
@@ -8954,7 +8954,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[25, 26, 27, 28],
                         time_signatures=[
@@ -8967,7 +8967,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[29, 30, 31, 32],
                         time_signatures=[
@@ -8983,7 +8983,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('N')
+        >>> stages = stirrings_still.library.second_order_stages('N')
         >>> len(stages)
         7
 
@@ -8993,7 +8993,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6],
                         time_signatures=[
@@ -9008,7 +9008,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[7, 8],
                         time_signatures=[
@@ -9019,7 +9019,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[9, 10],
                         time_signatures=[
@@ -9030,7 +9030,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[11, 12, 13, 14, 15, 16],
                         time_signatures=[
@@ -9042,8 +9042,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((6, 8)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='I',
                                     number=6,
                                     description='current',
@@ -9051,7 +9051,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=(1, 2),
                                 verb='prefix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='N',
                                     number=4,
                                     description='inception',
@@ -9062,7 +9062,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[17, 18, 19, 20, 21, 22],
                         time_signatures=[
@@ -9077,7 +9077,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[
                             23,
@@ -9112,8 +9112,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         after='very_long',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='K',
                                     number=6,
                                     description='clearing',
@@ -9121,7 +9121,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='bisect',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='N',
                                     number=6,
                                     description='conclusion',
@@ -9134,7 +9134,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[37, 38, 39],
                         time_signatures=[
@@ -9149,7 +9149,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('O')
+        >>> stages = stirrings_still.library.second_order_stages('O')
         >>> len(stages)
         1
 
@@ -9159,7 +9159,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8],
                         time_signatures=[
@@ -9175,8 +9175,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             ],
                         postsuffix='very_long',
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='H',
                                     number=13,
                                     description='development',
@@ -9184,7 +9184,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=4,
                                 verb='suffix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='O',
                                     number=1,
                                     description='isolatum',
@@ -9198,7 +9198,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('P')
+        >>> stages = stirrings_still.library.second_order_stages('P')
         >>> len(stages)
         5
 
@@ -9208,7 +9208,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -9221,7 +9221,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5, 6, 7, 8, 9, 10],
                         time_signatures=[
@@ -9236,7 +9236,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[11, 12, 13, 14],
                         time_signatures=[
@@ -9249,7 +9249,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[15, 16, 17, 18, 19, 20],
                         time_signatures=[
@@ -9264,7 +9264,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[21, 22, 23, 24, 25, 26],
                         time_signatures=[
@@ -9282,7 +9282,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('Q')
+        >>> stages = stirrings_still.library.second_order_stages('Q')
         >>> len(stages)
         13
 
@@ -9292,7 +9292,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9],
                         time_signatures=[
@@ -9307,8 +9307,8 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                             abjad.TimeSignature((4, 8)),
                             ],
                         operation=[
-                            stirrings_still.Operation(
-                                source_stage=stirrings_still.StageToken(
+                            stirrings_still.stirrings_still.library.Operation(
+                                source_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='K',
                                     number=6,
                                     description='clearing',
@@ -9316,7 +9316,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                                     ),
                                 source_measures=1,
                                 verb='prefix',
-                                target_stage=stirrings_still.StageToken(
+                                target_stage=stirrings_still.stirrings_still.library.StageToken(
                                     letter='Q',
                                     number=1,
                                     description='inception',
@@ -9327,7 +9327,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
                         time_signatures=[
@@ -9348,7 +9348,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[22, 23, 24, 25, 26, 27],
                         time_signatures=[
@@ -9363,7 +9363,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[28, 29, 30, 31, 32, 33, 34, 35, 36, 37],
                         time_signatures=[
@@ -9382,7 +9382,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[38, 39, 40, 41, 42],
                         time_signatures=[
@@ -9396,7 +9396,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     6,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=6,
                         measure_numbers=[43, 44, 45, 46, 47, 48, 49, 50],
                         time_signatures=[
@@ -9413,7 +9413,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     7,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=7,
                         measure_numbers=[51, 52, 53, 54],
                         time_signatures=[
@@ -9426,7 +9426,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     8,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=8,
                         measure_numbers=[55, 56, 57, 58, 59, 60],
                         time_signatures=[
@@ -9441,7 +9441,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     9,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=9,
                         measure_numbers=[61, 62, 63],
                         time_signatures=[
@@ -9453,7 +9453,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     10,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=10,
                         measure_numbers=[64, 65, 66, 67],
                         time_signatures=[
@@ -9466,7 +9466,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     11,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=11,
                         measure_numbers=[68, 69],
                         time_signatures=[
@@ -9477,7 +9477,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     12,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[70, 71, 72],
                         time_signatures=[
@@ -9489,7 +9489,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     13,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=13,
                         measure_numbers=[
                             73,
@@ -9542,7 +9542,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('R')
+        >>> stages = stirrings_still.library.second_order_stages('R')
         >>> len(stages)
         4
 
@@ -9552,7 +9552,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2, 3, 4],
                         time_signatures=[
@@ -9565,7 +9565,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[5, 6, 7, 8],
                         time_signatures=[
@@ -9578,7 +9578,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[9, 10, 11, 12],
                         time_signatures=[
@@ -9591,7 +9591,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[13, 14, 15, 16, 17],
                         time_signatures=[
@@ -9608,7 +9608,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     ..  container:: example
 
-        >>> stages = stirrings_still.second_order_stages('S')
+        >>> stages = stirrings_still.library.second_order_stages('S')
         >>> len(stages)
         5
 
@@ -9618,7 +9618,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
             [
                 (
                     1,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=1,
                         measure_numbers=[1, 2],
                         time_signatures=[
@@ -9629,7 +9629,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     2,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=2,
                         measure_numbers=[3, 4, 5],
                         time_signatures=[
@@ -9641,7 +9641,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     3,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=3,
                         measure_numbers=[6, 7, 8, 9],
                         time_signatures=[
@@ -9654,7 +9654,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     4,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=4,
                         measure_numbers=[10, 11, 12, 13, 14, 15, 16],
                         time_signatures=[
@@ -9670,7 +9670,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
                     ),
                 (
                     5,
-                    stirrings_still.StageSpecifier(
+                    stirrings_still.stirrings_still.library.StageSpecifier(
                         stage_number=5,
                         measure_numbers=[17, 18, 19, 20],
                         time_signatures=[
@@ -10257,7 +10257,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ..  container:: example
 
-            >>> score_template = stirrings_still.ScoreTemplate()
+            >>> score_template = stirrings_still.library.ScoreTemplate()
             >>> string = abjad.storage(score_template.voice_abbreviations)
             >>> print(string)
             abjad.OrderedDict(
