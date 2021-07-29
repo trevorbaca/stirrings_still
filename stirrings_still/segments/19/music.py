@@ -26,7 +26,6 @@ maker = baca.SegmentMaker(
     do_not_force_nonnatural_accidentals=True,
     fermata_measure_empty_overrides=[9, 16, 20],
     final_segment=True,
-    segment_directory=pathlib.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("S"),
 )
