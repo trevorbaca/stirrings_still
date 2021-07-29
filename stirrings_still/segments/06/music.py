@@ -20,6 +20,7 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[11],
+    score_template=stirrings_still.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("F"),
 )
