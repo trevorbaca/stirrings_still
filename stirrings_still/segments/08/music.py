@@ -39,6 +39,7 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     color_octaves=False,
+    score_template=stirrings_still.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("H"),
 )
