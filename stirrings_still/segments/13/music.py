@@ -26,7 +26,6 @@ maker = baca.SegmentMaker(
         baca.tags.STAGE_NUMBER,
     ],
     check_all_are_pitched=True,
-    segment_directory=pathlib.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("M"),
 )
