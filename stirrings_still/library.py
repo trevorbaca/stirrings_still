@@ -507,12 +507,7 @@ def rleaves_partition_by_ratio(ratio):
 # functions
 
 
-def accelerando(
-    start: abjad.DurationTyping,
-    stop: abjad.DurationTyping,
-    *,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+def accelerando(start, stop, *, measures=None):
     """
     Makes accelerando.
     """
@@ -530,11 +525,11 @@ def accelerando(
 
 
 def bcps(
-    rotation: int,
-    clt: bool = False,
-    measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.selectors.leaves(),
-    staff_padding: abjad.Number = None,
+    rotation,
+    clt=False,
+    measures=None,
+    selector=baca.selectors.leaves(),
+    staff_padding=None,
 ) -> baca.BCPCommand:
     """
     Makes bow contact points.
@@ -576,9 +571,7 @@ def bcps(
     return result_
 
 
-def breathe(
-    selector: abjad.Expression = baca.selectors.pleaf(-1),
-) -> baca.IndicatorCommand:
+def breathe(selector=baca.selectors.pleaf(-1)):
     """
     Makes breathe command with (-0.25, 2) extra offset.
     """
@@ -605,7 +598,7 @@ def cello_cell() -> baca.RhythmCommand:
     return result
 
 
-def cello_cell_bcps(*, staff_padding: abjad.Number = None) -> baca.BCPCommand:
+def cello_cell_bcps(*, staff_padding=None):
     """
     Makes cello cell bow contact points.
     """
@@ -626,12 +619,12 @@ def cello_cell_bcps(*, staff_padding: abjad.Number = None) -> baca.BCPCommand:
 
 
 def circle_spanner(
-    string: str,
-    staff_padding: abjad.Number,
+    string,
+    staff_padding,
     *,
-    measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.selectors.rleaves(),
-) -> baca.PiecewiseCommand:
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
     """
     Makes circle annotation spanner.
     """
@@ -649,11 +642,11 @@ def circle_spanner(
 
 
 def circles(
-    duration: abjad.DurationTyping,
-    *commands: rmakers.Command,
-    measures: baca.SliceTyping = None,
-    remainder: typing.Union[int, abjad.HorizontalAlignment] = abjad.Right,
-) -> baca.RhythmCommand:
+    duration,
+    *commands,
+    measures=None,
+    remainder=abjad.Right,
+):
     """
     Makes circle rhythm with ``duration``.
     """
@@ -688,11 +681,11 @@ def circles(
 
 
 def clockticks(
-    *commands: rmakers.Command,
-    displace: bool = False,
-    encroach: bool = False,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+    *commands,
+    displace=False,
+    encroach=False,
+    measures=None,
+):
     """
     Makes clockticks.
     """
@@ -743,12 +736,12 @@ def clouded_pane() -> baca.RhythmCommand:
 
 
 def clouded_pane_spanner(
-    string: str,
-    staff_padding: abjad.Number,
+    string,
+    staff_padding,
     *,
-    measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.selectors.rleaves(),
-) -> baca.PiecewiseCommand:
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
     """
     Makes clouded pane annotation spanner.
     """
@@ -788,9 +781,7 @@ def continuous_tremolo() -> baca.Suite:
     return result
 
 
-def declamation(
-    *, measures: baca.SliceTyping = None, protract: bool = None
-) -> baca.RhythmCommand:
+def declamation(*, measures=None, protract=False):
     """
     Makes declamation.
     """
@@ -845,12 +836,12 @@ def declamation(
 
 
 def desynchronization(
-    denominator: int,
-    extra_counts: abjad.IntegerSequence,
+    denominator,
+    extra_counts,
     *,
-    measures: baca.SliceTyping = None,
-    rests: typing.Union[bool, typing.Tuple[typing.List[int], int]] = None,
-) -> baca.RhythmCommand:
+    measures=None,
+    rests=None,
+):
     """
     Makes desynchronization rhythms.
     """
@@ -4362,13 +4353,7 @@ def first_order_stages(segment):
     return specifiers
 
 
-def flight(
-    counts: str,
-    rotation: int,
-    *,
-    measures: baca.SliceTyping = None,
-    start: int = None,
-) -> baca.RhythmCommand:
+def flight(counts, rotation, *, measures=None, start=0):
     """
     Makes flight.
     """
@@ -4488,9 +4473,7 @@ def flight(
     return result
 
 
-def flight_spanner(
-    string: str, staff_padding: abjad.Number, measures: baca.SliceTyping = None
-) -> baca.PiecewiseCommand:
+def flight_spanner(string, staff_padding, measures=None):
     """
     Makes flight annotation spanner.
     """
@@ -4506,7 +4489,7 @@ def flight_spanner(
     return result
 
 
-def grid(*, rotation: int, measures: baca.SliceTyping = None) -> baca.RhythmCommand:
+def grid(*, rotation, measures=None):
     """
     Makes grid.
     """
@@ -4525,13 +4508,7 @@ def grid(*, rotation: int, measures: baca.SliceTyping = None) -> baca.RhythmComm
     return result
 
 
-def grid_to_trajectory(
-    counts: int,
-    rotation: int,
-    extra: int,
-    *,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+def grid_to_trajectory(counts, rotation, extra, *, measures=None):
     """
     Makes grid-to-trajectory transition.
     """
@@ -4577,7 +4554,7 @@ def left_broken_tasto_tweak() -> abjad.IndexedTweakManager:
     )
 
 
-def loure_tuplets(extra_count: int, *, measures: baca.SliceTyping = None) -> baca.Suite:
+def loure_tuplets(extra_count, *, measures=None):
     """
     Makes louré tuplets.
     """
@@ -4593,12 +4570,12 @@ def loure_tuplets(extra_count: int, *, measures: baca.SliceTyping = None) -> bac
 
 
 def margin_markup(
-    key: str,
+    key,
     *,
-    alert: baca.IndicatorCommand = None,
-    context: str = "Staff",
-    selector: abjad.Expression = baca.selectors.leaf(0),
-) -> baca.CommandTyping:
+    alert=None,
+    context="Staff",
+    selector=baca.selectors.leaf(0),
+):
     """
     Makes tagged margin markup indicator command.
     """
@@ -4628,12 +4605,12 @@ def measure_initiation() -> baca.RhythmCommand:
 
 
 def multistage_leaf_glissando(
-    pairs: typing.List[typing.Tuple[str, typing.Optional[int]]],
-    final_pitch: str,
+    pairs,
+    final_pitch,
     *,
-    measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.pleaves(),
-    rleak_final_stage: bool = None,
+    measures=None,
+    selector=baca.pleaves(),
+    rleak_final_stage=False,
 ):
     """
     Makes multistage leaf glissando.
@@ -4641,7 +4618,7 @@ def multistage_leaf_glissando(
     assert isinstance(pairs, list), repr(pairs)
     assert all(isinstance(_, tuple) for _ in pairs), repr(pairs)
 
-    commands: typing.List[baca.CommandTyping] = []
+    commands = []
     if rleak_final_stage:
         command = baca.untie(selector.rleak())
     else:
@@ -5819,11 +5796,11 @@ def operations() -> abjad.TypedList:
 
 
 def pickets(
-    fuse: int,
-    extra_count: int,
-    *commands: rmakers.Command,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+    fuse,
+    extra_count,
+    *commands,
+    measures=None,
+):
     """
     Makes picket polyrhythm.
     """
@@ -5871,9 +5848,7 @@ def rasp() -> baca.RhythmCommand:
     return result
 
 
-def running_quarter_divisions(
-    count: int, *, measures: baca.SliceTyping = None
-) -> baca.RhythmCommand:
+def running_quarter_divisions(count, *, measures=None):
     """
     Makes running quarter divisions.
     """
@@ -9708,7 +9683,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
     return dictionary
 
 
-def solid_line_rhythm(*, measures: baca.SliceTyping = None) -> baca.RhythmCommand:
+def solid_line_rhythm(*, measures=None):
     """
     Makes solid line rhythm.
     """
@@ -9725,11 +9700,7 @@ def solid_line_rhythm(*, measures: baca.SliceTyping = None) -> baca.RhythmComman
     return result
 
 
-def strokes(
-    rotation: int,
-    *commands: rmakers.Command,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+def strokes(rotation, *commands, measures=None):
     """
     Makes strokes.
     """
@@ -9756,13 +9727,7 @@ def strokes(
     return result
 
 
-def synchronized_circles(
-    gaps: bool = True,
-    measures: baca.SliceTyping = None,
-    rests: abjad.IntegerSequence = None,
-    rotation: int = 0,
-    sustain: abjad.IntegerSequence = None,
-) -> baca.RhythmCommand:
+def synchronized_circles(gaps=True, measures=None, rests=(), rotation=0, sustain=()):
     """
     Makes rhythm for synchronized circles.
     """
@@ -9772,7 +9737,7 @@ def synchronized_circles(
     if not gaps:
         counts = [abs(_) for _ in counts]
 
-    commands: typing.List[rmakers.Command] = []
+    commands = []
     commands.append(rmakers.extract_trivial())
     if rests is None:
         pass
@@ -9793,9 +9758,7 @@ def synchronized_circles(
     return result
 
 
-def tailpiece(
-    *tweaks: abjad.IndexedTweakManager, measures: baca.SliceTyping = None
-) -> baca.Suite:
+def tailpiece(*tweaks, measures=None):
     """
     Makes tailpiece.
     """
@@ -9823,14 +9786,7 @@ def tailpiece(
     return result
 
 
-def talea_eighths(
-    counts: abjad.IntegerSequence,
-    rotation: int,
-    extra: int,
-    *,
-    end_counts: abjad.IntegerSequence = None,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+def talea_eighths(counts, rotation, extra, *, end_counts=(), measures=None):
     """
     Makes talea eighths.
     """
@@ -9861,11 +9817,7 @@ def talea_eighths(
     return result
 
 
-def taper(
-    tuplet_ratio: abjad.RatioTyping = (1, 4, 1),
-    *,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+def taper(tuplet_ratio=(1, 4, 1), *, measures=None):
     """
     Makes taper.
     """
@@ -9907,24 +9859,18 @@ def time(maker: baca.SegmentMaker, pairs: typing.Tuple) -> None:
             )
 
 
-def time_signatures(segment: str) -> typing.List[abjad.TimeSignature]:
+def time_signatures(segment):
     """
     Makes ``segment`` time signatures.
     """
-    time_signatures: typing.List[abjad.TimeSignature] = []
+    time_signatures = []
     dictionary = second_order_stages(segment)
     for stage_number, stage_specifier in dictionary.items():
         time_signatures.extend(stage_specifier.all_time_signatures())
     return time_signatures
 
 
-def to_flight(
-    divisions: abjad.DurationSequenceTyping,
-    *,
-    measures: baca.SliceTyping = None,
-    start: abjad.DurationTyping = (1, 4),
-    stop: abjad.DurationTyping = (1, 8),
-) -> baca.RhythmCommand:
+def to_flight(divisions, *, measures=None, start=(1, 4), stop=(1, 8)):
     """
     Makes trajectories-to-flight.
     """
@@ -9945,13 +9891,13 @@ def to_flight(
 
 
 def trajectories(
-    counts: str,
-    rotation: int,
-    extra_counts_rotation: int,
-    *commands: rmakers.Command,
-    end_counts: abjad.IntegerSequence = None,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+    counts,
+    rotation,
+    extra_counts_rotation,
+    *commands,
+    end_counts=(),
+    measures=None,
+):
     """
     Makes trajectories.
     """
@@ -9983,12 +9929,12 @@ def trajectories(
 
 
 def trajectory_spanner(
-    string: str,
-    staff_padding: abjad.Number,
+    string,
+    staff_padding,
     *,
-    measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.selectors.rleaves(),
-) -> baca.PiecewiseCommand:
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
     """
     Makes trajectory annotation spanner.
     """
@@ -10005,9 +9951,7 @@ def trajectory_spanner(
     return result
 
 
-def transition_bcps(
-    *, final_spanner: bool = None, staff_padding: abjad.Number = None
-) -> baca.BCPCommand:
+def transition_bcps(*, final_spanner=False, staff_padding=None):
     """
     Makes transition bow contact points.
     """
@@ -10050,7 +9994,7 @@ def transition_bcps(
     return result
 
 
-def urtext_field(*, measures: baca.SliceTyping = None) -> baca.RhythmCommand:
+def urtext_field(*, measures=None):
     """
     Makes urtext field.
     """
@@ -10062,12 +10006,12 @@ def urtext_field(*, measures: baca.SliceTyping = None) -> baca.RhythmCommand:
 
 
 def urtext_spanner(
-    string: str,
-    staff_padding: abjad.Number,
+    string,
+    staff_padding,
     *,
-    measures: baca.SliceTyping = None,
-    selector: abjad.Expression = baca.selectors.rleaves(),
-) -> baca.PiecewiseCommand:
+    measures=None,
+    selector=baca.selectors.rleaves(),
+):
     """
     Makes urtext annotation spanner.
     """
@@ -10084,12 +10028,7 @@ def urtext_spanner(
     return result
 
 
-def wave(
-    start: abjad.DurationTyping,
-    stop: abjad.DurationTyping,
-    *,
-    measures: baca.SliceTyping = None,
-) -> baca.RhythmCommand:
+def wave(start, stop, *, measures=None):
     """
     Makes wave rhythm.
     """
