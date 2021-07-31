@@ -9727,7 +9727,9 @@ def strokes(rotation, *commands, measures=None):
     return result
 
 
-def synchronized_circles(gaps=True, measures=None, rests=None, rotation=0, sustain=None):
+def synchronized_circles(
+    gaps=True, measures=None, rests=None, rotation=0, sustain=None
+):
     """
     Makes rhythm for synchronized circles.
     """
