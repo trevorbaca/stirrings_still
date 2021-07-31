@@ -1,6 +1,6 @@
 l_Global_Skips = {
 
-    % [12 Global_Skips measure 610 / measure 1]
+    % [Global_Skips measure 610 / measure 1]
     \time 3/4
     \bar ""
     \baca-time-signature-color #'blue
@@ -15,7 +15,7 @@ l_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "48" #'blue
     \bacaStartTextSpanMM
 
-    % [12 Global_Skips measure 611 / measure 2]
+    % [Global_Skips measure 611 / measure 2]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -23,13 +23,13 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "2"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 612 / measure 3]
+    % [Global_Skips measure 612 / measure 3]
     s1 * 1
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "3"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 613 / measure 4]
+    % [Global_Skips measure 613 / measure 4]
     \time 5/4
     \baca-time-signature-color #'blue
     s1 * 5/4
@@ -37,7 +37,7 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "4"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 614 / measure 5]
+    % [Global_Skips measure 614 / measure 5]
     \time 6/4
     \baca-time-signature-color #'blue
     s1 * 3/2
@@ -45,7 +45,7 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "5"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 615 / measure 6]
+    % [Global_Skips measure 615 / measure 6]
     \time 3/4
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -53,7 +53,7 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "6"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 616 / measure 7]
+    % [Global_Skips measure 616 / measure 7]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -61,13 +61,13 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "7"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 617 / measure 8]
+    % [Global_Skips measure 617 / measure 8]
     s1 * 1
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "8"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 618 / measure 9]
+    % [Global_Skips measure 618 / measure 9]
     \time 5/4
     \baca-time-signature-color #'blue
     s1 * 5/4
@@ -75,7 +75,7 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "9"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 619 / measure 10]
+    % [Global_Skips measure 619 / measure 10]
     \time 6/4
     \baca-time-signature-color #'blue
     s1 * 3/2
@@ -83,7 +83,7 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "10"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 620 / measure 11]
+    % [Global_Skips measure 620 / measure 11]
     \time 3/4
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -91,7 +91,7 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "11"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 621 / measure 12]
+    % [Global_Skips measure 621 / measure 12]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -99,7 +99,7 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "12"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 622 / measure 13]
+    % [Global_Skips measure 622 / measure 13]
     \time 3/4
     \baca-time-signature-color #'blue
     s1 * 3/4
@@ -107,7 +107,7 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "13"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 623 / measure 14]
+    % [Global_Skips measure 623 / measure 14]
     \time 4/4
     \baca-time-signature-color #'blue
     s1 * 1
@@ -115,19 +115,19 @@ l_Global_Skips = {
     - \baca-start-lmn-left-only "14"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 624 / measure 15]
+    % [Global_Skips measure 624 / measure 15]
     s1 * 1
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "15"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 625 / measure 16]
+    % [Global_Skips measure 625 / measure 16]
     s1 * 1
     \bacaStopTextSpanLMN
     - \baca-start-lmn-left-only "16"
     \bacaStartTextSpanLMN
 
-    % [12 Global_Skips measure 626 / measure 17]
+    % [Global_Skips measure 626 / measure 17]
     \time 1/4
     \baca-time-signature-transparent
     s1 * 1/4
@@ -142,55 +142,55 @@ l_Global_Skips = {
 
 l_Global_Rests = {
 
-    % [12 Global_Rests measure 610 / measure 1]
+    % [Global_Rests measure 610 / measure 1]
     R1 * 3/4
 
-    % [12 Global_Rests measure 611 / measure 2]
+    % [Global_Rests measure 611 / measure 2]
     R1 * 1
 
-    % [12 Global_Rests measure 612 / measure 3]
+    % [Global_Rests measure 612 / measure 3]
     R1 * 1
 
-    % [12 Global_Rests measure 613 / measure 4]
+    % [Global_Rests measure 613 / measure 4]
     R1 * 5/4
 
-    % [12 Global_Rests measure 614 / measure 5]
+    % [Global_Rests measure 614 / measure 5]
     R1 * 3/2
 
-    % [12 Global_Rests measure 615 / measure 6]
+    % [Global_Rests measure 615 / measure 6]
     R1 * 3/4
 
-    % [12 Global_Rests measure 616 / measure 7]
+    % [Global_Rests measure 616 / measure 7]
     R1 * 1
 
-    % [12 Global_Rests measure 617 / measure 8]
+    % [Global_Rests measure 617 / measure 8]
     R1 * 1
 
-    % [12 Global_Rests measure 618 / measure 9]
+    % [Global_Rests measure 618 / measure 9]
     R1 * 5/4
 
-    % [12 Global_Rests measure 619 / measure 10]
+    % [Global_Rests measure 619 / measure 10]
     R1 * 3/2
 
-    % [12 Global_Rests measure 620 / measure 11]
+    % [Global_Rests measure 620 / measure 11]
     R1 * 3/4
 
-    % [12 Global_Rests measure 621 / measure 12]
+    % [Global_Rests measure 621 / measure 12]
     R1 * 1
 
-    % [12 Global_Rests measure 622 / measure 13]
+    % [Global_Rests measure 622 / measure 13]
     R1 * 3/4
 
-    % [12 Global_Rests measure 623 / measure 14]
+    % [Global_Rests measure 623 / measure 14]
     R1 * 1
 
-    % [12 Global_Rests measure 624 / measure 15]
+    % [Global_Rests measure 624 / measure 15]
     R1 * 1
 
-    % [12 Global_Rests measure 625 / measure 16]
+    % [Global_Rests measure 625 / measure 16]
     R1 * 1
 
-    % [12 Global_Rests measure 626 / measure 17]
+    % [Global_Rests measure 626 / measure 17]
     R1 * 1/4
 
 }
@@ -202,7 +202,7 @@ l_Violin_I_Music_Voice = {
     \times 6/5
     {
 
-        % [12 Violin_I_Music_Voice measure 610 / measure 1]
+        % [Violin_I_Music_Voice measure 610 / measure 1]
         \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
         \stopStaff
@@ -271,7 +271,7 @@ l_Violin_I_Music_Voice = {
     \times 8/9
     {
 
-        % [12 Violin_I_Music_Voice measure 611 / measure 2]
+        % [Violin_I_Music_Voice measure 611 / measure 2]
         e'''8
         [
 
@@ -320,7 +320,7 @@ l_Violin_I_Music_Voice = {
 
     }
 
-    % [12 Violin_I_Music_Voice measure 612 / measure 3]
+    % [Violin_I_Music_Voice measure 612 / measure 3]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -332,7 +332,7 @@ l_Violin_I_Music_Voice = {
     \bacaStopTextSpanHalfCLT
     \glissando
 
-    % [12 Violin_I_Music_Voice measure 613 / measure 4]
+    % [Violin_I_Music_Voice measure 613 / measure 4]
     \hide NoteHead
     \override Accidental.stencil = ##f
     \override NoteColumn.glissando-skip = ##t
@@ -412,7 +412,7 @@ l_Violin_I_Music_Voice = {
     \times 12/11
     {
 
-        % [12 Violin_I_Music_Voice measure 614 / measure 5]
+        % [Violin_I_Music_Voice measure 614 / measure 5]
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
@@ -502,7 +502,7 @@ l_Violin_I_Music_Voice = {
     \times 6/7
     {
 
-        % [12 Violin_I_Music_Voice measure 615 / measure 6]
+        % [Violin_I_Music_Voice measure 615 / measure 6]
         d'''8
 
         d'''4.
@@ -544,7 +544,7 @@ l_Violin_I_Music_Voice = {
 
     }
 
-    % [12 Violin_I_Music_Voice measure 616 / measure 7]
+    % [Violin_I_Music_Voice measure 616 / measure 7]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -556,7 +556,7 @@ l_Violin_I_Music_Voice = {
     \bacaStopTextSpanHalfCLT
     \glissando
 
-    % [12 Violin_I_Music_Voice measure 617 / measure 8]
+    % [Violin_I_Music_Voice measure 617 / measure 8]
     \hide NoteHead
     \override Accidental.stencil = ##f
     \override NoteColumn.glissando-skip = ##t
@@ -617,7 +617,7 @@ l_Violin_I_Music_Voice = {
     \times 10/9
     {
 
-        % [12 Violin_I_Music_Voice measure 618 / measure 9]
+        % [Violin_I_Music_Voice measure 618 / measure 9]
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
@@ -688,7 +688,7 @@ l_Violin_I_Music_Voice = {
     \times 12/13
     {
 
-        % [12 Violin_I_Music_Voice measure 619 / measure 10]
+        % [Violin_I_Music_Voice measure 619 / measure 10]
         e'''8
         - \tweak self-alignment-X #left
         - \tweak staff-padding 9.5
@@ -755,7 +755,7 @@ l_Violin_I_Music_Voice = {
 
     }
 
-    % [12 Violin_I_Music_Voice measure 620 / measure 11]
+    % [Violin_I_Music_Voice measure 620 / measure 11]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -767,7 +767,7 @@ l_Violin_I_Music_Voice = {
     \bacaStopTextSpanHalfCLT
     \glissando
 
-    % [12 Violin_I_Music_Voice measure 621 / measure 12]
+    % [Violin_I_Music_Voice measure 621 / measure 12]
     \hide NoteHead
     \override Accidental.stencil = ##f
     \override NoteColumn.glissando-skip = ##t
@@ -846,7 +846,7 @@ l_Violin_I_Music_Voice = {
     \times 6/5
     {
 
-        % [12 Violin_I_Music_Voice measure 622 / measure 13]
+        % [Violin_I_Music_Voice measure 622 / measure 13]
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
@@ -895,7 +895,7 @@ l_Violin_I_Music_Voice = {
     \times 8/9
     {
 
-        % [12 Violin_I_Music_Voice measure 623 / measure 14]
+        % [Violin_I_Music_Voice measure 623 / measure 14]
         e'''8
         [
 
@@ -944,7 +944,7 @@ l_Violin_I_Music_Voice = {
 
     }
 
-    % [12 Violin_I_Music_Voice measure 624 / measure 15]
+    % [Violin_I_Music_Voice measure 624 / measure 15]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -954,7 +954,7 @@ l_Violin_I_Music_Voice = {
     \bacaStopTextSpanHalfCLT
     \glissando
 
-    % [12 Violin_I_Music_Voice measure 625 / measure 16]
+    % [Violin_I_Music_Voice measure 625 / measure 16]
     \hide NoteHead
     \override Accidental.stencil = ##f
     \override NoteColumn.glissando-skip = ##t
@@ -972,7 +972,7 @@ l_Violin_I_Music_Voice = {
         \context Voice = "Violin_I_Music_Voice"
         {
 
-            % [12 Violin_I_Music_Voice measure 626 / measure 17]
+            % [Violin_I_Music_Voice measure 626 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -983,7 +983,7 @@ l_Violin_I_Music_Voice = {
         \context Voice = "Violin_I_Rest_Voice"
         {
 
-            % [12 Violin_I_Rest_Voice measure 626 / measure 17]
+            % [Violin_I_Rest_Voice measure 626 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1011,7 +1011,7 @@ l_Violin_I_Music_Staff = <<
 
 l_Violin_II_Music_Voice = {
 
-    % [12 Violin_II_Music_Voice measure 610 / measure 1]
+    % [Violin_II_Music_Voice measure 610 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
     \stopStaff
     \once \override Staff.StaffSymbol.line-count = 5
@@ -1077,7 +1077,7 @@ l_Violin_II_Music_Voice = {
     \times 8/7
     {
 
-        % [12 Violin_II_Music_Voice measure 611 / measure 2]
+        % [Violin_II_Music_Voice measure 611 / measure 2]
         g''8
         - \tweak self-alignment-X #left
         - \tweak staff-padding 6.5
@@ -1115,7 +1115,7 @@ l_Violin_II_Music_Voice = {
 
     }
 
-    % [12 Violin_II_Music_Voice measure 612 / measure 3]
+    % [Violin_II_Music_Voice measure 612 / measure 3]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -1131,7 +1131,7 @@ l_Violin_II_Music_Voice = {
     \times 10/11
     {
 
-        % [12 Violin_II_Music_Voice measure 613 / measure 4]
+        % [Violin_II_Music_Voice measure 613 / measure 4]
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -1209,7 +1209,7 @@ l_Violin_II_Music_Voice = {
 
     }
 
-    % [12 Violin_II_Music_Voice measure 614 / measure 5]
+    % [Violin_II_Music_Voice measure 614 / measure 5]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -1303,7 +1303,7 @@ l_Violin_II_Music_Voice = {
     \times 6/5
     {
 
-        % [12 Violin_II_Music_Voice measure 615 / measure 6]
+        % [Violin_II_Music_Voice measure 615 / measure 6]
         f''4
 
         f''8
@@ -1335,7 +1335,7 @@ l_Violin_II_Music_Voice = {
 
     }
 
-    % [12 Violin_II_Music_Voice measure 616 / measure 7]
+    % [Violin_II_Music_Voice measure 616 / measure 7]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -1351,7 +1351,7 @@ l_Violin_II_Music_Voice = {
     \times 8/9
     {
 
-        % [12 Violin_II_Music_Voice measure 617 / measure 8]
+        % [Violin_II_Music_Voice measure 617 / measure 8]
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -1407,7 +1407,7 @@ l_Violin_II_Music_Voice = {
 
     }
 
-    % [12 Violin_II_Music_Voice measure 618 / measure 9]
+    % [Violin_II_Music_Voice measure 618 / measure 9]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -1496,7 +1496,7 @@ l_Violin_II_Music_Voice = {
     \times 12/11
     {
 
-        % [12 Violin_II_Music_Voice measure 619 / measure 10]
+        % [Violin_II_Music_Voice measure 619 / measure 10]
         f''4
         \bacaStopTextSpanBCP
         - \abjad-solid-line-with-arrow
@@ -1541,7 +1541,7 @@ l_Violin_II_Music_Voice = {
 
     }
 
-    % [12 Violin_II_Music_Voice measure 620 / measure 11]
+    % [Violin_II_Music_Voice measure 620 / measure 11]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -1557,7 +1557,7 @@ l_Violin_II_Music_Voice = {
     \times 8/9
     {
 
-        % [12 Violin_II_Music_Voice measure 621 / measure 12]
+        % [Violin_II_Music_Voice measure 621 / measure 12]
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -1641,7 +1641,7 @@ l_Violin_II_Music_Voice = {
 
     }
 
-    % [12 Violin_II_Music_Voice measure 622 / measure 13]
+    % [Violin_II_Music_Voice measure 622 / measure 13]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -1688,7 +1688,7 @@ l_Violin_II_Music_Voice = {
     \times 8/7
     {
 
-        % [12 Violin_II_Music_Voice measure 623 / measure 14]
+        % [Violin_II_Music_Voice measure 623 / measure 14]
         g''8
         \bacaStopTextSpanBCP
         - \abjad-solid-line-with-arrow
@@ -1723,7 +1723,7 @@ l_Violin_II_Music_Voice = {
 
     }
 
-    % [12 Violin_II_Music_Voice measure 624 / measure 15]
+    % [Violin_II_Music_Voice measure 624 / measure 15]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -1733,7 +1733,7 @@ l_Violin_II_Music_Voice = {
     \bacaStopTextSpanHalfCLT
     \glissando
 
-    % [12 Violin_II_Music_Voice measure 625 / measure 16]
+    % [Violin_II_Music_Voice measure 625 / measure 16]
     \hide NoteHead
     \override Accidental.stencil = ##f
     \override NoteColumn.glissando-skip = ##t
@@ -1751,7 +1751,7 @@ l_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Music_Voice"
         {
 
-            % [12 Violin_II_Music_Voice measure 626 / measure 17]
+            % [Violin_II_Music_Voice measure 626 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1762,7 +1762,7 @@ l_Violin_II_Music_Voice = {
         \context Voice = "Violin_II_Rest_Voice"
         {
 
-            % [12 Violin_II_Rest_Voice measure 626 / measure 17]
+            % [Violin_II_Rest_Voice measure 626 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -1791,7 +1791,7 @@ l_Viola_Music_Voice = {
     \times 6/7
     {
 
-        % [12 Viola_Music_Voice measure 610 / measure 1]
+        % [Viola_Music_Voice measure 610 / measure 1]
         \set Staff.shortInstrumentName = \stirrings-still-va-markup
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
@@ -1868,7 +1868,7 @@ l_Viola_Music_Voice = {
 
     }
 
-    % [12 Viola_Music_Voice measure 611 / measure 2]
+    % [Viola_Music_Voice measure 611 / measure 2]
     e4.
     - \tweak self-alignment-X #left
     - \tweak staff-padding 5.5
@@ -1913,7 +1913,7 @@ l_Viola_Music_Voice = {
     - \tweak staff-padding 3
     \bacaStartTextSpanBCP
 
-    % [12 Viola_Music_Voice measure 612 / measure 3]
+    % [Viola_Music_Voice measure 612 / measure 3]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -1929,7 +1929,7 @@ l_Viola_Music_Voice = {
     \times 10/11
     {
 
-        % [12 Viola_Music_Voice measure 613 / measure 4]
+        % [Viola_Music_Voice measure 613 / measure 4]
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -2023,7 +2023,7 @@ l_Viola_Music_Voice = {
     \times 12/13
     {
 
-        % [12 Viola_Music_Voice measure 614 / measure 5]
+        % [Viola_Music_Voice measure 614 / measure 5]
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
@@ -2106,7 +2106,7 @@ l_Viola_Music_Voice = {
 
     }
 
-    % [12 Viola_Music_Voice measure 615 / measure 6]
+    % [Viola_Music_Voice measure 615 / measure 6]
     e8
     \bacaStopTextSpanBCP
     - \abjad-solid-line-with-arrow
@@ -2129,7 +2129,7 @@ l_Viola_Music_Voice = {
     - \tweak staff-padding 3
     \bacaStartTextSpanBCP
 
-    % [12 Viola_Music_Voice measure 616 / measure 7]
+    % [Viola_Music_Voice measure 616 / measure 7]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -2145,7 +2145,7 @@ l_Viola_Music_Voice = {
     \times 8/9
     {
 
-        % [12 Viola_Music_Voice measure 617 / measure 8]
+        % [Viola_Music_Voice measure 617 / measure 8]
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -2229,7 +2229,7 @@ l_Viola_Music_Voice = {
     \times 10/11
     {
 
-        % [12 Viola_Music_Voice measure 618 / measure 9]
+        % [Viola_Music_Voice measure 618 / measure 9]
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
@@ -2311,7 +2311,7 @@ l_Viola_Music_Voice = {
 
     }
 
-    % [12 Viola_Music_Voice measure 619 / measure 10]
+    % [Viola_Music_Voice measure 619 / measure 10]
     e4
 
     e8
@@ -2371,7 +2371,7 @@ l_Viola_Music_Voice = {
     - \tweak staff-padding 3
     \bacaStartTextSpanBCP
 
-    % [12 Viola_Music_Voice measure 620 / measure 11]
+    % [Viola_Music_Voice measure 620 / measure 11]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -2387,7 +2387,7 @@ l_Viola_Music_Voice = {
     \times 8/9
     {
 
-        % [12 Viola_Music_Voice measure 621 / measure 12]
+        % [Viola_Music_Voice measure 621 / measure 12]
         \hide NoteHead
         \override Accidental.stencil = ##f
         \override NoteColumn.glissando-skip = ##t
@@ -2460,7 +2460,7 @@ l_Viola_Music_Voice = {
     \times 6/7
     {
 
-        % [12 Viola_Music_Voice measure 622 / measure 13]
+        % [Viola_Music_Voice measure 622 / measure 13]
         \revert Accidental.stencil
         \revert NoteColumn.glissando-skip
         \revert NoteHead.no-ledgers
@@ -2517,7 +2517,7 @@ l_Viola_Music_Voice = {
 
     }
 
-    % [12 Viola_Music_Voice measure 623 / measure 14]
+    % [Viola_Music_Voice measure 623 / measure 14]
     e4.
     - \tweak self-alignment-X #left
     - \tweak staff-padding 5.5
@@ -2562,7 +2562,7 @@ l_Viola_Music_Voice = {
     - \tweak staff-padding 3
     \bacaStartTextSpanBCP
 
-    % [12 Viola_Music_Voice measure 624 / measure 15]
+    % [Viola_Music_Voice measure 624 / measure 15]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -2572,7 +2572,7 @@ l_Viola_Music_Voice = {
     \bacaStopTextSpanHalfCLT
     \glissando
 
-    % [12 Viola_Music_Voice measure 625 / measure 16]
+    % [Viola_Music_Voice measure 625 / measure 16]
     \hide NoteHead
     \override Accidental.stencil = ##f
     \override NoteColumn.glissando-skip = ##t
@@ -2591,7 +2591,7 @@ l_Viola_Music_Voice = {
         \context Voice = "Viola_Music_Voice"
         {
 
-            % [12 Viola_Music_Voice measure 626 / measure 17]
+            % [Viola_Music_Voice measure 626 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             c'1 * 1/4
@@ -2602,7 +2602,7 @@ l_Viola_Music_Voice = {
         \context Voice = "Viola_Rest_Voice"
         {
 
-            % [12 Viola_Rest_Voice measure 626 / measure 17]
+            % [Viola_Rest_Voice measure 626 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
@@ -2627,7 +2627,7 @@ l_Viola_Music_Staff = {
 
 l_Cello_Music_Voice = {
 
-    % [12 Cello_Music_Voice measure 610 / measure 1]
+    % [Cello_Music_Voice measure 610 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
     \stopStaff
@@ -2669,16 +2669,16 @@ l_Cello_Music_Voice = {
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    % [12 Cello_Music_Voice measure 611 / measure 2]
+    % [Cello_Music_Voice measure 611 / measure 2]
     \override NoteColumn.glissando-skip = ##t
     df,!1
 
-    % [12 Cello_Music_Voice measure 612 / measure 3]
+    % [Cello_Music_Voice measure 612 / measure 3]
     df,!1
     - \tweak color #(x11-color 'blue)
     \ff
 
-    % [12 Cello_Music_Voice measure 613 / measure 4]
+    % [Cello_Music_Voice measure 613 / measure 4]
     df,!1
     - \tweak color #(x11-color 'blue)
     \ff
@@ -2687,29 +2687,29 @@ l_Cello_Music_Voice = {
 
     df,!4
 
-    % [12 Cello_Music_Voice measure 614 / measure 5]
+    % [Cello_Music_Voice measure 614 / measure 5]
     df,!1.
     - \tweak color #(x11-color 'blue)
     \p
     - \tweak color #(x11-color 'blue)
     \<
 
-    % [12 Cello_Music_Voice measure 615 / measure 6]
+    % [Cello_Music_Voice measure 615 / measure 6]
     df,!2.
 
-    % [12 Cello_Music_Voice measure 616 / measure 7]
+    % [Cello_Music_Voice measure 616 / measure 7]
     df,!1
     - \tweak color #(x11-color 'blue)
     \ff
 
-    % [12 Cello_Music_Voice measure 617 / measure 8]
+    % [Cello_Music_Voice measure 617 / measure 8]
     df,!1
     - \tweak color #(x11-color 'blue)
     \ff
     - \tweak color #(x11-color 'blue)
     \>
 
-    % [12 Cello_Music_Voice measure 618 / measure 9]
+    % [Cello_Music_Voice measure 618 / measure 9]
     df,!1
     - \tweak color #(x11-color 'blue)
     \p
@@ -2718,37 +2718,37 @@ l_Cello_Music_Voice = {
 
     df,!4
 
-    % [12 Cello_Music_Voice measure 619 / measure 10]
+    % [Cello_Music_Voice measure 619 / measure 10]
     df,!1.
 
-    % [12 Cello_Music_Voice measure 620 / measure 11]
+    % [Cello_Music_Voice measure 620 / measure 11]
     df,!2.
     - \tweak color #(x11-color 'blue)
     \fff
 
-    % [12 Cello_Music_Voice measure 621 / measure 12]
+    % [Cello_Music_Voice measure 621 / measure 12]
     df,!1
     - \tweak color #(x11-color 'blue)
     \fff
     - \tweak color #(x11-color 'blue)
     \>
 
-    % [12 Cello_Music_Voice measure 622 / measure 13]
+    % [Cello_Music_Voice measure 622 / measure 13]
     df,!2.
     - \tweak color #(x11-color 'blue)
     \p
     - \tweak color #(x11-color 'blue)
     \<
 
-    % [12 Cello_Music_Voice measure 623 / measure 14]
+    % [Cello_Music_Voice measure 623 / measure 14]
     df,!1
 
-    % [12 Cello_Music_Voice measure 624 / measure 15]
+    % [Cello_Music_Voice measure 624 / measure 15]
     df,!1
     - \tweak color #(x11-color 'blue)
     \fff
 
-    % [12 Cello_Music_Voice measure 625 / measure 16]
+    % [Cello_Music_Voice measure 625 / measure 16]
     \revert Accidental.stencil
     \revert NoteColumn.glissando-skip
     \revert NoteHead.no-ledgers
@@ -2765,7 +2765,7 @@ l_Cello_Music_Voice = {
         \context Voice = "Cello_Music_Voice"
         {
 
-            % [12 Cello_Music_Voice measure 626 / measure 17]
+            % [Cello_Music_Voice measure 626 / measure 17]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             d1 * 1/4
@@ -2775,7 +2775,7 @@ l_Cello_Music_Voice = {
         \context Voice = "Cello_Rest_Voice"
         {
 
-            % [12 Cello_Rest_Voice measure 626 / measure 17]
+            % [Cello_Rest_Voice measure 626 / measure 17]
             \once \override Score.TimeSignature.X-extent = ##f
             \once \override MultiMeasureRest.transparent = ##t
             \stopStaff
