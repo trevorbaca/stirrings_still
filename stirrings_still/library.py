@@ -9727,7 +9727,7 @@ def strokes(rotation, *commands, measures=None):
     return result
 
 
-def synchronized_circles(gaps=True, measures=None, rests=(), rotation=0, sustain=()):
+def synchronized_circles(gaps=True, measures=None, rests=None, rotation=0, sustain=None):
     """
     Makes rhythm for synchronized circles.
     """
@@ -9741,7 +9741,7 @@ def synchronized_circles(gaps=True, measures=None, rests=(), rotation=0, sustain
     commands.append(rmakers.extract_trivial())
     if rests is None:
         pass
-    elif isinstance(rests, list):
+    elif isinstance(rests, (list, tuple)):
         specifier = rmakers.force_rest(
             baca.selectors.lts(rests),
         )
