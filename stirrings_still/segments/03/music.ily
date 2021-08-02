@@ -1,4 +1,4 @@
-c_Global_Skips = {
+segment.03.Global.Skips = {
 
     % [Global_Skips measure 130 / measure 1]
     \time 3/4
@@ -799,7 +799,7 @@ c_Global_Skips = {
 }
 
 
-c_Global_Rests = {
+segment.03.Global.Rests = {
 
     % [Global_Rests measure 130 / measure 1]
     R1 * 3/4
@@ -1049,7 +1049,7 @@ c_Global_Rests = {
 }
 
 
-c_Violin_I_Music_Voice = {
+segment.03.Violin.I.Music.Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4
@@ -2564,18 +2564,18 @@ c_Violin_I_Music_Voice = {
 }
 
 
-c_Violin_I_Music_Staff = <<
+segment.03.Violin.I.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \c_Global_Rests
+    { \segment.03.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
-    \c_Violin_I_Music_Voice
+    { \segment.03.Violin.I.Music.Voice }
 
 >>
 
 
-c_Violin_II_Music_Voice = {
+segment.03.Violin.II.Music.Voice = {
 
     % [Violin_II_Music_Voice measure 130 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
@@ -3876,15 +3876,15 @@ c_Violin_II_Music_Voice = {
 }
 
 
-c_Violin_II_MusicStaff = {
+segment.03.Violin.II.MusicStaff = {
 
     \context Voice = "Violin_II_Music_Voice"
-    \c_Violin_II_Music_Voice
+    { \segment.03.Violin.II.Music.Voice }
 
 }
 
 
-c_Viola_Music_Voice = {
+segment.03.Viola.Music.Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5
@@ -5456,15 +5456,15 @@ c_Viola_Music_Voice = {
 }
 
 
-c_Viola_Music_Staff = {
+segment.03.Viola.Music.Staff = {
 
     \context Voice = "Viola_Music_Voice"
-    \c_Viola_Music_Voice
+    { \segment.03.Viola.Music.Voice }
 
 }
 
 
-c_Cello_Music_Voice = {
+segment.03.Cello.Music.Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/2
@@ -6850,9 +6850,9 @@ c_Cello_Music_Voice = {
 }
 
 
-c_Cello_Music_Staff = {
+segment.03.Cello.Music.Staff = {
 
     \context Voice = "Cello_Music_Voice"
-    \c_Cello_Music_Voice
+    { \segment.03.Cello.Music.Voice }
 
 }

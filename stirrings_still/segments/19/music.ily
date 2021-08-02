@@ -1,4 +1,4 @@
-s_Global_Skips = {
+segment.19.Global.Skips = {
 
     % [Global_Skips measure 840 / measure 1]
     \time 4/4
@@ -196,7 +196,7 @@ s_Global_Skips = {
 }
 
 
-s_Global_Rests = {
+segment.19.Global.Rests = {
 
     % [Global_Rests measure 840 / measure 1]
     R1 * 1
@@ -277,7 +277,7 @@ s_Global_Rests = {
 }
 
 
-s_Violin_I_Music_Voice = {
+segment.19.Violin.I.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
@@ -1338,18 +1338,18 @@ s_Violin_I_Music_Voice = {
 }
 
 
-s_Violin_I_Music_Staff = <<
+segment.19.Violin.I.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \s_Global_Rests
+    { \segment.19.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
-    \s_Violin_I_Music_Voice
+    { \segment.19.Violin.I.Music.Voice }
 
 >>
 
 
-s_Violin_II_Music_Voice = {
+segment.19.Violin.II.Music.Voice = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
         {
@@ -2365,15 +2365,15 @@ s_Violin_II_Music_Voice = {
 }
 
 
-s_Violin_II_MusicStaff = {
+segment.19.Violin.II.MusicStaff = {
 
     \context Voice = "Violin_II_Music_Voice"
-    \s_Violin_II_Music_Voice
+    { \segment.19.Violin.II.Music.Voice }
 
 }
 
 
-s_Viola_Music_Voice = {
+segment.19.Viola.Music.Voice = {
 
     % [Viola_Music_Voice measure 840 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-va-markup
@@ -2539,15 +2539,15 @@ s_Viola_Music_Voice = {
 }
 
 
-s_Viola_Music_Staff = {
+segment.19.Viola.Music.Staff = {
 
     \context Voice = "Viola_Music_Voice"
-    \s_Viola_Music_Voice
+    { \segment.19.Viola.Music.Voice }
 
 }
 
 
-s_Cello_Music_Voice = {
+segment.19.Cello.Music.Voice = {
 
     % [Cello_Music_Voice measure 840 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup
@@ -2886,9 +2886,9 @@ s_Cello_Music_Voice = {
 }
 
 
-s_Cello_Music_Staff = {
+segment.19.Cello.Music.Staff = {
 
     \context Voice = "Cello_Music_Voice"
-    \s_Cello_Music_Voice
+    { \segment.19.Cello.Music.Voice }
 
 }

@@ -1,4 +1,4 @@
-r_Global_Skips = {
+segment.18.Global.Skips = {
 
     % [Global_Skips measure 823 / measure 1]
     \time 4/4
@@ -165,7 +165,7 @@ r_Global_Skips = {
 }
 
 
-r_Global_Rests = {
+segment.18.Global.Rests = {
 
     % [Global_Rests measure 823 / measure 1]
     R1 * 1
@@ -227,7 +227,7 @@ r_Global_Rests = {
 }
 
 
-r_Violin_I_Music_Voice = {
+segment.18.Violin.I.Music.Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7
@@ -766,18 +766,18 @@ r_Violin_I_Music_Voice = {
 }
 
 
-r_Violin_I_Music_Staff = <<
+segment.18.Violin.I.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \r_Global_Rests
+    { \segment.18.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
-    \r_Violin_I_Music_Voice
+    { \segment.18.Violin.I.Music.Voice }
 
 >>
 
 
-r_Violin_II_Music_Voice = {
+segment.18.Violin.II.Music.Voice = {
 
     % [Violin_II_Music_Voice measure 823 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
@@ -1302,15 +1302,15 @@ r_Violin_II_Music_Voice = {
 }
 
 
-r_Violin_II_MusicStaff = {
+segment.18.Violin.II.MusicStaff = {
 
     \context Voice = "Violin_II_Music_Voice"
-    \r_Violin_II_Music_Voice
+    { \segment.18.Violin.II.Music.Voice }
 
 }
 
 
-r_Viola_Music_Voice = {
+segment.18.Viola.Music.Voice = {
 
     % [Viola_Music_Voice measure 823 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-va-markup
@@ -1437,15 +1437,15 @@ r_Viola_Music_Voice = {
 }
 
 
-r_Viola_Music_Staff = {
+segment.18.Viola.Music.Staff = {
 
     \context Voice = "Viola_Music_Voice"
-    \r_Viola_Music_Voice
+    { \segment.18.Viola.Music.Voice }
 
 }
 
 
-r_Cello_Music_Voice = {
+segment.18.Cello.Music.Voice = {
 
     % [Cello_Music_Voice measure 823 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup
@@ -1607,9 +1607,9 @@ r_Cello_Music_Voice = {
 }
 
 
-r_Cello_Music_Staff = {
+segment.18.Cello.Music.Staff = {
 
     \context Voice = "Cello_Music_Voice"
-    \r_Cello_Music_Voice
+    { \segment.18.Cello.Music.Voice }
 
 }

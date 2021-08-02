@@ -1,4 +1,4 @@
-n_Global_Skips = {
+segment.14.Global.Skips = {
 
     % [Global_Skips measure 658 / measure 1]
     \time 4/8
@@ -378,7 +378,7 @@ n_Global_Skips = {
 }
 
 
-n_Global_Rests = {
+segment.14.Global.Rests = {
 
     % [Global_Rests measure 658 / measure 1]
     R1 * 1/2
@@ -508,7 +508,7 @@ n_Global_Rests = {
 }
 
 
-n_Violin_I_Music_Voice = {
+segment.14.Violin.I.Music.Voice = {
 
     % [Violin_I_Music_Voice measure 658 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
@@ -1314,18 +1314,18 @@ n_Violin_I_Music_Voice = {
 }
 
 
-n_Violin_I_Music_Staff = <<
+segment.14.Violin.I.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \n_Global_Rests
+    { \segment.14.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
-    \n_Violin_I_Music_Voice
+    { \segment.14.Violin.I.Music.Voice }
 
 >>
 
 
-n_Violin_II_Music_Voice = {
+segment.14.Violin.II.Music.Voice = {
 
     % [Violin_II_Music_Voice measure 658 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
@@ -2098,15 +2098,15 @@ n_Violin_II_Music_Voice = {
 }
 
 
-n_Violin_II_MusicStaff = {
+segment.14.Violin.II.MusicStaff = {
 
     \context Voice = "Violin_II_Music_Voice"
-    \n_Violin_II_Music_Voice
+    { \segment.14.Violin.II.Music.Voice }
 
 }
 
 
-n_Viola_Music_Voice = {
+segment.14.Viola.Music.Voice = {
 
     % [Viola_Music_Voice measure 658 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-va-markup
@@ -2939,15 +2939,15 @@ n_Viola_Music_Voice = {
 }
 
 
-n_Viola_Music_Staff = {
+segment.14.Viola.Music.Staff = {
 
     \context Voice = "Viola_Music_Voice"
-    \n_Viola_Music_Voice
+    { \segment.14.Viola.Music.Voice }
 
 }
 
 
-n_Cello_Music_Voice = {
+segment.14.Cello.Music.Voice = {
 
     % [Cello_Music_Voice measure 658 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup
@@ -3895,9 +3895,9 @@ n_Cello_Music_Voice = {
 }
 
 
-n_Cello_Music_Staff = {
+segment.14.Cello.Music.Staff = {
 
     \context Voice = "Cello_Music_Voice"
-    \n_Cello_Music_Voice
+    { \segment.14.Cello.Music.Voice }
 
 }

@@ -1,4 +1,4 @@
-j_Global_Skips = {
+segment.10.Global.Skips = {
 
     % [Global_Skips measure 539 / measure 1]
     \time 8/16
@@ -195,7 +195,7 @@ j_Global_Skips = {
 }
 
 
-j_Global_Rests = {
+segment.10.Global.Rests = {
 
     % [Global_Rests measure 539 / measure 1]
     R1 * 1/2
@@ -254,7 +254,7 @@ j_Global_Rests = {
 }
 
 
-j_Violin_I_Music_Voice = {
+segment.10.Violin.I.Music.Voice = {
 
     % [Violin_I_Music_Voice measure 539 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup
@@ -797,18 +797,18 @@ j_Violin_I_Music_Voice = {
 }
 
 
-j_Violin_I_Music_Staff = <<
+segment.10.Violin.I.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \j_Global_Rests
+    { \segment.10.Global.Rests }
 
     \context Voice = "Violin_I_Music_Voice"
-    \j_Violin_I_Music_Voice
+    { \segment.10.Violin.I.Music.Voice }
 
 >>
 
 
-j_Violin_II_Music_Voice = {
+segment.10.Violin.II.Music.Voice = {
 
     % [Violin_II_Music_Voice measure 539 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup
@@ -1389,15 +1389,15 @@ j_Violin_II_Music_Voice = {
 }
 
 
-j_Violin_II_MusicStaff = {
+segment.10.Violin.II.MusicStaff = {
 
     \context Voice = "Violin_II_Music_Voice"
-    \j_Violin_II_Music_Voice
+    { \segment.10.Violin.II.Music.Voice }
 
 }
 
 
-j_Viola_Music_Voice = {
+segment.10.Viola.Music.Voice = {
 
     % [Viola_Music_Voice measure 539 / measure 1]
     \set Staff.shortInstrumentName = \stirrings-still-va-markup
@@ -1966,15 +1966,15 @@ j_Viola_Music_Voice = {
 }
 
 
-j_Viola_Music_Staff = {
+segment.10.Viola.Music.Staff = {
 
     \context Voice = "Viola_Music_Voice"
-    \j_Viola_Music_Voice
+    { \segment.10.Viola.Music.Voice }
 
 }
 
 
-j_Cello_Music_Voice = {
+segment.10.Cello.Music.Voice = {
 
     <<
 
@@ -2303,9 +2303,9 @@ j_Cello_Music_Voice = {
 }
 
 
-j_Cello_Music_Staff = {
+segment.10.Cello.Music.Staff = {
 
     \context Voice = "Cello_Music_Voice"
-    \j_Cello_Music_Voice
+    { \segment.10.Cello.Music.Voice }
 
 }
