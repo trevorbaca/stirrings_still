@@ -1,5 +1,5 @@
-%! baca.Path.extern()
-g_Global_Skips = {
+%! baca.path.extern()
+segment.07.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 447 / measure 1]
@@ -1326,12 +1326,12 @@ g_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-g_Global_Rests = {
+%! baca.path.extern()
+segment.07.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 447 / measure 1]
@@ -1511,12 +1511,12 @@ g_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-g_Violin_I_Music_Voice = {
+%! baca.path.extern()
+segment.07.Violin.I.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_I_Music_Voice measure 447 / measure 1]
@@ -4150,32 +4150,32 @@ g_Violin_I_Music_Voice = {
     >>
 
 %! stirrings_still.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-g_Violin_I_Music_Staff = <<
+%! baca.path.extern()
+segment.07.Violin.I.Music.Staff = <<
 
     %! abjad.ScoreTemplate._make_global_context()
     \context GlobalRests = "Global_Rests"
     %! abjad.ScoreTemplate._make_global_context()
-    %! baca.Path.extern()
-    \g_Global_Rests
+    %! baca.path.extern()
+    { \segment.07.Global.Rests }
 
     %! stirrings_still.ScoreTemplate.__call__()
     \context Voice = "Violin_I_Music_Voice"
     %! stirrings_still.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \g_Violin_I_Music_Voice
+    %! baca.path.extern()
+    { \segment.07.Violin.I.Music.Voice }
 
 %! stirrings_still.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-g_Violin_II_Music_Voice = {
+%! baca.path.extern()
+segment.07.Violin.II.Music.Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8
@@ -6927,26 +6927,26 @@ g_Violin_II_Music_Voice = {
     >>
 
 %! stirrings_still.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-g_Violin_II_MusicStaff = {
+%! baca.path.extern()
+segment.07.Violin.II.MusicStaff = {
 
     %! stirrings_still.ScoreTemplate.__call__()
     \context Voice = "Violin_II_Music_Voice"
     %! stirrings_still.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \g_Violin_II_Music_Voice
+    %! baca.path.extern()
+    { \segment.07.Violin.II.Music.Voice }
 
 %! stirrings_still.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-g_Viola_Music_Voice = {
+%! baca.path.extern()
+segment.07.Viola.Music.Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/6
@@ -9624,26 +9624,26 @@ g_Viola_Music_Voice = {
     >>
 
 %! stirrings_still.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-g_Viola_Music_Staff = {
+%! baca.path.extern()
+segment.07.Viola.Music.Staff = {
 
     %! stirrings_still.ScoreTemplate.__call__()
     \context Voice = "Viola_Music_Voice"
     %! stirrings_still.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \g_Viola_Music_Voice
+    %! baca.path.extern()
+    { \segment.07.Viola.Music.Voice }
 
 %! stirrings_still.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-g_Cello_Music_Voice = {
+%! baca.path.extern()
+segment.07.Cello.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Music_Voice measure 447 / measure 1]
@@ -11958,19 +11958,19 @@ g_Cello_Music_Voice = {
     >>
 
 %! stirrings_still.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-g_Cello_Music_Staff = {
+%! baca.path.extern()
+segment.07.Cello.Music.Staff = {
 
     %! stirrings_still.ScoreTemplate.__call__()
     \context Voice = "Cello_Music_Voice"
     %! stirrings_still.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \g_Cello_Music_Voice
+    %! baca.path.extern()
+    { \segment.07.Cello.Music.Voice }
 
 %! stirrings_still.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }

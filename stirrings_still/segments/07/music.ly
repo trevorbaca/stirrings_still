@@ -24,7 +24,7 @@
             <<
 
                 \context GlobalSkips = "Global_Skips"
-                \g_Global_Skips
+                { \segment.07.Global.Skips }
 
             >>
 
@@ -36,19 +36,19 @@
 
                     \tag ViolinI
                     \context Staff = "Violin_I_Music_Staff"
-                    \g_Violin_I_Music_Staff
+                    { \segment.07.Violin.I.Music.Staff }
 
                     \tag ViolinII
                     \context Staff = "Violin_II_MusicStaff"
-                    \g_Violin_II_MusicStaff
+                    { \segment.07.Violin.II.MusicStaff }
 
                     \tag viola
                     \context Staff = "Viola_Music_Staff"
-                    \g_Viola_Music_Staff
+                    { \segment.07.Viola.Music.Staff }
 
                     \tag cello
                     \context Staff = "Cello_Music_Staff"
-                    \g_Cello_Music_Staff
+                    { \segment.07.Cello.Music.Staff }
 
                 >>
 
