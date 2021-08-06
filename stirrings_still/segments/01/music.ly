@@ -11,7 +11,7 @@
 %! abjad.LilyPondFile._get_formatted_includes()
 \include "stylesheet.ily"
 %! baca.path.extern()
-\include "music.ily.tagged"
+\include "music.ily"
 
 %! baca.SegmentMaker._make_lilypond_file()
 %! abjad.LilyPondFile._get_formatted_blocks()
@@ -26,7 +26,7 @@
         %! baca.SegmentMaker._make_lilypond_file()
         {
             %! baca.SegmentMaker._make_lilypond_file()
-            \include "layout.ly.tagged"
+            \include "layout.ly"
         %! baca.SegmentMaker._make_lilypond_file()
         }
 
