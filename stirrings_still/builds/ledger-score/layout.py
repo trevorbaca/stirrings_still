@@ -129,7 +129,6 @@ for i, pair in enumerate(pairs):
 if __name__ == "__main__":
     # TODO: temporarily skipped because needs more measures
 #    spacing = baca.spacing(
-#        __file__,
 #        breaks=breaks,
 #        fallback_duration=(1, 16),
 #        overrides=(
