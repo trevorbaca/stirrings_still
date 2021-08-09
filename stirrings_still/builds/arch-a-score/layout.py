@@ -230,64 +230,6 @@ breaks = baca.breaks(
     ),
 )
 
-spacing = baca.spacing(
-    __file__,
-    breaks=breaks,
-    fallback_duration=(1, 20),
-)
-
-# OVERRIDES
-spacing.override(11, (1, 40))
-spacing.override((12, 16), (1, 12))
-# spacing.override([18, 20, 22], (1, 40))
-# spacing.override([18, 20, 22], (1, 48))
-spacing.override([18, 20, 22], (1, 44))
-spacing.override([23, 26], (1, 12))
-spacing.override(25, (1, 40))
-# spacing.override(27, (1, 16)
-spacing.override(27, (1, 12)),
-spacing.override(29, (1, 40))
-spacing.override(60, (1, 40))
-spacing.override(62, (1, 40))
-spacing.override(89, (1, 40))
-spacing.override(90, (1, 40))
-spacing.override([127, 128], (1, 40))
-# spacing.override((193, 198), (1, 40))
-# spacing.override((193, 198), (1, 36))
-spacing.override((193, 198), (1, 28))
-spacing.override(244, (1, 40))
-spacing.override(253, (1, 40))
-spacing.override(261, (1, 40))
-spacing.override((271, 272), (1, 32))
-spacing.override(417, (1, 32))
-spacing.override(442, (1, 12))
-# spacing.override((444, 445), (1, 32))
-# spacing.override((444, 445), (1, 24))
-# spacing.override((444, 445), (1, 28))
-spacing.override((444, 445), (1, 30))
-# spacing.override([447, 449, 453, 455], (1, 18))
-# spacing.override([447, 449, 453, 455], (1, 16))
-# spacing.override([447, 449, 453, 455], (1, 12))
-spacing.override([447, 449, 453, 455], (1, 10))
-# spacing.override((451, 452), (1, 12))
-# spacing.override((451, 452), (1, 8))
-spacing.override((451, 452), (1, 4))
-# spacing.override((601, 608), (1, 24))
-spacing.override((601, 608), (1, 26))
-spacing.override((694, 695), (1, 40))
-spacing.override(703, (1, 40))
-spacing.override((831, 834), (1, 12))
-# spacing.override((835, 838), (1, 80))
-# spacing.override((835, 838), (1, 40))
-spacing.override((835, 838), (1, 48))
-# spacing.override((849, 854), (1, 22))
-# spacing.override((849, 854), (1, 26))
-# spacing.override((849, 854), (1, 32))
-spacing.override((849, 854), (1, 30))
-# spacing.override((856, 858), (1, 22))
-# spacing.override((856, 858), (1, 24))
-spacing.override((856, 858), (1, 23))
-
 textholding_fermata_measures = [
     10,
     19,
@@ -318,11 +260,74 @@ textholding_fermata_measures = [
     859,  # S
 ]
 
-spacing.override(textholding_fermata_measures, (1, 288), fermata=True)
-spacing.override(28, (1, 216), fermata=True)
-spacing.override(63, (1, 216), fermata=True)
-spacing.override(443, (1, 504), fermata=True)
-spacing.override(859, (1, 420), fermata=True)
+overrides = (
+
+    # OVERRIDES
+    baca.space(11, (1, 40)),
+    baca.space((12, 16), (1, 12)),
+    # baca.space([18, 20, 22], (1, 40)),
+    # baca.space([18, 20, 22], (1, 48)),
+    baca.space([18, 20, 22], (1, 44)),
+    baca.space([23, 26], (1, 12)),
+    baca.space(25, (1, 40)),
+    # baca.space(27, (1, 16)),
+    baca.space(27, (1, 12)),
+    baca.space(29, (1, 40)),
+    baca.space(60, (1, 40)),
+    baca.space(62, (1, 40)),
+    baca.space(89, (1, 40)),
+    baca.space(90, (1, 40)),
+    baca.space([127, 128], (1, 40)),
+    # baca.space((193, 198), (1, 40)),
+    # baca.space((193, 198), (1, 36)),
+    baca.space((193, 198), (1, 28)),
+    baca.space(244, (1, 40)),
+    baca.space(253, (1, 40)),
+    baca.space(261, (1, 40)),
+    baca.space((271, 272), (1, 32)),
+    baca.space(417, (1, 32)),
+    baca.space(442, (1, 12)),
+    # baca.space((444, 445), (1, 32)),
+    # baca.space((444, 445), (1, 24)),
+    # baca.space((444, 445), (1, 28)),
+    baca.space((444, 445), (1, 30)),
+    # baca.space([447, 449, 453, 455], (1, 18)),
+    # baca.space([447, 449, 453, 455], (1, 16)),
+    # baca.space([447, 449, 453, 455], (1, 12)),
+    baca.space([447, 449, 453, 455], (1, 10)),
+    # baca.space((451, 452), (1, 12)),
+    # baca.space((451, 452), (1, 8)),
+    baca.space((451, 452), (1, 4)),
+    # baca.space((601, 608), (1, 24)),
+    baca.space((601, 608), (1, 26)),
+    baca.space((694, 695), (1, 40)),
+    baca.space(703, (1, 40)),
+    baca.space((831, 834), (1, 12)),
+    # baca.space((835, 838), (1, 80)),
+    # baca.space((835, 838), (1, 40)),
+    baca.space((835, 838), (1, 48)),
+    # baca.space((849, 854), (1, 22)),
+    # baca.space((849, 854), (1, 26)),
+    # baca.space((849, 854), (1, 32)),
+    baca.space((849, 854), (1, 30)),
+    # baca.space((856, 858), (1, 22)),
+    # baca.space((856, 858), (1, 24)),
+    baca.space((856, 858), (1, 23)),
+
+    baca.space(textholding_fermata_measures, (1, 288), fermata=True),
+    baca.space(28, (1, 216), fermata=True),
+    baca.space(63, (1, 216), fermata=True),
+    baca.space(443, (1, 504), fermata=True),
+    baca.space(859, (1, 420), fermata=True),
+)
+
+
+spacing = baca.spacing(
+    __file__,
+    breaks=breaks,
+    fallback_duration=(1, 20),
+    overrides=overrides,
+)
 
 '''
 last_system_start = -7

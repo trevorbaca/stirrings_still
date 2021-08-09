@@ -114,14 +114,16 @@ spacing = baca.spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 16),
+    overrides=(
+        baca.space(108, (1, 48)),
+        baca.space((368, 383), (1, 32)),
+        baca.space((425, 442), (1, 12)),
+        baca.space((830, 841), (1, 12)),
+        baca.space((841, 846), (1, 12)),
+        baca.space((856, 859), (1, 12)),
+        baca.space((864, 871), (1, 12)),
+    ),
 )
-spacing.override(108, (1, 48))
-spacing.override((368, 383), (1, 32))
-spacing.override((425, 442), (1, 12))
-spacing.override((830, 841), (1, 12))
-spacing.override((841, 846), (1, 12))
-spacing.override((856, 859), (1, 12))
-spacing.override((864, 871), (1, 12))
 
 
 '''
