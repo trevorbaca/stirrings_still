@@ -110,22 +110,6 @@ breaks = baca.breaks(
     ),
 )
 
-spacing = baca.spacing(
-    __file__,
-    breaks=breaks,
-    fallback_duration=(1, 16),
-    overrides=(
-        baca.space(108, (1, 48)),
-        baca.space((368, 383), (1, 32)),
-        baca.space((425, 442), (1, 12)),
-        baca.space((830, 841), (1, 12)),
-        baca.space((841, 846), (1, 12)),
-        baca.space((856, 859), (1, 12)),
-        baca.space((864, 871), (1, 12)),
-    ),
-)
-
-
 '''
 last_system_start = 541
 last_complete_page = 17
@@ -143,4 +127,20 @@ for i, pair in enumerate(pairs):
 '''
 
 if __name__ == "__main__":
-    baca.build.make_layout_ly(__file__, breaks, spacing)
+    # TODO: temporarily skipped because needs more measures
+#    spacing = baca.spacing(
+#        __file__,
+#        breaks=breaks,
+#        fallback_duration=(1, 16),
+#        overrides=(
+#            baca.space(108, (1, 48)),
+#            baca.space((368, 383), (1, 32)),
+#            baca.space((425, 442), (1, 12)),
+#            baca.space((830, 841), (1, 12)),
+#            baca.space((841, 846), (1, 12)),
+#            baca.space((856, 859), (1, 12)),
+#            baca.space((864, 871), (1, 12)),
+#        ),
+#    )
+#    baca.build.make_layout_ly(breaks, spacing)
+    pass
