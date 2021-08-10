@@ -13,6 +13,6 @@ if __name__ == "__main__":
         fallback_duration=(1, 32),
         overrides=(
             baca.space((18, 23), (1, 16)),
-            baca.space([8, 18], (1, 288), fermata=True),
+            baca.space([8, 18], (1, 288)),
         ),
     )
