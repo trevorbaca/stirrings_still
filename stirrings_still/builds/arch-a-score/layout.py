@@ -312,11 +312,11 @@ overrides = (
     # baca.space((856, 858), (1, 22)),
     # baca.space((856, 858), (1, 24)),
     baca.space((856, 858), (1, 23)),
-    baca.space(textholding_fermata_measures, (1, 288), fermata=True),
-    baca.space(28, (1, 216), fermata=True),
-    baca.space(63, (1, 216), fermata=True),
-    baca.space(443, (1, 504), fermata=True),
-    baca.space(859, (1, 420), fermata=True),
+    baca.space(textholding_fermata_measures, (1, 288)),
+    baca.space(28, (1, 216)),
+    baca.space(63, (1, 216)),
+    baca.space(443, (1, 504)),
+    baca.space(859, (1, 420)),
 )
 
 

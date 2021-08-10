@@ -19,6 +19,6 @@ if __name__ == "__main__":
         overrides=(
             baca.space(11, (1, 24)),
             baca.space(12, (1, 24)),
-            baca.space([39], (1, 288), fermata=True),
+            baca.space([39], (1, 288)),
         ),
     )

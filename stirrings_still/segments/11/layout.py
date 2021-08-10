@@ -21,6 +21,6 @@ if __name__ == "__main__":
             baca.space(21, (1, 24)),
             baca.space(22, (1, 24)),
             baca.space(23, (1, 24)),
-            baca.space(54, (1, 288), fermata=True),
+            baca.space(54, (1, 288)),
         ),
     )
