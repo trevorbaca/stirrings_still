@@ -261,7 +261,6 @@ textholding_fermata_measures = [
 ]
 
 overrides = (
-
     # OVERRIDES
     baca.space(11, (1, 40)),
     baca.space((12, 16), (1, 12)),
@@ -313,7 +312,6 @@ overrides = (
     # baca.space((856, 858), (1, 22)),
     # baca.space((856, 858), (1, 24)),
     baca.space((856, 858), (1, 23)),
-
     baca.space(textholding_fermata_measures, (1, 288), fermata=True),
     baca.space(28, (1, 216), fermata=True),
     baca.space(63, (1, 216), fermata=True),
@@ -321,12 +319,6 @@ overrides = (
     baca.space(859, (1, 420), fermata=True),
 )
 
-
-spacing = baca.spacing(
-    breaks=breaks,
-    fallback_duration=(1, 20),
-    overrides=overrides,
-)
 
 '''
 last_system_start = -7
@@ -355,4 +347,8 @@ print()
 '''
 
 if __name__ == "__main__":
-    baca.build.make_layout_ly(breaks, spacing)
+    baca.build.make_layout_ly(
+        breaks,
+        fallback_duration=(1, 20),
+        overrides=overrides,
+    )
