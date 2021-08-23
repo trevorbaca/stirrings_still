@@ -3,8 +3,8 @@ import baca
 spacing = baca.SpacingSpecifier(
     breaks=baca.breaks(
         baca.page(
+            1,
             baca.system(measure=1, y_offset=30, distances=(20, 30)),
-            number=1,
         ),
     ),
     fallback_duration=(1, 15),
