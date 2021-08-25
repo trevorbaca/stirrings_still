@@ -5,7 +5,7 @@ spacing = baca.make_layout(
         1,
         baca.system(measure=1, y_offset=30, distances=(20, 30)),
     ),
-    fallback_duration=(1, 15),
+    spacing=(1, 15),
     overrides=(
         baca.space(7, (1, 24)),
         baca.space([8], (1, 288)),
