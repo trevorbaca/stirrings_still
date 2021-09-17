@@ -29,7 +29,7 @@ maker = baca.SegmentMaker(
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.STAGE_NUMBER,
     ],
-    check_all_are_pitched=True,
+    error_on_not_yet_pitched=True,
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
     metronome_marks=stirrings_still.metronome_marks,

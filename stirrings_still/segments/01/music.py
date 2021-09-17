@@ -39,7 +39,7 @@ maker = baca.SegmentMaker(
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.STAGE_NUMBER,
     ],
-    check_all_are_pitched=True,
+    error_on_not_yet_pitched=True,
     fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
     includes=["stylesheet.ily"],
     instruments=stirrings_still.instruments,
