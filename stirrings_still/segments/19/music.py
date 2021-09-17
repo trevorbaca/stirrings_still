@@ -20,7 +20,7 @@ maker = baca.SegmentMaker(
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.STAGE_NUMBER,
     ],
-    check_all_are_pitched=True,
+    error_on_not_yet_pitched=True,
     do_not_force_nonnatural_accidentals=True,
     fermata_measure_empty_overrides=[9, 16, 20],
     final_segment=True,
