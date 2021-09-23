@@ -11,6 +11,7 @@ from stirrings_still import library as stirrings_still
 stage_markup = (("[L.1]", 1),)
 
 maker = baca.SegmentMaker(
+    **baca.segments(),
     activate=[
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.STAGE_NUMBER,
