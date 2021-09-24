@@ -22,13 +22,10 @@ stage_markup = (
 
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
-    fermata_measure_empty_overrides=[8, 18],
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
     metronome_marks=stirrings_still.metronome_marks,
     score_template=stirrings_still.ScoreTemplate(),
-    stage_markup=stage_markup,
     time_signatures=stirrings_still.time_signatures("G"),
 )
 
@@ -432,4 +429,7 @@ if __name__ == "__main__":
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ],
+        error_on_not_yet_pitched=True,
+        fermata_measure_empty_overrides=[8, 18],
+        stage_markup=stage_markup,
     )
