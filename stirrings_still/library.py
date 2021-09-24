@@ -127,8 +127,6 @@ class Operation:
         "_verb",
     )
 
-    _publish_storage_format = True
-
     _verbs = ("bisect", "prefix", "replace", "suffix")
 
     ### INITIALIZER ###
@@ -307,8 +305,6 @@ class StageSpecifier:
         "suffix",
         "time_signatures",
     )
-
-    _publish_storage_format = True
 
     ### INITIALIZER ###
 
