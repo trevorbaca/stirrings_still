@@ -9834,7 +9834,7 @@ def taper(tuplet_ratio=(1, 4, 1), *, measures=None):
     return result
 
 
-def time(maker: baca.SegmentMaker, pairs: typing.Tuple) -> None:
+def time(maker: baca.CommandAccumulator, pairs: typing.Tuple) -> None:
     """
     Makes time.
     """

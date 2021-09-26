@@ -43,7 +43,7 @@ stage_markup = (
     ("[B.24]", 65),
 )
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
