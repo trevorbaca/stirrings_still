@@ -20,7 +20,7 @@ stage_markup = (
     ("[D.11]", 19, "#darkgreen"),
 )
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
