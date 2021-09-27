@@ -16,7 +16,7 @@ stage_markup = (
     ("[P.5]", 21),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -25,7 +25,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("P"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "P",
@@ -41,9 +41,9 @@ time = (
     ("presto", 26),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
-maker(
+commands(
     ("tutti", (1, 4)),
     baca.dynamic("ppppp"),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
@@ -76,7 +76,7 @@ vc_spanner_staff_padding = 5.5
 
 # v1
 
-maker(
+commands(
     ("v1", [(1, 5), (8, 9), (11, 15), (18, 19)]),
     baca.flat_glissando(
         "A4",
@@ -88,7 +88,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (5, 10)),
     baca.rhythm(
         rmakers.bind(
@@ -104,7 +104,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (6, 7)),
     baca.hairpin(
         "ppppp < p > ppp",
@@ -113,7 +113,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 10),
     baca.hairpin(
         "ppp < p > ppppp",
@@ -122,7 +122,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [(6, 7), 10, (16, 17), 20]),
     baca.flat_glissando(
         "A4",
@@ -131,7 +131,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [(6, 7), 10, (16, 17), (20, 25)]),
     baca.circle_bow_spanner(
         abjad.tweak(v1_spanner_staff_padding).staff_padding,
@@ -139,7 +139,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (15, 20)),
     baca.rhythm(
         rmakers.bind(
@@ -155,7 +155,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (16, 17)),
     baca.hairpin(
         "ppppp < p > ppp",
@@ -164,7 +164,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 20),
     baca.hairpin(
         "ppp < p > ppppp",
@@ -173,7 +173,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (21, 25)),
     baca.beam(),
     baca.flat_glissando(
@@ -184,12 +184,12 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("tutti", (1, 20)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -198,12 +198,12 @@ maker(
     stirrings_still.clouded_pane_spanner("clouded pane -|", 10.5),
 )
 
-maker(
+commands(
     ("tutti", (11, 14)),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
 )
 
-maker(
+commands(
     ("tutti", (21, 25)),
     baca.breathe(),
     stirrings_still.eighths(),
@@ -211,14 +211,14 @@ maker(
 
 # v1, va, vc
 
-maker(
+commands(
     ["v1", "va", "vc"],
     baca.tuplet_bracket_down(),
 )
 
 # v2
 
-maker(
+commands(
     ("v2", [(1, 4), 6, 8, (10, 14), 16, 18]),
     baca.flat_glissando(
         "A3",
@@ -230,7 +230,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", [5, 7, 9, 15, 17, 19]),
     baca.flat_glissando(
         "A3",
@@ -239,7 +239,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", [5, 7, 9, 15, 17, (19, 25)]),
     baca.circle_bow_spanner(
         abjad.tweak(v2_spanner_staff_padding).staff_padding,
@@ -247,7 +247,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (5, 10)),
     baca.rhythm(
         rmakers.bind(
@@ -263,7 +263,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 5),
     baca.hairpin(
         "ppppp < p > ppp",
@@ -272,7 +272,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 7),
     baca.hairpin(
         "ppp < p > ppp",
@@ -281,7 +281,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 9),
     baca.hairpin(
         "ppp < p > ppppp",
@@ -290,7 +290,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (15, 20)),
     baca.rhythm(
         rmakers.bind(
@@ -310,7 +310,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 15),
     baca.hairpin(
         "ppppp < p > pp",
@@ -319,7 +319,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 17),
     baca.hairpin(
         "ppp < p > pp",
@@ -328,7 +328,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 19),
     baca.hairpin(
         "ppp < p > ppppp",
@@ -337,7 +337,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (20, 25)),
     baca.beam(),
     baca.flat_glissando(
@@ -348,7 +348,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", [(1, 7), (11, 17)]),
     baca.flat_glissando(
         "A3",
@@ -360,7 +360,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (5, 10)),
     baca.rhythm(
         rmakers.bind(
@@ -376,7 +376,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (8, 10)),
     baca.hairpin(
         "ppppp < p > ppppp",
@@ -385,7 +385,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", [(8, 10), (18, 20)]),
     baca.flat_glissando(
         "A3",
@@ -394,7 +394,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", [(8, 10), (18, 25)]),
     baca.circle_bow_spanner(
         abjad.tweak(va_spanner_staff_padding).staff_padding,
@@ -402,7 +402,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (15, 20)),
     baca.rhythm(
         rmakers.bind(
@@ -418,7 +418,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (18, 20)),
     baca.hairpin(
         "ppppp < p > ppppp",
@@ -427,7 +427,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (21, 25)),
     baca.beam(),
     baca.flat_glissando(
@@ -438,7 +438,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", [(1, 5), (9, 15)]),
     baca.flat_glissando(
         "A2",
@@ -450,12 +450,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 18)),
     baca.pitch("A2", allow_repitch=True),
 )
 
-maker(
+commands(
     ("vc", (5, 10)),
     baca.rhythm(
         rmakers.bind(
@@ -471,7 +471,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (6, 8)),
     baca.hairpin(
         "ppppp < p > ppppp",
@@ -480,7 +480,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", [(6, 8), (16, 18)]),
     baca.flat_glissando(
         "A2",
@@ -489,7 +489,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", [(6, 8), (16, 25)]),
     baca.circle_bow_spanner(
         abjad.tweak(vc_spanner_staff_padding).staff_padding,
@@ -497,7 +497,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (15, 20)),
     baca.rhythm(
         rmakers.bind(
@@ -517,7 +517,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (16, 18)),
     baca.hairpin(
         "ppppp < p > ppppp",
@@ -526,7 +526,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (19, 25)),
     baca.beam(),
     baca.flat_glissando(
@@ -537,7 +537,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

@@ -32,7 +32,7 @@ stage_markup = (
     ("[C.19]", 71),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -41,7 +41,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("C"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "C",
@@ -50,7 +50,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-ten",
@@ -72,7 +72,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(4 - 1)),
     baca.close_volta(baca.selectors.skip(8 - 1)),
@@ -128,11 +128,11 @@ time = (
     ("fermata", 77),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", 5),
     baca.dynamic("mp"),
     baca.markup(
@@ -145,17 +145,17 @@ maker(
     stirrings_still.urtext_spanner("urtext (ds) -|", 8),
 )
 
-maker(
+commands(
     ("v1", [(12, 23), (30, 59)]),
     baca.pitch("Bqf5"),
 )
 
-maker(
+commands(
     ("v1", (24, 27)),
     baca.flat_glissando("Bqf5"),
 )
 
-maker(
+commands(
     ("v1", (28, 29)),
     baca.flat_glissando("<F#4 Dqf5>"),
     baca.hairpin(
@@ -175,7 +175,7 @@ maker(
     stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
-maker(
+commands(
     ("v1", (36, 59)),
     baca.suite(
         baca.new(
@@ -197,7 +197,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (71, 76)),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1.25),
@@ -205,29 +205,29 @@ maker(
 
 # v1, v2, va
 
-maker(
+commands(
     ("trio", (1, 69)),
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("trio", 5),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("triox", 34),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("trio", 35),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("trio", (60, 61)),
     baca.breathe(),
     baca.hairpin(
@@ -263,12 +263,12 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("tutti", (1, 4)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -301,7 +301,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (7, 10)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -340,7 +340,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (12, 15)),
     baca.dynamic(
         "p-ancora",
@@ -372,7 +372,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (12, 27)),
     baca.breathe(),
     baca.damp_spanner(
@@ -380,7 +380,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (16, 19)),
     baca.dynamic("p", redundant=True),
     baca.new(
@@ -409,7 +409,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (20, 23)),
     baca.dynamic("p", redundant=True),
     baca.new(
@@ -439,7 +439,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (24, 27)),
     baca.dynamic("p", redundant=True),
     baca.new(
@@ -465,7 +465,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (30, 33)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -482,7 +482,7 @@ maker(
     stirrings_still.synchronized_circles(rests=[-1]),
 )
 
-maker(
+commands(
     ("tutti", (36, 55)),
     baca.new(
         stirrings_still.synchronized_circles(rotation=0),
@@ -512,7 +512,7 @@ def grouped_pheads(start=0, stop=None):
     return selector
 
 
-maker(
+commands(
     ("tutti", (36, 55)),
     baca.hairpin(
         "pp pp p p mp mp",
@@ -547,7 +547,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (36, 59)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -555,7 +555,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (56, 59)),
     baca.breathe(),
     baca.hairpin(
@@ -581,7 +581,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (62, 69)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -614,21 +614,21 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", [62, 64, 66, 68]),
     baca.laissez_vibrer(
         selector=baca.selectors.ptails(),
     ),
 )
 
-maker(
+commands(
     ("tutti", [63, 65, 67, 69]),
     baca.stop_on_string(
         selector=baca.selectors.ptails(),
     ),
 )
 
-maker(
+commands(
     ("tutti", (71, 76)),
     baca.hairpin(
         "f >o niente",
@@ -680,7 +680,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     ("v2", 5),
     baca.dynamic("mp"),
     baca.markup(
@@ -693,17 +693,17 @@ maker(
     stirrings_still.urtext_spanner("urtext (ds) -|", 8),
 )
 
-maker(
+commands(
     ("v2", [(12, 23), (30, 59)]),
     baca.pitch("Bb4"),
 )
 
-maker(
+commands(
     ("v2", (24, 27)),
     baca.flat_glissando("Bb4"),
 )
 
-maker(
+commands(
     ("v2", (28, 29)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
@@ -730,7 +730,7 @@ maker(
     baca.pitch("F5"),
 )
 
-maker(
+commands(
     ("v2", (36, 59)),
     baca.suite(
         baca.new(
@@ -749,7 +749,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", 5),
     baca.dynamic("mp"),
     baca.markup(
@@ -762,17 +762,17 @@ maker(
     stirrings_still.loure_tuplets(-1),
 )
 
-maker(
+commands(
     ("va", [(12, 23), (30, 59)]),
     baca.pitch("Bqf3"),
 )
 
-maker(
+commands(
     ("va", (24, 27)),
     baca.flat_glissando("Bqf3"),
 )
 
-maker(
+commands(
     ("va", (28, 29)),
     baca.flat_glissando("<B2 Aqs3>"),
     baca.hairpin(
@@ -792,7 +792,7 @@ maker(
     stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 8),
 )
 
-maker(
+commands(
     ("va", (36, 59)),
     baca.suite(
         baca.new(
@@ -815,24 +815,24 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (71, 76)),
     baca.tuplet_bracket_staff_padding(0.5),
 )
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.clef("treble"),
 )
 
-maker(
+commands(
     ("vc", (1, 35)),
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("vc", 5),
     baca.clef("bass"),
     baca.hairpin(
@@ -848,27 +848,27 @@ maker(
     stirrings_still.taper((1, 1)),
 )
 
-maker(
+commands(
     ("vc", 7),
     baca.clef("treble"),
 )
 
-maker(
+commands(
     ("vc", 12),
     baca.clef("bass"),
 )
 
-maker(
+commands(
     ("vc", [(12, 23), (30, 59)]),
     baca.pitch("Bb2"),
 )
 
-maker(
+commands(
     ("vc", (24, 27)),
     baca.flat_glissando("Bb2"),
 )
 
-maker(
+commands(
     ("vc", (28, 29)),
     baca.flat_glissando("E2"),
     baca.hairpin(
@@ -880,7 +880,7 @@ maker(
     stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
-maker(
+commands(
     ("vc", (34, 35)),
     baca.breathe(),
     baca.flat_glissando("E2", allow_repitch=True),
@@ -893,7 +893,7 @@ maker(
     stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
-maker(
+commands(
     ("vc", (36, 59)),
     baca.suite(
         baca.new(
@@ -914,24 +914,24 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vcx", 60),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", 61),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", (71, 76)),
     baca.tuplet_bracket_staff_padding(0.5),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

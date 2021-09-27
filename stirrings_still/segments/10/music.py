@@ -18,7 +18,7 @@ stage_markup = (
     ("[J.6]", 14),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -27,7 +27,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("J"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "J",
@@ -36,7 +36,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-repeat-three-markup",
@@ -48,7 +48,7 @@ maker(
 )
 
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(11 - 1)),
     baca.close_volta(baca.selectors.skip(14 - 1)),
@@ -62,11 +62,11 @@ time = (
     ("andante", 11),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", (1, 2)),
     baca.flat_glissando(
         "<F4 A4>",
@@ -75,7 +75,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (5, 11)),
     baca.flat_glissando(
         "<F4 A4>",
@@ -83,7 +83,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (12, 17)),
     stirrings_still.multistage_leaf_glissando(
         [("A4", 4), ("C5", 2), ("B4", 8), ("Db5", 3), ("C5", None)],
@@ -93,7 +93,7 @@ maker(
 
 # trio
 
-maker(
+commands(
     ("trio", (1, 2)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -108,7 +108,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (ds field) -|", 8),
 )
 
-maker(
+commands(
     ("trio", (5, 11)),
     baca.dynamic_text_self_alignment_x(-0.75),
     baca.dynamic_text_self_alignment_x(
@@ -122,12 +122,12 @@ maker(
     stirrings_still.urtext_field(),
 )
 
-maker(
+commands(
     ("trio", (5, 11)),
     stirrings_still.urtext_spanner("urtext (ds field) -|", 8),
 )
 
-maker(
+commands(
     ("trio", (12, 17)),
     baca.hairpin(
         '"fff" > pp -- !',
@@ -174,7 +174,7 @@ maker(
 
 # v1, va, vc
 
-maker(
+commands(
     (["v1", "va", "vc"], (3, 4)),
     baca.hairpin(
         "pp -- !",
@@ -215,12 +215,12 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("tutti", 11),
     baca.markup(
         r"\stirrings-still-third-time-no-breath-markup",
@@ -229,7 +229,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", 13),
     baca.new(
         stirrings_still.breathe(),
@@ -243,7 +243,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     ("v2", (1, 2)),
     baca.flat_glissando(
         "<E4 G#4>",
@@ -252,7 +252,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (5, 11)),
     baca.flat_glissando(
         "<E4 G#4>",
@@ -260,7 +260,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (12, 17)),
     stirrings_still.multistage_leaf_glissando(
         [("G#4", 7), ("B4", 7), ("A4", 7), ("C5", 8), ("B4", None)],
@@ -268,7 +268,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (3, 4)),
     baca.alternate_bow_strokes(),
     baca.damp_spanner(
@@ -298,7 +298,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 2)),
     baca.flat_glissando(
         "<Eqs4 Gtqs4>",
@@ -307,7 +307,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (5, 11)),
     baca.flat_glissando(
         "<Eqs4 Gtqs4>",
@@ -315,7 +315,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (12, 17)),
     stirrings_still.multistage_leaf_glissando(
         [("F4", 5), ("E4", 5), ("Gb4", 6), ("F4", 7), ("Eb4", None)],
@@ -325,32 +325,32 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.clef("bass"),
 )
 
-maker(
+commands(
     ("vcx", 1),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", 2),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vcx", 5),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", 6),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", (7, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -366,7 +366,7 @@ maker(
     stirrings_still.urtext_field(),
 )
 
-maker(
+commands(
     ("vc", (12, 13)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -382,19 +382,19 @@ maker(
     stirrings_still.accelerando((1, 4), (3, 32)),
 )
 
-maker(
+commands(
     ("vcx", 14),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", (15, 17)),
     baca.tacet(),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

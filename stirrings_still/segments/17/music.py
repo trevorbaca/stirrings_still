@@ -24,7 +24,7 @@ stage_markup = (
     ("[Q.13]", 73),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -33,7 +33,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("Q"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "Q",
@@ -68,11 +68,11 @@ time = (
     ("largo", 88),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", 1),
     baca.markup(
         r"\baca-eleven-e",
@@ -82,7 +82,7 @@ maker(
     baca.pitch("Aqs5"),
 )
 
-maker(
+commands(
     ("v1", (2, 9)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -96,12 +96,12 @@ maker(
     stirrings_still.desynchronization(4, [2]),
 )
 
-maker(
+commands(
     ("v1", [(2, 9), (25, 27), (41, 42), (53, 54), 63, 69]),
     baca.flat_glissando("Bb5"),
 )
 
-maker(
+commands(
     ("v1", (10, 13)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab4", 3), ("C5", 2), ("B4", 6), ("Db5", 3), ("C5", None)],
@@ -110,7 +110,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (10, 24)),
     baca.breathe(),
     baca.hairpin(
@@ -127,19 +127,19 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
-maker(
+commands(
     ("v1", (14, 24)),
     baca.flat_glissando("Eb5"),
 )
 
-maker(
+commands(
     ("v1", (18, 24)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v1", (25, 27)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -153,7 +153,7 @@ maker(
     stirrings_still.desynchronization(4, [2]),
 )
 
-maker(
+commands(
     ("v1", (28, 30)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab4", 4), ("C5", 3), ("B4", 3), ("Db5", 3), ("C5", None)],
@@ -162,7 +162,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (28, 40)),
     baca.breathe(),
     baca.hairpin(
@@ -179,19 +179,19 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
-maker(
+commands(
     ("v1", (31, 40)),
     baca.flat_glissando("E5"),
 )
 
-maker(
+commands(
     ("v1", (35, 40)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v1", (41, 42)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -205,7 +205,7 @@ maker(
     stirrings_still.desynchronization(4, [2]),
 )
 
-maker(
+commands(
     ("v1", (43, 45)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab4", 3), ("Db5", 3), ("B4", 4), ("Eb5", 3), ("Cb5", None)],
@@ -214,7 +214,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (43, 52)),
     baca.breathe(),
     baca.hairpin(
@@ -231,19 +231,19 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
-maker(
+commands(
     ("v1", (46, 52)),
     baca.flat_glissando("F5"),
 )
 
-maker(
+commands(
     ("v1", (49, 52)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v1", (53, 54)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -258,7 +258,7 @@ maker(
     stirrings_still.desynchronization(4, [2]),
 )
 
-maker(
+commands(
     ("v1", (55, 56)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab4", 2), ("Eb5", 2), ("Db5", 3), ("E5", 2), ("D5", None)],
@@ -267,7 +267,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (55, 62)),
     baca.breathe(),
     baca.hairpin(
@@ -284,19 +284,19 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
-maker(
+commands(
     ("v1", (57, 62)),
     baca.flat_glissando("Gb5"),
 )
 
-maker(
+commands(
     ("v1", (59, 62)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v1", 63),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -310,7 +310,7 @@ maker(
     stirrings_still.desynchronization(4, [2]),
 )
 
-maker(
+commands(
     ("v1", 64),
     stirrings_still.multistage_leaf_glissando(
         [("Ab4", 3), ("E5", 2), ("D5", None)],
@@ -319,7 +319,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (64, 68)),
     baca.breathe(),
     baca.hairpin(
@@ -336,19 +336,19 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
-maker(
+commands(
     ("v1", (64, 68)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v1", (65, 68)),
     baca.flat_glissando("G5"),
 )
 
-maker(
+commands(
     ("v1", 69),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -362,7 +362,7 @@ maker(
     stirrings_still.desynchronization(4, [2]),
 )
 
-maker(
+commands(
     ("v1", (70, 71)),
     baca.breathe(),
     baca.hairpin(
@@ -383,14 +383,14 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
-maker(
+commands(
     ("v1", 71),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v1", (73, 92)),
     baca.dynamic(
         "ppp",
@@ -414,14 +414,14 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1),
 )
 
-maker(
+commands(
     ("tutti", 1),
     baca.hairpin(
         "mp -- !",
@@ -436,7 +436,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     ("v2", 1),
     baca.markup(
         r"\baca-nine-e",
@@ -446,7 +446,7 @@ maker(
     baca.pitch("F#5"),
 )
 
-maker(
+commands(
     ("v2", (2, 13)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -460,12 +460,12 @@ maker(
     stirrings_still.desynchronization(4, [1]),
 )
 
-maker(
+commands(
     ("v2", [(2, 13), (22, 30), (38, 45), (51, 56), (61, 64), (68, 70)]),
     baca.flat_glissando("Gb4"),
 )
 
-maker(
+commands(
     ("v2", (14, 21)),
     baca.breathe(),
     baca.hairpin(
@@ -483,14 +483,14 @@ maker(
     stirrings_still.trajectories("C", -1, -2),
 )
 
-maker(
+commands(
     ("v2", (18, 21)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v2", (22, 30)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -504,7 +504,7 @@ maker(
     stirrings_still.desynchronization(4, [1]),
 )
 
-maker(
+commands(
     ("v2", (31, 37)),
     baca.breathe(),
     baca.hairpin(
@@ -522,14 +522,14 @@ maker(
     stirrings_still.trajectories("C", -1, -2),
 )
 
-maker(
+commands(
     ("v2", (35, 37)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v2", (38, 45)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -543,7 +543,7 @@ maker(
     stirrings_still.desynchronization(4, [1]),
 )
 
-maker(
+commands(
     ("v2", (46, 50)),
     baca.breathe(),
     baca.hairpin(
@@ -561,14 +561,14 @@ maker(
     stirrings_still.trajectories("C", -1, -2),
 )
 
-maker(
+commands(
     ("v2", (48, 50)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v2", (51, 56)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -582,7 +582,7 @@ maker(
     stirrings_still.desynchronization(4, [1]),
 )
 
-maker(
+commands(
     ("v2", (57, 60)),
     baca.breathe(),
     baca.hairpin(
@@ -600,14 +600,14 @@ maker(
     stirrings_still.trajectories("C", -1, -2),
 )
 
-maker(
+commands(
     ("v2", (59, 60)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v2", (61, 64)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -624,7 +624,7 @@ maker(
     stirrings_still.desynchronization(4, [1]),
 )
 
-maker(
+commands(
     ("v2", (65, 67)),
     baca.breathe(),
     baca.hairpin(
@@ -642,7 +642,7 @@ maker(
     stirrings_still.trajectories("C", -1, -2),
 )
 
-maker(
+commands(
     ("v2", (66, 67)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
@@ -650,7 +650,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (68, 70)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -664,7 +664,7 @@ maker(
     stirrings_still.desynchronization(4, [1]),
 )
 
-maker(
+commands(
     ("v2", 71),
     baca.breathe(),
     baca.hairpin(
@@ -684,7 +684,7 @@ maker(
     stirrings_still.trajectories("C", -1, -2),
 )
 
-maker(
+commands(
     ("v2", (73, 92)),
     baca.dynamic(
         "ppp",
@@ -708,7 +708,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", 1),
     baca.markup(
         r"\baca-five-e",
@@ -718,7 +718,7 @@ maker(
     baca.pitch("G#3"),
 )
 
-maker(
+commands(
     ("va", (2, 9)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -732,12 +732,12 @@ maker(
     stirrings_still.desynchronization(4, [0]),
 )
 
-maker(
+commands(
     ("va", [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]),
     baca.flat_glissando("B3"),
 )
 
-maker(
+commands(
     ("va", (10, 13)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 6), ("F3", 6), ("Gb3", None)],
@@ -746,7 +746,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (10, 21)),
     baca.breathe(),
     baca.hairpin(
@@ -763,19 +763,19 @@ maker(
     stirrings_still.trajectories("C", -2, -1),
 )
 
-maker(
+commands(
     ("va", (14, 21)),
     baca.flat_glissando("E3"),
 )
 
-maker(
+commands(
     ("va", (18, 21)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("va", (22, 27)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -789,7 +789,7 @@ maker(
     stirrings_still.desynchronization(4, [0]),
 )
 
-maker(
+commands(
     ("va", (28, 30)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 5), ("F3", 7), ("Gb3", None)],
@@ -798,7 +798,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (28, 37)),
     baca.breathe(),
     baca.hairpin(
@@ -815,19 +815,19 @@ maker(
     stirrings_still.trajectories("C", -2, -1),
 )
 
-maker(
+commands(
     ("va", (31, 37)),
     baca.flat_glissando("Eb3"),
 )
 
-maker(
+commands(
     ("va", (35, 37)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("va", (38, 42)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -841,7 +841,7 @@ maker(
     stirrings_still.desynchronization(4, [0]),
 )
 
-maker(
+commands(
     ("va", (43, 45)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 4), ("D3", 7), ("Eb3", None)],
@@ -850,7 +850,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (43, 50)),
     baca.breathe(),
     baca.hairpin(
@@ -866,19 +866,19 @@ maker(
     stirrings_still.trajectories("C", -2, -1),
 )
 
-maker(
+commands(
     ("va", (46, 50)),
     baca.flat_glissando("C3"),
 )
 
-maker(
+commands(
     ("va", (48, 50)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("va", (51, 54)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -892,7 +892,7 @@ maker(
     stirrings_still.desynchronization(4, [0]),
 )
 
-maker(
+commands(
     ("va", (55, 56)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 3), ("Db3", 5), ("F3", None)],
@@ -901,7 +901,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (55, 60)),
     baca.breathe(),
     baca.hairpin(
@@ -918,19 +918,19 @@ maker(
     stirrings_still.trajectories("C", -2, -1),
 )
 
-maker(
+commands(
     ("va", (57, 60)),
     baca.flat_glissando("B2"),
 )
 
-maker(
+commands(
     ("va", (59, 60)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("va", (61, 63)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -947,7 +947,7 @@ maker(
     stirrings_still.desynchronization(4, [0]),
 )
 
-maker(
+commands(
     ("va", 64),
     baca.flat_glissando(
         "Ab3",
@@ -956,7 +956,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (64, 67)),
     baca.breathe(),
     baca.hairpin(
@@ -973,19 +973,19 @@ maker(
     stirrings_still.trajectories("C", -2, -1),
 )
 
-maker(
+commands(
     ("va", (65, 67)),
     baca.flat_glissando("Gb3"),
 )
 
-maker(
+commands(
     ("va", (66, 67)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("va", (68, 69)),
     baca.breathe(),
     baca.circle_bow_spanner(
@@ -999,7 +999,7 @@ maker(
     stirrings_still.desynchronization(4, [0]),
 )
 
-maker(
+commands(
     ("va", (70, 71)),
     baca.breathe(),
     baca.hairpin(
@@ -1020,14 +1020,14 @@ maker(
     stirrings_still.trajectories("C", -2, -1),
 )
 
-maker(
+commands(
     ("va", 71),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("va", (73, 92)),
     baca.dynamic(
         "pp-sempre",
@@ -1043,12 +1043,12 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", 1),
     baca.pitch("G2"),
 )
 
-maker(
+commands(
     ("vc", (2, 9)),
     baca.breathe(
         baca.selectors.pleaf(-1),
@@ -1065,12 +1065,12 @@ maker(
     stirrings_still.desynchronization(4, [-1]),
 )
 
-maker(
+commands(
     ("vc", [(2, 9), (22, 27), (38, 42), (51, 54), (61, 63), (68, 69)]),
     baca.flat_glissando("C3"),
 )
 
-maker(
+commands(
     ("vc", (10, 13)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 3), ("F3", 2), ("G3", 6), ("Eb3", 3), ("Gb3", None)],
@@ -1079,7 +1079,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (10, 21)),
     baca.breathe(),
     baca.hairpin(
@@ -1096,19 +1096,19 @@ maker(
     stirrings_still.trajectories("C", -3, 0),
 )
 
-maker(
+commands(
     ("vc", (14, 21)),
     baca.flat_glissando("D3"),
 )
 
-maker(
+commands(
     ("vc", (18, 21)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("vc", (22, 27)),
     baca.breathe(
         baca.selectors.pleaf(-1),
@@ -1125,7 +1125,7 @@ maker(
     stirrings_still.desynchronization(4, [-1]),
 )
 
-maker(
+commands(
     ("vc", (28, 30)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 4), ("F3", 3), ("G3", 4), ("Eb3", 5), ("Gb3", None)],
@@ -1134,7 +1134,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (28, 37)),
     baca.breathe(),
     baca.hairpin(
@@ -1155,19 +1155,19 @@ maker(
     stirrings_still.trajectories("C", -3, 0),
 )
 
-maker(
+commands(
     ("vc", (31, 37)),
     baca.flat_glissando("Db3"),
 )
 
-maker(
+commands(
     ("vc", (35, 37)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("vc", (38, 42)),
     baca.breathe(
         baca.selectors.pleaf(-1),
@@ -1184,7 +1184,7 @@ maker(
     stirrings_still.desynchronization(4, [-1]),
 )
 
-maker(
+commands(
     ("vc", (43, 45)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 4), ("E3", 2), ("Gb3", 3), ("D3", 4), ("Eb3", None)],
@@ -1193,7 +1193,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (43, 50)),
     baca.breathe(),
     baca.hairpin(
@@ -1210,19 +1210,19 @@ maker(
     stirrings_still.trajectories("C", -3, 0),
 )
 
-maker(
+commands(
     ("vc", (46, 50)),
     baca.flat_glissando("B2"),
 )
 
-maker(
+commands(
     ("vc", (48, 50)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("vc", (51, 54)),
     baca.breathe(
         baca.selectors.pleaf(-1),
@@ -1239,7 +1239,7 @@ maker(
     stirrings_still.desynchronization(4, [-1]),
 )
 
-maker(
+commands(
     ("vc", (55, 56)),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 3), ("F3", 2), ("Gb3", 3), ("D3", 3), ("E3", None)],
@@ -1248,7 +1248,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (55, 60)),
     baca.breathe(),
     baca.hairpin(
@@ -1265,19 +1265,19 @@ maker(
     stirrings_still.trajectories("C", -3, 0),
 )
 
-maker(
+commands(
     ("vc", (57, 60)),
     baca.flat_glissando("Bb2"),
 )
 
-maker(
+commands(
     ("vc", (59, 60)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("vc", (61, 63)),
     baca.breathe(
         baca.selectors.pleaf(-1),
@@ -1297,7 +1297,7 @@ maker(
     stirrings_still.desynchronization(4, [-1]),
 )
 
-maker(
+commands(
     ("vc", 64),
     stirrings_still.multistage_leaf_glissando(
         [("Ab3", 3), ("D3", 3), ("Eb3", None)],
@@ -1306,7 +1306,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (64, 67)),
     baca.breathe(),
     baca.hairpin(
@@ -1323,19 +1323,19 @@ maker(
     stirrings_still.trajectories("C", -3, 0),
 )
 
-maker(
+commands(
     ("vc", (65, 67)),
     baca.flat_glissando("A2"),
 )
 
-maker(
+commands(
     ("vc", (66, 67)),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("vc", (68, 69)),
     baca.breathe(
         baca.selectors.pleaf(-1),
@@ -1352,7 +1352,7 @@ maker(
     stirrings_still.desynchronization(4, [-1]),
 )
 
-maker(
+commands(
     ("vc", (70, 71)),
     baca.breathe(),
     baca.hairpin(
@@ -1373,20 +1373,20 @@ maker(
     stirrings_still.trajectories("C", -3, 0),
 )
 
-maker(
+commands(
     ("vc", 71),
     baca.half_clt_spanner(
         abjad.tweak(10.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("vc", (73, 87)),
     baca.beam(),
     stirrings_still.eighths(),
 )
 
-maker(
+commands(
     ("vc", (73, 88)),
     baca.dynamic(
         "pp-sempre",
@@ -1398,7 +1398,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (73, 92)),
     baca.markup(
         r"\stirrings-still-tuning-peg-slowly-detune-markup",
@@ -1407,7 +1407,7 @@ maker(
     baca.ottava_bassa(),
 )
 
-maker(
+commands(
     ("vc", (88, 92)),
     baca.make_repeat_tied_notes(),
     baca.flat_glissando(
@@ -1419,7 +1419,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

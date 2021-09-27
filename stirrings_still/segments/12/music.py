@@ -10,7 +10,7 @@ from stirrings_still import library as stirrings_still
 
 stage_markup = (("[L.1]", 1),)
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -19,7 +19,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("L"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "L",
@@ -30,7 +30,7 @@ maker(
 
 time = (("largo meno mosso", 1),)
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
@@ -53,7 +53,7 @@ def nonlast_tuplet_pleaves(indices):
     return selector
 
 
-maker(
+commands(
     "v1",
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -98,7 +98,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
         [("G6", None)],
@@ -107,14 +107,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
         abjad.tweak(7 + 6.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v1", [3, 7, 11, 15]),
     baca.flat_glissando(
         "Bqf5",
@@ -122,7 +122,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (4, 6)),
     stirrings_still.multistage_leaf_glissando(
         [("Bqf5", None)],
@@ -138,7 +138,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (8, 10)),
     stirrings_still.multistage_leaf_glissando(
         [("Bqf5", None)],
@@ -154,7 +154,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (12, 14)),
     stirrings_still.multistage_leaf_glissando(
         [("Bqf5", None)],
@@ -172,7 +172,7 @@ maker(
 
 # trio
 
-maker(
+commands(
     "trio",
     baca.hairpin(
         '"f" > p p < "ff" > p p < "fff" > p p < "fff" >o !',
@@ -183,7 +183,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     "v2",
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -228,7 +228,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
         [("A5", None)],
@@ -237,14 +237,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v2", [3, 7, 11, 15]),
     baca.flat_glissando(
         "Eb5",
@@ -252,7 +252,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (4, 6)),
     stirrings_still.multistage_leaf_glissando(
         [("Eb5", None)],
@@ -268,7 +268,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (8, 10)),
     stirrings_still.multistage_leaf_glissando(
         [("Eb5", None)],
@@ -284,7 +284,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (12, 14)),
     stirrings_still.multistage_leaf_glissando(
         [("Eb5", None)],
@@ -302,7 +302,7 @@ maker(
 
 # va
 
-maker(
+commands(
     "va",
     baca.dls_staff_padding(7),
     baca.tuplet_bracket_down(),
@@ -348,7 +348,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
         [("D3", None)],
@@ -357,14 +357,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", [(1, 2), (4, 6), (8, 10), (12, 14)]),
     baca.half_clt_spanner(
         abjad.tweak(3 + 6.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("va", [3, 7, 11, 15]),
     baca.flat_glissando(
         "F3",
@@ -372,7 +372,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (4, 6)),
     stirrings_still.multistage_leaf_glissando(
         [("F3", None)],
@@ -388,7 +388,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (8, 10)),
     stirrings_still.multistage_leaf_glissando(
         [("F3", None)],
@@ -404,7 +404,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (12, 14)),
     stirrings_still.multistage_leaf_glissando(
         [("F3", None)],
@@ -422,7 +422,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.dls_staff_padding(5),
     baca.flat_glissando(
@@ -446,7 +446,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

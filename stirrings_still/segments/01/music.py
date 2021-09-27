@@ -34,7 +34,7 @@ stage_markup = (
     ("[A.18]", 62),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -43,7 +43,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("A"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "A",
@@ -52,7 +52,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-two",
@@ -96,7 +96,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(44 - 1)),
     baca.close_volta(baca.selectors.skip(49 - 1)),
@@ -141,11 +141,11 @@ time = (
     ("long", 63),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     "v1",
     baca.staff_lines(5),
     baca.suite(
@@ -158,7 +158,7 @@ maker(
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("v1", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<E4 C5>",
@@ -171,7 +171,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [18, 20, 22, 25, 29]),
     baca.flat_glissando(
         "<C#4 A4>",
@@ -184,13 +184,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [23, 26, (30, 45)]),
     baca.flat_glissando("B4"),
     stirrings_still.desynchronization(4, [1]),
 )
 
-maker(
+commands(
     ("v1", 27),
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
@@ -205,7 +205,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (double stop G.1) -|", 8),
 )
 
-maker(
+commands(
     ("v1", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -223,19 +223,19 @@ maker(
     stirrings_still.desynchronization(4, [1]),
 )
 
-maker(
+commands(
     ("v1", (55, 56)),
     baca.flat_glissando("Gb4"),
 )
 
-maker(
+commands(
     ("v1", 62),
     baca.flat_glissando("C5"),
 )
 
 # v1, v2, va
 
-maker(
+commands(
     ("trio", 1),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -252,7 +252,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", [1, 3, (5, 6), (8, 9)]),
     baca.new(
         baca.script_padding(1),
@@ -265,12 +265,12 @@ maker(
     stirrings_still.declamation(),
 )
 
-maker(
+commands(
     ("trio", (1, 16)),
     stirrings_still.urtext_spanner("urtext (cds) A, B -|", 8),
 )
 
-maker(
+commands(
     ("trio", 3),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -282,14 +282,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", [3, (5, 6), (8, 9)]),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("trio", (5, 6)),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -301,7 +301,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", (8, 9)),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -313,7 +313,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", (11, 16)),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -339,12 +339,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 12),
     baca.dynamic_text_self_alignment_x(-0.75),
 )
 
-maker(
+commands(
     ("trio", 18),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -356,7 +356,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", [18, 20, 22, 25, 29]),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -370,12 +370,12 @@ maker(
     stirrings_still.declamation(),
 )
 
-maker(
+commands(
     ("trio", [(18, 22), 25, 29]),
     stirrings_still.urtext_spanner("C, D -|", 8),
 )
 
-maker(
+commands(
     ("trio", 20),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -387,7 +387,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 22),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -399,7 +399,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 23),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -412,7 +412,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 25),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -424,7 +424,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 26),
     baca.circle_bow_spanner(
         # manual padding because spanner ends at espressivo
@@ -439,12 +439,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 27),
     baca.dynamic("mp"),
 )
 
-maker(
+commands(
     ("trio", 29),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -456,12 +456,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 30),
     baca.dynamic("ppp"),
 )
 
-maker(
+commands(
     ("trio", (30, 45)),
     baca.circle_bow_spanner(
         # manual padding because spanner ends at end-of-system
@@ -471,7 +471,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", (41, 45)),
     baca.breathe(),
     baca.dynamic_text_self_alignment_x(-1),
@@ -482,7 +482,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 60),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -507,12 +507,12 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("tutti", (55, 56)),
     baca.hairpin(
         "o< mp -- !",
@@ -546,7 +546,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (rasp) -|", 10.5),
 )
 
-maker(
+commands(
     ("tutti", 62),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -565,7 +565,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     "v2",
     baca.staff_lines(5),
     baca.suite(
@@ -578,7 +578,7 @@ maker(
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("v2", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<Eb4 B4>",
@@ -591,7 +591,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", [18, 20, 22, 25, 29]),
     baca.flat_glissando(
         "<C4 G#4>",
@@ -604,13 +604,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", [23, 26, (30, 45)]),
     baca.flat_glissando("Db4"),
     stirrings_still.desynchronization(4, [0]),
 )
 
-maker(
+commands(
     ("v2", 27),
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
@@ -625,7 +625,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (double stop G.1) -|", 8),
 )
 
-maker(
+commands(
     ("v2", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -643,19 +643,19 @@ maker(
     stirrings_still.desynchronization(4, [0]),
 )
 
-maker(
+commands(
     ("v2", (55, 56)),
     baca.flat_glissando("F4"),
 )
 
-maker(
+commands(
     ("v2", 62),
     baca.flat_glissando("C4"),
 )
 
 # va
 
-maker(
+commands(
     "va",
     baca.staff_lines(5),
     baca.suite(
@@ -668,7 +668,7 @@ maker(
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("va", [1, 3, (5, 6), (8, 9), (11, 16), 60]),
     baca.flat_glissando(
         "<D4 Gqs4>",
@@ -681,7 +681,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", [18, 20, 22, 25, 29]),
     baca.flat_glissando(
         "<B3 Eqs4>",
@@ -694,13 +694,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", [23, 26, (30, 45)]),
     baca.flat_glissando("A3"),
     stirrings_still.desynchronization(4, [2]),
 )
 
-maker(
+commands(
     ("va", 27),
     baca.markup(
         r"\stirrings-still-nine-plus-seven-of-b-markup",
@@ -715,7 +715,7 @@ maker(
     stirrings_still.loure_tuplets(-1),
 )
 
-maker(
+commands(
     ("va", [(46, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -733,19 +733,19 @@ maker(
     stirrings_still.desynchronization(4, [2]),
 )
 
-maker(
+commands(
     ("va", (55, 56)),
     baca.flat_glissando("Ab3"),
 )
 
-maker(
+commands(
     ("va", 62),
     baca.flat_glissando("Ab3"),
 )
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.staff_lines(5),
     baca.suite(
@@ -758,12 +758,12 @@ maker(
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("vcx", (1, 11)),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", (12, 26)),
     baca.dynamic("p"),
     baca.flat_glissando(
@@ -781,7 +781,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (field) -|", 8),
 )
 
-maker(
+commands(
     ("vc", 27),
     baca.hairpin(
         "niente o< f >o !",
@@ -796,7 +796,7 @@ maker(
     stirrings_still.taper((1, 1)),
 )
 
-maker(
+commands(
     ("vc", (29, 40)),
     baca.dynamic("p"),
     baca.flat_glissando(
@@ -817,12 +817,12 @@ maker(
     stirrings_still.urtext_spanner("urtext (field) -|", 8),
 )
 
-maker(
+commands(
     ("vcx", [41, (44, 45)]),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", (42, 43)),
     baca.clef("treble"),
     baca.flat_glissando("A5"),
@@ -848,12 +848,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 46),
     baca.clef("bass"),
 )
 
-maker(
+commands(
     ("vc", [(46, 47), (49, 50), 52, 54, 58]),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -871,7 +871,7 @@ maker(
     stirrings_still.desynchronization(4, [-1]),
 )
 
-maker(
+commands(
     ("vc", 48),
     baca.clef("treble"),
     baca.clef(
@@ -900,24 +900,24 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (55, 56)),
     baca.flat_glissando("Ab2"),
 )
 
-maker(
+commands(
     ("vc", 60),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", 62),
     baca.flat_glissando("G3"),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
