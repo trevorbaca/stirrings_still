@@ -223,15 +223,17 @@ commands(
     ),
 )
 
+defaults = baca.segment_interpretation_defaults()
+del(defaults["force_nonnatural_accidentals"])
+
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segment_interpretation_defaults(),
-        activate=[
+        **defaults,
+        activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
-        ],
-        do_not_force_nonnatural_accidentals=True,
+        ),
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9, 16, 20],
         final_segment=True,
