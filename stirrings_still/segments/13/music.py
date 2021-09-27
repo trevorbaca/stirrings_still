@@ -18,7 +18,7 @@ stage_markup = (
     ("[M.7]", 29),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -27,7 +27,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("M"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "M",
@@ -42,11 +42,11 @@ time = (
     ("larghissimo", 31),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", [(1, 8), (13, 16), (21, 24), (29, 32)]),
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
@@ -74,7 +74,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [(1, 8), (21, 25)]),
     baca.flat_glissando(
         "D6",
@@ -82,7 +82,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (9, 12)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -91,7 +91,7 @@ maker(
     stirrings_still.pickets(4, 2),
 )
 
-maker(
+commands(
     ("v1", [(9, 12), (26, 28)]),
     baca.flat_glissando("<D#4 A4>"),
     baca.markup(
@@ -101,7 +101,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (13, 16)),
     baca.flat_glissando(
         "D6",
@@ -110,7 +110,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (17, 20)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -137,7 +137,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (25, 28)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -154,7 +154,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (29, 32)),
     baca.flat_glissando(
         "D6",
@@ -167,7 +167,7 @@ maker(
 
 # trio
 
-maker(
+commands(
     "trio",
     baca.dls_staff_padding(5),
     baca.hairpin(
@@ -194,12 +194,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", (1, 8)),
     stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
 )
 
-maker(
+commands(
     ("trio", (9, 12)),
     # TODO: allow score-specific simultaneous material spanners
     # stirrings_still.circle_spanner(
@@ -208,7 +208,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (ds) -|", 8),
 )
 
-maker(
+commands(
     ("trio", (13, 16)),
     stirrings_still.clouded_pane_spanner(
         "clouded pane -|",
@@ -217,7 +217,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", (17, 20)),
     # TODO: allow score-specific simultaneous material spanners
     # stirrings_still.circle_spanner(
@@ -230,12 +230,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", (21, 25)),
     stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
 )
 
-maker(
+commands(
     ("trio", (26, 28)),
     # TODO: allow score-specific simultaneous material spanners
     # stirrings_still.circle_spanner(
@@ -244,14 +244,14 @@ maker(
     stirrings_still.urtext_spanner("urtext (ds) -|", 8),
 )
 
-maker(
+commands(
     ("trio", (29, 32)),
     stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
 )
 
 # v2
 
-maker(
+commands(
     ("v2", [(1, 8), (13, 16), (21, 24), (29, 32)]),
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
@@ -279,7 +279,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", [(1, 8), (21, 25)]),
     baca.flat_glissando(
         "Fqs5",
@@ -287,7 +287,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (9, 12)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -296,7 +296,7 @@ maker(
     stirrings_still.pickets(4, 1),
 )
 
-maker(
+commands(
     ("v2", [(9, 12), (26, 28)]),
     baca.flat_glissando("<Dqs4 Gtqs4>"),
     baca.markup(
@@ -306,7 +306,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (13, 16)),
     baca.flat_glissando(
         "Fqs5",
@@ -315,7 +315,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (17, 20)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -342,7 +342,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (25, 28)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -359,7 +359,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (29, 32)),
     baca.flat_glissando(
         "Fqs5",
@@ -372,7 +372,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", [(1, 8), (13, 16), (21, 24), (29, 32)]),
     baca.make_repeat_tied_notes(
         do_not_rewrite_meter=True,
@@ -399,7 +399,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", [(1, 8), (21, 25)]),
     baca.flat_glissando(
         "Aqf4",
@@ -407,7 +407,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (9, 12)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -416,7 +416,7 @@ maker(
     stirrings_still.pickets(4, 0),
 )
 
-maker(
+commands(
     ("va", [(9, 12), (26, 28)]),
     baca.flat_glissando("<D4 G#4>"),
     baca.markup(
@@ -426,7 +426,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (13, 16)),
     baca.flat_glissando(
         "Aqf4",
@@ -435,7 +435,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (17, 20)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -462,7 +462,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (25, 28)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -479,7 +479,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (29, 32)),
     baca.flat_glissando(
         "Aqf4",
@@ -492,7 +492,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.dls_staff_padding(7),
     baca.hairpin(
@@ -515,7 +515,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 28)),
     baca.flat_glissando(
         "C2",
@@ -525,7 +525,7 @@ maker(
     stirrings_still.clouded_pane(),
 )
 
-maker(
+commands(
     ("vc", (29, 32)),
     baca.flat_glissando(
         "C2",
@@ -539,7 +539,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

@@ -42,7 +42,7 @@ stage_markup = (
     ("[C.2]", 97, "#darkgreen"),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -51,7 +51,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("D"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "D",
@@ -60,7 +60,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-thirteen",
@@ -82,7 +82,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(1 - 1)),
     baca.double_volta(baca.selectors.skip(7 - 1)),
@@ -122,26 +122,26 @@ time = (
     ("short", 99),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", (1, 6)),
     baca.pitch("D5"),
 )
 
-maker(
+commands(
     ("v1", (7, 18)),
     baca.pitch("Dqs5"),
 )
 
-maker(
+commands(
     ("v1", (19, 30)),
     baca.pitch("Eb5"),
 )
 
-maker(
+commands(
     ("v1", 57),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -165,7 +165,7 @@ maker(
     stirrings_still.accelerando((1, 4), (1, 16)),
 )
 
-maker(
+commands(
     ("v1", (86, 92)),
     baca.scp_spanner(
         "T -> P -> T -> P =|",
@@ -177,19 +177,19 @@ maker(
 
 # v1, v2
 
-maker(
+commands(
     (["v1", "v2"], (49, 53)),
     baca.tacet(),
 )
 
-maker(
+commands(
     (["v1", "v2"], (67, 85)),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     (["v1", "v2"], (84, 92)),
     baca.repeat_tie(
         baca.selectors.pleaf(0),
@@ -197,7 +197,7 @@ maker(
     stirrings_still.continuous_tremolo(),
 )
 
-maker(
+commands(
     (["v1", "v2"], (86, 92)),
     baca.hairpin(
         "(p) < mp -- !",
@@ -207,34 +207,34 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["v1", "v2"], (90, 92)),
     stirrings_still.urtext_spanner("urtext (NEW cds) -|", 8),
 )
 
-maker(
+commands(
     (["v1x", "v2x"], 93),
     baca.tacet(),
 )
 
-maker(
+commands(
     (["v1", "v2"], (94, 96)),
     stirrings_still.continuous_tremolo(),
 )
 
 # trio
 
-maker(
+commands(
     "trio",
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("trio", 38),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("trio", [47, 55]),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -297,7 +297,7 @@ maker(
     stirrings_still.urtext_spanner("A, B -|", 8),
 )
 
-maker(
+commands(
     ("trio", 65),
     baca.hairpin(
         "p -- !",
@@ -311,7 +311,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (cds) -|", 8),
 )
 
-maker(
+commands(
     ("trio", 66),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -359,7 +359,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", 67),
     baca.dynamic(
         "p-sempre",
@@ -368,12 +368,12 @@ maker(
     stirrings_still.urtext_field(),
 )
 
-maker(
+commands(
     ("trio", (67, 89)),
     stirrings_still.urtext_spanner("urtext (resumes) -|", 8),
 )
 
-maker(
+commands(
     ("trio", (68, 83)),
     baca.new(
         stirrings_still.flight("A", 0),
@@ -397,7 +397,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("trio", (94, 96)),
     baca.hairpin(
         "mp >o",
@@ -415,7 +415,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (resumes) -|", 8),
 )
 
-maker(
+commands(
     ("trio", (97, 98)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -451,12 +451,12 @@ maker(
 
 # tutti, stage 1
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("tutti", (1, 6)),
     baca.dynamic("p"),
     baca.new(
@@ -497,7 +497,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (1, 36)),
     baca.damp_spanner(
         # manual padding because spanner ends of volta
@@ -507,7 +507,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (7, 12)),
     baca.hairpin(
         "mp p",
@@ -552,7 +552,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (13, 18)),
     baca.hairpin(
         "mf mp",
@@ -597,7 +597,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (19, 24)),
     baca.hairpin(
         '"f" mf',
@@ -642,7 +642,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (25, 30)),
     baca.hairpin(
         '"ff" "f"',
@@ -687,7 +687,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (31, 36)),
     baca.dynamic('"ff"'),
     baca.new(
@@ -729,7 +729,7 @@ maker(
     baca.pitch("Eb5"),
 )
 
-maker(
+commands(
     ("tutti", (40, 45)),
     baca.dynamic("pp"),
     baca.new(
@@ -760,7 +760,7 @@ maker(
     stirrings_still.strokes(0),
 )
 
-maker(
+commands(
     ("tutti", (58, 63)),
     baca.damp_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -786,22 +786,22 @@ maker(
 
 # v2
 
-maker(
+commands(
     ("v2", (1, 12)),
     baca.pitch("D5"),
 )
 
-maker(
+commands(
     ("v2", (13, 24)),
     baca.pitch("Dqs5"),
 )
 
-maker(
+commands(
     ("v2", (25, 30)),
     baca.pitch("Eb5"),
 )
 
-maker(
+commands(
     ("v2", 57),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -819,7 +819,7 @@ maker(
     stirrings_still.accelerando((1, 4), (2, 16)),
 )
 
-maker(
+commands(
     ("v2", (86, 92)),
     baca.scp_spanner(
         "T -> P -> T -> P =|",
@@ -831,27 +831,27 @@ maker(
 
 # va
 
-maker(
+commands(
     "va",
     baca.clef("treble"),
 )
 
-maker(
+commands(
     ("va", (1, 18)),
     baca.pitch("D5"),
 )
 
-maker(
+commands(
     ("va", (19, 30)),
     baca.pitch("Dqs5"),
 )
 
-maker(
+commands(
     ("va", 47),
     baca.clef("alto"),
 )
 
-maker(
+commands(
     ("va", (49, 53)),
     baca.dynamic(
         '"mf"',
@@ -863,7 +863,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 57),
     baca.hairpin(
         "pp -- !",
@@ -875,24 +875,24 @@ maker(
     stirrings_still.flight_spanner("memory of flight -|", 5.5),
 )
 
-maker(
+commands(
     ("va", 58),
     baca.clef("treble"),
 )
 
-maker(
+commands(
     ("va", 65),
     baca.clef("alto"),
 )
 
-maker(
+commands(
     ("va", (67, 89)),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("va", [(84, 89), (94, 96)]),
     baca.new(
         baca.repeat_tie(
@@ -903,7 +903,7 @@ maker(
     stirrings_still.continuous_tremolo(),
 )
 
-maker(
+commands(
     ("va", (90, 93)),
     baca.dynamic(
         '"mf"',
@@ -917,22 +917,22 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.clef("treble"),
 )
 
-maker(
+commands(
     ("vc", (1, 24)),
     baca.pitch("D5"),
 )
 
-maker(
+commands(
     ("vc", (25, 30)),
     baca.pitch("Dqs5"),
 )
 
-maker(
+commands(
     ("vc", 38),
     baca.flat_glissando("A5"),
     baca.hairpin(
@@ -956,12 +956,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 47),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", [(49, 50), (52, 53)]),
     baca.flat_glissando("E2"),
     baca.hairpin(
@@ -977,17 +977,17 @@ maker(
     stirrings_still.clouded_pane_spanner("clouded pane (beacon) -|", 5.5),
 )
 
-maker(
+commands(
     ("vcx", 51),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", 55),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", 57),
     baca.flat_glissando("B1"),
     baca.hairpin("o<| mf"),
@@ -995,7 +995,7 @@ maker(
     stirrings_still.flight_spanner("memory of flight -|", 5.5),
 )
 
-maker(
+commands(
     ("vc", (65, 92)),
     baca.clef("bass"),
     baca.flat_glissando(
@@ -1017,12 +1017,12 @@ maker(
     stirrings_still.clouded_pane_spanner("clouded pane (arrival) -|", 5.5),
 )
 
-maker(
+commands(
     ("vcx", 93),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", (94, 99)),
     baca.flat_glissando(
         "F2",
@@ -1047,7 +1047,7 @@ maker(
 
 # v1, stage 2
 
-maker(
+commands(
     ("v1", [65, (67, 89)]),
     baca.flat_glissando("<F#4 Dqf5>"),
     baca.markup(
@@ -1057,7 +1057,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [(90, 92), (94, 96)]),
     baca.suite(
         baca.new(
@@ -1077,7 +1077,7 @@ maker(
 
 # tutti, stage 2
 
-maker(
+commands(
     ("tutti", [(1, 6), (13, 18), (25, 30)]),
     baca.suite(
         baca.new(
@@ -1090,7 +1090,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", [(7, 12), (19, 24), (31, 36)]),
     baca.suite(
         baca.new(
@@ -1105,7 +1105,7 @@ maker(
 
 # v2, stage 2
 
-maker(
+commands(
     ("v2", [65, (67, 89)]),
     baca.flat_glissando("<Cqs4 Ab4>"),
     baca.markup(
@@ -1115,7 +1115,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", [(90, 92), (94, 96)]),
     baca.suite(
         baca.new(
@@ -1135,7 +1135,7 @@ maker(
 
 # va, stage 2
 
-maker(
+commands(
     ("va", [65, (67, 89)]),
     baca.flat_glissando("<B2 Aqs3>"),
     baca.markup(
@@ -1145,7 +1145,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (94, 96)),
     baca.flat_glissando("A3"),
     baca.markup(
@@ -1157,7 +1157,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

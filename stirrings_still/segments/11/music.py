@@ -26,7 +26,7 @@ stage_markup = (
     ("[K.10]", 46),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -35,7 +35,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("K"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "K",
@@ -44,7 +44,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty-two",
@@ -54,7 +54,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(1 - 1)),
     baca.close_volta(baca.selectors.skip(9 - 1)),
@@ -77,11 +77,11 @@ time = (
     ("short", 54),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", (1, 2)),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
@@ -94,7 +94,7 @@ maker(
     stirrings_still.trajectories("B", 0, 0, end_counts=[1]),
 )
 
-maker(
+commands(
     ("v1", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
         [("E5", 3), ("D5", None)],
@@ -102,7 +102,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (3, 4)),
     baca.circle_bow_spanner(
         abjad.tweak(8).staff_padding,
@@ -119,7 +119,7 @@ maker(
     baca.flat_glissando("Bqf5"),
 )
 
-maker(
+commands(
     ("v1", (5, 8)),
     stirrings_still.accelerando(
         (8, 32),
@@ -139,14 +139,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [(5, 9), (11, 14), 16]),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v1", (5, 16)),
     stirrings_still.multistage_leaf_glissando(
         [
@@ -165,7 +165,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", [9, (11, 14), 16]),
     stirrings_still.bcps(
         -3,
@@ -175,7 +175,7 @@ maker(
     stirrings_still.trajectories("B", -3, -3),
 )
 
-maker(
+commands(
     ("v1", [10, 15, 17]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -183,7 +183,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (17, 20)),
     baca.markup(
         r"\baca-eleven-e",
@@ -193,7 +193,7 @@ maker(
     baca.flat_glissando("Aqs5"),
 )
 
-maker(
+commands(
     ("v1", (18, 20)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -209,7 +209,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 21),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -230,12 +230,12 @@ maker(
     stirrings_still.pickets(4, 2),
 )
 
-maker(
+commands(
     ("v1x", 22),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("v1", 23),
     baca.breathe(),
     baca.dynamic_text_self_alignment_x(-0.75),
@@ -248,7 +248,7 @@ maker(
     stirrings_still.pickets(4, 2),
 )
 
-maker(
+commands(
     ("v1", (24, 31)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -278,7 +278,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (32, 37)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -310,7 +310,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (32, 53)),
     baca.markup(
         r"\baca-seven-d-flat",
@@ -321,7 +321,7 @@ maker(
     baca.flat_glissando("Bqf5"),
 )
 
-maker(
+commands(
     ("v1", (38, 45)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -358,7 +358,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (46, 53)),
     baca.hairpin("p >o niente"),
     baca.make_repeat_tied_notes(
@@ -379,14 +379,14 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
     baca.tuplet_bracket_down(),
     baca.tuplet_bracket_staff_padding(1.5),
 )
 
-maker(
+commands(
     ("tutti", (1, 2)),
     baca.hairpin(
         "pp -- !",
@@ -395,7 +395,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (3, 4)),
     baca.hairpin(
         '"f" -- !',
@@ -404,7 +404,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (24, 31)),
     baca.text_spanner(
         "each time more ponticello =|",
@@ -416,7 +416,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("tutti", (32, 37)),
     baca.text_spanner(
         "each time less ponticello =|",
@@ -430,14 +430,14 @@ maker(
 
 # v1, v2, va
 
-maker(
+commands(
     ("trio", (46, 53)),
     baca.stem_transparent(selector=baca.selectors.leaves((None, -1))),
 )
 
 # v1, v2, vc
 
-maker(
+commands(
     (["v1", "v2", "vc"], (5, 17)),
     baca.hairpin(
         "pp < mp",
@@ -447,7 +447,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     ("v2", (1, 2)),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
@@ -460,7 +460,7 @@ maker(
     stirrings_still.trajectories("B", -1, -1, end_counts=[1]),
 )
 
-maker(
+commands(
     ("v2", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
         [("C#5", 4), ("E5", 2), ("D5", None)],
@@ -468,7 +468,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (3, 4)),
     baca.circle_bow_spanner(
         abjad.tweak(8).staff_padding,
@@ -485,7 +485,7 @@ maker(
     baca.flat_glissando("Bb4"),
 )
 
-maker(
+commands(
     ("v2", (5, 8)),
     stirrings_still.accelerando((10, 32), (1, 2), measures=(6, 8)),
     stirrings_still.bcps(
@@ -496,14 +496,14 @@ maker(
     stirrings_still.trajectories("B", -1, -1, measures=5),
 )
 
-maker(
+commands(
     ("v2", [(5, 9), 13, (15, 16)]),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("v2", (5, 16)),
     stirrings_still.multistage_leaf_glissando(
         [
@@ -520,7 +520,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", [9, 13, (15, 16)]),
     stirrings_still.bcps(
         -3,
@@ -530,7 +530,7 @@ maker(
     stirrings_still.trajectories("B", -3, -3),
 )
 
-maker(
+commands(
     ("v2", [10, (11, 12), 14, 17]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -538,7 +538,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (17, 20)),
     baca.markup(
         r"\baca-nine-e",
@@ -548,7 +548,7 @@ maker(
     baca.flat_glissando("F#5"),
 )
 
-maker(
+commands(
     ("v2", (18, 20)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -564,7 +564,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 21),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -585,12 +585,12 @@ maker(
     stirrings_still.pickets(4, 1),
 )
 
-maker(
+commands(
     ("v2x", 22),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("v2", 23),
     baca.breathe(),
     baca.dynamic_text_self_alignment_x(-0.75),
@@ -603,7 +603,7 @@ maker(
     stirrings_still.pickets(4, 1),
 )
 
-maker(
+commands(
     ("v2", (24, 31)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -632,7 +632,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (32, 37)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -664,7 +664,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (32, 53)),
     baca.markup(
         r"\baca-nine-d-flat",
@@ -674,7 +674,7 @@ maker(
     baca.flat_glissando("Eb5"),
 )
 
-maker(
+commands(
     ("v2", (38, 45)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -710,7 +710,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (46, 53)),
     baca.hairpin("p >o niente"),
     baca.make_repeat_tied_notes(
@@ -731,7 +731,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 2)),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
@@ -744,7 +744,7 @@ maker(
     stirrings_still.trajectories("B", -2, -2, end_counts=[1]),
 )
 
-maker(
+commands(
     ("va", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
         [("D4", 6), ("A3", None)],
@@ -752,7 +752,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (3, 4)),
     baca.circle_bow_spanner(
         abjad.tweak(8).staff_padding,
@@ -769,7 +769,7 @@ maker(
     baca.flat_glissando("Bqf3"),
 )
 
-maker(
+commands(
     ("va", (5, 11)),
     baca.dynamic(
         '"mf"',
@@ -782,7 +782,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", [(12, 13), (16, 17)]),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
@@ -795,7 +795,7 @@ maker(
     stirrings_still.trajectories("B", -3, -3),
 )
 
-maker(
+commands(
     ("va", (12, 17)),
     baca.hairpin(
         "p < mp",
@@ -808,7 +808,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (14, 15)),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -816,7 +816,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (18, 20)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -838,7 +838,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 21),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -859,12 +859,12 @@ maker(
     stirrings_still.pickets(4, 0),
 )
 
-maker(
+commands(
     ("vax", 22),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("va", 23),
     baca.breathe(),
     baca.dynamic_text_self_alignment_x(-0.75),
@@ -877,7 +877,7 @@ maker(
     stirrings_still.pickets(4, 0),
 )
 
-maker(
+commands(
     ("va", (24, 31)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -906,7 +906,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (32, 37)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -938,7 +938,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (32, 53)),
     baca.markup(
         r"\baca-five-d-flat",
@@ -948,7 +948,7 @@ maker(
     baca.flat_glissando("F3"),
 )
 
-maker(
+commands(
     ("va", (38, 42)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -975,7 +975,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (43, 45)),
     baca.hairpin(
         '"mf" -- !',
@@ -993,7 +993,7 @@ maker(
     stirrings_still.to_flight([(8, 8), (3, 16)]),
 )
 
-maker(
+commands(
     ("va", (46, 53)),
     baca.damp_spanner(
         abjad.tweak(8).staff_padding,
@@ -1014,7 +1014,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", (1, 2)),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
@@ -1027,7 +1027,7 @@ maker(
     stirrings_still.trajectories("B", -3, -3, end_counts=[1]),
 )
 
-maker(
+commands(
     ("vc", (1, 2)),
     stirrings_still.multistage_leaf_glissando(
         [("D4", 4), ("Ab3", 2), ("B3", None)],
@@ -1035,7 +1035,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (3, 4)),
     baca.circle_bow_spanner(
         abjad.tweak(8).staff_padding,
@@ -1052,7 +1052,7 @@ maker(
     baca.flat_glissando("Bb2"),
 )
 
-maker(
+commands(
     ("vc", (5, 8)),
     stirrings_still.accelerando((11, 32), (1, 2), measures=(6, 8)),
     stirrings_still.bcps(
@@ -1063,14 +1063,14 @@ maker(
     stirrings_still.trajectories("B", -3, -3, measures=5),
 )
 
-maker(
+commands(
     ("vc", [(5, 10), (13, 14)]),
     baca.half_clt_spanner(
         abjad.tweak(4 + 6.5).staff_padding,
     ),
 )
 
-maker(
+commands(
     ("vc", (5, 14)),
     stirrings_still.multistage_leaf_glissando(
         [
@@ -1087,7 +1087,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", [(9, 10), (13, 14)]),
     stirrings_still.bcps(
         -3,
@@ -1097,7 +1097,7 @@ maker(
     stirrings_still.trajectories("B", -3, -3),
 )
 
-maker(
+commands(
     ("vc", [(11, 12), (15, 17)]),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -1105,12 +1105,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (15, 20)),
     baca.flat_glissando("E2"),
 )
 
-maker(
+commands(
     ("vc", (18, 20)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -1126,7 +1126,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (21, 23)),
     baca.breathe(),
     baca.clef("treble"),
@@ -1155,7 +1155,7 @@ maker(
     baca.flat_glissando("A5"),
 )
 
-maker(
+commands(
     ("vc", (24, 31)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -1179,7 +1179,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (32, 37)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -1211,7 +1211,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (32, -1)),
     stirrings_still.clouded_pane_spanner(
         "clouded pane -|",
@@ -1225,7 +1225,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (38, -1)),
     baca.new(
         baca.dots_transparent(),
@@ -1242,7 +1242,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

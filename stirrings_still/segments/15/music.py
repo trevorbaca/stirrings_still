@@ -12,7 +12,7 @@ stage_markup = (
     ("[H.13.4]", 7, "#darkgreen"),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -21,7 +21,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("O"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty-four",
@@ -42,11 +42,11 @@ time = (
     ("very_long", 8),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", (1, 6)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -61,7 +61,7 @@ maker(
     stirrings_still.circles((1, 4)),
 )
 
-maker(
+commands(
     ("v1", 7),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -82,7 +82,7 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(5),
     baca.tuplet_bracket_down(),
@@ -90,7 +90,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     ("v2", (1, 6)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -105,7 +105,7 @@ maker(
     stirrings_still.circles((1, 4)),
 )
 
-maker(
+commands(
     ("v2", 7),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -126,7 +126,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 6)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -141,7 +141,7 @@ maker(
     stirrings_still.circles((1, 4)),
 )
 
-maker(
+commands(
     ("va", 7),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -162,7 +162,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", (1, 6)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -177,7 +177,7 @@ maker(
     stirrings_still.circles((1, 4)),
 )
 
-maker(
+commands(
     ("vc", 7),
     baca.flat_glissando("Db2"),
     baca.hairpin(
@@ -199,7 +199,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

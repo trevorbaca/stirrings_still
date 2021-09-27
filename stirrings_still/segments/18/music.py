@@ -14,7 +14,7 @@ stage_markup = (
     ("[R.4]", 13),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -24,7 +24,7 @@ maker = baca.CommandAccumulator(
 )
 
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "R",
@@ -33,7 +33,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty-five",
@@ -43,7 +43,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(3 - 1)),
     baca.close_volta(baca.selectors.skip(5 - 1)),
@@ -51,16 +51,16 @@ maker(
 
 time = (("fermata", 17),)
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     "v1",
     baca.dls_staff_padding(7),
 )
 
-maker(
+commands(
     ("v1", (1, 8)),
     baca.half_clt_spanner(
         abjad.tweak(8 + 6).staff_padding,
@@ -78,7 +78,7 @@ maker(
     stirrings_still.trajectories("C", 0, -3),
 )
 
-maker(
+commands(
     ("v1", (5, 8)),
     baca.hairpin(
         "ppp >o niente",
@@ -86,24 +86,24 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1x", 9),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("v1", (10, -1)),
     baca.tacet(),
 )
 
 # v2
 
-maker(
+commands(
     "v2",
     baca.dls_staff_padding(7),
 )
 
-maker(
+commands(
     ("v2", (1, 8)),
     baca.half_clt_spanner(
         abjad.tweak(4.5 + 6).staff_padding,
@@ -121,7 +121,7 @@ maker(
     stirrings_still.trajectories("C", -1, -2),
 )
 
-maker(
+commands(
     ("v2", (5, 8)),
     baca.hairpin(
         "ppp >o niente",
@@ -129,19 +129,19 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2x", 9),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("v2", (10, -1)),
     baca.tacet(),
 )
 
 # va
 
-maker(
+commands(
     "va",
     baca.make_repeat_tied_notes(),
     baca.flat_glissando(
@@ -154,12 +154,12 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.dls_staff_padding(8),
 )
 
-maker(
+commands(
     ("vc", (1, 12)),
     baca.make_repeat_tied_notes(),
     baca.ottava_bassa(),
@@ -169,7 +169,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (9, 12)),
     baca.hairpin(
         "pp >o niente",
@@ -177,19 +177,19 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vcx", 13),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("vc", (14, -1)),
     baca.tacet(),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

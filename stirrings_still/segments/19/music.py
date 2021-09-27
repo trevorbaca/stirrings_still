@@ -15,7 +15,7 @@ stage_markup = (
     ("[S.5]", 17),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -24,7 +24,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("S"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty-six",
@@ -67,17 +67,17 @@ time = (
     ("very_long", 20),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     "v1",
     baca.dls_staff_padding(7),
     baca.note_head_style_harmonic(),
 )
 
-maker(
+commands(
     ("v1", [1, (3, 4), (6, 8), (10, 15)]),
     baca.circle_bow_spanner(
         abjad.tweak(3).staff_padding,
@@ -105,21 +105,21 @@ maker(
 
 # v1, v2, vc
 
-maker(
+commands(
     (["v1", "v2", "vc"], (17, 19)),
     baca.tacet(),
 )
 
 # v2
 
-maker(
+commands(
     "v2",
     baca.dls_staff_padding(6),
     baca.note_head_style_harmonic(),
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("v2", [1, (3, 4), (6, 8), (10, 15)]),
     baca.circle_bow_spanner(
         abjad.tweak(3).staff_padding,
@@ -147,7 +147,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 19)),
     baca.flat_glissando(
         "Bb2",
@@ -159,12 +159,12 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("vc", 1),
     baca.flat_glissando("B0"),
     baca.hairpin("o< mf"),
@@ -172,7 +172,7 @@ maker(
     baca.ottava_bassa(),
 )
 
-maker(
+commands(
     ("vc", [(3, 4), (6, 8), (10, 15)]),
     baca.flat_glissando(
         "B0",
@@ -182,7 +182,7 @@ maker(
     baca.ottava_bassa(),
 )
 
-maker(
+commands(
     ("vc", (3, 4)),
     baca.hairpin(
         "o< f -- !",
@@ -192,7 +192,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (6, 8)),
     baca.hairpin(
         "o< ff -- !",
@@ -202,7 +202,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (10, 15)),
     baca.hairpin(
         "o< fff -- !",
@@ -212,7 +212,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", -1),
     baca.chunk(
         baca.mark(r"\stirrings-still-colophon-markup"),
@@ -225,7 +225,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

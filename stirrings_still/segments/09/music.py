@@ -18,7 +18,7 @@ stage_markup = (
     ("[I.7]", 10),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -27,7 +27,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("I"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "I",
@@ -42,11 +42,11 @@ time = (
     ("larghissimo", 6),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", (1, 7)),
     baca.beam(),
     baca.circle_bow_spanner(
@@ -59,7 +59,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (10, 11)),
     baca.flat_glissando(
         "<F4 A4>",
@@ -75,7 +75,7 @@ maker(
 
 # trio
 
-maker(
+commands(
     ("trio", (1, 7)),
     baca.new(
         baca.hairpin(
@@ -102,17 +102,17 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("triox", 8),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("trio", 9),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("trio", (10, 11)),
     baca.dynamic_text_self_alignment_x(
         -0.75,
@@ -134,14 +134,14 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(5),
 )
 
 # v2
 
-maker(
+commands(
     ("v2", (1, 7)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -153,7 +153,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (10, 11)),
     baca.flat_glissando(
         "<E4 G#4>",
@@ -169,7 +169,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 7)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -189,7 +189,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (10, 11)),
     baca.flat_glissando(
         "<Eqs4 Gtqs4>",
@@ -205,7 +205,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.hairpin(
         'p < "f" -- "f" >o niente',
@@ -232,7 +232,7 @@ maker(
 )
 
 
-maker(
+commands(
     ("vc", (1, 6)),
     baca.beam(),
     baca.suite(
@@ -248,7 +248,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (7, -1)),
     baca.clef("treble"),
     baca.flat_glissando("A5"),
@@ -266,7 +266,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

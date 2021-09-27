@@ -20,7 +20,7 @@ stage_markup = (
     ("[N.7]", 37),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -29,7 +29,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("N"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "N",
@@ -38,7 +38,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-twenty-three",
@@ -48,7 +48,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.open_volta(baca.selectors.skip(13 - 1)),
     baca.double_volta(baca.selectors.skip(29 - 1)),
@@ -67,11 +67,11 @@ time = (
     ("very_long", 39),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", (1, 8)),
     baca.flat_glissando(
         "C6",
@@ -85,7 +85,7 @@ maker(
     stirrings_still.clouded_pane(),
 )
 
-maker(
+commands(
     ("v1", (13, 19)),
     baca.hairpin(
         "niente o< f",
@@ -100,7 +100,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (13, 22)),
     baca.breathe(),
     baca.flat_glissando(
@@ -115,7 +115,7 @@ maker(
     stirrings_still.clouded_pane(),
 )
 
-maker(
+commands(
     ("v1", [(23, 28), (30, 35)]),
     baca.flat_glissando("<A3 Fqs4>"),
     baca.new(
@@ -128,7 +128,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (23, 28)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -158,7 +158,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 29),
     baca.hairpin(
         "mp -- !",
@@ -177,7 +177,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (30, 35)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -207,7 +207,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (37, 38)),
     baca.beam(),
     baca.flat_glissando(
@@ -230,12 +230,12 @@ maker(
 
 # trio
 
-maker(
+commands(
     ("trio", (1, 8)),
     stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
 )
 
-maker(
+commands(
     ("trio", (6, 8)),
     baca.hairpin(
         "(fff) >o niente",
@@ -244,27 +244,27 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("triox", 9),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("trio", (10, 12)),
     baca.tacet(),
 )
 
-maker(
+commands(
     ("trio", (13, 28)),
     stirrings_still.urtext_spanner("urtext (field) -|", 8),
 )
 
-maker(
+commands(
     ("trio", (30, 35)),
     stirrings_still.urtext_spanner("urtext (field) -|", 8),
 )
 
-maker(
+commands(
     ("trio", (37, 38)),
     stirrings_still.urtext_spanner(
         "urtext / clouded pane (composite) -|",
@@ -274,14 +274,14 @@ maker(
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
 )
 
 # v2
 
-maker(
+commands(
     ("v2", (1, 8)),
     baca.flat_glissando(
         "Eqf5",
@@ -295,7 +295,7 @@ maker(
     stirrings_still.clouded_pane(),
 )
 
-maker(
+commands(
     ("v2", (13, 19)),
     baca.hairpin(
         "niente o< f",
@@ -310,7 +310,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (13, 22)),
     baca.breathe(),
     baca.flat_glissando(
@@ -325,7 +325,7 @@ maker(
     stirrings_still.clouded_pane(),
 )
 
-maker(
+commands(
     ("v2", [(23, 28), (30, 35)]),
     baca.flat_glissando("<F#3 Dqs4>"),
     baca.new(
@@ -338,7 +338,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (23, 28)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -368,7 +368,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", 29),
     baca.hairpin(
         "mp -- !",
@@ -387,7 +387,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (30, 35)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -417,7 +417,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v2", (37, 38)),
     baca.beam(),
     baca.flat_glissando(
@@ -440,7 +440,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 8)),
     baca.flat_glissando(
         "Gqf4",
@@ -454,7 +454,7 @@ maker(
     stirrings_still.clouded_pane(),
 )
 
-maker(
+commands(
     ("va", (13, 19)),
     baca.hairpin(
         "niente o< f",
@@ -469,7 +469,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (13, 22)),
     baca.breathe(),
     baca.flat_glissando(
@@ -484,7 +484,7 @@ maker(
     stirrings_still.clouded_pane(),
 )
 
-maker(
+commands(
     ("va", [(23, 28), (30, 35)]),
     baca.flat_glissando("<C3 Aqs3>"),
     baca.new(
@@ -497,7 +497,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (23, 28)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -527,7 +527,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 29),
     baca.hairpin(
         "mp -- !",
@@ -546,7 +546,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (30, 35)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -576,7 +576,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (37, 38)),
     baca.beam(),
     baca.flat_glissando(
@@ -599,7 +599,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", (1, 10)),
     baca.chunk(
         baca.dots_transparent(),
@@ -609,12 +609,12 @@ maker(
     stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
 )
 
-maker(
+commands(
     ("vc", (1, 22)),
     baca.flat_glissando("Bb1"),
 )
 
-maker(
+commands(
     ("vc", (6, 8)),
     baca.hairpin(
         "(fff) > p",
@@ -622,7 +622,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (11, 12)),
     baca.half_clt_spanner(
         abjad.tweak(3 + 6).staff_padding,
@@ -633,7 +633,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (13, 22)),
     baca.new(
         baca.dots_transparent(),
@@ -643,12 +643,12 @@ maker(
     stirrings_still.clouded_pane(),
 )
 
-maker(
+commands(
     ("vc", [(13, 22), (37, 38)]),
     stirrings_still.clouded_pane_spanner("clouded pane -|", 8),
 )
 
-maker(
+commands(
     ("vc", (17, 22)),
     baca.hairpin(
         "(p) >o",
@@ -657,7 +657,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (23, 28)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -687,7 +687,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", [(23, 28), (30, 35)]),
     baca.flat_glissando("<B2 Gqs3>"),
     baca.new(
@@ -701,7 +701,7 @@ maker(
     stirrings_still.urtext_spanner("urtext (field) -|", 8),
 )
 
-maker(
+commands(
     ("vc", 29),
     baca.hairpin(
         "mp -- !",
@@ -721,7 +721,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (30, 35)),
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -751,7 +751,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (37, 38)),
     baca.flat_glissando("B1"),
     baca.hairpin(
@@ -773,7 +773,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

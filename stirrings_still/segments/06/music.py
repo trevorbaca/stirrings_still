@@ -13,7 +13,7 @@ stage_markup = (
     ("[C.2.3-4]", 12, "#darkgreen"),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
@@ -22,7 +22,7 @@ maker = baca.CommandAccumulator(
     time_signatures=stirrings_still.time_signatures("F"),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.markup(
         r"\stirrings-still-text-nineteen",
@@ -43,11 +43,11 @@ time = (
     ("long", 14),
 )
 
-stirrings_still.time(maker, time)
+stirrings_still.time(commands, time)
 
 # v1
 
-maker(
+commands(
     ("v1", (1, 8)),
     baca.flat_glissando(
         "<F5 Bqs5>",
@@ -72,7 +72,7 @@ maker(
 
 # v2
 
-maker(
+commands(
     ("v2", (1, 8)),
     baca.flat_glissando(
         "<G4 Dqs5>",
@@ -97,7 +97,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 10)),
     baca.staff_lines(1),
     baca.dynamic(
@@ -109,14 +109,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 12),
     baca.staff_lines(5),
 )
 
 # vc
 
-maker(
+commands(
     ("vc", (1, 8)),
     baca.flat_glissando(
         "Eb2",
@@ -134,25 +134,25 @@ maker(
 
 # v1, v2, vc
 
-maker(
+commands(
     (["v1x", "v2x", "vcx"], 9),
     baca.tacet(),
 )
 
-maker(
+commands(
     (["v1", "v2", "vc"], 10),
     baca.tacet(),
 )
 
 # tutti
 
-maker(
+commands(
     "tutti",
     baca.dls_staff_padding(6),
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("tutti", (12, 13)),
     baca.circle_bow_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -194,7 +194,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
