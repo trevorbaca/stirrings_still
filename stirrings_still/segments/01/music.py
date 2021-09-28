@@ -915,16 +915,18 @@ commands(
     baca.flat_glissando("G3"),
 )
 
+defaults = baca.segment_interpretation_defaults()
+defaults["includes"].append("stylesheet.ily")
+
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segment_interpretation_defaults(),
+        **defaults,
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ],
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[10, 19, 24, 28, 61, 63],
-        includes=["stylesheet.ily"],
         stage_markup=stage_markup,
     )
