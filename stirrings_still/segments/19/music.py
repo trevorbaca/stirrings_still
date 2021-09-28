@@ -224,7 +224,7 @@ commands(
 )
 
 defaults = baca.segment_interpretation_defaults()
-del(defaults["force_nonnatural_accidentals"])
+del defaults["force_nonnatural_accidentals"]
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
