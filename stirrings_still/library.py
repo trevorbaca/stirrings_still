@@ -10042,193 +10042,123 @@ def wave(start, stop, *, measures=None):
     return result
 
 
-class ScoreTemplate(baca.ScoreTemplate):
-    """
-    Score template.
-    """
+voice_abbreviations = {
+    "v1": "Violin_I_Music_Voice",
+    "v1r": "Violin_I_Rest_Voice",
+    "v1x": ["Violin_I_Music_Voice", "Violin_I_Rest_Voice"],
+    "v2": "Violin_II_Music_Voice",
+    "v2r": "Violin_II_Rest_Voice",
+    "v2x": ["Violin_II_Music_Voice", "Violin_II_Rest_Voice"],
+    "va": "Viola_Music_Voice",
+    "var": "Viola_Rest_Voice",
+    "vax": ["Viola_Music_Voice", "Viola_Rest_Voice"],
+    "vc": "Cello_Music_Voice",
+    "vcr": "Cello_Rest_Voice",
+    "vcx": ["Cello_Music_Voice", "Cello_Rest_Voice"],
+    "trio": [
+        "Violin_I_Music_Voice",
+        "Violin_II_Music_Voice",
+        "Viola_Music_Voice",
+    ],
+    "triox": [
+        "Violin_I_Rest_Voice",
+        "Violin_II_Rest_Voice",
+        "Viola_Rest_Voice",
+    ],
+    "tutti": [
+        "Violin_I_Music_Voice",
+        "Violin_II_Music_Voice",
+        "Viola_Music_Voice",
+        "Cello_Music_Voice",
+    ],
+}
 
-    ### CLASS VARIABLES ###
 
-    _always_make_global_rests = True
+def make_empty_score():
+    site = "stirrings_still.ScoreTemplate.__call__()"
+    tag = abjad.Tag(site)
+    global_context = baca.templates.make_global_context()
 
-    _global_rests_in_topmost_staff = True
+    # VIOLIN 1
+    violin_one_music_staff = abjad.Staff(
+        [abjad.Voice(name="Violin_I_Music_Voice", tag=tag)],
+        name="Violin_I_Music_Staff",
+        tag=tag,
+    )
+    abjad.annotate(
+        violin_one_music_staff,
+        "default_instrument",
+        instruments["ViolinI"],
+    )
+    abjad.annotate(violin_one_music_staff, "default_clef", abjad.Clef("treble"))
+    baca.templates.attach_lilypond_tag("ViolinI", violin_one_music_staff)
 
-    ### INITIALIZER ###
+    # VIOLIN 2
+    violin_two_music_staff = abjad.Staff(
+        [abjad.Voice(name="Violin_II_Music_Voice", tag=tag)],
+        name="Violin_II_MusicStaff",
+        tag=tag,
+    )
+    abjad.annotate(
+        violin_two_music_staff,
+        "default_instrument",
+        instruments["ViolinII"],
+    )
+    abjad.annotate(violin_two_music_staff, "default_clef", abjad.Clef("treble"))
+    baca.templates.attach_lilypond_tag("ViolinII", violin_two_music_staff)
 
-    def __init__(self):
-        super(ScoreTemplate, self).__init__()
-        self.voice_abbreviations.update(
-            {
-                "v1": "Violin_I_Music_Voice",
-                "v1r": "Violin_I_Rest_Voice",
-                "v1x": ["Violin_I_Music_Voice", "Violin_I_Rest_Voice"],
-                "v2": "Violin_II_Music_Voice",
-                "v2r": "Violin_II_Rest_Voice",
-                "v2x": ["Violin_II_Music_Voice", "Violin_II_Rest_Voice"],
-                "va": "Viola_Music_Voice",
-                "var": "Viola_Rest_Voice",
-                "vax": ["Viola_Music_Voice", "Viola_Rest_Voice"],
-                "vc": "Cello_Music_Voice",
-                "vcr": "Cello_Rest_Voice",
-                "vcx": ["Cello_Music_Voice", "Cello_Rest_Voice"],
-                "trio": [
-                    "Violin_I_Music_Voice",
-                    "Violin_II_Music_Voice",
-                    "Viola_Music_Voice",
-                ],
-                "triox": [
-                    "Violin_I_Rest_Voice",
-                    "Violin_II_Rest_Voice",
-                    "Viola_Rest_Voice",
-                ],
-                "tutti": [
-                    "Violin_I_Music_Voice",
-                    "Violin_II_Music_Voice",
-                    "Viola_Music_Voice",
-                    "Cello_Music_Voice",
-                ],
-            }
-        )
+    # VIOLA
+    viola_music_staff = abjad.Staff(
+        [abjad.Voice(name="Viola_Music_Voice", tag=tag)],
+        name="Viola_Music_Staff",
+        tag=tag,
+    )
+    abjad.annotate(
+        viola_music_staff,
+        "default_instrument",
+        instruments["Viola"],
+    )
+    abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
+    baca.templates.attach_lilypond_tag("viola", viola_music_staff)
 
-    ### SPECIAL METHODS ###
+    # CELLO
+    cello_music_staff = abjad.Staff(
+        [abjad.Voice(name="Cello_Music_Voice", tag=tag)],
+        name="Cello_Music_Staff",
+        tag=tag,
+    )
+    abjad.annotate(
+        cello_music_staff,
+        "default_instrument",
+        instruments["Cello"],
+    )
+    abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
+    baca.templates.attach_lilypond_tag("cello", cello_music_staff)
 
-    def __call__(self) -> abjad.Score:
-        """
-        Calls score template.
-        """
-        site = "stirrings_still.ScoreTemplate.__call__()"
-        tag = abjad.Tag(site)
-        # GLOBAL CONTEXT
-        global_context = baca.templates.make_global_context()
-
-        # VIOLIN 1
-        violin_one_music_staff = abjad.Staff(
-            [abjad.Voice(name="Violin_I_Music_Voice", tag=tag)],
-            name="Violin_I_Music_Staff",
-            tag=tag,
-        )
-        abjad.annotate(
+    # STRING QUARTET STAFF GROUP
+    string_quartet_staff_group = abjad.StaffGroup(
+        [
             violin_one_music_staff,
-            "default_instrument",
-            instruments["ViolinI"],
-        )
-        abjad.annotate(violin_one_music_staff, "default_clef", abjad.Clef("treble"))
-        self._attach_lilypond_tag("ViolinI", violin_one_music_staff)
-
-        # VIOLIN 2
-        violin_two_music_staff = abjad.Staff(
-            [abjad.Voice(name="Violin_II_Music_Voice", tag=tag)],
-            name="Violin_II_MusicStaff",
-            tag=tag,
-        )
-        abjad.annotate(
             violin_two_music_staff,
-            "default_instrument",
-            instruments["ViolinII"],
-        )
-        abjad.annotate(violin_two_music_staff, "default_clef", abjad.Clef("treble"))
-        self._attach_lilypond_tag("ViolinII", violin_two_music_staff)
-
-        # VIOLA
-        viola_music_staff = abjad.Staff(
-            [abjad.Voice(name="Viola_Music_Voice", tag=tag)],
-            name="Viola_Music_Staff",
-            tag=tag,
-        )
-        abjad.annotate(
             viola_music_staff,
-            "default_instrument",
-            instruments["Viola"],
-        )
-        abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
-        self._attach_lilypond_tag("viola", viola_music_staff)
-
-        # CELLO
-        cello_music_staff = abjad.Staff(
-            [abjad.Voice(name="Cello_Music_Voice", tag=tag)],
-            name="Cello_Music_Staff",
-            tag=tag,
-        )
-        abjad.annotate(
             cello_music_staff,
-            "default_instrument",
-            instruments["Cello"],
-        )
-        abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
-        self._attach_lilypond_tag("cello", cello_music_staff)
+        ],
+        lilypond_type="StringQuartetStaffGroup",
+        name="String_Quartet_Staff_Group",
+        tag=tag,
+    )
 
-        # STRING QUARTET STAFF GROUP
-        string_quartet_staff_group = abjad.StaffGroup(
-            [
-                violin_one_music_staff,
-                violin_two_music_staff,
-                viola_music_staff,
-                cello_music_staff,
-            ],
-            lilypond_type="StringQuartetStaffGroup",
-            name="String_Quartet_Staff_Group",
-            tag=tag,
-        )
+    # MUSIC CONTEXT
+    music_context = abjad.Context(
+        [string_quartet_staff_group],
+        lilypond_type="MusicContext",
+        name="Music_Context",
+        tag=tag,
+    )
 
-        # MUSIC CONTEXT
-        music_context = abjad.Context(
-            [string_quartet_staff_group],
-            lilypond_type="MusicContext",
-            name="Music_Context",
-            tag=tag,
-        )
-
-        # SCORE
-        score = abjad.Score([global_context, music_context], name="Score", tag=tag)
-        baca.templates.assert_lilypond_identifiers(score)
-        baca.templates.assert_unique_context_names(score)
-        baca.templates.assert_matching_custom_context_names(score)
-        return score
-
-    ### PUBLIC PROPERTIES ###
-
-    @property
-    def voice_abbreviations(self):
-        """
-        Gets voice abbreviations.
-
-        ..  container:: example
-
-            >>> score_template = stirrings_still.library.ScoreTemplate()
-            >>> string = abjad.storage(score_template.voice_abbreviations)
-            >>> print(string)
-            dict(
-                {
-                    'trio': [
-                        'Violin_I_Music_Voice',
-                        'Violin_II_Music_Voice',
-                        'Viola_Music_Voice',
-                        ],
-                    'triox': [
-                        'Violin_I_Rest_Voice',
-                        'Violin_II_Rest_Voice',
-                        'Viola_Rest_Voice',
-                        ],
-                    'tutti': [
-                        'Violin_I_Music_Voice',
-                        'Violin_II_Music_Voice',
-                        'Viola_Music_Voice',
-                        'Cello_Music_Voice',
-                        ],
-                    'v1': 'Violin_I_Music_Voice',
-                    'v1r': 'Violin_I_Rest_Voice',
-                    'v1x': ['Violin_I_Music_Voice', 'Violin_I_Rest_Voice'],
-                    'v2': 'Violin_II_Music_Voice',
-                    'v2r': 'Violin_II_Rest_Voice',
-                    'v2x': ['Violin_II_Music_Voice', 'Violin_II_Rest_Voice'],
-                    'va': 'Viola_Music_Voice',
-                    'var': 'Viola_Rest_Voice',
-                    'vax': ['Viola_Music_Voice', 'Viola_Rest_Voice'],
-                    'vc': 'Cello_Music_Voice',
-                    'vcr': 'Cello_Rest_Voice',
-                    'vcx': ['Cello_Music_Voice', 'Cello_Rest_Voice'],
-                    }
-                )
-
-        """
-        return super(ScoreTemplate, self).voice_abbreviations
+    # SCORE
+    score = abjad.Score([global_context, music_context], name="Score", tag=tag)
+    baca.templates.assert_lilypond_identifiers(score)
+    baca.templates.assert_unique_context_names(score)
+    baca.templates.assert_matching_custom_context_names(score)
+    return score
