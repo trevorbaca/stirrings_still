@@ -3,9 +3,9 @@ import baca
 
 from stirrings_still import library as stirrings_still
 
-###############################################################################
-##################################### [S] #####################################
-###############################################################################
+#########################################################################################
+######################################### 19 [S] ########################################
+#########################################################################################
 
 stage_markup = (
     ("[S.1]", 1),
@@ -15,14 +15,17 @@ stage_markup = (
     ("[S.5]", 17),
 )
 
+score = stirrings_still.make_empty_score()
+voice_names = baca.accumulator.get_voice_names(score)
+
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=stirrings_still.instruments,
     margin_markups=stirrings_still.margin_markups,
     metronome_marks=stirrings_still.metronome_marks,
-    score_template=stirrings_still.make_empty_score,
     time_signatures=stirrings_still.time_signatures("S"),
     voice_abbreviations=stirrings_still.voice_abbreviations,
+    voice_names=voice_names,
 )
 
 commands(
@@ -240,5 +243,6 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9, 16, 20],
         final_segment=True,
+        score=score,
         stage_markup=stage_markup,
     )
