@@ -1,3 +1,4 @@
+import inspect
 import typing
 
 import abjad
@@ -10075,8 +10076,7 @@ voice_abbreviations = {
 
 
 def make_empty_score():
-    site = "stirrings_still.ScoreTemplate.__call__()"
-    tag = abjad.Tag(site)
+    tag = baca.site(inspect.currentframe())
     global_context = baca.score.make_global_context()
 
     # VIOLIN 1
