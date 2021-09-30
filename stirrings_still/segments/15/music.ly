@@ -33,9 +33,9 @@
         %! baca._make_lilypond_file()
         }
 
-        %! stirrings_still.ScoreTemplate.__call__()
+        %! stirrings_still.make_empty_score()
         \context Score = "Score"
-        %! stirrings_still.ScoreTemplate.__call__()
+        %! stirrings_still.make_empty_score()
         <<
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -52,55 +52,55 @@
             %! abjad.ScoreTemplate._make_global_context()
             >>
 
-            %! stirrings_still.ScoreTemplate.__call__()
+            %! stirrings_still.make_empty_score()
             \context MusicContext = "Music_Context"
-            %! stirrings_still.ScoreTemplate.__call__()
+            %! stirrings_still.make_empty_score()
             {
 
-                %! stirrings_still.ScoreTemplate.__call__()
+                %! stirrings_still.make_empty_score()
                 \context StringQuartetStaffGroup = "String_Quartet_Staff_Group"
-                %! stirrings_still.ScoreTemplate.__call__()
+                %! stirrings_still.make_empty_score()
                 <<
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag ViolinI
-                    %! stirrings_still.ScoreTemplate.__call__()
+                    %! stirrings_still.make_empty_score()
                     \context Staff = "Violin_I_Music_Staff"
-                    %! stirrings_still.ScoreTemplate.__call__()
+                    %! stirrings_still.make_empty_score()
                     %! baca.path.extern()
                     { \segment.15.Violin.I.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag ViolinII
-                    %! stirrings_still.ScoreTemplate.__call__()
+                    %! stirrings_still.make_empty_score()
                     \context Staff = "Violin_II_MusicStaff"
-                    %! stirrings_still.ScoreTemplate.__call__()
+                    %! stirrings_still.make_empty_score()
                     %! baca.path.extern()
                     { \segment.15.Violin.II.MusicStaff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag viola
-                    %! stirrings_still.ScoreTemplate.__call__()
+                    %! stirrings_still.make_empty_score()
                     \context Staff = "Viola_Music_Staff"
-                    %! stirrings_still.ScoreTemplate.__call__()
+                    %! stirrings_still.make_empty_score()
                     %! baca.path.extern()
                     { \segment.15.Viola.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag cello
-                    %! stirrings_still.ScoreTemplate.__call__()
+                    %! stirrings_still.make_empty_score()
                     \context Staff = "Cello_Music_Staff"
-                    %! stirrings_still.ScoreTemplate.__call__()
+                    %! stirrings_still.make_empty_score()
                     %! baca.path.extern()
                     { \segment.15.Cello.Music.Staff }
 
-                %! stirrings_still.ScoreTemplate.__call__()
+                %! stirrings_still.make_empty_score()
                 >>
 
-            %! stirrings_still.ScoreTemplate.__call__()
+            %! stirrings_still.make_empty_score()
             }
 
-        %! stirrings_still.ScoreTemplate.__call__()
+        %! stirrings_still.make_empty_score()
         >>
 
     %! baca._make_lilypond_file()
