@@ -10077,7 +10077,7 @@ voice_abbreviations = {
 def make_empty_score():
     site = "stirrings_still.ScoreTemplate.__call__()"
     tag = abjad.Tag(site)
-    global_context = baca.templates.make_global_context()
+    global_context = baca.score.make_global_context()
 
     # VIOLIN 1
     violin_one_music_staff = abjad.Staff(
@@ -10091,7 +10091,7 @@ def make_empty_score():
         instruments["ViolinI"],
     )
     abjad.annotate(violin_one_music_staff, "default_clef", abjad.Clef("treble"))
-    baca.templates.attach_lilypond_tag("ViolinI", violin_one_music_staff)
+    baca.score.attach_lilypond_tag("ViolinI", violin_one_music_staff)
 
     # VIOLIN 2
     violin_two_music_staff = abjad.Staff(
@@ -10105,7 +10105,7 @@ def make_empty_score():
         instruments["ViolinII"],
     )
     abjad.annotate(violin_two_music_staff, "default_clef", abjad.Clef("treble"))
-    baca.templates.attach_lilypond_tag("ViolinII", violin_two_music_staff)
+    baca.score.attach_lilypond_tag("ViolinII", violin_two_music_staff)
 
     # VIOLA
     viola_music_staff = abjad.Staff(
@@ -10119,7 +10119,7 @@ def make_empty_score():
         instruments["Viola"],
     )
     abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
-    baca.templates.attach_lilypond_tag("viola", viola_music_staff)
+    baca.score.attach_lilypond_tag("viola", viola_music_staff)
 
     # CELLO
     cello_music_staff = abjad.Staff(
@@ -10133,7 +10133,7 @@ def make_empty_score():
         instruments["Cello"],
     )
     abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
-    baca.templates.attach_lilypond_tag("cello", cello_music_staff)
+    baca.score.attach_lilypond_tag("cello", cello_music_staff)
 
     # STRING QUARTET STAFF GROUP
     string_quartet_staff_group = abjad.StaffGroup(
@@ -10158,7 +10158,7 @@ def make_empty_score():
 
     # SCORE
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
-    baca.templates.assert_lilypond_identifiers(score)
-    baca.templates.assert_unique_context_names(score)
-    baca.templates.assert_matching_custom_context_names(score)
+    baca.score.assert_lilypond_identifiers(score)
+    baca.score.assert_unique_context_names(score)
+    baca.score.assert_matching_custom_context_names(score)
     return score
