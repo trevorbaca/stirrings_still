@@ -784,9 +784,13 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        global_rests_in_topmost_staff=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[39],
+        global_rests_in_topmost_staff=True,
+        lilypond_file_keywords=baca.make_lilypond_file_dictionary(
+            include_layout_ly=True,
+            includes=["../../stylesheet.ily"],
+        ),
         score=score,
         stage_markup=stage_markup,
     )
