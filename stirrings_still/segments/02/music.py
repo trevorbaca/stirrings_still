@@ -1568,7 +1568,7 @@ commands(
     stirrings_still.multistage_leaf_glissando(
         [("Bb4", 6), ("D5", 6), ("C5", 6), ("Eb5", 6), ("D5", None)],
         "Fqs5",
-        selector=baca.pleaves().lleak(),
+        use_pleaves_lleak=True,
     ),
 )
 

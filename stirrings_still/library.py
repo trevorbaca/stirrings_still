@@ -4606,8 +4606,8 @@ def multistage_leaf_glissando(
     final_pitch,
     *,
     measures=None,
-    selector=baca.pleaves(),
     rleak_final_stage=False,
+    use_pleaves_lleak=False,
 ):
     """
     Makes multistage leaf glissando.
@@ -4615,9 +4615,29 @@ def multistage_leaf_glissando(
     assert isinstance(pairs, list), repr(pairs)
     assert all(isinstance(_, tuple) for _ in pairs), repr(pairs)
 
+    if use_pleaves_lleak is True:
+        selector = baca.selectors.pleaves(lleak=True)
+        _rleaked_selector = baca.selectors.pleaves(lleak=True, rleak=True)
+
+        def _start_stop_selector(start, stop):
+            def _inner_selector(argument):
+                result = baca.selectors.pleaves(lleak=True)(argument)
+                result = baca.Selection(result)[start:stop]
+                return result
+
+            return _inner_selector
+
+    else:
+
+        selector = baca.selectors.pleaves()
+        _rleaked_selector = baca.selectors.pleaves(rleak=True)
+
+        def _start_stop_selector(start, stop):
+            return baca.selectors.pleaves((start, stop))
+
     commands = []
     if rleak_final_stage:
-        command = baca.untie(selector.rleak())
+        command = baca.untie(_rleaked_selector)
     else:
         command = baca.untie(selector)
     commands.append(command)
@@ -4634,12 +4654,12 @@ def multistage_leaf_glissando(
             baca.glissando(
                 allow_repeats=True,
                 hide_middle_note_heads=True,
-                selector=selector[start:stop],
+                selector=_start_stop_selector(start, stop),
             ),
             baca.interpolate_pitches(
                 start_pitch,
                 stop_pitch,
-                selector=selector[start:stop],
+                selector=_start_stop_selector(start, stop),
             ),
         )
         commands.append(chunk)
@@ -4652,19 +4672,19 @@ def multistage_leaf_glissando(
     stop = None
     if leaf_count is not None:
         stop = start + leaf_count
-    selector = baca.selectors.leaves((start, stop))
+    _final_selector = baca.selectors.leaves((start, stop))
     if rleak_final_stage:
-        selector = baca.selectors.rleaves((start, stop))
+        _final_selector = baca.selectors.rleaves((start, stop))
     chunk = baca.chunk(
         baca.glissando(
             allow_repeats=True,
             hide_middle_note_heads=True,
-            selector=selector,
+            selector=_final_selector,
         ),
         baca.interpolate_pitches(
             start_pitch,
             final_pitch,
-            selector=selector,
+            selector=_final_selector,
         ),
     )
     commands.append(chunk)
