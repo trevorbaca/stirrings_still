@@ -7,7 +7,7 @@ from abjadext import rmakers
 
 # instruments & margin markup
 
-instruments = abjad.OrderedDict(
+instruments = dict(
     [
         ("ViolinI", abjad.Violin(pitch_range="[F3, +inf]")),
         ("ViolinII", abjad.Violin(pitch_range="[F3, +inf]")),
@@ -16,7 +16,7 @@ instruments = abjad.OrderedDict(
     ]
 )
 
-margin_markups = abjad.OrderedDict(
+margin_markups = dict(
     [
         ("Va.", abjad.MarginMarkup(markup=r"\stirrings-still-va-markup")),
         ("Vc.", abjad.MarginMarkup(markup=r"\stirrings-still-vc-markup")),
@@ -30,7 +30,7 @@ margin_markups = abjad.OrderedDict(
 
 # metronome marks
 
-metronome_marks = abjad.OrderedDict(
+metronome_marks = dict(
     [
         ("larghissimo", abjad.MetronomeMark((1, 4), 39)),
         ("largo meno mosso", abjad.MetronomeMark((1, 4), 48)),
@@ -58,7 +58,7 @@ metronome_marks = abjad.OrderedDict(
 
 # time signature series
 
-time_signature_series = abjad.OrderedDict()
+time_signature_series = dict()
 
 numerators = baca.Sequence([[3, 4, 4], [3, 4, 5, 6]])
 numerators = numerators.helianthate(-1, 1).flatten()
@@ -900,7 +900,7 @@ def eighths() -> baca.RhythmCommand:
     return result
 
 
-stage_to_series = abjad.OrderedDict(
+stage_to_series = dict(
     {
         "A": ("C", 0),
         "B": ("B", 0),
@@ -924,7 +924,7 @@ stage_to_series = abjad.OrderedDict(
     }
 )
 
-stage_to_time_signatures = abjad.OrderedDict(
+stage_to_time_signatures = dict(
     {
         "A": (
             "C",
@@ -1134,7 +1134,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -1367,7 +1367,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -1654,7 +1654,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -1839,7 +1839,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     0,
@@ -2088,7 +2088,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -2344,7 +2344,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -2646,7 +2646,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     0,
@@ -2895,7 +2895,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -2937,7 +2937,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3018,7 +3018,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3203,7 +3203,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3290,7 +3290,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3372,7 +3372,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3524,7 +3524,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3579,7 +3579,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3687,7 +3687,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3799,7 +3799,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3828,7 +3828,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -3912,7 +3912,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -4154,7 +4154,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -4220,7 +4220,7 @@ def first_order_stages(segment):
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -4298,7 +4298,7 @@ def first_order_stages(segment):
     series = abjad.CyclicTuple(series)
     fermatas = ("very_short", "short", "fermata", "long", "very_long")
     time_signatures, fermata_measures = [], []
-    specifiers = abjad.OrderedDict()
+    specifiers = dict()
     time_signature_index, measure_number, stage_number = 0, 1, 1
     for i, item in enumerate(stages):
         if isinstance(item, int):
@@ -5888,7 +5888,7 @@ def running_quarter_divisions(count, *, measures=None):
     return result
 
 
-def second_order_stages(segment) -> abjad.OrderedDict:
+def second_order_stages(segment) -> dict:
     """
     Makes second-order time signatures.
 
@@ -5902,7 +5902,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -6216,7 +6216,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -6619,7 +6619,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -7009,7 +7009,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -7431,7 +7431,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     0,
@@ -7883,7 +7883,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -7947,7 +7947,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -8095,7 +8095,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -8383,7 +8383,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -8470,7 +8470,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -8574,7 +8574,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -8818,7 +8818,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -8873,7 +8873,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -8981,7 +8981,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -9147,7 +9147,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -9196,7 +9196,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -9280,7 +9280,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -9540,7 +9540,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -9606,7 +9606,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
         >>> string = abjad.storage(stages)
         >>> print(string)
-        abjad.OrderedDict(
+        dict(
             [
                 (
                     1,
@@ -9678,7 +9678,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
 
     """
     target_stages = first_order_stages(segment)
-    assert isinstance(target_stages, abjad.OrderedDict)
+    assert isinstance(target_stages, dict)
     operations_ = operations()
     for operation in operations_:
         if operation.target_stage.letter != segment:
@@ -9689,7 +9689,7 @@ def second_order_stages(segment) -> abjad.OrderedDict:
         target_stage = target_stages[operation.target_stage.number]
         new_specifier = operation(source_stage, target_stage)
         target_stages[operation.target_stage.number] = new_specifier
-    dictionary = abjad.OrderedDict()
+    dictionary = dict()
     measure_number = 1
     for stage_number, target_stage in target_stages.items():
         target_stage = abjad.new(target_stage)
