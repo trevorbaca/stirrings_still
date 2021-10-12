@@ -47,7 +47,6 @@ commands(
     baca.markup(
         r"\stirrings-still-text-twenty-three",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(39 - 1),
     ),
 )
@@ -84,7 +83,6 @@ commands(
     baca.markup(
         r"\baca-nine-b-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -114,7 +112,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -126,7 +123,6 @@ commands(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(8).staff_padding,
-            literal=True,
         ),
         match=-1,
     ),
@@ -173,7 +169,6 @@ commands(
     baca.markup(
         r"\baca-eleven-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("Aqs5"),
     baca.stem_tremolo(
@@ -294,7 +289,6 @@ commands(
     baca.markup(
         r"\baca-eleven-b-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -324,7 +318,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -336,7 +329,6 @@ commands(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=-1,
     ),
@@ -382,7 +374,6 @@ commands(
     baca.markup(
         r"\baca-nine-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("F#5"),
     baca.make_repeat_tied_notes(),
@@ -453,7 +444,6 @@ commands(
     baca.markup(
         r"\baca-thirteen-b-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -483,7 +473,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.clouded_pane(),
 )
@@ -495,7 +484,6 @@ commands(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(8).staff_padding,
-            literal=True,
         ),
         match=-1,
     ),
@@ -542,7 +530,6 @@ commands(
     baca.markup(
         r"\baca-five-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("G#3"),
     baca.stem_tremolo(
@@ -698,7 +685,6 @@ commands(
         baca.markup(
             r"\stirrings-still-twenty-four-et-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=0,
     ),
@@ -717,7 +703,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.pitch("G2"),
     baca.stem_tremolo(

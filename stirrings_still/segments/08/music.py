@@ -121,7 +121,6 @@ commands(
     baca.markup(
         r"\baca-thirteen-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     stirrings_still.circles((1, 8)),
     baca.flat_glissando("Aqs4"),
@@ -363,7 +362,6 @@ commands(
     baca.markup(
         r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("Bqf3"),
     stirrings_still.circles(
@@ -466,7 +464,6 @@ commands(
         r"\baca-string-iv-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.bow_speed_spanner(
         "flaut. -> ord.",
@@ -632,7 +629,6 @@ commands(
         baca.markup(
             r"\baca-thirteen-b-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("Gqf4"),
         stirrings_still.pickets(
@@ -646,7 +642,6 @@ commands(
         baca.markup(
             r"\baca-seven-b-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("Atqf3"),
         stirrings_still.pickets(
@@ -660,7 +655,6 @@ commands(
         baca.markup(
             r"\baca-nine-b-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("C3"),
         stirrings_still.pickets(
@@ -770,7 +764,6 @@ commands(
         baca.markup(
             r"\baca-thirteen-d-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("Aqs4"),
         stirrings_still.pickets(4, 2),
@@ -780,7 +773,6 @@ commands(
         baca.markup(
             r"\baca-nine-d-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("Eb4"),
         stirrings_still.pickets(4, 1),
@@ -790,7 +782,6 @@ commands(
         baca.markup(
             r"\baca-seven-d-flat",
             abjad.tweak(1).padding,
-            literal=True,
         ),
         baca.flat_glissando("Bqf3"),
         stirrings_still.pickets(4, 0),
@@ -826,7 +817,6 @@ commands(
         baca.markup(
             r"\stirrings-still-nine-plus-seven-of-b-markup",
             abjad.tweak(1).padding,
-            literal=True,
         ),
         baca.pitch("<Aqf3 C#4>"),
         stirrings_still.clouded_pane_spanner("clouded pane (partial) -|", 8),
@@ -879,7 +869,6 @@ commands(
         baca.markup(
             r"\baca-thirteen-d-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando(
             "Aqs4",
@@ -892,7 +881,6 @@ commands(
         baca.markup(
             r"\baca-nine-d-flat",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando(
             "Eb4",
@@ -958,7 +946,6 @@ commands(
         baca.markup(
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -970,7 +957,6 @@ commands(
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.tasto_spanner(
             abjad.tweak(5.5).staff_padding,
@@ -998,16 +984,12 @@ commands(
         baca.markup(
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("<F#4 Dqf5>"),
         match=0,
     ),
     baca.new(
-        baca.markup(
-            r"\stirrings-still-eleven-plus-three-of-e-markup",
-            literal=True,
-        ),
+        baca.markup(r"\stirrings-still-eleven-plus-three-of-e-markup"),
         baca.flat_glissando("<B2 Aqs3>"),
         match=1,
     ),
@@ -1033,7 +1015,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.new(
         baca.breathe(),
@@ -1083,7 +1064,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.new(
         baca.flat_glissando("Gb4"),

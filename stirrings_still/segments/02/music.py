@@ -70,13 +70,11 @@ commands(
     baca.markup(
         r"\stirrings-still-text-eight",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(28 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-nine",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(66 - 1),
     ),
 )
@@ -373,7 +371,6 @@ commands(
         r"\stirrings-still-seven-plus-nine-of-e-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.pitch("<F#4 Dqf5>"),
 )
@@ -533,7 +530,6 @@ commands(
         baca.markup(
             r"\stirrings-still-seven-plus-nine-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=0,
     ),
@@ -542,7 +538,6 @@ commands(
         baca.markup(
             r"\stirrings-still-five-plus-thirteen-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=1,
     ),
@@ -550,7 +545,6 @@ commands(
         baca.markup(
             r"\stirrings-still-eleven-plus-three-of-e-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.flat_glissando("<B2 Aqs3>"),
         match=2,
@@ -599,7 +593,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.text_spanner(
         "2° =|",
@@ -1053,7 +1046,6 @@ commands(
     baca.markup(
         r"\stirrings-still-five-plus-thirteen-of-e-markup",
         abjad.tweak(1).padding,
-        literal=True,
     ),
     baca.pitch("<Cqs4 Ab4>"),
 )
@@ -1329,7 +1321,6 @@ commands(
     baca.markup(
         r"\stirrings-still-eleven-plus-three-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("<B2 Aqs3>"),
 )

@@ -48,9 +48,7 @@ metronome_marks = dict(
             abjad.MetronomeMark(
                 reference_duration=(1, 4),
                 units_per_minute=52,
-                custom_markup=abjad.Markup(
-                    r"\stirrings-still-presto-largo-markup", literal=True
-                ),
+                custom_markup=abjad.Markup(r"\stirrings-still-presto-largo-markup"),
             ),
         ),
     ]
@@ -3876,7 +3874,7 @@ def left_broken_circle_bow_tweak() -> abjad.IndexedTweakManager:
     """
     Makes left-broken circle bow tweak.
     """
-    markup = abjad.Markup(r"\baca-left-broken-circle-bowing-markup", literal=True)
+    markup = abjad.Markup(r"\baca-left-broken-circle-bowing-markup")
     return (
         abjad.tweak(markup, expression=True).bound_details__left_broken__text,
         -1,
@@ -3887,7 +3885,7 @@ def left_broken_tasto_tweak() -> abjad.IndexedTweakManager:
     """
     Makes left-broken tasto tweak.
     """
-    markup = abjad.Markup(r"\baca-left-broken-t-markup", literal=True)
+    markup = abjad.Markup(r"\baca-left-broken-t-markup")
     return (
         abjad.tweak(markup, expression=True).bound_details__left_broken__text,
         -1,
@@ -8565,7 +8563,7 @@ def tailpiece(*tweaks, measures=None):
             selector=baca.selectors.leaves((1, None)),
         ),
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-        baca.markup(r"\baca-boxed-markup tailpiece", literal=True),
+        baca.markup(r"\baca-boxed-markup tailpiece"),
         baca.staff_position(0),
         baca.stem_transparent(
             selector=baca.selectors.leaves((1, None)),

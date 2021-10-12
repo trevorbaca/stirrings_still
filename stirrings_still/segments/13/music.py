@@ -59,12 +59,10 @@ commands(
         baca.markup(
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.markup(
             r"\baca-nine-c",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=0,
     ),
@@ -72,7 +70,6 @@ commands(
         baca.markup(
             r"\baca-nine-c",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=[1, 2, 3],
     ),
@@ -101,7 +98,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
 )
 
@@ -128,7 +124,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
         selector=baca.selectors.leaf(1),
     ),
     stirrings_still.pickets(
@@ -264,12 +259,10 @@ commands(
         baca.markup(
             r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         baca.markup(
             r"\baca-eleven-c",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=0,
     ),
@@ -277,7 +270,6 @@ commands(
         baca.markup(
             r"\baca-eleven-c",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=[1, 2, 3],
     ),
@@ -306,7 +298,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
 )
 
@@ -333,7 +324,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twenty-four-et-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
         selector=baca.selectors.leaf(1),
     ),
     stirrings_still.pickets(
@@ -382,14 +372,10 @@ commands(
         do_not_rewrite_meter=True,
     ),
     baca.new(
-        baca.markup(
-            r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup",
-            literal=True,
-        ),
+        baca.markup(r"\stirrings-still-allow-vibrato-to-achieve-loud-dynamics-markup"),
         baca.markup(
             r"\baca-thirteen-c",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=0,
     ),
@@ -397,7 +383,6 @@ commands(
         baca.markup(
             r"\baca-thirteen-c",
             abjad.tweak(1.5).padding,
-            literal=True,
         ),
         match=[1, 2, 3],
     ),
@@ -426,7 +411,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
 )
 
@@ -453,7 +437,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
         selector=baca.selectors.leaf(1),
     ),
     stirrings_still.pickets(

@@ -59,19 +59,16 @@ commands(
     baca.markup(
         r"\stirrings-still-text-ten",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(11 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-eleven",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(70 - 1),
     ),
     baca.markup(
         r"\stirrings-still-text-twelve",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(77 - 1),
     ),
 )
@@ -142,7 +139,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("<F4 A4>"),
     stirrings_still.loure_tuplets(0),
@@ -170,7 +166,6 @@ commands(
     baca.markup(
         r"\stirrings-still-seven-plus-nine-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -690,7 +685,6 @@ commands(
     baca.markup(
         r"\stirrings-still-twelve-et-conflicts-with-viola-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("<E4 G#4>"),
     stirrings_still.loure_tuplets(1),
@@ -759,7 +753,6 @@ commands(
     baca.markup(
         r"\stirrings-still-nine-plus-seven-of-b-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("<Aqf3 C#4>"),
     stirrings_still.clouded_pane_spanner("clouded (partial: stopped) -|", 8),
@@ -787,7 +780,6 @@ commands(
     baca.markup(
         r"\stirrings-still-eleven-plus-three-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.tasto_spanner(
         abjad.tweak(5.5).staff_padding,

@@ -53,7 +53,6 @@ commands(
     baca.markup(
         r"\stirrings-still-text-twenty-two",
         abjad.tweak((4, -30)).extra_offset,
-        literal=True,
         selector=baca.selectors.skip(54 - 1),
     ),
 )
@@ -192,7 +191,6 @@ commands(
     baca.markup(
         r"\baca-eleven-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("Aqs5"),
 )
@@ -228,7 +226,6 @@ commands(
     baca.markup(
         r"\baca-thirteen-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("Aqs4"),
     stirrings_still.pickets(4, 2),
@@ -263,7 +260,6 @@ commands(
         r"\baca-eleven-e-flat",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -320,7 +316,6 @@ commands(
         r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.flat_glissando("Bqf5"),
 )
@@ -547,7 +542,6 @@ commands(
     baca.markup(
         r"\baca-nine-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("F#5"),
 )
@@ -583,7 +577,6 @@ commands(
     baca.markup(
         r"\baca-nine-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("Eb4"),
     stirrings_still.pickets(4, 1),
@@ -617,7 +610,6 @@ commands(
     baca.markup(
         r"\baca-nine-e-flat",
         abjad.tweak(0.5).padding,
-        literal=True,
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -673,7 +665,6 @@ commands(
     baca.markup(
         r"\baca-nine-d-flat",
         abjad.tweak(0.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("Eb5"),
 )
@@ -829,7 +820,6 @@ commands(
     baca.markup(
         r"\baca-five-e",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -857,7 +847,6 @@ commands(
     baca.markup(
         r"\baca-seven-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("Bqf3"),
     stirrings_still.pickets(4, 0),
@@ -891,7 +880,6 @@ commands(
     baca.markup(
         r"\baca-five-e-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
@@ -947,7 +935,6 @@ commands(
     baca.markup(
         r"\baca-five-d-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.flat_glissando("F3"),
 )
@@ -1149,7 +1136,6 @@ commands(
         r"\baca-string-iii-markup",
         abjad.tweak(1.5).padding,
         direction=abjad.Down,
-        literal=True,
     ),
     baca.note_head_style_harmonic(),
     stirrings_still.cello_cell(),
